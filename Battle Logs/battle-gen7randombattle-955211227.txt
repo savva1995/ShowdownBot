@@ -1,0 +1,114 @@
+|init|battle
+|title|Narhalup vs. Zaimilk000
+|j|☆Narhalup
+|j|☆Zaimilk000
+|player|p1|Narhalup|1|
+|player|p2|Zaimilk000|97|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Florges|Florges, L84, F|100/100
+|switch|p2a: Milotic|Milotic, L84, M|100/100
+|turn|1
+|
+|move|p2a: Milotic|Scald|p1a: Florges
+|-damage|p1a: Florges|79/100
+|move|p1a: Florges|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|70/100
+|
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|-heal|p1a: Florges|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Florges|Protect|p1a: Florges
+|-singleturn|p1a: Florges|Protect
+|move|p2a: Milotic|Sleep Talk||[still]
+|-fail|p2a: Milotic
+|
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|-heal|p1a: Florges|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Milotic|Sleep Talk||[still]
+|-fail|p2a: Milotic
+|move|p1a: Florges|Aromatherapy||[still]
+|-activate|p1a: Florges|move: Aromatherapy
+|-fail|p1a: Florges
+|
+|-heal|p2a: Milotic|88/100|[from] item: Leftovers
+|-heal|p1a: Florges|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Milotic|Sleep Talk||[still]
+|-fail|p2a: Milotic
+|move|p1a: Florges|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|59/100
+|
+|-heal|p2a: Milotic|65/100|[from] item: Leftovers
+|-heal|p1a: Florges|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Milotic|Sleep Talk||[still]
+|-fail|p2a: Milotic
+|move|p1a: Florges|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|37/100
+|
+|-heal|p2a: Milotic|43/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Milotic|Sleep Talk||[still]
+|-fail|p2a: Milotic
+|move|p1a: Florges|Wish|p1a: Florges
+|
+|-heal|p2a: Milotic|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Milotic|Sleep Talk||[still]
+|-fail|p2a: Milotic
+|move|p1a: Florges|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|19/100
+|
+|-heal|p2a: Milotic|25/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Milotic|Sleep Talk||[still]
+|-fail|p2a: Milotic
+|move|p1a: Florges|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+
+|
+|switch|p2a: Jirachi|Jirachi, L80|100/100
+|turn|9
+
+|
+|switch|p1a: Sawk|Sawk, L87, M|100/100
+|move|p2a: Jirachi|Toxic|p1a: Sawk
+|-status|p1a: Sawk|tox
+|
+|-damage|p1a: Sawk|94/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|-message|Zaimilk000 forfeited.
+
+|
+|win|Narhalup

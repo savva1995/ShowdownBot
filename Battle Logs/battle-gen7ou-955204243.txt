@@ -1,0 +1,106 @@
+|init|battle
+|title|Jkjjvgjjhh vs. kraftdinner124
+|j|☆Jkjjvgjjhh
+|j|☆kraftdinner124
+|player|p1|Jkjjvgjjhh|265|1040
+|player|p2|kraftdinner124|102|1024
+|teamsize|p1|6
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mimikyu, F|item
+|poke|p1|Torterra, M|item
+|poke|p1|Medicham, M|item
+|poke|p1|Clawitzer, M|item
+|poke|p1|Xurkitree|item
+|poke|p1|Magearna|item
+|poke|p2|Magnezone|item
+|poke|p2|Ditto|item
+|poke|p2|Swampert, F|item
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|1
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Magearna
+|-damage|p1a: Magearna|62/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Magnezone|Gyro Ball|p1a: Magearna
+|-damage|p1a: Magearna|53/100
+|move|p1a: Magearna|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|87/100
+|
+|switch|p1a: Torterra|Torterra, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Torterra|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-damage|p1a: Torterra|91/100|[from] item: Life Orb
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p2a: Swampert|Swampert, F|100/100
+|turn|4
+
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Torterra|[from] ability: Imposter
+|move|p1a: Torterra|Wood Hammer|p2a: Ditto
+|-damage|p2a: Ditto|24/100
+|-damage|p1a: Torterra|68/100|[from] Recoil
+|-damage|p1a: Torterra|58/100|[from] item: Life Orb
+|
+|-heal|p2a: Ditto|30/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Ditto|Stealth Rock|p1a: Torterra
+|-sidestart|p1: Jkjjvgjjhh|move: Stealth Rock
+|move|p1a: Torterra|Wood Hammer|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-damage|p1a: Torterra|49/100|[from] Recoil
+|-damage|p1a: Torterra|39/100|[from] item: Life Orb
+|faint|p2a: Ditto
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert, F|100/100
+|turn|6
+
+|
+|move|p2a: Swampert|Earthquake|p1a: Torterra
+|-resisted|p1a: Torterra
+|-damage|p1a: Torterra|16/100
+|move|p1a: Torterra|Wood Hammer|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-damage|p1a: Torterra|0 fnt|[from] Recoil
+|faint|p2a: Swampert
+|faint|p1a: Torterra
+|
+|win|Jkjjvgjjhh

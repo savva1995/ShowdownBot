@@ -1,0 +1,160 @@
+|init|battle
+|title|yszwyukjp vs. PalkS
+|j|☆yszwyukjp
+|j|☆PalkS
+|player|p1|yszwyukjp|184|1607
+|player|p2|PalkS|50|1659
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hawlucha|Hawlucha, L80, M|100/100
+|switch|p2a: Leafeon|Leafeon, L89, F|100/100
+|turn|1
+|
+|switch|p2a: Marshadow|Marshadow, L78|100/100
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|75/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Marshadow|Ice Punch|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|move|p1a: Hawlucha|Acrobatics|p2a: Marshadow
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|56/100
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Heatmor|Heatmor, L89, F|100/100
+|move|p2a: Marshadow|Ice Punch|p1a: Heatmor
+|-resisted|p1a: Heatmor
+|-damage|p1a: Heatmor|84/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Charizard|Charizard, L80, F|100/100
+|move|p1a: Heatmor|Knock Off|p2a: Charizard
+|-damage|p2a: Charizard|77/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Diggersby|Diggersby, L81, M|100/100
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L80, F
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Air Slash|p1a: Diggersby
+|-damage|p1a: Diggersby|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Druddigon|Druddigon, L86, F|100/100
+|move|p2a: Charizard|Fire Blast|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p2a: Charizard|Dragon Pulse|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, M|75/100
+|turn|8
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yszwyukjp)
+
+|
+|switch|p2a: Marshadow|Marshadow, L78|56/100
+|move|p1a: Hawlucha|Stone Edge|p2a: Marshadow
+|-resisted|p2a: Marshadow
+|-damage|p2a: Marshadow|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p2a: Marshadow|Spectral Thief|p1a: Hawlucha
+|-damage|p1a: Hawlucha|1/100
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|26/100|[from] item: Sitrus Berry
+|move|p1a: Hawlucha|Acrobatics|p2a: Marshadow
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Dodrio|Dodrio, L88, F|100/100
+|turn|10
+
+|
+|move|p2a: Dodrio|Quick Attack|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|-damage|p2a: Dodrio|91/100|[from] item: Life Orb
+|faint|p1a: Hawlucha
+|
+|upkeep
+
+|
+|switch|p1a: Eelektross|Eelektross, L88, F|100/100
+|turn|11
+
+|
+|move|p2a: Dodrio|Return|p1a: Eelektross
+|-damage|p1a: Eelektross|43/100
+|-damage|p2a: Dodrio|81/100|[from] item: Life Orb
+|move|p1a: Eelektross|U-turn|p2a: Dodrio
+|-resisted|p2a: Dodrio
+|-damage|p2a: Dodrio|67/100
+
+|
+|switch|p1a: Golisopod|Golisopod, L84, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Heatmor|Heatmor, L89, F|84/100
+|move|p2a: Dodrio|Roost|p2a: Dodrio
+|-heal|p2a: Dodrio|100/100
+|-singleturn|p2a: Dodrio|move: Roost
+|
+|upkeep
+|turn|13
+
+|-message|yszwyukjp forfeited.
+
+|
+|win|PalkS

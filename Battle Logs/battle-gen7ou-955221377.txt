@@ -1,0 +1,372 @@
+|init|battle
+|title|Myaku vs. LT63RB ChaFouuu
+|j|☆Myaku
+|j|☆LT63RB ChaFouuu
+|player|p1|Myaku|101|1522
+|player|p2|LT63RB ChaFouuu|92|1512
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Tapu Lele|item
+|poke|p1|Kartana|item
+|poke|p1|Greninja, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Magearna|item
+|poke|p2|Heatran, F|item
+|poke|p2|Greninja, M|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Lopunny, F|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Garchomp, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Myaku)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Bulu’|Tapu Bulu|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bulu’|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Bulu’
+|turn|1
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Bulu’
+|-sidestart|p2: LT63RB ChaFouuu|move: Stealth Rock
+|move|p2a: Bulu’|Swords Dance|p2a: Bulu’
+|-boost|p2a: Bulu’|atk|2
+|
+|upkeep
+|turn|2
+|j| TFcP LaDd.
+|
+|move|p1a: Landorus|U-turn|p2a: Bulu’
+|-damage|p2a: Bulu’|81/100
+|c| TFcP LaDd.|ah oué
+|
+|switch|p1a: Magearna|Magearna|100/100|[from]move: U-turn
+|move|p2a: Bulu’|Swords Dance|p2a: Bulu’
+|-boost|p2a: Bulu’|atk|2
+|
+|-heal|p2a: Bulu’|87/100|[from] item: Leftovers
+|-heal|p2a: Bulu’|93/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bulu’|atk|1
+|move|p2a: Bulu’|Superpower|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|76/100
+|-damage|p2a: Bulu’|77/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-unboost|p2a: Bulu’|atk|1
+|-unboost|p2a: Bulu’|def|1
+|
+|-heal|p2a: Bulu’|83/100|[from] item: Leftovers
+|-heal|p2a: Bulu’|89/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|switch|p1a: Kartana|Kartana|100/100
+|move|p2a: Bulu’|Protect||[still]
+|-fail|p2a: Bulu’
+|
+|-heal|p2a: Bulu’|95/100|[from] item: Leftovers
+|-heal|p2a: Bulu’|100/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bulu’|atk|1
+|move|p2a: Bulu’|Protect||[still]
+|-fail|p2a: Bulu’
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|switch|p2a: Lop’|Lopunny, F|100/100
+|-damage|p2a: Lop’|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Lop’
+|-damage|p2a: Lop’|58/100
+|c|☆LT63RB ChaFouuu|Missclick...
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|detailschange|p2a: Lop’|Lopunny-Mega, F
+|-mega|p2a: Lop’|Lopunny|Lopunnite
+|move|p2a: Lop’|Fake Out|p1a: Tapu Lele
+|-activate|p1a: Tapu Lele|move: Psychic Terrain
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Heat’|Heatran, F|100/100
+|-damage|p2a: Heat’|88/100|[from] Stealth Rock
+|move|p1a: Tapu Lele|Moonblast|p2a: Heat’
+|-resisted|p2a: Heat’
+|-damage|p2a: Heat’|76/100
+|
+|upkeep
+|turn|9
+|
+|-zpower|p1a: Tapu Lele
+|move|p1a: Tapu Lele|Shattered Psyche|p2a: Heat’|[zeffect]
+|-resisted|p2a: Heat’
+|-damage|p2a: Heat’|11/100
+|move|p2a: Heat’|Magma Storm|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|45/100
+|-activate|p1a: Tapu Lele|move: Magma Storm|[of] p2a: Heat’
+|
+|-damage|p1a: Tapu Lele|33/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|move|p1a: Tapu Lele|Moonblast|p2a: Heat’
+|-resisted|p2a: Heat’
+|-damage|p2a: Heat’|0 fnt
+|faint|p2a: Heat’
+|
+|-end|p1a: Tapu Lele|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p2a: Bulu’|Tapu Bulu|100/100
+|-damage|p2a: Bulu’|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Bulu’
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bulu’|atk|1
+|move|p2a: Bulu’|Swords Dance|p2a: Bulu’
+|-boost|p2a: Bulu’|atk|2
+|
+|-heal|p2a: Bulu’|94/100|[from] item: Leftovers
+|-heal|p2a: Bulu’|100/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|move|p1a: Landorus|Hidden Power|p2a: Bulu’
+|-supereffective|p2a: Bulu’
+|-damage|p2a: Bulu’|81/100
+|move|p2a: Bulu’|Swords Dance|p2a: Bulu’
+|-boost|p2a: Bulu’|atk|2
+|
+|-heal|p2a: Bulu’|87/100|[from] item: Leftovers
+|-heal|p2a: Bulu’|94/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|move|p1a: Landorus|U-turn|p2a: Bulu’
+|-damage|p2a: Bulu’|73/100
+|
+|switch|p1a: Kartana|Kartana|100/100|[from]move: U-turn
+|move|p2a: Bulu’|Swords Dance|p2a: Bulu’
+|-boost|p2a: Bulu’|atk|2
+|
+|-heal|p2a: Bulu’|79/100|[from] item: Leftovers
+|-heal|p2a: Bulu’|85/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|move|p2a: Bulu’|Protect|p2a: Bulu’
+|-singleturn|p2a: Bulu’|Protect
+|move|p1a: Kartana|Knock Off|p2a: Bulu’
+|-activate|p2a: Bulu’|move: Protect
+|
+|-heal|p2a: Bulu’|91/100|[from] item: Leftovers
+|-heal|p2a: Bulu’|97/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|move|p1a: Kartana|Knock Off|p2a: Bulu’
+|-resisted|p2a: Bulu’
+|-damage|p2a: Bulu’|79/100
+|-enditem|p2a: Bulu’|Leftovers|[from] move: Knock Off|[of] p1a: Kartana
+|move|p2a: Bulu’|Horn Leech|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|58/100
+|-heal|p2a: Bulu’|95/100|[from] drain|[of] p1a: Kartana
+|
+|-heal|p1a: Kartana|65/100|[from] Grassy Terrain
+|-heal|p2a: Bulu’|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bulu’|atk|1
+|move|p2a: Bulu’|Horn Leech|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Bulu’|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|switch|p1a: Tapu Lele|Tapu Lele|33/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|17
+|
+|move|p2a: Bulu’|Protect|p2a: Bulu’
+|-singleturn|p2a: Bulu’|Protect
+|move|p1a: Tapu Lele|Psyshock|p2a: Bulu’
+|-activate|p2a: Bulu’|move: Protect
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Tapu Lele|Moonblast|p2a: Bulu’
+|-damage|p2a: Bulu’|47/100
+|move|p2a: Bulu’|Horn Leech|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|-heal|p2a: Bulu’|60/100|[from] drain|[of] p1a: Tapu Lele
+|faint|p1a: Tapu Lele
+|
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|19
+|
+|move|p2a: Bulu’|Protect|p2a: Bulu’
+|-singleturn|p2a: Bulu’|Protect
+|move|p1a: Alakazam|Psychic|p2a: Bulu’
+|-activate|p2a: Bulu’|move: Protect
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Torna’|Tornadus-Therian, M|100/100
+|-damage|p2a: Torna’|76/100|[from] Stealth Rock
+|move|p1a: Alakazam|Psychic|p2a: Torna’
+|-damage|p2a: Torna’|0 fnt
+|faint|p2a: Torna’
+|
+|upkeep
+|
+|switch|p2a: Garch’|Garchomp, M|100/100
+|-damage|p2a: Garch’|94/100|[from] Stealth Rock
+|turn|21
+
+|
+|switch|p1a: Kartana|Kartana|65/100
+|move|p2a: Garch’|Earthquake|p1a: Kartana
+|-damage|p1a: Kartana|15/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|22
+
+|
+|move|p1a: Kartana|Leaf Blade|p2a: Garch’
+|-damage|p2a: Garch’|34/100
+|-damage|p1a: Kartana|2/100|[from] ability: Rough Skin|[of] p2a: Garch’
+|move|p2a: Garch’|Earthquake|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|23
+
+|
+|move|p2a: Garch’|Earthquake|p1a: Greninja
+|-damage|p1a: Greninja|20/100
+|move|p1a: Greninja|Hydro Pump|p2a: Garch’
+|-damage|p2a: Garch’|0 fnt
+|faint|p2a: Garch’
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|c| TFcP LaDd.|?
+
+|
+|switch|p2a: Lop’|Lopunny-Mega, F|58/100
+|-damage|p2a: Lop’|53/100|[from] Stealth Rock
+|turn|24
+
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Lop’|Frustration|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|80/100
+|
+|upkeep
+|turn|25
+
+|c|☆LT63RB ChaFouuu|Quoi ?
+
+|
+|move|p2a: Lop’|High Jump Kick|p1a: Magearna
+|-damage|p1a: Magearna|26/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Lop’
+|-supereffective|p2a: Lop’
+|-damage|p2a: Lop’|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Lop’
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Bulu’|Tapu Bulu|60/100
+|-damage|p2a: Bulu’|48/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Bulu’
+|turn|26
+
+|
+|move|p2a: Bulu’|Swords Dance|p2a: Bulu’
+|-boost|p2a: Bulu’|atk|2
+|move|p1a: Magearna|Iron Head|p2a: Bulu’
+|-supereffective|p2a: Bulu’
+|-damage|p2a: Bulu’|0 fnt
+|faint|p2a: Bulu’
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|32/100|[from] Grassy Terrain
+|upkeep
+
+|c|☆LT63RB ChaFouuu|Roooooh
+
+|c|☆LT63RB ChaFouuu|Fait chier
+
+|c|☆LT63RB ChaFouuu|Je suis trop nul
+
+|
+|switch|p2a: Gren’|Greninja, M|100/100
+|-damage|p2a: Gren’|88/100|[from] Stealth Rock
+|turn|27
+
+|
+|move|p2a: Gren’|Hydro Pump|p1a: Magearna
+|-damage|p1a: Magearna|2/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Gren’
+|-supereffective|p2a: Gren’
+|-damage|p2a: Gren’|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Gren’
+|
+|win|Myaku

@@ -1,0 +1,96 @@
+|init|battle
+|title|396dog vs. Indra Last
+|j|☆396dog
+|j|☆Indra Last
+|player|p1|396dog|52|1000
+|player|p2|Indra Last|169|1066
+|teamsize|p1|1
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|switch|p2a: Marowak|Marowak, M|100/100
+|turn|1
+
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Feraligatr|Hydro Pump|p2a: Umbreon
+|-damage|p2a: Umbreon|73/100
+|
+|-heal|p2a: Umbreon|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1a: Feraligatr|Protect|p1a: Feraligatr
+|-singleturn|p1a: Feraligatr|Protect
+|move|p2a: Umbreon|Mean Look|p1a: Feraligatr
+|-activate|p1a: Feraligatr|Protect
+|
+|-heal|p2a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Feraligatr|Dynamic Punch|p2a: Umbreon|[miss]
+|-miss|p1a: Feraligatr
+|move|p2a: Umbreon|Mean Look|p1a: Feraligatr
+|-activate|p1a: Feraligatr|trapped
+|
+|-heal|p2a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Feraligatr|Dynamic Punch|p2a: Umbreon|[miss]
+|-miss|p1a: Feraligatr
+|move|p2a: Umbreon|Confuse Ray|p1a: Feraligatr
+|-start|p1a: Feraligatr|confusion
+|
+|-heal|p2a: Umbreon|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|-activate|p1a: Feraligatr|confusion
+|-damage|p1a: Feraligatr|91/100|[from] confusion
+|move|p2a: Umbreon|Toxic|p1a: Feraligatr
+|-status|p1a: Feraligatr|tox
+|
+|-heal|p1a: Feraligatr|97/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|-activate|p1a: Feraligatr|confusion
+|move|p1a: Feraligatr|Dynamic Punch|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|26/100
+|-start|p2a: Umbreon|confusion
+|-damage|p1a: Feraligatr|91/100 tox|[from] psn
+|-activate|p2a: Umbreon|confusion
+|-damage|p2a: Umbreon|20/100|[from] confusion
+|
+|-heal|p1a: Feraligatr|97/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|26/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|j| huntingspoon
+
+|-message|396dog forfeited.
+
+|
+|win|Indra Last

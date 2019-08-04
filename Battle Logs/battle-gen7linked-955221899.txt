@@ -1,0 +1,216 @@
+|init|battle
+|title|TheHungryBidoof? vs. IT College Student
+|j|☆TheHungryBidoof?
+|j|☆IT College Student
+|player|p1|TheHungryBidoof?|21|1097
+|player|p2|IT College Student|267|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Linked
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Victini|item
+|poke|p1|Persian-Alola, M|item
+|poke|p1|Zeraora|item
+|poke|p1|Ambipom, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Lopunny, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Ambipom|Ambipom, F|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: IT College Student|move: Tailwind
+|move|p2a: Tornadus|U-turn|p1a: Zeraora
+|-damage|p1a: Zeraora|79/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]uturn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zeraora|atk|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Smack Down|p1a: Landorus
+|-damage|p1a: Landorus|91/100
+|-start|p1a: Landorus|Smack Down
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-damage|p1a: Landorus|64/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|58/100
+|-damage|p2a: Landorus|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100|[from]uturn
+|move|p1a: Landorus|Stealth Rock|p2a: Azumarill
+|-sidestart|p2: IT College Student|move: Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|90/100
+
+|
+|switch|p1a: Zeraora|Zeraora|79/100|[from]uturn
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Zeraora|Fake Out|p2a: Azumarill
+|-damage|p2a: Azumarill|79/100
+|move|p1a: Zeraora|Volt Switch|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|19/100
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|44/100|[from] item: Sitrus Berry
+
+|
+|switch|p1a: Ambipom|Ambipom, F|100/100|[from]voltswitch
+|cant|p2a: Azumarill|flinch
+|cant|p2a: Azumarill|flinch
+|
+|-sideend|p2: IT College Student|move: Tailwind
+|upkeep
+|turn|5
+
+|
+|move|p1a: Ambipom|Fake Out|p2a: Azumarill
+|-damage|p2a: Azumarill|17/100
+|move|p1a: Ambipom|U-turn|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-crit|p2a: Azumarill
+|-damage|p2a: Azumarill|1/100
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|58/100|[from]uturn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Azumarill|atk|1
+|cant|p2a: Azumarill|flinch
+|cant|p2a: Azumarill|flinch
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Landorus|Stealth Rock||[still]
+|-fail|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+
+|
+|switch|p1a: Zeraora|Zeraora|79/100|[from]uturn
+|
+|upkeep
+
+|
+|switch|p2a: Lopunny|Lopunny, F|100/100
+|-damage|p2a: Lopunny|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|detailschange|p2a: Lopunny|Lopunny-Mega, F
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|Fake Out|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100
+|-damage|p2a: Lopunny|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Lopunny|60/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p2a: Lopunny|Quick Attack|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-damage|p2a: Lopunny|47/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Lopunny|31/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Lopunny|High Jump Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Lopunny|19/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Lopunny|2/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p1a: Zeraora|Zeraora|79/100
+|turn|9
+
+|
+|move|p2a: Lopunny|Fake Out||[still]
+|-fail|p2a: Lopunny
+|-hint|Fake Out only works on your first turn out.
+|move|p2a: Lopunny|Quick Attack|p1a: Zeraora
+|-damage|p1a: Zeraora|43/100
+|move|p1a: Zeraora|Fake Out|p2a: Lopunny
+|-damage|p2a: Lopunny|0 fnt
+|faint|p2a: Lopunny
+|move|p1a: Zeraora|Volt Switch|p2: Lopunny|[notarget]
+|-fail|p1a: Zeraora
+|
+|upkeep
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|10
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-damage|p2a: Landorus|72/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zeraora|atk|1
+|move|p1a: Zeraora|Fake Out||[still]
+|-fail|p1a: Zeraora
+|-hint|Fake Out only works on your first turn out.
+|move|p1a: Zeraora|Volt Switch|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p2a: Landorus|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Zeraora|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|-message|IT College Student forfeited.
+
+|
+|win|TheHungryBidoof?

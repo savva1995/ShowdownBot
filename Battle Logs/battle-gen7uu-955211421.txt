@@ -1,0 +1,223 @@
+|init|battle
+|title|uygfdee vs. LYflame tree
+|j|☆uygfdee
+|j|☆LYflame tree
+|player|p1|uygfdee|102|1078
+|player|p2|LYflame tree|195|1292
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Marowak-Alola, M|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Steelix, M|item
+|poke|p1|Bewear, M|item
+|poke|p1|Muk-Alola, F|item
+|poke|p1|Hoopa|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Starmie|item
+|poke|p2|Chesnaught, F|item
+|poke|p2|Celebi|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Aerodactyl, M|item
+|teampreview
+|
+|start
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by uygfdee)
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, M
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Cresselia
+|-sidestart|p1: uygfdee|move: Stealth Rock
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|-damage|p1a: Steelix|97/100|[from] Stealth Rock
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|
+|upkeep
+|turn|3
+
+|inactive|uygfdee has 120 seconds left.
+
+|
+|detailschange|p1a: Steelix|Steelix-Mega, M
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p1a: Steelix|Heavy Slam|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|15/100
+|move|p2a: Amoonguss|Spore|p1a: Steelix
+|-status|p1a: Steelix|slp|[from] move: Spore
+|
+|-heal|p2a: Amoonguss|21/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Chesnaught|Spikes|p1a: Cresselia
+|-sidestart|p1: uygfdee|Spikes
+|move|p1a: Cresselia|Psyshock|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|70/100
+|
+|-heal|p2a: Chesnaught|77/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+
+|inactive|uygfdee has 120 seconds left.
+
+|
+|move|p2a: Chesnaught|Leech Seed|p1a: Cresselia
+|-start|p1a: Cresselia|move: Leech Seed
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-heal|p2a: Chesnaught|83/100|[from] item: Leftovers
+|-damage|p1a: Cresselia|76/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|97/100|[silent]
+|upkeep
+|turn|7
+
+|inactive|uygfdee has 120 seconds left.
+
+|
+|switch|p1a: Muk|Muk-Alola, F|100/100
+|-damage|p1a: Muk|88/100|[from] Spikes
+|-damage|p1a: Muk|76/100|[from] Stealth Rock
+|move|p2a: Chesnaught|Spikes|p1a: Muk
+|-sidestart|p1: uygfdee|Spikes
+|
+|-heal|p2a: Chesnaught|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Muk|Gunk Shot|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Muk|Gunk Shot|p2a: Bisharp
+|-immune|p2a: Bisharp
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Muk|Fire Punch|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|14/100
+|-damage|p1a: Muk|66/100|[from] item: Life Orb
+|move|p2a: Bisharp|Knock Off|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|32/100
+|-enditem|p1a: Muk|Life Orb|[from] move: Knock Off|[of] p2a: Bisharp
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+
+|
+|move|p2a: Bisharp|Iron Head|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|upkeep
+
+|
+|switch|p1a: Steelix|Steelix-Mega, M|97/100 slp
+|-damage|p1a: Steelix|81/100 slp|[from] Spikes
+|-damage|p1a: Steelix|78/100 slp|[from] Stealth Rock
+|turn|12
+
+|inactive|uygfdee has 120 seconds left.
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|cant|p1a: Steelix|slp
+|
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Cresselia|Cresselia, F|76/100
+|-damage|p1a: Cresselia|63/100|[from] Stealth Rock
+|move|p2a: Chesnaught|Leech Seed|p1a: Cresselia
+|-start|p1a: Cresselia|move: Leech Seed
+|
+|-damage|p1a: Cresselia|51/100|[from] Leech Seed|[of] p2a: Chesnaught
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Bisharp|Bisharp, M|14/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-damage|p1a: Cresselia|39/100|[from] Leech Seed|[of] p2a: Bisharp
+|-heal|p2a: Bisharp|34/100|[silent]
+|upkeep
+|turn|15
+
+|
+|-activate|p1a: Cresselia|move: Pursuit
+|move|p2a: Bisharp|Pursuit|p1a: Cresselia|[from]Pursuit
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Cresselia
+|
+|upkeep
+
+|
+|switch|p1a: Marowak|Marowak-Alola, M|100/100
+|-damage|p1a: Marowak|84/100|[from] Spikes
+|-damage|p1a: Marowak|59/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|upkeep
+
+|-message|uygfdee forfeited.
+
+|
+|win|LYflame tree

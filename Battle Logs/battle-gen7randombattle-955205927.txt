@@ -1,0 +1,306 @@
+|init|battle
+|title|Sosserello vs. Hf5gtg
+|j|☆Sosserello
+|j|☆Hf5gtg
+|player|p1|Sosserello|56|1000
+|player|p2|Hf5gtg|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Celesteela|Celesteela, L80|100/100
+|switch|p2a: Wobbuffet|Wobbuffet, L82, F|100/100
+|turn|1
+|
+|move|p1a: Celesteela|Air Slash|p2a: Wobbuffet
+|-crit|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|66/100
+|cant|p2a: Wobbuffet|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Celesteela|Air Slash|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|40/100
+|-enditem|p2a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p2a: Wobbuffet|65/100|[from] item: Sitrus Berry
+|move|p2a: Wobbuffet|Encore|p1a: Celesteela
+|-start|p1a: Celesteela|Encore
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sosserello)
+|
+|move|p1a: Celesteela|Air Slash|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|40/100
+|cant|p2a: Wobbuffet|flinch
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Celesteela|Air Slash|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|14/100
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Celesteela
+|-damage|p1a: Celesteela|19/100
+|
+|-heal|p1a: Celesteela|25/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Celesteela|Air Slash|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|faint|p2a: Wobbuffet
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|-heal|p1a: Celesteela|31/100|[from] item: Leftovers
+|-end|p1a: Celesteela|Encore
+|upkeep
+
+|
+|switch|p2a: Salamence|Salamence, L81, M|100/100
+|turn|6
+
+|
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Salamence|Fire Blast|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p1a: Celesteela|37/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Salamence|Fire Blast|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, L84, M|100/100
+|turn|8
+
+|
+|move|p2a: Salamence|Outrage|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|faint|p1a: Tyrantrum
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, M|100/100
+|turn|9
+
+|
+|move|p2a: Salamence|Outrage|p1a: Slurpuff|[from]lockedmove
+|-immune|p1a: Slurpuff
+|-start|p2a: Salamence|confusion|[fatigue]
+|move|p1a: Slurpuff|Play Rough|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|39/100
+|-unboost|p2a: Salamence|atk|1
+|
+|upkeep
+|turn|10
+
+|
+|-activate|p2a: Salamence|confusion
+|-damage|p2a: Salamence|20/100|[from] confusion
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|50/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, L80, F|100/100
+|turn|12
+
+|
+|detailschange|p2a: Scizor|Scizor-Mega, L80, F
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Bullet Punch|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-damage|p1a: Slurpuff|12/100
+|move|p1a: Slurpuff|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|42/100
+|-heal|p1a: Slurpuff|38/100|[from] drain|[of] p2a: Scizor
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|upkeep
+
+|
+|switch|p1a: Tauros|Tauros, L87, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|turn|14
+
+|
+|switch|p2a: Tornadus|Tornadus, L83, M|100/100
+|move|p1a: Tauros|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Simipour|Simipour, L89, F|100/100
+|move|p2a: Tornadus|Superpower|p1a: Simipour
+|-damage|p1a: Simipour|60/100
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|
+|-heal|p1a: Simipour|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Tornadus|Acrobatics|p1a: Simipour
+|-damage|p1a: Simipour|30/100
+|move|p1a: Simipour|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|42/100
+|
+|-heal|p1a: Simipour|36/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Tornadus|U-turn|p1a: Simipour
+|-damage|p1a: Simipour|19/100
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, F|100/100|[from]move: U-turn
+|move|p1a: Simipour|Ice Beam|p2a: Clawitzer
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|92/100
+|
+|-heal|p1a: Simipour|25/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Simipour|Substitute|p1a: Simipour
+|-fail|p1a: Simipour|move: Substitute|[weak]
+|move|p2a: Clawitzer|Aura Sphere|p1a: Simipour
+|-damage|p1a: Simipour|0 fnt
+|faint|p1a: Simipour
+|
+|upkeep
+
+|
+|switch|p1a: Tauros|Tauros, L87, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Clawitzer|atk|1
+|turn|19
+
+|
+|move|p1a: Tauros|Double-Edge|p2a: Clawitzer
+|-damage|p2a: Clawitzer|10/100
+|-damage|p1a: Tauros|74/100|[from] Recoil
+|move|p2a: Clawitzer|Aura Sphere|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|turn|20
+
+|
+|move|p1a: Lugia|Psychic|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor-Mega, L80, F|42/100
+|turn|21
+
+|l|☆Sosserello
+
+|inactive|Sosserello disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆Sosserello
+
+|inactive|Sosserello reconnected and has 135 seconds left.
+
+|player|p1|Sosserello|56
+
+|
+|move|p1a: Lugia|Psychic|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|26/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Lugia
+|-damage|p1a: Lugia|78/100
+|move|p1a: Lugia|Thunder Wave|p2a: Scizor
+|-status|p2a: Scizor|par
+|
+|-heal|p1a: Lugia|84/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Lugia
+|-damage|p1a: Lugia|42/100
+|move|p1a: Lugia|Psychic|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|12/100 par
+|-unboost|p2a: Scizor|spd|1
+|
+|-heal|p1a: Lugia|48/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|
+|win|Hf5gtg

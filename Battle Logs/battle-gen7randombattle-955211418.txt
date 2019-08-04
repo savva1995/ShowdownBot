@@ -1,0 +1,73 @@
+|init|battle
+|title|Kev9 vs. wsxdfcgvhbnjk
+|j|☆Kev9
+|j|☆wsxdfcgvhbnjk
+|player|p1|Kev9|101|1102
+|player|p2|wsxdfcgvhbnjk|266|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Komala|Komala, L89, F|100/100
+|switch|p2a: Lilligant|Lilligant, L87, F|100/100
+|-ability|p1a: Komala|Comatose
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kev9)
+|
+|switch|p1a: Scyther|Scyther, L88, M|100/100
+|switch|p2a: Gigalith|Gigalith, L85, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scyther|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p1a: Scyther|U-turn|p2a: Gigalith
+|-damage|p2a: Gigalith|76/100
+|
+|switch|p1a: Sharpedo|Sharpedo, L82, F|100/100|[from]move: U-turn
+|move|p2a: Gigalith|Stealth Rock|p1a: Sharpedo
+|-sidestart|p1: Kev9|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sharpedo|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+|detailschange|p1a: Sharpedo|Sharpedo-Mega, L82, F
+|-mega|p1a: Sharpedo|Sharpedo|Sharpedonite
+|move|p1a: Sharpedo|Waterfall|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sharpedo|88/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|74/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|80/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Sharpedo|Psychic Fangs|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sharpedo|82/100|[from] Sandstorm
+|upkeep
+|-message|wsxdfcgvhbnjk forfeited.
+|
+|win|Kev9
+|l|☆wsxdfcgvhbnjk
+|raw|Kev9's rating: 1102 &rarr; <strong>1125</strong><br />(+23 for winning)
+|raw|wsxdfcgvhbnjk's rating: 1073 &rarr; <strong>1053</strong><br />(-20 for losing)
+|l|☆Kev9

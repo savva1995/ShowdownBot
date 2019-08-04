@@ -1,0 +1,357 @@
+|init|battle
+|title|UnluckyVGC vs. onkybear
+|j|☆UnluckyVGC
+|j|☆onkybear
+|player|p1|UnluckyVGC|265|1471
+|player|p2|onkybear|170|1258
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Hackmons Cup
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Fomantis|Fomantis, L93, M|100/100
+|switch|p2a: Magmar|Magmar, L75, F|100/100
+|-ability|p2a: Magmar|Aura Break
+|-start|p1a: Fomantis|ability: Slow Start
+|turn|1
+
+|
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|spd|2
+|move|p1a: Fomantis|Prismatic Laser|p2a: Magmar
+|-damage|p2a: Magmar|78/100
+|-mustrecharge|p1a: Fomantis
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|spa|2
+|cant|p1a: Fomantis|recharge
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|evasion|2
+|move|p1a: Fomantis|Leech Seed|p2a: Magmar|[miss]
+|-miss|p1a: Fomantis|p2a: Magmar
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|def|2
+|move|p1a: Fomantis|Leech Seed|p2a: Magmar|[miss]
+|-miss|p1a: Fomantis|p2a: Magmar
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|atk|2
+|move|p1a: Fomantis|Leech Seed|p2a: Magmar|[miss]
+|-miss|p1a: Fomantis|p2a: Magmar
+|
+|-end|p1a: Fomantis|Slow Start
+|upkeep
+|turn|6
+
+|
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|accuracy|2
+|move|p1a: Fomantis|Leech Seed|p2a: Magmar|[miss]
+|-miss|p1a: Fomantis|p2a: Magmar
+|
+|upkeep
+|turn|7
+
+|
+|-end|p1a: Fomantis|Slow Start|[silent]
+|switch|p1a: Lucario|Lucario-Mega, L68, M|100/100
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|accuracy|2
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|spa|2
+|move|p1a: Lucario|Menacing Moonraze Maelstrom|p2a: Magmar
+|-damage|p2a: Magmar|44/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Magmar|Heart Stamp|p1a: Lucario
+|-damage|p1a: Lucario|66/100
+|cant|p1a: Lucario|flinch
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Magmar|Heart Stamp|p1a: Lucario
+|-damage|p1a: Lucario|33/100
+|move|p1a: Lucario|Sunsteel Strike|p2a: Magmar|[miss]
+|-miss|p1a: Lucario|p2a: Magmar
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Magmar|Heart Stamp|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+
+|
+|switch|p1a: Quilava|Quilava, L80, F|100/100
+|turn|12
+
+|
+|move|p2a: Magmar|Acupressure|p2a: Magmar
+|-boost|p2a: Magmar|def|2
+|move|p1a: Quilava|Oceanic Operetta|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|upkeep
+
+|c|☆UnluckyVGC|NO
+
+|c|☆onkybear|2 exclusive z moves in one team
+
+|c|☆onkybear|heck
+
+|
+|switch|p2a: Buizel|Buizel, L86, M|100/100
+|turn|13
+
+|
+|move|p2a: Buizel|Oceanic Operetta|p1a: Quilava
+|-supereffective|p1a: Quilava
+|-damage|p1a: Quilava|0 fnt
+|faint|p1a: Quilava
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UnluckyVGC)
+
+|c|☆UnluckyVGC|accupressure
+
+|c|☆UnluckyVGC|on a team
+
+|c|☆UnluckyVGC|heck
+
+|c|☆onkybear|but its a magmar
+
+|c|☆onkybear|plus a dark type walled me cos i only had heart stamp
+
+|inactive|UnluckyVGC has 120 seconds left.
+
+|c|☆UnluckyVGC|yeah, and you think i have a dark type
+
+|
+|switch|p1a: Cottonee|Cottonee, L90, F|100/100
+|turn|14
+
+|c|☆onkybear|eh, its a possibility
+
+|
+|move|p2a: Buizel|Take Down|p1a: Cottonee
+|-supereffective|p1a: Cottonee
+|-damage|p1a: Cottonee|8/100
+|-damage|p2a: Buizel|82/100|[from] Recoil
+|move|p1a: Cottonee|Defend Order|p1a: Cottonee
+|-boost|p1a: Cottonee|def|1
+|-boost|p1a: Cottonee|spd|1
+|
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Amaura|Amaura, L83, M|100/100
+|move|p2a: Buizel|Take Down|p1a: Amaura
+|-resisted|p1a: Amaura
+|-damage|p1a: Amaura|82/100
+|-damage|p2a: Buizel|76/100|[from] Recoil
+|
+|upkeep
+|turn|16
+
+|inactive|UnluckyVGC has 120 seconds left.
+
+|
+|move|p2a: Buizel|Grass Pledge|p1a: Amaura
+|-supereffective|p1a: Amaura
+|-damage|p1a: Amaura|30/100
+|move|p1a: Amaura|Gravity|p1a: Amaura
+|-fieldstart|move: Gravity
+|
+|upkeep
+|turn|17
+
+|inactive|onkybear has 120 seconds left.
+
+|inactive|onkybear has 90 seconds left.
+
+|
+|move|p2a: Buizel|Grass Pledge|p1a: Amaura
+|-supereffective|p1a: Amaura
+|-damage|p1a: Amaura|0 fnt
+|faint|p1a: Amaura
+|
+|upkeep
+
+|
+|switch|p1a: Makuhita|Makuhita, L94, F|100/100
+|turn|18
+
+|
+|move|p2a: Buizel|Take Down|p1a: Makuhita
+|-supereffective|p1a: Makuhita
+|-damage|p1a: Makuhita|15/100
+|-damage|p2a: Buizel|51/100|[from] Recoil
+|move|p1a: Makuhita|Grass Whistle|p2a: Buizel
+|-status|p2a: Buizel|slp|[from] move: Grass Whistle
+|
+|upkeep
+|turn|19
+
+|
+|cant|p2a: Buizel|slp
+|move|p1a: Makuhita|Beat Up|p2a: Buizel
+|-damage|p2a: Buizel|40/100 slp
+|-damage|p2a: Buizel|30/100 slp
+|-damage|p2a: Buizel|23/100 slp
+|-hitcount|p2a: Buizel|3
+|
+|upkeep
+|turn|20
+
+|
+|cant|p2a: Buizel|slp
+|move|p1a: Makuhita|Beat Up|p2a: Buizel
+|-damage|p2a: Buizel|13/100 slp
+|-damage|p2a: Buizel|3/100 slp
+|-damage|p2a: Buizel|0 fnt
+|-hitcount|p2a: Buizel|3
+|faint|p2a: Buizel
+|
+|-fieldend|move: Gravity
+|upkeep
+
+|inactive|onkybear has 120 seconds left.
+
+|
+|switch|p2a: Aipom|Aipom, L83, M|100/100
+|turn|21
+
+|
+|move|p2a: Aipom|Stockpile|p2a: Aipom
+|-start|p2a: Aipom|stockpile1
+|-boost|p2a: Aipom|def|1
+|-boost|p2a: Aipom|spd|1
+|move|p1a: Makuhita|Beat Up|p2a: Aipom
+|-damage|p2a: Aipom|96/100
+|-damage|p2a: Aipom|93/100
+|-damage|p2a: Aipom|90/100
+|-hitcount|p2a: Aipom|3
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Aipom|Stockpile|p2a: Aipom
+|-start|p2a: Aipom|stockpile2
+|-boost|p2a: Aipom|def|1
+|-boost|p2a: Aipom|spd|1
+|move|p1a: Makuhita|Grass Whistle|p2a: Aipom|[miss]
+|-miss|p1a: Makuhita|p2a: Aipom
+|
+|upkeep
+|turn|23
+
+|
+|move|p2a: Aipom|Dragon Rush|p1a: Makuhita|[miss]
+|-miss|p2a: Aipom|p1a: Makuhita
+|move|p1a: Makuhita|Grass Whistle|p2a: Aipom|[miss]
+|-miss|p1a: Makuhita|p2a: Aipom
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Aipom|Dragon Rush|p1a: Makuhita
+|-damage|p1a: Makuhita|0 fnt
+|faint|p1a: Makuhita
+|
+|upkeep
+
+|
+|switch|p1a: Fomantis|Fomantis, L93, M|100/100
+|-start|p1a: Fomantis|ability: Slow Start
+|turn|25
+
+|
+|move|p2a: Aipom|Dragon Rush|p1a: Fomantis
+|-damage|p1a: Fomantis|70/100
+|move|p1a: Fomantis|Leech Seed|p2a: Aipom
+|-start|p2a: Aipom|move: Leech Seed
+|
+|-damage|p2a: Aipom|77/100|[from] Leech Seed|[of] p1a: Fomantis
+|-heal|p1a: Fomantis|82/100|[silent]
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Beartic|Beartic, L74, F|100/100
+|move|p1a: Fomantis|Arm Thrust|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-crit|p2a: Beartic
+|-damage|p2a: Beartic|91/100
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|85/100
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|79/100
+|-hitcount|p2a: Beartic|3
+|
+|upkeep
+|turn|27
+
+|
+|move|p2a: Beartic|Icicle Crash|p1a: Fomantis
+|-supereffective|p1a: Fomantis
+|-damage|p1a: Fomantis|0 fnt
+|faint|p1a: Fomantis
+|-end|p1a: Fomantis|Slow Start|[silent]
+|
+|-ability|p2a: Beartic|Speed Boost|boost
+|-boost|p2a: Beartic|spe|1
+|upkeep
+
+|
+|-end|p1: Fomantis|Slow Start|[silent]
+|switch|p1a: Cottonee|Cottonee, L90, F|8/100
+|turn|28
+
+|
+|move|p2a: Beartic|Icicle Crash|p1a: Cottonee
+|-supereffective|p1a: Cottonee
+|-damage|p1a: Cottonee|0 fnt
+|faint|p1a: Cottonee
+|
+|win|onkybear

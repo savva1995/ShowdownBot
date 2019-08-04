@@ -1,0 +1,161 @@
+|init|battle
+|title|Tomato kirai vs. eswrt846
+|j|☆Tomato kirai
+|j|☆eswrt846
+|player|p1|Tomato kirai|1|1237
+|player|p2|eswrt846|93|1129
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Ninjask, L50, M|item
+|poke|p1|Magnezone, L50|item
+|poke|p1|Gyarados, L50, M|item
+|poke|p1|Mamoswine, L50, M|item
+|poke|p1|Charizard, L50, M|item
+|poke|p1|Tapu Lele, L50|item
+|poke|p2|Landorus-Therian, L50, M|item
+|poke|p2|Celesteela, L50|item
+|poke|p2|Gyarados, L50, F|item
+|poke|p2|Ferrothorn, L50, M|item
+|poke|p2|Lanturn, L50, M|item
+|poke|p2|Heatran, L50, M|item
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tomato kirai)
+
+|inactive|eswrt846 has 120 seconds left.
+
+|inactive|eswrt846 has 90 seconds left.
+
+|
+|start
+|switch|p1a: Gyarados|Gyarados, L50, M|48/48
+|switch|p2a: Landorus|Landorus-Therian, L50, M|48/48
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+
+|
+|move|p2a: Landorus|Rock Tomb|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|31/48
+|-unboost|p1a: Gyarados|spe|1
+|move|p1a: Gyarados|Aqua Tail|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|10/48
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L50, M|48/48
+|move|p1a: Gyarados|Aqua Tail|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|41/48
+|-damage|p1a: Gyarados|25/48|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|44/48|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Charizard|Charizard, L50, M|48/48
+|move|p2a: Ferrothorn|Leech Seed|p1a: Charizard
+|-start|p1a: Charizard|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|47/48|[from] item: Leftovers
+|-damage|p1a: Charizard|42/48|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|48/48|[silent]
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Heatran|Heatran, L50, M|48/48
+|detailschange|p1a: Charizard|Charizard-Mega-X, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Flare Blitz|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-damage|p1a: Charizard|36/48|[from] Leech Seed|[of] p2a: Heatran
+|upkeep
+|turn|5
+
+|inactive|eswrt846 has 120 seconds left.
+
+|
+|switch|p1a: Gyarados|Gyarados, L50, M|25/48
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Landorus|Landorus-Therian, L50, M|10/48
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|
+|upkeep
+|turn|6
+
+|inactive|eswrt846 has 120 seconds left.
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L50, M|48/48
+|switch|p1a: Charizard|Charizard-Mega-X, L50, M|36/48
+|
+|upkeep
+|turn|7
+
+|inactive|eswrt846 has 120 seconds left.
+
+|
+|switch|p2a: Heatran|Heatran, L50, M|48/48
+|move|p1a: Charizard|Dragon Rush|p2a: Heatran|[miss]
+|-miss|p1a: Charizard|p2a: Heatran
+|
+|upkeep
+|turn|8
+
+|inactive|eswrt846 has 120 seconds left.
+
+|
+|move|p1a: Charizard|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+
+|inactive|eswrt846 has 120 seconds left.
+
+|
+|switch|p2a: Landorus|Landorus-Therian, L50, M|10/48
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|turn|9
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele, L50|48/48
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Landorus|Rock Tomb|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|33/48
+|-unboost|p1a: Tapu Lele|spe|1
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L50, M|48/48
+|switch|p1a: Charizard|Charizard-Mega-X, L50, M|36/48
+|
+|upkeep
+|turn|11
+
+|-message|eswrt846 forfeited.
+
+|
+|win|Tomato kirai

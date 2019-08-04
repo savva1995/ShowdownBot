@@ -1,0 +1,123 @@
+|init|battle
+|title|skysoul974 vs. erykrks
+|j|☆skysoul974
+|j|☆erykrks
+|player|p1|skysoul974|200|1352
+|player|p2|erykrks|260|1288
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Oricorio|Oricorio-Sensu, L88, F|100/100
+|switch|p2a: Toxicroak|Toxicroak, L84, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by erykrks)
+|
+|move|p1a: Oricorio|Toxic|p2a: Toxicroak
+|-immune|p2a: Toxicroak
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|76/100
+|
+|-heal|p2a: Toxicroak|82/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p1a: Oricorio|Hurricane|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-crit|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|-activate|p1a: Oricorio|ability: Dancer
+|move|p1a: Oricorio|Swords Dance|p1a: Oricorio|[from]Dancer
+|-boost|p1a: Oricorio|atk|2
+|
+|-heal|p2a: Toxicroak|88/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Oricorio|Hurricane|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+
+|
+|switch|p2a: Minun|Minun, L89, F|100/100
+|turn|4
+
+|l|☆erykrks
+
+|inactive|erykrks disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|erykrks has 30 seconds to reconnect!
+
+|inactive|erykrks has 20 seconds to reconnect!
+
+|j|☆erykrks
+
+|inactive|erykrks reconnected and has 95 seconds left.
+
+|player|p2|erykrks|260
+|inactive|erykrks has 90 seconds left.
+
+|
+|switch|p1a: Probopass|Probopass, L89, M|100/100
+|-item|p1a: Probopass|Air Balloon
+|move|p2a: Minun|Nasty Plot|p2a: Minun
+|-boost|p2a: Minun|spa|2
+|
+|upkeep
+|turn|5
+
+|inactive|erykrks has 90 seconds left.
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|100/100
+|move|p1a: Probopass|Earth Power|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Hydreigon|Dragon Pulse|p1a: Probopass
+|-resisted|p1a: Probopass
+|-damage|p1a: Probopass|84/100
+|-enditem|p1a: Probopass|Air Balloon
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|move|p1a: Probopass|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: erykrks|move: Stealth Rock
+|
+|upkeep
+|turn|7
+
+|l|☆erykrks
+
+|inactive|erykrks disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|erykrks has 30 seconds to reconnect!
+
+|inactive|erykrks has 20 seconds to reconnect!
+
+|inactive|erykrks has 15 seconds to reconnect!
+
+|inactive|erykrks has 10 seconds to reconnect!
+
+|inactive|erykrks has 5 seconds to reconnect!
+
+|-message|erykrks lost due to inactivity.
+|
+|win|skysoul974

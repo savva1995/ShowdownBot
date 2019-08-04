@@ -1,0 +1,72 @@
+|init|battle
+|title|MegaJynxIsReal vs. adamakasquints
+|j|☆MegaJynxIsReal
+|j|☆adamakasquints
+|player|p1|MegaJynxIsReal|169|1315
+|player|p2|adamakasquints|163|1273
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Marowak|Marowak, L89, M|100/100
+|switch|p2a: Heatmor|Heatmor, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MegaJynxIsReal)
+|
+|move|p2a: Heatmor|Knock Off|p1a: Marowak
+|-damage|p1a: Marowak|75/100
+|-enditem|p1a: Marowak|Thick Club|[from] move: Knock Off|[of] p2a: Heatmor
+|move|p1a: Marowak|Stealth Rock|p2a: Heatmor
+|-sidestart|p2: adamakasquints|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, L80, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Marowak|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100
+|
+|-heal|p2a: Toxapex|29/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Marowak|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|35/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Marowak|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|-damage|p2a: Tsareena|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|switch|p1a: Amoonguss|Amoonguss, L82, M|100/100
+|move|p2a: Tsareena|Power Whip|p1a: Amoonguss|[miss]
+|-miss|p2a: Tsareena|p1a: Amoonguss
+|
+|upkeep
+|turn|6
+
+|-message|adamakasquints forfeited.
+
+|
+|win|MegaJynxIsReal

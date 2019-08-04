@@ -1,0 +1,121 @@
+|init|battle
+|title|TrashYT1 vs. keithurban69
+|j|☆TrashYT1
+|j|☆keithurban69
+|player|p1|TrashYT1|102|1424
+|player|p2|keithurban69|170|1449
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Diggersby|Diggersby, L81, F|100/100
+|switch|p2a: Hitmontop|Hitmontop, L86, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Diggersby|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by keithurban69)
+|inactive|TrashYT1 also wants the timer to be on.
+|
+|switch|p1a: Dusknoir|Dusknoir, L89, F|100/100
+|-item|p2a: Hitmontop|Assault Vest|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|move|p2a: Hitmontop|Close Combat|p1a: Dusknoir
+|-immune|p1a: Dusknoir
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Sableye|Sableye, L81, F|100/100
+|move|p1a: Dusknoir|Ice Punch|p2a: Sableye
+|-damage|p2a: Sableye|68/100
+|
+|upkeep
+|turn|3
+|
+|detailschange|p2a: Sableye|Sableye-Mega, L81, F
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Dusknoir|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|40/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Dusknoir
+|-status|p1a: Dusknoir|brn
+|
+|-damage|p1a: Dusknoir|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Dusknoir|Shadow Sneak|p2a: Sableye
+|-damage|p2a: Sableye|30/100
+|move|p2a: Sableye|Shadow Ball|p1a: Dusknoir
+|-supereffective|p1a: Dusknoir
+|-damage|p1a: Dusknoir|48/100 brn
+|-unboost|p1a: Dusknoir|spd|1
+|
+|-heal|p1a: Dusknoir|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Dusknoir|48/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, F|100/100
+|switch|p2a: Kartana|Kartana, L80|100/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Kartana|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|10/100
+|-enditem|p1a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p2a: Kartana
+|-damage|p2a: Kartana|91/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Focus Blast|p2a: Kartana|[miss]
+|-miss|p1a: Reuniclus|p2a: Kartana
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Kartana|atk|1
+|move|p2a: Kartana|Leaf Blade|p1a: Hitmontop
+|-damage|p1a: Hitmontop|49/100
+|-damage|p2a: Kartana|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Hitmontop|Sucker Punch|p2a: Kartana
+|-damage|p2a: Kartana|56/100
+|-damage|p1a: Hitmontop|39/100|[from] item: Life Orb
+|move|p2a: Kartana|Leaf Blade|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|-damage|p2a: Kartana|47/100|[from] item: Life Orb
+|faint|p1a: Hitmontop
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Kommo-o|Kommo-o, L80, M|100/100
+|turn|9
+
+|
+|switch|p2a: Primarina|Primarina, L82, M|100/100
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Primarina|[zeffect]
+|-immune|p2a: Primarina
+|
+|upkeep
+|turn|10
+
+|-message|TrashYT1 forfeited.
+
+|
+|win|keithurban69

@@ -1,0 +1,331 @@
+|init|battle
+|title|FernaKi vs. chunmon
+|j|☆FernaKi
+|j|☆chunmon
+|player|p1|FernaKi|211|1563
+|player|p2|chunmon|164|1544
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magcargo|Magcargo, L89, F|100/100
+|switch|p2a: Rotom|Rotom-Mow, L84|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FernaKi)
+
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Magcargo
+|-damage|p1a: Magcargo|62/100
+|move|p1a: Magcargo|Shell Smash|p1a: Magcargo
+|-unboost|p1a: Magcargo|def|1
+|-unboost|p1a: Magcargo|spd|1
+|-boost|p1a: Magcargo|atk|2
+|-boost|p1a: Magcargo|spa|2
+|-boost|p1a: Magcargo|spe|2
+|-enditem|p1a: Magcargo|White Herb
+|-clearnegativeboost|p1a: Magcargo|[silent]
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Samurott|Samurott, L87, F|100/100
+|move|p1a: Magcargo|Fire Blast|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|56/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Magcargo
+|-supereffective|p1a: Magcargo
+|-damage|p1a: Magcargo|0 fnt
+|-status|p2a: Samurott|brn|[from] ability: Flame Body|[of] p1a: Magcargo
+|-damage|p2a: Samurott|46/100 brn|[from] item: Life Orb
+|faint|p1a: Magcargo
+|
+|-damage|p2a: Samurott|40/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|turn|4
+
+|
+|switch|p2a: Rotom|Rotom-Mow, L84|100/100
+|move|p1a: Dhelmise|Anchor Shot|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|77/100
+|-activate|p2a: Rotom|trapped
+|
+|upkeep
+|turn|5
+
+|inactive|FernaKi has 120 seconds left.
+
+|
+|switch|p1a: Dragonite|Dragonite, L81, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dragonite|[miss]
+|-miss|p2a: Rotom|p1a: Dragonite
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Rotom|Will-O-Wisp|p1a: Palkia|[miss]
+|-miss|p2a: Rotom|p1a: Palkia
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Samurott|Samurott, L87, F|40/100 brn
+|move|p1a: Palkia|Fire Blast|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|22/100 brn
+|
+|-damage|p2a: Samurott|16/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|move|p2a: Samurott|Aqua Jet|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|92/100
+|-damage|p2a: Samurott|6/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Samurott|0 fnt|[from] brn
+|faint|p2a: Samurott
+|upkeep
+
+|inactive|chunmon has 120 seconds left.
+
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|turn|9
+
+|inactive|chunmon has 120 seconds left.
+
+|
+|switch|p1a: Dragonite|Dragonite, L81, F|100/100
+|-zpower|p2a: Moltres
+|move|p2a: Moltres|Supersonic Skystrike|p1a: Dragonite|[zeffect]
+|-damage|p1a: Dragonite|64/100
+|
+|upkeep
+|turn|10
+
+|inactive|chunmon has 120 seconds left.
+
+|
+|move|p2a: Moltres|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|22/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Moltres
+|-damage|p2a: Moltres|15/100
+|move|p2a: Moltres|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+
+|
+|switch|p1a: Eelektross|Eelektross, L88, F|100/100
+|turn|12
+
+|
+|switch|p2a: Seismitoad|Seismitoad, L86, M|100/100
+|move|p1a: Eelektross|Volt Switch|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Seismitoad|Rain Dance|p2a: Seismitoad
+|-weather|RainDance
+|move|p1a: Eelektross|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|11/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p2a: Seismitoad|Hydro Pump|p1a: Eelektross
+|-damage|p1a: Eelektross|46/100
+|-damage|p2a: Seismitoad|1/100|[from] item: Life Orb
+|move|p1a: Eelektross|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Eelektross|46/100|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Moltres|Moltres, L82|15/100
+|turn|15
+
+|inactive|FernaKi has 120 seconds left.
+
+|
+|move|p2a: Moltres|Hurricane|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|29/100
+|move|p1a: Eelektross|Volt Switch|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|92/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Buzzwole|Buzzwole, L81|100/100
+|turn|16
+
+|inactive|FernaKi has 120 seconds left.
+
+|
+|switch|p1a: Porygon2|Porygon2, L84|100/100
+|-ability|p1a: Porygon2|Beast Boost|[from] ability: Trace|[of] p2a: Buzzwole
+|move|p2a: Buzzwole|Leech Life|p1a: Porygon2
+|-damage|p1a: Porygon2|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+
+|inactive|FernaKi has 120 seconds left.
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|92/100
+|move|p2a: Buzzwole|Leech Life|p1a: Dhelmise
+|-damage|p1a: Dhelmise|36/100
+|
+|-weather|none
+|upkeep
+|turn|18
+
+|inactive|FernaKi has 120 seconds left.
+
+|
+|switch|p1a: Porygon2|Porygon2, L84|64/100
+|-ability|p1a: Porygon2|Beast Boost|[from] ability: Trace|[of] p2a: Buzzwole
+|move|p2a: Buzzwole|Leech Life|p1a: Porygon2
+|-damage|p1a: Porygon2|25/100
+|
+|upkeep
+|turn|19
+
+|inactive|FernaKi has 120 seconds left.
+
+|
+|move|p2a: Buzzwole|Leech Life|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+
+|inactive|FernaKi has 120 seconds left.
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-ability|p1a: Palkia|Pressure
+|turn|20
+
+|inactive|FernaKi has 120 seconds left.
+
+|
+|move|p1a: Palkia|Fire Blast|p2a: Buzzwole|[miss]
+|-miss|p1a: Palkia|p2a: Buzzwole
+|move|p2a: Buzzwole|Leech Life|p1a: Palkia
+|-damage|p1a: Palkia|14/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Palkia|Fire Blast|p2a: Buzzwole
+|-supereffective|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus, L78, M|100/100
+|turn|22
+
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|faint|p1a: Palkia
+|
+|upkeep
+
+|
+|switch|p1a: Eelektross|Eelektross, L88, F|29/100
+|turn|23
+
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Eelektross
+|-damage|p1a: Eelektross|4/100
+|move|p1a: Eelektross|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|74/100
+|-heal|p1a: Eelektross|16/100|[from] drain|[of] p2a: Landorus
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|36/100
+|turn|25
+
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Dhelmise
+|-damage|p1a: Dhelmise|9/100
+|move|p1a: Dhelmise|Power Whip|p2a: Landorus
+|-damage|p2a: Landorus|5/100
+|
+|upkeep
+|turn|26
+
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|win|chunmon

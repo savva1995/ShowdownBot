@@ -1,0 +1,70 @@
+|init|battle
+|title|PatrickAG vs. Froslass Scoop
+|j|☆PatrickAG
+|j|☆Froslass Scoop
+|player|p1|PatrickAG|1|1069
+|player|p2|Froslass Scoop|285|1065
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] NU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Passimian, F|item
+|poke|p1|Piloswine, F|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Mismagius, F|item
+|poke|p1|Dhelmise|item
+|poke|p1|Comfey, M|item
+|poke|p2|Dhelmise|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Gastrodon, F|item
+|poke|p2|Incineroar, F|item
+|poke|p2|Jynx, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PatrickAG)
+
+|j| I see that I'm ICY
+
+|inactive|Froslass Scoop has 120 seconds left.
+
+|
+|start
+|switch|p1a: Passimian|Passimian, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|1
+
+|c|☆PatrickAG|Hf
+
+|
+|move|p2a: Whimsicott|Stun Spore|p1a: Passimian
+|-status|p1a: Passimian|par
+|cant|p1a: Passimian|par
+|
+|upkeep
+|turn|2
+
+|c|☆Froslass Scoop|you too
+
+|
+|move|p2a: Whimsicott|Moonblast|p1a: Passimian
+|-supereffective|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|-damage|p2a: Whimsicott|91/100|[from] item: Life Orb
+|faint|p1a: Passimian
+|
+|upkeep
+
+|-message|PatrickAG forfeited.
+
+|
+|win|Froslass Scoop

@@ -1,0 +1,157 @@
+|init|battle
+|title|DEATHMANLO vs. dehq
+|j|☆DEATHMANLO
+|j|☆dehq
+|player|p1|DEATHMANLO|273|1226
+|player|p2|dehq|256|1205
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Walrein|Walrein, L89, M|100/100
+|switch|p2a: Emboar|Emboar, L85, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DEATHMANLO)
+
+|
+|move|p1a: Walrein|Surf|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-crit|p2a: Emboar
+|-damage|p2a: Emboar|20/100
+|move|p2a: Emboar|Wild Charge|p1a: Walrein
+|-supereffective|p1a: Walrein
+|-damage|p1a: Walrein|57/100
+|-damage|p2a: Emboar|8/100|[from] Recoil
+|
+|-heal|p1a: Walrein|63/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1a: Walrein|Surf|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|-heal|p1a: Walrein|69/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L88, F|100/100
+|turn|3
+
+|
+|switch|p1a: Lurantis|Lurantis, L88, M|100/100
+|move|p2a: Kangaskhan|Fake Out|p1a: Lurantis
+|-damage|p1a: Lurantis|83/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Kangaskhan|Return|p1a: Lurantis
+|-damage|p1a: Lurantis|43/100
+|move|p1a: Lurantis|Superpower|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|12/100
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|-damage|p1a: Lurantis|33/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Kangaskhan|Return|p1a: Lurantis
+|-damage|p1a: Lurantis|2/100
+|move|p1a: Lurantis|Superpower|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|-damage|p1a: Lurantis|0 fnt|[from] item: Life Orb
+|faint|p2a: Kangaskhan
+|faint|p1a: Lurantis
+|
+|upkeep
+
+|
+|switch|p2a: Blastoise|Blastoise, L84, M|100/100
+|switch|p1a: Heatran|Heatran, L80, F|100/100
+|turn|6
+
+|
+|switch|p1a: Crawdaunt|Crawdaunt, L82, M|100/100
+|detailschange|p2a: Blastoise|Blastoise-Mega, L84, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Blastoise|Hydro Pump|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|58/100
+|
+|upkeep
+|turn|7
+
+|inactive|DEATHMANLO has 120 seconds left.
+
+|
+|move|p2a: Blastoise|Aura Sphere|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+
+|inactive|DEATHMANLO has 120 seconds left.
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, F|100/100
+|turn|8
+
+|inactive|DEATHMANLO has 120 seconds left.
+
+|
+|move|p2a: Blastoise|Dark Pulse|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|26/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Blastoise
+|-damage|p2a: Blastoise|75/100
+|
+|-heal|p1a: Cofagrigus|32/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|DEATHMANLO has 120 seconds left.
+
+|
+|move|p2a: Blastoise|Dark Pulse|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|upkeep
+
+|
+|switch|p1a: Umbreon|Umbreon, L84, M|100/100
+|turn|10
+
+|
+|move|p2a: Blastoise|Aura Sphere|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|46/100
+|move|p1a: Umbreon|Toxic|p2a: Blastoise|[miss]
+|-miss|p1a: Umbreon|p2a: Blastoise
+|
+|-heal|p1a: Umbreon|52/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|-message|DEATHMANLO forfeited.
+
+|
+|win|dehq

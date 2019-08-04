@@ -1,0 +1,68 @@
+|init|battle
+|title|Kljh vs. diafetus
+|j|☆Kljh
+|j|☆diafetus
+|player|p1|Kljh|266|1407
+|player|p2|diafetus|165|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Registeel|Registeel, L84|100/100
+|switch|p2a: Beartic|Beartic, L89, M|100/100
+|turn|1
+|
+|move|p2a: Beartic|Swords Dance|p2a: Beartic
+|-boost|p2a: Beartic|atk|2
+|move|p1a: Registeel|Stealth Rock|p2a: Beartic
+|-sidestart|p2: diafetus|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Beartic|Superpower|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|-unboost|p2a: Beartic|atk|1
+|-unboost|p2a: Beartic|def|1
+|faint|p1a: Registeel
+|
+|upkeep
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|turn|3
+|
+|move|p1a: Pheromosa|High Jump Kick|p2a: Beartic|[miss]
+|-miss|p1a: Pheromosa|p2a: Beartic
+|-damage|p1a: Pheromosa|51/100|[from] highjumpkick
+|move|p2a: Beartic|Icicle Crash|p1a: Pheromosa
+|-damage|p1a: Pheromosa|0 fnt
+|faint|p1a: Pheromosa
+|
+|upkeep
+|
+|switch|p1a: Sceptile|Sceptile, L84, F|100/100
+|turn|4
+|
+|detailschange|p1a: Sceptile|Sceptile-Mega, L84, F
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Hidden Power|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|63/100
+|move|p2a: Beartic|Icicle Crash|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+
+|-message|Kljh forfeited.
+
+|
+|win|diafetus

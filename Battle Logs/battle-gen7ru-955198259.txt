@@ -1,0 +1,501 @@
+|init|battle
+|title|CaSiO3_Detector vs. Redbestgirl
+|j|☆CaSiO3_Detector
+|j|☆Redbestgirl
+|player|p1|CaSiO3_Detector|2|1186
+|player|p2|Redbestgirl|163|1219
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zygarde-10%|item
+|poke|p1|Sceptile, F|item
+|poke|p1|Florges-White, F|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Milotic, M|item
+|poke|p1|Bronzong|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Honchkrow, M|item
+|poke|p2|Sceptile, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Porygon2|item
+|poke|p2|Salazzle, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CaSiO3_Detector)
+|
+|start
+|switch|p1a: Bronzong|Bronzong, shiny|100/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|turn|1
+|
+|move|p2a: Forretress|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: CaSiO3_Detector|move: Stealth Rock
+|move|p1a: Bronzong|Stealth Rock|p2a: Forretress
+|-sidestart|p2: Redbestgirl|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|-damage|p1a: Milotic|88/100|[from] Stealth Rock
+|move|p2a: Forretress|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|85/100
+|-sideend|p2: Redbestgirl|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Milotic|Scald|p2a: Forretress
+|-damage|p2a: Forretress|61/100
+|-status|p2a: Forretress|brn
+|move|p2a: Forretress|Volt Switch|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|76/100
+
+|
+|switch|p2a: Sceptile|Sceptile, M|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Milotic|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Florges|Florges-White, F|100/100
+|-damage|p1a: Florges|88/100|[from] Stealth Rock
+|detailschange|p2a: Sceptile|Sceptile-Mega, M
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Leaf Storm|p1a: Florges|[miss]
+|-miss|p2a: Sceptile|p1a: Florges
+|
+|-heal|p1a: Florges|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Florges|Defog|p2a: Salazzle
+|-unboost|p2a: Salazzle|evasion|1
+|-sideend|p1: CaSiO3_Detector|Stealth Rock|[from] move: Defog|[of] p1a: Florges
+|
+|-heal|p1a: Florges|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Milotic|Milotic, M|82/100
+|move|p2a: Salazzle|Nasty Plot|p2a: Salazzle
+|-boost|p2a: Salazzle|spa|2
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Milotic
+|-damage|p1a: Milotic|6/100
+|-damage|p2a: Salazzle|91/100|[from] item: Life Orb
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-heal|p1a: Milotic|12/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Salazzle|Encore|p1a: Milotic
+|-start|p1a: Milotic|Encore
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-heal|p1a: Milotic|19/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|-damage|p2a: Salazzle|81/100|[from] item: Life Orb
+|faint|p1a: Milotic
+|
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile, F|100/100
+|turn|10
+
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|detailschange|p1a: Sceptile|Sceptile-Mega, F
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Dragon Pulse|p2a: Porygon2
+|-damage|p2a: Porygon2|73/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Bronzong|Bronzong, shiny|100/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Forretress|Forretress, M|61/100 brn
+|move|p1a: Bronzong|Toxic||[still]
+|-fail|p1a: Bronzong
+|
+|-damage|p2a: Forretress|54/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Florges|Florges-White, F|99/100
+|move|p2a: Forretress|Stealth Rock|p1a: Florges
+|-sidestart|p1: CaSiO3_Detector|move: Stealth Rock
+|
+|-heal|p1a: Florges|100/100|[from] item: Leftovers
+|-damage|p2a: Forretress|48/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Florges|Defog|p2a: Forretress
+|-unboost|p2a: Forretress|evasion|1
+|-sideend|p1: CaSiO3_Detector|Stealth Rock|[from] move: Defog|[of] p1a: Florges
+|move|p2a: Forretress|Volt Switch|p1a: Florges
+|-damage|p1a: Florges|93/100
+
+|
+|switch|p2a: Salazzle|Salazzle, F|81/100|[from]move: Volt Switch
+|
+|-heal|p1a: Florges|99/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Zygarde|Zygarde-10%|100/100
+|-ability|p1a: Zygarde|Aura Break
+|move|p2a: Salazzle|Nasty Plot|p2a: Salazzle
+|-boost|p2a: Salazzle|spa|2
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Zygarde|Extreme Speed|p2a: Salazzle
+|-damage|p2a: Salazzle|15/100
+|move|p2a: Salazzle|Flamethrower|p1a: Zygarde
+|-resisted|p1a: Zygarde
+|-damage|p1a: Zygarde|20/100
+|-damage|p2a: Salazzle|5/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Forretress|Forretress, M|48/100 brn
+|move|p1a: Zygarde|Extreme Speed|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|37/100 brn
+|
+|-damage|p2a: Forretress|31/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Sceptile|Sceptile-Mega, F|100/100
+|move|p2a: Forretress|Stealth Rock|p1a: Sceptile
+|-sidestart|p1: CaSiO3_Detector|move: Stealth Rock
+|
+|-damage|p2a: Forretress|25/100 brn|[from] brn
+|upkeep
+|-enditem|p2a: Forretress|Aguav Berry|[eat]
+|-heal|p2a: Forretress|75/100 brn|[from] item: Aguav Berry
+|turn|19
+
+|
+|move|p1a: Sceptile|Hidden Power|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+
+|
+|switch|p2a: Honchkrow|Honchkrow, M|100/100
+|turn|20
+
+|
+|move|p1a: Sceptile|Dragon Pulse|p2a: Honchkrow
+|-damage|p2a: Honchkrow|26/100
+|move|p2a: Honchkrow|Pursuit|p1a: Sceptile
+|-damage|p1a: Sceptile|70/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|move|p1a: Sceptile|Dragon Pulse|p2a: Porygon2
+|-damage|p2a: Porygon2|71/100
+|
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Florges|Florges-White, F|99/100
+|-damage|p1a: Florges|86/100|[from] Stealth Rock
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|-heal|p1a: Florges|92/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p1a: Florges|Defog|p2a: Porygon2
+|-unboost|p2a: Porygon2|evasion|1
+|-sideend|p1: CaSiO3_Detector|Stealth Rock|[from] move: Defog|[of] p1a: Florges
+|move|p2a: Porygon2|Tri Attack|p1a: Florges
+|-damage|p1a: Florges|62/100
+|
+|-heal|p1a: Florges|68/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Florges|Wish|p1a: Florges
+|move|p2a: Porygon2|Tri Attack|p1a: Florges
+|-damage|p1a: Florges|41/100
+|
+|-heal|p1a: Florges|47/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Salazzle|Salazzle, F|5/100
+|move|p1a: Florges|Moonblast|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-heal|p1a: Florges|97/100|[from] move: Wish|[wisher] Florges
+|-heal|p1a: Florges|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Honchkrow|Honchkrow, M|26/100
+|turn|26
+
+|
+|move|p2a: Honchkrow|Brave Bird|p1a: Florges
+|-damage|p1a: Florges|28/100
+|-damage|p2a: Honchkrow|0 fnt|[from] Recoil
+|faint|p2a: Honchkrow
+|move|p1a: Florges|Moonblast|p2: Honchkrow|[notarget]
+|-fail|p1a: Florges
+|
+|-heal|p1a: Florges|34/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|turn|27
+
+|
+|move|p1a: Florges|Wish|p1a: Florges
+|move|p2a: Porygon2|Tri Attack|p1a: Florges
+|-damage|p1a: Florges|5/100
+|
+|-heal|p1a: Florges|11/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Sceptile|Sceptile-Mega, F|70/100
+|move|p2a: Porygon2|Tri Attack|p1a: Sceptile
+|-damage|p1a: Sceptile|12/100
+|-status|p1a: Sceptile|par
+|
+|-heal|p1a: Sceptile|76/100 par|[from] move: Wish|[wisher] Florges
+|upkeep
+|turn|29
+
+|
+|move|p1a: Sceptile|Leaf Storm|p2a: Porygon2
+|-damage|p2a: Porygon2|59/100
+|-unboost|p1a: Sceptile|spa|2
+|move|p2a: Porygon2|Ice Beam|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+
+|
+|switch|p1a: Toxicroak|Toxicroak, M, shiny|100/100
+|turn|30
+
+|
+|switch|p2a: Sceptile|Sceptile-Mega, M|100/100
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|upkeep
+|turn|31
+
+|
+|move|p2a: Sceptile|Dragon Pulse|p1a: Toxicroak
+|-damage|p1a: Toxicroak|21/100
+|move|p1a: Toxicroak|Ice Punch|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|32
+
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|upkeep
+
+|
+|switch|p1a: Bronzong|Bronzong, shiny|100/100
+|turn|33
+
+|
+|switch|p2a: Porygon2|Porygon2|59/100
+|move|p1a: Bronzong|Toxic|p2a: Porygon2|[miss]
+|-miss|p1a: Bronzong|p2a: Porygon2
+|
+|upkeep
+|turn|34
+
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|move|p1a: Bronzong|Toxic|p2a: Cloyster
+|-status|p2a: Cloyster|tox
+|
+|-damage|p2a: Cloyster|94/100 tox|[from] psn
+|upkeep
+|turn|35
+
+|
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|-enditem|p2a: Cloyster|White Herb
+|-clearnegativeboost|p2a: Cloyster|[silent]
+|move|p1a: Bronzong|Psywave|p2a: Cloyster
+|-damage|p2a: Cloyster|70/100 tox
+|
+|-damage|p2a: Cloyster|57/100 tox|[from] psn
+|upkeep
+|turn|36
+
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Cloyster|Liquidation|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-damage|p2a: Cloyster|39/100 tox|[from] psn
+|upkeep
+|turn|37
+
+|
+|move|p2a: Cloyster|Liquidation|p1a: Bronzong
+|-damage|p1a: Bronzong|32/100
+|move|p1a: Bronzong|Psywave|p2a: Cloyster
+|-damage|p2a: Cloyster|8/100 tox
+|
+|-heal|p1a: Bronzong|38/100|[from] item: Leftovers
+|-damage|p2a: Cloyster|0 fnt|[from] psn
+|faint|p2a: Cloyster
+|upkeep
+
+|
+|switch|p2a: Porygon2|Porygon2|59/100
+|turn|38
+
+|
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: Bronzong|Toxic|p2a: Porygon2
+|-status|p2a: Porygon2|tox
+|
+|-heal|p1a: Bronzong|44/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|94/100 tox|[from] psn
+|upkeep
+|turn|39
+
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Porygon2|Thunderbolt|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-heal|p1a: Bronzong|50/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|82/100 tox|[from] psn
+|upkeep
+|turn|40
+
+|
+|move|p2a: Porygon2|Thunderbolt|p1a: Bronzong
+|-damage|p1a: Bronzong|32/100
+|move|p1a: Bronzong|Psywave|p2a: Porygon2
+|-damage|p2a: Porygon2|65/100 tox
+|
+|-heal|p1a: Bronzong|38/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|46/100 tox|[from] psn
+|upkeep
+|turn|41
+
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Porygon2|Ice Beam|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-heal|p1a: Bronzong|44/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|22/100 tox|[from] psn
+|upkeep
+|turn|42
+
+|
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|72/100 tox
+|move|p1a: Bronzong|Psywave|p2a: Porygon2
+|-damage|p2a: Porygon2|56/100 tox
+|
+|-heal|p1a: Bronzong|50/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|25/100 tox|[from] psn
+|upkeep
+|turn|43
+
+|-message|Redbestgirl forfeited.
+
+|
+|win|CaSiO3_Detector

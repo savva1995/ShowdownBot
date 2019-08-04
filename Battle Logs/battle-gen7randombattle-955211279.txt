@@ -1,0 +1,383 @@
+|init|battle
+|title|Klown Kunt vs. LOLWP
+|j|☆Klown Kunt
+|j|☆LOLWP
+|player|p1|Klown Kunt|59|1068
+|player|p2|LOLWP|162|1083
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sigilyph|Sigilyph, L86, M|100/100
+|switch|p2a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: Klown Kunt
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Klown Kunt)
+
+|
+|switch|p1a: Sharpedo|Sharpedo, L82, F|100/100
+|move|p2a: Pyroar|Hyper Voice|p1a: Sharpedo
+|-damage|p1a: Sharpedo|21/100
+|
+|upkeep
+|turn|2
+
+|
+|detailschange|p1a: Sharpedo|Sharpedo-Mega, L82, F
+|-mega|p1a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Pyroar|Hyper Voice|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|upkeep
+
+|inactive|Klown Kunt has 120 seconds left.
+
+|
+|switch|p1a: Cresselia|Cresselia, L84, F|100/100
+|turn|3
+
+|
+|move|p2a: Pyroar|Hyper Voice|p1a: Cresselia
+|-damage|p1a: Cresselia|78/100
+|move|p1a: Cresselia|Psychic|p2a: Pyroar
+|-damage|p2a: Pyroar|67/100
+|
+|-heal|p1a: Cresselia|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Luxray|Luxray, L89, M|100/100
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-heal|p1a: Cresselia|90/100|[from] item: Leftovers
+|-status|p2a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Crabominable|Crabominable, L89, F|100/100
+|move|p2a: Luxray|Wild Charge|p1a: Crabominable
+|-damage|p1a: Crabominable|42/100
+|-damage|p2a: Luxray|84/100 brn|[from] Recoil
+|
+|-damage|p2a: Luxray|78/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Luxray|Wild Charge|p1a: Crabominable
+|-damage|p1a: Crabominable|0 fnt
+|-damage|p2a: Luxray|67/100 brn|[from] Recoil
+|faint|p1a: Crabominable
+|
+|-damage|p2a: Luxray|61/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Cresselia|Cresselia, L84, F|90/100
+|turn|7
+
+|
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Luxray|Wild Charge|p1a: Cresselia
+|-damage|p1a: Cresselia|44/100
+|-damage|p2a: Luxray|47/100 brn|[from] Recoil
+|
+|-heal|p1a: Cresselia|50/100|[from] item: Leftovers
+|-damage|p2a: Luxray|41/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|99/100
+|move|p2a: Luxray|Superpower|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|80/100
+|-unboost|p2a: Luxray|atk|1
+|-unboost|p2a: Luxray|def|1
+|
+|-heal|p1a: Cresselia|86/100|[from] item: Leftovers
+|-damage|p2a: Luxray|35/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Luxray|Wild Charge|p1a: Cresselia
+|-damage|p1a: Cresselia|59/100
+|-damage|p2a: Luxray|27/100 brn|[from] Recoil
+|
+|-heal|p1a: Cresselia|65/100|[from] item: Leftovers
+|-damage|p2a: Luxray|21/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Luxray|Crunch|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|33/100
+|-unboost|p1a: Cresselia|def|1
+|
+|-heal|p1a: Cresselia|39/100|[from] item: Leftovers
+|-damage|p2a: Luxray|15/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|89/100
+|move|p2a: Luxray|Crunch|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|40/100
+|
+|-heal|p1a: Cresselia|46/100|[from] item: Leftovers
+|-damage|p2a: Luxray|10/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Cresselia|Psychic|p2a: Luxray
+|-damage|p2a: Luxray|0 fnt
+|faint|p2a: Luxray
+|
+|-heal|p1a: Cresselia|52/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, L82, F|100/100
+|turn|13
+
+|
+|move|p1a: Cresselia|Psychic|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|54/100
+|-unboost|p2a: Klefki|spd|1
+|move|p2a: Klefki|Play Rough|p1a: Cresselia
+|-damage|p1a: Cresselia|24/100
+|
+|-heal|p1a: Cresselia|31/100|[from] item: Leftovers
+|-heal|p2a: Klefki|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Klefki|Spikes|p1a: Cresselia
+|-sidestart|p1: Klown Kunt|Spikes
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|80/100
+|
+|-heal|p1a: Cresselia|87/100|[from] item: Leftovers
+|-heal|p2a: Klefki|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Klefki|Toxic|p1a: Cresselia|[miss]
+|-miss|p2a: Klefki|p1a: Cresselia
+|move|p1a: Cresselia|Psychic|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|5/100
+|
+|-heal|p1a: Cresselia|93/100|[from] item: Leftovers
+|-heal|p2a: Klefki|11/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Klefki|Toxic|p1a: Cresselia
+|-status|p1a: Cresselia|tox
+|move|p1a: Cresselia|Psychic|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-heal|p1a: Cresselia|99/100 tox|[from] item: Leftovers
+|-damage|p1a: Cresselia|93/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Decidueye|Decidueye, L86, F|100/100
+|turn|17
+
+|
+|move|p1a: Cresselia|Ice Beam|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|14/100
+|-status|p2a: Decidueye|frz
+|cant|p2a: Decidueye|frz
+|
+|-heal|p1a: Cresselia|99/100 tox|[from] item: Leftovers
+|-damage|p1a: Cresselia|87/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Cresselia|Ice Beam|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|-heal|p1a: Cresselia|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Cresselia|74/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Ninetales|Ninetales, L84, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|19
+
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Cresselia
+|-damage|p1a: Cresselia|61/100 tox
+|move|p1a: Cresselia|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|34/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Cresselia|42/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|100/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|41/100|[from] item: Leftovers
+|-damage|p1a: Cresselia|70/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|move|p1a: Cresselia|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cresselia|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Cresselia|39/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Pyroar|Pyroar, L87, M|67/100
+|-ability|p2a: Pyroar|Unnerve|p1: Klown Kunt
+|turn|22
+
+|
+|move|p2a: Pyroar|Dark Pulse|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|27/100 tox
+|cant|p1a: Cresselia|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cresselia|33/100 tox|[from] item: Leftovers
+|-damage|p1a: Cresselia|0 fnt|[from] psn
+|faint|p1a: Cresselia
+|upkeep
+
+|
+|switch|p1a: Muk|Muk-Alola, L82, M|100/100
+|-damage|p1a: Muk|88/100|[from] Spikes
+|turn|23
+
+|
+|move|p2a: Pyroar|Hyper Voice|p1a: Muk
+|-damage|p1a: Muk|53/100
+|move|p1a: Muk|Gunk Shot|p2a: Pyroar
+|-damage|p2a: Pyroar|17/100
+|
+|-weather|none
+|-heal|p1a: Muk|60/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+
+|
+|move|p2a: Pyroar|Will-O-Wisp|p1a: Muk
+|-status|p1a: Muk|brn
+|move|p1a: Muk|Gunk Shot|p2a: Pyroar
+|-damage|p2a: Pyroar|0 fnt
+|faint|p2a: Pyroar
+|
+|-heal|p1a: Muk|66/100 brn|[from] item: Black Sludge
+|-damage|p1a: Muk|60/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Primeape|Primeape, L88, F|100/100
+|turn|25
+
+|
+|move|p2a: Primeape|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|upkeep
+
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, M|100/100
+|turn|26
+
+|
+|move|p2a: Primeape|Earthquake|p1a: Sigilyph
+|-immune|p1a: Sigilyph
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|27
+
+|
+|move|p2a: Primeape|Earthquake|p1a: Sigilyph
+|-immune|p1a: Sigilyph
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|upkeep
+|turn|28
+
+|
+|move|p2a: Primeape|Earthquake|p1a: Sigilyph
+|-immune|p1a: Sigilyph
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|upkeep
+|turn|29
+
+|
+|move|p2a: Primeape|Earthquake|p1a: Sigilyph
+|-immune|p1a: Sigilyph
+|move|p1a: Sigilyph|Stored Power|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|win|Klown Kunt

@@ -1,0 +1,188 @@
+|init|battle
+|title|ValiantBoss vs. FurDaMeemz
+|j|☆ValiantBoss
+|j|☆FurDaMeemz
+|player|p1|ValiantBoss|165|1045
+|player|p2|FurDaMeemz|192|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Rapidash, M|
+|poke|p1|Azumarill, M|
+|poke|p1|Lilligant, F|
+|poke|p1|Heliolisk, F|
+|poke|p1|Haxorus, M|
+|poke|p1|Volcarona, M|
+|poke|p2|Rapidash, F|item
+|poke|p2|Mudsdale, F|item
+|poke|p2|Zebstrika, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Virizion|item
+|poke|p2|Ponyta, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|switch|p2a: Don't mind me|Ponyta, M, shiny|100/100
+|turn|1
+|c|☆FurDaMeemz|PREPARE YOURSELF
+|c|☆FurDaMeemz|FOR POWER
+|
+|move|p1a: Rapidash|Wild Charge|p2a: Don't mind me
+|-damage|p2a: Don't mind me|39/100
+|-damage|p1a: Rapidash|87/100|[from] Recoil
+|move|p2a: Don't mind me|Horn Drill|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|-ohko
+|faint|p1a: Rapidash
+|
+|upkeep
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|turn|2
+|
+|switch|p2a: Virizion|Virizion|100/100
+|move|p1a: Azumarill|Surf|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|92/100
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|move|p1a: Haxorus|Dragon Pulse|p2a: Virizion
+|-damage|p2a: Virizion|77/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|move|p1a: Haxorus|X-Scissor|p2a: Virizion
+|-damage|p2a: Virizion|37/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Virizion|Close Combat|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|-damage|p2a: Virizion|27/100|[from] item: Life Orb
+|faint|p1a: Haxorus
+|
+|upkeep
+
+|c|☆FurDaMeemz|POWER
+
+|
+|switch|p1a: Heliolisk|Heliolisk, F|100/100
+|turn|7
+
+|
+|move|p2a: Virizion|Leaf Blade|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|-damage|p2a: Virizion|18/100|[from] item: Life Orb
+|faint|p1a: Heliolisk
+|
+|upkeep
+
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|turn|8
+
+|
+|move|p2a: Virizion|Close Combat|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|-damage|p2a: Virizion|8/100|[from] item: Life Orb
+|faint|p1a: Lilligant
+|
+|upkeep
+
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|turn|9
+
+|
+|move|p2a: Virizion|Leaf Blade|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|-damage|p2a: Virizion|0 fnt|[from] item: Life Orb
+|faint|p1a: Azumarill
+|faint|p2a: Virizion
+|
+|upkeep
+
+|c|☆FurDaMeemz|JUSTIIIIIIIICE
+
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|10
+
+|
+|move|p2a: Keldeo|Taunt|p1a: Volcarona
+|-start|p1a: Volcarona|move: Taunt
+|move|p1a: Volcarona|Giga Drain|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|40/100
+|
+|-heal|p2a: Keldeo|47/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Keldeo|Scald|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|9/100
+|move|p1a: Volcarona|Giga Drain|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-heal|p1a: Volcarona|33/100|[from] drain|[of] p2a: Keldeo
+|faint|p2a: Keldeo
+|
+|upkeep
+
+|
+|switch|p2a: Don't mind me|Ponyta, M, shiny|39/100
+|turn|12
+
+|
+|move|p1a: Volcarona|Psychic|p2a: Don't mind me
+|-damage|p2a: Don't mind me|0 fnt
+|faint|p2a: Don't mind me
+|
+|-end|p1a: Volcarona|move: Taunt
+|upkeep
+
+|
+|switch|p2a: Bjorn|Rapidash, F|100/100
+|turn|13
+
+|
+|move|p2a: Bjorn|High Horsepower|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|FurDaMeemz

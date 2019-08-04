@@ -1,0 +1,288 @@
+|init|battle
+|title|AbirSavage vs. Cybergeist
+|j|☆AbirSavage
+|j|☆Cybergeist
+|player|p1|AbirSavage|266|1115
+|player|p2|Cybergeist|73|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pidgeot|Pidgeot, L82, F|100/100
+|switch|p2a: Golurk|Golurk, L88|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AbirSavage)
+
+|
+|switch|p2a: Electrode|Electrode, L89|100/100
+|detailschange|p1a: Pidgeot|Pidgeot-Mega, L82, F
+|-mega|p1a: Pidgeot|Pidgeot|Pidgeotite
+|move|p1a: Pidgeot|Hurricane|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|72/100
+|-start|p2a: Electrode|confusion
+|
+|-heal|p2a: Electrode|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Landorus|Landorus, L78, M|100/100
+|-activate|p2a: Electrode|confusion
+|move|p2a: Electrode|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Electrode|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Primarina|Primarina, L82, F|100/100
+|move|p1a: Landorus|Rock Polish|p1a: Landorus
+|-boost|p1a: Landorus|spe|2
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Klinklang|Klinklang, L86|100/100
+|move|p2a: Primarina|Hydro Pump|p1a: Klinklang
+|-crit|p1a: Klinklang
+|-damage|p1a: Klinklang|11/100
+|
+|-heal|p1a: Klinklang|17/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Primarina|Hydro Pump|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|faint|p1a: Klinklang
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, L82, F|100/100
+|turn|6
+
+|
+|move|p1a: Latias|Psyshock|p2a: Primarina
+|-damage|p2a: Primarina|56/100
+|move|p2a: Primarina|Hydro Pump|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|80/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Sharpedo|Sharpedo, L83, M|100/100
+|move|p1a: Latias|Psyshock|p2a: Sharpedo
+|-immune|p2a: Sharpedo
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Latias|Draco Meteor|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|9
+
+|
+|move|p2a: Sharpedo|Crunch|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-damage|p2a: Sharpedo|91/100|[from] item: Life Orb
+|faint|p1a: Latias
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, L83, F|100/100
+|turn|10
+
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Mienshao|Knock Off|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Diancie|Diancie, L80|100/100
+|move|p1a: Mienshao|High Jump Kick|p2a: Diancie
+|-damage|p2a: Diancie|31/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+
+|
+|detailschange|p2a: Diancie|Diancie-Mega, L80
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p1a: Mienshao|High Jump Kick|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|faint|p2a: Diancie
+|
+|upkeep
+
+|
+|switch|p2a: Primarina|Primarina, L82, F|56/100
+|turn|13
+
+|
+|switch|p1a: Hoopa|Hoopa, L85|100/100
+|move|p2a: Primarina|Moonblast|p1a: Hoopa
+|-damage|p1a: Hoopa|70/100
+|
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Charizard|Charizard, L87, M|100/100
+|move|p1a: Hoopa|Shadow Ball|p2a: Charizard
+|-damage|p2a: Charizard|53/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Hoopa|Shadow Ball|p2a: Charizard
+|-damage|p2a: Charizard|12/100
+|move|p2a: Charizard|Fire Blast|p1a: Hoopa
+|-damage|p1a: Hoopa|4/100
+|-damage|p2a: Charizard|2/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Hoopa|Shadow Ball|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+
+|
+|switch|p2a: Electrode|Electrode, L89|84/100
+|turn|17
+
+|
+|move|p2a: Electrode|Foul Play|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-heal|p2a: Electrode|90/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus, L78, M|100/100
+|turn|18
+
+|
+|move|p2a: Electrode|Foul Play|p1a: Landorus
+|-damage|p1a: Landorus|72/100
+|move|p1a: Landorus|Earth Power|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|upkeep
+
+|
+|switch|p2a: Primarina|Primarina, L82, F|56/100
+|turn|19
+
+|
+|move|p2a: Primarina|Hydro Pump|p1a: Landorus|[miss]
+|-miss|p2a: Primarina|p1a: Landorus
+|move|p1a: Landorus|Sludge Wave|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+
+|
+|switch|p2a: Sharpedo|Sharpedo, L83, M|91/100
+|turn|20
+
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Landorus|Earth Power|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|21
+
+|
+|move|p2a: Sharpedo|Waterfall|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Sharpedo|81/100|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p1a: Pidgeot|Pidgeot-Mega, L82, F|100/100
+|turn|22
+
+|
+|move|p2a: Sharpedo|Waterfall|p1a: Pidgeot
+|-damage|p1a: Pidgeot|51/100
+|-damage|p2a: Sharpedo|71/100|[from] item: Life Orb
+|move|p1a: Pidgeot|Hurricane|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|upkeep
+
+|
+|switch|p2a: Golurk|Golurk, L88|100/100
+|turn|23
+
+|c|☆AbirSavage|Abir off :p
+
+|
+|move|p1a: Pidgeot|Hurricane|p2a: Golurk
+|-damage|p2a: Golurk|50/100
+|-start|p2a: Golurk|confusion
+|-activate|p2a: Golurk|confusion
+|-damage|p2a: Golurk|38/100|[from] confusion
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Pidgeot|Hurricane|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|win|AbirSavage

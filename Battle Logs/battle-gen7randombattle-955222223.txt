@@ -1,0 +1,316 @@
+|init|battle
+|title|Natsuuuu vs. Church13
+|j|☆Natsuuuu
+|j|☆Church13
+|player|p1|Natsuuuu|281|1930
+|player|p2|Church13|221|1851
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|switch|p2a: Palossand|Palossand, L86, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|1
+|
+|switch|p2a: Forretress|Forretress, L84, F|100/100
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Natsuuuu)
+|
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Forretress|[miss]
+|-miss|p1a: Tapu Bulu|p2a: Forretress
+|move|p2a: Forretress|Toxic|p1a: Tapu Bulu
+|-status|p1a: Tapu Bulu|tox
+|
+|-damage|p1a: Tapu Bulu|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Forretress
+|-damage|p2a: Forretress|67/100
+|move|p2a: Forretress|Stealth Rock|p1a: Tapu Bulu
+|-sidestart|p1: Natsuuuu|move: Stealth Rock
+|
+|-heal|p1a: Tapu Bulu|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Forretress|73/100|[from] item: Leftovers
+|-heal|p2a: Forretress|79/100|[from] Grassy Terrain
+|-damage|p1a: Tapu Bulu|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Durant|Durant, L83, M|100/100
+|-damage|p1a: Durant|88/100|[from] Stealth Rock
+|move|p2a: Forretress|Gyro Ball|p1a: Durant
+|-resisted|p1a: Durant
+|-damage|p1a: Durant|74/100
+|
+|-heal|p1a: Durant|80/100|[from] Grassy Terrain
+|-heal|p2a: Forretress|85/100|[from] item: Leftovers
+|-heal|p2a: Forretress|91/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|move|p1a: Durant|Hone Claws|p1a: Durant
+|-boost|p1a: Durant|atk|1
+|-boost|p1a: Durant|accuracy|1
+|
+|-heal|p1a: Durant|86/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|move|p1a: Durant|Stone Edge|p2a: Skarmory
+|-damage|p2a: Skarmory|33/100
+|-damage|p1a: Durant|76/100|[from] item: Life Orb
+|move|p2a: Skarmory|Whirlwind|p1a: Durant
+|drag|p1a: Virizion|Virizion, L84|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Virizion|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|39/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Virizion|Close Combat|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|switch|p2a: Azelf|Azelf, L82|100/100
+|turn|8
+|
+|switch|p1a: Hoopa|Hoopa-Unbound, L81|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|move|p2a: Azelf|Psyshock|p1a: Hoopa
+|-immune|p1a: Hoopa
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Hoopa|Dark Pulse|p2a: Gigalith
+|-damage|p2a: Gigalith|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|82/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p1a: Hoopa|Drain Punch|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|31/100
+|-heal|p1a: Hoopa|100/100|[from] drain|[of] p2a: Gigalith
+|move|p2a: Gigalith|Stone Edge|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|88/100 tox
+|-damage|p1a: Tapu Bulu|76/100 tox|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|11
+
+|
+|switch|p2a: Forretress|Forretress, L84, F|91/100
+|move|p1a: Tapu Bulu|Wood Hammer|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|77/100
+|-damage|p1a: Tapu Bulu|71/100 tox|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Bulu|65/100 tox|[from] Sandstorm
+|-heal|p1a: Tapu Bulu|71/100 tox|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|77/100 tox|[from] Grassy Terrain
+|-heal|p2a: Forretress|83/100|[from] item: Leftovers
+|-heal|p2a: Forretress|89/100|[from] Grassy Terrain
+|-damage|p1a: Tapu Bulu|71/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Durant|Durant, L83, M|76/100
+|-damage|p1a: Durant|63/100|[from] Stealth Rock
+|switch|p2a: Hitmonchan|Hitmonchan, L88, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmonchan|94/100|[from] Sandstorm
+|-heal|p1a: Durant|69/100|[from] Grassy Terrain
+|-heal|p2a: Hitmonchan|100/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+
+|
+|move|p1a: Durant|Hone Claws|p1a: Durant
+|-boost|p1a: Durant|atk|1
+|-boost|p1a: Durant|accuracy|1
+|move|p2a: Hitmonchan|Fire Punch|p1a: Durant
+|-supereffective|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|-damage|p2a: Hitmonchan|91/100|[from] item: Life Orb
+|faint|p1a: Durant
+|
+|-weather|none
+|-heal|p2a: Hitmonchan|97/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Raichu|Raichu-Alola, L88, M|100/100
+|-damage|p1a: Raichu|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|switch|p2a: Palossand|Palossand, L86, F|100/100
+|move|p1a: Raichu|Psyshock|p2a: Palossand
+|-damage|p2a: Palossand|72/100
+|
+|-heal|p1a: Raichu|94/100|[from] Grassy Terrain
+|-heal|p2a: Palossand|78/100|[from] item: Leftovers
+|-heal|p2a: Palossand|84/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|move|p2a: Palossand|Shadow Ball|p1a: Virizion
+|-damage|p1a: Virizion|69/100
+|
+|-heal|p1a: Virizion|76/100|[from] item: Leftovers
+|-heal|p1a: Virizion|82/100|[from] Grassy Terrain
+|-heal|p2a: Palossand|90/100|[from] item: Leftovers
+|-heal|p2a: Palossand|96/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|40/100
+|move|p2a: Palossand|Toxic|p1a: Virizion
+|-status|p1a: Virizion|tox
+|
+|-heal|p1a: Virizion|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Palossand|46/100|[from] item: Leftovers
+|-damage|p1a: Virizion|82/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Forretress|Forretress, L84, F|89/100
+|move|p1a: Virizion|Leaf Blade|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|84/100
+|
+|-heal|p1a: Virizion|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Forretress|90/100|[from] item: Leftovers
+|-damage|p1a: Virizion|76/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|71/100 tox
+|-damage|p1a: Tapu Bulu|59/100 tox|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Forretress|Gyro Ball|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|21/100 tox
+|
+|-heal|p1a: Tapu Bulu|28/100 tox|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|34/100 tox|[from] Grassy Terrain
+|-heal|p2a: Forretress|96/100|[from] item: Leftovers
+|-heal|p2a: Forretress|100/100|[from] Grassy Terrain
+|-damage|p1a: Tapu Bulu|28/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Tapu Bulu|Megahorn|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|88/100
+|move|p2a: Forretress|Gyro Ball|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|
+|-heal|p2a: Forretress|94/100|[from] item: Leftovers
+|-heal|p2a: Forretress|100/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Raichu|Raichu-Alola, L88, M|94/100
+|-damage|p1a: Raichu|82/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: Raichu|Nasty Plot|p1a: Raichu
+|-boost|p1a: Raichu|spa|2
+|move|p2a: Forretress|Toxic|p1a: Raichu
+|-status|p1a: Raichu|tox
+|
+|-heal|p1a: Raichu|88/100 tox|[from] Grassy Terrain
+|-damage|p1a: Raichu|82/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Palossand|Palossand, L86, F|46/100
+|-zpower|p1a: Raichu
+|move|p1a: Raichu|Stoked Sparksurfer|p2a: Palossand|[zeffect]
+|-immune|p2a: Palossand
+|
+|-heal|p1a: Raichu|88/100 tox|[from] Grassy Terrain
+|-heal|p2a: Palossand|52/100|[from] item: Leftovers
+|-heal|p2a: Palossand|58/100|[from] Grassy Terrain
+|-damage|p1a: Raichu|76/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Palossand|Protect|p2a: Palossand
+|-singleturn|p2a: Palossand|Protect
+|move|p1a: Raichu|Psyshock|p2a: Palossand
+|-activate|p2a: Palossand|move: Protect
+|
+|-heal|p1a: Raichu|82/100 tox|[from] Grassy Terrain
+|-heal|p2a: Palossand|64/100|[from] item: Leftovers
+|-heal|p2a: Palossand|70/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p1a: Raichu|64/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p1a: Raichu|Psyshock|p2a: Palossand
+|-damage|p2a: Palossand|16/100
+|move|p2a: Palossand|Shadow Ball|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|-heal|p2a: Palossand|22/100|[from] item: Leftovers
+|upkeep
+
+|-message|Natsuuuu forfeited.
+
+|
+|win|Church13

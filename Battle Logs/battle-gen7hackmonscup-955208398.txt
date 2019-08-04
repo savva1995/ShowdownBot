@@ -1,0 +1,55 @@
+|init|battle
+|title|dfm100 vs. nenu18
+|j|☆dfm100
+|j|☆nenu18
+|player|p1|dfm100|250|1065
+|player|p2|nenu18|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Hackmons Cup
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lilligant|Lilligant, L75, F|100/100
+|switch|p2a: Gothitelle|Gothitelle, L74, M|100/100
+|turn|1
+|
+|switch|p1a: Cacnea|Cacnea, L86, F|100/100
+|-zpower|p2a: Gothitelle
+|move|p2a: Gothitelle|Never-Ending Nightmare|p1a: Cacnea|[zeffect]
+|-damage|p1a: Cacnea|68/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Oricorio|Oricorio, L75, F|100/100
+|move|p1a: Cacnea|Geomancy||[still]
+|-prepare|p1a: Cacnea|Geomancy|p1a: Cacnea
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Oricorio|Fusion Flare|p1a: Cacnea
+|-supereffective|p1a: Cacnea
+|-damage|p1a: Cacnea|0 fnt
+|faint|p1a: Cacnea
+|
+|upkeep
+|
+|switch|p1a: Aron|Aron, L86, M|100/100
+|turn|4
+
+|
+|move|p2a: Oricorio|Submission|p1a: Aron
+|-supereffective|p1a: Aron
+|-damage|p1a: Aron|27/100
+|-damage|p2a: Oricorio|79/100|[from] Recoil
+|-activate|p1a: Aron|ability: Emergency Exit
+
+|-message|dfm100 forfeited.
+
+|
+|win|nenu18

@@ -1,0 +1,80 @@
+|init|battle
+|title|Throh-Valencia vs. funny123
+|j|☆Throh-Valencia
+|j|☆funny123
+|j|*Lady Monita
+|player|p1|Throh-Valencia|169|
+|player|p2|funny123|238|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Challenge Cup 1v1
+|rated|Tournament battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ponyta, L80, M|item
+|poke|p1|Silvally-*, L70|item
+|poke|p1|Armaldo, L75, F|item
+|poke|p1|Swalot, L76, M|item
+|poke|p1|Sableye, L82, F|item
+|poke|p1|Pidgeot, L75, M|item
+|poke|p2|Mightyena, L79, M|item
+|poke|p2|Cradily, L74, F|item
+|poke|p2|Grimer, L86, F|item
+|poke|p2|Thundurus-Therian, L70, M|item
+|poke|p2|Manectric, L76, M|item
+|poke|p2|Swinub, L93, F|item
+|teampreview|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Throh-Valencia)
+|inactive|funny123 has 120 seconds left.
+|
+|start
+|switch|p1a: Swalot|Swalot, L76, M|100/100
+|switch|p2a: Swinub|Swinub, L93, F|100/100
+|turn|1
+|
+|move|p2a: Swinub|Secret Power|p1a: Swalot
+|-crit|p1a: Swalot
+|-damage|p1a: Swalot|70/100
+|move|p1a: Swalot|Dynamic Punch|p2a: Swinub|[miss]
+|-miss|p1a: Swalot|p2a: Swinub
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Swinub|Ancient Power|p1a: Swalot
+|-damage|p1a: Swalot|66/100
+|move|p1a: Swalot|Dynamic Punch|p2a: Swinub|[miss]
+|-miss|p1a: Swalot|p2a: Swinub
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Swinub|Secret Power|p1a: Swalot
+|-crit|p1a: Swalot
+|-damage|p1a: Swalot|38/100
+|move|p1a: Swalot|Dynamic Punch|p2a: Swinub|[miss]
+|-miss|p1a: Swalot|p2a: Swinub
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Swinub|Body Slam|p1a: Swalot
+|-damage|p1a: Swalot|14/100
+|move|p1a: Swalot|Dynamic Punch|p2a: Swinub|[miss]
+|-miss|p1a: Swalot|p2a: Swinub
+|
+|upkeep
+|turn|5
+|c|☆Throh-Valencia|...
+|c|☆funny123|soz
+
+|c|☆funny123|i feel so bad
+
+|
+|move|p2a: Swinub|Secret Power|p1a: Swalot
+|-damage|p1a: Swalot|0 fnt
+|faint|p1a: Swalot
+|
+|win|funny123

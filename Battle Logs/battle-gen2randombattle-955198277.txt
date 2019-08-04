@@ -1,0 +1,197 @@
+|init|battle
+|title|mackdaddyyoshi vs. Falknerc
+|j|☆mackdaddyyoshi
+|j|☆Falknerc
+|player|p1|mackdaddyyoshi|scientist-gen1rb|1377
+|player|p2|Falknerc|214|1150
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Beedrill|Beedrill, L78, M|100/100
+|switch|p2a: Crobat|Crobat, L74, M|100/100
+|turn|1
+|
+|switch|p1a: Zapdos|Zapdos, L68|100/100
+|move|p2a: Crobat|Confuse Ray|p1a: Zapdos
+|-start|p1a: Zapdos|confusion
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Magcargo|Magcargo, L78, M|100/100
+|switch|p1a: Aerodactyl|Aerodactyl, L70, M|100/100
+|
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mackdaddyyoshi)
+
+|inactive|Falknerc has 120 seconds left.
+
+|inactive|Falknerc has 90 seconds left.
+
+|
+|move|p1a: Aerodactyl|Hidden Power|p2a: Magcargo
+|-supereffective|p2a: Magcargo
+|-damage|p2a: Magcargo|62/100
+|move|p2a: Magcargo|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|46/100
+|
+|-heal|p1a: Aerodactyl|52/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L78, M|100/100
+|move|p2a: Magcargo|Rock Slide|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|90/100
+|
+|-heal|p1a: Hitmontop|96/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Crobat|Crobat, L74, M|100/100
+|move|p1a: Hitmontop|High Jump Kick|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|92/100
+|
+|-heal|p2a: Crobat|98/100|[from] item: Leftovers
+|-heal|p1a: Hitmontop|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Zapdos|Zapdos, L68|100/100
+|move|p2a: Crobat|Confuse Ray|p1a: Zapdos
+|-start|p1a: Zapdos|confusion
+|
+|-heal|p2a: Crobat|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Crobat|Double-Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|72/100
+|-damage|p2a: Crobat|93/100|[from] Recoil|[of] p1a: Zapdos
+|-activate|p1a: Zapdos|confusion
+|-damage|p1a: Zapdos|62/100|[from] confusion
+|
+|-heal|p2a: Crobat|99/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Magcargo|Magcargo, L78, M|74/100
+|-activate|p1a: Zapdos|confusion
+|move|p1a: Zapdos|Thunder Wave|p2a: Magcargo
+|-status|p2a: Magcargo|par
+|
+|-heal|p1a: Zapdos|74/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L78, M|100/100
+|move|p2a: Magcargo|Fire Blast|p1a: Hitmontop
+|-damage|p1a: Hitmontop|65/100
+|
+|-heal|p1a: Hitmontop|71/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Zapdos|Zapdos, L68|74/100
+|move|p2a: Magcargo|Fire Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|31/100
+|
+|-heal|p1a: Zapdos|37/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L78, M|71/100
+|cant|p2a: Magcargo|par
+|
+|-heal|p1a: Hitmontop|77/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Hitmontop|High Jump Kick|p2a: Magcargo
+|-supereffective|p2a: Magcargo
+|-damage|p2a: Magcargo|40/100 par
+|cant|p2a: Magcargo|par
+|
+|-heal|p1a: Hitmontop|83/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|46/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Crobat|Crobat, L74, M|99/100
+|move|p1a: Hitmontop|High Jump Kick|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|92/100
+|
+|-heal|p2a: Crobat|98/100|[from] item: Leftovers
+|-heal|p1a: Hitmontop|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|mackdaddyyoshi has 120 seconds left.
+
+|
+|move|p2a: Crobat|Wing Attack|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|48/100
+|move|p1a: Hitmontop|Curse|p1a: Hitmontop
+|-unboost|p1a: Hitmontop|spe|1
+|-boost|p1a: Hitmontop|atk|1
+|-boost|p1a: Hitmontop|def|1
+|
+|-heal|p2a: Crobat|100/100|[from] item: Leftovers
+|-heal|p1a: Hitmontop|54/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|mackdaddyyoshi has 120 seconds left.
+
+|c|☆mackdaddyyoshi|piss off
+
+|
+|move|p2a: Crobat|Confuse Ray|p1a: Hitmontop
+|-start|p1a: Hitmontop|confusion
+|-activate|p1a: Hitmontop|confusion
+|-damage|p1a: Hitmontop|42/100|[from] confusion
+|
+|-heal|p1a: Hitmontop|48/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|mackdaddyyoshi has 120 seconds left.
+
+|-message|mackdaddyyoshi forfeited.
+
+|
+|win|Falknerc

@@ -1,0 +1,365 @@
+|init|battle
+|title|theramen vs. AskingTheQuestions
+|j|☆theramen
+|j|☆AskingTheQuestions
+|player|p1|theramen|250|
+|player|p2|AskingTheQuestions|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Drifblim|Drifblim, L89, F|100/100
+|switch|p2a: Wigglytuff|Wigglytuff, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AskingTheQuestions)
+|
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|brn
+|move|p2a: Wigglytuff|Stealth Rock|p1a: Drifblim
+|-sidestart|p1: theramen|move: Stealth Rock
+|
+|-damage|p2a: Wigglytuff|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Forretress|Forretress, L84, F|100/100
+|move|p1a: Drifblim|Hex|p2a: Forretress
+|-damage|p2a: Forretress|65/100
+|
+|-heal|p2a: Forretress|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Forretress
+|-status|p2a: Forretress|brn
+|move|p2a: Forretress|Toxic|p1a: Drifblim
+|-status|p1a: Drifblim|tox
+|
+|-heal|p2a: Forretress|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Drifblim|94/100 tox|[from] psn
+|-damage|p2a: Forretress|71/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Drifblim|Hex|p2a: Forretress
+|-damage|p2a: Forretress|3/100 brn
+|move|p2a: Forretress|Volt Switch|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|70/100 tox
+
+|
+|switch|p2a: Abomasnow|Abomasnow, L87, M|100/100|[from]move: Volt Switch
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifblim|64/100 tox|[from] Hail
+|-damage|p1a: Drifblim|52/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L87, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p2a: Abomasnow|Ice Shard|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|6/100 tox
+|-enditem|p1a: Drifblim|Sitrus Berry|[eat]
+|-heal|p1a: Drifblim|31/100 tox|[from] item: Sitrus Berry
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Abomasnow
+|-status|p2a: Abomasnow|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifblim|25/100 tox|[from] Hail
+|-damage|p1a: Drifblim|7/100 tox|[from] psn
+|-damage|p2a: Abomasnow|94/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|inactive|AskingTheQuestions has 270 seconds left.
+
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Abomasnow|88/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-damage|p1a: Palkia|88/100|[from] Stealth Rock
+|-ability|p1a: Palkia|Pressure
+|turn|7
+
+|
+|move|p1a: Palkia|Fire Blast|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Palkia|82/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Forretress|Forretress, L84, F|3/100 brn
+|turn|8
+
+|
+|move|p2a: Forretress|Toxic|p1a: Palkia
+|-status|p1a: Palkia|tox
+|move|p1a: Palkia|Dragon Tail|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|none
+|-damage|p1a: Palkia|76/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, M|100/100
+|turn|9
+
+|
+|move|p1a: Palkia|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Palkia|64/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L89, M|94/100 brn
+|turn|10
+
+|c|☆theramen|should i feel bad that they gave me a fb palkia
+
+|c|☆theramen|when they gave u 3 pokemon that are 4x weak to it
+
+|
+|switch|p1a: Pelipper|Pelipper, L84, M|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Wigglytuff|Hyper Voice|p1a: Pelipper
+|-damage|p1a: Pelipper|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|36/100|[from] item: Leftovers
+|-heal|p2a: Wigglytuff|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Wigglytuff|94/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|c|☆AskingTheQuestions|Lol it does feel a little bad for me
+
+|
+|move|p1a: Pelipper|Knock Off|p2a: Wigglytuff
+|-resisted|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|86/100 brn
+|-enditem|p2a: Wigglytuff|Leftovers|[from] move: Knock Off|[of] p1a: Pelipper
+|move|p2a: Wigglytuff|Hyper Voice|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Wigglytuff|80/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Heliolisk|Heliolisk, L86, M|100/100
+|-damage|p1a: Heliolisk|88/100|[from] Stealth Rock
+|turn|12
+
+|c|☆AskingTheQuestions|But it is unranked, so its all good
+
+|
+|move|p1a: Heliolisk|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|18/100 brn
+|move|p2a: Wigglytuff|Hyper Voice|p1a: Heliolisk
+|-damage|p1a: Heliolisk|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heliolisk|65/100|[from] ability: Dry Skin
+|-damage|p2a: Wigglytuff|12/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|c|☆theramen|mmm
+
+|
+|move|p1a: Heliolisk|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heliolisk|77/100|[from] ability: Dry Skin
+|upkeep
+
+|c|☆theramen|dem guilty conscience is real
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Heliolisk|atk|1
+|turn|14
+
+|
+|move|p2a: Tauros|Earthquake|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Latios|Latios, L81, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|15
+
+|
+|switch|p2a: Yveltal|Yveltal, L78|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|detailschange|p1a: Latios|Latios-Mega, L81, M
+|-mega|p1a: Latios|Latios|Latiosite
+|move|p1a: Latios|Draco Meteor|p2a: Yveltal
+|-damage|p2a: Yveltal|47/100
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Yveltal|53/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Palkia|Palkia, L78|64/100 tox
+|-damage|p1a: Palkia|52/100 tox|[from] Stealth Rock
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Yveltal|Dark Pulse|p1a: Palkia
+|-damage|p1a: Palkia|24/100 tox
+|
+|-heal|p2a: Yveltal|59/100|[from] item: Leftovers
+|-damage|p1a: Palkia|18/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Palkia|Draco Meteor|p2a: Yveltal|[miss]
+|-miss|p1a: Palkia|p2a: Yveltal
+|move|p2a: Yveltal|Dark Pulse|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|faint|p1a: Palkia
+|
+|-heal|p2a: Yveltal|65/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Diancie|Diancie, L84|100/100
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|turn|18
+
+|c|☆AskingTheQuestions|WOOOOW
+
+|c|☆AskingTheQuestions|Lucky me
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-fail|p1a: Diancie|unboost|[from] ability: Clear Body|[of] p1a: Diancie
+|move|p1a: Diancie|Diamond Storm|p2a: Tauros
+|-damage|p2a: Tauros|63/100
+|-boost|p1a: Diancie|def|2
+|
+|-heal|p1a: Diancie|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|c|☆theramen|my guilt has been assauged
+
+|
+|move|p2a: Tauros|Earthquake|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|62/100
+|move|p1a: Diancie|Diamond Storm|p2a: Tauros
+|-damage|p2a: Tauros|27/100
+|-boost|p1a: Diancie|def|2
+|
+|-heal|p1a: Diancie|67/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|c|☆AskingTheQuestions|Def got it on lock tho
+
+|
+|move|p2a: Tauros|Earthquake|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-crit|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+
+|
+|switch|p1a: Latios|Latios-Mega, L81, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|turn|21
+
+|c|☆AskingTheQuestions|WOWOWOWOW
+
+|
+|switch|p2a: Yveltal|Yveltal, L78|65/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|
+|-heal|p2a: Yveltal|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Latios|Draco Meteor|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Yveltal
+|
+|upkeep
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|27/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|23
+
+|c|☆theramen|i have no more guilt
+
+|c|☆theramen|only vengeance
+
+|c|☆theramen|FOR SPARTA
+
+|
+|move|p2a: Tauros|Rock Slide|p1a: Latios
+|-damage|p1a: Latios|47/100
+|move|p1a: Latios|Psyshock|p2a: Tauros
+|-damage|p2a: Tauros|2/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Tauros|Rock Slide|p1a: Latios
+|-damage|p1a: Latios|14/100
+|move|p1a: Latios|Psyshock|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|theramen

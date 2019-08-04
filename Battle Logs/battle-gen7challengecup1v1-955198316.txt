@@ -1,0 +1,69 @@
+|init|battle
+|title|Steven uwu vs. Abuuu
+|j|☆Steven uwu
+|j|☆Abuuu
+|player|p1|Steven uwu|145|1225
+|player|p2|Abuuu|266|1128
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Challenge Cup 1v1
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pangoro, L75, M|item
+|poke|p1|Sneasel, L78, M|item
+|poke|p1|Zweilous, L79, M|item
+|poke|p1|Garbodor, L75, M|item
+|poke|p1|Solgaleo, L65|item
+|poke|p1|Woobat, L86, M|item
+|poke|p2|Machamp, L74, F|item
+|poke|p2|Ho-Oh, L65|item
+|poke|p2|Mightyena, L79, F|item
+|poke|p2|Salandit, L87, M|item
+|poke|p2|Roggenrola, L90, F|item
+|poke|p2|Torterra, L72, F|item
+|teampreview|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Abuuu)
+
+|
+|start
+|switch|p1a: Solgaleo|Solgaleo, L65|100/100
+|switch|p2a: Machamp|Machamp, L74, F|100/100
+|turn|1
+
+|
+|move|p2a: Machamp|Protect|p2a: Machamp
+|-singleturn|p2a: Machamp|Protect
+|move|p1a: Solgaleo|Outrage|p2a: Machamp
+|-activate|p2a: Machamp|move: Protect
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Solgaleo|Outrage|p2a: Machamp
+|-damage|p2a: Machamp|65/100
+|move|p2a: Machamp|Fissure|p1a: Solgaleo|[miss]
+|-miss|p2a: Machamp|p1a: Solgaleo
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Solgaleo|Outrage|p2a: Machamp|[from]lockedmove
+|-damage|p2a: Machamp|30/100
+|move|p2a: Machamp|Fissure|p1a: Solgaleo|[miss]
+|-miss|p2a: Machamp|p1a: Solgaleo
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Solgaleo|Outrage|p2a: Machamp|[from]lockedmove
+|-damage|p2a: Machamp|0 fnt
+|-start|p1a: Solgaleo|confusion|[fatigue]
+|faint|p2a: Machamp
+|
+|win|Steven uwu

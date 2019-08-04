@@ -1,0 +1,160 @@
+|init|battle
+|title|ChescoHD vs. Bhjhngvhnghnv
+|j|☆ChescoHD
+|j|☆Bhjhngvhnghnv
+|player|p1|ChescoHD|266|1022
+|player|p2|Bhjhngvhnghnv|1|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vileplume|Vileplume, L85, M|100/100
+|switch|p2a: Altaria|Altaria, L82, M|100/100
+|turn|1
+|
+|detailschange|p2a: Altaria|Altaria-Mega, L82, M
+|-mega|p2a: Altaria|Altaria|Altarianite
+|move|p2a: Altaria|Fire Blast|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|44/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|27/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Altaria|Fire Blast|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|turn|3
+
+|
+|move|p1a: Ho-Oh|Brave Bird|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|-damage|p1a: Ho-Oh|93/100|[from] Recoil
+|faint|p2a: Altaria
+|
+|-heal|p1a: Ho-Oh|99/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bhjhngvhnghnv)
+
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|31/100
+|move|p1a: Ho-Oh|Toxic|p2a: Keldeo
+|-status|p2a: Keldeo|tox
+|
+|-heal|p1a: Ho-Oh|37/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|94/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Serperior|Serperior, L80, M|100/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Serperior|[miss]
+|-miss|p2a: Keldeo|p1a: Serperior
+|
+|-heal|p2a: Keldeo|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Keldeo|88/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Cresselia|Cresselia, L84, F|100/100
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|76/100
+|
+|-heal|p1a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|79/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Cresselia|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|88/100|[from] item: Leftovers
+|-heal|p2a: Cresselia|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Serperior|Leech Seed|p2a: Cresselia|[miss]
+|-miss|p1a: Serperior|p2a: Cresselia
+|move|p2a: Cresselia|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|46/100
+|
+|-heal|p1a: Serperior|51/100|[from] item: Leftovers
+|-heal|p2a: Cresselia|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Serperior|Glare|p2a: Cresselia
+|-status|p2a: Cresselia|par
+|cant|p2a: Cresselia|par
+|
+|-heal|p1a: Serperior|57/100|[from] item: Leftovers
+|-heal|p2a: Cresselia|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Serperior|Leech Seed|p2a: Cresselia
+|-start|p2a: Cresselia|move: Leech Seed
+|move|p2a: Cresselia|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|18/100
+|
+|-heal|p1a: Serperior|24/100|[from] item: Leftovers
+|-heal|p2a: Cresselia|100/100 par|[from] item: Leftovers
+|-damage|p2a: Cresselia|88/100 par|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|40/100|[silent]
+|upkeep
+|turn|11
+
+|l|☆Bhjhngvhnghnv
+
+|inactive|Bhjhngvhnghnv disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Bhjhngvhnghnv has 30 seconds to reconnect!
+
+|inactive|Bhjhngvhnghnv has 20 seconds to reconnect!
+
+|inactive|Bhjhngvhnghnv has 15 seconds to reconnect!
+
+|inactive|Bhjhngvhnghnv has 10 seconds to reconnect!
+
+|inactive|Bhjhngvhnghnv has 5 seconds to reconnect!
+
+|inactive|ChescoHD has 120 seconds left.
+
+|-message|Bhjhngvhnghnv lost due to inactivity.
+|
+|win|ChescoHD

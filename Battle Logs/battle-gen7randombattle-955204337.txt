@@ -1,0 +1,110 @@
+|init|battle
+|title|Moomicky vs. Arkesh A V
+|j|☆Moomicky
+|j|☆Arkesh A V
+|player|p1|Moomicky|43|1551
+|player|p2|Arkesh A V|1|1509
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Klefki|Klefki, L82, M|100/100
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|turn|1
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Moomicky|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, M|100/100
+|switch|p2a: Nihilego|Nihilego, L82|100/100
+|-item|p2a: Nihilego|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Nihilego|Stealth Rock|p1a: Spiritomb
+|-sidestart|p1: Moomicky|move: Stealth Rock
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Nihilego
+|-status|p2a: Nihilego|brn
+|
+|-damage|p2a: Nihilego|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Nihilego
+|-damage|p2a: Nihilego|67/100 brn
+|-enditem|p2a: Nihilego|Air Balloon
+|-damage|p1a: Spiritomb|91/100|[from] item: Life Orb
+|move|p2a: Nihilego|Toxic Spikes|p1a: Spiritomb
+|-sidestart|p1: Moomicky|move: Toxic Spikes
+|
+|-damage|p2a: Nihilego|61/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Landorus|Landorus-Therian, L80, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Nihilego|atk|1
+|move|p2a: Nihilego|Toxic Spikes|p1a: Landorus
+|-sidestart|p1: Moomicky|move: Toxic Spikes
+|
+|-damage|p2a: Nihilego|54/100 brn|[from] brn
+|-sideend|p1: Moomicky|move: Light Screen
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Landorus|Fly||[still]
+|-prepare|p1a: Landorus|Fly|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Landorus|[miss]
+|-miss|p2a: Skarmory|p1a: Landorus
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Landorus|Fly|p2a: Skarmory|[from]lockedmove
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|63/100
+|move|p2a: Skarmory|Whirlwind|p1a: Landorus
+|drag|p1a: Klefki|Klefki, L82, M|100/100
+|-damage|p1a: Klefki|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Moomicky|move: Light Screen
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|10
+
+|-message|Moomicky forfeited.
+
+|
+|win|Arkesh A V

@@ -1,0 +1,296 @@
+|init|battle
+|title|Mermandrew vs. swagmoney808
+|j|☆Mermandrew
+|j|☆swagmoney808
+|player|p1|Mermandrew|124|1067
+|player|p2|swagmoney808|293|1085
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragalge, F|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Absol, M|item
+|poke|p1|Starmie|item
+|poke|p1|Scizor, F|item
+|poke|p1|Chesnaught, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Zeraora|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Primarina, F|item
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: buff boi|Aggron, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mermandrew)
+|
+|detailschange|p2a: buff boi|Aggron-Mega, M
+|-mega|p2a: buff boi|Aggron|Aggronite
+|move|p1a: Mamoswine|Earthquake|p2a: buff boi
+|-supereffective|p2a: buff boi
+|-damage|p2a: buff boi|64/100
+|move|p2a: buff boi|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: Mermandrew|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: hehe xd|Latias, F|100/100
+|move|p1a: Mamoswine|Knock Off|p2a: hehe xd
+|-supereffective|p2a: hehe xd
+|-damage|p2a: hehe xd|46/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: fucking fairy|Sylveon, M|100/100
+|move|p1a: Mamoswine|Knock Off|p2a: fucking fairy
+|-resisted|p2a: fucking fairy
+|-damage|p2a: fucking fairy|86/100
+|-enditem|p2a: fucking fairy|Leftovers|[from] move: Knock Off|[of] p1a: Mamoswine
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mamoswine|Earthquake|p2a: fucking fairy
+|-damage|p2a: fucking fairy|47/100
+|move|p2a: fucking fairy|Wish|p2a: fucking fairy
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Scizor|Scizor, F, shiny|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|switch|p2a: hehe xd|Latias, F|46/100
+|
+|-heal|p2a: hehe xd|100/100|[from] move: Wish|[wisher] fucking fairy
+|-heal|p1a: Scizor|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: hehe xd|Calm Mind|p2a: hehe xd
+|-boost|p2a: hehe xd|spa|1
+|-boost|p2a: hehe xd|spd|1
+|move|p1a: Scizor|U-turn|p2a: hehe xd
+|-supereffective|p2a: hehe xd
+|-crit|p2a: hehe xd
+|-damage|p2a: hehe xd|0 fnt
+|faint|p2a: hehe xd
+
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100|[from]move: U-turn
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p2a: pikachu 2:electric|Zeraora|100/100
+|turn|7
+
+|
+|move|p2a: pikachu 2:electric|Close Combat|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-unboost|p2a: pikachu 2:electric|def|1
+|-unboost|p2a: pikachu 2:electric|spd|1
+|faint|p1a: Mamoswine
+|
+|upkeep
+
+|
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|-damage|p1a: Chesnaught|94/100|[from] Stealth Rock
+|turn|8
+
+|
+|switch|p2a: fucking fairy|Sylveon, M|47/100
+|move|p1a: Chesnaught|Leech Seed|p2a: fucking fairy
+|-start|p2a: fucking fairy|move: Leech Seed
+|
+|-heal|p1a: Chesnaught|100/100|[from] item: Leftovers
+|-damage|p2a: fucking fairy|35/100|[from] Leech Seed|[of] p1a: Chesnaught
+|upkeep
+|turn|9
+
+|
+|move|p1a: Chesnaught|Wood Hammer|p2a: fucking fairy
+|-damage|p2a: fucking fairy|0 fnt
+|-damage|p1a: Chesnaught|89/100|[from] Recoil
+|faint|p2a: fucking fairy
+|
+|-heal|p1a: Chesnaught|95/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: ariel|Primarina, F|100/100
+|turn|10
+
+|
+|move|p2a: ariel|Psychic|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|upkeep
+
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p2a: buff boi|Aggron-Mega, M|64/100
+|move|p1a: Starmie|Thunderbolt|p2a: buff boi
+|-damage|p2a: buff boi|43/100
+|
+|-heal|p1a: Starmie|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Starmie|Surf|p2a: buff boi
+|-damage|p2a: buff boi|11/100
+|move|p2a: buff boi|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-heal|p1a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Starmie|Surf|p2a: buff boi
+|-crit|p2a: buff boi
+|-damage|p2a: buff boi|0 fnt
+|faint|p2a: buff boi
+|
+|-heal|p1a: Starmie|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|88/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: pikachu 2:electric|Zeraora|100/100
+|turn|14
+
+|
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|-damage|p1a: Dragalge|88/100|[from] Stealth Rock
+|move|p2a: pikachu 2:electric|Plasma Fists|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|63/100
+|-fieldactivate|move: Ion Deluge
+|
+|-heal|p1a: Dragalge|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: pikachu 2:electric|Knock Off|p1a: Dragalge
+|-damage|p1a: Dragalge|32/100
+|-enditem|p1a: Dragalge|Leftovers|[from] move: Knock Off|[of] p2a: pikachu 2:electric
+|move|p1a: Dragalge|Sludge Bomb|p2a: pikachu 2:electric
+|-damage|p2a: pikachu 2:electric|46/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: pikachu 2:electric|Plasma Fists|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|5/100
+|-fieldactivate|move: Ion Deluge
+|move|p1a: Dragalge|Draco Meteor|p2a: pikachu 2:electric
+|-damage|p2a: pikachu 2:electric|0 fnt
+|-unboost|p1a: Dragalge|spa|2
+|faint|p2a: pikachu 2:electric
+|
+|upkeep
+
+|
+|switch|p2a: wheres my mouth :(|Scizor, M|100/100
+|turn|17
+
+|
+|move|p2a: wheres my mouth :(|Bullet Punch|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|-damage|p2a: wheres my mouth :(|91/100|[from] item: Life Orb
+|faint|p1a: Dragalge
+|
+|upkeep
+
+|
+|switch|p1a: Absol|Absol, M|100/100
+|-damage|p1a: Absol|88/100|[from] Stealth Rock
+|-ability|p1a: Absol|Pressure
+|turn|18
+
+|
+|detailschange|p1a: Absol|Absol-Mega, M
+|-mega|p1a: Absol|Absol|Absolite
+|move|p1a: Absol|Fire Blast|p2a: wheres my mouth :(
+|-supereffective|p2a: wheres my mouth :(
+|-damage|p2a: wheres my mouth :(|0 fnt
+|faint|p2a: wheres my mouth :(
+|
+|upkeep
+
+|
+|switch|p2a: ariel|Primarina, F|100/100
+|turn|19
+
+|
+|move|p1a: Absol|Play Rough|p2a: ariel
+|-damage|p2a: ariel|56/100
+|move|p2a: ariel|Moonblast|p1a: Absol
+|-supereffective|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|upkeep
+
+|
+|switch|p1a: Starmie|Starmie|88/100
+|-damage|p1a: Starmie|76/100|[from] Stealth Rock
+|turn|20
+
+|c|☆swagmoney808|gg
+
+|c|☆Mermandrew|gg
+
+|
+|move|p1a: Starmie|Thunderbolt|p2a: ariel
+|-supereffective|p2a: ariel
+|-damage|p2a: ariel|8/100
+|move|p2a: ariel|Moonblast|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, F, shiny|94/100
+|-damage|p1a: Scizor|82/100|[from] Stealth Rock
+|turn|21
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: ariel
+|-damage|p2a: ariel|0 fnt
+|faint|p2a: ariel
+|
+|win|Mermandrew

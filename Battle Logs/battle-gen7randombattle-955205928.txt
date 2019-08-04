@@ -1,0 +1,289 @@
+|init|battle
+|title|SexyJungkook vs. Thebellello
+|j|☆SexyJungkook
+|j|☆Thebellello
+|player|p1|SexyJungkook|2|1199
+|player|p2|Thebellello|1|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gyarados|Gyarados, L80, M|100/100
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thebellello)
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Skarmory|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: SexyJungkook|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Gyarados|Waterfall|p2a: Skarmory
+|-damage|p2a: Skarmory|55/100
+|move|p2a: Skarmory|Spikes|p1a: Gyarados
+|-sidestart|p1: SexyJungkook|Spikes
+|
+|-heal|p2a: Skarmory|60/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Gyarados|Waterfall|p2a: Skarmory
+|-damage|p2a: Skarmory|17/100
+|move|p2a: Skarmory|Whirlwind|p1a: Gyarados
+|drag|p1a: Malamar|Malamar, L86, M|100/100
+|-damage|p1a: Malamar|88/100|[from] Spikes
+|-damage|p1a: Malamar|75/100|[from] Stealth Rock
+|
+|-heal|p2a: Skarmory|23/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Dialga|Dialga, L78|100/100
+|-damage|p1a: Dialga|95/100|[from] Stealth Rock
+|-damage|p1a: Dialga|82/100|[from] Spikes
+|-ability|p1a: Dialga|Pressure
+|move|p2a: Skarmory|Whirlwind|p1a: Dialga
+|drag|p1a: Malamar|Malamar, L86, M|75/100
+|-damage|p1a: Malamar|63/100|[from] Stealth Rock
+|-damage|p1a: Malamar|50/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|29/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|SexyJungkook has 120 seconds left.
+
+|
+|move|p1a: Malamar|Superpower|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Skarmory
+|
+|upkeep
+
+|
+|switch|p2a: Ditto|Ditto, L89|100/100
+|-transform|p2a: Ditto|p1a: Malamar|[from] ability: Imposter
+|turn|6
+
+|
+|move|p2a: Ditto|Superpower|p1a: Malamar
+|-damage|p1a: Malamar|21/100
+|-boost|p2a: Ditto|atk|1
+|-boost|p2a: Ditto|def|1
+|-zpower|p1a: Malamar
+|move|p1a: Malamar|Z-Happy Hour|p1a: Malamar|[anim]Happy Hour
+|-boost|p1a: Malamar|atk|1|[zeffect]
+|-boost|p1a: Malamar|def|1|[zeffect]
+|-boost|p1a: Malamar|spa|1|[zeffect]
+|-boost|p1a: Malamar|spd|1|[zeffect]
+|-boost|p1a: Malamar|spe|1|[zeffect]
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Malamar|Knock Off|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-enditem|p2a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p1a: Malamar
+|faint|p2a: Ditto
+|
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, L80, F|100/100
+|turn|8
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, L80, F
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Malamar
+|-damage|p1a: Malamar|11/100
+|cant|p1a: Malamar|flinch
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100
+|move|p1a: Malamar|Psycho Cut|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham-Mega, L80, F|100/100
+|turn|10
+
+|
+|move|p2a: Medicham|Fake Out|p1a: Malamar
+|-damage|p1a: Malamar|2/100
+|cant|p1a: Malamar|flinch
+|
+|upkeep
+|turn|11
+
+|c|☆SexyJungkook|LOL
+
+|
+|move|p1a: Malamar|Psycho Cut|p2a: Medicham
+|-damage|p2a: Medicham|30/100
+|move|p2a: Medicham|Thunder Punch|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|upkeep
+
+|
+|switch|p1a: Gyarados|Gyarados, L80, M|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p1a: Zebstrika|Zebstrika, L89, F|100/100
+|-damage|p1a: Zebstrika|88/100|[from] Spikes
+|-damage|p1a: Zebstrika|76/100|[from] Stealth Rock
+|move|p2a: Medicham|Thunder Punch|p1a: Zebstrika
+|-ability|p1a: Zebstrika|Lightning Rod|boost
+|-boost|p1a: Zebstrika|spa|1
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, M|100/100
+|move|p1a: Zebstrika|Thunderbolt|p2a: Rhyperior
+|-immune|p2a: Rhyperior
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|82/100|[from] Spikes
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|36/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Rhyperior
+|-damage|p2a: Rhyperior|86/100
+|-enditem|p2a: Rhyperior|Weakness Policy|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p1a: Gyarados|Gyarados, L80, M|76/100
+|-damage|p1a: Gyarados|51/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Rhyperior|Rock Blast|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|19/100
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-hitcount|p1a: Gyarados|2
+|faint|p1a: Gyarados
+|
+|upkeep
+
+|
+|switch|p1a: Milotic|Milotic, L84, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Stealth Rock
+|-damage|p1a: Milotic|76/100|[from] Spikes
+|turn|18
+
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|26/100
+|move|p1a: Milotic|Scald|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Milotic|32/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham-Mega, L80, F|30/100
+|turn|19
+
+|
+|move|p2a: Medicham|Thunder Punch|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|upkeep
+
+|
+|switch|p1a: Zebstrika|Zebstrika, L89, F|76/100
+|-damage|p1a: Zebstrika|64/100|[from] Spikes
+|-damage|p1a: Zebstrika|52/100|[from] Stealth Rock
+|turn|20
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|100/100
+|move|p1a: Zebstrika|Thunderbolt|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|84/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Zebstrika|Thunderbolt|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|66/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|-damage|p2a: Hydreigon|56/100|[from] item: Life Orb
+|faint|p1a: Zebstrika
+|
+|upkeep
+
+|
+|switch|p1a: Dialga|Dialga, L78|82/100
+|-damage|p1a: Dialga|70/100|[from] Spikes
+|-damage|p1a: Dialga|64/100|[from] Stealth Rock
+|-ability|p1a: Dialga|Pressure
+|turn|22
+
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|46/100|[from] item: Life Orb
+|faint|p1a: Dialga
+|
+|win|Thebellello

@@ -1,0 +1,518 @@
+|init|battle
+|title|Church13 vs. Xavier96
+|j|☆Church13
+|j|☆Xavier96
+|player|p1|Church13|221|1872
+|player|p2|Xavier96|30|1795
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tauros|Tauros, L87, M|100/100
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Alomomola|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Church13)
+|
+|switch|p1a: Cacturne|Cacturne, L89, M|100/100
+|move|p2a: Alomomola|Scald|p1a: Cacturne
+|-immune|p1a: Cacturne|[from] ability: Water Absorb
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Alomomola|Toxic|p1a: Cacturne
+|-status|p1a: Cacturne|tox
+|move|p1a: Cacturne|Substitute|p1a: Cacturne
+|-start|p1a: Cacturne|Substitute
+|-damage|p1a: Cacturne|76/100 tox
+|
+|-heal|p1a: Cacturne|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Cacturne|76/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Alomomola|Knock Off|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-activate|p1a: Cacturne|move: Substitute|[damage]
+|move|p1a: Cacturne|Seed Bomb|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|47/100
+|
+|-heal|p2a: Alomomola|53/100|[from] item: Leftovers
+|-heal|p1a: Cacturne|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Cacturne|70/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|move|p1a: Cacturne|Seed Bomb|p2a: Solgaleo
+|-resisted|p2a: Solgaleo
+|-damage|p2a: Solgaleo|86/100
+|
+|-heal|p2a: Solgaleo|92/100|[from] item: Leftovers
+|-heal|p1a: Cacturne|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Cacturne|58/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Toucannon|Toucannon, L89, F|100/100
+|move|p1a: Cacturne|Dark Pulse|p2a: Toucannon
+|-damage|p2a: Toucannon|58/100
+|
+|-heal|p1a: Cacturne|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Cacturne|40/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Dialga|Dialga, L78|100/100
+|-ability|p1a: Dialga|Pressure
+|move|p2a: Toucannon|Bullet Seed|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|98/100
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|97/100
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|95/100
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|92/100
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|90/100
+|-hitcount|p1a: Dialga|5
+|-damage|p2a: Toucannon|48/100|[from] item: Life Orb
+|
+|-heal|p1a: Dialga|96/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|-singleturn|p2a: Toucannon|move: Beak Blast
+|move|p1a: Dialga|Flash Cannon|p2a: Toucannon
+|-damage|p2a: Toucannon|7/100
+|move|p2a: Toucannon|Beak Blast|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|68/100
+|-damage|p2a: Toucannon|0 fnt|[from] item: Life Orb
+|faint|p2a: Toucannon
+|
+|-heal|p1a: Dialga|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Primeape|Primeape, L88, F|100/100
+|turn|8
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|100/100
+|move|p2a: Primeape|Close Combat|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|43/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|-damage|p2a: Primeape|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|86/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|61/100
+|
+|-heal|p2a: Alomomola|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Alomomola|Scald|p1a: Cobalion
+|-damage|p1a: Cobalion|82/100
+|
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Cobalion|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Cobalion|Close Combat|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|7/100
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|move|p2a: Alomomola|Scald|p1a: Cobalion
+|-damage|p1a: Cobalion|62/100
+|-status|p1a: Cobalion|brn
+|
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Alomomola|13/100|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|100/100
+|move|p1a: Cobalion|Close Combat|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|79/100
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Aromatisse|85/100|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Cobalion|Taunt|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Aromatisse|91/100|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|46/100
+|move|p1a: Cobalion|Iron Head|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|35/100
+|
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Alomomola|41/100|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Cobalion|Close Combat|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Alomomola
+|
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|92/100
+|turn|17
+
+|
+|switch|p1a: Dialga|Dialga, L78|74/100
+|-ability|p1a: Dialga|Pressure
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|55/100
+|
+|-heal|p2a: Solgaleo|98/100|[from] item: Leftovers
+|-heal|p1a: Dialga|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Primeape|Primeape, L88, F|91/100
+|move|p1a: Dialga|Fire Blast|p2a: Primeape
+|-damage|p2a: Primeape|50/100
+|
+|-heal|p1a: Dialga|67/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Cacturne|Cacturne, L89, M|40/100 tox
+|move|p2a: Primeape|Close Combat|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|-damage|p2a: Primeape|41/100|[from] item: Life Orb
+|faint|p1a: Cacturne
+|
+|upkeep
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|43/100
+|turn|20
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|91/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|57/100
+|-heal|p1a: Conkeldurr|61/100|[from] drain|[of] p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Dialga|Dialga, L78|67/100
+|-ability|p1a: Dialga|Pressure
+|move|p2a: Aromatisse|Moonblast|p1a: Dialga
+|-damage|p1a: Dialga|33/100
+|
+|-heal|p1a: Dialga|39/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Dialga|Flash Cannon|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p1a: Dialga|45/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|75/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|98/100
+|move|p1a: Dialga|Flash Cannon|p2a: Solgaleo
+|-resisted|p2a: Solgaleo
+|-damage|p2a: Solgaleo|83/100
+|
+|-heal|p2a: Solgaleo|89/100|[from] item: Leftovers
+|-heal|p1a: Dialga|50/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|32/100
+|move|p1a: Dialga|Fire Blast|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|33/100
+|
+|-heal|p2a: Solgaleo|39/100|[from] item: Leftovers
+|-heal|p1a: Dialga|38/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Solgaleo|Morning Sun|p2a: Solgaleo
+|-heal|p2a: Solgaleo|89/100
+|move|p1a: Dialga|Fire Blast|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|30/100
+|
+|-heal|p2a: Solgaleo|36/100|[from] item: Leftovers
+|-heal|p1a: Dialga|44/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Solgaleo|Morning Sun|p2a: Solgaleo
+|-heal|p2a: Solgaleo|86/100
+|move|p1a: Dialga|Roar|p2a: Solgaleo
+|drag|p2a: Minior|Minior, L86|100/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|
+|-heal|p1a: Dialga|50/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Dialga|Flash Cannon|p2a: Minior
+|-supereffective|p2a: Minior
+|-damage|p2a: Minior|18/100
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|-enditem|p2a: Minior|White Herb
+|-clearnegativeboost|p2a: Minior|[silent]
+|
+|-heal|p1a: Dialga|56/100|[from] item: Leftovers
+|-formechange|p2a: Minior|Minior||[from] ability: Shields Down
+|upkeep
+|turn|28
+
+|
+|move|p2a: Minior|Earthquake|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|upkeep
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|61/100
+|turn|29
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|86/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Solgaleo
+|-damage|p2a: Solgaleo|58/100
+|
+|-heal|p2a: Solgaleo|65/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p1a: Tauros|Tauros, L87, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-fail|p2a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2a: Solgaleo
+|move|p2a: Solgaleo|Zen Headbutt|p1a: Tauros
+|-damage|p1a: Tauros|65/100
+|
+|-heal|p2a: Solgaleo|71/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p1a: Tauros|Earthquake|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|9/100
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|5/100
+|
+|-heal|p2a: Solgaleo|15/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|75/100
+|move|p1a: Tauros|Earthquake|p2a: Aromatisse
+|-damage|p2a: Aromatisse|37/100
+|
+|-heal|p2a: Aromatisse|43/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|62/100 brn
+|move|p2a: Aromatisse|Protect||[still]
+|-fail|p2a: Aromatisse
+|
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Aromatisse|49/100|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|upkeep
+|turn|34
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|24/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Aromatisse|30/100|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|upkeep
+|turn|35
+
+|
+|switch|p2a: Minior|Minior, L86|18/100
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|
+|-heal|p2a: Minior|83/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|upkeep
+|turn|36
+
+|
+|move|p1a: Cobalion|Taunt|p2a: Minior
+|-start|p2a: Minior|move: Taunt
+|cant|p2a: Minior|move: Taunt|Shell Smash
+|
+|-heal|p1a: Cobalion|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|62/100 brn|[from] brn
+|upkeep
+|turn|37
+
+|
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Minior|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-crit|p1a: Cobalion
+|-damage|p1a: Cobalion|15/100 brn
+|
+|-heal|p1a: Cobalion|21/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|15/100 brn|[from] brn
+|upkeep
+|turn|38
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|30/100
+|move|p1a: Cobalion|Iron Head|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|-heal|p1a: Cobalion|21/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|15/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|15/100
+|turn|39
+
+|
+|move|p1a: Cobalion|Close Combat|p2a: Solgaleo
+|-crit|p2a: Solgaleo
+|-damage|p2a: Solgaleo|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Solgaleo
+|
+|-heal|p1a: Cobalion|21/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|15/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Primeape|Primeape, L88, F|41/100
+|turn|40
+
+|
+|move|p1a: Cobalion|Close Combat|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Primeape
+|
+|-heal|p1a: Cobalion|21/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|15/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Minior|Minior, L86|83/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|41
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Minior
+|-supereffective|p2a: Minior
+|-damage|p2a: Minior|0 fnt
+|faint|p2a: Minior
+|
+|win|Church13

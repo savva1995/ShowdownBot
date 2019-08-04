@@ -1,0 +1,462 @@
+|init|battle
+|title|Jtevjrf vs. Misty Blitz
+|j|☆Jtevjrf
+|j|☆Misty Blitz
+|player|p1|Jtevjrf|2|1443
+|player|p2|Misty Blitz|misty-gen1|1506
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Articuno|item
+|poke|p1|Altaria, M|item
+|poke|p1|Audino, F|item
+|poke|p1|Bronzor|item
+|poke|p1|Quagsire, F|item
+|poke|p1|Skuntank, F|item
+|poke|p2|Aurorus, F|item
+|poke|p2|Mudsdale, F|item
+|poke|p2|Dodrio, M|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Silvally-*|item
+|poke|p2|Jumpluff, M|item
+|teampreview
+|
+|start
+|switch|p1a: Audino|Audino, F|100/100
+|switch|p2a: Aurorus|Aurorus, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|turn|1
+|
+|move|p2a: Aurorus|Blizzard|p1a: Audino
+|-damage|p1a: Audino|50/100
+|move|p1a: Audino|Toxic|p2a: Aurorus
+|-status|p2a: Aurorus|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Audino|43/100|[from] Hail
+|-heal|p1a: Audino|50/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Aurorus|Blizzard|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Audino|43/100|[from] Hail
+|-heal|p1a: Audino|50/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gurdurr|94/100|[from] Hail
+|upkeep
+|turn|4
+|
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|switch|p2a: Aurorus|Aurorus, F|82/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Quagsire|94/100|[from] Hail
+|-damage|p2a: Aurorus|76/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Bronzor|Bronzor|100/100
+|move|p2a: Aurorus|Blizzard|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|74/100
+|
+|-weather|none
+|-damage|p2a: Aurorus|63/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Gurdurr|Gurdurr, M|94/100
+|move|p1a: Bronzor|Toxic|p2a: Gurdurr
+|-status|p2a: Gurdurr|tox
+|
+|-damage|p2a: Gurdurr|88/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|move|p2a: Gurdurr|Knock Off|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|83/100
+|
+|-damage|p2a: Gurdurr|76/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|switch|p2a: Mudsdale|Mudsdale, F|100/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Aurorus|Aurorus, F|63/100 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|move|p1a: Altaria|Dragon Pulse|p2a: Aurorus
+|-damage|p2a: Aurorus|44/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Altaria|94/100|[from] Hail
+|-heal|p1a: Altaria|100/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|38/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Bronzor|Bronzor|74/100
+|move|p2a: Aurorus|Blizzard|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bronzor|42/100|[from] Hail
+|-damage|p2a: Aurorus|26/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|move|p1a: Bronzor|Rest|p1a: Bronzor
+|-status|p1a: Bronzor|slp|[from] move: Rest
+|-heal|p1a: Bronzor|100/100 slp|[silent]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jumpluff|94/100|[from] Hail
+|-damage|p1a: Bronzor|95/100 slp|[from] Hail
+|upkeep
+|turn|12
+
+|j| Stratis
+
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jumpluff|88/100|[from] Hail
+|-damage|p1a: Altaria|94/100|[from] Hail
+|-heal|p1a: Altaria|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|63/100
+|move|p1a: Altaria|Haze|p1a: Altaria
+|-clearallboost
+|
+|-weather|none
+|upkeep
+|turn|14
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Dragon Pulse|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Haze|p1a: Altaria
+|-clearallboost
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Dragon Pulse|p2a: Jumpluff
+|-damage|p2a: Jumpluff|37/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Altaria
+|-crit|p1a: Altaria
+|-damage|p1a: Altaria|65/100
+|move|p1a: Altaria|Haze|p1a: Altaria
+|-clearallboost
+|
+|-heal|p1a: Altaria|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|100/100
+|-singleturn|p1a: Altaria|move: Roost
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Altaria
+|-damage|p1a: Altaria|73/100
+|move|p1a: Altaria|Haze|p1a: Altaria
+|-clearallboost
+|
+|-heal|p1a: Altaria|80/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Dragon Pulse|p2a: Jumpluff
+|-damage|p2a: Jumpluff|8/100
+|-enditem|p2a: Jumpluff|Iapapa Berry|[eat]
+|-heal|p2a: Jumpluff|58/100|[from] item: Iapapa Berry
+|
+|-heal|p1a: Altaria|86/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Altaria
+|-damage|p1a: Altaria|36/100
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|86/100
+|-singleturn|p1a: Altaria|move: Roost
+|
+|-heal|p1a: Altaria|92/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Altaria
+|-damage|p1a: Altaria|41/100
+|move|p1a: Altaria|Haze|p1a: Altaria
+|-clearallboost
+|
+|-heal|p1a: Altaria|47/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|97/100
+|-singleturn|p1a: Altaria|move: Roost
+|
+|-heal|p1a: Altaria|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Altaria
+|-damage|p1a: Altaria|47/100
+|move|p1a: Altaria|Haze|p1a: Altaria
+|-clearallboost
+|
+|-heal|p1a: Altaria|53/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Dodrio|Dodrio, M|100/100
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|100/100
+|-singleturn|p1a: Altaria|move: Roost
+|
+|upkeep
+|turn|26
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Misty Blitz)
+
+|
+|switch|p1a: Quagsire|Quagsire, F|94/100
+|move|p2a: Dodrio|Swords Dance|p2a: Dodrio
+|-boost|p2a: Dodrio|atk|2
+|
+|upkeep
+|turn|27
+
+|
+|switch|p1a: Bronzor|Bronzor|95/100 slp
+|move|p2a: Dodrio|Brave Bird|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|58/100 slp
+|-damage|p2a: Dodrio|86/100|[from] Recoil
+|
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Quagsire|Quagsire, F|94/100
+|move|p2a: Dodrio|Swords Dance|p2a: Dodrio
+|-boost|p2a: Dodrio|atk|2
+|
+|upkeep
+|turn|29
+
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Quagsire
+|-damage|p1a: Quagsire|55/100
+|-damage|p2a: Dodrio|69/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|-damage|p2a: Dodrio|50/100|[from] Recoil
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|upkeep
+|turn|30
+
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Quagsire
+|-damage|p1a: Quagsire|59/100
+|-damage|p2a: Dodrio|33/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|-damage|p2a: Dodrio|12/100|[from] Recoil
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|upkeep
+|turn|31
+
+|
+|switch|p2a: Jumpluff|Jumpluff, M|58/100
+|move|p1a: Quagsire|Recover||[still]
+|-fail|p1a: Quagsire
+|
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|33/100
+|
+|upkeep
+|turn|33
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Dragon Pulse|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|upkeep
+|turn|34
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Altaria
+|-damage|p1a: Altaria|47/100
+|move|p1a: Altaria|Haze|p1a: Altaria
+|-clearallboost
+|
+|-heal|p1a: Altaria|53/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|100/100
+|-singleturn|p1a: Altaria|move: Roost
+|
+|upkeep
+|turn|36
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Altaria
+|-damage|p1a: Altaria|47/100
+|move|p1a: Altaria|Haze|p1a: Altaria
+|-clearallboost
+|
+|-heal|p1a: Altaria|53/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Altaria|Dragon Pulse|p2a: Jumpluff
+|-damage|p2a: Jumpluff|8/100
+|
+|-heal|p1a: Altaria|59/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Altaria
+|-damage|p1a: Altaria|12/100
+|move|p1a: Altaria|Dragon Pulse|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-heal|p1a: Altaria|18/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Aurorus|Aurorus, F|26/100 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|turn|39
+
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Aurorus|Blizzard|p1a: Articuno
+|-damage|p1a: Articuno|56/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Articuno|62/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|20/100 tox|[from] psn
+|upkeep
+|turn|40
+
+|
+|switch|p2a: Mudsdale|Mudsdale, F|100/100
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|100/100
+|-singleturn|p1a: Articuno|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mudsdale|94/100|[from] Hail
+|-heal|p2a: Mudsdale|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+
+|c|☆Misty Blitz|/log Misty Blitz made this room hidden.
+
+|-message|Misty Blitz forfeited.
+
+|
+|win|Jtevjrf

@@ -1,0 +1,57 @@
+|init|battle
+|title|EndouMamoruu vs. zadocfish3
+|j|☆EndouMamoruu
+|j|☆zadocfish3
+|player|p1|EndouMamoruu|101|1357
+|player|p2|zadocfish3|10|1273
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Azumarill, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p2|Pidgeot, M|item
+|poke|p2|Bewear, M|item
+|poke|p2|Raticate, M|item
+|teampreview|1
+|
+|start
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100/100
+|switch|p2a: Raticate|Raticate, M|100/100
+|turn|1
+|
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, F, shiny
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|move|p1a: Gardevoir|Substitute|p1a: Gardevoir
+|-start|p1a: Gardevoir|Substitute
+|-damage|p1a: Gardevoir|76/100
+|move|p2a: Raticate|Giga Impact|p1a: Gardevoir
+|-end|p1a: Gardevoir|Substitute
+|-mustrecharge|p2a: Raticate
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Gardevoir|Hyper Beam|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|-mustrecharge|p1a: Gardevoir
+|faint|p2a: Raticate
+|
+|win|EndouMamoruu
+|raw|EndouMamoruu's rating: 1357 &rarr; <strong>1372</strong><br />(+15 for winning)
+|raw|zadocfish3's rating: 1273 &rarr; <strong>1254</strong><br />(-19 for losing)
+|l|☆zadocfish3
+|c|☆EndouMamoruu|gf
+|l|☆EndouMamoruu

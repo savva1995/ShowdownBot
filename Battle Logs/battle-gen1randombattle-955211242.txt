@@ -1,0 +1,287 @@
+|init|battle
+|title|KingPhongV vs. ForsakenHaru
+|j|☆KingPhongV
+|j|☆ForsakenHaru
+|player|p1|KingPhongV|101|
+|player|p2|ForsakenHaru|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hitmonchan|Hitmonchan, L74|100/100
+|switch|p2a: Articuno|Articuno, L74|100/100
+|turn|1
+|c|☆KingPhongV|what the
+|
+|switch|p1a: Hypno|Hypno, L74|100/100
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Articuno|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|67/100
+|move|p1a: Hypno|Hypnosis|p2a: Articuno
+|-status|p2a: Articuno|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Clefable|Clefable, L74|100/100
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|65/100
+|-unboost|p2a: Clefable|spd|1
+|-unboost|p2a: Clefable|spa|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Hypno|Seismic Toss|p2a: Clefable
+|-damage|p2a: Clefable|40/100
+|move|p2a: Clefable|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|57/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+
+|
+|switch|p2a: Exeggutor|Exeggutor, L68|100/100
+|turn|6
+
+|
+|move|p1a: Hypno|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|86/100
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Sleep Powder|p1a: Hypno
+|-status|p1a: Hypno|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|7
+
+|
+|cant|p1a: Hypno|slp
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|49/100 slp
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Charizard|Charizard, L74|100/100
+|cant|p1a: Hypno|slp
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Cloyster|Cloyster, L68|100/100
+|move|p2a: Charizard|Fire Blast|p1a: Cloyster
+|-damage|p1a: Cloyster|43/100
+|-status|p1a: Cloyster|brn
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Charizard|Fire Blast|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+
+|c|☆KingPhongV|wow
+
+|
+|switch|p1a: Jolteon|Jolteon, L68|100/100
+|turn|11
+
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Charizard
+|-crit|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+
+|c|☆ForsakenHaru|oh its faster rip
+
+|c|☆KingPhongV|lol
+
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L74|100/100
+|turn|12
+
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|71/100
+|move|p2a: Wigglytuff|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|79/100
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Ekans|Ekans, L88|100/100
+|move|p1a: Jolteon|Body Slam|p2a: Ekans
+|-damage|p2a: Ekans|81/100
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Spearow|Spearow, L88|100/100
+|move|p2a: Ekans|Earthquake|p1a: Spearow
+|-immune|p1a: Spearow
+|
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Exeggutor|Exeggutor, L68|86/100
+|move|p1a: Spearow|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|17/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Spearow|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L74|71/100
+|turn|17
+
+|
+|move|p1a: Spearow|Drill Peck|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|37/100
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Spearow
+|-status|p1a: Spearow|par
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Wigglytuff|Body Slam|p1a: Spearow
+|-damage|p1a: Spearow|61/100 par
+|cant|p1a: Spearow|par
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Wigglytuff|Body Slam|p1a: Spearow
+|-crit|p1a: Spearow
+|-damage|p1a: Spearow|0 fnt
+|faint|p1a: Spearow
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L74|100/100
+|turn|20
+
+|
+|move|p1a: Hitmonchan|Submission|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|-damage|p1a: Hitmonchan|86/100|[from] Recoil|[of] p2a: Wigglytuff
+|faint|p2a: Wigglytuff
+
+|
+|switch|p2a: Ekans|Ekans, L88|81/100
+|turn|21
+
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Ekans
+|-damage|p2a: Ekans|52/100
+|move|p2a: Ekans|Rock Slide|p1a: Hitmonchan|[miss]
+|-miss|p2a: Ekans
+|
+|upkeep
+|turn|22
+
+|
+|move|p1a: Hitmonchan|Submission|p2a: Ekans
+|-resisted|p2a: Ekans
+|-damage|p2a: Ekans|31/100
+|-damage|p1a: Hitmonchan|81/100|[from] Recoil|[of] p2a: Ekans
+|move|p2a: Ekans|Body Slam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|56/100
+|
+|upkeep
+|turn|23
+
+|
+|move|p2a: Ekans|Earthquake|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|27/100
+|move|p1a: Hitmonchan|Counter|p2a: Ekans
+|-fail|p1a: Hitmonchan
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Ekans
+|-crit|p2a: Ekans
+|-damage|p2a: Ekans|0 fnt
+|faint|p2a: Ekans
+
+|
+|switch|p2a: Articuno|Articuno, L74|100/100 slp
+|turn|25
+
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Hitmonchan|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|83/100 slp
+|
+|upkeep
+|turn|26
+
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Hitmonchan|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|66/100 slp
+|
+|upkeep
+|turn|27
+
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Hitmonchan|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|48/100 slp
+|
+|upkeep
+|turn|28
+
+|
+|-curestatus|p2a: Articuno|slp|[msg]
+|move|p1a: Hitmonchan|Submission|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-damage|p1a: Hitmonchan|12/100|[from] Recoil|[of] p2a: Articuno
+|faint|p2a: Articuno
+|
+|win|KingPhongV

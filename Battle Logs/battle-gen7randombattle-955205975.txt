@@ -1,0 +1,276 @@
+|init|battle
+|title|SpedSiJed vs. U.c fun
+|j|☆SpedSiJed
+|j|☆U.c fun
+|player|p1|SpedSiJed|99|1040
+|player|p2|U.c fun|169|1048
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Octillery|Octillery, L89, F|100/100
+|switch|p2a: Dewgong|Dewgong, L89, F|100/100
+|turn|1
+|
+|move|p2a: Dewgong|Toxic|p1a: Octillery
+|-status|p1a: Octillery|tox
+|move|p1a: Octillery|Energy Ball|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|49/100
+|
+|-heal|p2a: Dewgong|56/100|[from] item: Leftovers
+|-damage|p1a: Octillery|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Dewgong|Protect|p2a: Dewgong
+|-singleturn|p2a: Dewgong|Protect
+|move|p1a: Octillery|Rock Blast|p2a: Dewgong
+|-activate|p2a: Dewgong|move: Protect
+|
+|-heal|p2a: Dewgong|62/100|[from] item: Leftovers
+|-damage|p1a: Octillery|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Ninetales|Ninetales, L84, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Octillery|Energy Ball|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|94/100|[from] item: Leftovers
+|-damage|p1a: Octillery|64/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Dewgong|Dewgong, L89, F|62/100
+|move|p1a: Octillery|Scald|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dewgong|60/100|[from] item: Leftovers
+|-damage|p1a: Octillery|39/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Dewgong|Protect|p2a: Dewgong
+|-singleturn|p2a: Dewgong|Protect
+|move|p1a: Octillery|Energy Ball|p2a: Dewgong
+|-activate|p2a: Dewgong|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dewgong|67/100|[from] item: Leftovers
+|-damage|p1a: Octillery|9/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Dewgong|Surf|p1a: Octillery
+|-resisted|p1a: Octillery
+|-damage|p1a: Octillery|0 fnt
+|faint|p1a: Octillery
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dewgong|73/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Doublade|Doublade, L82, M|100/100
+|turn|7
+
+|
+|move|p2a: Dewgong|Surf|p1a: Doublade
+|-damage|p1a: Doublade|81/100
+|move|p1a: Doublade|Sacred Sword|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|32/100
+|
+|-weather|none
+|-heal|p2a: Dewgong|38/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Dewgong|Surf|p1a: Doublade
+|-damage|p1a: Doublade|47/100
+|move|p1a: Doublade|Sacred Sword|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|
+|upkeep
+
+|
+|switch|p2a: Absol|Absol, L83, M|100/100
+|turn|9
+
+|
+|detailschange|p2a: Absol|Absol-Mega, L83, M
+|-mega|p2a: Absol|Absol|Absolite
+|move|p1a: Doublade|Shadow Sneak|p2a: Absol
+|-resisted|p2a: Absol
+|-damage|p2a: Absol|88/100
+|move|p2a: Absol|Knock Off|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|-enditem|p1a: Doublade|Eviolite|[from] move: Knock Off|[of] p2a: Absol
+|faint|p1a: Doublade
+|
+|upkeep
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, M|100/100
+|turn|10
+
+|
+|switch|p2a: Ninetales|Ninetales, L84, F|94/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Vivillon|Sleep Powder|p2a: Ninetales
+|-status|p2a: Ninetales|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|cant|p2a: Ninetales|slp
+|move|p1a: Vivillon|Hurricane|p2a: Ninetales
+|-damage|p2a: Ninetales|59/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|cant|p2a: Ninetales|slp
+|move|p1a: Vivillon|Bug Buzz|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|50/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|cant|p2a: Ninetales|slp
+|move|p1a: Vivillon|Hurricane|p2a: Ninetales
+|-damage|p2a: Ninetales|19/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|25/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|-curestatus|p2a: Ninetales|slp|[msg]
+|move|p2a: Ninetales|Fire Blast|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|-weather|none
+|-heal|p2a: Ninetales|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Blacephalon|Blacephalon, L80|100/100
+|turn|15
+
+|
+|move|p1a: Blacephalon|Shadow Ball|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p1a: Blacephalon|91/100|[from] item: Life Orb
+|faint|p2a: Ninetales
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Gyarados|Gyarados, L81, M|100/100
+|turn|16
+
+|
+|move|p1a: Blacephalon|Hidden Power|p2a: Gyarados
+|-damage|p2a: Gyarados|65/100
+|-damage|p1a: Blacephalon|81/100|[from] item: Life Orb
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Gyarados|Waterfall|p1a: Blacephalon
+|-supereffective|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|faint|p1a: Blacephalon
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Goodra|Goodra, L84, M|100/100
+|turn|18
+
+|
+|-zpower|p2a: Gyarados
+|move|p2a: Gyarados|Supersonic Skystrike|p1a: Goodra|[zeffect]
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Heracross|Heracross, L81, M|100/100
+|turn|19
+
+|c|☆SpedSiJed|gg
+
+|
+|detailschange|p1a: Heracross|Heracross-Mega, L81, M
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Heracross
+|move|p1a: Heracross|Substitute|p1a: Heracross
+|-start|p1a: Heracross|Substitute
+|-damage|p1a: Heracross|76/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Gyarados|Bounce|p1a: Heracross|[from]lockedmove
+|-supereffective|p1a: Heracross
+|-end|p1a: Heracross|Substitute
+|move|p1a: Heracross|Close Combat|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|25/100
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Gyarados|Waterfall|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|win|U.c fun

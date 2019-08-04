@@ -1,0 +1,195 @@
+|init|battle
+|title|Ashika369 (❣) vs. SpedSiJed
+|j|☆Ashika369 (❣)
+|j|☆SpedSiJed
+|player|p1|Ashika369 (❣)|157|1000
+|player|p2|SpedSiJed|99|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Floette|Floette-Eternal, L80, F|100/100
+|switch|p2a: Mawile|Mawile, L80, F|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Floette|atk|1
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SpedSiJed)
+
+|
+|switch|p2a: Bronzong|Bronzong, L84|100/100
+|move|p1a: Floette|Hidden Power|p2a: Bronzong
+|-immune|p2a: Bronzong|[from] ability: Levitate
+|
+|upkeep
+|turn|2
+
+|inactiveoff|Battle timer is now OFF.
+
+|
+|move|p1a: Floette|Hidden Power|p2a: Bronzong
+|-immune|p2a: Bronzong|[from] ability: Levitate
+|move|p2a: Bronzong|Gyro Ball|p1a: Floette
+|-supereffective|p1a: Floette
+|-damage|p1a: Floette|0 fnt
+|faint|p1a: Floette
+|
+|upkeep
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, M|100/100
+|turn|3
+
+|
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|40/100
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|-heal|p2a: Bronzong|46/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Cofagrigus|Nasty Plot|p1a: Cofagrigus
+|-boost|p1a: Cofagrigus|spa|2
+|move|p2a: Bronzong|Gyro Ball|p1a: Cofagrigus
+|-crit|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|91/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Levitate|[of] p2a: Bronzong
+|
+|-heal|p1a: Cofagrigus|97/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|52/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Lunala|Lunala, L78|100/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-heal|p1a: Cofagrigus|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Mawile|Mawile, L80, F|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Cofagrigus|atk|1
+|turn|6
+
+|
+|detailschange|p2a: Mawile|Mawile-Mega, L80, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Cofagrigus|Hidden Power|p2a: Mawile
+|-damage|p2a: Mawile|57/100
+|move|p2a: Mawile|Knock Off|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|23/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Huge Power|[of] p2a: Mawile
+|-enditem|p1a: Cofagrigus|Leftovers|[from] move: Knock Off|[of] p2a: Mawile
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Mawile|Knock Off|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p1a: Mamoswine|Mamoswine, L82, F|100/100
+|turn|8
+
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|36/100
+|cant|p2a: Mawile|flinch
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Bronzong|Bronzong, L84|52/100
+|move|p1a: Mamoswine|Icicle Crash|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|35/100
+|
+|-heal|p2a: Bronzong|41/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|23/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|24/100
+|
+|-heal|p2a: Bronzong|29/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|13/100
+|move|p2a: Bronzong|Toxic|p1a: Mamoswine
+|-status|p1a: Mamoswine|tox
+|
+|-heal|p2a: Bronzong|19/100|[from] item: Leftovers
+|-damage|p1a: Mamoswine|18/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Arcanine|Arcanine, L84, F|100/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|85/100
+|
+|-heal|p2a: Bronzong|25/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100
+|move|p2a: Bronzong|Explosion|p1a: Arcanine
+|-damage|p1a: Arcanine|42/100
+|faint|p2a: Bronzong
+|
+|upkeep
+
+|
+|switch|p2a: Zeraora|Zeraora, L82|100/100
+|turn|14
+
+|
+|move|p2a: Zeraora|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|-damage|p2a: Zeraora|91/100|[from] item: Life Orb
+|faint|p1a: Arcanine
+|
+|upkeep
+
+|-message|Ashika369 (❣) forfeited.
+
+|
+|win|SpedSiJed

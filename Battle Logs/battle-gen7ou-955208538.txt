@@ -1,0 +1,278 @@
+|init|battle
+|title|tero57 vs. Kirin-Unbound
+|j|☆tero57
+|j|☆Kirin-Unbound
+|player|p1|tero57|275|1380
+|player|p2|Kirin-Unbound|161|1353
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pinsir, F|item
+|poke|p1|Manaphy|item
+|poke|p1|Azelf|item
+|poke|p1|Magearna|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Blacephalon|item
+|poke|p2|Medicham, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Tangrowth, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tero57)
+|
+|start
+|switch|p1a: Elf|Azelf|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|1
+|
+|move|p2a: Tapu Koko|U-turn|p1a: Elf
+|-supereffective|p1a: Elf
+|-damage|p1a: Elf|49/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Elf|atk|1
+|move|p1a: Elf|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Kirin-Unbound|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Landorus|U-turn|p1a: Elf
+|-supereffective|p1a: Elf
+|-damage|p1a: Elf|0 fnt
+|faint|p1a: Elf
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: Drill|Excadrill, M|100/100
+|-ability|p1a: Drill|Mold Breaker
+|turn|3
+|
+|move|p1a: Drill|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|6/100
+|-enditem|p2a: Rotom|Iapapa Berry|[eat]
+|-heal|p2a: Rotom|56/100|[from] item: Iapapa Berry
+|move|p2a: Rotom|Defog|p1a: Drill
+|-unboost|p1a: Drill|evasion|1
+|-sideend|p2: Kirin-Unbound|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Ban Mana|Manaphy|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ban Mana|atk|1
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Landorus|U-turn|p1a: Ban Mana
+|-damage|p1a: Ban Mana|75/100
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100|[from]move: U-turn
+|move|p1a: Ban Mana|Tail Glow|p1a: Ban Mana
+|-boost|p1a: Ban Mana|spa|3
+|
+|-heal|p1a: Ban Mana|81/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Drill|Excadrill, M|100/100
+|-ability|p1a: Drill|Mold Breaker
+|-zpower|p2a: Tapu Koko
+|move|p2a: Tapu Koko|Gigavolt Havoc|p1a: Drill|[zeffect]
+|-immune|p1a: Drill
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Drill|atk|1
+|move|p1a: Drill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|70/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Drill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|39/100
+|move|p2a: Landorus|Earthquake|p1a: Drill
+|-supereffective|p1a: Drill
+|-damage|p1a: Drill|0 fnt
+|faint|p1a: Drill
+|
+|upkeep
+
+|
+|switch|p1a: Pin|Pinsir, F|100/100
+|turn|9
+
+|
+|switch|p2a: Rotom|Rotom-Wash|56/100
+|detailschange|p1a: Pin|Pinsir-Mega, F
+|-mega|p1a: Pin|Pinsir|Pinsirite
+|move|p1a: Pin|Return|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|27/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Pin|Return|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|11
+
+|
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Pin
+|-supereffective|p1a: Pin
+|-damage|p1a: Pin|0 fnt
+|faint|p1a: Pin
+|
+|upkeep
+
+|
+|switch|p1a: Mag|Magearna|100/100
+|turn|12
+
+|
+|move|p2a: Tapu Koko|U-turn|p1a: Mag
+|-resisted|p1a: Mag
+|-damage|p1a: Mag|97/100
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|39/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mag|atk|1
+|move|p1a: Mag|Shift Gear|p1a: Mag
+|-boost|p1a: Mag|spe|2
+|-boost|p1a: Mag|atk|1
+|
+|-heal|p1a: Mag|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Mag|Flash Cannon|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|88/100
+|
+|-heal|p2a: Heatran|95/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Mag|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|5/100
+|move|p2a: Heatran|Magma Storm|p1a: Mag|[miss]
+|-miss|p2a: Heatran|p1a: Mag
+|
+|-heal|p2a: Heatran|12/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Mag|Thunderbolt|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|84/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Lon|Blacephalon|100/100
+|move|p2a: Tangrowth|Earthquake|p1a: Lon
+|-supereffective|p1a: Lon
+|-damage|p1a: Lon|12/100
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Heatran|Heatran, F|12/100
+|-zpower|p1a: Lon
+|move|p1a: Lon|Never-Ending Nightmare|p2a: Heatran|[zeffect]
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-ability|p1a: Lon|Beast Boost|boost
+|-boost|p1a: Lon|spe|1
+|
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, M|100/100
+|turn|18
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Bullet Punch|p1a: Lon
+|-resisted|p1a: Lon
+|-damage|p1a: Lon|0 fnt
+|faint|p1a: Lon
+|
+|upkeep
+
+|
+|switch|p1a: Ban Mana|Manaphy|81/100
+|turn|19
+
+|
+|move|p1a: Ban Mana|Tail Glow|p1a: Ban Mana
+|-boost|p1a: Ban Mana|spa|3
+|move|p2a: Medicham|High Jump Kick|p1a: Ban Mana
+|-damage|p1a: Ban Mana|0 fnt
+|faint|p1a: Ban Mana
+|
+|upkeep
+
+|
+|switch|p1a: Mag|Magearna|100/100
+|turn|20
+
+|
+|move|p2a: Medicham|High Jump Kick|p1a: Mag
+|-damage|p1a: Mag|0 fnt
+|faint|p1a: Mag
+|
+|win|Kirin-Unbound

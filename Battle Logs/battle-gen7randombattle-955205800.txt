@@ -1,0 +1,407 @@
+|init|battle
+|title|runamaria vs. Nick Alabro
+|j|☆runamaria
+|j|☆Nick Alabro
+|player|p1|runamaria|170|1503
+|player|p2|Nick Alabro|102|1484
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Claydol|Claydol, L88|100/100
+|switch|p2a: Aurorus|Aurorus, L88, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by runamaria)
+
+|
+|switch|p1a: Genesect|Genesect-Douse, L78|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|move|p2a: Aurorus|Thunder Wave|p1a: Genesect
+|-status|p1a: Genesect|par
+|
+|upkeep
+|turn|2
+
+|inactive|Nick Alabro has 120 seconds left.
+
+|
+|switch|p2a: Zekrom|Zekrom, L78|100/100
+|-ability|p2a: Zekrom|Teravolt
+|move|p1a: Genesect|Techno Blast|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|85/100
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Flygon|Flygon, L84, M|100/100
+|move|p2a: Zekrom|Hone Claws|p2a: Zekrom
+|-boost|p2a: Zekrom|atk|1
+|-boost|p2a: Zekrom|accuracy|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Flygon|Earthquake|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|23/100
+|move|p2a: Zekrom|Outrage|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+
+|
+|switch|p1a: Genesect|Genesect-Douse, L78|100/100 par
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|5
+
+|
+|move|p2a: Zekrom|Outrage|p1a: Genesect|[from]lockedmove
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|50/100 par
+|move|p1a: Genesect|Iron Head|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-crit|p2a: Zekrom
+|-damage|p2a: Zekrom|5/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Genesect|Extreme Speed|p2a: Zekrom
+|-damage|p2a: Zekrom|0 fnt
+|faint|p2a: Zekrom
+|
+|upkeep
+
+|inactive|Nick Alabro has 120 seconds left.
+
+|
+|switch|p2a: Bisharp|Bisharp, L82, M|100/100
+|turn|7
+
+|c|☆Nick Alabro|I am sharp
+
+|c|☆Nick Alabro|I am...
+
+|c|☆Nick Alabro|Bisharp
+
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Genesect|U-turn|p2a: Bisharp
+|-damage|p2a: Bisharp|73/100
+
+|
+|switch|p1a: Gyarados|Gyarados, L80, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+
+|inactive|Nick Alabro has 120 seconds left.
+
+|inactive|Nick Alabro has 90 seconds left.
+
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, L80, F
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Bisharp|Iron Head|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|59/100
+|-damage|p2a: Bisharp|63/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+
+|inactive|runamaria has 120 seconds left.
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+
+|
+|switch|p2a: Kricketune|Kricketune, L89, F|100/100
+|turn|10
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Kricketune
+|-damage|p2a: Kricketune|19/100
+|move|p2a: Kricketune|Leech Life|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-heal|p2a: Kricketune|49/100|[from] drain|[of] p1a: Gyarados
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Kricketune|55/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Braviary|Braviary, L86, M|100/100
+|turn|11
+
+|inactive|Nick Alabro has 90 seconds left.
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Braviary|94/100|[from] Sandstorm
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Claydol|Claydol, L88|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Claydol
+|-sidestart|p1: runamaria|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+
+|inactive|Nick Alabro has 60 seconds left.
+
+|
+|switch|p2a: Kricketune|Kricketune, L89, F|55/100
+|move|p1a: Claydol|Rapid Spin|p2a: Kricketune
+|-damage|p2a: Kricketune|48/100
+|-sideend|p1: runamaria|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kricketune|42/100|[from] Sandstorm
+|-heal|p2a: Kricketune|48/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|Nick Alabro has 30 seconds left.
+
+|inactive|Nick Alabro has 20 seconds left.
+
+|inactive|Nick Alabro has 15 seconds left.
+
+|
+|move|p1a: Claydol|Psychic|p2a: Kricketune
+|-damage|p2a: Kricketune|4/100
+|move|p2a: Kricketune|Knock Off|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|57/100
+|-enditem|p1a: Claydol|Assault Vest|[from] move: Knock Off|[of] p2a: Kricketune
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kricketune|0 fnt|[from] Sandstorm
+|faint|p2a: Kricketune
+|upkeep
+
+|inactive|Nick Alabro has 25 seconds left this turn.
+
+|inactive|Nick Alabro has 20 seconds left.
+
+|
+|switch|p2a: Aurorus|Aurorus, L88, F|100/100
+|turn|15
+
+|inactive|Nick Alabro has 30 seconds left this turn.
+
+|
+|switch|p1a: Chimecho|Chimecho, L89, F|100/100
+|move|p2a: Aurorus|Thunder Wave|p1a: Chimecho|[miss]
+|-miss|p2a: Aurorus|p1a: Chimecho
+|
+|-weather|none
+|upkeep
+|turn|16
+
+|
+|move|p1a: Chimecho|Psychic|p2a: Aurorus
+|-damage|p2a: Aurorus|71/100
+|move|p2a: Aurorus|Thunder Wave|p1a: Chimecho
+|-status|p1a: Chimecho|par
+|
+|-heal|p2a: Aurorus|77/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Aurorus|Ancient Power|p1a: Chimecho
+|-damage|p1a: Chimecho|74/100 par
+|move|p1a: Chimecho|Psychic|p2a: Aurorus
+|-damage|p2a: Aurorus|52/100
+|
+|-heal|p2a: Aurorus|58/100|[from] item: Leftovers
+|-heal|p1a: Chimecho|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Aurorus|Ancient Power|p1a: Chimecho
+|-damage|p1a: Chimecho|58/100 par
+|cant|p1a: Chimecho|par
+|
+|-heal|p2a: Aurorus|64/100|[from] item: Leftovers
+|-heal|p1a: Chimecho|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|inactive|Nick Alabro has 60 seconds left.
+
+|
+|move|p2a: Aurorus|Ancient Power|p1a: Chimecho
+|-damage|p1a: Chimecho|40/100 par
+|move|p1a: Chimecho|Heal Bell|p1a: Chimecho
+|-activate|p1a: Chimecho|move: Heal Bell
+|-curestatus|p1a: Chimecho|par|[msg]
+|-curestatus|p1: Genesect|par|[msg]
+|
+|-heal|p1a: Chimecho|46/100|[from] item: Leftovers
+|-heal|p2a: Aurorus|70/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Chimecho|Psychic|p2a: Aurorus
+|-damage|p2a: Aurorus|45/100
+|move|p2a: Aurorus|Ancient Power|p1a: Chimecho
+|-damage|p1a: Chimecho|24/100
+|
+|-heal|p1a: Chimecho|30/100|[from] item: Leftovers
+|-heal|p2a: Aurorus|51/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Chimecho|Healing Wish|p1a: Chimecho
+|faint|p1a: Chimecho
+|move|p2a: Aurorus|Ancient Power|p1: Chimecho|[notarget]
+|-fail|p2a: Aurorus
+|
+|-heal|p2a: Aurorus|57/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Genesect|Genesect-Douse, L78|50/100
+|-heal|p1a: Genesect|100/100|[from] move: Healing Wish
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|turn|22
+
+|
+|move|p1a: Genesect|Techno Blast|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-crit|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|faint|p2a: Aurorus
+|
+|upkeep
+
+|
+|switch|p2a: Registeel|Registeel, L84|100/100
+|turn|23
+
+|
+|switch|p1a: Claydol|Claydol, L88|57/100
+|move|p2a: Registeel|Thunder Wave|p1a: Claydol
+|-immune|p1a: Claydol
+|
+|upkeep
+|turn|24
+
+|inactive|Nick Alabro has 90 seconds left.
+
+|
+|move|p1a: Claydol|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|56/100
+|move|p2a: Registeel|Iron Head|p1a: Claydol
+|-damage|p1a: Claydol|31/100
+|
+|-heal|p2a: Registeel|63/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Claydol|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|14/100
+|move|p2a: Registeel|Iron Head|p1a: Claydol
+|-damage|p1a: Claydol|9/100
+|
+|-heal|p2a: Registeel|20/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|inactive|Nick Alabro has 90 seconds left.
+
+|
+|move|p1a: Claydol|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|upkeep
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|27
+
+|
+|move|p1a: Claydol|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|55/100
+|move|p2a: Gigalith|Stone Edge|p1a: Claydol|[miss]
+|-miss|p2a: Gigalith|p1a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|61/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Claydol|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|16/100
+|move|p2a: Gigalith|Stone Edge|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|22/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Genesect|Genesect-Douse, L78|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|29
+
+|
+|move|p1a: Genesect|Techno Blast|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|win|runamaria

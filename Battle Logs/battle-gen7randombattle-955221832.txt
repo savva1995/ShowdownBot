@@ -1,0 +1,237 @@
+|init|battle
+|title|Wey314 vs. pvijayan
+|j|☆Wey314
+|j|☆pvijayan
+|player|p1|Wey314|238|1568
+|player|p2|pvijayan|3|1513
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gothitelle|Gothitelle, L82, M|100/100
+|switch|p2a: Gengar|Gengar, L78, M|100/100
+|turn|1
+|
+|switch|p2a: Giratina|Giratina-Origin, L78|100/100
+|move|p1a: Gothitelle|Psychic|p2a: Giratina
+|-damage|p2a: Giratina|79/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pvijayan)
+|
+|switch|p1a: Zapdos|Zapdos, L80|100/100
+|move|p2a: Giratina|Shadow Ball|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|46/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|60/100
+|-status|p2a: Giratina|par
+|-damage|p1a: Zapdos|36/100|[from] item: Life Orb
+|move|p2a: Giratina|Draco Meteor|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-unboost|p2a: Giratina|spa|2
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|switch|p1a: Galvantula|Galvantula, L84, F|100/100
+|turn|4
+|
+|switch|p2a: Whiscash|Whiscash, L89, M|100/100
+|move|p1a: Galvantula|Sticky Web|p2a: Whiscash
+|-sidestart|p2: pvijayan|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Celebi|Celebi, L82|100/100
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Salamence|Salamence, L81, M|100/100
+|move|p1a: Celebi|Leaf Storm|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|89/100
+|-unboost|p1a: Celebi|spa|2
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Eelektross|Eelektross, L88, F|100/100
+|-zpower|p2a: Salamence
+|move|p2a: Salamence|Supersonic Skystrike|p1a: Eelektross|[zeffect]
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|62/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|move|p1a: Eelektross|Thunderbolt|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|26/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Salamence|Outrage|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|
+|switch|p1a: Celebi|Celebi, L82|100/100
+|turn|10
+|
+|move|p2a: Salamence|Outrage|p1a: Celebi|[from]lockedmove
+|-damage|p1a: Celebi|12/100
+|-start|p2a: Salamence|confusion|[fatigue]
+|move|p1a: Celebi|Psychic|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-heal|p1a: Celebi|18/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Venomoth|Venomoth, L83, M|100/100
+|-activate|p2a: Venomoth|move: Sticky Web
+|-unboost|p2a: Venomoth|spe|1
+|turn|11
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|68/100
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-heal|p1a: Celebi|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Celebi|Hidden Power|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|77/100
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-heal|p2a: Venomoth|83/100|[from] item: Black Sludge
+|-heal|p1a: Celebi|80/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Gothitelle|Gothitelle, L82, M|100/100
+|move|p2a: Venomoth|Bug Buzz|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-heal|p2a: Venomoth|89/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, L81, F|100/100
+|turn|14
+|
+|move|p2a: Venomoth|Sludge Bomb|p1a: Dragonite
+|-damage|p1a: Dragonite|71/100
+|move|p1a: Dragonite|Fire Punch|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|15/100
+|
+|-heal|p2a: Venomoth|21/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|
+|upkeep
+|
+|switch|p2a: Whiscash|Whiscash, L89, M|100/100
+|-activate|p2a: Whiscash|move: Sticky Web
+|-unboost|p2a: Whiscash|spe|1
+|turn|16
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dragonite|Outrage|p2a: Whiscash
+|-damage|p2a: Whiscash|32/100
+|move|p2a: Whiscash|Stone Edge|p1a: Dragonite|[miss]
+|-miss|p2a: Whiscash|p1a: Dragonite
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Whiscash|[from]lockedmove
+|-damage|p2a: Whiscash|0 fnt
+|-start|p1a: Dragonite|confusion|[fatigue]
+|faint|p2a: Whiscash
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-end|p1a: Dragonite|confusion
+|
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric, L88, M|100/100
+|-activate|p2a: Manectric|move: Sticky Web
+|-unboost|p2a: Manectric|spe|1
+|turn|19
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|upkeep
+
+|
+|switch|p2a: Gengar|Gengar, L78, M|100/100
+|-activate|p2a: Gengar|move: Sticky Web
+|-unboost|p2a: Gengar|spe|1
+|turn|20
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L78, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p1a: Dragonite|Outrage|p2a: Gengar|[from]lockedmove
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+
+|-message|pvijayan forfeited.
+
+|
+|win|Wey314

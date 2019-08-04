@@ -1,0 +1,420 @@
+|init|battle
+|title|Kirst Asher vs. SamuelJ07
+|j|☆Kirst Asher
+|j|☆SamuelJ07
+|player|p1|Kirst Asher|2|1614
+|player|p2|SamuelJ07|266|1590
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lugia|Lugia, L78|100/100
+|switch|p2a: Klefki|Klefki, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SamuelJ07)
+|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: SamuelJ07|Reflect
+|move|p1a: Lugia|Thunder Wave|p2a: Klefki
+|-status|p2a: Klefki|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Klefki|Toxic|p1a: Lugia
+|-status|p1a: Lugia|tox
+|move|p1a: Lugia|Whirlwind|p2a: Klefki
+|drag|p2a: Dialga|Dialga, L78|100/100
+|-ability|p2a: Dialga|Pressure
+|
+|-damage|p1a: Lugia|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Lugia|Thunder Wave|p2a: Dialga
+|-status|p2a: Dialga|par
+|move|p2a: Dialga|Stealth Rock|p1a: Lugia
+|-sidestart|p1: Kirst Asher|move: Stealth Rock
+|
+|-heal|p1a: Lugia|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Lugia|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Dialga|Thunderbolt|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|49/100 tox
+|move|p1a: Lugia|Whirlwind|p2a: Dialga
+|drag|p2a: Ambipom|Ambipom, L86, M|100/100
+|
+|-heal|p1a: Lugia|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Lugia|37/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Ambipom|Return|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|
+|upkeep
+|
+|switch|p1a: Blastoise|Blastoise, L84, F|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|detailschange|p1a: Blastoise|Blastoise-Mega, L84, F
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Ambipom|Return|p1a: Blastoise
+|-damage|p1a: Blastoise|38/100
+|move|p1a: Blastoise|Aura Sphere|p2a: Ambipom
+|-supereffective|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+|
+|upkeep
+
+|
+|switch|p2a: Dialga|Dialga, L78|100/100 par
+|-ability|p2a: Dialga|Pressure
+|turn|7
+
+|
+|move|p1a: Blastoise|Aura Sphere|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|27/100 par
+|move|p2a: Dialga|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-heal|p2a: Dialga|33/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Walrein|Walrein, L89, M|100/100
+|-damage|p1a: Walrein|76/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Walrein|Surf|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|14/100 par
+|move|p2a: Dialga|Thunderbolt|p1a: Walrein
+|-supereffective|p1a: Walrein
+|-damage|p1a: Walrein|33/100
+|
+|-heal|p1a: Walrein|40/100|[from] item: Leftovers
+|-heal|p2a: Dialga|20/100 par|[from] item: Leftovers
+|-sideend|p2: SamuelJ07|Reflect
+|upkeep
+|turn|9
+
+|
+|move|p1a: Walrein|Surf|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|-heal|p1a: Walrein|46/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, L82, F|100/100 par
+|turn|10
+
+|
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: SamuelJ07|move: Light Screen
+|move|p1a: Walrein|Roar|p2a: Klefki
+|drag|p2a: Emboar|Emboar, L85, M|100/100
+|
+|-heal|p1a: Walrein|52/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Walrein|Toxic|p2a: Emboar
+|-status|p2a: Emboar|tox
+|move|p2a: Emboar|Superpower|p1a: Walrein
+|-supereffective|p1a: Walrein
+|-damage|p1a: Walrein|0 fnt
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|faint|p1a: Walrein
+|
+|-damage|p2a: Emboar|94/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, L87, M|100/100
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p2a: Klefki|Klefki, L82, F|100/100 par
+|move|p1a: Gallade|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|83/100 par
+|-enditem|p2a: Klefki|Light Clay|[from] move: Knock Off|[of] p1a: Gallade
+|
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Regirock|Regirock, L88|100/100
+|-damage|p1a: Regirock|88/100|[from] Stealth Rock
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: SamuelJ07|Reflect
+|
+|upkeep
+|turn|14
+
+|
+|cant|p2a: Klefki|par
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Klefki|Toxic|p1a: Regirock|[miss]
+|-miss|p2a: Klefki|p1a: Regirock
+|move|p1a: Regirock|Rock Slide|p2a: Klefki|[miss]
+|-miss|p1a: Regirock|p2a: Klefki
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Klefki|Toxic|p1a: Regirock
+|-status|p1a: Regirock|tox
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|-damage|p1a: Regirock|82/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Regirock
+|-damage|p1a: Regirock|75/100 tox
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|-damage|p1a: Regirock|64/100 tox|[from] psn
+|-sideend|p2: SamuelJ07|Reflect
+|-sideend|p2: SamuelJ07|move: Light Screen
+|upkeep
+|turn|18
+
+|
+|cant|p2a: Klefki|par
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|-damage|p1a: Regirock|46/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: SamuelJ07|Reflect
+|move|p1a: Regirock|Rest|p1a: Regirock
+|-status|p1a: Regirock|slp|[from] move: Rest
+|-heal|p1a: Regirock|100/100 slp|[silent]
+|-enditem|p1a: Regirock|Chesto Berry|[eat]
+|-curestatus|p1a: Regirock|slp|[msg]
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Klefki|Toxic|p1a: Regirock
+|-status|p1a: Regirock|tox
+|move|p1a: Regirock|Stone Edge|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|46/100 par
+|
+|-damage|p1a: Regirock|95/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Emboar|Emboar, L85, M|94/100 tox
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|-damage|p2a: Emboar|88/100 tox|[from] psn
+|-damage|p1a: Regirock|83/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Emboar|Flare Blitz|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|77/100 tox
+|-damage|p2a: Emboar|86/100 tox|[from] Recoil
+|move|p1a: Regirock|Stone Edge|p2a: Emboar
+|-damage|p2a: Emboar|10/100 tox
+|
+|-damage|p2a: Emboar|0 fnt|[from] psn
+|faint|p2a: Emboar
+|-damage|p1a: Regirock|59/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Regice|Regice, L89|100/100
+|turn|23
+
+|
+|move|p2a: Regice|Focus Blast|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|-sideend|p2: SamuelJ07|Reflect
+|upkeep
+
+|
+|switch|p1a: Arcanine|Arcanine, L84, M|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-fail|p2a: Regice|unboost|[from] ability: Clear Body|[of] p2a: Regice
+|turn|24
+
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Regice
+|-supereffective|p2a: Regice
+|-crit|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|-damage|p1a: Arcanine|43/100|[from] Recoil
+|-damage|p1a: Arcanine|33/100|[from] item: Life Orb
+|faint|p2a: Regice
+|
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, L82, F|46/100 par
+|turn|25
+
+|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: SamuelJ07|Reflect
+|move|p1a: Arcanine|Flare Blitz|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|-damage|p1a: Arcanine|21/100|[from] Recoil
+|-damage|p1a: Arcanine|11/100|[from] item: Life Orb
+|faint|p2a: Klefki
+|
+|upkeep
+
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|100/100
+|turn|26
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|61/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Arcanine
+|-damage|p1a: Arcanine|18/100
+|
+|upkeep
+|turn|27
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|68/100
+|move|p2a: Mandibuzz|Brave Bird|p1a: Arcanine
+|-damage|p1a: Arcanine|31/100
+|-damage|p2a: Mandibuzz|90/100|[from] Recoil
+|
+|-heal|p2a: Mandibuzz|96/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|81/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Arcanine
+|-damage|p1a: Arcanine|41/100
+|
+|-heal|p2a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|91/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Arcanine
+|-damage|p1a: Arcanine|46/100
+|
+|-sideend|p2: SamuelJ07|Reflect
+|upkeep
+|turn|30
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|96/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Arcanine
+|-damage|p1a: Arcanine|53/100
+|
+|upkeep
+|turn|31
+
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|50/100
+|-damage|p1a: Arcanine|34/100|[from] Recoil
+|-damage|p1a: Arcanine|24/100|[from] item: Life Orb
+|move|p2a: Mandibuzz|Taunt|p1a: Arcanine
+|-start|p1a: Arcanine|move: Taunt
+|
+|-heal|p2a: Mandibuzz|56/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|8/100
+|-status|p2a: Mandibuzz|brn
+|-damage|p1a: Arcanine|7/100|[from] Recoil
+|-damage|p1a: Arcanine|0 fnt|[from] item: Life Orb
+|faint|p1a: Arcanine
+|move|p2a: Mandibuzz|Brave Bird|p1: Arcanine|[notarget]
+|-fail|p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|14/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|8/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, L87, M|94/100
+|-damage|p1a: Gallade|88/100|[from] Stealth Rock
+|turn|33
+
+|
+|move|p1a: Gallade|Drain Punch|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-heal|p1a: Gallade|93/100|[from] drain|[of] p2a: Mandibuzz
+|faint|p2a: Mandibuzz
+|
+|win|Kirst Asher

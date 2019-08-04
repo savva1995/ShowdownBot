@@ -1,0 +1,357 @@
+|init|battle
+|title|affan asim vs. Gamerjas
+|j|☆affan asim
+|j|☆Gamerjas
+|player|p1|affan asim|217|1125
+|player|p2|Gamerjas|170|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, L82, M|100/100
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by affan asim)
+
+|inactive|Gamerjas has 120 seconds left.
+
+|
+|switch|p2a: Camerupt|Camerupt, L85, M|100/100
+|move|p1a: Amoonguss|Stun Spore|p2a: Camerupt|[miss]
+|-miss|p1a: Amoonguss|p2a: Camerupt
+|
+|upkeep
+|turn|2
+
+|inactive|affan asim has 120 seconds left.
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Gamerjas
+|detailschange|p2a: Camerupt|Camerupt-Mega, L85, M
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Camerupt|Will-O-Wisp|p1a: Pyroar
+|-immune|p1a: Pyroar
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Camerupt
+|-resisted|p2a: Camerupt
+|-damage|p2a: Camerupt|78/100
+|move|p2a: Camerupt|Earth Power|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|upkeep
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, F|100/100
+|turn|4
+
+|
+|move|p2a: Camerupt|Stealth Rock|p1a: Reuniclus
+|-sidestart|p1: affan asim|move: Stealth Rock
+|move|p1a: Reuniclus|Psychic|p2a: Camerupt
+|-damage|p2a: Camerupt|28/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Lugia|Lugia, L78|100/100
+|move|p1a: Reuniclus|Psychic|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|92/100
+|
+|-heal|p2a: Lugia|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Lugia|Thunder Wave|p1a: Reuniclus
+|-status|p1a: Reuniclus|par
+|cant|p1a: Reuniclus|par
+|
+|-heal|p2a: Lugia|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Lugia|Substitute|p2a: Lugia
+|-start|p2a: Lugia|Substitute
+|-damage|p2a: Lugia|76/100
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-heal|p2a: Lugia|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Lugia
+|-resisted|p2a: Lugia
+|-activate|p2a: Lugia|move: Substitute|[damage]
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|100/100
+|-singleturn|p2a: Lugia|move: Roost
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Reuniclus|Psychic|p2a: Lugia
+|-resisted|p2a: Lugia
+|-activate|p2a: Lugia|move: Substitute|[damage]
+|move|p2a: Lugia|Psychic|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|87/100 par
+|
+|upkeep
+|turn|10
+
+|inactive|affan asim has 120 seconds left.
+
+|
+|move|p1a: Reuniclus|Psychic|p2a: Lugia
+|-resisted|p2a: Lugia
+|-end|p2a: Lugia|Substitute
+|move|p2a: Lugia|Psychic|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|73/100 par
+|
+|upkeep
+|turn|11
+
+|inactive|affan asim has 120 seconds left.
+
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|96/100
+|move|p2a: Lugia|Psychic|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|61/100 par
+|
+|-heal|p2a: Lugia|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+
+|inactive|affan asim has 120 seconds left.
+
+|
+|switch|p1a: Vanilluxe|Vanilluxe, L85, M|100/100
+|-damage|p1a: Vanilluxe|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Lugia|Substitute|p2a: Lugia
+|-start|p2a: Lugia|Substitute
+|-damage|p2a: Lugia|76/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Lugia|69/100|[from] Hail
+|-heal|p2a: Lugia|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|affan asim has 120 seconds left.
+
+|
+|move|p2a: Lugia|Psychic|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|49/100
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-end|p2a: Lugia|Substitute
+|-damage|p1a: Vanilluxe|39/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Lugia|69/100|[from] Hail
+|-heal|p2a: Lugia|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|affan asim has 120 seconds left.
+
+|
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|move|p1a: Vanilluxe|Blizzard|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|64/100
+|-status|p2a: Cobalion|frz
+|-damage|p1a: Vanilluxe|30/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cobalion|58/100 frz|[from] Hail
+|-heal|p2a: Cobalion|64/100 frz|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|affan asim has 120 seconds left.
+
+|
+|cant|p2a: Cobalion|frz
+|move|p1a: Vanilluxe|Blizzard|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|31/100 frz
+|-damage|p1a: Vanilluxe|20/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cobalion|25/100 frz|[from] Hail
+|-heal|p2a: Cobalion|31/100 frz|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|affan asim has 120 seconds left.
+
+|
+|cant|p2a: Cobalion|frz
+|move|p1a: Vanilluxe|Blizzard|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|-damage|p1a: Vanilluxe|11/100|[from] item: Life Orb
+|faint|p2a: Cobalion
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Camerupt|Camerupt-Mega, L85, M|28/100
+|turn|17
+
+|
+|move|p1a: Vanilluxe|Blizzard|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|-damage|p1a: Vanilluxe|1/100|[from] item: Life Orb
+|faint|p2a: Camerupt
+|
+|upkeep
+
+|
+|switch|p2a: Dodrio|Dodrio, L88, M|100/100
+|turn|18
+
+|
+|move|p2a: Dodrio|Quick Attack|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|upkeep
+
+|
+|switch|p1a: Drapion|Drapion, L84, M|100/100
+|-damage|p1a: Drapion|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Dodrio|Swords Dance|p2a: Dodrio
+|-boost|p2a: Dodrio|atk|2
+|move|p1a: Drapion|Poison Jab|p2a: Dodrio
+|-damage|p2a: Dodrio|63/100
+|
+|-heal|p2a: Dodrio|69/100|[from] item: Leftovers
+|-heal|p1a: Drapion|94/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+
+|
+|move|p2a: Dodrio|Return|p1a: Drapion
+|-damage|p1a: Drapion|3/100
+|move|p1a: Drapion|Knock Off|p2a: Dodrio
+|-damage|p2a: Dodrio|23/100
+|-enditem|p2a: Dodrio|Leftovers|[from] move: Knock Off|[of] p1a: Drapion
+|
+|-heal|p1a: Drapion|9/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+
+|
+|move|p2a: Dodrio|Quick Attack|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|upkeep
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, F|61/100 par
+|turn|22
+
+|
+|move|p2a: Dodrio|Return|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p1a: Maractus|Maractus, L89, F|100/100
+|-damage|p1a: Maractus|88/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p1a: Maractus|Sucker Punch|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|-damage|p1a: Maractus|79/100|[from] item: Life Orb
+|faint|p2a: Dodrio
+|
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|24
+
+|
+|move|p2a: Xurkitree|Hidden Power|p1a: Maractus
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|22/100
+|move|p1a: Maractus|Toxic|p2a: Xurkitree
+|-status|p2a: Xurkitree|tox
+|
+|-damage|p2a: Xurkitree|95/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|move|p1a: Maractus|Sucker Punch||[still]
+|-fail|p1a: Maractus
+|move|p2a: Xurkitree|Electric Terrain|p2a: Xurkitree
+|-fieldstart|move: Electric Terrain
+|
+|-damage|p2a: Xurkitree|83/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|move|p1a: Maractus|Sucker Punch|p2a: Xurkitree
+|-damage|p2a: Xurkitree|54/100 tox
+|-damage|p1a: Maractus|12/100|[from] item: Life Orb
+|move|p2a: Xurkitree|Hidden Power|p1a: Maractus
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|0 fnt
+|faint|p1a: Maractus
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|-damage|p2a: Xurkitree|36/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Amoonguss|Amoonguss, L82, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|turn|27
+
+|
+|-zpower|p2a: Xurkitree
+|move|p2a: Xurkitree|Gigavolt Havoc|p1a: Amoonguss|[zeffect]
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|win|Gamerjas

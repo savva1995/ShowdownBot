@@ -1,0 +1,176 @@
+|init|battle
+|title|Yannik2000 vs. dun 26
+|j|☆Yannik2000
+|j|☆dun 26
+|player|p1|Yannik2000|2|1829
+|player|p2|dun 26|192|1730
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Audino|Audino, L86, M|100/100
+|switch|p2a: Simisage|Simisage, L89, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dun 26)
+
+|
+|detailschange|p1a: Audino|Audino-Mega, L86, M
+|-mega|p1a: Audino|Audino|Audinite
+|move|p2a: Simisage|Substitute|p2a: Simisage
+|-start|p2a: Simisage|Substitute
+|-damage|p2a: Simisage|76/100
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Simisage|Giga Drain|p1a: Audino
+|-damage|p1a: Audino|82/100
+|-heal|p2a: Simisage|86/100|[from] drain|[of] p1a: Audino
+|-damage|p2a: Simisage|76/100|[from] item: Life Orb
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Audino
+|-supereffective|p1a: Audino
+|-damage|p1a: Audino|29/100
+|move|p1a: Audino|Fire Blast|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|0 fnt
+|faint|p2a: Solgaleo
+|
+|upkeep
+
+|
+|switch|p2a: Gastrodon|Gastrodon, L88, M|100/100
+|turn|5
+
+|
+|move|p1a: Audino|Hyper Voice|p2a: Gastrodon
+|-damage|p2a: Gastrodon|38/100
+|move|p2a: Gastrodon|Earthquake|p1a: Audino
+|-damage|p1a: Audino|6/100
+|
+|-heal|p2a: Gastrodon|44/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Audino|Hyper Voice|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|upkeep
+
+|
+|switch|p2a: Excadrill|Excadrill, L80, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|7
+
+|
+|move|p2a: Excadrill|Iron Head|p1a: Audino
+|-supereffective|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|faint|p1a: Audino
+|
+|upkeep
+
+|inactive|Yannik2000 has 120 seconds left.
+
+|
+|switch|p1a: Medicham|Medicham, L86, F|100/100
+|turn|8
+
+|
+|switch|p2a: Druddigon|Druddigon, L86, F|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: Medicham|High Jump Kick|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|upkeep
+
+|
+|switch|p2a: Simisage|Simisage, L89, F|76/100
+|turn|9
+
+|
+|move|p2a: Simisage|Giga Drain|p1a: Medicham
+|-damage|p1a: Medicham|47/100
+|-heal|p2a: Simisage|99/100|[from] drain|[of] p1a: Medicham
+|-damage|p2a: Simisage|90/100|[from] item: Life Orb
+|move|p1a: Medicham|High Jump Kick|p2a: Simisage
+|-crit|p2a: Simisage
+|-damage|p2a: Simisage|0 fnt
+|faint|p2a: Simisage
+|
+|upkeep
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|spa|1
+|turn|10
+
+|
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Medicham
+|-supereffective|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|-damage|p2a: Porygon-Z|90/100|[from] item: Life Orb
+|faint|p1a: Medicham
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|turn|11
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p2a: Excadrill|Excadrill, L80, F|91/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|12
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Excadrill
+|
+|win|Yannik2000

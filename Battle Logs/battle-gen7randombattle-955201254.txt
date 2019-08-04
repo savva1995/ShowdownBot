@@ -1,0 +1,517 @@
+|init|battle
+|title|MASSAGEMYBACKPLS vs. hlzhon41
+|j|☆MASSAGEMYBACKPLS
+|j|☆hlzhon41
+|player|p1|MASSAGEMYBACKPLS|151|1185
+|player|p2|hlzhon41|249|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toxicroak|Toxicroak, L84, F|100/100
+|switch|p2a: Regice|Regice, L89|100/100
+|turn|1
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Toxicroak|atk|1
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Tauros|Zen Headbutt|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-enditem|p1a: Toxicroak|Focus Sash
+|-damage|p1a: Toxicroak|1/100
+|move|p1a: Toxicroak|Drain Punch|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|12/100
+|-heal|p1a: Toxicroak|45/100|[from] drain|[of] p2a: Tauros
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+
+|
+|switch|p2a: Raichu|Raichu-Alola, L88, M|100/100
+|turn|4
+
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|3/100
+|move|p2a: Raichu|Surf|p1a: Toxicroak
+|-heal|p1a: Toxicroak|69/100|[from] ability: Dry Skin|[of] p2a: Raichu
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|0
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-damage|p2a: Raichu|0 fnt|[from] item: Life Orb
+|faint|p1a: Toxicroak
+|faint|p2a: Raichu
+|
+|upkeep
+
+|c|☆MASSAGEMYBACKPLS|mind game won xD
+
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, F|100/100
+|switch|p1a: Sharpedo|Sharpedo, L82, F|100/100
+|turn|10
+
+|
+|detailschange|p1a: Sharpedo|Sharpedo-Mega, L82, F
+|-mega|p1a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Whimsicott|Moonblast|p1a: Sharpedo
+|-supereffective|p1a: Sharpedo
+|-damage|p1a: Sharpedo|6/100
+|move|p1a: Sharpedo|Ice Fang|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|31/100
+|
+|-heal|p2a: Whimsicott|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Steelix|Steelix, L86, M|100/100
+|move|p2a: Whimsicott|U-turn|p1a: Steelix
+|-resisted|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|95/100
+
+|
+|switch|p2a: Regice|Regice, L89|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Regice|Ice Beam|p1a: Steelix
+|-damage|p1a: Steelix|42/100
+|move|p1a: Steelix|Iron Head|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|15/100
+|
+|-heal|p2a: Regice|21/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Jynx|Jynx, L89, F|100/100
+|move|p2a: Regice|Ice Beam|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|82/100
+|
+|-heal|p1a: Jynx|89/100|[from] item: Leftovers
+|-heal|p2a: Regice|27/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Jynx|Focus Blast|p2a: Regice|[miss]
+|-miss|p1a: Jynx|p2a: Regice
+|move|p2a: Regice|Rest|p2a: Regice
+|-status|p2a: Regice|slp|[from] move: Rest
+|-heal|p2a: Regice|100/100 slp|[silent]
+|
+|-heal|p1a: Jynx|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Groudon|Groudon, L78|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Jynx|Substitute|p1a: Jynx
+|-start|p1a: Jynx|Substitute
+|-damage|p1a: Jynx|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Jynx|58/100|[from] ability: Dry Skin|[of] p1a: Jynx
+|-heal|p1a: Jynx|64/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Jynx|Ice Beam|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|5/100
+|move|p2a: Groudon|Lava Plume|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-end|p1a: Jynx|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Jynx|51/100|[from] ability: Dry Skin|[of] p1a: Jynx
+|-heal|p1a: Jynx|58/100|[from] item: Leftovers
+|-heal|p2a: Groudon|11/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Regice|Regice, L89|100/100 slp
+|move|p1a: Jynx|Ice Beam|p2a: Regice
+|-resisted|p2a: Regice
+|-damage|p2a: Regice|91/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Jynx|45/100|[from] ability: Dry Skin|[of] p1a: Jynx
+|-heal|p1a: Jynx|51/100|[from] item: Leftovers
+|-heal|p2a: Regice|97/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Jynx|Substitute|p1a: Jynx
+|-start|p1a: Jynx|Substitute
+|-damage|p1a: Jynx|27/100
+|cant|p2a: Regice|slp
+|move|p2a: Regice|Sleep Talk|p2a: Regice
+|move|p2a: Regice|Ice Beam|p1a: Jynx|[from]Sleep Talk
+|-resisted|p1a: Jynx
+|-activate|p1a: Jynx|move: Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Jynx|14/100|[from] ability: Dry Skin|[of] p1a: Jynx
+|-heal|p1a: Jynx|21/100|[from] item: Leftovers
+|-heal|p2a: Regice|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Jynx|Focus Blast|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|66/100 slp
+|cant|p2a: Regice|slp
+|move|p2a: Regice|Sleep Talk|p2a: Regice
+|move|p2a: Regice|Ice Beam|p1a: Jynx|[from]Sleep Talk
+|-resisted|p1a: Jynx
+|-end|p1a: Jynx|Substitute
+|
+|-weather|none
+|-heal|p1a: Jynx|27/100|[from] item: Leftovers
+|-heal|p2a: Regice|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Jynx|Substitute|p1a: Jynx
+|-start|p1a: Jynx|Substitute
+|-damage|p1a: Jynx|2/100
+|-curestatus|p2a: Regice|slp|[msg]
+|move|p2a: Regice|Sleep Talk||[still]
+|-fail|p2a: Regice
+|
+|-heal|p1a: Jynx|8/100|[from] item: Leftovers
+|-heal|p2a: Regice|78/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Jynx|Focus Blast|p2a: Regice|[miss]
+|-miss|p1a: Jynx|p2a: Regice
+|move|p2a: Regice|Thunderbolt|p1a: Jynx
+|-end|p1a: Jynx|Substitute
+|
+|-heal|p1a: Jynx|14/100|[from] item: Leftovers
+|-heal|p2a: Regice|83/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Regice
+|-status|p2a: Regice|slp|[from] move: Lovely Kiss
+|cant|p2a: Regice|slp
+|
+|-heal|p1a: Jynx|21/100|[from] item: Leftovers
+|-heal|p2a: Regice|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p1a: Jynx|Focus Blast|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|52/100 slp
+|cant|p2a: Regice|slp
+|move|p2a: Regice|Sleep Talk|p2a: Regice
+|move|p2a: Regice|Rest|p2a: Regice|[from]Sleep Talk
+|-fail|p2a: Regice
+|
+|-heal|p1a: Jynx|27/100|[from] item: Leftovers
+|-heal|p2a: Regice|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Jynx|Substitute|p1a: Jynx
+|-start|p1a: Jynx|Substitute
+|-damage|p1a: Jynx|2/100
+|-curestatus|p2a: Regice|slp|[msg]
+|move|p2a: Regice|Sleep Talk||[still]
+|-fail|p2a: Regice
+|
+|-heal|p1a: Jynx|8/100|[from] item: Leftovers
+|-heal|p2a: Regice|64/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Regice|[miss]
+|-miss|p1a: Jynx|p2a: Regice
+|move|p2a: Regice|Thunderbolt|p1a: Jynx
+|-activate|p1a: Jynx|move: Substitute|[damage]
+|
+|-heal|p1a: Jynx|14/100|[from] item: Leftovers
+|-heal|p2a: Regice|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Regice|[miss]
+|-miss|p1a: Jynx|p2a: Regice
+|move|p2a: Regice|Thunderbolt|p1a: Jynx
+|-end|p1a: Jynx|Substitute
+|
+|-heal|p1a: Jynx|21/100|[from] item: Leftovers
+|-heal|p2a: Regice|75/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Regice
+|-status|p2a: Regice|slp|[from] move: Lovely Kiss
+|cant|p2a: Regice|slp
+|
+|-heal|p1a: Jynx|27/100|[from] item: Leftovers
+|-heal|p2a: Regice|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Jynx|Substitute|p1a: Jynx
+|-start|p1a: Jynx|Substitute
+|-damage|p1a: Jynx|2/100
+|cant|p2a: Regice|slp
+|move|p2a: Regice|Sleep Talk|p2a: Regice
+|move|p2a: Regice|Ice Beam|p1a: Jynx|[from]Sleep Talk
+|-resisted|p1a: Jynx
+|-activate|p1a: Jynx|move: Substitute|[damage]
+|
+|-heal|p1a: Jynx|8/100|[from] item: Leftovers
+|-heal|p2a: Regice|87/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|switch|p2a: Groudon|Groudon, L78|11/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Jynx|Focus Blast|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Jynx|0 fnt|[from] ability: Dry Skin|[of] p1a: Jynx
+|faint|p1a: Jynx
+|upkeep
+
+|
+|switch|p1a: Steelix|Steelix, L86, M|42/100
+|switch|p2a: Whimsicott|Whimsicott, L86, F|37/100
+|turn|30
+
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Steelix
+|-start|p1a: Steelix|move: Leech Seed
+|move|p1a: Steelix|Iron Head|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Regice|Regice, L89|87/100 slp
+|turn|31
+
+|
+|switch|p2a: Celesteela|Celesteela, L80|100/100
+|move|p1a: Steelix|Iron Head|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Steelix|30/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|89/100|[silent]
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Claydol|Claydol, L88|100/100
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|33
+
+|
+|move|p2a: Celesteela|Flash Cannon|p1a: Claydol
+|-damage|p1a: Claydol|76/100
+|move|p1a: Claydol|Psychic|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|74/100
+|
+|-weather|none
+|-heal|p1a: Claydol|82/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p2a: Celesteela|Flash Cannon|p1a: Claydol
+|-damage|p1a: Claydol|56/100
+|move|p1a: Claydol|Psychic|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|60/100
+|
+|-heal|p1a: Claydol|62/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Celesteela|Flash Cannon|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|36
+
+|
+|move|p2a: Celesteela|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|19/100
+|move|p1a: Gigalith|Superpower|p2a: Celesteela
+|-damage|p2a: Celesteela|5/100
+|-unboost|p1a: Gigalith|atk|1
+|-unboost|p1a: Gigalith|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+
+|
+|switch|p1a: Claydol|Claydol, L88|62/100
+|move|p2a: Celesteela|Flash Cannon|p1a: Claydol
+|-damage|p1a: Claydol|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|40/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|move|p2a: Celesteela|Air Slash|p1a: Claydol
+|-damage|p1a: Claydol|15/100
+|cant|p1a: Claydol|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Claydol|21/100|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|
+|move|p2a: Celesteela|Flash Cannon|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Sharpedo|Sharpedo-Mega, L82, F|6/100
+|turn|40
+
+|
+|switch|p2a: Regice|Regice, L89|87/100 slp
+|move|p1a: Sharpedo|Waterfall|p2a: Regice
+|-damage|p2a: Regice|53/100 slp
+|
+|-heal|p2a: Regice|59/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+
+|
+|move|p1a: Sharpedo|Crunch|p2a: Regice
+|-crit|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|upkeep
+
+|
+|switch|p2a: Celesteela|Celesteela, L80|5/100
+|turn|42
+
+|
+|move|p1a: Sharpedo|Crunch|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|faint|p2a: Celesteela
+|
+|win|MASSAGEMYBACKPLS

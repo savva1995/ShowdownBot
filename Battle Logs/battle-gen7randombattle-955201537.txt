@@ -1,0 +1,195 @@
+|init|battle
+|title|Sasha777 vs. SPD_Lili
+|j|☆Sasha777
+|j|☆SPD_Lili
+|player|p1|Sasha777|101|1570
+|player|p2|SPD_Lili|181|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seviper|Seviper, L89, M|100/100
+|switch|p2a: Crabominable|Crabominable, L89, M|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SPD_Lili)
+
+|
+|move|p1a: Seviper|Switcheroo|p2a: Crabominable
+|-activate|p1a: Seviper|move: Trick|[of] p2a: Crabominable
+|-item|p2a: Crabominable|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Seviper|Choice Band|[from] move: Switcheroo
+|move|p2a: Crabominable|Earthquake|p1a: Seviper
+|-supereffective|p1a: Seviper
+|-damage|p1a: Seviper|12/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Crabominable|Earthquake|p1a: Seviper
+|-supereffective|p1a: Seviper
+|-damage|p1a: Seviper|0 fnt
+|faint|p1a: Seviper
+|
+|upkeep
+
+|
+|switch|p1a: Xerneas|Xerneas, L78|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|3
+
+|
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|move|p2a: Crabominable|Earthquake|p1a: Xerneas
+|-damage|p1a: Xerneas|70/100
+|
+|upkeep
+|turn|4
+
+|inactive|Sasha777 also wants the timer to be on.
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Crabominable
+|-supereffective|p2a: Crabominable
+|-damage|p2a: Crabominable|0 fnt
+|faint|p2a: Crabominable
+|
+|upkeep
+
+|
+|switch|p2a: Porygon2|Porygon2, L84|100/100
+|-ability|p2a: Porygon2|Fairy Aura|[from] ability: Trace|[of] p1a: Xerneas
+|-ability|p2a: Porygon2|Fairy Aura
+|turn|5
+
+|inactive|Sasha777 has 120 seconds left.
+
+|inactive|Sasha777 has 90 seconds left.
+
+|inactive|SPD_Lili has 120 seconds left.
+
+|
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|move|p2a: Porygon2|Thunder Wave|p1a: Xerneas
+|-status|p1a: Xerneas|par
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Garbodor|Garbodor, L86, F|100/100
+|move|p1a: Xerneas|Geomancy|p1a: Xerneas|[from]lockedmove
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Xerneas|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|24/100
+|move|p2a: Garbodor|Gunk Shot|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|-heal|p2a: Garbodor|30/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Slowbro|Slowbro, L83, F|100/100
+|turn|8
+
+|
+|detailschange|p1a: Slowbro|Slowbro-Mega, L83, F
+|-mega|p1a: Slowbro|Slowbro|Slowbronite
+|move|p2a: Garbodor|Pain Split|p1a: Slowbro
+|-sethp|p1a: Slowbro|64/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|68/100|[from] move: Pain Split
+|move|p1a: Slowbro|Psyshock|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+
+|
+|switch|p2a: Pikachu|Pikachu-Original, L90, M|100/100
+|turn|9
+
+|
+|move|p2a: Pikachu|Volt Tackle|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-damage|p2a: Pikachu|71/100|[from] Recoil
+|faint|p1a: Slowbro
+|
+|upkeep
+
+|inactive|Sasha777 has 60 seconds left.
+
+|
+|switch|p1a: Lycanroc|Lycanroc, L88, M|100/100
+|turn|10
+
+|
+|move|p1a: Lycanroc|Drill Run|p2a: Pikachu
+|-supereffective|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-status|p1a: Lycanroc|par|[from] ability: Static|[of] p2a: Pikachu
+|faint|p2a: Pikachu
+|
+|upkeep
+
+|
+|switch|p2a: Qwilfish|Qwilfish, L88, M|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Lycanroc|atk|1
+|turn|11
+
+|inactive|Sasha777 has 60 seconds left.
+
+|inactive|Sasha777 has 30 seconds left.
+
+|inactive|Sasha777 has 20 seconds left.
+
+|
+|move|p2a: Qwilfish|Liquidation|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|20/100 par
+|move|p1a: Lycanroc|Drill Run|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|67/100
+|
+|-heal|p2a: Qwilfish|73/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|inactive|Sasha777 has 30 seconds left this turn.
+
+|inactive|Sasha777 has 20 seconds left.
+
+|inactive|Sasha777 has 15 seconds left.
+
+|inactive|Sasha777 has 10 seconds left.
+
+|inactive|Sasha777 has 5 seconds left.
+
+|-message|Sasha777 lost due to inactivity.
+|
+|win|SPD_Lili

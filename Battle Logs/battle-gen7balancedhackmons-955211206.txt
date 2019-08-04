@@ -1,0 +1,88 @@
+|init|battle
+|title|Dystopia42 vs. lordpoporulerofall
+|j|☆Dystopia42
+|j|☆lordpoporulerofall
+|player|p1|Dystopia42|10|1014
+|player|p2|lordpoporulerofall|102|1060
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Balanced Hackmons
+|rated|
+|rule|Ability Clause: Limit two of each ability
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|CFZ Clause: Crystal-free Z-Moves are banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rayquaza-Mega|item
+|poke|p1|Palkia|item
+|poke|p1|Kartana|item
+|poke|p1|Alakazam-Mega, F|item
+|poke|p1|Deoxys-Speed|item
+|poke|p1|Blissey, F|item
+|poke|p2|Mewtwo-Mega-Y|item
+|poke|p2|Zygarde-Complete|item
+|poke|p2|Aron, L1, M|item
+|poke|p2|Rayquaza-Mega|item
+|poke|p2|Shedinja|item
+|poke|p2|Kartana|item
+|teampreview
+|
+|start
+|switch|p1a: Mama UwU|Blissey, F|100/100
+|switch|p2a: Shedinja|Shedinja|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lordpoporulerofall)
+|
+|move|p1a: Mama UwU|Geomancy||[still]
+|-prepare|p1a: Mama UwU|Geomancy|p1a: Mama UwU
+|-enditem|p1a: Mama UwU|Power Herb
+|-anim|p1a: Mama UwU|Geomancy|p1a: Mama UwU
+|-boost|p1a: Mama UwU|spa|4
+|-boost|p1a: Mama UwU|spd|4
+|-boost|p1a: Mama UwU|spe|4
+|move|p2a: Shedinja|Endeavor|p1a: Mama UwU
+|-damage|p1a: Mama UwU|1/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Shedinja|Aqua Jet|p1a: Mama UwU
+|-damage|p1a: Mama UwU|0 fnt
+|faint|p1a: Mama UwU
+|
+|upkeep
+|
+|switch|p1a: Jeopardy|Alakazam-Mega, F|100/100
+|turn|3
+|
+|move|p1a: Jeopardy|Moongeist Beam|p2a: Shedinja
+|-supereffective|p2a: Shedinja
+|-damage|p2a: Shedinja|0 fnt
+|-damage|p1a: Jeopardy|91/100|[from] item: Life Orb
+|faint|p2a: Shedinja
+|
+|-ability|p1a: Jeopardy|Speed Boost|boost
+|-boost|p1a: Jeopardy|spe|1
+|upkeep
+|
+|switch|p2a: Aron|Aron, L1, M, shiny|100/100
+|turn|4
+|
+|move|p1a: Jeopardy|Moongeist Beam|p2a: Aron
+|-damage|p2a: Aron|0 fnt
+|-damage|p1a: Jeopardy|81/100|[from] item: Life Orb
+|faint|p2a: Aron
+|
+|-ability|p1a: Jeopardy|Speed Boost|boost
+|-boost|p1a: Jeopardy|spe|1
+|upkeep
+
+|-message|lordpoporulerofall forfeited.
+
+|
+|win|Dystopia42

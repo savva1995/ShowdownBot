@@ -1,0 +1,62 @@
+|init|battle
+|title|d3singedmain vs. Zyrgow
+|j|☆d3singedmain
+|j|☆Zyrgow
+|player|p1|d3singedmain|102|1174
+|player|p2|Zyrgow|257|1124
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Parasect|Parasect, L89, F|100/100
+|switch|p2a: Vikavolt|Vikavolt, L86, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by d3singedmain)
+|
+|switch|p1a: Delphox|Delphox, L86, F|100/100
+|move|p2a: Vikavolt|Bug Buzz|p1a: Delphox
+|-damage|p1a: Delphox|33/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Delphox|Fire Blast|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|-damage|p1a: Delphox|24/100|[from] item: Life Orb
+|faint|p2a: Vikavolt
+|
+|upkeep
+|
+|switch|p2a: Sharpedo|Sharpedo, L82, M|100/100
+|turn|3
+|
+|switch|p1a: Parasect|Parasect, L89, F|100/100
+|move|p2a: Sharpedo|Crunch|p1a: Parasect
+|-damage|p1a: Parasect|62/100
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|4
+
+|
+|detailschange|p2a: Sharpedo|Sharpedo-Mega, L82, M
+|-mega|p2a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Sharpedo|Ice Fang|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|upkeep
+
+|-message|d3singedmain forfeited.
+
+|
+|win|Zyrgow

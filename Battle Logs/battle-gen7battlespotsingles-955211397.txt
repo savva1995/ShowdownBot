@@ -1,0 +1,175 @@
+|init|battle
+|title|nakatac1919 vs. Darann
+|j|☆nakatac1919
+|j|☆Darann
+|player|p1|nakatac1919|183|1325
+|player|p2|Darann|135|1245
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Chansey, L50, F|item
+|poke|p1|Skarmory, L50, M|item
+|poke|p1|Toxapex, L50, M|item
+|poke|p1|Gliscor, L50, F|item
+|poke|p1|Sableye, L50, F|item
+|poke|p1|Shedinja, L50|item
+|poke|p2|Charizard, L50, F|item
+|poke|p2|Gengar, L50, F|item
+|poke|p2|Tapu Lele, L50|item
+|poke|p2|Kartana, L50|item
+|poke|p2|Tapu Fini, L50|item
+|poke|p2|Tyranitar, L50, M|item
+|teampreview|3
+
+|
+|start
+|switch|p1a: Chansey|Chansey, L50, F, shiny|48/48
+|switch|p2a: Tyranitar|Tyranitar, L50, M|48/48
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Chansey
+|-sidestart|p1: nakatac1919|move: Stealth Rock
+|move|p1a: Chansey|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|45/48|[from] Sandstorm
+|-damage|p2a: Tyranitar|45/48 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Chansey|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Darann|move: Stealth Rock
+|move|p2a: Tyranitar|Roar|p1a: Chansey
+|drag|p1a: Gliscor|Gliscor, L50, F, shiny|48/48
+|-damage|p1a: Gliscor|42/48|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|39/48 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Gliscor|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/48 tox
+
+|
+|switch|p1a: Skarmory|Skarmory, L50, M, shiny|48/48|[from]move: U-turn
+|-damage|p1a: Skarmory|42/48|[from] Stealth Rock
+|move|p2a: Tyranitar|Roar|p1a: Skarmory
+|drag|p1a: Gliscor|Gliscor, L50, F, shiny|42/48
+|-damage|p1a: Gliscor|36/48|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|13/48 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Gliscor|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+
+|
+|switch|p1a: Chansey|Chansey, L50, F, shiny|45/48|[from]move: U-turn
+|-damage|p1a: Chansey|39/48|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|36/48|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele, L50, shiny|48/48
+|-damage|p2a: Tapu Lele|42/48|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|5
+
+|
+|move|p2a: Tapu Lele|Taunt|p1a: Chansey
+|-start|p1a: Chansey|move: Taunt
+|cant|p1a: Chansey|move: Taunt|Toxic
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p2a: Tapu Lele|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|27/48
+|move|p1a: Chansey|Seismic Toss|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|25/48
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Tapu Lele|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|17/48
+|move|p1a: Chansey|Seismic Toss|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|8/48
+|
+|-end|p1a: Chansey|move: Taunt
+|upkeep
+|turn|8
+
+|
+|move|p2a: Tapu Lele|Taunt|p1a: Chansey
+|-start|p1a: Chansey|move: Taunt
+|move|p1a: Chansey|Seismic Toss|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p2a: Charizard|Charizard, L50, F|48/48
+|-damage|p2a: Charizard|24/48g|[from] Stealth Rock
+|turn|9
+
+|
+|detailschange|p2a: Charizard|Charizard-Mega-X, L50, F
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|move|p2a: Charizard|Dragon Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|1
+|-boost|p2a: Charizard|spe|1
+|move|p1a: Chansey|Seismic Toss|p2a: Charizard
+|-damage|p2a: Charizard|8/48
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|10
+
+|
+|move|p2a: Charizard|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|upkeep
+
+|
+|switch|p1a: Skarmory|Skarmory, L50, M, shiny|42/48
+|-damage|p1a: Skarmory|36/48|[from] Stealth Rock
+|turn|11
+
+|
+|move|p2a: Charizard|Flare Blitz|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Charizard|1/48|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-damage|p2a: Charizard|0 fnt|[from] Recoil
+|faint|p1a: Skarmory
+|faint|p2a: Charizard
+|
+|win|nakatac1919

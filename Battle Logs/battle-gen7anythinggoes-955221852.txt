@@ -1,0 +1,42 @@
+|init|battle
+|title|jmhblh vs. AVIK G
+|j|☆jmhblh
+|j|☆AVIK G
+|player|p1|jmhblh|257|1068
+|player|p2|AVIK G|163|1128
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Mewtwo|item
+|poke|p1|Deoxys-Attack|item
+|poke|p1|Groudon|item
+|poke|p1|Kyogre|item
+|poke|p1|Deoxys-Speed|item
+|poke|p1|Chansey, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Sceptile, M|item
+|poke|p2|Boldore, M|
+|poke|p2|Aegislash, M|item
+|poke|p2|Jolteon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AVIK G)
+|inactive|jmhblh has 120 seconds left.
+
+|
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Boldore|Boldore, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+
+|-message|AVIK G forfeited.
+
+|
+|win|jmhblh

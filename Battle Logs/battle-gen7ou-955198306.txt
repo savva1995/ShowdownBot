@@ -1,0 +1,110 @@
+|init|battle
+|title|Aa7au vs. Plausiblewings2
+|j|☆Aa7au
+|j|☆Plausiblewings2
+|player|p1|Aa7au|1|1004
+|player|p2|Plausiblewings2|155|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinccino, F|item
+|poke|p1|Lopunny, F|item
+|poke|p1|Weavile, F|item
+|poke|p1|Mudsdale, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Braviary, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Mawile, F|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Magearna|item
+|poke|p2|Zapdos|item
+|teampreview
+|
+|start
+|switch|p1a: Lopunny|Lopunny, F|100/100
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|1
+|j| Bad Girl Vannesa
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, F
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Ice Punch|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|43/100
+|move|p2a: Kommo-o|Stealth Rock|p1a: Lopunny
+|-sidestart|p1: Aa7au|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Lopunny|Ice Punch|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Lopunny|atk|1
+|turn|3
+|
+|detailschange|p2a: Mawile|Mawile-Mega, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Lopunny|Fire Punch|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|67/100
+|move|p2a: Mawile|Knock Off|p1a: Lopunny
+|-resisted|p1a: Lopunny
+|-damage|p1a: Lopunny|75/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Horsie|Mudsdale, M|100/100
+|-damage|p1a: Horsie|94/100|[from] Stealth Rock
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Horsie|atk|1
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Lady Ninja|Weavile, F|100/100
+|-damage|p1a: Lady Ninja|76/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Lady Ninja
+|-damage|p1a: Lady Ninja|0 fnt
+|faint|p1a: Lady Ninja
+|
+|upkeep
+
+|
+|switch|p1a: Lopunny|Lopunny-Mega, F|75/100
+|-damage|p1a: Lopunny|69/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Landorus|Earthquake|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|faint|p1a: Lopunny
+|
+|upkeep
+
+|-message|Aa7au forfeited.
+
+|
+|win|Plausiblewings2

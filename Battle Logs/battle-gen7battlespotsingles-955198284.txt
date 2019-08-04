@@ -1,0 +1,139 @@
+|init|battle
+|title|Noobnaware vs. gosiki agiri
+|j|☆Noobnaware
+|j|☆gosiki agiri
+|player|p1|Noobnaware|70|1242
+|player|p2|gosiki agiri|101|1245
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Greninja, L50, F|item
+|poke|p1|Celesteela, L50|item
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Blacephalon, L50|item
+|poke|p1|Lopunny, L50, M|item
+|poke|p1|Tapu Bulu, L50|item
+|poke|p2|Gigalith, L50, F|item
+|poke|p2|Excadrill, L50, F|item
+|poke|p2|Salamence, L50, M|item
+|poke|p2|Volcarona, L50, M|item
+|poke|p2|Serperior, L50, M|item
+|poke|p2|Golem-Alola, L50, F|item
+|teampreview|3
+|
+|start
+|switch|p1a: Greninja|Greninja, L50, F|48/48
+|switch|p2a: Gigalith|Gigalith, L50, F|48/48
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Noobnaware)
+
+|
+|move|p1a: Greninja|Hydro Pump|p2a: Gigalith|[miss]
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-miss|p1a: Greninja|p2a: Gigalith
+|move|p2a: Gigalith|Rock Blast|p1a: Greninja
+|-damage|p1a: Greninja|28/48
+|-damage|p1a: Greninja|12/48
+|-hitcount|p1a: Greninja|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Greninja|9/48|[from] Sandstorm
+|upkeep
+|turn|2
+
+|
+|move|p1a: Greninja|Hydro Pump|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|13/48
+|move|p2a: Gigalith|Rock Blast|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-hitcount|p1a: Greninja|1
+|faint|p1a: Greninja
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Lopunny|Lopunny, L50, M|48/48
+|turn|3
+
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, L50, M
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Ice Punch|p2a: Gigalith
+|-damage|p2a: Gigalith|3/48
+|-status|p2a: Gigalith|frz
+|-curestatus|p2a: Gigalith|frz|[msg]
+|move|p2a: Gigalith|Rock Blast|p1a: Lopunny
+|-resisted|p1a: Lopunny
+|-damage|p1a: Lopunny|40/48
+|-resisted|p1a: Lopunny
+|-damage|p1a: Lopunny|33/48
+|-hitcount|p1a: Lopunny|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|30/48|[from] Sandstorm
+|upkeep
+|turn|4
+
+|
+|move|p1a: Lopunny|Ice Punch|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|27/48|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Volcarona|Volcarona, L50, M|48/48
+|turn|5
+
+|
+|move|p1a: Lopunny|Retaliate|p2a: Volcarona
+|-damage|p2a: Volcarona|23/48
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|48/48
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Lopunny|Retaliate|p2a: Volcarona
+|-damage|p2a: Volcarona|22/48
+|
+|upkeep
+|turn|7
+
+|inactive|Noobnaware has 120 seconds left.
+
+|inactive|Noobnaware has 90 seconds left.
+
+|inactive|Noobnaware has 60 seconds left.
+
+|inactive|Noobnaware has 30 seconds left.
+
+|inactive|Noobnaware has 20 seconds left.
+
+|inactive|Noobnaware has 15 seconds left.
+
+|inactive|Noobnaware has 10 seconds left.
+
+|inactive|Noobnaware has 5 seconds left.
+
+|-message|Noobnaware lost due to inactivity.
+|
+|win|gosiki agiri

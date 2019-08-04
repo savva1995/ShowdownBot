@@ -1,0 +1,363 @@
+|init|battle
+|title|Yuji7 vs. Nightside Eclipse1
+|j|☆Yuji7
+|j|☆Nightside Eclipse1
+|player|p1|Yuji7|169|1070
+|player|p2|Nightside Eclipse1|53|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sgranokkio|Feraligatr, M|100/100
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|1
+
+|
+|switch|p1a: Lightning|Ampharos, M|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|84/100
+|
+|-heal|p1a: Lightning|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Jolteon|Agility|p2a: Jolteon
+|-boost|p2a: Jolteon|spe|2
+|move|p1a: Lightning|Toxic|p2a: Jolteon
+|-status|p2a: Jolteon|tox
+|-enditem|p2a: Jolteon|Miracle Berry|[eat]
+|-curestatus|p2a: Jolteon|tox|[msg]
+|
+|-heal|p1a: Lightning|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nightside Eclipse1)
+
+|
+|move|p2a: Jolteon|Substitute|p2a: Jolteon
+|-start|p2a: Jolteon|Substitute
+|-damage|p2a: Jolteon|76/100
+|move|p1a: Lightning|Toxic|p2a: Jolteon
+|-activate|p2a: Jolteon|Substitute|[block] Toxic
+|
+|-heal|p1a: Lightning|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Jolteon|Baton Pass|p2a: Jolteon
+
+|
+|switch|p2a: Charizard|Charizard, M|100/100|[from]move: Baton Pass
+|move|p1a: Lightning|Body Slam|p2a: Charizard
+|-activate|p2a: Charizard|Substitute|[damage]
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Charizard|Belly Drum|p2a: Charizard
+|-damage|p2a: Charizard|51/100
+|-setboost|p2a: Charizard|atk|6|[from] move: Belly Drum
+|move|p1a: Lightning|Thunderbolt|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-end|p2a: Charizard|Substitute
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Charizard|Earthquake|p1a: Lightning
+|-supereffective|p1a: Lightning
+|-damage|p1a: Lightning|0 fnt
+|faint|p1a: Lightning
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|100/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Charizard|Hidden Power|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|31/100
+|move|p1a: Sgranokkio|Hydro Pump|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+
+|
+|switch|p2a: Jolteon|Jolteon, M|76/100
+|
+|-heal|p1a: Sgranokkio|37/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|switch|p1a: Blaze|Arcanine, M|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Blaze
+|-damage|p1a: Blaze|65/100
+|
+|-heal|p1a: Blaze|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Blaze
+|-damage|p1a: Blaze|38/100
+|move|p1a: Blaze|Toxic|p2a: Jolteon|[miss]
+|-miss|p1a: Blaze
+|
+|-heal|p1a: Blaze|44/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Blaze|Extreme Speed|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|21/100
+|move|p2a: Jolteon|Substitute|p2a: Jolteon
+|-fail|p2a: Jolteon|move: Substitute|[weak]
+|
+|-heal|p1a: Blaze|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Blaze|Extreme Speed|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|
+|-heal|p1a: Blaze|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Blaze|Fire Blast|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|
+|-heal|p1a: Blaze|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Nite|Umbreon, M|100/100
+|move|p2a: Espeon|Growth|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+
+|
+|switch|p2a: Nidoking|Nidoking, M|100/100|[from]move: Baton Pass
+|move|p1a: Nite|Pursuit|p2a: Nidoking
+|-damage|p2a: Nidoking|89/100
+|
+|-heal|p2a: Nidoking|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Mantis|Scizor, M|100/100
+|move|p2a: Nidoking|Lovely Kiss|p1a: Mantis
+|-status|p1a: Mantis|slp|[from] move: Lovely Kiss
+|
+|-heal|p2a: Nidoking|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Nidoking|Fire Blast|p1a: Mantis
+|-supereffective|p1a: Mantis
+|-damage|p1a: Mantis|0 fnt
+|faint|p1a: Mantis
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|37/100
+|
+|-heal|p1a: Sgranokkio|43/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Nidoking|Lovely Kiss|p1a: Sgranokkio
+|-status|p1a: Sgranokkio|slp|[from] move: Lovely Kiss
+|cant|p1a: Sgranokkio|slp
+|
+|-heal|p1a: Sgranokkio|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Nidoking|Earthquake|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|17/100 slp
+|cant|p1a: Sgranokkio|slp
+|
+|-heal|p1a: Sgranokkio|23/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Nidoking|Earthquake|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|0 fnt
+|faint|p1a: Sgranokkio
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Nidoking|Ice Beam|p1a: Shiryu
+|-supereffective|p1a: Shiryu
+|-damage|p1a: Shiryu|0 fnt
+|faint|p1a: Shiryu
+
+|
+|switch|p1a: Nite|Umbreon, M|100/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Nidoking|Lovely Kiss|p1a: Nite
+|-status|p1a: Nite|slp|[from] move: Lovely Kiss
+|cant|p1a: Nite|slp
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Nidoking|Fire Blast|p1a: Nite|[miss]
+|-miss|p2a: Nidoking
+|-curestatus|p1a: Nite|slp|[msg]
+|move|p1a: Nite|Body Slam|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|70/100
+|
+|-heal|p2a: Nidoking|76/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Nidoking|Lovely Kiss|p1a: Nite|[miss]
+|-miss|p2a: Nidoking
+|move|p1a: Nite|Shadow Ball|p2a: Nidoking
+|-damage|p2a: Nidoking|60/100
+|
+|-heal|p2a: Nidoking|66/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Nidoking|Fire Blast|p1a: Nite
+|-damage|p1a: Nite|72/100
+|move|p1a: Nite|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|33/100
+|
+|-heal|p2a: Nidoking|39/100|[from] item: Leftovers
+|-heal|p1a: Nite|78/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Nidoking|Lovely Kiss|p1a: Nite
+|-status|p1a: Nite|slp|[from] move: Lovely Kiss
+|cant|p1a: Nite|slp
+|
+|-heal|p2a: Nidoking|45/100|[from] item: Leftovers
+|-heal|p1a: Nite|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Nidoking|Earthquake|p1a: Nite
+|-damage|p1a: Nite|59/100 slp
+|cant|p1a: Nite|slp
+|
+|-heal|p2a: Nidoking|51/100|[from] item: Leftovers
+|-heal|p1a: Nite|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Nidoking|Earthquake|p1a: Nite
+|-damage|p1a: Nite|40/100 slp
+|cant|p1a: Nite|slp
+|
+|-heal|p2a: Nidoking|57/100|[from] item: Leftovers
+|-heal|p1a: Nite|46/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Nidoking|Earthquake|p1a: Nite
+|-damage|p1a: Nite|19/100 slp
+|cant|p1a: Nite|slp
+|
+|-heal|p2a: Nidoking|63/100|[from] item: Leftovers
+|-heal|p1a: Nite|25/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Nidoking|Earthquake|p1a: Nite
+|-damage|p1a: Nite|0 fnt
+|faint|p1a: Nite
+
+|
+|switch|p1a: Blaze|Arcanine, M|62/100
+|
+|-heal|p1a: Blaze|68/100|[from] item: Leftovers
+|-heal|p2a: Nidoking|69/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Blaze|Crunch|p2a: Nidoking
+|-damage|p2a: Nidoking|50/100
+|move|p2a: Nidoking|Earthquake|p1a: Blaze
+|-supereffective|p1a: Blaze
+|-damage|p1a: Blaze|2/100
+|
+|-heal|p1a: Blaze|8/100|[from] item: Leftovers
+|-heal|p2a: Nidoking|56/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|c|☆Nightside Eclipse1|gg
+
+|-message|Yuji7 forfeited.
+
+|
+|win|Nightside Eclipse1

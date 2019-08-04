@@ -1,0 +1,237 @@
+|init|battle
+|title|MeteorGamer05 vs. Kapuran
+|j|☆MeteorGamer05
+|j|☆Kapuran
+|player|p1|MeteorGamer05|269|
+|player|p2|Kapuran|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Tyrantrum, M|item
+|poke|p1|Golisopod, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Chesnaught, F|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Weavile, F|item
+|poke|p2|Tyrantrum, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Golisopod, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Chesnaught, F|
+|poke|p2|Weavile, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Chesnaught|Chesnaught, F, shiny|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|move|p2a: Weavile|Fake Out|p1a: Chesnaught
+|-damage|p1a: Chesnaught|92/100
+|-damage|p2a: Weavile|84/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|cant|p1a: Chesnaught|flinch
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Weavile|Ice Punch|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|45/100
+|-damage|p2a: Weavile|67/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|move|p1a: Chesnaught|Spikes|p2a: Weavile
+|-sidestart|p2: Kapuran|Spikes
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Weavile|Ice Punch|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|-damage|p2a: Weavile|51/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|faint|p1a: Chesnaught
+|
+|upkeep
+
+|
+|switch|p1a: Garchomp|Garchomp, M, shiny|100/100
+|turn|4
+
+|
+|move|p2a: Weavile|Ice Punch|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Weavile|34/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, M, shiny|100/100
+|turn|5
+
+|
+|move|p2a: Weavile|Ice Punch|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|24/100
+|-status|p1a: Hawlucha|frz
+|cant|p1a: Hawlucha|frz
+|
+|-heal|p1a: Hawlucha|30/100 frz|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, M, shiny|100/100
+|move|p2a: Weavile|Ice Punch|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|48/100
+|-status|p1a: Tyrantrum|frz
+|
+|-heal|p1a: Tyrantrum|54/100 frz|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Weavile|Weavile, F, shiny|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Weavile|Ice Punch|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|77/100
+|
+|-heal|p1a: Weavile|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Weavile|Fake Out||[still]
+|-fail|p2a: Weavile
+|-hint|Fake Out only works on your first turn out.
+|move|p1a: Weavile|Ice Beam|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|23/100
+|
+|-heal|p1a: Weavile|89/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Weavile|Double-Edge|p1a: Weavile
+|-damage|p1a: Weavile|44/100
+|-damage|p2a: Weavile|10/100|[from] Recoil
+|move|p1a: Weavile|Ice Beam|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-heal|p1a: Weavile|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|-damage|p2a: Golisopod|88/100|[from] Spikes
+|turn|10
+
+|
+|move|p2a: Golisopod|First Impression|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+
+|
+|switch|p1a: Golisopod|Golisopod, M, shiny|100/100
+|turn|11
+
+|
+|move|p1a: Golisopod|First Impression|p2a: Golisopod
+|-damage|p2a: Golisopod|58/100
+|move|p2a: Golisopod|Leech Life|p1a: Golisopod
+|-damage|p1a: Golisopod|69/100
+|-heal|p2a: Golisopod|72/100|[from] drain|[of] p1a: Golisopod
+|
+|upkeep
+|turn|12
+
+|
+|-zpower|p1a: Golisopod
+|move|p1a: Golisopod|Savage Spin-Out|p2a: Golisopod|[zeffect]
+|-damage|p2a: Golisopod|16/100
+|-activate|p2a: Golisopod|ability: Emergency Exit
+
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|88/100|[from] Spikes
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Garchomp|Poison Jab|p1a: Golisopod
+|-damage|p1a: Golisopod|47/100
+|-activate|p1a: Golisopod|ability: Emergency Exit
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, M, shiny|54/100 frz
+|
+|-heal|p1a: Tyrantrum|61/100 frz|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Garchomp|Dragon Claw|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|faint|p1a: Tyrantrum
+|
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, M, shiny|30/100 frz
+|turn|15
+
+|
+|move|p2a: Garchomp|Dragon Claw|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+
+|
+|switch|p1a: Golisopod|Golisopod, M, shiny|47/100
+|turn|16
+
+|
+|move|p2a: Garchomp|Dragon Claw|p1a: Golisopod
+|-damage|p1a: Golisopod|15/100
+|move|p1a: Golisopod|Leech Life|p2a: Garchomp
+|-damage|p2a: Garchomp|50/100
+|-heal|p1a: Golisopod|37/100|[from] drain|[of] p2a: Garchomp
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Garchomp|Dragon Claw|p1a: Golisopod
+|-damage|p1a: Golisopod|6/100
+|move|p1a: Golisopod|Leech Life|p2a: Garchomp
+|-damage|p2a: Garchomp|15/100
+|-heal|p1a: Golisopod|26/100|[from] drain|[of] p2a: Garchomp
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Garchomp|Dragon Claw|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|win|Kapuran

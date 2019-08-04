@@ -1,0 +1,226 @@
+|init|battle
+|title|Grrrryeah vs. Port d ema
+|j|☆Grrrryeah
+|j|☆Port d ema
+|player|p1|Grrrryeah|75|1015
+|player|p2|Port d ema|153|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mimikyu, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Buzzwole|item
+|poke|p1|Salamence, M|item
+|poke|p1|Hawlucha, F|item
+|poke|p1|Gyarados, F|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Talonflame, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Sceptile, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|
+|start
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|switch|p2a: Sceptile|Sceptile, M, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Sceptile|atk|1
+|turn|1
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, F
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p2a: Sceptile|Leaf Storm|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-unboost|p2a: Sceptile|spa|2
+|-damage|p2a: Sceptile|91/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|turn|2
+
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|75/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Rhyperior|Dragon Tail|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|50/100
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|75/100|[from] item: Sitrus Berry
+|move|p2a: Rhyperior|Dragon Tail|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|77/100
+|move|p2a: Rhyperior|Dragon Tail|p1a: Hawlucha|[miss]
+|-miss|p2a: Rhyperior|p1a: Hawlucha
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|54/100
+|move|p2a: Rhyperior|Stone Edge|p1a: Hawlucha|[miss]
+|-miss|p2a: Rhyperior|p1a: Hawlucha
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|32/100
+|move|p2a: Rhyperior|Stone Edge|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|8
+
+|
+|move|p1a: Salamence|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-damage|p1a: Salamence|91/100|[from] item: Life Orb
+|faint|p2a: Rhyperior
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Sceptile|Sceptile, M, shiny|91/100
+|turn|9
+
+|
+|move|p2a: Sceptile|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-damage|p2a: Sceptile|81/100|[from] item: Life Orb
+|faint|p1a: Salamence
+|
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|10
+
+|
+|move|p2a: Sceptile|Energy Ball|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Sceptile|71/100|[from] item: Life Orb
+|-zpower|p1a: Mimikyu
+|move|p1a: Mimikyu|Z-Splash|p1a: Mimikyu|[anim]Splash
+|-boost|p1a: Mimikyu|atk|3|[zeffect]
+|-nothing
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Sceptile
+|-damage|p2a: Sceptile|4/100
+|move|p2a: Sceptile|Leaf Storm|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-unboost|p2a: Sceptile|spa|2
+|-damage|p2a: Sceptile|0 fnt|[from] item: Life Orb
+|faint|p1a: Mimikyu
+|faint|p2a: Sceptile
+|
+|upkeep
+
+|
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|switch|p1a: Buzzwole|Buzzwole|100/100
+|turn|12
+
+|
+|detailschange|p2a: Blastoise|Blastoise-Mega, F
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Buzzwole|Leech Life|p2a: Blastoise
+|-damage|p2a: Blastoise|67/100
+|move|p2a: Blastoise|Surf|p1a: Buzzwole
+|-damage|p1a: Buzzwole|32/100
+|
+|-heal|p1a: Buzzwole|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|Grrrryeah has 30 seconds left this turn.
+|inactive|Port d ema has 30 seconds left this turn.
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Port d ema)
+
+|
+|move|p1a: Buzzwole|Poison Jab|p2a: Blastoise
+|-damage|p2a: Blastoise|44/100
+|move|p2a: Blastoise|Surf|p1a: Buzzwole
+|-damage|p1a: Buzzwole|0 fnt
+|faint|p1a: Buzzwole
+|
+|upkeep
+
+|inactive|Grrrryeah has 15 seconds left this turn.
+|inactive|Port d ema has 15 seconds left this turn.
+
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|14
+
+|inactive|Grrrryeah has 15 seconds left this turn.
+|inactive|Port d ema has 15 seconds left this turn.
+
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Blastoise|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|Port d ema

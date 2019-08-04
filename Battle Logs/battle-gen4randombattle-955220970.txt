@@ -1,0 +1,67 @@
+|init|battle
+|title|money0127 vs. W&WApecs
+|j|☆money0127
+|j|☆W&WApecs
+|player|p1|money0127|129|1164
+|player|p2|W&WApecs|2|1069
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|4
+|tier|[Gen 4] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Marowak|Marowak, L83, M|100/100
+|switch|p2a: Garchomp|Garchomp, L71, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by money0127)
+|
+|move|p2a: Garchomp|Outrage|p1a: Marowak
+|-damage|p1a: Marowak|58/100
+|move|p1a: Marowak|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|24/100
+|
+|upkeep
+|turn|2
+
+|inactive|money0127 has 120 seconds left.
+
+|inactive|money0127 has 90 seconds left.
+
+|
+|move|p2a: Garchomp|Outrage|p1a: Marowak|[from]lockedmove
+|-damage|p1a: Marowak|13/100
+|move|p1a: Marowak|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+
+|
+|switch|p2a: Cradily|Cradily, L83, F|100/100
+|turn|3
+
+|inactive|money0127 has 90 seconds left.
+
+|
+|move|p1a: Marowak|Earthquake|p2a: Cradily
+|-damage|p2a: Cradily|36/100
+|move|p2a: Cradily|Earthquake|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|-heal|p2a: Cradily|42/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Lucario|Lucario, L75, M|100/100
+|turn|4
+
+|-message|W&WApecs forfeited.
+
+|
+|win|money0127

@@ -1,0 +1,60 @@
+|init|battle
+|title|tkqlehfgn vs. anoobbies
+|j|☆tkqlehfgn
+|j|☆anoobbies
+|player|p1|tkqlehfgn|101|1777
+|player|p2|anoobbies|3|1798
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Latios|Latios, L81, M|100/100
+|switch|p2a: Diancie|Diancie, L80|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tkqlehfgn)
+|
+|switch|p1a: Escavalier|Escavalier, L84, M|100/100
+|detailschange|p2a: Diancie|Diancie-Mega, L80
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Calm Mind|p2a: Diancie
+|-boost|p2a: Diancie|spa|1
+|-boost|p2a: Diancie|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Diancie|Hidden Power|p1a: Escavalier
+|-supereffective|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Diancie|atk|1
+|turn|3
+|
+|move|p2a: Diancie|Psyshock|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|18/100
+|move|p1a: Qwilfish|Thunder Wave|p2a: Diancie
+|move|p2a: Diancie|Thunder Wave|p1a: Qwilfish|[from]Magic Bounce
+|-status|p1a: Qwilfish|par
+|
+|-heal|p1a: Qwilfish|24/100 par|[from] item: Black Sludge
+|upkeep
+|turn|4
+|-message|tkqlehfgn forfeited.
+|
+|win|anoobbies
+|l|☆tkqlehfgn
+|raw|tkqlehfgn's rating: 1777 &rarr; <strong>1759</strong><br />(-18 for losing)
+|raw|anoobbies's rating: 1799 &rarr; <strong>1817</strong><br />(+18 for winning)
+|l|☆anoobbies

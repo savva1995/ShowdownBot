@@ -1,0 +1,85 @@
+|init|battle
+|title|aotian vs. Hamededed
+|j|☆aotian
+|j|☆Hamededed
+|player|p1|aotian|101|1173
+|player|p2|Hamededed|269|1210
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Suicune|Suicune, L82|100/100
+|switch|p2a: Breloom|Breloom, L81, M|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|1
+|
+|switch|p1a: Kyurem|Kyurem, L83|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Breloom|Mach Punch|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|12/100
+|move|p1a: Kyurem|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-enditem|p2a: Breloom|Focus Sash
+|-damage|p2a: Breloom|1/100
+|
+|-heal|p1a: Kyurem|19/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Giratina|Giratina, L78|100/100
+|-ability|p1a: Giratina|Pressure
+|move|p2a: Breloom|Mach Punch|p1a: Giratina
+|-immune|p1a: Giratina
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Giratina|Dragon Pulse|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, M|100/100
+|turn|5
+
+|
+|move|p1a: Giratina|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|46/100
+|move|p2a: Reuniclus|Psyshock|p1a: Giratina
+|-damage|p1a: Giratina|72/100
+|
+|-heal|p1a: Giratina|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Giratina|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-heal|p1a: Giratina|84/100|[from] item: Leftovers
+|upkeep
+
+|-message|Hamededed forfeited.
+
+|
+|win|aotian

@@ -1,0 +1,133 @@
+|init|battle
+|title|geravega vs. dingri
+|j|☆geravega
+|j|☆dingri
+|player|p1|geravega|1|1155
+|player|p2|dingri|1|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Deoxys|Deoxys, L78|100/100
+|switch|p2a: Decidueye|Decidueye, L86, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|move|p2a: Decidueye|Sucker Punch|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-enditem|p1a: Deoxys|Focus Sash
+|-damage|p1a: Deoxys|1/100
+|-damage|p2a: Decidueye|91/100|[from] item: Life Orb
+|move|p1a: Deoxys|Fire Punch|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|39/100
+|-status|p2a: Decidueye|brn
+|
+|-damage|p2a: Decidueye|33/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p1a: Deoxys|Fire Punch|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|upkeep
+|
+|switch|p2a: Nihilego|Nihilego, L82|100/100
+|-item|p2a: Nihilego|Air Balloon
+|turn|3
+
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|10/100
+|-enditem|p2a: Nihilego|Air Balloon
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Nihilego|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spd|1
+|
+|upkeep
+
+|
+|switch|p1a: Shedinja|Shedinja, L89|100/100
+|turn|4
+
+|
+|move|p2a: Nihilego|Power Gem|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-enditem|p1a: Shedinja|Focus Sash
+|-damage|p1a: Shedinja|100/100
+|move|p1a: Shedinja|Swords Dance|p1a: Shedinja
+|-boost|p1a: Shedinja|atk|2
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Nihilego|Stealth Rock|p1a: Shedinja
+|-sidestart|p1: geravega|move: Stealth Rock
+|move|p1a: Shedinja|Shadow Claw|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|faint|p2a: Nihilego
+|
+|upkeep
+
+|
+|switch|p2a: Yveltal|Yveltal, L78|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|6
+
+|
+|move|p2a: Yveltal|Foul Play|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-damage|p1a: Shedinja|0 fnt
+|faint|p1a: Shedinja
+|
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar, L80, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+
+|
+|move|p2a: Yveltal|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|29/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-crit|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|faint|p2a: Yveltal
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Parasect|Parasect, L89, F|100/100
+|turn|8
+
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|-message|dingri forfeited.
+
+|
+|win|geravega

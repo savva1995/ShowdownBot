@@ -1,0 +1,26 @@
+|init|battle
+|title|SeanHiker vs. AlexD2112
+|j|☆SeanHiker
+|j|☆AlexD2112
+|player|p1|SeanHiker|48|1165
+|player|p2|AlexD2112|1|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Linoone|Linoone, L83, F|100/100
+|switch|p2a: Aromatisse|Aromatisse, L87, M|100/100
+|turn|1
+|-message|AlexD2112 forfeited.
+|
+|win|SeanHiker
+|l|☆AlexD2112
+|l|☆SeanHiker
+|raw|SeanHiker's rating: 1166 &rarr; <strong>1187</strong><br />(+21 for winning)
+|raw|AlexD2112's rating: 1112 &rarr; <strong>1091</strong><br />(-21 for losing)

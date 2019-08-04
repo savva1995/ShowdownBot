@@ -1,0 +1,241 @@
+|init|battle
+|title|clara23 vs. Flash 20p8
+|j|☆clara23
+|j|☆Flash 20p8
+|player|p1|clara23|2|
+|player|p2|Flash 20p8|66|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Comfey|Comfey, L86, F|100/100
+|switch|p2a: Jynx|Jynx, L89, F|100/100
+|turn|1
+|
+|move|p1a: Comfey|Toxic|p2a: Jynx
+|-status|p2a: Jynx|tox
+|move|p2a: Jynx|Nasty Plot|p2a: Jynx
+|-boost|p2a: Jynx|spa|2
+|
+|-damage|p2a: Jynx|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Comfey|Draining Kiss|p2a: Jynx
+|-damage|p2a: Jynx|78/100 tox
+|move|p2a: Jynx|Nasty Plot|p2a: Jynx
+|-boost|p2a: Jynx|spa|2
+|
+|-damage|p2a: Jynx|66/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Comfey|Aromatherapy||[still]
+|-activate|p1a: Comfey|move: Aromatherapy
+|-fail|p1a: Comfey
+|move|p2a: Jynx|Psyshock|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|-damage|p2a: Jynx|47/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Ribombee|Ribombee, L85, M|100/100
+|turn|4
+
+|
+|move|p1a: Ribombee|Bug Buzz|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|upkeep
+
+|
+|switch|p2a: Gardevoir|Gardevoir, L81, M|100/100
+|-ability|p2a: Gardevoir|Sweet Veil|[from] ability: Trace|[of] p1a: Ribombee
+|turn|5
+
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, L81, M
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p1a: Ribombee|Bug Buzz|p2a: Gardevoir
+|-damage|p2a: Gardevoir|69/100
+|move|p2a: Gardevoir|Will-O-Wisp|p1a: Ribombee
+|-status|p1a: Ribombee|brn
+|
+|-damage|p1a: Ribombee|94/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p1a: Ribombee|Moonblast|p2a: Gardevoir
+|-damage|p2a: Gardevoir|38/100
+|move|p2a: Gardevoir|Hyper Voice|p1a: Ribombee
+|-damage|p1a: Ribombee|8/100 brn
+|
+|-heal|p1a: Ribombee|14/100 brn|[from] item: Leftovers
+|-damage|p1a: Ribombee|8/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Ribombee|Moonblast|p2a: Gardevoir
+|-damage|p2a: Gardevoir|6/100
+|move|p2a: Gardevoir|Hyper Voice|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+
+|
+|switch|p1a: Dedenne|Dedenne, L89, M|100/100
+|turn|8
+
+|
+|move|p1a: Dedenne|Toxic|p2a: Gardevoir
+|-status|p2a: Gardevoir|tox
+|move|p2a: Gardevoir|Hyper Voice|p1a: Dedenne
+|-damage|p1a: Dedenne|27/100
+|
+|-damage|p2a: Gardevoir|0 fnt|[from] psn
+|faint|p2a: Gardevoir
+|upkeep
+
+|
+|switch|p2a: Lunala|Lunala, L78|100/100
+|turn|9
+
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Lunala
+|-damage|p2a: Lunala|88/100
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p2a: Lunala|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Dedenne|Hidden Power|p2a: Lunala
+|-damage|p2a: Lunala|86/100
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p2a: Lunala|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Dedenne|Nuzzle|p2a: Lunala
+|-damage|p2a: Lunala|86/100
+|-status|p2a: Lunala|par
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p2a: Lunala|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Dedenne|Toxic||[still]
+|-fail|p1a: Dedenne
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p2a: Lunala|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Klefki|Klefki, L82, F|100/100
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p2a: Lunala|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Klefki|Play Rough|p2a: Lunala
+|-damage|p2a: Lunala|89/100 par
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p2a: Lunala|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Klefki|Magnet Rise|p1a: Klefki
+|-start|p1a: Klefki|Magnet Rise
+|move|p2a: Lunala|Moongeist Beam|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-heal|p2a: Lunala|100/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Azumarill|Azumarill, L80, F|100/100
+|turn|16
+
+|
+|move|p1a: Azumarill|Liquidation|p2a: Lunala
+|-damage|p2a: Lunala|75/100 par
+|move|p2a: Lunala|Moongeist Beam|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-heal|p2a: Lunala|81/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Dedenne|Dedenne, L89, M|27/100
+|turn|17
+
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Lunala
+|-damage|p2a: Lunala|74/100 par
+|move|p2a: Lunala|Psyshock|p1a: Dedenne
+|-damage|p1a: Dedenne|0 fnt
+|faint|p1a: Dedenne
+|
+|-heal|p2a: Lunala|80/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Aromatisse|Aromatisse, L87, M|100/100
+|turn|18
+
+|
+|move|p1a: Aromatisse|Moonblast|p2a: Lunala
+|-damage|p2a: Lunala|73/100 par
+|cant|p2a: Lunala|par
+|
+|-heal|p2a: Lunala|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Aromatisse|Moonblast|p2a: Lunala
+|-crit|p2a: Lunala
+|-damage|p2a: Lunala|36/100 par
+|move|p2a: Lunala|Moongeist Beam|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|win|Flash 20p8

@@ -1,0 +1,476 @@
+|init|battle
+|title|Yuji7 vs. POOPMEGA
+|j|☆Yuji7
+|j|☆POOPMEGA
+|player|p1|Yuji7|169|1000
+|player|p2|POOPMEGA|163|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sgranokkio|Feraligatr, M|100/100
+|switch|p2a: Typhlosion|Typhlosion, M|100/100
+|turn|1
+
+|
+|move|p2a: Typhlosion|Thunder Punch|p1a: Sgranokkio
+|-supereffective|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|60/100
+|move|p1a: Sgranokkio|Ice Beam|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|91/100
+|
+|-heal|p1a: Sgranokkio|66/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|move|p1a: Sgranokkio|Hydro Pump|p2a: Ampharos
+|-damage|p2a: Ampharos|64/100
+|
+|-heal|p1a: Sgranokkio|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Lightning|Ampharos, M|100/100
+|move|p2a: Ampharos|Thunder|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|80/100
+|
+|-heal|p1a: Lightning|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Lightning|Body Slam|p2a: Ampharos
+|-damage|p2a: Ampharos|46/100
+|move|p2a: Ampharos|Iron Tail|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|75/100
+|-unboost|p1a: Lightning|def|1
+|
+|-enditem|p2a: Ampharos|Gold Berry|[eat]
+|-heal|p2a: Ampharos|54/100|[from] item: Gold Berry
+|-heal|p1a: Lightning|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Lightning|Body Slam|p2a: Umbreon
+|-damage|p2a: Umbreon|88/100
+|
+|-heal|p1a: Lightning|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Nite|Umbreon, M|100/100
+|move|p2a: Umbreon|Psychic|p1a: Nite
+|-immune|p1a: Nite
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Umbreon|Skull Bash||[still]
+|-prepare|p2a: Umbreon|Skull Bash|p1a: Nite
+|-boost|p2a: Umbreon|def|1
+|move|p1a: Nite|Shadow Ball|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|84/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Nite|Pursuit|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|80/100
+|move|p2a: Umbreon|Skull Bash|p1a: Nite
+|-damage|p1a: Nite|86/100
+|
+|-heal|p1a: Nite|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Umbreon|Dream Eater|p1a: Nite
+|-immune|p1a: Nite
+|move|p1a: Nite|Body Slam|p2a: Umbreon
+|-damage|p2a: Umbreon|73/100
+|-status|p2a: Umbreon|par
+|
+|-heal|p1a: Nite|98/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Nite|Body Slam|p2a: Umbreon
+|-damage|p2a: Umbreon|64/100 par
+|move|p2a: Umbreon|Psychic|p1a: Nite
+|-immune|p1a: Nite
+|
+|-heal|p1a: Nite|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Nite|Body Slam|p2a: Umbreon
+|-damage|p2a: Umbreon|55/100 par
+|move|p2a: Umbreon|Bite|p1a: Nite
+|-resisted|p1a: Nite
+|-damage|p1a: Nite|95/100
+|
+|-heal|p1a: Nite|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Nite|Body Slam|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|94/100
+|
+|-heal|p2a: Scizor|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Blaze|Arcanine, M|100/100
+|move|p2a: Scizor|Wing Attack|p1a: Blaze
+|-damage|p1a: Blaze|83/100
+|
+|-heal|p1a: Blaze|89/100|[from] item: Leftovers
+|-heal|p2a: Scizor|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|move|p1a: Blaze|Fire Blast|p2a: Kingdra
+|-resisted|p2a: Kingdra
+|-damage|p2a: Kingdra|91/100
+|
+|-heal|p1a: Blaze|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|73/100
+|move|p2a: Kingdra|Hydro Pump|p1a: Sgranokkio|[miss]
+|-miss|p2a: Kingdra
+|
+|-heal|p1a: Sgranokkio|79/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Ampharos|Ampharos, M|54/100
+|move|p1a: Sgranokkio|Rock Slide|p2a: Ampharos
+|-damage|p2a: Ampharos|33/100
+|
+|-heal|p1a: Sgranokkio|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Lightning|Ampharos, M|87/100
+|move|p2a: Ampharos|Thunder|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|66/100
+|
+|-heal|p1a: Lightning|72/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Umbreon|Umbreon, M|55/100 par
+|move|p1a: Lightning|Body Slam|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|29/100 par
+|
+|-heal|p1a: Lightning|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Mantis|Scizor, M|100/100
+|move|p2a: Umbreon|Psychic|p1a: Mantis
+|-resisted|p1a: Mantis
+|-damage|p1a: Mantis|92/100
+|
+|-heal|p1a: Mantis|98/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Typhlosion|Typhlosion, M|91/100
+|move|p1a: Mantis|Return|p2a: Typhlosion
+|-damage|p2a: Typhlosion|62/100
+|
+|-heal|p1a: Mantis|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|85/100
+|move|p2a: Typhlosion|Fire Blast|p1a: Sgranokkio
+|-resisted|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|62/100
+|
+|-heal|p1a: Sgranokkio|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Ampharos|Ampharos, M|33/100
+|move|p1a: Sgranokkio|Hydro Pump|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+
+|
+|switch|p2a: Butterfree|Butterfree, M|100/100
+|
+|-heal|p1a: Sgranokkio|75/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Lightning|Ampharos, M|78/100
+|move|p2a: Butterfree|Sleep Powder|p1a: Lightning|[miss]
+|-miss|p2a: Butterfree
+|
+|-heal|p1a: Lightning|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Butterfree|Sunny Day|p2a: Butterfree
+|-weather|SunnyDay
+|move|p1a: Lightning|Thunderbolt|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lightning|90/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Typhlosion|Typhlosion, M|62/100
+|move|p1a: Lightning|Thunderbolt|p2a: Typhlosion
+|-damage|p2a: Typhlosion|21/100
+|-status|p2a: Typhlosion|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lightning|96/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|75/100
+|move|p2a: Typhlosion|Fire Blast|p1a: Sgranokkio
+|-resisted|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sgranokkio|45/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yuji7)
+
+|
+|switch|p2a: Butterfree|Butterfree, M|12/100
+|move|p1a: Sgranokkio|Hydro Pump|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sgranokkio|51/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Sgranokkio|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|78/100
+|move|p2a: Scizor|Hyper Beam|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|10/100
+|-mustrecharge|p2a: Scizor
+|
+|-weather|none
+|-heal|p1a: Sgranokkio|17/100|[from] item: Leftovers
+|-heal|p2a: Scizor|84/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Sgranokkio|Rock Slide|p2a: Scizor
+|-damage|p2a: Scizor|66/100
+|cant|p2a: Scizor|recharge
+|
+|-heal|p1a: Sgranokkio|23/100|[from] item: Leftovers
+|-heal|p2a: Scizor|72/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|move|p1a: Sgranokkio|Hydro Pump|p2a: Scizor
+|-damage|p2a: Scizor|28/100
+|move|p2a: Scizor|Hyper Beam|p1a: Sgranokkio
+|-crit|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|0 fnt
+|-mustrecharge|p2a: Scizor
+|faint|p1a: Sgranokkio
+
+|
+|switch|p1a: Blaze|Arcanine, M|95/100
+|
+|-heal|p1a: Blaze|100/100|[from] item: Leftovers
+|-heal|p2a: Scizor|34/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p1a: Blaze|Fire Blast|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+
+|
+|switch|p2a: Kingdra|Kingdra, M|91/100
+|
+|upkeep
+|turn|32
+
+|inactive|Yuji7 has 120 seconds left.
+
+|j| austinwall1030
+
+|c| austinwall1030|hi
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|move|p2a: Kingdra|Hydro Pump|p1a: Shiryu
+|-resisted|p1a: Shiryu
+|-damage|p1a: Shiryu|83/100
+|
+|-heal|p1a: Shiryu|89/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|c| austinwall1030|can I battle winner pls
+
+|
+|move|p2a: Kingdra|Double-Edge|p1a: Shiryu
+|-crit|p1a: Shiryu
+|-damage|p1a: Shiryu|41/100
+|-damage|p2a: Kingdra|78/100|[from] Recoil|[of] p1a: Shiryu
+|move|p1a: Shiryu|Ice Beam|p2a: Kingdra
+|-damage|p2a: Kingdra|57/100
+|
+|-heal|p1a: Shiryu|48/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p2a: Kingdra|Double-Edge|p1a: Shiryu
+|-damage|p1a: Shiryu|22/100
+|-damage|p2a: Kingdra|50/100|[from] Recoil|[of] p1a: Shiryu
+|move|p1a: Shiryu|Thunderbolt|p2a: Kingdra
+|-damage|p2a: Kingdra|28/100
+|
+|-heal|p1a: Shiryu|28/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p2a: Kingdra|Double-Edge|p1a: Shiryu
+|-damage|p1a: Shiryu|4/100
+|-damage|p2a: Kingdra|22/100|[from] Recoil|[of] p1a: Shiryu
+|move|p1a: Shiryu|Thunderbolt|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+
+|c| austinwall1030|because im really strong
+
+|
+|switch|p2a: Umbreon|Umbreon, M|29/100 par
+|
+|-heal|p1a: Shiryu|11/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|switch|p1a: Mantis|Scizor, M|100/100
+|move|p2a: Umbreon|Skull Bash||[still]
+|-prepare|p2a: Umbreon|Skull Bash|p1a: Mantis
+|-boost|p2a: Umbreon|def|1
+|
+|upkeep
+|turn|37
+
+|
+|move|p1a: Mantis|Return|p2a: Umbreon
+|-damage|p2a: Umbreon|15/100 par
+|move|p2a: Umbreon|Skull Bash|p1a: Mantis
+|-resisted|p1a: Mantis
+|-damage|p1a: Mantis|91/100
+|
+|-heal|p1a: Mantis|97/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|move|p1a: Mantis|Return|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+
+|
+|switch|p2a: Typhlosion|Typhlosion, M|21/100 par
+|
+|-heal|p1a: Mantis|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|
+|switch|p1a: Shiryu|Dragonite, M|11/100
+|move|p2a: Typhlosion|Fire Blast|p1a: Shiryu
+|-resisted|p1a: Shiryu
+|-damage|p1a: Shiryu|0 fnt
+|faint|p1a: Shiryu
+
+|c| austinwall1030|u got this typhlosion
+
+|
+|switch|p1a: Blaze|Arcanine, M|100/100
+|
+|upkeep
+|turn|40
+
+|
+|move|p1a: Blaze|Extreme Speed|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|win|Yuji7

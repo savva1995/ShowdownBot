@@ -1,0 +1,92 @@
+|init|battle
+|title|Amamama vs. BergeronetteGrise
+|j|☆Amamama
+|j|☆BergeronetteGrise
+|player|p1|Amamama|169|1120
+|player|p2|BergeronetteGrise|72|1063
+|teamsize|p1|3
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Cross Evolution
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Skrelp, F|item
+|poke|p1|Dwebble, M|item
+|poke|p1|Piloswine, M|item
+|poke|p2|Tangela|item
+|poke|p2|Archen, F|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Scyther, F|item
+|poke|p2|Kadabra, M|item
+|poke|p2|Magmar, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Hitmonchan|Dwebble, M|100/100
+|switch|p2a: Naganadel|Tangela|100/100
+|-start|p2a: Naganadel|typechange|Grass/Dragon|[silent]
+|turn|1
+|
+|move|p2a: Naganadel|Fire Blast|p1a: Hitmonchan|[miss]
+|-miss|p2a: Naganadel|p1a: Hitmonchan
+|move|p1a: Hitmonchan|Shell Smash|p1a: Hitmonchan
+|-unboost|p1a: Hitmonchan|def|1
+|-unboost|p1a: Hitmonchan|spd|1
+|-boost|p1a: Hitmonchan|atk|2
+|-boost|p1a: Hitmonchan|spa|2
+|-boost|p1a: Hitmonchan|spe|2
+|-enditem|p1a: Hitmonchan|White Herb
+|-clearnegativeboost|p1a: Hitmonchan|[silent]
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Naganadel|Fire Blast|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|46/100
+|move|p1a: Hitmonchan|Stone Edge|p2a: Naganadel
+|-damage|p2a: Naganadel|0 fnt
+|faint|p2a: Naganadel
+|
+|upkeep
+
+|
+|switch|p2a: Whimsicott|Archen, F|100/100
+|turn|3
+
+|
+|move|p1a: Hitmonchan|Stone Edge|p2a: Whimsicott|[miss]
+|-miss|p1a: Hitmonchan|p2a: Whimsicott
+|move|p2a: Whimsicott|Head Smash|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|-damage|p2a: Whimsicott|79/100|[from] Recoil
+|faint|p1a: Hitmonchan
+|
+|upkeep
+
+|
+|switch|p1a: Beedrill|Piloswine, M|100/100
+|turn|4
+
+|
+|move|p2a: Whimsicott|Head Smash|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|-damage|p2a: Whimsicott|14/100|[from] Recoil
+|faint|p1a: Beedrill
+|
+|upkeep
+
+|-message|Amamama forfeited.
+
+|
+|win|BergeronetteGrise

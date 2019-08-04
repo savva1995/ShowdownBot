@@ -1,0 +1,383 @@
+|init|battle
+|title|TheVagrantGamer vs. M404
+|j|☆TheVagrantGamer
+|j|☆M404
+|player|p1|TheVagrantGamer|25|1800
+|player|p2|M404|266|1789
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Infernape|Infernape, L82, F|100/100
+|switch|p2a: Tapu Lele|Tapu Lele, L80|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by M404)
+|inactive|TheVagrantGamer also wants the timer to be on.
+|
+|switch|p1a: Weavile|Weavile, L81, F|100/100
+|move|p2a: Tapu Lele|Psyshock|p1a: Weavile
+|-immune|p1a: Weavile
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Weavile|Knock Off|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|33/100
+|-enditem|p2a: Tapu Lele|Focus Sash|[from] move: Knock Off|[of] p1a: Weavile
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|move|p2a: Tapu Lele|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, L82, F|100/100
+|turn|3
+|
+|switch|p2a: Spiritomb|Spiritomb, L88, F|100/100
+|-ability|p2a: Spiritomb|Pressure
+|move|p1a: Infernape|Fire Blast|p2a: Spiritomb
+|-damage|p2a: Spiritomb|60/100
+|
+|-heal|p2a: Spiritomb|66/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Infernape|Nasty Plot|p1a: Infernape
+|-boost|p1a: Infernape|spa|2
+|move|p2a: Spiritomb|Dark Pulse|p1a: Infernape
+|-resisted|p1a: Infernape
+|-crit|p1a: Infernape
+|-damage|p1a: Infernape|68/100
+|
+|-heal|p2a: Spiritomb|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Infernape|Fire Blast|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p2a: Gothitelle|Gothitelle, L82, M|100/100
+|turn|6
+
+|
+|move|p1a: Infernape|Fire Blast|p2a: Gothitelle
+|-damage|p2a: Gothitelle|25/100
+|move|p2a: Gothitelle|Psychic|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-heal|p2a: Gothitelle|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Reshiram|Reshiram, L78|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|7
+
+|
+|move|p1a: Reshiram|Blue Flare|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, F|100/100
+|turn|8
+
+|
+|switch|p1a: Weezing|Weezing, L86, F|100/100
+|move|p2a: Darmanitan|Rock Slide|p1a: Weezing
+|-damage|p1a: Weezing|65/100
+|
+|-heal|p1a: Weezing|71/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Darmanitan|82/100|[from] Recoil
+|faint|p1a: Weezing
+|
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, L88, M|100/100
+|turn|10
+
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|move|p1a: Drampa|Glare|p2a: Tsareena
+|-status|p2a: Tsareena|par
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Drampa|Substitute|p1a: Drampa
+|-start|p1a: Drampa|Substitute
+|-damage|p1a: Drampa|76/100
+|cant|p2a: Tsareena|par
+|
+|-heal|p1a: Drampa|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Drampa|Dragon Pulse|p2a: Tsareena
+|-damage|p2a: Tsareena|51/100 par
+|move|p2a: Tsareena|Knock Off|p1a: Drampa
+|-end|p1a: Drampa|Substitute
+|
+|-heal|p1a: Drampa|88/100|[from] item: Leftovers
+|-heal|p2a: Tsareena|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Drampa|Substitute|p1a: Drampa
+|-start|p1a: Drampa|Substitute
+|-damage|p1a: Drampa|63/100
+|cant|p2a: Tsareena|par
+|
+|-heal|p1a: Drampa|69/100|[from] item: Leftovers
+|-heal|p2a: Tsareena|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Drampa|Dragon Pulse|p2a: Tsareena
+|-damage|p2a: Tsareena|15/100 par
+|move|p2a: Tsareena|Knock Off|p1a: Drampa
+|-end|p1a: Drampa|Substitute
+|
+|-heal|p1a: Drampa|75/100|[from] item: Leftovers
+|-heal|p2a: Tsareena|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Drampa|Substitute|p1a: Drampa
+|-start|p1a: Drampa|Substitute
+|-damage|p1a: Drampa|50/100
+|move|p2a: Tsareena|Knock Off|p1a: Drampa
+|-end|p1a: Drampa|Substitute
+|
+|-heal|p1a: Drampa|56/100|[from] item: Leftovers
+|-heal|p2a: Tsareena|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Drampa|Roost|p1a: Drampa
+|-heal|p1a: Drampa|100/100
+|-singleturn|p1a: Drampa|move: Roost
+|cant|p2a: Tsareena|par
+|
+|-heal|p2a: Tsareena|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Breloom|Breloom, L81, F|100/100
+|move|p1a: Drampa|Substitute|p1a: Drampa
+|-start|p1a: Drampa|Substitute
+|-damage|p1a: Drampa|76/100
+|
+|-heal|p1a: Drampa|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-end|p1a: Drampa|Substitute
+|move|p1a: Drampa|Glare|p2a: Breloom
+|-status|p2a: Breloom|par
+|
+|-heal|p1a: Drampa|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Reshiram|Reshiram, L78|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|move|p2a: Breloom|Mach Punch|p1a: Reshiram
+|-damage|p1a: Reshiram|73/100
+|
+|-heal|p1a: Reshiram|79/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|33/100 par
+|move|p1a: Reshiram|Blue Flare|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|-heal|p1a: Reshiram|85/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele, L80|33/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|21
+
+|
+|move|p2a: Tapu Lele|Psyshock|p1a: Reshiram
+|-damage|p1a: Reshiram|36/100
+|move|p1a: Reshiram|Blue Flare|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-heal|p1a: Reshiram|42/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, F|82/100
+|turn|22
+
+|
+|move|p2a: Darmanitan|Earthquake|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|-damage|p2a: Darmanitan|72/100|[from] item: Life Orb
+|faint|p1a: Reshiram
+|
+|upkeep
+
+|
+|switch|p1a: Dunsparce|Dunsparce, L89, M|100/100
+|turn|23
+
+|
+|move|p2a: Darmanitan|Superpower|p1a: Dunsparce
+|-supereffective|p1a: Dunsparce
+|-damage|p1a: Dunsparce|0 fnt
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|-damage|p2a: Darmanitan|62/100|[from] item: Life Orb
+|faint|p1a: Dunsparce
+|
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, L88, M|88/100
+|turn|24
+
+|
+|move|p2a: Darmanitan|Superpower|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|21/100
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|-damage|p2a: Darmanitan|52/100|[from] item: Life Orb
+|move|p1a: Drampa|Roost|p1a: Drampa
+|-heal|p1a: Drampa|71/100
+|-singleturn|p1a: Drampa|move: Roost
+|
+|-heal|p1a: Drampa|77/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Breloom|Breloom, L81, F|100/100 par
+|move|p1a: Drampa|Substitute|p1a: Drampa
+|-start|p1a: Drampa|Substitute
+|-damage|p1a: Drampa|52/100
+|
+|-heal|p1a: Drampa|59/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|26
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-end|p1a: Drampa|Substitute
+|move|p1a: Drampa|Dragon Pulse|p2a: Breloom
+|-damage|p2a: Breloom|20/100 par
+|
+|-heal|p1a: Drampa|65/100|[from] item: Leftovers
+|-heal|p2a: Breloom|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|13/100
+|move|p1a: Drampa|Roost|p1a: Drampa
+|-heal|p1a: Drampa|63/100
+|-singleturn|p1a: Drampa|move: Roost
+|
+|-heal|p1a: Drampa|69/100|[from] item: Leftovers
+|-heal|p2a: Breloom|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Drampa|Roost|p1a: Drampa
+|-heal|p1a: Drampa|100/100
+|-singleturn|p1a: Drampa|move: Roost
+|move|p2a: Breloom|Spore|p1a: Drampa
+|-ability|p1a: Drampa|Sap Sipper|boost
+|-boost|p1a: Drampa|atk|1
+|
+|-heal|p2a: Breloom|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|cant|p2a: Breloom|par
+|move|p1a: Drampa|Substitute|p1a: Drampa
+|-start|p1a: Drampa|Substitute
+|-damage|p1a: Drampa|76/100
+|
+|-heal|p1a: Drampa|82/100|[from] item: Leftovers
+|-heal|p2a: Breloom|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-end|p1a: Drampa|Substitute
+|move|p1a: Drampa|Dragon Pulse|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-heal|p1a: Drampa|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, F|52/100
+|turn|31
+
+|
+|move|p2a: Darmanitan|Rock Slide|p1a: Drampa
+|-damage|p1a: Drampa|44/100
+|move|p1a: Drampa|Dragon Pulse|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|win|TheVagrantGamer

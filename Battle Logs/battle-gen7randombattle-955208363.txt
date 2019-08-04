@@ -1,0 +1,338 @@
+|init|battle
+|title|ruben2110 vs. Artemis59
+|j|☆ruben2110
+|j|☆Artemis59
+|player|p1|ruben2110|196|
+|player|p2|Artemis59|34|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Latias|Latias, L81, F|100/100
+|switch|p2a: Bronzong|Bronzong, L84|100/100
+|turn|1
+|
+|switch|p1a: Stantler|Stantler, L89, M|100/100
+|-ability|p1a: Stantler|Intimidate|boost
+|-unboost|p2a: Bronzong|atk|1
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Kricketune|Kricketune, L89, F|100/100
+|move|p1a: Stantler|Sucker Punch||[still]
+|-fail|p1a: Stantler
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, M|100/100
+|move|p2a: Kricketune|Toxic|p1a: Escavalier
+|-immune|p1a: Escavalier
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Escavalier|Swords Dance|p1a: Escavalier
+|-boost|p1a: Escavalier|atk|2
+|move|p2a: Kricketune|Taunt|p1a: Escavalier
+|-start|p1a: Escavalier|move: Taunt
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Incineroar|Incineroar, L86, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Escavalier|atk|1
+|move|p1a: Escavalier|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|80/100
+|-enditem|p2a: Incineroar|Assault Vest|[from] move: Knock Off|[of] p1a: Escavalier
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Latias|Latias, L81, F|100/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|68/100
+|-damage|p2a: Incineroar|70/100|[from] Recoil
+|
+|upkeep
+|turn|7
+
+|
+|detailschange|p1a: Latias|Latias-Mega, L81, F
+|-mega|p1a: Latias|Latias|Latiasite
+|move|p1a: Latias|Surf|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|22/100
+|move|p2a: Incineroar|Knock Off|p1a: Latias
+|-supereffective|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus, L78, M|100/100
+|turn|8
+
+|
+|switch|p2a: Greninja|Greninja, L80, F|100/100
+|move|p1a: Landorus|Calm Mind|p1a: Landorus
+|-boost|p1a: Landorus|spa|1
+|-boost|p1a: Landorus|spd|1
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, M|100/100
+|move|p2a: Greninja|Hydro Pump|p1a: Escavalier
+|-start|p2a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p1a: Escavalier|61/100
+|
+|-heal|p1a: Escavalier|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Incineroar|Incineroar, L86, F|22/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Escavalier|atk|1
+|move|p1a: Escavalier|Swords Dance|p1a: Escavalier
+|-boost|p1a: Escavalier|atk|2
+|
+|-heal|p1a: Escavalier|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Artemis59)
+
+|
+|move|p2a: Incineroar|Flare Blitz|p1a: Escavalier
+|-supereffective|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|-damage|p2a: Incineroar|2/100|[from] Recoil
+|faint|p1a: Escavalier
+|
+|upkeep
+
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|turn|12
+
+|
+|switch|p2a: Kricketune|Kricketune, L89, F|100/100
+|move|p1a: Lilligant|Hidden Power|p2a: Kricketune
+|-supereffective|p2a: Kricketune
+|-damage|p2a: Kricketune|56/100
+|
+|-heal|p2a: Kricketune|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Kricketune|Sticky Web|p1a: Lilligant
+|-sidestart|p1: ruben2110|move: Sticky Web
+|
+|-heal|p2a: Kricketune|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Kricketune
+|-supereffective|p2a: Kricketune
+|-damage|p2a: Kricketune|0 fnt
+|faint|p2a: Kricketune
+|
+|upkeep
+
+|
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|turn|15
+
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Cobalion
+|-status|p2a: Cobalion|slp|[from] move: Sleep Powder
+|cant|p2a: Cobalion|slp
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|40/100 slp
+|cant|p2a: Cobalion|slp
+|
+|-heal|p2a: Cobalion|46/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|18
+
+|
+|move|p1a: Lilligant|Petal Dance|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|faint|p2a: Xurkitree
+|
+|upkeep
+
+|
+|switch|p2a: Bronzong|Bronzong, L84|100/100
+|turn|19
+
+|inactive|Artemis59 has 270 seconds left.
+
+|
+|move|p1a: Lilligant|Petal Dance|p2a: Bronzong|[from]lockedmove
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|62/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Lilligant
+|-sidestart|p1: ruben2110|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|inactive|Artemis59 has 270 seconds left.
+
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|23/100
+|move|p2a: Bronzong|Light Screen|p2a: Bronzong
+|-sidestart|p2: Artemis59|move: Light Screen
+|
+|-heal|p2a: Bronzong|29/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Bronzong|[miss]
+|-miss|p1a: Lilligant|p2a: Bronzong
+|move|p2a: Bronzong|Gyro Ball|p1a: Lilligant
+|-damage|p1a: Lilligant|44/100
+|
+|-heal|p1a: Lilligant|50/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|35/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|9/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-heal|p2a: Bronzong|15/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Claydol|Claydol, L88|100/100
+|-damage|p1a: Claydol|94/100|[from] Stealth Rock
+|turn|23
+
+|
+|switch|p2a: Greninja|Greninja, L80, F|100/100
+|move|p1a: Claydol|Stealth Rock|p2a: Greninja
+|-sidestart|p2: Artemis59|move: Stealth Rock
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Stantler|Stantler, L89, M|100/100
+|-damage|p1a: Stantler|88/100|[from] Stealth Rock
+|-activate|p1a: Stantler|move: Sticky Web
+|-unboost|p1a: Stantler|spe|1
+|-ability|p1a: Stantler|Intimidate|boost
+|-unboost|p2a: Greninja|atk|1
+|move|p2a: Greninja|Hydro Pump|p1a: Stantler|[miss]
+|-start|p2a: Greninja|typechange|Water|[from] ability: Protean
+|-miss|p2a: Greninja|p1a: Stantler
+|
+|-sideend|p2: Artemis59|move: Light Screen
+|upkeep
+|turn|25
+
+|
+|move|p2a: Greninja|Taunt|p1a: Stantler
+|-start|p2a: Greninja|typechange|Dark|[from] ability: Protean
+|-start|p1a: Stantler|move: Taunt
+|move|p1a: Stantler|Double-Edge|p2a: Greninja
+|-damage|p2a: Greninja|11/100
+|-damage|p1a: Stantler|62/100|[from] Recoil
+|-damage|p1a: Stantler|52/100|[from] item: Life Orb
+|
+|-heal|p2a: Greninja|17/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Greninja|Toxic Spikes|p1a: Stantler
+|-start|p2a: Greninja|typechange|Poison|[from] ability: Protean
+|-sidestart|p1: ruben2110|move: Toxic Spikes
+|move|p1a: Stantler|Megahorn|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-damage|p1a: Stantler|42/100|[from] item: Life Orb
+|faint|p2a: Greninja
+|
+|upkeep
+
+|
+|switch|p2a: Bronzong|Bronzong, L84|15/100
+|-damage|p2a: Bronzong|9/100|[from] Stealth Rock
+|turn|27
+
+|
+|move|p1a: Stantler|Sucker Punch|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-damage|p1a: Stantler|32/100|[from] item: Life Orb
+|faint|p2a: Bronzong
+|
+|-end|p1a: Stantler|move: Taunt
+|upkeep
+
+|inactiveoff|Battle timer is now OFF.
+
+|
+|switch|p2a: Incineroar|Incineroar, L86, F|2/100
+|-damage|p2a: Incineroar|0 fnt|[from] Stealth Rock
+|faint|p2a: Incineroar
+|
+|win|ruben2110

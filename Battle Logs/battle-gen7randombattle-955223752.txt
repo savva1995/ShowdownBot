@@ -1,0 +1,190 @@
+|init|battle
+|title|SickLiepard vs. Loomilaka
+|j|☆SickLiepard
+|j|☆Loomilaka
+|player|p1|SickLiepard|154|1798
+|player|p2|Loomilaka|1|1842
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|switch|p2a: Serperior|Serperior, L80, F|100/100
+|turn|1
+
+|
+|move|p2a: Serperior|Glare|p1a: Meloetta
+|-status|p1a: Meloetta|par
+|move|p1a: Meloetta|Relic Song|p2a: Serperior
+|-damage|p2a: Serperior|62/100
+|-status|p2a: Serperior|slp|[from] move: Relic Song
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|
+|-heal|p2a: Serperior|68/100 slp|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SickLiepard)
+
+|
+|cant|p2a: Serperior|slp
+|move|p1a: Meloetta|Knock Off|p2a: Serperior
+|-damage|p2a: Serperior|34/100 slp
+|-enditem|p2a: Serperior|Leftovers|[from] move: Knock Off|[of] p1a: Meloetta
+|
+|upkeep
+|turn|3
+
+|
+|cant|p2a: Serperior|slp
+|cant|p1a: Meloetta|par
+|
+|upkeep
+|turn|4
+
+|
+|-curestatus|p2a: Serperior|slp|[msg]
+|move|p2a: Serperior|Leaf Storm|p1a: Meloetta
+|-damage|p1a: Meloetta|73/100 par
+|-boost|p2a: Serperior|spa|2
+|cant|p1a: Meloetta|par
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Meloetta|[miss]
+|-miss|p2a: Serperior|p1a: Meloetta
+|move|p1a: Meloetta|Return|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|100/100
+|turn|6
+
+|
+|move|p2a: Mandibuzz|Brave Bird|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|13/100 par
+|-damage|p2a: Mandibuzz|82/100|[from] Recoil
+|move|p1a: Meloetta|Relic Song|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|63/100
+|-formechange|p1a: Meloetta|Meloetta|[msg]
+|
+|-heal|p2a: Mandibuzz|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+
+|
+|switch|p2a: Heatmor|Heatmor, L89, M|100/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L78, F|100/100
+|turn|8
+
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|69/100
+|detailschange|p1a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p1a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p1a: Kangaskhan|Power-Up Punch|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|61/100
+|-boost|p1a: Kangaskhan|atk|1
+|-damage|p2a: Mandibuzz|58/100
+|-boost|p1a: Kangaskhan|atk|1
+|-hitcount|p2a: Mandibuzz|2
+|
+|-heal|p2a: Mandibuzz|64/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Kangaskhan|Return|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|1/100
+|-damage|p2a: Mandibuzz|0 fnt
+|-hitcount|p2a: Mandibuzz|2
+|faint|p2a: Mandibuzz
+|
+|upkeep
+
+|
+|switch|p2a: Kingler|Kingler, L87, F|100/100
+|turn|10
+
+|
+|move|p1a: Kangaskhan|Return|p2a: Kingler
+|-damage|p2a: Kingler|20/100
+|-damage|p2a: Kingler|1/100
+|-hitcount|p2a: Kingler|2
+|move|p2a: Kingler|Liquidation|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|36/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Kangaskhan|Power-Up Punch|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|-boost|p1a: Kangaskhan|atk|1
+|-hitcount|p2a: Kingler|1
+|faint|p2a: Kingler
+|
+|upkeep
+
+|
+|switch|p2a: Aggron|Aggron, L82, M|100/100
+|turn|12
+
+|
+|detailschange|p2a: Aggron|Aggron-Mega, L82, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Kangaskhan|Earthquake|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|50/100
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|35/100
+|-hitcount|p2a: Aggron|2
+|move|p2a: Aggron|Heavy Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|upkeep
+
+|
+|switch|p1a: Heliolisk|Heliolisk, L86, F|100/100
+|turn|13
+
+|
+|move|p1a: Heliolisk|Volt Switch|p2a: Aggron
+|-crit|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100|[from]move: Volt Switch
+|-ability|p1a: Palkia|Pressure
+|
+|upkeep
+
+|inactive|Loomilaka has 120 seconds left.
+
+|-message|Loomilaka forfeited.
+
+|
+|win|SickLiepard

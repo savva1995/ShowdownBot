@@ -1,0 +1,168 @@
+|init|battle
+|title|Yuji7 vs. Jeffisabadguy
+|j|☆Yuji7
+|j|☆Jeffisabadguy
+|player|p1|Yuji7|169|1046
+|player|p2|Jeffisabadguy|2|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sgranokkio|Feraligatr, M|100/100
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|1
+
+|
+|switch|p1a: Mantis|Scizor, M|100/100
+|move|p2a: Dragonite|Return|p1a: Mantis
+|-resisted|p1a: Mantis
+|-damage|p1a: Mantis|86/100
+|
+|-heal|p1a: Mantis|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p1a: Mantis|Toxic|p2a: Dragonite
+|-activate|p2a: Dragonite|Protect
+|
+|-heal|p1a: Mantis|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|move|p1a: Mantis|Toxic|p2a: Alakazam
+|-status|p2a: Alakazam|tox
+|
+|-heal|p1a: Mantis|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Nite|Umbreon, M|100/100
+|move|p2a: Alakazam|Fire Punch|p1a: Nite
+|-damage|p1a: Nite|86/100
+|-damage|p2a: Alakazam|94/100 tox|[from] psn
+|
+|-heal|p1a: Nite|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|-activate|p2a: Alakazam|move: Pursuit
+|move|p1a: Nite|Pursuit|p2a: Alakazam|[from]Pursuit
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|46/100 tox
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-boost|p2a: Smeargle|atk|2
+|-start|p2a: Smeargle|confusion
+|
+|-heal|p1a: Nite|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Mantis|Scizor, M|100/100
+|-activate|p2a: Smeargle|confusion
+|-damage|p2a: Smeargle|90/100|[from] confusion
+|
+|upkeep
+|turn|7
+
+|c|☆Jeffisabadguy|wow
+
+|
+|-activate|p2a: Smeargle|confusion
+|-damage|p2a: Smeargle|80/100|[from] confusion
+|move|p1a: Mantis|Toxic|p2a: Smeargle
+|-status|p2a: Smeargle|tox
+|
+|upkeep
+|turn|8
+
+|c|☆Jeffisabadguy|wow no.2
+
+|
+|-activate|p2a: Smeargle|confusion
+|-damage|p2a: Smeargle|70/100 tox|[from] confusion
+|-damage|p2a: Smeargle|64/100 tox|[from] psn
+|move|p1a: Mantis|Return|p2a: Smeargle
+|-damage|p2a: Smeargle|12/100 tox
+|
+|upkeep
+|turn|9
+
+|c|☆Jeffisabadguy|wow no. 3
+
+|
+|move|p1a: Mantis|Quick Attack|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+
+|c|☆Jeffisabadguy|wow no. 4
+
+|
+|switch|p2a: Alakazam|Alakazam, M|46/100 tox
+|-status|p2a: Alakazam|psn|[silent]
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|switch|p1a: Nite|Umbreon, M|98/100
+|
+|-heal|p1a: Nite|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|move|p2a: Machamp|Seismic Toss|p1a: Shiryu
+|-damage|p1a: Shiryu|75/100
+|
+|-heal|p1a: Shiryu|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|move|p1a: Shiryu|Fire Blast|p2a: Rhydon|[miss]
+|-miss|p1a: Shiryu
+|
+|-heal|p1a: Shiryu|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|100/100
+|move|p2a: Rhydon|Hidden Power|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|73/100
+|
+|-heal|p1a: Sgranokkio|79/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Sgranokkio|Hydro Pump|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+
+|-message|Jeffisabadguy forfeited.
+
+|
+|win|Yuji7

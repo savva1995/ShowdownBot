@@ -1,0 +1,213 @@
+|init|battle
+|title|Samiaou vs. dun 26
+|j|☆Samiaou
+|j|☆dun 26
+|player|p1|Samiaou|12|1761
+|player|p2|dun 26|192|1730
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gigalith|Gigalith, L85, M|100/100
+|switch|p2a: Naganadel|Naganadel, L78|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|switch|p2a: Lilligant|Lilligant, L87, F|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Lilligant
+|-sidestart|p2: dun 26|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lilligant|94/100|[from] Sandstorm
+|-heal|p2a: Lilligant|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|move|p2a: Lilligant|Giga Drain|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|74/100|[from] Sandstorm
+|-damage|p2a: Lilligant|94/100|[from] Sandstorm
+|-heal|p2a: Lilligant|100/100|[from] item: Leftovers
+|-heal|p1a: Lilligant|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Naganadel|Naganadel, L78|100/100
+|-damage|p2a: Naganadel|88/100|[from] Stealth Rock
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|74/100|[from] Sandstorm
+|-damage|p2a: Naganadel|82/100|[from] Sandstorm
+|-heal|p1a: Lilligant|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Naganadel
+|-status|p2a: Naganadel|slp|[from] move: Sleep Powder
+|cant|p2a: Naganadel|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|74/100|[from] Sandstorm
+|-damage|p2a: Naganadel|76/100 slp|[from] Sandstorm
+|-heal|p1a: Lilligant|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|-curestatus|p2a: Naganadel|slp|[msg]
+|move|p2a: Naganadel|Sludge Wave|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|36/100
+|-status|p1a: Lilligant|psn
+|
+|-weather|none
+|-heal|p1a: Lilligant|43/100 psn|[from] item: Leftovers
+|-damage|p1a: Lilligant|30/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Goodra|Goodra, L84, F|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|move|p1a: Lilligant|Hidden Power|p2a: Goodra
+|-damage|p2a: Goodra|73/100
+|
+|-heal|p1a: Lilligant|36/100 psn|[from] item: Leftovers
+|-damage|p1a: Lilligant|24/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Goodra
+|-damage|p2a: Goodra|57/100
+|move|p2a: Goodra|Dragon Tail|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon, L78|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|8
+
+|
+|switch|p2a: Lilligant|Lilligant, L87, F|100/100
+|-damage|p2a: Lilligant|88/100|[from] Stealth Rock
+|move|p1a: Groudon|Thunder Wave|p2a: Lilligant
+|-status|p2a: Lilligant|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lilligant|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Groudon|Fire Punch|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-crit|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, F|100/100
+|-damage|p2a: Clawitzer|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p1a: Groudon|Thunder Wave|p2a: Clawitzer
+|-status|p2a: Clawitzer|par
+|move|p2a: Clawitzer|U-turn|p1a: Groudon
+|-damage|p1a: Groudon|89/100
+
+|
+|switch|p2a: Goodra|Goodra, L84, F|57/100|[from]move: U-turn
+|-damage|p2a: Goodra|45/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, F|88/100 par
+|-damage|p2a: Clawitzer|76/100 par|[from] Stealth Rock
+|move|p1a: Groudon|Thunder Wave|p2a: Clawitzer
+|-fail|p2a: Clawitzer|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Groudon|Earthquake|p2a: Clawitzer
+|-damage|p2a: Clawitzer|29/100 par
+|cant|p2a: Clawitzer|par
+|
+|-weather|none
+|upkeep
+|turn|13
+
+|
+|move|p1a: Groudon|Earthquake|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|
+|upkeep
+
+|
+|switch|p2a: Liepard|Liepard, L88, M|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Liepard|Knock Off|p1a: Groudon
+|-damage|p1a: Groudon|75/100
+|-enditem|p1a: Groudon|Leftovers|[from] move: Knock Off|[of] p2a: Liepard
+|move|p1a: Groudon|Earthquake|p2a: Liepard
+|-damage|p2a: Liepard|10/100
+|
+|-heal|p2a: Liepard|17/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dun 26)
+
+|l|☆Samiaou
+
+|inactive|Samiaou disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Samiaou has 30 seconds to reconnect!
+
+|inactive|Samiaou has 20 seconds to reconnect!
+
+|inactive|Samiaou has 15 seconds to reconnect!
+
+|inactive|Samiaou has 10 seconds to reconnect!
+
+|inactive|Samiaou has 5 seconds to reconnect!
+
+|-message|Samiaou lost due to inactivity.
+|
+|win|dun 26

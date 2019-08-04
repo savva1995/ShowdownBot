@@ -1,0 +1,164 @@
+|init|battle
+|title|menma222 vs. Williamson2020
+|j|☆menma222
+|j|☆Williamson2020
+|player|p1|menma222|70|1300
+|player|p2|Williamson2020|265|1250
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ninjask|Ninjask, L89, M|100/100
+|switch|p2a: Medicham|Medicham, L80, F|100/100
+|turn|1
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, L80, F
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Ninjask
+|-damage|p1a: Ninjask|71/100
+|cant|p1a: Ninjask|flinch
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Williamson2020)
+
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|-ability|p2a: Moltres|Pressure
+|move|p1a: Ninjask|Leech Life|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|93/100
+|-heal|p1a: Ninjask|76/100|[from] drain|[of] p2a: Moltres
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|3
+
+|inactive|menma222 has 120 seconds left.
+
+|inactive|menma222 has 90 seconds left.
+
+|
+|move|p1a: Ninjask|Night Slash|p2a: Moltres
+|-damage|p2a: Moltres|73/100
+|move|p2a: Moltres|Will-O-Wisp|p1a: Ninjask|[miss]
+|-miss|p2a: Moltres|p1a: Ninjask
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|4
+
+|inactive|Williamson2020 has 120 seconds left.
+
+|
+|move|p1a: Ninjask|Swords Dance|p1a: Ninjask
+|-boost|p1a: Ninjask|atk|2
+|move|p2a: Moltres|Will-O-Wisp|p1a: Ninjask
+|-status|p1a: Ninjask|brn
+|
+|-damage|p1a: Ninjask|70/100 brn|[from] brn
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|5
+
+|inactive|menma222 has 60 seconds left.
+
+|inactive|menma222 has 30 seconds left.
+
+|inactive|menma222 has 20 seconds left.
+
+|inactive|menma222 has 15 seconds left.
+
+|inactive|menma222 has 10 seconds left.
+
+|
+|move|p1a: Ninjask|Night Slash|p2a: Moltres
+|-damage|p2a: Moltres|56/100
+|move|p2a: Moltres|Fire Blast|p1a: Ninjask
+|-supereffective|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|
+|upkeep
+
+|inactive|menma222 has 20 seconds left this turn.
+
+|inactive|menma222 has 15 seconds left.
+
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|6
+
+|inactive|menma222 has 25 seconds left this turn.
+
+|inactive|Williamson2020 has 120 seconds left.
+
+|
+|-zpower|p2a: Moltres
+|move|p2a: Moltres|Supersonic Skystrike|p1a: Hippowdon|[zeffect]
+|-damage|p1a: Hippowdon|7/100
+|move|p1a: Hippowdon|Stone Edge|p2a: Moltres|[miss]
+|-miss|p1a: Hippowdon|p2a: Moltres
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|50/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|13/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|menma222 has 30 seconds left.
+
+|inactive|menma222 has 20 seconds left.
+
+|
+|move|p2a: Moltres|Fire Blast|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|44/100|[from] Sandstorm
+|upkeep
+
+|inactive|menma222 has 30 seconds left this turn.
+
+|inactive|menma222 has 20 seconds left.
+
+|
+|switch|p1a: Sharpedo|Sharpedo, L82, F|100/100
+|turn|8
+
+|inactive|menma222 has 30 seconds left this turn.
+
+|l|☆Williamson2020
+
+|inactive|Williamson2020 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Williamson2020 has 30 seconds to reconnect!
+
+|inactive|Williamson2020 has 20 seconds to reconnect!
+
+|inactive|Williamson2020 has 15 seconds to reconnect!
+
+|inactive|Williamson2020 has 10 seconds to reconnect!
+
+|inactive|Williamson2020 has 5 seconds to reconnect!
+
+|-message|Williamson2020 lost due to inactivity.
+|
+|win|menma222

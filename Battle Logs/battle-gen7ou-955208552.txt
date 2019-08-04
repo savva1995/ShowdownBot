@@ -1,0 +1,241 @@
+|init|battle
+|title|Sheehands vs. InDeSKYz
+|j|☆Sheehands
+|j|☆InDeSKYz
+|player|p1|Sheehands|2|1107
+|player|p2|InDeSKYz|209|1142
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Magearna|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Victini|item
+|poke|p1|Gallade, M|item
+|poke|p1|Salamence, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Sableye, F|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Ditto|item
+|poke|p2|Skarmory, F|item
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by InDeSKYz)
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Magearna|Focus Blast|p2a: Rotom
+|-damage|p2a: Rotom|69/100
+|
+|-heal|p2a: Rotom|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Gallade
+|-status|p1a: Gallade|brn
+|
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|-damage|p1a: Gallade|94/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|detailschange|p1a: Gallade|Gallade-Mega, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|-damage|p1a: Gallade|88/100 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+
+|
+|move|p1a: Gallade|Psycho Cut|p2a: Gliscor
+|-damage|p2a: Gliscor|73/100 tox
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-damage|p1a: Gallade|82/100 brn|[from] brn
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+
+|
+|move|p1a: Gallade|Night Slash|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|58/100 tox
+|move|p2a: Gliscor|Acrobatics|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|-heal|p2a: Gliscor|71/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|turn|6
+
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|-zpower|p1a: Feraligatr
+|move|p1a: Feraligatr|Hydro Vortex|p2a: Gliscor|[zeffect]
+|-supereffective|p2a: Gliscor
+|-zbroken|p2a: Gliscor
+|-damage|p2a: Gliscor|45/100 tox
+|
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Rotom|Rotom-Wash|82/100
+|move|p1a: Feraligatr|Ice Punch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|65/100
+|
+|-heal|p2a: Rotom|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Salamence
+|-status|p1a: Salamence|brn
+|
+|-heal|p2a: Rotom|77/100|[from] item: Leftovers
+|-damage|p1a: Salamence|94/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Salamence|Dragon Claw|p2a: Rotom
+|-damage|p2a: Rotom|44/100
+|move|p2a: Rotom|Volt Switch|p1a: Salamence
+|-damage|p1a: Salamence|63/100 brn
+
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100|[from]move: Volt Switch
+|
+|-damage|p1a: Salamence|57/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Gliscor|Gliscor, M|58/100 tox
+|move|p1a: Magearna|Flash Cannon|p2a: Gliscor
+|-damage|p2a: Gliscor|3/100 tox
+|
+|-heal|p2a: Gliscor|62/100 tox|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+
+|
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Magearna|Flash Cannon|p2a: Gliscor
+|-damage|p2a: Gliscor|22/100 tox
+|
+|-heal|p2a: Gliscor|35/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Magearna|Flash Cannon|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|turn|15
+
+|
+|switch|p2a: Rotom|Rotom-Wash|44/100
+|move|p1a: Feraligatr|Ice Punch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|
+|-heal|p2a: Rotom|26/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Rotom|Pain Split|p1a: Feraligatr
+|-sethp|p1a: Feraligatr|63/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|64/100|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|71/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: Feraligatr
+|-status|p1a: Feraligatr|brn
+|
+|-heal|p2a: Rotom|77/100|[from] item: Leftovers
+|-damage|p1a: Feraligatr|57/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Feraligatr|Liquidation|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|47/100
+|move|p2a: Rotom|Volt Switch|p1a: Feraligatr
+|-supereffective|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+
+|-message|Sheehands forfeited.
+
+|
+|win|InDeSKYz

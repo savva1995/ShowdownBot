@@ -1,0 +1,326 @@
+|init|battle
+|title|Rusl2 vs. Natsuuuu
+|j|☆Rusl2
+|j|☆Natsuuuu
+|player|p1|Rusl2|101|1791
+|player|p2|Natsuuuu|281|1902
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golem|Golem-Alola, L89, F|100/100
+|switch|p2a: Raichu|Raichu-Alola, L88, F|100/100
+|-item|p1a: Golem|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Natsuuuu)
+|
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|move|p1a: Golem|Earthquake|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|upkeep
+|
+|switch|p2a: Lunala|Lunala, L78|100/100
+|turn|2
+|
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Golem|Toxic|p2a: Lunala
+|-status|p2a: Lunala|tox
+|
+|-damage|p2a: Lunala|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Audino|Audino, L86, F|100/100
+|move|p2a: Lunala|Focus Blast|p1a: Audino
+|-supereffective|p1a: Audino
+|-damage|p1a: Audino|10/100
+|
+|-heal|p2a: Lunala|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Lunala|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|detailschange|p1a: Audino|Audino-Mega, L86, F
+|-mega|p1a: Audino|Audino|Audinite
+|move|p2a: Lunala|Focus Blast|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|-heal|p2a: Lunala|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Lunala|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|100/100
+|turn|5
+|
+|move|p2a: Lunala|Moongeist Beam|p1a: Togekiss
+|-damage|p1a: Togekiss|42/100
+|move|p1a: Togekiss|Air Slash|p2a: Lunala|[miss]
+|-miss|p1a: Togekiss|p2a: Lunala
+|
+|-heal|p2a: Lunala|82/100 tox|[from] item: Leftovers
+|-heal|p1a: Togekiss|48/100|[from] item: Leftovers
+|-damage|p2a: Lunala|58/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Lunala|Moongeist Beam|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Lunala|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Lunala|33/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|turn|7
+|
+|move|p1a: Lugia|Psychic|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|26/100 tox
+|move|p2a: Lunala|Moongeist Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|14/100
+|
+|-heal|p1a: Lugia|20/100|[from] item: Leftovers
+|-heal|p2a: Lunala|32/100 tox|[from] item: Leftovers
+|-damage|p2a: Lunala|0 fnt|[from] psn
+|faint|p2a: Lunala
+|upkeep
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, F|100/100
+|turn|8
+|
+|move|p2a: Rhyperior|Rock Blast|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|-hitcount|p1a: Lugia|1
+|faint|p1a: Lugia
+|
+|upkeep
+|
+|switch|p1a: Tsareena|Tsareena, L84, F|100/100
+|turn|9
+|
+|switch|p2a: Parasect|Parasect, L89, F|100/100
+|move|p1a: Tsareena|Power Whip|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|86/100
+|
+|-heal|p2a: Parasect|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Tsareena|Knock Off|p2a: Parasect
+|-damage|p2a: Parasect|61/100
+|-enditem|p2a: Parasect|Leftovers|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Parasect|Leech Life|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|35/100
+|-heal|p2a: Parasect|95/100|[from] drain|[of] p1a: Tsareena
+|
+|-heal|p1a: Tsareena|42/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Tsareena|Synthesis|p1a: Tsareena
+|-heal|p1a: Tsareena|92/100
+|move|p2a: Parasect|Substitute|p2a: Parasect
+|-start|p2a: Parasect|Substitute
+|-damage|p2a: Parasect|70/100
+|
+|-heal|p1a: Tsareena|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Tsareena|Knock Off|p2a: Parasect
+|-activate|p2a: Parasect|move: Substitute|[damage]
+|move|p2a: Parasect|Leech Life|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|32/100
+|-heal|p2a: Parasect|100/100|[from] drain|[of] p1a: Tsareena
+|
+|-heal|p1a: Tsareena|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Tsareena|Knock Off|p2a: Parasect
+|-end|p2a: Parasect|Substitute
+|move|p2a: Parasect|Leech Life|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-crit|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|upkeep
+
+|
+|switch|p1a: Golem|Golem-Alola, L89, F|100/100
+|-item|p1a: Golem|Air Balloon
+|turn|14
+
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, F|100/100
+|move|p1a: Golem|Stone Edge|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|84/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Golem|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|53/100
+|move|p2a: Rhyperior|Rock Blast|p1a: Golem
+|-damage|p1a: Golem|88/100
+|-enditem|p1a: Golem|Air Balloon
+|-damage|p1a: Golem|74/100
+|-hitcount|p1a: Golem|2
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Parasect|Parasect, L89, F|100/100
+|move|p1a: Golem|Earthquake|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|91/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Golem|Stone Edge|p2a: Parasect|[miss]
+|-miss|p1a: Golem|p2a: Parasect
+|move|p2a: Parasect|Seed Bomb|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|30/100
+|
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, F|53/100
+|move|p1a: Golem|Stone Edge|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|38/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Golem|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|7/100
+|move|p2a: Rhyperior|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|upkeep
+
+|
+|switch|p1a: Excadrill|Excadrill, L80, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|20
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|faint|p2a: Rhyperior
+|
+|upkeep
+
+|
+|switch|p2a: Parasect|Parasect, L89, F|91/100
+|turn|21
+
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Parasect|[miss]
+|-miss|p1a: Excadrill|p2a: Parasect
+|move|p2a: Parasect|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-damage|p1a: Excadrill|78/100|[from] Leech Seed|[of] p2a: Parasect
+|-heal|p2a: Parasect|100/100|[silent]
+|upkeep
+|turn|22
+
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Parasect|Substitute|p2a: Parasect
+|-start|p2a: Parasect|Substitute
+|-damage|p2a: Parasect|76/100
+|
+|-damage|p1a: Excadrill|66/100|[from] Leech Seed|[of] p2a: Parasect
+|-heal|p2a: Parasect|91/100|[silent]
+|upkeep
+|turn|23
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Parasect
+|-resisted|p2a: Parasect
+|-end|p2a: Parasect|Substitute
+|-damage|p1a: Excadrill|56/100|[from] item: Life Orb
+|move|p2a: Parasect|Substitute|p2a: Parasect
+|-start|p2a: Parasect|Substitute
+|-damage|p2a: Parasect|66/100
+|
+|-damage|p1a: Excadrill|44/100|[from] Leech Seed|[of] p2a: Parasect
+|-heal|p2a: Parasect|81/100|[silent]
+|upkeep
+|turn|24
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Parasect
+|-resisted|p2a: Parasect
+|-end|p2a: Parasect|Substitute
+|-damage|p1a: Excadrill|34/100|[from] item: Life Orb
+|move|p2a: Parasect|Substitute|p2a: Parasect
+|-start|p2a: Parasect|Substitute
+|-damage|p2a: Parasect|57/100
+|
+|-damage|p1a: Excadrill|22/100|[from] Leech Seed|[of] p2a: Parasect
+|-heal|p2a: Parasect|72/100|[silent]
+|upkeep
+|turn|25
+
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Parasect|[miss]
+|-miss|p1a: Excadrill|p2a: Parasect
+|move|p2a: Parasect|Substitute|p2a: Parasect
+|-fail|p2a: Parasect|move: Substitute
+|
+|-damage|p1a: Excadrill|9/100|[from] Leech Seed|[of] p2a: Parasect
+|-heal|p2a: Parasect|87/100|[silent]
+|upkeep
+|turn|26
+
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-end|p2a: Parasect|Substitute
+|-damage|p1a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|win|Natsuuuu

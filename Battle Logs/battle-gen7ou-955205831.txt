@@ -1,0 +1,40 @@
+|init|battle
+|title|no u x22 vs. argiss
+|j|☆no u x22
+|j|☆argiss
+|player|p1|no u x22|1|1000
+|player|p2|argiss|30|1052
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Farfetch'd, M|item
+|poke|p1|Starmie|item
+|poke|p1|Magmortar, M|item
+|poke|p1|Mudsdale, M|item
+|poke|p1|Walrein, F|item
+|poke|p1|Komala, M|
+|poke|p2|Serperior, F|item
+|poke|p2|Charizard, F|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Gengar, M|item
+|teampreview
+|-message|no u x22 forfeited.
+|
+|win|argiss
+|l|☆no u x22
+|raw|no u x22's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|argiss's rating: 1052 &rarr; <strong>1079</strong><br />(+27 for winning)
+|l|☆argiss

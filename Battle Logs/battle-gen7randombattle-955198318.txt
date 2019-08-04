@@ -1,0 +1,561 @@
+|init|battle
+|title|megwind vs. smiley705
+|j|☆megwind
+|j|☆smiley705
+|player|p1|megwind|70|
+|player|p2|smiley705|23|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Spinda|Spinda, L89, M|100/100
+|switch|p2a: Sableye|Sableye, L81, M|100/100
+|turn|1
+|
+|detailschange|p2a: Sableye|Sableye-Mega, L81, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Spinda|Sucker Punch||[still]
+|-fail|p1a: Spinda
+|move|p2a: Sableye|Will-O-Wisp|p1a: Spinda
+|-status|p1a: Spinda|brn
+|
+|-damage|p1a: Spinda|95/100 brn|[from] brn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Spinda|Superpower|p2a: Sableye
+|-immune|p2a: Sableye
+|move|p2a: Sableye|Shadow Ball|p1a: Spinda
+|-immune|p1a: Spinda
+|
+|-damage|p1a: Spinda|89/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Spinda
+|-fail|p1a: Spinda|brn
+|move|p1a: Spinda|Trick Room|p1a: Spinda
+|-fieldstart|move: Trick Room|[of] p1a: Spinda
+|
+|-damage|p1a: Spinda|83/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Spinda|Sucker Punch||[still]
+|-fail|p1a: Spinda
+|move|p2a: Sableye|Recover||[still]
+|-fail|p2a: Sableye
+|
+|-damage|p1a: Spinda|77/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|move|p1a: Spinda|Superpower|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|-damage|p1a: Spinda|71/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|move|p1a: Spinda|Return|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|-damage|p1a: Spinda|65/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Samurott|Samurott, L87, F|100/100
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+
+|
+|move|p1a: Samurott|Liquidation|p2a: Sableye
+|-damage|p2a: Sableye|56/100
+|-damage|p1a: Samurott|91/100|[from] item: Life Orb
+|move|p2a: Sableye|Shadow Ball|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+
+|
+|switch|p1a: Empoleon|Empoleon, L82, F|100/100
+|turn|9
+
+|
+|move|p1a: Empoleon|Toxic|p2a: Sableye
+|move|p2a: Sableye|Toxic|p1a: Empoleon|[from]Magic Bounce
+|-immune|p1a: Empoleon
+|move|p2a: Sableye|Shadow Ball|p1a: Empoleon
+|-damage|p1a: Empoleon|40/100
+|-unboost|p1a: Empoleon|spd|1
+|
+|-heal|p1a: Empoleon|46/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Empoleon|Toxic|p2a: Sableye
+|move|p2a: Sableye|Toxic|p1a: Empoleon|[from]Magic Bounce
+|-immune|p1a: Empoleon
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|-heal|p1a: Empoleon|52/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Empoleon|Flash Cannon|p2a: Sableye
+|-damage|p2a: Sableye|45/100
+|move|p2a: Sableye|Shadow Ball|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|upkeep
+
+|
+|switch|p1a: Incineroar|Incineroar, L86, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|turn|12
+
+|
+|move|p1a: Incineroar|Flare Blitz|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|-damage|p1a: Incineroar|90/100|[from] Recoil
+|faint|p2a: Sableye
+|
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Ground, L78|100/100
+|turn|13
+
+|
+|move|p2a: Arceus|Stone Edge|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|41/100
+|move|p1a: Incineroar|Darkest Lariat|p2a: Arceus
+|-damage|p2a: Arceus|70/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Arceus|Stone Edge|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+
+|
+|switch|p1a: Stakataka|Stakataka, L83|100/100
+|-item|p1a: Stakataka|Air Balloon
+|turn|15
+
+|
+|-zpower|p2a: Arceus
+|move|p2a: Arceus|Tectonic Rage|p1a: Stakataka|[zeffect]
+|-immune|p1a: Stakataka
+|move|p1a: Stakataka|Gyro Ball|p2a: Arceus
+|-damage|p2a: Arceus|16/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Arceus|Stone Edge|p1a: Stakataka
+|-resisted|p1a: Stakataka
+|-damage|p1a: Stakataka|92/100
+|-enditem|p1a: Stakataka|Air Balloon
+|move|p1a: Stakataka|Gyro Ball|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|-ability|p1a: Stakataka|Beast Boost|boost
+|-boost|p1a: Stakataka|def|1
+|
+|upkeep
+
+|
+|switch|p2a: Celebi|Celebi, L82|100/100
+|turn|17
+
+|
+|move|p2a: Celebi|Giga Drain|p1a: Stakataka
+|-damage|p1a: Stakataka|62/100
+|move|p1a: Stakataka|Gyro Ball|p2a: Celebi
+|-damage|p2a: Celebi|38/100
+|
+|-heal|p2a: Celebi|44/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Celebi|Giga Drain|p1a: Stakataka
+|-damage|p1a: Stakataka|32/100
+|-heal|p2a: Celebi|56/100|[from] drain|[of] p1a: Stakataka
+|move|p1a: Stakataka|Gyro Ball|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|-ability|p1a: Stakataka|Beast Boost|boost
+|-boost|p1a: Stakataka|def|1
+|
+|upkeep
+
+|
+|switch|p2a: Malamar|Malamar, L86, M|100/100
+|turn|19
+
+|
+|move|p2a: Malamar|Knock Off|p1a: Stakataka
+|-damage|p1a: Stakataka|24/100
+|move|p1a: Stakataka|Gyro Ball|p2a: Malamar
+|-damage|p2a: Malamar|28/100
+|
+|-heal|p2a: Malamar|34/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Malamar|Superpower|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Stakataka
+|
+|-heal|p2a: Malamar|40/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Tangrowth|Tangrowth, L80, M|100/100
+|turn|21
+
+|
+|move|p2a: Malamar|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|59/100
+|-enditem|p1a: Tangrowth|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|11/100
+|-heal|p1a: Tangrowth|74/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|17/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|69/100 slp
+|-heal|p1a: Tangrowth|90/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|cant|p2a: Malamar|slp
+|move|p1a: Tangrowth|Sleep Powder|p2a: Malamar
+|-fail|p2a: Malamar|slp
+|
+|-heal|p2a: Malamar|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest|p2a: Malamar|[from]Sleep Talk
+|-fail|p2a: Malamar
+|move|p1a: Tangrowth|Synthesis|p1a: Tangrowth
+|-heal|p1a: Tangrowth|100/100
+|
+|-heal|p2a: Malamar|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Sleep Talk||[still]
+|-fail|p2a: Malamar
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|57/100
+|
+|-heal|p2a: Malamar|63/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|70/100 slp
+|
+|-heal|p2a: Malamar|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest|p2a: Malamar|[from]Sleep Talk
+|-fail|p2a: Malamar
+|move|p1a: Tangrowth|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|61/100 slp
+|
+|-heal|p2a: Malamar|67/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|cant|p2a: Malamar|slp
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|35/100 slp
+|
+|-heal|p2a: Malamar|41/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|72/100 slp
+|
+|-heal|p2a: Malamar|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|cant|p2a: Malamar|slp
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|50/100 slp
+|
+|-heal|p2a: Malamar|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Superpower|p1a: Tangrowth|[from]Sleep Talk
+|-damage|p1a: Tangrowth|66/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|25/100 slp
+|-heal|p1a: Tangrowth|82/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|31/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|72/100 slp
+|-heal|p1a: Tangrowth|96/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|cant|p2a: Malamar|slp
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|48/100 slp
+|-heal|p1a: Tangrowth|100/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|54/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Knock Off|p1a: Tangrowth|[from]Sleep Talk
+|-damage|p1a: Tangrowth|61/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|22/100 slp
+|-heal|p1a: Tangrowth|77/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|29/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|69/100 slp
+|-heal|p1a: Tangrowth|93/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|cant|p2a: Malamar|slp
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|43/100 slp
+|-heal|p1a: Tangrowth|100/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Knock Off|p1a: Tangrowth|[from]Sleep Talk
+|-damage|p1a: Tangrowth|62/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|16/100 slp
+|-heal|p1a: Tangrowth|78/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|22/100 slp|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-crit|p2a: Malamar
+|-damage|p2a: Malamar|57/100 slp
+|-heal|p1a: Tangrowth|99/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|64/100 slp|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest|p2a: Malamar|[from]Sleep Talk
+|-fail|p2a: Malamar
+|move|p1a: Tangrowth|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|52/100 slp
+|
+|-heal|p2a: Malamar|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|
+|cant|p2a: Malamar|slp
+|move|p1a: Tangrowth|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|47/100 slp
+|
+|-heal|p2a: Malamar|53/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+
+|
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Sleep Talk||[still]
+|-fail|p2a: Malamar
+|move|p1a: Tangrowth|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|43/100
+|
+|-heal|p2a: Malamar|49/100|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Tangrowth|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|89/100 slp
+|
+|-heal|p2a: Malamar|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|
+|switch|p1a: Spinda|Spinda, L89, M|65/100 brn
+|cant|p2a: Malamar|slp
+|
+|-heal|p2a: Malamar|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Spinda|59/100 brn|[from] brn
+|upkeep
+|turn|44
+
+|
+|move|p1a: Spinda|Sucker Punch||[still]
+|-fail|p1a: Spinda
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Superpower|p1a: Spinda|[from]Sleep Talk
+|-supereffective|p1a: Spinda
+|-damage|p1a: Spinda|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Spinda
+|
+|upkeep
+
+|
+|switch|p1a: Tangrowth|Tangrowth, L80, M|100/100
+|turn|45
+
+|
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Superpower|p1a: Tangrowth
+|-damage|p1a: Tangrowth|38/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Tangrowth|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|69/100
+|-heal|p1a: Tangrowth|54/100|[from] drain|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|75/100|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|
+|move|p2a: Malamar|Superpower|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Tangrowth
+|
+|win|smiley705

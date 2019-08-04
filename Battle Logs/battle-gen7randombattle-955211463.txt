@@ -1,0 +1,100 @@
+|init|battle
+|title|BaconNDonuts vs. Dleargbth
+|j|☆BaconNDonuts
+|j|☆Dleargbth
+|player|p1|BaconNDonuts|266|1099
+|player|p2|Dleargbth|170|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Klefki|Klefki, L82, M|100/100
+|switch|p2a: Marowak|Marowak, L89, F|100/100
+|turn|1
+
+|
+|move|p1a: Klefki|Foul Play|p2a: Marowak
+|-damage|p2a: Marowak|82/100
+|move|p2a: Marowak|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-enditem|p1a: Klefki|Focus Sash
+|-damage|p1a: Klefki|1/100
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dleargbth)
+
+|
+|move|p1a: Klefki|Play Rough|p2a: Marowak
+|-damage|p2a: Marowak|54/100
+|move|p2a: Marowak|Stone Edge|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|upkeep
+
+|
+|switch|p1a: Weavile|Weavile, L81, F|100/100
+|turn|3
+
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|faint|p2a: Marowak
+|
+|upkeep
+
+|
+|switch|p2a: Conkeldurr|Conkeldurr, L81, M|100/100
+|turn|4
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L82, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: Dleargbth
+|move|p2a: Conkeldurr|Drain Punch|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|24/100
+|-damage|p2a: Conkeldurr|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+
+|
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L82, F
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Conkeldurr|Mach Punch|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|-damage|p2a: Conkeldurr|81/100|[from] item: Life Orb
+|faint|p1a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p1a: Hoopa|Hoopa, L85|100/100
+|turn|6
+
+|
+|move|p1a: Hoopa|Nasty Plot|p1a: Hoopa
+|-boost|p1a: Hoopa|spa|2
+|move|p2a: Conkeldurr|Knock Off|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-enditem|p1a: Hoopa|Life Orb|[from] move: Knock Off|[of] p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|71/100|[from] item: Life Orb
+|faint|p1a: Hoopa
+|
+|upkeep
+
+|-message|BaconNDonuts forfeited.
+
+|
+|win|Dleargbth

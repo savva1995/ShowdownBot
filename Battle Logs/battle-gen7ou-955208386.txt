@@ -1,0 +1,306 @@
+|init|battle
+|title|Li11ie666 vs. Etourhaxxor
+|j|☆Li11ie666
+|j|☆Etourhaxxor
+|player|p1|Li11ie666|1|1494
+|player|p2|Etourhaxxor|270|1553
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Manectric, F|item
+|poke|p1|Magearna|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tapu Bulu|item
+|poke|p1|Latios, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Kartana|item
+|poke|p2|Blacephalon|item
+|poke|p2|Magearna|item
+|poke|p2|Lopunny, M|item
+|teampreview
+
+|
+|start
+|switch|p1a: Manectric|Manectric, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Manectric|atk|1
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Etourhaxxor)
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|switch|p2a: Magearna|Magearna|100/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Magearna
+|-sidestart|p2: Etourhaxxor|move: Stealth Rock
+|move|p2a: Magearna|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|3
+
+|
+|move|p2a: Magearna|Flash Cannon|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|59/100
+|move|p1a: Tyranitar|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Tyranitar
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|turn|5
+
+|
+|detailschange|p1a: Manectric|Manectric-Mega, F
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Magearna|atk|1
+|move|p1a: Manectric|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Manectric|94/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Kartana|Kartana|100/100
+|-damage|p2a: Kartana|94/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Kartana|Defog|p1a: Manectric
+|-unboost|p1a: Manectric|evasion|1
+|-sideend|p2: Etourhaxxor|Stealth Rock|[from] move: Defog|[of] p2a: Kartana
+|move|p1a: Manectric|Flamethrower|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Manectric|88/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Manectric|atk|1
+|turn|7
+
+|
+|move|p1a: Manectric|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-enditem|p2a: Landorus|Focus Sash
+|-damage|p2a: Landorus|1/100
+|move|p2a: Landorus|Earthquake|p1a: Manectric
+|-supereffective|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|8
+
+|
+|move|p1a: Latios|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|turn|9
+
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Blacephalon|Flame Charge|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|-boost|p2a: Blacephalon|spe|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Blacephalon|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|11
+
+|
+|move|p1a: Latios|Draco Meteor|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Blacephalon
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|12
+
+|
+|move|p1a: Latios|Draco Meteor|p2a: Greninja
+|-damage|p2a: Greninja|44/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Greninja|Ice Beam|p1a: Latios
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|13
+
+|
+|move|p2a: Greninja|Ice Beam|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|33/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-heal|p1a: Tapu Bulu|51/100|[from] drain|[of] p2a: Greninja
+|faint|p2a: Greninja
+|
+|-heal|p1a: Tapu Bulu|57/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|63/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Lopunny|Lopunny, M|100/100
+|turn|14
+
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, M
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Tapu Bulu|Protect|p1a: Tapu Bulu
+|-singleturn|p1a: Tapu Bulu|Protect
+|move|p2a: Lopunny|Fake Out|p1a: Tapu Bulu
+|-activate|p1a: Tapu Bulu|move: Protect
+|
+|-heal|p1a: Tapu Bulu|69/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|75/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+
+|
+|move|p2a: Lopunny|Return|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|31/100
+|move|p1a: Tapu Bulu|Leech Seed|p2a: Lopunny
+|-start|p2a: Lopunny|move: Leech Seed
+|
+|-heal|p1a: Tapu Bulu|37/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|43/100|[from] Grassy Terrain
+|-damage|p2a: Lopunny|88/100|[from] Leech Seed|[of] p1a: Tapu Bulu
+|-heal|p1a: Tapu Bulu|53/100|[silent]
+|upkeep
+|turn|16
+
+|
+|move|p1a: Tapu Bulu|Protect|p1a: Tapu Bulu
+|-singleturn|p1a: Tapu Bulu|Protect
+|move|p2a: Lopunny|Return|p1a: Tapu Bulu
+|-activate|p1a: Tapu Bulu|move: Protect
+|
+|-heal|p2a: Lopunny|94/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|59/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|65/100|[from] Grassy Terrain
+|-damage|p2a: Lopunny|82/100|[from] Leech Seed|[of] p1a: Tapu Bulu
+|-heal|p1a: Tapu Bulu|74/100|[silent]
+|upkeep
+|turn|17
+
+|
+|move|p2a: Lopunny|Return|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|25/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Lopunny
+|-damage|p2a: Lopunny|13/100
+|-heal|p1a: Tapu Bulu|52/100|[from] drain|[of] p2a: Lopunny
+|
+|-heal|p2a: Lopunny|19/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|58/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|64/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Lopunny|7/100|[from] Leech Seed|[of] p1a: Tapu Bulu
+|-heal|p1a: Tapu Bulu|74/100|[silent]
+|upkeep
+|turn|18
+
+|
+|move|p1a: Tapu Bulu|Protect|p1a: Tapu Bulu
+|-singleturn|p1a: Tapu Bulu|Protect
+|move|p2a: Lopunny|Return|p1a: Tapu Bulu
+|-activate|p1a: Tapu Bulu|move: Protect
+|
+|-heal|p1a: Tapu Bulu|80/100|[from] item: Leftovers
+|-damage|p2a: Lopunny|0 fnt|[from] Leech Seed|[of] p1a: Tapu Bulu
+|-heal|p1a: Tapu Bulu|85/100|[silent]
+|faint|p2a: Lopunny
+|
+|win|Li11ie666
+|upkeep

@@ -1,0 +1,368 @@
+|init|battle
+|title|vico25 vs. my wife
+|j|☆vico25
+|j|☆my wife
+|player|p1|vico25|209|2029
+|player|p2|my wife|24|2059
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowking|Slowking, L86, M|100/100
+|switch|p2a: Grumpig|Grumpig, L89, F|100/100
+|turn|1
+|
+|switch|p1a: Magearna|Magearna, L80|100/100
+|move|p2a: Grumpig|Whirlwind|p1a: Magearna
+|drag|p1a: Toxicroak|Toxicroak, L84, F|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aggron|Aggron, L82, F|100/100
+|switch|p1a: Magearna|Magearna, L80|100/100
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by my wife)
+|
+|detailschange|p2a: Aggron|Aggron-Mega, L82, F
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Magearna|Focus Blast|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|34/100
+|-unboost|p2a: Aggron|spd|1
+|move|p2a: Aggron|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|37/100
+|
+|-heal|p1a: Magearna|43/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, M|100/100
+|move|p1a: Magearna|Thunderbolt|p2a: Darmanitan
+|-damage|p2a: Darmanitan|65/100
+|
+|-heal|p1a: Magearna|50/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Lunatone|Lunatone, L89|100/100
+|move|p2a: Darmanitan|Flare Blitz|p1a: Lunatone
+|-resisted|p1a: Lunatone
+|-damage|p1a: Lunatone|46/100
+|-damage|p2a: Darmanitan|47/100|[from] Recoil
+|
+|-heal|p1a: Lunatone|52/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Darmanitan|U-turn|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|0 fnt
+|-damage|p2a: Darmanitan|37/100|[from] item: Life Orb
+|faint|p1a: Lunatone
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Slowking|Slowking, L86, M|100/100
+|turn|7
+|
+|move|p2a: Archeops|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|
+|switch|p2a: Aggron|Aggron-Mega, L82, F|34/100|[from]move: U-turn
+|move|p1a: Slowking|Scald|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|-heal|p1a: Slowking|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100
+|turn|8
+|
+|switch|p1a: Victreebel|Victreebel, L88, F|100/100
+|move|p2a: Archeops|U-turn|p1a: Victreebel
+|-damage|p1a: Victreebel|69/100
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, M|37/100|[from]move: U-turn
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Slowking|Slowking, L86, M|89/100
+|move|p2a: Darmanitan|Flare Blitz|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|39/100
+|-damage|p2a: Darmanitan|21/100|[from] Recoil
+|
+|-heal|p1a: Slowking|45/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Victreebel|Victreebel, L88, F|69/100
+|move|p2a: Darmanitan|Flare Blitz|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|-damage|p2a: Darmanitan|0 fnt|[from] Recoil
+|faint|p1a: Victreebel
+|faint|p2a: Darmanitan
+|
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100
+|switch|p1a: Slowking|Slowking, L86, M|78/100
+|turn|11
+
+|
+|move|p2a: Archeops|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|3/100
+
+|
+|switch|p2a: Grumpig|Grumpig, L89, F|100/100|[from]move: U-turn
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|53/100
+|
+|-heal|p1a: Slowking|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Grumpig|Psychic|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|44/100
+|move|p1a: Slowking|Toxic|p2a: Grumpig
+|-status|p2a: Grumpig|tox
+|
+|-heal|p1a: Slowking|50/100|[from] item: Leftovers
+|-damage|p2a: Grumpig|95/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Grumpig|Heal Bell|p2a: Grumpig
+|-activate|p2a: Grumpig|move: Heal Bell
+|-curestatus|p2a: Grumpig|tox|[msg]
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|100/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Slowking|Scald|p2a: Grumpig
+|-damage|p2a: Grumpig|69/100
+|move|p2a: Grumpig|Whirlwind|p1a: Slowking
+|drag|p1a: Gyarados|Gyarados, L80, F|100/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Grumpig|Focus Blast|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|86/100
+|move|p1a: Gyarados|Crunch|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|21/100
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Weezing|Weezing, L86, F|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Weezing
+|-damage|p2a: Weezing|72/100
+|
+|-heal|p2a: Weezing|78/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+
+|inactive|vico25 has 120 seconds left.
+
+|
+|switch|p1a: Toxicroak|Toxicroak, L84, F|100/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|79/100
+|
+|-heal|p2a: Weezing|84/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+
+|
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|move|p2a: Weezing|Fire Blast|p1a: Toxicroak
+|-damage|p1a: Toxicroak|38/100
+|
+|-heal|p2a: Weezing|90/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|59/100
+|-heal|p1a: Toxicroak|52/100|[from] drain|[of] p2a: Weezing
+|-damage|p1a: Toxicroak|42/100|[from] item: Life Orb
+|move|p2a: Weezing|Fire Blast|p1a: Toxicroak
+|-damage|p1a: Toxicroak|2/100
+|
+|-heal|p2a: Weezing|65/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Weezing
+|-damage|p2a: Weezing|27/100
+|-damage|p1a: Toxicroak|0 fnt|[from] item: Life Orb
+|faint|p1a: Toxicroak
+|move|p2a: Weezing|Fire Blast|p1: Toxicroak|[notarget]
+|-fail|p2a: Weezing
+|
+|-heal|p2a: Weezing|33/100|[from] item: Black Sludge
+|upkeep
+
+|inactive|vico25 has 120 seconds left.
+
+|
+|switch|p1a: Gyarados|Gyarados, L80, F|86/100
+|turn|21
+
+|inactive|vico25 has 120 seconds left.
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Weezing
+|-damage|p2a: Weezing|6/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Gyarados
+|-damage|p1a: Gyarados|57/100
+|-status|p1a: Gyarados|psn
+|
+|-heal|p2a: Weezing|12/100|[from] item: Black Sludge
+|-damage|p1a: Gyarados|45/100 psn|[from] psn
+|upkeep
+|turn|22
+
+|inactive|vico25 has 120 seconds left.
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-damage|p1a: Gyarados|33/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100
+|turn|23
+
+|inactive|vico25 has 120 seconds left.
+
+|
+|move|p2a: Archeops|Acrobatics|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+
+|
+|switch|p1a: Magearna|Magearna, L80|50/100
+|turn|24
+
+|inactive|vico25 has 120 seconds left.
+
+|
+|move|p2a: Archeops|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|43/100
+
+|
+|switch|p2a: Grumpig|Grumpig, L89, F|21/100|[from]move: U-turn
+|move|p1a: Magearna|Flash Cannon|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|faint|p2a: Grumpig
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Zygarde|Zygarde-10%, L84|100/100
+|-ability|p2a: Zygarde|Aura Break
+|turn|25
+
+|
+|move|p2a: Zygarde|Thousand Arrows|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|upkeep
+
+|
+|switch|p1a: Slowking|Slowking, L86, M|100/100
+|turn|26
+
+|
+|move|p2a: Zygarde|Outrage|p1a: Slowking
+|-damage|p1a: Slowking|55/100
+|move|p1a: Slowking|Ice Beam|p2a: Zygarde
+|-supereffective|p2a: Zygarde
+|-crit|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|faint|p2a: Zygarde
+|
+|-heal|p1a: Slowking|61/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100
+|turn|27
+
+|
+|move|p2a: Archeops|Acrobatics|p1a: Slowking
+|-damage|p1a: Slowking|3/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|53/100
+|
+|-heal|p1a: Slowking|59/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Archeops|Acrobatics|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|51/100
+|
+|-heal|p1a: Slowking|58/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Archeops|Acrobatics|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|win|my wife

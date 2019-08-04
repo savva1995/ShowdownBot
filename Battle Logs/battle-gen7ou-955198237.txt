@@ -1,0 +1,357 @@
+|init|battle
+|title|OU-nicorn vs. lalolindu
+|j|☆OU-nicorn
+|j|☆lalolindu
+|player|p1|OU-nicorn|148|1356
+|player|p2|lalolindu|224|1342
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mimikyu, M|item
+|poke|p1|Ribombee, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Uxie|item
+|poke|p1|Charizard, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p2|Sceptile, M|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Magnezone|item
+|poke|p2|Mawile, F|item
+|poke|p2|Blacephalon|item
+|poke|p2|Zapdos|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OU-nicorn)
+|
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|turn|1
+
+|
+|move|p2a: Blacephalon|Shadow Ball|p1a: Ribombee
+|-damage|p1a: Ribombee|18/100
+|move|p1a: Ribombee|Sticky Web|p2a: Blacephalon
+|-sidestart|p2: lalolindu|move: Sticky Web
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Ribombee|Stun Spore|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Ribombee|Moonblast|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|move|p2a: Zapdos|Defog|p1a: Ribombee
+|-unboost|p1a: Ribombee|evasion|1
+|-sideend|p2: lalolindu|Sticky Web|[from] move: Defog|[of] p2a: Zapdos
+|
+|-heal|p2a: Zapdos|67/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Zapdos
+|-sidestart|p2: lalolindu|move: Sticky Web
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Zapdos|Discharge|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+
+|
+|switch|p1a: Uxie|Uxie|100/100
+|turn|6
+
+|
+|move|p2a: Zapdos|Defog|p1a: Uxie
+|-unboost|p1a: Uxie|evasion|1
+|-sideend|p2: lalolindu|Sticky Web|[from] move: Defog|[of] p2a: Zapdos
+|move|p1a: Uxie|Yawn|p2a: Zapdos
+|-start|p2a: Zapdos|move: Yawn|[of] p1a: Uxie
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|move|p1a: Uxie|Stealth Rock|p2a: Blacephalon
+|-sidestart|p2: lalolindu|move: Stealth Rock
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Blacephalon|Trick|p1a: Tentacruel
+|-activate|p2a: Blacephalon|move: Trick|[of] p1a: Tentacruel
+|-item|p1a: Tentacruel|Choice Scarf|[from] move: Trick
+|-item|p2a: Blacephalon|Black Sludge|[from] move: Trick
+|
+|-damage|p2a: Blacephalon|88/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p1a: Tentacruel|Scald|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|13/100
+|move|p2a: Blacephalon|Trick|p1a: Tentacruel
+|-activate|p2a: Blacephalon|move: Trick|[of] p1a: Tentacruel
+|-item|p1a: Tentacruel|Black Sludge|[from] move: Trick
+|-item|p2a: Blacephalon|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Blacephalon|Shadow Ball|p1a: Tentacruel
+|-damage|p1a: Tentacruel|60/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Blacephalon
+|-sidestart|p2: lalolindu|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|66/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|
+|move|p2a: Blacephalon|Shadow Ball|p1a: Tentacruel
+|-damage|p1a: Tentacruel|29/100
+|move|p1a: Tentacruel|Scald|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|
+|-heal|p1a: Tentacruel|35/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|12
+
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Zapdos
+|-sidestart|p2: lalolindu|move: Toxic Spikes
+|move|p2a: Zapdos|Defog|p1a: Tentacruel
+|-fail|p1a: Tentacruel|unboost|[from] ability: Clear Body|[of] p1a: Tentacruel
+|-sideend|p2: lalolindu|Toxic Spikes|[from] move: Defog|[of] p2a: Zapdos
+|-sideend|p2: lalolindu|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|
+|-heal|p1a: Tentacruel|41/100|[from] item: Black Sludge
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Zapdos
+|-sidestart|p2: lalolindu|move: Toxic Spikes
+|move|p2a: Zapdos|Discharge|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|14
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Zapdos|Discharge|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|-damage|p1a: Mimikyu|91/100|[from] item: Life Orb
+|move|p2a: Zapdos|Defog|p1a: Mimikyu
+|-unboost|p1a: Mimikyu|evasion|1
+|-sideend|p2: lalolindu|Toxic Spikes|[from] move: Defog|[of] p2a: Zapdos
+|
+|-heal|p2a: Zapdos|29/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Mimikyu|Shadow Claw|p2a: Tapu Lele
+|-supereffective|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|-damage|p1a: Mimikyu|81/100|[from] item: Life Orb
+|faint|p2a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|-enditem|p2a: Sceptile|Psychic Seed
+|-boost|p2a: Sceptile|spd|1
+|turn|17
+
+|
+|move|p2a: Sceptile|Leaf Blade|p1a: Mimikyu
+|-damage|p1a: Mimikyu|14/100
+|move|p1a: Mimikyu|Play Rough|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-damage|p1a: Mimikyu|4/100|[from] item: Life Orb
+|faint|p2a: Sceptile
+|
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos|29/100
+|-ability|p2a: Zapdos|Pressure
+|turn|18
+
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Mimikyu|Shadow Claw|p2a: Magnezone
+|-damage|p2a: Magnezone|14/100
+|-damage|p1a: Mimikyu|0 fnt|[from] item: Life Orb
+|faint|p1a: Mimikyu
+|
+|upkeep
+
+|
+|switch|p1a: Uxie|Uxie|100/100
+|turn|19
+
+|
+|move|p1a: Uxie|Yawn|p2a: Magnezone
+|-start|p2a: Magnezone|move: Yawn|[of] p1a: Uxie
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-fail|p2a: Magnezone|move: Substitute|[weak]
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Uxie|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: lalolindu|move: Stealth Rock
+|-zpower|p2a: Magnezone
+|move|p2a: Magnezone|Gigavolt Havoc|p1a: Uxie|[zeffect]
+|-damage|p1a: Uxie|37/100
+|
+|-end|p2a: Magnezone|move: Yawn|[silent]
+|-status|p2a: Magnezone|slp
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Zapdos|Zapdos|29/100
+|-damage|p2a: Zapdos|4/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Uxie|Psyshock|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Uxie|atk|1
+|turn|22
+
+|l|☆OU-nicorn
+
+|inactive|OU-nicorn disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆OU-nicorn
+
+|inactive|OU-nicorn reconnected and has 130 seconds left.
+
+|player|p1|OU-nicorn|148
+
+|
+|detailschange|p2a: Mawile|Mawile-Mega, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Uxie|Yawn|p2a: Mawile
+|-start|p2a: Mawile|move: Yawn|[of] p1a: Uxie
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Uxie|Psyshock|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|82/100
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|-end|p2a: Mawile|move: Yawn|[silent]
+|-message|Sleep Clause Mod activated.
+|upkeep
+|turn|24
+
+|
+|move|p1a: Uxie|U-turn|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|80/100
+
+|
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Mawile|Sucker Punch|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+
+|-message|OU-nicorn forfeited.
+
+|
+|win|lalolindu

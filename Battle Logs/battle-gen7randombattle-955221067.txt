@@ -1,0 +1,323 @@
+|init|battle
+|title|Hideawayinthesky vs. canavargibi
+|j|☆Hideawayinthesky
+|j|☆canavargibi
+|player|p1|Hideawayinthesky|1|1793
+|player|p2|canavargibi|101|1731
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slurpuff|Slurpuff, L85, F|100/100
+|switch|p2a: Bewear|Bewear, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by canavargibi)
+|
+|switch|p1a: Aegislash|Aegislash, L78, F|100/100
+|move|p2a: Bewear|Double-Edge|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Bewear|Shadow Claw|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|50/100
+|-damage|p2a: Bewear|91/100|[from] item: Life Orb
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Bewear
+|-damage|p2a: Bewear|69/100
+|-damage|p1a: Aegislash|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Bewear|Shadow Claw|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Bewear|atk|2
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, F|100/100
+|switch|p1a: Cloyster|Cloyster, L84, M|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Manectric|Manectric, L82, M|100/100
+|move|p2a: Heliolisk|Thunder|p1a: Manectric
+|-ability|p1a: Manectric|Lightning Rod|boost
+|-boost|p1a: Manectric|spa|1
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|100/100
+|move|p1a: Manectric|Thunderbolt|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|82/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|100/100
+|move|p2a: Eelektross|Knock Off|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|82/100
+|-enditem|p1a: Whimsicott|Leftovers|[from] move: Knock Off|[of] p2a: Eelektross
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Jirachi|Jirachi, L80|100/100
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|
+|upkeep
+|turn|9
+|inactive|Hideawayinthesky has 120 seconds left.
+|
+|switch|p1a: Aegislash|Aegislash, L78, F|40/100
+|move|p2a: Jirachi|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|37/100
+|
+|switch|p2a: Bewear|Bewear, L84, F|69/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|move|p2a: Bewear|Shadow Claw|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-damage|p2a: Bewear|59/100|[from] item: Life Orb
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, L82, M|100/100
+|turn|12
+|
+|move|p1a: Manectric|Overheat|p2a: Bewear
+|-damage|p2a: Bewear|0 fnt
+|-unboost|p1a: Manectric|spa|2
+|faint|p2a: Bewear
+|
+|upkeep
+|
+|switch|p2a: Xerneas|Xerneas, L78|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|13
+|
+|move|p1a: Manectric|Volt Switch|p2a: Xerneas
+|-damage|p2a: Xerneas|89/100
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|82/100|[from]move: Volt Switch
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Whimsicott|Encore|p2a: Xerneas
+|-start|p2a: Xerneas|Encore
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Cloyster|Cloyster, L84, M|100/100
+|move|p2a: Xerneas|Geomancy|p2a: Xerneas|[from]lockedmove
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, F|100/100
+|move|p1a: Cloyster|Icicle Spear|p2a: Heliolisk
+|-damage|p2a: Heliolisk|85/100
+|-damage|p2a: Heliolisk|70/100
+|-damage|p2a: Heliolisk|54/100
+|-damage|p2a: Heliolisk|39/100
+|-damage|p2a: Heliolisk|23/100
+|-hitcount|p2a: Heliolisk|5
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|82/100
+|move|p2a: Heliolisk|Thunder|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|41/100
+|-damage|p2a: Heliolisk|13/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|faint|p2a: Heliolisk
+|
+|upkeep
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|82/100
+|turn|19
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, F|100/100
+|move|p2a: Eelektross|Acid Spray|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-crit|p1a: Slurpuff
+|-damage|p1a: Slurpuff|58/100
+|-unboost|p1a: Slurpuff|spd|2
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Manectric|Manectric, L82, M|100/100
+|move|p2a: Eelektross|Thunderbolt|p1a: Manectric
+|-ability|p1a: Manectric|Lightning Rod|boost
+|-boost|p1a: Manectric|spa|1
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Xerneas|Xerneas, L78|89/100
+|-ability|p2a: Xerneas|Fairy Aura
+|detailschange|p1a: Manectric|Manectric-Mega, L82, M
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Xerneas|atk|1
+|move|p1a: Manectric|Thunderbolt|p2a: Xerneas
+|-damage|p2a: Xerneas|35/100
+|-status|p2a: Xerneas|par
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi, L80|100/100
+|turn|23
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|43/100
+|move|p2a: Jirachi|Ice Punch|p1a: Manectric
+|-damage|p1a: Manectric|79/100
+|
+|-heal|p2a: Jirachi|50/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|82/100
+|turn|25
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|61/100
+|move|p2a: Eelektross|Acid Spray|p1a: Manectric
+|-damage|p1a: Manectric|65/100
+|-unboost|p1a: Manectric|spd|2
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Manectric|Volt Switch|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|47/100
+
+|
+|switch|p1a: Huntail|Huntail, L89, M|100/100|[from]move: Volt Switch
+|move|p2a: Eelektross|Thunderbolt|p1a: Huntail
+|-supereffective|p1a: Huntail
+|-damage|p1a: Huntail|1/100
+|
+|upkeep
+|turn|27
+
+|
+|move|p1a: Huntail|Sucker Punch|p2a: Eelektross
+|-damage|p2a: Eelektross|25/100
+|move|p2a: Eelektross|Knock Off|p1a: Huntail
+|-damage|p1a: Huntail|0 fnt
+|-enditem|p1a: Huntail|White Herb|[from] move: Knock Off|[of] p2a: Eelektross
+|faint|p1a: Huntail
+|
+|upkeep
+
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, F|58/100
+|turn|28
+
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, M|100/100
+|turn|29
+
+|
+|move|p2a: Archeops|Tailwind|p2a: Archeops
+|-sidestart|p2: canavargibi|move: Tailwind
+|move|p1a: Slurpuff|Play Rough|p2a: Archeops
+|-crit|p2a: Archeops
+|-damage|p2a: Archeops|42/100
+|
+|upkeep
+|turn|30
+
+|
+|move|p2a: Archeops|Stone Edge|p1a: Slurpuff|[miss]
+|-miss|p2a: Archeops|p1a: Slurpuff
+|move|p1a: Slurpuff|Play Rough|p2a: Archeops
+|-damage|p2a: Archeops|5/100
+|
+|upkeep
+|turn|31
+
+|-message|canavargibi forfeited.
+
+|
+|win|Hideawayinthesky

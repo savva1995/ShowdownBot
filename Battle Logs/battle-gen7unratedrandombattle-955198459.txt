@@ -1,0 +1,345 @@
+|init|battle
+|title|Yaseku vs. Rtyhvxrrty
+|j|☆Yaseku
+|j|☆Rtyhvxrrty
+|player|p1|Yaseku|164|
+|player|p2|Rtyhvxrrty|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Klinklang|Klinklang, L86|100/100
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yaseku)
+|
+|switch|p2a: Flygon|Flygon, L84, M|100/100
+|move|p1a: Klinklang|Shift Gear|p1a: Klinklang
+|-boost|p1a: Klinklang|spe|2
+|-boost|p1a: Klinklang|atk|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Flygon
+|-damage|p2a: Flygon|65/100
+|-damage|p2a: Flygon|30/100
+|-hitcount|p2a: Flygon|2
+|move|p2a: Flygon|Earthquake|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|34/100
+|
+|-heal|p1a: Klinklang|40/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|-hitcount|p2a: Flygon|1
+|faint|p2a: Flygon
+|
+|-heal|p1a: Klinklang|46/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-fail|p1a: Klinklang|unboost|[from] ability: Clear Body|[of] p1a: Klinklang
+|turn|4
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Tauros
+|-damage|p2a: Tauros|70/100
+|-damage|p2a: Tauros|40/100
+|-hitcount|p2a: Tauros|2
+|move|p2a: Tauros|Earthquake|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|faint|p1a: Klinklang
+|
+|upkeep
+
+|
+|switch|p1a: Moltres|Moltres, L82|100/100
+|-ability|p1a: Moltres|Pressure
+|turn|5
+
+|
+|switch|p2a: Weezing|Weezing, L86, F|100/100
+|move|p1a: Moltres|Fire Blast|p2a: Weezing
+|-damage|p2a: Weezing|43/100
+|-status|p2a: Weezing|brn
+|
+|-heal|p2a: Weezing|49/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|43/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p1a: Moltres|Fire Blast|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, L80, F|100/100
+|turn|7
+
+|
+|switch|p1a: Goodra|Goodra, L84, M|100/100
+|move|p2a: Greninja|Hydro Pump|p1a: Goodra|[miss]
+|-start|p2a: Greninja|typechange|Water|[from] ability: Protean
+|-miss|p2a: Greninja|p1a: Goodra
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Greninja|Ice Beam|p1a: Goodra
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|65/100
+|move|p1a: Goodra|Dragon Tail|p2a: Greninja
+|-damage|p2a: Greninja|67/100
+|drag|p2a: Tauros|Tauros, L87, M|40/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Goodra|atk|1
+|
+|upkeep
+|turn|9
+
+|inactive|Yaseku has 270 seconds left.
+
+|
+|move|p2a: Tauros|Double-Edge|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-damage|p2a: Tauros|17/100|[from] Recoil
+|faint|p1a: Goodra
+|
+|upkeep
+
+|inactive|Yaseku has 270 seconds left.
+
+|
+|switch|p1a: Regirock|Regirock, L88|100/100
+|turn|10
+
+|inactive|Rtyhvxrrty has 270 seconds left.
+
+|
+|switch|p2a: Unfezant|Unfezant, L89, F|100/100
+|move|p1a: Regirock|Drain Punch|p2a: Unfezant
+|-crit|p2a: Unfezant
+|-damage|p2a: Unfezant|66/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Unfezant|Tailwind|p2a: Unfezant
+|-sidestart|p2: Rtyhvxrrty|move: Tailwind
+|move|p1a: Regirock|Stone Edge|p2a: Unfezant
+|-supereffective|p2a: Unfezant
+|-damage|p2a: Unfezant|0 fnt
+|faint|p2a: Unfezant
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, L80, F|67/100
+|turn|12
+
+|
+|switch|p1a: Chansey|Chansey, L80, F|100/100
+|move|p2a: Greninja|Hydro Pump|p1a: Chansey
+|-start|p2a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p1a: Chansey|87/100
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|move|p1a: Chansey|Toxic|p2a: Cryogonal
+|-status|p2a: Cryogonal|tox
+|
+|-damage|p2a: Cryogonal|94/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Musharna|Musharna, L89, M|100/100
+|move|p2a: Cryogonal|Toxic|p1a: Musharna
+|-status|p1a: Musharna|tox
+|-activate|p1a: Musharna|ability: Synchronize
+|-fail|p2a: Cryogonal|tox
+|
+|-damage|p2a: Cryogonal|82/100 tox|[from] psn
+|-damage|p1a: Musharna|95/100 tox|[from] psn
+|-sideend|p2: Rtyhvxrrty|move: Tailwind
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Greninja|Greninja, L80, F|67/100
+|move|p1a: Musharna|Heal Bell|p1a: Musharna
+|-activate|p1a: Musharna|move: Heal Bell
+|-curestatus|p1a: Musharna|tox|[msg]
+|
+|-heal|p1a: Musharna|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Greninja|Dark Pulse|p1a: Musharna
+|-start|p2a: Greninja|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Musharna
+|-crit|p1a: Musharna
+|-damage|p1a: Musharna|22/100
+|move|p1a: Musharna|Signal Beam|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|1/100
+|
+|-heal|p1a: Musharna|28/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Chansey|Chansey, L80, F|87/100
+|move|p2a: Greninja|Dark Pulse|p1a: Chansey
+|-damage|p1a: Chansey|77/100
+|
+|upkeep
+|turn|18
+
+|inactive|Rtyhvxrrty has 270 seconds left.
+
+|inactive|Rtyhvxrrty has 240 seconds left.
+
+|inactive|Rtyhvxrrty has 210 seconds left.
+
+|inactive|Rtyhvxrrty has 180 seconds left.
+
+|
+|move|p2a: Greninja|U-turn|p1a: Chansey
+|-start|p2a: Greninja|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Chansey|46/100
+
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|82/100 tox|[from]move: U-turn
+|move|p1a: Chansey|Seismic Toss|p2a: Cryogonal
+|-damage|p2a: Cryogonal|54/100 tox
+|
+|-damage|p2a: Cryogonal|48/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|inactive|Yaseku has 270 seconds left.
+
+|inactive|Yaseku has 240 seconds left.
+
+|
+|move|p2a: Cryogonal|Toxic|p1a: Chansey
+|-status|p1a: Chansey|tox
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|96/100 tox
+|
+|-damage|p2a: Cryogonal|36/100 tox|[from] psn
+|-damage|p1a: Chansey|90/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|17/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Chansey|atk|1
+|switch|p1a: Musharna|Musharna, L89, M|28/100
+|
+|-heal|p1a: Musharna|34/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|inactive|Rtyhvxrrty has 210 seconds left.
+
+|
+|move|p2a: Tauros|Double-Edge|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|-damage|p2a: Tauros|3/100|[from] Recoil
+|faint|p1a: Musharna
+|
+|upkeep
+
+|
+|switch|p1a: Regirock|Regirock, L88|100/100
+|turn|22
+
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|36/100 tox
+|move|p1a: Regirock|Drain Punch|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|3/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Regirock|atk|1
+|turn|23
+
+|
+|move|p2a: Tauros|Earthquake|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|64/100
+|move|p1a: Regirock|Rest|p1a: Regirock
+|-status|p1a: Regirock|slp|[from] move: Rest
+|-heal|p1a: Regirock|100/100 slp|[silent]
+|-enditem|p1a: Regirock|Chesto Berry|[eat]
+|-curestatus|p1a: Regirock|slp|[msg]
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Tauros|Earthquake|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|60/100
+|move|p1a: Regirock|Drain Punch|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-heal|p1a: Regirock|62/100|[from] drain|[of] p2a: Tauros
+|faint|p2a: Tauros
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, L80, F|1/100
+|turn|25
+
+|
+|move|p2a: Greninja|Hydro Pump|p1a: Regirock
+|-start|p2a: Greninja|typechange|Water|[from] ability: Protean
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|upkeep
+
+|
+|switch|p1a: Chansey|Chansey, L80, F|90/100
+|turn|26
+
+|
+|move|p2a: Greninja|Ice Beam|p1a: Chansey
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-damage|p1a: Chansey|79/100
+|move|p1a: Chansey|Seismic Toss|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|win|Yaseku

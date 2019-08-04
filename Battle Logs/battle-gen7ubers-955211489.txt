@@ -1,0 +1,271 @@
+|init|battle
+|title|ddddfdg vs. 4rk4ngel
+|j|☆ddddfdg
+|j|☆4rk4ngel
+|player|p1|ddddfdg|102|1174
+|player|p2|4rk4ngel|266|1246
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Xerneas|item
+|poke|p1|Kyogre|item
+|poke|p1|Groudon|item
+|poke|p1|Ditto|item
+|poke|p1|Deoxys-Defense|item
+|poke|p1|Salamence, M|item
+|poke|p2|Marshadow|item
+|poke|p2|Darkrai|item
+|poke|p2|Yveltal|item
+|poke|p2|Magearna|item
+|poke|p2|Diancie|item
+|poke|p2|Xerneas|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+|
+|detailschange|p2a: Diancie|Diancie-Mega
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Earth Power|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|16/100
+|move|p1a: Groudon|Rock Polish|p1a: Groudon
+|-boost|p1a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Groudon|Precipice Blades|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p2a: Sp3ctralThi3f|Marshadow|100/100
+|turn|3
+|
+|move|p1a: Groudon|Fire Punch|p2a: Sp3ctralThi3f
+|-enditem|p2a: Sp3ctralThi3f|Focus Sash
+|-damage|p2a: Sp3ctralThi3f|1/100
+|move|p2a: Sp3ctralThi3f|Spectral Thief||[still]
+|-clearpositiveboost|p1a: Groudon|p2a: Sp3ctralThi3f|move: Spectral Thief
+|-boost|p2a: Sp3ctralThi3f|spe|2
+|-anim|p2a: Sp3ctralThi3f|Spectral Thief|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Sp3ctralThi3f|[from] ability: Imposter
+|turn|4
+|
+|move|p1a: Ditto|Shadow Sneak|p2a: Sp3ctralThi3f
+|-supereffective|p2a: Sp3ctralThi3f
+|-damage|p2a: Sp3ctralThi3f|0 fnt
+|faint|p2a: Sp3ctralThi3f
+|
+|upkeep
+|
+|switch|p2a: Xern3as|Xerneas, shiny|100/100
+|-ability|p2a: Xern3as|Fairy Aura
+|turn|5
+|
+|switch|p1a: Deoxys|Deoxys-Defense|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Xern3as|Moonblast|p1a: Deoxys
+|-damage|p1a: Deoxys|56/100
+|
+|-heal|p1a: Deoxys|62/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Xern3as|Moonblast|p1a: Deoxys
+|-damage|p1a: Deoxys|12/100
+|move|p1a: Deoxys|Stealth Rock|p2a: Xern3as
+|-sidestart|p2: 4rk4ngel|move: Stealth Rock
+|
+|-heal|p1a: Deoxys|18/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Xern3as|Moonblast|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|8
+
+|
+|move|p1a: Kyogre|Water Spout|p2a: Xern3as
+|-damage|p2a: Xern3as|0 fnt
+|faint|p2a: Xern3as
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Yv3ltal|Yveltal, shiny|100/100
+|-damage|p2a: Yv3ltal|76/100|[from] Stealth Rock
+|-ability|p2a: Yv3ltal|Dark Aura
+|turn|9
+
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Yv3ltal|atk|1
+|move|p2a: Yv3ltal|Defog|p1a: Salamence
+|-unboost|p1a: Salamence|evasion|1
+|-sideend|p2: 4rk4ngel|Stealth Rock|[from] move: Defog|[of] p2a: Yv3ltal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+
+|
+|detailschange|p1a: Salamence|Salamence-Mega, M
+|-mega|p1a: Salamence|Salamence|Salamencite
+|move|p1a: Salamence|Double-Edge|p2a: Yv3ltal
+|-damage|p2a: Yv3ltal|3/100
+|-damage|p1a: Salamence|72/100|[from] Recoil
+|move|p2a: Yv3ltal|Dark Pulse|p1a: Salamence
+|-damage|p1a: Salamence|4/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p1a: Salamence|Double-Edge|p2a: Yv3ltal
+|-damage|p2a: Yv3ltal|0 fnt
+|-damage|p1a: Salamence|3/100|[from] Recoil
+|faint|p2a: Yv3ltal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: M4gearna|Magearna|100/100
+|turn|12
+
+|
+|move|p2a: M4gearna|Protect|p2a: M4gearna
+|-singleturn|p2a: M4gearna|Protect
+|move|p1a: Salamence|Earthquake|p2a: M4gearna
+|-activate|p2a: M4gearna|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|13
+
+|
+|move|p1a: Salamence|Earthquake|p2a: M4gearna
+|-supereffective|p2a: M4gearna
+|-damage|p2a: M4gearna|26/100
+|move|p2a: M4gearna|Dazzling Gleam|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|-ability|p2a: M4gearna|Soul-Heart|boost
+|-boost|p2a: M4gearna|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|14
+
+|
+|move|p2a: M4gearna|Protect|p2a: M4gearna
+|-singleturn|p2a: M4gearna|Protect
+|move|p1a: Kyogre|Water Spout|p2a: M4gearna
+|-activate|p2a: M4gearna|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+
+|
+|move|p2a: M4gearna|Protect||[still]
+|-fail|p2a: M4gearna
+|move|p1a: Kyogre|Water Spout|p2a: M4gearna
+|-damage|p2a: M4gearna|0 fnt
+|faint|p2a: M4gearna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: J4deja|Darkrai, shiny|100/100
+|turn|16
+
+|
+|move|p1a: Kyogre|Water Spout|p2a: J4deja
+|-crit|p2a: J4deja
+|-enditem|p2a: J4deja|Focus Sash
+|-damage|p2a: J4deja|1/100
+|move|p2a: J4deja|Hypnosis|p1a: Kyogre
+|-status|p1a: Kyogre|slp|[from] move: Hypnosis
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kyogre|88/100 slp|[from] ability: Bad Dreams|[of] p2a: J4deja
+|upkeep
+|turn|17
+
+|
+|cant|p1a: Kyogre|slp
+|move|p2a: J4deja|Nasty Plot|p2a: J4deja
+|-boost|p2a: J4deja|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kyogre|76/100 slp|[from] ability: Bad Dreams|[of] p2a: J4deja
+|upkeep
+|turn|18
+
+|
+|cant|p1a: Kyogre|slp
+|move|p2a: J4deja|Dark Pulse|p1a: Kyogre
+|-damage|p1a: Kyogre|8/100 slp
+|
+|-weather|none
+|-damage|p1a: Kyogre|0 fnt|[from] ability: Bad Dreams|[of] p2a: J4deja
+|faint|p1a: Kyogre
+|upkeep
+
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: J4deja|[from] ability: Imposter
+|turn|19
+
+|
+|move|p1a: Ditto|Dark Pulse|p2a: J4deja
+|-resisted|p2a: J4deja
+|-damage|p2a: J4deja|0 fnt
+|faint|p2a: J4deja
+|
+|win|ddddfdg

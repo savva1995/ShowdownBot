@@ -1,0 +1,318 @@
+|init|battle
+|title|Suisaad vs. MeliodasDragonFury
+|j|☆Suisaad
+|j|☆MeliodasDragonFury
+|player|p1|Suisaad|10|1322
+|player|p2|MeliodasDragonFury|265|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Liepard|Liepard, L88, F|100/100
+|switch|p2a: Bruxish|Bruxish, L85, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MeliodasDragonFury)
+|
+|switch|p2a: Leavanny|Leavanny, L89, M|100/100
+|move|p1a: Liepard|Knock Off|p2a: Leavanny
+|-damage|p2a: Leavanny|60/100
+|-enditem|p2a: Leavanny|Life Orb|[from] move: Knock Off|[of] p1a: Liepard
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Liepard|U-turn|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|24/100
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, M|100/100|[from]move: U-turn
+|move|p2a: Leavanny|X-Scissor|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|72/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Typhlosion|Extrasensory|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|upkeep
+|
+|switch|p2a: Bruxish|Bruxish, L85, F|100/100
+|turn|4
+|
+|switch|p1a: Masquerain|Masquerain, L89, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Bruxish|atk|1
+|move|p2a: Bruxish|Liquidation|p1a: Masquerain
+|-damage|p1a: Masquerain|69/100
+|
+|-heal|p1a: Masquerain|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|MeliodasDragonFury has 120 seconds left.
+
+|
+|move|p2a: Bruxish|Swords Dance|p2a: Bruxish
+|-boost|p2a: Bruxish|atk|2
+|move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+|-boost|p1a: Masquerain|spa|1
+|-boost|p1a: Masquerain|spd|1
+|-boost|p1a: Masquerain|spe|1
+|
+|-heal|p1a: Masquerain|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|MeliodasDragonFury has 120 seconds left.
+
+|
+|move|p1a: Masquerain|Bug Buzz|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-enditem|p2a: Bruxish|Focus Sash
+|-damage|p2a: Bruxish|1/100
+|move|p2a: Bruxish|Psychic Fangs|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|faint|p1a: Masquerain
+|
+|upkeep
+
+|
+|switch|p1a: Liepard|Liepard, L88, F|100/100
+|turn|7
+
+|
+|move|p1a: Liepard|Sucker Punch|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|faint|p2a: Bruxish
+|
+|upkeep
+
+|
+|switch|p2a: Audino|Audino, L86, M|100/100
+|turn|8
+
+|
+|detailschange|p2a: Audino|Audino-Mega, L86, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p1a: Liepard|U-turn|p2a: Audino
+|-resisted|p2a: Audino
+|-damage|p2a: Audino|95/100
+
+|
+|switch|p1a: Emboar|Emboar, L85, M|100/100|[from]move: U-turn
+|move|p2a: Audino|Dazzling Gleam|p1a: Emboar
+|-damage|p1a: Emboar|81/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Emboar|Flare Blitz|p2a: Audino
+|-damage|p2a: Audino|51/100
+|-damage|p1a: Emboar|67/100|[from] Recoil
+|move|p2a: Audino|Dazzling Gleam|p1a: Emboar
+|-damage|p1a: Emboar|48/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Emboar|Flare Blitz|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Emboar|Flare Blitz|p2a: Audino
+|-damage|p2a: Audino|3/100
+|-damage|p1a: Emboar|33/100|[from] Recoil
+|move|p2a: Audino|Dazzling Gleam|p1a: Emboar
+|-damage|p1a: Emboar|12/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Emboar|Flare Blitz|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|-damage|p1a: Emboar|12/100|[from] Recoil
+|faint|p2a: Audino
+|
+|upkeep
+
+|
+|switch|p2a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|13
+
+|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|upkeep
+
+|inactive|Suisaad has 120 seconds left.
+
+|
+|switch|p1a: Liepard|Liepard, L88, F|100/100
+|turn|14
+
+|
+|move|p1a: Liepard|Thunder Wave|p2a: Rayquaza
+|-status|p2a: Rayquaza|par
+|-enditem|p2a: Rayquaza|Lum Berry|[eat]
+|-curestatus|p2a: Rayquaza|par|[msg]
+|move|p2a: Rayquaza|Dragon Dance|p2a: Rayquaza
+|-boost|p2a: Rayquaza|atk|1
+|-boost|p2a: Rayquaza|spe|1
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Rayquaza|Outrage|p1a: Liepard
+|-enditem|p1a: Liepard|Focus Sash
+|-damage|p1a: Liepard|1/100
+|move|p1a: Liepard|Knock Off|p2a: Rayquaza
+|-damage|p2a: Rayquaza|77/100
+|
+|upkeep
+|turn|16
+
+|inactive|Suisaad has 120 seconds left.
+
+|
+|move|p1a: Liepard|Thunder Wave|p2a: Rayquaza
+|-status|p2a: Rayquaza|par
+|move|p2a: Rayquaza|Outrage|p1a: Liepard|[from]lockedmove
+|-damage|p1a: Liepard|0 fnt
+|-start|p2a: Rayquaza|confusion|[fatigue]
+|faint|p1a: Liepard
+|
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, L81, M|100/100
+|turn|17
+
+|
+|detailschange|p1a: Gallade|Gallade-Mega, L81, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p1a: Gallade|Zen Headbutt|p2a: Rayquaza
+|-damage|p2a: Rayquaza|29/100 par
+|-activate|p2a: Rayquaza|confusion
+|move|p2a: Rayquaza|Outrage|p1a: Gallade
+|-damage|p1a: Gallade|3/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Gallade|Zen Headbutt|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|
+|upkeep
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100
+|turn|19
+
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|upkeep
+
+|
+|switch|p1a: Sharpedo|Sharpedo, L83, M|100/100
+|turn|20
+
+|
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Mismagius|Thunderbolt|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|21
+
+|
+|move|p1a: Sharpedo|Crunch|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|-damage|p1a: Sharpedo|91/100|[from] item: Life Orb
+|faint|p2a: Mismagius
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, L80, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sharpedo|atk|1
+|turn|22
+
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, M|72/100
+|move|p2a: Landorus|Superpower|p1a: Typhlosion
+|-damage|p1a: Typhlosion|19/100
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2a: Landorus|def|1
+|-damage|p2a: Landorus|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Landorus|[miss]
+|-miss|p1a: Typhlosion|p2a: Landorus
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|72/100
+|move|p2a: Landorus|Earthquake|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-damage|p2a: Landorus|62/100|[from] item: Life Orb
+|faint|p1a: Typhlosion
+|
+|upkeep
+
+|
+|switch|p1a: Sharpedo|Sharpedo, L83, M|91/100
+|turn|25
+
+|
+|move|p1a: Sharpedo|Waterfall|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Sharpedo|81/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|win|Suisaad

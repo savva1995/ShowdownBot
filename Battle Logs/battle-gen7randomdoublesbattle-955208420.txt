@@ -1,0 +1,154 @@
+|init|battle
+|title|cruvendarkeyes vs. domflores94
+|j|☆cruvendarkeyes
+|j|☆domflores94
+|player|p1|cruvendarkeyes|101|1379
+|player|p2|domflores94|1|1292
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Marowak|Marowak-Alola, L86, M|100/100
+|switch|p1b: Excadrill|Excadrill, L78, F|100/100
+|switch|p2a: Rotom|Rotom, L85|100/100
+|switch|p2b: Virizion|Virizion, L71|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Marowak
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Marowak
+|-item|p1a: Marowak|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Thick Club|[from] move: Trick
+|move|p1b: Excadrill|Dark Pulse|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1b: Excadrill|91/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|move|p2b: Virizion|Swords Dance|p2b: Virizion
+|-boost|p2b: Virizion|atk|2
+|move|p1a: Marowak|Flare Blitz|p2b: Virizion
+|-supereffective|p2b: Virizion
+|-damage|p2b: Virizion|0 fnt
+|-damage|p1a: Marowak|67/100|[from] Recoil
+|faint|p2b: Virizion
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cruvendarkeyes)
+
+|
+|switch|p2a: Chansey|Chansey, L79, F|100/100
+|switch|p2b: Lanturn|Lanturn, L83, F|100/100
+|turn|2
+
+|inactive|cruvendarkeyes has 120 seconds left.
+
+|
+|move|p1b: Excadrill|Dark Pulse|p2b: Lanturn
+|-damage|p2b: Lanturn|62/100
+|-damage|p1b: Excadrill|81/100|[from] item: Life Orb
+|move|p1a: Marowak|Flare Blitz|p2a: Chansey
+|-damage|p2a: Chansey|51/100
+|-damage|p1a: Marowak|31/100|[from] Recoil
+|move|p2b: Lanturn|Scald|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|-damage|p2b: Lanturn|52/100|[from] item: Life Orb
+|faint|p1a: Marowak
+|move|p2a: Chansey|Seismic Toss|p1b: Excadrill
+|-damage|p1b: Excadrill|45/100
+|replace|p1b: Zoroark|Zoroark, L78, F
+|-end|p1b: Zoroark|Illusion
+|
+|upkeep
+
+|inactive|cruvendarkeyes has 120 seconds left.
+
+|
+|switch|p1a: Excadrill|Excadrill, L78, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|3
+
+|
+|switch|p1b: Yveltal|Yveltal, L70|100/100
+|-ability|p1b: Yveltal|Dark Aura
+|move|p1a: Excadrill|Earthquake|p2b: Lanturn|[spread] p2a,p2b
+|-immune|p1b: Yveltal
+|-crit|p2a: Chansey
+|-supereffective|p2b: Lanturn
+|-damage|p2a: Chansey|0 fnt
+|-damage|p2b: Lanturn|0 fnt
+|-damage|p1a: Excadrill|90/100|[from] item: Life Orb
+|faint|p2a: Chansey
+|faint|p2b: Lanturn
+|
+|upkeep
+
+|
+|switch|p2b: Weavile|Weavile, L78, F|100/100
+|switch|p2a: Grumpig|Grumpig, L82, M|100/100
+|turn|4
+
+|inactive|cruvendarkeyes has 120 seconds left.
+
+|
+|move|p2a: Grumpig|Protect|p2a: Grumpig
+|-singleturn|p2a: Grumpig|Protect
+|move|p2b: Weavile|Swords Dance|p2b: Weavile
+|-boost|p2b: Weavile|atk|2
+|move|p1a: Excadrill|Earthquake|p2a: Grumpig|[spread] p2b
+|-activate|p2a: Grumpig|move: Protect
+|-immune|p1b: Yveltal
+|-damage|p2b: Weavile|33/100
+|-damage|p1a: Excadrill|80/100|[from] item: Life Orb
+|move|p1b: Yveltal|Dark Pulse|p2a: Grumpig
+|-activate|p2a: Grumpig|move: Protect
+|
+|upkeep
+|turn|5
+
+|inactive|cruvendarkeyes has 120 seconds left.
+
+|
+|move|p1b: Yveltal|Sucker Punch|p2b: Weavile
+|-resisted|p2b: Weavile
+|-damage|p2b: Weavile|9/100
+|move|p2b: Weavile|Icicle Crash|p1b: Yveltal
+|-supereffective|p1b: Yveltal
+|-damage|p1b: Yveltal|0 fnt
+|faint|p1b: Yveltal
+|move|p1a: Excadrill|Earthquake|p2a: Grumpig|[spread] p2a,p2b
+|-damage|p2a: Grumpig|42/100
+|-damage|p2b: Weavile|0 fnt
+|-enditem|p2a: Grumpig|Sitrus Berry|[eat]
+|-heal|p2a: Grumpig|67/100|[from] item: Sitrus Berry
+|-damage|p1a: Excadrill|70/100|[from] item: Life Orb
+|faint|p2b: Weavile
+|move|p2a: Grumpig|Trick Room|p2a: Grumpig
+|-fieldstart|move: Trick Room|[of] p2a: Grumpig
+|
+|upkeep
+
+|inactive|cruvendarkeyes has 120 seconds left.
+
+|
+|switch|p1b: Gallade|Gallade, L78, M|45/100
+|turn|6
+
+|
+|move|p2a: Grumpig|Psyshock|p1b: Gallade
+|-immune|p1b: Gallade
+|move|p1a: Excadrill|Drill Run|p2a: Grumpig
+|-damage|p2a: Grumpig|2/100
+|-damage|p1a: Excadrill|60/100|[from] item: Life Orb
+|move|p1b: Gallade|Dark Pulse|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|-damage|p1b: Gallade|35/100|[from] item: Life Orb
+|faint|p2a: Grumpig
+|
+|win|cruvendarkeyes

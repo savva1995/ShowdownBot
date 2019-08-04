@@ -1,0 +1,44 @@
+|init|battle
+|title|veoxy vs. Exxydxyxrd
+|j|☆veoxy
+|j|‽Exxydxyxrd
+|player|p1|veoxy|10|1054
+|player|p2|Exxydxyxrd|102|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Altaria|Altaria, L82, F|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, L82, M|100/100
+|turn|1
+|
+|detailschange|p1a: Altaria|Altaria-Mega, L82, F
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p1a: Altaria|Hyper Voice|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-enditem|p2a: Crawdaunt|Focus Sash
+|-damage|p2a: Crawdaunt|1/100
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Altaria|Hyper Voice|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+
+|-message|Exxydxyxrd forfeited.
+
+|
+|win|veoxy

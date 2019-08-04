@@ -1,0 +1,85 @@
+|init|battle
+|title|Mousing vs. Lkm3
+|j|☆Mousing
+|j|☆Lkm3
+|player|p1|Mousing|10|1505
+|player|p2|Lkm3|82|1478
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wormadam|Wormadam-Sandy, L89, F|100/100
+|switch|p2a: Sudowoodo|Sudowoodo, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lkm3)
+
+|
+|switch|p2a: Victreebel|Victreebel, L88, M|100/100
+|move|p1a: Wormadam|Stealth Rock|p2a: Victreebel
+|-sidestart|p2: Lkm3|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|inactive|Lkm3 has 120 seconds left.
+
+|
+|switch|p1a: Genesect|Genesect, L78|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|-zpower|p2a: Victreebel
+|move|p2a: Victreebel|Bloom Doom|p1a: Genesect|[zeffect]
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|74/100
+|
+|upkeep
+|turn|3
+
+|inactive|Lkm3 has 120 seconds left.
+
+|
+|move|p1a: Genesect|Blaze Kick|p2a: Victreebel|[miss]
+|-miss|p1a: Genesect|p2a: Victreebel
+|move|p2a: Victreebel|Sleep Powder|p1a: Genesect|[miss]
+|-miss|p2a: Victreebel|p1a: Genesect
+|
+|upkeep
+|turn|4
+
+|inactive|Lkm3 has 120 seconds left.
+
+|
+|move|p1a: Genesect|Blaze Kick|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|-damage|p1a: Genesect|64/100|[from] item: Life Orb
+|faint|p2a: Victreebel
+|
+|upkeep
+
+|inactive|Lkm3 has 120 seconds left.
+
+|
+|switch|p2a: Sudowoodo|Sudowoodo, L89, M|100/100
+|-damage|p2a: Sudowoodo|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|0 fnt
+|-damage|p1a: Genesect|54/100|[from] item: Life Orb
+|faint|p2a: Sudowoodo
+|
+|upkeep
+
+|-message|Lkm3 forfeited.
+
+|
+|win|Mousing

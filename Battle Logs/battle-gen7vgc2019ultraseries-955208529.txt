@@ -1,0 +1,218 @@
+|init|battle
+|title|PoggibonsiDOCG vs. Foxida
+|j|☆PoggibonsiDOCG
+|j|☆Foxida
+|player|p1|PoggibonsiDOCG|165|1448
+|player|p2|Foxida|136|1349
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Xerneas, L50|item
+|poke|p1|Amoonguss, L50, F|item
+|poke|p1|Incineroar, L50, M|item
+|poke|p1|Rayquaza, L50|item
+|poke|p1|Suicune, L50|item
+|poke|p1|Tapu Koko, L50|item
+|poke|p2|Groudon, L50|item
+|poke|p2|Yveltal, L50|item
+|poke|p2|Incineroar, L50, M|item
+|poke|p2|Gengar, L50, F|item
+|poke|p2|Stakataka, L50|item
+|poke|p2|Tapu Fini, L50|item
+|teampreview|4
+|j| 3r3rgrgttfer
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PoggibonsiDOCG)
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko, L50|48/48
+|switch|p1b: Suicune|Suicune, L50|48/48
+|switch|p2a: Gengar|Gengar, L50, F, shiny|48/48
+|switch|p2b: Stakataka|Stakataka, L50|48/48
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|-ability|p1b: Suicune|Pressure
+|turn|1
+|inactive|PoggibonsiDOCG has 30 seconds left.
+|inactive|PoggibonsiDOCG has 20 seconds left.
+|inactive|PoggibonsiDOCG has 15 seconds left.
+|
+|switch|p2b: Tapu Fini|Tapu Fini, L50|48/48
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2b: Tapu Fini
+|detailschange|p2a: Gengar|Gengar-Mega, L50, F, shiny
+|-mega|p2a: Gengar|Gengar|Gengarite
+|-zpower|p1a: Tapu Koko
+|move|p1a: Tapu Koko|Gigavolt Havoc|p2b: Tapu Fini|[zeffect]
+|-supereffective|p2b: Tapu Fini
+|-damage|p2b: Tapu Fini|0 fnt
+|faint|p2b: Tapu Fini
+|move|p2a: Gengar|Sludge Bomb|p1a: Tapu Koko
+|-supereffective|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|move|p1b: Suicune|Scald|p2a: Gengar
+|-damage|p2a: Gengar|32/48
+|
+|upkeep
+
+|inactive|Foxida has 30 seconds left.
+
+|
+|switch|p1a: Rayquaza|Rayquaza, L50|48/48
+|switch|p2b: Stakataka|Stakataka, L50|48/48
+|-ability|p1a: Rayquaza|Air Lock
+|turn|2
+
+|inactive|Foxida has 30 seconds left.
+
+|inactive|Foxida has 20 seconds left.
+
+|inactive|Foxida has 15 seconds left.
+
+|inactive|Foxida has 10 seconds left.
+
+|inactive|Foxida has 5 seconds left.
+
+|
+|detailschange|p1a: Rayquaza|Rayquaza-Mega, L50
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p2a: Gengar|Sludge Bomb|p1b: Suicune
+|-damage|p1b: Suicune|32/48
+|move|p1a: Rayquaza|Earth Power|p2b: Stakataka
+|-supereffective|p2b: Stakataka
+|-enditem|p2b: Stakataka|Shuca Berry|[eat]
+|-enditem|p2b: Stakataka|Shuca Berry|[weaken]
+|-damage|p2b: Stakataka|20/48
+|move|p1b: Suicune|Icy Wind|p2b: Stakataka|[spread] p2a,p2b
+|-resisted|p2b: Stakataka
+|-damage|p2a: Gengar|28/48
+|-damage|p2b: Stakataka|18/48
+|-unboost|p2a: Gengar|spe|1
+|-unboost|p2b: Stakataka|spe|1
+|move|p2b: Stakataka|Gyro Ball|p1a: Rayquaza
+|-damage|p1a: Rayquaza|10/48
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|3
+
+|inactive|PoggibonsiDOCG has 30 seconds left.
+
+|
+|move|p2b: Stakataka|Protect|p2b: Stakataka
+|-singleturn|p2b: Stakataka|Protect
+|move|p1a: Rayquaza|Earth Power|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|move|p1b: Suicune|Scald|p2b: Stakataka
+|-activate|p2b: Stakataka|move: Protect
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Groudon|Groudon, L50|48/48
+|detailschange|p2a: Groudon|Groudon-Primal, L50
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|4
+
+|
+|switch|p1a: Bamby|Xerneas, L50|48/48
+|-ability|p1a: Bamby|Fairy Aura
+|move|p2a: Groudon|Precipice Blades|p1b: Suicune|[spread] p1b
+|-miss|p2a: Groudon|p1a: Bamby
+|-damage|p1b: Suicune|10/48
+|-enditem|p1b: Suicune|Wiki Berry|[eat]
+|-heal|p1b: Suicune|34/48|[from] item: Wiki Berry
+|move|p1b: Suicune|Icy Wind|p2a: Groudon|[spread] p2a,p2b
+|-resisted|p2b: Stakataka
+|-damage|p2a: Groudon|44/48
+|-damage|p2b: Stakataka|16/48
+|-unboost|p2a: Groudon|spe|1
+|-unboost|p2b: Stakataka|spe|1
+|move|p2b: Stakataka|Trick Room|p2b: Stakataka
+|-fieldstart|move: Trick Room|[of] p2b: Stakataka
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|5
+
+|c| 3r3rgrgttfer|welp
+
+|inactive|Foxida has 30 seconds left.
+
+|inactive|Foxida has 20 seconds left.
+
+|inactive|Foxida has 15 seconds left.
+
+|inactive|Foxida has 10 seconds left.
+
+|
+|switch|p1a: Rayquaza|Rayquaza-Mega, L50|10/48
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p2b: Stakataka|Gyro Ball|p1b: Suicune
+|-resisted|p1b: Suicune
+|-damage|p1b: Suicune|23/48
+|move|p2a: Groudon|Fire Punch|p1a: Rayquaza
+|-resisted|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|-weather|none
+|move|p1b: Suicune|Scald|p2b: Stakataka
+|-supereffective|p2b: Stakataka
+|-damage|p2b: Stakataka|0 fnt
+|faint|p2b: Stakataka
+|
+|-fieldend|Misty Terrain
+|upkeep
+
+|
+|switch|p1a: Bamby|Xerneas, L50|48/48
+|-ability|p1a: Bamby|Fairy Aura
+|turn|6
+
+|
+|move|p2a: Groudon|Precipice Blades|p1b: Suicune|[spread] p1b
+|-miss|p2a: Groudon|p1a: Bamby
+|-damage|p1b: Suicune|2/48
+|move|p1b: Suicune|Scald|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|5/48
+|move|p1a: Bamby|Geomancy||[still]
+|-prepare|p1a: Bamby|Geomancy|p1a: Bamby
+|-enditem|p1a: Bamby|Power Herb
+|-anim|p1a: Bamby|Geomancy|p1a: Bamby
+|-boost|p1a: Bamby|spa|2
+|-boost|p1a: Bamby|spd|2
+|-boost|p1a: Bamby|spe|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Bamby|Protect|p1a: Bamby
+|-singleturn|p1a: Bamby|Protect
+|move|p2a: Groudon|Precipice Blades|p1b: Suicune|[spread] p1b
+|-activate|p1a: Bamby|move: Protect
+|-damage|p1b: Suicune|0 fnt
+|faint|p1b: Suicune
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Bamby
+|-damage|p1a: Bamby|17/48
+|move|p1a: Bamby|Moonblast|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|win|PoggibonsiDOCG

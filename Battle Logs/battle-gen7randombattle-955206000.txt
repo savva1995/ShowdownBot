@@ -1,0 +1,311 @@
+|init|battle
+|title|FUCKZTHISNAME vs. yszwyukjp
+|j|☆FUCKZTHISNAME
+|j|☆yszwyukjp
+|player|p1|FUCKZTHISNAME|131|1536
+|player|p2|yszwyukjp|184|1584
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|100/100
+|switch|p2a: Wishiwashi|Wishiwashi, L89, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: yszwyukjp
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FUCKZTHISNAME)
+|
+|switch|p1a: Tapu Fini|Tapu Fini, L80|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Wishiwashi|Hydro Pump|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|72/100
+|
+|-heal|p1a: Tapu Fini|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Tapu Fini|Moonblast|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|73/100
+|move|p2a: Wishiwashi|Hidden Power|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|31/100
+|
+|-heal|p1a: Tapu Fini|37/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Tapu Fini|Moonblast|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|48/100
+|move|p2a: Wishiwashi|Hidden Power|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|
+|upkeep
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|turn|4
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Wishiwashi
+|-supereffective|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|0 fnt
+|faint|p2a: Wishiwashi
+|
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, L82, M|100/100
+|turn|5
+
+|
+|switch|p1a: Persian|Persian-Alola, L88, F|100/100
+|move|p2a: Klefki|Thunder Wave|p1a: Persian
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Persian
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+
+|
+|move|p1a: Persian|Hypnosis|p2a: Klefki
+|-status|p2a: Klefki|slp|[from] move: Hypnosis
+|cant|p2a: Klefki|slp
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Diggersby|Diggersby, L81, M|100/100
+|cant|p2a: Klefki|slp
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Diggersby|Earthquake|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|-damage|p1a: Diggersby|90/100|[from] item: Life Orb
+|faint|p2a: Klefki
+|
+|upkeep
+
+|
+|switch|p2a: Victreebel|Victreebel, L88, F|100/100
+|turn|9
+
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|move|p2a: Victreebel|Sleep Powder|p1a: Virizion
+|-immune|p1a: Virizion
+|
+|upkeep
+|turn|10
+
+|inactive|FUCKZTHISNAME has 120 seconds left.
+
+|
+|switch|p2a: Entei|Entei, L83|100/100
+|-ability|p2a: Entei|Pressure
+|move|p1a: Virizion|Substitute|p1a: Virizion
+|-start|p1a: Virizion|Substitute
+|-damage|p1a: Virizion|76/100
+|
+|-heal|p1a: Virizion|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Virizion|Close Combat|p2a: Entei
+|-damage|p2a: Entei|64/100
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|move|p2a: Entei|Sacred Fire|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-end|p1a: Virizion|Substitute
+|
+|-heal|p1a: Virizion|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|inactive|FUCKZTHISNAME has 120 seconds left.
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, M|100/100
+|move|p1a: Virizion|Close Combat|p2a: Bruxish
+|-resisted|p2a: Bruxish
+|-damage|p2a: Bruxish|71/100
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|
+|-heal|p1a: Virizion|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Victreebel|Victreebel, L88, F|100/100
+|move|p1a: Virizion|Leaf Blade|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|92/100
+|
+|-heal|p1a: Virizion|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|FUCKZTHISNAME has 120 seconds left.
+
+|
+|switch|p1a: Persian|Persian-Alola, L88, F|100/100
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Persian|Nasty Plot|p1a: Persian
+|-boost|p1a: Persian|spa|2
+|-zpower|p2a: Victreebel
+|move|p2a: Victreebel|Z-Sleep Powder|p1a: Persian|[anim]Sleep Powder
+|-boost|p2a: Victreebel|spe|1|[zeffect]
+|-status|p1a: Persian|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|cant|p1a: Persian|slp
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Victreebel|Knock Off|p1a: Persian
+|-resisted|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|56/100 slp
+|-enditem|p1a: Persian|Leftovers|[from] move: Knock Off|[of] p2a: Victreebel
+|-curestatus|p1a: Persian|slp|[msg]
+|move|p1a: Persian|Dark Pulse|p2a: Victreebel
+|-damage|p2a: Victreebel|25/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Victreebel|Power Whip|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|upkeep
+
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|turn|19
+
+|
+|move|p2a: Victreebel|Power Whip|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|4/100
+|move|p1a: Virizion|Stone Edge|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|-heal|p1a: Virizion|10/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Entei|Entei, L83|64/100
+|-ability|p2a: Entei|Pressure
+|turn|20
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: yszwyukjp
+|move|p2a: Entei|Extreme Speed|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|77/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Diancie|Diancie, L80|100/100
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L82, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Stone Edge|p2a: Diancie
+|-damage|p2a: Diancie|62/100
+|
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Virizion|Virizion, L84|10/100
+|detailschange|p2a: Diancie|Diancie-Mega, L80
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Diamond Storm|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|upkeep
+
+|
+|switch|p1a: Kingler|Kingler, L87, F|100/100
+|turn|23
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, M|71/100
+|move|p1a: Kingler|Agility|p1a: Kingler
+|-boost|p1a: Kingler|spe|2
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Kingler|Knock Off|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|-enditem|p2a: Bruxish|Life Orb|[from] move: Knock Off|[of] p1a: Kingler
+|-damage|p1a: Kingler|91/100|[from] item: Life Orb
+|faint|p2a: Bruxish
+|
+|upkeep
+
+|
+|switch|p2a: Entei|Entei, L83|64/100
+|-ability|p2a: Entei|Pressure
+|turn|25
+
+|
+|move|p2a: Entei|Extreme Speed|p1a: Kingler
+|-damage|p1a: Kingler|58/100
+|move|p1a: Kingler|Liquidation|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|upkeep
+
+|
+|switch|p2a: Diancie|Diancie-Mega, L80|62/100
+|turn|26
+
+|
+|move|p1a: Kingler|Liquidation|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|win|FUCKZTHISNAME

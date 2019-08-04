@@ -1,0 +1,183 @@
+|init|battle
+|title|787tsraws4r6ti7 vs. HardFlame
+|j|☆787tsraws4r6ti7
+|j|☆HardFlame
+|player|p1|787tsraws4r6ti7|102|1040
+|player|p2|HardFlame|266|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Shedinja|item
+|poke|p1|Shedinja|item
+|poke|p1|Shedinja|item
+|poke|p1|Shedinja|item
+|poke|p1|Shedinja|item
+|poke|p1|Shedinja|item
+|poke|p2|Aegislash, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Blastoise, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Shedinja|Shedinja|100/100
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|1
+|c|☆787tsraws4r6ti7|oof
+|
+|move|p1a: Shedinja|Protect|p1a: Shedinja
+|-singleturn|p1a: Shedinja|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-activate|p1a: Shedinja|move: Protect
+|
+|-status|p1a: Shedinja|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Shedinja|Protect||[still]
+|-fail|p1a: Shedinja
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-damage|p1a: Shedinja|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Shedinja
+|
+|upkeep
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|turn|3
+|
+|move|p1a: Shedinja|Protect|p1a: Shedinja
+|-singleturn|p1a: Shedinja|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-activate|p1a: Shedinja|move: Protect
+|
+|-status|p1a: Shedinja|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+
+|
+|move|p1a: Shedinja|Protect|p1a: Shedinja
+|-singleturn|p1a: Shedinja|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-activate|p1a: Shedinja|move: Protect
+|
+|-damage|p1a: Shedinja|0 fnt|[from] psn
+|faint|p1a: Shedinja
+|upkeep
+
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|turn|5
+
+|
+|move|p1a: Shedinja|Protect|p1a: Shedinja
+|-singleturn|p1a: Shedinja|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-activate|p1a: Shedinja|move: Protect
+|
+|-status|p1a: Shedinja|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+
+|
+|move|p1a: Shedinja|Protect||[still]
+|-fail|p1a: Shedinja
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-damage|p1a: Shedinja|0 fnt|[from] psn
+|faint|p1a: Shedinja
+|upkeep
+
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|turn|7
+
+|
+|move|p1a: Shedinja|Protect|p1a: Shedinja
+|-singleturn|p1a: Shedinja|Protect
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-status|p1a: Shedinja|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+
+|
+|move|p1a: Shedinja|Protect||[still]
+|-fail|p1a: Shedinja
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-damage|p1a: Shedinja|0 fnt|[from] psn
+|faint|p1a: Shedinja
+|upkeep
+
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|turn|9
+
+|
+|move|p1a: Shedinja|Protect|p1a: Shedinja
+|-singleturn|p1a: Shedinja|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-activate|p1a: Shedinja|move: Protect
+|
+|-status|p1a: Shedinja|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HardFlame)
+
+|inactive|787tsraws4r6ti7 has 120 seconds left.
+
+|inactive|787tsraws4r6ti7 has 90 seconds left.
+
+|
+|move|p1a: Shedinja|Protect||[still]
+|-fail|p1a: Shedinja
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-damage|p1a: Shedinja|0 fnt
+|faint|p1a: Shedinja
+|
+|upkeep
+
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|turn|11
+
+|
+|move|p1a: Shedinja|Protect|p1a: Shedinja
+|-singleturn|p1a: Shedinja|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-activate|p1a: Shedinja|move: Protect
+|
+|-status|p1a: Shedinja|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+
+|
+|move|p1a: Shedinja|Protect||[still]
+|-fail|p1a: Shedinja
+|move|p2a: Volcarona|Fiery Dance|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-damage|p1a: Shedinja|0 fnt
+|faint|p1a: Shedinja
+|
+|win|HardFlame

@@ -1,0 +1,283 @@
+|init|battle
+|title|eric1991 vs. Dawn505
+|j|☆eric1991
+|j|☆Dawn505
+|player|p1|eric1991|1|1956
+|player|p2|Dawn505|170|1878
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Simisear|Simisear, L89, M|100/100
+|switch|p2a: Heliolisk|Heliolisk, L86, F|100/100
+|turn|1
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|move|p2a: Heliolisk|Surf|p1a: Volcanion
+|-immune|p1a: Volcanion|[from] ability: Water Absorb
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eric1991)
+|
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|move|p1a: Volcanion|Fire Blast|p2a: Meloetta
+|-damage|p2a: Meloetta|75/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|move|p2a: Meloetta|Relic Song|p1a: Marshadow
+|-immune|p1a: Marshadow
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Marshadow|Close Combat|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Meloetta
+|
+|upkeep
+|
+|switch|p2a: Starmie|Starmie, L82|100/100
+|turn|5
+|
+|switch|p1a: Slowbro|Slowbro, L83, M|100/100
+|move|p2a: Starmie|Psyshock|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|89/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, F|100/100
+|switch|p1a: Incineroar|Incineroar, L86, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Heliolisk|atk|1
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Heliolisk|Thunderbolt|p1a: Incineroar
+|-damage|p1a: Incineroar|48/100
+|move|p1a: Incineroar|U-turn|p2a: Heliolisk
+|-damage|p2a: Heliolisk|65/100
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Starmie|Starmie, L82|100/100
+|move|p1a: Marshadow|Close Combat|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|52/100
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|
+|-heal|p2a: Starmie|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Slowbro|Slowbro, L83, M|100/100
+|switch|p2a: Heliolisk|Heliolisk, L86, F|65/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Heliolisk|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|turn|11
+
+|
+|switch|p2a: Starmie|Starmie, L82|58/100
+|move|p1a: Marshadow|Close Combat|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|13/100
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|
+|-heal|p2a: Starmie|19/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Starmie
+|
+|upkeep
+
+|
+|switch|p2a: Ludicolo|Ludicolo, L88, F|100/100
+|turn|13
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Volcanion
+|-damage|p1a: Volcanion|58/100
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|move|p1a: Volcanion|Steam Eruption|p2a: Ludicolo
+|-resisted|p2a: Ludicolo
+|-damage|p2a: Ludicolo|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Volcanion
+|-damage|p1a: Volcanion|20/100
+|-heal|p2a: Ludicolo|92/100|[from] drain|[of] p1a: Volcanion
+|-damage|p2a: Ludicolo|82/100|[from] item: Life Orb
+|move|p1a: Volcanion|Steam Eruption|p2a: Ludicolo
+|-resisted|p2a: Ludicolo
+|-damage|p2a: Ludicolo|65/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-heal|p2a: Ludicolo|74/100|[from] drain|[of] p1a: Volcanion
+|-damage|p2a: Ludicolo|64/100|[from] item: Life Orb
+|faint|p1a: Volcanion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Linoone|Linoone, L83, M|100/100
+|turn|17
+
+|
+|move|p2a: Ludicolo|Hydro Pump|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|-damage|p2a: Ludicolo|54/100|[from] item: Life Orb
+|faint|p1a: Linoone
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|turn|18
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Ludicolo
+|
+|upkeep
+
+|
+|switch|p2a: Diancie|Diancie, L80|100/100
+|turn|19
+
+|
+|detailschange|p2a: Diancie|Diancie-Mega, L80
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p1a: Marshadow|Close Combat|p2a: Diancie
+|-damage|p2a: Diancie|19/100
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|move|p2a: Diancie|Moonblast|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-crit|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|upkeep
+
+|
+|switch|p1a: Incineroar|Incineroar, L86, M|48/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Diancie|atk|1
+|turn|20
+
+|
+|move|p1a: Incineroar|Earthquake|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, F|65/100
+|turn|21
+
+|
+|move|p2a: Heliolisk|Surf|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+
+|
+|switch|p1a: Simisear|Simisear, L89, M|100/100
+|turn|22
+
+|
+|move|p2a: Heliolisk|Surf|p1a: Simisear
+|-supereffective|p1a: Simisear
+|-crit|p1a: Simisear
+|-enditem|p1a: Simisear|Focus Sash
+|-damage|p1a: Simisear|1/100
+|move|p1a: Simisear|Fire Blast|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|faint|p2a: Heliolisk
+|
+|upkeep
+
+|
+|switch|p2a: Sudowoodo|Sudowoodo, L89, M|100/100
+|turn|23
+
+|
+|move|p1a: Simisear|Grass Knot|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|62/100
+|move|p2a: Sudowoodo|Wood Hammer|p1a: Simisear
+|-resisted|p1a: Simisear
+|-damage|p1a: Simisear|0 fnt
+|faint|p1a: Simisear
+|
+|win|Dawn505

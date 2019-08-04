@@ -1,0 +1,274 @@
+|init|battle
+|title|tnotgaytgoodhodor vs. Setupper
+|j|☆tnotgaytgoodhodor
+|j|☆Setupper
+|player|p1|tnotgaytgoodhodor|289|1761
+|player|p2|Setupper|165|1706
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Excadrill|Excadrill, L80, F|100/100
+|switch|p2a: Gothitelle|Gothitelle, L82, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Setupper)
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Gothitelle|Hidden Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|67/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Earthquake|p2a: Gothitelle
+|-damage|p2a: Gothitelle|4/100
+|move|p2a: Gothitelle|Hidden Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|13/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Pelipper|Pelipper, L84, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Excadrill|Iron Head|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Kabutops|Kabutops, L88, M|100/100
+|turn|5
+|
+|move|p2a: Kabutops|Knock Off|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p2a: Kabutops
+|-damage|p2a: Kabutops|91/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Kingdra|Kingdra, L85, F|100/100
+|turn|6
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+|
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|move|p2a: Kabutops|Knock Off|p1a: Kingdra
+|-damage|p1a: Kingdra|59/100
+|-enditem|p1a: Kingdra|Life Orb|[from] move: Knock Off|[of] p2a: Kabutops
+|-damage|p2a: Kabutops|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Kingdra|Waterfall|p2a: Kabutops
+|-damage|p2a: Kabutops|13/100
+|move|p2a: Kabutops|Stone Edge|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|-damage|p2a: Kabutops|3/100|[from] item: Life Orb
+|faint|p1a: Kingdra
+|
+|-weather|none
+|upkeep
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+
+|inactive|tnotgaytgoodhodor has 90 seconds left.
+
+|
+|switch|p1a: Arceus|Arceus-Ghost, L78|100/100
+|turn|8
+
+|
+|move|p1a: Arceus|Judgment|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|upkeep
+
+|
+|switch|p2a: Hippowdon|Hippowdon, L82, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|9
+
+|inactive|tnotgaytgoodhodor has 60 seconds left.
+
+|
+|move|p1a: Arceus|Judgment|p2a: Hippowdon
+|-damage|p2a: Hippowdon|52/100
+|move|p2a: Hippowdon|Earthquake|p1a: Arceus
+|-damage|p1a: Arceus|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|67/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|tnotgaytgoodhodor has 60 seconds left.
+
+|
+|move|p1a: Arceus|Judgment|p2a: Hippowdon
+|-damage|p2a: Hippowdon|12/100
+|move|p2a: Hippowdon|Earthquake|p1a: Arceus
+|-damage|p1a: Arceus|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|31/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|18/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|inactive|tnotgaytgoodhodor has 60 seconds left.
+
+|
+|switch|p2a: Gothitelle|Gothitelle, L82, M|4/100
+|move|p1a: Arceus|Brick Break|p2a: Gothitelle
+|-resisted|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|25/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Pikachu|Pikachu-Partner, L90, M|100/100
+|turn|12
+
+|inactive|tnotgaytgoodhodor has 60 seconds left.
+
+|
+|move|p1a: Arceus|Judgment|p2a: Pikachu
+|-damage|p2a: Pikachu|16/100
+|move|p2a: Pikachu|Volt Switch|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+
+|
+|switch|p2a: Hippowdon|Hippowdon, L82, M|18/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|24/100|[from] item: Leftovers
+|upkeep
+
+|inactive|tnotgaytgoodhodor has 60 seconds left.
+
+|inactive|tnotgaytgoodhodor has 30 seconds left.
+
+|inactive|tnotgaytgoodhodor has 20 seconds left.
+
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Hippowdon|atk|1
+|turn|13
+
+|inactive|tnotgaytgoodhodor has 30 seconds left this turn.
+
+|inactive|tnotgaytgoodhodor has 20 seconds left.
+
+|inactive|tnotgaytgoodhodor has 15 seconds left.
+
+|
+|move|p1a: Qwilfish|Spikes|p2a: Hippowdon
+|-sidestart|p2: Setupper|Spikes
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|74/100
+|
+|-weather|none
+|-heal|p2a: Hippowdon|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|tnotgaytgoodhodor has 25 seconds left this turn.
+
+|inactive|tnotgaytgoodhodor has 20 seconds left.
+
+|inactive|tnotgaytgoodhodor has 15 seconds left.
+
+|
+|move|p1a: Qwilfish|Spikes|p2a: Hippowdon
+|-sidestart|p2: Setupper|Spikes
+|move|p2a: Hippowdon|Earthquake|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|49/100
+|
+|-heal|p1a: Qwilfish|55/100|[from] item: Black Sludge
+|-heal|p2a: Hippowdon|87/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|tnotgaytgoodhodor has 25 seconds left this turn.
+
+|inactive|tnotgaytgoodhodor has 20 seconds left.
+
+|inactive|tnotgaytgoodhodor has 15 seconds left.
+
+|
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Hippowdon
+|-sidestart|p2: Setupper|move: Toxic Spikes
+|move|p2a: Hippowdon|Earthquake|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|
+|-heal|p2a: Hippowdon|93/100|[from] item: Leftovers
+|upkeep
+
+|inactive|tnotgaytgoodhodor has 25 seconds left this turn.
+
+|inactive|tnotgaytgoodhodor has 20 seconds left.
+
+|
+|switch|p1a: Glalie|Glalie, L86, F|100/100
+|turn|16
+
+|inactive|tnotgaytgoodhodor has 30 seconds left this turn.
+
+|l|☆Setupper
+
+|inactive|Setupper disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|tnotgaytgoodhodor has 20 seconds left.
+
+|inactive|Setupper has 30 seconds to reconnect!
+
+|inactive|Setupper has 20 seconds to reconnect!
+
+|inactive|Setupper has 15 seconds to reconnect!
+
+|inactive|Setupper has 10 seconds to reconnect!
+
+|inactive|Setupper has 5 seconds to reconnect!
+
+|-message|Setupper lost due to inactivity.
+|
+|win|tnotgaytgoodhodor

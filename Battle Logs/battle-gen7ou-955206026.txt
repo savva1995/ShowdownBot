@@ -1,0 +1,331 @@
+|init|battle
+|title|adiostoreadoormat vs. Fvbjffnkj
+|j|☆adiostoreadoormat
+|j|☆Fvbjffnkj
+|player|p1|adiostoreadoormat|88|1215
+|player|p2|Fvbjffnkj|101|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Chansey, F|item
+|poke|p1|Swampert, F|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Azumarill, F|item
+|poke|p1|Magearna|item
+|poke|p1|Pelipper, F|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Hawlucha, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Tapu Koko|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|86/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Chansey|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Swampert
+|-sidestart|p1: adiostoreadoormat|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|detailschange|p1a: Swampert|Swampert-Mega, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Waterfall|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|70/100
+|-damage|p1a: Swampert|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Azumarill
+|-ability|p1a: Azumarill|Sap Sipper|boost
+|-boost|p1a: Azumarill|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|move|p1a: Azumarill|Knock Off|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|80/100
+|-enditem|p2a: Tapu Koko|Choice Scarf|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Chansey|Chansey, F|86/100
+|-damage|p1a: Chansey|73/100|[from] Stealth Rock
+|move|p2a: Tapu Koko|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|60/100
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|82/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Chansey
+|-sidestart|p1: adiostoreadoormat|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Pelipper|[miss]
+|-miss|p2a: Ferrothorn|p1a: Pelipper
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Ferrothorn|Spikes|p1a: Pelipper
+|-sidestart|p1: adiostoreadoormat|Spikes
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Pelipper|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: adiostoreadoormat|Spikes|[from] move: Defog|[of] p1a: Pelipper
+|-sideend|p1: adiostoreadoormat|Stealth Rock|[from] move: Defog|[of] p1a: Pelipper
+|move|p2a: Ferrothorn|Spikes|p1a: Pelipper
+|-sidestart|p1: adiostoreadoormat|Spikes
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Pelipper|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: adiostoreadoormat|Spikes|[from] move: Defog|[of] p1a: Pelipper
+|move|p2a: Ferrothorn|Spikes|p1a: Pelipper
+|-sidestart|p1: adiostoreadoormat|Spikes
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Pelipper|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: adiostoreadoormat|Spikes|[from] move: Defog|[of] p1a: Pelipper
+|move|p2a: Ferrothorn|Spikes|p1a: Pelipper
+|-sidestart|p1: adiostoreadoormat|Spikes
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Pelipper|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: adiostoreadoormat|Spikes|[from] move: Defog|[of] p1a: Pelipper
+|move|p2a: Ferrothorn|Leech Seed|p1a: Pelipper
+|-start|p1a: Pelipper|move: Leech Seed
+|
+|-damage|p1a: Pelipper|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|14
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fvbjffnkj)
+
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-item|p1a: Magearna|Air Balloon
+|move|p2a: Ferrothorn|Spikes|p1a: Magearna
+|-sidestart|p1: adiostoreadoormat|Spikes
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Magearna
+|-status|p1a: Magearna|par
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Magearna|Aura Sphere|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Magearna
+|-start|p1a: Magearna|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|53/100|[from] item: Leftovers
+|-damage|p1a: Magearna|88/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|63/100|[silent]
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|80/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Magearna|Aura Sphere|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|42/100
+|
+|-damage|p1a: Magearna|76/100 par|[from] Leech Seed|[of] p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|55/100|[silent]
+|upkeep
+|turn|18
+
+|
+|move|p2a: Tapu Koko|Wild Charge|p1a: Magearna
+|-damage|p1a: Magearna|16/100 par
+|-enditem|p1a: Magearna|Air Balloon
+|-damage|p2a: Tapu Koko|39/100|[from] Recoil
+|move|p1a: Magearna|Fleur Cannon|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Tapu Koko
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|19
+
+|
+|switch|p1a: Pelipper|Pelipper, F|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Hawlucha|Acrobatics|p1a: Pelipper
+|-damage|p1a: Pelipper|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Swampert|Swampert-Mega, F|88/100
+|-damage|p1a: Swampert|76/100|[from] Spikes
+|move|p2a: Hawlucha|Acrobatics|p1a: Swampert
+|-damage|p1a: Swampert|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p1a: Kingdra|Kingdra, F, shiny|100/100
+|-damage|p1a: Kingdra|88/100|[from] Spikes
+|turn|22
+
+|
+|move|p2a: Hawlucha|High Jump Kick|p1a: Kingdra
+|-damage|p1a: Kingdra|13/100
+|-zpower|p1a: Kingdra
+|move|p1a: Kingdra|Hydro Vortex|p2a: Hawlucha|[zeffect]
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|23
+
+|
+|switch|p1a: Magearna|Magearna|16/100 par
+|-damage|p1a: Magearna|4/100 par|[from] Spikes
+|-zpower|p2a: Azumarill
+|move|p2a: Azumarill|Z-Belly Drum|p2a: Azumarill|[anim]Belly Drum
+|-damage|p2a: Azumarill|51/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Kingdra|Kingdra, F, shiny|13/100
+|-damage|p1a: Kingdra|0 fnt|[from] Spikes
+|faint|p1a: Kingdra
+
+|c|☆Fvbjffnkj|Gg
+
+|-message|adiostoreadoormat forfeited.
+
+|
+|win|Fvbjffnkj

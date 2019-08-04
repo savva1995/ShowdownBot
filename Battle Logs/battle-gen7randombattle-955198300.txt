@@ -1,0 +1,298 @@
+|init|battle
+|title|huainiangaoyiss vs. xiao_gua
+|j|☆huainiangaoyiss
+|j|☆xiao_gua
+|player|p1|huainiangaoyiss|28|1148
+|player|p2|xiao_gua|269|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|switch|p2a: Pidgeot|Pidgeot, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by huainiangaoyiss)
+|
+|move|p2a: Pidgeot|U-turn|p1a: Manaphy
+|-damage|p1a: Manaphy|87/100
+|
+|switch|p2a: Venusaur|Venusaur, L85, M|100/100|[from]move: U-turn
+|move|p1a: Manaphy|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|62/100
+|
+|-heal|p1a: Manaphy|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, F|100/100
+|move|p2a: Venusaur|Sleep Powder|p1a: Vivillon
+|-status|p1a: Vivillon|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+
+|
+|cant|p1a: Vivillon|slp
+|move|p2a: Venusaur|Hidden Power|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-damage|p1a: Vivillon|56/100 slp
+|
+|-heal|p1a: Vivillon|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|huainiangaoyiss has 120 seconds left.
+
+|
+|cant|p1a: Vivillon|slp
+|move|p2a: Venusaur|Sludge Bomb|p1a: Vivillon
+|-damage|p1a: Vivillon|11/100 slp
+|
+|-heal|p1a: Vivillon|17/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|huainiangaoyiss has 120 seconds left.
+
+|
+|-curestatus|p1a: Vivillon|slp|[msg]
+|move|p1a: Vivillon|Bug Buzz|p2a: Venusaur
+|-damage|p2a: Venusaur|29/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|upkeep
+
+|inactive|huainiangaoyiss has 120 seconds left.
+
+|
+|switch|p1a: Blaziken|Blaziken, L78, M|100/100
+|turn|6
+
+|
+|detailschange|p1a: Blaziken|Blaziken-Mega, L78, M
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Blaziken|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|-enditem|p2a: Venusaur|Heat Rock|[from] move: Knock Off|[of] p1a: Blaziken
+|faint|p2a: Venusaur
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p2a: Seismitoad|Seismitoad, L86, F|100/100
+|turn|7
+
+|
+|move|p1a: Blaziken|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|70/100
+|-enditem|p2a: Seismitoad|Life Orb|[from] move: Knock Off|[of] p1a: Blaziken
+|move|p2a: Seismitoad|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+
+|
+|switch|p1a: Empoleon|Empoleon, L82, F|100/100
+|turn|8
+
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|23/100
+|move|p1a: Empoleon|Grass Knot|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Empoleon|13/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+
+|
+|switch|p2a: Starmie|Starmie, L82|100/100
+|turn|9
+
+|inactive|huainiangaoyiss has 120 seconds left.
+
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|upkeep
+
+|inactive|huainiangaoyiss has 120 seconds left.
+
+|
+|switch|p1a: Drapion|Drapion, L84, M|100/100
+|turn|10
+
+|
+|move|p2a: Starmie|Scald|p1a: Drapion
+|-damage|p1a: Drapion|66/100
+|move|p1a: Drapion|Knock Off|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|10/100
+|-enditem|p2a: Starmie|Leftovers|[from] move: Knock Off|[of] p1a: Drapion
+|
+|-heal|p1a: Drapion|72/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|100/100
+|move|p1a: Drapion|Knock Off|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|82/100
+|-enditem|p2a: Skuntank|Expert Belt|[from] move: Knock Off|[of] p1a: Drapion
+|
+|-heal|p1a: Drapion|78/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|inactive|huainiangaoyiss has 90 seconds left.
+
+|
+|move|p1a: Drapion|Poison Jab|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|67/100
+|move|p2a: Skuntank|Crunch|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|64/100
+|
+|-heal|p1a: Drapion|70/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|inactive|huainiangaoyiss has 90 seconds left.
+
+|
+|move|p2a: Skuntank|Sucker Punch||[still]
+|-fail|p2a: Skuntank
+|move|p1a: Drapion|Swords Dance|p1a: Drapion
+|-boost|p1a: Drapion|atk|2
+|
+|-heal|p1a: Drapion|75/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Genesect|Genesect-Douse, L78|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|move|p1a: Drapion|Swords Dance|p1a: Drapion
+|-boost|p1a: Drapion|atk|2
+|
+|-heal|p1a: Drapion|81/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|inactive|huainiangaoyiss has 60 seconds left.
+
+|
+|move|p1a: Drapion|Knock Off|p2a: Genesect
+|-damage|p2a: Genesect|24/100
+|move|p2a: Genesect|Blaze Kick|p1a: Drapion|[miss]
+|-miss|p2a: Genesect|p1a: Drapion
+|
+|-heal|p1a: Drapion|87/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+
+|inactive|huainiangaoyiss has 60 seconds left.
+
+|
+|move|p1a: Drapion|Knock Off|p2a: Genesect
+|-damage|p2a: Genesect|0 fnt
+|faint|p2a: Genesect
+|
+|-heal|p1a: Drapion|93/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Pidgeot|Pidgeot, L82, F|100/100
+|turn|17
+
+|inactive|huainiangaoyiss has 60 seconds left.
+
+|
+|detailschange|p2a: Pidgeot|Pidgeot-Mega, L82, F
+|-mega|p2a: Pidgeot|Pidgeot|Pidgeotite
+|move|p2a: Pidgeot|Heat Wave|p1a: Drapion
+|-damage|p1a: Drapion|57/100
+|move|p1a: Drapion|Poison Jab|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|-heal|p1a: Drapion|63/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|67/100
+|turn|18
+
+|
+|move|p1a: Drapion|Poison Jab|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|25/100
+|move|p2a: Skuntank|Poison Jab|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|49/100
+|
+|-heal|p1a: Drapion|55/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+
+|
+|move|p2a: Skuntank|Sucker Punch|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|42/100
+|move|p1a: Drapion|Poison Jab|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Drapion|17/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|-heal|p1a: Drapion|23/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Starmie|Starmie, L82|10/100
+|turn|20
+
+|c|☆xiao_gua|fw
+
+|
+|move|p2a: Starmie|Scald|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|upkeep
+
+|
+|switch|p1a: Unown|Unown|100/100
+|turn|21
+
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Unown
+|-damage|p1a: Unown|72/100
+|move|p1a: Unown|Hidden Power|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|huainiangaoyiss

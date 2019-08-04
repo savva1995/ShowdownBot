@@ -1,0 +1,355 @@
+|init|battle
+|title|FeralixXx vs. Jayweb95
+|j|☆FeralixXx
+|j|☆Jayweb95
+|player|p1|FeralixXx|293|1401
+|player|p2|Jayweb95|238|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lumineon|Lumineon, L89, F|100/100
+|switch|p2a: Ditto|Ditto, L89|100/100
+|-transform|p2a: Ditto|p1a: Lumineon|[from] ability: Imposter
+|turn|1
+|
+|move|p2a: Ditto|U-turn|p1a: Lumineon
+|-damage|p1a: Lumineon|82/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FeralixXx)
+|
+|switch|p2a: Dialga|Dialga, L78|100/100|[from]move: U-turn
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Lumineon|U-turn|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|94/100
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L82, F|100/100|[from]move: U-turn
+|-ability|p1a: Aerodactyl|Unnerve|p2: Jayweb95
+|
+|-heal|p2a: Dialga|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Bewear|Bewear, L84, M|100/100
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L82, F
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Earthquake|p2a: Bewear
+|-damage|p2a: Bewear|72/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Aerodactyl|Aerial Ace|p2a: Bewear
+|-supereffective|p2a: Bewear
+|-damage|p2a: Bewear|43/100
+|move|p2a: Bewear|Ice Punch|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|51/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Lumineon|Lumineon, L89, F|82/100
+|move|p2a: Bewear|Ice Punch|p1a: Lumineon
+|-resisted|p1a: Lumineon
+|-damage|p1a: Lumineon|70/100
+|-status|p1a: Lumineon|frz
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, F|100/100
+|-curestatus|p1a: Lumineon|frz|[from] move: Scald
+|move|p1a: Lumineon|Scald|p2a: Mismagius
+|-damage|p2a: Mismagius|73/100
+|-status|p2a: Mismagius|brn
+|
+|-heal|p2a: Mismagius|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|73/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Mismagius|Thunderbolt|p1a: Lumineon
+|-supereffective|p1a: Lumineon
+|-damage|p1a: Lumineon|14/100
+|move|p1a: Lumineon|U-turn|p2a: Mismagius
+|-resisted|p2a: Mismagius
+|-damage|p2a: Mismagius|61/100 brn
+
+|inactive|FeralixXx has 120 seconds left.
+
+|inactive|FeralixXx has 90 seconds left.
+
+|
+|switch|p1a: Darkrai|Darkrai, L78|100/100|[from]move: U-turn
+|
+|-heal|p2a: Mismagius|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|61/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-crit|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+
+|
+|switch|p2a: Bewear|Bewear, L84, M|43/100
+|turn|8
+
+|
+|move|p1a: Darkrai|Focus Blast|p2a: Bewear
+|-supereffective|p2a: Bewear
+|-damage|p2a: Bewear|0 fnt
+|faint|p2a: Bewear
+|
+|upkeep
+
+|inactive|Jayweb95 has 120 seconds left.
+
+|
+|switch|p2a: Volcarona|Volcarona, L80, F|100/100
+|turn|9
+
+|inactive|Jayweb95 has 120 seconds left.
+
+|
+|switch|p1a: Lumineon|Lumineon, L89, F|14/100
+|move|p2a: Volcarona|Bug Buzz|p1a: Lumineon
+|-damage|p1a: Lumineon|0 fnt
+|faint|p1a: Lumineon
+|
+|upkeep
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, L82, F|51/100
+|turn|10
+
+|
+|switch|p2a: Ditto|Ditto, L89|100/100
+|-transform|p2a: Ditto|p1a: Aerodactyl|[from] ability: Imposter
+|move|p1a: Aerodactyl|Aqua Tail|p2a: Ditto|[miss]
+|-miss|p1a: Aerodactyl|p2a: Ditto
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, F|100/100
+|move|p2a: Ditto|Aqua Tail|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-damage|p2a: Ditto|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Volcarona|Volcarona, L80, F|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|63/100
+|
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|FeralixXx has 120 seconds left.
+|inactive|Jayweb95 has 120 seconds left.
+
+|
+|switch|p1a: Venusaur|Venusaur, L85, F|100/100
+|move|p2a: Volcarona|Fire Blast|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|2/100
+|
+|upkeep
+|turn|14
+
+|inactive|Jayweb95 has 120 seconds left.
+
+|
+|move|p2a: Volcarona|Fire Blast|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+
+|inactive|FeralixXx has 120 seconds left.
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, L82, F|51/100
+|turn|15
+
+|
+|switch|p2a: Ditto|Ditto, L89|88/100
+|-transform|p2a: Ditto|p1a: Aerodactyl|[from] ability: Imposter
+|move|p1a: Aerodactyl|Earthquake|p2a: Ditto
+|-immune|p2a: Ditto
+|
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, F|95/100
+|move|p2a: Ditto|Aqua Tail|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|-damage|p2a: Ditto|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Volcarona|Volcarona, L80, F|63/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|27/100
+|-status|p1a: Ferrothorn|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-heal|p1a: Ferrothorn|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|83/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Darkrai|Darkrai, L78|100/100
+|move|p2a: Volcarona|Fire Blast|p1a: Darkrai
+|-damage|p1a: Darkrai|38/100
+|
+|-heal|p1a: Darkrai|44/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Volcarona|Fire Blast|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, L82, F|51/100
+|turn|20
+
+|
+|switch|p2a: Ditto|Ditto, L89|76/100
+|-transform|p2a: Ditto|p1a: Aerodactyl|[from] ability: Imposter
+|move|p1a: Aerodactyl|Aqua Tail|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|21
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, F|100/100
+|move|p2a: Gigalith|Superpower|p1a: Escavalier
+|-damage|p1a: Escavalier|59/100
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+
+|
+|move|p2a: Gigalith|Stealth Rock|p1a: Escavalier
+|-sidestart|p1: FeralixXx|move: Stealth Rock
+|move|p1a: Escavalier|Drill Run|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|17/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Gigalith|Stone Edge|p1a: Escavalier
+|-damage|p1a: Escavalier|29/100
+|move|p1a: Escavalier|Drill Run|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Dialga|Dialga, L78|99/100
+|-ability|p2a: Dialga|Pressure
+|turn|24
+
+|
+|move|p2a: Dialga|Flash Cannon|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|10/100
+|move|p1a: Escavalier|Drill Run|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Dialga|39/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Dialga|Flash Cannon|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|-weather|none
+|-heal|p2a: Dialga|45/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, L82, F|51/100
+|-damage|p1a: Aerodactyl|26/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p1a: Aerodactyl|Earthquake|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|upkeep
+
+|
+|switch|p2a: Volcarona|Volcarona, L80, F|27/100
+|turn|27
+
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|1/100
+|-heal|p2a: Volcarona|39/100|[from] drain|[of] p1a: Aerodactyl
+|move|p1a: Aerodactyl|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|win|FeralixXx

@@ -1,0 +1,228 @@
+|init|battle
+|title|AldezZ vs. Todd37
+|j|☆AldezZ
+|j|☆Todd37
+|player|p1|AldezZ|2|1295
+|player|p2|Todd37|265|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, L84, F|100/100
+|switch|p2a: Golisopod|Golisopod, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AldezZ)
+
+|
+|move|p1a: Mandibuzz|Brave Bird|p2a: Golisopod
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|52/100
+|-damage|p1a: Mandibuzz|87/100|[from] Recoil
+|move|p2a: Golisopod|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-heal|p1a: Mandibuzz|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Golisopod|58/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|87/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Chatot|Chatot, L89, M|100/100
+|move|p1a: Mandibuzz|Brave Bird|p2a: Chatot
+|-damage|p2a: Chatot|53/100
+|-damage|p1a: Mandibuzz|74/100 tox|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|80/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|68/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Togedemaru|Togedemaru, L86, F|100/100
+|move|p2a: Chatot|Nasty Plot|p2a: Chatot
+|-boost|p2a: Chatot|spa|2
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Togedemaru|Nuzzle|p2a: Chatot
+|-supereffective|p2a: Chatot
+|-damage|p2a: Chatot|18/100
+|-status|p2a: Chatot|par
+|move|p2a: Chatot|Hidden Power|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|-damage|p2a: Chatot|8/100 par|[from] item: Life Orb
+|faint|p1a: Togedemaru
+|
+|upkeep
+
+|
+|switch|p1a: Blacephalon|Blacephalon, L80|100/100
+|turn|5
+
+|
+|switch|p2a: Hippowdon|Hippowdon, L82, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Blacephalon|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blacephalon|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|51/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|AldezZ has 120 seconds left.
+
+|
+|move|p1a: Blacephalon|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blacephalon|88/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Excadrill|Excadrill, L80, M|100/100
+|turn|7
+
+|
+|move|p2a: Excadrill|Earthquake|p1a: Blacephalon
+|-supereffective|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|faint|p1a: Blacephalon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Dragonite|Dragonite, L81, M|100/100
+|turn|8
+
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|77/100
+|cant|p1a: Dragonite|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|71/100|[from] Sandstorm
+|upkeep
+|turn|9
+
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|24/100
+|move|p1a: Dragonite|Fire Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|44/100
+|
+|-weather|none
+|upkeep
+|turn|10
+
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|22/100
+|move|p2a: Excadrill|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+
+|
+|switch|p1a: Mandibuzz|Mandibuzz, L84, F|68/100 tox
+|turn|11
+
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100 tox
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Mandibuzz|41/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|35/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric, L82, M|100/100
+|turn|12
+
+|
+|detailschange|p2a: Manectric|Manectric-Mega, L82, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Mandibuzz|atk|1
+|move|p2a: Manectric|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+
+|
+|switch|p2a: Chatot|Chatot, L89, M|8/100 par|[from]move: Volt Switch
+|
+|upkeep
+
+|
+|switch|p1a: Gourgeist|Gourgeist-Large, L89, F|100/100
+|-item|p2a: Chatot|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|13
+
+|
+|move|p1a: Gourgeist|Seed Bomb|p2a: Chatot
+|-resisted|p2a: Chatot
+|-damage|p2a: Chatot|0 fnt
+|faint|p2a: Chatot
+|
+|upkeep
+
+|
+|switch|p2a: Golisopod|Golisopod, L84, F|58/100
+|turn|14
+
+|
+|move|p1a: Gourgeist|Leech Seed|p2a: Golisopod|[miss]
+|-miss|p1a: Gourgeist|p2a: Golisopod
+|move|p2a: Golisopod|Leech Life|p1a: Gourgeist
+|-damage|p1a: Gourgeist|74/100
+|-heal|p2a: Golisopod|72/100|[from] drain|[of] p1a: Gourgeist
+|
+|-heal|p1a: Gourgeist|80/100|[from] item: Leftovers
+|-heal|p2a: Golisopod|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Gourgeist|Leech Seed|p2a: Golisopod|[miss]
+|-miss|p1a: Gourgeist|p2a: Golisopod
+|move|p2a: Golisopod|Leech Life|p1a: Gourgeist
+|-damage|p1a: Gourgeist|50/100
+|-heal|p2a: Golisopod|94/100|[from] drain|[of] p1a: Gourgeist
+|
+|-heal|p1a: Gourgeist|57/100|[from] item: Leftovers
+|-heal|p2a: Golisopod|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|-message|AldezZ forfeited.
+
+|
+|win|Todd37

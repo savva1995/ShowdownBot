@@ -1,0 +1,848 @@
+|init|battle
+|title|wally szczerbiak vs. Actin Brazy
+|j|☆wally szczerbiak
+|j|☆Actin Brazy
+|player|p1|wally szczerbiak|25|1000
+|player|p2|Actin Brazy|226|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|1
+
+|
+|switch|p2a: Raikou|Raikou|100/100
+|move|p1a: Suicune|Toxic|p2a: Raikou
+|-status|p2a: Raikou|tox
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wally szczerbiak)
+
+|
+|switch|p1a: Raikou|Raikou|100/100
+|move|p2a: Raikou|Thunderbolt|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|86/100
+|-damage|p2a: Raikou|94/100 tox|[from] psn
+|
+|-heal|p2a: Raikou|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Raikou|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Raikou|Thunder|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|80/100 tox
+|move|p2a: Raikou|Crunch|p1a: Raikou
+|-damage|p1a: Raikou|74/100
+|-damage|p2a: Raikou|68/100 tox|[from] psn
+|
+|-heal|p2a: Raikou|74/100 tox|[from] item: Leftovers
+|-heal|p1a: Raikou|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|move|p1a: Raikou|Thunder|p2a: Marowak
+|-immune|p2a: Marowak
+|
+|-heal|p1a: Raikou|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Marowak|Swords Dance|p2a: Marowak
+|-boost|p2a: Marowak|atk|2
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Marowak|Rock Slide|p1a: Forretress
+|-damage|p1a: Forretress|52/100
+|move|p1a: Forretress|Spikes|p2a: Marowak
+|-sidestart|p2: Actin Brazy|Spikes
+|
+|-heal|p1a: Forretress|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Marowak|Rock Slide|p1a: Forretress|[miss]
+|-miss|p2a: Marowak
+|move|p1a: Forretress|Toxic|p2a: Marowak|[miss]
+|-miss|p1a: Forretress
+|
+|-heal|p1a: Forretress|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Marowak|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+
+|
+|switch|p1a: Suicune|Suicune|100/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Suicune|Surf|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|22/100
+|move|p2a: Marowak|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|7/100
+|
+|-heal|p1a: Suicune|13/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|move|p1a: Suicune|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|70/100
+|
+|-heal|p2a: Starmie|77/100|[from] item: Leftovers
+|-heal|p1a: Suicune|19/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|move|p2a: Starmie|Thunderbolt|p1a: Misdreavus
+|-damage|p1a: Misdreavus|75/100
+|
+|-heal|p2a: Starmie|83/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|inactive|Actin Brazy has 120 seconds left.
+
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|-damage|p2a: Machamp|88/100|[from] Spikes
+|move|p1a: Misdreavus|Mean Look|p2a: Machamp
+|-activate|p2a: Machamp|trapped
+|
+|-heal|p1a: Misdreavus|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+|-start|p1a: Misdreavus|perish3|[silent]
+|-start|p2a: Machamp|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Machamp|Hidden Power|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|30/100
+|
+|-heal|p1a: Misdreavus|36/100|[from] item: Leftovers
+|-start|p1a: Misdreavus|perish3
+|-start|p2a: Machamp|perish3
+|upkeep
+|turn|14
+
+|
+|move|p1a: Misdreavus|Protect|p1a: Misdreavus
+|-singleturn|p1a: Misdreavus|Protect
+|move|p2a: Machamp|Hidden Power|p1a: Misdreavus
+|-activate|p1a: Misdreavus|Protect
+|
+|-heal|p1a: Misdreavus|43/100|[from] item: Leftovers
+|-start|p1a: Misdreavus|perish2
+|-start|p2a: Machamp|perish2
+|upkeep
+|turn|15
+
+|
+|move|p1a: Misdreavus|Protect|p1a: Misdreavus
+|-fail|p1a: Misdreavus
+|move|p2a: Machamp|Hidden Power|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+
+|
+|switch|p1a: Raikou|Raikou|86/100
+|
+|-heal|p1a: Raikou|92/100|[from] item: Leftovers
+|-start|p2a: Machamp|perish1
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Marowak|Marowak, M|22/100
+|-damage|p2a: Marowak|9/100|[from] Spikes
+|move|p1a: Raikou|Hidden Power|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+
+|
+|switch|p2a: Machamp|Machamp, M|88/100
+|-damage|p2a: Machamp|76/100|[from] Spikes
+|
+|-heal|p1a: Raikou|98/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Raikou|Thunder|p2a: Machamp|[miss]
+|-miss|p1a: Raikou
+|move|p2a: Machamp|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|43/100
+|
+|-heal|p1a: Raikou|49/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Raikou|Thunder|p2a: Machamp|[miss]
+|-miss|p1a: Raikou
+|move|p2a: Machamp|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+
+|c|☆wally szczerbiak|sad boi
+
+|
+|switch|p1a: Suicune|Suicune|19/100
+|
+|-heal|p1a: Suicune|25/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|c|☆Actin Brazy|haha
+
+|
+|switch|p2a: Raikou|Raikou|74/100 tox
+|-status|p2a: Raikou|psn|[silent]
+|-damage|p2a: Raikou|62/100 psn|[from] Spikes
+|-damage|p2a: Raikou|49/100 psn|[from] psn
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|-heal|p2a: Raikou|55/100 psn|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|c|☆wally szczerbiak|yes
+
+|c|☆wally szczerbiak|very sad
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Raikou|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|-damage|p2a: Raikou|43/100 psn|[from] psn|[of] p1a: Tyranitar
+|
+|-heal|p2a: Raikou|49/100 psn|[from] item: Leftovers
+|-heal|p1a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Raikou|Reflect|p2a: Raikou
+|-sidestart|p2: Actin Brazy|Reflect
+|-damage|p2a: Raikou|37/100 psn|[from] psn
+|move|p1a: Tyranitar|Rock Slide|p2a: Raikou
+|-crit|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+
+|
+|switch|p2a: Machamp|Machamp, M|76/100
+|-damage|p2a: Machamp|64/100|[from] Spikes
+|
+|-heal|p1a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Tyranitar|Dynamic Punch|p2a: Machamp
+|-damage|p2a: Machamp|49/100
+|-start|p2a: Machamp|confusion
+|-activate|p2a: Machamp|confusion
+|move|p2a: Machamp|Cross Chop|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+
+|
+|switch|p1a: Miltank|Miltank, F|100/100
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Miltank|Growl|p2a: Machamp
+|-unboost|p2a: Machamp|atk|1
+|-end|p2a: Machamp|confusion
+|move|p2a: Machamp|Cross Chop|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|52/100
+|
+|-heal|p1a: Miltank|58/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Miltank|Heal Bell|p1a: Miltank
+|-cureteam|p1a: Miltank|[from] move: Heal Bell
+|move|p2a: Machamp|Cross Chop|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|13/100
+|
+|-heal|p1a: Miltank|20/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|70/100
+|move|p2a: Machamp|Cross Chop|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|28/100
+|
+|-heal|p1a: Miltank|34/100|[from] item: Leftovers
+|-sideend|p2: Actin Brazy|Reflect
+|upkeep
+|turn|26
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|84/100
+|move|p2a: Machamp|Cross Chop|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|37/100
+|
+|-heal|p1a: Miltank|43/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|93/100
+|
+|-heal|p1a: Miltank|99/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Miltank|Growl|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Miltank|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Miltank|Growl|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Miltank|Growl|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|move|p2a: Snorlax|Body Slam|p1a: Miltank
+|-damage|p1a: Miltank|82/100
+|-status|p1a: Miltank|par
+|
+|-heal|p1a: Miltank|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|-damage|p2a: Espeon|88/100|[from] Spikes
+|cant|p1a: Miltank|par
+|
+|-heal|p2a: Espeon|94/100|[from] item: Leftovers
+|-heal|p1a: Miltank|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Suicune|Suicune|100/100
+|move|p2a: Espeon|Psychic|p1a: Suicune
+|-damage|p1a: Suicune|74/100
+|
+|-heal|p2a: Espeon|99/100|[from] item: Leftovers
+|-heal|p1a: Suicune|80/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p2a: Espeon|Growth|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|move|p1a: Suicune|Toxic|p2a: Espeon
+|-status|p2a: Espeon|tox
+|
+|-heal|p2a: Espeon|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Suicune|86/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p2a: Espeon|Growth|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-damage|p2a: Espeon|94/100 tox|[from] psn
+|move|p1a: Suicune|Roar|p2a: Espeon
+|drag|p2a: Starmie|Starmie|83/100
+|-damage|p2a: Starmie|70/100|[from] Spikes
+|
+|-heal|p2a: Starmie|77/100|[from] item: Leftovers
+|-heal|p1a: Suicune|92/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|switch|p1a: Miltank|Miltank, F|94/100 par
+|move|p2a: Starmie|Thunderbolt|p1a: Miltank
+|-damage|p1a: Miltank|70/100 par
+|
+|-heal|p2a: Starmie|83/100|[from] item: Leftovers
+|-heal|p1a: Miltank|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|move|p2a: Starmie|Surf|p1a: Miltank
+|-damage|p1a: Miltank|39/100 par
+|move|p1a: Miltank|Heal Bell|p1a: Miltank
+|-cureteam|p1a: Miltank|[from] move: Heal Bell
+|
+|-heal|p2a: Starmie|89/100|[from] item: Leftovers
+|-heal|p1a: Miltank|45/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|move|p2a: Starmie|Surf|p1a: Miltank
+|-damage|p1a: Miltank|7/100
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|57/100
+|
+|-heal|p2a: Starmie|95/100|[from] item: Leftovers
+|-heal|p1a: Miltank|63/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|switch|p2a: Machamp|Machamp, M|49/100
+|-damage|p2a: Machamp|37/100|[from] Spikes
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|
+|upkeep
+|turn|39
+
+|
+|move|p1a: Miltank|Growl|p2a: Machamp
+|-unboost|p2a: Machamp|atk|1
+|move|p2a: Machamp|Cross Chop|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|51/100
+|
+|-heal|p1a: Miltank|57/100|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|move|p2a: Machamp|Cross Chop|p1a: Miltank|[miss]
+|-miss|p2a: Machamp
+|
+|upkeep
+|turn|41
+
+|
+|move|p1a: Miltank|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|9/100
+|move|p2a: Machamp|Cross Chop|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|54/100
+|
+|-heal|p1a: Miltank|60/100|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|move|p2a: Machamp|Rest|p2a: Machamp
+|-status|p2a: Machamp|slp|[from] move: Rest
+|-heal|p2a: Machamp|100/100 slp|[silent]
+|-enditem|p2a: Machamp|Mint Berry|[eat]
+|-curestatus|p2a: Machamp|slp|[msg]
+|
+|upkeep
+|turn|43
+
+|
+|switch|p2a: Espeon|Espeon, M|94/100 tox
+|-status|p2a: Espeon|psn|[silent]
+|-damage|p2a: Espeon|82/100 psn|[from] Spikes
+|-damage|p2a: Espeon|70/100 psn|[from] psn
+|move|p1a: Miltank|Growl|p2a: Espeon
+|-unboost|p2a: Espeon|atk|1
+|
+|-heal|p2a: Espeon|76/100 psn|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|
+|switch|p1a: Suicune|Suicune|92/100
+|move|p2a: Espeon|Growth|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-damage|p2a: Espeon|64/100 psn|[from] psn
+|
+|-heal|p2a: Espeon|70/100 psn|[from] item: Leftovers
+|-heal|p1a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|45
+
+|
+|move|p2a: Espeon|Psychic|p1a: Suicune
+|-damage|p1a: Suicune|55/100
+|-damage|p2a: Espeon|57/100 psn|[from] psn|[of] p1a: Suicune
+|move|p1a: Suicune|Roar|p2a: Espeon
+|drag|p2a: Machamp|Machamp, M|100/100
+|-damage|p2a: Machamp|88/100|[from] Spikes
+|
+|-heal|p1a: Suicune|61/100|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|
+|switch|p1a: Miltank|Miltank, F|100/100
+|move|p2a: Machamp|Earthquake|p1a: Miltank
+|-damage|p1a: Miltank|78/100
+|
+|-heal|p1a: Miltank|84/100|[from] item: Leftovers
+|upkeep
+|turn|47
+
+|inactive|Actin Brazy has 120 seconds left.
+
+|c|☆Actin Brazy|Dear lord
+
+|c|☆Actin Brazy|The unbreakable wall
+
+|c|☆wally szczerbiak|unbreakable wally
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|move|p1a: Miltank|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|65/100
+|
+|-heal|p1a: Miltank|90/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|71/100|[from] item: Leftovers
+|upkeep
+|turn|48
+
+|
+|move|p1a: Miltank|Growl|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|move|p2a: Snorlax|Body Slam|p1a: Miltank
+|-damage|p1a: Miltank|73/100
+|
+|-heal|p1a: Miltank|79/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|upkeep
+|turn|49
+
+|
+|move|p1a: Miltank|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|55/100
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Miltank
+|-damage|p1a: Miltank|62/100
+|-status|p1a: Miltank|par
+|
+|-heal|p1a: Miltank|68/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+
+|
+|cant|p1a: Miltank|par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|-heal|p1a: Miltank|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+
+|
+|switch|p2a: Espeon|Espeon, M|57/100 psn
+|-damage|p2a: Espeon|45/100 psn|[from] Spikes
+|-damage|p2a: Espeon|33/100 psn|[from] psn
+|move|p1a: Miltank|Heal Bell|p1a: Miltank
+|-cureteam|p1a: Miltank|[from] move: Heal Bell
+|
+|-heal|p2a: Espeon|39/100 psn|[from] item: Leftovers
+|-heal|p1a: Miltank|80/100|[from] item: Leftovers
+|upkeep
+|turn|52
+
+|
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|88/100 psn
+|-damage|p2a: Espeon|76/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|43/100 psn
+|
+|-heal|p2a: Espeon|49/100 psn|[from] item: Leftovers
+|-heal|p1a: Miltank|86/100|[from] item: Leftovers
+|upkeep
+|turn|53
+
+|
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|99/100 psn
+|-damage|p2a: Espeon|87/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|51/100 psn
+|
+|-heal|p2a: Espeon|57/100 psn|[from] item: Leftovers
+|-heal|p1a: Miltank|92/100|[from] item: Leftovers
+|upkeep
+|turn|54
+
+|
+|move|p2a: Espeon|Growth|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-damage|p2a: Espeon|45/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|7/100 psn
+|
+|-heal|p2a: Espeon|13/100 psn|[from] item: Leftovers
+|-heal|p1a: Miltank|98/100|[from] item: Leftovers
+|upkeep
+|turn|55
+
+|
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|62/100 psn
+|-damage|p2a: Espeon|50/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|13/100 psn
+|
+|-heal|p2a: Espeon|19/100 psn|[from] item: Leftovers
+|-heal|p1a: Miltank|100/100|[from] item: Leftovers
+|upkeep
+|turn|56
+
+|
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|69/100 psn
+|-damage|p2a: Espeon|57/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|19/100 psn
+|
+|-heal|p2a: Espeon|25/100 psn|[from] item: Leftovers
+|upkeep
+|turn|57
+
+|inactive|Actin Brazy has 90 seconds left.
+
+|
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|75/100 psn
+|-damage|p2a: Espeon|62/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|28/100 psn
+|
+|-heal|p2a: Espeon|34/100 psn|[from] item: Leftovers
+|upkeep
+|turn|58
+
+|
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|84/100 psn
+|-damage|p2a: Espeon|71/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|37/100 psn
+|
+|-heal|p2a: Espeon|43/100 psn|[from] item: Leftovers
+|upkeep
+|turn|59
+
+|
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|93/100 psn
+|-damage|p2a: Espeon|81/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|43/100 psn
+|
+|-heal|p2a: Espeon|49/100 psn|[from] item: Leftovers
+|upkeep
+|turn|60
+
+|inactive|Actin Brazy has 90 seconds left.
+
+|
+|move|p2a: Espeon|Growth|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-damage|p2a: Espeon|37/100 psn|[from] psn
+|move|p1a: Miltank|Body Slam|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+
+|c|☆wally szczerbiak|oof
+
+|c|☆Actin Brazy|yikes i miacalculated
+
+|inactive|Actin Brazy has 60 seconds left.
+
+|c|☆wally szczerbiak|i think you still win tho
+
+|
+|switch|p2a: Starmie|Starmie|95/100
+|-damage|p2a: Starmie|83/100|[from] Spikes
+|
+|-heal|p2a: Starmie|89/100|[from] item: Leftovers
+|upkeep
+|turn|61
+
+|inactive|Actin Brazy has 60 seconds left.
+
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Miltank
+|-damage|p1a: Miltank|78/100
+|move|p1a: Miltank|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|58/100
+|
+|-heal|p2a: Starmie|64/100|[from] item: Leftovers
+|-heal|p1a: Miltank|84/100|[from] item: Leftovers
+|upkeep
+|turn|62
+
+|inactive|Actin Brazy has 60 seconds left.
+
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Miltank
+|-damage|p1a: Miltank|60/100
+|move|p1a: Miltank|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|35/100
+|-status|p2a: Starmie|par
+|
+|-heal|p1a: Miltank|66/100|[from] item: Leftovers
+|-heal|p2a: Starmie|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+
+|inactive|Actin Brazy has 60 seconds left.
+
+|
+|move|p1a: Miltank|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+
+|inactive|Actin Brazy has 60 seconds left.
+
+|c|☆wally szczerbiak|oh idk now
+
+|c|☆Actin Brazy|Not now
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100 slp
+|-damage|p2a: Snorlax|88/100 slp|[from] Spikes
+|
+|-heal|p1a: Miltank|72/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|64
+
+|
+|move|p1a: Miltank|Growl|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|cant|p2a: Snorlax|slp
+|
+|-heal|p1a: Miltank|78/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|65
+
+|
+|move|p1a: Miltank|Growl|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax|[from]Sleep Talk
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Miltank|84/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|66
+
+|
+|move|p1a: Miltank|Growl|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|-fail|p2a: Snorlax
+|
+|-heal|p1a: Miltank|90/100|[from] item: Leftovers
+|upkeep
+|turn|67
+
+|inactive|Actin Brazy has 30 seconds left.
+
+|c|☆Actin Brazy|haha the cow that growls me to death
+
+|c|☆Actin Brazy|gg
+
+|-message|Actin Brazy forfeited.
+
+|
+|win|wally szczerbiak

@@ -1,0 +1,287 @@
+|init|battle
+|title|vgir006 vs. 666six666six666six
+|j|☆vgir006
+|j|☆666six666six666six
+|player|p1|vgir006|161|1591
+|player|p2|666six666six666six|50|1600
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Skarmory|Skarmory, L80, F|100/100
+|switch|p2a: Sunflora|Sunflora, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vgir006)
+|
+|move|p1a: Skarmory|Spikes|p2a: Sunflora
+|-sidestart|p2: 666six666six666six|Spikes
+|move|p2a: Sunflora|Sunny Day|p2a: Sunflora
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Sunflora|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|2/100
+|-damage|p2a: Sunflora|91/100|[from] item: Life Orb
+|move|p1a: Skarmory|Spikes|p2a: Sunflora
+|-sidestart|p2: 666six666six666six|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Skarmory|8/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|move|p2a: Sunflora|Hidden Power|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|90/100
+|-damage|p2a: Sunflora|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Dugtrio|Dugtrio-Alola, L88, F|100/100
+|-damage|p2a: Dugtrio|84/100|[from] Spikes
+|move|p1a: Ho-Oh|Flame Charge|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-ability|p2a: Dugtrio|Tangling Hair
+|-unboost|p1a: Ho-Oh|spe|1
+|-boost|p1a: Ho-Oh|spe|1
+|faint|p2a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Braviary|Braviary, L86, M|100/100
+|turn|5
+|
+|move|p2a: Braviary|Rock Slide|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Shuckle|Shuckle, L89, M|100/100
+|turn|6
+|
+|switch|p2a: Registeel|Registeel, L84|100/100
+|-damage|p2a: Registeel|84/100|[from] Spikes
+|move|p1a: Shuckle|Stealth Rock|p2a: Registeel
+|-sidestart|p2: 666six666six666six|move: Stealth Rock
+|
+|-heal|p2a: Registeel|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Registeel|Thunder Wave|p1a: Shuckle
+|-status|p1a: Shuckle|par
+|cant|p1a: Shuckle|par
+|
+|-heal|p2a: Registeel|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Registeel|Iron Head|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|66/100 par
+|move|p1a: Shuckle|Knock Off|p2a: Registeel
+|-damage|p2a: Registeel|90/100
+|-enditem|p2a: Registeel|Leftovers|[from] move: Knock Off|[of] p1a: Shuckle
+|
+|-heal|p1a: Shuckle|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Registeel|Iron Head|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|34/100 par
+|cant|p1a: Shuckle|flinch
+|
+|-heal|p1a: Shuckle|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Registeel|Iron Head|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|9/100 par
+|move|p1a: Shuckle|Infestation|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|89/100
+|-activate|p2a: Registeel|move: Infestation|[of] p1a: Shuckle
+|
+|-heal|p1a: Shuckle|15/100 par|[from] item: Leftovers
+|-damage|p2a: Registeel|77/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Registeel|Seismic Toss|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|faint|p1a: Shuckle
+|
+|-end|p2a: Registeel|Infestation|[partiallytrapped]|[silent]
+|upkeep
+
+|
+|switch|p1a: Scolipede|Scolipede, L81, M|100/100
+|turn|12
+
+|
+|move|p1a: Scolipede|Toxic Spikes|p2a: Registeel
+|-sidestart|p2: 666six666six666six|move: Toxic Spikes
+|move|p2a: Registeel|Thunder Wave|p1a: Scolipede
+|-status|p1a: Scolipede|par
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|13
+
+|
+|move|p1a: Scolipede|Toxic Spikes|p2a: Registeel
+|-sidestart|p2: 666six666six666six|move: Toxic Spikes
+|move|p2a: Registeel|Iron Head|p1a: Scolipede
+|-damage|p1a: Scolipede|69/100 par
+|
+|-heal|p1a: Scolipede|75/100 par|[from] item: Black Sludge
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|14
+
+|
+|move|p1a: Scolipede|Spikes|p2a: Registeel
+|-sidestart|p2: 666six666six666six|Spikes
+|move|p2a: Registeel|Seismic Toss|p1a: Scolipede
+|-damage|p1a: Scolipede|38/100 par
+|
+|-heal|p1a: Scolipede|44/100 par|[from] item: Black Sludge
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Skarmory|Skarmory, L80, F|8/100
+|move|p2a: Registeel|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+
+|
+|switch|p1a: Skuntank|Skuntank, L88, F|100/100
+|turn|16
+
+|
+|move|p1a: Skuntank|Focus Blast|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|11/100
+|-damage|p1a: Skuntank|91/100|[from] item: Life Orb
+|move|p2a: Registeel|Thunder Wave|p1a: Skuntank
+|-status|p1a: Skuntank|par
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Registeel|Seismic Toss|p1a: Skuntank
+|-damage|p1a: Skuntank|57/100 par
+|replace|p1a: Zoroark|Zoroark, L88, F
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Flamethrower|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|-damage|p1a: Zoroark|47/100 par|[from] item: Life Orb
+|faint|p2a: Registeel
+|
+|upkeep
+
+|
+|switch|p2a: Braviary|Braviary, L86, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|turn|18
+
+|
+|switch|p1a: Scolipede|Scolipede, L81, M|44/100 par
+|move|p2a: Braviary|Return|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|-damage|p2a: Braviary|66/100|[from] item: Life Orb
+|faint|p1a: Scolipede
+|
+|upkeep
+
+|
+|switch|p1a: Skuntank|Skuntank, L88, F|100/100
+|turn|19
+
+|
+|move|p1a: Skuntank|Poison Jab|p2a: Braviary
+|-damage|p2a: Braviary|27/100
+|-damage|p1a: Skuntank|91/100|[from] item: Life Orb
+|move|p2a: Braviary|Return|p1a: Skuntank
+|-damage|p1a: Skuntank|24/100
+|-damage|p2a: Braviary|17/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Skuntank|Poison Jab|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|-damage|p1a: Skuntank|14/100|[from] item: Life Orb
+|faint|p2a: Braviary
+|
+|upkeep
+
+|
+|switch|p2a: Suicune|Suicune, L82|100/100
+|-damage|p2a: Suicune|76/100|[from] Spikes
+|-damage|p2a: Suicune|63/100|[from] Stealth Rock
+|-status|p2a: Suicune|tox
+|-ability|p2a: Suicune|Pressure
+|turn|21
+
+|
+|move|p1a: Skuntank|Crunch|p2a: Suicune
+|-damage|p2a: Suicune|30/100 tox
+|-damage|p1a: Skuntank|4/100|[from] item: Life Orb
+|move|p2a: Suicune|Scald|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|-heal|p2a: Suicune|36/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|30/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Zoroark|Zoroark, L88, F|47/100 par
+|turn|22
+
+|
+|move|p2a: Suicune|Scald|p1a: Zoroark
+|-damage|p1a: Zoroark|7/100 par
+|move|p1a: Zoroark|Dark Pulse|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|-damage|p1a: Zoroark|0 fnt|[from] item: Life Orb
+|faint|p2a: Suicune
+|faint|p1a: Zoroark
+|
+|win|666six666six666six

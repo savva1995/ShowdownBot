@@ -1,0 +1,210 @@
+|init|battle
+|title|Sylvesterze vs. Scarecompatablity
+|j|☆Sylvesterze
+|j|☆Scarecompatablity
+|player|p1|Sylvesterze|226|1093
+|player|p2|Scarecompatablity|169|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Torkoal, F|item
+|poke|p1|Blacephalon|item
+|poke|p1|Victini|item
+|poke|p1|Volcanion|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Shedinja|item
+|poke|p2|Pinsir, F|item
+|poke|p2|Escavalier, F|item
+|poke|p2|Shuckle, F|item
+|poke|p2|Ninjask, F|item
+|teampreview
+|c|☆Scarecompatablity|Ugh
+|
+|start
+|switch|p1a: Charizard|Charizard, F|100/100
+|switch|p2a: Try me|Shuckle, F|100/100
+|turn|1
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1a: Charizard|Fire Blast|p2a: Try me
+|-damage|p2a: Try me|29/100
+|move|p2a: Try me|Stealth Rock|p1a: Charizard
+|-sidestart|p1: Sylvesterze|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Try me|35/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Charizard|Fire Blast|p2a: Try me
+|-damage|p2a: Try me|0 fnt
+|faint|p2a: Try me
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Look into my eyes|Pinsir, F|100/100
+|turn|3
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|detailschange|p2a: Look into my eyes|Pinsir-Mega, F
+|-mega|p2a: Look into my eyes|Pinsir|Pinsirite
+|move|p2a: Look into my eyes|Double-Edge|p1a: Torkoal
+|-damage|p1a: Torkoal|13/100
+|-damage|p2a: Look into my eyes|77/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|19/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Look into my eyes|Double Hit|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|25/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Look into my eyes|Double-Edge|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p2a: Look into my eyes|68/100|[from] Recoil
+|faint|p1a: Torkoal
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Look into my eyes|Storm Throw|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|27/100
+|move|p1a: Heatran|Stealth Rock|p2a: Look into my eyes
+|-sidestart|p2: Scarecompatablity|move: Stealth Rock
+|
+|-heal|p1a: Heatran|33/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Look into my eyes|Storm Throw|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|39/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|c|☆Scarecompatablity|U spam protect
+
+|
+|move|p2a: Look into my eyes|Storm Throw|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+
+|
+|switch|p1a: Victini|Victini|100/100
+|-damage|p1a: Victini|76/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p1a: Victini|Bolt Strike|p2a: Look into my eyes
+|-supereffective|p2a: Look into my eyes
+|-damage|p2a: Look into my eyes|0 fnt
+|faint|p2a: Look into my eyes
+|
+|upkeep
+
+|
+|switch|p2a: I dont have a name|Shedinja|100/100
+|-damage|p2a: I dont have a name|0 fnt|[from] Stealth Rock
+|faint|p2a: I dont have a name
+
+|
+|switch|p2a: Vooooom|Ninjask, F|100/100
+|-damage|p2a: Vooooom|51/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p1a: Victini|Bolt Strike|p2a: Vooooom
+|-supereffective|p2a: Vooooom
+|-damage|p2a: Vooooom|0 fnt
+|faint|p2a: Vooooom
+|
+|upkeep
+
+|
+|switch|p2a: Shiny armour|Escavalier, F|100/100
+|-damage|p2a: Shiny armour|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Victini|Bolt Strike|p2a: Shiny armour
+|-damage|p2a: Shiny armour|42/100
+|move|p2a: Shiny armour|Knock Off|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|-enditem|p1a: Victini|Choice Scarf|[from] move: Knock Off|[of] p2a: Shiny armour
+|-damage|p2a: Shiny armour|32/100|[from] item: Life Orb
+|faint|p1a: Victini
+|
+|upkeep
+
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|-damage|p1a: Volcanion|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Shiny armour
+|-damage|p2a: Shiny armour|0 fnt
+|faint|p2a: Shiny armour
+|
+|upkeep
+
+|
+|switch|p2a: What am i?|Volcarona, M|100/100
+|-damage|p2a: What am i?|51/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: What am i?|Hurricane|p1a: Volcanion
+|-damage|p1a: Volcanion|35/100
+|move|p1a: Volcanion|Steam Eruption|p2a: What am i?
+|-supereffective|p2a: What am i?
+|-damage|p2a: What am i?|0 fnt
+|faint|p2a: What am i?
+|
+|win|Sylvesterze

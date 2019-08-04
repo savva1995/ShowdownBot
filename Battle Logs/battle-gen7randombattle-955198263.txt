@@ -1,0 +1,146 @@
+|init|battle
+|title|Ticen vs. Scenicals
+|j|☆Ticen
+|j|☆Scenicals
+|player|p1|Ticen|274|1444
+|player|p2|Scenicals|102|1452
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Umbreon|Umbreon, L84, F|100/100
+|switch|p2a: Ribombee|Ribombee, L85, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Scenicals)
+|
+|switch|p1a: Staraptor|Staraptor, L81, M|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Ribombee|atk|1
+|move|p2a: Ribombee|Moonblast|p1a: Staraptor
+|-damage|p1a: Staraptor|38/100
+|-unboost|p1a: Staraptor|spa|1
+|-damage|p2a: Ribombee|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Ribombee|Moonblast|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-damage|p2a: Ribombee|81/100|[from] item: Life Orb
+|faint|p1a: Staraptor
+|
+|upkeep
+|
+|switch|p1a: Victini|Victini, L80|100/100
+|turn|3
+
+|
+|switch|p2a: Arceus|Arceus-Rock, L78|100/100
+|move|p1a: Victini|Blue Flare|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|83/100
+|-status|p2a: Arceus|brn
+|
+|-damage|p2a: Arceus|77/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|c|☆Scenicals|Are you kidding
+
+|c|☆Ticen|no
+
+|inactive|Scenicals has 120 seconds left.
+
+|
+|switch|p1a: Granbull|Granbull, L89, M|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Arceus|atk|1
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|
+|-damage|p2a: Arceus|71/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Granbull|Earthquake|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|4/100 brn
+|-damage|p1a: Granbull|91/100|[from] item: Life Orb
+|
+|-damage|p2a: Arceus|0 fnt|[from] brn
+|faint|p2a: Arceus
+|upkeep
+
+|inactive|Scenicals has 120 seconds left.
+
+|
+|switch|p2a: Crustle|Crustle, L89, F|100/100
+|turn|6
+
+|
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|-enditem|p2a: Crustle|White Herb
+|-clearnegativeboost|p2a: Crustle|[silent]
+|move|p1a: Granbull|Play Rough|p2a: Crustle
+|-damage|p2a: Crustle|57/100
+|-damage|p1a: Granbull|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Crustle|Stone Edge|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|upkeep
+
+|
+|switch|p1a: Carracosta|Carracosta, L88, M|100/100
+|turn|8
+
+|
+|move|p2a: Crustle|Earthquake|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|11/100
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|-enditem|p1a: Carracosta|White Herb
+|-clearnegativeboost|p1a: Carracosta|[silent]
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Carracosta|Aqua Jet|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-damage|p2a: Crustle|6/100
+|move|p2a: Crustle|Earthquake|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|upkeep
+
+|-message|Ticen forfeited.
+
+|
+|win|Scenicals

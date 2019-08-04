@@ -1,0 +1,208 @@
+|init|battle
+|title|Reyokai vs. MondayVGC
+|j|☆Reyokai
+|j|☆MondayVGC
+|player|p1|Reyokai|30|1167
+|player|p2|MondayVGC|84|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hariyama|Hariyama, L82, F|100/100
+|switch|p1b: Rayquaza|Rayquaza, L70|100/100
+|switch|p2a: Feraligatr|Feraligatr, L76, M|100/100
+|switch|p2b: Flygon|Flygon, L77, M|100/100
+|-ability|p1b: Rayquaza|Air Lock
+|turn|1
+|
+|switch|p2b: Slowking|Slowking, L80, M|100/100
+|move|p1b: Rayquaza|Draco Meteor|p2b: Slowking
+|-damage|p2b: Slowking|53/100
+|-unboost|p1b: Rayquaza|spa|2
+|move|p2a: Feraligatr|Swords Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|2
+|move|p1a: Hariyama|Close Combat|p2a: Feraligatr
+|-damage|p2a: Feraligatr|43/100
+|-unboost|p1a: Hariyama|def|1
+|-unboost|p1a: Hariyama|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p1b: Rayquaza|Draco Meteor|p2a: Feraligatr
+|-damage|p2a: Feraligatr|10/100
+|-unboost|p1b: Rayquaza|spa|2
+|move|p2a: Feraligatr|Liquidation|p1a: Hariyama
+|-enditem|p1a: Hariyama|Focus Sash
+|-damage|p1a: Hariyama|1/100
+|move|p1a: Hariyama|Stone Edge|p2b: Slowking|[miss]
+|-miss|p1a: Hariyama|p2b: Slowking
+|move|p2b: Slowking|Slack Off|p2b: Slowking
+|-heal|p2b: Slowking|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1b: Vileplume|Vileplume, L80, F|100/100
+|switch|p2b: Raticate|Raticate-Alola, L88, M|100/100
+|move|p2a: Feraligatr|Aqua Jet|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|-damage|p2a: Feraligatr|0 fnt|[from] item: Life Orb
+|faint|p1a: Hariyama
+|faint|p2a: Feraligatr
+|
+|upkeep
+|
+|switch|p2a: Flygon|Flygon, L77, M|100/100
+|switch|p1a: Shiftry|Shiftry, L81, F|100/100
+|turn|4
+|
+|move|p2a: Flygon|Dragon Dance|p2a: Flygon
+|-boost|p2a: Flygon|atk|1
+|-boost|p2a: Flygon|spe|1
+|move|p2b: Raticate|U-turn|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|16/100
+
+|
+|switch|p2b: Tyranitar|Tyranitar, L70, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p1a: Shiftry|Swords Dance|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|move|p1b: Vileplume|Stun Spore|p2a: Flygon
+|-status|p2a: Flygon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shiftry|9/100|[from] Sandstorm
+|-damage|p1b: Vileplume|95/100|[from] Sandstorm
+|upkeep
+|turn|5
+
+|
+|switch|p2b: Raticate|Raticate-Alola, L88, M|100/100
+|move|p1a: Shiftry|Leaf Blade|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|-damage|p1a: Shiftry|0 fnt|[from] item: Life Orb
+|faint|p2a: Flygon
+|faint|p1a: Shiftry
+|move|p1b: Vileplume|Giga Drain|p2b: Raticate
+|-damage|p2b: Raticate|70/100
+|-heal|p1b: Vileplume|100/100|[from] drain|[of] p2b: Raticate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Raticate|64/100|[from] Sandstorm
+|-damage|p1b: Vileplume|95/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Pikachu|Pikachu, L86, M|100/100
+|switch|p1a: Rayquaza|Rayquaza, L70|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|6
+
+|
+|switch|p1a: Mew|Mew, L70|100/100
+|move|p2a: Pikachu|Hidden Power|p1a: Mew
+|-damage|p1a: Mew|77/100
+|move|p2b: Raticate|Crunch|p1b: Vileplume
+|-damage|p1b: Vileplume|61/100
+|move|p1b: Vileplume|Stun Spore|p2b: Raticate
+|-status|p2b: Raticate|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pikachu|94/100|[from] Sandstorm
+|-damage|p1a: Mew|71/100|[from] Sandstorm
+|-damage|p1b: Vileplume|55/100|[from] Sandstorm
+|-damage|p2b: Raticate|58/100 par|[from] Sandstorm
+|upkeep
+|turn|7
+
+|
+|move|p2a: Pikachu|Hidden Power|p1b: Vileplume
+|-supereffective|p1b: Vileplume
+|-damage|p1b: Vileplume|5/100
+|-enditem|p1b: Vileplume|Sitrus Berry|[eat]
+|-heal|p1b: Vileplume|30/100|[from] item: Sitrus Berry
+|move|p1a: Mew|Nasty Plot|p1a: Mew
+|-boost|p1a: Mew|spa|2
+|move|p1b: Vileplume|Giga Drain|p2b: Raticate
+|-damage|p2b: Raticate|30/100 par
+|-heal|p1b: Vileplume|45/100|[from] drain|[of] p2b: Raticate
+|move|p2b: Raticate|U-turn|p1b: Vileplume
+|-crit|p1b: Vileplume
+|-damage|p1b: Vileplume|19/100
+
+|
+|switch|p2b: Tyranitar|Tyranitar, L70, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pikachu|88/100|[from] Sandstorm
+|-damage|p1a: Mew|65/100|[from] Sandstorm
+|-damage|p1b: Vileplume|13/100|[from] Sandstorm
+|upkeep
+|turn|8
+
+|
+|move|p2a: Pikachu|Hidden Power|p1b: Vileplume
+|-supereffective|p1b: Vileplume
+|-damage|p1b: Vileplume|0 fnt
+|faint|p1b: Vileplume
+|move|p1a: Mew|Psyshock|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|move|p2b: Tyranitar|Dragon Dance|p2b: Tyranitar
+|-boost|p2b: Tyranitar|atk|1
+|-boost|p2b: Tyranitar|spe|1
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Raticate|Raticate-Alola, L88, M|30/100 par
+|switch|p1b: Rayquaza|Rayquaza, L70|100/100
+|-ability|p1b: Rayquaza|Air Lock
+|turn|9
+
+|
+|detailschange|p2b: Tyranitar|Tyranitar-Mega, L70, F
+|-mega|p2b: Tyranitar|Tyranitar|Tyranitarite
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p2a: Raticate|Sucker Punch|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|6/100
+|-enditem|p1a: Mew|Sitrus Berry|[eat]
+|-heal|p1a: Mew|31/100|[from] item: Sitrus Berry
+|move|p2b: Tyranitar|Stone Edge|p1b: Rayquaza
+|-supereffective|p1b: Rayquaza
+|-damage|p1b: Rayquaza|0 fnt
+|faint|p1b: Rayquaza
+|move|p1a: Mew|Thunderbolt|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|25/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Slowking|Slowking, L80, M|100/100
+|switch|p1b: Latias|Latias, L70, F|100/100
+|turn|10
+
+|
+|move|p2b: Tyranitar|Crunch|p1b: Latias
+|-supereffective|p1b: Latias
+|-damage|p1b: Latias|0 fnt
+|faint|p1b: Latias
+|move|p1a: Mew|Thunderbolt|p2b: Tyranitar
+|-damage|p2b: Tyranitar|77/100
+|move|p2a: Slowking|Scald|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|win|MondayVGC

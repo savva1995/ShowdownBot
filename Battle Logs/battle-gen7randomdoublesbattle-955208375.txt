@@ -1,0 +1,190 @@
+|init|battle
+|title|Dr Nedobi vs. PiraTe Princess~
+|j|☆Dr Nedobi
+|j|☆PiraTe Princess~
+|player|p1|Dr Nedobi|250|1720
+|player|p2|PiraTe Princess~|272|1645
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Altaria|Altaria, L70, M|100/100
+|switch|p1b: Escavalier|Escavalier, L80, M|100/100
+|switch|p2a: Furfrou|Furfrou, L76, F|100/100
+|switch|p2b: Druddigon|Druddigon, L81, F|100/100
+|-ability|p2b: Druddigon|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dr Nedobi)
+|
+|detailschange|p1a: Altaria|Altaria-Mega, L70, M
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p2a: Furfrou|Return|p1a: Altaria
+|-damage|p1a: Altaria|53/100
+|-damage|p2a: Furfrou|91/100|[from] item: Life Orb
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2b: Druddigon|Glare|p1a: Altaria
+|-status|p1a: Altaria|par
+|move|p1b: Escavalier|Knock Off|p2a: Furfrou
+|-damage|p2a: Furfrou|67/100
+|-enditem|p2a: Furfrou|Life Orb|[from] move: Knock Off|[of] p1b: Escavalier
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Furfrou|Return|p1a: Altaria
+|-damage|p1a: Altaria|19/100 par
+|move|p2b: Druddigon|Glare|p1b: Escavalier
+|-status|p1b: Escavalier|par
+|cant|p1a: Altaria|par
+|move|p1b: Escavalier|Knock Off|p2b: Druddigon
+|-damage|p2b: Druddigon|70/100
+|-enditem|p2b: Druddigon|Sitrus Berry|[from] move: Knock Off|[of] p1b: Escavalier
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Furfrou|Return|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|move|p2b: Druddigon|Dragon Claw|p1b: Escavalier
+|-resisted|p1b: Escavalier
+|-damage|p1b: Escavalier|83/100 par
+|cant|p1b: Escavalier|par
+|
+|upkeep
+
+|
+|switch|p1a: Klefki|Klefki, L82, F|100/100
+|turn|4
+
+|inactive|PiraTe Princess~ has 120 seconds left.
+
+|
+|move|p2a: Furfrou|Thunder Wave|p1a: Klefki
+|-status|p1a: Klefki|par
+|cant|p1a: Klefki|par
+|move|p2b: Druddigon|Earthquake|p1a: Klefki|[spread] p2a,p1a,p1b
+|-supereffective|p1a: Klefki
+|-damage|p2a: Furfrou|31/100
+|-damage|p1a: Klefki|50/100 par
+|-damage|p1b: Escavalier|61/100 par
+|move|p1b: Escavalier|Megahorn|p2a: Furfrou
+|-damage|p2a: Furfrou|0 fnt
+|faint|p2a: Furfrou
+|
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, L70, M|100/100
+|turn|5
+
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Dr Nedobi|move: Light Screen
+|move|p2a: Heatran|Eruption|p1a: Klefki|[spread] p1a,p1b
+|-supereffective|p1a: Klefki
+|-supereffective|p1b: Escavalier
+|-enditem|p1b: Escavalier|Occa Berry|[eat]
+|-enditem|p1b: Escavalier|Occa Berry|[weaken]
+|-damage|p1a: Klefki|0 fnt
+|-damage|p1b: Escavalier|11/100 par
+|faint|p1a: Klefki
+|move|p2b: Druddigon|Dragon Claw|p1b: Escavalier
+|-resisted|p1b: Escavalier
+|-damage|p1b: Escavalier|0 fnt
+|faint|p1b: Escavalier
+|
+|upkeep
+
+|
+|switch|p1a: Kabutops|Kabutops, L80, M|100/100
+|switch|p1b: Guzzlord|Guzzlord, L72|100/100
+|turn|6
+
+|inactive|PiraTe Princess~ has 120 seconds left.
+
+|
+|switch|p2a: Togekiss|Togekiss, L75, M|100/100
+|move|p1a: Kabutops|Liquidation|p2a: Togekiss
+|-crit|p2a: Togekiss
+|-damage|p2a: Togekiss|19/100
+|-enditem|p2a: Togekiss|Sitrus Berry|[eat]
+|-heal|p2a: Togekiss|44/100|[from] item: Sitrus Berry
+|-damage|p1a: Kabutops|91/100|[from] item: Life Orb
+|move|p2b: Druddigon|Dragon Claw|p1b: Guzzlord
+|-supereffective|p1b: Guzzlord
+|-damage|p1b: Guzzlord|25/100
+|move|p1b: Guzzlord|Dark Pulse|p2b: Druddigon
+|-damage|p2b: Druddigon|44/100
+|
+|-heal|p1b: Guzzlord|31/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|PiraTe Princess~ has 120 seconds left.
+
+|
+|move|p1a: Kabutops|Stone Edge|p2b: Druddigon|[miss]
+|-miss|p1a: Kabutops|p2b: Druddigon
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Kabutops|[spread] p1a,p1b
+|-supereffective|p1b: Guzzlord
+|-damage|p1a: Kabutops|68/100
+|-damage|p1b: Guzzlord|0 fnt
+|faint|p1b: Guzzlord
+|move|p2b: Druddigon|Earthquake|p1a: Kabutops|[spread] p1a
+|-immune|p2a: Togekiss
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|25/100
+|
+|upkeep
+
+|
+|switch|p1b: Darmanitan|Darmanitan, L81, M|100/100
+|turn|8
+
+|
+|move|p1b: Darmanitan|Fire Punch|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|move|p1a: Kabutops|Stone Edge|p2b: Druddigon
+|-damage|p2b: Druddigon|0 fnt
+|-damage|p1a: Kabutops|15/100|[from] item: Life Orb
+|faint|p2b: Druddigon
+|
+|upkeep
+
+|
+|switch|p2a: Metagross|Metagross, L70|100/100
+|switch|p2b: Weavile|Weavile, L78, F|100/100
+|turn|9
+
+|
+|detailschange|p2a: Metagross|Metagross-Mega, L70
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p1a: Kabutops|Aqua Jet|p2b: Weavile
+|-damage|p2b: Weavile|68/100
+|-damage|p1a: Kabutops|6/100|[from] item: Life Orb
+|move|p2b: Weavile|Knock Off|p1b: Darmanitan
+|-damage|p1b: Darmanitan|52/100
+|-enditem|p1b: Darmanitan|Life Orb|[from] move: Knock Off|[of] p2b: Weavile
+|move|p1b: Darmanitan|Fire Punch|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|18/100
+|move|p2a: Metagross|Earthquake|p1b: Darmanitan|[spread] p2b,p1a,p1b
+|-supereffective|p1a: Kabutops
+|-supereffective|p1b: Darmanitan
+|-damage|p2b: Weavile|39/100
+|-damage|p1a: Kabutops|0 fnt
+|-damage|p1b: Darmanitan|0 fnt
+|faint|p1a: Kabutops
+|faint|p1b: Darmanitan
+|
+|win|PiraTe Princess~

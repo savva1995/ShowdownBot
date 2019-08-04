@@ -1,0 +1,250 @@
+|init|battle
+|title|AdvertisedMoxie vs. TrolTwan
+|j|☆AdvertisedMoxie
+|j|☆TrolTwan
+|player|p1|AdvertisedMoxie|166|1135
+|player|p2|TrolTwan|100|1194
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Gengar, M|item
+|poke|p1|Chandelure, M|item
+|poke|p1|Palossand, M|item
+|poke|p1|Spiritomb, F|item
+|poke|p1|Drifblim, F|item
+|poke|p1|Cofagrigus, F|item
+|poke|p2|Vikavolt, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Yanmega, M|item
+|poke|p2|Armaldo, F|item
+|poke|p2|Galvantula, F|item
+|poke|p2|Buzzwole|item
+|teampreview
+|
+|start
+|switch|p1a: Palossand|Palossand, M|100/100
+|switch|p2a: Yanmega|Yanmega, M|100/100
+|turn|1
+|
+|move|p2a: Yanmega|Giga Drain|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-damage|p1a: Palossand|25/100
+|-damage|p2a: Yanmega|91/100|[from] item: Life Orb
+|move|p1a: Palossand|Stealth Rock|p2a: Yanmega
+|-sidestart|p2: TrolTwan|move: Stealth Rock
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|move|p2a: Yanmega|Giga Drain|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-damage|p1a: Palossand|0 fnt
+|-heal|p2a: Yanmega|100/100|[from] drain|[of] p1a: Palossand
+|-damage|p2a: Yanmega|91/100|[from] item: Life Orb
+|faint|p1a: Palossand
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|
+|switch|p1a: Drifblim|Drifblim, F, shiny|100/100
+|turn|3
+|
+|move|p2a: Yanmega|Air Slash|p1a: Drifblim
+|-crit|p1a: Drifblim
+|-damage|p1a: Drifblim|22/100
+|-enditem|p1a: Drifblim|Aguav Berry|[eat]
+|-heal|p1a: Drifblim|72/100|[from] item: Aguav Berry
+|-damage|p2a: Yanmega|81/100|[from] item: Life Orb
+|move|p1a: Drifblim|Knock Off|p2a: Yanmega
+|-damage|p2a: Yanmega|53/100
+|-enditem|p2a: Yanmega|Life Orb|[from] move: Knock Off|[of] p1a: Drifblim
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|4
+|
+|move|p2a: Yanmega|Air Slash|p1a: Drifblim
+|-damage|p1a: Drifblim|37/100
+|move|p1a: Drifblim|Acrobatics|p2a: Yanmega
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|upkeep
+
+|
+|switch|p2a: Armaldo|Armaldo, F|100/100
+|-damage|p2a: Armaldo|76/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p1a: Drifblim|Acrobatics|p2a: Armaldo
+|-damage|p2a: Armaldo|52/100
+|move|p2a: Armaldo|Stealth Rock|p1a: Drifblim
+|-sidestart|p1: AdvertisedMoxie|move: Stealth Rock
+|
+|-heal|p2a: Armaldo|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Drifblim|Knock Off|p2a: Armaldo
+|-damage|p2a: Armaldo|45/100
+|-enditem|p2a: Armaldo|Leftovers|[from] move: Knock Off|[of] p1a: Drifblim
+|move|p2a: Armaldo|Knock Off|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|upkeep
+
+|
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Armaldo
+|-resisted|p2a: Armaldo
+|-damage|p2a: Armaldo|3/100
+|move|p2a: Armaldo|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Armaldo|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Gengar
+|-enditem|p1a: Gengar|Choice Specs|[from] move: Knock Off|[of] p2a: Armaldo
+|faint|p1a: Gengar
+|
+|upkeep
+
+|
+|switch|p1a: Spiritomb|Spiritomb, F, shiny|100/100
+|-damage|p1a: Spiritomb|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|-heal|p1a: Spiritomb|94/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|-damage|p2a: Vikavolt|76/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Vikavolt
+|-damage|p2a: Vikavolt|55/100
+|move|p2a: Vikavolt|Thunder|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|upkeep
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, F|100/100
+|-damage|p1a: Cofagrigus|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p2a: Vikavolt|Thunder|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|upkeep
+
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|upkeep
+
+|
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|-damage|p2a: Galvantula|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Galvantula
+|-supereffective|p2a: Galvantula
+|-crit|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+
+|
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|-damage|p2a: Buzzwole|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Buzzwole|[miss]
+|-miss|p1a: Chandelure|p2a: Buzzwole
+|move|p2a: Buzzwole|Ice Punch|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|48/100
+|-damage|p2a: Buzzwole|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Buzzwole
+|-supereffective|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|15
+
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Bullet Punch|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|22/100
+|move|p1a: Chandelure|Fire Blast|p2a: Scizor|[miss]
+|-miss|p1a: Chandelure|p2a: Scizor
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-crit|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|win|TrolTwan

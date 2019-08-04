@@ -1,0 +1,149 @@
+|init|battle
+|title|LegendsAreLosers vs. AV289
+|j|☆LegendsAreLosers
+|j|☆AV289
+|player|p1|LegendsAreLosers|163|1286
+|player|p2|AV289|226|1317
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Hawlucha, M|item
+|poke|p1|Kommo-o, F|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Hariyama, M|item
+|poke|p1|Infernape, F|item
+|poke|p1|Mienshao, F|item
+|poke|p2|Raichu-Alola, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Raikou|item
+|poke|p2|Magnezone|item
+|poke|p2|Ampharos, F|item
+|poke|p2|Lanturn, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AV289)
+|
+|start
+|switch|p1a: Toxic|Kommo-o, F, shiny|100/100
+|switch|p2a: Raichu|Raichu-Alola, F|100/100
+|turn|1
+|
+|switch|p1a: Piece Of Me|Hitmonlee, M, shiny|100/100
+|-zpower|p2a: Raichu
+|move|p2a: Raichu|Stoked Sparksurfer|p1a: Piece Of Me|[zeffect]
+|-damage|p1a: Piece Of Me|4/100
+|-status|p1a: Piece Of Me|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|move|p1a: Piece Of Me|Knock Off|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|upkeep
+|
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|3
+|
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|75/100
+|move|p1a: Piece Of Me|Knock Off|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|57/100
+|cant|p1a: Piece Of Me|par
+|
+|-heal|p2a: Raikou|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Piece Of Me
+|-damage|p1a: Piece Of Me|0 fnt
+|faint|p1a: Piece Of Me
+|
+|-heal|p2a: Raikou|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxic|Kommo-o, F, shiny|100/100
+|turn|6
+|
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|-zpower|p1a: Toxic
+|move|p1a: Toxic|Clangorous Soulblaze|p2a: Raikou|[zeffect]
+|-damage|p2a: Raikou|31/100
+|-boost|p1a: Toxic|atk|1
+|-boost|p1a: Toxic|def|1
+|-boost|p1a: Toxic|spa|1
+|-boost|p1a: Toxic|spd|1
+|-boost|p1a: Toxic|spe|1
+|
+|-heal|p2a: Raikou|37/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Toxic|Clanging Scales|p2a: Raikou
+|-damage|p2a: Raikou|3/100
+|-unboost|p1a: Toxic|def|1
+|move|p2a: Raikou|Hidden Power|p1a: Toxic
+|-supereffective|p1a: Toxic
+|-damage|p1a: Toxic|67/100
+|
+|-heal|p2a: Raikou|9/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Toxic|Drain Punch|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|-heal|p1a: Toxic|83/100|[from] drain|[of] p2a: Raikou
+|move|p2a: Raikou|Hidden Power|p1a: Toxic
+|-supereffective|p1a: Toxic
+|-damage|p1a: Toxic|48/100
+|
+|-heal|p2a: Raikou|15/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Toxic|Drain Punch|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|-heal|p1a: Toxic|57/100|[from] drain|[of] p2a: Raikou
+|faint|p2a: Raikou
+|
+|upkeep
+
+|
+|switch|p2a: Ampharos|Ampharos, F|100/100
+|turn|10
+
+|-message|AV289 forfeited.
+
+|
+|win|LegendsAreLosers

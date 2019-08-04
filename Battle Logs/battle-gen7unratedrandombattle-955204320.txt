@@ -1,0 +1,49 @@
+|init|battle
+|title|LegendariesAreBad vs. Bufflee
+|j|☆LegendariesAreBad
+|j|☆Bufflee
+|player|p1|LegendariesAreBad|190|
+|player|p2|Bufflee|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops, L88, F|100/100
+|switch|p2a: Aggron|Aggron, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bufflee)
+
+|inactive|LegendariesAreBad has 270 seconds left.
+
+|inactive|LegendariesAreBad has 240 seconds left.
+
+|
+|detailschange|p2a: Aggron|Aggron-Mega, L82, F
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Kabutops|Liquidation|p2a: Aggron
+|-damage|p2a: Aggron|80/100
+|move|p2a: Aggron|Stealth Rock|p1a: Kabutops
+|-sidestart|p1: LegendariesAreBad|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|l|☆LegendariesAreBad
+
+|inactive|LegendariesAreBad disconnected and has 300 seconds to reconnect!
+
+|player|p1|
+
+|inactive|LegendariesAreBad has 270 seconds to reconnect!
+
+|inactive|LegendariesAreBad has 240 seconds to reconnect!
+
+|-message|Bufflee forfeited.
+
+|
+|win|LegendariesAreBad

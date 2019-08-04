@@ -1,0 +1,50 @@
+|init|battle
+|title|Oracle J-L vs. juiye
+|j|☆Oracle J-L
+|j|‽juiye
+|player|p1|Oracle J-L|282|1408
+|player|p2|juiye|101|1419
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Groudon|item
+|poke|p1|Marshadow|item
+|poke|p1|Kyogre|item
+|poke|p1|Yveltal|item
+|poke|p1|Necrozma-Dusk-Mane|item
+|poke|p2|Rayquaza|item
+|poke|p2|Lugia|item
+|poke|p2|Ho-Oh|item
+|poke|p2|Yveltal|item
+|poke|p2|Salamence, M|item
+|poke|p2|Landorus, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|l|☆Oracle J-L
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by juiye)
+|inactive|Oracle J-L has 30 seconds to reconnect!
+
+|inactive|Oracle J-L has 20 seconds to reconnect!
+
+|inactive|Oracle J-L has 15 seconds to reconnect!
+
+|inactive|Oracle J-L has 10 seconds to reconnect!
+
+|inactive|Oracle J-L has 5 seconds to reconnect!
+
+|-message|Oracle J-L lost due to inactivity.
+|
+|win|juiye

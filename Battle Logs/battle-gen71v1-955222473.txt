@@ -1,0 +1,46 @@
+|init|battle
+|title|HorrendousTeams101 vs. motogp
+|j|☆HorrendousTeams101
+|j|☆motogp
+|player|p1|HorrendousTeams101|12|1574
+|player|p2|motogp|134|1548
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Heat|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Kartana|item
+|poke|p2|Electrode|item
+|poke|p2|Mawile, F|item
+|poke|p2|Porygon-Z|item
+|teampreview|1
+|
+|start
+|switch|p1a: Paper Planes(2014)|Kartana|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|1
+|
+|move|p1a: Paper Planes(2014)|Leaf Blade|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|41/100
+|-zpower|p2a: Porygon-Z
+|move|p2a: Porygon-Z|Breakneck Blitz|p1a: Paper Planes(2014)|[zeffect]
+|-resisted|p1a: Paper Planes(2014)
+|-damage|p1a: Paper Planes(2014)|0 fnt
+|faint|p1a: Paper Planes(2014)
+|
+|win|motogp
+|raw|HorrendousTeams101's rating: 1574 &rarr; <strong>1553</strong><br />(-21 for losing)
+|raw|motogp's rating: 1548 &rarr; <strong>1569</strong><br />(+21 for winning)
+|l|☆HorrendousTeams101

@@ -1,0 +1,127 @@
+|init|battle
+|title|jimy68 vs. Spikanor93
+|j|☆jimy68
+|j|☆Spikanor93
+|player|p1|jimy68|169|1472
+|player|p2|Spikanor93|1|1502
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Delibird|Delibird, M|100/100
+|switch|p2a: Sigilyph|Sigilyph, L86, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spikanor93)
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L81, M|100/100
+|move|p1a: Delibird|Freeze-Dry|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|32/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Zekrom|Zekrom, L78|100/100
+|-ability|p1a: Zekrom|Teravolt
+|move|p2a: Thundurus|Thunderbolt|p1a: Zekrom
+|-resisted|p1a: Zekrom
+|-damage|p1a: Zekrom|86/100
+|-damage|p2a: Thundurus|22/100|[from] item: Life Orb
+|
+|-heal|p1a: Zekrom|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Zekrom|Volt Switch|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+
+|
+|switch|p1a: Persian|Persian-Alola, L88, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+
+|
+|switch|p2a: Guzzlord|Guzzlord, L87|100/100
+|turn|4
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, F|100/100
+|move|p2a: Guzzlord|Hammer Arm|p1a: Escavalier
+|-damage|p1a: Escavalier|63/100
+|-unboost|p2a: Guzzlord|spe|1
+|-damage|p2a: Guzzlord|90/100|[from] item: Life Orb
+|
+|-heal|p1a: Escavalier|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Golurk|Golurk, L88|100/100
+|move|p1a: Escavalier|Megahorn|p2a: Golurk|[miss]
+|-miss|p1a: Escavalier|p2a: Golurk
+|
+|-heal|p1a: Escavalier|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Golurk|Rock Polish|p2a: Golurk
+|-boost|p2a: Golurk|spe|2
+|move|p1a: Escavalier|Iron Head|p2a: Golurk
+|-damage|p2a: Golurk|59/100
+|
+|-heal|p2a: Golurk|65/100|[from] item: Leftovers
+|-heal|p1a: Escavalier|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Golurk|Shadow Punch|p1a: Escavalier
+|-damage|p1a: Escavalier|48/100
+|move|p1a: Escavalier|Iron Head|p2a: Golurk
+|-damage|p2a: Golurk|29/100
+|
+|-heal|p2a: Golurk|34/100|[from] item: Leftovers
+|-heal|p1a: Escavalier|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Golurk|Earthquake|p1a: Escavalier
+|-damage|p1a: Escavalier|8/100
+|move|p1a: Escavalier|Iron Head|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-heal|p1a: Escavalier|14/100|[from] item: Leftovers
+|upkeep
+
+|l|☆Spikanor93
+
+|inactive|Spikanor93 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Spikanor93 has 30 seconds to reconnect!
+
+|inactive|Spikanor93 has 20 seconds to reconnect!
+
+|inactive|Spikanor93 has 15 seconds to reconnect!
+
+|inactive|Spikanor93 has 10 seconds to reconnect!
+
+|inactive|Spikanor93 has 5 seconds to reconnect!
+
+|-message|Spikanor93 lost due to inactivity.
+|
+|win|jimy68

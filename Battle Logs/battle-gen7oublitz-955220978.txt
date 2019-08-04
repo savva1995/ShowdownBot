@@ -1,0 +1,341 @@
+|init|battle
+|title|borjaocerin vs. Naron
+|j|☆borjaocerin
+|j|☆Naron
+|player|p1|borjaocerin|293|
+|player|p2|Naron|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Manaphy|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Krookodile, F|item
+|poke|p1|Smeargle, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Gengar, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Araquanid, F|item
+|poke|p2|Manectric, M|item
+|poke|p2|Dusclops, F|item
+|poke|p2|Goodra, F|item
+|poke|p2|Roserade, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Roserade|Roserade, M|100/100
+|turn|1
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Smeargle
+|-crit|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|move|p1a: Smeargle|Sticky Web|p2a: Roserade
+|-sidestart|p2: Naron|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Krookodile|Stone Edge|p2a: Landorus
+|-damage|p2a: Landorus|64/100
+|move|p2a: Landorus|Defog|p1a: Krookodile
+|-unboost|p1a: Krookodile|evasion|1
+|-sideend|p2: Naron|Sticky Web|[from] move: Defog|[of] p2a: Landorus
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Dusclops|Dusclops, F|100/100
+|-ability|p2a: Dusclops|Pressure
+|move|p1a: Krookodile|Stone Edge|p2a: Dusclops
+|-damage|p2a: Dusclops|84/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Dusclops|Will-O-Wisp|p1a: Gengar
+|-status|p1a: Gengar|brn
+|
+|-damage|p1a: Gengar|94/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|5/100
+|move|p2a: Dusclops|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|26/100 brn
+|
+|-damage|p1a: Gengar|20/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-crit|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|faint|p2a: Dusclops
+|
+|-damage|p1a: Gengar|14/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|64/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|turn|9
+
+|
+|move|p2a: Landorus|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-enditem|p1a: Gengar|Choice Specs|[from] move: Knock Off|[of] p2a: Landorus
+|faint|p1a: Gengar
+|
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy|100/100
+|turn|10
+
+|
+|move|p2a: Landorus|Knock Off|p1a: Manaphy
+|-damage|p1a: Manaphy|74/100
+|move|p1a: Manaphy|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|turn|11
+
+|
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Manectric|atk|1
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|move|p2a: Manectric|Thunderbolt|p1a: Krookodile
+|-immune|p1a: Krookodile
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|move|p1a: Krookodile|Earthquake|p2a: Goodra
+|-damage|p2a: Goodra|54/100
+|
+|-heal|p2a: Goodra|60/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Goodra|Ice Beam|p1a: Charizard
+|-damage|p1a: Charizard|62/100
+|
+|-heal|p2a: Goodra|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Goodra|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-heal|p2a: Goodra|72/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|15
+
+|
+|move|p2a: Goodra|Protect|p2a: Goodra
+|-singleturn|p2a: Goodra|Protect
+|move|p1a: Tapu Koko|Wild Charge|p2a: Goodra
+|-activate|p2a: Goodra|move: Protect
+|
+|-heal|p2a: Goodra|79/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Tapu Koko|Wild Charge|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|18/100
+|-damage|p1a: Tapu Koko|83/100|[from] Recoil
+|-damage|p1a: Tapu Koko|73/100|[from] item: Life Orb
+|move|p2a: Goodra|Ice Beam|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|28/100
+|
+|-heal|p2a: Goodra|24/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Goodra|Protect|p2a: Goodra
+|-singleturn|p2a: Goodra|Protect
+|move|p1a: Tapu Koko|Wild Charge|p2a: Goodra
+|-activate|p2a: Goodra|move: Protect
+|
+|-heal|p2a: Goodra|30/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Tapu Koko|Wild Charge|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-damage|p1a: Tapu Koko|19/100|[from] Recoil
+|-damage|p1a: Tapu Koko|9/100|[from] item: Life Orb
+|faint|p2a: Goodra
+|
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric-Mega, M|100/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Tapu Koko|atk|1
+|turn|19
+
+|
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Manectric|atk|1
+|move|p2a: Manectric|Hidden Power|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|44/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|move|p1a: Krookodile|Earthquake|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|73/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Manaphy|Manaphy|74/100
+|move|p2a: Araquanid|Liquidation|p1a: Manaphy
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|47/100
+|-unboost|p1a: Manaphy|def|1
+|
+|upkeep
+|turn|22
+
+|
+|move|p1a: Manaphy|Psychic|p2a: Araquanid
+|-damage|p2a: Araquanid|58/100
+|move|p2a: Araquanid|Sticky Web|p1a: Manaphy
+|-sidestart|p1: borjaocerin|move: Sticky Web
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Manaphy|Psychic|p2a: Araquanid
+|-damage|p2a: Araquanid|43/100
+|move|p2a: Araquanid|Leech Life|p1a: Manaphy
+|-damage|p1a: Manaphy|14/100
+|-heal|p2a: Araquanid|60/100|[from] drain|[of] p1a: Manaphy
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Manaphy|Psychic|p2a: Araquanid
+|-damage|p2a: Araquanid|44/100
+|move|p2a: Araquanid|Leech Life|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|-heal|p2a: Araquanid|50/100|[from] drain|[of] p1a: Manaphy
+|faint|p1a: Manaphy
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|9/100
+|-activate|p1a: Tapu Koko|move: Sticky Web
+|-unboost|p1a: Tapu Koko|spe|1
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|25
+
+|
+|move|p1a: Tapu Koko|Brave Bird|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-damage|p1a: Tapu Koko|0 fnt|[from] Recoil
+|faint|p2a: Araquanid
+|faint|p1a: Tapu Koko
+|
+|upkeep
+
+|
+|switch|p1a: Krookodile|Krookodile, F|44/100
+|switch|p2a: Manectric|Manectric-Mega, M|100/100
+|-activate|p1a: Krookodile|move: Sticky Web
+|-unboost|p1a: Krookodile|spe|1
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Manectric|atk|1
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|turn|26
+
+|
+|move|p2a: Manectric|Hidden Power|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|win|Naron

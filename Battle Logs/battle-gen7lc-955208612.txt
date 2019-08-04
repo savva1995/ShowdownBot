@@ -1,0 +1,309 @@
+|init|battle
+|title|NotVBP vs. Squitel69
+|j|☆NotVBP
+|j|☆Squitel69
+|player|p1|NotVBP|192|
+|player|p2|Squitel69|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] LC
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Minccino, L5, M|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Snivy, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Oshawott, L5, F|item
+|poke|p1|Spinarak, L5, M|item
+|poke|p2|Oshawott, L5, F|item
+|poke|p2|Elekid, L5, M|item
+|poke|p2|Bunnelby, L5, F|item
+|poke|p2|Froakie, L5, F|item
+|poke|p2|Foongus, L5, F|item
+|poke|p2|Salandit, L5, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NotVBP)
+|
+|start
+|switch|p1a: Snivy|Snivy, L5, M|100/100
+|switch|p2a: Bunnelby|Bunnelby, L5, F|100/100
+|turn|1
+|
+|move|p2a: Bunnelby|U-turn|p1a: Snivy
+|-supereffective|p1a: Snivy
+|-damage|p1a: Snivy|0 fnt
+|faint|p1a: Snivy
+|
+|switch|p2a: Elekid|Elekid, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Spinarak|Spinarak, L5, M|100/100
+|turn|2
+|
+|move|p2a: Elekid|Volt Switch|p1a: Spinarak
+|-damage|p1a: Spinarak|61/100
+|
+|switch|p2a: Salandit|Salandit, L5, M|100/100|[from]move: Volt Switch
+|move|p1a: Spinarak|Sticky Web|p2a: Salandit
+|-sidestart|p2: Squitel69|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Oshawott|Oshawott, L5, F|100/100
+|move|p2a: Salandit|Taunt|p1a: Oshawott
+|-start|p1a: Oshawott|move: Taunt
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Oshawott|Aqua Jet|p2a: Salandit
+|-supereffective|p2a: Salandit
+|-damage|p2a: Salandit|34/100
+|move|p2a: Salandit|Sludge Bomb|p1a: Oshawott
+|-damage|p1a: Oshawott|36/100
+|-status|p1a: Oshawott|psn
+|-damage|p2a: Salandit|24/100|[from] item: Life Orb
+|
+|-damage|p1a: Oshawott|24/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Bunnelby|Bunnelby, L5, F|100/100
+|-activate|p2a: Bunnelby|move: Sticky Web
+|-unboost|p2a: Bunnelby|spe|1
+|move|p1a: Oshawott|Sacred Sword|p2a: Bunnelby
+|-supereffective|p2a: Bunnelby
+|-damage|p2a: Bunnelby|0 fnt
+|faint|p2a: Bunnelby
+|
+|-damage|p1a: Oshawott|12/100 psn|[from] psn
+|-end|p1a: Oshawott|move: Taunt
+|upkeep
+|
+|switch|p2a: Froakie|Froakie, L5, F|100/100
+|-activate|p2a: Froakie|move: Sticky Web
+|-unboost|p2a: Froakie|spe|1
+|turn|6
+|
+|move|p2a: Froakie|Toxic Spikes|p1a: Oshawott
+|-start|p2a: Froakie|typechange|Poison|[from] ability: Protean
+|-sidestart|p1: NotVBP|move: Toxic Spikes
+|move|p1a: Oshawott|Sacred Sword|p2a: Froakie
+|-resisted|p2a: Froakie
+|-damage|p2a: Froakie|75/100
+|
+|-damage|p1a: Oshawott|0 fnt|[from] psn
+|faint|p1a: Oshawott
+|upkeep
+|
+|switch|p1a: Spinarak|Spinarak, L5, M|61/100
+|-sideend|p1: NotVBP|move: Toxic Spikes|[of] p1a: Spinarak
+|turn|7
+|
+|move|p2a: Froakie|Rock Slide|p1a: Spinarak
+|-start|p2a: Froakie|typechange|Rock|[from] ability: Protean
+|-supereffective|p1a: Spinarak
+|-damage|p1a: Spinarak|0 fnt
+|-damage|p2a: Froakie|65/100|[from] item: Life Orb
+|faint|p1a: Spinarak
+|
+|upkeep
+|
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|8
+|
+|move|p1a: Mienfoo|Fake Out|p2a: Froakie
+|-resisted|p2a: Froakie
+|-damage|p2a: Froakie|50/100
+|cant|p2a: Froakie|flinch
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Mienfoo|Knock Off|p2a: Froakie
+|-damage|p2a: Froakie|0 fnt
+|-enditem|p2a: Froakie|Life Orb|[from] move: Knock Off|[of] p1a: Mienfoo
+|faint|p2a: Froakie
+|
+|upkeep
+|
+|switch|p2a: Salandit|Salandit, L5, M|24/100
+|-activate|p2a: Salandit|move: Sticky Web
+|-unboost|p2a: Salandit|spe|1
+|turn|10
+|
+|move|p2a: Salandit|Fake Out|p1a: Mienfoo
+|-damage|p1a: Mienfoo|77/100
+|-damage|p2a: Salandit|15/100|[from] item: Life Orb
+|cant|p1a: Mienfoo|flinch
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Oshawott|Oshawott, L5, F|100/100
+|-activate|p2a: Oshawott|move: Sticky Web
+|-unboost|p2a: Oshawott|spe|1
+|move|p1a: Mienfoo|Knock Off|p2a: Oshawott
+|-damage|p2a: Oshawott|37/100
+|-enditem|p2a: Oshawott|Assault Vest|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Mienfoo|Knock Off|p2a: Oshawott
+|-damage|p2a: Oshawott|0 fnt
+|faint|p2a: Oshawott
+|
+|upkeep
+
+|
+|switch|p2a: Foongus|Foongus, L5, F|100/100
+|-activate|p2a: Foongus|move: Sticky Web
+|-unboost|p2a: Foongus|spe|1
+|turn|13
+
+|
+|move|p1a: Mienfoo|U-turn|p2a: Foongus
+|-damage|p2a: Foongus|70/100
+
+|
+|switch|p1a: Magnemite|Magnemite, L5|100/100|[from]move: U-turn
+|move|p2a: Foongus|Spore|p1a: Magnemite
+|-status|p1a: Magnemite|slp|[from] move: Spore
+|
+|upkeep
+|turn|14
+
+|
+|cant|p1a: Magnemite|slp
+|move|p2a: Foongus|Giga Drain|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|69/100 slp
+|-heal|p2a: Foongus|83/100|[from] drain|[of] p1a: Magnemite
+|
+|upkeep
+|turn|15
+
+|
+|cant|p1a: Magnemite|slp
+|move|p2a: Foongus|Giga Drain|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|37/100 slp
+|-heal|p2a: Foongus|96/100|[from] drain|[of] p1a: Magnemite
+|-enditem|p1a: Magnemite|Berry Juice
+|-heal|p1a: Magnemite|100/100 slp|[from] item: Berry Juice
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Salandit|Salandit, L5, M|15/100
+|-activate|p2a: Salandit|move: Sticky Web
+|-unboost|p2a: Salandit|spe|1
+|cant|p1a: Magnemite|slp
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Salandit|Fake Out|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|95/100 slp
+|-damage|p2a: Salandit|5/100|[from] item: Life Orb
+|-curestatus|p1a: Magnemite|slp|[msg]
+|cant|p1a: Magnemite|flinch
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Magnemite|Discharge|p2a: Salandit
+|-crit|p2a: Salandit
+|-damage|p2a: Salandit|0 fnt
+|faint|p2a: Salandit
+|
+|upkeep
+
+|
+|switch|p2a: Elekid|Elekid, L5, M|100/100
+|-activate|p2a: Elekid|move: Sticky Web
+|-unboost|p2a: Elekid|spe|1
+|turn|19
+
+|
+|move|p1a: Magnemite|Toxic|p2a: Elekid
+|-status|p2a: Elekid|tox
+|move|p2a: Elekid|Thunderbolt|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|58/100
+|
+|-damage|p2a: Elekid|96/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Magnemite|Recycle|p1a: Magnemite
+|-item|p1a: Magnemite|Berry Juice|[from] move: Recycle
+|move|p2a: Elekid|Seismic Toss|p1a: Magnemite
+|-damage|p1a: Magnemite|32/100
+|-enditem|p1a: Magnemite|Berry Juice
+|-heal|p1a: Magnemite|100/100|[from] item: Berry Juice
+|
+|-heal|p2a: Elekid|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Elekid|91/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Magnemite|Discharge|p2a: Elekid
+|-resisted|p2a: Elekid
+|-damage|p2a: Elekid|53/100 tox
+|move|p2a: Elekid|Thunderbolt|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|69/100
+|
+|-heal|p2a: Elekid|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Elekid|43/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Magnemite|Protect|p1a: Magnemite
+|-singleturn|p1a: Magnemite|Protect
+|move|p2a: Elekid|Seismic Toss|p1a: Magnemite
+|-activate|p1a: Magnemite|move: Protect
+|
+|-heal|p2a: Elekid|48/100 tox|[from] item: Leftovers
+|-damage|p2a: Elekid|29/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p1a: Magnemite|Recycle|p1a: Magnemite
+|-item|p1a: Magnemite|Berry Juice|[from] move: Recycle
+|move|p2a: Elekid|Seismic Toss|p1a: Magnemite
+|-damage|p1a: Magnemite|43/100
+|-enditem|p1a: Magnemite|Berry Juice
+|-heal|p1a: Magnemite|100/100|[from] item: Berry Juice
+|
+|-heal|p2a: Elekid|34/100 tox|[from] item: Leftovers
+|-damage|p2a: Elekid|10/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|-message|Squitel69 forfeited.
+
+|
+|win|NotVBP

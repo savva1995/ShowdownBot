@@ -1,0 +1,293 @@
+|init|battle
+|title|Crippytp vs. Kieran5208
+|j|☆Crippytp
+|j|☆Kieran5208
+|player|p1|Crippytp|2|2190
+|player|p2|Kieran5208|2|2217
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mesprit|Mesprit, L86|100/100
+|switch|p2a: Archeops|Archeops, L87, M|100/100
+|turn|1
+|
+|move|p2a: Archeops|U-turn|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|39/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kieran5208)
+|
+|switch|p2a: Darkrai|Darkrai, L78|100/100|[from]move: U-turn
+|move|p1a: Mesprit|Ice Beam|p2a: Darkrai
+|-damage|p2a: Darkrai|70/100
+|
+|-heal|p2a: Darkrai|76/100|[from] item: Leftovers
+|-heal|p1a: Mesprit|45/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ninetales|Ninetales-Alola, L81, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Darkrai|Hypnosis|p1a: Ninetales
+|-status|p1a: Ninetales|slp|[from] move: Hypnosis
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Darkrai|70/100|[from] Hail
+|-heal|p2a: Darkrai|76/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|88/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|3
+|
+|switch|p2a: Archeops|Archeops, L87, M|100/100
+|switch|p1a: Floette|Floette-Eternal, L80, F|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Floette|94/100|[from] Hail
+|-damage|p2a: Archeops|95/100|[from] Hail
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Tentacruel|Tentacruel, L82, M|100/100
+|move|p1a: Floette|Light of Ruin|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|75/100
+|-damage|p1a: Floette|81/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Floette|75/100|[from] Hail
+|-damage|p2a: Tentacruel|69/100|[from] Hail
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Skuntank|Skuntank, L88, F|100/100
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Skuntank
+|-sidestart|p1: Crippytp|move: Toxic Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|63/100|[from] Hail
+|-damage|p1a: Skuntank|94/100|[from] Hail
+|upkeep
+|turn|6
+
+|
+|move|p2a: Tentacruel|Scald|p1a: Skuntank
+|-damage|p1a: Skuntank|57/100
+|-status|p1a: Skuntank|brn
+|-damage|p2a: Tentacruel|53/100|[from] item: Life Orb
+|move|p1a: Skuntank|Crunch|p2a: Tentacruel
+|-damage|p2a: Tentacruel|27/100
+|-damage|p1a: Skuntank|47/100 brn|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p1a: Skuntank|41/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|inactive|Crippytp has 120 seconds left.
+
+|
+|switch|p1a: Mesprit|Mesprit, L86|45/100
+|move|p2a: Tentacruel|Scald|p1a: Mesprit
+|-damage|p1a: Mesprit|18/100
+|-status|p1a: Mesprit|brn
+|-damage|p2a: Tentacruel|17/100|[from] item: Life Orb
+|
+|-heal|p1a: Mesprit|25/100 brn|[from] item: Leftovers
+|-damage|p1a: Mesprit|18/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|inactive|Crippytp has 120 seconds left.
+
+|
+|move|p2a: Tentacruel|Scald|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|-damage|p2a: Tentacruel|7/100|[from] item: Life Orb
+|faint|p1a: Mesprit
+|
+|upkeep
+
+|
+|switch|p1a: Archeops|Archeops, L87, F|100/100
+|turn|9
+
+|
+|move|p1a: Archeops|Acrobatics|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+
+|
+|switch|p2a: Hitmontop|Hitmontop, L86, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Archeops|atk|1
+|turn|10
+
+|
+|switch|p1a: Skuntank|Skuntank, L88, F|41/100 brn
+|-sideend|p1: Crippytp|move: Toxic Spikes|[of] p1a: Skuntank
+|move|p2a: Hitmontop|Stone Edge|p1a: Skuntank|[miss]
+|-miss|p2a: Hitmontop|p1a: Skuntank
+|
+|-damage|p1a: Skuntank|35/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, F|100/100
+|move|p1a: Skuntank|Poison Jab|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-crit|p2a: Toxicroak
+|-damage|p2a: Toxicroak|79/100
+|-damage|p1a: Skuntank|25/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Toxicroak|85/100|[from] item: Black Sludge
+|-damage|p1a: Skuntank|19/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Skuntank|Crunch|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|72/100
+|-damage|p1a: Skuntank|9/100 brn|[from] item: Life Orb
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|47/100
+|
+|-heal|p2a: Toxicroak|53/100|[from] item: Black Sludge
+|-damage|p1a: Skuntank|3/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Skuntank|Taunt|p2a: Toxicroak
+|-start|p2a: Toxicroak|move: Taunt
+|cant|p2a: Toxicroak|move: Taunt|Swords Dance
+|
+|-heal|p2a: Toxicroak|59/100|[from] item: Black Sludge
+|-damage|p1a: Skuntank|0 fnt|[from] brn
+|faint|p1a: Skuntank
+|upkeep
+
+|
+|switch|p1a: Floette|Floette-Eternal, L80, F|75/100
+|turn|14
+
+|
+|move|p1a: Floette|Psychic|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|move|p2a: Toxicroak|Gunk Shot|p1a: Floette
+|-supereffective|p1a: Floette
+|-damage|p1a: Floette|0 fnt
+|faint|p1a: Floette
+|
+|-heal|p2a: Toxicroak|65/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Archeops|Archeops, L87, F|100/100
+|turn|15
+
+|
+|move|p1a: Archeops|Acrobatics|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+
+|
+|switch|p2a: Hitmontop|Hitmontop, L86, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Archeops|atk|1
+|turn|16
+
+|
+|switch|p1a: Ninetales|Ninetales-Alola, L81, F|88/100 slp
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Hitmontop|Close Combat|p1a: Ninetales
+|-damage|p1a: Ninetales|30/100 slp
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hitmontop|94/100|[from] Hail
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Darkrai|Darkrai, L78|76/100
+|cant|p1a: Ninetales|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Darkrai|70/100|[from] Hail
+|-heal|p2a: Darkrai|76/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|18/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|18
+
+|
+|move|p2a: Darkrai|Substitute|p2a: Darkrai
+|-start|p2a: Darkrai|Substitute
+|-damage|p2a: Darkrai|51/100
+|-curestatus|p1a: Ninetales|slp|[msg]
+|move|p1a: Ninetales|Moonblast|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-end|p2a: Darkrai|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Darkrai|45/100|[from] Hail
+|-heal|p2a: Darkrai|51/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Darkrai|Hypnosis|p1a: Ninetales|[miss]
+|-miss|p2a: Darkrai|p1a: Ninetales
+|move|p1a: Ninetales|Moonblast|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, M|95/100
+|turn|20
+
+|
+|move|p2a: Archeops|Aqua Tail|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Archeops|Archeops, L87, F|100/100
+|turn|21
+
+|
+|move|p2a: Archeops|Aqua Tail|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|faint|p1a: Archeops
+|
+|upkeep
+
+|-message|Crippytp forfeited.
+
+|
+|win|Kieran5208

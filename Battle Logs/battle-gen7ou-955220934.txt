@@ -1,0 +1,145 @@
+|init|battle
+|title|fossil98 vs. NlCKPLAY
+|j|☆fossil98
+|j|☆NlCKPLAY
+|player|p1|fossil98|9|1296
+|player|p2|NlCKPLAY|80|1297
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Espeon, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tapu Lele|item
+|poke|p1|Skarmory, F|item
+|poke|p2|Drampa, F|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Mawile, M|item
+|poke|p2|Porygon-Z|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|1
+|
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|move|p1a: Landorus|Earthquake|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|move|p1a: Landorus|U-turn|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|19/100
+
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p2a: Leafeon|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|64/100
+|-enditem|p1a: Skarmory|Leftovers|[from] move: Knock Off|[of] p2a: Leafeon
+|move|p1a: Skarmory|Brave Bird|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|-damage|p1a: Skarmory|59/100|[from] Recoil
+|faint|p2a: Leafeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Drampa|Drampa, F|100/100
+|turn|4
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Drampa|atk|1
+|move|p2a: Drampa|Calm Mind|p2a: Drampa
+|-boost|p2a: Drampa|spa|1
+|-boost|p2a: Drampa|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Landorus|U-turn|p2a: Drampa
+|-damage|p2a: Drampa|80/100
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Drampa|Calm Mind|p2a: Drampa
+|-boost|p2a: Drampa|spa|1
+|-boost|p2a: Drampa|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p1a: Tapu Lele|Moonblast|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|20/100
+|-enditem|p2a: Drampa|Weakness Policy
+|-boost|p2a: Drampa|atk|2
+|-boost|p2a: Drampa|spa|2
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|-damage|p1a: Tapu Lele|91/100|[from] item: Life Orb
+|move|p2a: Drampa|Flamethrower|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|7
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Drampa
+|-activate|p2a: Drampa|move: Psychic Terrain
+|move|p2a: Drampa|Roost|p2a: Drampa
+|-heal|p2a: Drampa|70/100
+|-singleturn|p2a: Drampa|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|-message|fossil98 forfeited.
+
+|
+|win|NlCKPLAY

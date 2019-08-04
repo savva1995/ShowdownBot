@@ -1,0 +1,70 @@
+|init|battle
+|title|Jakebuggy1993 vs. illama222
+|j|☆Jakebuggy1993
+|j|☆illama222
+|player|p1|Jakebuggy1993|101|1248
+|player|p2|illama222|137|1149
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Forretress, M|item
+|poke|p1|Golisopod, M|item
+|poke|p1|Illumise, F|item
+|poke|p2|Altaria, F|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Dragalge, M|item
+|teampreview|1
+|
+|start
+|switch|p1a: Illumise|Illumise, F|100/100
+|switch|p2a: Altaria|Altaria, F|100/100
+|-ability|p2a: Altaria|Cloud Nine
+|turn|1
+|
+|detailschange|p2a: Altaria|Altaria-Mega, F
+|-mega|p2a: Altaria|Altaria|Altarianite
+|move|p1a: Illumise|Toxic|p2a: Altaria
+|-status|p2a: Altaria|tox
+|move|p2a: Altaria|Fire Blast|p1a: Illumise
+|-supereffective|p1a: Illumise
+|-damage|p1a: Illumise|26/100
+|
+|-heal|p1a: Illumise|32/100|[from] item: Leftovers
+|-damage|p2a: Altaria|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Illumise|Substitute|p1a: Illumise
+|-start|p1a: Illumise|Substitute
+|-damage|p1a: Illumise|7/100
+|move|p2a: Altaria|Draco Meteor|p1a: Illumise
+|-end|p1a: Illumise|Substitute
+|-unboost|p2a: Altaria|spa|2
+|
+|-heal|p1a: Illumise|13/100|[from] item: Leftovers
+|-damage|p2a: Altaria|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Altaria|Draco Meteor|p1a: Illumise
+|-damage|p1a: Illumise|0 fnt
+|-unboost|p2a: Altaria|spa|2
+|faint|p1a: Illumise
+|
+|win|illama222
+|raw|Jakebuggy1993's rating: 1248 &rarr; <strong>1216</strong><br />(-32 for losing)
+|raw|illama222's rating: 1149 &rarr; <strong>1181</strong><br />(+32 for winning)
+|l|☆illama222
+|l|☆Jakebuggy1993

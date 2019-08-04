@@ -1,0 +1,166 @@
+|init|battle
+|title|Dawarboss75 vs. twinkle toes 25
+|j|☆Dawarboss75
+|j|☆twinkle toes 25
+|player|p1|Dawarboss75|266|1086
+|player|p2|twinkle toes 25|1|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Flygon, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Salamence, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Kommo-o, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Toucannon, F|item
+|poke|p2|Staraptor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by twinkle toes 25)
+|
+|start
+|switch|p1a: Salamence|Salamence, M, shiny|100/100
+|switch|p2a: Toucannon|Toucannon, F|100/100
+|turn|1
+|
+|move|p2a: Toucannon|Rock Blast|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|79/100
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|58/100
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|37/100
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|15/100
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-hitcount|p1a: Salamence|5
+|faint|p1a: Salamence
+|
+|upkeep
+
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|2
+
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Staraptor|[zeffect]
+|-damage|p2a: Staraptor|0 fnt
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|faint|p2a: Staraptor
+|
+|upkeep
+
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|3
+
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Roar|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Soundproof
+|
+|-heal|p2a: Skarmory|7/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|1/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|5
+
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kommo-o|Clanging Scales|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Gliscor
+|-damage|p2a: Gliscor|24/100 tox
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Gliscor|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|70/100
+|
+|-heal|p2a: Gliscor|37/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kommo-o|Clanging Scales|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Gliscor
+|
+|upkeep
+
+|l|☆twinkle toes 25
+
+|inactive|twinkle toes 25 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|twinkle toes 25 has 30 seconds to reconnect!
+
+|inactive|twinkle toes 25 has 20 seconds to reconnect!
+
+|inactive|twinkle toes 25 has 15 seconds to reconnect!
+
+|inactive|twinkle toes 25 has 10 seconds to reconnect!
+
+|inactive|twinkle toes 25 has 5 seconds to reconnect!
+
+|-message|twinkle toes 25 lost due to inactivity.
+|
+|win|Dawarboss75

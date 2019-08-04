@@ -1,0 +1,303 @@
+|init|battle
+|title|Bduh vs. Huracanz
+|j|☆Bduh
+|j|☆Huracanz
+|player|p1|Bduh|238|1237
+|player|p2|Huracanz|266|1294
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Castform|Castform, F|100/100
+|switch|p2a: Dragalge|Dragalge, L84, M|100/100
+|turn|1
+|l|☆Huracanz
+|player|p2|
+|j|☆Huracanz
+|player|p2|Huracanz|266
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bduh)
+|
+|switch|p1a: Gigalith|Gigalith, L85, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Dragalge|Toxic Spikes|p1a: Gigalith
+|-sidestart|p1: Bduh|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragalge|94/100|[from] Sandstorm
+|-heal|p2a: Dragalge|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+
+|
+|move|p2a: Dragalge|Scald|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|72/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Dragalge
+|-sidestart|p2: Huracanz|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragalge|94/100|[from] Sandstorm
+|-heal|p2a: Dragalge|100/100|[from] item: Black Sludge
+|-heal|p1a: Gigalith|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Dragalge|Toxic Spikes|p1a: Gigalith
+|-sidestart|p1: Bduh|move: Toxic Spikes
+|move|p1a: Gigalith|Earthquake|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragalge|13/100|[from] Sandstorm
+|-heal|p2a: Dragalge|19/100|[from] item: Black Sludge
+|-heal|p1a: Gigalith|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Dragalge|Toxic Spikes||[still]
+|-fail|p2a: Dragalge
+|move|p1a: Gigalith|Earthquake|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|90/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Maractus|Maractus, L89, M|100/100
+|-damage|p2a: Maractus|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p2a: Maractus|Leech Seed|p1a: Gigalith
+|-start|p1a: Gigalith|move: Leech Seed
+|move|p1a: Gigalith|Explosion|p2a: Maractus
+|-damage|p2a: Maractus|0 fnt
+|faint|p1a: Gigalith
+|faint|p2a: Maractus
+|
+|-weather|none
+|upkeep
+
+|inactive|Huracanz has 120 seconds left.
+
+|
+|switch|p2a: Tyranitar|Tyranitar, L80, F|100/100
+|switch|p1a: Snorlax|Snorlax, L84, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-status|p1a: Snorlax|tox
+|turn|6
+
+|inactive|Bduh has 120 seconds left.
+
+|
+|detailschange|p2a: Tyranitar|Tyranitar-Mega, L80, F
+|-mega|p2a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Snorlax|Whirlwind|p2a: Tyranitar
+|drag|p2a: Crawdaunt|Crawdaunt, L82, F|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|82/100|[from] Sandstorm
+|-damage|p1a: Snorlax|94/100 tox|[from] Sandstorm
+|-heal|p1a: Snorlax|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|inactive|Bduh has 120 seconds left.
+
+|
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|move|p1a: Snorlax|Return|p2a: Crawdaunt
+|-crit|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|3/100|[from] Sandstorm
+|-damage|p1a: Snorlax|88/100 tox|[from] Sandstorm
+|-heal|p1a: Snorlax|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Snorlax|82/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|inactive|Bduh has 120 seconds left.
+
+|
+|move|p2a: Crawdaunt|Superpower|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-unboost|p2a: Crawdaunt|atk|1
+|-unboost|p2a: Crawdaunt|def|1
+|-damage|p2a: Crawdaunt|0 fnt|[from] item: Life Orb
+|faint|p1a: Snorlax
+|faint|p2a: Crawdaunt
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|inactive|Bduh has 120 seconds left.
+
+|inactive|Huracanz has 90 seconds left.
+
+|
+|switch|p2a: Tyranitar|Tyranitar-Mega, L80, F|88/100
+|switch|p1a: Excadrill|Excadrill, L80, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|turn|9
+
+|inactive|Huracanz has 90 seconds left.
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|inactive|Huracanz has 90 seconds left.
+
+|
+|switch|p2a: Drampa|Drampa, L88, M|100/100
+|-damage|p2a: Drampa|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Drampa|Fire Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Castform|Castform, F|100/100
+|-status|p1a: Castform|tox
+|turn|11
+
+|
+|move|p1a: Castform|Ice Beam|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|41/100
+|move|p2a: Drampa|Fire Blast|p1a: Castform
+|-damage|p1a: Castform|42/100 tox
+|
+|-damage|p1a: Castform|36/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Castform|Ice Beam|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|faint|p2a: Drampa
+|
+|-damage|p1a: Castform|24/100 tox|[from] psn
+|upkeep
+
+|inactive|Huracanz has 120 seconds left.
+
+|
+|switch|p2a: Accelgor|Accelgor, L86, F|100/100
+|-damage|p2a: Accelgor|76/100|[from] Stealth Rock
+|turn|13
+
+|inactive|Huracanz has 120 seconds left.
+
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Castform
+|-damage|p1a: Castform|0 fnt
+|faint|p1a: Castform
+|
+|-heal|p2a: Accelgor|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Regirock|Regirock, L88|100/100
+|-status|p1a: Regirock|tox
+|turn|14
+
+|
+|move|p2a: Accelgor|Focus Blast|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|41/100 tox
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|-heal|p2a: Accelgor|88/100|[from] item: Leftovers
+|-damage|p1a: Regirock|35/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Accelgor|Encore|p1a: Regirock
+|-start|p1a: Regirock|Encore
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|-heal|p2a: Accelgor|94/100|[from] item: Leftovers
+|-damage|p1a: Regirock|23/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Accelgor|Focus Blast|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|-heal|p2a: Accelgor|99/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|17
+
+|
+|move|p2a: Accelgor|Yawn|p1a: Rayquaza
+|-start|p1a: Rayquaza|move: Yawn|[of] p2a: Accelgor
+|move|p1a: Rayquaza|Outrage|p2a: Accelgor
+|-damage|p2a: Accelgor|3/100
+|
+|-heal|p2a: Accelgor|9/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Rayquaza
+|-resisted|p1a: Rayquaza
+|-damage|p1a: Rayquaza|81/100
+|move|p1a: Rayquaza|Outrage|p2a: Accelgor|[from]lockedmove
+|-damage|p2a: Accelgor|0 fnt
+|-start|p1a: Rayquaza|confusion|[fatigue]
+|faint|p2a: Accelgor
+|
+|win|Bduh

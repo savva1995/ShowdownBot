@@ -1,0 +1,79 @@
+|init|battle
+|title|fghkty vs. Ario100/2
+|j|☆fghkty
+|j|☆Ario100/2
+|player|p1|fghkty|102|1018
+|player|p2|Ario100/2|265|1013
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gumshoos|Gumshoos, L89, M|100/100
+|switch|p2a: Haxorus|Haxorus, L82, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+
+|
+|move|p2a: Haxorus|Outrage|p1a: Gumshoos
+|-damage|p1a: Gumshoos|27/100
+|move|p1a: Gumshoos|Return|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+
+|
+|switch|p2a: Mothim|Mothim, L89, M|100/100
+|turn|2
+
+|
+|move|p2a: Mothim|Bug Buzz|p1a: Gumshoos
+|-damage|p1a: Gumshoos|0 fnt
+|-damage|p2a: Mothim|91/100|[from] item: Life Orb
+|faint|p1a: Gumshoos
+|
+|upkeep
+
+|
+|switch|p1a: Thundurus|Thundurus-Therian, L81, M|100/100
+|turn|3
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Mothim
+|-supereffective|p2a: Mothim
+|-damage|p2a: Mothim|0 fnt
+|-damage|p1a: Thundurus|91/100|[from] item: Life Orb
+|faint|p2a: Mothim
+|
+|upkeep
+
+|
+|switch|p2a: Guzzlord|Guzzlord, L87|100/100
+|turn|4
+
+|
+|switch|p1a: Clefable|Clefable, L80, F|100/100
+|move|p2a: Guzzlord|Draco Meteor|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Clefable|Moonblast|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|
+|upkeep
+
+|-message|Ario100/2 forfeited.
+
+|
+|win|fghkty

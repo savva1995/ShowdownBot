@@ -1,0 +1,330 @@
+|init|battle
+|title|Lawnmower fan 1 vs. Treetop122
+|j|☆Lawnmower fan 1
+|j|☆Treetop122
+|player|p1|Lawnmower fan 1|1|1584
+|player|p2|Treetop122|169|1521
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor, L89, F|100/100
+|switch|p2a: Emboar|Emboar, L85, F|100/100
+|turn|1
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Emboar|Flare Blitz|p1a: Hippowdon
+|-damage|p1a: Hippowdon|63/100
+|-damage|p2a: Emboar|89/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Emboar|82/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|69/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Emboar|Grass Knot|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|4/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Emboar|76/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|61/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Ludicolo|Ludicolo, L88, M|100/100
+|move|p2a: Emboar|Grass Knot|p1a: Ludicolo
+|-damage|p1a: Ludicolo|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ludicolo|77/100|[from] Sandstorm
+|-damage|p2a: Emboar|70/100|[from] Sandstorm
+|upkeep
+|turn|4
+
+|
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|move|p2a: Emboar|Flare Blitz|p1a: Ludicolo
+|-damage|p1a: Ludicolo|45/100
+|-damage|p2a: Emboar|61/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Lumineon|Lumineon, L89, M|100/100
+|move|p1a: Ludicolo|Scald|p2a: Lumineon
+|-ability|p2a: Lumineon|Storm Drain|boost
+|-boost|p2a: Lumineon|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p1a: Ludicolo|Giga Drain|p2a: Lumineon
+|-supereffective|p2a: Lumineon
+|-damage|p2a: Lumineon|18/100
+|-heal|p1a: Ludicolo|84/100|[from] drain|[of] p2a: Lumineon
+|-damage|p1a: Ludicolo|74/100|[from] item: Life Orb
+|move|p2a: Lumineon|Toxic|p1a: Ludicolo
+|-status|p1a: Ludicolo|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|68/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Ludicolo|Giga Drain|p2a: Lumineon
+|-supereffective|p2a: Lumineon
+|-damage|p2a: Lumineon|0 fnt
+|-heal|p1a: Ludicolo|76/100 tox|[from] drain|[of] p2a: Lumineon
+|-damage|p1a: Ludicolo|66/100 tox|[from] item: Life Orb
+|faint|p2a: Lumineon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|54/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Aegislash|Aegislash, L78, M|100/100
+|turn|8
+
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ludicolo|Scald|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-weather|none
+|-damage|p1a: Ludicolo|36/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Ludicolo|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|65/100
+|-damage|p1a: Ludicolo|27/100 tox|[from] item: Life Orb
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|-damage|p2a: Aegislash|55/100|[from] item: Life Orb
+|faint|p1a: Ludicolo
+|
+|upkeep
+
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, M|61/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|10
+
+|
+|move|p2a: Aegislash|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|4/100
+|-damage|p2a: Aegislash|45/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Stealth Rock|p2a: Aegislash
+|-sidestart|p2: Treetop122|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|10/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Aegislash|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-damage|p2a: Aegislash|35/100|[from] item: Life Orb
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Donphan|Donphan, L84, M|100/100
+|turn|12
+
+|
+|move|p2a: Aegislash|Shadow Ball|p1a: Donphan
+|-damage|p1a: Donphan|33/100
+|-unboost|p1a: Donphan|spd|1
+|-damage|p2a: Aegislash|25/100|[from] item: Life Orb
+|move|p1a: Donphan|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Emboar|Emboar, L85, F|61/100
+|-damage|p2a: Emboar|49/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Emboar|Grass Knot|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Emboar|43/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Reshiram|Reshiram, L78|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|14
+
+|
+|move|p1a: Reshiram|Stone Edge|p2a: Emboar
+|-damage|p2a: Emboar|12/100
+|move|p2a: Emboar|Superpower|p1a: Reshiram
+|-damage|p1a: Reshiram|42/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|
+|-weather|none
+|-heal|p1a: Reshiram|48/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Reshiram|Roost|p1a: Reshiram
+|-heal|p1a: Reshiram|98/100
+|-singleturn|p1a: Reshiram|move: Roost
+|move|p2a: Emboar|Superpower|p1a: Reshiram
+|-damage|p1a: Reshiram|63/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|
+|-heal|p1a: Reshiram|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Reshiram|Roost|p1a: Reshiram
+|-heal|p1a: Reshiram|100/100
+|-singleturn|p1a: Reshiram|move: Roost
+|move|p2a: Emboar|Superpower|p1a: Reshiram
+|-crit|p1a: Reshiram
+|-damage|p1a: Reshiram|15/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|
+|-heal|p1a: Reshiram|21/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Golurk|Golurk, L88|100/100
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|move|p1a: Reshiram|Roost|p1a: Reshiram
+|-heal|p1a: Reshiram|72/100
+|-singleturn|p1a: Reshiram|move: Roost
+|
+|-heal|p1a: Reshiram|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Reshiram|Blue Flare|p2a: Golurk
+|-damage|p2a: Golurk|41/100
+|move|p2a: Golurk|Rock Polish|p2a: Golurk
+|-boost|p2a: Golurk|spe|2
+|
+|-heal|p1a: Reshiram|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Exeggutor|Exeggutor, L89, F|100/100
+|move|p2a: Golurk|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|73/100
+|-damage|p2a: Golurk|31/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Golurk|Shadow Punch|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|-damage|p2a: Golurk|21/100|[from] item: Life Orb
+|faint|p1a: Exeggutor
+|
+|upkeep
+
+|
+|switch|p1a: Ribombee|Ribombee, L85, F|100/100
+|turn|21
+
+|
+|move|p2a: Golurk|Shadow Punch|p1a: Ribombee
+|-damage|p1a: Ribombee|42/100
+|-damage|p2a: Golurk|11/100|[from] item: Life Orb
+|move|p1a: Ribombee|Moonblast|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-damage|p1a: Ribombee|32/100|[from] item: Life Orb
+|faint|p2a: Golurk
+|
+|upkeep
+
+|
+|switch|p2a: Emboar|Emboar, L85, F|12/100
+|-damage|p2a: Emboar|0 fnt|[from] Stealth Rock
+|faint|p2a: Emboar
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, M|100/100
+|-damage|p2a: Darmanitan|76/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Ribombee|Moonblast|p2a: Darmanitan
+|-resisted|p2a: Darmanitan
+|-damage|p2a: Darmanitan|43/100
+|-damage|p1a: Ribombee|22/100|[from] item: Life Orb
+|move|p2a: Darmanitan|Flare Blitz|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-damage|p2a: Darmanitan|38/100|[from] Recoil
+|faint|p1a: Ribombee
+|
+|upkeep
+
+|
+|switch|p1a: Reshiram|Reshiram, L78|84/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|23
+
+|
+|move|p2a: Darmanitan|Earthquake|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|1/100
+|-damage|p2a: Darmanitan|28/100|[from] item: Life Orb
+|move|p1a: Reshiram|Stone Edge|p2a: Darmanitan|[miss]
+|-miss|p1a: Reshiram|p2a: Darmanitan
+|
+|-heal|p1a: Reshiram|7/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|-message|Lawnmower fan 1 forfeited.
+
+|
+|win|Treetop122

@@ -1,0 +1,305 @@
+|init|battle
+|title|dabolssuglihaters vs. fatty foe
+|j|☆dabolssuglihaters
+|j|☆fatty foe
+|player|p1|dabolssuglihaters|209|1646
+|player|p2|fatty foe|165|1486
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tapu Lele|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Volcanion|item
+|poke|p1|Metagross|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Incineroar, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Celesteela|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Gastrodon, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fatty foe)
+|inactive|dabolssuglihaters has 120 seconds left.
+|inactive|dabolssuglihaters has 90 seconds left.
+
+|
+|start
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|switch|p1b: Metagross|Metagross|100/100
+|switch|p2a: Celesteela|Celesteela|100/100
+|switch|p2b: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2b: Tapu Koko
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|1
+
+|inactive|dabolssuglihaters has 120 seconds left.
+
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2b: Tapu Koko|Protect|p2b: Tapu Koko
+|-singleturn|p2b: Tapu Koko|Protect
+|move|p1b: Metagross|Zen Headbutt|p2b: Tapu Koko
+|-activate|p2b: Tapu Koko|move: Protect
+|move|p2a: Celesteela|Substitute|p2a: Celesteela
+|-start|p2a: Celesteela|Substitute
+|-damage|p2a: Celesteela|76/100
+|
+|-heal|p2a: Celesteela|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|detailschange|p1b: Metagross|Metagross-Mega
+|-mega|p1b: Metagross|Metagross|Metagrossite
+|move|p1a: Volcanion|Protect|p1a: Volcanion
+|-singleturn|p1a: Volcanion|Protect
+|move|p2b: Tapu Koko|Volt Switch|p1b: Metagross
+|-damage|p1b: Metagross|62/100
+|-damage|p2b: Tapu Koko|91/100|[from] item: Life Orb
+
+|
+|switch|p2b: Incineroar|Incineroar, M|100/100|[from]move: Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcanion|atk|1
+|-unboost|p1b: Metagross|atk|1
+|move|p1b: Metagross|Zen Headbutt|p2b: Incineroar
+|-immune|p2b: Incineroar
+|move|p2a: Celesteela|Leech Seed|p1b: Metagross
+|-start|p1b: Metagross|move: Leech Seed
+|
+|-heal|p2a: Celesteela|88/100|[from] item: Leftovers
+|-damage|p1b: Metagross|49/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|97/100|[silent]
+|upkeep
+|turn|3
+
+|
+|switch|p1b: Landorus|Landorus-Therian, M|100/100
+|-ability|p1b: Landorus|Intimidate|boost
+|-immune|p2a: Celesteela
+|-unboost|p2b: Incineroar|atk|1
+|switch|p2b: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Volcanion|Steam Eruption|p2b: Gastrodon
+|-ability|p2b: Gastrodon|Storm Drain|boost
+|-boost|p2b: Gastrodon|spa|1
+|move|p2a: Celesteela|Leech Seed|p1a: Volcanion
+|-start|p1a: Volcanion|move: Leech Seed
+|
+|-heal|p2a: Celesteela|100/100|[from] item: Leftovers
+|-damage|p1a: Volcanion|88/100|[from] Leech Seed|[of] p2a: Celesteela
+|upkeep
+|turn|4
+
+|
+|move|p1b: Landorus|U-turn|p2b: Gastrodon
+|-damage|p2b: Gastrodon|77/100
+
+|
+|switch|p1b: Amoonguss|Amoonguss, M|100/100|[from]move: U-turn
+|move|p1a: Volcanion|Heat Wave|p2b: Gastrodon|[spread] p2a,p2b
+|-supereffective|p2a: Celesteela
+|-end|p2a: Celesteela|Substitute
+|-resisted|p2b: Gastrodon
+|-damage|p2b: Gastrodon|64/100
+|-status|p2b: Gastrodon|brn
+|move|p2a: Celesteela|Heavy Slam|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|79/100
+|move|p2b: Gastrodon|Ice Beam|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|50/100
+|
+|-damage|p1a: Volcanion|66/100|[from] Leech Seed|[of] p2a: Celesteela
+|-damage|p2b: Gastrodon|58/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|inactive|dabolssuglihaters has 120 seconds left.
+
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|switch|p2b: Tapu Koko|Tapu Koko|91/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2b: Tapu Koko
+|switch|p1b: Metagross|Metagross-Mega|49/100
+|
+|upkeep
+|turn|6
+
+|inactive|dabolssuglihaters has 120 seconds left.
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Tapu Koko|atk|1
+|move|p1b: Metagross|Protect|p1b: Metagross
+|-singleturn|p1b: Metagross|Protect
+|move|p2b: Tapu Koko|Dazzling Gleam|p1b: Metagross|[spread] p1a
+|-activate|p1b: Metagross|move: Protect
+|-damage|p1a: Landorus|65/100
+|-damage|p2b: Tapu Koko|81/100|[from] item: Life Orb
+|move|p2a: Incineroar|Knock Off|p1b: Metagross
+|-activate|p1b: Metagross|move: Protect
+|
+|upkeep
+|turn|7
+
+|inactive|dabolssuglihaters has 120 seconds left.
+
+|
+|switch|p1b: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1b: Hydreigon|atk|1
+|move|p2b: Tapu Koko|Volt Switch|p1b: Hydreigon
+|-resisted|p1b: Hydreigon
+|-damage|p1b: Hydreigon|69/100
+|-damage|p2b: Tapu Koko|71/100|[from] item: Life Orb
+
+|
+|switch|p2b: Celesteela|Celesteela|100/100|[from]move: Volt Switch
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: fatty foe|move: Stealth Rock
+|
+|upkeep
+|turn|8
+
+|
+|move|p1b: Hydreigon|Heat Wave|p2b: Celesteela|[spread] p2a,p2b
+|-supereffective|p2b: Celesteela
+|-damage|p2a: Landorus|65/100
+|-damage|p2b: Celesteela|60/100
+|-damage|p1b: Hydreigon|60/100|[from] item: Life Orb
+|move|p2a: Landorus|Rock Slide|p1b: Hydreigon|[spread] p1a
+|-miss|p2a: Landorus|p1b: Hydreigon
+|-damage|p1a: Landorus|39/100
+|move|p1a: Landorus|U-turn|p2b: Celesteela
+|-resisted|p2b: Celesteela
+|-damage|p2b: Celesteela|58/100
+
+|
+|switch|p1a: Volcanion|Volcanion|66/100|[from]move: U-turn
+|move|p2b: Celesteela|Substitute|p2b: Celesteela
+|-start|p2b: Celesteela|Substitute
+|-damage|p2b: Celesteela|33/100
+|
+|-heal|p2b: Celesteela|39/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2b: Celesteela|Protect|p2b: Celesteela
+|-singleturn|p2b: Celesteela|Protect
+|move|p1b: Hydreigon|Dark Pulse|p2a: Landorus
+|-damage|p2a: Landorus|5/100
+|-damage|p1b: Hydreigon|50/100|[from] item: Life Orb
+|move|p2a: Landorus|Rock Slide|p1a: Volcanion|[spread] p1a,p1b
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|28/100
+|-damage|p1b: Hydreigon|25/100
+|move|p1a: Volcanion|Substitute|p1a: Volcanion
+|-start|p1a: Volcanion|Substitute
+|-damage|p1a: Volcanion|3/100
+|-enditem|p1a: Volcanion|Wiki Berry|[eat]
+|-heal|p1a: Volcanion|53/100|[from] item: Wiki Berry
+|
+|-heal|p2b: Celesteela|45/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+
+|inactive|fatty foe has 120 seconds left.
+
+|
+|move|p1b: Hydreigon|Heat Wave|p2b: Celesteela|[spread] p2a,p2b
+|-supereffective|p2b: Celesteela
+|-end|p2b: Celesteela|Substitute
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1b: Hydreigon|16/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|move|p1a: Volcanion|Heat Wave|p2b: Celesteela
+|-supereffective|p2b: Celesteela
+|-damage|p2b: Celesteela|0 fnt
+|faint|p2b: Celesteela
+|
+|upkeep
+
+|inactive|fatty foe has 120 seconds left.
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|71/100
+|switch|p2b: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tapu Koko|58/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|-damage|p2b: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|11
+
+|
+|detailschange|p2b: Tyranitar|Tyranitar-Mega, M
+|-mega|p2b: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Volcanion|Protect|p1a: Volcanion
+|-singleturn|p1a: Volcanion|Protect
+|move|p2a: Tapu Koko|Volt Switch|p1a: Volcanion
+|-activate|p1a: Volcanion|move: Protect
+|move|p1b: Hydreigon|Tailwind|p1b: Hydreigon
+|-sidestart|p1: dabolssuglihaters|move: Tailwind
+|move|p2b: Tyranitar|Rock Slide|p1b: Hydreigon|[spread] p1b
+|-activate|p1a: Volcanion|move: Protect
+|-damage|p1b: Hydreigon|0 fnt
+|faint|p1b: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcanion|47/100|[from] Sandstorm
+|-damage|p2a: Tapu Koko|52/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1b: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Tapu Lele
+|turn|12
+
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-damage|p2a: Incineroar|76/100|[from] Stealth Rock
+|-ability|p2a: Incineroar|Intimidate|boost
+|-immune|p1a: Volcanion
+|-unboost|p1b: Tapu Lele|atk|1
+|-zpower|p1b: Tapu Lele
+|move|p1b: Tapu Lele|Twinkle Tackle|p2b: Tyranitar|[zeffect]
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|move|p1a: Volcanion|Steam Eruption|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tapu Lele|94/100|[from] Sandstorm
+|-damage|p1a: Volcanion|40/100|[from] Sandstorm
+|upkeep
+
+|-message|fatty foe forfeited.
+
+|
+|win|dabolssuglihaters

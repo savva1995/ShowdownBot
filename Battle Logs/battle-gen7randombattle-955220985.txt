@@ -1,0 +1,55 @@
+|init|battle
+|title|sbfn vs. PapaJoseph
+|j|☆sbfn
+|j|☆PapaJoseph
+|player|p1|sbfn|269|1093
+|player|p2|PapaJoseph|265|1117
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Xurkitree|Xurkitree, L81|100/100
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PapaJoseph)
+|
+|move|p1a: Xurkitree|Hidden Power|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|51/100
+|move|p2a: Tsareena|U-turn|p1a: Xurkitree
+|-damage|p1a: Xurkitree|74/100
+
+|inactive|PapaJoseph has 120 seconds left.
+
+|
+|switch|p2a: Naganadel|Naganadel, L78|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+
+|l|☆PapaJoseph
+
+|inactive|PapaJoseph disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|PapaJoseph has 30 seconds to reconnect!
+
+|inactive|PapaJoseph has 20 seconds to reconnect!
+
+|inactive|PapaJoseph has 15 seconds to reconnect!
+
+|inactive|PapaJoseph has 10 seconds to reconnect!
+
+|inactive|sbfn has 120 seconds left.
+|inactive|PapaJoseph has 5 seconds to reconnect!
+
+|-message|PapaJoseph lost due to inactivity.
+|
+|win|sbfn

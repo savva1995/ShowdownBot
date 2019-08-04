@@ -1,0 +1,249 @@
+|init|battle
+|title|AdvertisedMoxie vs. Jfhjgcnk8
+|j|☆AdvertisedMoxie
+|j|☆Jfhjgcnk8
+|player|p1|AdvertisedMoxie|166|1162
+|player|p2|Jfhjgcnk8|169|1044
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Beedrill, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Vikavolt, M|item
+|poke|p1|Araquanid, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Donphan, F|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Golem, M|item
+|poke|p2|Torterra, M|item
+|teampreview
+|
+|start
+|switch|p1a: Fortnite Builder|Forretress, M|100/100
+|switch|p2a: Torterra|Torterra, M|100/100
+|turn|1
+|
+|move|p2a: Torterra|Giga Drain|p1a: Fortnite Builder
+|-resisted|p1a: Fortnite Builder
+|-damage|p1a: Fortnite Builder|96/100
+|move|p1a: Fortnite Builder|Stealth Rock|p2a: Torterra
+|-sidestart|p2: Jfhjgcnk8|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Torterra|Double-Edge|p1a: Fortnite Builder
+|-resisted|p1a: Fortnite Builder
+|-damage|p1a: Fortnite Builder|84/100
+|-damage|p2a: Torterra|97/100|[from] Recoil
+|move|p1a: Fortnite Builder|Toxic Spikes|p2a: Torterra
+|-sidestart|p2: Jfhjgcnk8|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Torterra|Leech Seed|p1a: Araquanid
+|-start|p1a: Araquanid|move: Leech Seed
+|
+|-damage|p1a: Araquanid|88/100|[from] Leech Seed|[of] p2a: Torterra
+|-heal|p2a: Torterra|100/100|[silent]
+|upkeep
+|turn|4
+
+|
+|move|p2a: Torterra|Giga Drain|p1a: Araquanid
+|-damage|p1a: Araquanid|73/100
+|move|p1a: Araquanid|Sticky Web|p2a: Torterra
+|-sidestart|p2: Jfhjgcnk8|move: Sticky Web
+|
+|-heal|p1a: Araquanid|79/100|[from] item: Leftovers
+|-damage|p1a: Araquanid|67/100|[from] Leech Seed|[of] p2a: Torterra
+|upkeep
+|turn|5
+
+|
+|move|p2a: Torterra|Double-Edge|p1a: Araquanid
+|-damage|p1a: Araquanid|32/100
+|-damage|p2a: Torterra|90/100|[from] Recoil
+|move|p1a: Araquanid|Liquidation|p2a: Torterra
+|-damage|p2a: Torterra|41/100
+|-unboost|p2a: Torterra|def|1
+|
+|-heal|p1a: Araquanid|38/100|[from] item: Leftovers
+|-damage|p1a: Araquanid|25/100|[from] Leech Seed|[of] p2a: Torterra
+|-heal|p2a: Torterra|52/100|[silent]
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Amazone|Volcarona, F|100/100
+|move|p2a: Torterra|Double-Edge|p1a: Amazone
+|-damage|p1a: Amazone|39/100
+|-damage|p2a: Torterra|36/100|[from] Recoil
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Amazone|Fiery Dance|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|upkeep
+
+|
+|switch|p2a: Donphan|Donphan, F|100/100
+|-damage|p2a: Donphan|94/100|[from] Stealth Rock
+|-status|p2a: Donphan|psn
+|-activate|p2a: Donphan|move: Sticky Web
+|-unboost|p2a: Donphan|spe|1
+|turn|8
+
+|
+|move|p1a: Amazone|Giga Drain|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|-heal|p1a: Amazone|87/100|[from] drain|[of] p2a: Donphan
+|faint|p2a: Donphan
+|
+|upkeep
+
+|
+|switch|p2a: Golem|Golem, M|100/100
+|-damage|p2a: Golem|94/100|[from] Stealth Rock
+|-activate|p2a: Golem|move: Sticky Web
+|-unboost|p2a: Golem|spe|1
+|-status|p2a: Golem|psn
+|turn|9
+
+|
+|move|p1a: Amazone|Giga Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-heal|p1a: Amazone|100/100|[from] drain|[of] p2a: Golem
+|faint|p2a: Golem
+|
+|upkeep
+
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-status|p2a: Garchomp|psn
+|-activate|p2a: Garchomp|move: Sticky Web
+|-unboost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|94/100 psn|[from] Stealth Rock
+|turn|10
+
+|
+|switch|p1a: Araquanid|Araquanid, F|25/100
+|detailschange|p2a: Garchomp|Garchomp-Mega, F
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p2a: Garchomp|Dragon Claw|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-damage|p2a: Garchomp|82/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Crackchild|Vikavolt, M|100/100
+|turn|11
+
+|
+|move|p1a: Crackchild|Agility|p1a: Crackchild
+|-boost|p1a: Crackchild|spe|2
+|move|p2a: Garchomp|Fire Blast|p1a: Crackchild
+|-supereffective|p1a: Crackchild
+|-damage|p1a: Crackchild|26/100
+|-enditem|p1a: Crackchild|Weakness Policy
+|-boost|p1a: Crackchild|atk|2
+|-boost|p1a: Crackchild|spa|2
+|
+|-damage|p2a: Garchomp|70/100 psn|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Crackchild|Air Slash|p2a: Garchomp
+|-damage|p2a: Garchomp|25/100 psn
+|move|p2a: Garchomp|Fire Blast|p1a: Crackchild
+|-supereffective|p1a: Crackchild
+|-damage|p1a: Crackchild|0 fnt
+|faint|p1a: Crackchild
+|
+|-damage|p2a: Garchomp|13/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: WaspInPants|Beedrill, M|100/100
+|turn|13
+
+|
+|detailschange|p1a: WaspInPants|Beedrill-Mega, M
+|-mega|p1a: WaspInPants|Beedrill|Beedrillite
+|move|p1a: WaspInPants|Fell Stinger|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-boost|p1a: WaspInPants|atk|3
+|faint|p2a: Garchomp
+|
+|upkeep
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: WaspInPants|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|6/100
+|-enditem|p2a: Gliscor|Aguav Berry|[from] move: Knock Off|[of] p1a: WaspInPants
+|move|p2a: Gliscor|Poison Jab|p1a: WaspInPants
+|-resisted|p1a: WaspInPants
+|-damage|p1a: WaspInPants|74/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: WaspInPants|Fell Stinger|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-boost|p1a: WaspInPants|atk|3
+|faint|p2a: Gliscor
+|
+|upkeep
+
+|
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|-damage|p2a: Nidoking|94/100|[from] Stealth Rock
+|-sideend|p2: Jfhjgcnk8|move: Toxic Spikes|[of] p2a: Nidoking
+|-activate|p2a: Nidoking|move: Sticky Web
+|-unboost|p2a: Nidoking|spe|1
+|turn|16
+
+|
+|move|p1a: WaspInPants|Knock Off|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|-enditem|p2a: Nidoking|Choice Band|[from] move: Knock Off|[of] p1a: WaspInPants
+|faint|p2a: Nidoking
+|
+|win|AdvertisedMoxie

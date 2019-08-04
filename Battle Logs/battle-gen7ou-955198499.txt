@@ -1,0 +1,341 @@
+|init|battle
+|title|BEANxGOLLUM vs. gaspardfait
+|j|☆BEANxGOLLUM
+|j|☆gaspardfait
+|player|p1|BEANxGOLLUM|45|1261
+|player|p2|gaspardfait|170|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Volcanion|item
+|poke|p1|Latios, M|item
+|poke|p1|Azumarill, M|item
+|poke|p1|Mimikyu, F|item
+|poke|p1|Magnezone|item
+|poke|p2|Heatran, F|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Celesteela|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Kartana|item
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|detailschange|p1a: Latios|Latios-Mega, M
+|-mega|p1a: Latios|Latios|Latiosite
+|detailschange|p2a: Tyranitar|Tyranitar-Mega, F
+|-mega|p2a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Latios|Energy Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|62/100
+|move|p2a: Tyranitar|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|0 fnt|[from] Sandstorm
+|faint|p1a: Latios
+|upkeep
+
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|turn|2
+
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Azumarill
+|-damage|p1a: Azumarill|30/100
+|move|p1a: Azumarill|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Azumarill|atk|1
+|-unboost|p1a: Azumarill|def|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azumarill|24/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Kartana|Kartana|100/100
+|turn|3
+
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Kartana|Smart Strike|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p2a: Kartana|Smart Strike|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|79/100
+|move|p1a: Magnezone|Volt Switch|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|7/100
+
+|
+|switch|p1a: Azumarill|Azumarill, M|24/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azumarill|18/100|[from] Sandstorm
+|upkeep
+|turn|5
+
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|6
+
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|30/100
+|move|p2a: Heatran|Magma Storm|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|7
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|upkeep
+|turn|8
+
+|
+|-zpower|p1a: Mimikyu
+|move|p1a: Mimikyu|Let's Snuggle Forever|p2a: Tapu Bulu|[zeffect]
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|upkeep
+
+|
+|switch|p2a: Celesteela|Celesteela|100/100
+|turn|9
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Celesteela|Heavy Slam|p1a: Mimikyu
+|-crit|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Celesteela
+|-damage|p2a: Celesteela|33/100
+|move|p2a: Celesteela|Heavy Slam|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spd|1
+|
+|-heal|p2a: Celesteela|39/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Magnezone|Magnezone|79/100
+|turn|11
+
+|
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Magnezone|Volt Switch|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p1a: Magnezone|85/100|[from] Grassy Terrain
+|-heal|p2a: Celesteela|45/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Celesteela|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Celesteela|51/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|88/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|62/100|[silent]
+|upkeep
+|turn|13
+
+|
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Excadrill|Rock Slide|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|69/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|76/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|80/100|[silent]
+|upkeep
+|turn|14
+
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Celesteela
+|-damage|p2a: Celesteela|54/100
+|move|p2a: Celesteela|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|15/100
+|-status|p1a: Excadrill|brn
+|
+|-heal|p2a: Celesteela|60/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|3/100 brn|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|71/100|[silent]
+|-damage|p1a: Excadrill|0 fnt|[from] brn
+|faint|p1a: Excadrill
+|upkeep
+
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|15
+
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Celesteela
+|-damage|p2a: Celesteela|43/100
+|move|p2a: Celesteela|Leech Seed|p1a: Volcanion
+|-start|p1a: Volcanion|move: Leech Seed
+|
+|-heal|p2a: Celesteela|49/100|[from] item: Leftovers
+|-damage|p1a: Volcanion|88/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|60/100|[silent]
+|upkeep
+|turn|16
+
+|
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Volcanion|Defog|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p1a: Volcanion|94/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|66/100|[from] item: Leftovers
+|-damage|p1a: Volcanion|82/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|78/100|[silent]
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Volcanion|Flamethrower|p2a: Tornadus
+|-damage|p2a: Tornadus|50/100
+|-status|p2a: Tornadus|brn
+|
+|-heal|p1a: Volcanion|88/100|[from] item: Leftovers
+|-damage|p1a: Volcanion|75/100|[from] Leech Seed|[of] p2a: Tornadus
+|-heal|p2a: Tornadus|62/100 brn|[silent]
+|-damage|p2a: Tornadus|56/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Tornadus|Knock Off|p1a: Volcanion
+|-damage|p1a: Volcanion|67/100
+|-enditem|p1a: Volcanion|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Volcanion|Steam Eruption|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, F|30/100
+|turn|19
+
+|
+|-zpower|p2a: Heatran
+|move|p2a: Heatran|Corkscrew Crash|p1a: Volcanion|[zeffect]
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|45/100
+|move|p1a: Volcanion|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+
+|
+|switch|p2a: Celesteela|Celesteela|78/100
+|turn|20
+
+|
+|move|p1a: Volcanion|Flamethrower|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|18/100
+|move|p2a: Celesteela|Heavy Slam|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|36/100
+|
+|-heal|p2a: Celesteela|24/100|[from] item: Leftovers
+|-damage|p1a: Volcanion|24/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|36/100|[silent]
+|upkeep
+|turn|21
+
+|
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Volcanion|Flamethrower|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|42/100|[from] item: Leftovers
+|-damage|p1a: Volcanion|12/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|53/100|[silent]
+|upkeep
+|turn|22
+
+|
+|move|p2a: Celesteela|Protect||[still]
+|-fail|p2a: Celesteela
+|move|p1a: Volcanion|Flamethrower|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|faint|p2a: Celesteela
+|
+|win|BEANxGOLLUM

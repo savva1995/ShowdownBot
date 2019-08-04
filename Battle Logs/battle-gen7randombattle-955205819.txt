@@ -1,0 +1,301 @@
+|init|battle
+|title|stijn3112 vs. Royston69
+|j|☆stijn3112
+|j|☆Royston69
+|player|p1|stijn3112|265|
+|player|p2|Royston69|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Araquanid|Araquanid, L84, F|100/100
+|switch|p2a: Aurorus|Aurorus, L88, M|100/100
+|turn|1
+|
+|move|p2a: Aurorus|Stealth Rock|p1a: Araquanid
+|-sidestart|p1: stijn3112|move: Stealth Rock
+|move|p1a: Araquanid|Toxic|p2a: Aurorus
+|-status|p2a: Aurorus|tox
+|
+|-damage|p2a: Aurorus|94/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p2a: Aurorus|Hyper Voice|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|82/100
+|move|p1a: Araquanid|Lunge|p2a: Aurorus
+|-damage|p2a: Aurorus|73/100 tox
+|-unboost|p2a: Aurorus|atk|1
+|
+|-heal|p2a: Aurorus|79/100 tox|[from] item: Leftovers
+|-heal|p1a: Araquanid|88/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|67/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Aurorus|Ancient Power|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|46/100
+|move|p1a: Araquanid|Leech Life|p2a: Aurorus
+|-damage|p2a: Aurorus|44/100 tox
+|-heal|p1a: Araquanid|63/100|[from] drain|[of] p2a: Aurorus
+|
+|-heal|p2a: Aurorus|50/100 tox|[from] item: Leftovers
+|-heal|p1a: Araquanid|69/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|32/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Aurorus|Ancient Power|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|28/100
+|move|p1a: Araquanid|Leech Life|p2a: Aurorus
+|-damage|p2a: Aurorus|12/100 tox
+|-heal|p1a: Araquanid|42/100|[from] drain|[of] p2a: Aurorus
+|
+|-heal|p2a: Aurorus|19/100 tox|[from] item: Leftovers
+|-heal|p1a: Araquanid|48/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|0 fnt|[from] psn
+|faint|p2a: Aurorus
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|5
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|move|p2a: Xurkitree|Thunderbolt|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Xurkitree
+|-supereffective|p2a: Xurkitree
+|-damage|p2a: Xurkitree|12/100
+|move|p2a: Xurkitree|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Royston69
+|-damage|p1a: Pyroar|76/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p2a: Exploud|Exploud, L85, F|100/100
+|move|p1a: Pyroar|Hyper Voice|p2a: Exploud
+|-damage|p2a: Exploud|58/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Pyroar|Sunny Day|p1a: Pyroar
+|-weather|SunnyDay
+|move|p2a: Exploud|Focus Blast|p1a: Pyroar|[miss]
+|-miss|p2a: Exploud|p1a: Pyroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Exploud
+|-damage|p2a: Exploud|0 fnt
+|faint|p2a: Exploud
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, F|100/100
+|turn|10
+
+|
+|move|p2a: Heliolisk|Dark Pulse|p1a: Pyroar
+|-damage|p1a: Pyroar|34/100
+|move|p1a: Pyroar|Fire Blast|p2a: Heliolisk
+|-damage|p2a: Heliolisk|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Heliolisk|0 fnt|[from] ability: Dry Skin|[of] p2a: Heliolisk
+|faint|p2a: Heliolisk
+|upkeep
+
+|
+|switch|p2a: Ninjask|Ninjask, L89, F|100/100
+|turn|11
+
+|
+|move|p2a: Ninjask|Night Slash|p1a: Pyroar
+|-damage|p1a: Pyroar|5/100
+|-damage|p2a: Ninjask|91/100|[from] item: Life Orb
+|move|p1a: Pyroar|Will-O-Wisp|p2a: Ninjask
+|-status|p2a: Ninjask|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ninjask|85/100 brn|[from] brn
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|12
+
+|
+|move|p2a: Ninjask|U-turn|p1a: Pyroar
+|-resisted|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|-damage|p2a: Ninjask|75/100 brn|[from] item: Life Orb
+|faint|p1a: Pyroar
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|12/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|-damage|p1a: Ho-Oh|51/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Ho-Oh|Earthquake|p2a: Xurkitree
+|-supereffective|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|faint|p2a: Xurkitree
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|57/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Ninjask|Ninjask, L89, F|75/100 brn
+|turn|14
+
+|
+|move|p2a: Ninjask|Leech Life|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|52/100
+|-heal|p2a: Ninjask|78/100 brn|[from] drain|[of] p1a: Ho-Oh
+|-damage|p2a: Ninjask|68/100 brn|[from] item: Life Orb
+|move|p1a: Ho-Oh|Substitute|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|Substitute
+|-damage|p1a: Ho-Oh|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|33/100|[from] item: Leftovers
+|-damage|p2a: Ninjask|62/100 brn|[from] brn
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|15
+
+|
+|move|p2a: Ninjask|Night Slash|p1a: Ho-Oh
+|-activate|p1a: Ho-Oh|move: Substitute|[damage]
+|-damage|p2a: Ninjask|52/100 brn|[from] item: Life Orb
+|move|p1a: Ho-Oh|Flame Charge|p2a: Ninjask
+|-supereffective|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|-boost|p1a: Ho-Oh|spe|1
+|faint|p2a: Ninjask
+|
+|-weather|none
+|-heal|p1a: Ho-Oh|39/100|[from] item: Leftovers
+|upkeep
+
+|l|☆Royston69
+
+|player|p2|
+|j|☆Royston69
+
+|player|p2|Royston69|1
+
+|
+|switch|p2a: Virizion|Virizion, L84|100/100
+|turn|16
+
+|
+|move|p1a: Ho-Oh|Flame Charge|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|53/100
+|-boost|p1a: Ho-Oh|spe|1
+|move|p2a: Virizion|Substitute|p2a: Virizion
+|-start|p2a: Virizion|Substitute
+|-damage|p2a: Virizion|28/100
+|
+|-heal|p1a: Ho-Oh|46/100|[from] item: Leftovers
+|-heal|p2a: Virizion|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Ho-Oh|Earthquake|p2a: Virizion
+|-resisted|p2a: Virizion
+|-activate|p2a: Virizion|move: Substitute|[damage]
+|move|p2a: Virizion|Close Combat|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-end|p1a: Ho-Oh|Substitute
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|
+|-heal|p1a: Ho-Oh|52/100|[from] item: Leftovers
+|-heal|p2a: Virizion|40/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|l|☆Royston69
+
+|player|p2|
+|l|☆stijn3112
+
+|player|p1|
+|j|☆Royston69
+
+|player|p2|Royston69|1
+|j|☆stijn3112
+
+|player|p1|stijn3112|265
+
+|
+|move|p1a: Ho-Oh|Brave Bird|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-end|p2a: Virizion|Substitute
+|-damage|p1a: Ho-Oh|49/100|[from] Recoil|[of] p2a: Virizion
+|move|p2a: Virizion|Leaf Blade|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|41/100
+|
+|-heal|p1a: Ho-Oh|47/100|[from] item: Leftovers
+|-heal|p2a: Virizion|47/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Ho-Oh|Brave Bird|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|-damage|p1a: Ho-Oh|32/100|[from] Recoil
+|faint|p2a: Virizion
+|
+|win|stijn3112

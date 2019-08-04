@@ -1,0 +1,103 @@
+|init|battle
+|title|TheTrueJPR vs. Roxellus
+|j|☆TheTrueJPR
+|j|☆Roxellus
+|player|p1|TheTrueJPR|1|1210
+|player|p2|Roxellus|227|1193
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Politoed|Politoed, L84, F|100/100
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|77/100
+|move|p1a: Politoed|Hypnosis|p2a: Solgaleo|[miss]
+|-miss|p1a: Politoed|p2a: Solgaleo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Victreebel|Victreebel, L88, M|100/100
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p2a: Victreebel|Power Whip|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Victreebel|91/100|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Drapion|Drapion, L84, F|100/100
+|turn|4
+
+|
+|move|p1a: Drapion|Poison Jab|p2a: Victreebel
+|-damage|p2a: Victreebel|55/100
+|move|p2a: Victreebel|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|83/100
+|-enditem|p1a: Drapion|Black Sludge|[from] move: Knock Off|[of] p2a: Victreebel
+|-damage|p2a: Victreebel|46/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Drapion
+|-status|p1a: Drapion|slp|[from] move: Sleep Powder
+|cant|p1a: Drapion|slp
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|cant|p1a: Drapion|slp
+|
+|upkeep
+|turn|7
+
+|l|☆TheTrueJPR
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Roxellus)
+
+|inactive|TheTrueJPR has 30 seconds to reconnect!
+
+|inactive|TheTrueJPR has 20 seconds to reconnect!
+
+|inactive|TheTrueJPR has 15 seconds to reconnect!
+
+|inactive|TheTrueJPR has 10 seconds to reconnect!
+
+|inactive|TheTrueJPR has 5 seconds to reconnect!
+
+|-message|TheTrueJPR lost due to inactivity.
+|
+|win|Roxellus

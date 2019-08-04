@@ -1,0 +1,375 @@
+|init|battle
+|title|Airrrr vs. Octacampos
+|j|☆Airrrr
+|j|☆Octacampos
+|player|p1|Airrrr|281|1300
+|player|p2|Octacampos|265|1337
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Emolga|Emolga, L89, M|100/100
+|switch|p2a: Magearna|Magearna, L80|100/100
+|turn|1
+|
+|move|p1a: Emolga|Thunderbolt|p2a: Magearna
+|-damage|p2a: Magearna|72/100
+|-zpower|p2a: Magearna
+|move|p2a: Magearna|Twinkle Tackle|p1a: Emolga|[zeffect]
+|-damage|p1a: Emolga|0 fnt
+|faint|p1a: Emolga
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|turn|2
+
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Vaporeon|Roar|p2a: Magearna
+|drag|p2a: Feraligatr|Feraligatr, L82, M|100/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|move|p1a: Vaporeon|Scald|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|81/100
+|-status|p2a: Feraligatr|brn
+|
+|-damage|p2a: Feraligatr|75/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Feraligatr|Crunch|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-damage|p2a: Feraligatr|68/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Guzzlord|Guzzlord, L87|100/100
+|move|p2a: Feraligatr|Earthquake|p1a: Guzzlord
+|-damage|p1a: Guzzlord|84/100
+|-damage|p2a: Feraligatr|59/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Feraligatr|52/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Feraligatr|Crunch|p1a: Guzzlord
+|-resisted|p1a: Guzzlord
+|-damage|p1a: Guzzlord|74/100
+|move|p1a: Guzzlord|Earthquake|p2a: Feraligatr
+|-damage|p2a: Feraligatr|20/100 brn
+|-damage|p1a: Guzzlord|64/100|[from] item: Life Orb
+|
+|-damage|p2a: Feraligatr|14/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Serperior|Serperior, L80, F|100/100
+|move|p2a: Feraligatr|Crunch|p1a: Serperior
+|-damage|p1a: Serperior|74/100
+|
+|-heal|p1a: Serperior|80/100|[from] item: Leftovers
+|-damage|p2a: Feraligatr|8/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|move|p2a: Feraligatr|Crunch|p1a: Serperior
+|-damage|p1a: Serperior|52/100
+|move|p1a: Serperior|Leaf Storm|p2a: Feraligatr
+|-supereffective|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Feraligatr
+|
+|-heal|p1a: Serperior|58/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Heracross|Heracross, L81, M|100/100
+|turn|9
+
+|
+|detailschange|p2a: Heracross|Heracross-Mega, L81, M
+|-mega|p2a: Heracross|Heracross|Heracronite
+|move|p1a: Serperior|Glare|p2a: Heracross
+|-status|p2a: Heracross|par
+|move|p2a: Heracross|Pin Missile|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|26/100
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-hitcount|p1a: Serperior|2
+|faint|p1a: Serperior
+|
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, L82, F|100/100
+|turn|10
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Heracross|Pin Missile|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L82, F
+|-resisted|p1a: Mimikyu
+|-damage|p1a: Mimikyu|96/100
+|-resisted|p1a: Mimikyu
+|-damage|p1a: Mimikyu|90/100
+|-resisted|p1a: Mimikyu
+|-damage|p1a: Mimikyu|85/100
+|-resisted|p1a: Mimikyu
+|-damage|p1a: Mimikyu|79/100
+|-hitcount|p1a: Mimikyu|5
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|cant|p2a: Heracross|par
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Heracross|Rock Blast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|65/100
+|-damage|p1a: Mimikyu|51/100
+|-damage|p1a: Mimikyu|38/100
+|-damage|p1a: Mimikyu|24/100
+|-damage|p1a: Mimikyu|9/100
+|-hitcount|p1a: Mimikyu|5
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|upkeep
+
+|
+|switch|p2a: Scrafty|Scrafty, L86, M|100/100
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Mimikyu|atk|1
+|turn|14
+
+|
+|-zpower|p1a: Mimikyu
+|move|p1a: Mimikyu|Let's Snuggle Forever|p2a: Scrafty|[zeffect]
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+
+|
+|switch|p2a: Magearna|Magearna, L80|72/100
+|turn|15
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|20/100
+|-unboost|p2a: Magearna|atk|1
+|move|p2a: Magearna|Thunderbolt|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Arceus|Arceus-Electric, L78|100/100
+|turn|16
+
+|
+|switch|p2a: Rotom|Rotom-Fan, L89|100/100
+|move|p1a: Arceus|Earth Power|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|upkeep
+|turn|17
+
+|c|☆Airrrr|i have god
+
+|
+|move|p1a: Arceus|Ice Beam|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|move|p2a: Rotom|Pain Split|p1a: Arceus
+|-sethp|p1a: Arceus|70/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|95/100|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Rotom|Defog|p1a: Arceus
+|-unboost|p1a: Arceus|evasion|1
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: Arceus
+|-status|p1a: Arceus|brn
+|
+|-damage|p1a: Arceus|64/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Arceus|Judgment|p2a: Rotom
+|-damage|p2a: Rotom|7/100
+|move|p2a: Rotom|Thunderbolt|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|57/100 brn
+|
+|-heal|p2a: Rotom|13/100|[from] item: Leftovers
+|-damage|p1a: Arceus|51/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Arceus|Judgment|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Arceus|45/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Regirock|Regirock, L88|100/100
+|turn|22
+
+|
+|move|p1a: Arceus|Earth Power|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|14/100
+|move|p2a: Regirock|Stone Edge|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+
+|
+|switch|p1a: Guzzlord|Guzzlord, L87|64/100
+|turn|23
+
+|
+|move|p2a: Regirock|Rest|p2a: Regirock
+|-status|p2a: Regirock|slp|[from] move: Rest
+|-heal|p2a: Regirock|100/100 slp|[silent]
+|-enditem|p2a: Regirock|Chesto Berry|[eat]
+|-curestatus|p2a: Regirock|slp|[msg]
+|move|p1a: Guzzlord|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|65/100
+|-damage|p1a: Guzzlord|54/100|[from] item: Life Orb
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Regirock|Drain Punch|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|20/100
+|-heal|p2a: Regirock|97/100|[from] drain|[of] p1a: Guzzlord
+|move|p1a: Guzzlord|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|62/100
+|-damage|p1a: Guzzlord|10/100|[from] item: Life Orb
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Regirock|Drain Punch|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|-heal|p2a: Regirock|71/100|[from] drain|[of] p1a: Guzzlord
+|faint|p1a: Guzzlord
+|
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|turn|26
+
+|
+|move|p1a: Vaporeon|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|7/100
+|-status|p2a: Regirock|brn
+|move|p2a: Regirock|Stone Edge|p1a: Vaporeon|[miss]
+|-miss|p2a: Regirock|p1a: Vaporeon
+|
+|-damage|p2a: Regirock|1/100 brn|[from] brn
+|upkeep
+|turn|27
+
+|
+|move|p1a: Vaporeon|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|upkeep
+
+|
+|switch|p2a: Magearna|Magearna, L80|20/100
+|turn|28
+
+|c|☆Octacampos|Gg
+
+|
+|move|p1a: Vaporeon|Scald|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|win|Airrrr

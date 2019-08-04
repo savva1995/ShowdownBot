@@ -1,0 +1,237 @@
+|init|battle
+|title|EndaoSong vs. afakedugong
+|j|☆EndaoSong
+|j|☆afakedugong
+|player|p1|EndaoSong|290|1421
+|player|p2|afakedugong|1|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lugia|Lugia, L78|100/100
+|switch|p2a: Incineroar|Incineroar, L86, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lugia|atk|1
+|turn|1
+|
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|96/100
+|
+|-heal|p1a: Cobalion|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Gliscor|Gliscor, L80, M|100/100
+|move|p1a: Cobalion|Substitute|p1a: Cobalion
+|-start|p1a: Cobalion|Substitute
+|-damage|p1a: Cobalion|76/100
+|
+|-heal|p1a: Cobalion|82/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|move|p1a: Cobalion|Stone Edge|p2a: Gliscor|[miss]
+|-miss|p1a: Cobalion|p2a: Gliscor
+|move|p2a: Gliscor|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-end|p1a: Cobalion|Substitute
+|
+|-heal|p1a: Cobalion|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Altaria|Altaria, L82, M|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Altaria
+|-immune|p1a: Altaria
+|
+|upkeep
+|turn|5
+
+|
+|detailschange|p1a: Altaria|Altaria-Mega, L82, M
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p2a: Gliscor|Taunt|p1a: Altaria
+|-start|p1a: Altaria|move: Taunt
+|cant|p1a: Altaria|move: Taunt|Dragon Dance
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Gardevoir|Gardevoir, L81, M|100/100
+|-ability|p2a: Gardevoir|Pixilate|[from] ability: Trace|[of] p1a: Altaria
+|move|p1a: Altaria|Return|p2a: Gardevoir
+|-damage|p2a: Gardevoir|30/100
+|
+|upkeep
+|turn|7
+
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, L81, M
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Gardevoir|Hyper Voice|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|upkeep
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|88/100
+|turn|8
+
+|
+|switch|p2a: Gliscor|Gliscor, L80, M|100/100 tox
+|move|p1a: Cobalion|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|78/100 tox
+|
+|-heal|p1a: Cobalion|94/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Lugia
+|-immune|p1a: Lugia
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+
+|
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|76/100
+|move|p2a: Gliscor|Knock Off|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|
+|-heal|p1a: Lugia|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|94/100
+|move|p2a: Gliscor|Knock Off|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|85/100
+|-ability|p1a: Cobalion|Justified|boost
+|-boost|p1a: Cobalion|atk|1
+|-enditem|p1a: Cobalion|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Cobalion|Stone Edge|p2a: Gliscor
+|-damage|p2a: Gliscor|72/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|30/100
+|
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|47/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|
+|switch|p1a: Gardevoir|Gardevoir, L84, F|100/100
+|-ability|p1a: Gardevoir|Poison Heal|[from] ability: Trace|[of] p2a: Gliscor
+|turn|14
+
+|
+|move|p2a: Gliscor|Taunt|p1a: Gardevoir
+|-start|p1a: Gardevoir|move: Taunt
+|cant|p1a: Gardevoir|move: Taunt|Substitute
+|
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+
+|
+|move|p2a: Gliscor|Knock Off|p1a: Gardevoir
+|-damage|p1a: Gardevoir|68/100
+|-enditem|p1a: Gardevoir|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Gardevoir|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|10/100 tox
+|-unboost|p2a: Gliscor|spa|1
+|
+|-heal|p2a: Gliscor|23/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+
+|c|☆afakedugong|how come your whole team knows substitute? lol
+
+|
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|73/100 tox
+|-singleturn|p2a: Gliscor|move: Roost
+|move|p1a: Gardevoir|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|20/100 tox
+|
+|-heal|p2a: Gliscor|32/100 tox|[from] ability: Poison Heal
+|-end|p1a: Gardevoir|move: Taunt
+|upkeep
+|turn|17
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Gardevoir
+|-damage|p1a: Gardevoir|21/100
+|move|p1a: Gardevoir|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+
+|
+|switch|p2a: Magcargo|Magcargo, L89, F|100/100
+|turn|18
+
+|
+|switch|p1a: Excadrill|Excadrill, L80, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Magcargo|Shell Smash|p2a: Magcargo
+|-unboost|p2a: Magcargo|def|1
+|-unboost|p2a: Magcargo|spd|1
+|-boost|p2a: Magcargo|atk|2
+|-boost|p2a: Magcargo|spa|2
+|-boost|p2a: Magcargo|spe|2
+|-enditem|p2a: Magcargo|White Herb
+|-clearnegativeboost|p2a: Magcargo|[silent]
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Magcargo|Fire Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+
+|-message|EndaoSong forfeited.
+
+|
+|win|afakedugong

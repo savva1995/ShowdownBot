@@ -1,0 +1,354 @@
+|init|battle
+|title|Pikulu vs. Bacon7Pineapple789
+|j|☆Pikulu
+|j|☆Bacon7Pineapple789
+|player|p1|Pikulu|66|1121
+|player|p2|Bacon7Pineapple789|2|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] ZU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dusknoir, F|item
+|poke|p1|Lickilicky, M|item
+|poke|p1|Rotom-Fan|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Regice|item
+|poke|p1|Sudowoodo, F|item
+|poke|p2|Smeargle, F|item
+|poke|p2|Shuckle, M|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Silvally-*|item
+|poke|p2|Gogoat, M|item
+|poke|p2|Crustle, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bacon7Pineapple789)
+|
+|start
+|switch|p1a: Sudowoodo|Sudowoodo, F|100/100
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Smeargle|Spore|p1a: Rotom
+|-status|p1a: Rotom|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Dusknoir|Dusknoir, F|100/100
+|-ability|p1a: Dusknoir|Pressure
+|move|p2a: Smeargle|Sticky Web|p1a: Dusknoir
+|-sidestart|p1: Pikulu|move: Sticky Web
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Smeargle|Stealth Rock|p1a: Dusknoir
+|-sidestart|p1: Pikulu|move: Stealth Rock
+|move|p1a: Dusknoir|Substitute|p1a: Dusknoir
+|-start|p1a: Dusknoir|Substitute
+|-damage|p1a: Dusknoir|76/100
+|
+|-heal|p1a: Dusknoir|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|-singleturn|p1a: Dusknoir|move: Focus Punch
+|move|p2a: Smeargle|Spikes|p1a: Dusknoir
+|-sidestart|p1: Pikulu|Spikes
+|move|p1a: Dusknoir|Focus Punch|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|
+|-heal|p1a: Dusknoir|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Smeargle|Spikes|p1a: Dusknoir
+|-sidestart|p1: Pikulu|Spikes
+|move|p1a: Dusknoir|Ice Punch|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|-heal|p1a: Dusknoir|94/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Crustle|Crustle, F|100/100
+|turn|6
+
+|
+|-singleturn|p1a: Dusknoir|move: Focus Punch
+|move|p2a: Crustle|Poison Jab|p1a: Dusknoir
+|-resisted|p1a: Dusknoir
+|-activate|p1a: Dusknoir|move: Substitute|[damage]
+|move|p1a: Dusknoir|Focus Punch|p2a: Crustle
+|-damage|p2a: Crustle|49/100
+|
+|-heal|p1a: Dusknoir|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|-singleturn|p1a: Dusknoir|move: Focus Punch
+|move|p2a: Crustle|Stone Edge|p1a: Dusknoir
+|-end|p1a: Dusknoir|Substitute
+|move|p1a: Dusknoir|Focus Punch|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|-heal|p1a: Dusknoir|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Silvally|Silvally-Ghost|100/100
+|turn|8
+
+|
+|switch|p1a: Lickilicky|Lickilicky, M|100/100
+|-activate|p1a: Lickilicky|move: Sticky Web
+|-unboost|p1a: Lickilicky|spe|1
+|-damage|p1a: Lickilicky|88/100|[from] Stealth Rock
+|-damage|p1a: Lickilicky|71/100|[from] Spikes
+|move|p2a: Silvally|Multi-Attack|p1a: Lickilicky
+|-immune|p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Lickilicky|Heal Bell|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Heal Bell
+|-curestatus|p1: Rotom|slp|[msg]
+|
+|-heal|p1a: Lickilicky|84/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Silvally|Flame Charge|p1a: Lickilicky
+|-damage|p1a: Lickilicky|61/100
+|-boost|p2a: Silvally|spe|1
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|67/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Lickilicky|Toxic|p2a: Silvally
+|-status|p2a: Silvally|tox
+|
+|-heal|p1a: Lickilicky|100/100|[from] move: Wish|[wisher] Lickilicky
+|-damage|p2a: Silvally|94/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Lickilicky|Protect|p1a: Lickilicky
+|-singleturn|p1a: Lickilicky|Protect
+|move|p2a: Silvally|Flame Charge|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Protect
+|
+|-damage|p2a: Silvally|82/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Silvally|Flame Charge|p1a: Lickilicky
+|-damage|p1a: Lickilicky|66/100
+|-boost|p2a: Silvally|spe|1
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|72/100|[from] item: Leftovers
+|-damage|p2a: Silvally|64/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Silvally|Flame Charge|p1a: Lickilicky
+|-damage|p1a: Lickilicky|36/100
+|-boost|p2a: Silvally|spe|1
+|move|p1a: Lickilicky|Toxic|p2a: Silvally
+|-fail|p2a: Silvally|tox
+|
+|-heal|p1a: Lickilicky|86/100|[from] move: Wish|[wisher] Lickilicky
+|-heal|p1a: Lickilicky|92/100|[from] item: Leftovers
+|-damage|p2a: Silvally|40/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Silvally|Flame Charge|p1a: Lickilicky
+|-damage|p1a: Lickilicky|57/100
+|-boost|p2a: Silvally|spe|1
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|63/100|[from] item: Leftovers
+|-damage|p2a: Silvally|10/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Lickilicky|Protect|p1a: Lickilicky
+|-singleturn|p1a: Lickilicky|Protect
+|move|p2a: Silvally|U-turn|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Protect
+|
+|-heal|p1a: Lickilicky|100/100|[from] move: Wish|[wisher] Lickilicky
+|-damage|p2a: Silvally|0 fnt|[from] psn
+|faint|p2a: Silvally
+|upkeep
+
+|
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|turn|17
+
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-unboost|p2a: Shuckle|def|1
+|-unboost|p2a: Shuckle|spd|1
+|-boost|p2a: Shuckle|atk|2
+|-boost|p2a: Shuckle|spa|2
+|-boost|p2a: Shuckle|spe|2
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Rotom|Defog|p2a: Shuckle
+|-unboost|p2a: Shuckle|evasion|1
+|-sideend|p1: Pikulu|Spikes|[from] move: Defog|[of] p1a: Rotom
+|-sideend|p1: Pikulu|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|-sideend|p1: Pikulu|Sticky Web|[from] move: Defog|[of] p1a: Rotom
+|move|p2a: Shuckle|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Rotom|Volt Switch|p2a: Shuckle
+|-damage|p2a: Shuckle|67/100
+
+|
+|switch|p1a: Dusknoir|Dusknoir, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Dusknoir|Pressure
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-unboost|p2a: Shuckle|def|1
+|-unboost|p2a: Shuckle|spd|1
+|-boost|p2a: Shuckle|atk|2
+|-boost|p2a: Shuckle|spa|2
+|-boost|p2a: Shuckle|spe|2
+|
+|-heal|p2a: Shuckle|72/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Shuckle|Toxic|p1a: Dusknoir
+|-status|p1a: Dusknoir|tox
+|move|p1a: Dusknoir|Substitute|p1a: Dusknoir
+|-start|p1a: Dusknoir|Substitute
+|-damage|p1a: Dusknoir|76/100 tox
+|
+|-heal|p2a: Shuckle|78/100|[from] item: Leftovers
+|-heal|p1a: Dusknoir|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Dusknoir|76/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|-singleturn|p1a: Dusknoir|move: Focus Punch
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-unboost|p2a: Shuckle|def|1
+|-unboost|p2a: Shuckle|spd|1
+|-boost|p2a: Shuckle|atk|2
+|-boost|p2a: Shuckle|spa|2
+|-boost|p2a: Shuckle|spe|2
+|move|p1a: Dusknoir|Focus Punch|p2a: Shuckle
+|-crit|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-heal|p1a: Dusknoir|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Dusknoir|70/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Gogoat|Gogoat, M|100/100
+|turn|22
+
+|
+|switch|p1a: Regice|Regice|100/100
+|move|p2a: Gogoat|Bulk Up|p2a: Gogoat
+|-boost|p2a: Gogoat|atk|1
+|-boost|p2a: Gogoat|def|1
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Regice|Rock Polish|p1a: Regice
+|-boost|p1a: Regice|spe|2
+|move|p2a: Gogoat|Bulk Up|p2a: Gogoat
+|-boost|p2a: Gogoat|atk|1
+|-boost|p2a: Gogoat|def|1
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Regice|Ice Beam|p2a: Gogoat
+|-supereffective|p2a: Gogoat
+|-damage|p2a: Gogoat|44/100
+|move|p2a: Gogoat|Bulk Up|p2a: Gogoat
+|-boost|p2a: Gogoat|atk|1
+|-boost|p2a: Gogoat|def|1
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Regice|Ice Beam|p2a: Gogoat
+|-supereffective|p2a: Gogoat
+|-damage|p2a: Gogoat|0 fnt
+|faint|p2a: Gogoat
+|
+|upkeep
+
+|
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|turn|26
+
+|
+|move|p1a: Regice|Ice Beam|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|win|Pikulu

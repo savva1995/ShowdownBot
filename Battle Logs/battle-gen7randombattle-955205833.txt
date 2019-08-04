@@ -1,0 +1,281 @@
+|init|battle
+|title|DeityStarZ vs. intbros
+|j|☆DeityStarZ
+|j|☆intbros
+|player|p1|DeityStarZ|2|1625
+|player|p2|intbros|169|1564
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dialga|Dialga, L78|100/100
+|switch|p2a: Volbeat|Volbeat, L89, M|100/100
+|-ability|p1a: Dialga|Pressure
+|turn|1
+|
+|move|p2a: Volbeat|Thunder Wave|p1a: Dialga
+|-status|p1a: Dialga|par
+|move|p1a: Dialga|Fire Blast|p2a: Volbeat
+|-supereffective|p2a: Volbeat
+|-damage|p2a: Volbeat|23/100
+|
+|-heal|p2a: Volbeat|29/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DeityStarZ)
+|
+|move|p2a: Volbeat|U-turn|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|90/100 par
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, F|100/100|[from]move: U-turn
+|cant|p1a: Dialga|par
+|
+|-heal|p1a: Dialga|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|76/100
+|move|p1a: Dialga|Fire Blast|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|
+|-heal|p2a: Toxicroak|82/100|[from] item: Black Sludge
+|-heal|p1a: Dialga|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Dialga|Fire Blast|p2a: Toxicroak
+|-damage|p2a: Toxicroak|23/100
+|
+|-heal|p2a: Toxicroak|29/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Chandelure|Chandelure, L82, M|100/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-heal|p2a: Toxicroak|36/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Empoleon|Empoleon, L82, M|100/100
+|move|p1a: Chandelure|Fire Blast|p2a: Empoleon|[miss]
+|-miss|p1a: Chandelure|p2a: Empoleon
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Heracross|Heracross, L81, M|100/100
+|move|p2a: Empoleon|Scald|p1a: Heracross
+|-damage|p1a: Heracross|56/100
+|-damage|p2a: Empoleon|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+
+|
+|detailschange|p1a: Heracross|Heracross-Mega, L81, M
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p1a: Heracross|Close Combat|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Empoleon
+|
+|upkeep
+
+|
+|switch|p2a: Zekrom|Zekrom, L78|100/100
+|-ability|p2a: Zekrom|Teravolt
+|turn|9
+
+|
+|switch|p1a: Dialga|Dialga, L78|100/100 par
+|-ability|p1a: Dialga|Pressure
+|move|p2a: Zekrom|Dragon Claw|p1a: Dialga
+|-damage|p1a: Dialga|69/100 par
+|
+|-heal|p1a: Dialga|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, F|100/100
+|cant|p1a: Dialga|par
+|
+|-heal|p1a: Dialga|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|cant|p1a: Dialga|par
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Dialga
+|-sidestart|p1: DeityStarZ|move: Stealth Rock
+|
+|-heal|p1a: Dialga|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Dialga|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Dialga|93/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, F|36/100
+|turn|13
+
+|
+|switch|p1a: Chandelure|Chandelure, L82, M|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Drain Punch|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-heal|p2a: Toxicroak|42/100|[from] item: Black Sludge
+|-heal|p1a: Chandelure|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Zekrom|Zekrom, L78|100/100
+|-ability|p2a: Zekrom|Teravolt
+|move|p1a: Chandelure|Calm Mind|p1a: Chandelure
+|-boost|p1a: Chandelure|spa|1
+|-boost|p1a: Chandelure|spd|1
+|
+|-heal|p1a: Chandelure|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Zekrom|Hone Claws|p2a: Zekrom
+|-boost|p2a: Zekrom|atk|1
+|-boost|p2a: Zekrom|accuracy|1
+|move|p1a: Chandelure|Shadow Ball|p2a: Zekrom
+|-damage|p2a: Zekrom|42/100
+|
+|-heal|p2a: Zekrom|48/100|[from] item: Leftovers
+|-heal|p1a: Chandelure|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Zekrom|Bolt Strike|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-heal|p2a: Zekrom|54/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Mesprit|Mesprit, L86|100/100
+|-damage|p1a: Mesprit|88/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Mesprit|Ice Beam|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|3/100
+|move|p2a: Zekrom|Roost|p2a: Zekrom
+|-heal|p2a: Zekrom|53/100
+|-singleturn|p2a: Zekrom|move: Roost
+|
+|-heal|p2a: Zekrom|59/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Mesprit|Ice Beam|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|11/100
+|move|p2a: Zekrom|Bolt Strike|p1a: Mesprit
+|-damage|p1a: Mesprit|4/100
+|
+|-heal|p2a: Zekrom|17/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L86, M|100/100
+|move|p1a: Mesprit|Ice Beam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|75/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Hitmonlee|Fake Out|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|-damage|p2a: Hitmonlee|65/100|[from] item: Life Orb
+|faint|p1a: Mesprit
+|
+|upkeep
+
+|
+|switch|p1a: Archeops|Archeops, L87, M|100/100
+|-damage|p1a: Archeops|76/100|[from] Stealth Rock
+|turn|21
+
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, F|42/100
+|move|p1a: Archeops|Stone Edge|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+
+|
+|switch|p2a: Volbeat|Volbeat, L89, M|29/100
+|turn|22
+
+|
+|switch|p1a: Dialga|Dialga, L78|93/100 par
+|-damage|p1a: Dialga|87/100 par|[from] Stealth Rock
+|-ability|p1a: Dialga|Pressure
+|move|p2a: Volbeat|Thunder Wave|p1a: Dialga
+|-fail|p1a: Dialga|par
+|
+|-heal|p2a: Volbeat|36/100|[from] item: Leftovers
+|-heal|p1a: Dialga|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Volbeat|Roost|p2a: Volbeat
+|-heal|p2a: Volbeat|86/100
+|-singleturn|p2a: Volbeat|move: Roost
+|move|p1a: Dialga|Fire Blast|p2a: Volbeat
+|-supereffective|p2a: Volbeat
+|-damage|p2a: Volbeat|10/100
+|
+|-heal|p2a: Volbeat|16/100|[from] item: Leftovers
+|-heal|p1a: Dialga|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|-message|intbros forfeited.
+
+|
+|win|DeityStarZ

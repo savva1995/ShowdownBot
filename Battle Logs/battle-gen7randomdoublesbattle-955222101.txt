@@ -1,0 +1,44 @@
+|init|battle
+|title|arunash vs. Reyokai
+|j|☆arunash
+|j|☆Reyokai
+|player|p1|arunash|150|1074
+|player|p2|Reyokai|30|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zebstrika|Zebstrika, L79, F|100/100
+|switch|p1b: Braviary|Braviary, L78, M|100/100
+|switch|p2a: Accelgor|Accelgor, L80, F|100/100
+|switch|p2b: Victreebel|Victreebel, L80, M|100/100
+|turn|1
+
+|
+|move|p2a: Accelgor|Protect|p2a: Accelgor
+|-singleturn|p2a: Accelgor|Protect
+|move|p1a: Zebstrika|Overheat|p2b: Victreebel
+|-supereffective|p2b: Victreebel
+|-damage|p2b: Victreebel|10/100
+|-unboost|p1a: Zebstrika|spa|2
+|-damage|p1a: Zebstrika|91/100|[from] item: Life Orb
+|move|p1b: Braviary|Rock Slide|p2a: Accelgor|[spread] p2b
+|-activate|p2a: Accelgor|move: Protect
+|-damage|p2b: Victreebel|0 fnt
+|faint|p2b: Victreebel
+|
+|upkeep
+
+|
+|switch|p2b: Jynx|Jynx, L84, F|100/100
+|turn|2
+
+|-message|Reyokai forfeited.
+
+|
+|win|arunash

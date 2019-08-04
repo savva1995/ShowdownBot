@@ -1,0 +1,49 @@
+|init|battle
+|title|PracownikBOR vs. Pimperperle
+|j|☆PracownikBOR
+|j|☆Pimperperle
+|player|p1|PracownikBOR|40|1085
+|player|p2|Pimperperle|102|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Walrein|Walrein, L89, F|100/100
+|switch|p2a: Suicune|Suicune, L82|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PracownikBOR)
+|
+|move|p2a: Suicune|Hidden Power|p1a: Walrein
+|-supereffective|p1a: Walrein
+|-damage|p1a: Walrein|80/100
+|move|p1a: Walrein|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-heal|p1a: Walrein|86/100|[from] item: Leftovers
+|-damage|p2a: Suicune|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|l|☆PracownikBOR
+|inactive|PracownikBOR disconnected and has a minute to reconnect!
+|player|p1|
+
+|inactive|PracownikBOR has 30 seconds to reconnect!
+
+|inactive|PracownikBOR has 20 seconds to reconnect!
+
+|inactive|PracownikBOR has 15 seconds to reconnect!
+
+|inactive|PracownikBOR has 10 seconds to reconnect!
+
+|inactive|PracownikBOR has 5 seconds to reconnect!
+
+|-message|PracownikBOR lost due to inactivity.
+|
+|win|Pimperperle

@@ -1,0 +1,222 @@
+|init|battle
+|title|peoximirt vs. 3ngag3
+|j|☆peoximirt
+|j|☆3ngag3
+|player|p1|peoximirt|80|1385
+|player|p2|3ngag3|170|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Oricorio|Oricorio-Pa'u, L89, M|100/100
+|switch|p2a: Poliwrath|Poliwrath, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 3ngag3)
+|
+|switch|p2a: Snorlax|Snorlax, L84, M|100/100
+|move|p1a: Oricorio|Revelation Dance|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|67/100
+|
+|upkeep
+|turn|2
+|inactive|peoximirt has 120 seconds left.
+
+|
+|switch|p1a: Haxorus|Haxorus, L82, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Snorlax|Crunch|p1a: Haxorus
+|-damage|p1a: Haxorus|67/100
+|
+|upkeep
+|turn|3
+
+|inactive|peoximirt has 120 seconds left.
+
+|
+|switch|p2a: Greninja|Greninja, L80, F|100/100
+|move|p1a: Haxorus|Outrage|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-damage|p1a: Haxorus|57/100|[from] item: Life Orb
+|faint|p2a: Greninja
+|
+|upkeep
+
+|
+|switch|p2a: Poliwrath|Poliwrath, L89, F|100/100
+|turn|4
+
+|
+|move|p1a: Haxorus|Outrage|p2a: Poliwrath|[from]lockedmove
+|-damage|p2a: Poliwrath|35/100
+|-damage|p1a: Haxorus|48/100|[from] item: Life Orb
+|move|p2a: Poliwrath|Ice Punch|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-damage|p2a: Poliwrath|25/100|[from] item: Life Orb
+|faint|p1a: Haxorus
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, L84, F|100/100
+|turn|5
+
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Poliwrath
+|-sidestart|p2: 3ngag3|move: Sticky Web
+|move|p2a: Poliwrath|Ice Punch|p1a: Galvantula
+|-damage|p1a: Galvantula|62/100
+|-damage|p2a: Poliwrath|16/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Galvantula|Bug Buzz|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|-damage|p1a: Galvantula|52/100|[from] item: Life Orb
+|faint|p2a: Poliwrath
+|
+|upkeep
+
+|
+|switch|p2a: Latios|Latios, L81, M|100/100
+|turn|7
+
+|
+|move|p1a: Galvantula|Bug Buzz|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|17/100
+|-unboost|p2a: Latios|spd|1
+|-damage|p1a: Galvantula|42/100|[from] item: Life Orb
+|move|p2a: Latios|Defog|p1a: Galvantula
+|-unboost|p1a: Galvantula|evasion|1
+|-sideend|p2: 3ngag3|Sticky Web|[from] move: Defog|[of] p2a: Latios
+|
+|-heal|p2a: Latios|23/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Latios
+|-sidestart|p2: 3ngag3|move: Sticky Web
+|move|p2a: Latios|Draco Meteor|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Galvantula
+|
+|-heal|p2a: Latios|30/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile, L84, F|100/100
+|turn|9
+
+|
+|detailschange|p1a: Sceptile|Sceptile-Mega, L84, F
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Outrage|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+
+|
+|switch|p2a: Blaziken|Blaziken, L78, M|100/100
+|-activate|p2a: Blaziken|move: Sticky Web
+|-unboost|p2a: Blaziken|spe|1
+|turn|10
+
+|
+|detailschange|p2a: Blaziken|Blaziken-Mega, L78, M
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Sceptile|Outrage|p2a: Blaziken|[from]lockedmove
+|-damage|p2a: Blaziken|42/100
+|-start|p1a: Sceptile|confusion|[fatigue]
+|move|p2a: Blaziken|Flare Blitz|p1a: Sceptile
+|-damage|p1a: Sceptile|27/100
+|-status|p1a: Sceptile|brn
+|-damage|p2a: Blaziken|17/100|[from] Recoil
+|
+|-damage|p1a: Sceptile|21/100 brn|[from] brn
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|11
+
+|
+|-activate|p1a: Sceptile|confusion
+|move|p1a: Sceptile|Leaf Blade|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|6/100
+|move|p2a: Blaziken|High Jump Kick|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p1a: Oricorio|Oricorio-Pa'u, L89, M|100/100
+|turn|12
+
+|
+|move|p2a: Blaziken|Stone Edge|p1a: Oricorio
+|-supereffective|p1a: Oricorio
+|-damage|p1a: Oricorio|31/100
+|move|p1a: Oricorio|Roost|p1a: Oricorio
+|-heal|p1a: Oricorio|81/100
+|-singleturn|p1a: Oricorio|move: Roost
+|
+|-heal|p1a: Oricorio|87/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|13
+
+|
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|-activate|p1a: Oricorio|ability: Dancer
+|move|p1a: Oricorio|Swords Dance|p1a: Oricorio|[from]Dancer
+|-boost|p1a: Oricorio|atk|2
+|move|p1a: Oricorio|Revelation Dance|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|-heal|p1a: Oricorio|93/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Snorlax|Snorlax, L84, M|67/100
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|turn|14
+
+|
+|move|p1a: Oricorio|Calm Mind|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|move|p2a: Snorlax|Pursuit|p1a: Oricorio
+|-supereffective|p1a: Oricorio
+|-damage|p1a: Oricorio|54/100
+|
+|-heal|p1a: Oricorio|60/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|-message|3ngag3 forfeited.
+
+|
+|win|peoximirt

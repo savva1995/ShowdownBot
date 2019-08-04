@@ -1,0 +1,314 @@
+|init|battle
+|title|ashfjlk vs. soso46
+|j|☆ashfjlk
+|j|☆soso46
+|player|p1|ashfjlk|260|1385
+|player|p2|soso46|23|1373
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|switch|p2a: Lumineon|Lumineon, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ashfjlk)
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Lumineon|atk|1
+|move|p2a: Lumineon|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|81/100
+|-status|p1a: Qwilfish|brn
+|
+|-heal|p1a: Qwilfish|87/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|81/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Lumineon|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|63/100 brn
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Lumineon
+|-sidestart|p2: soso46|move: Toxic Spikes
+|
+|-heal|p1a: Qwilfish|69/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|63/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Lumineon|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|43/100 brn
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Lumineon
+|-sidestart|p2: soso46|move: Toxic Spikes
+|
+|-heal|p1a: Qwilfish|49/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|43/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Lumineon|Defog|p1a: Qwilfish
+|-unboost|p1a: Qwilfish|evasion|1
+|-sideend|p2: soso46|Toxic Spikes|[from] move: Defog|[of] p2a: Lumineon
+|move|p1a: Qwilfish|Thunder Wave|p2a: Lumineon|[miss]
+|-miss|p1a: Qwilfish|p2a: Lumineon
+|
+|-heal|p1a: Qwilfish|49/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|43/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Gastrodon|Gastrodon, L88, F|100/100
+|switch|p1a: Xerneas|Xerneas, L78|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|move|p2a: Gastrodon|Clear Smog|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|89/100
+|-clearboost|p1a: Xerneas
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Lapras|Lapras, L89, M|100/100
+|move|p2a: Gastrodon|Scald|p1a: Lapras
+|-immune|p1a: Lapras|[from] ability: Water Absorb
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Lumineon|Lumineon, L89, M|100/100
+|move|p1a: Lapras|Ice Beam|p2a: Lumineon
+|-resisted|p2a: Lumineon
+|-damage|p2a: Lumineon|83/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Lumineon|U-turn|p1a: Lapras
+|-damage|p1a: Lapras|89/100
+
+|
+|switch|p2a: Chesnaught|Chesnaught, L82, F|100/100|[from]move: U-turn
+|move|p1a: Lapras|Thunderbolt|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|88/100
+|
+|-heal|p1a: Lapras|95/100|[from] item: Leftovers
+|-heal|p2a: Chesnaught|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|20/100
+|move|p2a: Chesnaught|Wood Hammer|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|29/100
+|-damage|p2a: Chesnaught|0 fnt|[from] Recoil
+|faint|p2a: Chesnaught
+|
+|-heal|p1a: Lapras|35/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound, L81|100/100
+|turn|11
+
+|
+|switch|p1a: Excadrill|Excadrill, L80, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Hoopa|Drain Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|13/100
+|-damage|p2a: Hoopa|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Talonflame
+|-immune|p2a: Talonflame
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Talonflame|Flare Blitz|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Talonflame|96/100|[from] Recoil
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Talonflame|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, F|43/100 brn
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|turn|14
+
+|
+|switch|p2a: Lumineon|Lumineon, L89, M|83/100
+|move|p1a: Qwilfish|Liquidation|p2a: Lumineon
+|-ability|p2a: Lumineon|Storm Drain|boost
+|-boost|p2a: Lumineon|spa|1
+|
+|-heal|p1a: Qwilfish|49/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|43/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Lumineon|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-crit|p1a: Qwilfish
+|-damage|p1a: Qwilfish|1/100 brn
+|move|p1a: Qwilfish|Thunder Wave|p2a: Lumineon
+|-status|p2a: Lumineon|par
+|
+|-heal|p1a: Qwilfish|7/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|1/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Lumineon
+|-sidestart|p2: soso46|move: Toxic Spikes
+|cant|p2a: Lumineon|par
+|
+|-heal|p1a: Qwilfish|7/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|1/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Qwilfish|Taunt|p2a: Lumineon
+|-start|p2a: Lumineon|move: Taunt
+|cant|p2a: Lumineon|move: Taunt|Defog
+|
+|-heal|p1a: Qwilfish|7/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|1/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, M|100/100
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Talonflame
+|-sidestart|p2: soso46|move: Toxic Spikes
+|
+|-heal|p1a: Qwilfish|7/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|1/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|-damage|p2a: Talonflame|99/100|[from] Recoil
+|faint|p1a: Qwilfish
+|
+|-heal|p2a: Talonflame|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Lapras|Lapras, L89, M|35/100
+|turn|20
+
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-damage|p2a: Talonflame|84/100|[from] Recoil
+|faint|p1a: Lapras
+|
+|-heal|p2a: Talonflame|90/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|turn|21
+
+|
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Cobalion
+|-status|p1a: Cobalion|brn
+|move|p1a: Cobalion|Stone Edge|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|38/100
+|
+|-heal|p2a: Talonflame|44/100|[from] item: Leftovers
+|-damage|p1a: Cobalion|94/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|94/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Cobalion|Stone Edge|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-crit|p2a: Talonflame
+|-damage|p2a: Talonflame|50/100
+|
+|-heal|p2a: Talonflame|56/100|[from] item: Leftovers
+|-heal|p1a: Cobalion|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|94/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Cobalion|Taunt|p2a: Talonflame
+|-start|p2a: Talonflame|move: Taunt
+|
+|-heal|p1a: Cobalion|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|94/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p2a: Talonflame|Flare Blitz|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|39/100 brn
+|-damage|p2a: Talonflame|81/100|[from] Recoil
+|move|p1a: Cobalion|Stone Edge|p2a: Talonflame|[miss]
+|-miss|p1a: Cobalion|p2a: Talonflame
+|
+|-heal|p2a: Talonflame|87/100|[from] item: Leftovers
+|-heal|p1a: Cobalion|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Cobalion|39/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|-message|ashfjlk forfeited.
+
+|
+|win|soso46

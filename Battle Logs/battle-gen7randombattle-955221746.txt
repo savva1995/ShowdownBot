@@ -1,0 +1,216 @@
+|init|battle
+|title|Milamber's fate vs. GYM LEADER HUAWEI
+|j|☆Milamber's fate
+|j|☆GYM LEADER HUAWEI
+|player|p1|Milamber's fate|101|1536
+|player|p2|GYM LEADER HUAWEI|275|1510
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raticate|Raticate, L89, M|100/100
+|switch|p2a: Zeraora|Zeraora, L82|100/100
+|turn|1
+|
+|move|p1a: Raticate|Protect|p1a: Raticate
+|-singleturn|p1a: Raticate|Protect
+|move|p2a: Zeraora|Plasma Fists|p1a: Raticate
+|-activate|p1a: Raticate|move: Protect
+|
+|-status|p1a: Raticate|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Zeraora|Plasma Fists|p1a: Raticate
+|-damage|p1a: Raticate|42/100 brn
+|-fieldactivate|move: Ion Deluge
+|move|p1a: Raticate|Facade|p2a: Zeraora
+|-immune|p2a: Zeraora|[from] ability: Volt Absorb
+|
+|-damage|p1a: Raticate|36/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Raticate|Sucker Punch|p2a: Zeraora
+|-damage|p2a: Zeraora|71/100
+|move|p2a: Zeraora|Plasma Fists|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Raticate
+|
+|upkeep
+|
+|switch|p1a: Delphox|Delphox, L86, F|100/100
+|turn|4
+|
+|move|p2a: Zeraora|Knock Off|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|36/100
+|-enditem|p1a: Delphox|Life Orb|[from] move: Knock Off|[of] p2a: Zeraora
+|move|p1a: Delphox|Fire Blast|p2a: Zeraora
+|-damage|p2a: Zeraora|36/100
+|
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Milamber's fate)
+|
+|move|p2a: Zeraora|Plasma Fists|p1a: Delphox
+|-crit|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Delphox
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, L80, M|100/100
+|turn|6
+|
+|detailschange|p1a: Scizor|Scizor-Mega, L80, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Zeraora|Volt Switch|p1a: Scizor
+|-damage|p1a: Scizor|70/100
+|
+|switch|p2a: Blastoise|Blastoise, L84, F|100/100|[from]move: Volt Switch
+|move|p1a: Scizor|Superpower|p2a: Blastoise
+|-damage|p2a: Blastoise|60/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Golisopod|Golisopod, L84, F|100/100
+|detailschange|p2a: Blastoise|Blastoise-Mega, L84, F
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Blastoise|Scald|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|81/100
+|-status|p1a: Golisopod|brn
+|
+|-damage|p1a: Golisopod|75/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L85, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Golisopod|Leech Life|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|71/100
+|-heal|p1a: Golisopod|89/100 brn|[from] drain|[of] p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Golisopod|83/100 brn|[from] Hail
+|-damage|p1a: Golisopod|77/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|GYM LEADER HUAWEI has 120 seconds left.
+|
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Golisopod
+|-supereffective|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|-damage|p2a: Vanilluxe|62/100|[from] item: Life Orb
+|faint|p1a: Golisopod
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor-Mega, L80, M|70/100
+|turn|10
+|inactive|GYM LEADER HUAWEI has 120 seconds left.
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Scizor|64/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Naganadel|Naganadel, L78|100/100
+|turn|11
+
+|
+|switch|p1a: Yveltal|Yveltal, L78|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Naganadel|Fire Blast|p1a: Yveltal
+|-damage|p1a: Yveltal|79/100
+|-damage|p2a: Naganadel|91/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Naganadel|84/100|[from] Hail
+|-damage|p1a: Yveltal|73/100|[from] Hail
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L89, M|100/100
+|move|p1a: Yveltal|Oblivion Wing|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|68/100
+|-heal|p1a: Yveltal|100/100|[from] drain|[of] p2a: Wigglytuff
+|
+|-weather|none
+|-heal|p2a: Wigglytuff|74/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Yveltal|Oblivion Wing|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|39/100
+|move|p2a: Wigglytuff|Dazzling Gleam|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|65/100
+|
+|-heal|p2a: Wigglytuff|45/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|GYM LEADER HUAWEI has 90 seconds left.
+
+|
+|switch|p1a: Scizor|Scizor-Mega, L80, M|64/100
+|move|p2a: Wigglytuff|Dazzling Gleam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|47/100
+|
+|-heal|p2a: Wigglytuff|51/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|GYM LEADER HUAWEI has 90 seconds left.
+
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, F|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|65/100
+|
+|upkeep
+|turn|16
+
+|inactive|GYM LEADER HUAWEI has 90 seconds left.
+
+|l|☆Milamber's fate
+
+|inactive|Milamber's fate disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Milamber's fate has 30 seconds to reconnect!
+
+|inactive|Milamber's fate has 20 seconds to reconnect!
+
+|inactive|Milamber's fate has 15 seconds to reconnect!
+
+|inactive|Milamber's fate has 10 seconds to reconnect!
+
+|inactive|Milamber's fate has 5 seconds to reconnect!
+
+|-message|Milamber's fate lost due to inactivity.
+|
+|win|GYM LEADER HUAWEI

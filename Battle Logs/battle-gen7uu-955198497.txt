@@ -1,0 +1,181 @@
+|init|battle
+|title|CHERRYBOMB44 vs. FR Chance
+|j|☆CHERRYBOMB44
+|j|☆FR Chance
+|player|p1|CHERRYBOMB44|73|1034
+|player|p2|FR Chance|165|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Beedrill, F|item
+|poke|p1|Zoroark, F|item
+|poke|p1|Klefki, F|item
+|poke|p1|Meloetta|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Trevenant, M|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Volcanion|item
+|poke|p2|Sylveon, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CHERRYBOMB44)
+|
+|start
+|switch|p1a: Klefki|Klefki, F|100/100
+|switch|p2a: Laggron|Swampert, M|100/100
+|turn|1
+|
+|switch|p2a: Scalproie|Bisharp, M|100/100
+|move|p1a: Klefki|Spikes|p2a: Scalproie
+|-sidestart|p2: FR Chance|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Klefki|Thunder Wave|p2a: Scalproie
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Scalproie
+|move|p2a: Scalproie|Swords Dance|p2a: Scalproie
+|-boost|p2a: Scalproie|atk|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Klefki|Metal Sound|p2a: Scalproie
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Scalproie
+|move|p2a: Scalproie|Knock Off|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|23/100
+|-enditem|p1a: Klefki|Mental Herb|[from] move: Knock Off|[of] p2a: Scalproie
+|-damage|p2a: Scalproie|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Klefki|Metal Sound|p2a: Scalproie
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Scalproie
+|move|p2a: Scalproie|Knock Off|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|-damage|p2a: Scalproie|81/100|[from] item: Life Orb
+|faint|p1a: Klefki
+|
+|upkeep
+|
+|switch|p1a: Trevenant|Trevenant, M|100/100
+|turn|5
+
+|
+|move|p1a: Trevenant|Flamethrower|p2a: Scalproie
+|-supereffective|p2a: Scalproie
+|-damage|p2a: Scalproie|0 fnt
+|faint|p2a: Scalproie
+|
+|upkeep
+
+|
+|switch|p2a: Dardargnan|Beedrill, M|100/100
+|-damage|p2a: Dardargnan|88/100|[from] Spikes
+|turn|6
+
+|
+|detailschange|p2a: Dardargnan|Beedrill-Mega, M
+|-mega|p2a: Dardargnan|Beedrill|Beedrillite
+|move|p2a: Dardargnan|Poison Jab|p1a: Trevenant
+|-crit|p1a: Trevenant
+|-enditem|p1a: Trevenant|Focus Sash
+|-damage|p1a: Trevenant|1/100
+|replace|p1a: Zoroark|Zoroark, F
+|-end|p1a: Zoroark|Illusion
+|-status|p1a: Zoroark|psn
+|move|p1a: Zoroark|Flamethrower|p2a: Dardargnan
+|-supereffective|p2a: Dardargnan
+|-damage|p2a: Dardargnan|5/100
+|
+|-damage|p1a: Zoroark|0 fnt|[from] psn
+|faint|p1a: Zoroark
+|upkeep
+
+|
+|switch|p1a: Beedrill|Beedrill, F|100/100
+|turn|7
+
+|
+|detailschange|p1a: Beedrill|Beedrill-Mega, F
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p2a: Dardargnan|Drill Run|p1a: Beedrill
+|-damage|p1a: Beedrill|16/100
+|move|p1a: Beedrill|Fell Stinger|p2a: Dardargnan
+|-resisted|p2a: Dardargnan
+|-damage|p2a: Dardargnan|0 fnt
+|-boost|p1a: Beedrill|atk|3
+|faint|p2a: Dardargnan
+|
+|upkeep
+
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Spikes
+|turn|8
+
+|
+|move|p1a: Beedrill|Poison Jab|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|-damage|p2a: Volcanion|88/100|[from] Spikes
+|turn|9
+
+|
+|move|p1a: Beedrill|Drill Run|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|upkeep
+
+|
+|switch|p2a: Laggron|Swampert, M|100/100
+|-damage|p2a: Laggron|88/100|[from] Spikes
+|turn|10
+
+|
+|move|p1a: Beedrill|X-Scissor|p2a: Laggron
+|-damage|p2a: Laggron|0 fnt
+|faint|p2a: Laggron
+|
+|upkeep
+
+|
+|switch|p2a: Ptera|Aerodactyl, M|100/100
+|-ability|p2a: Ptera|Unnerve|p1: CHERRYBOMB44
+|turn|11
+
+|
+|move|p1a: Beedrill|Poison Jab|p2a: Ptera
+|-resisted|p2a: Ptera
+|-damage|p2a: Ptera|0 fnt
+|faint|p2a: Ptera
+|
+|win|CHERRYBOMB44

@@ -1,0 +1,250 @@
+|init|battle
+|title|Wowmantech vs. EM_Chocolatine
+|j|☆Wowmantech
+|j|☆EM_Chocolatine
+|player|p1|Wowmantech|101|1626
+|player|p2|EM_Chocolatine|2|1650
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lapras|Lapras, L89, F|100/100
+|switch|p2a: Houndoom|Houndoom, L83, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wowmantech)
+|
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|move|p1a: Lapras|Substitute|p1a: Lapras
+|-start|p1a: Lapras|Substitute
+|-damage|p1a: Lapras|76/100
+|
+|-heal|p1a: Lapras|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Volcanion|Sludge Wave|p1a: Palkia
+|-crit|p1a: Palkia
+|-damage|p1a: Palkia|74/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Stoutland|Stoutland, L88, F|100/100
+|move|p1a: Palkia|Draco Meteor|p2a: Stoutland|[miss]
+|-miss|p1a: Palkia|p2a: Stoutland
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Skarmory|Skarmory, L80, M|100/100
+|move|p2a: Stoutland|Return|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|80/100
+|
+|-heal|p1a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Jolteon|Jolteon, L84, F|100/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Jolteon
+|-sidestart|p2: EM_Chocolatine|move: Stealth Rock
+|
+|-heal|p1a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Rhyperior|Rhyperior, L84, F|100/100
+|move|p2a: Jolteon|Volt Switch|p1a: Rhyperior
+|-immune|p1a: Rhyperior
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Stoutland|Stoutland, L88, F|100/100
+|-damage|p2a: Stoutland|88/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Rock Polish|p1a: Rhyperior
+|-boost|p1a: Rhyperior|spe|2
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Stoutland|Superpower|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|66/100
+|-enditem|p1a: Rhyperior|Weakness Policy
+|-boost|p1a: Rhyperior|atk|2
+|-boost|p1a: Rhyperior|spa|2
+|-unboost|p2a: Stoutland|atk|1
+|-unboost|p2a: Stoutland|def|1
+|move|p1a: Rhyperior|Earthquake|p2a: Stoutland
+|-damage|p2a: Stoutland|0 fnt
+|faint|p2a: Stoutland
+|
+|upkeep
+
+|
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|-damage|p2a: Volcanion|76/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p2a: Volcanion|Steam Eruption|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+
+|
+|switch|p1a: Palkia|Palkia, L78|74/100
+|-ability|p1a: Palkia|Pressure
+|turn|10
+
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L81, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|move|p1a: Palkia|Hydro Pump|p2a: Thundurus
+|-damage|p2a: Thundurus|11/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Palkia
+|-damage|p1a: Palkia|40/100
+|-damage|p2a: Thundurus|1/100|[from] item: Life Orb
+|move|p1a: Palkia|Dragon Tail|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+
+|
+|switch|p2a: Jolteon|Jolteon, L84, F|100/100
+|-damage|p2a: Jolteon|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Jolteon|Volt Switch|p1a: Palkia
+|-damage|p1a: Palkia|12/100
+
+|
+|switch|p2a: Yveltal|Yveltal, L78|100/100|[from]move: Volt Switch
+|-damage|p2a: Yveltal|76/100|[from] Stealth Rock
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Palkia|Draco Meteor|p2a: Yveltal
+|-damage|p2a: Yveltal|24/100
+|-unboost|p1a: Palkia|spa|2
+|
+|-heal|p2a: Yveltal|31/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Palkia|Draco Meteor|p2a: Yveltal
+|-damage|p2a: Yveltal|4/100
+|-unboost|p1a: Palkia|spa|2
+|move|p2a: Yveltal|Oblivion Wing|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|-heal|p2a: Yveltal|11/100|[from] drain|[of] p1a: Palkia
+|faint|p1a: Palkia
+|
+|-heal|p2a: Yveltal|17/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Dragonite|Dragonite, L81, M|100/100
+|turn|14
+
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|faint|p2a: Yveltal
+|
+|upkeep
+
+|
+|switch|p2a: Volcanion|Volcanion, L82|76/100
+|-damage|p2a: Volcanion|51/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Volcanion|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|65/100
+|move|p1a: Dragonite|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|upkeep
+
+|
+|switch|p2a: Jolteon|Jolteon, L84, F|88/100
+|-damage|p2a: Jolteon|76/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Jolteon|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+
+|
+|switch|p1a: Feraligatr|Feraligatr, L82, F|100/100
+|turn|17
+
+|
+|switch|p2a: Houndoom|Houndoom, L83, F|100/100
+|-damage|p2a: Houndoom|76/100|[from] Stealth Rock
+|move|p1a: Feraligatr|Liquidation|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|upkeep
+
+|
+|switch|p2a: Jolteon|Jolteon, L84, F|76/100
+|-damage|p2a: Jolteon|64/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Feraligatr|Aqua Jet|p2a: Jolteon
+|-damage|p2a: Jolteon|35/100
+|-damage|p1a: Feraligatr|91/100|[from] item: Life Orb
+|move|p2a: Jolteon|Thunderbolt|p1a: Feraligatr
+|-supereffective|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|upkeep
+
+|
+|switch|p1a: Lapras|Lapras, L89, F|82/100
+|turn|19
+
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|5/100
+|move|p1a: Lapras|Ice Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|Wowmantech

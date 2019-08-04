@@ -1,0 +1,372 @@
+|init|battle
+|title|Jayweb95 vs. Ciutr
+|j|☆Jayweb95
+|j|☆Ciutr
+|player|p1|Jayweb95|238|1358
+|player|p2|Ciutr|266|1330
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lugia|Lugia, L78|100/100
+|switch|p2a: Dodrio|Dodrio, L88, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jayweb95)
+|
+|move|p2a: Dodrio|Return|p1a: Lugia
+|-damage|p1a: Lugia|78/100
+|-damage|p2a: Dodrio|91/100|[from] item: Life Orb
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|53/100
+|
+|-heal|p1a: Lugia|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Dodrio|Return|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|-damage|p2a: Dodrio|81/100|[from] item: Life Orb
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Dodrio|Return|p1a: Lugia
+|-damage|p1a: Lugia|78/100
+|-damage|p2a: Dodrio|72/100|[from] item: Life Orb
+|move|p1a: Lugia|Psychic|p2a: Dodrio
+|-damage|p2a: Dodrio|35/100
+|
+|-heal|p1a: Lugia|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Dodrio|Return|p1a: Lugia
+|-damage|p1a: Lugia|37/100
+|-damage|p2a: Dodrio|25/100|[from] item: Life Orb
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|12/100
+|
+|-heal|p1a: Lugia|19/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Dodrio|Return|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|-damage|p2a: Dodrio|16/100|[from] item: Life Orb
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|69/100
+|-singleturn|p1a: Lugia|move: Roost
+|
+|-heal|p1a: Lugia|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Dodrio|Return|p1a: Lugia
+|-damage|p1a: Lugia|30/100
+|-damage|p2a: Dodrio|6/100|[from] item: Life Orb
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|80/100
+|-singleturn|p1a: Lugia|move: Roost
+|
+|-heal|p1a: Lugia|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Dodrio|Return|p1a: Lugia
+|-damage|p1a: Lugia|37/100
+|-damage|p2a: Dodrio|0 fnt|[from] item: Life Orb
+|faint|p2a: Dodrio
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|87/100
+|-singleturn|p1a: Lugia|move: Roost
+|
+|-heal|p1a: Lugia|93/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|100/100
+|turn|8
+
+|inactive|Jayweb95 has 120 seconds left.
+
+|
+|switch|p1a: Mismagius|Mismagius, L86, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|11/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Mismagius|17/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Snorlax|Snorlax, L84, F|100/100
+|move|p1a: Mismagius|Dazzling Gleam|p2a: Snorlax
+|-damage|p2a: Snorlax|87/100
+|
+|-heal|p1a: Mismagius|23/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Heatran|Heatran, L80, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Snorlax|Fire Punch|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Heatran|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: Ciutr|move: Stealth Rock
+|move|p2a: Snorlax|Body Slam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|85/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|inactive|Jayweb95 has 120 seconds left.
+
+|
+|move|p1a: Heatran|Lava Plume|p2a: Snorlax
+|-damage|p2a: Snorlax|86/100
+|move|p2a: Snorlax|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Snorlax|92/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Jayweb95 has 120 seconds left.
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, M|100/100
+|turn|13
+
+|
+|switch|p2a: Lugia|Lugia, L78|100/100
+|-damage|p2a: Lugia|76/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Bulk Up|p1a: Conkeldurr
+|-boost|p1a: Conkeldurr|atk|1
+|-boost|p1a: Conkeldurr|def|1
+|
+|-heal|p2a: Lugia|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Lugia|Psychic|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|38/100
+|move|p1a: Conkeldurr|Knock Off|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|-enditem|p2a: Lugia|Leftovers|[from] move: Knock Off|[of] p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|29/100|[from] item: Life Orb
+|faint|p2a: Lugia
+|
+|upkeep
+
+|
+|switch|p2a: Beautifly|Beautifly, L89, F|100/100
+|-damage|p2a: Beautifly|51/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Beautifly
+|-resisted|p2a: Beautifly
+|-damage|p2a: Beautifly|33/100
+|-damage|p1a: Conkeldurr|19/100|[from] item: Life Orb
+|move|p2a: Beautifly|Psychic|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-damage|p2a: Beautifly|23/100|[from] item: Life Orb
+|faint|p1a: Conkeldurr
+|
+|upkeep
+
+|
+|switch|p1a: Mismagius|Mismagius, L86, F|23/100
+|turn|16
+
+|
+|move|p1a: Mismagius|Dazzling Gleam|p2a: Beautifly
+|-crit|p2a: Beautifly
+|-damage|p2a: Beautifly|0 fnt
+|faint|p2a: Beautifly
+|
+|-heal|p1a: Mismagius|29/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L85, F|100/100
+|-damage|p2a: Vanilluxe|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|17
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|move|p2a: Vanilluxe|Blizzard|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|89/100
+|-damage|p2a: Vanilluxe|66/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Volcanion|83/100|[from] Hail
+|upkeep
+|turn|18
+
+|
+|move|p2a: Vanilluxe|Explosion|p1a: Volcanion
+|-damage|p1a: Volcanion|17/100
+|faint|p2a: Vanilluxe
+|move|p1a: Volcanion|Fire Blast|p2: Vanilluxe|[notarget]
+|-fail|p1a: Volcanion
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Volcanion|11/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Snorlax|Snorlax, L84, F|92/100
+|-damage|p2a: Snorlax|80/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p1a: Volcanion|Superpower|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|26/100
+|-unboost|p1a: Volcanion|atk|1
+|-unboost|p1a: Volcanion|def|1
+|move|p2a: Snorlax|Body Slam|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|20/100|[from] Hail
+|-heal|p2a: Snorlax|26/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Mismagius|Mismagius, L86, F|29/100
+|turn|20
+
+|
+|move|p1a: Mismagius|Dazzling Gleam|p2a: Snorlax
+|-damage|p2a: Snorlax|13/100
+|move|p2a: Snorlax|Fire Punch|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|7/100|[from] Hail
+|-heal|p2a: Snorlax|13/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Lugia|Lugia, L78|93/100
+|turn|21
+
+|
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|68/100
+|move|p2a: Snorlax|Body Slam|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|
+|-weather|none
+|-heal|p1a: Lugia|74/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|19/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Lugia|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|3/100
+|move|p2a: Snorlax|Body Slam|p1a: Lugia
+|-damage|p1a: Lugia|46/100
+|
+|-heal|p1a: Lugia|52/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|91/100
+|-damage|p2a: Hydreigon|78/100|[from] Stealth Rock
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Lugia|Toxic|p2a: Hydreigon
+|-status|p2a: Hydreigon|tox
+|move|p2a: Hydreigon|Dark Pulse|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|71/100
+|-damage|p2a: Hydreigon|69/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Lugia|77/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|63/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|move|p2a: Hydreigon|Dark Pulse|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|72/100
+|-damage|p2a: Hydreigon|53/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Lugia|78/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|41/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|move|p2a: Hydreigon|U-turn|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|81/100
+|-damage|p2a: Hydreigon|31/100 tox|[from] item: Life Orb
+
+|
+|switch|p2a: Snorlax|Snorlax, L84, F|9/100|[from]move: U-turn
+|-damage|p2a: Snorlax|0 fnt|[from] Stealth Rock
+|faint|p2a: Snorlax
+|
+|-heal|p1a: Lugia|88/100|[from] item: Leftovers
+|upkeep
+
+|-message|Ciutr forfeited.
+
+|
+|win|Jayweb95

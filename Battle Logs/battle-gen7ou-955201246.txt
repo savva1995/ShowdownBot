@@ -1,0 +1,252 @@
+|init|battle
+|title|Gheorghe93 vs. ChanZey24
+|j|☆Gheorghe93
+|j|☆ChanZey24
+|player|p1|Gheorghe93|2|1179
+|player|p2|ChanZey24|162|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|item
+|poke|p1|Swampert, M|item
+|poke|p1|Hawlucha, F|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Linoone, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Blacephalon|item
+|poke|p2|Kartana|item
+|poke|p2|Banette, M|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Snorlax, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gheorghe93)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: I don't know what|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: I don't know what
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+
+|
+|move|p2a: I don't know what|Hydro Pump|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|35/100
+|move|p1a: Pelipper|Hurricane|p2a: I don't know what
+|-damage|p2a: I don't know what|50/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p2a: I don't know what|Hydro Pump|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|turn|3
+
+|
+|detailschange|p1a: Swampert|Swampert-Mega, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Earthquake|p2a: I don't know what
+|-damage|p2a: I don't know what|0 fnt
+|faint|p2a: I don't know what
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Lucha Libre|Hawlucha, M|100/100
+|-enditem|p2a: Lucha Libre|Misty Seed
+|-boost|p2a: Lucha Libre|spd|1
+|turn|4
+
+|c|☆ChanZey24|!weakness Swampert
+|html|<div class="infobox">Swampert (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: <b>Grass</b><br /><span class="message-effect-resist">Resistances</span>: Fire, Poison, Rock, Steel<br /><span class="message-effect-immune">Immunities</span>: Electric</div>
+
+|
+|move|p2a: Lucha Libre|Acrobatics|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|27/100
+|move|p1a: Swampert|Ice Punch|p2a: Lucha Libre
+|-supereffective|p2a: Lucha Libre
+|-damage|p2a: Lucha Libre|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Lucha Libre|Drain Punch|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-heal|p2a: Lucha Libre|46/100|[from] drain|[of] p1a: Swampert
+|faint|p1a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|Misty Terrain
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|6
+
+|
+|move|p2a: Lucha Libre|Iron Head|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|70/100
+|cant|p1a: Tapu Koko|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p2a: Lucha Libre|Acrobatics|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|35/100
+|move|p1a: Tapu Koko|Reflect|p1a: Tapu Koko
+|-sidestart|p1: Gheorghe93|Reflect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+
+|
+|move|p2a: Lucha Libre|Acrobatics|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-crit|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|9
+
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Lucha Libre|Acrobatics|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|55/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Lucha Libre
+|-supereffective|p2a: Lucha Libre
+|-damage|p2a: Lucha Libre|0 fnt
+|faint|p2a: Lucha Libre
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p2a: Boo|Banette, M|100/100
+|turn|11
+
+|
+|detailschange|p2a: Boo|Banette-Mega, M
+|-mega|p2a: Boo|Banette|Banettite
+|move|p2a: Boo|Destiny Bond|p2a: Boo
+|-singlemove|p2a: Boo|Destiny Bond
+|move|p1a: Hawlucha|Acrobatics|p2a: Boo
+|-damage|p2a: Boo|0 fnt
+|faint|p2a: Boo
+|-activate|p2a: Boo|move: Destiny Bond
+|faint|p1a: Hawlucha
+|
+|upkeep
+
+|
+|switch|p1a: Linoone|Linoone, M|100/100
+|switch|p2a: Me|Snorlax, F|100/100
+|turn|12
+
+|
+|move|p1a: Linoone|Belly Drum|p1a: Linoone
+|-damage|p1a: Linoone|50/100
+|-setboost|p1a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Linoone|Figy Berry|[eat]
+|-heal|p1a: Linoone|100/100|[from] item: Figy Berry
+|move|p2a: Me|Retaliate|p1a: Linoone
+|-damage|p1a: Linoone|47/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Linoone|Extreme Speed|p2a: Me
+|-damage|p2a: Me|0 fnt
+|faint|p2a: Me
+|
+|upkeep
+
+|
+|switch|p2a: Jester|Blacephalon|100/100
+|turn|14
+
+|
+|move|p2a: Jester|Flamethrower|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|faint|p1a: Linoone
+|-ability|p2a: Jester|Beast Boost|boost
+|-boost|p2a: Jester|spa|1
+|
+|-sideend|p1: Gheorghe93|Reflect
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jester|atk|1
+|turn|15
+
+|
+|move|p2a: Jester|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|28/100
+|-status|p1a: Landorus|brn
+|move|p1a: Landorus|Earthquake|p2a: Jester
+|-supereffective|p2a: Jester
+|-damage|p2a: Jester|0 fnt
+|faint|p2a: Jester
+|
+|-damage|p1a: Landorus|22/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Origami|Kartana|100/100
+|turn|16
+
+|c|☆ChanZey24|gg
+
+|
+|move|p2a: Origami|Leaf Blade|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|ChanZey24

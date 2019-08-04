@@ -1,0 +1,65 @@
+|init|battle
+|title|buhaan vs. itsonlyluck
+|j|☆buhaan
+|j|☆itsonlyluck
+|player|p1|buhaan|170|1254
+|player|p2|itsonlyluck|265|1241
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Beheeyem|Beheeyem, L89, F|100/100
+|switch|p2a: Seviper|Seviper, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by buhaan)
+
+|
+|move|p2a: Seviper|Swords Dance|p2a: Seviper
+|-boost|p2a: Seviper|atk|2
+|move|p1a: Beheeyem|Trick Room|p1a: Beheeyem
+|-fieldstart|move: Trick Room|[of] p1a: Beheeyem
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Beheeyem|Psychic|p2a: Seviper
+|-supereffective|p2a: Seviper
+|-enditem|p2a: Seviper|Focus Sash
+|-damage|p2a: Seviper|1/100
+|move|p2a: Seviper|Poison Jab|p1a: Beheeyem
+|-damage|p1a: Beheeyem|21/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Seviper|Sucker Punch|p1a: Beheeyem
+|-supereffective|p1a: Beheeyem
+|-damage|p1a: Beheeyem|0 fnt
+|faint|p1a: Beheeyem
+|
+|upkeep
+
+|
+|switch|p1a: Garbodor|Garbodor, L86, M|100/100
+|turn|4
+
+|
+|move|p2a: Seviper|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+
+|-message|buhaan forfeited.
+
+|
+|win|itsonlyluck

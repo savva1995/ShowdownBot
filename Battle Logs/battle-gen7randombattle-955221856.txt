@@ -1,0 +1,408 @@
+|init|battle
+|title|Joao3M vs. teasobi
+|j|☆Joao3M
+|j|☆teasobi
+|player|p1|Joao3M|252|1632
+|player|p2|teasobi|157|1637
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Yanmega|Yanmega, L84, M|100/100
+|switch|p2a: Rotom|Rotom-Heat, L82|100/100
+|turn|1
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Rotom|Volt Switch|p1a: Hippowdon
+|-immune|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: teasobi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cryogonal|94/100|[from] Sandstorm
+|-heal|p2a: Cryogonal|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Cryogonal|atk|1
+|move|p2a: Cryogonal|Toxic|p1a: Qwilfish
+|-immune|p1a: Qwilfish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cryogonal|94/100|[from] Sandstorm
+|-damage|p1a: Qwilfish|94/100|[from] Sandstorm
+|-heal|p2a: Cryogonal|100/100|[from] item: Leftovers
+|-heal|p1a: Qwilfish|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Cryogonal|Rapid Spin|p1a: Qwilfish
+|-damage|p1a: Qwilfish|98/100
+|-sideend|p2: teasobi|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Cryogonal
+|-sidestart|p2: teasobi|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cryogonal|94/100|[from] Sandstorm
+|-damage|p1a: Qwilfish|92/100|[from] Sandstorm
+|-heal|p2a: Cryogonal|100/100|[from] item: Leftovers
+|-heal|p1a: Qwilfish|98/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|move|p1a: Qwilfish|Liquidation|p2a: Skarmory
+|-damage|p2a: Skarmory|69/100
+|
+|-weather|none
+|-heal|p1a: Qwilfish|100/100|[from] item: Black Sludge
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Thundurus|Thundurus, L81, M|100/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: Joao3M|move: Stealth Rock
+|
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Heat, L82|94/100
+|move|p1a: Thundurus|Thunderbolt|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|74/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|76/100
+|move|p2a: Rotom|Overheat|p1a: Thundurus
+|-end|p1a: Thundurus|Substitute
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|move|p1a: Thundurus|Thunderbolt|p2a: Cryogonal
+|-damage|p2a: Cryogonal|73/100
+|-status|p2a: Cryogonal|par
+|
+|-heal|p1a: Thundurus|88/100|[from] item: Leftovers
+|-heal|p2a: Cryogonal|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cryogonal|73/100 par|[from] Sandstorm
+|-heal|p1a: Hippowdon|43/100|[from] item: Leftovers
+|-heal|p2a: Cryogonal|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: teasobi|move: Stealth Rock
+|cant|p2a: Cryogonal|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cryogonal|73/100 par|[from] Sandstorm
+|-heal|p1a: Hippowdon|49/100|[from] item: Leftovers
+|-heal|p2a: Cryogonal|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Cryogonal|Rapid Spin|p1a: Hippowdon
+|-damage|p1a: Hippowdon|46/100
+|-sideend|p2: teasobi|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|-sideend|p2: teasobi|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|move|p1a: Hippowdon|Whirlwind|p2a: Cryogonal
+|drag|p2a: Rotom|Rotom-Heat, L82|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|67/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Overheat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|61/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, M|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|turn|14
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|80/100
+|move|p1a: Qwilfish|Liquidation|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100
+|-unboost|p2a: Skarmory|def|1
+|
+|-weather|none
+|-heal|p1a: Qwilfish|94/100|[from] item: Black Sludge
+|-heal|p2a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Thundurus|Thundurus, L81, M|88/100
+|-damage|p1a: Thundurus|63/100|[from] Stealth Rock
+|move|p2a: Skarmory|Brave Bird|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|37/100
+|-damage|p2a: Skarmory|46/100|[from] Recoil
+|
+|-heal|p1a: Thundurus|43/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|52/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-heal|p1a: Thundurus|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat, L82|61/100
+|turn|17
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Rotom|Thunderbolt|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, M|94/100
+|-damage|p1a: Qwilfish|82/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|turn|18
+|
+|move|p1a: Qwilfish|Liquidation|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Qwilfish|88/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Unfezant|Unfezant, L89, M|100/100
+|turn|19
+|
+|move|p2a: Unfezant|Night Slash|p1a: Qwilfish
+|-crit|p1a: Qwilfish
+|-damage|p1a: Qwilfish|49/100
+|move|p1a: Qwilfish|Liquidation|p2a: Unfezant
+|-damage|p2a: Unfezant|64/100
+|
+|-heal|p1a: Qwilfish|56/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+
+|
+|move|p2a: Unfezant|Pluck|p1a: Qwilfish
+|-damage|p1a: Qwilfish|23/100
+|move|p1a: Qwilfish|Liquidation|p2a: Unfezant
+|-damage|p2a: Unfezant|29/100
+|
+|-heal|p1a: Qwilfish|29/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+
+|
+|move|p2a: Unfezant|Night Slash|p1a: Qwilfish
+|-crit|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|
+|upkeep
+
+|
+|switch|p1a: Comfey|Comfey, L86, M|100/100
+|-damage|p1a: Comfey|88/100|[from] Stealth Rock
+|turn|22
+
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|79/100 par
+|move|p1a: Comfey|Draining Kiss|p2a: Cryogonal
+|-damage|p2a: Cryogonal|68/100 par
+|-heal|p1a: Comfey|98/100|[from] drain|[of] p2a: Cryogonal
+|
+|-heal|p1a: Comfey|100/100|[from] item: Leftovers
+|-heal|p2a: Cryogonal|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-damage|p1a: Palkia|88/100|[from] Stealth Rock
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Cryogonal|Toxic|p1a: Palkia|[miss]
+|-miss|p2a: Cryogonal|p1a: Palkia
+|
+|-heal|p2a: Cryogonal|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Cryogonal|Toxic|p1a: Palkia
+|-status|p1a: Palkia|tox
+|move|p1a: Palkia|Dragon Tail|p2a: Cryogonal
+|-damage|p2a: Cryogonal|50/100 par
+|drag|p2a: Unfezant|Unfezant, L89, M|29/100
+|
+|-damage|p1a: Palkia|82/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+|move|p1a: Palkia|Dragon Tail|p2a: Vaporeon
+|-damage|p2a: Vaporeon|76/100
+|drag|p2a: Unfezant|Unfezant, L89, M|29/100
+|
+|-damage|p1a: Palkia|70/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|move|p2a: Unfezant|Roost|p2a: Unfezant
+|-heal|p2a: Unfezant|80/100
+|-singleturn|p2a: Unfezant|move: Roost
+|move|p1a: Palkia|Dragon Tail|p2a: Unfezant|[miss]
+|-miss|p1a: Palkia|p2a: Unfezant
+|
+|-damage|p1a: Palkia|52/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Unfezant|Pluck|p1a: Palkia
+|-crit|p1a: Palkia
+|-damage|p1a: Palkia|8/100 tox
+|move|p1a: Palkia|Dragon Tail|p2a: Unfezant
+|-damage|p2a: Unfezant|55/100
+|drag|p2a: Cofagrigus|Cofagrigus, L85, F|100/100
+|
+|-damage|p1a: Palkia|0 fnt|[from] psn
+|faint|p1a: Palkia
+|upkeep
+
+|
+|switch|p1a: Comfey|Comfey, L86, M|100/100
+|-damage|p1a: Comfey|88/100|[from] Stealth Rock
+|turn|28
+
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|50/100 par
+|move|p1a: Comfey|Toxic|p2a: Cryogonal|[miss]
+|-miss|p1a: Comfey|p2a: Cryogonal
+|
+|-heal|p1a: Comfey|94/100|[from] item: Leftovers
+|-heal|p2a: Cryogonal|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Comfey|Draining Kiss|p2a: Cryogonal
+|-damage|p2a: Cryogonal|44/100 par
+|-heal|p1a: Comfey|100/100|[from] drain|[of] p2a: Cryogonal
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|94/100 par
+|
+|-heal|p2a: Cryogonal|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Comfey|Draining Kiss|p2a: Cryogonal
+|-damage|p2a: Cryogonal|87/100 par
+|move|p2a: Cryogonal|Toxic|p1a: Comfey
+|-status|p1a: Comfey|tox
+|
+|-heal|p2a: Cryogonal|93/100 par|[from] item: Leftovers
+|-damage|p1a: Comfey|94/100 tox|[from] psn
+|upkeep
+|turn|31
+
+|c|☆Joao3M|gg
+
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|100/100
+|-damage|p1a: Yanmega|51/100|[from] Stealth Rock
+|switch|p2a: Unfezant|Unfezant, L89, M|55/100
+|
+|upkeep
+|turn|32
+
+|c|☆teasobi|ye
+
+|
+|move|p1a: Yanmega|Protect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Unfezant|Roost|p2a: Unfezant
+|-heal|p2a: Unfezant|100/100
+|-singleturn|p2a: Unfezant|move: Roost
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|33
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Unfezant
+|-damage|p2a: Unfezant|46/100
+|-damage|p1a: Yanmega|41/100|[from] item: Life Orb
+|move|p2a: Unfezant|Pluck|p1a: Yanmega
+|-supereffective|p1a: Yanmega
+|-crit|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|upkeep
+
+|
+|switch|p1a: Comfey|Comfey, L86, M|94/100 tox
+|-damage|p1a: Comfey|82/100 tox|[from] Stealth Rock
+|turn|34
+
+|-message|Joao3M forfeited.
+
+|
+|win|teasobi

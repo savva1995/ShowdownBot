@@ -1,0 +1,341 @@
+|init|battle
+|title|Smeargle legends vs. Book Nation
+|j|☆Smeargle legends
+|j|☆Book Nation
+|player|p1|Smeargle legends|36|1000
+|player|p2|Book Nation|176|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vaporeon, F|item
+|poke|p1|Jolteon, F|item
+|poke|p1|Flareon, M|item
+|poke|p1|Espeon, M|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Eevee, M|item
+|poke|p2|Arcanine, F|item
+|poke|p2|Sceptile, F|item
+|poke|p2|Florges, F|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Raikou|item
+|poke|p2|Metagross|item
+|teampreview
+|
+|start
+|switch|p1a: Rainer|Vaporeon, F|100/100
+|switch|p2a: Sceptile|Sceptile, F|100/100
+|turn|1
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, F
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Leaf Blade|p1a: Rainer
+|-supereffective|p1a: Rainer
+|-crit|p1a: Rainer
+|-enditem|p1a: Rainer|Focus Sash
+|-damage|p1a: Rainer|1/100
+|move|p1a: Rainer|Rain Dance|p1a: Rainer
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Sceptile|Earthquake|p1a: Rainer
+|-damage|p1a: Rainer|0 fnt
+|faint|p1a: Rainer
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tamao|Umbreon, M|100/100
+|turn|3
+|
+|move|p1a: Tamao|Protect|p1a: Tamao
+|-singleturn|p1a: Tamao|Protect
+|move|p2a: Sceptile|Dragon Claw|p1a: Tamao
+|-activate|p1a: Tamao|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Sceptile|Dragon Claw|p1a: Tamao
+|-damage|p1a: Tamao|68/100
+|-damage|p2a: Sceptile|84/100|[from] item: Rocky Helmet|[of] p1a: Tamao
+|move|p1a: Tamao|Foul Play|p2a: Sceptile
+|-damage|p2a: Sceptile|21/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Tamao|atk|1
+|move|p1a: Tamao|Foul Play|p2a: Arcanine
+|-damage|p2a: Arcanine|46/100
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p1a: Tamao|Protect|p1a: Tamao
+|-singleturn|p1a: Tamao|Protect
+|move|p2a: Arcanine|Close Combat|p1a: Tamao
+|-activate|p1a: Tamao|move: Protect
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Arcanine|Close Combat|p1a: Tamao
+|-supereffective|p1a: Tamao
+|-damage|p1a: Tamao|5/100
+|-damage|p2a: Arcanine|30/100|[from] item: Rocky Helmet|[of] p1a: Tamao
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|move|p1a: Tamao|Foul Play|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+
+|
+|switch|p2a: Florges|Florges, F|100/100
+|turn|8
+
+|
+|move|p1a: Tamao|Protect|p1a: Tamao
+|-singleturn|p1a: Tamao|Protect
+|move|p2a: Florges|Moonblast|p1a: Tamao
+|-activate|p1a: Tamao|move: Protect
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Florges|Moonblast|p1a: Tamao
+|-supereffective|p1a: Tamao
+|-damage|p1a: Tamao|0 fnt
+|faint|p1a: Tamao
+|
+|upkeep
+
+|
+|switch|p1a: Pyro|Flareon, M|100/100
+|turn|10
+
+|
+|move|p1a: Pyro|Detect|p1a: Pyro
+|-singleturn|p1a: Pyro|Protect
+|move|p2a: Florges|Wish|p2a: Florges
+|
+|-status|p1a: Pyro|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Sceptile|Sceptile-Mega, F|21/100
+|move|p1a: Pyro|Flame Charge|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-boost|p1a: Pyro|spe|1
+|faint|p2a: Sceptile
+|
+|-damage|p1a: Pyro|95/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|turn|12
+
+|
+|move|p1a: Pyro|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|72/100
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Curse|p2a: Slowbro
+|-unboost|p2a: Slowbro|spe|1
+|-boost|p2a: Slowbro|atk|1
+|-boost|p2a: Slowbro|def|1
+|
+|-heal|p2a: Slowbro|78/100 par|[from] item: Leftovers
+|-damage|p1a: Pyro|83/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Pyro|Facade|p2a: Slowbro
+|-damage|p2a: Slowbro|50/100 par
+|move|p2a: Slowbro|Curse|p2a: Slowbro
+|-unboost|p2a: Slowbro|spe|1
+|-boost|p2a: Slowbro|atk|1
+|-boost|p2a: Slowbro|def|1
+|
+|-heal|p2a: Slowbro|56/100 par|[from] item: Leftovers
+|-damage|p1a: Pyro|65/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Pyro|Facade|p2a: Slowbro
+|-damage|p2a: Slowbro|35/100 par
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|85/100 par
+|
+|-heal|p2a: Slowbro|91/100 par|[from] item: Leftovers
+|-damage|p1a: Pyro|41/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Pyro|Facade|p2a: Slowbro
+|-damage|p2a: Slowbro|70/100 par
+|cant|p2a: Slowbro|par
+|
+|-heal|p2a: Slowbro|76/100 par|[from] item: Leftovers
+|-damage|p1a: Pyro|12/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Pyro|Facade|p2a: Slowbro
+|-damage|p2a: Slowbro|54/100 par
+|move|p2a: Slowbro|Curse|p2a: Slowbro
+|-unboost|p2a: Slowbro|spe|1
+|-boost|p2a: Slowbro|atk|1
+|-boost|p2a: Slowbro|def|1
+|
+|-heal|p2a: Slowbro|60/100 par|[from] item: Leftovers
+|-damage|p1a: Pyro|0 fnt|[from] psn
+|faint|p1a: Pyro
+|upkeep
+
+|
+|switch|p1a: Sakura|Espeon, M|100/100
+|turn|17
+
+|
+|move|p1a: Sakura|Shadow Ball|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|1/100 par
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|51/100 par
+|
+|-heal|p2a: Slowbro|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Sakura|Shadow Ball|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|4/100 par
+|cant|p2a: Slowbro|par
+|
+|-heal|p2a: Slowbro|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Raikou|Raikou, shiny|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Sakura|Shadow Ball|p2a: Raikou
+|-damage|p2a: Raikou|78/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Sakura|Shadow Ball|p2a: Raikou
+|-damage|p2a: Raikou|58/100
+|move|p2a: Raikou|Signal Beam|p1a: Sakura
+|-supereffective|p1a: Sakura
+|-damage|p1a: Sakura|33/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Sakura|Shadow Ball|p2a: Raikou
+|-damage|p2a: Raikou|37/100
+|move|p2a: Raikou|Signal Beam|p1a: Sakura
+|-supereffective|p1a: Sakura
+|-damage|p1a: Sakura|0 fnt
+|faint|p1a: Sakura
+|
+|upkeep
+
+|
+|switch|p1a: Sparky|Jolteon, F|100/100
+|turn|22
+
+|
+|move|p1a: Sparky|Agility|p1a: Sparky
+|-boost|p1a: Sparky|spe|2
+|move|p2a: Raikou|Signal Beam|p1a: Sparky
+|-crit|p1a: Sparky
+|-damage|p1a: Sparky|45/100
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Sparky|Discharge|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|20/100
+|move|p2a: Raikou|Signal Beam|p1a: Sparky
+|-damage|p1a: Sparky|9/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Sparky|Discharge|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|5/100
+|move|p2a: Raikou|Signal Beam|p1a: Sparky
+|-damage|p1a: Sparky|0 fnt
+|faint|p1a: Sparky
+|
+|upkeep
+
+|
+|switch|p1a: Eevee|Eevee, M|100/100
+|turn|25
+
+|
+|move|p1a: Eevee|Protect|p1a: Eevee
+|-singleturn|p1a: Eevee|Protect
+|move|p2a: Raikou|Aura Sphere|p1a: Eevee
+|-activate|p1a: Eevee|move: Protect
+|
+|upkeep
+|turn|26
+
+|
+|move|p2a: Raikou|Aura Sphere|p1a: Eevee
+|-supereffective|p1a: Eevee
+|-damage|p1a: Eevee|47/100
+|move|p1a: Eevee|Laser Focus|p1a: Eevee
+|-start|p1a: Eevee|move: Laser Focus
+|
+|upkeep
+|turn|27
+
+|
+|move|p2a: Raikou|Aura Sphere|p1a: Eevee
+|-supereffective|p1a: Eevee
+|-damage|p1a: Eevee|0 fnt
+|faint|p1a: Eevee
+|
+|win|Book Nation

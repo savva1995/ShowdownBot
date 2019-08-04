@@ -1,0 +1,258 @@
+|init|battle
+|title|Forcemew2 vs. ailartsuA
+|j|☆Forcemew2
+|j|☆ailartsuA
+|player|p1|Forcemew2|156|1489
+|player|p2|ailartsuA|261|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Uxie|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Incineroar, M|item
+|poke|p1|Exeggutor, M|item
+|poke|p1|Ninetales, M|item
+|poke|p2|Gigalith, M|item
+|poke|p2|Stoutland, M|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Salazzle, F|item
+|poke|p2|Tsareena, F|item
+|poke|p2|Metagross|item
+|teampreview
+|
+|start
+|switch|p1a: Frodon|Uxie|100/100
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|1
+
+|
+|move|p2a: Tsareena|Knock Off|p1a: Frodon
+|-supereffective|p1a: Frodon
+|-enditem|p1a: Frodon|Colbur Berry|[eat]
+|-enditem|p1a: Frodon|Colbur Berry|[weaken]
+|-damage|p1a: Frodon|77/100
+|move|p1a: Frodon|Knock Off|p2a: Tsareena
+|-damage|p2a: Tsareena|85/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Tsareena|U-turn|p1a: Frodon
+|-supereffective|p1a: Frodon
+|-damage|p1a: Frodon|46/100
+
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Frodon|U-turn|p2a: Gigalith
+|-damage|p2a: Gigalith|91/100
+
+|
+|switch|p1a: Kyûbi|Ninetales, M|100/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Kyûbi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gigalith|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Carniplante|Exeggutor, M|100/100
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p1a: Carniplante|Psyshock|p2a: Eelektross
+|-damage|p2a: Eelektross|37/100
+|-damage|p1a: Carniplante|91/100|[from] item: Life Orb
+|move|p2a: Eelektross|Flamethrower|p1a: Carniplante
+|-supereffective|p1a: Carniplante
+|-damage|p1a: Carniplante|0 fnt
+|faint|p1a: Carniplante
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Aconologia|Charizard, M, shiny|100/100
+|turn|5
+
+|
+|move|p1a: Aconologia|Focus Blast|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Aconologia|88/100|[from] ability: Solar Power|[of] p1a: Aconologia
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Forcemew2)
+
+|
+|switch|p2a: Gigalith|Gigalith, M|97/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|6
+
+|
+|switch|p1a: Frodon|Uxie|46/100
+|move|p2a: Gigalith|Stone Edge|p1a: Frodon
+|-damage|p1a: Frodon|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frodon|8/100|[from] Sandstorm
+|-heal|p2a: Gigalith|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Frodon|Stealth Rock|p2a: Gigalith
+|-sidestart|p2: ailartsuA|move: Stealth Rock
+|move|p2a: Gigalith|Stealth Rock|p1a: Frodon
+|-sidestart|p1: Forcemew2|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frodon|2/100|[from] Sandstorm
+|upkeep
+|turn|8
+
+|
+|move|p1a: Frodon|Knock Off|p2a: Gigalith
+|-damage|p2a: Gigalith|87/100
+|-enditem|p2a: Gigalith|Leftovers|[from] move: Knock Off|[of] p1a: Frodon
+|move|p2a: Gigalith|Stone Edge|p1a: Frodon|[miss]
+|-miss|p2a: Gigalith|p1a: Frodon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frodon|0 fnt|[from] Sandstorm
+|faint|p1a: Frodon
+|upkeep
+
+|
+|switch|p1a: Tibault Inshape|Blastoise, M|100/100
+|-damage|p1a: Tibault Inshape|88/100|[from] Stealth Rock
+|turn|9
+
+|
+|detailschange|p1a: Tibault Inshape|Blastoise-Mega, M
+|-mega|p1a: Tibault Inshape|Blastoise|Blastoisinite
+|move|p1a: Tibault Inshape|Rapid Spin|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|86/100
+|-sideend|p1: Forcemew2|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tibault Inshape
+|move|p2a: Gigalith|Stone Edge|p1a: Tibault Inshape
+|-damage|p1a: Tibault Inshape|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tibault Inshape|42/100|[from] Sandstorm
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Tsareena|Tsareena, F|85/100
+|-damage|p2a: Tsareena|73/100|[from] Stealth Rock
+|move|p1a: Tibault Inshape|Aura Sphere|p2a: Tsareena
+|-damage|p2a: Tsareena|17/100
+|
+|-weather|none
+|upkeep
+|turn|11
+
+|inactive|ailartsuA has 120 seconds left.
+
+|
+|move|p1a: Tibault Inshape|Aura Sphere|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|upkeep
+
+|inactive|ailartsuA has 120 seconds left.
+
+|
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|94/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Tibault Inshape|Dark Pulse|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-enditem|p2a: Metagross|Colbur Berry|[eat]
+|-enditem|p2a: Metagross|Colbur Berry|[weaken]
+|-damage|p2a: Metagross|48/100
+|move|p2a: Metagross|Earthquake|p1a: Tibault Inshape
+|-damage|p1a: Tibault Inshape|3/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Metagross|Bullet Punch|p1a: Tibault Inshape
+|-resisted|p1a: Tibault Inshape
+|-damage|p1a: Tibault Inshape|0 fnt
+|faint|p1a: Tibault Inshape
+|
+|upkeep
+
+|
+|switch|p1a: Connor murphy|Incineroar, M|100/100
+|-ability|p1a: Connor murphy|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|turn|14
+
+|
+|move|p1a: Connor murphy|Swords Dance|p1a: Connor murphy
+|-boost|p1a: Connor murphy|atk|2
+|move|p2a: Metagross|Earthquake|p1a: Connor murphy
+|-supereffective|p1a: Connor murphy
+|-damage|p1a: Connor murphy|10/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Metagross|Bullet Punch|p1a: Connor murphy
+|-resisted|p1a: Connor murphy
+|-damage|p1a: Connor murphy|0 fnt
+|faint|p1a: Connor murphy
+|
+|upkeep
+
+|
+|switch|p1a: Kyûbi|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Kyûbi
+|turn|16
+
+|
+|move|p1a: Kyûbi|Energy Ball|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|34/100
+|move|p2a: Metagross|Earthquake|p1a: Kyûbi
+|-supereffective|p1a: Kyûbi
+|-damage|p1a: Kyûbi|0 fnt
+|faint|p1a: Kyûbi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|c|☆ailartsuA|Dude
+
+|-message|Forcemew2 forfeited.
+
+|
+|win|ailartsuA

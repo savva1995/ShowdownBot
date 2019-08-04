@@ -1,0 +1,416 @@
+|init|battle
+|title|Shany2 vs. Rithloc
+|j|☆Shany2
+|j|☆Rithloc
+|player|p1|Shany2|101|
+|player|p2|Rithloc|185|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Garchomp, F|item
+|poke|p1|Tapu Bulu|item
+|poke|p1|Celesteela|item
+|poke|p1|Greninja, M|item
+|poke|p1|Kartana|item
+|poke|p1|Nihilego|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Zapdos|item
+|teampreview
+|
+|start
+|switch|p1a: Celesteela|Celesteela|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|move|p1a: Celesteela|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Celesteela
+|-sidestart|p1: Shany2|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1a: Celesteela|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|91/100
+|
+|-heal|p1a: Celesteela|97/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|8/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Celesteela|Flamethrower|p2a: Volcarona
+|-damage|p2a: Volcarona|80/100
+|
+|-heal|p1a: Celesteela|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Celesteela|Heavy Slam|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|57/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|26/100
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: Celesteela|Leech Seed|p2a: Volcarona
+|-start|p2a: Volcarona|move: Leech Seed
+|
+|-heal|p1a: Celesteela|32/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|45/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|44/100|[silent]
+|upkeep
+|turn|6
+
+|
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p1a: Celesteela|50/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|32/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|62/100|[silent]
+|upkeep
+|turn|7
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rithloc)
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|83/100
+|-singleturn|p2a: Volcarona|move: Roost
+|
+|-damage|p2a: Volcarona|70/100|[from] Leech Seed|[of] p1a: Greninja
+|-heal|p1a: Greninja|100/100|[silent]
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Greninja|Water Shuriken|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|74/100
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|51/100
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|26/100
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|1/100
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-hitcount|p2a: Gliscor|5
+|faint|p2a: Gliscor
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|9
+
+|
+|switch|p1a: Kartana|Kartana|100/100
+|-damage|p1a: Kartana|94/100|[from] Stealth Rock
+|move|p2a: Greninja|Dark Pulse|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-damage|p1a: Tapu Bulu|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|10
+
+|
+|move|p2a: Greninja|U-turn|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|70/100
+
+|
+|switch|p2a: Volcarona|Volcarona, F|70/100|[from]move: U-turn
+|move|p1a: Tapu Bulu|Wood Hammer|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|46/100
+|-damage|p1a: Tapu Bulu|61/100|[from] Recoil
+|
+|-heal|p2a: Volcarona|52/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|68/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Greninja|Greninja-Ash, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|move|p2a: Volcarona|Fiery Dance|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|58/100
+|-boost|p2a: Volcarona|spa|1
+|
+|-heal|p1a: Greninja|64/100|[from] Grassy Terrain
+|-heal|p2a: Volcarona|58/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Lopunny|Lopunny, M|100/100
+|move|p1a: Greninja|Water Shuriken|p2a: Lopunny
+|-damage|p2a: Lopunny|77/100
+|-damage|p2a: Lopunny|54/100
+|-damage|p2a: Lopunny|29/100
+|-hitcount|p2a: Lopunny|3
+|
+|-heal|p1a: Greninja|70/100|[from] Grassy Terrain
+|-heal|p2a: Lopunny|34/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, M
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Greninja|Water Shuriken|p2a: Lopunny
+|-damage|p2a: Lopunny|11/100
+|-damage|p2a: Lopunny|0 fnt
+|-hitcount|p2a: Lopunny|2
+|faint|p2a: Lopunny
+|
+|-heal|p1a: Greninja|76/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|14
+
+|
+|switch|p1a: Nihilego|Nihilego|100/100
+|-damage|p1a: Nihilego|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Hidden Power|p1a: Nihilego
+|-damage|p1a: Nihilego|74/100
+|
+|-heal|p1a: Nihilego|80/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+
+|
+|move|p1a: Nihilego|Power Gem|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|24/100
+|move|p2a: Zapdos|Discharge|p1a: Nihilego
+|-damage|p1a: Nihilego|48/100
+|-status|p1a: Nihilego|par
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Greninja|Greninja-Ash, M|100/100
+|move|p1a: Nihilego|Power Gem|p2a: Greninja
+|-damage|p2a: Greninja|36/100
+|
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|68/100
+|-damage|p1a: Tapu Bulu|55/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|-zpower|p2a: Greninja
+|move|p2a: Greninja|Hydro Vortex|p1a: Tapu Bulu|[zeffect]
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|20/100
+|
+|-heal|p2a: Greninja|42/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|26/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+
+|
+|move|p2a: Greninja|U-turn|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|9/100
+
+|
+|switch|p2a: Volcarona|Volcarona, F|58/100|[from]move: U-turn
+|move|p1a: Tapu Bulu|Wood Hammer|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|33/100
+|-damage|p1a: Tapu Bulu|0 fnt|[from] Recoil
+|faint|p1a: Tapu Bulu
+|
+|-heal|p2a: Volcarona|39/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|77/100
+|move|p1a: Garchomp|Earthquake|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|6/100
+|
+|-heal|p2a: Volcarona|12/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|84/100|[from] Grassy Terrain
+|upkeep
+|turn|20
+
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|62/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Garchomp|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|46/100
+|
+|-heal|p2a: Volcarona|52/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|90/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Garchomp
+|-damage|p1a: Garchomp|50/100
+|move|p1a: Garchomp|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|25/100
+|
+|-heal|p2a: Volcarona|31/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|56/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|22
+
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|81/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Garchomp|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|37/100
+|
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Nihilego|Nihilego|48/100 par
+|-damage|p1a: Nihilego|36/100 par|[from] Stealth Rock
+|move|p2a: Volcarona|Bug Buzz|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|22/100 par
+|
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Greninja|Greninja-Ash, M|42/100
+|move|p1a: Nihilego|Power Gem|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|8/100
+|turn|25
+
+|
+|move|p1a: Nihilego|Power Gem|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos|24/100
+|turn|26
+
+|
+|move|p1a: Nihilego|Power Gem|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Volcarona|Volcarona, F|37/100
+|turn|27
+
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|8/100 par
+|cant|p1a: Nihilego|par
+|
+|upkeep
+|turn|28
+
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja-Ash, M|76/100
+|-damage|p1a: Greninja|63/100|[from] Stealth Rock
+|turn|29
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|5/100
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-hitcount|p2a: Volcarona|2
+|faint|p2a: Volcarona
+|
+|win|Shany2

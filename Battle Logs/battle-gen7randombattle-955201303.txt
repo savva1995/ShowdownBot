@@ -1,0 +1,315 @@
+|init|battle
+|title|streema_btw vs. Vpduong
+|j|☆streema_btw
+|j|☆Vpduong
+|player|p1|streema_btw|124|1099
+|player|p2|Vpduong|102|1131
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Liepard|Liepard, L88, M|100/100
+|switch|p2a: Forretress|Forretress, L84, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by streema_btw)
+|
+|move|p1a: Liepard|Thunder Wave|p2a: Forretress
+|-status|p2a: Forretress|par
+|move|p2a: Forretress|Stealth Rock|p1a: Liepard
+|-sidestart|p1: streema_btw|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Liepard|Copycat|p1a: Liepard
+|move|p1a: Liepard|Stealth Rock|p2a: Forretress|[from]Copycat
+|-sidestart|p2: Vpduong|move: Stealth Rock
+|move|p2a: Forretress|Volt Switch|p1a: Liepard
+|-damage|p1a: Liepard|82/100
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Whimsicott|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Whimsicott|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|-damage|p1a: Nidoking|95/100|[from] Stealth Rock
+|move|p2a: Whimsicott|Toxic|p1a: Nidoking
+|-immune|p1a: Nidoking
+|
+|-heal|p2a: Whimsicott|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Forretress|Forretress, L84, M|100/100 par
+|-damage|p2a: Forretress|88/100 par|[from] Stealth Rock
+|move|p1a: Nidoking|Ice Beam|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|67/100 par
+|
+|-heal|p2a: Forretress|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Nidoking|Earth Power|p2a: Forretress
+|-damage|p2a: Forretress|4/100 par
+|move|p2a: Forretress|Rapid Spin|p1a: Nidoking
+|-damage|p1a: Nidoking|89/100
+|-sideend|p2: Vpduong|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-heal|p2a: Forretress|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Nidoking|Ice Beam|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+
+|
+|switch|p2a: Aggron|Aggron, L82, M|100/100
+|turn|7
+
+|
+|detailschange|p2a: Aggron|Aggron-Mega, L82, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Nidoking|Earth Power|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|15/100
+|move|p2a: Aggron|Roar|p1a: Nidoking
+|drag|p1a: Silvally|Silvally-Dragon, L89|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|5/100
+|move|p2a: Aggron|Toxic|p1a: Silvally|[miss]
+|-miss|p2a: Aggron|p1a: Silvally
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|upkeep
+
+|
+|switch|p2a: Gourgeist|Gourgeist-Small, L89, M|100/100
+|-item|p1a: Silvally|Dragon Memory|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|10
+
+|
+|move|p2a: Gourgeist|Leech Seed|p1a: Silvally
+|-start|p1a: Silvally|move: Leech Seed
+|move|p1a: Silvally|Ice Beam|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|40/100
+|
+|-heal|p2a: Gourgeist|47/100|[from] item: Leftovers
+|-damage|p1a: Silvally|76/100|[from] Leech Seed|[of] p2a: Gourgeist
+|-heal|p2a: Gourgeist|63/100|[silent]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Silvally
+|-status|p1a: Silvally|brn
+|move|p1a: Silvally|U-turn|p2a: Gourgeist
+|-damage|p2a: Gourgeist|55/100
+
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|89/100|[from]move: U-turn
+|-damage|p1a: Nidoking|83/100|[from] Stealth Rock
+|
+|-heal|p2a: Gourgeist|61/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Nidoking
+|-status|p1a: Nidoking|brn
+|move|p1a: Nidoking|Ice Beam|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|-damage|p1a: Nidoking|77/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|turn|13
+
+|
+|move|p2a: Sawk|Earthquake|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|upkeep
+
+|
+|switch|p1a: Honchkrow|Honchkrow, L84, M|100/100
+|-damage|p1a: Honchkrow|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Sawk|Knock Off|p1a: Honchkrow
+|-resisted|p1a: Honchkrow
+|-damage|p1a: Honchkrow|54/100
+|-enditem|p1a: Honchkrow|Life Orb|[from] move: Knock Off|[of] p2a: Sawk
+|move|p1a: Honchkrow|Brave Bird|p2a: Sawk
+|-supereffective|p2a: Sawk
+|-ability|p2a: Sawk|Sturdy
+|-damage|p2a: Sawk|1/100
+|-damage|p1a: Honchkrow|25/100|[from] Recoil
+|
+|-heal|p2a: Sawk|7/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Sawk
+|-resisted|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, M|100/100
+|turn|16
+
+|
+|move|p2a: Whimsicott|Moonblast|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|
+|upkeep
+
+|
+|switch|p1a: Liepard|Liepard, L88, M|82/100
+|-damage|p1a: Liepard|69/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Whimsicott|Toxic|p1a: Liepard
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Liepard
+|move|p1a: Liepard|Thunder Wave|p2a: Whimsicott
+|-status|p2a: Whimsicott|par
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Liepard|Knock Off|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|79/100 par
+|-enditem|p2a: Whimsicott|Leftovers|[from] move: Knock Off|[of] p1a: Liepard
+|cant|p2a: Whimsicott|par
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Liepard|Dark Pulse|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|60/100 par
+|cant|p2a: Whimsicott|par
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Liepard|Dark Pulse|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|42/100 par
+|move|p2a: Whimsicott|Moonblast|p1a: Liepard
+|-supereffective|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|upkeep
+
+|
+|switch|p1a: Silvally|Silvally-Dragon, L89|76/100 brn
+|-damage|p1a: Silvally|63/100 brn|[from] Stealth Rock
+|turn|21
+
+|
+|move|p1a: Silvally|Ice Beam|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-damage|p1a: Silvally|57/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini, L80|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|22
+
+|
+|move|p1a: Silvally|Ice Beam|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|89/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|8/100 brn
+|-unboost|p1a: Silvally|spa|1
+|
+|-heal|p2a: Tapu Fini|96/100|[from] item: Leftovers
+|-damage|p1a: Silvally|1/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|move|p1a: Silvally|Ice Beam|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|89/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-heal|p2a: Tapu Fini|95/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Unova, L90, M|100/100
+|-damage|p1a: Pikachu|88/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Pikachu|Volt Tackle|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|-damage|p1a: Pikachu|52/100|[from] Recoil
+|faint|p2a: Tapu Fini
+|
+|win|streema_btw

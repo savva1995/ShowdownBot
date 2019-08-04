@@ -1,0 +1,76 @@
+|init|battle
+|title|YOUrShAdOw_12 vs. savva1995
+|j|☆YOUrShAdOw_12
+|j|☆savva1995
+|player|p1|YOUrShAdOw_12|265|
+|player|p2|savva1995|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+
+|
+|move|p1a: Zapdos|Hidden Power|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|62/100
+|move|p2a: Zapdos|Hidden Power|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|66/100
+|
+|-heal|p1a: Zapdos|72/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|68/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|move|p1a: Zapdos|Thunder|p2a: Marowak
+|-immune|p2a: Marowak
+|
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Marowak|Swords Dance|p2a: Marowak
+|-boost|p2a: Marowak|atk|2
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Marowak|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+
+|
+|switch|p1a: Starmie|Starmie|100/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Miltank|Miltank, F|100/100
+|move|p1a: Starmie|Thunder Wave|p2a: Miltank
+|-status|p2a: Miltank|par
+|
+|upkeep
+|turn|6
+
+|-message|YOUrShAdOw_12 forfeited.
+
+|
+|win|savva1995

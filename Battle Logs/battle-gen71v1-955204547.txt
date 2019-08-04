@@ -1,0 +1,56 @@
+|init|battle
+|title|missy102 vs. EndouMamoruu
+|j|☆missy102
+|j|☆EndouMamoruu
+|player|p1|missy102|1|1382
+|player|p2|EndouMamoruu|229|1299
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Scizor, F|item
+|poke|p2|Azumarill, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Gardevoir, F|item
+|teampreview|1
+|
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Gardevoir|Gardevoir, F, shiny|100/100
+|turn|1
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, F, shiny
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|detailschange|p1a: Scizor|Scizor-Mega, F
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Gardevoir|Protect|p2a: Gardevoir
+|-singleturn|p2a: Gardevoir|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Gardevoir
+|-activate|p2a: Gardevoir|move: Protect
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|win|missy102
+|l|☆EndouMamoruu
+|l|☆missy102
+|raw|missy102's rating: 1382 &rarr; <strong>1396</strong><br />(+14 for winning)
+|raw|EndouMamoruu's rating: 1272 &rarr; <strong>1255</strong><br />(-17 for losing)

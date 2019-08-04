@@ -1,0 +1,247 @@
+|init|battle
+|title|lihuamao vs. Steerpike
+|j|☆lihuamao
+|j|☆Steerpike
+|player|p1|lihuamao|32|2025
+|player|p2|Steerpike|1|2040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther, L88, F|100/100
+|switch|p2a: Gogoat|Gogoat, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lihuamao)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, M|100/100
+|move|p1a: Scyther|Aerial Ace|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|-damage|p1a: Scyther|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Nidoking
+|-sidestart|p1: lihuamao|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Dialga|Dialga, L78|100/100
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Nidoking|Fire Blast|p2a: Dialga
+|-damage|p2a: Dialga|60/100
+|
+|-heal|p2a: Dialga|66/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Nidoking|Earth Power|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|upkeep
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100
+|turn|5
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|-damage|p1a: Solgaleo|94/100|[from] Stealth Rock
+|move|p2a: Archeops|Earthquake|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|41/100
+|
+|-heal|p1a: Solgaleo|47/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Scyther|Scyther, L88, F|88/100
+|-damage|p1a: Scyther|38/100|[from] Stealth Rock
+|move|p2a: Archeops|Earthquake|p1a: Scyther
+|-immune|p1a: Scyther
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Archeops|Acrobatics|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|upkeep
+
+|
+|switch|p1a: Gyarados|Gyarados, L81, M|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|8
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, M|79/100
+|move|p1a: Gyarados|Waterfall|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|-damage|p1a: Gyarados|64/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Gyarados|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|47/100
+|-damage|p1a: Solgaleo|41/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Solgaleo
+|-start|p1a: Solgaleo|move: Leech Seed
+|
+|-heal|p1a: Solgaleo|47/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p1a: Solgaleo|34/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|93/100|[silent]
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Entei|Entei, L83|100/100
+|-ability|p2a: Entei|Pressure
+|move|p1a: Solgaleo|Morning Sun|p1a: Solgaleo
+|-heal|p1a: Solgaleo|84/100
+|
+|-heal|p1a: Solgaleo|91/100|[from] item: Leftovers
+|-damage|p1a: Solgaleo|78/100|[from] Leech Seed|[of] p2a: Entei
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Gyarados|Gyarados, L81, M|69/100
+|-damage|p1a: Gyarados|45/100|[from] Stealth Rock
+|move|p2a: Entei|Flare Blitz|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|3/100
+|-status|p1a: Gyarados|brn
+|-damage|p2a: Entei|89/100|[from] Recoil
+|
+|-heal|p1a: Gyarados|9/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|3/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p2a: Entei|Flare Blitz|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Entei|88/100|[from] Recoil
+|faint|p1a: Gyarados
+|
+|upkeep
+
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|-damage|p1a: Nidoking|95/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p2a: Gogoat|Gogoat, L89, F|100/100
+|move|p1a: Nidoking|Earth Power|p2a: Gogoat
+|-resisted|p2a: Gogoat
+|-damage|p2a: Gogoat|81/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Nidoking|Fire Blast|p2a: Gogoat
+|-supereffective|p2a: Gogoat
+|-damage|p2a: Gogoat|18/100
+|move|p2a: Gogoat|Earthquake|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|29/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Nidoking|Ice Beam|p2a: Gogoat
+|-supereffective|p2a: Gogoat
+|-damage|p2a: Gogoat|0 fnt
+|faint|p2a: Gogoat
+|
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100
+|turn|16
+
+|
+|move|p2a: Archeops|Earthquake|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|upkeep
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|78/100
+|-damage|p1a: Solgaleo|72/100|[from] Stealth Rock
+|turn|17
+
+|
+|switch|p2a: Entei|Entei, L83|88/100
+|-ability|p2a: Entei|Pressure
+|move|p1a: Solgaleo|Flare Blitz|p2a: Entei
+|-resisted|p2a: Entei
+|-damage|p2a: Entei|71/100
+|-damage|p1a: Solgaleo|67/100|[from] Recoil
+|
+|-heal|p1a: Solgaleo|73/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Entei|Flare Blitz|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|-damage|p2a: Entei|46/100|[from] Recoil
+|faint|p1a: Solgaleo
+|
+|upkeep
+
+|
+|switch|p1a: Venomoth|Venomoth, L83, M|100/100
+|-damage|p1a: Venomoth|76/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Entei|Flare Blitz|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|-damage|p2a: Entei|27/100|[from] Recoil
+|faint|p1a: Venomoth
+|
+|upkeep
+
+|
+|switch|p1a: Gardevoir|Gardevoir, L81, F|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Pressure|[from] ability: Trace|[of] p2a: Entei
+|-ability|p1a: Gardevoir|Pressure
+|turn|20
+
+|
+|move|p2a: Entei|Flare Blitz|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-damage|p2a: Entei|6/100|[from] Recoil
+|faint|p1a: Gardevoir
+|
+|win|Steerpike

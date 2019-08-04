@@ -1,0 +1,37 @@
+|init|battle
+|title|banana spritzee! vs. erika2394
+|j|☆banana spritzee!
+|j|☆erika2394
+|player|p1|banana spritzee!|211|
+|player|p2|erika2394|157|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] NU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kadabra, F|item
+|poke|p1|Machoke, M|item
+|poke|p1|Monferno, M|item
+|poke|p1|Roselia, F|item
+|poke|p1|Pawniard, F|item
+|poke|p1|Prinplup, F|item
+|poke|p2|Kadabra, F|item
+|poke|p2|Haunter, F|item
+|poke|p2|Servine, F|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Grimer-Alola, M|item
+|poke|p2|Monferno, M|item
+|teampreview
+|-message|erika2394 forfeited.
+|
+|win|banana spritzee!
+|l|☆erika2394
+|l|☆banana spritzee!

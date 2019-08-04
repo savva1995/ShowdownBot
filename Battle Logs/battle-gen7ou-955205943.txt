@@ -1,0 +1,345 @@
+|init|battle
+|title|mama of decency vs. ChaFouu
+|j|☆mama of decency
+|j|☆ChaFouu
+|player|p1|mama of decency|228|1430
+|player|p2|ChaFouu|92|1459
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tapu Lele|item
+|poke|p1|Scizor, M|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Kommo-o, M|item
+|poke|p2|Sceptile, M|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Kartana|item
+|poke|p2|Magnezone|item
+|poke|p2|Chansey, F|item
+|poke|p2|Tornadus-Therian, M|item
+|teampreview
+|c|☆ChaFouu|Hf
+|c|☆mama of decency|u2
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Defogger|Tornadus-Therian, M|100/100
+|turn|1
+|
+|move|p2a: Defogger|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|89/100
+|
+|switch|p2a: Mon|Chansey, F|100/100|[from]move: U-turn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Mon
+|-status|p2a: Mon|brn
+|
+|-damage|p2a: Mon|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Volt Switch|p2a: Mon
+|-damage|p2a: Mon|87/100 brn
+|
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: Volt Switch
+|move|p2a: Mon|Stealth Rock|p1a: Scizor
+|-sidestart|p1: mama of decency|move: Stealth Rock
+|
+|-damage|p2a: Mon|80/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Sans|Magnezone|100/100
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|U-turn|p2a: Sans
+|-resisted|p2a: Sans
+|-damage|p2a: Sans|81/100
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100|[from]move: U-turn
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Sans|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|63/100
+
+|
+|switch|p2a: Je|Tapu Bulu|100/100|[from]move: Volt Switch
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Je
+|move|p1a: Kommo-o|Stealth Rock|p2a: Je
+|-sidestart|p2: ChaFouu|move: Stealth Rock
+|
+|-heal|p1a: Kommo-o|69/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|move|p1a: Kommo-o|Poison Jab|p2a: Je
+|-supereffective|p2a: Je
+|-crit|p2a: Je
+|-damage|p2a: Je|0 fnt
+|faint|p2a: Je
+|
+|-heal|p1a: Kommo-o|75/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Ce soir|Sceptile, M|100/100
+|-damage|p2a: Ce soir|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|detailschange|p2a: Ce soir|Sceptile-Mega, M
+|-mega|p2a: Ce soir|Sceptile|Sceptilite
+|move|p2a: Ce soir|Leaf Storm|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|68/100
+|-unboost|p2a: Ce soir|spa|2
+|
+|-heal|p2a: Ce soir|94/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|74/100|[from] item: Black Sludge
+|-heal|p1a: Amoonguss|80/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Defogger|Tornadus-Therian, M|100/100
+|-damage|p2a: Defogger|76/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Hidden Power|p2a: Defogger
+|-damage|p2a: Defogger|61/100
+|
+|-heal|p1a: Amoonguss|86/100|[from] item: Black Sludge
+|-heal|p1a: Amoonguss|92/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Rotom|Rotom-Wash|89/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Defogger|Knock Off|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|50/100
+|-enditem|p1a: Rotom|Wiki Berry|[from] move: Knock Off|[of] p2a: Defogger
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+
+|
+|move|p2a: Defogger|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|38/100
+
+|
+|switch|p2a: Ce soir|Sceptile-Mega, M|94/100|[from]move: U-turn
+|-damage|p2a: Ce soir|82/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Ce soir
+|-ability|p2a: Ce soir|Lightning Rod|boost
+|-boost|p2a: Ce soir|spa|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Ce soir|Dragon Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ce soir|atk|1
+|turn|11
+
+|
+|switch|p2a: Defogger|Tornadus-Therian, M|94/100
+|-damage|p2a: Defogger|69/100|[from] Stealth Rock
+|move|p1a: Landorus|Hidden Power|p2a: Defogger
+|-supereffective|p2a: Defogger
+|-damage|p2a: Defogger|31/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Kommo-o|Kommo-o, M|75/100
+|-damage|p1a: Kommo-o|69/100|[from] Stealth Rock
+|switch|p2a: Mon|Chansey, F|80/100
+|-damage|p2a: Mon|68/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+
+|
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Mon|[zeffect]
+|-damage|p2a: Mon|48/100
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Mon|Toxic|p1a: Kommo-o
+|-status|p1a: Kommo-o|tox
+|
+|-damage|p1a: Kommo-o|63/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Defogger|Tornadus-Therian, M|64/100
+|-damage|p2a: Defogger|39/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Close Combat|p2a: Defogger
+|-resisted|p2a: Defogger
+|-damage|p2a: Defogger|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|-unboost|p1a: Kommo-o|spd|1
+|faint|p2a: Defogger
+|
+|-damage|p1a: Kommo-o|50/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Sors|Kartana|100/100
+|-damage|p2a: Sors|94/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Sors|Smart Strike|p1a: Kommo-o
+|-damage|p1a: Kommo-o|2/100 tox
+|move|p1a: Kommo-o|Close Combat|p2a: Sors
+|-supereffective|p2a: Sors
+|-damage|p2a: Sors|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|-unboost|p1a: Kommo-o|spd|1
+|faint|p2a: Sors
+|
+|-damage|p1a: Kommo-o|0 fnt|[from] psn
+|faint|p1a: Kommo-o
+|upkeep
+
+|
+|switch|p2a: Mon|Chansey, F|48/100
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Mon|atk|1
+|-damage|p2a: Mon|36/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p1a: Landorus|U-turn|p2a: Mon
+|-damage|p2a: Mon|23/100
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Mon|Soft-Boiled|p2a: Mon
+|-heal|p2a: Mon|73/100
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Sans|Magnezone|81/100
+|-damage|p2a: Sans|75/100|[from] Stealth Rock
+|move|p1a: Tapu Lele|Psyshock|p2a: Sans
+|-resisted|p2a: Sans
+|-damage|p2a: Sans|26/100
+|
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Scizor|Scizor-Mega, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Sans|Flash Cannon|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|72/100
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Mon|Chansey, F|73/100
+|-damage|p2a: Mon|61/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Mon
+|-damage|p2a: Mon|40/100
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele|88/100|[from]move: U-turn
+|-damage|p1a: Tapu Lele|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Tapu Lele|Psyshock|p2a: Mon
+|-damage|p2a: Mon|0 fnt
+|faint|p2a: Mon
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p2a: Ce soir|Sceptile-Mega, M|82/100
+|-damage|p2a: Ce soir|69/100|[from] Stealth Rock
+|turn|21
+
+|
+|move|p2a: Ce soir|Dragon Pulse|p1a: Tapu Lele
+|-immune|p1a: Tapu Lele
+|move|p1a: Tapu Lele|Psyshock|p2a: Ce soir
+|-damage|p2a: Ce soir|0 fnt
+|faint|p2a: Ce soir
+|
+|upkeep
+
+|
+|switch|p2a: Sans|Magnezone|26/100
+|-damage|p2a: Sans|20/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p2a: Sans|Flash Cannon|p1a: Tapu Lele
+|-supereffective|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-damage|p1a: Landorus|63/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sans|atk|1
+|turn|23
+
+|
+|move|p1a: Landorus|Earthquake|p2a: Sans
+|-supereffective|p2a: Sans
+|-damage|p2a: Sans|0 fnt
+|faint|p2a: Sans
+|
+|win|mama of decency

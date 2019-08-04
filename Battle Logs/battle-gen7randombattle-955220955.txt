@@ -1,0 +1,100 @@
+|init|battle
+|title|Exxydxyxrd vs. Daweed67
+|j|‽Exxydxyxrd
+|j|☆Daweed67
+|player|p1|Exxydxyxrd|102|1000
+|player|p2|Daweed67|265|1047
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Virizion|Virizion, L84|100/100
+|switch|p2a: Furfrou|Furfrou, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Exxydxyxrd)
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, F|100/100
+|move|p1a: Virizion|Substitute|p1a: Virizion
+|-start|p1a: Virizion|Substitute
+|-damage|p1a: Virizion|76/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Virizion|Focus Blast|p2a: Darmanitan|[miss]
+|-miss|p1a: Virizion|p2a: Darmanitan
+|move|p2a: Darmanitan|Flare Blitz|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-end|p1a: Virizion|Substitute
+|-damage|p2a: Darmanitan|93/100|[from] Recoil|[of] p1a: Virizion
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Heatran|Heatran, L80, F|100/100
+|move|p2a: Darmanitan|Flare Blitz|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Darmanitan|Rock Slide|p1a: Heatran
+|-damage|p1a: Heatran|61/100
+|move|p1a: Heatran|Toxic|p2a: Darmanitan|[miss]
+|-miss|p1a: Heatran|p2a: Darmanitan
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Darmanitan|Rock Slide|p1a: Heatran
+|-damage|p1a: Heatran|25/100
+|move|p1a: Heatran|Toxic|p2a: Darmanitan
+|-status|p2a: Darmanitan|tox
+|
+|-damage|p2a: Darmanitan|87/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Basculin|Basculin, L89, M|100/100
+|move|p2a: Darmanitan|Rock Slide|p1a: Basculin
+|-damage|p1a: Basculin|50/100
+|
+|-damage|p2a: Darmanitan|74/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Basculin|Aqua Jet|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Wash, L80|100/100
+|turn|8
+
+|
+|move|p1a: Basculin|Aqua Jet|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|82/100
+|move|p2a: Rotom|Volt Switch|p1a: Basculin
+|-supereffective|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|-damage|p2a: Rotom|72/100|[from] item: Life Orb
+|faint|p1a: Basculin
+
+|-message|Exxydxyxrd forfeited.
+
+|
+|win|Daweed67

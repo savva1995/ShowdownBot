@@ -1,0 +1,245 @@
+|init|battle
+|title|AntwanJ vs. IceDragon807
+|j|☆AntwanJ
+|j|☆IceDragon807
+|player|p1|AntwanJ|265|
+|player|p2|IceDragon807|149|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Altaria, M|item
+|poke|p1|Primarina, M|item
+|poke|p1|Ambipom, F|item
+|poke|p1|Golurk|item
+|poke|p1|Tangrowth, M|item
+|poke|p2|Lopunny, F|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Blacephalon|item
+|poke|p2|Scolipede, F|item
+|poke|p2|Garchomp, M|item
+|teampreview
+|
+|start
+|switch|p1a: Ambipom|Ambipom, F|100/100
+|switch|p2a: Lopunny|Lopunny, F, shiny|100/100
+|turn|1
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, F, shiny
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|Fake Out|p1a: Ambipom
+|-damage|p1a: Ambipom|65/100
+|cant|p1a: Ambipom|flinch
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Lopunny|High Jump Kick|p1a: Tangrowth
+|-damage|p1a: Tangrowth|52/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Lopunny|Return|p1a: Tangrowth
+|-damage|p1a: Tangrowth|17/100
+|move|p1a: Tangrowth|Knock Off|p2a: Lopunny
+|-resisted|p2a: Lopunny
+|-damage|p2a: Lopunny|90/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Lopunny|Ice Punch|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|switch|p1a: Ambipom|Ambipom, F|65/100
+|turn|5
+|
+|move|p1a: Ambipom|Fake Out|p2a: Lopunny
+|-damage|p2a: Lopunny|43/100
+|-damage|p1a: Ambipom|55/100|[from] item: Life Orb
+|cant|p2a: Lopunny|flinch
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Lopunny|High Jump Kick|p1a: Ambipom
+|-supereffective|p1a: Ambipom
+|-damage|p1a: Ambipom|0 fnt
+|faint|p1a: Ambipom
+|
+|upkeep
+
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|turn|7
+
+|
+|detailschange|p1a: Altaria|Altaria-Mega, M
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p2a: Lopunny|Ice Punch|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|48/100
+|move|p1a: Altaria|Return|p2a: Lopunny
+|-supereffective|p2a: Lopunny
+|-damage|p2a: Lopunny|0 fnt
+|faint|p2a: Lopunny
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|8
+
+|
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Tapu Lele|Calm Mind|p2a: Tapu Lele
+|-boost|p2a: Tapu Lele|spa|1
+|-boost|p2a: Tapu Lele|spd|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Tapu Lele|Moonblast|p1a: Golurk
+|-damage|p1a: Golurk|5/100
+|move|p1a: Golurk|Shadow Punch|p2a: Tapu Lele
+|-supereffective|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p2a: Scolipede|Scolipede, F|100/100
+|turn|10
+
+|
+|move|p2a: Scolipede|Swords Dance|p2a: Scolipede
+|-boost|p2a: Scolipede|atk|2
+|move|p1a: Golurk|Stealth Rock|p2a: Scolipede
+|-sidestart|p2: IceDragon807|move: Stealth Rock
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|move|p2a: Scolipede|Aqua Tail|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|28/100
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|12
+
+|
+|move|p2a: Scolipede|Aqua Tail|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|-fieldend|move: Psychic Terrain
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p1a: Golurk|Golurk|5/100
+|turn|13
+
+|
+|move|p2a: Scolipede|Earthquake|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p1a: Primarina|Primarina, M|100/100
+|turn|14
+
+|
+|-zpower|p2a: Scolipede
+|move|p2a: Scolipede|Hydro Vortex|p1a: Primarina|[zeffect]
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|62/100
+|move|p1a: Primarina|Scald|p2a: Scolipede
+|-damage|p2a: Scolipede|39/100
+|-status|p2a: Scolipede|brn
+|
+|-heal|p1a: Primarina|68/100|[from] item: Leftovers
+|-damage|p2a: Scolipede|33/100 brn|[from] brn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|15
+
+|
+|move|p2a: Scolipede|Megahorn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|45/100
+|move|p1a: Primarina|Scald|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|-heal|p1a: Primarina|51/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|-damage|p2a: Blacephalon|76/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Blacephalon|Hidden Power|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Altaria|Altaria-Mega, M|48/100
+|turn|17
+
+|
+|move|p2a: Blacephalon|Hidden Power|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|20/100
+|move|p1a: Altaria|Return|p2a: Blacephalon
+|-resisted|p2a: Blacephalon
+|-damage|p2a: Blacephalon|9/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Blacephalon|Hidden Power|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|win|IceDragon807

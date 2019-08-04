@@ -1,0 +1,76 @@
+|init|battle
+|title|Jgjkkdkdkd vs. Guest 1392836
+|j|☆Jgjkkdkdkd
+|player|p1|Jgjkkdkdkd|2|1000
+|player|p2|Guest 1392836|170|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Galvantula|Galvantula, L84, F|100/100
+|switch|p2a: Chesnaught|Chesnaught, L82, M|100/100
+|turn|1
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Chesnaught
+|-sidestart|p2: Guest 1392836|move: Sticky Web
+|move|p2a: Chesnaught|Leech Seed|p1a: Galvantula
+|-start|p1a: Galvantula|move: Leech Seed
+|
+|-damage|p1a: Galvantula|88/100|[from] Leech Seed|[of] p2a: Chesnaught
+|upkeep
+|turn|2
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|86/100
+
+|
+|switch|p1a: Charizard|Charizard, L80, F|100/100|[from]move: Volt Switch
+|move|p2a: Chesnaught|Spikes|p1a: Charizard
+|-sidestart|p1: Jgjkkdkdkd|Spikes
+|
+|-heal|p2a: Chesnaught|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L80, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Charizard|Air Slash|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Chesnaught|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jgjkkdkdkd)
+
+|inactive|Guest 1392836 has 120 seconds left.
+
+|inactive|Guest 1392836 has 90 seconds left.
+
+|inactive|Guest 1392836 has 60 seconds left.
+
+|inactive|Guest 1392836 has 30 seconds left.
+
+|inactive|Guest 1392836 has 20 seconds left.
+
+|inactive|Guest 1392836 has 15 seconds left.
+
+|inactive|Guest 1392836 has 10 seconds left.
+
+|inactive|Guest 1392836 has 5 seconds left.
+
+|-message|Guest 1392836 lost due to inactivity.
+|
+|win|Jgjkkdkdkd

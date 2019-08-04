@@ -1,0 +1,253 @@
+|init|battle
+|title|xXBlueStormXx vs. GamerulMorti
+|j|☆xXBlueStormXx
+|j|☆GamerulMorti
+|player|p1|xXBlueStormXx|169|
+|player|p2|GamerulMorti|293|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Shedinja|Shedinja, L86|100/100
+|switch|p2a: Suicune|Suicune, L82|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|1
+|
+|switch|p1a: Crawdaunt|Crawdaunt, L84, F|100/100
+|move|p2a: Suicune|Ice Beam|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|85/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Suicune|Hidden Power|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|37/100
+|move|p1a: Crawdaunt|Superpower|p2a: Suicune
+|-damage|p2a: Suicune|64/100
+|-unboost|p1a: Crawdaunt|atk|1
+|-unboost|p1a: Crawdaunt|def|1
+|-damage|p1a: Crawdaunt|27/100|[from] item: Life Orb
+|
+|-heal|p2a: Suicune|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Suicune|Hidden Power|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys-Speed, L78|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|4
+
+|
+|switch|p2a: Jynx|Jynx, L85, F|100/100
+|move|p1a: Deoxys|Psycho Boost|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|77/100
+|-unboost|p1a: Deoxys|spa|2
+|
+|-heal|p2a: Jynx|83/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Deoxys|Superpower|p2a: Jynx
+|-damage|p2a: Jynx|34/100
+|-unboost|p1a: Deoxys|atk|1
+|-unboost|p1a: Deoxys|def|1
+|move|p2a: Jynx|Shadow Ball|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|26/100
+|
+|-heal|p1a: Deoxys|32/100|[from] item: Leftovers
+|-heal|p2a: Jynx|40/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Deoxys|Superpower|p2a: Jynx
+|-damage|p2a: Jynx|5/100
+|-unboost|p1a: Deoxys|atk|1
+|-unboost|p1a: Deoxys|def|1
+|move|p2a: Jynx|Shadow Ball|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|-heal|p2a: Jynx|11/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Heracross|Heracross, L82, M|100/100
+|turn|7
+
+|
+|move|p2a: Jynx|Ice Beam|p1a: Heracross
+|-damage|p1a: Heracross|56/100
+|move|p1a: Heracross|Close Combat|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Jynx
+|
+|-status|p1a: Heracross|tox|[from] item: Toxic Orb
+|upkeep
+
+|
+|switch|p2a: Infernape|Infernape, L80, M|100/100
+|turn|8
+
+|
+|switch|p1a: Salamence|Salamence, L80, M|100/100
+|move|p2a: Infernape|Close Combat|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|69/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|-damage|p2a: Infernape|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Salamence|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Uxie|Uxie, L84|100/100
+|move|p1a: Salamence|Earthquake|p2a: Uxie
+|-immune|p2a: Uxie|[from] ability: Levitate
+|
+|-heal|p1a: Salamence|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Uxie|Psychic|p1a: Salamence
+|-damage|p1a: Salamence|51/100
+|move|p1a: Salamence|Fire Blast|p2a: Uxie
+|-damage|p2a: Uxie|78/100
+|
+|-heal|p2a: Uxie|84/100|[from] item: Leftovers
+|-heal|p1a: Salamence|57/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Shedinja|Shedinja, L86|100/100
+|move|p2a: Uxie|Stealth Rock|p1a: Shedinja
+|-sidestart|p1: xXBlueStormXx|move: Stealth Rock
+|
+|-heal|p2a: Uxie|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Shedinja|Shadow Sneak|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|64/100
+|move|p2a: Uxie|Psychic|p1a: Shedinja
+|-immune|p1a: Shedinja|[from] ability: Wonder Guard
+|
+|-heal|p2a: Uxie|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Infernape|Infernape, L80, M|91/100
+|move|p1a: Shedinja|Sucker Punch||[still]
+|-fail|p1a: Shedinja
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, F|100/100
+|-damage|p1a: Staraptor|76/100|[from] Stealth Rock
+|move|p2a: Infernape|Close Combat|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|-damage|p2a: Infernape|81/100|[from] item: Life Orb
+|faint|p1a: Staraptor
+|
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence, L80, M|57/100
+|-damage|p1a: Salamence|32/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Infernape|Close Combat|p1a: Salamence
+|-resisted|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|-damage|p2a: Infernape|71/100|[from] item: Life Orb
+|faint|p1a: Salamence
+|
+|upkeep
+
+|
+|switch|p1a: Heracross|Heracross, L82, M|56/100 tox
+|-damage|p1a: Heracross|44/100 tox|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Infernape|Hidden Power|p1a: Heracross
+|-damage|p1a: Heracross|22/100 tox
+|-damage|p2a: Infernape|61/100|[from] item: Life Orb
+|move|p1a: Heracross|Close Combat|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Infernape
+|
+|-damage|p1a: Heracross|16/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Spinda|Spinda, L86, F|100/100
+|turn|17
+
+|
+|switch|p2a: Uxie|Uxie, L84|70/100
+|move|p1a: Heracross|Close Combat|p2a: Uxie
+|-resisted|p2a: Uxie
+|-damage|p2a: Uxie|37/100
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|
+|-heal|p2a: Uxie|43/100|[from] item: Leftovers
+|-damage|p1a: Heracross|4/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Uxie|Psychic|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|-heal|p2a: Uxie|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Shedinja|Shedinja, L86|100/100
+|-damage|p1a: Shedinja|0 fnt|[from] Stealth Rock
+|faint|p1a: Shedinja
+|
+|win|GamerulMorti

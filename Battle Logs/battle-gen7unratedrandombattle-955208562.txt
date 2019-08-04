@@ -1,0 +1,231 @@
+|init|battle
+|title|Jordy6 vs. Ramsheeburple
+|j|☆Jordy6
+|j|☆Ramsheeburple
+|player|p1|Jordy6|8|
+|player|p2|Ramsheeburple|88|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Beautifly|Beautifly, L89, F|100/100
+|switch|p2a: Bruxish|Bruxish, L85, F|100/100
+|turn|1
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L81, M|100/100
+|move|p1a: Beautifly|Bug Buzz|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|76/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Palossand|Palossand, L86, F|100/100
+|move|p2a: Thundurus|Thunderbolt|p1a: Palossand
+|-immune|p1a: Palossand
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Tangrowth|Tangrowth, L80, M|100/100
+|move|p1a: Palossand|Stealth Rock|p2a: Tangrowth
+|-sidestart|p2: Ramsheeburple|move: Stealth Rock
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Beautifly|Beautifly, L89, F|100/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Beautifly
+|-resisted|p1a: Beautifly
+|-damage|p1a: Beautifly|86/100
+|-damage|p2a: Tangrowth|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Beautifly|Bug Buzz|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|upkeep
+
+|
+|switch|p2a: Rampardos|Rampardos, L89, M|100/100
+|-damage|p2a: Rampardos|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p1a: Beautifly|Bug Buzz|p2a: Rampardos
+|-damage|p2a: Rampardos|38/100
+|move|p2a: Rampardos|Head Smash|p1a: Beautifly|[miss]
+|-miss|p2a: Rampardos|p1a: Beautifly
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Beautifly|Bug Buzz|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|faint|p2a: Rampardos
+|
+|upkeep
+
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L81, M|76/100
+|-damage|p2a: Thundurus|51/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Beautifly
+|-supereffective|p1a: Beautifly
+|-damage|p1a: Beautifly|0 fnt
+|faint|p1a: Beautifly
+|
+|upkeep
+
+|
+|switch|p1a: Palossand|Palossand, L86, F|100/100
+|turn|9
+
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, F|100/100
+|-damage|p2a: Feraligatr|88/100|[from] Stealth Rock
+|move|p1a: Palossand|Shadow Ball|p2a: Feraligatr
+|-crit|p2a: Feraligatr
+|-damage|p2a: Feraligatr|32/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Feraligatr|Liquidation|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-damage|p1a: Palossand|10/100
+|-ability|p1a: Palossand|Water Compaction|boost
+|-boost|p1a: Palossand|def|2
+|move|p1a: Palossand|Shadow Ball|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|-heal|p1a: Palossand|16/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, F|100/100
+|-damage|p2a: Bruxish|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p2a: Bruxish|Crunch|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-damage|p1a: Palossand|0 fnt
+|faint|p1a: Palossand
+|
+|upkeep
+
+|
+|switch|p1a: Lurantis|Lurantis, L88, F|100/100
+|turn|12
+
+|
+|move|p2a: Bruxish|Crunch|p1a: Lurantis
+|-damage|p1a: Lurantis|53/100
+|move|p1a: Lurantis|Leaf Storm|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|-boost|p1a: Lurantis|spa|2
+|-damage|p1a: Lurantis|43/100|[from] item: Life Orb
+|faint|p2a: Bruxish
+|
+|upkeep
+
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L81, M|51/100
+|-damage|p2a: Thundurus|27/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|turn|14
+
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|65/100
+|move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+|-boost|p1a: Porygon-Z|spa|2
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|30/100
+|move|p1a: Porygon-Z|Tri Attack|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-damage|p1a: Porygon-Z|20/100|[from] item: Life Orb
+|faint|p2a: Thundurus
+|
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, L80, M|100/100
+|-damage|p2a: Medicham|94/100|[from] Stealth Rock
+|turn|16
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, L80, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|turn|17
+
+|
+|move|p1a: Lugia|Psychic|p2a: Medicham
+|-damage|p2a: Medicham|55/100
+|move|p2a: Medicham|Thunder Punch|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|75/100
+|
+|-heal|p1a: Lugia|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Lugia|Psychic|p2a: Medicham
+|-damage|p2a: Medicham|15/100
+|move|p2a: Medicham|Thunder Punch|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|23/100
+|
+|-heal|p1a: Lugia|29/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|-message|Ramsheeburple forfeited.
+
+|
+|win|Jordy6

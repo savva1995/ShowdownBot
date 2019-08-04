@@ -1,0 +1,24 @@
+|init|battle
+|title|Goodnessi vs. Battler343480190
+|j|☆Goodnessi
+|j|☆Battler343480190
+|player|p1|Goodnessi|200|1103
+|player|p2|Battler343480190|1|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Girafarig|Girafarig, L89, M|100/100
+|switch|p2a: Diancie|Diancie, L80|100/100
+|turn|1
+
+|-message|Goodnessi forfeited.
+
+|
+|win|Battler343480190

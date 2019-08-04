@@ -1,0 +1,322 @@
+|init|battle
+|title|Bowlings vs. ThunderBoy07
+|j|☆Bowlings
+|j|☆ThunderBoy07
+|player|p1|Bowlings|2|
+|player|p2|ThunderBoy07|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Victreebel, F|item
+|poke|p1|Vileplume, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Exeggutor, F|item
+|poke|p1|Leavanny, M|item
+|poke|p1|Cacturne, F|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Darkrai|item
+|poke|p2|Arcanine, M|item
+|poke|p2|Torterra, F|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Raichu-Alola, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Lizalfo|Vileplume, M|100/100
+|switch|p2a: Raichu|Raichu-Alola, F|100/100
+|turn|1
+|
+|move|p2a: Raichu|Psychic|p1a: Lizalfo
+|-supereffective|p1a: Lizalfo
+|-damage|p1a: Lizalfo|30/100
+|move|p1a: Lizalfo|Leech Seed|p2a: Raichu
+|-start|p2a: Raichu|move: Leech Seed
+|
+|-heal|p1a: Lizalfo|37/100|[from] item: Leftovers
+|-damage|p2a: Raichu|88/100|[from] Leech Seed|[of] p1a: Lizalfo
+|-heal|p1a: Lizalfo|48/100|[silent]
+|upkeep
+|turn|2
+|
+|move|p2a: Raichu|Psychic|p1a: Lizalfo
+|-supereffective|p1a: Lizalfo
+|-damage|p1a: Lizalfo|0 fnt
+|faint|p1a: Lizalfo
+|
+|-heal|p2a: Raichu|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rosa la tejedora|Leavanny, M|100/100
+|turn|3
+|
+|move|p1a: Rosa la tejedora|Sticky Web|p2a: Raichu
+|-sidestart|p2: ThunderBoy07|move: Sticky Web
+|move|p2a: Raichu|Psychic|p1a: Rosa la tejedora
+|-damage|p1a: Rosa la tejedora|54/100
+|
+|-heal|p1a: Rosa la tejedora|60/100|[from] item: Leftovers
+|-heal|p2a: Raichu|100/100|[from] item: Leftovers
+|-damage|p2a: Raichu|88/100|[from] Leech Seed|[of] p1a: Rosa la tejedora
+|-heal|p1a: Rosa la tejedora|72/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p1a: Rosa la tejedora|X-Scissor|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|-heal|p1a: Rosa la tejedora|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-activate|p2a: Toxicroak|move: Sticky Web
+|-unboost|p2a: Toxicroak|spe|1
+|-ability|p2a: Toxicroak|Anticipation
+|turn|5
+
+|
+|move|p1a: Rosa la tejedora|Aerial Ace|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|55/100
+|move|p2a: Toxicroak|Bulk Up|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|1
+|-boost|p2a: Toxicroak|def|1
+|
+|-heal|p1a: Rosa la tejedora|84/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|61/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Rosa la tejedora|Aerial Ace|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|30/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Rosa la tejedora
+|-resisted|p1a: Rosa la tejedora
+|-damage|p1a: Rosa la tejedora|51/100
+|-heal|p2a: Toxicroak|44/100|[from] drain|[of] p1a: Rosa la tejedora
+|
+|-heal|p1a: Rosa la tejedora|57/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|50/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Rosa la tejedora|Aerial Ace|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|19/100
+|move|p2a: Toxicroak|Gunk Shot|p1a: Rosa la tejedora
+|-supereffective|p1a: Rosa la tejedora
+|-damage|p1a: Rosa la tejedora|0 fnt
+|faint|p1a: Rosa la tejedora
+|
+|-heal|p2a: Toxicroak|25/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Piolagor|Exeggutor, F|100/100
+|turn|8
+
+|
+|move|p1a: Piolagor|Psychic|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-activate|p2a: Arcanine|move: Sticky Web
+|-unboost|p2a: Arcanine|spe|1
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Piolagor|atk|1
+|turn|9
+
+|
+|move|p1a: Piolagor|Sunny Day|p1a: Piolagor
+|-weather|SunnyDay
+|move|p2a: Arcanine|Flare Blitz|p1a: Piolagor
+|-supereffective|p1a: Piolagor
+|-damage|p1a: Piolagor|0 fnt
+|-damage|p2a: Arcanine|68/100|[from] Recoil
+|faint|p1a: Piolagor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Arcanine|74/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Cascarudo|Ferrothorn, F|100/100
+|turn|10
+
+|
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Cascarudo
+|-status|p1a: Cascarudo|brn
+|move|p1a: Cascarudo|Stealth Rock|p2a: Arcanine
+|-sidestart|p2: ThunderBoy07|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Arcanine|80/100|[from] item: Leftovers
+|-damage|p1a: Cascarudo|94/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Cascarudo
+|-supereffective|p1a: Cascarudo
+|-damage|p1a: Cascarudo|0 fnt
+|-damage|p2a: Arcanine|68/100|[from] ability: Iron Barbs|[of] p1a: Cascarudo
+|-damage|p2a: Arcanine|36/100|[from] Recoil
+|faint|p1a: Cascarudo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Arcanine|42/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Gerudo|Cacturne, F|100/100
+|turn|12
+
+|
+|move|p1a: Gerudo|Stomping Tantrum|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|-activate|p2a: Darkrai|move: Sticky Web
+|-unboost|p2a: Darkrai|spe|1
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Gerudo|Brick Break|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|29/100
+|move|p2a: Darkrai|Hypnosis|p1a: Gerudo|[miss]
+|-miss|p2a: Darkrai|p1a: Gerudo
+|
+|-weather|none
+|-heal|p2a: Darkrai|35/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Gerudo|Brick Break|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+
+|
+|switch|p2a: Torterra|Torterra, F|100/100
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|-activate|p2a: Torterra|move: Sticky Web
+|-unboost|p2a: Torterra|spe|1
+|turn|15
+
+|
+|move|p1a: Gerudo|Foul Play|p2a: Torterra
+|-damage|p2a: Torterra|60/100
+|move|p2a: Torterra|Sand Tomb|p1a: Gerudo
+|-resisted|p1a: Gerudo
+|-damage|p1a: Gerudo|87/100
+|-activate|p1a: Gerudo|move: Sand Tomb|[of] p2a: Torterra
+|
+|-heal|p1a: Gerudo|93/100|[from] item: Leftovers
+|-heal|p2a: Torterra|66/100|[from] item: Leftovers
+|-damage|p1a: Gerudo|80/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|16
+
+|
+|move|p1a: Gerudo|Foul Play|p2a: Torterra
+|-crit|p2a: Torterra
+|-damage|p2a: Torterra|15/100
+|move|p2a: Torterra|Leaf Storm|p1a: Gerudo
+|-resisted|p1a: Gerudo
+|-damage|p1a: Gerudo|32/100
+|-unboost|p2a: Torterra|spa|2
+|
+|-heal|p1a: Gerudo|38/100|[from] item: Leftovers
+|-heal|p2a: Torterra|21/100|[from] item: Leftovers
+|-damage|p1a: Gerudo|26/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|17
+
+|
+|move|p1a: Gerudo|Foul Play|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|-heal|p1a: Gerudo|32/100|[from] item: Leftovers
+|-end|p1a: Gerudo|Sand Tomb|[partiallytrapped]|[silent]
+|upkeep
+
+|l|☆Bowlings
+
+|player|p1|
+
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Gerudo|atk|1
+|turn|18
+
+|j|☆Bowlings
+
+|player|p1|Bowlings|2
+
+|
+|detailschange|p2a: Gyarados|Gyarados-Mega, M
+|-mega|p2a: Gyarados|Gyarados|Gyaradosite
+|-ability|p2a: Gyarados|Mold Breaker
+|move|p1a: Gerudo|Foul Play|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|58/100
+|move|p2a: Gyarados|Hydro Pump|p1a: Gerudo|[miss]
+|-miss|p2a: Gyarados|p1a: Gerudo
+|
+|-heal|p1a: Gerudo|38/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Gerudo|Brick Break|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|31/100
+|move|p2a: Gyarados|Hurricane|p1a: Gerudo|[miss]
+|-miss|p2a: Gyarados|p1a: Gerudo
+|
+|-heal|p1a: Gerudo|44/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Gerudo|Brick Break|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|5/100
+|move|p2a: Gyarados|Hurricane|p1a: Gerudo|[miss]
+|-miss|p2a: Gyarados|p1a: Gerudo
+|
+|-heal|p1a: Gerudo|50/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|-message|ThunderBoy07 forfeited.
+
+|
+|win|Bowlings

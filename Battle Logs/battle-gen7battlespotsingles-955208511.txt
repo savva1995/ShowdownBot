@@ -1,0 +1,87 @@
+|init|battle
+|title|CloUnGroJi vs. aogge
+|j|☆CloUnGroJi
+|j|☆aogge
+|player|p1|CloUnGroJi|1|1337
+|player|p2|aogge|2|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Venusaur, L50, M|item
+|poke|p1|Porygon2, L50|item
+|poke|p1|Torkoal, L50, M|item
+|poke|p1|Metagross, L50|item
+|poke|p1|Garchomp, L50, M|item
+|poke|p1|Primarina, L50, M|item
+|poke|p2|Pelipper, L50, M|item
+|poke|p2|Swampert, L50, M|item
+|poke|p2|Ferrothorn, L50, M|item
+|poke|p2|Salamence, L50, M|item
+|poke|p2|Mimikyu, L50, M|item
+|poke|p2|Tapu Koko, L50|item
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by aogge)
+|
+|start
+|switch|p1a: Porygon2|Porygon2, L50|48/48
+|switch|p2a: Salamence|Salamence, L50, M|48/48
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1
+
+|
+|detailschange|p2a: Salamence|Salamence-Mega, L50, M
+|-mega|p2a: Salamence|Salamence|Salamencite
+|move|p2a: Salamence|Substitute|p2a: Salamence
+|-start|p2a: Salamence|Substitute
+|-damage|p2a: Salamence|36/48
+|move|p1a: Porygon2|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-crit|p2a: Salamence
+|-end|p2a: Salamence|Substitute
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L50, M|48/48
+|move|p1a: Porygon2|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|38/48
+|
+|-heal|p2a: Ferrothorn|41/48|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Porygon2|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|13/48
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Porygon2
+|-sidestart|p1: CloUnGroJi|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|16/48|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Porygon2|Hidden Power|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|19/48|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|-message|aogge forfeited.
+
+|
+|win|CloUnGroJi

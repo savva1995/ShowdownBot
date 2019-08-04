@@ -1,0 +1,39 @@
+|init|battle
+|title|joeex vs. sentry95
+|j|☆joeex
+|j|☆sentry95
+|player|p1|joeex|262|1415
+|player|p2|sentry95|170|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Clefable|Clefable, L80, M|100/100
+|switch|p2a: Sylveon|Sylveon, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sentry95)
+|inactive|joeex has 120 seconds left.
+
+|inactive|joeex has 90 seconds left.
+
+|inactive|joeex has 60 seconds left.
+
+|inactive|joeex has 30 seconds left.
+
+|inactive|joeex has 20 seconds left.
+
+|inactive|joeex has 15 seconds left.
+
+|inactive|joeex has 10 seconds left.
+
+|inactive|joeex has 5 seconds left.
+
+|-message|joeex lost due to inactivity.
+|
+|win|sentry95

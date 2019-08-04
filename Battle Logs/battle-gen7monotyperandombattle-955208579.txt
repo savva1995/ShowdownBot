@@ -1,0 +1,202 @@
+|init|battle
+|title|Pippofrancowaifu vs. 47 goonz
+|j|☆Pippofrancowaifu
+|j|☆47 goonz
+|player|p1|Pippofrancowaifu|11|1509
+|player|p2|47 goonz|224|1509
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|switch|p2a: Blacephalon|Blacephalon, L80|100/100
+|turn|1
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L85, F|100/100
+|move|p1a: Dhelmise|Anchor Shot|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|70/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Steelworker|[of] p1a: Dhelmise
+|
+|-heal|p2a: Cofagrigus|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|30/100
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|38/100
+|-unboost|p1a: Dhelmise|spd|1
+|
+|-heal|p1a: Dhelmise|45/100|[from] item: Leftovers
+|-heal|p2a: Cofagrigus|36/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|-heal|p1a: Dhelmise|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Blacephalon|Blacephalon, L80|100/100
+|turn|4
+|
+|move|p2a: Blacephalon|Shadow Ball|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|switch|p1a: Maractus|Maractus, L89, M|100/100
+|turn|5
+
+|
+|switch|p2a: Giratina|Giratina-Origin, L78|100/100
+|move|p1a: Maractus|Sucker Punch||[still]
+|-fail|p1a: Maractus
+|
+|upkeep
+|turn|6
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 47 goonz)
+
+|
+|switch|p1a: Lurantis|Lurantis, L88, M|100/100
+|move|p2a: Giratina|Shadow Ball|p1a: Lurantis
+|-damage|p1a: Lurantis|64/100
+|-boost|p1a: Lurantis|spd|1
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Gengar|Gengar, L78, F|100/100
+|move|p1a: Lurantis|Leaf Storm|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|58/100
+|-boost|p1a: Lurantis|spa|2
+|-damage|p1a: Lurantis|55/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L78, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Sludge Wave|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|upkeep
+
+|
+|switch|p1a: Maractus|Maractus, L89, M|100/100
+|turn|9
+
+|
+|move|p1a: Maractus|Sucker Punch||[still]
+|-fail|p1a: Maractus
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Maractus|Sucker Punch||[still]
+|-fail|p1a: Maractus
+|move|p2a: Gengar|Disable|p1a: Maractus
+|-start|p1a: Maractus|Disable|Sucker Punch
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Maractus
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|0 fnt
+|faint|p1a: Maractus
+|
+|upkeep
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, F|100/100
+|turn|12
+
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Vileplume
+|-damage|p1a: Vileplume|50/100
+|move|p1a: Vileplume|Hidden Power|p2a: Gengar
+|-damage|p2a: Gengar|35/100
+|
+|-heal|p1a: Vileplume|56/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+
+|
+|switch|p1a: Amoonguss|Amoonguss, L82, F|100/100
+|turn|14
+
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Amoonguss
+|-damage|p1a: Amoonguss|50/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|23/100
+|-damage|p1a: Amoonguss|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|upkeep
+
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|turn|16
+
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|29/100
+|move|p1a: Virizion|Giga Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|6/100
+|-heal|p1a: Virizion|36/100|[from] drain|[of] p2a: Gengar
+|
+|-heal|p1a: Virizion|43/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|win|47 goonz

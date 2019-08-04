@@ -1,0 +1,90 @@
+|init|battle
+|title|dghjrturjr vs. aizhudd
+|j|☆dghjrturjr
+|j|☆aizhudd
+|player|p1|dghjrturjr|101|1098
+|player|p2|aizhudd|170|1111
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Blaziken, F|item
+|poke|p1|Diancie|item
+|poke|p1|Smeargle, F|item
+|poke|p1|Marshadow|item
+|poke|p1|Yveltal|item
+|poke|p1|Deoxys-Attack|item
+|poke|p2|Sableye, F|item
+|poke|p2|Arceus-*|item
+|poke|p2|Giratina-Origin|item
+|poke|p2|Necrozma-Dusk-Mane|item
+|poke|p2|Chansey, F|item
+|poke|p2|Ho-Oh|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Sableye|Sableye, F, shiny|100/100
+|turn|1
+|
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|detailschange|p2a: Sableye|Sableye-Mega, F, shiny
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Diancie|Rock Tomb|p2a: Sableye
+|-damage|p2a: Sableye|73/100
+|-unboost|p2a: Sableye|spe|1
+|move|p2a: Sableye|Toxic|p1a: Diancie
+|move|p1a: Diancie|Toxic|p2a: Sableye|[from]Magic Bounce
+|-status|p2a: Sableye|tox
+|
+|-damage|p2a: Sableye|67/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Diancie|Rock Tomb|p2a: Sableye
+|-damage|p2a: Sableye|36/100 tox
+|-unboost|p2a: Sableye|spe|1
+|move|p2a: Sableye|Foul Play|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|74/100
+|
+|-damage|p2a: Sableye|24/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Diancie|Rock Tomb|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+
+|
+|switch|p2a: Ho-Oh|Ho-Oh, shiny|100/100
+|turn|4
+
+|
+|move|p1a: Diancie|Rock Tomb|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|upkeep
+
+|-message|aizhudd forfeited.
+
+|
+|win|dghjrturjr

@@ -1,0 +1,29 @@
+|init|battle
+|title|Y tu htyhggh vs. Sefo007
+|j|☆Y tu htyhggh
+|j|☆Sefo007
+|player|p1|Y tu htyhggh|102|1000
+|player|p2|Sefo007|165|1048
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Salazzle|Salazzle, L84, F|100/100
+|switch|p2a: Florges|Florges, L84, F|100/100
+|-item|p1a: Salazzle|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sefo007)
+|inactive|Y tu htyhggh has 120 seconds left.
+
+|inactive|Y tu htyhggh has 90 seconds left.
+
+|-message|Sefo007 forfeited.
+
+|
+|win|Y tu htyhggh

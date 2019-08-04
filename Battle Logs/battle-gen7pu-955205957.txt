@@ -1,0 +1,170 @@
+|init|battle
+|title|SugarDrampy vs. jrayb02
+|j|☆SugarDrampy
+|j|☆jrayb02
+|player|p1|SugarDrampy|15|1265
+|player|p2|jrayb02|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Omastar, M|item
+|poke|p1|Musharna, F|item
+|poke|p1|Drampa, M|item
+|poke|p1|Scyther, F|item
+|poke|p1|Liepard, F|item
+|poke|p1|Kecleon, M|item
+|poke|p2|Shuckle, F|item
+|poke|p2|Aggron, M|item
+|poke|p2|Drampa, F|item
+|poke|p2|Octillery, M|item
+|poke|p2|Misdreavus, F|item
+|poke|p2|Marowak, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SugarDrampy)
+|
+|start
+|switch|p1a: Omastar|Omastar, M|100/100
+|switch|p2a: Shuckle|Shuckle, F|100/100
+|turn|1
+|
+|move|p1a: Omastar|Surf|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|37/100
+|move|p2a: Shuckle|Sticky Web|p1a: Omastar
+|-sidestart|p1: SugarDrampy|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|move|p1a: Omastar|Surf|p2a: Misdreavus
+|-damage|p2a: Misdreavus|79/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Drampa|Drampa, M|100/100
+|-activate|p1a: Drampa|move: Sticky Web
+|-unboost|p1a: Drampa|spe|1
+|move|p2a: Misdreavus|Toxic|p1a: Drampa
+|-status|p1a: Drampa|tox
+|
+|-damage|p1a: Drampa|94/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Shuckle|Shuckle, F|37/100
+|move|p1a: Drampa|Defog|p2a: Shuckle
+|-unboost|p2a: Shuckle|evasion|1
+|-sideend|p1: SugarDrampy|Sticky Web|[from] move: Defog|[of] p1a: Drampa
+|
+|-heal|p1a: Drampa|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Drampa|88/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Omastar|Omastar, M|100/100
+|move|p2a: Shuckle|Sticky Web|p1a: Omastar
+|-sidestart|p1: SugarDrampy|move: Sticky Web
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Omastar|Surf|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+
+|
+|switch|p2a: Drampa|Drampa, F|100/100
+|turn|7
+
+|inactive|SugarDrampy has 120 seconds left.
+
+|
+|switch|p1a: Kecleon|Kecleon, M|100/100
+|-activate|p1a: Kecleon|move: Sticky Web
+|-unboost|p1a: Kecleon|spe|1
+|move|p2a: Drampa|Thunderbolt|p1a: Kecleon
+|-damage|p1a: Kecleon|80/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Drampa|Draco Meteor|p1a: Kecleon
+|-damage|p1a: Kecleon|37/100
+|-unboost|p2a: Drampa|spa|2
+|move|p1a: Kecleon|Knock Off|p2a: Drampa
+|-start|p1a: Kecleon|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Drampa|57/100
+|-enditem|p2a: Drampa|Aguav Berry|[from] move: Knock Off|[of] p1a: Kecleon
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Drampa|Roost|p2a: Drampa
+|-heal|p2a: Drampa|100/100
+|-singleturn|p2a: Drampa|move: Roost
+|move|p1a: Kecleon|Drain Punch|p2a: Drampa
+|-start|p1a: Kecleon|typechange|Fighting|[from] ability: Protean
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|30/100
+|-heal|p1a: Kecleon|76/100|[from] drain|[of] p2a: Drampa
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Marowak|Marowak, F|100/100
+|move|p1a: Kecleon|Knock Off|p2a: Marowak
+|-start|p1a: Kecleon|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Marowak|72/100
+|-enditem|p2a: Marowak|Thick Club|[from] move: Knock Off|[of] p1a: Kecleon
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Musharna|Musharna, F|100/100
+|-activate|p1a: Musharna|move: Sticky Web
+|-unboost|p1a: Musharna|spe|1
+|move|p2a: Marowak|Substitute|p2a: Marowak
+|-start|p2a: Marowak|Substitute
+|-damage|p2a: Marowak|48/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Marowak|Earthquake|p1a: Musharna
+|-damage|p1a: Musharna|84/100
+|move|p1a: Musharna|Psychic|p2a: Marowak
+|-end|p2a: Marowak|Substitute
+|
+|upkeep
+|turn|13
+
+|-message|jrayb02 forfeited.
+
+|
+|win|SugarDrampy

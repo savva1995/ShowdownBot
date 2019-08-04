@@ -1,0 +1,86 @@
+|init|battle
+|title|Ninitrainer vs. Pirates parrot
+|j|☆Ninitrainer
+|j|☆Pirates parrot
+|player|p1|Ninitrainer|266|1055
+|player|p2|Pirates parrot|101|1100
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Politoed|Politoed, L84, F|100/100
+|switch|p2a: Diancie|Diancie, L80|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|100/100
+|move|p1a: Politoed|Scald|p2a: Aromatisse
+|-damage|p2a: Aromatisse|65/100
+|-status|p2a: Aromatisse|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Aromatisse|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|65/100 brn|[from] brn
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Toxapex|Toxapex, L80, M|100/100
+|move|p2a: Aromatisse|Light Screen|p2a: Aromatisse
+|-sidestart|p2: Pirates parrot|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Aromatisse|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|65/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L89, M|100/100
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p2a: Mr. Mime|Psyshock|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|12/100
+|-damage|p2a: Mr. Mime|91/100|[from] item: Life Orb
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|18/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|l|☆Ninitrainer
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pirates parrot)
+
+|inactive|Ninitrainer has 30 seconds to reconnect!
+
+|inactive|Ninitrainer has 20 seconds to reconnect!
+
+|inactive|Ninitrainer has 15 seconds to reconnect!
+
+|inactive|Ninitrainer has 10 seconds to reconnect!
+
+|inactive|Ninitrainer has 5 seconds to reconnect!
+
+|-message|Ninitrainer lost due to inactivity.
+|
+|win|Pirates parrot

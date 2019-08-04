@@ -1,0 +1,65 @@
+|init|battle
+|title|Orkid vs. PolicePika
+|j|☆Orkid
+|j|☆PolicePika
+|player|p1|Orkid|211|1249
+|player|p2|PolicePika|1|1216
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Beartic|Beartic, L89, M|100/100
+|switch|p2a: Swanna|Swanna, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PolicePika)
+|
+|switch|p2a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: Orkid
+|switch|p1a: Zapdos|Zapdos, L80|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Pyroar|Fire Blast|p1a: Zapdos|[miss]
+|-miss|p2a: Pyroar|p1a: Zapdos
+|move|p1a: Zapdos|Toxic|p2a: Pyroar
+|-status|p2a: Pyroar|tox
+|
+|-damage|p2a: Pyroar|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Pyroar|Solar Beam||[still]
+|-prepare|p2a: Pyroar|Solar Beam|p1a: Zapdos
+|move|p1a: Zapdos|Thunderbolt|p2a: Pyroar
+|-damage|p2a: Pyroar|39/100 tox
+|-damage|p1a: Zapdos|91/100|[from] item: Life Orb
+|
+|-damage|p2a: Pyroar|27/100 tox|[from] psn
+|upkeep
+|turn|4
+|l|☆PolicePika
+|inactive|PolicePika disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Orkid has 120 seconds left.
+
+|inactive|PolicePika has 30 seconds to reconnect!
+
+|inactive|Orkid has 90 seconds left.
+|inactive|PolicePika has 20 seconds to reconnect!
+
+|inactive|PolicePika has 15 seconds to reconnect!
+
+|inactive|PolicePika has 10 seconds to reconnect!
+
+|inactive|PolicePika has 5 seconds to reconnect!
+
+|-message|PolicePika lost due to inactivity.
+|
+|win|Orkid

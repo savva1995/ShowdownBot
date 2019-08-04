@@ -1,0 +1,257 @@
+|init|battle
+|title|EndaoSong vs. Noxyis
+|j|☆EndaoSong
+|j|☆Noxyis
+|player|p1|EndaoSong|290|1385
+|player|p2|Noxyis|196|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Banette|Banette, L84, F|100/100
+|switch|p2a: Purugly|Purugly, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Noxyis)
+|
+|detailschange|p1a: Banette|Banette-Mega, L84, F
+|-mega|p1a: Banette|Banette|Banettite
+|move|p2a: Purugly|Knock Off|p1a: Banette
+|-supereffective|p1a: Banette
+|-damage|p1a: Banette|39/100
+|move|p1a: Banette|Knock Off|p2a: Purugly
+|-damage|p2a: Purugly|53/100
+|-enditem|p2a: Purugly|Choice Band|[from] move: Knock Off|[of] p1a: Banette
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Banette|Sucker Punch|p2a: Purugly
+|-damage|p2a: Purugly|19/100
+|move|p2a: Purugly|Knock Off|p1a: Banette
+|-supereffective|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|faint|p1a: Banette
+|
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora, L82|100/100
+|turn|3
+
+|
+|move|p2a: Purugly|Quick Attack|p1a: Zeraora
+|-damage|p1a: Zeraora|81/100
+|move|p1a: Zeraora|Plasma Fists|p2a: Purugly
+|-damage|p2a: Purugly|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|71/100|[from] item: Life Orb
+|faint|p2a: Purugly
+|
+|upkeep
+
+|
+|switch|p2a: Aurorus|Aurorus, L88, M|100/100
+|turn|4
+
+|
+|move|p1a: Zeraora|Close Combat|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|-damage|p1a: Zeraora|62/100|[from] item: Life Orb
+|faint|p2a: Aurorus
+|
+|upkeep
+
+|
+|switch|p2a: Passimian|Passimian, L86, M|100/100
+|turn|5
+
+|
+|switch|p1a: Roserade|Roserade, L84, M|100/100
+|move|p2a: Passimian|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|58/100
+|
+|-heal|p1a: Roserade|64/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Durant|Durant, L83, M|100/100
+|move|p1a: Roserade|Toxic Spikes|p2a: Durant
+|-sidestart|p2: Noxyis|move: Toxic Spikes
+|
+|-heal|p1a: Roserade|70/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|inactive|EndaoSong has 120 seconds left.
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Durant|X-Scissor|p1a: Palkia
+|-damage|p1a: Palkia|36/100
+|-damage|p2a: Durant|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Palkia|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Durant|X-Scissor|p1a: Palkia|[miss]
+|-miss|p2a: Durant|p1a: Palkia
+|move|p1a: Palkia|Thunder Wave|p2a: Durant
+|-status|p2a: Durant|par
+|
+|-heal|p1a: Palkia|48/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Palkia|Fire Blast|p2a: Durant
+|-supereffective|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|-heal|p1a: Palkia|54/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Zekrom|Zekrom, L78|100/100
+|-status|p2a: Zekrom|psn
+|-ability|p2a: Zekrom|Teravolt
+|-enditem|p2a: Zekrom|Lum Berry|[eat]
+|-curestatus|p2a: Zekrom|psn|[msg]
+|turn|10
+
+|
+|switch|p1a: Zeraora|Zeraora, L82|62/100
+|move|p2a: Zekrom|Outrage|p1a: Zeraora
+|-damage|p1a: Zeraora|1/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Roserade|Roserade, L84, M|70/100
+|move|p2a: Zekrom|Outrage|p1a: Roserade|[from]lockedmove
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+
+|
+|switch|p1a: Lanturn|Lanturn, L88, F|100/100
+|turn|12
+
+|
+|move|p2a: Zekrom|Outrage|p1a: Lanturn|[from]lockedmove
+|-damage|p1a: Lanturn|48/100
+|-start|p2a: Zekrom|confusion|[fatigue]
+|move|p1a: Lanturn|Ice Beam|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|42/100
+|
+|upkeep
+|turn|13
+
+|
+|-activate|p2a: Zekrom|confusion
+|move|p2a: Zekrom|Outrage|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|upkeep
+
+|
+|switch|p1a: Palkia|Palkia, L78|54/100
+|-ability|p1a: Palkia|Pressure
+|turn|14
+
+|
+|move|p1a: Palkia|Hydro Pump|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-crit|p2a: Zekrom
+|-damage|p2a: Zekrom|7/100
+|-activate|p2a: Zekrom|confusion
+|move|p2a: Zekrom|Outrage|p1a: Palkia|[from]lockedmove
+|-supereffective|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|faint|p1a: Palkia
+|
+|upkeep
+
+|
+|switch|p1a: Zeraora|Zeraora, L82|1/100
+|turn|15
+
+|
+|move|p1a: Zeraora|Hidden Power|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-crit|p2a: Zekrom
+|-damage|p2a: Zekrom|0 fnt
+|-damage|p1a: Zeraora|0 fnt|[from] item: Life Orb
+|faint|p2a: Zekrom
+|faint|p1a: Zeraora
+|
+|upkeep
+
+|
+|switch|p1a: Seismitoad|Seismitoad, L86, M|100/100
+|switch|p2a: Passimian|Passimian, L86, M|100/100
+|-status|p2a: Passimian|psn
+|turn|16
+
+|
+|move|p2a: Passimian|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|73/100
+|-enditem|p1a: Seismitoad|Life Orb|[from] move: Knock Off|[of] p2a: Passimian
+|move|p1a: Seismitoad|Rain Dance|p1a: Seismitoad
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Passimian|88/100 psn|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Seismitoad|Hydro Pump|p2a: Passimian|[miss]
+|-miss|p1a: Seismitoad|p2a: Passimian
+|move|p2a: Passimian|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|54/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Passimian|75/100 psn|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Seismitoad|Hydro Pump|p2a: Passimian
+|-damage|p2a: Passimian|12/100 psn
+|move|p2a: Passimian|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|34/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Passimian|0 fnt|[from] psn
+|faint|p2a: Passimian
+|upkeep
+
+|
+|switch|p2a: Terrakion|Terrakion, L82|100/100
+|-status|p2a: Terrakion|psn
+|turn|19
+
+|
+|move|p1a: Seismitoad|Hydro Pump|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|win|EndaoSong

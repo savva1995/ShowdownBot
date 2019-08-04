@@ -1,0 +1,90 @@
+|init|battle
+|title|daiadaia vs. Lawnmower fan 1
+|j|☆daiadaia
+|j|☆Lawnmower fan 1
+|player|p1|daiadaia|1|1578
+|player|p2|Lawnmower fan 1|1|1556
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Miltank|Miltank, L86, F|100/100
+|switch|p2a: Togedemaru|Togedemaru, L86, F|100/100
+|-item|p2a: Togedemaru|Air Balloon
+|turn|1
+|
+|move|p1a: Miltank|Stealth Rock|p2a: Togedemaru
+|-sidestart|p2: Lawnmower fan 1|move: Stealth Rock
+|move|p2a: Togedemaru|Zing Zap|p1a: Miltank
+|-damage|p1a: Miltank|73/100
+|
+|-heal|p1a: Miltank|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Miltank|Body Slam|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|79/100
+|-damage|p1a: Miltank|67/100|[from] ability: Iron Barbs|[of] p2a: Togedemaru
+|-enditem|p2a: Togedemaru|Air Balloon
+|move|p2a: Togedemaru|U-turn|p1a: Miltank
+|-damage|p1a: Miltank|50/100
+|
+|switch|p2a: Virizion|Virizion, L84|100/100|[from]move: U-turn
+|-damage|p2a: Virizion|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Virizion|100/100|[from] item: Leftovers
+|-heal|p1a: Miltank|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|move|p2a: Virizion|Substitute|p2a: Virizion
+|-start|p2a: Virizion|Substitute
+|-damage|p2a: Virizion|76/100
+|
+|-heal|p2a: Virizion|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Carbink|Carbink, L89|100/100
+|-damage|p2a: Carbink|88/100|[from] Stealth Rock
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|73/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, F|100/100
+|move|p2a: Carbink|Reflect|p2a: Carbink
+|-sidestart|p2: Lawnmower fan 1|Reflect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+
+|
+|move|p1a: Gliscor|Knock Off|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|69/100
+|-enditem|p2a: Carbink|Light Clay|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Carbink|Moonblast|p1a: Gliscor
+|-damage|p1a: Gliscor|68/100 tox
+|
+|-heal|p1a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+
+|-message|Lawnmower fan 1 forfeited.
+
+|
+|win|daiadaia

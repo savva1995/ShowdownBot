@@ -1,0 +1,113 @@
+|init|battle
+|title|Wotteq vs. Kckcu
+|j|☆Wotteq
+|j|☆Kckcu
+|player|p1|Wotteq|169|1032
+|player|p2|Kckcu|53|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|100/100
+|switch|p2a: Electrode|Electrode, L89|100/100
+|turn|1
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|move|p2a: Electrode|Volt Switch|p1a: Nidoking
+|-immune|p1a: Nidoking
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Uxie|Uxie, L84|100/100
+|move|p1a: Nidoking|Earth Power|p2a: Uxie
+|-immune|p2a: Uxie|[from] ability: Levitate
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Forretress|Forretress, L84, M|100/100
+|move|p2a: Uxie|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|82/100
+|
+|-heal|p1a: Forretress|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Uxie|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|83/100
+|
+|switch|p2a: Pyroar|Pyroar, L87, M|100/100|[from]move: U-turn
+|-ability|p2a: Pyroar|Unnerve|p1: Wotteq
+|move|p1a: Forretress|Spikes|p2a: Pyroar
+|-sidestart|p2: Kckcu|Spikes
+|
+|-heal|p1a: Forretress|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|100/100
+|move|p2a: Pyroar|Sunny Day|p2a: Pyroar
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p2a: Pyroar|Solar Beam||[still]
+|-prepare|p2a: Pyroar|Solar Beam|p1a: Pyukumuku
+|-anim|p2a: Pyroar|Solar Beam|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|47/100
+|move|p1a: Pyukumuku|Toxic|p2a: Pyroar
+|-status|p2a: Pyroar|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Pyukumuku|53/100|[from] item: Leftovers
+|-damage|p2a: Pyroar|94/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Pyroar|Solar Beam||[still]
+|-prepare|p2a: Pyroar|Solar Beam|p1a: Pyukumuku
+|-anim|p2a: Pyroar|Solar Beam|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|0 fnt
+|-damage|p2a: Pyroar|50/100 tox|[from] ability: Innards Out|[of] p1a: Pyukumuku
+|faint|p1a: Pyukumuku
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Pyroar|38/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Gastrodon|Gastrodon, L88, F|100/100
+|turn|8
+
+|
+|move|p2a: Pyroar|Solar Beam||[still]
+|-prepare|p2a: Pyroar|Solar Beam|p1a: Gastrodon
+|-anim|p2a: Pyroar|Solar Beam|p1a: Gastrodon
+|-supereffective|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Pyroar|19/100 tox|[from] psn
+|upkeep
+
+|-message|Wotteq forfeited.
+
+|
+|win|Kckcu

@@ -1,0 +1,334 @@
+|init|battle
+|title|sparkman29 vs. hawkeye357
+|j|☆sparkman29
+|j|☆hawkeye357
+|player|p1|sparkman29|257|
+|player|p2|hawkeye357|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops, L88, F|100/100
+|switch|p2a: Furret|Furret, L89, M|100/100
+|-item|p1a: Kabutops|Assault Vest|[from] ability: Frisk|[of] p2a: Furret|[identify]
+|turn|1
+|
+|move|p2a: Furret|U-turn|p1a: Kabutops
+|-damage|p1a: Kabutops|84/100
+|
+|switch|p2a: Shaymin|Shaymin, L84|100/100|[from]move: U-turn
+|move|p1a: Kabutops|Liquidation|p2a: Shaymin
+|-resisted|p2a: Shaymin
+|-damage|p2a: Shaymin|82/100
+|
+|-heal|p2a: Shaymin|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Shaymin|Leech Seed|p1a: Kabutops
+|-start|p1a: Kabutops|move: Leech Seed
+|move|p1a: Kabutops|Knock Off|p2a: Shaymin
+|-damage|p2a: Shaymin|62/100
+|-enditem|p2a: Shaymin|Leftovers|[from] move: Knock Off|[of] p1a: Kabutops
+|
+|-damage|p1a: Kabutops|72/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|73/100|[silent]
+|upkeep
+|turn|3
+|
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|48/100
+|move|p1a: Kabutops|Rapid Spin|p2a: Shaymin
+|-activate|p2a: Shaymin|move: Substitute|[damage]
+|-end|p1a: Kabutops|Leech Seed|[from] move: Rapid Spin|[of] p1a: Kabutops
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Shaymin|Leech Seed|p1a: Kabutops
+|-start|p1a: Kabutops|move: Leech Seed
+|move|p1a: Kabutops|Liquidation|p2a: Shaymin
+|-resisted|p2a: Shaymin
+|-activate|p2a: Shaymin|move: Substitute|[damage]
+|
+|-damage|p1a: Kabutops|59/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|58/100|[silent]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Shaymin|Seed Flare|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|upkeep
+
+|
+|switch|p1a: Genesect|Genesect, L78|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|6
+
+|
+|move|p2a: Shaymin|Earth Power|p1a: Genesect
+|-damage|p1a: Genesect|71/100
+|move|p1a: Genesect|Shift Gear|p1a: Genesect
+|-boost|p1a: Genesect|spe|2
+|-boost|p1a: Genesect|atk|1
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Genesect|Blaze Kick|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|-damage|p1a: Genesect|61/100|[from] item: Life Orb
+|move|p2a: Shaymin|Seed Flare|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|47/100
+|-unboost|p1a: Genesect|spd|2
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Genesect|Blaze Kick|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|-damage|p1a: Genesect|38/100|[from] item: Life Orb
+|faint|p2a: Shaymin
+|
+|upkeep
+
+|
+|switch|p2a: Furret|Furret, L89, M|100/100
+|-item|p1a: Genesect|Life Orb|[from] ability: Frisk|[of] p2a: Furret|[identify]
+|turn|9
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Furret
+|-damage|p2a: Furret|32/100
+|-damage|p1a: Genesect|28/100|[from] item: Life Orb
+|move|p2a: Furret|U-turn|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|18/100
+
+|
+|switch|p2a: Qwilfish|Qwilfish, L88, M|100/100|[from]move: U-turn
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Genesect|atk|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Genesect|Thunderbolt|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|-damage|p1a: Genesect|8/100|[from] item: Life Orb
+|faint|p2a: Qwilfish
+|
+|upkeep
+
+|
+|switch|p2a: Furret|Furret, L89, M|32/100
+|-item|p1a: Genesect|Life Orb|[from] ability: Frisk|[of] p2a: Furret|[identify]
+|turn|11
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Furret
+|-damage|p2a: Furret|0 fnt
+|-damage|p1a: Genesect|0 fnt|[from] item: Life Orb
+|faint|p2a: Furret
+|faint|p1a: Genesect
+|
+|upkeep
+
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L85, M|100/100
+|switch|p1a: Pachirisu|Pachirisu, L89, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|12
+
+|
+|move|p1a: Pachirisu|Nuzzle|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|95/100
+|-status|p2a: Vanilluxe|par
+|move|p2a: Vanilluxe|Autotomize|p2a: Vanilluxe
+|-boost|p2a: Vanilluxe|spe|2
+|-start|p2a: Vanilluxe|Autotomize
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pachirisu|95/100|[from] Hail
+|-heal|p1a: Pachirisu|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Pachirisu|Thunderbolt|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|72/100 par
+|move|p2a: Vanilluxe|Blizzard|p1a: Pachirisu
+|-damage|p1a: Pachirisu|42/100
+|-damage|p2a: Vanilluxe|62/100 par|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pachirisu|36/100|[from] Hail
+|-heal|p1a: Pachirisu|42/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Pachirisu|Thunderbolt|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|41/100 par
+|move|p2a: Vanilluxe|Hidden Power|p1a: Pachirisu
+|-supereffective|p1a: Pachirisu
+|-damage|p1a: Pachirisu|0 fnt
+|-damage|p2a: Vanilluxe|31/100 par|[from] item: Life Orb
+|faint|p1a: Pachirisu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Mantine|Mantine, L84, F|100/100
+|turn|15
+
+|
+|move|p2a: Vanilluxe|Explosion|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p2a: Vanilluxe
+|faint|p1a: Mantine
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Togedemaru|Togedemaru, L86, M|100/100
+|switch|p1a: Jirachi|Jirachi, L80|100/100
+|-item|p2a: Togedemaru|Air Balloon
+|turn|16
+
+|
+|move|p1a: Jirachi|Trick|p2a: Togedemaru
+|-activate|p1a: Jirachi|move: Trick|[of] p2a: Togedemaru
+|-item|p2a: Togedemaru|Choice Scarf|[from] move: Trick
+|-item|p1a: Jirachi|Air Balloon
+|-item|p1a: Jirachi|Air Balloon|[from] move: Trick
+|move|p2a: Togedemaru|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|85/100
+|-enditem|p1a: Jirachi|Air Balloon
+|
+|-weather|none
+|upkeep
+|turn|17
+
+|
+|move|p2a: Togedemaru|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|70/100
+|move|p1a: Jirachi|Trick|p2a: Togedemaru
+|-activate|p1a: Jirachi|move: Trick|[of] p2a: Togedemaru
+|-enditem|p2a: Togedemaru|Choice Scarf|[silent]|[from] move: Trick
+|-item|p1a: Jirachi|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Togedemaru|Spiky Shield|p2a: Togedemaru
+|-singleturn|p2a: Togedemaru|move: Protect
+|move|p1a: Jirachi|Iron Head|p2a: Togedemaru
+|-activate|p2a: Togedemaru|move: Protect
+|-damage|p1a: Jirachi|57/100|[from] Spiky Shield|[of] p2a: Togedemaru
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Togedemaru|Spiky Shield||[still]
+|-fail|p2a: Togedemaru
+|move|p1a: Jirachi|Iron Head|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|91/100
+|-damage|p1a: Jirachi|45/100|[from] ability: Iron Barbs|[of] p2a: Togedemaru
+|
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Tornadus|Tornadus, L83, M|100/100
+|move|p2a: Togedemaru|Iron Head|p1a: Tornadus
+|-damage|p1a: Tornadus|59/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Jirachi|Jirachi, L80|45/100
+|move|p2a: Togedemaru|Zing Zap|p1a: Jirachi
+|-damage|p1a: Jirachi|16/100
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Togedemaru|Spiky Shield|p2a: Togedemaru
+|-singleturn|p2a: Togedemaru|move: Protect
+|move|p1a: Jirachi|U-turn|p2a: Togedemaru
+|-activate|p2a: Togedemaru|move: Protect
+|-damage|p1a: Jirachi|3/100|[from] Spiky Shield|[of] p2a: Togedemaru
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Jirachi|U-turn|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|80/100
+|-damage|p1a: Jirachi|0 fnt|[from] ability: Iron Barbs|[of] p2a: Togedemaru
+|faint|p1a: Jirachi
+|move|p2a: Togedemaru|Zing Zap|p1: Jirachi|[notarget]
+|-fail|p2a: Togedemaru
+|
+|upkeep
+
+|
+|switch|p1a: Tornadus|Tornadus, L83, M|59/100
+|turn|24
+
+|
+|move|p1a: Tornadus|Superpower|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|0 fnt
+|-damage|p1a: Tornadus|47/100|[from] ability: Iron Barbs|[of] p2a: Togedemaru
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|faint|p2a: Togedemaru
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|25
+
+|
+|move|p1a: Tornadus|Acrobatics|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|43/100
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|win|hawkeye357

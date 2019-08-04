@@ -1,0 +1,267 @@
+|init|battle
+|title|VerlisifysFurry vs. ejaculation man
+|j|☆VerlisifysFurry
+|j|☆ejaculation man
+|player|p1|VerlisifysFurry|23|1048
+|player|p2|ejaculation man|43|1073
+|teamsize|p1|3
+|teamsize|p2|4
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Drifblim, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Greninja, M|item
+|poke|p2|Deoxys-Defense|item
+|poke|p2|Chansey, F|item
+|poke|p2|Rayquaza|item
+|poke|p2|Landorus-Therian, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VerlisifysFurry)
+|
+|start
+|switch|p1a: Drifblim|Drifblim, M, shiny|100/100
+|switch|p2a: testicle 1|Deoxys-Defense|100/100
+|-ability|p2a: testicle 1|Pressure
+|turn|1
+|
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2a: testicle 1|Cosmic Power|p2a: testicle 1
+|-boost|p2a: testicle 1|def|1
+|-boost|p2a: testicle 1|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2a: testicle 1|Cosmic Power|p2a: testicle 1
+|-boost|p2a: testicle 1|def|1
+|-boost|p2a: testicle 1|spd|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2a: testicle 1|Cosmic Power|p2a: testicle 1
+|-boost|p2a: testicle 1|def|1
+|-boost|p2a: testicle 1|spd|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: testicle 1|Cosmic Power|p2a: testicle 1
+|-boost|p2a: testicle 1|def|1
+|-boost|p2a: testicle 1|spd|1
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: testicle 1|Cosmic Power|p2a: testicle 1
+|-boost|p2a: testicle 1|def|1
+|-boost|p2a: testicle 1|spd|1
+|
+|upkeep
+|turn|6
+|c|☆VerlisifysFurry|Wow the names lol
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: testicle 1|Toxic|p1a: Drifblim|[miss]
+|-miss|p2a: testicle 1|p1a: Drifblim
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: testicle 1|Toxic|p1a: Drifblim|[miss]
+|-miss|p2a: testicle 1|p1a: Drifblim
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: testicle 1|Toxic|p1a: Drifblim|[miss]
+|-miss|p2a: testicle 1|p1a: Drifblim
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: testicle 1|Toxic|p1a: Drifblim
+|-status|p1a: Drifblim|tox
+|
+|-damage|p1a: Drifblim|94/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Drifblim|Baton Pass|p1a: Drifblim
+
+|
+|switch|p1a: SOO MUCH SKILL|Greninja, M|100/100|[from]move: Baton Pass
+|move|p2a: testicle 1|Cosmic Power|p2a: testicle 1
+|-boost|p2a: testicle 1|def|1
+|-boost|p2a: testicle 1|spd|1
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: SOO MUCH SKILL|Dark Pulse|p2a: testicle 1
+|-supereffective|p2a: testicle 1
+|-damage|p2a: testicle 1|56/100
+|cant|p2a: testicle 1|flinch
+|
+|-heal|p2a: testicle 1|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: SOO MUCH SKILL|Dark Pulse|p2a: testicle 1
+|-supereffective|p2a: testicle 1
+|-damage|p2a: testicle 1|15/100
+|move|p2a: testicle 1|Cosmic Power|p2a: testicle 1
+|-boost|p2a: testicle 1|def|0
+|-boost|p2a: testicle 1|spd|0
+|
+|-heal|p2a: testicle 1|22/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: testicle 1|Protect|p2a: testicle 1
+|-singleturn|p2a: testicle 1|Protect
+|move|p1a: SOO MUCH SKILL|Dark Pulse|p2a: testicle 1
+|-activate|p2a: testicle 1|move: Protect
+|
+|-heal|p2a: testicle 1|28/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|c|☆VerlisifysFurry|Wow
+
+|
+|move|p1a: SOO MUCH SKILL|Dark Pulse|p2a: testicle 1
+|-supereffective|p2a: testicle 1
+|-damage|p2a: testicle 1|0 fnt
+|faint|p2a: testicle 1
+|-activate|p1a: SOO MUCH SKILL|ability: Battle Bond
+|detailschange|p1a: SOO MUCH SKILL|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p2a: testicle 2|Chansey, F|100/100
+|turn|15
+
+|
+|move|p1a: SOO MUCH SKILL|Water Shuriken|p2a: testicle 2
+|-crit|p2a: testicle 2
+|-damage|p2a: testicle 2|77/100
+|-damage|p2a: testicle 2|60/100
+|-damage|p2a: testicle 2|43/100
+|-hitcount|p2a: testicle 2|3
+|move|p2a: testicle 2|Toxic|p1a: SOO MUCH SKILL|[miss]
+|-miss|p2a: testicle 2|p1a: SOO MUCH SKILL
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: SOO MUCH SKILL|Water Shuriken|p2a: testicle 2
+|-damage|p2a: testicle 2|27/100
+|-damage|p2a: testicle 2|11/100
+|-damage|p2a: testicle 2|0 fnt
+|-hitcount|p2a: testicle 2|3
+|faint|p2a: testicle 2
+|
+|upkeep
+
+|
+|switch|p2a: the shaft|Rayquaza|100/100
+|-ability|p2a: the shaft|Air Lock
+|turn|17
+
+|
+|detailschange|p2a: the shaft|Rayquaza-Mega
+|-mega|p2a: the shaft|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: the shaft
+|move|p1a: SOO MUCH SKILL|Dark Pulse|p2a: the shaft
+|-damage|p2a: the shaft|0 fnt
+|faint|p2a: the shaft
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p2a: ejaculation|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: ejaculation|Intimidate|boost
+|-unboost|p1a: SOO MUCH SKILL|atk|1
+|turn|18
+
+|c|☆VerlisifysFurry|Wow
+
+|c|☆ejaculation man|just let this happen bro
+
+|c|☆VerlisifysFurry|the names
+
+|c|☆ejaculation man|switch out
+
+|c|☆ejaculation man|trust me
+
+|c|☆VerlisifysFurry|and the switch ins
+
+|c|☆VerlisifysFurry|naw I’m good
+
+|inactive|VerlisifysFurry has 120 seconds left.
+
+|c|☆ejaculation man|just swtich out
+
+|c|☆VerlisifysFurry|im berlisify
+
+|c|☆VerlisifysFurry|verlisify
+
+|c|☆ejaculation man|im gonna explode
+
+|c|☆ejaculation man|just do it
+
+|c|☆VerlisifysFurry|its shiny so it hacked
+
+|c|☆ejaculation man|let it happen man
+
+|c|☆ejaculation man|shit
+
+|
+|move|p1a: SOO MUCH SKILL|Water Shuriken|p2a: ejaculation
+|-supereffective|p2a: ejaculation
+|-enditem|p2a: ejaculation|Focus Sash
+|-damage|p2a: ejaculation|1/100
+|-supereffective|p2a: ejaculation
+|-damage|p2a: ejaculation|0 fnt
+|-hitcount|p2a: ejaculation|2
+|faint|p2a: ejaculation
+|
+|win|VerlisifysFurry

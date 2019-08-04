@@ -1,0 +1,76 @@
+|init|battle
+|title|Darius1411 vs. LostPuppy23
+|j|☆Darius1411
+|j|☆LostPuppy23
+|player|p1|Darius1411|151|1085
+|player|p2|LostPuppy23|170|1078
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Altaria|Altaria, L82, F|100/100
+|switch|p2a: Arbok|Arbok, L89, F|100/100
+|turn|1
+|
+|switch|p2a: Slurpuff|Slurpuff, L85, F|100/100
+|detailschange|p1a: Altaria|Altaria-Mega, L82, F
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p1a: Altaria|Earthquake|p2a: Slurpuff
+|-damage|p2a: Slurpuff|75/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, M|100/100
+|move|p2a: Slurpuff|Play Rough|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|-damage|p2a: Slurpuff|63/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Darius1411)
+
+|
+|move|p2a: Slurpuff|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|65/100
+|-heal|p2a: Slurpuff|76/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Slurpuff|64/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Slurpuff
+|-start|p2a: Slurpuff|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|71/100|[from] item: Leftovers
+|-damage|p2a: Slurpuff|52/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|84/100|[silent]
+|upkeep
+|turn|4
+
+|inactive|LostPuppy23 has 120 seconds left.
+
+|inactive|LostPuppy23 has 90 seconds left.
+
+|inactive|LostPuppy23 has 60 seconds left.
+
+|inactive|LostPuppy23 has 30 seconds left.
+
+|inactive|LostPuppy23 has 20 seconds left.
+
+|inactive|LostPuppy23 has 15 seconds left.
+
+|inactive|LostPuppy23 has 10 seconds left.
+
+|inactive|LostPuppy23 has 5 seconds left.
+
+|-message|LostPuppy23 lost due to inactivity.
+|
+|win|Darius1411

@@ -1,0 +1,48 @@
+|init|battle
+|title|Ughughuhb vs. Magnesia
+|j|☆Ughughuhb
+|j|☆Magnesia
+|player|p1|Ughughuhb|265|
+|player|p2|Magnesia|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cresselia|Cresselia, L70, F|100/100
+|switch|p1b: Cacturne|Cacturne, L82, F|100/100
+|switch|p2a: Registeel|Registeel, L71|100/100
+|switch|p2b: Heliolisk|Heliolisk, L81, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ughughuhb)
+
+|inactive|Ughughuhb has 270 seconds left.
+|inactive|Magnesia has 270 seconds left.
+
+|
+|move|p2b: Heliolisk|Dark Pulse|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|56/100
+|-damage|p2b: Heliolisk|91/100|[from] item: Life Orb
+|move|p1a: Cresselia|Ice Beam|p2b: Heliolisk
+|-damage|p2b: Heliolisk|73/100
+|-status|p2b: Heliolisk|frz
+|move|p1b: Cacturne|Substitute|p1b: Cacturne
+|-start|p1b: Cacturne|Substitute
+|-damage|p1b: Cacturne|76/100
+|move|p2a: Registeel|Iron Head|p1a: Cresselia
+|-damage|p1a: Cresselia|40/100
+|-enditem|p1a: Cresselia|Sitrus Berry|[eat]
+|-heal|p1a: Cresselia|65/100|[from] item: Sitrus Berry
+|
+|-heal|p1b: Cacturne|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|-message|Magnesia forfeited.
+
+|
+|win|Ughughuhb

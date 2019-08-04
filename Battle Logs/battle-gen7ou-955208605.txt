@@ -1,0 +1,155 @@
+|init|battle
+|title|HighestVoltage vs. Xpt1998
+|j|☆HighestVoltage
+|j|☆Xpt1998
+|player|p1|HighestVoltage|274|1079
+|player|p2|Xpt1998|30|1042
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sableye, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Heatran, M|item
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|turn|1
+|
+|detailschange|p2a: Venusaur|Venusaur-Mega, F
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Heatran|Lava Plume|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|57/100
+|move|p2a: Venusaur|Sleep Powder|p1a: Heatran
+|-status|p1a: Heatran|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Garchomp|Fire Fang|p1a: Clefable
+|-damage|p1a: Clefable|75/100
+|move|p1a: Clefable|Flamethrower|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|88/100
+|
+|-heal|p1a: Clefable|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Clefable|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|56/100
+|
+|-heal|p1a: Clefable|88/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+
+|
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Clefable|Flamethrower|p2a: Gliscor
+|-damage|p2a: Gliscor|28/100 tox
+|
+|-heal|p1a: Clefable|94/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|57/100
+|move|p1a: Clefable|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Clefable|63/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|7
+
+|
+|switch|p2a: Garchomp|Garchomp, M|88/100
+|move|p1a: Clefable|Moonblast|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clefable|57/100|[from] Sandstorm
+|-heal|p1a: Clefable|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Garchomp|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|4/100
+|move|p1a: Clefable|Moonblast|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clefable|0 fnt|[from] Sandstorm
+|faint|p1a: Clefable
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|switch|p1a: Heatran|Heatran, M|100/100 slp
+|turn|9
+
+|l|☆Xpt1998
+
+|player|p2|
+
+|c|☆HighestVoltage|let see who heatran is better lol
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HighestVoltage)
+
+|inactive|Xpt1998 has 30 seconds to reconnect!
+
+|inactive|Xpt1998 has 20 seconds to reconnect!
+
+|inactive|Xpt1998 has 15 seconds to reconnect!
+
+|inactive|Xpt1998 has 10 seconds to reconnect!
+
+|inactive|Xpt1998 has 5 seconds to reconnect!
+
+|-message|Xpt1998 lost due to inactivity.
+|
+|win|HighestVoltage

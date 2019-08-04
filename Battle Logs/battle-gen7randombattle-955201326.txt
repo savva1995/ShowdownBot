@@ -1,0 +1,148 @@
+|init|battle
+|title|guteqass4w4 vs. lexid123
+|j|☆guteqass4w4
+|j|☆lexid123
+|player|p1|guteqass4w4|265|1176
+|player|p2|lexid123|169|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tropius|Tropius, L89, F|100/100
+|switch|p2a: Magcargo|Magcargo, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lexid123)
+|
+|move|p1a: Tropius|Toxic|p2a: Magcargo
+|-status|p2a: Magcargo|tox
+|move|p2a: Magcargo|Shell Smash|p2a: Magcargo
+|-unboost|p2a: Magcargo|def|1
+|-unboost|p2a: Magcargo|spd|1
+|-boost|p2a: Magcargo|atk|2
+|-boost|p2a: Magcargo|spa|2
+|-boost|p2a: Magcargo|spe|2
+|-enditem|p2a: Magcargo|White Herb
+|-clearnegativeboost|p2a: Magcargo|[silent]
+|
+|-damage|p2a: Magcargo|95/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|inactive|guteqass4w4 has 120 seconds left.
+
+|
+|switch|p1a: Haxorus|Haxorus, L82, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Magcargo|Lava Plume|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|60/100
+|-status|p1a: Haxorus|brn
+|-enditem|p1a: Haxorus|Lum Berry|[eat]
+|-curestatus|p1a: Haxorus|brn|[msg]
+|
+|-damage|p2a: Magcargo|83/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|inactive|guteqass4w4 has 120 seconds left.
+
+|
+|move|p2a: Magcargo|Lava Plume|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|22/100
+|-status|p1a: Haxorus|brn
+|move|p1a: Haxorus|Outrage|p2a: Magcargo
+|-damage|p2a: Magcargo|56/100 tox
+|
+|-damage|p2a: Magcargo|38/100 tox|[from] psn
+|-damage|p1a: Haxorus|16/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|inactive|guteqass4w4 has 120 seconds left.
+
+|
+|move|p2a: Magcargo|Lava Plume|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-damage|p2a: Magcargo|14/100 tox|[from] psn
+|upkeep
+
+|inactive|guteqass4w4 has 120 seconds left.
+
+|
+|switch|p1a: Celesteela|Celesteela, L80|100/100
+|turn|5
+
+|
+|move|p2a: Magcargo|Lava Plume|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-crit|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|
+|-damage|p2a: Magcargo|0 fnt|[from] psn
+|faint|p2a: Magcargo
+|upkeep
+
+|
+|switch|p1a: Arceus|Arceus-Fairy, L78|100/100
+|switch|p2a: Regirock|Regirock, L88|100/100
+|turn|6
+
+|
+|move|p1a: Arceus|Will-O-Wisp|p2a: Regirock
+|-status|p2a: Regirock|brn
+|move|p2a: Regirock|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|94/100 tox|[from] psn
+|-damage|p2a: Regirock|95/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|inactive|guteqass4w4 has 120 seconds left.
+
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|move|p1a: Arceus|Judgment|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|69/100
+|
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|-damage|p1a: Arceus|82/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Durant|Durant, L83, M|100/100
+|move|p2a: Skarmory|Spikes|p1a: Durant
+|-sidestart|p1: guteqass4w4|Spikes
+|
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Durant|Hone Claws|p1a: Durant
+|-boost|p1a: Durant|atk|1
+|-boost|p1a: Durant|accuracy|1
+|move|p2a: Skarmory|Whirlwind|p1a: Durant
+|drag|p1a: Tropius|Tropius, L89, F|100/100
+|
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|-message|guteqass4w4 forfeited.
+
+|
+|win|lexid123

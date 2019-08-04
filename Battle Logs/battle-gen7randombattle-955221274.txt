@@ -1,0 +1,148 @@
+|init|battle
+|title|RIPspingolio3ever vs. secretleviathan
+|j|☆RIPspingolio3ever
+|j|☆secretleviathan
+|player|p1|RIPspingolio3ever|121|2199
+|player|p2|secretleviathan|110|2067
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Archeops|Archeops, L87, M|100/100
+|switch|p2a: Togedemaru|Togedemaru, L86, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RIPspingolio3ever)
+|
+|move|p1a: Archeops|U-turn|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|82/100
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|100/100|[from]move: U-turn
+|move|p2a: Togedemaru|Nuzzle|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|94/100
+|-status|p1a: Vileplume|par
+|
+|upkeep
+|turn|2
+|inactive|secretleviathan has 120 seconds left.
+|
+|switch|p2a: Mightyena|Mightyena, L89, M|100/100
+|move|p1a: Vileplume|Hidden Power|p2a: Mightyena
+|-damage|p2a: Mightyena|69/100
+|-damage|p1a: Vileplume|84/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mightyena|Crunch|p1a: Vileplume
+|-damage|p1a: Vileplume|31/100 par
+|move|p1a: Vileplume|Giga Drain|p2a: Mightyena
+|-damage|p2a: Mightyena|19/100
+|-heal|p1a: Vileplume|57/100 par|[from] drain|[of] p2a: Mightyena
+|-damage|p1a: Vileplume|47/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mightyena|Crunch|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-status|p2a: Mightyena|par|[from] ability: Effect Spore|[of] p1a: Vileplume
+|faint|p1a: Vileplume
+|-ability|p2a: Mightyena|Moxie|boost
+|-boost|p2a: Mightyena|atk|1
+|
+|upkeep
+|
+|switch|p1a: Volbeat|Volbeat, L89, M|100/100
+|turn|5
+|inactive|secretleviathan has 120 seconds left.
+|
+|switch|p2a: Volcarona|Volcarona, L80, F|100/100
+|move|p1a: Volbeat|U-turn|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|85/100
+|
+|switch|p1a: Archeops|Archeops, L87, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|inactive|secretleviathan has 120 seconds left.
+|inactive|secretleviathan has 90 seconds left.
+|
+|switch|p2a: Mightyena|Mightyena, L89, M|19/100 par
+|move|p1a: Archeops|Stone Edge|p2a: Mightyena
+|-damage|p2a: Mightyena|0 fnt
+|faint|p2a: Mightyena
+|
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, L84, F|100/100
+|turn|7
+|inactive|secretleviathan has 60 seconds left.
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|60/100
+|move|p1a: Archeops|U-turn|p2a: Cloyster
+|-damage|p2a: Cloyster|81/100
+|inactive|RIPspingolio3ever has 120 seconds left.
+|inactive|RIPspingolio3ever has 90 seconds left.
+|
+|switch|p1a: Espeon|Espeon, L84, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Espeon|Shadow Ball|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|3/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|-enditem|p2a: Cloyster|White Herb
+|-clearnegativeboost|p2a: Cloyster|[silent]
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Volbeat|Volbeat, L89, M|100/100
+|move|p2a: Cloyster|Icicle Spear|p1a: Volbeat
+|-damage|p1a: Volbeat|77/100
+|-damage|p1a: Volbeat|55/100
+|-damage|p1a: Volbeat|34/100
+|-damage|p1a: Volbeat|12/100
+|-crit|p1a: Volbeat
+|-damage|p1a: Volbeat|0 fnt
+|-hitcount|p1a: Volbeat|5
+|faint|p1a: Volbeat
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, L82, M|100/100
+|turn|10
+
+|inactive|secretleviathan has 60 seconds left.
+
+|inactive|secretleviathan has 30 seconds left.
+
+|inactive|secretleviathan has 20 seconds left.
+
+|inactive|secretleviathan has 15 seconds left.
+
+|inactive|secretleviathan has 10 seconds left.
+
+|inactive|secretleviathan has 5 seconds left.
+
+|-message|secretleviathan lost due to inactivity.
+|
+|win|RIPspingolio3ever

@@ -1,0 +1,39 @@
+|init|battle
+|title|Kids game sweaties vs. Solcineroar
+|j|☆Kids game sweaties
+|j|☆Solcineroar
+|player|p1|Kids game sweaties|76|1040
+|player|p2|Solcineroar|169|1041
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grumpig|Grumpig, L89, F|100/100
+|switch|p2a: Kartana|Kartana, L80|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Solcineroar)
+
+|inactive|Kids game sweaties has 120 seconds left.
+
+|
+|move|p2a: Kartana|Knock Off|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-crit|p1a: Grumpig
+|-enditem|p1a: Grumpig|Focus Sash
+|-damage|p1a: Grumpig|1/100
+|move|p1a: Grumpig|Thunder Wave|p2a: Kartana|[miss]
+|-miss|p1a: Grumpig|p2a: Kartana
+|
+|upkeep
+|turn|2
+
+|-message|Kids game sweaties forfeited.
+
+|
+|win|Solcineroar

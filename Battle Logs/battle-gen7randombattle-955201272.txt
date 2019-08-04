@@ -1,0 +1,37 @@
+|init|battle
+|title|demoted kebab vs. Pitochupis
+|j|☆demoted kebab
+|j|☆Pitochupis
+|player|p1|demoted kebab|2|1144
+|player|p2|Pitochupis|170|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gothitelle|Gothitelle, L82, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L86, F|100/100
+|turn|1
+|l|☆demoted kebab
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pitochupis)
+
+|inactive|demoted kebab has 30 seconds to reconnect!
+
+|inactive|demoted kebab has 20 seconds to reconnect!
+
+|inactive|demoted kebab has 15 seconds to reconnect!
+
+|inactive|demoted kebab has 10 seconds to reconnect!
+
+|inactive|demoted kebab has 5 seconds to reconnect!
+
+|-message|demoted kebab lost due to inactivity.
+|
+|win|Pitochupis

@@ -1,0 +1,287 @@
+|init|battle
+|title|danielfang vs. Cristian0
+|j|☆danielfang
+|j|☆Cristian0
+|player|p1|danielfang|265|2124
+|player|p2|Cristian0|101|2064
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lunatone|Lunatone, L89|100/100
+|switch|p2a: Girafarig|Girafarig, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cristian0)
+|
+|switch|p2a: Durant|Durant, L83, M|100/100
+|move|p1a: Lunatone|Calm Mind|p1a: Lunatone
+|-boost|p1a: Lunatone|spa|1
+|-boost|p1a: Lunatone|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Durant|Iron Head|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-enditem|p1a: Lunatone|Focus Sash
+|-damage|p1a: Lunatone|1/100
+|cant|p1a: Lunatone|flinch
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Durant|Iron Head|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|0 fnt
+|faint|p1a: Lunatone
+|
+|upkeep
+|
+|switch|p1a: Omastar|Omastar, L88, M|100/100
+|turn|4
+|
+|move|p2a: Durant|Iron Head|p1a: Omastar
+|-damage|p1a: Omastar|45/100
+|move|p1a: Omastar|Stealth Rock|p2a: Durant
+|-sidestart|p2: Cristian0|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|move|p2a: Durant|Iron Head|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|66/100
+|
+|-heal|p1a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Durant|Iron Head|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|39/100
+|move|p1a: Vaporeon|Scald|p2a: Durant
+|-damage|p2a: Durant|40/100
+|-status|p2a: Durant|brn
+|
+|-heal|p1a: Vaporeon|45/100|[from] item: Leftovers
+|-damage|p2a: Durant|34/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Girafarig|Girafarig, L89, F|100/100
+|-damage|p2a: Girafarig|88/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Girafarig
+|-damage|p2a: Girafarig|44/100
+|
+|-heal|p2a: Girafarig|50/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|51/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Girafarig|Nasty Plot|p2a: Girafarig
+|-boost|p2a: Girafarig|spa|2
+|move|p1a: Vaporeon|Scald|p2a: Girafarig
+|-damage|p2a: Girafarig|8/100
+|
+|-heal|p2a: Girafarig|14/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Darkrai|Darkrai, L78|100/100
+|move|p2a: Girafarig|Hyper Voice|p1a: Darkrai
+|-damage|p1a: Darkrai|5/100
+|
+|-heal|p1a: Darkrai|11/100|[from] item: Leftovers
+|-heal|p2a: Girafarig|20/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Girafarig
+|-supereffective|p2a: Girafarig
+|-damage|p2a: Girafarig|0 fnt
+|faint|p2a: Girafarig
+|
+|-heal|p1a: Darkrai|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, L84, F|100/100
+|-damage|p2a: Salazzle|76/100|[from] Stealth Rock
+|-item|p2a: Salazzle|Air Balloon
+|turn|11
+|
+|switch|p1a: Omastar|Omastar, L88, M|45/100
+|move|p2a: Salazzle|Hidden Power|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|upkeep
+|
+|switch|p1a: Buzzwole|Buzzwole, L81|100/100
+|turn|12
+|
+|move|p1a: Buzzwole|Stone Edge|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|-enditem|p2a: Salazzle|Air Balloon
+|faint|p2a: Salazzle
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|upkeep
+|c|☆Cristian0|mb
+|
+|switch|p2a: Jellicent|Jellicent, L88, F|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Buzzwole|Stone Edge|p2a: Jellicent
+|-damage|p2a: Jellicent|41/100
+|move|p2a: Jellicent|Scald|p1a: Buzzwole
+|-damage|p1a: Buzzwole|43/100
+|-status|p1a: Buzzwole|brn
+|-damage|p2a: Jellicent|32/100|[from] item: Life Orb
+|
+|-damage|p1a: Buzzwole|37/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Buzzwole|Stone Edge|p2a: Jellicent
+|-damage|p2a: Jellicent|7/100
+|move|p2a: Jellicent|Scald|p1a: Buzzwole
+|-damage|p1a: Buzzwole|0 fnt
+|-damage|p2a: Jellicent|0 fnt|[from] item: Life Orb
+|faint|p1a: Buzzwole
+|faint|p2a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Darkrai|Darkrai, L78|17/100
+|switch|p2a: Durant|Durant, L83, M|34/100 brn
+|-damage|p2a: Durant|21/100 brn|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|-heal|p1a: Darkrai|23/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales-Alola, L81, F|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|16
+|
+|move|p1a: Darkrai|Hypnosis|p2a: Ninetales
+|-status|p2a: Ninetales|slp|[from] move: Hypnosis
+|cant|p2a: Ninetales|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Darkrai|17/100|[from] Hail
+|-heal|p1a: Darkrai|23/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|63/100 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+|upkeep
+|turn|17
+|c|☆Cristian0|man
+|c|☆Cristian0|HAHAHAHA
+
+|
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|-curestatus|p2a: Ninetales|slp|[msg]
+|move|p2a: Ninetales|Moonblast|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|57/100
+|turn|18
+
+|
+|move|p2a: Ninetales|Moonblast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|37/100
+|move|p1a: Vaporeon|Scald|p2a: Ninetales
+|-damage|p2a: Ninetales|25/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vaporeon|31/100|[from] Hail
+|-heal|p1a: Vaporeon|37/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Cristian0|move: Aurora Veil
+|move|p1a: Vaporeon|Scald|p2a: Ninetales
+|-damage|p2a: Ninetales|8/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vaporeon|31/100|[from] Hail
+|-heal|p1a: Vaporeon|37/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Ninetales|Moonblast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|15/100
+|move|p1a: Vaporeon|Scald|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|none
+|-heal|p1a: Vaporeon|21/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gengar|Gengar, L78, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|21
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L78, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Sludge Wave|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, L81, M|100/100
+|turn|22
+
+|
+|detailschange|p1a: Gallade|Gallade-Mega, L81, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p2a: Gengar|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|16/100
+|move|p1a: Gallade|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|55/100
+|
+|upkeep
+|turn|23
+
+|c|☆danielfang|gg
+
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|win|Cristian0

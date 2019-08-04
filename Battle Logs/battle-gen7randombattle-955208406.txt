@@ -1,0 +1,279 @@
+|init|battle
+|title|jhngbkvbm vs. Fadsqwasd
+|j|☆jhngbkvbm
+|j|☆Fadsqwasd
+|player|p1|jhngbkvbm|265|1000
+|player|p2|Fadsqwasd|102|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|100/100
+|switch|p2a: Espeon|Espeon, L84, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: Fadsqwasd
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fadsqwasd)
+|
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-item|p2a: Stakataka|Air Balloon
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L82, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Hone Claws|p1a: Aerodactyl
+|-boost|p1a: Aerodactyl|atk|1
+|-boost|p1a: Aerodactyl|accuracy|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Aerodactyl|Aqua Tail|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|40/100
+|-enditem|p2a: Stakataka|Air Balloon
+|move|p2a: Stakataka|Gyro Ball|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|-ability|p2a: Stakataka|Beast Boost|boost
+|-boost|p2a: Stakataka|def|1
+|
+|upkeep
+|
+|switch|p1a: Luvdisc|Luvdisc, L89, M|100/100
+|turn|3
+
+|inactive|Fadsqwasd has 120 seconds left.
+
+|
+|move|p1a: Luvdisc|Scald|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|3/100
+|move|p2a: Stakataka|Trick Room|p2a: Stakataka
+|-fieldstart|move: Trick Room|[of] p2a: Stakataka
+|
+|upkeep
+|turn|4
+
+|inactive|Fadsqwasd has 120 seconds left.
+
+|
+|move|p2a: Stakataka|Superpower|p1a: Luvdisc
+|-damage|p1a: Luvdisc|38/100
+|-unboost|p2a: Stakataka|atk|1
+|-unboost|p2a: Stakataka|def|1
+|move|p1a: Luvdisc|Scald|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|faint|p2a: Stakataka
+|
+|-heal|p1a: Luvdisc|44/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Lurantis|Lurantis, L88, F|100/100
+|turn|5
+
+|
+|switch|p1a: Infernape|Infernape, L82, F|100/100
+|move|p2a: Lurantis|Leaf Storm|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|63/100
+|-boost|p2a: Lurantis|spa|2
+|-damage|p2a: Lurantis|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Lurantis|Superpower|p1a: Infernape
+|-damage|p1a: Infernape|6/100
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|-damage|p2a: Lurantis|81/100|[from] item: Life Orb
+|move|p1a: Infernape|Fire Blast|p2a: Lurantis|[miss]
+|-miss|p1a: Infernape|p2a: Lurantis
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Dragonite|Dragonite, L81, F|100/100
+|move|p2a: Lurantis|Superpower|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|84/100
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|-damage|p2a: Lurantis|71/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Lurantis
+|-damage|p2a: Lurantis|44/100
+|move|p2a: Lurantis|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|8/100
+|-enditem|p1a: Dragonite|Lum Berry|[from] move: Knock Off|[of] p2a: Lurantis
+|-damage|p2a: Lurantis|34/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Lurantis|[from]lockedmove
+|-damage|p2a: Lurantis|8/100
+|move|p2a: Lurantis|Superpower|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|-damage|p2a: Lurantis|0 fnt|[from] item: Life Orb
+|faint|p1a: Dragonite
+|faint|p2a: Lurantis
+|
+|upkeep
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, F|100/100
+|switch|p2a: Espeon|Espeon, L84, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|10
+
+|
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|move|p1a: Gigalith|Stone Edge|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|53/100|[from] Sandstorm
+|-heal|p2a: Keldeo|59/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Luvdisc|Luvdisc, L89, M|44/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Luvdisc
+|-resisted|p1a: Luvdisc
+|-damage|p1a: Luvdisc|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Luvdisc|0 fnt|[from] Sandstorm
+|-damage|p2a: Keldeo|53/100|[from] Sandstorm
+|faint|p1a: Luvdisc
+|-heal|p2a: Keldeo|59/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Infernape|Infernape, L82, F|6/100
+|turn|12
+
+|
+|-zpower|p1a: Infernape
+|move|p1a: Infernape|All-Out Pummeling|p2a: Keldeo|[zeffect]
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|0 fnt|[from] Sandstorm
+|faint|p1a: Infernape
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon, L78|100/100
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|detailschange|p1a: Groudon|Groudon-Primal, L78
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|13
+
+|
+|switch|p2a: Ledian|Ledian, L89, F|100/100
+|move|p1a: Groudon|Precipice Blades|p2a: Ledian
+|-immune|p2a: Ledian
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p2a: Ledian|Reflect|p2a: Ledian
+|-sidestart|p2: Fadsqwasd|Reflect
+|move|p1a: Groudon|Fire Punch|p2a: Ledian
+|-supereffective|p2a: Ledian
+|-damage|p2a: Ledian|0 fnt
+|faint|p2a: Ledian
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-ability|p2a: Kyogre|Drizzle|[from] desolateland|[fail]
+|turn|15
+
+|
+|-weather|none
+|switch|p1a: Gigalith|Gigalith, L85, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Kyogre|Ice Beam|p1a: Gigalith
+|-damage|p1a: Gigalith|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyogre|95/100|[from] Sandstorm
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Espeon|Espeon, L84, M|100/100
+|move|p1a: Gigalith|Explosion|p2a: Espeon
+|-damage|p2a: Espeon|9/100
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|3/100|[from] Sandstorm
+|-heal|p2a: Espeon|9/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon-Primal, L78|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|17
+
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Groudon
+|-damage|p1a: Groudon|74/100
+|-unboost|p1a: Groudon|spd|1
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Espeon|16/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Groudon
+|-damage|p1a: Groudon|36/100
+|move|p1a: Groudon|Precipice Blades|p2a: Espeon|[miss]
+|-miss|p1a: Groudon|p2a: Espeon
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Espeon|22/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|win|Fadsqwasd

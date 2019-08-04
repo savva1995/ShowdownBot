@@ -1,0 +1,252 @@
+|init|battle
+|title|zSen vs. Sergy17
+|j|☆zSen
+|j|☆Sergy17
+|player|p1|zSen|51|1077
+|player|p2|Sergy17|99|1047
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, L87, F|100/100
+|switch|p2a: Gliscor|Gliscor, L80, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, L87, F
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|move|p2a: Gliscor|Earthquake|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|87/100
+|move|p1a: Abomasnow|Blizzard|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, L87, M|100/100
+|turn|2
+
+|
+|switch|p1a: Rhyperior|Rhyperior, L84, F|100/100
+|-zpower|p2a: Charizard
+|move|p2a: Charizard|Z-Hold Hands|null|[anim]Hold Hands|[notarget]
+|-boost|p2a: Charizard|atk|1|[zeffect]
+|-boost|p2a: Charizard|def|1|[zeffect]
+|-boost|p2a: Charizard|spa|1|[zeffect]
+|-boost|p2a: Charizard|spd|1|[zeffect]
+|-boost|p2a: Charizard|spe|1|[zeffect]
+|-fail|p2a: Charizard
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Charizard|94/100|[from] Hail
+|-damage|p1a: Rhyperior|94/100|[from] Hail
+|upkeep
+|turn|3
+
+|
+|move|p2a: Charizard|Fire Blast|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|52/100
+|move|p1a: Rhyperior|Stone Edge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rhyperior|46/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Lycanroc|Lycanroc-Dusk, L84, F|100/100
+|turn|4
+
+|
+|move|p2a: Lycanroc|Accelerock|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|38/100
+|-damage|p2a: Lycanroc|91/100|[from] item: Life Orb
+|move|p1a: Rhyperior|Earthquake|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rhyperior|32/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Aurorus|Aurorus, L88, F|100/100
+|turn|5
+
+|
+|move|p2a: Aurorus|Blizzard|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Abomasnow|Abomasnow-Mega, L87, F|87/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|6
+
+|
+|move|p2a: Aurorus|Blizzard|p1a: Abomasnow
+|-damage|p1a: Abomasnow|47/100
+|move|p1a: Abomasnow|Hidden Power|p2a: Aurorus
+|-damage|p2a: Aurorus|86/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Aurorus|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Aurorus|Blizzard|p1a: Abomasnow
+|-damage|p1a: Abomasnow|13/100
+|move|p1a: Abomasnow|Blizzard|p2a: Aurorus
+|-resisted|p2a: Aurorus
+|-damage|p2a: Aurorus|73/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Aurorus|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Terrakion|Terrakion, L82|100/100
+|move|p2a: Aurorus|Blizzard|p1a: Terrakion
+|-damage|p1a: Terrakion|51/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Terrakion|45/100|[from] Hail
+|-heal|p2a: Aurorus|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Terrakion|Earthquake|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-crit|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|-damage|p1a: Terrakion|35/100|[from] item: Life Orb
+|faint|p2a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Terrakion|29/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Leavanny|Leavanny, L89, M|100/100
+|turn|10
+
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Leavanny|[miss]
+|-miss|p1a: Terrakion|p2a: Leavanny
+|move|p2a: Leavanny|Leaf Blade|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-crit|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, M|100/100
+|turn|11
+
+|
+|move|p2a: Leavanny|X-Scissor|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|2/100
+|move|p1a: Reuniclus|Shadow Ball|p2a: Leavanny
+|-damage|p2a: Leavanny|70/100
+|-unboost|p2a: Leavanny|spd|1
+|
+|-heal|p2a: Leavanny|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Plusle|Plusle, L89, F|100/100
+|move|p2a: Leavanny|X-Scissor|p1a: Plusle
+|-damage|p1a: Plusle|32/100
+|
+|-heal|p1a: Plusle|38/100|[from] item: Leftovers
+|-heal|p2a: Leavanny|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Plusle|Hidden Power|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|31/100
+|move|p2a: Leavanny|X-Scissor|p1a: Plusle
+|-damage|p1a: Plusle|0 fnt
+|faint|p1a: Plusle
+|
+|-heal|p2a: Leavanny|37/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Abomasnow|Abomasnow-Mega, L87, F|13/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|14
+
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Latias|Latias, L81, F|100/100
+|turn|15
+
+|
+|detailschange|p2a: Latias|Latias-Mega, L81, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p1a: Abomasnow|Ice Shard|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|64/100
+|move|p2a: Latias|Draco Meteor|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-unboost|p2a: Latias|spa|2
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latias|58/100|[from] Hail
+|upkeep
+
+|
+|switch|p1a: Zekrom|Zekrom, L78|100/100
+|-ability|p1a: Zekrom|Teravolt
+|turn|16
+
+|
+|move|p2a: Latias|Draco Meteor|p1a: Zekrom
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|41/100
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Zekrom|Outrage|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|win|zSen

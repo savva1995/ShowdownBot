@@ -1,0 +1,125 @@
+|init|battle
+|title|raghab69 vs. Guest 1388113
+|j|☆raghab69
+|player|p1|raghab69|204|1000
+|player|p2|Guest 1388113|266|1050
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Groudon|item
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Marshadow|item
+|poke|p1|Zekrom|item
+|poke|p1|Blaziken, M|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Ditto|item
+|poke|p2|Blissey, F|item
+|poke|p2|Lopunny, F|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Lickilicky, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Groudon|Groudon, shiny|100/100
+|switch|p2a: Mórrígan|Lopunny, F, shiny|100/100
+|detailschange|p1a: Groudon|Groudon-Primal, shiny
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+|
+|detailschange|p2a: Mórrígan|Lopunny-Mega, F, shiny
+|-mega|p2a: Mórrígan|Lopunny|Lopunnite
+|move|p2a: Mórrígan|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|85/100
+|cant|p1a: Groudon|flinch
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Mórrígan|High Jump Kick|p1a: Groudon
+|-damage|p1a: Groudon|35/100
+|move|p1a: Groudon|Bulk Up|p1a: Groudon
+|-boost|p1a: Groudon|atk|1
+|-boost|p1a: Groudon|def|1
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Mórrígan|High Jump Kick|p1a: Groudon
+|-crit|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|4
+
+|
+|switch|p2a: Wøbbuffet|Snorlax, M, shiny|100/100
+|detailschange|p1a: Blaziken|Blaziken-Mega, M
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Blaziken|Blaze Kick|p2a: Wøbbuffet
+|-damage|p2a: Wøbbuffet|72/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|5
+
+|
+|move|p1a: Blaziken|Brave Bird|p2a: Wøbbuffet
+|-damage|p2a: Wøbbuffet|47/100
+|-enditem|p2a: Wøbbuffet|Aguav Berry|[eat]
+|-heal|p2a: Wøbbuffet|97/100|[from] item: Aguav Berry
+|-damage|p1a: Blaziken|86/100|[from] Recoil
+|move|p2a: Wøbbuffet|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|31/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|6
+
+|
+|move|p1a: Blaziken|Dynamic Punch|p2a: Wøbbuffet
+|-supereffective|p2a: Wøbbuffet
+|-damage|p2a: Wøbbuffet|39/100
+|-start|p2a: Wøbbuffet|confusion
+|-activate|p2a: Wøbbuffet|confusion
+|move|p2a: Wøbbuffet|Recycle|p2a: Wøbbuffet
+|-item|p2a: Wøbbuffet|Aguav Berry|[from] move: Recycle
+|-enditem|p2a: Wøbbuffet|Aguav Berry|[eat]
+|-heal|p2a: Wøbbuffet|89/100|[from] item: Aguav Berry
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|7
+
+|
+|move|p1a: Blaziken|Dynamic Punch|p2a: Wøbbuffet|[miss]
+|-miss|p1a: Blaziken|p2a: Wøbbuffet
+|-activate|p2a: Wøbbuffet|confusion
+|move|p2a: Wøbbuffet|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+
+|-message|raghab69 forfeited.
+
+|
+|win|Guest 1388113

@@ -1,0 +1,62 @@
+|init|battle
+|title|ArachnidKid vs. dhel
+|j|☆ArachnidKid
+|j|☆dhel
+|player|p1|ArachnidKid|223|1530
+|player|p2|dhel|265|1504
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowking|Slowking, L86, F|100/100
+|switch|p2a: Stunfisk|Stunfisk, L91, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dhel)
+|
+|switch|p1a: Vileplume|Vileplume, L85, F|100/100
+|move|p2a: Stunfisk|Discharge|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|86/100
+|
+|-heal|p1a: Vileplume|92/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Charizard|Charizard, L80, M|100/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Charizard
+|-status|p2a: Charizard|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Vileplume|98/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|inactive|dhel has 120 seconds left.
+
+|inactive|dhel has 90 seconds left.
+
+|l|☆dhel
+
+|inactive|dhel disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|dhel has 30 seconds to reconnect!
+
+|inactive|dhel has 20 seconds to reconnect!
+
+|inactive|dhel has 15 seconds to reconnect!
+
+|inactive|dhel has 10 seconds to reconnect!
+
+|inactive|dhel has 5 seconds to reconnect!
+
+|-message|dhel lost due to inactivity.
+|
+|win|ArachnidKid

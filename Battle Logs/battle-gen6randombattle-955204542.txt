@@ -1,0 +1,67 @@
+|init|battle
+|title|Ivitjes vs. iiSevo
+|j|☆Ivitjes
+|j|☆iiSevo
+|player|p1|Ivitjes|165|1082
+|player|p2|iiSevo|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Donphan|Donphan, L82, F|100/100
+|switch|p2a: Wailord|Wailord, L89, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ivitjes)
+
+|
+|switch|p1a: Quagsire|Quagsire, L87, F|100/100
+|move|p2a: Wailord|Ice Beam|p1a: Quagsire
+|-damage|p1a: Quagsire|59/100
+|-status|p1a: Quagsire|frz
+|
+|-heal|p1a: Quagsire|66/100 frz|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Wailord|Ice Beam|p1a: Quagsire
+|-damage|p1a: Quagsire|30/100 frz
+|cant|p1a: Quagsire|frz
+|
+|-heal|p1a: Quagsire|36/100 frz|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Wailord|Ice Beam|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|upkeep
+
+|
+|switch|p1a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|4
+
+|
+|move|p1a: Rayquaza|Outrage|p2a: Wailord
+|-damage|p2a: Wailord|49/100
+|move|p2a: Wailord|Ice Beam|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|
+|upkeep
+
+|-message|Ivitjes forfeited.
+
+|
+|win|iiSevo

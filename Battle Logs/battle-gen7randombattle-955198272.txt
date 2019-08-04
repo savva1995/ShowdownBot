@@ -1,0 +1,40 @@
+|init|battle
+|title|kvomit vs. Zaheeb1224
+|j|☆kvomit
+|j|☆Zaheeb1224
+|player|p1|kvomit|183|1040
+|player|p2|Zaheeb1224|170|1023
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ribombee|Ribombee, L85, M|100/100
+|switch|p2a: Plusle|Plusle, L89, F|100/100
+|turn|1
+|j| rajuPWD
+|
+|move|p1a: Ribombee|Bug Buzz|p2a: Plusle
+|-damage|p2a: Plusle|63/100
+|-unboost|p2a: Plusle|spd|1
+|move|p2a: Plusle|Hidden Power|p1a: Ribombee
+|-damage|p1a: Ribombee|81/100
+|
+|-heal|p1a: Ribombee|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|l|☆Zaheeb1224
+|player|p2|
+|c|☆kvomit|oh
+|-message|kvomit forfeited.
+|
+|win|Zaheeb1224
+|l|☆kvomit
+|l| rajuPWD
+|raw|kvomit's rating: 1040 &rarr; <strong>1023</strong><br />(-17 for losing)
+|raw|Zaheeb1224's rating: 1023 &rarr; <strong>1062</strong><br />(+39 for winning)

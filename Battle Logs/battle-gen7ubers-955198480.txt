@@ -1,0 +1,291 @@
+|init|battle
+|title|dlwnsguq0210 vs. jaylee0821
+|j|☆dlwnsguq0210
+|j|☆jaylee0821
+|player|p1|dlwnsguq0210|238|
+|player|p2|jaylee0821|293|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ninetales-Alola, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Mimikyu, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Medicham, F|item
+|poke|p2|Genesect-*|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Blaziken, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Aerodactyl, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Medicham|Medicham, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|turn|1
+|
+|move|p1a: Medicham|Fake Out|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|88/100
+|cant|p2a: Aerodactyl|flinch
+|
+|upkeep
+|turn|2
+
+|
+|detailschange|p1a: Medicham|Medicham-Mega, F
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p2a: Aerodactyl|Sky Attack||[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Medicham
+|move|p1a: Medicham|Ice Punch|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|-ability|p2a: Spiritomb|Pressure
+|turn|3
+
+|
+|move|p1a: Medicham|Ice Punch|p2a: Spiritomb
+|-damage|p2a: Spiritomb|47/100
+|move|p2a: Spiritomb|Shadow Ball|p1a: Medicham
+|-supereffective|p1a: Medicham
+|-damage|p1a: Medicham|9/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Spiritomb|Sucker Punch|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|5
+
+|
+|move|p2a: Spiritomb|Sucker Punch|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|move|p1a: Mimikyu|Play Rough|p2a: Spiritomb
+|-supereffective|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|-damage|p1a: Mimikyu|91/100|[from] item: Life Orb
+|faint|p2a: Spiritomb
+|
+|upkeep
+
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|6
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Genesect
+|-resisted|p2a: Genesect
+|-damage|p2a: Genesect|72/100
+|-damage|p1a: Mimikyu|81/100|[from] item: Life Orb
+|move|p2a: Genesect|Flash Cannon|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-heal|p2a: Genesect|79/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|7
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Genesect
+|-damage|p2a: Genesect|20/100
+|move|p2a: Genesect|Hyper Beam|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|69/100
+|-mustrecharge|p2a: Genesect
+|
+|-heal|p2a: Genesect|26/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Excadrill|Toxic|p2a: Genesect|[miss]
+|-miss|p1a: Excadrill|p2a: Genesect
+|cant|p2a: Genesect|recharge
+|
+|-heal|p2a: Genesect|32/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Excadrill|Toxic|p2a: Genesect
+|-immune|p2a: Genesect
+|move|p2a: Genesect|Flash Cannon|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|44/100
+|
+|-heal|p2a: Genesect|38/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Genesect
+|-damage|p2a: Genesect|0 fnt
+|faint|p2a: Genesect
+|
+|upkeep
+
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|turn|11
+
+|
+|move|p1a: Excadrill|Toxic|p2a: Gardevoir
+|-status|p2a: Gardevoir|tox
+|-activate|p2a: Gardevoir|ability: Synchronize
+|-immune|p1a: Excadrill
+|move|p2a: Gardevoir|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|16/100
+|
+|-damage|p2a: Gardevoir|94/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Gardevoir
+|-sidestart|p2: jaylee0821|move: Stealth Rock
+|move|p2a: Gardevoir|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Gardevoir|82/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|13
+
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Bisharp
+|-damage|p1a: Bisharp|32/100
+|move|p1a: Bisharp|Iron Head|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+
+|
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|detailschange|p2a: Blaziken|Blaziken-Mega, M
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Blaziken|Blaze Kick|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|15
+
+|
+|move|p2a: Blaziken|High Jump Kick|p1a: Ninetales
+|-damage|p1a: Ninetales|4/100
+|move|p1a: Ninetales|Hypnosis|p2a: Blaziken
+|-status|p2a: Blaziken|slp|[from] move: Hypnosis
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Blaziken|82/100 slp|[from] Hail
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|16
+
+|
+|cant|p2a: Blaziken|slp
+|move|p1a: Ninetales|Freeze-Dry|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|67/100 slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Blaziken|61/100 slp|[from] Hail
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|-curestatus|p2a: Blaziken|slp|[msg]
+|move|p2a: Blaziken|Blast Burn|p1a: Kyurem
+|-damage|p1a: Kyurem|23/100
+|-mustrecharge|p2a: Blaziken
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Blaziken|55/100|[from] Hail
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|18
+
+|
+|cant|p2a: Blaziken|recharge
+|move|p1a: Kyurem|Earth Power|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-crit|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|-damage|p1a: Kyurem|13/100|[from] item: Life Orb
+|faint|p2a: Blaziken
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Kyurem|3/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|win|dlwnsguq0210

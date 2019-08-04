@@ -1,0 +1,378 @@
+|init|battle
+|title|CazaStrophes vs. MunaRon
+|j|☆CazaStrophes
+|j|☆MunaRon
+|player|p1|CazaStrophes|265|
+|player|p2|MunaRon|68|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, F|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Weavile, F|item
+|poke|p1|Diancie|item
+|poke|p1|Breloom, F|item
+|poke|p2|Azumarill, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Galvantula, M|item
+|poke|p2|Gliscor, M|item
+|teampreview
+
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: PittiteBouleKiPik|Ferrothorn, F|100/100
+|turn|1
+
+|
+|move|p2a: PittiteBouleKiPik|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: CazaStrophes|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: PittiteBouleKiPik
+|-immune|p2a: PittiteBouleKiPik
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: PittiteBouleKiPik|Spikes|p1a: Ferrothorn
+|-sidestart|p1: CazaStrophes|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: PittiteBouleKiPik
+|-sidestart|p2: MunaRon|Spikes
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: ChapiChapo|Breloom, F|100/100
+|-damage|p2a: ChapiChapo|88/100|[from] Spikes
+|move|p1a: Ferrothorn|Stealth Rock|p2a: ChapiChapo
+|-sidestart|p2: MunaRon|move: Stealth Rock
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: ChapiChapo|Mach Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|21/100
+|-damage|p2a: ChapiChapo|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: ChapiChapo
+|-damage|p2a: ChapiChapo|13/100
+|
+|-heal|p1a: Ferrothorn|27/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-damage|p1a: Tapu Koko|88/100|[from] Stealth Rock
+|-damage|p1a: Tapu Koko|76/100|[from] Spikes
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: ChapiChapo|Mach Punch|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|50/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: CaptainCrabs|Gliscor, M|100/100
+|-damage|p2a: CaptainCrabs|88/100|[from] Stealth Rock
+|move|p1a: Tapu Koko|Volt Switch|p2a: CaptainCrabs
+|-immune|p2a: CaptainCrabs
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|-damage|p1a: Breloom|82/100|[from] Spikes
+|move|p2a: CaptainCrabs|Defog|p1a: Breloom
+|-unboost|p1a: Breloom|evasion|1
+|-sideend|p1: CazaStrophes|Spikes|[from] move: Defog|[of] p2a: CaptainCrabs
+|-sideend|p1: CazaStrophes|Stealth Rock|[from] move: Defog|[of] p2a: CaptainCrabs
+|-sideend|p2: MunaRon|Spikes|[from] move: Defog|[of] p2a: CaptainCrabs
+|-sideend|p2: MunaRon|Stealth Rock|[from] move: Defog|[of] p2a: CaptainCrabs
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: CaptainCrabs
+|-resisted|p2a: CaptainCrabs
+|-damage|p2a: CaptainCrabs|75/100
+|move|p2a: CaptainCrabs|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|55/100
+
+|
+|switch|p2a: SpiderMan|Galvantula, M|100/100|[from]move: U-turn
+|-ability|p2a: SpiderMan|Unnerve|p1: CazaStrophes
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: SpiderMan|Volt Switch|p1a: Weavile
+|-damage|p1a: Weavile|35/100
+
+|
+|switch|p2a: ChapiChapo|Breloom, F|13/100|[from]move: Volt Switch
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+
+|
+|move|p2a: ChapiChapo|Mach Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, F|100/100
+|turn|11
+
+|
+|move|p1a: Greninja|Extrasensory|p2a: ChapiChapo
+|-start|p1a: Greninja|typechange|Psychic|[from] ability: Protean
+|-supereffective|p2a: ChapiChapo
+|-damage|p2a: ChapiChapo|0 fnt
+|faint|p2a: ChapiChapo
+|
+|upkeep
+
+|
+|switch|p2a: SpiderMan|Galvantula, M|100/100
+|-ability|p2a: SpiderMan|Unnerve|p1: CazaStrophes
+|turn|12
+
+|
+|switch|p1a: Diancie|Diancie|100/100
+|move|p2a: SpiderMan|Thunderbolt|p1a: Diancie
+|-damage|p1a: Diancie|61/100
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: COLOFORCE|Azumarill, F|100/100
+|move|p1a: Diancie|Rock Slide|p2a: COLOFORCE
+|-damage|p2a: COLOFORCE|64/100
+|
+|-heal|p2a: COLOFORCE|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|50/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: COLOFORCE|Aqua Jet|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|13/100
+|
+|-heal|p2a: COLOFORCE|77/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: CaptainCrabs|Gliscor, M|75/100
+|move|p1a: Tapu Koko|Thunderbolt|p2a: CaptainCrabs
+|-immune|p2a: CaptainCrabs
+|
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Greninja|Greninja, F|100/100
+|move|p2a: CaptainCrabs|Earthquake|p1a: Greninja
+|-damage|p1a: Greninja|44/100
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: SpiderMan|Galvantula, M|100/100
+|-ability|p2a: SpiderMan|Unnerve|p1: CazaStrophes
+|move|p1a: Greninja|U-turn|p2a: SpiderMan
+|-start|p1a: Greninja|typechange|Bug|[from] ability: Protean
+|-damage|p2a: SpiderMan|62/100
+
+|
+|switch|p1a: Breloom|Breloom, F|55/100|[from]move: U-turn
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: SpiderMan
+|-resisted|p2a: SpiderMan
+|-damage|p2a: SpiderMan|33/100
+|move|p2a: SpiderMan|Thunder Wave|p1a: Breloom
+|-status|p1a: Breloom|par
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Diancie|Diancie|61/100
+|move|p2a: SpiderMan|Volt Switch|p1a: Diancie
+|-damage|p1a: Diancie|28/100
+
+|
+|switch|p2a: PittiteBouleKiPik|Ferrothorn, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Diancie|Heal Bell|p1a: Diancie
+|-activate|p1a: Diancie|move: Heal Bell
+|-curestatus|p1: Breloom|par|[msg]
+|move|p2a: PittiteBouleKiPik|Gyro Ball|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+
+|
+|switch|p1a: Breloom|Breloom, F|55/100
+|turn|21
+
+|
+|switch|p2a: COLOFORCE|Azumarill, F|77/100
+|move|p1a: Breloom|Mach Punch|p2a: COLOFORCE
+|-resisted|p2a: COLOFORCE
+|-damage|p2a: COLOFORCE|54/100
+|
+|-heal|p2a: COLOFORCE|61/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Greninja|Greninja, F|44/100
+|move|p2a: COLOFORCE|Play Rough|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-heal|p2a: COLOFORCE|67/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Breloom|Breloom, F|55/100
+|turn|23
+
+|
+|switch|p2a: IronFiiiiiiist|Bisharp, M|100/100
+|move|p1a: Breloom|Bullet Seed|p2a: IronFiiiiiiist
+|-resisted|p2a: IronFiiiiiiist
+|-damage|p2a: IronFiiiiiiist|88/100
+|-resisted|p2a: IronFiiiiiiist
+|-damage|p2a: IronFiiiiiiist|76/100
+|-resisted|p2a: IronFiiiiiiist
+|-damage|p2a: IronFiiiiiiist|63/100
+|-resisted|p2a: IronFiiiiiiist
+|-damage|p2a: IronFiiiiiiist|52/100
+|-hitcount|p2a: IronFiiiiiiist|4
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: IronFiiiiiiist
+|-supereffective|p2a: IronFiiiiiiist
+|-damage|p2a: IronFiiiiiiist|0 fnt
+|faint|p2a: IronFiiiiiiist
+|
+|upkeep
+
+|
+|switch|p2a: SpiderMan|Galvantula, M|33/100
+|-ability|p2a: SpiderMan|Unnerve|p1: CazaStrophes
+|turn|25
+
+|
+|move|p2a: SpiderMan|Volt Switch|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|25/100
+
+|
+|switch|p2a: COLOFORCE|Azumarill, F|67/100|[from]move: Volt Switch
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|-heal|p2a: COLOFORCE|73/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: COLOFORCE
+|-resisted|p2a: COLOFORCE
+|-damage|p2a: COLOFORCE|44/100
+|move|p2a: COLOFORCE|Play Rough|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-heal|p2a: COLOFORCE|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|27/100
+|turn|27
+
+|
+|move|p2a: COLOFORCE|Play Rough|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100
+|-damage|p2a: COLOFORCE|38/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: COLOFORCE|[miss]
+|-miss|p1a: Ferrothorn|p2a: COLOFORCE
+|
+|-heal|p2a: COLOFORCE|44/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|14/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: COLOFORCE|Play Rough|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: COLOFORCE|32/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: COLOFORCE|38/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|13/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|29
+
+|
+|move|p2a: COLOFORCE|Aqua Jet|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|
+|win|MunaRon

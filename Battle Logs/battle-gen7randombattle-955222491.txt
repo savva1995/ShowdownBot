@@ -1,0 +1,126 @@
+|init|battle
+|title|purepotat vs. Cvp23
+|j|☆purepotat
+|j|☆Cvp23
+|player|p1|purepotat|102|1905
+|player|p2|Cvp23|wally|1917
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ursaring|Ursaring, L89, M|100/100
+|switch|p2a: Slurpuff|Slurpuff, L85, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cvp23)
+|
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|50/100
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|75/100|[from] item: Sitrus Berry
+|move|p1a: Ursaring|Facade|p2a: Slurpuff
+|-damage|p2a: Slurpuff|38/100
+|
+|-status|p1a: Ursaring|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, F|100/100
+|-ability|p1a: Spiritomb|Pressure
+|move|p2a: Slurpuff|Play Rough|p1a: Spiritomb
+|-supereffective|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|upkeep
+
+|
+|switch|p1a: Swampert|Swampert, L82, M|100/100
+|turn|3
+
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+
+|
+|switch|p1a: Necrozma|Necrozma, L84|100/100
+|turn|4
+
+|inactive|Cvp23 has 120 seconds left.
+
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Necrozma
+|-damage|p1a: Necrozma|2/100
+|move|p1a: Necrozma|Photon Geyser|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|-heal|p1a: Necrozma|8/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Magearna|Magearna, L80|100/100
+|turn|5
+
+|
+|switch|p1a: Ursaring|Ursaring, L89, M|100/100 tox
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-damage|p1a: Ursaring|94/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Magearna|Iron Head|p1a: Ursaring
+|-damage|p1a: Ursaring|51/100 tox
+|move|p1a: Ursaring|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|61/100
+|-unboost|p1a: Ursaring|def|1
+|-unboost|p1a: Ursaring|spd|1
+|
+|-damage|p1a: Ursaring|39/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Magearna|Iron Head|p1a: Ursaring
+|-damage|p1a: Ursaring|0 fnt
+|faint|p1a: Ursaring
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence, L78, M|100/100
+|turn|8
+
+|
+|detailschange|p1a: Salamence|Salamence-Mega, L78, M
+|-mega|p1a: Salamence|Salamence|Salamencite
+|-zpower|p2a: Magearna
+|move|p2a: Magearna|Twinkle Tackle|p1a: Salamence|[zeffect]
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+
+|-message|purepotat forfeited.
+
+|
+|win|Cvp23

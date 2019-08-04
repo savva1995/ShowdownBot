@@ -1,0 +1,88 @@
+|init|battle
+|title|Langergaard vs. Raythepidgeot
+|j|☆Langergaard
+|j|☆Raythepidgeot
+|player|p1|Langergaard|25|1207
+|player|p2|Raythepidgeot|163|1211
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lurantis|Lurantis, L88, M|100/100
+|switch|p2a: Shiftry|Shiftry, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Langergaard)
+|
+|move|p2a: Shiftry|Knock Off|p1a: Lurantis
+|-damage|p1a: Lurantis|58/100
+|-enditem|p1a: Lurantis|Life Orb|[from] move: Knock Off|[of] p2a: Shiftry
+|move|p1a: Lurantis|Superpower|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|19/100
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Lurantis
+|-damage|p1a: Lurantis|38/100
+|move|p1a: Lurantis|Superpower|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|faint|p2a: Shiftry
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, L80, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-boost|p1a: Lurantis|atk|1
+|turn|3
+
+|
+|detailschange|p2a: Gyarados|Gyarados-Mega, L80, F
+|-mega|p2a: Gyarados|Gyarados|Gyaradosite
+|-ability|p2a: Gyarados|Mold Breaker
+|move|p2a: Gyarados|Ice Fang|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|15/100
+|move|p1a: Lurantis|Knock Off|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|79/100
+|
+|upkeep
+|turn|4
+
+|inactive|Raythepidgeot has 120 seconds left.
+
+|l|☆Langergaard
+
+|inactive|Langergaard disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Raythepidgeot has 90 seconds left.
+
+|inactive|Raythepidgeot has 60 seconds left.
+
+|inactive|Raythepidgeot has 30 seconds left.
+
+|inactive|Raythepidgeot has 20 seconds left.
+
+|inactive|Raythepidgeot has 15 seconds left.
+
+|inactive|Raythepidgeot has 10 seconds left.
+
+|inactive|Raythepidgeot has 5 seconds left.
+
+|-message|Raythepidgeot lost due to inactivity.
+|
+|win|Langergaard

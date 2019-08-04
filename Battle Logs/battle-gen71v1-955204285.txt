@@ -1,0 +1,52 @@
+|init|battle
+|title|DesireReincar vs. EndouMamoruu
+|j|☆DesireReincar
+|j|☆EndouMamoruu
+|player|p1|DesireReincar|99|1427
+|player|p2|EndouMamoruu|229|1312
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Azumarill, M|item
+|poke|p1|Diggersby, F|item
+|poke|p1|Mawile, M|item
+|poke|p2|Azumarill, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Gardevoir, F|item
+|teampreview|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EndouMamoruu)
+|
+|start
+|switch|p1a: JAWS|Mawile, M, shiny|100/100
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-ability|p1a: JAWS|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|1
+|
+|detailschange|p1a: JAWS|Mawile-Mega, M, shiny
+|-mega|p1a: JAWS|Mawile|Mawilite
+|move|p2a: Dragonite|Earthquake|p1a: JAWS
+|-supereffective|p1a: JAWS
+|-damage|p1a: JAWS|46/100
+|move|p1a: JAWS|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|DesireReincar
+|raw|DesireReincar's rating: 1427 &rarr; <strong>1441</strong><br />(+14 for winning)
+|raw|EndouMamoruu's rating: 1312 &rarr; <strong>1299</strong><br />(-13 for losing)
+|l|☆EndouMamoruu
+|l|☆DesireReincar

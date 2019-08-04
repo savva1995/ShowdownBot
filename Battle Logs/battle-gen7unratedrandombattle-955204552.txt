@@ -1,0 +1,75 @@
+|init|battle
+|title|Riku195 vs. Shifty38
+|j|☆Riku195
+|j|☆Shifty38
+|player|p1|Riku195|25|
+|player|p2|Shifty38|160|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toxapex|Toxapex, L80, M|100/100
+|switch|p2a: Garchomp|Garchomp, L80, F|100/100
+|turn|1
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, L80, F
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Garchomp|Earthquake|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Garchomp|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|10/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Garchomp
+|-sidestart|p2: Shifty38|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|16/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Giratina|Giratina-Origin, L78, shiny|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Giratina
+|-immune|p1a: Giratina|[from] ability: Levitate
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Garchomp|Outrage|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|upkeep
+
+|
+|switch|p1a: Uxie|Uxie, L84|100/100
+|turn|5
+
+|
+|move|p1a: Uxie|Thunder Wave|p2a: Garchomp
+|-immune|p2a: Garchomp
+|move|p2a: Garchomp|Outrage|p1a: Uxie|[from]lockedmove
+|-damage|p1a: Uxie|52/100
+|-start|p2a: Garchomp|confusion|[fatigue]
+|
+|-heal|p1a: Uxie|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|-message|Riku195 forfeited.
+
+|
+|win|Shifty38

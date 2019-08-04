@@ -1,0 +1,158 @@
+|init|battle
+|title|over88 vs. ninip
+|j|☆over88
+|j|☆ninip
+|player|p1|over88|39|1175
+|player|p2|ninip|265|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Thundurus-Therian, L50, M|item
+|poke|p1|Landorus-Therian, L50, M|item
+|poke|p1|Tornadus-Therian, L50, M|item
+|poke|p1|Charizard, L50, F|item
+|poke|p1|Gyarados, L50, M|item
+|poke|p1|Mimikyu, L50, F|item
+|poke|p2|Primarina, L50, M|item
+|poke|p2|Kangaskhan, L50, F|item
+|poke|p2|Mimikyu, L50, F|item
+|poke|p2|Salamence, L50, F|item
+|poke|p2|Hippowdon, L50, F|item
+|poke|p2|Aegislash, L50, F|item
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by over88)
+|
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, L50, M|48/48
+|switch|p2a: Primarina|Primarina, L50, M|48/48
+|turn|1
+|
+|-zpower|p1a: Tornadus
+|move|p1a: Tornadus|Supersonic Skystrike|p2a: Primarina|[zeffect]
+|-damage|p2a: Primarina|8/48
+|move|p2a: Primarina|Sparkling Aria|p1a: Tornadus
+|-damage|p1a: Tornadus|4/48
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Primarina|Aqua Jet|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, L50, F|48/48
+|turn|3
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1a: Charizard|Flame Charge|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-boost|p1a: Charizard|spe|1
+|faint|p2a: Primarina
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Mimikyu|Mimikyu, L50, F|48/48
+|turn|4
+
+|
+|move|p1a: Charizard|Flame Charge|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|48/48
+|-boost|p1a: Charizard|spe|1
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L50, F
+|-zpower|p2a: Mimikyu
+|move|p2a: Mimikyu|Never-Ending Nightmare|p1a: Charizard|[zeffect]
+|-damage|p1a: Charizard|1/48
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, L50, F|48/48
+|turn|6
+
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|48/48
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L50, F
+|move|p1a: Mimikyu|Shadow Claw|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|13/48
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|48/48
+|turn|8
+
+|
+|move|p2a: Kangaskhan|Fake Out|p1a: Mimikyu
+|-damage|p1a: Mimikyu|32/48
+|cant|p1a: Mimikyu|flinch
+|
+|upkeep
+|turn|9
+
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L50, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p1a: Mimikyu|Play Rough|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|29/48
+|-unboost|p2a: Kangaskhan|atk|1
+|move|p2a: Kangaskhan|Double-Edge|p1a: Mimikyu
+|-immune|p1a: Mimikyu
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|10/48
+|move|p2a: Kangaskhan|Earthquake|p1a: Mimikyu
+|-damage|p1a: Mimikyu|14/48
+|-damage|p1a: Mimikyu|9/48
+|-hitcount|p1a: Mimikyu|2
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|win|over88

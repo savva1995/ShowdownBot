@@ -1,0 +1,86 @@
+|init|battle
+|title|FurDaMeemz vs. Ashton1071884
+|j|☆FurDaMeemz
+|j|☆Ashton1071884
+|player|p1|FurDaMeemz|192|1000
+|player|p2|Ashton1071884|247|1039
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Steelix, M|item
+|poke|p1|Arbok, M|item
+|poke|p1|Milotic, F|item
+|poke|p1|Serperior, M|item
+|poke|p1|Seviper, F|item
+|poke|p1|Dunsparce, F|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Turtonator, F|item
+|poke|p2|Typhlosion, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: You're Hiss-tory|Dunsparce, F, shiny|100/100
+|switch|p2a: Typhlosion|Typhlosion, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Typhlosion|Eruption|p1a: You're Hiss-tory
+|-damage|p1a: You're Hiss-tory|12/100
+|move|p1a: You're Hiss-tory|Glare|p2a: Typhlosion
+|-status|p2a: Typhlosion|par
+|
+|-heal|p1a: You're Hiss-tory|18/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|cant|p2a: Typhlosion|par
+|move|p1a: You're Hiss-tory|Coil|p1a: You're Hiss-tory
+|-boost|p1a: You're Hiss-tory|atk|1
+|-boost|p1a: You're Hiss-tory|def|1
+|-boost|p1a: You're Hiss-tory|accuracy|1
+|
+|-heal|p1a: You're Hiss-tory|24/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Typhlosion|Eruption|p1a: You're Hiss-tory
+|-damage|p1a: You're Hiss-tory|0 fnt
+|faint|p1a: You're Hiss-tory
+|
+|upkeep
+|
+|switch|p1a: Addercadabra|Steelix, M|100/100
+|turn|4
+|
+|cant|p2a: Typhlosion|par
+|move|p1a: Addercadabra|Curse|p1a: Addercadabra
+|-unboost|p1a: Addercadabra|spe|1
+|-boost|p1a: Addercadabra|atk|1
+|-boost|p1a: Addercadabra|def|1
+|
+|upkeep
+|turn|5
+|
+|detailschange|p1a: Addercadabra|Steelix-Mega, M
+|-mega|p1a: Addercadabra|Steelix|Steelixite
+|move|p2a: Typhlosion|Eruption|p1a: Addercadabra
+|-supereffective|p1a: Addercadabra
+|-damage|p1a: Addercadabra|0 fnt
+|faint|p1a: Addercadabra
+|
+|upkeep
+|-message|FurDaMeemz forfeited.
+|
+|win|Ashton1071884
+|l|☆FurDaMeemz
+|raw|FurDaMeemz's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Ashton1071884's rating: 1039 &rarr; <strong>1070</strong><br />(+31 for winning)
+|l|☆Ashton1071884

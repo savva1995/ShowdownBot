@@ -1,0 +1,80 @@
+|init|battle
+|title|Dhrm vs. Ciciretti
+|j|☆Dhrm
+|j|☆Ciciretti
+|player|p1|Dhrm|23|1395
+|player|p2|Ciciretti|266|1423
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Giratina|Giratina, L78|100/100
+|switch|p2a: Purugly|Purugly, L89, M|100/100
+|-ability|p1a: Giratina|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ciciretti)
+|
+|move|p2a: Purugly|Sucker Punch|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|70/100
+|-damage|p2a: Purugly|91/100|[from] item: Life Orb
+|move|p1a: Giratina|Dragon Tail|p2a: Purugly
+|-damage|p2a: Purugly|64/100
+|drag|p2a: Slurpuff|Slurpuff, L85, M|100/100
+|
+|-heal|p1a: Giratina|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Magearna|Magearna, L80|100/100
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|50/100
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Slurpuff|Return|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|55/100
+|-zpower|p1a: Magearna
+|move|p1a: Magearna|Twinkle Tackle|p2a: Slurpuff|[zeffect]
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+
+|l|☆Ciciretti
+
+|inactive|Ciciretti disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Ciciretti has 30 seconds to reconnect!
+
+|inactive|Ciciretti has 20 seconds to reconnect!
+
+|inactive|Ciciretti has 15 seconds to reconnect!
+
+|inactive|Ciciretti has 10 seconds to reconnect!
+
+|l|☆Dhrm
+
+|inactive|Dhrm disconnected and has a minute to reconnect!
+
+|player|p1|
+|inactive|Ciciretti has 5 seconds to reconnect!
+
+|-message|Ciciretti lost due to inactivity.
+|
+|win|Dhrm

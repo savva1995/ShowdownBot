@@ -1,0 +1,185 @@
+|init|battle
+|title|Indra Last vs. Gen7OUOU
+|j|☆Indra Last
+|j|☆Gen7OUOU
+|player|p1|Indra Last|169|1101
+|player|p2|Gen7OUOU|129|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|1
+
+|
+|switch|p1a: Heracross|Heracross, M|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Heracross
+|-damage|p1a: Heracross|82/100
+|
+|-heal|p1a: Heracross|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1a: Heracross|Megahorn|p2a: Blissey
+|-damage|p2a: Blissey|39/100
+|move|p2a: Blissey|Fire Blast|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|40/100
+|
+|-heal|p1a: Heracross|46/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Golem|Golem, M|100/100
+|move|p1a: Heracross|Megahorn|p2a: Golem
+|-damage|p2a: Golem|62/100
+|
+|-heal|p1a: Heracross|52/100|[from] item: Leftovers
+|-heal|p2a: Golem|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Golem|Explosion|p1a: Umbreon
+|-damage|p1a: Umbreon|5/100
+|faint|p2a: Golem
+
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|
+|-heal|p1a: Umbreon|11/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Umbreon
+|-status|p1a: Umbreon|par
+|cant|p1a: Umbreon|par
+|
+|-heal|p1a: Umbreon|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|move|p1a: Zapdos|Drill Peck|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|82/100
+|
+|-heal|p2a: Jolteon|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Jolteon|Growth|p2a: Jolteon
+|-boost|p2a: Jolteon|spa|1
+|
+|-heal|p2a: Jolteon|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|54/100
+|-status|p1a: Tyranitar|par
+|move|p1a: Tyranitar|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|20/100
+|
+|-heal|p2a: Jolteon|26/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|13/100 par
+|cant|p1a: Tyranitar|par
+|
+|-heal|p2a: Jolteon|32/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|19/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|j| Snoop Croc
+
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|
+|-heal|p2a: Jolteon|38/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|move|p1a: Snorlax|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|75/100
+|
+|-heal|p2a: Machamp|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100 par
+|move|p2a: Machamp|Curse|p2a: Machamp
+|-unboost|p2a: Machamp|spe|1
+|-boost|p2a: Machamp|atk|1
+|-boost|p2a: Machamp|def|1
+|
+|-heal|p2a: Machamp|87/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Machamp|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|38/100 par
+|cant|p1a: Zapdos|flinch
+|
+|-heal|p2a: Machamp|93/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Machamp|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+
+|-message|Indra Last forfeited.
+
+|
+|win|Gen7OUOU

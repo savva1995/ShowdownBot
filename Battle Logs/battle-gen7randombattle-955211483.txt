@@ -1,0 +1,218 @@
+|init|battle
+|title|hiijilo vs. ShopenHoenn
+|j|☆hiijilo
+|j|☆ShopenHoenn
+|player|p1|hiijilo|1|1153
+|player|p2|ShopenHoenn|141|1201
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Shiinotic|Shiinotic, L89, F|100/100
+|switch|p2a: Masquerain|Masquerain, L89, M|100/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Shiinotic|atk|1
+|turn|1
+|
+|move|p2a: Masquerain|Bug Buzz|p1a: Shiinotic
+|-damage|p1a: Shiinotic|62/100
+|move|p1a: Shiinotic|Spore|p2a: Masquerain
+|-status|p2a: Masquerain|slp|[from] move: Spore
+|
+|-heal|p1a: Shiinotic|68/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|move|p1a: Shiinotic|Substitute|p1a: Shiinotic
+|-start|p1a: Shiinotic|Substitute
+|-damage|p1a: Shiinotic|43/100
+|
+|-heal|p1a: Shiinotic|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Cobalion|Iron Head|p1a: Shiinotic
+|-supereffective|p1a: Shiinotic
+|-end|p1a: Shiinotic|Substitute
+|move|p1a: Shiinotic|Strength Sap|p2a: Cobalion
+|-unboost|p2a: Cobalion|atk|1
+|-heal|p1a: Shiinotic|100/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, F|100/100
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Cobalion|Taunt|p1a: Cofagrigus
+|-start|p1a: Cofagrigus|move: Taunt
+|cant|p1a: Cofagrigus|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Cobalion|Iron Head|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|68/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Justified|[of] p2a: Cobalion
+|cant|p1a: Cofagrigus|flinch
+|
+|-heal|p1a: Cofagrigus|74/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Cobalion
+|-damage|p2a: Cobalion|66/100
+|
+|-heal|p2a: Cobalion|72/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|80/100|[from] item: Leftovers
+|-end|p1a: Cofagrigus|move: Taunt
+|upkeep
+|turn|8
+
+|
+|move|p2a: Cobalion|Taunt|p1a: Cofagrigus
+|-start|p1a: Cofagrigus|move: Taunt
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Cobalion
+|-damage|p2a: Cobalion|38/100
+|-unboost|p2a: Cobalion|spd|1
+|
+|-heal|p2a: Cobalion|44/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Cobalion|Iron Head|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|34/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|-heal|p1a: Cofagrigus|40/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Spiritomb|Spiritomb, L88, M|100/100
+|turn|10
+
+|
+|switch|p1a: Shiinotic|Shiinotic, L89, F|100/100
+|move|p2a: Spiritomb|Foul Play|p1a: Shiinotic
+|-resisted|p1a: Shiinotic
+|-damage|p1a: Shiinotic|91/100
+|
+|-heal|p1a: Shiinotic|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hiijilo)
+
+|
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Shiinotic
+|-status|p1a: Shiinotic|brn
+|move|p1a: Shiinotic|Substitute|p1a: Shiinotic
+|-start|p1a: Shiinotic|Substitute
+|-damage|p1a: Shiinotic|72/100 brn
+|
+|-heal|p1a: Shiinotic|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Shiinotic|72/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Masquerain|Masquerain, L89, M|100/100 slp
+|-ability|p2a: Masquerain|Intimidate|boost
+|-immune|p1a: Shiinotic
+|move|p1a: Shiinotic|Moonblast|p2a: Masquerain
+|-crit|p2a: Masquerain
+|-damage|p2a: Masquerain|43/100 slp
+|
+|-heal|p2a: Masquerain|49/100 slp|[from] item: Leftovers
+|-heal|p1a: Shiinotic|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Shiinotic|72/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|cant|p2a: Masquerain|slp
+|move|p1a: Shiinotic|Moonblast|p2a: Masquerain
+|-damage|p2a: Masquerain|10/100 slp
+|
+|-heal|p2a: Masquerain|16/100 slp|[from] item: Leftovers
+|-heal|p1a: Shiinotic|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Shiinotic|72/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|-curestatus|p2a: Masquerain|slp|[msg]
+|move|p2a: Masquerain|Roost|p2a: Masquerain
+|-heal|p2a: Masquerain|66/100
+|-singleturn|p2a: Masquerain|move: Roost
+|move|p1a: Shiinotic|Moonblast|p2a: Masquerain
+|-damage|p2a: Masquerain|27/100
+|
+|-heal|p2a: Masquerain|32/100|[from] item: Leftovers
+|-heal|p1a: Shiinotic|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Shiinotic|72/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Masquerain|Quiver Dance|p2a: Masquerain
+|-boost|p2a: Masquerain|spa|1
+|-boost|p2a: Masquerain|spd|1
+|-boost|p2a: Masquerain|spe|1
+|move|p1a: Shiinotic|Spore|p2a: Masquerain
+|-status|p2a: Masquerain|slp|[from] move: Spore
+|
+|-heal|p2a: Masquerain|38/100 slp|[from] item: Leftovers
+|-heal|p1a: Shiinotic|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Shiinotic|72/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|cant|p2a: Masquerain|slp
+|move|p1a: Shiinotic|Moonblast|p2a: Masquerain
+|-damage|p2a: Masquerain|14/100 slp
+|
+|-heal|p2a: Masquerain|19/100 slp|[from] item: Leftovers
+|-heal|p1a: Shiinotic|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Shiinotic|72/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|cant|p2a: Masquerain|slp
+|move|p1a: Shiinotic|Moonblast|p2a: Masquerain
+|-damage|p2a: Masquerain|0 fnt
+|faint|p2a: Masquerain
+|
+|-heal|p1a: Shiinotic|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Shiinotic|72/100 brn|[from] brn
+|upkeep
+
+|-message|ShopenHoenn forfeited.
+
+|
+|win|hiijilo

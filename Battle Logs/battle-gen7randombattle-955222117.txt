@@ -1,0 +1,195 @@
+|init|battle
+|title|renst vs. tharinan
+|j|☆renst
+|j|☆tharinan
+|player|p1|renst|102|1734
+|player|p2|tharinan|102|1855
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rampardos|Rampardos, L89, F|100/100
+|switch|p2a: Politoed|Politoed, L84, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tharinan)
+|
+|switch|p1a: Blastoise|Blastoise, L84, F|100/100
+|move|p2a: Politoed|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|82/100
+|-status|p1a: Blastoise|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Blastoise|76/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|tharinan has 120 seconds left.
+|
+|detailschange|p1a: Blastoise|Blastoise-Mega, L84, F
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Blastoise|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|76/100
+|move|p2a: Politoed|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|60/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Blastoise|54/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|tharinan has 120 seconds left.
+|
+|move|p1a: Blastoise|Dark Pulse|p2a: Politoed
+|-damage|p2a: Politoed|41/100
+|move|p2a: Politoed|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|25/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Blastoise|19/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|tharinan has 120 seconds left.
+|
+|move|p1a: Blastoise|Dark Pulse|p2a: Politoed
+|-damage|p2a: Politoed|9/100
+|cant|p2a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Blastoise|13/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|inactive|tharinan has 120 seconds left.
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+|move|p1a: Blastoise|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|90/100
+|
+|-weather|none
+|-heal|p2a: Vaporeon|96/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|7/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|inactive|tharinan has 120 seconds left.
+
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Blastoise|Dark Pulse|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|1/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Blastoise|Dark Pulse|p2a: Vaporeon
+|-damage|p2a: Vaporeon|71/100
+|move|p2a: Vaporeon|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-heal|p2a: Vaporeon|77/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Kyogre|Kyogre, L78|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal, L78
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|8
+
+|inactive|tharinan has 120 seconds left.
+
+|inactive|tharinan has 90 seconds left.
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, F|100/100
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|9
+
+|inactive|tharinan has 90 seconds left.
+
+|
+|move|p1a: Kyogre|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+
+|inactive|tharinan has 90 seconds left.
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|77/100
+|turn|10
+
+|
+|move|p1a: Kyogre|Thunder|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Haxorus|Haxorus, L82, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|11
+
+|inactive|tharinan has 90 seconds left.
+
+|
+|move|p2a: Haxorus|Outrage|p1a: Kyogre
+|-damage|p1a: Kyogre|43/100
+|move|p1a: Kyogre|Ice Beam|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+
+|inactive|tharinan has 90 seconds left.
+
+|
+|switch|p2a: Yanmega|Yanmega, L84, M|100/100
+|turn|12
+
+|
+|move|p2a: Yanmega|Air Slash|p1a: Kyogre|[miss]
+|-miss|p2a: Yanmega|p1a: Kyogre
+|move|p1a: Kyogre|Ice Beam|p2a: Yanmega
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+
+|-message|tharinan forfeited.
+
+|
+|win|renst

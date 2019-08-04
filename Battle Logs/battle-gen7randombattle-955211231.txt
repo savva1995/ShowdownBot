@@ -1,0 +1,418 @@
+|init|battle
+|title|Hiedravenenosa vs. Yoel121
+|j|☆Hiedravenenosa
+|j|☆Yoel121
+|player|p1|Hiedravenenosa|150|1178
+|player|p2|Yoel121|101|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gyarados|Gyarados, L80, F|100/100
+|switch|p2a: Goodra|Goodra, L84, M|100/100
+|turn|1
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, L80, F
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p2a: Goodra|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|60/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Goodra|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|22/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Gyarados|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|7/100
+|move|p2a: Goodra|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+
+|
+|switch|p1a: Hydreigon|Hydreigon, L82, M|100/100
+|turn|4
+
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-damage|p1a: Hydreigon|91/100|[from] item: Life Orb
+|faint|p2a: Goodra
+|
+|upkeep
+
+|
+|switch|p2a: Sandslash|Sandslash-Alola, L88, M|100/100
+|turn|5
+
+|
+|move|p1a: Hydreigon|Superpower|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1a: Hydreigon|def|1
+|-damage|p1a: Hydreigon|81/100|[from] item: Life Orb
+|faint|p2a: Sandslash
+|
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, L82, F|100/100
+|turn|6
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|100/100
+|move|p2a: Klefki|Thunder Wave|p1a: Vileplume
+|-status|p1a: Vileplume|par
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Yoel121|move: Light Screen
+|cant|p1a: Vileplume|par
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|84/100 par
+|move|p1a: Vileplume|Sleep Powder|p2a: Klefki|[miss]
+|-miss|p1a: Vileplume|p2a: Klefki
+|
+|-heal|p1a: Vileplume|90/100 par|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|75/100 par
+|move|p1a: Vileplume|Sleep Powder|p2a: Klefki
+|-status|p2a: Klefki|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Vileplume|81/100 par|[from] item: Black Sludge
+|upkeep
+|turn|10
+
+|
+|cant|p2a: Klefki|slp
+|cant|p1a: Vileplume|par
+|
+|-heal|p1a: Vileplume|87/100 par|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|
+|-curestatus|p2a: Klefki|slp|[msg]
+|move|p2a: Klefki|Play Rough|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|71/100 par
+|move|p1a: Vileplume|Hidden Power|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|80/100
+|
+|-heal|p2a: Klefki|86/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|77/100 par|[from] item: Black Sludge
+|-sideend|p2: Yoel121|move: Light Screen
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Rotom|Rotom-Fan, L89|100/100
+|move|p1a: Vileplume|Hidden Power|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|
+|-heal|p2a: Rotom|91/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|83/100 par|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Goodra|Goodra, L84, F|100/100
+|move|p2a: Rotom|Air Slash|p1a: Goodra
+|-damage|p1a: Goodra|87/100
+|
+|-heal|p2a: Rotom|97/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Rotom|Air Slash|p1a: Goodra
+|-damage|p1a: Goodra|71/100
+|move|p1a: Goodra|Thunderbolt|p2a: Rotom
+|-damage|p2a: Rotom|74/100
+|
+|-heal|p2a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|83/100 par
+|move|p2a: Rotom|Air Slash|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|15/100 par
+|
+|-heal|p2a: Rotom|86/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|21/100 par|[from] item: Black Sludge
+|upkeep
+|turn|16
+
+|
+|move|p2a: Rotom|Air Slash|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-heal|p2a: Rotom|92/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Hydreigon|Hydreigon, L82, M|81/100
+|turn|17
+
+|
+|move|p1a: Hydreigon|Dragon Pulse|p2a: Rotom
+|-damage|p2a: Rotom|47/100
+|-damage|p1a: Hydreigon|71/100|[from] item: Life Orb
+|move|p2a: Rotom|Air Slash|p1a: Hydreigon
+|-damage|p1a: Hydreigon|37/100
+|
+|-heal|p2a: Rotom|53/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|12/100
+|-damage|p1a: Hydreigon|28/100|[from] item: Life Orb
+|move|p2a: Rotom|Air Slash|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Rotom|18/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Absol|Absol, L88, F|100/100
+|turn|19
+
+|
+|move|p2a: Rotom|Pain Split|p1a: Absol
+|-sethp|p1a: Absol|58/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|64/100|[from] move: Pain Split
+|move|p1a: Absol|Knock Off|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Absol
+|-damage|p1a: Absol|49/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+
+|
+|switch|p2a: Zoroark|Zoroark, L88, M|100/100
+|turn|20
+
+|
+|move|p2a: Zoroark|Flamethrower|p1a: Absol
+|-damage|p1a: Absol|11/100
+|move|p1a: Absol|Superpower|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-unboost|p1a: Absol|atk|1
+|-unboost|p1a: Absol|def|1
+|-damage|p1a: Absol|2/100|[from] item: Life Orb
+|faint|p2a: Zoroark
+|
+|upkeep
+
+|
+|switch|p2a: Marshadow|Marshadow, L78|100/100
+|turn|21
+
+|
+|move|p2a: Marshadow|Shadow Sneak|p1a: Absol
+|-resisted|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|22
+
+|
+|switch|p2a: Klefki|Klefki, L82, F|86/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|54/100
+|
+|-heal|p2a: Klefki|60/100|[from] item: Leftovers
+|-heal|p2a: Klefki|66/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Goodra|Goodra, L84, F|71/100
+|move|p2a: Klefki|Thunder Wave|p1a: Goodra
+|-status|p1a: Goodra|par
+|
+|-heal|p2a: Klefki|72/100|[from] item: Leftovers
+|-heal|p2a: Klefki|78/100|[from] Grassy Terrain
+|-heal|p1a: Goodra|78/100 par|[from] Grassy Terrain
+|upkeep
+|turn|24
+
+|
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Yoel121|move: Light Screen
+|cant|p1a: Goodra|par
+|
+|-heal|p2a: Klefki|84/100|[from] item: Leftovers
+|-heal|p2a: Klefki|90/100|[from] Grassy Terrain
+|-heal|p1a: Goodra|84/100 par|[from] Grassy Terrain
+|upkeep
+|turn|25
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|23/100 par
+|cant|p1a: Goodra|par
+|
+|-heal|p2a: Klefki|97/100|[from] item: Leftovers
+|-heal|p2a: Klefki|100/100|[from] Grassy Terrain
+|-heal|p1a: Goodra|29/100 par|[from] Grassy Terrain
+|upkeep
+|turn|26
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Goodra|[miss]
+|-miss|p2a: Klefki|p1a: Goodra
+|move|p1a: Goodra|Draco Meteor|p2a: Klefki
+|-immune|p2a: Klefki
+|
+|-heal|p1a: Goodra|35/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|27
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|28
+
+|
+|move|p2a: Klefki|Thunder Wave|p1a: Tapu Bulu
+|-status|p1a: Tapu Bulu|par
+|cant|p1a: Tapu Bulu|par
+|
+|-sideend|p2: Yoel121|move: Light Screen
+|upkeep
+|turn|29
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Tapu Bulu|[miss]
+|-miss|p2a: Klefki|p1a: Tapu Bulu
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|upkeep
+|turn|30
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hiedravenenosa)
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Tapu Bulu|[miss]
+|-miss|p2a: Klefki|p1a: Tapu Bulu
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|upkeep
+|turn|31
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Tapu Bulu|[miss]
+|-miss|p2a: Klefki|p1a: Tapu Bulu
+|cant|p1a: Tapu Bulu|par
+|
+|upkeep
+|turn|32
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|87/100 par
+|cant|p1a: Tapu Bulu|par
+|
+|-heal|p1a: Tapu Bulu|93/100 par|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|99/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|33
+
+|
+|switch|p2a: Marshadow|Marshadow, L78|100/100
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|-heal|p1a: Tapu Bulu|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p2a: Marshadow|Spectral Thief||[still]
+|-clearpositiveboost|p1a: Tapu Bulu|p2a: Marshadow|move: Spectral Thief
+|-boost|p2a: Marshadow|atk|3
+|-boost|p2a: Marshadow|def|3
+|-anim|p2a: Marshadow|Spectral Thief|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|10/100 par
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Marshadow
+|-damage|p2a: Marshadow|84/100
+|-heal|p1a: Tapu Bulu|19/100 par|[from] drain|[of] p2a: Marshadow
+|
+|-heal|p1a: Tapu Bulu|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|-message|Hiedravenenosa forfeited.
+
+|
+|win|Yoel121

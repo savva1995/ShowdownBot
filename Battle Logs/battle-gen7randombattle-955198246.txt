@@ -1,0 +1,259 @@
+|init|battle
+|title|linhheo vs. Hawkeyecooper
+|j|☆linhheo
+|j|☆Hawkeyecooper
+|player|p1|linhheo|170|1926
+|player|p2|Hawkeyecooper|99|1877
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowking|Slowking, L86, M|100/100
+|switch|p2a: Donphan|Donphan, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hawkeyecooper)
+|
+|move|p2a: Donphan|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|10/100
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Donphan
+|move|p1a: Slowking|Scald|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|19/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Houndoom|Houndoom, L83, M|100/100
+|move|p2a: Donphan|Knock Off|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|79/100
+|
+|upkeep
+|turn|3
+|
+|detailschange|p1a: Houndoom|Houndoom-Mega, L83, M
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|move|p1a: Houndoom|Dark Pulse|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio-Alola, L88, F|100/100
+|turn|4
+
+|
+|switch|p1a: Uxie|Uxie, L84|100/100
+|move|p2a: Dugtrio|Earthquake|p1a: Uxie
+|-immune|p1a: Uxie|[from] ability: Levitate
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|76/100
+|move|p1a: Uxie|Stealth Rock|p2a: Dugtrio
+|-sidestart|p2: Hawkeyecooper|move: Stealth Rock
+|
+|-heal|p2a: Dugtrio|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Dugtrio|Iron Head|p1a: Uxie
+|-damage|p1a: Uxie|72/100
+|move|p1a: Uxie|Psychic|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-activate|p2a: Dugtrio|move: Substitute|[damage]
+|
+|-heal|p2a: Dugtrio|87/100|[from] item: Leftovers
+|-heal|p1a: Uxie|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Dugtrio|Iron Head|p1a: Uxie
+|-damage|p1a: Uxie|53/100
+|cant|p1a: Uxie|flinch
+|
+|-heal|p2a: Dugtrio|93/100|[from] item: Leftovers
+|-heal|p1a: Uxie|59/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-crit|p1a: Uxie
+|-damage|p1a: Uxie|12/100
+|move|p1a: Uxie|Psychic|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|-heal|p2a: Dugtrio|99/100|[from] item: Leftovers
+|-heal|p1a: Uxie|18/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Lapras|Lapras, L89, M|100/100
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|74/100
+|
+|-heal|p2a: Dugtrio|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Dugtrio|Iron Head|p1a: Lapras
+|-damage|p1a: Lapras|76/100
+|move|p1a: Lapras|Ice Beam|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|-heal|p2a: Dugtrio|86/100|[from] item: Leftovers
+|-heal|p1a: Lapras|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Wormadam|Wormadam-Trash, L89, F|100/100
+|-damage|p2a: Wormadam|88/100|[from] Stealth Rock
+|move|p1a: Lapras|Hydro Pump|p2a: Wormadam|[miss]
+|-miss|p1a: Lapras|p2a: Wormadam
+|
+|-heal|p1a: Lapras|88/100|[from] item: Leftovers
+|-heal|p2a: Wormadam|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Houndoom|Houndoom-Mega, L83, M|79/100
+|move|p2a: Wormadam|Stealth Rock|p1a: Houndoom
+|-sidestart|p1: linhheo|move: Stealth Rock
+|
+|-heal|p2a: Wormadam|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Wormadam
+|-supereffective|p2a: Wormadam
+|-damage|p2a: Wormadam|0 fnt
+|faint|p2a: Wormadam
+|
+|upkeep
+
+|
+|switch|p2a: Sharpedo|Sharpedo, L82, M|100/100
+|-damage|p2a: Sharpedo|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|switch|p1a: Abomasnow|Abomasnow, L88, M|100/100
+|-damage|p1a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Sharpedo|Waterfall|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|57/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Sharpedo|82/100|[from] Hail
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|15
+
+|
+|detailschange|p2a: Sharpedo|Sharpedo-Mega, L82, M
+|-mega|p2a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Sharpedo|Crunch|p1a: Abomasnow
+|-damage|p1a: Abomasnow|1/100
+|-unboost|p1a: Abomasnow|def|1
+|move|p1a: Abomasnow|Giga Drain|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|-heal|p1a: Abomasnow|35/100|[from] drain|[of] p2a: Sharpedo
+|-damage|p1a: Abomasnow|25/100|[from] item: Life Orb
+|faint|p2a: Sharpedo
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Scrafty|Scrafty, L86, M|100/100
+|-damage|p2a: Scrafty|95/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p1a: Abomasnow|Giga Drain|p2a: Scrafty
+|-damage|p2a: Scrafty|57/100
+|-heal|p1a: Abomasnow|40/100|[from] drain|[of] p2a: Scrafty
+|-damage|p1a: Abomasnow|30/100|[from] item: Life Orb
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Scrafty|51/100|[from] Hail
+|upkeep
+|turn|17
+
+|
+|move|p2a: Scrafty|High Jump Kick|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|-ability|p2a: Scrafty|Moxie|boost
+|-boost|p2a: Scrafty|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Scrafty|45/100|[from] Hail
+|upkeep
+
+|
+|switch|p1a: Houndoom|Houndoom-Mega, L83, M|79/100
+|-damage|p1a: Houndoom|54/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Kingler|Kingler, L87, M|100/100
+|-damage|p2a: Kingler|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Kingler
+|-damage|p2a: Kingler|16/100
+|cant|p2a: Kingler|flinch
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|upkeep
+
+|-message|Hawkeyecooper forfeited.
+
+|
+|win|linhheo

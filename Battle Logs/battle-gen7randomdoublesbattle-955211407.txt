@@ -1,0 +1,199 @@
+|init|battle
+|title|wout0706 vs. PiraTe Princess~
+|j|☆wout0706
+|j|☆PiraTe Princess~
+|player|p1|wout0706|2|1763
+|player|p2|PiraTe Princess~|272|1646
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Clefable|Clefable, L81, M|100/100
+|switch|p1b: Rapidash|Rapidash, L79, F|100/100
+|switch|p2a: Furret|Furret, L87, F|100/100
+|switch|p2b: Lurantis|Lurantis, L81, M|100/100
+|-item|p1a: Clefable|Sitrus Berry|[from] ability: Frisk|[of] p2a: Furret|[identify]
+|-item|p1b: Rapidash|Life Orb|[from] ability: Frisk|[of] p2a: Furret|[identify]
+|turn|1
+|
+|switch|p2b: Aromatisse|Aromatisse, L83, F|100/100
+|move|p1b: Rapidash|Flare Blitz|p2b: Aromatisse
+|-damage|p2b: Aromatisse|39/100
+|-enditem|p2b: Aromatisse|Sitrus Berry|[eat]
+|-heal|p2b: Aromatisse|64/100|[from] item: Sitrus Berry
+|-damage|p1b: Rapidash|74/100|[from] Recoil
+|-damage|p1b: Rapidash|64/100|[from] item: Life Orb
+|move|p2a: Furret|Double-Edge|p1b: Rapidash
+|-damage|p1b: Rapidash|0 fnt
+|-damage|p2a: Furret|84/100|[from] Recoil
+|-damage|p2a: Furret|74/100|[from] item: Life Orb
+|faint|p1b: Rapidash
+|move|p1a: Clefable|Light Screen|p1a: Clefable
+|-sidestart|p1: wout0706|move: Light Screen
+|
+|upkeep
+
+|
+|switch|p1b: Diancie|Diancie, L70|100/100
+|turn|2
+
+|
+|detailschange|p1b: Diancie|Diancie-Mega, L70
+|-mega|p1b: Diancie|Diancie|Diancite
+|move|p2a: Furret|Double-Edge|p1a: Clefable
+|-damage|p1a: Clefable|45/100
+|-enditem|p1a: Clefable|Sitrus Berry|[eat]
+|-heal|p1a: Clefable|69/100|[from] item: Sitrus Berry
+|-damage|p2a: Furret|55/100|[from] Recoil
+|-damage|p2a: Furret|45/100|[from] item: Life Orb
+|move|p1b: Diancie|Dazzling Gleam|p2a: Furret|[spread] p2a,p2b
+|-damage|p2a: Furret|12/100
+|-damage|p2b: Aromatisse|41/100
+|move|p1a: Clefable|Dazzling Gleam|p2b: Aromatisse|[spread] p2a,p2b
+|-damage|p2a: Furret|0 fnt
+|-damage|p2b: Aromatisse|24/100
+|faint|p2a: Furret
+|move|p2b: Aromatisse|Trick Room|p2b: Aromatisse
+|-fieldstart|move: Trick Room|[of] p2b: Aromatisse
+|
+|upkeep
+
+|
+|switch|p2a: Lurantis|Lurantis, L81, M|100/100
+|turn|3
+
+|
+|switch|p1b: Blissey|Blissey, L75, F|100/100
+|move|p2b: Aromatisse|Moonblast|p1b: Blissey
+|-damage|p1b: Blissey|90/100
+|-unboost|p1b: Blissey|spa|1
+|move|p2a: Lurantis|Leaf Storm|p1b: Blissey
+|-damage|p1b: Blissey|76/100
+|-boost|p2a: Lurantis|spa|2
+|-damage|p2a: Lurantis|91/100|[from] item: Life Orb
+|move|p1a: Clefable|Dazzling Gleam|p2b: Aromatisse|[spread] p2a,p2b
+|-damage|p2a: Lurantis|68/100
+|-damage|p2b: Aromatisse|4/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2b: Aromatisse|Heal Pulse|p2a: Lurantis
+|-heal|p2a: Lurantis|100/100
+|move|p2a: Lurantis|Leaf Storm|p1a: Clefable
+|-damage|p1a: Clefable|2/100
+|-boost|p2a: Lurantis|spa|2
+|-damage|p2a: Lurantis|91/100|[from] item: Life Orb
+|move|p1b: Blissey|Toxic|p2a: Lurantis
+|-status|p2a: Lurantis|tox
+|move|p1a: Clefable|Dazzling Gleam|p2a: Lurantis|[spread] p2a,p2b
+|-damage|p2a: Lurantis|65/100 tox
+|-damage|p2b: Aromatisse|0 fnt
+|faint|p2b: Aromatisse
+|
+|-damage|p2a: Lurantis|59/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2b: Mandibuzz|Mandibuzz, L78, F|100/100
+|turn|5
+
+|
+|move|p2a: Lurantis|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-heal|p2a: Lurantis|59/100 tox|[from] drain|[of] p1a: Clefable
+|-damage|p2a: Lurantis|50/100 tox|[from] item: Life Orb
+|faint|p1a: Clefable
+|move|p1b: Blissey|Toxic|p2b: Mandibuzz
+|-status|p2b: Mandibuzz|tox
+|move|p2b: Mandibuzz|Brave Bird|p1b: Blissey
+|-damage|p1b: Blissey|22/100
+|-enditem|p1b: Blissey|Sitrus Berry|[eat]
+|-heal|p1b: Blissey|47/100|[from] item: Sitrus Berry
+|-damage|p2b: Mandibuzz|70/100 tox|[from] Recoil
+|
+|-damage|p2a: Lurantis|37/100 tox|[from] psn
+|-damage|p2b: Mandibuzz|64/100 tox|[from] psn
+|-sideend|p1: wout0706|move: Light Screen
+|upkeep
+
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|100/100
+|turn|6
+
+|
+|move|p1a: Hitmonlee|Protect|p1a: Hitmonlee
+|-singleturn|p1a: Hitmonlee|Protect
+|move|p2a: Lurantis|Giga Drain|p1a: Hitmonlee
+|-activate|p1a: Hitmonlee|move: Protect
+|move|p1b: Blissey|Soft-Boiled|p1b: Blissey
+|-heal|p1b: Blissey|97/100
+|move|p2b: Mandibuzz|Brave Bird|p1b: Blissey
+|-damage|p1b: Blissey|39/100
+|-damage|p2b: Mandibuzz|32/100 tox|[from] Recoil
+|-enditem|p2b: Mandibuzz|Sitrus Berry|[eat]
+|-heal|p2b: Mandibuzz|57/100 tox|[from] item: Sitrus Berry
+|
+|-damage|p2a: Lurantis|19/100 tox|[from] psn
+|-damage|p2b: Mandibuzz|45/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2b: Mandibuzz
+|-crit|p2b: Mandibuzz
+|-damage|p2b: Mandibuzz|0 fnt
+|-damage|p1a: Hitmonlee|91/100|[from] item: Life Orb
+|faint|p2b: Mandibuzz
+|move|p1b: Blissey|Ice Beam|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|faint|p2a: Lurantis
+|
+|upkeep
+
+|
+|switch|p2b: Pikachu|Pikachu, L86, F|100/100
+|switch|p2a: Nidoking|Nidoking, L79, M|100/100
+|turn|8
+
+|
+|move|p1a: Hitmonlee|Protect|p1a: Hitmonlee
+|-singleturn|p1a: Hitmonlee|Protect
+|move|p2b: Pikachu|Thunderbolt|p1a: Hitmonlee
+|-activate|p1a: Hitmonlee|move: Protect
+|move|p2a: Nidoking|Focus Blast|p1b: Blissey|[miss]
+|-miss|p2a: Nidoking|p1b: Blissey
+|move|p1b: Blissey|Soft-Boiled|p1b: Blissey
+|-heal|p1b: Blissey|89/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2b: Pikachu|Thunderbolt|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|43/100
+|move|p1a: Hitmonlee|Earthquake|p2b: Pikachu|[spread] p1b,p2a,p2b
+|-supereffective|p2a: Nidoking
+|-supereffective|p2b: Pikachu
+|-damage|p1b: Blissey|36/100
+|-damage|p2a: Nidoking|23/100
+|-damage|p2b: Pikachu|0 fnt
+|-damage|p1a: Hitmonlee|33/100|[from] item: Life Orb
+|faint|p2b: Pikachu
+|move|p2a: Nidoking|Sludge Bomb|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|move|p1b: Blissey|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|win|wout0706

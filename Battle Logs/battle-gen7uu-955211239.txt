@@ -1,0 +1,632 @@
+|init|battle
+|title|MisterpulpyYT vs. WTUU IP
+|j|☆MisterpulpyYT
+|j|☆WTUU IP
+|player|p1|MisterpulpyYT|2|1312
+|player|p2|WTUU IP|294|1267
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gligar, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Primarina, M|item
+|poke|p1|Blissey, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p2|Ditto|item
+|poke|p2|Gastrodon, F|item
+|poke|p2|Chesnaught, F|item
+|poke|p2|Florges, F|item
+|poke|p2|Aggron, F|item
+|poke|p2|Moltres|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WTUU IP)
+|
+|start
+|switch|p1a: Gligar|Gligar, M|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|turn|1
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Moltres|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Moltres|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Thunder Wave|p2a: Moltres|[miss]
+|-miss|p1a: Blissey|p2a: Moltres
+|
+|-heal|p1a: Blissey|98/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|92/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Moltres|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|77/100 tox
+|move|p1a: Blissey|Thunder Wave|p2a: Moltres|[miss]
+|-miss|p1a: Blissey|p2a: Moltres
+|
+|-heal|p1a: Blissey|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|71/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Moltres|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|56/100 tox
+|move|p1a: Blissey|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|
+|-heal|p1a: Blissey|62/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|44/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Florges|Florges, F|100/100
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Latias|Psyshock|p2a: Florges
+|-damage|p2a: Florges|56/100
+|move|p2a: Florges|Moonblast|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|55/100
+|
+|-heal|p2a: Florges|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Florges|Aromatherapy|p2a: Florges
+|-activate|p2a: Florges|move: Aromatherapy
+|-curestatus|p2: Moltres|par|[msg]
+|
+|-heal|p2a: Florges|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|move|p1a: Scizor|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|86/100
+
+|
+|switch|p1a: Blissey|Blissey, F|44/100|[from]move: U-turn
+|
+|-heal|p2a: Moltres|92/100|[from] item: Leftovers
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|99/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|move|p2a: Chesnaught|Spikes|p1a: Gligar
+|-sidestart|p1: MisterpulpyYT|Spikes
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Moltres|Moltres|92/100
+|-ability|p2a: Moltres|Pressure
+|move|p1a: Gligar|Stealth Rock|p2a: Moltres
+|-sidestart|p2: WTUU IP|move: Stealth Rock
+|
+|-heal|p2a: Moltres|98/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Moltres|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|-status|p1a: Blissey|brn
+|
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|72/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Blissey|[from] ability: Imposter
+|move|p1a: Blissey|Thunder Wave|p2a: Ditto
+|-status|p2a: Ditto|par
+|
+|-heal|p1a: Blissey|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|72/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 brn
+|move|p2a: Ditto|Seismic Toss|p1a: Blissey
+|-damage|p1a: Blissey|86/100 brn
+|
+|-heal|p1a: Blissey|92/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|86/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Gligar|Gligar, M|100/100
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Spikes
+|move|p2a: Gastrodon|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|77/100
+|-status|p1a: Amoonguss|brn
+|
+|-heal|p1a: Amoonguss|83/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|77/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|-damage|p2a: Chesnaught|94/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Chesnaught
+|-immune|p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|100/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|83/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|77/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Chesnaught|Spikes|p1a: Amoonguss
+|-sidestart|p1: MisterpulpyYT|Spikes
+|move|p1a: Amoonguss|Clear Smog|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|63/100
+|-clearboost|p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|70/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|83/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|77/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|84/100|[from] Spikes
+|move|p2a: Chesnaught|Spikes|p1a: Scizor
+|-sidestart|p1: MisterpulpyYT|Spikes
+|
+|-heal|p2a: Chesnaught|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-damage|p2a: Moltres|51/100|[from] Stealth Rock
+|-ability|p2a: Moltres|Pressure
+|move|p1a: Scizor|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|36/100
+
+|
+|switch|p1a: Latias|Latias, F|55/100|[from]move: U-turn
+|
+|-heal|p2a: Moltres|42/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100/100
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|92/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|-heal|p2a: Moltres|98/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Moltres|Toxic|p1a: Latias
+|-status|p1a: Latias|tox
+|
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-damage|p1a: Latias|95/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Aggron|Aggron, F|100/100
+|-damage|p2a: Aggron|94/100|[from] Stealth Rock
+|-zpower|p1a: Latias
+|move|p1a: Latias|Devastating Drake|p2a: Aggron|[zeffect]
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|26/100
+|
+|-damage|p1a: Latias|83/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|detailschange|p2a: Aggron|Aggron-Mega, F
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Latias|Draco Meteor|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Aggron
+|
+|-damage|p1a: Latias|65/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Florges|Florges, F|68/100
+|-damage|p2a: Florges|56/100|[from] Stealth Rock
+|turn|26
+
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|-damage|p1a: Amoonguss|75/100 brn|[from] Spikes
+|move|p2a: Florges|Synthesis|p2a: Florges
+|-heal|p2a: Florges|100/100
+|
+|-heal|p1a: Amoonguss|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|75/100 brn|[from] brn
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|76/100
+|-damage|p2a: Chesnaught|70/100|[from] Stealth Rock
+|switch|p1a: Gligar|Gligar, M|100/100
+|
+|-heal|p2a: Chesnaught|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Ditto|Ditto|88/100
+|-damage|p2a: Ditto|76/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Gligar|[from] ability: Imposter
+|move|p1a: Gligar|Defog|p2a: Ditto
+|-unboost|p2a: Ditto|evasion|1
+|-sideend|p2: WTUU IP|Stealth Rock|[from] move: Defog|[of] p1a: Gligar
+|-sideend|p1: MisterpulpyYT|Spikes|[from] move: Defog|[of] p1a: Gligar
+|
+|upkeep
+|turn|29
+
+|
+|move|p2a: Ditto|Stealth Rock|p1a: Gligar
+|-sidestart|p1: MisterpulpyYT|move: Stealth Rock
+|move|p1a: Gligar|Stealth Rock|p2a: Ditto
+|-sidestart|p2: WTUU IP|move: Stealth Rock
+|
+|upkeep
+|turn|30
+
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Gligar|Defog|p2a: Gastrodon
+|-unboost|p2a: Gastrodon|evasion|1
+|-sideend|p2: WTUU IP|Stealth Rock|[from] move: Defog|[of] p1a: Gligar
+|-sideend|p1: MisterpulpyYT|Stealth Rock|[from] move: Defog|[of] p1a: Gligar
+|
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|move|p1a: Gligar|Stealth Rock|p2a: Moltres
+|-sidestart|p2: WTUU IP|move: Stealth Rock
+|
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Blissey|Blissey, F|86/100
+|move|p2a: Moltres|Defog|p1a: Blissey
+|-unboost|p1a: Blissey|evasion|1
+|-sideend|p2: WTUU IP|Stealth Rock|[from] move: Defog|[of] p2a: Moltres
+|
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|move|p1a: Blissey|Thunder Wave|p2a: Gastrodon
+|-immune|p2a: Gastrodon
+|
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Gastrodon
+|-damage|p2a: Gastrodon|77/100
+|move|p2a: Gastrodon|Scald|p1a: Blissey
+|-damage|p1a: Blissey|89/100
+|-status|p1a: Blissey|brn
+|
+|-heal|p1a: Blissey|95/100 brn|[from] item: Leftovers
+|-heal|p2a: Gastrodon|83/100|[from] item: Leftovers
+|-damage|p1a: Blissey|89/100 brn|[from] brn
+|upkeep
+|turn|35
+
+|
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|move|p2a: Gastrodon|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|78/100 brn
+|
+|-heal|p2a: Gastrodon|89/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|84/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|78/100 brn|[from] brn
+|upkeep
+|turn|36
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|76/100
+|switch|p1a: Scizor|Scizor, F|84/100
+|
+|-heal|p2a: Chesnaught|82/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|move|p2a: Chesnaught|Spikes|p1a: Scizor
+|-sidestart|p1: MisterpulpyYT|Spikes
+|move|p1a: Scizor|U-turn|p2a: Chesnaught
+|-damage|p2a: Chesnaught|48/100
+
+|
+|switch|p1a: Gligar|Gligar, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Chesnaught|54/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|move|p1a: Gligar|Stealth Rock|p2a: Chesnaught
+|-sidestart|p2: WTUU IP|move: Stealth Rock
+|move|p2a: Chesnaught|Synthesis|p2a: Chesnaught
+|-heal|p2a: Chesnaught|100/100
+|
+|upkeep
+|turn|39
+
+|
+|switch|p1a: Latias|Latias, F|65/100 tox
+|move|p2a: Chesnaught|Spikes|p1a: Latias
+|-sidestart|p1: MisterpulpyYT|Spikes
+|
+|-damage|p1a: Latias|59/100 tox|[from] psn
+|upkeep
+|turn|40
+
+|
+|switch|p2a: Ditto|Ditto|76/100
+|-damage|p2a: Ditto|63/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Latias|[from] ability: Imposter
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-damage|p1a: Latias|47/100 tox|[from] psn
+|upkeep
+|turn|41
+
+|
+|move|p2a: Ditto|Psyshock|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|23/100 tox
+|move|p1a: Latias|Draco Meteor|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Ditto
+|
+|-damage|p1a: Latias|5/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Florges|Florges, F|100/100
+|-damage|p2a: Florges|88/100|[from] Stealth Rock
+|turn|42
+
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|-damage|p1a: Amoonguss|84/100 brn|[from] Spikes
+|move|p2a: Florges|Moonblast|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|68/100 brn
+|-unboost|p1a: Amoonguss|spa|1
+|
+|-heal|p2a: Florges|94/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|74/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|68/100 brn|[from] brn
+|upkeep
+|turn|43
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|-damage|p2a: Chesnaught|94/100|[from] Stealth Rock
+|switch|p1a: Gligar|Gligar, M|100/100
+|
+|-heal|p2a: Chesnaught|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|
+|move|p1a: Gligar|Defog|p2a: Chesnaught
+|-unboost|p2a: Chesnaught|evasion|1
+|-sideend|p2: WTUU IP|Stealth Rock|[from] move: Defog|[of] p1a: Gligar
+|-sideend|p1: MisterpulpyYT|Spikes|[from] move: Defog|[of] p1a: Gligar
+|move|p2a: Chesnaught|Wood Hammer|p1a: Gligar
+|-damage|p1a: Gligar|81/100
+|-damage|p2a: Chesnaught|95/100|[from] Recoil
+|
+|-heal|p2a: Chesnaught|100/100|[from] item: Leftovers
+|upkeep
+|turn|45
+
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|move|p1a: Gligar|Stealth Rock|p2a: Moltres
+|-sidestart|p2: WTUU IP|move: Stealth Rock
+|
+|upkeep
+|turn|46
+
+|
+|switch|p1a: Latias|Latias, F|5/100 tox
+|move|p2a: Moltres|Defog|p1a: Latias
+|-unboost|p1a: Latias|evasion|1
+|-sideend|p2: WTUU IP|Stealth Rock|[from] move: Defog|[of] p2a: Moltres
+|
+|-damage|p1a: Latias|0 fnt|[from] psn
+|faint|p1a: Latias
+|upkeep
+
+|
+|switch|p1a: Primarina|Primarina, M|100/100
+|turn|47
+
+|
+|switch|p2a: Gastrodon|Gastrodon, F|89/100
+|move|p1a: Primarina|Moonblast|p2a: Gastrodon
+|-damage|p2a: Gastrodon|39/100
+|
+|-heal|p2a: Gastrodon|45/100|[from] item: Leftovers
+|upkeep
+|turn|48
+
+|
+|switch|p1a: Blissey|Blissey, F|89/100
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|49
+
+|
+|switch|p2a: Gastrodon|Gastrodon, F|45/100
+|move|p1a: Blissey|Seismic Toss|p2a: Gastrodon
+|-damage|p2a: Gastrodon|21/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|27/100|[from] item: Leftovers
+|upkeep
+|turn|50
+
+|
+|switch|p1a: Scizor|Scizor, F|84/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|77/100
+|
+|-heal|p2a: Gastrodon|83/100|[from] item: Leftovers
+|upkeep
+|turn|51
+
+|
+|move|p1a: Scizor|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|13/100
+
+|
+|switch|p1a: Primarina|Primarina, M|100/100|[from]move: U-turn
+|move|p2a: Gastrodon|Scald|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|88/100
+|
+|-heal|p2a: Gastrodon|20/100|[from] item: Leftovers
+|upkeep
+|turn|52
+
+|
+|move|p1a: Primarina|Psychic|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|upkeep
+
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|turn|53
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|54
+
+|-message|WTUU IP forfeited.
+
+|
+|win|MisterpulpyYT

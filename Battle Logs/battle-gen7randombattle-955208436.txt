@@ -1,0 +1,377 @@
+|init|battle
+|title|Stormrycon vs. PolicePika
+|j|☆Stormrycon
+|j|☆PolicePika
+|player|p1|Stormrycon|267|1246
+|player|p2|PolicePika|1|1210
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electivire|Electivire, L89, M|100/100
+|switch|p2a: Donphan|Donphan, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PolicePika)
+|
+|switch|p1a: Azelf|Azelf, L82|100/100
+|move|p2a: Donphan|Stealth Rock|p1a: Azelf
+|-sidestart|p1: Stormrycon|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Azelf|Knock Off|p2a: Donphan
+|-damage|p2a: Donphan|75/100
+|-enditem|p2a: Donphan|Leftovers|[from] move: Knock Off|[of] p1a: Azelf
+|-damage|p1a: Azelf|91/100|[from] item: Life Orb
+|move|p2a: Donphan|Knock Off|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|14/100
+|-enditem|p1a: Azelf|Life Orb|[from] move: Knock Off|[of] p2a: Donphan
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Donphan|Ice Shard|p1a: Azelf
+|-crit|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|turn|4
+
+|c|☆Stormrycon|shoot
+
+|c|☆Stormrycon|knock off
+
+|
+|move|p1a: Jellicent|Scald|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+
+|c|☆Stormrycon|or not I guess
+
+|inactive|PolicePika has 120 seconds left.
+
+|
+|switch|p2a: Clefable|Clefable, L80, F|100/100
+|turn|5
+
+|
+|move|p1a: Jellicent|Scald|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|54/100
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|PolicePika has 120 seconds left.
+
+|
+|switch|p1a: Electivire|Electivire, L89, M|100/100
+|-damage|p1a: Electivire|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Electivire
+|-damage|p1a: Electivire|28/100
+|
+|upkeep
+|turn|7
+
+|inactive|PolicePika has 120 seconds left.
+
+|
+|move|p1a: Electivire|Ice Punch|p2a: Clefable
+|-damage|p2a: Clefable|26/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|faint|p1a: Electivire
+|
+|upkeep
+
+|
+|switch|p1a: Dragalge|Dragalge, L84, M|100/100
+|-damage|p1a: Dragalge|88/100|[from] Stealth Rock
+|turn|8
+
+|inactive|PolicePika has 120 seconds left.
+
+|inactive|PolicePika has 90 seconds left.
+
+|
+|move|p2a: Clefable|Fire Blast|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|65/100
+|move|p1a: Dragalge|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+
+|
+|switch|p2a: Unown|Unown|100/100
+|turn|9
+
+|
+|switch|p1a: Darkrai|Darkrai, L78|100/100
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|move|p2a: Unown|Hidden Power|p1a: Darkrai
+|-immune|p1a: Darkrai
+|
+|-heal|p1a: Darkrai|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Gligar|Gligar, L82, M|100/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Gligar
+|-damage|p2a: Gligar|69/100
+|
+|-heal|p1a: Darkrai|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Darkrai|Hypnosis|p2a: Gligar|[miss]
+|-miss|p1a: Darkrai|p2a: Gligar
+|move|p2a: Gligar|Toxic|p1a: Darkrai
+|-status|p1a: Darkrai|tox
+|
+|-heal|p1a: Darkrai|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Darkrai|95/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Darkrai|Hypnosis|p2a: Gligar|[miss]
+|-miss|p1a: Darkrai|p2a: Gligar
+|move|p2a: Gligar|Earthquake|p1a: Darkrai
+|-damage|p1a: Darkrai|57/100 tox
+|
+|-heal|p1a: Darkrai|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Darkrai|51/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Darkrai|Hypnosis|p2a: Gligar|[miss]
+|-miss|p1a: Darkrai|p2a: Gligar
+|move|p2a: Gligar|Knock Off|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|39/100 tox
+|-enditem|p1a: Darkrai|Leftovers|[from] move: Knock Off|[of] p2a: Gligar
+|
+|-damage|p1a: Darkrai|22/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|c|☆Stormrycon|!!!
+
+|c|☆Stormrycon|what the heck
+
+|
+|move|p1a: Darkrai|Hypnosis|p2a: Gligar
+|-status|p2a: Gligar|slp|[from] move: Hypnosis
+|cant|p2a: Gligar|slp
+|
+|-damage|p1a: Darkrai|0 fnt|[from] psn
+|faint|p1a: Darkrai
+|upkeep
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|99/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|turn|15
+
+|inactive|PolicePika has 90 seconds left.
+
+|
+|switch|p2a: Unown|Unown|100/100
+|move|p1a: Jellicent|Scald|p2a: Unown
+|-damage|p2a: Unown|57/100
+|
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Unown
+|-supereffective|p2a: Unown
+|-damage|p2a: Unown|0 fnt
+|faint|p2a: Unown
+|
+|-heal|p1a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+
+|inactive|PolicePika has 90 seconds left.
+
+|
+|switch|p2a: Liepard|Liepard, L88, F|100/100
+|turn|17
+
+|
+|switch|p1a: Accelgor|Accelgor, L86, M|100/100
+|-damage|p1a: Accelgor|76/100|[from] Stealth Rock
+|move|p2a: Liepard|Thunder Wave|p1a: Accelgor|[miss]
+|-miss|p2a: Liepard|p1a: Accelgor
+|
+|upkeep
+|turn|18
+
+|inactive|PolicePika has 90 seconds left.
+
+|
+|move|p2a: Liepard|Thunder Wave|p1a: Accelgor
+|-status|p1a: Accelgor|par
+|move|p1a: Accelgor|Bug Buzz|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|-damage|p1a: Accelgor|66/100 par|[from] item: Life Orb
+|faint|p2a: Liepard
+|
+|upkeep
+
+|inactive|PolicePika has 90 seconds left.
+
+|
+|switch|p2a: Gligar|Gligar, L82, M|69/100 slp
+|turn|19
+
+|c|☆Stormrycon|choice scarf?
+
+|
+|cant|p2a: Gligar|slp
+|cant|p1a: Accelgor|par
+|
+|upkeep
+|turn|20
+
+|
+|cant|p2a: Gligar|slp
+|move|p1a: Accelgor|Giga Drain|p2a: Gligar
+|-damage|p2a: Gligar|44/100 slp
+|-heal|p1a: Accelgor|77/100 par|[from] drain|[of] p2a: Gligar
+|-damage|p1a: Accelgor|67/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+
+|
+|-curestatus|p2a: Gligar|slp|[msg]
+|move|p2a: Gligar|Earthquake|p1a: Accelgor
+|-resisted|p1a: Accelgor
+|-damage|p1a: Accelgor|43/100 par
+|move|p1a: Accelgor|Giga Drain|p2a: Gligar
+|-damage|p2a: Gligar|15/100
+|-heal|p1a: Accelgor|55/100 par|[from] drain|[of] p2a: Gligar
+|-damage|p1a: Accelgor|45/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Gligar|Knock Off|p1a: Accelgor
+|-damage|p1a: Accelgor|11/100 par
+|-activate|p1a: Accelgor|ability: Sticky Hold
+|move|p1a: Accelgor|Giga Drain|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|-heal|p1a: Accelgor|18/100 par|[from] drain|[of] p2a: Gligar
+|-damage|p1a: Accelgor|8/100 par|[from] item: Life Orb
+|faint|p2a: Gligar
+|
+|upkeep
+
+|inactive|PolicePika has 90 seconds left.
+
+|inactive|PolicePika has 60 seconds left.
+
+|
+|switch|p2a: Heracross|Heracross, L81, F|100/100
+|turn|23
+
+|
+|detailschange|p2a: Heracross|Heracross-Mega, L81, F
+|-mega|p2a: Heracross|Heracross|Heracronite
+|move|p2a: Heracross|Substitute|p2a: Heracross
+|-start|p2a: Heracross|Substitute
+|-damage|p2a: Heracross|76/100
+|move|p1a: Accelgor|Hidden Power|p2a: Heracross
+|-activate|p2a: Heracross|move: Substitute|[damage]
+|-damage|p1a: Accelgor|0 fnt|[from] item: Life Orb
+|faint|p1a: Accelgor
+|
+|upkeep
+
+|
+|switch|p1a: Dragalge|Dragalge, L84, M|65/100
+|-damage|p1a: Dragalge|53/100|[from] Stealth Rock
+|turn|24
+
+|inactive|PolicePika has 60 seconds left.
+
+|
+|move|p2a: Heracross|Close Combat|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|12/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|move|p1a: Dragalge|Hidden Power|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-end|p2a: Heracross|Substitute
+|
+|upkeep
+|turn|25
+
+|inactive|PolicePika has 60 seconds left.
+
+|
+|move|p2a: Heracross|Pin Missile|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|5/100
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|-hitcount|p1a: Dragalge|2
+|faint|p1a: Dragalge
+|
+|upkeep
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|99/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p2a: Heracross|Bullet Seed|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|67/100
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|47/100
+|-supereffective|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|16/100
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-hitcount|p1a: Jellicent|4
+|faint|p1a: Jellicent
+|
+|win|PolicePika

@@ -1,0 +1,274 @@
+|init|battle
+|title|manuelazir vs. unluckylol
+|j|☆manuelazir
+|j|☆unluckylol
+|player|p1|manuelazir|154|1153
+|player|p2|unluckylol|117|1150
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jellicent|Jellicent, L88, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|atk|1
+|turn|1
+
+|
+|switch|p2a: Forretress|Forretress, L84, F|100/100
+|move|p1a: Jellicent|Scald|p2a: Forretress
+|-damage|p2a: Forretress|59/100
+|
+|-heal|p2a: Forretress|66/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1a: Jellicent|Scald|p2a: Forretress
+|-damage|p2a: Forretress|26/100
+|-status|p2a: Forretress|brn
+|move|p2a: Forretress|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: manuelazir|move: Stealth Rock
+|
+|-heal|p2a: Forretress|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Forretress|26/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Jellicent|Scald|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|atk|1
+|turn|4
+
+|
+|move|p2a: Porygon-Z|Nasty Plot|p2a: Porygon-Z
+|-boost|p2a: Porygon-Z|spa|2
+|move|p1a: Jellicent|Scald|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|60/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|19/100
+|move|p1a: Jellicent|Scald|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|25/100
+|
+|-heal|p1a: Jellicent|25/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, L81, M|100/100
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p2a: Gengar|Gengar, L78, F|100/100
+|detailschange|p1a: Gallade|Gallade-Mega, L81, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p1a: Gallade|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|23/100
+|
+|upkeep
+|turn|8
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L78, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|18/100
+|move|p1a: Gallade|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Ribombee|Ribombee, L85, F|100/100
+|turn|9
+
+|
+|switch|p1a: Galvantula|Galvantula, L84, M|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|move|p2a: Ribombee|Bug Buzz|p1a: Galvantula
+|-damage|p1a: Galvantula|7/100
+|-damage|p2a: Ribombee|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Ribombee|Hidden Power|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p2a: Ribombee|81/100|[from] item: Life Orb
+|faint|p1a: Galvantula
+|
+|upkeep
+
+|
+|switch|p1a: Carnivine|Carnivine, L89, F|100/100
+|-damage|p1a: Carnivine|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p2a: Ribombee|Bug Buzz|p1a: Carnivine
+|-supereffective|p1a: Carnivine
+|-damage|p1a: Carnivine|0 fnt
+|-damage|p2a: Ribombee|71/100|[from] item: Life Orb
+|faint|p1a: Carnivine
+|
+|upkeep
+
+|
+|switch|p1a: Shaymin|Shaymin-Sky, L78|100/100
+|-damage|p1a: Shaymin|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Ribombee|Hidden Power|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|27/100
+|-damage|p2a: Ribombee|61/100|[from] item: Life Orb
+|move|p1a: Shaymin|Air Slash|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-damage|p1a: Shaymin|17/100|[from] item: Life Orb
+|faint|p2a: Ribombee
+|
+|upkeep
+
+|
+|switch|p2a: Arbok|Arbok, L89, F|100/100
+|turn|13
+
+|
+|move|p1a: Shaymin|Leech Seed|p2a: Arbok
+|-start|p2a: Arbok|move: Leech Seed
+|move|p2a: Arbok|Gunk Shot|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|-damage|p2a: Arbok|91/100|[from] item: Life Orb
+|faint|p1a: Shaymin
+|
+|upkeep
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, M|100/100
+|-damage|p1a: Vivillon|51/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Arbok
+|-status|p2a: Arbok|slp|[from] move: Sleep Powder
+|cant|p2a: Arbok|slp
+|
+|-heal|p1a: Vivillon|57/100|[from] item: Leftovers
+|-damage|p2a: Arbok|78/100 slp|[from] Leech Seed|[of] p1a: Vivillon
+|-heal|p1a: Vivillon|68/100|[silent]
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Mew|Mew, L80|100/100
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|
+|-heal|p1a: Vivillon|74/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Mew
+|-message|Sleep Clause Mod activated.
+|move|p2a: Mew|Taunt|p1a: Vivillon
+|-start|p1a: Vivillon|move: Taunt
+|
+|-heal|p1a: Vivillon|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Arbok|Arbok, L89, F|78/100 slp
+|move|p1a: Vivillon|Hurricane|p2a: Arbok
+|-damage|p2a: Arbok|12/100 slp
+|
+|-heal|p1a: Vivillon|86/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Vivillon|Hurricane|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|-heal|p1a: Vivillon|93/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|25/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|atk|1
+|turn|19
+
+|
+|move|p1a: Vivillon|Hurricane|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|-heal|p1a: Vivillon|99/100|[from] item: Leftovers
+|-end|p1a: Vivillon|move: Taunt
+|upkeep
+
+|
+|switch|p2a: Mew|Mew, L80|100/100
+|turn|20
+
+|
+|move|p1a: Vivillon|Hurricane|p2a: Mew
+|-damage|p2a: Mew|40/100
+|-start|p2a: Mew|confusion
+|-activate|p2a: Mew|confusion
+|-damage|p2a: Mew|33/100|[from] confusion
+|
+|-heal|p1a: Vivillon|100/100|[from] item: Leftovers
+|-heal|p2a: Mew|40/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Vivillon|Hurricane|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|manuelazir

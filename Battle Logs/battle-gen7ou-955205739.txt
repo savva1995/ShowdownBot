@@ -1,0 +1,321 @@
+|init|battle
+|title|LegendMaker798 vs. supeepoop
+|j|☆LegendMaker798
+|j|☆supeepoop
+|player|p1|LegendMaker798|169|1099
+|player|p2|supeepoop|281|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Reuniclus, M|item
+|poke|p1|Serperior, F|item
+|poke|p1|Gallade, M|item
+|poke|p1|Porygon2|item
+|poke|p1|Maractus, M|item
+|poke|p1|Galvantula, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Kartana|item
+|teampreview
+|
+|start
+|switch|p1a: Snek|Serperior, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-boost|p1a: Snek|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by supeepoop)
+|
+|move|p1a: Snek|Leaf Storm|p2a: Landorus
+|-damage|p2a: Landorus|41/100
+|-boost|p1a: Snek|spa|2
+|move|p2a: Landorus|U-turn|p1a: Snek
+|-supereffective|p1a: Snek
+|-damage|p1a: Snek|30/100
+|
+|switch|p2a: Greninja|Greninja, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Snek|Leaf Storm|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-boost|p1a: Snek|spa|2
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|3
+|
+|detailschange|p2a: Alakazam|Alakazam-Mega, F
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Contrary|[from] ability: Trace|[of] p1a: Snek
+|move|p2a: Alakazam|Psychic|p1a: Snek
+|-damage|p1a: Snek|0 fnt
+|faint|p1a: Snek
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|turn|4
+
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Galvantula
+|-damage|p1a: Galvantula|36/100
+|move|p1a: Galvantula|Signal Beam|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|12/100
+|
+|-heal|p1a: Galvantula|42/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Porygon2|Porygon2, shiny|100/100
+|move|p2a: Alakazam|Shadow Ball|p1a: Porygon2
+|-immune|p1a: Porygon2
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|29/100
+|move|p1a: Porygon2|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+
+|
+|switch|p2a: Kartana|Kartana|100/100
+|turn|7
+
+|
+|move|p2a: Kartana|Sacred Sword|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Maractus|Maractus, M|100/100
+|turn|8
+
+|
+|move|p1a: Maractus|Spiky Shield|p1a: Maractus
+|-singleturn|p1a: Maractus|move: Protect
+|move|p2a: Kartana|Smart Strike|p1a: Maractus
+|-activate|p1a: Maractus|move: Protect
+|-damage|p2a: Kartana|88/100|[from] Spiky Shield|[of] p1a: Maractus
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Kartana|Smart Strike|p1a: Maractus
+|-damage|p1a: Maractus|15/100
+|move|p1a: Maractus|Hidden Power|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|-damage|p1a: Maractus|5/100|[from] item: Life Orb
+|faint|p2a: Kartana
+|
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|10
+
+|
+|move|p1a: Maractus|Spiky Shield|p1a: Maractus
+|-singleturn|p1a: Maractus|move: Protect
+|move|p2a: Heatran|Earth Power|p1a: Maractus
+|-activate|p1a: Maractus|move: Protect
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Squish|Reuniclus, M, shiny|100/100
+|move|p2a: Heatran|Earth Power|p1a: Squish
+|-damage|p1a: Squish|74/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Heatran|Toxic|p1a: Squish
+|-status|p1a: Squish|tox
+|move|p1a: Squish|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|15/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Heatran|Magma Storm|p1a: Squish
+|-damage|p1a: Squish|26/100 tox
+|-activate|p1a: Squish|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Squish|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Squish|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|41/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Squish|atk|1
+|turn|14
+
+|
+|move|p2a: Landorus|U-turn|p1a: Squish
+|-supereffective|p1a: Squish
+|-damage|p1a: Squish|0 fnt
+|faint|p1a: Squish
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p1a: Maractus|Maractus, M|5/100
+|turn|15
+
+|
+|move|p1a: Maractus|Hidden Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|-damage|p1a: Maractus|0 fnt|[from] item: Life Orb
+|faint|p1a: Maractus
+|move|p2a: Ferrothorn|Power Whip|p1: Maractus|[notarget]
+|-fail|p2a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, F|42/100
+|turn|16
+
+|
+|move|p1a: Galvantula|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|4/100
+|
+|-heal|p1a: Galvantula|10/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Galvantula|Signal Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|42/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Galvantula
+|-start|p1a: Galvantula|move: Leech Seed
+|
+|-heal|p1a: Galvantula|16/100|[from] item: Leftovers
+|-damage|p1a: Galvantula|3/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|54/100|[silent]
+|upkeep
+|turn|18
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Galvantula|Signal Beam|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Galvantula|9/100|[from] item: Leftovers
+|-damage|p1a: Galvantula|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|64/100|[silent]
+|faint|p1a: Galvantula
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, M, shiny|100/100
+|turn|19
+
+|
+|detailschange|p1a: Gallade|Gallade-Mega, M, shiny
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gallade|[miss]
+|-miss|p2a: Ferrothorn|p1a: Gallade
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Gallade|Psycho Cut|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|32/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gallade
+|-start|p1a: Gallade|move: Leech Seed
+|
+|-damage|p1a: Gallade|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|45/100|[silent]
+|upkeep
+|turn|21
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Gallade|Power-Up Punch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Gallade|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|57/100|[silent]
+|upkeep
+|turn|22
+
+|
+|move|p1a: Gallade|Power-Up Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Gallade|64/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-boost|p1a: Gallade|atk|1
+|faint|p2a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|41/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|turn|23
+
+|
+|move|p1a: Gallade|Psycho Cut|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|LegendMaker798

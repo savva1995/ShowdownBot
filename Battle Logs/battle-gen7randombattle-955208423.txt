@@ -1,0 +1,149 @@
+|init|battle
+|title|birnbaum vs. Dark Zydor
+|j|☆birnbaum
+|j|☆Dark Zydor
+|player|p1|birnbaum|198|1710
+|player|p2|Dark Zydor|110|1617
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raichu|Raichu, L89, F|100/100
+|switch|p2a: Stoutland|Stoutland, L88, F|100/100
+|-ability|p2a: Stoutland|Intimidate|boost
+|-unboost|p1a: Raichu|atk|1
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dark Zydor)
+
+|
+|switch|p1a: Hoopa|Hoopa-Unbound, L81|100/100
+|move|p2a: Stoutland|Return|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+
+|
+|switch|p1a: Bisharp|Bisharp, L82, M|100/100
+|turn|2
+
+|inactive|Dark Zydor has 120 seconds left.
+
+|
+|switch|p2a: Entei|Entei, L83|100/100
+|-ability|p2a: Entei|Pressure
+|move|p1a: Bisharp|Knock Off|p2a: Entei
+|-damage|p2a: Entei|66/100
+|-enditem|p2a: Entei|Choice Band|[from] move: Knock Off|[of] p1a: Bisharp
+|
+|upkeep
+|turn|3
+
+|inactive|birnbaum has 120 seconds left.
+
+|
+|switch|p1a: Mantine|Mantine, L84, F|100/100
+|move|p2a: Entei|Sacred Fire|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|75/100
+|-status|p1a: Mantine|brn
+|
+|-heal|p1a: Mantine|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Mantine|75/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|inactive|Dark Zydor has 90 seconds left.
+
+|
+|switch|p2a: Pikachu|Pikachu-Alola, L90, M|100/100
+|move|p1a: Mantine|Scald|p2a: Pikachu
+|-damage|p2a: Pikachu|54/100
+|
+|-heal|p1a: Mantine|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Mantine|75/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|inactive|Dark Zydor has 90 seconds left.
+
+|inactive|birnbaum has 90 seconds left.
+
+|
+|switch|p1a: Raichu|Raichu, L89, F|100/100
+|move|p2a: Pikachu|Knock Off|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|17/100
+|-enditem|p1a: Raichu|Focus Sash|[from] move: Knock Off|[of] p2a: Pikachu
+|
+|upkeep
+|turn|6
+
+|inactive|birnbaum has 90 seconds left.
+|inactive|Dark Zydor has 90 seconds left.
+
+|
+|switch|p2a: Registeel|Registeel, L84|100/100
+|move|p1a: Raichu|Hidden Power|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|95/100
+|
+|-heal|p2a: Registeel|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|birnbaum has 90 seconds left.
+
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Registeel
+|-damage|p2a: Registeel|76/100
+|move|p2a: Registeel|Iron Head|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|-heal|p2a: Registeel|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, F|100/100
+|turn|8
+
+|inactive|Dark Zydor has 90 seconds left.
+
+|
+|switch|p2a: Stoutland|Stoutland, L88, F|100/100
+|-ability|p2a: Stoutland|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|move|p1a: Gliscor|Earthquake|p2a: Stoutland
+|-damage|p2a: Stoutland|78/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|9
+
+|inactive|birnbaum has 90 seconds left.
+
+|
+|switch|p1a: Bisharp|Bisharp, L82, M|100/100
+|move|p2a: Stoutland|Ice Fang|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|83/100
+|-status|p1a: Bisharp|frz
+|
+|upkeep
+|turn|10
+
+|inactive|Dark Zydor has 90 seconds left.
+
+|-message|birnbaum forfeited.
+
+|
+|win|Dark Zydor

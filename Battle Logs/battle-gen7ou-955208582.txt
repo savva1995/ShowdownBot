@@ -1,0 +1,191 @@
+|init|battle
+|title|Badoi vs. DDhoe
+|j|‽Badoi
+|j|☆DDhoe
+|player|p1|Badoi|70|1148
+|player|p2|DDhoe|1|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Heracross, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Araquanid, F|item
+|poke|p1|Pinsir, F|item
+|poke|p1|Galvantula, M|item
+|poke|p1|Armaldo, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Manectric, M|item
+|poke|p2|Hawlucha, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Heatran, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DDhoe)
+|
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Manectric|Manectric, M|100/100
+|turn|1
+|
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Araquanid|atk|1
+|move|p2a: Manectric|Volt Switch|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|39/100
+|
+|switch|p2a: Heatran|Heatran, F|100/100|[from]move: Volt Switch
+|move|p1a: Araquanid|Liquidation|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|2
+
+|
+|move|p2a: Tapu Koko|Reflect|p2a: Tapu Koko
+|-sidestart|p2: DDhoe|Reflect
+|move|p1a: Araquanid|Liquidation|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|64/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Tapu Koko|Light Screen|p2a: Tapu Koko
+|-sidestart|p2: DDhoe|move: Light Screen
+|move|p1a: Araquanid|Liquidation|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|30/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Tapu Koko|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|20/100
+
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100|[from]move: U-turn
+|move|p1a: Araquanid|Liquidation|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|80/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Araquanid|Liquidation|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|60/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Araquanid|Liquidation|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|42/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+
+|
+|move|p2a: Gyarados|Waterfall|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|-ability|p1a: Galvantula|Unnerve|p2: DDhoe
+|turn|8
+
+|
+|move|p2a: Gyarados|Earthquake|p1a: Galvantula
+|-enditem|p1a: Galvantula|Focus Sash
+|-damage|p1a: Galvantula|1/100
+|move|p1a: Galvantula|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric-Mega, M|100/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Galvantula|atk|1
+|turn|9
+
+|
+|move|p2a: Manectric|Volt Switch|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|30/100|[from]move: Volt Switch
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|
+|-sideend|p2: DDhoe|Reflect
+|upkeep
+
+|
+|switch|p1a: Heracross|Heracross, M|100/100
+|turn|10
+
+|
+|move|p1a: Heracross|Stone Edge|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|-sideend|p2: DDhoe|move: Light Screen
+|upkeep
+
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|11
+
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+
+|-message|Badoi forfeited.
+
+|
+|win|DDhoe

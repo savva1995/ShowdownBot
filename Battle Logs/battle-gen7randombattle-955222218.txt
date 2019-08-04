@@ -1,0 +1,89 @@
+|init|battle
+|title|Lawnmower fan 1 vs. jonisacunt
+|j|☆Lawnmower fan 1
+|j|‽jonisacunt
+|player|p1|Lawnmower fan 1|1|1581
+|player|p2|jonisacunt|39|1505
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slaking|Slaking, L89, M|100/100
+|switch|p2a: Weezing|Weezing, L86, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jonisacunt)
+|
+|switch|p1a: Mantine|Mantine, L84, F|100/100
+|move|p2a: Weezing|Protect||[still]
+|-fail|p2a: Weezing
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Zapdos|Zapdos, L80|100/100
+|move|p1a: Mantine|Air Slash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|87/100
+|
+|-heal|p2a: Zapdos|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Nidoking
+|-immune|p1a: Nidoking
+|
+|-heal|p2a: Zapdos|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Porygon2|Porygon2, L84|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|move|p1a: Nidoking|Substitute|p1a: Nidoking
+|-start|p1a: Nidoking|Substitute
+|-damage|p1a: Nidoking|76/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Nidoking|Superpower|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|48/100
+|-unboost|p1a: Nidoking|atk|1
+|-unboost|p1a: Nidoking|def|1
+|-damage|p1a: Nidoking|66/100|[from] item: Life Orb
+|move|p2a: Porygon2|Tri Attack|p1a: Nidoking
+|-end|p1a: Nidoking|Substitute
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|98/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|57/100
+|move|p2a: Porygon2|Thunder Wave|p1a: Solgaleo
+|-status|p1a: Solgaleo|par
+|
+|upkeep
+|turn|8
+|-message|Lawnmower fan 1 forfeited.
+|
+|win|jonisacunt
+|l|☆Lawnmower fan 1
+|raw|Lawnmower fan 1's rating: 1581 &rarr; <strong>1556</strong><br />(-25 for losing)
+|raw|jonisacunt's rating: 1504 &rarr; <strong>1529</strong><br />(+25 for winning)
+|l|‽jonisacunt

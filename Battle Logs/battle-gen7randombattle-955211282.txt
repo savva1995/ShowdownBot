@@ -1,0 +1,253 @@
+|init|battle
+|title|tory7524 vs. Eii7527
+|j|☆tory7524
+|j|☆Eii7527
+|player|p1|tory7524|1|
+|player|p2|Eii7527|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Stantler|Stantler, L89, M|100/100
+|switch|p2a: Seaking|Seaking, L89, F|100/100
+|turn|1
+
+|
+|move|p1a: Stantler|Double-Edge|p2a: Seaking
+|-damage|p2a: Seaking|30/100
+|-damage|p1a: Stantler|76/100|[from] Recoil
+|-damage|p1a: Stantler|66/100|[from] item: Life Orb
+|move|p2a: Seaking|Ice Beam|p1a: Stantler
+|-damage|p1a: Stantler|42/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Stantler|Double-Edge|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|-damage|p1a: Stantler|32/100|[from] Recoil
+|-damage|p1a: Stantler|22/100|[from] item: Life Orb
+|faint|p2a: Seaking
+|
+|upkeep
+
+|
+|switch|p2a: Ninetales|Ninetales, L84, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|3
+
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Stantler
+|-damage|p1a: Stantler|0 fnt
+|faint|p1a: Stantler
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar, L80, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|4
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, L80, M
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Ninetales
+|-damage|p2a: Ninetales|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ninetales|45/100|[from] Sandstorm
+|-heal|p2a: Ninetales|51/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Ninetales|Solar Beam|p1a: Tyranitar|[from]lockedmove
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|85/100
+|move|p1a: Tyranitar|Crunch|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Froslass|Froslass, L88, F|100/100
+|turn|6
+
+|
+|move|p2a: Froslass|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|66/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Froslass|[miss]
+|-miss|p1a: Tyranitar|p2a: Froslass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Froslass|94/100|[from] Sandstorm
+|-heal|p2a: Froslass|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Froslass|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|59/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|turn|8
+
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Moltres
+|-damage|p2a: Moltres|56/100
+|-status|p1a: Tyranitar|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|-unboost|p2a: Moltres|def|1
+|
+|-weather|none
+|-damage|p1a: Tyranitar|52/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Moltres|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|33/100 brn
+|-start|p1a: Tyranitar|confusion
+|-activate|p1a: Tyranitar|confusion
+|move|p1a: Tyranitar|Ice Punch|p2a: Moltres
+|-damage|p2a: Moltres|37/100
+|
+|-damage|p1a: Tyranitar|27/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Moltres|Fire Blast|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|7/100 brn
+|-activate|p1a: Tyranitar|confusion
+|move|p1a: Tyranitar|Crunch|p2a: Moltres
+|-damage|p2a: Moltres|5/100
+|-unboost|p2a: Moltres|def|1
+|
+|-damage|p1a: Tyranitar|1/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Moltres|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, M|100/100
+|turn|12
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-status|p1a: Spiritomb|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|-damage|p1a: Spiritomb|91/100 brn|[from] item: Life Orb
+|faint|p2a: Moltres
+|
+|-damage|p1a: Spiritomb|84/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L85, M|100/100
+|turn|13
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|84/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Infiltrator|[of] p1a: Spiritomb
+|-damage|p1a: Spiritomb|75/100 brn|[from] item: Life Orb
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Spiritomb
+|-damage|p1a: Spiritomb|43/100 brn
+|
+|-heal|p2a: Cofagrigus|90/100|[from] item: Leftovers
+|-damage|p1a: Spiritomb|37/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Spiritomb|Dark Pulse|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-damage|p1a: Spiritomb|27/100 brn|[from] item: Life Orb
+|faint|p2a: Cofagrigus
+|
+|-damage|p1a: Spiritomb|21/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|turn|15
+
+|
+|move|p2a: Solgaleo|Earthquake|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|upkeep
+
+|
+|switch|p1a: Torterra|Torterra, L86, F|100/100
+|turn|16
+
+|
+|move|p2a: Solgaleo|Earthquake|p1a: Torterra
+|-resisted|p1a: Torterra
+|-damage|p1a: Torterra|90/100
+|move|p1a: Torterra|Wood Hammer|p2a: Solgaleo
+|-resisted|p2a: Solgaleo
+|-damage|p2a: Solgaleo|79/100
+|-damage|p1a: Torterra|82/100|[from] Recoil
+|
+|-heal|p1a: Torterra|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Solgaleo|Earthquake|p1a: Torterra
+|-resisted|p1a: Torterra
+|-damage|p1a: Torterra|76/100
+|move|p1a: Torterra|Earthquake|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|12/100
+|
+|-heal|p1a: Torterra|83/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Solgaleo|Earthquake|p1a: Torterra
+|-resisted|p1a: Torterra
+|-damage|p1a: Torterra|71/100
+|move|p1a: Torterra|Wood Hammer|p2a: Solgaleo
+|-resisted|p2a: Solgaleo
+|-damage|p2a: Solgaleo|0 fnt
+|-damage|p1a: Torterra|67/100|[from] Recoil
+|faint|p2a: Solgaleo
+|
+|win|tory7524

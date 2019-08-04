@@ -1,0 +1,396 @@
+|init|battle
+|title|pocong vs. battingimp
+|j|☆pocong
+|j|☆battingimp
+|player|p1|pocong|1|1122
+|player|p2|battingimp|100|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grumpig|Grumpig, L89, F|100/100
+|switch|p2a: Krookodile|Krookodile, L82, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Grumpig|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pocong)
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Krookodile|Knock Off|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|82/100
+|-enditem|p1a: Tapu Bulu|Leftovers|[from] move: Knock Off|[of] p2a: Krookodile
+|
+|-heal|p1a: Tapu Bulu|89/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|switch|p2a: Tornadus|Tornadus-Therian, L80, M|100/100
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|-heal|p1a: Tapu Bulu|95/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+
+|
+|move|p2a: Tornadus|Knock Off|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|90/100
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Tapu Bulu|96/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Ludicolo|Ludicolo, L88, M|100/100
+|turn|4
+
+|c|☆pocong|nice
+
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|18/100
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|-heal|p1a: Tapu Bulu|24/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Dialga|Dialga, L78|100/100
+|-ability|p1a: Dialga|Pressure
+|move|p2a: Ludicolo|Ice Beam|p1a: Dialga
+|-damage|p1a: Dialga|65/100
+|-status|p1a: Dialga|frz
+|
+|-heal|p1a: Dialga|71/100 frz|[from] item: Leftovers
+|-heal|p1a: Dialga|77/100 frz|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+
+|c|☆pocong|luck
+
+|inactive|battingimp has 120 seconds left.
+
+|
+|switch|p2a: Gardevoir|Gardevoir, L81, F|100/100
+|-ability|p2a: Gardevoir|Pressure|[from] ability: Trace|[of] p1a: Dialga
+|-ability|p2a: Gardevoir|Pressure
+|cant|p1a: Dialga|frz
+|
+|-heal|p1a: Dialga|83/100 frz|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, L81, F
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|1
+|-boost|p2a: Gardevoir|spd|1
+|-curestatus|p1a: Dialga|frz|[msg]
+|move|p1a: Dialga|Toxic|p2a: Gardevoir
+|-status|p2a: Gardevoir|tox
+|
+|-heal|p1a: Dialga|89/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|94/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p2a: Gardevoir|Hyper Voice|p1a: Dialga
+|-damage|p1a: Dialga|4/100
+|move|p1a: Dialga|Stealth Rock|p2a: Gardevoir
+|-sidestart|p2: battingimp|move: Stealth Rock
+|
+|-heal|p1a: Dialga|10/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|82/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Gardevoir|Hyper Voice|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|-damage|p2a: Gardevoir|63/100 tox|[from] psn
+|upkeep
+
+|inactive|pocong has 120 seconds left.
+
+|
+|switch|p1a: Audino|Audino, L86, M|100/100
+|turn|10
+
+|
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|1
+|-boost|p2a: Gardevoir|spd|1
+|
+|-damage|p2a: Gardevoir|39/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Audino|Protect||[still]
+|-fail|p1a: Audino
+|move|p2a: Gardevoir|Psyshock|p1a: Audino
+|-damage|p1a: Audino|29/100
+|
+|-damage|p2a: Gardevoir|8/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Gardevoir|Psyshock|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-damage|p2a: Gardevoir|0 fnt|[from] psn
+|faint|p2a: Gardevoir
+|upkeep
+
+|
+|switch|p2a: Minun|Minun, L89, M|100/100
+|-damage|p2a: Minun|88/100|[from] Stealth Rock
+|turn|13
+
+|inactive|pocong has 120 seconds left.
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|24/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Minun|Substitute|p2a: Minun
+|-start|p2a: Minun|Substitute
+|-damage|p2a: Minun|63/100
+|
+|-heal|p2a: Minun|69/100|[from] item: Leftovers
+|-heal|p2a: Minun|75/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|30/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+
+|inactive|pocong has 120 seconds left.
+
+|
+|move|p2a: Minun|Nasty Plot|p2a: Minun
+|-boost|p2a: Minun|spa|2
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Minun
+|-end|p2a: Minun|Substitute
+|-heal|p1a: Tapu Bulu|43/100|[from] drain|[of] p2a: Minun
+|
+|-heal|p2a: Minun|81/100|[from] item: Leftovers
+|-heal|p2a: Minun|87/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|49/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+
+|inactive|pocong has 120 seconds left.
+
+|
+|move|p2a: Minun|Thunderbolt|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|17/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Minun
+|-damage|p2a: Minun|13/100
+|-heal|p1a: Tapu Bulu|55/100|[from] drain|[of] p2a: Minun
+|
+|-heal|p2a: Minun|19/100|[from] item: Leftovers
+|-heal|p2a: Minun|25/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|61/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+
+|inactive|pocong has 120 seconds left.
+
+|
+|move|p2a: Minun|Encore|p1a: Tapu Bulu
+|-start|p1a: Tapu Bulu|Encore
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Minun
+|-damage|p2a: Minun|0 fnt
+|-heal|p1a: Tapu Bulu|74/100|[from] drain|[of] p2a: Minun
+|faint|p2a: Minun
+|
+|-heal|p1a: Tapu Bulu|80/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100
+|-damage|p2a: Mismagius|88/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Mismagius|Nasty Plot|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|2
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Mismagius
+|-damage|p2a: Mismagius|15/100
+|-heal|p1a: Tapu Bulu|100/100|[from] drain|[of] p2a: Mismagius
+|
+|-heal|p2a: Mismagius|21/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Audino|Audino, L86, M|62/100
+|move|p2a: Mismagius|Destiny Bond|p2a: Mismagius
+|-singlemove|p2a: Mismagius|Destiny Bond
+|
+|-heal|p2a: Mismagius|27/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Bisharp|Bisharp, L82, M|100/100
+|move|p2a: Mismagius|Shadow Ball|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|52/100
+|
+|-heal|p2a: Mismagius|33/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Mismagius|Destiny Bond|p2a: Mismagius
+|-singlemove|p2a: Mismagius|Destiny Bond
+|move|p1a: Bisharp|Knock Off|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|-enditem|p2a: Mismagius|Leftovers|[from] move: Knock Off|[of] p1a: Bisharp
+|-damage|p1a: Bisharp|42/100|[from] item: Life Orb
+|faint|p2a: Mismagius
+|-activate|p2a: Mismagius|move: Destiny Bond
+|faint|p1a: Bisharp
+|
+|upkeep
+
+|
+|switch|p2a: Ludicolo|Ludicolo, L88, M|100/100
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|21
+
+|
+|switch|p1a: Grumpig|Grumpig, L89, F|100/100
+|move|p2a: Ludicolo|Ice Beam|p1a: Grumpig
+|-damage|p1a: Grumpig|87/100
+|
+|-heal|p1a: Grumpig|93/100|[from] Grassy Terrain
+|-heal|p2a: Ludicolo|94/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+
+|
+|move|p1a: Grumpig|Toxic|p2a: Ludicolo
+|-status|p2a: Ludicolo|tox
+|move|p2a: Ludicolo|Ice Beam|p1a: Grumpig
+|-damage|p1a: Grumpig|79/100
+|
+|-heal|p1a: Grumpig|85/100|[from] Grassy Terrain
+|-heal|p2a: Ludicolo|99/100 tox|[from] Grassy Terrain
+|-damage|p2a: Ludicolo|94/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, M|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Grumpig|atk|1
+|move|p1a: Grumpig|Light Screen|p1a: Grumpig
+|-sidestart|p1: pocong|move: Light Screen
+|
+|-heal|p2a: Krookodile|100/100|[from] Grassy Terrain
+|-heal|p1a: Grumpig|91/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|move|p2a: Krookodile|Superpower|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|84/100
+|-unboost|p2a: Krookodile|atk|1
+|-unboost|p2a: Krookodile|def|1
+|
+|-heal|p1a: Tapu Bulu|91/100|[from] Grassy Terrain
+|upkeep
+|turn|25
+
+|
+|move|p2a: Krookodile|Superpower|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|80/100
+|-unboost|p2a: Krookodile|atk|1
+|-unboost|p2a: Krookodile|def|1
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|-heal|p1a: Tapu Bulu|87/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Ludicolo|Ludicolo, L88, M|94/100 tox
+|-damage|p2a: Ludicolo|82/100 tox|[from] Stealth Rock
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|-damage|p2a: Ludicolo|76/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|46/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Ludicolo
+|-damage|p2a: Ludicolo|7/100 tox
+|-heal|p1a: Tapu Bulu|86/100|[from] drain|[of] p2a: Ludicolo
+|
+|-damage|p2a: Ludicolo|0 fnt|[from] psn
+|faint|p2a: Ludicolo
+|-sideend|p1: pocong|move: Light Screen
+|upkeep
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, M|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Tapu Bulu|atk|1
+|turn|28
+
+|
+|move|p2a: Krookodile|Knock Off|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|80/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|-heal|p1a: Tapu Bulu|100/100|[from] drain|[of] p2a: Krookodile
+|faint|p2a: Krookodile
+|
+|win|pocong

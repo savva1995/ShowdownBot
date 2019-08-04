@@ -1,0 +1,211 @@
+|init|battle
+|title|Mlk99 vs. Lapastaciarrua
+|j|☆Mlk99
+|j|☆Lapastaciarrua
+|player|p1|Mlk99|169|
+|player|p2|Lapastaciarrua|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pelipper|Pelipper, L84, M|100/100
+|switch|p2a: Zangoose|Zangoose, L89, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Zangoose|Knock Off|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|53/100
+|-enditem|p1a: Pelipper|Life Orb|[from] move: Knock Off|[of] p2a: Zangoose
+|move|p1a: Pelipper|Knock Off|p2a: Zangoose
+|-damage|p2a: Zangoose|81/100
+|-enditem|p2a: Zangoose|Toxic Orb|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Zangoose|Close Combat|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|32/100
+|-unboost|p2a: Zangoose|def|1
+|-unboost|p2a: Zangoose|spd|1
+|move|p1a: Pelipper|Scald|p2a: Zangoose
+|-damage|p2a: Zangoose|4/100
+|-status|p2a: Zangoose|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Zangoose|0 fnt|[from] brn
+|faint|p2a: Zangoose
+|upkeep
+
+|
+|switch|p2a: Genesect|Genesect-Douse, L78|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|turn|3
+
+|
+|move|p2a: Genesect|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|turn|4
+
+|
+|move|p2a: Genesect|U-turn|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mlk99)
+
+|
+|switch|p2a: Kingdra|Kingdra, L85, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Hypno|Hypno, L89, M|100/100
+|turn|5
+
+|
+|move|p2a: Kingdra|Dragon Dance|p2a: Kingdra
+|-boost|p2a: Kingdra|atk|1
+|-boost|p2a: Kingdra|spe|1
+|move|p1a: Hypno|Toxic|p2a: Kingdra
+|-status|p2a: Kingdra|tox
+|
+|-weather|none
+|-damage|p2a: Kingdra|94/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Kingdra|Outrage|p1a: Hypno
+|-damage|p1a: Hypno|12/100
+|-damage|p2a: Kingdra|85/100 tox|[from] item: Life Orb
+|move|p1a: Hypno|Psychic|p2a: Kingdra
+|-damage|p2a: Kingdra|53/100 tox
+|-unboost|p2a: Kingdra|spd|1
+|
+|-heal|p1a: Hypno|18/100|[from] item: Leftovers
+|-damage|p2a: Kingdra|41/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Hypno|Protect|p1a: Hypno
+|-singleturn|p1a: Hypno|Protect
+|move|p2a: Kingdra|Outrage|p1a: Hypno|[from]lockedmove
+|-activate|p1a: Hypno|move: Protect
+|-start|p2a: Kingdra|confusion|[fatigue]
+|
+|-heal|p1a: Hypno|24/100|[from] item: Leftovers
+|-damage|p2a: Kingdra|23/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|inactive|Mlk99 has 270 seconds left.
+
+|inactive|Mlk99 has 240 seconds left.
+
+|
+|move|p1a: Hypno|Protect||[still]
+|-fail|p1a: Hypno
+|-activate|p2a: Kingdra|confusion
+|move|p2a: Kingdra|Waterfall|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|-damage|p2a: Kingdra|13/100 tox|[from] item: Life Orb
+|faint|p1a: Hypno
+|
+|-damage|p2a: Kingdra|0 fnt|[from] psn
+|faint|p2a: Kingdra
+|upkeep
+
+|inactive|Mlk99 has 240 seconds left.
+
+|
+|switch|p2a: Genesect|Genesect-Douse, L78|100/100
+|switch|p1a: Thundurus|Thundurus-Therian, L81, M|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|9
+
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Genesect|U-turn|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|76/100
+
+|
+|switch|p2a: Braviary|Braviary, L86, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|-damage|p1a: Thundurus|66/100|[from] item: Life Orb
+|faint|p2a: Braviary
+|
+|upkeep
+
+|
+|switch|p2a: Aggron|Aggron, L82, M|100/100
+|turn|11
+
+|
+|detailschange|p2a: Aggron|Aggron-Mega, L82, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Thundurus|Focus Blast|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|-damage|p1a: Thundurus|56/100|[from] item: Life Orb
+|faint|p2a: Aggron
+|
+|upkeep
+
+|
+|switch|p2a: Genesect|Genesect-Douse, L78|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|12
+
+|inactive|Mlk99 has 270 seconds left.
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Genesect
+|-damage|p2a: Genesect|0 fnt
+|-damage|p1a: Thundurus|46/100|[from] item: Life Orb
+|faint|p2a: Genesect
+|
+|upkeep
+
+|
+|switch|p2a: Araquanid|Araquanid, L84, F|100/100
+|turn|13
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-damage|p1a: Thundurus|36/100|[from] item: Life Orb
+|faint|p2a: Araquanid
+|
+|win|Mlk99

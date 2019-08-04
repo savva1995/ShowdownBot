@@ -1,0 +1,138 @@
+|init|battle
+|title|Lynxyx vs. spacinnatu
+|j|☆Lynxyx
+|j|☆spacinnatu
+|player|p1|Lynxyx|44|1231
+|player|p2|spacinnatu|144|1269
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Medicham|Medicham, L80, F|100/100
+|switch|p2a: Flareon|Flareon, L89, M|100/100
+|turn|1
+|
+|detailschange|p1a: Medicham|Medicham-Mega, L80, F
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|High Jump Kick|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|upkeep
+
+|
+|switch|p2a: Scyther|Scyther, L88, M|100/100
+|turn|2
+
+|
+|move|p2a: Scyther|Knock Off|p1a: Medicham
+|-damage|p1a: Medicham|73/100
+|move|p1a: Medicham|Ice Punch|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|50/100
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Excadrill|Excadrill, L80, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Scyther|Bug Bite|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|72/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Scyther|Brick Break|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|12/100
+|move|p1a: Excadrill|Rock Slide|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|upkeep
+
+|
+|switch|p2a: Conkeldurr|Conkeldurr, L81, F|100/100
+|turn|5
+
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham-Mega, L80, F|73/100
+|turn|6
+
+|
+|switch|p2a: Palkia|Palkia, L78|100/100
+|-ability|p2a: Palkia|Pressure
+|move|p1a: Medicham|Zen Headbutt|p2a: Palkia
+|-damage|p2a: Palkia|41/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|move|p2a: Palkia|Draco Meteor|p1a: Pheromosa|[miss]
+|-miss|p2a: Palkia|p1a: Pheromosa
+|
+|upkeep
+|turn|8
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lynxyx)
+
+|inactive|spacinnatu has 120 seconds left.
+
+|c|☆Lynxyx|Goo noob
+
+|inactive|spacinnatu has 90 seconds left.
+
+|c|☆Lynxyx|Goo looser
+
+|
+|move|p1a: Pheromosa|Poison Jab|p2a: Palkia
+|-damage|p2a: Palkia|18/100
+|move|p2a: Palkia|Fire Blast|p1a: Pheromosa|[miss]
+|-miss|p2a: Palkia|p1a: Pheromosa
+|
+|upkeep
+|turn|9
+
+|l|☆spacinnatu
+
+|inactive|spacinnatu disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|c|☆Lynxyx|Faiiiiil
+
+|inactive|spacinnatu has 30 seconds to reconnect!
+
+|inactive|spacinnatu has 20 seconds to reconnect!
+
+|inactive|spacinnatu has 15 seconds to reconnect!
+
+|inactive|spacinnatu has 10 seconds to reconnect!
+
+|c|☆Lynxyx|Nooooooob
+
+|inactive|spacinnatu has 5 seconds to reconnect!
+
+|-message|spacinnatu lost due to inactivity.
+|
+|win|Lynxyx

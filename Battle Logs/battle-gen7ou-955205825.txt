@@ -1,0 +1,234 @@
+|init|battle
+|title|Pkmn Trainer Suna vs. Jakkex
+|j|☆Pkmn Trainer Suna
+|j|☆Jakkex
+|player|p1|Pkmn Trainer Suna|red-gen1|1164
+|player|p2|Jakkex|10|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Electrode|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Minior|item
+|poke|p2|Pinsir, F|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Heatran, F|item
+|poke|p2|Tangrowth, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pkmn Trainer Suna)
+|
+|start
+|switch|p1a: Electrode|Electrode|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: Electrode|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|73/100
+|
+|switch|p1a: Bronzong|Bronzong|100/100|[from]move: Volt Switch
+|move|p2a: Rotom|Volt Switch|p1a: Bronzong
+|-damage|p1a: Bronzong|79/100
+|
+|switch|p2a: Heatran|Heatran, F|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Bronzong|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: Pkmn Trainer Suna|move: Stealth Rock
+|move|p1a: Bronzong|Stealth Rock|p2a: Heatran
+|-sidestart|p2: Jakkex|move: Stealth Rock
+|
+|-heal|p1a: Bronzong|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Heatran|Magma Storm|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+
+|
+|switch|p1a: Dracaufeu|Charizard, M|100/100
+|-damage|p1a: Dracaufeu|51/100|[from] Stealth Rock
+|turn|4
+
+|
+|switch|p2a: Rotom|Rotom-Wash|73/100
+|-damage|p2a: Rotom|60/100|[from] Stealth Rock
+|detailschange|p1a: Dracaufeu|Charizard-Mega-X, M
+|-mega|p1a: Dracaufeu|Charizard|Charizardite X
+|move|p1a: Dracaufeu|Dragon Dance|p1a: Dracaufeu
+|-boost|p1a: Dracaufeu|atk|1
+|-boost|p1a: Dracaufeu|spe|1
+|
+|-heal|p2a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Dracaufeu|Thunder Punch|p2a: Rotom
+|-damage|p2a: Rotom|18/100
+|move|p2a: Rotom|Hydro Pump|p1a: Dracaufeu
+|-damage|p1a: Dracaufeu|2/100
+|
+|-heal|p2a: Rotom|24/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Dracaufeu|Thunder Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+
+|
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|move|p1a: Dracaufeu|Flare Blitz|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-damage|p1a: Dracaufeu|0 fnt|[from] Recoil
+|faint|p2a: Tangrowth
+|faint|p1a: Dracaufeu
+|
+|upkeep
+
+|
+|switch|p1a: Météno|Minior|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Météno|atk|1
+|-enditem|p1a: Météno|White Herb
+|-clearnegativeboost|p1a: Météno|[silent]
+|-damage|p1a: Météno|76/100|[from] Stealth Rock
+|-formechange|p1a: Météno|Minior-Meteor||[from] ability: Shields Down
+|turn|8
+
+|
+|move|p2a: Landorus|U-turn|p1a: Météno
+|-resisted|p1a: Météno
+|-damage|p1a: Météno|59/100
+
+|
+|switch|p2a: Heatran|Heatran, F|100/100|[from]move: U-turn
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Météno|Shell Smash|p1a: Météno
+|-unboost|p1a: Météno|def|1
+|-unboost|p1a: Météno|spd|1
+|-boost|p1a: Météno|atk|2
+|-boost|p1a: Météno|spa|2
+|-boost|p1a: Météno|spe|2
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Météno|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-damage|p2a: Tapu Fini|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|10
+
+|
+|move|p1a: Météno|Acrobatics|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|25/100
+|move|p2a: Tapu Fini|Scald|p1a: Météno
+|-supereffective|p1a: Météno
+|-damage|p1a: Météno|0 fnt
+|faint|p1a: Météno
+|
+|-heal|p2a: Tapu Fini|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Shaofouine|Mienshao, M|100/100
+|-damage|p1a: Shaofouine|94/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Shaofouine|Poison Jab|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Shaofouine|atk|1
+|turn|12
+
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+
+|
+|switch|p1a: Electrode|Electrode|100/100
+|-damage|p1a: Electrode|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Landorus|Earthquake|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|upkeep
+
+|
+|switch|p1a: Shaofouine|Mienshao, M|100/100
+|-damage|p1a: Shaofouine|94/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Shaofouine|High Jump Kick|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|31/100
+|move|p2a: Landorus|Earthquake|p1a: Shaofouine
+|-damage|p1a: Shaofouine|0 fnt
+|faint|p1a: Shaofouine
+|
+|win|Jakkex

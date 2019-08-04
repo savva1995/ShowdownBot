@@ -1,0 +1,99 @@
+|init|battle
+|title|hopeisbetter vs. Saffio
+|j|☆hopeisbetter
+|j|☆Saffio
+|player|p1|hopeisbetter|288|1058
+|player|p2|Saffio|162|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crobat, M|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Milotic, F|item
+|poke|p1|Cradily, F|item
+|poke|p1|Arcanine, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Lapras, F|item
+|poke|p2|Pikachu-Kalos, M|item
+|teampreview
+|
+|start
+|switch|p1a: Cradily|Cradily, F|100/100
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|1
+|
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|move|p2a: Venusaur|Sleep Powder|p1a: Arcanine
+|-status|p1a: Arcanine|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|cant|p1a: Arcanine|slp
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Cradily|Cradily, F|100/100
+|move|p2a: Blastoise|Aqua Tail|p1a: Cradily
+|-ability|p1a: Cradily|Storm Drain|boost
+|-boost|p1a: Cradily|spa|1
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Lapras|Lapras, F|100/100
+|move|p1a: Cradily|Ancient Power|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|57/100
+|
+|-heal|p2a: Lapras|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Lapras|Ice Beam|p1a: Cradily
+|-supereffective|p1a: Cradily
+|-damage|p1a: Cradily|55/100
+|-status|p1a: Cradily|frz
+|cant|p1a: Cradily|frz
+|
+|-heal|p2a: Lapras|70/100|[from] item: Leftovers
+|-heal|p1a: Cradily|61/100 frz|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Lapras|Ice Beam|p1a: Cradily
+|-supereffective|p1a: Cradily
+|-damage|p1a: Cradily|16/100 frz
+|cant|p1a: Cradily|frz
+|
+|-heal|p2a: Lapras|76/100|[from] item: Leftovers
+|-heal|p1a: Cradily|22/100 frz|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|-message|hopeisbetter forfeited.
+
+|
+|win|Saffio

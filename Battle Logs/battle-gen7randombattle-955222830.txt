@@ -1,0 +1,217 @@
+|init|battle
+|title|Bjtsfg vs. SickLiepard
+|j|☆Bjtsfg
+|j|☆SickLiepard
+|player|p1|Bjtsfg|114|1825
+|player|p2|SickLiepard|154|1775
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam, L80, M|100/100
+|switch|p2a: Talonflame|Talonflame, L83, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bjtsfg)
+|
+|switch|p1a: Mandibuzz|Mandibuzz, L84, F|100/100
+|move|p2a: Talonflame|Brave Bird|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|69/100
+|-damage|p2a: Talonflame|88/100|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Talonflame|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|64/100
+|
+|switch|p2a: Gigalith|Gigalith, L85, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Mandibuzz|Brave Bird|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-crit|p2a: Gigalith
+|-damage|p2a: Gigalith|81/100
+|-damage|p1a: Mandibuzz|58/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Mandibuzz|64/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Gigalith
+|-crit|p2a: Gigalith
+|-damage|p2a: Gigalith|67/100
+|
+|switch|p1a: Jumpluff|Jumpluff, L89, F|100/100|[from]move: U-turn
+|move|p2a: Gigalith|Stone Edge|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, L82, M|100/100
+|turn|4
+|
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|76/100
+|move|p2a: Gigalith|Stone Edge|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|70/100|[from] Sandstorm
+|-heal|p1a: Gengar|76/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Spiritomb|Spiritomb, L88, F|100/100
+|move|p1a: Gengar|Disable||[still]
+|-fail|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|70/100|[from] Sandstorm
+|-damage|p2a: Spiritomb|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|76/100|[from] item: Black Sludge
+|-heal|p2a: Spiritomb|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Mandibuzz|Mandibuzz, L84, F|64/100
+|move|p2a: Spiritomb|Dark Pulse|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|52/100
+|
+|-weather|none
+|-heal|p1a: Mandibuzz|59/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Gigalith|Gigalith, L85, F|67/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Mandibuzz|U-turn|p2a: Gigalith
+|-damage|p2a: Gigalith|57/100
+|
+|switch|p1a: Gengar|Gengar, L82, M|76/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|70/100|[from] Sandstorm
+|-heal|p1a: Gengar|76/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p1a: Gengar|Focus Blast|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|9/100
+|move|p2a: Gigalith|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Delphox|Delphox, L86, M|100/100
+|turn|9
+|
+|move|p1a: Delphox|Psyshock|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-damage|p1a: Delphox|91/100|[from] item: Life Orb
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Delphox|85/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Spiritomb|Spiritomb, L88, F|100/100
+|turn|10
+|
+|move|p1a: Delphox|Fire Blast|p2a: Spiritomb
+|-damage|p2a: Spiritomb|40/100
+|-damage|p1a: Delphox|75/100|[from] item: Life Orb
+|move|p2a: Spiritomb|Dark Pulse|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Delphox|7/100|[from] Sandstorm
+|-damage|p2a: Spiritomb|34/100|[from] Sandstorm
+|-heal|p2a: Spiritomb|40/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|-weather|none
+|-heal|p2a: Spiritomb|46/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Mandibuzz|Mandibuzz, L84, F|59/100
+|turn|12
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|spa|1
+|move|p1a: Mandibuzz|Brave Bird|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|60/100
+|-damage|p1a: Mandibuzz|47/100|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|turn|14
+
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Marshadow
+|-damage|p1a: Marshadow|56/100
+|move|p1a: Marshadow|Close Combat|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-crit|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p2a: Spiritomb|Spiritomb, L88, F|46/100
+|turn|15
+
+|
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|-heal|p2a: Spiritomb|52/100|[from] item: Leftovers
+|upkeep
+
+|-message|Bjtsfg forfeited.
+
+|
+|win|SickLiepard

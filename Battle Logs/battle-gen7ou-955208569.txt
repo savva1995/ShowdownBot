@@ -1,0 +1,85 @@
+|init|battle
+|title|7heConqueror vs. Ruby233
+|j|☆7heConqueror
+|j|☆Ruby233
+|player|p1|7heConqueror|170|1175
+|player|p2|Ruby233|170|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Weavile, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Breloom, F|item
+|poke|p1|Hippowdon, M|item
+|poke|p2|Sableye, F|item
+|poke|p2|Nihilego|item
+|poke|p2|Celesteela|item
+|poke|p2|Chansey, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Cresselia, F|item
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|1
+|
+|move|p2a: Sableye|Substitute|p2a: Sableye
+|-start|p2a: Sableye|Substitute
+|-damage|p2a: Sableye|76/100
+|move|p1a: Breloom|Rock Tomb|p2a: Sableye
+|-end|p2a: Sableye|Substitute
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Breloom|[miss]
+|-miss|p2a: Sableye|p1a: Breloom
+|move|p1a: Breloom|Rock Tomb|p2a: Sableye
+|-damage|p2a: Sableye|34/100
+|-unboost|p2a: Sableye|spe|1
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|84/100
+|move|p1a: Breloom|Bullet Seed|p2a: Sableye
+|-damage|p2a: Sableye|54/100
+|-damage|p2a: Sableye|26/100
+|-hitcount|p2a: Sableye|2
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Breloom
+|-status|p1a: Breloom|brn
+|move|p1a: Breloom|Bullet Seed|p2a: Sableye
+|-damage|p2a: Sableye|12/100
+|-damage|p2a: Sableye|0 fnt
+|-hitcount|p2a: Sableye|2
+|faint|p2a: Sableye
+|
+|-damage|p1a: Breloom|94/100 brn|[from] brn
+|upkeep
+
+|-message|Ruby233 forfeited.
+
+|
+|win|7heConqueror

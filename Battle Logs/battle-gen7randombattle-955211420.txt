@@ -1,0 +1,336 @@
+|init|battle
+|title|bolt5 vs. RafaelM98
+|j|☆bolt5
+|j|☆RafaelM98
+|player|p1|bolt5|138|1608
+|player|p2|RafaelM98|163|1612
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam, L80, F|100/100
+|switch|p2a: Farfetch'd|Farfetch'd, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bolt5)
+|
+|switch|p1a: Stoutland|Stoutland, L88, M|100/100
+|-ability|p1a: Stoutland|Intimidate|boost
+|-unboost|p2a: Farfetch'd|atk|1
+|-ability|p2a: Farfetch'd|Defiant|boost
+|-boost|p2a: Farfetch'd|atk|2
+|move|p2a: Farfetch'd|Brave Bird|p1a: Stoutland
+|-crit|p1a: Stoutland
+|-damage|p1a: Stoutland|12/100
+|-damage|p2a: Farfetch'd|65/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Stoutland|Superpower|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|3/100
+|-unboost|p1a: Stoutland|atk|1
+|-unboost|p1a: Stoutland|def|1
+|move|p2a: Farfetch'd|Brave Bird|p1a: Stoutland
+|-crit|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|-damage|p2a: Farfetch'd|0 fnt|[from] Recoil
+|faint|p1a: Stoutland
+|faint|p2a: Farfetch'd
+|
+|upkeep
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|100/100
+|switch|p2a: Rotom|Rotom-Heat, L82|100/100
+|turn|3
+
+|
+|switch|p1a: Nihilego|Nihilego, L82|100/100
+|-item|p1a: Nihilego|Air Balloon
+|move|p2a: Rotom|Thunderbolt|p1a: Nihilego
+|-crit|p1a: Nihilego
+|-damage|p1a: Nihilego|54/100
+|-enditem|p1a: Nihilego|Air Balloon
+|-damage|p2a: Rotom|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Manaphy|Manaphy, L81|100/100
+|move|p1a: Nihilego|Stealth Rock|p2a: Manaphy
+|-sidestart|p2: RafaelM98|move: Stealth Rock
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Nihilego|Toxic Spikes|p2a: Manaphy
+|-sidestart|p2: RafaelM98|move: Toxic Spikes
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Nihilego|Sludge Wave|p2a: Manaphy
+|-damage|p2a: Manaphy|65/100
+|move|p2a: Manaphy|Surf|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|
+|-heal|p2a: Manaphy|71/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|100/100
+|turn|7
+
+|
+|move|p1a: Yanmega|Protect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Manaphy|Surf|p1a: Yanmega
+|-activate|p1a: Yanmega|move: Protect
+|
+|-heal|p2a: Manaphy|77/100|[from] item: Leftovers
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|8
+
+|
+|move|p1a: Yanmega|Bug Buzz|p2a: Manaphy
+|-damage|p2a: Manaphy|35/100
+|-damage|p1a: Yanmega|91/100|[from] item: Life Orb
+|move|p2a: Manaphy|Surf|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|-heal|p2a: Manaphy|41/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Alakazam|Alakazam, L80, F|100/100
+|turn|9
+
+|
+|detailschange|p1a: Alakazam|Alakazam-Mega, L80, F
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|-ability|p1a: Alakazam|Hydration|[from] ability: Trace|[of] p2a: Manaphy
+|move|p1a: Alakazam|Psyshock|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|upkeep
+
+|
+|switch|p2a: Liepard|Liepard, L88, F|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|-status|p2a: Liepard|psn
+|turn|10
+
+|
+|switch|p1a: Parasect|Parasect, L89, F|100/100
+|move|p2a: Liepard|Thunder Wave|p1a: Parasect|[miss]
+|-miss|p2a: Liepard|p1a: Parasect
+|
+|-heal|p2a: Liepard|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Liepard|82/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Rotom|Rotom-Heat, L82|91/100
+|-damage|p2a: Rotom|66/100|[from] Stealth Rock
+|move|p1a: Parasect|Substitute|p1a: Parasect
+|-start|p1a: Parasect|Substitute
+|-damage|p1a: Parasect|76/100
+|
+|-heal|p1a: Parasect|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Rotom|Overheat|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-end|p1a: Parasect|Substitute
+|-unboost|p2a: Rotom|spa|2
+|-damage|p2a: Rotom|56/100|[from] item: Life Orb
+|move|p1a: Parasect|Spore|p2a: Rotom
+|-status|p2a: Rotom|slp|[from] move: Spore
+|
+|-heal|p1a: Parasect|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Alakazam|Alakazam-Mega, L80, F|100/100
+|-ability|p1a: Alakazam|Levitate|[from] ability: Trace|[of] p2a: Rotom
+|cant|p2a: Rotom|slp
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Alakazam|Substitute|p1a: Alakazam
+|-start|p1a: Alakazam|Substitute
+|-damage|p1a: Alakazam|76/100
+|cant|p2a: Rotom|slp
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Alakazam|Calm Mind|p1a: Alakazam
+|-boost|p1a: Alakazam|spa|1
+|-boost|p1a: Alakazam|spd|1
+|-curestatus|p2a: Rotom|slp|[msg]
+|move|p2a: Rotom|Thunderbolt|p1a: Alakazam
+|-activate|p1a: Alakazam|move: Substitute|[damage]
+|-damage|p2a: Rotom|47/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Alakazam|Calm Mind|p1a: Alakazam
+|-boost|p1a: Alakazam|spa|1
+|-boost|p1a: Alakazam|spd|1
+|move|p2a: Rotom|Overheat|p1a: Alakazam|[miss]
+|-miss|p2a: Rotom|p1a: Alakazam
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Lugia|Lugia, L78|100/100
+|-damage|p2a: Lugia|76/100|[from] Stealth Rock
+|move|p1a: Alakazam|Psyshock|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|40/100
+|
+|-heal|p2a: Lugia|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Alakazam|Psyshock|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|13/100
+|move|p2a: Lugia|Whirlwind|p1a: Alakazam
+|drag|p1a: Parasect|Parasect, L89, F|88/100
+|
+|-heal|p2a: Lugia|19/100|[from] item: Leftovers
+|-heal|p1a: Parasect|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|69/100
+|-singleturn|p2a: Lugia|move: Roost
+|move|p1a: Parasect|Knock Off|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|27/100
+|-enditem|p2a: Lugia|Leftovers|[from] move: Knock Off|[of] p1a: Parasect
+|
+|-heal|p1a: Parasect|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Rotom|Rotom-Heat, L82|47/100
+|-damage|p2a: Rotom|22/100|[from] Stealth Rock
+|move|p1a: Parasect|Spore|p2a: Rotom
+|-status|p2a: Rotom|slp|[from] move: Spore
+|
+|-heal|p1a: Parasect|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Sceptile|Sceptile, L84, F|100/100
+|-damage|p2a: Sceptile|88/100|[from] Stealth Rock
+|-status|p2a: Sceptile|psn
+|move|p1a: Parasect|Knock Off|p2a: Sceptile
+|-damage|p2a: Sceptile|64/100 psn
+|
+|-damage|p2a: Sceptile|52/100 psn|[from] psn
+|upkeep
+|turn|22
+
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, L84, F
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Hidden Power|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|-damage|p2a: Sceptile|40/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Venusaur|Venusaur, L85, M|100/100
+|turn|23
+
+|
+|switch|p2a: Rotom|Rotom-Heat, L82|22/100 slp
+|-damage|p2a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p2a: Rotom
+|move|p1a: Venusaur|Sunny Day|p1a: Venusaur
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Lugia|Lugia, L78|27/100
+|-damage|p2a: Lugia|2/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|faint|p2a: Lugia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Liepard|Liepard, L88, F|82/100 psn
+|-damage|p2a: Liepard|69/100 psn|[from] Stealth Rock
+|turn|25
+
+|
+|move|p2a: Liepard|Thunder Wave|p1a: Venusaur|[miss]
+|-miss|p2a: Liepard|p1a: Venusaur
+|move|p1a: Venusaur|Sludge Bomb|p2a: Liepard
+|-crit|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Sceptile|Sceptile-Mega, L84, F|40/100 psn
+|-damage|p2a: Sceptile|28/100 psn|[from] Stealth Rock
+|turn|26
+
+|c|☆bolt5|soz, gg
+
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|win|bolt5

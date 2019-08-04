@@ -1,0 +1,343 @@
+|init|battle
+|title|Handsome Starlord vs. Zexion18
+|j|☆Handsome Starlord
+|j|☆Zexion18
+|player|p1|Handsome Starlord|102|1361
+|player|p2|Zexion18|290|1331
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Xatu|Xatu, L86, F|100/100
+|switch|p2a: Mewtwo|Mewtwo, L78|100/100
+|-ability|p2a: Mewtwo|Unnerve|p1: Handsome Starlord
+|turn|1
+|
+|detailschange|p2a: Mewtwo|Mewtwo-Mega-Y, L78
+|-mega|p2a: Mewtwo|Mewtwo|Mewtwonite Y
+|move|p2a: Mewtwo|Shadow Ball|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|17/100
+|move|p1a: Xatu|Calm Mind|p1a: Xatu
+|-boost|p1a: Xatu|spa|1
+|-boost|p1a: Xatu|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Yveltal|Yveltal, L78|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Mewtwo|Psystrike|p1a: Yveltal
+|-immune|p1a: Yveltal
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Mewtwo|Aura Sphere|p1a: Yveltal
+|-damage|p1a: Yveltal|72/100
+|move|p1a: Yveltal|Foul Play|p2a: Mewtwo
+|-supereffective|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|-heal|p1a: Yveltal|78/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, L80, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|4
+
+|
+|move|p1a: Yveltal|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|cant|p2a: Heatran|move: Taunt|Roar
+|
+|-heal|p1a: Yveltal|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Yveltal|Foul Play|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Lava Plume|p1a: Yveltal
+|-damage|p1a: Yveltal|52/100
+|
+|-heal|p1a: Yveltal|59/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L84, F|100/100
+|move|p2a: Heatran|Lava Plume|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|64/100
+|
+|-end|p2a: Heatran|move: Taunt
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, F|100/100
+|move|p1a: Nidoqueen|Earth Power|p2a: Mismagius
+|-immune|p2a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|21/100
+|-damage|p2a: Mismagius|91/100|[from] item: Life Orb
+|move|p1a: Nidoqueen|Stealth Rock|p2a: Mismagius
+|-sidestart|p2: Zexion18|move: Stealth Rock
+|
+|upkeep
+|turn|9
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zexion18)
+
+|
+|switch|p1a: Victreebel|Victreebel, L88, F|100/100
+|move|p2a: Mismagius|Shadow Ball|p1a: Victreebel
+|-damage|p1a: Victreebel|53/100
+|-damage|p2a: Mismagius|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Victreebel
+|-damage|p1a: Victreebel|5/100
+|-damage|p2a: Mismagius|71/100|[from] item: Life Orb
+|move|p1a: Victreebel|Hidden Power|p2a: Mismagius
+|-damage|p2a: Mismagius|53/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Yveltal|Yveltal, L78|59/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Mismagius|Shadow Ball|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|40/100
+|-damage|p2a: Mismagius|43/100|[from] item: Life Orb
+|
+|-heal|p1a: Yveltal|46/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|inactive|Zexion18 has 120 seconds left.
+
+|
+|move|p2a: Mismagius|Dazzling Gleam|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-damage|p2a: Mismagius|33/100|[from] item: Life Orb
+|faint|p1a: Yveltal
+|
+|upkeep
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, F|100/100
+|turn|13
+
+|
+|move|p2a: Mismagius|Pain Split|p1a: Cofagrigus
+|-sethp|p1a: Cofagrigus|67/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Mismagius|66/100|[from] move: Pain Split
+|move|p1a: Cofagrigus|Trick Room|p1a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p1a: Cofagrigus
+|
+|-heal|p1a: Cofagrigus|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Dodrio|Dodrio, L88, F|100/100
+|-damage|p2a: Dodrio|76/100|[from] Stealth Rock
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Dodrio
+|-immune|p2a: Dodrio
+|
+|-heal|p1a: Cofagrigus|79/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Cofagrigus|Will-O-Wisp|p2a: Dodrio
+|-status|p2a: Dodrio|brn
+|move|p2a: Dodrio|Knock Off|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|44/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Early Bird|[of] p2a: Dodrio
+|-enditem|p1a: Cofagrigus|Leftovers|[from] move: Knock Off|[of] p2a: Dodrio
+|
+|-damage|p2a: Dodrio|70/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Durant|Durant, L83, M|100/100
+|move|p2a: Dodrio|Knock Off|p1a: Durant
+|-damage|p1a: Durant|79/100
+|-enditem|p1a: Durant|Choice Band|[from] move: Knock Off|[of] p2a: Dodrio
+|
+|-damage|p2a: Dodrio|64/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Durant|Iron Head|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|-activate|p2a: Dodrio|ability: Mummy|Hustle|[of] p1a: Durant
+|faint|p2a: Dodrio
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, L80, M|73/100
+|-damage|p2a: Heatran|61/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Durant|Superpower|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Durant|atk|1
+|-unboost|p1a: Durant|def|1
+|faint|p2a: Heatran
+|
+|upkeep
+
+|
+|switch|p2a: Chandelure|Chandelure, L82, M|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|turn|19
+
+|
+|switch|p1a: Victreebel|Victreebel, L88, F|5/100
+|move|p2a: Chandelure|Fire Blast|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|-damage|p2a: Chandelure|66/100|[from] item: Life Orb
+|faint|p1a: Victreebel
+|
+|upkeep
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, F|44/100
+|turn|20
+
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-crit|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|-damage|p2a: Chandelure|56/100|[from] item: Life Orb
+|faint|p1a: Cofagrigus
+|
+|upkeep
+
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L84, F|21/100
+|turn|21
+
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|-damage|p2a: Chandelure|46/100|[from] item: Life Orb
+|faint|p1a: Nidoqueen
+|
+|upkeep
+
+|
+|switch|p1a: Xatu|Xatu, L86, F|17/100
+|turn|22
+
+|
+|move|p1a: Xatu|Psychic|p2a: Chandelure
+|-damage|p2a: Chandelure|6/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Chandelure|0 fnt|[from] item: Life Orb
+|faint|p1a: Xatu
+|faint|p2a: Chandelure
+|
+|upkeep
+
+|
+|switch|p1a: Durant|Durant, L83, M|79/100
+|switch|p2a: Mismagius|Mismagius, L86, F|66/100
+|-damage|p2a: Mismagius|53/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p2a: Mismagius|Pain Split|p1a: Durant
+|-sethp|p1a: Durant|67/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Mismagius|64/100|[from] move: Pain Split
+|move|p1a: Durant|Iron Head|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+
+|
+|switch|p2a: Lilligant|Lilligant, L87, F|100/100
+|-damage|p2a: Lilligant|88/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Durant|X-Scissor|p2a: Lilligant|[miss]
+|-miss|p1a: Durant|p2a: Lilligant
+|move|p2a: Lilligant|Sleep Powder|p1a: Durant
+|-status|p1a: Durant|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Lilligant|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|c|☆Handsome Starlord|well fuck
+
+|c|☆Handsome Starlord|75% acc
+
+|c|☆Zexion18|thanks
+
+|
+|cant|p1a: Durant|slp
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-heal|p2a: Lilligant|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Lilligant|Petal Dance|p1a: Durant
+|-resisted|p1a: Durant
+|-damage|p1a: Durant|32/100 slp
+|cant|p1a: Durant|slp
+|
+|-heal|p2a: Lilligant|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Lilligant|Petal Dance|p1a: Durant|[from]lockedmove
+|-resisted|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|faint|p1a: Durant
+|
+|win|Zexion18

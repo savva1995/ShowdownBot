@@ -1,0 +1,338 @@
+|init|battle
+|title|poeltod vs. Carlosgoma
+|j|☆poeltod
+|j|☆Carlosgoma
+|player|p1|poeltod|102|1648
+|player|p2|Carlosgoma|264|1716
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Greninja|Greninja, L80, M|100/100
+|switch|p2a: Shuckle|Shuckle, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Carlosgoma)
+
+|inactive|poeltod has 120 seconds left.
+
+|
+|move|p1a: Greninja|Hydro Pump|p2a: Shuckle|[miss]
+|-miss|p1a: Greninja|p2a: Shuckle
+|move|p2a: Shuckle|Infestation|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|91/100
+|-activate|p1a: Greninja|move: Infestation|[of] p2a: Shuckle
+|
+|-damage|p1a: Greninja|79/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+
+|
+|-zpower|p1a: Greninja
+|move|p1a: Greninja|Hydro Vortex|p2a: Shuckle|[zeffect]
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|12/100
+|move|p2a: Shuckle|Sticky Web|p1a: Greninja
+|-sidestart|p1: poeltod|move: Sticky Web
+|
+|-heal|p2a: Shuckle|18/100|[from] item: Leftovers
+|-damage|p1a: Greninja|66/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|11/100
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|3/100
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|-hitcount|p2a: Shuckle|3
+|faint|p2a: Shuckle
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, L80, M
+|
+|-end|p1a: Greninja|Infestation|[partiallytrapped]|[silent]
+|upkeep
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|turn|4
+
+|
+|move|p1a: Greninja|Hydro Pump|p2a: Sawk
+|-damage|p2a: Sawk|38/100
+|move|p2a: Sawk|Close Combat|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Greninja
+|
+|-heal|p2a: Sawk|45/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Emolga|Emolga, L89, M|100/100
+|turn|5
+
+|
+|move|p1a: Emolga|Air Slash|p2a: Sawk
+|-supereffective|p2a: Sawk
+|-crit|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|upkeep
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|6
+
+|inactive|poeltod has 120 seconds left.
+
+|
+|move|p1a: Emolga|Roost||[still]
+|-fail|p1a: Emolga
+|move|p2a: Gigalith|Stealth Rock|p1a: Emolga
+|-sidestart|p1: poeltod|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Emolga|94/100|[from] Sandstorm
+|-heal|p1a: Emolga|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Emolga|Thunderbolt|p2a: Gigalith
+|-damage|p2a: Gigalith|76/100
+|move|p2a: Gigalith|Stone Edge|p1a: Emolga
+|-supereffective|p1a: Emolga
+|-damage|p1a: Emolga|0 fnt
+|faint|p1a: Emolga
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|82/100|[from] item: Leftovers
+|upkeep
+
+|inactive|poeltod has 120 seconds left.
+
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, M|100/100
+|-damage|p1a: Slurpuff|88/100|[from] Stealth Rock
+|-activate|p1a: Slurpuff|move: Sticky Web
+|-unboost|p1a: Slurpuff|spe|1
+|turn|8
+
+|
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|38/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|63/100|[from] item: Sitrus Berry
+|move|p2a: Gigalith|Earthquake|p1a: Slurpuff
+|-damage|p1a: Slurpuff|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slurpuff|23/100|[from] Sandstorm
+|-heal|p2a: Gigalith|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Slurpuff|Drain Punch|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-heal|p1a: Slurpuff|68/100|[from] drain|[of] p2a: Gigalith
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slurpuff|62/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Garbodor|Garbodor, L86, F|100/100
+|turn|10
+
+|
+|move|p1a: Slurpuff|Return|p2a: Garbodor
+|-damage|p2a: Garbodor|6/100
+|move|p2a: Garbodor|Gunk Shot|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|-weather|none
+|-heal|p2a: Garbodor|12/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|100/100
+|turn|11
+
+|
+|switch|p2a: Espeon|Espeon, L84, F|100/100
+|move|p1a: Sigilyph|Stored Power|p2a: Espeon
+|-resisted|p2a: Espeon
+|-damage|p2a: Espeon|96/100
+|
+|-heal|p2a: Espeon|100/100|[from] item: Leftovers
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|47/100 brn
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|8/100 brn
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|58/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|21/100 brn
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|72/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Bewear|Bewear, L84, F|100/100
+|-damage|p1a: Bewear|94/100|[from] Stealth Rock
+|-activate|p1a: Bewear|move: Sticky Web
+|-unboost|p1a: Bewear|spe|1
+|move|p2a: Espeon|Shadow Ball|p1a: Bewear
+|-immune|p1a: Bewear
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Espeon|Substitute|p2a: Espeon
+|-start|p2a: Espeon|Substitute
+|-damage|p2a: Espeon|76/100
+|move|p1a: Bewear|Shadow Claw|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-crit|p2a: Espeon
+|-end|p2a: Espeon|Substitute
+|
+|-heal|p2a: Espeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Espeon|Psyshock|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|29/100
+|move|p1a: Bewear|Shadow Claw|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|18/100
+|
+|-heal|p2a: Espeon|24/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Espeon|Psyshock|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|0 fnt
+|faint|p1a: Bewear
+|
+|-heal|p2a: Espeon|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Aurorus|Aurorus, L88, F|100/100
+|-damage|p1a: Aurorus|76/100|[from] Stealth Rock
+|-activate|p1a: Aurorus|move: Sticky Web
+|-unboost|p1a: Aurorus|spe|1
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|turn|19
+
+|
+|switch|p2a: Garbodor|Garbodor, L86, F|12/100
+|move|p1a: Aurorus|Blizzard|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Aurorus|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert, L80, M|100/100
+|turn|20
+
+|
+|detailschange|p2a: Swampert|Swampert-Mega, L80, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Rain Dance|p2a: Swampert
+|-weather|RainDance
+|move|p1a: Aurorus|Blizzard|p2a: Swampert
+|-damage|p2a: Swampert|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aurorus|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Swampert|Waterfall|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|faint|p1a: Aurorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|72/100 brn
+|turn|22
+
+|
+|move|p2a: Swampert|Ice Punch|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|18/100 brn
+|move|p1a: Sigilyph|Psycho Shift|p2a: Swampert
+|-status|p2a: Swampert|brn
+|-curestatus|p1a: Sigilyph|brn|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Swampert|55/100 brn|[from] brn
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|23
+
+|
+|move|p2a: Swampert|Ice Punch|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|win|Carlosgoma

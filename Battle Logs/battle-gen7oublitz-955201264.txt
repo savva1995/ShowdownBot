@@ -1,0 +1,129 @@
+|init|battle
+|title|francovizz vs. TochterAusElysium
+|j|☆francovizz
+|j|☆TochterAusElysium
+|player|p1|francovizz|170|1133
+|player|p2|TochterAusElysium|169|1054
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Beedrill, M|item
+|poke|p1|Porygon-Z|item
+|poke|p1|Shuckle, F|item
+|poke|p1|Starmie|item
+|poke|p1|Salazzle, F|item
+|poke|p1|Weavile, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|francovizz has 30 seconds left this turn.
+|inactive|TochterAusElysium has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by francovizz)
+|
+|start
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|1
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|TochterAusElysium has 15 seconds left this turn.
+|inactive|TochterAusElysium has 10 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Starmie|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|TochterAusElysium has 15 seconds left this turn.
+|inactive|TochterAusElysium has 10 seconds left.
+|
+|switch|p1a: gg wp 2|Salazzle, F|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: gg wp 2
+|-sidestart|p1: francovizz|Spikes
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|TochterAusElysium has 15 seconds left this turn.
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: gg wp 2|Nasty Plot|p1a: gg wp 2
+|-boost|p1a: gg wp 2|spa|2
+|
+|upkeep
+|turn|4
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|TochterAusElysium has 15 seconds left this turn.
+|inactive|TochterAusElysium has 10 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: gg wp 2|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100
+|-status|p2a: Toxapex|brn
+|
+|-heal|p2a: Toxapex|80/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|74/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|TochterAusElysium has 15 seconds left this turn.
+|inactive|TochterAusElysium has 10 seconds left.
+|
+|move|p1a: gg wp 2|Hidden Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|25/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|31/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|25/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|TochterAusElysium has 15 seconds left this turn.
+|inactive|TochterAusElysium has 10 seconds left.
+|
+|move|p1a: gg wp 2|Nasty Plot|p1a: gg wp 2
+|-boost|p1a: gg wp 2|spa|2
+|move|p2a: Toxapex|Scald|p1a: gg wp 2
+|-supereffective|p1a: gg wp 2
+|-damage|p1a: gg wp 2|43/100
+|
+|-heal|p2a: Toxapex|31/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|25/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|TochterAusElysium has 15 seconds left this turn.
+|inactive|TochterAusElysium has 10 seconds left.
+|-message|TochterAusElysium forfeited.
+|
+|win|francovizz
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|TochterAusElysium has 15 seconds left this turn.
+|l|☆TochterAusElysium
+|raw|francovizz's rating: 1133 &rarr; <strong>1152</strong><br />(+19 for winning)
+|raw|TochterAusElysium's rating: 1054 &rarr; <strong>1040</strong><br />(-14 for losing)
+|l|☆francovizz

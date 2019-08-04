@@ -1,0 +1,81 @@
+|init|battle
+|title|August4444 vs. Ghhhxhxhxhhx
+|j|☆August4444
+|j|☆Ghhhxhxhxhhx
+|player|p1|August4444|160|1000
+|player|p2|Ghhhxhxhxhhx|155|1042
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Torkoal, M|item
+|poke|p1|Blacephalon|item
+|poke|p1|Typhlosion, M|item
+|poke|p1|Houndoom, F|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Pelipper, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Scizor, F|item
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p1b: Blacephalon|Blacephalon|100/100
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|switch|p2b: Ludicolo|Ludicolo, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by August4444)
+|
+|switch|p1a: Houndoom|Houndoom, F|100/100
+|switch|p2b: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p2a: Toxicroak|Fake Out|p1a: Houndoom
+|-damage|p1a: Houndoom|76/100
+|-status|p1a: Houndoom|psn|[from] ability: Poison Touch|[of] p2a: Toxicroak
+|move|p1b: Blacephalon|Mind Blown|p2a: Toxicroak|[spread] p2a,p2b
+|-start|p1a: Houndoom|ability: Flash Fire
+|-resisted|p2b: Pelipper
+|-damage|p2a: Toxicroak|41/100
+|-damage|p2b: Pelipper|67/100
+|-damage|p1b: Blacephalon|50/100|[from] mindblown
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Houndoom|64/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1b: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Ninetales
+|move|p1a: Houndoom|Heat Wave|p2a: Toxicroak|[spread] p2a,p2b
+|-resisted|p2b: Pelipper
+|-damage|p2a: Toxicroak|0 fnt
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2a: Toxicroak
+|faint|p2b: Pelipper
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Houndoom|51/100 psn|[from] psn
+|upkeep
+|-message|Ghhhxhxhxhhx forfeited.
+|
+|win|August4444
+|l|☆Ghhhxhxhxhhx
+|raw|August4444's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)
+|raw|Ghhhxhxhxhhx's rating: 1042 &rarr; <strong>1024</strong><br />(-18 for losing)
+|l|☆August4444

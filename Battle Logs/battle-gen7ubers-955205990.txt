@@ -1,0 +1,210 @@
+|init|battle
+|title|Arthurvarolo vs. log light
+|j|☆Arthurvarolo
+|j|☆log light
+|player|p1|Arthurvarolo|1|1130
+|player|p2|log light|265|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lunala|item
+|poke|p1|Arceus-*|item
+|poke|p1|Groudon|item
+|poke|p1|Deoxys-Speed|item
+|poke|p1|Blaziken, F|item
+|poke|p1|Genesect-*|item
+|poke|p2|Groudon|item
+|poke|p2|Arceus-*|item
+|poke|p2|Klefki, F|item
+|poke|p2|Ho-Oh|item
+|poke|p2|Genesect-*|item
+|poke|p2|Mewtwo|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Klefki|Klefki, F|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|move|p2a: Klefki|Spikes|p1a: Deoxys
+|-sidestart|p1: Arthurvarolo|Spikes
+|move|p1a: Deoxys|Stealth Rock|p2a: Klefki
+|-sidestart|p2: log light|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Klefki|Thunder Wave|p1a: Deoxys
+|-status|p1a: Deoxys|par
+|move|p1a: Deoxys|Thunder Wave|p2a: Klefki
+|-status|p2a: Klefki|par
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Klefki|Spikes|p1a: Deoxys
+|-sidestart|p1: Arthurvarolo|Spikes
+|cant|p1a: Deoxys|par
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Klefki|Spikes|p1a: Deoxys
+|-sidestart|p1: Arthurvarolo|Spikes
+|move|p1a: Deoxys|Taunt|p2a: Klefki
+|-start|p2a: Klefki|move: Taunt
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Lunala|Lunala|100/100
+|-damage|p1a: Lunala|76/100|[from] Spikes
+|move|p2a: Klefki|Foul Play|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|15/100
+|
+|-heal|p1a: Lunala|21/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Klefki|Foul Play|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|upkeep
+
+|
+|switch|p1a: Arceus|Arceus-Water|100/100
+|-damage|p1a: Arceus|75/100|[from] Spikes
+|turn|7
+
+|
+|switch|p2a: Groudon|Groudon|100/100
+|-damage|p2a: Groudon|94/100|[from] Stealth Rock
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|8
+
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Groudon|Precipice Blades|p1a: Arceus
+|-damage|p1a: Arceus|47/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Groudon|Precipice Blades|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-damage|p1a: Blaziken|76/100|[from] Spikes
+|turn|10
+
+|
+|detailschange|p1a: Blaziken|Blaziken-Mega, F
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Groudon|Rock Polish|p2a: Groudon
+|-boost|p2a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|11
+
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon|100/100
+|-damage|p1a: Groudon|76/100|[from] Spikes
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|turn|12
+
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Genesect|Genesect-Douse, shiny|100/100
+|-damage|p1a: Genesect|76/100|[from] Spikes
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|13
+
+|
+|move|p1a: Genesect|Extreme Speed|p2a: Groudon
+|-damage|p2a: Groudon|81/100
+|move|p2a: Groudon|Fire Punch|p1a: Genesect
+|-supereffective|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys-Speed|100/100 par
+|-damage|p1a: Deoxys|76/100 par|[from] Spikes
+|-ability|p1a: Deoxys|Pressure
+|turn|14
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by log light)
+
+|
+|move|p2a: Groudon|Fire Punch|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|win|log light

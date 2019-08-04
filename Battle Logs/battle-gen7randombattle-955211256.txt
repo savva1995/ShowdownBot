@@ -1,0 +1,72 @@
+|init|battle
+|title|PegasiMatt vs. hkderder
+|j|☆PegasiMatt
+|j|☆hkderder
+|player|p1|PegasiMatt|138|1115
+|player|p2|hkderder|146|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kingdra|Kingdra, L85, F|100/100
+|switch|p2a: Blacephalon|Blacephalon, L80|100/100
+|turn|1
+|
+|switch|p2a: Ariados|Ariados, L89, M|100/100
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Kingdra|Outrage|p2a: Ariados
+|-damage|p2a: Ariados|0 fnt
+|-damage|p1a: Kingdra|91/100|[from] item: Life Orb
+|faint|p2a: Ariados
+|
+|upkeep
+
+|
+|switch|p2a: Palkia|Palkia, L78|100/100
+|-ability|p2a: Palkia|Pressure
+|turn|3
+
+|
+|move|p1a: Kingdra|Outrage|p2a: Palkia|[from]lockedmove
+|-supereffective|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|-damage|p1a: Kingdra|81/100|[from] item: Life Orb
+|-start|p1a: Kingdra|confusion|[fatigue]
+|faint|p2a: Palkia
+|
+|upkeep
+
+|
+|switch|p2a: Blacephalon|Blacephalon, L80|100/100
+|turn|4
+
+|
+|-activate|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Waterfall|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-enditem|p2a: Blacephalon|Focus Sash
+|-damage|p2a: Blacephalon|1/100
+|-damage|p1a: Kingdra|71/100|[from] item: Life Orb
+|move|p2a: Blacephalon|Hidden Power|p1a: Kingdra
+|-damage|p1a: Kingdra|50/100
+|
+|upkeep
+|turn|5
+
+|-message|hkderder forfeited.
+
+|
+|win|PegasiMatt

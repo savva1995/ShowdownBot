@@ -1,0 +1,307 @@
+|init|battle
+|title|Lajoo vs. diafetus
+|j|☆Lajoo
+|j|☆diafetus
+|player|p1|Lajoo|50|1398
+|player|p2|diafetus|165|1426
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|switch|p2a: Wobbuffet|Wobbuffet, L82, F|100/100
+|turn|1
+|
+|-zpower|p1a: Malamar
+|move|p1a: Malamar|Z-Happy Hour|p1a: Malamar|[anim]Happy Hour
+|-boost|p1a: Malamar|atk|1|[zeffect]
+|-boost|p1a: Malamar|def|1|[zeffect]
+|-boost|p1a: Malamar|spa|1|[zeffect]
+|-boost|p1a: Malamar|spd|1|[zeffect]
+|-boost|p1a: Malamar|spe|1|[zeffect]
+|move|p2a: Wobbuffet|Encore||[still]
+|-fail|p2a: Wobbuffet
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Malamar|Knock Off|p2a: Wobbuffet
+|-supereffective|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|6/100
+|-enditem|p2a: Wobbuffet|Custap Berry|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Wobbuffet|Destiny Bond|p2a: Wobbuffet
+|-singlemove|p2a: Wobbuffet|Destiny Bond
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Malamar|Happy Hour|p1a: Malamar
+|move|p2a: Wobbuffet|Counter||[still]
+|-fail|p2a: Wobbuffet
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Malamar|Knock Off|p2a: Wobbuffet
+|-supereffective|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|faint|p2a: Wobbuffet
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|5
+
+|
+|move|p1a: Malamar|Psycho Cut|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|59/100
+|move|p2a: Tapu Bulu|Megahorn|p1a: Malamar|[miss]
+|-miss|p2a: Tapu Bulu|p1a: Malamar
+|
+|-heal|p2a: Tapu Bulu|65/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|71/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by diafetus)
+
+|
+|move|p1a: Malamar|Psycho Cut|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|35/100
+|move|p2a: Tapu Bulu|Megahorn|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|16/100
+|
+|-heal|p1a: Malamar|22/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|41/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|47/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+
+|
+|move|p1a: Malamar|Psycho Cut|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|10/100
+|move|p2a: Tapu Bulu|Megahorn|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|-heal|p2a: Tapu Bulu|17/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|23/100|[from] Grassy Terrain
+|upkeep
+
+|inactive|Lajoo has 120 seconds left.
+
+|
+|switch|p1a: Gyarados|Gyarados, L80, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Tapu Bulu|atk|1
+|turn|8
+
+|
+|switch|p2a: Pikachu|Pikachu-Sinnoh, L90, M|100/100
+|detailschange|p1a: Gyarados|Gyarados-Mega, L80, M
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p1a: Gyarados|Ice Fang|p2a: Pikachu
+|-damage|p2a: Pikachu|51/100
+|-status|p1a: Gyarados|par|[from] ability: Static|[of] p2a: Pikachu
+|
+|-heal|p2a: Pikachu|57/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+
+|
+|move|p2a: Pikachu|Volt Tackle|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Pikachu|13/100|[from] Recoil
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Pikachu|19/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Persian|Persian-Alola, L88, M|100/100
+|turn|10
+
+|
+|move|p1a: Persian|Power Gem|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|upkeep
+
+|
+|switch|p2a: Terrakion|Terrakion, L82|100/100
+|turn|11
+
+|
+|switch|p1a: Gligar|Gligar, L82, F|100/100
+|move|p2a: Terrakion|Swords Dance|p2a: Terrakion
+|-boost|p2a: Terrakion|atk|2
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Gligar
+|-damage|p1a: Gligar|20/100
+|-damage|p2a: Terrakion|91/100|[from] item: Life Orb
+|move|p1a: Gligar|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|33/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Gligar|[miss]
+|-miss|p2a: Terrakion|p1a: Gligar
+|move|p1a: Gligar|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|23/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|14
+
+|
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|70/100
+|-singleturn|p1a: Gligar|move: Roost
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|-damage|p2a: Tapu Bulu|0 fnt|[from] Recoil
+|faint|p1a: Gligar
+|faint|p2a: Tapu Bulu
+|
+|upkeep
+
+|
+|switch|p1a: Persian|Persian-Alola, L88, M|100/100
+|switch|p2a: Arceus|Arceus-Flying, L78|100/100
+|turn|15
+
+|
+|switch|p2a: Sceptile|Sceptile, L84, M|100/100
+|move|p1a: Persian|Power Gem|p2a: Sceptile
+|-damage|p2a: Sceptile|79/100
+|
+|-heal|p2a: Sceptile|85/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+
+|l|☆Lajoo
+
+|inactive|Lajoo disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆Lajoo
+
+|inactive|Lajoo reconnected and has 140 seconds left.
+
+|player|p1|Lajoo|50
+
+|
+|move|p1a: Persian|Hypnosis|p2a: Sceptile|[miss]
+|-miss|p1a: Persian|p2a: Sceptile
+|move|p2a: Sceptile|Swords Dance|p2a: Sceptile
+|-boost|p2a: Sceptile|atk|2
+|
+|-heal|p2a: Sceptile|91/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, L84, M
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Leaf Blade|p1a: Persian
+|-damage|p1a: Persian|26/100
+|move|p1a: Persian|Hypnosis|p2a: Sceptile
+|-status|p2a: Sceptile|slp|[from] move: Hypnosis
+|
+|-heal|p2a: Sceptile|97/100 slp|[from] Grassy Terrain
+|-heal|p1a: Persian|32/100|[from] item: Leftovers
+|-heal|p1a: Persian|38/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+
+|
+|cant|p2a: Sceptile|slp
+|move|p1a: Persian|Nasty Plot|p1a: Persian
+|-boost|p1a: Persian|spa|2
+|
+|-heal|p2a: Sceptile|100/100 slp|[from] Grassy Terrain
+|-heal|p1a: Persian|45/100|[from] item: Leftovers
+|-heal|p1a: Persian|51/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+
+|
+|cant|p2a: Sceptile|slp
+|move|p1a: Persian|Dark Pulse|p2a: Sceptile
+|-damage|p2a: Sceptile|42/100 slp
+|
+|-heal|p1a: Persian|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|-curestatus|p2a: Sceptile|slp|[msg]
+|move|p2a: Sceptile|Earthquake|p1a: Persian
+|-damage|p1a: Persian|19/100
+|move|p1a: Persian|Dark Pulse|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|-heal|p1a: Persian|25/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Flying, L78|100/100
+|turn|21
+
+|
+|move|p1a: Persian|Power Gem|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|41/100
+|move|p2a: Arceus|Judgment|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|upkeep
+
+|
+|switch|p1a: Rhyperior|Rhyperior, L84, M|100/100
+|turn|22
+
+|
+|move|p2a: Arceus|Toxic|p1a: Rhyperior
+|-status|p1a: Rhyperior|tox
+|move|p1a: Rhyperior|Rock Blast|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|12/100
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-hitcount|p2a: Arceus|2
+|faint|p2a: Arceus
+|
+|win|Lajoo

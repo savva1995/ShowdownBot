@@ -1,0 +1,168 @@
+|init|battle
+|title|marrickchill vs. Noble1206
+|j|☆marrickchill
+|j|☆Noble1206
+|player|p1|marrickchill|169|2073
+|player|p2|Noble1206|101|1903
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Milotic|Milotic, L84, M|100/100
+|switch|p2a: Zekrom|Zekrom, L78|100/100
+|-ability|p2a: Zekrom|Teravolt
+|turn|1
+|
+|switch|p1a: Steelix|Steelix, L82, F|100/100
+|move|p2a: Zekrom|Hone Claws|p2a: Zekrom
+|-boost|p2a: Zekrom|atk|1
+|-boost|p2a: Zekrom|accuracy|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Chesnaught|Chesnaught, L82, M|100/100
+|detailschange|p1a: Steelix|Steelix-Mega, L82, F
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p1a: Steelix|Toxic|p2a: Chesnaught
+|-status|p2a: Chesnaught|tox
+|
+|-damage|p2a: Chesnaught|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Ribombee|Ribombee, L85, F|100/100
+|move|p2a: Chesnaught|Spikes|p1a: Ribombee
+|-sidestart|p1: marrickchill|Spikes
+|
+|-heal|p2a: Chesnaught|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Chesnaught|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|100/100
+|move|p1a: Ribombee|Moonblast|p2a: Skuntank
+|-damage|p2a: Skuntank|64/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Golem|Golem-Alola, L89, M|100/100
+|-item|p1a: Golem|Air Balloon
+|move|p2a: Skuntank|Crunch|p1a: Golem
+|-damage|p1a: Golem|80/100
+|-enditem|p1a: Golem|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Chesnaught|Chesnaught, L82, M|88/100 tox
+|move|p1a: Golem|Stone Edge|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|70/100 tox
+|
+|-heal|p2a: Chesnaught|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Chesnaught|70/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Chesnaught|Spikes|p1a: Golem
+|-sidestart|p1: marrickchill|Spikes
+|move|p1a: Golem|Stealth Rock|p2a: Chesnaught
+|-sidestart|p2: Noble1206|move: Stealth Rock
+|
+|-heal|p2a: Chesnaught|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Chesnaught|64/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Chesnaught|Spikes|p1a: Golem
+|-sidestart|p1: marrickchill|Spikes
+|move|p1a: Golem|Return|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|40/100 tox
+|
+|-heal|p2a: Chesnaught|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Chesnaught|28/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Ribombee|Ribombee, L85, F|100/100
+|-damage|p1a: Ribombee|76/100|[from] Spikes
+|move|p2a: Chesnaught|Wood Hammer|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|38/100
+|-damage|p2a: Chesnaught|17/100 tox|[from] Recoil
+|
+|-heal|p1a: Ribombee|44/100|[from] item: Leftovers
+|-heal|p2a: Chesnaught|23/100 tox|[from] item: Leftovers
+|-damage|p2a: Chesnaught|0 fnt|[from] psn
+|faint|p2a: Chesnaught
+|upkeep
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Aromatisse|Moonblast|p1a: Ribombee
+|-damage|p1a: Ribombee|9/100
+|-unboost|p1a: Ribombee|spa|1
+|
+|-heal|p1a: Ribombee|15/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Ribombee|Roost|p1a: Ribombee
+|-heal|p1a: Ribombee|66/100
+|-singleturn|p1a: Ribombee|move: Roost
+|move|p2a: Aromatisse|Moonblast|p1a: Ribombee
+|-damage|p1a: Ribombee|33/100
+|
+|-heal|p1a: Ribombee|39/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|64/100
+|-damage|p2a: Skuntank|51/100|[from] Stealth Rock
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|
+|-heal|p1a: Ribombee|45/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Ribombee|Moonblast|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|-heal|p1a: Ribombee|52/100|[from] item: Leftovers
+|upkeep
+|l|☆Noble1206
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by marrickchill)
+
+|inactive|Noble1206 has 30 seconds to reconnect!
+
+|inactive|Noble1206 has 20 seconds to reconnect!
+
+|inactive|Noble1206 has 15 seconds to reconnect!
+
+|inactive|Noble1206 has 10 seconds to reconnect!
+
+|inactive|Noble1206 has 5 seconds to reconnect!
+
+|-message|Noble1206 lost due to inactivity.
+|
+|win|marrickchill

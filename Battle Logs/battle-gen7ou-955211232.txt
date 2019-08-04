@@ -1,0 +1,259 @@
+|init|battle
+|title|Popoki2018-2019 vs. thisisSOMETA!
+|j|☆Popoki2018-2019
+|j|☆thisisSOMETA!
+|player|p1|Popoki2018-2019|96|1198
+|player|p2|thisisSOMETA!|122|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lopunny, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Whimsicott, M|item
+|poke|p1|Marowak-Alola, M|item
+|poke|p1|Chansey, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Golduck, F|item
+|poke|p2|Machamp, F|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Rhyperior, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Popoki2018-2019)
+|
+|start
+|switch|p1a: Popoki|Lopunny, M|100/100
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|turn|1
+|
+|detailschange|p1a: Popoki|Lopunny-Mega, M
+|-mega|p1a: Popoki|Lopunny|Lopunnite
+|move|p1a: Popoki|Fake Out|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|93/100
+|cant|p2a: Rhyperior|flinch
+|
+|-heal|p2a: Rhyperior|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Popoki|Power-Up Punch|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|79/100
+|-boost|p1a: Popoki|atk|1
+|move|p2a: Rhyperior|Stealth Rock|p1a: Popoki
+|-sidestart|p1: Popoki2018-2019|move: Stealth Rock
+|
+|-heal|p2a: Rhyperior|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Popoki|High Jump Kick|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, F|100/100
+|turn|4
+|
+|move|p1a: Popoki|Return|p2a: Machamp
+|-damage|p2a: Machamp|1/100
+|move|p2a: Machamp|Close Combat|p1a: Popoki
+|-supereffective|p1a: Popoki
+|-damage|p1a: Popoki|0 fnt
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|faint|p1a: Popoki
+|
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Nisekoi|Scizor, M, shiny|100/100
+|-damage|p1a: Nisekoi|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p1a: Nisekoi|Bullet Punch|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|6
+
+|
+|switch|p1a: Flyff|Landorus-Therian, M|100/100
+|-damage|p1a: Flyff|88/100|[from] Stealth Rock
+|-ability|p1a: Flyff|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|detailschange|p2a: Charizard|Charizard-Mega-Y, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Fire Blast|p1a: Flyff
+|-damage|p1a: Flyff|0 fnt
+|faint|p1a: Flyff
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Emma|Chansey, F|100/100
+|-damage|p1a: Emma|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Emma|Stealth Rock|p2a: Scizor
+|-sidestart|p2: thisisSOMETA!|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|move|p2a: Scizor|Superpower|p1a: Emma
+|-supereffective|p1a: Emma
+|-damage|p1a: Emma|0 fnt
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: Emma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Ray|Marowak-Alola, M, shiny|100/100
+|-damage|p1a: Ray|76/100|[from] Stealth Rock
+|turn|9
+
+|
+|switch|p2a: Golduck|Golduck, F|100/100
+|-damage|p2a: Golduck|88/100|[from] Stealth Rock
+|move|p1a: Ray|Flare Blitz|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|-damage|p2a: Porygon-Z|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|-zpower|p2a: Porygon-Z
+|move|p2a: Porygon-Z|Z-Conversion|p2a: Porygon-Z|[anim]Conversion
+|-boost|p2a: Porygon-Z|atk|1|[zeffect]
+|-boost|p2a: Porygon-Z|def|1|[zeffect]
+|-boost|p2a: Porygon-Z|spa|1|[zeffect]
+|-boost|p2a: Porygon-Z|spd|1|[zeffect]
+|-boost|p2a: Porygon-Z|spe|1|[zeffect]
+|-start|p2a: Porygon-Z|typechange|Electric
+|move|p1a: Ray|Flare Blitz|p2a: Porygon-Z
+|-crit|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Charizard|Charizard-Mega-Y, M|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|turn|11
+
+|
+|move|p2a: Charizard|Fire Blast|p1a: Ray
+|-resisted|p1a: Ray
+|-damage|p1a: Ray|2/100
+|move|p1a: Ray|Shadow Bone|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Ray
+|-resisted|p1a: Ray
+|-damage|p1a: Ray|0 fnt
+|faint|p1a: Ray
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Nisekoi|Scizor, M, shiny|88/100
+|-damage|p1a: Nisekoi|76/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Nisekoi
+|-resisted|p1a: Nisekoi
+|-crit|p1a: Nisekoi
+|-damage|p1a: Nisekoi|27/100
+|move|p1a: Nisekoi|Swords Dance|p1a: Nisekoi
+|-boost|p1a: Nisekoi|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Nisekoi
+|-resisted|p1a: Nisekoi
+|-damage|p1a: Nisekoi|0 fnt
+|faint|p1a: Nisekoi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: potatoz|Whimsicott, M|100/100
+|-damage|p1a: potatoz|88/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: potatoz|Protect|p1a: potatoz
+|-singleturn|p1a: potatoz|Protect
+|move|p2a: Scizor|Bullet Punch|p1a: potatoz
+|-activate|p1a: potatoz|move: Protect
+|
+|-weather|none
+|-heal|p1a: potatoz|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: potatoz|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|move|p2a: Scizor|Bullet Punch|p1a: potatoz
+|-supereffective|p1a: potatoz
+|-damage|p1a: potatoz|0 fnt
+|faint|p1a: potatoz
+|
+|win|thisisSOMETA!

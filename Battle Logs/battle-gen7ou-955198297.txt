@@ -1,0 +1,181 @@
+|init|battle
+|title|rangga63 vs. Furanciss44
+|j|☆rangga63
+|j|☆Furanciss44
+|player|p1|rangga63|175|1021
+|player|p2|Furanciss44|102|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Ninetales-Alola, F|item
+|poke|p1|Mimikyu, F|item
+|poke|p1|Tyrantrum, F|item
+|poke|p1|Zygarde-10%|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Volcanion|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Toxapex, M|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Aerodactyl, F|item
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|1
+|
+|move|p2a: Tapu Lele|Moonblast|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|2
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Tapu Lele
+|-activate|p2a: Tapu Lele|move: Psychic Terrain
+|move|p2a: Tapu Lele|Moonblast|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|switch|p1a: Zygarde|Zygarde-10%|100/100
+|-ability|p1a: Zygarde|Aura Break
+|turn|3
+
+|
+|move|p1a: Zygarde|Core Enforcer|p2a: Tapu Lele
+|-immune|p2a: Tapu Lele
+|move|p2a: Tapu Lele|Moonblast|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|faint|p1a: Zygarde
+|
+|upkeep
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, F|100/100
+|turn|4
+
+|
+|move|p2a: Tapu Lele|Moonblast|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|faint|p1a: Tyrantrum
+|
+|upkeep
+
+|
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|turn|5
+
+|
+|move|p1a: Ninetales|Blizzard|p2a: Tapu Lele|[miss]
+|-miss|p1a: Ninetales|p2a: Tapu Lele
+|move|p2a: Tapu Lele|Moonblast|p1a: Ninetales
+|-damage|p1a: Ninetales|8/100
+|-unboost|p1a: Ninetales|spa|1
+|
+|-heal|p1a: Ninetales|14/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+
+|
+|move|p1a: Ninetales|Blizzard|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|68/100
+|move|p2a: Tapu Lele|Moonblast|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|7
+
+|
+|move|p1a: Mimikyu|Thunder|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|48/100
+|-status|p2a: Tapu Lele|par
+|-damage|p1a: Mimikyu|91/100|[from] item: Life Orb
+|move|p2a: Tapu Lele|Moonblast|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|91/100
+|-unboost|p1a: Mimikyu|spa|1
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|-damage|p1a: Mimikyu|81/100|[from] item: Life Orb
+|faint|p2a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: rangga63
+|turn|9
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rangga63)
+
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Stone Edge|p1a: Mimikyu|[miss]
+|-miss|p2a: Aerodactyl|p1a: Mimikyu
+|move|p1a: Mimikyu|Play Rough|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|40/100
+|-damage|p1a: Mimikyu|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Mimikyu
+|-sidestart|p1: rangga63|move: Stealth Rock
+|move|p1a: Mimikyu|Play Rough|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-damage|p1a: Mimikyu|61/100|[from] item: Life Orb
+|faint|p2a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|11
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|23/100
+|-damage|p1a: Mimikyu|51/100|[from] item: Life Orb
+|move|p2a: Kyurem|Iron Head|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|win|Furanciss44

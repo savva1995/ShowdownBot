@@ -1,0 +1,305 @@
+|init|battle
+|title|terrorstriker258 vs. The Wild Idiot
+|j|☆terrorstriker258
+|j|☆The Wild Idiot
+|player|p1|terrorstriker258|266|1100
+|player|p2|The Wild Idiot|266|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lanturn|Lanturn, L88, M|100/100
+|switch|p2a: Cinccino|Cinccino, L87, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by terrorstriker258)
+|
+|move|p2a: Cinccino|Rock Blast|p1a: Lanturn
+|-crit|p1a: Lanturn
+|-damage|p1a: Lanturn|85/100
+|-damage|p1a: Lanturn|75/100
+|-damage|p1a: Lanturn|66/100
+|-damage|p1a: Lanturn|55/100
+|-damage|p1a: Lanturn|45/100
+|-hitcount|p1a: Lanturn|5
+|move|p1a: Lanturn|Hydro Pump|p2a: Cinccino
+|-damage|p2a: Cinccino|23/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Serperior|Serperior, L80, F|100/100
+|move|p1a: Lanturn|Hydro Pump|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|71/100
+|
+|-heal|p2a: Serperior|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|inactive|terrorstriker258 has 120 seconds left.
+
+|
+|switch|p1a: Honchkrow|Honchkrow, L84, M|100/100
+|move|p2a: Serperior|Leech Seed|p1a: Honchkrow
+|-start|p1a: Honchkrow|move: Leech Seed
+|
+|-heal|p2a: Serperior|83/100|[from] item: Leftovers
+|-damage|p1a: Honchkrow|88/100|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|98/100|[silent]
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Absol|Absol, L83, F|100/100
+|move|p1a: Honchkrow|Brave Bird|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|-damage|p1a: Honchkrow|61/100|[from] Recoil
+|-damage|p1a: Honchkrow|52/100|[from] item: Life Orb
+|faint|p2a: Absol
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, M|100/100
+|turn|5
+
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|-damage|p1a: Honchkrow|42/100|[from] item: Life Orb
+|faint|p2a: Bruxish
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, M|23/100
+|turn|6
+
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|-damage|p1a: Honchkrow|32/100|[from] item: Life Orb
+|faint|p2a: Cinccino
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Mienshao|Mienshao, L83, F|100/100
+|turn|7
+
+|
+|move|p2a: Mienshao|Stone Edge|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|faint|p1a: Honchkrow
+|
+|upkeep
+
+|
+|switch|p1a: Lanturn|Lanturn, L88, M|45/100
+|turn|8
+
+|
+|move|p2a: Mienshao|Stone Edge|p1a: Lanturn
+|-damage|p1a: Lanturn|4/100
+|-damage|p2a: Mienshao|81/100|[from] item: Life Orb
+|move|p1a: Lanturn|Hydro Pump|p2a: Mienshao|[miss]
+|-miss|p1a: Lanturn|p2a: Mienshao
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Mienshao|Stone Edge|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|-damage|p2a: Mienshao|71/100|[from] item: Life Orb
+|faint|p1a: Lanturn
+|
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|turn|10
+
+|
+|switch|p2a: Serperior|Serperior, L80, F|98/100
+|move|p1a: Vaporeon|Scald|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|79/100
+|
+|-heal|p2a: Serperior|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Serperior|Leech Seed|p1a: Vaporeon|[miss]
+|-miss|p2a: Serperior|p1a: Vaporeon
+|move|p1a: Vaporeon|Scald|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|65/100
+|
+|-heal|p2a: Serperior|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Beartic|Beartic, L89, F|100/100
+|move|p2a: Serperior|Leaf Storm|p1a: Beartic
+|-damage|p1a: Beartic|67/100
+|-boost|p2a: Serperior|spa|2
+|
+|-heal|p2a: Serperior|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Mienshao|Mienshao, L83, F|100/100
+|move|p1a: Beartic|Icicle Crash|p2a: Mienshao
+|-damage|p2a: Mienshao|15/100
+|-damage|p1a: Beartic|57/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|move|p2a: Mienshao|High Jump Kick|p1a: Vaporeon
+|-damage|p1a: Vaporeon|27/100
+|-damage|p2a: Mienshao|5/100|[from] item: Life Orb
+|
+|-heal|p1a: Vaporeon|33/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Yanmega|Yanmega, L84, M|100/100
+|move|p1a: Vaporeon|Scald|p2a: Yanmega
+|-damage|p2a: Yanmega|51/100
+|
+|-heal|p1a: Vaporeon|39/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Yanmega|Giga Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|2/100
+|-heal|p2a: Yanmega|75/100|[from] drain|[of] p1a: Vaporeon
+|-damage|p2a: Yanmega|65/100|[from] item: Life Orb
+|move|p1a: Vaporeon|Scald|p2a: Yanmega
+|-damage|p2a: Yanmega|20/100
+|
+|-heal|p1a: Vaporeon|8/100|[from] item: Leftovers
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|17
+
+|
+|move|p2a: Yanmega|Giga Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-heal|p2a: Yanmega|25/100|[from] drain|[of] p1a: Vaporeon
+|-damage|p2a: Yanmega|15/100|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+
+|
+|switch|p1a: Tauros|Tauros, L87, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Yanmega|atk|1
+|turn|18
+
+|
+|move|p2a: Yanmega|U-turn|p1a: Tauros
+|-damage|p1a: Tauros|83/100
+|-damage|p2a: Yanmega|5/100|[from] item: Life Orb
+
+|
+|switch|p2a: Mienshao|Mienshao, L83, F|39/100|[from]move: U-turn
+|move|p1a: Tauros|Rock Slide|p2a: Mienshao
+|-resisted|p2a: Mienshao
+|-damage|p2a: Mienshao|16/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Tauros|Rock Slide|p2a: Mienshao
+|-resisted|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|upkeep
+
+|
+|switch|p2a: Serperior|Serperior, L80, F|77/100
+|turn|20
+
+|
+|switch|p1a: Beartic|Beartic, L89, F|57/100
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|52/100
+|
+|-heal|p2a: Serperior|58/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Serperior|Leech Seed|p1a: Beartic
+|-start|p1a: Beartic|move: Leech Seed
+|move|p1a: Beartic|Icicle Crash|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|-damage|p1a: Beartic|47/100|[from] item: Life Orb
+|
+|-heal|p2a: Serperior|64/100|[from] item: Leftovers
+|-damage|p1a: Beartic|35/100|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|79/100|[silent]
+|upkeep
+|turn|22
+
+|
+|move|p2a: Serperior|Hidden Power|p1a: Beartic
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|13/100
+|move|p1a: Beartic|Icicle Crash|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|-damage|p1a: Beartic|3/100|[from] item: Life Orb
+|faint|p2a: Serperior
+|
+|upkeep
+
+|
+|switch|p2a: Yanmega|Yanmega, L84, M|5/100
+|turn|23
+
+|
+|move|p2a: Yanmega|Giga Drain|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|-heal|p2a: Yanmega|7/100|[from] drain|[of] p1a: Beartic
+|-damage|p2a: Yanmega|0 fnt|[from] item: Life Orb
+|faint|p1a: Beartic
+|faint|p2a: Yanmega
+|
+|win|terrorstriker258

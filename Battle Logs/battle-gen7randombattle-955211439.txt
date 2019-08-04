@@ -1,0 +1,176 @@
+|init|battle
+|title|ZoXoY vs. Plastica
+|j|☆ZoXoY
+|j|☆Plastica
+|player|p1|ZoXoY|101|1194
+|player|p2|Plastica|1|1197
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Avalugg|Avalugg, L89, M|100/100
+|switch|p2a: Avalugg|Avalugg, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Plastica)
+|c|☆Plastica|Lol
+|c|☆Plastica|Gg
+|
+|move|p2a: Avalugg|Toxic|p1a: Avalugg
+|-status|p1a: Avalugg|tox
+|move|p1a: Avalugg|Toxic|p2a: Avalugg
+|-status|p2a: Avalugg|tox
+|
+|-damage|p1a: Avalugg|94/100 tox|[from] psn
+|-damage|p2a: Avalugg|94/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|move|p2a: Avalugg|Avalanche|p1a: Manaphy
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|86/100
+|
+|-heal|p1a: Manaphy|92/100|[from] item: Leftovers
+|-heal|p2a: Avalugg|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Avalugg|88/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|inactive|ZoXoY has 120 seconds left.
+
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Avalugg|Toxic|p1a: Manaphy
+|-status|p1a: Manaphy|tox
+|
+|-heal|p1a: Manaphy|98/100 tox|[from] item: Leftovers
+|-heal|p2a: Avalugg|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Manaphy|92/100 tox|[from] psn
+|-damage|p2a: Avalugg|76/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Manaphy|Psychic|p2a: Avalugg
+|-damage|p2a: Avalugg|7/100 tox
+|move|p2a: Avalugg|Earthquake|p1a: Manaphy
+|-damage|p1a: Manaphy|63/100 tox
+|
+|-heal|p1a: Manaphy|69/100 tox|[from] item: Leftovers
+|-heal|p2a: Avalugg|13/100 tox|[from] item: Leftovers
+|-damage|p1a: Manaphy|57/100 tox|[from] psn
+|-damage|p2a: Avalugg|0 fnt|[from] psn
+|faint|p2a: Avalugg
+|upkeep
+
+|
+|switch|p2a: Serperior|Serperior, L80, F|100/100
+|turn|5
+
+|
+|switch|p1a: Avalugg|Avalugg, L89, M|94/100 tox
+|move|p2a: Serperior|Leaf Storm|p1a: Avalugg|[miss]
+|-miss|p2a: Serperior|p1a: Avalugg
+|
+|-heal|p1a: Avalugg|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|94/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|inactive|ZoXoY has 120 seconds left.
+
+|
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|76/100
+|move|p1a: Avalugg|Avalanche|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|-heal|p1a: Avalugg|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|88/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Infernape|Infernape, L82, M|100/100
+|move|p1a: Avalugg|Avalanche|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|82/100
+|
+|-heal|p1a: Avalugg|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|76/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|-zpower|p2a: Infernape
+|move|p2a: Infernape|All-Out Pummeling|p1a: Avalugg|[zeffect]
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|57/100 tox
+|turn|9
+
+|
+|move|p2a: Infernape|U-turn|p1a: Manaphy
+|-damage|p1a: Manaphy|41/100 tox
+
+|
+|switch|p2a: Scyther|Scyther, L88, M|100/100|[from]move: U-turn
+|move|p1a: Manaphy|Psychic|p2a: Scyther
+|-crit|p2a: Scyther
+|-damage|p2a: Scyther|77/100
+|
+|-heal|p1a: Manaphy|47/100 tox|[from] item: Leftovers
+|-damage|p1a: Manaphy|41/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Scyther|Bug Bite|p1a: Manaphy
+|-damage|p1a: Manaphy|3/100 tox
+|move|p1a: Manaphy|Surf|p2a: Scyther
+|-damage|p2a: Scyther|53/100
+|
+|-heal|p1a: Manaphy|9/100 tox|[from] item: Leftovers
+|-damage|p1a: Manaphy|0 fnt|[from] psn
+|faint|p1a: Manaphy
+|upkeep
+
+|
+|switch|p1a: Snorlax|Snorlax, L84, M|100/100
+|turn|11
+
+|inactive|Plastica has 120 seconds left.
+
+|
+|move|p2a: Scyther|Brick Break|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|60/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|-message|Plastica forfeited.
+
+|
+|win|ZoXoY

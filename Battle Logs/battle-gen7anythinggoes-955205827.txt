@@ -1,0 +1,210 @@
+|init|battle
+|title|Vloga vs. Donut play me
+|j|☆Vloga
+|j|☆Donut play me
+|player|p1|Vloga|101|1413
+|player|p2|Donut play me|101|1455
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Gengar, F|item
+|poke|p1|Groudon|item
+|poke|p1|Chansey, F|item
+|poke|p1|Ho-Oh|item
+|poke|p1|Arceus-*|item
+|poke|p1|Giratina|item
+|poke|p2|Medicham, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Gourgeist-*, M|item
+|poke|p2|Ambipom, F|item
+|poke|p2|Crobat, M|item
+|poke|p2|Cloyster, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+
+|
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Ambipom|Ambipom, F|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+
+|
+|-weather|none
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Ambipom|Fake Out|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|2
+
+|
+|detailschange|p1a: Gengar|Gengar-Mega, F
+|-mega|p1a: Gengar|Gengar|Gengarite
+|move|p1a: Gengar|Shadow Ball|p2a: Ambipom
+|-immune|p2a: Ambipom
+|move|p2a: Ambipom|Pursuit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|33/100
+|-damage|p2a: Ambipom|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+
+|c|☆Vloga|Oops, miss
+
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|4
+
+|
+|-activate|p1a: Gengar|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Gengar|[from]Pursuit
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Gengar
+|
+|upkeep
+
+|
+|switch|p1a: Giratina|Giratina|100/100
+|-ability|p1a: Giratina|Pressure
+|turn|5
+
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|move|p1a: Giratina|Will-O-Wisp|p2a: Gourgeist
+|-status|p2a: Gourgeist|brn
+|
+|-damage|p2a: Gourgeist|94/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p1a: Giratina|Hex|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|21/100 brn
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Giratina
+|-status|p1a: Giratina|brn
+|
+|-damage|p1a: Giratina|94/100 brn|[from] brn
+|-damage|p2a: Gourgeist|14/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Giratina|Hex|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|-heal|p1a: Giratina|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Giratina|94/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|8
+
+|
+|move|p2a: Crobat|Taunt|p1a: Giratina
+|-start|p1a: Giratina|move: Taunt
+|move|p1a: Giratina|Dragon Tail|p2a: Crobat
+|-damage|p2a: Crobat|91/100
+|drag|p2a: Scizor|Scizor, M|100/100
+|
+|-heal|p1a: Giratina|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Giratina|94/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Giratina
+|-damage|p1a: Giratina|66/100 brn
+|move|p1a: Giratina|Hex|p2a: Scizor
+|-damage|p2a: Scizor|74/100
+|
+|-heal|p1a: Giratina|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Giratina|66/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Giratina
+|-damage|p1a: Giratina|41/100 brn
+|move|p1a: Giratina|Hex|p2a: Scizor
+|-damage|p2a: Scizor|45/100
+|
+|-heal|p1a: Giratina|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Giratina|41/100 brn|[from] brn
+|-end|p1a: Giratina|move: Taunt
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Crobat|Crobat, M|91/100
+|move|p1a: Giratina|Rest|p1a: Giratina
+|-status|p1a: Giratina|slp|[from] move: Rest
+|-heal|p1a: Giratina|100/100 slp|[silent]
+|
+|-heal|p2a: Crobat|97/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Crobat|Taunt|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|move: Taunt
+|
+|-heal|p2a: Crobat|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|68/100
+|-damage|p2a: Crobat|90/100|[from] Recoil
+|move|p1a: Ho-Oh|Brave Bird|p2a: Crobat
+|-damage|p2a: Crobat|17/100
+|-damage|p1a: Ho-Oh|43/100|[from] Recoil
+|
+|-heal|p2a: Crobat|23/100|[from] item: Black Sludge
+|-heal|p1a: Ho-Oh|49/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|18/100
+|-damage|p2a: Crobat|13/100|[from] Recoil
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|-heal|p1a: Ho-Oh|24/100|[from] item: Leftovers
+|-end|p1a: Ho-Oh|move: Taunt
+|upkeep
+
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|15
+
+|-message|Donut play me forfeited.
+
+|
+|win|Vloga

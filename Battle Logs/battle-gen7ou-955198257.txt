@@ -1,0 +1,88 @@
+|init|battle
+|title|Vrml16 vs. LT63RB OiseauBleu
+|j|☆Vrml16
+|j|☆LT63RB OiseauBleu
+|player|p1|Vrml16|65|1484
+|player|p2|LT63RB OiseauBleu|137|1517
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Weavile, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Milotic, M|item
+|poke|p1|Skarmory, F|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Sableye, M|item
+|poke|p2|Shedinja|item
+|poke|p2|Alomomola, M|item
+|teampreview
+|
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Weavile|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|59/100
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|move|p2a: Sableye|Will-O-Wisp|p1a: Weavile
+|-status|p1a: Weavile|brn
+|
+|-damage|p1a: Weavile|84/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p1a: Weavile|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|41/100
+|-damage|p1a: Weavile|75/100 brn|[from] item: Life Orb
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|91/100
+|
+|-damage|p1a: Weavile|68/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LT63RB OiseauBleu)
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|move|p2a: Sableye|Protect||[still]
+|-fail|p2a: Sableye
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Landorus|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|37/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-damage|p1a: Landorus|94/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|-message|Vrml16 forfeited.
+
+|
+|win|LT63RB OiseauBleu

@@ -1,0 +1,98 @@
+|init|battle
+|title|ewfewfrtr vs. TheCavi
+|j|☆ewfewfrtr
+|j|☆TheCavi
+|player|p1|ewfewfrtr|101|1000
+|player|p2|TheCavi|291|1012
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Forretress, M|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Greninja, M|item
+|poke|p1|Sableye, F|item
+|poke|p1|Cloyster, F|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Sylveon, F|item
+|poke|p2|Gengar, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Milotic, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Chandelure, F|item
+|teampreview
+|
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|
+|move|p2a: Skarmory|Spikes|p1a: Forretress
+|-sidestart|p1: ewfewfrtr|Spikes
+|move|p1a: Forretress|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: TheCavi|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Skarmory|Spikes|p1a: Forretress
+|-sidestart|p1: ewfewfrtr|Spikes
+|move|p1a: Forretress|Spikes|p2a: Skarmory
+|-sidestart|p2: TheCavi|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Forretress|Spikes|p2a: Skarmory
+|-sidestart|p2: TheCavi|Spikes
+|move|p2a: Skarmory|Whirlwind|p1a: Forretress
+|drag|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|84/100|[from] Spikes
+|
+|-heal|p1a: Sableye|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Sableye|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Sableye
+|drag|p1a: Forretress|Forretress, M|100/100
+|-damage|p1a: Forretress|84/100|[from] Spikes
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Skarmory|Spikes|p1a: Forretress
+|-sidestart|p1: ewfewfrtr|Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|-damage|p1a: Forretress|68/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-sideend|p1: ewfewfrtr|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Skarmory|Spikes|p1a: Forretress
+|-sidestart|p1: ewfewfrtr|Spikes
+|move|p1a: Forretress|Spikes|p2a: Skarmory
+|-sidestart|p2: TheCavi|Spikes
+|
+|upkeep
+|turn|7
+
+|-message|TheCavi forfeited.
+
+|
+|win|ewfewfrtr

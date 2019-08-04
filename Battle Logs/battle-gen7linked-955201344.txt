@@ -1,0 +1,306 @@
+|init|battle
+|title|Jamian vs. Etosan
+|j|☆Jamian
+|j|☆Etosan
+|player|p1|Jamian|84|1103
+|player|p2|Etosan|290|1160
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Linked
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Lopunny, F|item
+|poke|p1|Dragonite, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Victini|item
+|poke|p2|Pinsir, M|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Yanmega, F|item
+|poke|p2|Hitmontop, M|item
+|teampreview
+|c|☆Etosan|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Etosan)
+|
+|start
+|switch|p1a: Lopunny|Lopunny, F|100/100
+|switch|p2a: Victini|Victini|100/100
+|turn|1
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, F
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Victini
+|-damage|p2a: Victini|77/100
+|move|p1a: Lopunny|Power-Up Punch|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|65/100
+|-boost|p1a: Lopunny|atk|1
+|cant|p2a: Victini|flinch
+|cant|p2a: Victini|flinch
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|move|p2a: Victini|V-create|p1a: Landorus
+|-damage|p1a: Landorus|23/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|move|p2a: Victini|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|16/100
+|
+|switch|p2a: Sharpedo|Sharpedo, M, shiny|100/100|[from]uturn
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Sharpedo|Aqua Jet|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|4
+
+|
+|move|p2a: Sharpedo|Crunch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100
+|-damage|p2a: Sharpedo|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Sharpedo|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p2a: Sharpedo|Liquidation|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58/100
+|-damage|p2a: Sharpedo|59/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Sharpedo|43/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Sharpedo
+|-status|p2a: Sharpedo|par
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Sharpedo
+|-sidestart|p2: Etosan|move: Stealth Rock
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|5
+
+|
+|move|p2a: Sharpedo|Crunch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|35/100
+|-damage|p2a: Sharpedo|30/100 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Sharpedo|14/100 par|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p2a: Sharpedo|Liquidation|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|19/100
+|-damage|p2a: Sharpedo|2/100 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Sharpedo|0 fnt|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p2a: Sharpedo
+|move|p1a: Ferrothorn|Leech Seed|p2: Sharpedo|[notarget]
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p2a: Victini|Victini|65/100
+|-damage|p2a: Victini|40/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Victini|V-create|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Victini|28/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Victini|12/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Ferrothorn
+|move|p2a: Victini|U-turn|p1: Ferrothorn|[notarget]
+|-fail|p2a: Victini
+|
+|upkeep
+
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|7
+
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p1a: Volcarona|Fiery Dance|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|upkeep
+
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|95/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p2a: Hitmontop|Fake Out|p1a: Volcarona
+|-enditem|p2a: Hitmontop|Normal Gem|[from] gem|[move] Fake Out
+|-damage|p1a: Volcarona|65/100
+|cant|p1a: Volcarona|flinch
+|cant|p1a: Volcarona|flinch
+|
+|-heal|p1a: Volcarona|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p1a: Volcarona|Fiery Dance|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-heal|p1a: Volcarona|78/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-damage|p2a: Pinsir|76/100|[from] Stealth Rock
+|turn|10
+
+|
+|detailschange|p2a: Pinsir|Pinsir-Mega, M
+|-mega|p2a: Pinsir|Pinsir|Pinsirite
+|move|p2a: Pinsir|Feint|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|11/100
+|move|p2a: Pinsir|Quick Attack|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+
+|
+|switch|p1a: Lopunny|Lopunny-Mega, F|100/100
+|turn|11
+
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Lopunny|Fake Out|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|84/100
+|move|p1a: Lopunny|Power-Up Punch|p2a: Jirachi
+|-damage|p2a: Jirachi|64/100
+|-boost|p1a: Lopunny|atk|1
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Lopunny|High Jump Kick|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+
+|
+|switch|p2a: Pinsir|Pinsir-Mega, M|76/100
+|-damage|p2a: Pinsir|26/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Pinsir|Feint|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|81/100
+|move|p2a: Pinsir|Quick Attack|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|57/100
+|
+|-heal|p1a: Tapu Fini|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Pinsir|Feint|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|44/100
+|move|p2a: Pinsir|Quick Attack|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|20/100
+|move|p1a: Tapu Fini|Scald|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|move|p1a: Tapu Fini|Defog|p2: Pinsir|[notarget]
+|-fail|p1a: Tapu Fini
+|
+|-heal|p1a: Tapu Fini|26/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Yanmega|Yanmega, F|100/100
+|-damage|p2a: Yanmega|51/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Yanmega|Protect|p2a: Yanmega
+|-singleturn|p2a: Yanmega|Protect
+|move|p1a: Tapu Fini|Toxic|p2a: Yanmega
+|-activate|p2a: Yanmega|move: Protect
+|
+|-heal|p1a: Tapu Fini|32/100|[from] item: Leftovers
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|16
+
+|
+|move|p2a: Yanmega|Bug Buzz|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|15/100
+|move|p2a: Yanmega|Air Slash|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|17
+
+|
+|move|p2a: Yanmega|Bug Buzz|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|85/100
+|move|p2a: Yanmega|Air Slash|p1a: Dragonite
+|-damage|p1a: Dragonite|43/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p1a: Dragonite|Dragon Claw|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|win|Jamian

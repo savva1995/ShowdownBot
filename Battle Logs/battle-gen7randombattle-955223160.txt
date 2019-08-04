@@ -1,0 +1,144 @@
+|init|battle
+|title|Midp vs. Yannik2000
+|j|☆Midp
+|j|☆Yannik2000
+|player|p1|Midp|102|1754
+|player|p2|Yannik2000|2|1815
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ampharos|Ampharos, L84, F|100/100
+|switch|p2a: Bellossom|Bellossom, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yannik2000)
+|
+|move|p1a: Ampharos|Agility|p1a: Ampharos
+|-boost|p1a: Ampharos|spe|2
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Bellossom|Hidden Power|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|19/100
+|move|p1a: Ho-Oh|Brave Bird|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|12/100
+|-damage|p1a: Ho-Oh|0 fnt|[from] Recoil
+|faint|p1a: Ho-Oh
+|
+|upkeep
+
+|inactive|Midp has 120 seconds left.
+
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L84, F|100/100
+|turn|4
+
+|inactive|Midp has 120 seconds left.
+
+|
+|move|p2a: Bellossom|Giga Drain|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|41/100
+|-heal|p2a: Bellossom|43/100|[from] drain|[of] p1a: Nidoqueen
+|move|p1a: Nidoqueen|Sludge Wave|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|1/100
+|
+|upkeep
+|turn|5
+
+|inactive|Midp has 120 seconds left.
+
+|
+|move|p2a: Bellossom|Giga Drain|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|-heal|p2a: Bellossom|22/100|[from] drain|[of] p1a: Nidoqueen
+|faint|p1a: Nidoqueen
+|
+|upkeep
+
+|
+|switch|p1a: Hydreigon|Hydreigon, L82, M|100/100
+|turn|6
+
+|
+|move|p2a: Bellossom|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+
+|
+|switch|p1a: Ampharos|Ampharos, L84, F|100/100
+|turn|7
+
+|
+|detailschange|p1a: Ampharos|Ampharos-Mega, L84, F
+|-mega|p1a: Ampharos|Ampharos|Ampharosite
+|-ability|p1a: Ampharos|Mold Breaker
+|move|p2a: Bellossom|Giga Drain|p1a: Ampharos
+|-resisted|p1a: Ampharos
+|-damage|p1a: Ampharos|76/100
+|-heal|p2a: Bellossom|34/100|[from] drain|[of] p1a: Ampharos
+|move|p1a: Ampharos|Dragon Pulse|p2a: Bellossom
+|-damage|p2a: Bellossom|12/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Bellossom|Moonblast|p1a: Ampharos
+|-supereffective|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|faint|p1a: Ampharos
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, L80, M|100/100
+|turn|9
+
+|
+|move|p2a: Bellossom|Giga Drain|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-crit|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-heal|p2a: Bellossom|57/100|[from] drain|[of] p1a: Greninja
+|faint|p1a: Greninja
+|
+|upkeep
+
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, M|100/100
+|turn|10
+
+|
+|move|p2a: Bellossom|Giga Drain|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|-heal|p2a: Bellossom|100/100|[from] drain|[of] p1a: Mudsdale
+|faint|p1a: Mudsdale
+|
+|win|Yannik2000

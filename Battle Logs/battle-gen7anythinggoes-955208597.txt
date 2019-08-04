@@ -1,0 +1,469 @@
+|init|battle
+|title|qsefawdr vs. iiOpticalFreeze
+|j|☆qsefawdr
+|j|☆iiOpticalFreeze
+|player|p1|qsefawdr|1|1367
+|player|p2|iiOpticalFreeze|290|1550
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Tapu Koko|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Swampert, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Marshadow|item
+|poke|p2|Rayquaza|item
+|poke|p2|Smeargle, F|item
+|poke|p2|Solgaleo|item
+|poke|p2|Marshadow|item
+|poke|p2|Arceus-*|item
+|poke|p2|Greninja, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iiOpticalFreeze)
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|switch|p2a: Arceus|Arceus-Fairy|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|1
+
+|
+|move|p1a: Tapu Koko|Volt Switch|p2a: Arceus
+|-damage|p2a: Arceus|71/100
+
+|
+|switch|p1a: Forretress|Forretress, M|100/100|[from]move: Volt Switch
+|move|p2a: Arceus|Earth Power|p1a: Forretress
+|-damage|p1a: Forretress|60/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Arceus|Earth Power|p1a: Forretress
+|-damage|p1a: Forretress|19/100
+|-enditem|p1a: Forretress|Mago Berry|[eat]
+|-heal|p1a: Forretress|69/100|[from] item: Mago Berry
+|move|p1a: Forretress|Stealth Rock|p2a: Arceus
+|-sidestart|p2: iiOpticalFreeze|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Arceus|Defog|p1a: Forretress
+|-unboost|p1a: Forretress|evasion|1
+|-sideend|p2: iiOpticalFreeze|Stealth Rock|[from] move: Defog|[of] p2a: Arceus
+|move|p1a: Forretress|Toxic|p2a: Arceus
+|-status|p2a: Arceus|tox
+|
+|-damage|p2a: Arceus|65/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Forretress|Protect|p1a: Forretress
+|-singleturn|p1a: Forretress|Protect
+|move|p2a: Arceus|Earth Power|p1a: Forretress
+|-activate|p1a: Forretress|move: Protect
+|
+|-damage|p2a: Arceus|53/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Solgaleo|Solgaleo|100/100
+|move|p1a: Forretress|Stealth Rock|p2a: Solgaleo
+|-sidestart|p2: iiOpticalFreeze|move: Stealth Rock
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Solgaleo|Flame Charge|p1a: Gliscor
+|-damage|p1a: Gliscor|90/100
+|-boost|p2a: Solgaleo|spe|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+
+|
+|move|p2a: Solgaleo|Zen Headbutt|p1a: Gliscor
+|-damage|p1a: Gliscor|65/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|57/100
+|-enditem|p2a: Solgaleo|Weakness Policy
+|-boost|p2a: Solgaleo|atk|2
+|-boost|p2a: Solgaleo|spa|2
+|
+|-heal|p1a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+
+|
+|move|p2a: Solgaleo|Zen Headbutt|p1a: Gliscor
+|-damage|p1a: Gliscor|32/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|12/100
+|
+|-heal|p1a: Gliscor|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Solgaleo|Zen Headbutt|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+
+|
+|move|p2a: Solgaleo|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|9/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|0 fnt
+|faint|p2a: Solgaleo
+|
+|-heal|p1a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Fairy|53/100 tox
+|-damage|p2a: Arceus|41/100 tox|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p1a: Forretress|Forretress, M|69/100
+|move|p2a: Arceus|Defog|p1a: Forretress
+|-unboost|p1a: Forretress|evasion|1
+|-sideend|p2: iiOpticalFreeze|Stealth Rock|[from] move: Defog|[of] p2a: Arceus
+|
+|-damage|p2a: Arceus|35/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|move|p1a: Forretress|Protect||[still]
+|-fail|p1a: Forretress
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|evasion|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Smeargle|Spore|p1a: Tapu Koko
+|-activate|p1a: Tapu Koko|move: Electric Terrain
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|14
+
+|
+|move|p1a: Tapu Koko|Volt Switch|p2a: Smeargle
+|-damage|p2a: Smeargle|15/100
+
+|
+|switch|p1a: Marshadow|Marshadow|100/100|[from]move: Volt Switch
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|accuracy|1
+|upkeep
+|turn|15
+
+|
+|move|p1a: Marshadow|Iron Head|p2a: Smeargle|[miss]
+|-miss|p1a: Marshadow|p2a: Smeargle
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+
+|
+|switch|p2a: Marshadow|Marshadow|100/100|[from]move: Baton Pass
+|
+|upkeep
+|turn|16
+
+|j| Bathr777
+
+|
+|move|p2a: Marshadow|Shadow Sneak|p1a: Marshadow|[miss]
+|-miss|p2a: Marshadow|p1a: Marshadow
+|move|p1a: Marshadow|Spectral Thief|p2a: Marshadow|[miss]
+|-miss|p1a: Marshadow|p2a: Marshadow
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Marshadow|Shadow Sneak|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-enditem|p1a: Marshadow|Focus Sash
+|-damage|p1a: Marshadow|1/100
+|move|p1a: Marshadow|Spectral Thief||[still]
+|-clearpositiveboost|p2a: Marshadow|p1a: Marshadow|move: Spectral Thief
+|-boost|p1a: Marshadow|atk|4
+|-boost|p1a: Marshadow|def|1
+|-boost|p1a: Marshadow|spa|2
+|-boost|p1a: Marshadow|evasion|2
+|-anim|p1a: Marshadow|Spectral Thief|p2a: Marshadow
+|-supereffective|p2a: Marshadow
+|-enditem|p2a: Marshadow|Focus Sash
+|-damage|p2a: Marshadow|1/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|18
+
+|inactive|qsefawdr has 120 seconds left.
+
+|
+|switch|p1a: Forretress|Forretress, M|69/100
+|move|p2a: Marshadow|Shadow Sneak|p1a: Forretress
+|-damage|p1a: Forretress|51/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Marshadow|Close Combat|p1a: Forretress|[miss]
+|-miss|p2a: Marshadow|p1a: Forretress
+|move|p1a: Forretress|Toxic|p2a: Marshadow
+|-status|p2a: Marshadow|tox
+|
+|-damage|p2a: Marshadow|0 fnt|[from] psn
+|faint|p2a: Marshadow
+|upkeep
+
+|
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|20
+
+|
+|detailschange|p2a: Rayquaza|Rayquaza-Mega
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p2a: Rayquaza|V-create|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-unboost|p2a: Rayquaza|spe|1
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|faint|p1a: Forretress
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow|1/100
+|turn|21
+
+|
+|-weather|none
+|switch|p2a: Smeargle|Smeargle, F|15/100
+|move|p1a: Marshadow|Shadow Sneak|p2a: Smeargle
+|-immune|p2a: Smeargle
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|22
+
+|
+|move|p1a: Marshadow|Iron Head|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|23
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|-hitcount|p1a: Marshadow|1
+|faint|p1a: Marshadow
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|24
+
+|
+|-zpower|p2a: Greninja
+|move|p2a: Greninja|Black Hole Eclipse|p1a: Pelipper|[zeffect]
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|25
+
+|
+|move|p2a: Greninja|Dark Pulse|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|60/100
+|move|p1a: Tapu Koko|Thunder|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Fairy|35/100 tox
+|turn|26
+
+|
+|move|p1a: Tapu Koko|Volt Switch|p2a: Arceus
+|-damage|p2a: Arceus|3/100 tox
+
+|
+|switch|p1a: Gliscor|Gliscor, M|21/100 tox|[from]move: Volt Switch
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|53/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Arceus|47/100 tox|[from] psn
+|-heal|p1a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+
+|l| Bathr777
+
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|97/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Arceus
+|-damage|p2a: Arceus|75/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Arceus|63/100 tox|[from] psn
+|-heal|p1a: Gliscor|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Rayquaza|Rayquaza-Mega|100/100
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p1a: Gliscor|Poison Jab|p2a: Rayquaza
+|-damage|p2a: Rayquaza|82/100
+|
+|-weather|DeltaStream|[upkeep]
+|-heal|p1a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+
+|
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Gliscor
+|-damage|p1a: Gliscor|5/100 tox
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|move|p1a: Gliscor|Toxic|p2a: Rayquaza|[miss]
+|-miss|p1a: Gliscor|p2a: Rayquaza
+|
+|-weather|DeltaStream|[upkeep]
+|-heal|p1a: Gliscor|17/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|30
+
+|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|60/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|31
+
+|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|6/100
+|-zpower|p1a: Tapu Koko
+|move|p1a: Tapu Koko|Twinkle Tackle|p2a: Rayquaza|[zeffect]
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Fairy|63/100 tox
+|turn|32
+
+|
+|move|p1a: Tapu Koko|Thunder|p2a: Arceus
+|-damage|p2a: Arceus|21/100 tox
+|move|p2a: Arceus|Judgment|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|
+|-damage|p2a: Arceus|14/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Swampert|Swampert, F|100/100
+|turn|33
+
+|
+|detailschange|p1a: Swampert|Swampert-Mega, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p2a: Arceus|Judgment|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|9/100
+|move|p1a: Swampert|Power-Up Punch|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|9/100 tox
+|-boost|p1a: Swampert|atk|1
+|
+|-damage|p2a: Arceus|0 fnt|[from] psn
+|faint|p2a: Arceus
+|
+|win|qsefawdr
+|upkeep

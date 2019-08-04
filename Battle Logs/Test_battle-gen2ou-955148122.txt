@@ -1,0 +1,45 @@
+|init|battle
+|title|Conflict vs. TheYellowPeridot
+|j|☆Conflict
+|j|☆TheYellowPeridot
+|player|p1|Conflict|126|1535
+|player|p2|TheYellowPeridot|2|1091
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheYellowPeridot)
+
+|inactive|Conflict has 120 seconds left.
+
+|inactive|Conflict has 90 seconds left.
+
+|inactive|Conflict has 60 seconds left.
+
+|inactive|Conflict has 30 seconds left.
+
+|inactive|Conflict has 20 seconds left.
+
+|inactive|Conflict has 15 seconds left.
+
+|inactive|Conflict has 10 seconds left.
+
+|inactive|Conflict has 5 seconds left.
+
+|-message|Conflict lost due to inactivity.
+|
+|win|TheYellowPeridot

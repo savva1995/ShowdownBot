@@ -1,0 +1,45 @@
+|init|battle
+|title|Guest 1384238 vs. Ilovetrumpbooty
+|j|☆Ilovetrumpbooty
+|player|p1|Guest 1384238|265|1107
+|player|p2|Ilovetrumpbooty|170|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cloyster|Cloyster, L84, M|100/100
+|switch|p2a: Staraptor|Staraptor, L81, F|100/100
+|turn|1
+
+|
+|switch|p2a: Heatran|Heatran, L80, M|100/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Cloyster|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+
+|-message|Ilovetrumpbooty forfeited.
+
+|
+|win|Guest 1384238

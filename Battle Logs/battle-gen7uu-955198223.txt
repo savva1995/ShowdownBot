@@ -1,0 +1,462 @@
+|init|battle
+|title|Waschbarking vs. illomanu
+|j|☆Waschbarking
+|j|☆illomanu
+|player|p1|Waschbarking|163|1367
+|player|p2|illomanu|234|1118
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Houndoom, F|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Torkoal, F|item
+|poke|p1|Blissey, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Latias, F|item
+|poke|p2|Ribombee, F|item
+|poke|p2|Slaking, M|item
+|poke|p2|Murkrow, M|item
+|poke|p2|Feraligatr, F|item
+|poke|p2|Cofagrigus, F|item
+|poke|p2|Dragalge, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Waschbarking)
+|j| Smeargle legends
+|
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Torkoal
+|-sidestart|p1: Waschbarking|move: Sticky Web
+|move|p1a: Torkoal|Rapid Spin|p2a: Ribombee
+|-damage|p2a: Ribombee|94/100
+|-sideend|p1: Waschbarking|Sticky Web|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Cofagrigus|Cofagrigus, F|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Cofagrigus
+|-sidestart|p2: illomanu|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Houndoom|Houndoom, F|100/100
+|move|p2a: Cofagrigus|Trick||[still]
+|-fail|p2a: Cofagrigus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|-damage|p2a: Dragalge|88/100|[from] Stealth Rock
+|detailschange|p1a: Houndoom|Houndoom-Mega, F
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|move|p1a: Houndoom|Dark Pulse|p2a: Dragalge
+|-damage|p2a: Dragalge|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Houndoom|88/100|[from] ability: Solar Power|[of] p1a: Houndoom
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Dragalge|Draco Meteor|p1a: Blissey
+|-damage|p1a: Blissey|71/100
+|-unboost|p2a: Dragalge|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|inactive|Waschbarking has 120 seconds left.
+
+|inactive|Waschbarking has 90 seconds left.
+
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|switch|p2a: Cofagrigus|Cofagrigus, F|100/100
+|-damage|p2a: Cofagrigus|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Ribombee|Ribombee, F|94/100
+|-damage|p2a: Ribombee|69/100|[from] Stealth Rock
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|inactive|Waschbarking has 90 seconds left.
+
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Dragalge|Dragalge, M|55/100
+|-damage|p2a: Dragalge|42/100|[from] Stealth Rock
+|turn|9
+
+|
+|-zpower|p1a: Venusaur
+|move|p1a: Venusaur|Acid Downpour|p2a: Dragalge|[zeffect]
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|upkeep
+
+|
+|switch|p2a: Feraligatr|Feraligatr, F|100/100
+|-damage|p2a: Feraligatr|88/100|[from] Stealth Rock
+|turn|10
+
+|inactive|Waschbarking has 90 seconds left.
+
+|
+|move|p2a: Feraligatr|Ice Punch|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+
+|inactive|Waschbarking has 90 seconds left.
+
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|11
+
+|
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|move|p1a: Torkoal|Lava Plume|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|64/100
+|-status|p2a: Feraligatr|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Feraligatr|58/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Feraligatr|52/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Feraligatr|Crunch|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Feraligatr|46/100 brn|[from] brn
+|upkeep
+
+|inactive|Waschbarking has 120 seconds left.
+
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|turn|14
+
+|
+|move|p2a: Feraligatr|Liquidation|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|62/100
+|move|p1a: Torkoal|Lava Plume|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|21/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Feraligatr|15/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Feraligatr|Liquidation|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|23/100
+|move|p1a: Torkoal|Lava Plume|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Slaking|Slaking, M, shiny|100/100
+|-damage|p2a: Slaking|88/100|[from] Stealth Rock
+|turn|16
+
+|
+|switch|p1a: Blissey|Blissey, F|71/100
+|move|p2a: Slaking|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slaking|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, F|88/100
+|-damage|p2a: Cofagrigus|75/100|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Houndoom|Houndoom-Mega, F|88/100
+|move|p2a: Cofagrigus|Trick||[still]
+|-fail|p2a: Cofagrigus
+|
+|-weather|none
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Murkrow|Murkrow, M|100/100
+|-damage|p2a: Murkrow|76/100|[from] Stealth Rock
+|move|p1a: Houndoom|Dark Pulse|p2a: Murkrow
+|-resisted|p2a: Murkrow
+|-damage|p2a: Murkrow|54/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Murkrow|Calm Mind|p2a: Murkrow
+|-boost|p2a: Murkrow|spa|1
+|-boost|p2a: Murkrow|spd|1
+|move|p1a: Houndoom|Fire Blast|p2a: Murkrow
+|-damage|p2a: Murkrow|14/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Torkoal|Torkoal, F|23/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Murkrow|Roost|p2a: Murkrow
+|-heal|p2a: Murkrow|64/100
+|-singleturn|p2a: Murkrow|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+
+|
+|move|p2a: Murkrow|Dark Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Houndoom|Houndoom-Mega, F|88/100
+|turn|23
+
+|
+|move|p2a: Murkrow|Calm Mind|p2a: Murkrow
+|-boost|p2a: Murkrow|spa|1
+|-boost|p2a: Murkrow|spd|1
+|move|p1a: Houndoom|Fire Blast|p2a: Murkrow
+|-crit|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|faint|p2a: Murkrow
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Houndoom|76/100|[from] ability: Solar Power|[of] p1a: Houndoom
+|upkeep
+
+|
+|switch|p2a: Slaking|Slaking, M, shiny|94/100
+|-damage|p2a: Slaking|82/100|[from] Stealth Rock
+|turn|24
+
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Slaking|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slaking|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, F|75/100
+|-damage|p2a: Cofagrigus|63/100|[from] Stealth Rock
+|move|p1a: Scizor|Bug Bite|p2a: Cofagrigus
+|-resisted|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|44/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Technician|[of] p1a: Scizor
+|-damage|p1a: Scizor|37/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Houndoom|Houndoom-Mega, F|76/100
+|switch|p2a: Slaking|Slaking, M, shiny|88/100
+|-damage|p2a: Slaking|75/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Houndoom|63/100|[from] ability: Solar Power|[of] p1a: Houndoom
+|-heal|p2a: Slaking|81/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|switch|p1a: Blissey|Blissey, F|80/100
+|move|p2a: Slaking|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slaking|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, F|44/100
+|-damage|p2a: Cofagrigus|31/100|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|93/100
+|
+|-weather|none
+|upkeep
+|turn|29
+
+|
+|switch|p1a: Scizor|Scizor, M|37/100
+|move|p2a: Cofagrigus|Pain Split|p1a: Scizor
+|-sethp|p1a: Scizor|35/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Cofagrigus|33/100|[from] move: Pain Split
+|
+|upkeep
+|turn|30
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|7/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Technician|[of] p1a: Scizor
+|-damage|p1a: Scizor|25/100|[from] item: Life Orb
+|move|p2a: Cofagrigus|Pain Split|p1a: Scizor
+|-sethp|p1a: Scizor|16/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Cofagrigus|15/100|[from] move: Pain Split
+|
+|upkeep
+|turn|31
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-damage|p1a: Scizor|6/100|[from] item: Life Orb
+|faint|p2a: Cofagrigus
+|
+|upkeep
+
+|
+|switch|p2a: Slaking|Slaking, M, shiny|88/100
+|-damage|p2a: Slaking|75/100|[from] Stealth Rock
+|turn|32
+
+|
+|-activate|p1a: Scizor|move: Pursuit
+|move|p2a: Slaking|Pursuit|p1a: Scizor|[from]Pursuit
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-activate|p1a: Scizor|ability: Mummy|Truant|[of] p2a: Slaking
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Scizor
+|
+|-heal|p2a: Slaking|81/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Blissey|Blissey, F|93/100
+|turn|33
+
+|
+|move|p2a: Slaking|Power-Up Punch|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|-boost|p2a: Slaking|atk|1
+|move|p1a: Blissey|Sunny Day|p1a: Blissey
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slaking|87/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p2a: Slaking|Return|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slaking|93/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Houndoom|Houndoom-Mega, F|63/100
+|turn|35
+
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Slaking|[miss]
+|-miss|p1a: Houndoom|p2a: Slaking
+|move|p2a: Slaking|Earthquake|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|win|illomanu

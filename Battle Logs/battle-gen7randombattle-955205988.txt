@@ -1,0 +1,381 @@
+|init|battle
+|title|Ammesso vs. Bobbyforminho
+|j|☆Ammesso
+|j|☆Bobbyforminho
+|player|p1|Ammesso|2|
+|player|p2|Bobbyforminho|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wigglytuff|Wigglytuff, L89, M|100/100
+|switch|p2a: Beartic|Beartic, L89, M|100/100
+|turn|1
+|
+|move|p2a: Beartic|Night Slash|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|88/100
+|move|p1a: Wigglytuff|Fire Blast|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|49/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Beartic|Icicle Crash|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|41/100
+|move|p1a: Wigglytuff|Stealth Rock|p2a: Beartic
+|-sidestart|p2: Bobbyforminho|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Beartic|Icicle Crash|p1a: Wigglytuff|[miss]
+|-miss|p2a: Beartic|p1a: Wigglytuff
+|move|p1a: Wigglytuff|Fire Blast|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|2/100
+|-status|p2a: Beartic|brn
+|
+|-damage|p2a: Beartic|0 fnt|[from] brn
+|faint|p2a: Beartic
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ammesso)
+
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, M|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|turn|4
+
+|
+|move|p1a: Wigglytuff|Wish|p1a: Wigglytuff
+|move|p2a: Rhyperior|Earthquake|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|upkeep
+
+|
+|switch|p1a: Ludicolo|Ludicolo, L88, F|100/100
+|turn|5
+
+|
+|switch|p2a: Bisharp|Bisharp, L82, F|100/100
+|-damage|p2a: Bisharp|94/100|[from] Stealth Rock
+|move|p1a: Ludicolo|Giga Drain|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|65/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Ludicolo|Giga Drain|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|34/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Ludicolo|Giga Drain|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|2/100
+|move|p2a: Bisharp|Low Kick|p1a: Ludicolo
+|-damage|p1a: Ludicolo|35/100
+|-damage|p2a: Bisharp|0 fnt|[from] item: Life Orb
+|faint|p2a: Bisharp
+|
+|upkeep
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-damage|p2a: Porygon-Z|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Ludicolo
+|-damage|p1a: Ludicolo|11/100
+|move|p1a: Ludicolo|Giga Drain|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|37/100
+|-heal|p1a: Ludicolo|35/100|[from] drain|[of] p2a: Porygon-Z
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Jirachi|Jirachi, L80|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Ludicolo|Giga Drain|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|74/100
+|-heal|p1a: Ludicolo|46/100|[from] drain|[of] p2a: Jirachi
+|
+|-heal|p2a: Jirachi|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Ludicolo|Giga Drain|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|60/100
+|-heal|p1a: Ludicolo|56/100|[from] drain|[of] p2a: Jirachi
+|
+|-heal|p2a: Jirachi|66/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|81/100
+|-status|p1a: Conkeldurr|par
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|12
+
+|inactive|Bobbyforminho has 270 seconds left.
+
+|
+|move|p2a: Jirachi|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|74/100 par
+
+|
+|switch|p2a: Houndoom|Houndoom, L83, F|100/100|[from]move: U-turn
+|-damage|p2a: Houndoom|76/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Bulk Up|p1a: Conkeldurr
+|-boost|p1a: Conkeldurr|atk|1
+|-boost|p1a: Conkeldurr|def|1
+|
+|upkeep
+|turn|13
+
+|inactive|Bobbyforminho has 270 seconds left.
+
+|
+|detailschange|p2a: Houndoom|Houndoom-Mega, L83, F
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p1a: Conkeldurr|Mach Punch|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|upkeep
+
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, M|94/100
+|-damage|p2a: Rhyperior|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|46/100
+|-enditem|p2a: Rhyperior|Weakness Policy
+|-boost|p2a: Rhyperior|atk|2
+|-boost|p2a: Rhyperior|spa|2
+|move|p2a: Rhyperior|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|11/100 par
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+
+|
+|switch|p1a: Ludicolo|Ludicolo, L88, F|56/100
+|turn|16
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|37/100
+|-damage|p2a: Porygon-Z|25/100|[from] Stealth Rock
+|move|p1a: Ludicolo|Giga Drain|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|-heal|p1a: Ludicolo|67/100|[from] drain|[of] p2a: Porygon-Z
+|faint|p2a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p2a: Jirachi|Jirachi, L80|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Jirachi|Body Slam|p1a: Ludicolo
+|-damage|p1a: Ludicolo|43/100
+|-status|p1a: Ludicolo|par
+|move|p1a: Ludicolo|Giga Drain|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|76/100
+|-heal|p1a: Ludicolo|52/100 par|[from] drain|[of] p2a: Jirachi
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Klinklang|Klinklang, L86|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|91/100
+|
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Klinklang|97/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Jirachi|Iron Head|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|84/100
+|move|p1a: Klinklang|Substitute|p1a: Klinklang
+|-start|p1a: Klinklang|Substitute
+|-damage|p1a: Klinklang|59/100
+|
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Klinklang|65/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Jirachi|U-turn|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-activate|p1a: Klinklang|move: Substitute|[damage]
+
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, M|46/100|[from]move: U-turn
+|-damage|p2a: Rhyperior|40/100|[from] Stealth Rock
+|move|p1a: Klinklang|Shift Gear|p1a: Klinklang
+|-boost|p1a: Klinklang|spe|2
+|-boost|p1a: Klinklang|atk|1
+|
+|-heal|p1a: Klinklang|71/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Rhyperior|[miss]
+|-miss|p1a: Klinklang|p2a: Rhyperior
+|move|p2a: Rhyperior|Earthquake|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-end|p1a: Klinklang|Substitute
+|
+|-heal|p1a: Klinklang|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|10/100
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-hitcount|p2a: Rhyperior|2
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Klinklang|84/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Jirachi|Jirachi, L80|94/100
+|-damage|p2a: Jirachi|88/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p1a: Klinklang|Return|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|70/100
+|move|p2a: Jirachi|Body Slam|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|74/100
+|-status|p1a: Klinklang|par
+|
+|-heal|p2a: Jirachi|76/100|[from] item: Leftovers
+|-heal|p1a: Klinklang|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Jirachi|U-turn|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|72/100 par
+|move|p1a: Klinklang|Gear Grind|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|61/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|48/100
+|-hitcount|p2a: Jirachi|2
+|
+|-heal|p2a: Jirachi|54/100|[from] item: Leftovers
+|-heal|p1a: Klinklang|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p1a: Araquanid|Araquanid, L84, M|100/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Jirachi|Iron Head|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-crit|p1a: Araquanid
+|-damage|p1a: Araquanid|77/100
+|move|p1a: Araquanid|Toxic|p2a: Jirachi
+|-immune|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Araquanid|83/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Jirachi|Body Slam|p1a: Araquanid
+|-damage|p1a: Araquanid|61/100
+|move|p1a: Araquanid|Leech Life|p2a: Jirachi
+|-damage|p2a: Jirachi|80/100
+|-heal|p1a: Araquanid|73/100|[from] drain|[of] p2a: Jirachi
+|
+|-heal|p2a: Jirachi|86/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|79/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Jirachi|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|60/100
+|move|p1a: Araquanid|Liquidation|p2a: Jirachi
+|-damage|p2a: Jirachi|38/100
+|
+|-heal|p2a: Jirachi|44/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|66/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Araquanid|Liquidation|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|win|Ammesso

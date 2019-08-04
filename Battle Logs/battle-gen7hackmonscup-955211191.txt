@@ -1,0 +1,308 @@
+|init|battle
+|title|nenu18 vs. Irishpapi
+|j|☆nenu18
+|j|☆Irishpapi
+|player|p1|nenu18|266|1029
+|player|p2|Irishpapi|293|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Hackmons Cup
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Unfezant|Unfezant, L75, M|100/100
+|switch|p2a: Sandygast|Sandygast, L87, M|100/100
+|turn|1
+|
+|move|p1a: Unfezant|Spiky Shield|p1a: Unfezant
+|-singleturn|p1a: Unfezant|move: Protect
+|move|p2a: Sandygast|Ice Fang|p1a: Unfezant
+|-activate|p1a: Unfezant|move: Protect
+|-damage|p2a: Sandygast|88/100|[from] Spiky Shield|[of] p1a: Unfezant
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Emboar|Emboar, L73, F|100/100
+|-item|p1a: Emboar|Air Balloon
+|move|p2a: Sandygast|Ice Fang|p1a: Emboar
+|-resisted|p1a: Emboar
+|-damage|p1a: Emboar|94/100
+|-enditem|p1a: Emboar|Air Balloon
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Emboar|Leaf Tornado|p2a: Sandygast
+|-supereffective|p2a: Sandygast
+|-damage|p2a: Sandygast|53/100
+|-unboost|p2a: Sandygast|accuracy|1
+|move|p2a: Sandygast|Bone Club|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|48/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Unfezant|Unfezant, L75, M|100/100
+|move|p2a: Sandygast|Leech Seed|p1a: Unfezant
+|-start|p1a: Unfezant|move: Leech Seed
+|
+|-damage|p1a: Unfezant|88/100|[from] Leech Seed|[of] p2a: Sandygast
+|-heal|p2a: Sandygast|64/100|[silent]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Unfezant|Prismatic Laser|p2a: Sandygast
+|-damage|p2a: Sandygast|31/100
+|-mustrecharge|p1a: Unfezant
+|move|p2a: Sandygast|Ice Fang|p1a: Unfezant
+|-supereffective|p1a: Unfezant
+|-damage|p1a: Unfezant|65/100
+|
+|-damage|p1a: Unfezant|53/100|[from] Leech Seed|[of] p2a: Sandygast
+|-heal|p2a: Sandygast|42/100|[silent]
+|upkeep
+|turn|6
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nenu18)
+
+|
+|cant|p1a: Unfezant|recharge
+|move|p2a: Sandygast|Ice Fang|p1a: Unfezant|[miss]
+|-miss|p2a: Sandygast|p1a: Unfezant
+|
+|-damage|p1a: Unfezant|40/100|[from] Leech Seed|[of] p2a: Sandygast
+|-heal|p2a: Sandygast|54/100|[silent]
+|upkeep
+|turn|7
+
+|
+|move|p1a: Unfezant|Spiky Shield|p1a: Unfezant
+|-singleturn|p1a: Unfezant|move: Protect
+|move|p2a: Sandygast|Ice Fang|p1a: Unfezant
+|-activate|p1a: Unfezant|move: Protect
+|-damage|p2a: Sandygast|41/100|[from] Spiky Shield|[of] p1a: Unfezant
+|
+|-damage|p1a: Unfezant|28/100|[from] Leech Seed|[of] p2a: Sandygast
+|-heal|p2a: Sandygast|52/100|[silent]
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Arcanine|Arcanine, L71, F|100/100
+|move|p2a: Sandygast|Ice Fang|p1a: Arcanine|[miss]
+|-miss|p2a: Sandygast|p1a: Arcanine
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Arcanine|Whirlpool|p2a: Sandygast
+|-supereffective|p2a: Sandygast
+|-damage|p2a: Sandygast|34/100
+|-activate|p2a: Sandygast|move: Whirlpool|[of] p1a: Arcanine
+|move|p2a: Sandygast|Leech Seed|p1a: Arcanine
+|-start|p1a: Arcanine|move: Leech Seed
+|
+|-damage|p1a: Arcanine|88/100|[from] Leech Seed|[of] p2a: Sandygast
+|-heal|p2a: Sandygast|46/100|[silent]
+|-damage|p2a: Sandygast|33/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|10
+
+|
+|move|p1a: Arcanine|Iron Head|p2a: Sandygast
+|-damage|p2a: Sandygast|12/100
+|move|p2a: Sandygast|Bone Club|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|45/100
+|
+|-damage|p1a: Arcanine|32/100|[from] Leech Seed|[of] p2a: Sandygast
+|-heal|p2a: Sandygast|23/100|[silent]
+|-damage|p2a: Sandygast|11/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Sawk|Sawk, L76, M|100/100
+|-item|p2a: Sawk|Air Balloon
+|move|p1a: Arcanine|Iron Head|p2a: Sawk
+|-damage|p2a: Sawk|75/100
+|-enditem|p2a: Sawk|Air Balloon
+|
+|-damage|p1a: Arcanine|20/100|[from] Leech Seed|[of] p2a: Sawk
+|-heal|p2a: Sawk|88/100|[silent]
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Unfezant|Unfezant, L75, M|28/100
+|move|p2a: Sawk|Meteor Mash|p1a: Unfezant
+|-damage|p1a: Unfezant|0 fnt
+|faint|p1a: Unfezant
+|
+|upkeep
+
+|
+|switch|p1a: Ambipom|Ambipom, L75, M|100/100
+|turn|13
+
+|inactive|Irishpapi has 120 seconds left.
+
+|
+|move|p1a: Ambipom|Grass Whistle|p2a: Sawk|[miss]
+|-miss|p1a: Ambipom|p2a: Sawk
+|move|p2a: Sawk|Submission|p1a: Ambipom
+|-supereffective|p1a: Ambipom
+|-damage|p1a: Ambipom|0 fnt
+|-damage|p2a: Sawk|61/100|[from] Recoil
+|faint|p1a: Ambipom
+|
+|upkeep
+
+|
+|switch|p1a: Arcanine|Arcanine, L71, F|20/100
+|turn|14
+
+|
+|move|p1a: Arcanine|Aerial Ace|p2a: Sawk
+|-supereffective|p2a: Sawk
+|-damage|p2a: Sawk|20/100
+|move|p2a: Sawk|Meteor Mash|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|10/100
+|
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Sandygast|Sandygast, L87, M|11/100
+|move|p1a: Arcanine|Aerial Ace|p2a: Sandygast
+|-damage|p2a: Sandygast|0 fnt
+|faint|p2a: Sandygast
+|
+|upkeep
+
+|
+|switch|p2a: Dewpider|Dewpider, L91, F|100/100
+|turn|16
+
+|
+|move|p1a: Arcanine|Aerial Ace|p2a: Dewpider
+|-supereffective|p2a: Dewpider
+|-damage|p2a: Dewpider|53/100
+|-damage|p1a: Arcanine|0 fnt|[from] ability: Rough Skin|[of] p2a: Dewpider
+|faint|p1a: Arcanine
+|move|p2a: Dewpider|Twister|p1: Arcanine|[notarget]
+|-fail|p2a: Dewpider
+|
+|upkeep
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, L73, M|100/100
+|turn|17
+
+|
+|move|p1a: Tyrantrum|Stone Edge|p2a: Dewpider
+|-supereffective|p2a: Dewpider
+|-crit|p2a: Dewpider
+|-damage|p2a: Dewpider|0 fnt
+|faint|p2a: Dewpider
+|
+|upkeep
+
+|
+|switch|p2a: Heatmor|Heatmor, L75, F|100/100
+|turn|18
+
+|
+|move|p2a: Heatmor|Ice Hammer|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|49/100
+|-unboost|p2a: Heatmor|spe|1
+|move|p1a: Tyrantrum|Stone Edge|p2a: Heatmor
+|-supereffective|p2a: Heatmor
+|-damage|p2a: Heatmor|1/100
+|
+|-damage|p2a: Heatmor|0 fnt|[from] item: Black Sludge
+|faint|p2a: Heatmor
+|upkeep
+
+|
+|switch|p2a: Eelektrik|Eelektrik, L80, M|100/100
+|turn|19
+
+|
+|move|p1a: Tyrantrum|Stone Edge|p2a: Eelektrik
+|-damage|p2a: Eelektrik|47/100
+|move|p2a: Eelektrik|Spacial Rend|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-crit|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|faint|p1a: Tyrantrum
+|
+|upkeep
+
+|
+|switch|p1a: Emboar|Emboar, L73, F|48/100
+|turn|20
+
+|
+|move|p1a: Emboar|Leaf Tornado|p2a: Eelektrik
+|-damage|p2a: Eelektrik|26/100
+|-unboost|p2a: Eelektrik|accuracy|1
+|move|p2a: Eelektrik|Plasma Fists|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Emboar
+|
+|upkeep
+
+|
+|switch|p1a: Hakamo-o|Hakamo-o, L79, M|100/100
+|-transform|p1a: Hakamo-o|p2a: Eelektrik|[from] ability: Imposter
+|turn|21
+
+|
+|move|p1a: Hakamo-o|Spacial Rend|p2a: Eelektrik
+|-damage|p2a: Eelektrik|2/100
+|move|p2a: Eelektrik|Wring Out|p1a: Hakamo-o
+|-damage|p1a: Hakamo-o|61/100
+|
+|upkeep
+|turn|22
+
+|
+|move|p1a: Hakamo-o|Heat Crash|p2a: Eelektrik
+|-damage|p2a: Eelektrik|0 fnt
+|faint|p2a: Eelektrik
+|
+|upkeep
+
+|
+|switch|p2a: Sawk|Sawk, L76, M|20/100
+|turn|23
+
+|
+|move|p2a: Sawk|Synthesis|p2a: Sawk
+|-heal|p2a: Sawk|70/100
+|move|p1a: Hakamo-o|Heat Crash|p2a: Sawk|[miss]
+|-miss|p1a: Hakamo-o|p2a: Sawk
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Sawk|Submission|p1a: Hakamo-o
+|-damage|p1a: Hakamo-o|0 fnt
+|-damage|p2a: Sawk|58/100|[from] Recoil
+|faint|p1a: Hakamo-o
+|
+|win|Irishpapi

@@ -1,0 +1,60 @@
+|init|battle
+|title|illama222 vs. zadocfish3
+|j|☆illama222
+|j|☆zadocfish3
+|player|p1|illama222|137|1047
+|player|p2|zadocfish3|10|1250
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Altaria, F|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Dragalge, M|item
+|poke|p2|Slaking, F|item
+|poke|p2|Bewear, M|item
+|poke|p2|Scolipede, F|item
+|teampreview|1
+|
+|start
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|switch|p2a: Bewear|Bewear, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|1
+|
+|move|p1a: Haxorus|Outrage|p2a: Bewear
+|-damage|p2a: Bewear|39/100
+|move|p2a: Bewear|Flail|p1a: Haxorus
+|-damage|p1a: Haxorus|73/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Bewear|Endure|p2a: Bewear
+|-singleturn|p2a: Bewear|move: Endure
+|move|p1a: Haxorus|Outrage|p2a: Bewear|[from]lockedmove
+|-activate|p2a: Bewear|move: Endure
+|-damage|p2a: Bewear|1/100
+|
+|upkeep
+|turn|3
+
+|-enditem|p2a: Bewear|Custap Berry|[eat]
+|-activate|p2a: Bewear|item: Custap Berry|[consumed]
+|
+|move|p2a: Bewear|Flail|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|win|zadocfish3

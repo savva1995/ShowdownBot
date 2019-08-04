@@ -1,0 +1,49 @@
+|init|battle
+|title|5luke vs. missy102
+|j|☆5luke
+|j|☆missy102
+|player|p1|5luke|47|1680
+|player|p2|missy102|1|1388
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gourgeist-*, M|item
+|poke|p1|Goodra, M|item
+|poke|p1|Diancie|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, F|item
+|teampreview|1
+|
+|start
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Outrage|p1a: Gourgeist
+|-damage|p1a: Gourgeist|48/100
+|-zpower|p1a: Gourgeist
+|move|p1a: Gourgeist|Never-Ending Nightmare|p2a: Garchomp|[zeffect]
+|-damage|p2a: Garchomp|17/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Gourgeist|36/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|win|5luke

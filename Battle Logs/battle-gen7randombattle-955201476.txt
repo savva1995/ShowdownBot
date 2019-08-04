@@ -1,0 +1,191 @@
+|init|battle
+|title|Aswid vs. BourneHub
+|j|☆Aswid
+|j|☆BourneHub
+|player|p1|Aswid|99|1101
+|player|p2|BourneHub|169|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bisharp|Bisharp, L82, F|100/100
+|switch|p2a: Palkia|Palkia, L78|100/100
+|-ability|p2a: Palkia|Pressure
+|turn|1
+|
+|move|p2a: Palkia|Thunder Wave|p1a: Bisharp|[miss]
+|-miss|p2a: Palkia|p1a: Bisharp
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Palkia|Thunder Wave|p1a: Bisharp
+|-status|p1a: Bisharp|par
+|move|p1a: Bisharp|Knock Off|p2a: Palkia
+|-damage|p2a: Palkia|18/100
+|-enditem|p2a: Palkia|Lustrous Orb|[from] move: Knock Off|[of] p1a: Bisharp
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BourneHub)
+
+|
+|move|p1a: Bisharp|Knock Off|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|
+|upkeep
+
+|
+|switch|p2a: Marowak|Marowak-Alola, L84, F|100/100
+|turn|4
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|upkeep
+
+|
+|switch|p2a: Gengar|Gengar, L78, M|100/100
+|turn|5
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L78, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Focus Blast|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-enditem|p1a: Bisharp|Focus Sash
+|-damage|p1a: Bisharp|1/100 par
+|move|p1a: Bisharp|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, L81, M|100/100
+|turn|6
+
+|
+|move|p2a: Weavile|Ice Shard|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|upkeep
+
+|
+|switch|p1a: Diancie|Diancie, L80|100/100
+|turn|7
+
+|
+|detailschange|p1a: Diancie|Diancie-Mega, L80
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Diancie|Calm Mind|p1a: Diancie
+|-boost|p1a: Diancie|spa|1
+|-boost|p1a: Diancie|spd|1
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Weavile|Knock Off|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|61/100
+|-damage|p2a: Weavile|81/100|[from] item: Life Orb
+|move|p1a: Diancie|Moonblast|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L89, M|100/100
+|turn|9
+
+|
+|move|p1a: Diancie|Hidden Power|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|68/100
+|move|p2a: Mr. Mime|Shadow Ball|p1a: Diancie
+|-damage|p1a: Diancie|43/100
+|-unboost|p1a: Diancie|spd|1
+|
+|-heal|p2a: Mr. Mime|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Diancie|Hidden Power|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|42/100
+|move|p2a: Mr. Mime|Shadow Ball|p1a: Diancie
+|-damage|p1a: Diancie|15/100
+|
+|-heal|p2a: Mr. Mime|48/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Audino|Audino, L88, M|100/100
+|move|p1a: Diancie|Hidden Power|p2a: Audino
+|-damage|p2a: Audino|76/100
+|
+|-heal|p2a: Audino|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Diancie|Psyshock|p2a: Audino
+|-damage|p2a: Audino|45/100
+|move|p2a: Audino|Toxic|p1a: Diancie
+|move|p1a: Diancie|Toxic|p2a: Audino|[from]Magic Bounce
+|-status|p2a: Audino|tox
+|
+|-heal|p2a: Audino|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|45/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Diancie|Psyshock|p2a: Audino
+|-damage|p2a: Audino|12/100 tox
+|move|p2a: Audino|Heal Bell|p2a: Audino
+|-activate|p2a: Audino|move: Heal Bell
+|-curestatus|p2a: Audino|tox|[msg]
+|
+|-heal|p2a: Audino|18/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Diancie|Psyshock|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|upkeep
+
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L89, M|48/100
+|turn|15
+
+|
+|move|p1a: Diancie|Moonblast|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|win|Aswid

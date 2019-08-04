@@ -1,0 +1,541 @@
+|init|battle
+|title|marcozanin vs. tardix1131
+|j|☆marcozanin
+|j|☆tardix1131
+|player|p1|marcozanin|257|1411
+|player|p2|tardix1131|53|1345
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Toxapex, M|item
+|poke|p1|Greninja, M|item
+|poke|p1|Celesteela|item
+|poke|p2|Heatran, F|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Greninja, M|item
+|poke|p2|Mawile, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tornadus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Bulu|94/100|[from] Sandstorm
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p2a: Tapu Bulu|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Toxapex
+|-damage|p1a: Toxapex|60/100
+|move|p1a: Toxapex|Scald|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|94/100
+|-status|p2a: Tapu Bulu|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Bulu|88/100 brn|[from] Sandstorm
+|-damage|p1a: Toxapex|54/100|[from] Sandstorm
+|-heal|p2a: Tapu Bulu|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|100/100 brn|[from] Grassy Terrain
+|-heal|p1a: Toxapex|60/100|[from] item: Black Sludge
+|-heal|p1a: Toxapex|66/100|[from] Grassy Terrain
+|-damage|p2a: Tapu Bulu|94/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Celesteela|Celesteela|100/100
+|move|p2a: Tapu Bulu|Bulk Up|p2a: Tapu Bulu
+|-boost|p2a: Tapu Bulu|atk|1
+|-boost|p2a: Tapu Bulu|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Bulu|88/100 brn|[from] Sandstorm
+|-heal|p2a: Tapu Bulu|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|100/100 brn|[from] Grassy Terrain
+|-damage|p2a: Tapu Bulu|94/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Tapu Bulu|Bulk Up|p2a: Tapu Bulu
+|-boost|p2a: Tapu Bulu|atk|1
+|-boost|p2a: Tapu Bulu|def|1
+|move|p1a: Celesteela|Flamethrower|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|62/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Bulu|56/100 brn|[from] Sandstorm
+|-heal|p2a: Tapu Bulu|62/100 brn|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|68/100 brn|[from] Grassy Terrain
+|-damage|p2a: Tapu Bulu|62/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Tapu Bulu|Superpower|p1a: Celesteela
+|-damage|p1a: Celesteela|71/100
+|-unboost|p2a: Tapu Bulu|atk|1
+|-unboost|p2a: Tapu Bulu|def|1
+|move|p1a: Celesteela|Flamethrower|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|32/100 brn
+|
+|-weather|none
+|-heal|p2a: Tapu Bulu|38/100 brn|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|44/100 brn|[from] Grassy Terrain
+|-heal|p1a: Celesteela|77/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Tapu Bulu|38/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Celesteela|Heavy Slam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|96/100
+|
+|-heal|p1a: Celesteela|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Heatran|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: marcozanin|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Greninja
+|-sidestart|p2: tardix1131|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|95/100|[from] Sandstorm
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Toxapex|Toxapex, M|99/100
+|-damage|p1a: Toxapex|87/100|[from] Stealth Rock
+|move|p2a: Greninja|Spikes|p1a: Toxapex
+|-sidestart|p1: marcozanin|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|89/100|[from] Sandstorm
+|-damage|p1a: Toxapex|81/100|[from] Sandstorm
+|-heal|p1a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|move|p1a: Toxapex|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|81/100|[from] Sandstorm
+|-heal|p1a: Toxapex|87/100|[from] item: Black Sludge
+|-damage|p2a: Landorus|82/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Celesteela|Celesteela|83/100
+|-damage|p1a: Celesteela|71/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|65/100
+
+|
+|switch|p2a: Heatran|Heatran, F|96/100|[from]move: U-turn
+|-damage|p2a: Heatran|83/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Celesteela|72/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|88/100|[from] Spikes
+|-damage|p1a: Hippowdon|82/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Heatran|Magma Storm|p1a: Hippowdon
+|-damage|p1a: Hippowdon|28/100
+|-activate|p1a: Hippowdon|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|34/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|22/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+
+|
+|move|p2a: Heatran|Magma Storm|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-damage|p1a: Excadrill|85/100|[from] Stealth Rock
+|turn|14
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|82/100 tox
+|-damage|p2a: Landorus|70/100 tox|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|64/100 tox
+|-sideend|p1: marcozanin|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: marcozanin|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Landorus|58/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Celesteela|Celesteela|72/100
+|move|p2a: Landorus|Earthquake|p1a: Celesteela
+|-immune|p1a: Celesteela
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Celesteela|78/100|[from] item: Leftovers
+|-damage|p2a: Landorus|47/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Celesteela|Leech Seed|p2a: Tornadus
+|-start|p2a: Tornadus|move: Leech Seed
+|
+|-weather|none
+|-heal|p1a: Celesteela|84/100|[from] item: Leftovers
+|-damage|p2a: Tornadus|63/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|95/100|[silent]
+|upkeep
+|turn|17
+
+|
+|move|p2a: Tornadus|Defog|p1a: Celesteela
+|-unboost|p1a: Celesteela|evasion|1
+|-sideend|p2: tardix1131|Stealth Rock|[from] move: Defog|[of] p2a: Tornadus
+|move|p1a: Celesteela|Heavy Slam|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p1a: Celesteela|78/100|[from] item: Rocky Helmet|[of] p2a: Tornadus
+|faint|p2a: Tornadus
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spd|1
+|
+|-heal|p1a: Celesteela|84/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, F|83/100
+|turn|18
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|51/100
+|-activate|p1a: Greninja|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Greninja|39/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|38/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Greninja|Spikes|p2a: Tapu Bulu
+|-sidestart|p2: tardix1131|Spikes
+|
+|-heal|p1a: Greninja|45/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|44/100 brn|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|50/100 brn|[from] Grassy Terrain
+|-damage|p2a: Tapu Bulu|44/100 brn|[from] brn
+|-end|p1a: Greninja|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Celesteela|Celesteela|84/100
+|move|p2a: Tapu Bulu|Synthesis|p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|94/100 brn
+|
+|-heal|p2a: Tapu Bulu|99/100 brn|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|100/100 brn|[from] Grassy Terrain
+|-heal|p1a: Celesteela|90/100|[from] item: Leftovers
+|-damage|p2a: Tapu Bulu|94/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Heatran|Heatran, F|83/100
+|-damage|p2a: Heatran|71/100|[from] Spikes
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|
+|-heal|p2a: Heatran|77/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|47/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|detailschange|p1a: Garchomp|Garchomp-Mega, M
+|-mega|p1a: Garchomp|Garchomp|Garchompite
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-damage|p2a: Landorus|41/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Landorus|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|79/100
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|94/100 brn|[from]move: U-turn
+|-damage|p2a: Tapu Bulu|82/100 brn|[from] Spikes
+|move|p1a: Garchomp|Stone Edge|p2a: Tapu Bulu|[miss]
+|-miss|p1a: Garchomp|p2a: Tapu Bulu
+|
+|-heal|p1a: Garchomp|85/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|88/100 brn|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|94/100 brn|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Tapu Bulu|88/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Garchomp
+|-damage|p1a: Garchomp|72/100
+|-heal|p2a: Tapu Bulu|95/100 brn|[from] drain|[of] p1a: Garchomp
+|
+|-heal|p2a: Tapu Bulu|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Tapu Bulu|94/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|
+|move|p1a: Garchomp|Fire Fang|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|89/100
+|-damage|p2a: Greninja|76/100|[from] Spikes
+|turn|26
+
+|
+|move|p2a: Greninja|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|27
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|41/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|move|p1a: Toxapex|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|-damage|p2a: Mawile|88/100|[from] Spikes
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|turn|28
+
+|
+|switch|p1a: Celesteela|Celesteela|90/100
+|detailschange|p2a: Mawile|Mawile-Mega, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|-heal|p1a: Celesteela|96/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Mawile|Knock Off|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|-enditem|p1a: Celesteela|Leftovers|[from] move: Knock Off|[of] p2a: Mawile
+|faint|p1a: Celesteela
+|
+|upkeep
+
+|
+|switch|p1a: Excadrill|Excadrill, F|85/100
+|turn|30
+
+|
+|move|p2a: Mawile|Sucker Punch|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|45/100
+|turn|31
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Mawile
+|-damage|p2a: Mawile|75/100
+|-damage|p2a: Mawile|61/100
+|-damage|p2a: Mawile|48/100
+|-hitcount|p2a: Mawile|3
+|move|p2a: Mawile|Sucker Punch||[still]
+|-fail|p2a: Mawile
+|
+|upkeep
+|turn|32
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Mawile
+|-damage|p2a: Mawile|33/100
+|-damage|p2a: Mawile|19/100
+|-damage|p2a: Mawile|5/100
+|-damage|p2a: Mawile|0 fnt
+|-hitcount|p2a: Mawile|4
+|faint|p2a: Mawile
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja-Ash, M|76/100
+|-damage|p2a: Greninja|64/100|[from] Spikes
+|turn|33
+
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Greninja|Hydro Pump|p1a: Toxapex|[miss]
+|-miss|p2a: Greninja|p1a: Toxapex
+|
+|upkeep
+|turn|34
+
+|
+|switch|p2a: Heatran|Heatran, F|77/100
+|-damage|p2a: Heatran|65/100|[from] Spikes
+|move|p1a: Toxapex|Toxic|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|upkeep
+|turn|35
+
+|
+|move|p2a: Heatran|Magma Storm|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|82/100
+|-activate|p1a: Toxapex|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Toxapex|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|31/100
+|
+|-heal|p1a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|76/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|36
+
+|
+|-zpower|p2a: Heatran
+|move|p2a: Heatran|Bloom Doom|p1a: Toxapex|[zeffect]
+|-damage|p1a: Toxapex|33/100
+|move|p1a: Toxapex|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Toxapex|40/100|[from] item: Black Sludge
+|-end|p1a: Toxapex|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja-Ash, M|64/100
+|-damage|p2a: Greninja|52/100|[from] Spikes
+|turn|37
+
+|
+|move|p2a: Greninja|Hydro Pump|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|7/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|57/100
+|
+|-heal|p1a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+
+|-message|tardix1131 forfeited.
+
+|
+|win|marcozanin

@@ -1,0 +1,204 @@
+|init|battle
+|title|SmartCuteErichika vs. maxpox
+|j|☆SmartCuteErichika
+|j|☆maxpox
+|player|p1|SmartCuteErichika|70|1608
+|player|p2|maxpox|169|1503
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Rayquaza, L50|item
+|poke|p1|Kyogre, L50|item
+|poke|p1|Tapu Koko, L50|item
+|poke|p1|Incineroar, L50, F|item
+|poke|p1|Ferrothorn, L50, M|item
+|poke|p1|Nihilego, L50|item
+|poke|p2|Houndoom, L50, M|item
+|poke|p2|Groudon, L50|item
+|poke|p2|Necrozma-Dusk-Mane, L50|item
+|poke|p2|Tapu Lele, L50|item
+|poke|p2|Ferrothorn, L50, M|item
+|poke|p2|Crobat, L50, F|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SmartCuteErichika)
+|inactive|maxpox has 60 seconds left.
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko, L50|48/48
+|switch|p1b: Kyogre|Kyogre, L50|48/48
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane, L50|48/48
+|switch|p2b: Ferrothorn|Ferrothorn, L50, M|48/48
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|detailschange|p1b: Kyogre|Kyogre-Primal, L50
+|-primal|p1b: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1b: Kyogre
+|turn|1
+|inactive|SmartCuteErichika has 30 seconds left.
+|inactive|SmartCuteErichika has 20 seconds left.
+|
+|switch|p2a: Groudon|Groudon, L50|48/48
+|detailschange|p2a: Groudon|Groudon-Primal, L50
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|switch|p1b: Incineroar|Incineroar, L50, F|48/48
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2b: Ferrothorn|atk|1
+|move|p1a: Tapu Koko|Volt Switch|p2b: Ferrothorn
+|-resisted|p2b: Ferrothorn
+|-damage|p2b: Ferrothorn|41/48
+|
+|switch|p1a: Kyogre|Kyogre-Primal, L50|48/48|[from]move: Volt Switch
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|move|p2b: Ferrothorn|Power Whip|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|39/48
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Tapu Lele|Tapu Lele, L50|48/48
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|switch|p1b: Rayquaza|Rayquaza, L50|48/48
+|-ability|p1b: Rayquaza|Air Lock
+|move|p1a: Kyogre|Water Spout|p2b: Ferrothorn|[spread] p2a,p2b
+|-resisted|p2b: Ferrothorn
+|-damage|p2a: Tapu Lele|15/48
+|-damage|p2b: Ferrothorn|31/48
+|move|p2b: Ferrothorn|Power Whip|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|21/48
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|3
+|inactive|maxpox has 30 seconds left.
+|
+|-weather|none
+|switch|p1a: Incineroar|Incineroar, L50, F|39/48
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|-unboost|p2b: Ferrothorn|atk|1
+|switch|p2b: Necrozma|Necrozma-Dusk-Mane, L50|48/48
+|move|p1b: Rayquaza|Protect|p1b: Rayquaza
+|-singleturn|p1b: Rayquaza|Protect
+|move|p2a: Tapu Lele|Psyshock|p1a: Incineroar
+|-immune|p1a: Incineroar
+|
+|upkeep
+|turn|4
+
+|inactive|SmartCuteErichika has 30 seconds left.
+
+|
+|detailschange|p2b: Necrozma|Necrozma-Ultra, L50
+|-burst|p2b: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Tapu Lele|Psyshock|p1b: Rayquaza
+|-damage|p1b: Rayquaza|16/48
+|move|p2b: Necrozma|Photon Geyser|p1b: Rayquaza
+|-damage|p1b: Rayquaza|0 fnt
+|faint|p1b: Rayquaza
+|move|p1a: Incineroar|Flare Blitz|p2b: Necrozma
+|-resisted|p2b: Necrozma
+|-damage|p2b: Necrozma|35/48
+|-status|p2b: Necrozma|brn
+|-damage|p1a: Incineroar|35/48|[from] Recoil
+|
+|-damage|p2b: Necrozma|32/48 brn|[from] brn
+|upkeep
+
+|
+|switch|p1b: Tapu Koko|Tapu Koko, L50|48/48
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|turn|5
+
+|
+|switch|p2b: Groudon|Groudon-Primal, L50|48/48
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2b: Groudon
+|move|p2a: Tapu Lele|Psyshock|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|16/48
+|move|p1b: Tapu Koko|Dazzling Gleam|p2a: Tapu Lele|[spread] p2a,p2b
+|-resisted|p2b: Groudon
+|-damage|p2a: Tapu Lele|1/48
+|-damage|p2b: Groudon|43/48
+|move|p1a: Incineroar|U-turn|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+
+|
+|switch|p1a: Kyogre|Kyogre-Primal, L50|21/48|[from]move: U-turn
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L50, M|31/48
+|turn|6
+
+|
+|-weather|none
+|switch|p1a: Incineroar|Incineroar, L50, F|35/48
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|-unboost|p2b: Groudon|atk|1
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Tapu Koko|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/48
+
+|j| doraemonz
+
+|
+|switch|p1b: Kyogre|Kyogre-Primal, L50|21/48|[from]move: Volt Switch
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1b: Kyogre
+|move|p2a: Ferrothorn|Gyro Ball|p1b: Kyogre
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|13/48
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Kyogre|Ice Beam|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|move|p1a: Incineroar|U-turn|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|move|p2a: Ferrothorn|Power Whip|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p1b: Tapu Koko|Tapu Koko, L50|16/48
+|turn|8
+
+|
+|move|p1b: Tapu Koko|Dazzling Gleam|p2a: Ferrothorn|[spread] p2a,p2b
+|-resisted|p2a: Ferrothorn
+|-resisted|p2b: Groudon
+|-damage|p2a: Ferrothorn|22/48
+|-damage|p2b: Groudon|38/48
+|move|p2b: Groudon|Precipice Blades|p1b: Tapu Koko|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-supereffective|p1b: Tapu Koko
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Tapu Koko|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Tapu Koko
+|
+|win|maxpox

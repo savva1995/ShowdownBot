@@ -1,0 +1,128 @@
+|init|battle
+|title|GAVINGYZ vs. catchanababy
+|j|☆GAVINGYZ
+|j|☆catchanababy
+|player|p1|GAVINGYZ|68|1366
+|player|p2|catchanababy|169|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Torkoal, F|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Golem-Alola, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Magearna|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Blacephalon|item
+|poke|p2|Gyarados, F|item
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mamoswine|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by catchanababy)
+
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|move|p1a: Mamoswine|Icicle Crash|p2a: Gyarados
+|-damage|p2a: Gyarados|62/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Mamoswine|Icicle Crash|p2a: Gyarados
+|-damage|p2a: Gyarados|28/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Gyarados|Waterfall|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|move|p1a: Mamoswine|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Gyarados
+|-damage|p2a: Gyarados|12/100
+|move|p2a: Gyarados|Waterfall|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|5
+
+|
+|move|p2a: Gyarados|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|2/100
+|move|p1a: Torkoal|Lava Plume|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|8/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|turn|6
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Blacephalon|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p2a: Blacephalon|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|-message|GAVINGYZ forfeited.
+
+|
+|win|catchanababy

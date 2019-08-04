@@ -1,0 +1,147 @@
+|init|battle
+|title|WolfMother777 vs. Pr3M0h
+|j|☆WolfMother777
+|j|☆Pr3M0h
+|player|p1|WolfMother777|283|1100
+|player|p2|Pr3M0h|269|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bruxish, M|item
+|poke|p1|Forretress, F|item
+|poke|p1|Charizard, M|item
+|poke|p1|Kommo-o, F|item
+|poke|p1|Malamar, F|item
+|poke|p1|Galvantula, M|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Mawile, F|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Celesteela|item
+|poke|p2|Electivire, M|item
+|poke|p2|Nihilego|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pr3M0h)
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M, shiny|100/100
+|switch|p2a: Spiritomb|Spiritomb, M, shiny|100/100
+|turn|1
+
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|move|p1a: Galvantula|Sticky Web|p2a: Rotom
+|-sidestart|p2: Pr3M0h|move: Sticky Web
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Galvantula|Bug Buzz|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|75/100
+|move|p2a: Rotom|Defog|p1a: Galvantula
+|-unboost|p1a: Galvantula|evasion|1
+|-sideend|p2: Pr3M0h|Sticky Web|[from] move: Defog|[of] p2a: Rotom
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Galvantula|Bug Buzz|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|move|p2a: Rotom|Overheat|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-enditem|p1a: Galvantula|Focus Sash
+|-damage|p1a: Galvantula|1/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Rotom
+|-sidestart|p2: Pr3M0h|move: Sticky Web
+|move|p2a: Rotom|Will-O-Wisp|p1a: Galvantula
+|-status|p1a: Galvantula|brn
+|
+|-damage|p1a: Galvantula|0 fnt|[from] brn
+|faint|p1a: Galvantula
+|upkeep
+
+|inactive|WolfMother777 has 120 seconds left.
+
+|
+|switch|p1a: Bruxish|Bruxish, M, shiny|100/100
+|turn|5
+
+|
+|move|p1a: Bruxish|Liquidation|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Bruxish|91/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+
+|
+|switch|p2a: Spiritomb|Spiritomb, M, shiny|100/100
+|-activate|p2a: Spiritomb|move: Sticky Web
+|-unboost|p2a: Spiritomb|spe|1
+|turn|6
+
+|
+|move|p1a: Bruxish|Liquidation|p2a: Spiritomb
+|-damage|p2a: Spiritomb|50/100
+|-unboost|p2a: Spiritomb|def|1
+|-damage|p1a: Bruxish|81/100|[from] item: Life Orb
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Bruxish
+|-status|p1a: Bruxish|brn
+|
+|-heal|p2a: Spiritomb|56/100|[from] item: Leftovers
+|-damage|p1a: Bruxish|75/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Spiritomb|Sucker Punch||[still]
+|cant|p1a: Bruxish|ability: Dazzling|Sucker Punch|[of] p2a: Spiritomb
+|move|p1a: Bruxish|Liquidation|p2a: Spiritomb
+|-damage|p2a: Spiritomb|18/100
+|-damage|p1a: Bruxish|65/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Spiritomb|24/100|[from] item: Leftovers
+|-damage|p1a: Bruxish|59/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Bruxish|Liquidation|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|-damage|p1a: Bruxish|49/100 brn|[from] item: Life Orb
+|faint|p2a: Spiritomb
+|
+|-damage|p1a: Bruxish|43/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Nihilego|Nihilego|100/100
+|-activate|p2a: Nihilego|move: Sticky Web
+|-unboost|p2a: Nihilego|spe|1
+|turn|9
+
+|-message|Pr3M0h forfeited.
+
+|
+|win|WolfMother777

@@ -1,0 +1,280 @@
+|init|battle
+|title|Guest 1394235 vs. Kodoku1002
+|j|☆Kodoku1002
+|player|p1|Guest 1394235|1|1000
+|player|p2|Kodoku1002|209|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops, L88, M|100/100
+|switch|p2a: Mienshao|Mienshao, L83, F|100/100
+|turn|1
+|
+|switch|p1a: Amoonguss|Amoonguss, L82, M|100/100
+|move|p2a: Mienshao|Knock Off|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|40/100
+|-enditem|p1a: Amoonguss|Black Sludge|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Mienshao|Poison Jab|p1a: Amoonguss
+|-damage|p1a: Amoonguss|5/100
+|-damage|p2a: Mienshao|81/100|[from] item: Life Orb
+|move|p1a: Amoonguss|Spore|p2a: Mienshao
+|-status|p2a: Mienshao|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+
+|
+|cant|p2a: Mienshao|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Mienshao
+|-damage|p2a: Mienshao|43/100 slp
+|-heal|p1a: Amoonguss|20/100|[from] drain|[of] p2a: Mienshao
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Torterra|Torterra, L86, F|100/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Torterra
+|-damage|p2a: Torterra|76/100
+|-heal|p1a: Amoonguss|31/100|[from] drain|[of] p2a: Torterra
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Torterra|Stone Edge|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Torterra|67/100|[from] item: Life Orb
+|faint|p1a: Amoonguss
+|
+|upkeep
+
+|
+|switch|p1a: Tauros|Tauros, L87, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Torterra|atk|1
+|turn|6
+
+|
+|switch|p2a: Ampharos|Ampharos, L89, F|100/100
+|move|p1a: Tauros|Double-Edge|p2a: Ampharos
+|-crit|p2a: Ampharos
+|-damage|p2a: Ampharos|8/100
+|-status|p1a: Tauros|par|[from] ability: Static|[of] p2a: Ampharos
+|-damage|p1a: Tauros|66/100 par|[from] Recoil
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-damage|p2a: Ampharos|0 fnt|[from] item: Life Orb
+|faint|p1a: Tauros
+|faint|p2a: Ampharos
+|
+|upkeep
+
+|
+|switch|p1a: Pelipper|Pelipper, L84, F|100/100
+|switch|p2a: Absol|Absol, L83, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|8
+
+|
+|move|p2a: Absol|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|67/100
+|move|p1a: Pelipper|Scald|p2a: Absol
+|-damage|p2a: Absol|26/100
+|-status|p2a: Absol|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|73/100|[from] item: Leftovers
+|-damage|p2a: Absol|20/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Absol|Superpower|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|64/100
+|-unboost|p2a: Absol|atk|1
+|-unboost|p2a: Absol|def|1
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Absol|14/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Guest 1394235)
+
+|
+|move|p2a: Absol|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|89/100
+|move|p1a: Pelipper|Scald|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|95/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Torterra|Torterra, L86, F|67/100
+|turn|11
+
+|
+|move|p1a: Pelipper|Scald|p2a: Torterra
+|-damage|p2a: Torterra|27/100
+|move|p2a: Torterra|Stone Edge|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Torterra|17/100|[from] item: Life Orb
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Floette|Floette-Eternal, L80, F|100/100
+|turn|12
+
+|
+|move|p1a: Floette|Moonblast|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, L82, M|100/100
+|turn|13
+
+|
+|switch|p1a: Kabutops|Kabutops, L88, M|100/100
+|move|p2a: Crobat|Brave Bird|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|83/100
+|-damage|p2a: Crobat|95/100|[from] Recoil
+|
+|-heal|p2a: Crobat|100/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+
+|inactive|Kodoku1002 has 120 seconds left.
+
+|
+|move|p2a: Crobat|Toxic|p1a: Kabutops
+|-status|p1a: Kabutops|tox
+|move|p1a: Kabutops|Stone Edge|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|-damage|p1a: Kabutops|77/100 tox|[from] psn
+|upkeep
+
+|inactive|Kodoku1002 has 120 seconds left.
+
+|
+|switch|p2a: Azumarill|Azumarill, L80, F|100/100
+|turn|15
+
+|inactive|Kodoku1002 has 120 seconds left.
+
+|
+|move|p1a: Kabutops|Knock Off|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|85/100
+|-enditem|p2a: Azumarill|Choice Band|[from] move: Knock Off|[of] p1a: Kabutops
+|move|p2a: Azumarill|Knock Off|p1a: Kabutops
+|-damage|p1a: Kabutops|51/100 tox
+|-enditem|p1a: Kabutops|Focus Sash|[from] move: Knock Off|[of] p2a: Azumarill
+|
+|-damage|p1a: Kabutops|39/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|inactive|Kodoku1002 has 120 seconds left.
+
+|
+|move|p1a: Kabutops|Stone Edge|p2a: Azumarill|[miss]
+|-miss|p1a: Kabutops|p2a: Azumarill
+|move|p2a: Azumarill|Knock Off|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-damage|p1a: Kabutops|13/100 tox
+|
+|-damage|p1a: Kabutops|0 fnt|[from] psn
+|faint|p1a: Kabutops
+|upkeep
+
+|
+|switch|p1a: Simipour|Simipour, L89, M|100/100
+|turn|17
+
+|
+|move|p1a: Simipour|Nasty Plot|p1a: Simipour
+|-boost|p1a: Simipour|spa|2
+|move|p2a: Azumarill|Superpower|p1a: Simipour
+|-damage|p1a: Simipour|57/100
+|-unboost|p2a: Azumarill|atk|1
+|-unboost|p2a: Azumarill|def|1
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|22/100
+|-damage|p1a: Simipour|47/100|[from] item: Life Orb
+|move|p2a: Azumarill|Superpower|p1a: Simipour
+|-damage|p1a: Simipour|17/100
+|-unboost|p2a: Azumarill|atk|1
+|-unboost|p2a: Azumarill|def|1
+|
+|upkeep
+|turn|19
+
+|inactive|Kodoku1002 has 120 seconds left.
+
+|
+|move|p1a: Simipour|Ice Beam|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|-damage|p1a: Simipour|8/100|[from] item: Life Orb
+|faint|p2a: Azumarill
+|
+|upkeep
+
+|
+|switch|p2a: Mienshao|Mienshao, L83, F|76/100 slp
+|turn|20
+
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|-damage|p1a: Simipour|0 fnt|[from] item: Life Orb
+|faint|p2a: Mienshao
+|faint|p1a: Simipour
+|
+|win|Guest 1394235

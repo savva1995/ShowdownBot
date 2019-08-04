@@ -1,0 +1,191 @@
+|init|battle
+|title|Ggirgjtgju vs. Jake paul pham lit
+|j|☆Ggirgjtgju
+|j|☆Jake paul pham lit
+|player|p1|Ggirgjtgju|169|1000
+|player|p2|Jake paul pham lit|101|1044
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raticate|Raticate, L89, M|100/100
+|switch|p2a: Walrein|Walrein, L89, M|100/100
+|turn|1
+|
+|move|p1a: Raticate|Swords Dance|p1a: Raticate
+|-boost|p1a: Raticate|atk|2
+|move|p2a: Walrein|Surf|p1a: Raticate
+|-damage|p1a: Raticate|48/100
+|
+|-status|p1a: Raticate|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Raticate|Facade|p2a: Walrein
+|-damage|p2a: Walrein|0 fnt
+|faint|p2a: Walrein
+|
+|-damage|p1a: Raticate|42/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Forretress|Forretress, L84, F|100/100
+|turn|3
+
+|
+|move|p1a: Raticate|Sucker Punch|p2a: Forretress
+|-damage|p2a: Forretress|62/100
+|move|p2a: Forretress|Volt Switch|p1a: Raticate
+|-damage|p1a: Raticate|25/100 brn
+
+|
+|switch|p2a: Archeops|Archeops, L87, M|100/100|[from]move: Volt Switch
+|
+|-damage|p1a: Raticate|19/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Raticate|Sucker Punch|p2a: Archeops
+|-damage|p2a: Archeops|31/100
+|move|p2a: Archeops|U-turn|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+
+|
+|switch|p2a: Forretress|Forretress, L84, F|62/100|[from]move: U-turn
+|
+|-heal|p2a: Forretress|68/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Emboar|Emboar, L85, M|100/100
+|turn|5
+
+|
+|move|p1a: Emboar|Flare Blitz|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|-damage|p1a: Emboar|82/100|[from] Recoil
+|faint|p2a: Forretress
+|
+|upkeep
+
+|
+|switch|p2a: Slowking|Slowking, L86, F|100/100
+|turn|6
+
+|
+|move|p1a: Emboar|Grass Knot|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|70/100
+|move|p2a: Slowking|Psyshock|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|19/100
+|
+|-heal|p2a: Slowking|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Emboar|Head Smash|p2a: Slowking|[miss]
+|-miss|p1a: Emboar|p2a: Slowking
+|move|p2a: Slowking|Psyshock|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|-heal|p2a: Slowking|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|turn|8
+
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Slowking
+|-status|p2a: Slowking|slp|[from] move: Sleep Powder
+|cant|p2a: Slowking|slp
+|
+|-heal|p2a: Slowking|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|-curestatus|p2a: Slowking|slp|[msg]
+|move|p2a: Slowking|Dragon Tail|p1a: Lilligant|[miss]
+|-miss|p2a: Slowking|p1a: Lilligant
+|
+|-heal|p2a: Slowking|95/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Slowking
+|-status|p2a: Slowking|slp|[from] move: Sleep Powder
+|cant|p2a: Slowking|slp
+|
+|-heal|p2a: Slowking|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: Slowking|slp
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Lilligant|Petal Dance|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, M|31/100
+|turn|13
+
+|
+|move|p1a: Lilligant|Petal Dance|p2a: Archeops|[from]lockedmove
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|upkeep
+
+|
+|switch|p2a: Primeape|Primeape, L88, F|100/100
+|turn|14
+
+|
+|move|p1a: Lilligant|Petal Dance|p2a: Primeape|[from]lockedmove
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert, L80, F|100/100
+|turn|15
+
+|
+|move|p1a: Lilligant|Petal Dance|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|win|Ggirgjtgju

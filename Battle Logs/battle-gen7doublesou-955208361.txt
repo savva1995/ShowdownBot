@@ -1,0 +1,278 @@
+|init|battle
+|title|fatty foe vs. Divanooo
+|j|☆fatty foe
+|j|☆Divanooo
+|player|p1|fatty foe|165|1441
+|player|p2|Divanooo|265|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Incineroar, F|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Celesteela|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Gastrodon, M|item
+|poke|p2|Weavile, M|item
+|poke|p2|Mimikyu, F|item
+|poke|p2|Nihilego|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Mantine, F|item
+|poke|p2|Metagross|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Divanooo)
+|
+|start
+|switch|p1a: Celesteela|Celesteela|100/100
+|switch|p1b: Tapu Koko|Tapu Koko|100/100
+|switch|p2a: Mantine|Mantine, F|100/100
+|switch|p2b: Metagross|Metagross|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|turn|1
+|
+|move|p1b: Tapu Koko|Volt Switch|p2b: Metagross
+|-damage|p2b: Metagross|43/100
+|-damage|p1b: Tapu Koko|91/100|[from] item: Life Orb
+|
+|switch|p1b: Gastrodon|Gastrodon, M|100/100|[from]move: Volt Switch
+|move|p2a: Mantine|Bulldoze|p1b: Gastrodon|[spread] p2b,p1b
+|-immune|p1a: Celesteela
+|-supereffective|p2b: Metagross
+|-damage|p2b: Metagross|38/100
+|-damage|p1b: Gastrodon|97/100
+|-enditem|p2b: Metagross|Weakness Policy
+|-boost|p2b: Metagross|atk|2
+|-boost|p2b: Metagross|spa|2
+|-unboost|p1b: Gastrodon|spe|1
+|move|p2b: Metagross|Zen Headbutt|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|61/100
+|move|p1a: Celesteela|Substitute|p1a: Celesteela
+|-start|p1a: Celesteela|Substitute
+|-damage|p1a: Celesteela|36/100
+|
+|-heal|p1a: Celesteela|42/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2a: Mantine|Toxic|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|move|p2b: Metagross|Ice Punch|p1a: Celesteela
+|-end|p1a: Celesteela|Substitute
+|move|p1a: Celesteela|Leech Seed|p2b: Metagross|[miss]
+|-miss|p1a: Celesteela|p2b: Metagross
+|
+|-heal|p1a: Celesteela|48/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Mantine|Toxic|p1b: Gastrodon
+|-status|p1b: Gastrodon|tox
+|move|p2b: Metagross|Ice Punch|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|move|p1b: Gastrodon|Earth Power|p2b: Metagross
+|-supereffective|p2b: Metagross
+|-damage|p2b: Metagross|0 fnt
+|faint|p2b: Metagross
+|
+|-heal|p1a: Celesteela|54/100|[from] item: Leftovers
+|-damage|p1b: Gastrodon|91/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2b: Whimsicott|Whimsicott, M|100/100
+|turn|4
+
+|
+|move|p2b: Whimsicott|Cotton Guard|p2b: Whimsicott
+|-boost|p2b: Whimsicott|def|3
+|move|p2a: Mantine|Scald|p1b: Gastrodon
+|-activate|p1b: Gastrodon|ability: Storm Drain
+|-ability|p1b: Gastrodon|Storm Drain|boost
+|-boost|p1b: Gastrodon|spa|1
+|move|p1a: Celesteela|Heavy Slam|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|54/100
+|-damage|p1a: Celesteela|38/100|[from] item: Rocky Helmet|[of] p2b: Whimsicott
+|move|p1b: Gastrodon|Ice Beam|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|3/100
+|
+|-heal|p1a: Celesteela|44/100|[from] item: Leftovers
+|-damage|p1b: Gastrodon|79/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2b: Whimsicott|Leech Seed|p1b: Gastrodon|[miss]
+|-miss|p2b: Whimsicott|p1b: Gastrodon
+|move|p2a: Mantine|Roost||[still]
+|-fail|p2a: Mantine
+|move|p1a: Celesteela|Leech Seed|p2a: Mantine
+|-start|p2a: Mantine|move: Leech Seed
+|move|p1b: Gastrodon|Ice Beam|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|-heal|p1a: Celesteela|50/100|[from] item: Leftovers
+|-damage|p2a: Mantine|88/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|61/100|[silent]
+|-damage|p1b: Gastrodon|61/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p2b: Mimikyu|Mimikyu, F|100/100
+|turn|6
+
+|
+|-zpower|p2b: Mimikyu
+|move|p2b: Mimikyu|Z-Splash|p2b: Mimikyu|[anim]Splash
+|-boost|p2b: Mimikyu|atk|3|[zeffect]
+|-nothing
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|100/100
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Celesteela|Substitute|p1a: Celesteela
+|-start|p1a: Celesteela|Substitute
+|-damage|p1a: Celesteela|36/100
+|move|p1b: Gastrodon|Earth Power|p2b: Mimikyu
+|-activate|p2b: Mimikyu|ability: Disguise
+|-damage|p2b: Mimikyu|100/100
+|-unboost|p2b: Mimikyu|spd|1
+|detailschange|p2b: Mimikyu|Mimikyu-Busted, F
+|
+|-heal|p1a: Celesteela|42/100|[from] item: Leftovers
+|-damage|p2a: Mantine|88/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|54/100|[silent]
+|-damage|p1b: Gastrodon|36/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2b: Mimikyu|Shadow Sneak|p1a: Celesteela
+|-end|p1a: Celesteela|Substitute
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|100/100
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Celesteela|Heavy Slam|p2b: Mimikyu
+|-supereffective|p2b: Mimikyu
+|-damage|p2b: Mimikyu|0 fnt
+|faint|p2b: Mimikyu
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spd|1
+|move|p1b: Gastrodon|Recover|p1b: Gastrodon
+|-heal|p1b: Gastrodon|86/100 tox
+|
+|-heal|p1a: Celesteela|60/100|[from] item: Leftovers
+|-damage|p2a: Mantine|88/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|72/100|[silent]
+|-damage|p1b: Gastrodon|56/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2b: Nihilego|Nihilego|100/100
+|turn|8
+
+|
+|move|p2b: Nihilego|Power Gem|p1a: Celesteela
+|-damage|p1a: Celesteela|41/100
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|100/100
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Celesteela|Heavy Slam|p2b: Nihilego
+|-supereffective|p2b: Nihilego
+|-damage|p2b: Nihilego|0 fnt
+|faint|p2b: Nihilego
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spd|1
+|move|p1b: Gastrodon|Earth Power|p2a: Mantine
+|-damage|p2a: Mantine|71/100
+|-unboost|p2a: Mantine|spd|1
+|
+|-heal|p2a: Mantine|78/100|[from] item: Leftovers
+|-heal|p1a: Celesteela|47/100|[from] item: Leftovers
+|-damage|p2a: Mantine|65/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|59/100|[silent]
+|-damage|p1b: Gastrodon|19/100 tox|[from] psn
+|upkeep
+|-enditem|p1b: Gastrodon|Wiki Berry|[eat]
+|-heal|p1b: Gastrodon|69/100 tox|[from] item: Wiki Berry
+
+|
+|switch|p2b: Weavile|Weavile, M|100/100
+|turn|9
+
+|
+|move|p2b: Weavile|Icicle Crash|p1a: Celesteela
+|-damage|p1a: Celesteela|24/100
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|100/100
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Celesteela|Heavy Slam|p2b: Weavile
+|-supereffective|p2b: Weavile
+|-enditem|p2b: Weavile|Focus Sash
+|-damage|p2b: Weavile|1/100
+|-enditem|p1a: Celesteela|Leftovers|[silent]|[from] ability: Pickpocket|[of] p1a: Celesteela
+|-item|p2b: Weavile|Leftovers|[from] ability: Pickpocket|[of] p1a: Celesteela
+|move|p1b: Gastrodon|Earth Power|p2b: Weavile
+|-crit|p2b: Weavile
+|-damage|p2b: Weavile|0 fnt
+|faint|p2b: Weavile
+|
+|-damage|p2a: Mantine|88/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|36/100|[silent]
+|-damage|p1b: Gastrodon|26/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|100/100
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Celesteela|Heavy Slam|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|86/100
+|move|p1b: Gastrodon|Ice Beam|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|69/100
+|
+|-heal|p2a: Mantine|75/100|[from] item: Leftovers
+|-damage|p2a: Mantine|63/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|47/100|[silent]
+|-damage|p1b: Gastrodon|0 fnt|[from] psn
+|faint|p1b: Gastrodon
+|upkeep
+
+|
+|switch|p1b: Tapu Koko|Tapu Koko|91/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|turn|11
+
+|
+|move|p1b: Tapu Koko|Thunderbolt|p2a: Mantine
+|-supereffective|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|-damage|p1b: Tapu Koko|81/100|[from] item: Life Orb
+|faint|p2a: Mantine
+|
+|win|fatty foe

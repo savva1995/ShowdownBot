@@ -1,0 +1,278 @@
+|init|battle
+|title|Narayanhakdo vs. Newbarkbikergang
+|j|☆Narayanhakdo
+|j|☆Newbarkbikergang
+|player|p1|Narayanhakdo|266|1313
+|player|p2|Newbarkbikergang|231|1335
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Guzzlord|Guzzlord, L87|100/100
+|switch|p2a: Sylveon|Sylveon, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Narayanhakdo)
+|
+|switch|p1a: Noctowl|Noctowl, L89, M|100/100
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Sylveon|Psyshock|p1a: Noctowl
+|-damage|p1a: Noctowl|64/100
+|move|p1a: Noctowl|Whirlwind|p2a: Sylveon
+|drag|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Noctowl|58/100|[from] Sandstorm
+|-heal|p1a: Noctowl|64/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Noctowl|Roost|p1a: Noctowl
+|-heal|p1a: Noctowl|100/100
+|-singleturn|p1a: Noctowl|move: Roost
+|move|p2a: Gigalith|Rock Blast|p1a: Noctowl
+|-damage|p1a: Noctowl|84/100
+|-damage|p1a: Noctowl|69/100
+|-damage|p1a: Noctowl|55/100
+|-damage|p1a: Noctowl|38/100
+|-hitcount|p1a: Noctowl|4
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Noctowl|32/100|[from] Sandstorm
+|-heal|p1a: Noctowl|38/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Noctowl|Roost|p1a: Noctowl
+|-heal|p1a: Noctowl|88/100
+|-singleturn|p1a: Noctowl|move: Roost
+|move|p2a: Gigalith|Rock Blast|p1a: Noctowl
+|-damage|p1a: Noctowl|74/100
+|-damage|p1a: Noctowl|58/100
+|-hitcount|p1a: Noctowl|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Noctowl|52/100|[from] Sandstorm
+|-heal|p1a: Noctowl|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Noctowl|Roost|p1a: Noctowl
+|-heal|p1a: Noctowl|100/100
+|-singleturn|p1a: Noctowl|move: Roost
+|move|p2a: Gigalith|Rock Blast|p1a: Noctowl
+|-damage|p1a: Noctowl|86/100
+|-damage|p1a: Noctowl|70/100
+|-hitcount|p1a: Noctowl|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Noctowl|64/100|[from] Sandstorm
+|-heal|p1a: Noctowl|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Guzzlord|Guzzlord, L87|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Guzzlord
+|-sidestart|p1: Narayanhakdo|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|7
+
+|
+|move|p1a: Guzzlord|Fire Blast|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|79/100
+|-damage|p1a: Guzzlord|90/100|[from] item: Life Orb
+|move|p2a: Gigalith|Superpower|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|31/100
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|
+|-heal|p2a: Gigalith|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Guzzlord|Hammer Arm|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|8/100
+|-unboost|p1a: Guzzlord|spe|1
+|-damage|p1a: Guzzlord|21/100|[from] item: Life Orb
+|move|p2a: Gigalith|Superpower|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|faint|p1a: Guzzlord
+|
+|-heal|p2a: Gigalith|14/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Blaziken|Blaziken, L78, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p1a: Blaziken|Fire Blast|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-damage|p1a: Blaziken|78/100|[from] item: Life Orb
+|faint|p2a: Gigalith
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p2a: Sylveon|Sylveon, L82, F|100/100
+|turn|10
+
+|
+|move|p1a: Blaziken|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|63/100
+|-status|p2a: Sylveon|brn
+|-damage|p1a: Blaziken|68/100|[from] item: Life Orb
+|move|p2a: Sylveon|Psyshock|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|13/100
+|
+|-heal|p2a: Sylveon|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|63/100 brn|[from] brn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|11
+
+|
+|move|p1a: Blaziken|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|22/100 brn
+|-damage|p1a: Blaziken|3/100|[from] item: Life Orb
+|move|p2a: Sylveon|Psyshock|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-heal|p2a: Sylveon|28/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|22/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Sharpedo|Sharpedo, L83, F|100/100
+|-damage|p1a: Sharpedo|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Sharpedo|Waterfall|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-damage|p1a: Sharpedo|78/100|[from] item: Life Orb
+|faint|p2a: Sylveon
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p2a: Cresselia|Cresselia, L84, F|100/100
+|turn|13
+
+|
+|move|p1a: Sharpedo|Crunch|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|41/100
+|-unboost|p2a: Cresselia|def|1
+|-damage|p1a: Sharpedo|68/100|[from] item: Life Orb
+|move|p2a: Cresselia|Moonblast|p1a: Sharpedo
+|-supereffective|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|-heal|p2a: Cresselia|47/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Alakazam|Alakazam, L80, F|100/100
+|turn|14
+
+|
+|move|p1a: Alakazam|Psyshock|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|29/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|79/100
+|
+|-heal|p2a: Cresselia|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Alakazam|Encore|p2a: Cresselia
+|-start|p2a: Cresselia|Encore
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|100/100
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|detailschange|p1a: Alakazam|Alakazam-Mega, L80, F
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|-ability|p1a: Alakazam|Serene Grace|[from] ability: Trace|[of] p2a: Meloetta
+|move|p1a: Alakazam|Calm Mind|p1a: Alakazam
+|-boost|p1a: Alakazam|spa|1
+|-boost|p1a: Alakazam|spd|1
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Meloetta|[miss]
+|-miss|p1a: Alakazam|p2a: Meloetta
+|move|p2a: Meloetta|Shadow Ball|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|60/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Meloetta|[miss]
+|-miss|p1a: Alakazam|p2a: Meloetta
+|move|p2a: Meloetta|Shadow Ball|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|24/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Meloetta
+|-damage|p2a: Meloetta|53/100
+|move|p2a: Meloetta|Shadow Ball|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-heal|p2a: Meloetta|59/100|[from] item: Leftovers
+|upkeep
+
+|-message|Narayanhakdo forfeited.
+
+|
+|win|Newbarkbikergang

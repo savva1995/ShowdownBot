@@ -1,0 +1,427 @@
+|init|battle
+|title|DebmalyaD vs. mark_098
+|j|☆DebmalyaD
+|j|☆mark_098
+|player|p1|DebmalyaD|220|1066
+|player|p2|mark_098|282|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|1
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|move|p2a: Keldeo|Secret Sword|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|79/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DebmalyaD)
+|
+|switch|p2a: Arcanine|Arcanine, L84, M|100/100
+|move|p1a: Nidoking|Sludge Wave|p2a: Arcanine
+|-damage|p2a: Arcanine|41/100
+|
+|-heal|p2a: Arcanine|46/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Nidoking|Sludge Wave|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|turn|4
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|upkeep
+|
+|switch|p1a: Huntail|Huntail, L89, M|100/100
+|turn|5
+
+|
+|switch|p2a: Dewgong|Dewgong, L89, M|100/100
+|move|p1a: Huntail|Sucker Punch||[still]
+|-fail|p1a: Huntail
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Huntail|Sucker Punch||[still]
+|-fail|p1a: Huntail
+|move|p2a: Dewgong|Perish Song|p2a: Dewgong
+|-start|p1a: Huntail|perish3|[silent]
+|-start|p2a: Dewgong|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: Dewgong|perish3
+|-start|p1a: Huntail|perish3
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Cryogonal|Cryogonal, L88|100/100
+|move|p2a: Dewgong|Surf|p1a: Cryogonal
+|-damage|p1a: Cryogonal|78/100
+|
+|-heal|p1a: Cryogonal|84/100|[from] item: Leftovers
+|-start|p2a: Dewgong|perish2
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Reshiram|Reshiram, L78|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Cryogonal|Rapid Spin|p2a: Reshiram
+|-damage|p2a: Reshiram|97/100
+|
+|-heal|p1a: Cryogonal|90/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Cryogonal|Ice Beam|p2a: Reshiram
+|-damage|p2a: Reshiram|70/100
+|move|p2a: Reshiram|Blue Flare|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|7/100
+|
+|-heal|p1a: Cryogonal|13/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Cryogonal|Recover|p1a: Cryogonal
+|-heal|p1a: Cryogonal|63/100
+|move|p2a: Reshiram|Stone Edge|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|-heal|p2a: Reshiram|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|atk|1
+|turn|11
+
+|
+|switch|p2a: Froslass|Froslass, L88, F|100/100
+|-zpower|p1a: Porygon-Z
+|move|p1a: Porygon-Z|Z-Conversion|p1a: Porygon-Z|[anim]Conversion
+|-boost|p1a: Porygon-Z|atk|1|[zeffect]
+|-boost|p1a: Porygon-Z|def|1|[zeffect]
+|-boost|p1a: Porygon-Z|spa|1|[zeffect]
+|-boost|p1a: Porygon-Z|spd|1|[zeffect]
+|-boost|p1a: Porygon-Z|spe|1|[zeffect]
+|-start|p1a: Porygon-Z|typechange|Electric
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Froslass
+|-damage|p2a: Froslass|26/100
+|move|p2a: Froslass|Spikes|p1a: Porygon-Z
+|-sidestart|p1: DebmalyaD|Spikes
+|
+|-heal|p2a: Froslass|32/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-start|p1a: Porygon-Z|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p2a: Froslass
+|faint|p2a: Froslass
+|
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, L82, F|100/100
+|turn|14
+
+|
+|move|p2a: Klefki|Toxic|p1a: Porygon-Z
+|-status|p1a: Porygon-Z|tox
+|move|p1a: Porygon-Z|Ice Beam|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|73/100
+|
+|-heal|p2a: Klefki|79/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|95/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Porygon-Z|Conversion||[still]
+|-fail|p1a: Porygon-Z
+|move|p2a: Klefki|Play Rough|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|72/100 tox
+|
+|-heal|p2a: Klefki|85/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|60/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Porygon-Z|Recover|p1a: Porygon-Z
+|-heal|p1a: Porygon-Z|100/100 tox
+|move|p2a: Klefki|Foul Play|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|76/100 tox
+|
+|-heal|p2a: Klefki|91/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|59/100 tox|[from] psn
+|-end|p1a: Porygon-Z|Disable
+|upkeep
+|turn|17
+
+|
+|move|p1a: Porygon-Z|Recover|p1a: Porygon-Z
+|-heal|p1a: Porygon-Z|100/100 tox
+|move|p2a: Klefki|Play Rough|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|76/100 tox
+|
+|-heal|p2a: Klefki|97/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|52/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Klefki
+|-damage|p2a: Klefki|26/100
+|move|p2a: Klefki|Play Rough|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|28/100 tox
+|
+|-heal|p2a: Klefki|32/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|0 fnt|[from] psn
+|faint|p1a: Porygon-Z
+|upkeep
+
+|
+|switch|p1a: Naganadel|Naganadel, L78|100/100
+|-damage|p1a: Naganadel|88/100|[from] Spikes
+|turn|19
+
+|
+|move|p1a: Naganadel|Dragon Pulse|p2a: Klefki
+|-immune|p2a: Klefki
+|move|p2a: Klefki|Play Rough|p1a: Naganadel
+|-damage|p1a: Naganadel|49/100
+|
+|-heal|p2a: Klefki|38/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Naganadel|Fire Blast|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|-damage|p1a: Naganadel|39/100|[from] item: Life Orb
+|faint|p2a: Klefki
+|-ability|p1a: Naganadel|Beast Boost|boost
+|-boost|p1a: Naganadel|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Dewgong|Dewgong, L89, M|100/100
+|turn|21
+
+|
+|move|p1a: Naganadel|Dragon Pulse|p2a: Dewgong
+|-damage|p2a: Dewgong|44/100
+|-damage|p1a: Naganadel|29/100|[from] item: Life Orb
+|move|p2a: Dewgong|Ice Beam|p1a: Naganadel
+|-supereffective|p1a: Naganadel
+|-damage|p1a: Naganadel|0 fnt
+|faint|p1a: Naganadel
+|
+|-heal|p2a: Dewgong|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Huntail|Huntail, L89, M|100/100
+|-damage|p1a: Huntail|88/100|[from] Spikes
+|turn|22
+
+|
+|move|p1a: Huntail|Sucker Punch||[still]
+|-fail|p1a: Huntail
+|move|p2a: Dewgong|Perish Song|p2a: Dewgong
+|-start|p1a: Huntail|perish3|[silent]
+|-start|p2a: Dewgong|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Dewgong|56/100|[from] item: Leftovers
+|-start|p2a: Dewgong|perish3
+|-start|p1a: Huntail|perish3
+|upkeep
+|turn|23
+
+|
+|move|p2a: Dewgong|Protect|p2a: Dewgong
+|-singleturn|p2a: Dewgong|Protect
+|move|p1a: Huntail|Waterfall|p2a: Dewgong
+|-activate|p2a: Dewgong|move: Protect
+|
+|-heal|p2a: Dewgong|62/100|[from] item: Leftovers
+|-start|p2a: Dewgong|perish2
+|-start|p1a: Huntail|perish2
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Araquanid|Araquanid, L84, M|100/100
+|-damage|p1a: Araquanid|88/100|[from] Spikes
+|move|p2a: Dewgong|Surf|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|75/100
+|
+|-heal|p2a: Dewgong|69/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|81/100|[from] item: Leftovers
+|-start|p2a: Dewgong|perish1
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Reshiram|Reshiram, L78|82/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Araquanid|Lunge|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|71/100
+|-unboost|p2a: Reshiram|atk|1
+|
+|-heal|p2a: Reshiram|77/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|87/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Araquanid|[miss]
+|-miss|p2a: Reshiram|p1a: Araquanid
+|move|p1a: Araquanid|Leech Life|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|64/100
+|-heal|p1a: Araquanid|94/100|[from] drain|[of] p2a: Reshiram
+|
+|-heal|p2a: Reshiram|70/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Araquanid
+|-damage|p1a: Araquanid|51/100
+|move|p1a: Araquanid|Liquidation|p2a: Reshiram
+|-damage|p2a: Reshiram|23/100
+|
+|-heal|p2a: Reshiram|29/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|57/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Reshiram|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|move|p1a: Araquanid|Leech Life|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|19/100
+|-heal|p1a: Araquanid|63/100 tox|[from] drain|[of] p2a: Reshiram
+|
+|-heal|p2a: Reshiram|25/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|63/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|
+|move|p2a: Reshiram|Stone Edge|p1a: Araquanid|[miss]
+|-miss|p2a: Reshiram|p1a: Araquanid
+|move|p1a: Araquanid|Liquidation|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|
+|-heal|p1a: Araquanid|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|57/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|turn|30
+
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|30/100 tox
+|move|p1a: Araquanid|Leech Life|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|88/100
+|-heal|p1a: Araquanid|37/100 tox|[from] drain|[of] p2a: Keldeo
+|
+|-heal|p1a: Araquanid|43/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|25/100 tox|[from] psn
+|upkeep
+|turn|31
+
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+
+|
+|switch|p1a: Huntail|Huntail, L89, M|88/100
+|-damage|p1a: Huntail|76/100|[from] Spikes
+|turn|32
+
+|
+|move|p1a: Huntail|Sucker Punch|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|77/100
+|-ability|p2a: Keldeo|Justified|boost
+|-boost|p2a: Keldeo|atk|1
+|move|p2a: Keldeo|Hidden Power|p1a: Huntail
+|-damage|p1a: Huntail|53/100
+|
+|upkeep
+|turn|33
+
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Huntail
+|-damage|p1a: Huntail|32/100
+|move|p1a: Huntail|Waterfall|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|58/100
+|
+|upkeep
+|turn|34
+
+|-message|DebmalyaD forfeited.
+
+|
+|win|mark_098

@@ -1,0 +1,68 @@
+|init|battle
+|title|Kaarmarine vs. AlmightySpenser
+|j|☆Kaarmarine
+|j|☆AlmightySpenser
+|player|p1|Kaarmarine|102|1096
+|player|p2|AlmightySpenser|162|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Virizion|Virizion, L84|100/100
+|switch|p2a: Slurpuff|Slurpuff, L85, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AlmightySpenser)
+
+|
+|switch|p1a: Octillery|Octillery, L89, F|100/100
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|50/100
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Octillery
+|-damage|p1a: Octillery|0 fnt
+|faint|p1a: Octillery
+|
+|upkeep
+
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|turn|3
+
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|upkeep
+
+|
+|switch|p1a: Blissey|Blissey, L82, F|100/100
+|turn|4
+
+|
+|move|p2a: Slurpuff|Drain Punch|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-heal|p2a: Slurpuff|100/100|[from] drain|[of] p1a: Blissey
+|faint|p1a: Blissey
+|
+|upkeep
+
+|-message|Kaarmarine forfeited.
+
+|
+|win|AlmightySpenser

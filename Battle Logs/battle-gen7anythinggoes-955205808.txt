@@ -1,0 +1,307 @@
+|init|battle
+|title|Yolosweg782939 vs. Nelson124
+|j|☆Yolosweg782939
+|j|☆Nelson124
+|player|p1|Yolosweg782939|43|
+|player|p2|Nelson124|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Gengar, M|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Jolteon, M|item
+|poke|p1|Greninja, M|item
+|poke|p1|Ninetales-Alola, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Xerneas|item
+|poke|p2|Darkrai|item
+|poke|p2|Marshadow|item
+|poke|p2|Mewtwo|item
+|poke|p2|Gengar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|1
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Xerneas
+|-status|p2a: Xerneas|par
+|move|p2a: Xerneas|Moonblast|p1a: Jolteon
+|-damage|p1a: Jolteon|36/100
+|
+|-heal|p1a: Jolteon|42/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Jolteon|Volt Switch|p2a: Xerneas
+|-damage|p2a: Xerneas|72/100 par
+|
+|switch|p1a: Kitsune|Ninetales-Alola, M|100/100|[from]move: Volt Switch
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Kitsune
+|move|p2a: Xerneas|Moonblast|p1a: Kitsune
+|-crit|p1a: Kitsune
+|-damage|p1a: Kitsune|18/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Xerneas|66/100 par|[from] Hail
+|-heal|p1a: Kitsune|25/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Kitsune|Aurora Veil|p1a: Kitsune
+|-sidestart|p1: Yolosweg782939|move: Aurora Veil
+|cant|p2a: Xerneas|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Xerneas|60/100 par|[from] Hail
+|-heal|p1a: Kitsune|31/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Kitsune|Dark Pulse|p2a: Xerneas
+|-resisted|p2a: Xerneas
+|-damage|p2a: Xerneas|52/100 par
+|cant|p2a: Xerneas|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Xerneas|46/100 par|[from] Hail
+|-heal|p1a: Kitsune|37/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Kitsune|Blizzard|p2a: Xerneas
+|-damage|p2a: Xerneas|11/100 par
+|-enditem|p2a: Xerneas|Aguav Berry|[eat]
+|-heal|p2a: Xerneas|61/100 par|[from] item: Aguav Berry
+|cant|p2a: Xerneas|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Xerneas|55/100 par|[from] Hail
+|-heal|p1a: Kitsune|43/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Kitsune|Blizzard|p2a: Xerneas
+|-damage|p2a: Xerneas|22/100 par
+|move|p2a: Xerneas|Psychic|p1a: Kitsune
+|-damage|p1a: Kitsune|28/100
+|-unboost|p1a: Kitsune|spd|1
+|
+|-weather|none
+|-heal|p1a: Kitsune|34/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Kitsune|Blizzard|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|-heal|p1a: Kitsune|40/100|[from] item: Leftovers
+|-sideend|p1: Yolosweg782939|move: Aurora Veil
+|upkeep
+
+|
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-ability|p2a: Mewtwo|Pressure
+|turn|8
+
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Kitsune
+|-supereffective|p1a: Kitsune
+|-damage|p1a: Kitsune|0 fnt
+|faint|p1a: Kitsune
+|
+|upkeep
+
+|
+|switch|p1a: Kermit|Greninja, M|100/100
+|turn|9
+
+|
+|move|p2a: Mewtwo|Aura Sphere|p1a: Kermit
+|-supereffective|p1a: Kermit
+|-damage|p1a: Kermit|25/100
+|move|p1a: Kermit|Dark Pulse|p2a: Mewtwo
+|-start|p1a: Kermit|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Mewtwo
+|-damage|p2a: Mewtwo|60/100
+|
+|-heal|p1a: Kermit|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Mewtwo|Aura Sphere|p1a: Kermit
+|-supereffective|p1a: Kermit
+|-damage|p1a: Kermit|0 fnt
+|faint|p1a: Kermit
+|
+|upkeep
+
+|
+|switch|p1a: Purple booty|Gengar, M|100/100
+|turn|11
+
+|
+|move|p2a: Mewtwo|Shadow Ball|p1a: Purple booty
+|-supereffective|p1a: Purple booty
+|-damage|p1a: Purple booty|14/100
+|-unboost|p1a: Purple booty|spd|1
+|move|p1a: Purple booty|Destiny Bond|p1a: Purple booty
+|-singlemove|p1a: Purple booty|Destiny Bond
+|
+|-heal|p1a: Purple booty|20/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Purple booty|Sucker Punch|p2a: Mewtwo
+|-supereffective|p2a: Mewtwo
+|-damage|p2a: Mewtwo|40/100
+|move|p2a: Mewtwo|Aura Sphere|p1a: Purple booty
+|-immune|p1a: Purple booty
+|
+|-heal|p1a: Purple booty|26/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Arceus|Arceus|100/100
+|move|p1a: Purple booty|Sucker Punch||[still]
+|-fail|p1a: Purple booty
+|
+|-heal|p1a: Purple booty|32/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Purple booty|Shadow Ball|p2a: Arceus
+|-immune|p2a: Arceus
+|move|p2a: Arceus|Dragon Claw|p1a: Purple booty
+|-damage|p1a: Purple booty|0 fnt
+|-start|p2a: Arceus|Disable|Dragon Claw|[from] ability: Cursed Body|[of] p1a: Purple booty
+|faint|p1a: Purple booty
+|
+|upkeep
+
+|
+|switch|p1a: Barney|Dragonite, F|100/100
+|turn|15
+
+|
+|switch|p2a: Marshadow|Marshadow|100/100
+|move|p1a: Barney|Dragon Dance|p1a: Barney
+|-boost|p1a: Barney|atk|1
+|-boost|p1a: Barney|spe|1
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Barney|Outrage|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus|100/100
+|turn|17
+
+|
+|move|p1a: Barney|Outrage|p2a: Arceus|[from]lockedmove
+|-damage|p2a: Arceus|42/100
+|move|p2a: Arceus|Dragon Claw|p1a: Barney
+|-supereffective|p1a: Barney
+|-damage|p1a: Barney|79/100
+|
+|-heal|p1a: Barney|85/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Barney|Outrage|p2a: Arceus|[from]lockedmove
+|-damage|p2a: Arceus|0 fnt
+|-start|p1a: Barney|confusion|[fatigue]
+|faint|p2a: Arceus
+|
+|-heal|p1a: Barney|91/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|19
+
+|
+|-activate|p1a: Barney|confusion
+|move|p1a: Barney|Earthquake|p2a: Darkrai
+|-damage|p2a: Darkrai|30/100
+|move|p2a: Darkrai|Ice Beam|p1a: Barney
+|-supereffective|p1a: Barney
+|-damage|p1a: Barney|0 fnt
+|faint|p1a: Barney
+|
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, M|42/100
+|turn|20
+
+|
+|move|p1a: Jolteon|Volt Switch|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+
+|
+|switch|p1a: Gojira|Tyranitar, F|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gojira
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Mewtwo|Mewtwo|40/100
+|-ability|p2a: Mewtwo|Pressure
+|turn|21
+
+|
+|detailschange|p1a: Gojira|Tyranitar-Mega, F
+|-mega|p1a: Gojira|Tyranitar|Tyranitarite
+|move|p2a: Mewtwo|Aura Sphere|p1a: Gojira
+|-supereffective|p1a: Gojira
+|-damage|p1a: Gojira|40/100
+|move|p1a: Gojira|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|22
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Giga Drain|p1a: Gojira
+|-supereffective|p1a: Gojira
+|-damage|p1a: Gojira|10/100
+|move|p1a: Gojira|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|Yolosweg782939

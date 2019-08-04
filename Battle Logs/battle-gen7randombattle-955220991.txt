@@ -1,0 +1,289 @@
+|init|battle
+|title|ArachnidKid vs. Naeschen
+|j|☆ArachnidKid
+|j|☆Naeschen
+|player|p1|ArachnidKid|223|1626
+|player|p2|Naeschen|95|1647
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scrafty|Scrafty, L86, M|100/100
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Naeschen)
+|
+|move|p2a: Tsareena|Knock Off|p1a: Scrafty
+|-resisted|p1a: Scrafty
+|-damage|p1a: Scrafty|93/100
+|-enditem|p1a: Scrafty|Chesto Berry|[from] move: Knock Off|[of] p2a: Tsareena
+|-damage|p2a: Tsareena|91/100|[from] item: Life Orb
+|move|p1a: Scrafty|Knock Off|p2a: Tsareena
+|-damage|p2a: Tsareena|54/100
+|-enditem|p2a: Tsareena|Life Orb|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|upkeep
+|turn|2
+|inactive|ArachnidKid has 120 seconds left.
+|
+|switch|p1a: Ninetales|Ninetales, L84, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Tsareena|Synthesis|p2a: Tsareena
+|-heal|p2a: Tsareena|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|ArachnidKid has 120 seconds left.
+|
+|switch|p2a: Carracosta|Carracosta, L88, F|100/100
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Carracosta
+|-status|p2a: Carracosta|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Carracosta|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Carracosta
+|-anim|p1a: Ninetales|Solar Beam|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|faint|p2a: Carracosta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Shuckle|Shuckle, L89, F|100/100
+|turn|5
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: ArachnidKid|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|move|p2a: Shuckle|Toxic|p1a: Ninetales
+|-status|p1a: Ninetales|tox
+|
+|-weather|none
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ninetales|94/100 tox|[from] psn
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Shuckle
+|-damage|p2a: Shuckle|46/100 brn
+|move|p2a: Shuckle|Knock Off|p1a: Ninetales
+|-damage|p1a: Ninetales|89/100 tox
+|-enditem|p1a: Ninetales|Leftovers|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|-heal|p2a: Shuckle|52/100 brn|[from] item: Leftovers
+|-damage|p1a: Ninetales|77/100 tox|[from] psn
+|-damage|p2a: Shuckle|46/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-damage|p1a: Ninetales|58/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane, L78|100/100
+|turn|9
+|inactive|ArachnidKid has 120 seconds left.
+|
+|detailschange|p2a: Necrozma|Necrozma-Ultra, L78
+|-burst|p2a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Necrozma|Photon Geyser|p1a: Ninetales
+|-damage|p1a: Ninetales|7/100 tox
+|move|p1a: Ninetales|Fire Blast|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|65/100
+|-status|p2a: Necrozma|brn
+|
+|-damage|p2a: Necrozma|59/100 brn|[from] brn
+|-damage|p1a: Ninetales|0 fnt|[from] psn
+|faint|p1a: Ninetales
+|upkeep
+|inactive|ArachnidKid has 90 seconds left.
+|inactive|ArachnidKid has 60 seconds left.
+|
+|switch|p1a: Scrafty|Scrafty, L86, M|93/100
+|-damage|p1a: Scrafty|87/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|move|p1a: Scrafty|Knock Off|p2a: Tsareena
+|-damage|p2a: Tsareena|75/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Tsareena|Power Whip|p1a: Scrafty
+|-damage|p1a: Scrafty|44/100
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Tsareena|Power Whip|p1a: Scrafty
+|-damage|p1a: Scrafty|15/100
+|move|p1a: Scrafty|Drain Punch|p2a: Tsareena
+|-crit|p2a: Tsareena
+|-damage|p2a: Tsareena|8/100
+|-heal|p1a: Scrafty|49/100|[from] drain|[of] p2a: Tsareena
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Tsareena|Power Whip|p1a: Scrafty
+|-damage|p1a: Scrafty|18/100
+|move|p1a: Scrafty|Drain Punch|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|-heal|p1a: Scrafty|22/100|[from] drain|[of] p2a: Tsareena
+|faint|p2a: Tsareena
+|-ability|p1a: Scrafty|Moxie|boost
+|-boost|p1a: Scrafty|atk|1
+|
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, L80, F|100/100
+|turn|14
+|
+|move|p2a: Gliscor|Earthquake|p1a: Scrafty
+|-damage|p1a: Scrafty|3/100
+|move|p1a: Scrafty|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|33/100
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|upkeep
+|turn|15
+|inactive|ArachnidKid has 60 seconds left.
+|
+|move|p2a: Gliscor|Earthquake|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, L80, F|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Charizard|Will-O-Wisp|p2a: Gliscor|[miss]
+|-miss|p1a: Charizard|p2a: Gliscor
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|83/100
+|-singleturn|p2a: Gliscor|move: Roost
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Charizard|Will-O-Wisp|p2a: Gliscor
+|-status|p2a: Gliscor|brn
+|move|p2a: Gliscor|U-turn|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|48/100
+|
+|switch|p2a: Necrozma|Necrozma-Ultra, L78|59/100 brn|[from]move: U-turn
+|
+|-damage|p2a: Necrozma|53/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Necrozma|Photon Geyser|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-damage|p2a: Necrozma|47/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Xerneas|Xerneas, L78|100/100
+|-damage|p1a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|19
+|
+|-zpower|p2a: Necrozma
+|move|p2a: Necrozma|Light That Burns the Sky|p1a: Xerneas|[zeffect]
+|-damage|p1a: Xerneas|7/100
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|-damage|p2a: Necrozma|41/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Gliscor|Gliscor, L80, F|83/100 brn
+|move|p1a: Xerneas|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, F|100/100
+|turn|21
+|inactive|ArachnidKid has 90 seconds left.
+
+|inactive|ArachnidKid has 60 seconds left.
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Reuniclus
+|-damage|p2a: Reuniclus|9/100
+|move|p2a: Reuniclus|Psychic|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|upkeep
+
+|
+|switch|p1a: Beartic|Beartic, L89, M|100/100
+|-damage|p1a: Beartic|76/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Beartic|Night Slash|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-damage|p1a: Beartic|66/100|[from] item: Life Orb
+|faint|p2a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p2a: Necrozma|Necrozma-Ultra, L78|41/100 brn
+|turn|23
+
+|
+|move|p2a: Necrozma|Photon Geyser|p1a: Beartic
+|-damage|p1a: Beartic|22/100
+|move|p1a: Beartic|Icicle Crash|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|-damage|p1a: Beartic|12/100|[from] item: Life Orb
+|faint|p2a: Necrozma
+|
+|win|ArachnidKid

@@ -1,0 +1,80 @@
+|init|battle
+|title|tjaerehrrs vs. BellC
+|j|☆tjaerehrrs
+|j|☆BellC
+|player|p1|tjaerehrrs|254|1119
+|player|p2|BellC|102|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gourgeist|Gourgeist-Super, L89, F|100/100
+|switch|p2a: Darkrai|Darkrai, L78|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tjaerehrrs)
+|
+|switch|p1a: Zapdos|Zapdos, L80|100/100
+|move|p2a: Darkrai|Hypnosis|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Hypnosis
+|
+|-damage|p1a: Zapdos|88/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, M|100/100
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|9/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Typhlosion
+|-damage|p1a: Typhlosion|25/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Espeon|Espeon, L84, F|100/100
+|move|p1a: Typhlosion|Focus Blast|p2a: Espeon|[miss]
+|-miss|p1a: Typhlosion|p2a: Espeon
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Stakataka|Stakataka, L83|100/100
+|-item|p1a: Stakataka|Air Balloon
+|move|p2a: Espeon|Shadow Ball|p1a: Stakataka
+|-damage|p1a: Stakataka|72/100
+|-enditem|p1a: Stakataka|Air Balloon
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Espeon|Psychic|p1a: Stakataka
+|-resisted|p1a: Stakataka
+|-damage|p1a: Stakataka|48/100
+|move|p1a: Stakataka|Stealth Rock|p2a: Espeon
+|move|p2a: Espeon|Stealth Rock|p1a: Stakataka|[from]Magic Bounce
+|-sidestart|p1: tjaerehrrs|move: Stealth Rock
+|
+|upkeep
+|turn|7
+
+|-message|tjaerehrrs forfeited.
+
+|
+|win|BellC

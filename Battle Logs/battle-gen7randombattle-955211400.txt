@@ -1,0 +1,255 @@
+|init|battle
+|title|Hellmord vs. Apononregistrato
+|j|☆Hellmord
+|j|☆Apononregistrato
+|player|p1|Hellmord|102|1357
+|player|p2|Apononregistrato|265|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwrath|Poliwrath, L89, F|100/100
+|switch|p2a: Ninetales|Ninetales, L84, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hellmord)
+|
+|move|p2a: Ninetales|Psyshock|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|72/100
+|move|p1a: Poliwrath|Rain Dance|p1a: Poliwrath
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Type: Null|Type: Null, L89|100/100
+|move|p1a: Poliwrath|Scald|p2a: Type: Null
+|-damage|p2a: Type: Null|74/100
+|-status|p2a: Type: Null|brn
+|-damage|p1a: Poliwrath|62/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Type: Null|68/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Golurk|Golurk, L88|100/100
+|move|p1a: Poliwrath|Focus Blast|p2a: Golurk
+|-immune|p2a: Golurk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Ninetales|Ninetales, L84, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Poliwrath|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|70/100
+|-damage|p1a: Poliwrath|52/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Ninetales|Psyshock|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|25/100
+|move|p1a: Poliwrath|Rain Dance|p1a: Poliwrath
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p1a: Poliwrath|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p1a: Poliwrath|15/100|[from] item: Life Orb
+|faint|p2a: Ninetales
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Type: Null|Type: Null, L89|68/100 brn
+|turn|7
+
+|
+|move|p1a: Poliwrath|Focus Blast|p2a: Type: Null
+|-supereffective|p2a: Type: Null
+|-damage|p2a: Type: Null|15/100 brn
+|-damage|p1a: Poliwrath|5/100|[from] item: Life Orb
+|move|p2a: Type: Null|Return|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Type: Null|9/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Gyarados|Gyarados, L80, F|100/100
+|turn|8
+
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Type: Null|Rest|p2a: Type: Null
+|-status|p2a: Type: Null|slp|[from] move: Rest
+|-heal|p2a: Type: Null|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|cant|p2a: Type: Null|slp
+|move|p2a: Type: Null|Sleep Talk|p2a: Type: Null
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null|[from]Sleep Talk
+|-boost|p2a: Type: Null|atk|2
+|
+|-weather|none
+|upkeep
+|turn|10
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Type: Null
+|-damage|p2a: Type: Null|66/100 slp
+|cant|p2a: Type: Null|slp
+|cant|p2a: Type: Null|flinch
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Type: Null
+|-damage|p2a: Type: Null|30/100 slp
+|-curestatus|p2a: Type: Null|slp|[msg]
+|move|p2a: Type: Null|Return|p1a: Gyarados
+|-damage|p1a: Gyarados|6/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Type: Null
+|-damage|p2a: Type: Null|0 fnt
+|faint|p2a: Type: Null
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Lunala|Lunala, L78|100/100
+|turn|13
+
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, L80, F
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p1a: Gyarados|Waterfall|p2a: Lunala
+|-damage|p2a: Lunala|54/100
+|move|p2a: Lunala|Moongeist Beam|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Lunala|60/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Krookodile|Krookodile, L82, M|100/100
+|turn|14
+
+|
+|move|p1a: Krookodile|Pursuit|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|-damage|p1a: Krookodile|90/100|[from] item: Life Orb
+|faint|p2a: Lunala
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, L81, F|100/100
+|turn|15
+
+|
+|move|p2a: Weavile|Icicle Crash|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Krookodile
+|
+|upkeep
+
+|
+|switch|p1a: Omastar|Omastar, L88, F|100/100
+|turn|16
+
+|
+|move|p2a: Weavile|Knock Off|p1a: Omastar
+|-damage|p1a: Omastar|61/100
+|-enditem|p1a: Omastar|White Herb|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|81/100|[from] item: Life Orb
+|move|p1a: Omastar|Shell Smash|p1a: Omastar
+|-unboost|p1a: Omastar|def|1
+|-unboost|p1a: Omastar|spd|1
+|-boost|p1a: Omastar|atk|2
+|-boost|p1a: Omastar|spa|2
+|-boost|p1a: Omastar|spe|2
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Omastar|Earth Power|p2a: Weavile
+|-damage|p2a: Weavile|10/100
+|move|p2a: Weavile|Low Kick|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|13/100
+|-damage|p2a: Weavile|0 fnt|[from] item: Life Orb
+|faint|p2a: Weavile
+|
+|upkeep
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, M|100/100
+|turn|18
+
+|
+|move|p1a: Omastar|Scald|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+
+|
+|switch|p2a: Golurk|Golurk, L88|100/100
+|turn|19
+
+|
+|move|p1a: Omastar|Scald|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|win|Hellmord

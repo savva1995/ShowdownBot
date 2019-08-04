@@ -1,0 +1,275 @@
+|init|battle
+|title|ZzzSonGokuZzz vs. Max parker
+|j|☆ZzzSonGokuZzz
+|j|☆Max parker
+|player|p1|ZzzSonGokuZzz|102|1149
+|player|p2|Max parker|266|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Togekiss|Togekiss, L82, M|100/100
+|switch|p2a: Darmanitan|Darmanitan, L83, F|100/100
+|turn|1
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Togekiss
+|-damage|p1a: Togekiss|8/100
+|-damage|p2a: Darmanitan|74/100|[from] Recoil
+|move|p1a: Togekiss|Air Slash|p2a: Darmanitan
+|-damage|p2a: Darmanitan|37/100
+|
+|-heal|p1a: Togekiss|14/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Darmanitan|Rock Slide|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Greninja|Greninja, L80, F|100/100
+|turn|3
+|
+|switch|p2a: Accelgor|Accelgor, L86, F|100/100
+|move|p1a: Greninja|Spikes|p2a: Accelgor
+|-start|p1a: Greninja|typechange|Ground|[from] ability: Protean
+|-sidestart|p2: Max parker|Spikes
+|
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Max parker)
+
+|
+|move|p2a: Accelgor|Giga Drain|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|47/100
+|move|p1a: Greninja|Toxic Spikes|p2a: Accelgor
+|-start|p1a: Greninja|typechange|Poison|[from] ability: Protean
+|-sidestart|p2: Max parker|move: Toxic Spikes
+|
+|-heal|p1a: Greninja|53/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Accelgor|Giga Drain|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|37/100
+|move|p1a: Greninja|Toxic Spikes|p2a: Accelgor
+|-sidestart|p2: Max parker|move: Toxic Spikes
+|
+|-heal|p1a: Greninja|44/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Accelgor|Giga Drain|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|29/100
+|move|p1a: Greninja|Taunt|p2a: Accelgor
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-start|p2a: Accelgor|move: Taunt
+|
+|-heal|p1a: Greninja|35/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+
+|inactive|ZzzSonGokuZzz has 120 seconds left.
+
+|
+|switch|p1a: Arceus|Arceus-Ground, L78|100/100
+|turn|8
+
+|
+|switch|p2a: Deoxys|Deoxys, L78|100/100
+|-damage|p2a: Deoxys|88/100|[from] Spikes
+|-status|p2a: Deoxys|tox
+|-ability|p2a: Deoxys|Pressure
+|-zpower|p1a: Arceus
+|move|p1a: Arceus|Tectonic Rage|p2a: Deoxys|[zeffect]
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L89, M|100/100
+|-damage|p2a: Mr. Mime|88/100|[from] Spikes
+|-status|p2a: Mr. Mime|tox
+|turn|9
+
+|inactive|ZzzSonGokuZzz has 120 seconds left.
+
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Arceus
+|-damage|p1a: Arceus|66/100
+|-damage|p2a: Mr. Mime|78/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Mr. Mime|72/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|inactive|ZzzSonGokuZzz has 120 seconds left.
+
+|
+|move|p1a: Arceus|Earthquake|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|upkeep
+
+|
+|switch|p2a: Qwilfish|Qwilfish, L88, M|100/100
+|-sideend|p2: Max parker|move: Toxic Spikes|[of] p2a: Qwilfish
+|-damage|p2a: Qwilfish|88/100|[from] Spikes
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Arceus|atk|1
+|turn|11
+
+|l|☆ZzzSonGokuZzz
+
+|inactive|ZzzSonGokuZzz disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆ZzzSonGokuZzz
+
+|inactive|ZzzSonGokuZzz reconnected and has 120 seconds left.
+
+|player|p1|ZzzSonGokuZzz|102
+
+|
+|move|p1a: Arceus|Ice Beam|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|70/100
+|move|p2a: Qwilfish|Liquidation|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|16/100
+|
+|-heal|p2a: Qwilfish|76/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|
+|move|p1a: Arceus|Earthquake|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|upkeep
+
+|
+|switch|p2a: Accelgor|Accelgor, L86, F|100/100
+|-damage|p2a: Accelgor|88/100|[from] Spikes
+|turn|13
+
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-heal|p2a: Accelgor|94/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L88, M|100/100
+|turn|14
+
+|
+|move|p2a: Accelgor|Giga Drain|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|81/100
+|-heal|p2a: Accelgor|100/100|[from] drain|[of] p1a: Hitmonchan
+|move|p1a: Hitmonchan|Ice Punch|p2a: Accelgor
+|-damage|p2a: Accelgor|48/100
+|-damage|p1a: Hitmonchan|71/100|[from] item: Life Orb
+|
+|-heal|p2a: Accelgor|54/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Accelgor|Encore|p1a: Hitmonchan
+|-start|p1a: Hitmonchan|Encore
+|move|p1a: Hitmonchan|Ice Punch|p2a: Accelgor
+|-crit|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|-damage|p1a: Hitmonchan|62/100|[from] item: Life Orb
+|faint|p2a: Accelgor
+|
+|upkeep
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100
+|-damage|p2a: Vileplume|88/100|[from] Spikes
+|turn|16
+
+|
+|move|p1a: Hitmonchan|Ice Punch|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|12/100
+|-damage|p1a: Hitmonchan|52/100|[from] item: Life Orb
+|move|p2a: Vileplume|Aromatherapy||[still]
+|-activate|p2a: Vileplume|move: Aromatherapy
+|-fail|p2a: Vileplume
+|
+|-heal|p2a: Vileplume|18/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+
+|
+|move|p1a: Hitmonchan|Ice Punch|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p1a: Hitmonchan|42/100|[from] item: Life Orb
+|faint|p2a: Vileplume
+|
+|-end|p1a: Hitmonchan|Encore
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, F|37/100
+|-damage|p2a: Darmanitan|24/100|[from] Spikes
+|turn|18
+
+|inactive|Max parker has 120 seconds left.
+
+|inactive|Max parker has 90 seconds left.
+
+|inactive|Max parker has 60 seconds left.
+
+|c|☆ZzzSonGokuZzz|ну давай
+
+|c|☆ZzzSonGokuZzz|я в тебя верю)
+
+|inactive|Max parker has 30 seconds left.
+
+|inactive|Max parker has 20 seconds left.
+
+|inactive|Max parker has 15 seconds left.
+
+|inactive|Max parker has 10 seconds left.
+
+|inactive|Max parker has 5 seconds left.
+
+|-message|Max parker lost due to inactivity.
+|
+|win|ZzzSonGokuZzz

@@ -1,0 +1,541 @@
+|init|battle
+|title|i always see you vs. mostas
+|j|☆i always see you
+|j|☆mostas
+|player|p1|i always see you|250|1195
+|player|p2|mostas|184|1141
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, F|item
+|poke|p1|Blacephalon|item
+|poke|p1|Serperior, M|item
+|poke|p1|Kartana|item
+|poke|p1|Azumarill, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Raichu-Alola, M|item
+|poke|p2|Chandelure, M|item
+|poke|p2|Serperior, F|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Hawlucha, F|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|i always see you has 30 seconds left this turn.
+|inactive|mostas has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mostas)
+
+|
+|start
+|switch|p1a: Personal Sweeper|Serperior, M|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|1
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: Personal Sweeper|Leaf Storm|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|42/100
+|-boost|p1a: Personal Sweeper|spa|2
+|move|p2a: Tapu Koko|Hidden Power|p1a: Personal Sweeper
+|-supereffective|p1a: Personal Sweeper
+|-damage|p1a: Personal Sweeper|69/100
+|
+|upkeep
+|turn|2
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p2a: Tapu Koko|Protect|p2a: Tapu Koko
+|-singleturn|p2a: Tapu Koko|Protect
+|move|p1a: Personal Sweeper|Leaf Storm|p2a: Tapu Koko
+|-activate|p2a: Tapu Koko|move: Protect
+|
+|upkeep
+|turn|3
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: Personal Sweeper|Leaf Storm|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|-boost|p1a: Personal Sweeper|spa|2
+|faint|p2a: Tapu Koko
+|
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|switch|p2a: Hawlucha|Hawlucha, F, shiny|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|4
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Personal Sweeper
+|-supereffective|p1a: Personal Sweeper
+|-damage|p1a: Personal Sweeper|0 fnt
+|faint|p1a: Personal Sweeper
+|
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p1a: Bubulle|Greninja, F, shiny|100/100
+|turn|5
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Bubulle|Ice Beam|p2a: Hawlucha
+|-start|p1a: Bubulle|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|-damage|p1a: Bubulle|91/100|[from] item: Life Orb
+|faint|p2a: Hawlucha
+|
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p2a: Raichu|Raichu-Alola, M, shiny|100/100
+|-item|p2a: Raichu|Air Balloon
+|turn|6
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Bubulle
+|-damage|p1a: Bubulle|31/100
+|move|p1a: Bubulle|Ice Beam|p2a: Raichu
+|-damage|p2a: Raichu|20/100
+|-enditem|p2a: Raichu|Air Balloon
+|-damage|p1a: Bubulle|21/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: Bubulle|Water Shuriken|p2a: Raichu
+|-start|p1a: Bubulle|typechange|Water|[from] ability: Protean
+|-damage|p2a: Raichu|3/100
+|-damage|p2a: Raichu|0 fnt
+|-hitcount|p2a: Raichu|2
+|-damage|p1a: Bubulle|11/100|[from] item: Life Orb
+|faint|p2a: Raichu
+|
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p2a: Serperior|Serperior, F, shiny|100/100
+|turn|8
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Bubulle
+|-supereffective|p1a: Bubulle
+|-damage|p1a: Bubulle|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Bubulle
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p1a: KENJIGIRAC|Blacephalon, shiny|100/100
+|turn|9
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: KENJIGIRAC|Flamethrower|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|-ability|p1a: KENJIGIRAC|Beast Boost|boost
+|-boost|p1a: KENJIGIRAC|spa|1
+|
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|turn|10
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|i always see you has 10 seconds left.
+|inactive|mostas has 10 seconds left.
+
+|
+|switch|p1a: JOELOPEZ|Azumarill, M, shiny|100/100
+|move|p2a: Chandelure|Energy Ball|p1a: JOELOPEZ
+|-supereffective|p1a: JOELOPEZ
+|-damage|p1a: JOELOPEZ|16/100
+|
+|upkeep
+|turn|11
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: JOELOPEZ|Aqua Jet|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|30/100
+|move|p2a: Chandelure|Energy Ball|p1a: JOELOPEZ
+|-supereffective|p1a: JOELOPEZ
+|-damage|p1a: JOELOPEZ|0 fnt
+|faint|p1a: JOELOPEZ
+|
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|12
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|switch|p2a: Venusaur|Venusaur, M, shiny|100/100
+|move|p1a: Keldeo|Scald|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|77/100
+|
+|upkeep
+|turn|13
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p1a: KENJIGIRAC|Blacephalon, shiny|100/100
+|detailschange|p2a: Venusaur|Venusaur-Mega, M, shiny
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p2a: Venusaur|Leech Seed|p1a: KENJIGIRAC
+|-start|p1a: KENJIGIRAC|move: Leech Seed
+|
+|-damage|p1a: KENJIGIRAC|88/100|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|86/100|[silent]
+|upkeep
+|turn|14
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|move|p1a: KENJIGIRAC|Shadow Ball|p2a: Venusaur
+|-damage|p2a: Venusaur|58/100
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|100/100
+|
+|-damage|p1a: KENJIGIRAC|75/100|[from] Leech Seed|[of] p2a: Venusaur
+|upkeep
+|turn|15
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|switch|p1a: A4|Kartana, shiny|100/100
+|move|p2a: Venusaur|Nature Power|p1a: A4
+|move|p2a: Venusaur|Tri Attack|p1a: A4|[from]Nature Power
+|-resisted|p1a: A4
+|-damage|p1a: A4|67/100
+|
+|upkeep
+|turn|16
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|move|p1a: A4|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|75/100
+|move|p2a: Venusaur|Nature Power|p1a: A4
+|move|p2a: Venusaur|Tri Attack|p1a: A4|[from]Nature Power
+|-resisted|p1a: A4
+|-damage|p1a: A4|33/100
+|
+|upkeep
+|turn|17
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Venusaur|Nature Power|p1a: Keldeo
+|move|p2a: Venusaur|Tri Attack|p1a: Keldeo|[from]Nature Power
+|-damage|p1a: Keldeo|76/100
+|
+|upkeep
+|turn|18
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|62/100
+|-unboost|p2a: Venusaur|spe|1
+|move|p2a: Venusaur|Leech Seed|p1a: Keldeo|[miss]
+|-miss|p2a: Venusaur|p1a: Keldeo
+|
+|upkeep
+|turn|19
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|49/100
+|-unboost|p2a: Venusaur|spe|1
+|move|p2a: Venusaur|Leech Seed|p1a: Keldeo
+|-start|p1a: Keldeo|move: Leech Seed
+|
+|-damage|p1a: Keldeo|63/100|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|60/100|[silent]
+|upkeep
+|turn|20
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|47/100
+|-unboost|p2a: Venusaur|spe|1
+|move|p2a: Venusaur|Nature Power|p1a: Keldeo
+|move|p2a: Venusaur|Tri Attack|p1a: Keldeo|[from]Nature Power
+|-damage|p1a: Keldeo|36/100
+|
+|-damage|p1a: Keldeo|24/100|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|58/100|[silent]
+|upkeep
+|turn|21
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p1a: KENJIGIRAC|Blacephalon, shiny|75/100
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|100/100
+|
+|upkeep
+|turn|22
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: KENJIGIRAC|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|68/100
+|move|p2a: Venusaur|Toxic|p1a: KENJIGIRAC
+|-status|p1a: KENJIGIRAC|tox
+|
+|-damage|p1a: KENJIGIRAC|69/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: KENJIGIRAC|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|34/100
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|84/100
+|
+|-damage|p1a: KENJIGIRAC|57/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: KENJIGIRAC|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|50/100
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|100/100
+|
+|-damage|p1a: KENJIGIRAC|39/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: KENJIGIRAC|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|52/100
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|100/100
+|
+|-damage|p1a: KENJIGIRAC|15/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: KENJIGIRAC|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|69/100
+|move|p2a: Venusaur|Nature Power|p1a: KENJIGIRAC
+|move|p2a: Venusaur|Tri Attack|p1a: KENJIGIRAC|[from]Nature Power
+|-immune|p1a: KENJIGIRAC
+|
+|-damage|p1a: KENJIGIRAC|0 fnt|[from] psn
+|faint|p1a: KENJIGIRAC
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|i always see you has 10 seconds left.
+
+|
+|switch|p1a: A4|Kartana, shiny|33/100
+|turn|27
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|move|p1a: A4|Smart Strike|p2a: Venusaur
+|-damage|p2a: Venusaur|27/100
+|move|p2a: Venusaur|Nature Power|p1a: A4
+|move|p2a: Venusaur|Tri Attack|p1a: A4|[from]Nature Power
+|-resisted|p1a: A4
+|-damage|p1a: A4|0 fnt
+|faint|p1a: A4
+|
+|upkeep
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|24/100
+|turn|28
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|6/100
+|-unboost|p2a: Venusaur|spe|1
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|56/100
+|
+|upkeep
+|turn|29
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|mostas has 10 seconds left.
+
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|43/100
+|-unboost|p2a: Venusaur|spe|1
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|93/100
+|
+|upkeep
+|turn|30
+
+|inactive|i always see you has 15 seconds left this turn.
+|inactive|mostas has 15 seconds left this turn.
+
+|inactive|i always see you has 10 seconds left.
+
+|-message|i always see you forfeited.
+
+|
+|win|mostas

@@ -1,0 +1,211 @@
+|init|battle
+|title|berich vs. dcfvgbhnj
+|j|☆berich
+|j|☆dcfvgbhnj
+|player|p1|berich|244|1358
+|player|p2|dcfvgbhnj|101|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barbaracle, M|item
+|poke|p1|Metagross|item
+|poke|p1|Necrozma|item
+|poke|p1|Slurpuff, F|item
+|poke|p1|Roserade, F|item
+|poke|p1|Swellow, F|item
+|poke|p2|Necrozma|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Electrode|item
+|poke|p2|Swellow, M|item
+|poke|p2|Golisopod, F|item
+|poke|p2|Machamp, M|item
+|teampreview
+|
+|start
+|switch|p1a: Roserade|Roserade, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: berich
+|turn|1
+|
+|move|p2a: Aerodactyl|Taunt|p1a: Roserade
+|-start|p1a: Roserade|move: Taunt
+|move|p1a: Roserade|Leaf Storm|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|21/100
+|-unboost|p1a: Roserade|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Metagross
+|-sidestart|p1: berich|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Metagross|Thunder Punch|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|turn|4
+|
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Machamp|Knock Off|p1a: Roserade
+|-damage|p1a: Roserade|19/100
+|-enditem|p1a: Roserade|Focus Sash|[from] move: Knock Off|[of] p2a: Machamp
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-status|p2a: Machamp|psn|[from] ability: Poison Point|[of] p1a: Roserade
+|faint|p1a: Roserade
+|
+|-damage|p2a: Machamp|88/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Swellow|Swellow, F|100/100
+|-damage|p1a: Swellow|76/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Swellow
+|-damage|p1a: Swellow|36/100
+|move|p1a: Swellow|Boomburst|p2a: Machamp
+|-damage|p2a: Machamp|35/100 psn
+|
+|-damage|p2a: Machamp|23/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|95/100|[from] Stealth Rock
+|move|p2a: Machamp|Knock Off|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-enditem|p1a: Metagross|Choice Band|[from] move: Knock Off|[of] p2a: Machamp
+|faint|p1a: Metagross
+|
+|-damage|p2a: Machamp|10/100 psn|[from] psn
+|upkeep
+
+|c|☆berich|nice one
+
+|c|☆dcfvgbhnj|ty
+
+|
+|switch|p1a: Barbaracle|Barbaracle, M|100/100
+|-damage|p1a: Barbaracle|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Barbaracle
+|-damage|p1a: Barbaracle|65/100
+|move|p1a: Barbaracle|Liquidation|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+
+|
+|switch|p2a: Electrode|Electrode|100/100
+|turn|9
+
+|
+|move|p2a: Electrode|Taunt|p1a: Barbaracle
+|-start|p1a: Barbaracle|move: Taunt
+|-zpower|p1a: Barbaracle
+|move|p1a: Barbaracle|Continental Crush|p2a: Electrode|[zeffect]
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|upkeep
+
+|
+|switch|p2a: Necrozma|Necrozma|100/100
+|turn|10
+
+|
+|switch|p1a: Necrozma|Necrozma|100/100
+|-damage|p1a: Necrozma|88/100|[from] Stealth Rock
+|move|p2a: Necrozma|Autotomize|p2a: Necrozma
+|-boost|p2a: Necrozma|spe|2
+|-start|p2a: Necrozma|Autotomize
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Necrozma|Swords Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|2
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|
+|upkeep
+|turn|12
+
+|
+|-zpower|p2a: Necrozma
+|move|p2a: Necrozma|Tectonic Rage|p1a: Necrozma|[zeffect]
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+
+|
+|switch|p1a: Slurpuff|Slurpuff, F|100/100
+|-damage|p1a: Slurpuff|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Necrozma|Photon Geyser|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|upkeep
+
+|
+|switch|p1a: Swellow|Swellow, F|36/100
+|-damage|p1a: Swellow|11/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Necrozma|Photon Geyser|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|faint|p1a: Swellow
+|
+|upkeep
+
+|
+|switch|p1a: Barbaracle|Barbaracle, M|65/100
+|-damage|p1a: Barbaracle|53/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Necrozma|Earthquake|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|win|dcfvgbhnj

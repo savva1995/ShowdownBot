@@ -1,0 +1,384 @@
+|init|battle
+|title|Ujitsu vs. vegeta0007
+|j|☆Ujitsu
+|j|☆vegeta0007
+|player|p1|Ujitsu|169|1449
+|player|p2|vegeta0007|169|1371
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mawile, M|item
+|poke|p1|Serperior, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Greninja, M|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Hoopa-Unbound|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Kartana|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Ujitsu has 30 seconds left this turn.
+|inactive|vegeta0007 has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ujitsu)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|1
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+|inactive|vegeta0007 has 10 seconds left.
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: vegeta0007|move: Stealth Rock
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Ujitsu|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+|
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: Landorus|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|75/100
+|-enditem|p1a: Landorus|Focus Sash|[from] move: Knock Off|[of] p2a: Landorus
+|
+|upkeep
+|turn|3
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+|
+|move|p1a: Landorus|Explosion|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p1a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+|inactive|vegeta0007 has 10 seconds left.
+
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|-damage|p2a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|4
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|34/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Tapu Lele|Psychic|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|turn|5
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|inactive|vegeta0007 has 10 seconds left.
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Hoopa|[miss]
+|-miss|p1a: Heatran|p2a: Hoopa
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Zapdos
+|-damage|p1a: Zapdos|15/100
+|-unboost|p2a: Hoopa|def|1
+|
+|-heal|p1a: Zapdos|21/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Zapdos
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|turn|8
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Greninja|Gunk Shot|p2a: Chansey
+|-start|p1a: Greninja|typechange|Poison|[from] ability: Protean
+|-damage|p2a: Chansey|54/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|-zpower|p1a: Greninja
+|move|p1a: Greninja|All-Out Pummeling|p2a: Chansey|[zeffect]
+|-start|p1a: Greninja|typechange|Fighting|[from] ability: Protean
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|inactive|vegeta0007 has 10 seconds left.
+
+|
+|switch|p2a: Kartana|Kartana|100/100
+|-damage|p2a: Kartana|94/100|[from] Stealth Rock
+|turn|10
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|inactive|Ujitsu has 10 seconds left.
+
+|
+|move|p2a: Kartana|Sacred Sword|p1a: Greninja
+|-damage|p1a: Greninja|18/100
+|move|p1a: Greninja|Hidden Power|p2a: Kartana
+|-start|p1a: Greninja|typechange|Fire|[from] ability: Protean
+|-supereffective|p2a: Kartana
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|turn|11
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|inactive|vegeta0007 has 10 seconds left.
+
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-damage|p1a: Mawile|94/100|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|detailschange|p2a: Venusaur|Venusaur-Mega, F
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p2a: Venusaur|Sleep Powder|p1a: Mawile
+|-status|p1a: Mawile|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|12
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|inactive|Ujitsu has 10 seconds left.
+
+|
+|switch|p1a: Heatran|Heatran, M|94/100
+|-damage|p1a: Heatran|82/100|[from] Stealth Rock
+|move|p2a: Venusaur|Hidden Power|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Heatran|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|34/100
+|-damage|p2a: Tapu Lele|22/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Heatran|Magma Storm|p2a: Tapu Lele|[miss]
+|-miss|p1a: Heatran|p2a: Tapu Lele
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|move|p2a: Tapu Lele|Focus Blast|p1a: Heatran|[miss]
+|-miss|p2a: Tapu Lele|p1a: Heatran
+|move|p1a: Heatran|Earth Power|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|88/100
+|-damage|p2a: Hoopa|76/100|[from] Stealth Rock
+|turn|15
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Mawile|Mawile, M|94/100 slp
+|-damage|p1a: Mawile|88/100 slp|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Hoopa|atk|1
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|47/100 slp
+|-unboost|p2a: Hoopa|def|1
+|
+|upkeep
+|turn|16
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|detailschange|p1a: Mawile|Mawile-Mega, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|17/100 slp
+|-unboost|p2a: Hoopa|def|1
+|cant|p1a: Mawile|slp
+|
+|upkeep
+|turn|17
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|inactive|vegeta0007 has 10 seconds left.
+
+|
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Mawile
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p1a: Greninja|Greninja, M|18/100
+|-damage|p1a: Greninja|6/100|[from] Stealth Rock
+|turn|18
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p2a: Venusaur|Venusaur-Mega, F|88/100
+|-damage|p2a: Venusaur|76/100|[from] Stealth Rock
+|move|p1a: Greninja|Gunk Shot|p2a: Venusaur
+|-start|p1a: Greninja|typechange|Poison|[from] ability: Protean
+|-damage|p2a: Venusaur|40/100
+|
+|upkeep
+|turn|19
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|move|p1a: Greninja|Gunk Shot|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|76/100
+|-damage|p2a: Hoopa|64/100|[from] Stealth Rock
+|turn|20
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|vegeta0007 has 15 seconds left this turn.
+
+|
+|move|p1a: Greninja|Gunk Shot|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|win|Ujitsu

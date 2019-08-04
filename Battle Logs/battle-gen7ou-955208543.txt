@@ -1,0 +1,268 @@
+|init|battle
+|title|Pachiw vs. baoliequan123
+|j|☆Pachiw
+|j|☆baoliequan123
+|player|p1|Pachiw|171|1285
+|player|p2|baoliequan123|102|1329
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Masquerain, M|item
+|poke|p1|Doublade, M|item
+|poke|p1|Altaria, F|item
+|poke|p1|Porygon-Z|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Nidoking, M|item
+|poke|p2|Machamp, M|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Magearna|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Mew|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by baoliequan123)
+|
+|start
+|switch|p1a: Neneuil|Masquerain, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|-ability|p1a: Neneuil|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|turn|1
+|
+|move|p1a: Neneuil|Sticky Web|p2a: Mew
+|-sidestart|p2: baoliequan123|move: Sticky Web
+|move|p2a: Mew|Stealth Rock|p1a: Neneuil
+|-sidestart|p1: Pachiw|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Neneuil|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Neneuil|tox
+|move|p2a: Mew|Trick Room|p2a: Mew
+|-fieldstart|move: Trick Room|[of] p2a: Mew
+|
+|-damage|p2a: Mew|94/100 tox|[from] psn
+|-damage|p1a: Neneuil|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Doublade|Doublade, M, shiny|100/100
+|-damage|p1a: Doublade|94/100|[from] Stealth Rock
+|move|p2a: Mew|Volt Switch|p1a: Doublade
+|-damage|p1a: Doublade|74/100
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from]move: Volt Switch
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Tyranitar|Crunch|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|10/100
+|-unboost|p1a: Doublade|def|1
+|move|p1a: Doublade|Sacred Sword|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: 燃烧健身现场撞人|Machamp, M|100/100
+|-activate|p2a: 燃烧健身现场撞人|move: Sticky Web
+|-unboost|p2a: 燃烧健身现场撞人|spe|1
+|turn|5
+|
+|switch|p1a: Neneuil|Masquerain, M|94/100 tox
+|-damage|p1a: Neneuil|44/100 tox|[from] Stealth Rock
+|-ability|p1a: Neneuil|Intimidate|boost
+|-unboost|p2a: 燃烧健身现场撞人|atk|1
+|move|p2a: 燃烧健身现场撞人|Earthquake|p1a: Neneuil
+|-immune|p1a: Neneuil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 燃烧健身现场撞人|94/100|[from] Sandstorm
+|-damage|p1a: Neneuil|38/100 tox|[from] Sandstorm
+|-damage|p1a: Neneuil|32/100 tox|[from] psn
+|-status|p2a: 燃烧健身现场撞人|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|move|p2a: 燃烧健身现场撞人|Ice Punch|p1a: Neneuil
+|-supereffective|p1a: Neneuil
+|-damage|p1a: Neneuil|0 fnt
+|faint|p1a: Neneuil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 燃烧健身现场撞人|88/100 brn|[from] Sandstorm
+|-damage|p2a: 燃烧健身现场撞人|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p1a: Captain'coton|Altaria, F|100/100
+|-damage|p1a: Captain'coton|76/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p2a: Mew|Mew|94/100 tox
+|-activate|p2a: Mew|move: Sticky Web
+|-unboost|p2a: Mew|spe|1
+|detailschange|p1a: Captain'coton|Altaria-Mega, F
+|-mega|p1a: Captain'coton|Altaria|Altarianite
+|move|p1a: Captain'coton|Return|p2a: Mew
+|-damage|p2a: Mew|50/100 tox
+|-enditem|p2a: Mew|Sitrus Berry|[eat]
+|-heal|p2a: Mew|75/100 tox|[from] item: Sitrus Berry
+|
+|-weather|none
+|-damage|p2a: Mew|69/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Captain'coton|Return|p2a: Mew
+|-damage|p2a: Mew|30/100 tox
+|move|p2a: Mew|Trick Room|p2a: Mew
+|-fieldstart|move: Trick Room|[of] p2a: Mew
+|
+|-damage|p2a: Mew|18/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Mew|Ice Beam|p1a: Captain'coton
+|-supereffective|p1a: Captain'coton
+|-damage|p1a: Captain'coton|27/100
+|move|p1a: Captain'coton|Return|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+
+|
+|switch|p2a: 燃烧健身现场撞人|Machamp, M|82/100 brn
+|-activate|p2a: 燃烧健身现场撞人|move: Sticky Web
+|-unboost|p2a: 燃烧健身现场撞人|spe|1
+|turn|10
+
+|
+|switch|p1a: Doublade|Doublade, M, shiny|10/100
+|-damage|p1a: Doublade|4/100|[from] Stealth Rock
+|move|p2a: 燃烧健身现场撞人|Close Combat|p1a: Doublade
+|-immune|p1a: Doublade
+|
+|-damage|p2a: 燃烧健身现场撞人|76/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: 燃烧健身现场撞人
+|-damage|p2a: 燃烧健身现场撞人|55/100 brn
+|move|p2a: 燃烧健身现场撞人|Ice Punch|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|-damage|p2a: 燃烧健身现场撞人|49/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Gamecube|Rotom-Wash|100/100
+|-damage|p1a: Gamecube|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: 燃烧健身现场撞人|Close Combat|p1a: Gamecube
+|-damage|p1a: Gamecube|0 fnt
+|-unboost|p2a: 燃烧健身现场撞人|def|1
+|-unboost|p2a: 燃烧健身现场撞人|spd|1
+|faint|p1a: Gamecube
+|
+|-damage|p2a: 燃烧健身现场撞人|43/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p1a: Picassiette|Porygon-Z, shiny|100/100
+|-damage|p1a: Picassiette|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-activate|p2a: Magearna|move: Sticky Web
+|-unboost|p2a: Magearna|spe|1
+|move|p1a: Picassiette|Tri Attack|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|75/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Picassiette|Tri Attack|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|47/100
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Magearna|Volt Switch|p1a: Picassiette
+|-damage|p1a: Picassiette|53/100
+
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100|[from]move: Volt Switch
+|-activate|p2a: Reuniclus|move: Sticky Web
+|-unboost|p2a: Reuniclus|spe|1
+|move|p1a: Picassiette|Tri Attack|p2a: Reuniclus
+|-damage|p2a: Reuniclus|40/100
+|
+|upkeep
+|turn|16
+
+|
+|-zpower|p2a: Reuniclus
+|move|p2a: Reuniclus|All-Out Pummeling|p1a: Picassiette|[zeffect]
+|-supereffective|p1a: Picassiette
+|-damage|p1a: Picassiette|0 fnt
+|faint|p1a: Picassiette
+|
+|upkeep
+
+|
+|switch|p1a: Captain'coton|Altaria-Mega, F|27/100
+|-damage|p1a: Captain'coton|15/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Reuniclus|Psychic|p1a: Captain'coton
+|-damage|p1a: Captain'coton|0 fnt
+|faint|p1a: Captain'coton
+|
+|upkeep
+
+|-message|Pachiw forfeited.
+
+|
+|win|baoliequan123

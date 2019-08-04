@@ -1,0 +1,118 @@
+|init|battle
+|title|kainashi vs. funguy_poke
+|j|☆kainashi
+|j|☆funguy_poke
+|player|p1|kainashi|23|1302
+|player|p2|funguy_poke|23|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Gigalith, L50, F|item
+|poke|p1|Excadrill, L50, F|item
+|poke|p1|Xurkitree, L50|item
+|poke|p1|Breloom, L50, F|item
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Salamence, L50, F|item
+|poke|p2|Landorus-Therian, L50, M|item
+|poke|p2|Snorlax, L50, M|item
+|poke|p2|Gengar, L50, F|item
+|poke|p2|Greninja, L50, M|item
+|poke|p2|Kartana, L50|item
+|poke|p2|Kommo-o, L50, M|item
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kainashi)
+|
+|start
+|switch|p1a: Gigalith|Gigalith, L50, F|48/48
+|switch|p2a: Landorus|Landorus-Therian, L50, M, shiny|48/48
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gigalith|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+
+|
+|move|p2a: Landorus|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|17/48
+|move|p1a: Gigalith|Gravity|p1a: Gigalith
+|-fieldstart|move: Gravity
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: kainashi|move: Stealth Rock
+|move|p1a: Gigalith|Explosion|p2a: Landorus
+|-damage|p2a: Landorus|24/48g
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Xurkitree|Xurkitree, L50, shiny|48/48
+|-damage|p1a: Xurkitree|42/48|[from] Stealth Rock
+|turn|3
+
+|
+|-zpower|p1a: Xurkitree
+|move|p1a: Xurkitree|Z-Hypnosis|p2a: Landorus|[anim]Hypnosis
+|-boost|p1a: Xurkitree|spe|1|[zeffect]
+|-status|p2a: Landorus|slp|[from] move: Hypnosis
+|cant|p2a: Landorus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xurkitree|39/48|[from] Sandstorm
+|upkeep
+|turn|4
+
+|
+|move|p1a: Xurkitree|Tail Glow|p1a: Xurkitree
+|-boost|p1a: Xurkitree|spa|3
+|cant|p2a: Landorus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xurkitree|36/48|[from] Sandstorm
+|upkeep
+|turn|5
+
+|
+|move|p1a: Xurkitree|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-ability|p1a: Xurkitree|Beast Boost|boost
+|-boost|p1a: Xurkitree|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xurkitree|34/48|[from] Sandstorm
+|-fieldend|move: Gravity
+|upkeep
+
+|
+|switch|p2a: Snorlax|Snorlax, L50, M, shiny|48/48
+|turn|6
+
+|
+|move|p1a: Xurkitree|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|-ability|p1a: Xurkitree|Beast Boost|boost
+|-boost|p1a: Xurkitree|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xurkitree|31/48|[from] Sandstorm
+|upkeep
+
+|-message|funguy_poke forfeited.
+
+|
+|win|kainashi

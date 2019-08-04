@@ -1,0 +1,291 @@
+|init|battle
+|title|A-Grade vs. kun751
+|j|☆A-Grade
+|j|☆kun751
+|player|p1|A-Grade|99|1453
+|player|p2|kun751|170|1461
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcarona, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Magearna|item
+|poke|p1|Latios, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Mamoswine, M|item
+|poke|p2|Medicham, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Magearna|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kun751)
+
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Kyurem|Kyurem-Black, shiny|100/100
+|-ability|p2a: Kyurem|Teravolt
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, M
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Tyranitar|Stealth Rock|p2a: Landorus
+|-sidestart|p2: kun751|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Rotom
+|-sidestart|p1: A-Grade|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Landorus|Explosion|p1a: Rotom
+|-damage|p1a: Rotom|22/100
+|faint|p2a: Landorus
+|move|p1a: Rotom|Will-O-Wisp|p2: Landorus|[notarget]
+|-fail|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|16/100|[from] Sandstorm
+|-heal|p1a: Rotom|22/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, M|100/100
+|-damage|p2a: Medicham|94/100|[from] Stealth Rock
+|turn|4
+
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|detailschange|p2a: Medicham|Medicham-Mega, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|High Jump Kick|p1a: Magearna|[miss]
+|-miss|p2a: Medicham|p1a: Magearna
+|-damage|p2a: Medicham|44/100|[from] highjumpkick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|38/100|[from] Sandstorm
+|upkeep
+|turn|5
+
+|c|☆kun751|...
+
+|c|☆A-Grade|sorry my bad
+
+|
+|move|p2a: Medicham|High Jump Kick|p1a: Magearna
+|-damage|p1a: Magearna|23/100
+|move|p1a: Magearna|Volt Switch|p2a: Medicham
+|-damage|p2a: Medicham|8/100
+
+|
+|switch|p1a: Latios|Latios, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p1a: Latios|Hidden Power|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-damage|p2a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|7
+
+|
+|switch|p1a: Rotom|Rotom-Wash|22/100
+|-damage|p1a: Rotom|9/100|[from] Stealth Rock
+|move|p2a: Tapu Koko|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+
+|
+|switch|p2a: Kyurem|Kyurem-Black, shiny|100/100|[from]move: Volt Switch
+|-damage|p2a: Kyurem|75/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar-Mega, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+
+|
+|-zpower|p2a: Kyurem
+|move|p2a: Kyurem|Subzero Slammer|p1a: Tyranitar|[zeffect]
+|-damage|p1a: Tyranitar|21/100
+|move|p1a: Tyranitar|Pursuit|p2a: Kyurem
+|-damage|p2a: Kyurem|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|45/100|[from] Sandstorm
+|upkeep
+|turn|9
+
+|
+|move|p2a: Kyurem|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|39/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p1a: Latios|Psychic|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|70/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|95/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p1a: Magearna|Magearna|23/100
+|-damage|p1a: Magearna|16/100|[from] Stealth Rock
+|move|p2a: Magearna|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|88/100|[from]move: Volt Switch
+|-damage|p2a: Tapu Koko|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Koko|70/100|[from] Sandstorm
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p2a: Magearna|Magearna|95/100
+|-damage|p2a: Magearna|89/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Icicle Crash|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|66/100
+|
+|-weather|none
+|upkeep
+|turn|13
+
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|70/100
+|-damage|p2a: Tapu Koko|57/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|14
+
+|
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Mamoswine
+|-damage|p1a: Mamoswine|14/100
+|move|p1a: Mamoswine|Icicle Crash|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|upkeep
+
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|15
+
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|50/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+
+|
+|switch|p1a: Latios|Latios, M|70/100
+|-damage|p1a: Latios|58/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|17
+
+|c|☆A-Grade|gg
+
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Hawlucha|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|
+|win|kun751

@@ -1,0 +1,73 @@
+|init|battle
+|title|Vic_15 vs. Kieran5208
+|j|☆Vic_15
+|j|☆Kieran5208
+|player|p1|Vic_15|1|2190
+|player|p2|Kieran5208|2|2234
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|switch|p2a: Torkoal|Torkoal, L89, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|j| austinandout
+|
+|move|p1a: Cobalion|Taunt|p2a: Torkoal
+|-start|p2a: Torkoal|move: Taunt
+|move|p2a: Torkoal|Fire Blast|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vic_15)
+|l| austinandout
+|
+|switch|p1a: Barbaracle|Barbaracle, L84, M|100/100
+|turn|2
+
+|
+|move|p1a: Barbaracle|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: Kieran5208|move: Stealth Rock
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam|p1a: Barbaracle
+|-anim|p2a: Torkoal|Solar Beam|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Exeggutor|Exeggutor-Alola, L86, F|100/100
+|-item|p2a: Torkoal|Assault Vest|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|turn|3
+
+|
+|move|p2a: Torkoal|Rapid Spin|p1a: Exeggutor
+|-damage|p1a: Exeggutor|96/100
+|-sideend|p2: Kieran5208|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|move|p1a: Exeggutor|Draco Meteor|p2a: Torkoal
+|-damage|p2a: Torkoal|37/100
+|-unboost|p1a: Exeggutor|spa|2
+|-damage|p1a: Exeggutor|86/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Torkoal|move: Taunt
+|upkeep
+|turn|4
+
+|-message|Vic_15 forfeited.
+
+|
+|win|Kieran5208

@@ -1,0 +1,155 @@
+|init|battle
+|title|Beastmodeon123 vs. Total legend0018
+|j|☆Beastmodeon123
+|j|☆Total legend0018
+|player|p1|Beastmodeon123|123|1031
+|player|p2|Total legend0018|110|1065
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Virizion|Virizion, L84|100/100
+|switch|p2a: Bastiodon|Bastiodon, L89, F|100/100
+|-item|p2a: Bastiodon|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Beastmodeon123)
+|
+|switch|p2a: Guzzlord|Guzzlord, L87|100/100
+|move|p1a: Virizion|Substitute|p1a: Virizion
+|-start|p1a: Virizion|Substitute
+|-damage|p1a: Virizion|76/100
+|
+|-heal|p1a: Virizion|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Virizion|Swords Dance|p1a: Virizion
+|-boost|p1a: Virizion|atk|2
+|move|p2a: Guzzlord|Fire Blast|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-end|p1a: Virizion|Substitute
+|-damage|p2a: Guzzlord|90/100|[from] item: Life Orb
+|
+|-heal|p1a: Virizion|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Virizion|Close Combat|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-crit|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|faint|p2a: Guzzlord
+|
+|-heal|p1a: Virizion|94/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Pheromosa|Pheromosa, L78|100/100
+|turn|4
+
+|
+|switch|p1a: Magnezone|Magnezone, L80|100/100
+|move|p2a: Pheromosa|High Jump Kick|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|-ability|p2a: Pheromosa|Beast Boost|boost
+|-boost|p2a: Pheromosa|spe|1
+|
+|upkeep
+
+|
+|switch|p1a: Fearow|Fearow, L89, M|100/100
+|turn|5
+
+|
+|move|p2a: Pheromosa|High Jump Kick|p1a: Fearow
+|-damage|p1a: Fearow|32/100
+|move|p1a: Fearow|Drill Peck|p2a: Pheromosa
+|-supereffective|p2a: Pheromosa
+|-damage|p2a: Pheromosa|0 fnt
+|faint|p2a: Pheromosa
+|
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|turn|6
+
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p1a: Fearow|Drill Peck|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|53/100
+|move|p2a: Kangaskhan|Return|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|-hitcount|p1a: Fearow|1
+|faint|p1a: Fearow
+|
+|upkeep
+
+|
+|switch|p1a: Virizion|Virizion, L84|94/100
+|turn|7
+
+|
+|move|p1a: Virizion|Swords Dance|p1a: Virizion
+|-boost|p1a: Virizion|atk|2
+|move|p2a: Kangaskhan|Crunch|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|81/100
+|-ability|p1a: Virizion|Justified|boost
+|-boost|p1a: Virizion|atk|1
+|-unboost|p1a: Virizion|def|1
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|76/100
+|-ability|p1a: Virizion|Justified|boost
+|-boost|p1a: Virizion|atk|1
+|-unboost|p1a: Virizion|def|1
+|-hitcount|p1a: Virizion|2
+|
+|-heal|p1a: Virizion|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Virizion|Close Combat|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|faint|p2a: Kangaskhan
+|
+|-heal|p1a: Virizion|89/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound, L81|100/100
+|turn|9
+
+|inactive|Beastmodeon123 has 120 seconds left.
+
+|
+|move|p1a: Virizion|Close Combat|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|faint|p2a: Hoopa
+|
+|-heal|p1a: Virizion|95/100|[from] item: Leftovers
+|upkeep
+
+|-message|Total legend0018 forfeited.
+
+|
+|win|Beastmodeon123

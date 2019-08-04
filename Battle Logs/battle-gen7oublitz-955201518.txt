@@ -1,0 +1,424 @@
+|init|battle
+|title|Kiludead vs. francovizz
+|j|☆Kiludead
+|j|☆francovizz
+|player|p1|Kiludead|170|1044
+|player|p2|francovizz|170|1152
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sableye, F|item
+|poke|p1|Greninja, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Tangrowth, M|item
+|poke|p1|Tapu Lele|item
+|poke|p2|Beedrill, F|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Shuckle, F|item
+|poke|p2|Starmie|item
+|poke|p2|Salazzle, F|item
+|poke|p2|Weavile, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Kiludead has 30 seconds left this turn.
+|inactive|francovizz has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kiludead)
+|
+|start
+|switch|p1a: Sableye|Sableye, F|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|turn|1
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|detailschange|p1a: Sableye|Sableye-Mega, F
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p1a: Sableye|Knock Off|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|76/100
+|-enditem|p2a: Weavile|Focus Sash|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|2
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Sableye|Will-O-Wisp|p2a: Weavile
+|-status|p2a: Weavile|brn
+|
+|-damage|p2a: Weavile|70/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Sableye|Knock Off|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|54/100 brn
+|
+|-damage|p2a: Weavile|48/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|move|p2a: Weavile|Ice Punch|p1a: Sableye
+|-damage|p1a: Sableye|52/100
+|-status|p1a: Sableye|frz
+|-curestatus|p1a: Sableye|frz|[msg]
+|move|p1a: Sableye|Knock Off|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|30/100 brn
+|
+|-damage|p2a: Weavile|24/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|move|p2a: Weavile|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|9/100
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|60/100
+|
+|-damage|p2a: Weavile|18/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|move|p2a: Weavile|Ice Punch|p1a: Sableye
+|-damage|p1a: Sableye|7/100
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|57/100
+|
+|-damage|p2a: Weavile|12/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|move|p2a: Weavile|Ice Punch|p1a: Sableye
+|-damage|p1a: Sableye|4/100
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|54/100
+|
+|-damage|p2a: Weavile|5/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|move|p2a: Weavile|Ice Punch|p1a: Sableye
+|-damage|p1a: Sableye|6/100
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|56/100
+|
+|-damage|p2a: Weavile|0 fnt|[from] brn
+|faint|p2a: Weavile
+|upkeep
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|switch|p2a: gg wp 2|Salazzle, F|100/100
+|turn|9
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|move|p2a: gg wp 2|Nasty Plot|p2a: gg wp 2
+|-boost|p2a: gg wp 2|spa|2
+|move|p1a: Sableye|Knock Off|p2a: gg wp 2
+|-damage|p2a: gg wp 2|46/100
+|-enditem|p2a: gg wp 2|Focus Sash|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|10
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|Kiludead has 10 seconds left.
+|
+|move|p2a: gg wp 2|Flamethrower|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|11
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+|inactive|francovizz has 10 seconds left.
+
+|
+|move|p1a: Tapu Lele|Psychic|p2a: gg wp 2
+|-supereffective|p2a: gg wp 2
+|-crit|p2a: gg wp 2
+|-damage|p2a: gg wp 2|0 fnt
+|faint|p2a: gg wp 2
+|
+|upkeep
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p2a: Shuckle|Shuckle, F|100/100
+|turn|12
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p1a: Tapu Lele|Psychic|p2a: Shuckle
+|-damage|p2a: Shuckle|61/100
+|-enditem|p2a: Shuckle|Red Card|[of] p1a: Tapu Lele
+|drag|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Shuckle|Sticky Web|p1a: Tangrowth
+|-sidestart|p1: Kiludead|move: Sticky Web
+|
+|upkeep
+|turn|13
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|inactive|Kiludead has 10 seconds left.
+
+|
+|move|p1a: Tangrowth|Giga Drain|p2a: Shuckle
+|-damage|p2a: Shuckle|43/100
+|move|p2a: Shuckle|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: Kiludead|move: Stealth Rock
+|
+|upkeep
+|turn|14
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p1a: Tangrowth|Knock Off|p2a: Shuckle
+|-damage|p2a: Shuckle|34/100
+|move|p2a: Shuckle|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|
+|-damage|p1a: Tangrowth|94/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p1a: Tangrowth|Giga Drain|p2a: Shuckle
+|-damage|p2a: Shuckle|17/100
+|-heal|p1a: Tangrowth|99/100 tox|[from] drain|[of] p2a: Shuckle
+|move|p2a: Shuckle|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|96/100 tox
+|-enditem|p1a: Tangrowth|Assault Vest|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|-damage|p1a: Tangrowth|83/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|16
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p1a: Tangrowth|Giga Drain|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|-heal|p1a: Tangrowth|88/100 tox|[from] drain|[of] p2a: Shuckle
+|faint|p2a: Shuckle
+|
+|-damage|p1a: Tangrowth|70/100 tox|[from] psn
+|upkeep
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p2a: Beedrill|Beedrill, F|100/100
+|turn|17
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|detailschange|p2a: Beedrill|Beedrill-Mega, F
+|-mega|p2a: Beedrill|Beedrill|Beedrillite
+|move|p2a: Beedrill|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|inactive|francovizz has 10 seconds left.
+
+|
+|switch|p2a: gg wp|Porygon-Z|100/100|[from]move: U-turn
+|
+|upkeep
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|turn|18
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p2a: gg wp|Tri Attack|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p1a: Greninja|Greninja, F|100/100
+|-activate|p1a: Greninja|move: Sticky Web
+|-unboost|p1a: Greninja|spe|1
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|turn|19
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p2a: gg wp|Tri Attack|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-activate|p1a: Tapu Lele|move: Sticky Web
+|-unboost|p1a: Tapu Lele|spe|1
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|20
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p1a: Tapu Lele|Psychic|p2a: gg wp
+|-damage|p2a: gg wp|0 fnt
+|faint|p2a: gg wp
+|
+|upkeep
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p2a: Beedrill|Beedrill-Mega, F|100/100
+|turn|21
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p2a: Beedrill|U-turn|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p2a: Starmie|Starmie|100/100|[from]move: U-turn
+|
+|upkeep
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-activate|p1a: Tyranitar|move: Sticky Web
+|-unboost|p1a: Tyranitar|spe|1
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|22
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p2a: Starmie|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|61/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Starmie
+|-damage|p2a: Starmie|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|5/100|[from] Sandstorm
+|upkeep
+|turn|23
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p2a: Starmie|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|37/100
+|move|p1a: Tyranitar|Crunch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|switch|p2a: Beedrill|Beedrill-Mega, F|100/100
+|turn|24
+
+|inactive|Kiludead has 15 seconds left this turn.
+|inactive|francovizz has 15 seconds left this turn.
+
+|
+|move|p2a: Beedrill|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|francovizz

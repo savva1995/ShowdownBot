@@ -1,0 +1,218 @@
+|init|battle
+|title|Burlhouse vs. Rutuj
+|j|☆Burlhouse
+|j|☆Rutuj
+|player|p1|Burlhouse|10|1322
+|player|p2|Rutuj|102|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Keldeo|Keldeo, L71|100/100
+|switch|p1b: Corsola|Corsola, L88, M|100/100
+|switch|p2a: Garchomp|Garchomp, L70, M|100/100
+|switch|p2b: Absol|Absol, L83, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rutuj)
+
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, L70, M
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p1b: Corsola|Protect|p1b: Corsola
+|-singleturn|p1b: Corsola|Protect
+|move|p1a: Keldeo|Surf|p2b: Absol|[spread] p2a,p2b
+|-activate|p1b: Corsola|move: Protect
+|-damage|p2a: Garchomp|72/100
+|-damage|p2b: Absol|66/100
+|move|p2b: Absol|Superpower|p1b: Corsola
+|-activate|p1b: Corsola|move: Protect
+|move|p2a: Garchomp|Dragon Claw|p1a: Keldeo
+|-damage|p1a: Keldeo|58/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2b: Vivillon|Vivillon, L88, M|100/100
+|move|p1a: Keldeo|Secret Sword|p2b: Vivillon
+|-resisted|p2b: Vivillon
+|-damage|p2b: Vivillon|90/100
+|move|p2a: Garchomp|Earthquake|p1b: Corsola|[spread] p1a,p1b
+|-immune|p2b: Vivillon
+|-supereffective|p1b: Corsola
+|-crit|p1b: Corsola
+|-damage|p1a: Keldeo|17/100
+|-damage|p1b: Corsola|4/100
+|-enditem|p1b: Corsola|Sitrus Berry|[eat]
+|-heal|p1b: Corsola|29/100|[from] item: Sitrus Berry
+|move|p1b: Corsola|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Rutuj|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|move|p2b: Vivillon|Quiver Dance|p2b: Vivillon
+|-boost|p2b: Vivillon|spa|1
+|-boost|p2b: Vivillon|spd|1
+|-boost|p2b: Vivillon|spe|1
+|move|p1a: Keldeo|Hidden Power|p2b: Vivillon
+|-supereffective|p2b: Vivillon
+|-damage|p2b: Vivillon|61/100
+|move|p2a: Garchomp|Earthquake|p1b: Corsola|[spread] p1a,p1b
+|-immune|p2b: Vivillon
+|-supereffective|p1b: Corsola
+|-damage|p1a: Keldeo|0 fnt
+|-damage|p1b: Corsola|0 fnt
+|faint|p1a: Keldeo
+|faint|p1b: Corsola
+|
+|upkeep
+
+|
+|switch|p1a: Xerneas|Xerneas, L70|100/100
+|switch|p1b: Entei|Entei, L71|100/100
+|-ability|p1b: Entei|Pressure
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|4
+
+|
+|move|p2b: Vivillon|Sleep Powder|p1a: Xerneas
+|-status|p1a: Xerneas|slp|[from] move: Sleep Powder
+|move|p1b: Entei|Stone Edge|p2b: Vivillon
+|-supereffective|p2b: Vivillon
+|-enditem|p2b: Vivillon|Charti Berry|[eat]
+|-enditem|p2b: Vivillon|Charti Berry|[weaken]
+|-damage|p2b: Vivillon|0 fnt
+|-damage|p1b: Entei|91/100|[from] item: Life Orb
+|faint|p2b: Vivillon
+|cant|p1a: Xerneas|slp
+|move|p2a: Garchomp|Earthquake|p1b: Entei|[spread] p1a,p1b
+|-supereffective|p1b: Entei
+|-damage|p1a: Xerneas|66/100 slp
+|-damage|p1b: Entei|9/100
+|
+|upkeep
+
+|
+|switch|p2b: Vileplume|Vileplume, L80, M|100/100
+|-damage|p2b: Vileplume|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p2b: Vileplume|Protect|p2b: Vileplume
+|-singleturn|p2b: Vileplume|Protect
+|move|p1b: Entei|Flare Blitz|p2b: Vileplume
+|-activate|p2b: Vileplume|move: Protect
+|-curestatus|p1a: Xerneas|slp|[msg]
+|move|p1a: Xerneas|Dazzling Gleam|p2a: Garchomp|[spread] p2a
+|-activate|p2b: Vileplume|move: Protect
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Xerneas|56/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+
+|
+|switch|p2a: Lumineon|Lumineon, L83, F|100/100
+|-damage|p2a: Lumineon|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Lumineon|Scald|p1b: Entei
+|-supereffective|p1b: Entei
+|-damage|p1b: Entei|0 fnt
+|-damage|p2a: Lumineon|78/100|[from] item: Life Orb
+|faint|p1b: Entei
+|move|p1a: Xerneas|Thunderbolt|p2a: Lumineon
+|-supereffective|p2a: Lumineon
+|-damage|p2a: Lumineon|15/100
+|-damage|p1a: Xerneas|46/100|[from] item: Life Orb
+|move|p2b: Vileplume|Sludge Bomb|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|upkeep
+
+|
+|switch|p1b: Klinklang|Klinklang, L77|100/100
+|switch|p1a: Umbreon|Umbreon, L77, F|100/100
+|turn|7
+
+|
+|move|p2a: Lumineon|Tailwind|p2a: Lumineon
+|-sidestart|p2: Rutuj|move: Tailwind
+|move|p1b: Klinklang|Shift Gear|p1b: Klinklang
+|-boost|p1b: Klinklang|spe|2
+|-boost|p1b: Klinklang|atk|1
+|move|p1a: Umbreon|Snarl|p2b: Vileplume|[spread] p2a,p2b
+|-damage|p2a: Lumineon|3/100
+|-damage|p2b: Vileplume|78/100
+|-unboost|p2a: Lumineon|spa|1
+|-unboost|p2b: Vileplume|spa|1
+|move|p2b: Vileplume|Stun Spore|p1b: Klinklang|[miss]
+|-miss|p2b: Vileplume|p1b: Klinklang
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Lumineon|Scald|p1b: Klinklang
+|-damage|p1b: Klinklang|69/100
+|-damage|p2a: Lumineon|0 fnt|[from] item: Life Orb
+|faint|p2a: Lumineon
+|move|p1b: Klinklang|Return|p2b: Vileplume
+|-damage|p2b: Vileplume|27/100
+|-enditem|p2b: Vileplume|Sitrus Berry|[eat]
+|-heal|p2b: Vileplume|51/100|[from] item: Sitrus Berry
+|-damage|p1b: Klinklang|59/100|[from] item: Life Orb
+|move|p2b: Vileplume|Stun Spore|p1b: Klinklang
+|-status|p1b: Klinklang|par
+|move|p1a: Umbreon|Snarl|p2b: Vileplume
+|-damage|p2b: Vileplume|37/100
+|-unboost|p2b: Vileplume|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Absol|Absol, L83, F|66/100
+|-damage|p2a: Absol|54/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p2a: Absol|Fire Blast|p1b: Klinklang
+|-supereffective|p1b: Klinklang
+|-damage|p1b: Klinklang|0 fnt
+|-damage|p2a: Absol|44/100|[from] item: Life Orb
+|faint|p1b: Klinklang
+|move|p2b: Vileplume|Sludge Bomb|p1a: Umbreon
+|-damage|p1a: Umbreon|87/100
+|move|p1a: Umbreon|Snarl|p2a: Absol|[spread] p2a,p2b
+|-resisted|p2a: Absol
+|-damage|p2a: Absol|37/100
+|-damage|p2b: Vileplume|26/100
+|-ability|p2a: Absol|Justified|boost
+|-boost|p2a: Absol|atk|1
+|-unboost|p2a: Absol|spa|1
+|-unboost|p2b: Vileplume|spa|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Absol|Superpower|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|-unboost|p2a: Absol|atk|1
+|-unboost|p2a: Absol|def|1
+|-damage|p2a: Absol|27/100|[from] item: Life Orb
+|faint|p1a: Umbreon
+|
+|win|Rutuj

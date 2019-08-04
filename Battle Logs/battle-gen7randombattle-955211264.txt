@@ -1,0 +1,62 @@
+|init|battle
+|title|NailedIt1 vs. Airkooler
+|j|☆NailedIt1
+|j|☆Airkooler
+|player|p1|NailedIt1|265|1000
+|player|p2|Airkooler|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Minun|Minun, L89, M|100/100
+|switch|p2a: Tangrowth|Tangrowth, L80, F|100/100
+|turn|1
+|
+|switch|p1a: Buzzwole|Buzzwole, L81|100/100
+|switch|p2a: Krookodile|Krookodile, L82, F|100/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Airkooler)
+|
+|move|p2a: Krookodile|Earthquake|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|87/100
+|move|p1a: Buzzwole|Leech Life|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|25/100
+|-heal|p1a: Buzzwole|100/100|[from] drain|[of] p2a: Krookodile
+|
+|upkeep
+|turn|3
+
+|inactive|Airkooler has 120 seconds left.
+
+|
+|move|p2a: Krookodile|Earthquake|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|86/100
+|move|p1a: Buzzwole|Leech Life|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|-heal|p1a: Buzzwole|98/100|[from] drain|[of] p2a: Krookodile
+|faint|p2a: Krookodile
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Claydol|Claydol, L88|100/100
+|turn|4
+
+|-message|Airkooler forfeited.
+
+|
+|win|NailedIt1

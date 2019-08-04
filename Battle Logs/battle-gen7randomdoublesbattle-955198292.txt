@@ -1,0 +1,558 @@
+|init|battle
+|title|Frank17Conte vs. DanielDAce
+|j|☆Frank17Conte
+|j|☆DanielDAce
+|player|p1|Frank17Conte|224|1390
+|player|p2|DanielDAce|290|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko, L72|100/100
+|switch|p1b: Aromatisse|Aromatisse, L83, F|100/100
+|switch|p2a: Cloyster|Cloyster, L77, F|100/100
+|switch|p2b: Cryogonal|Cryogonal, L78|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|1
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L81, M|100/100
+|move|p1a: Tapu Koko|Taunt|p2a: Cofagrigus
+|-start|p2a: Cofagrigus|move: Taunt
+|move|p2b: Cryogonal|Hidden Power|p1a: Tapu Koko
+|-supereffective|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|60/100
+|move|p1b: Aromatisse|Thunderbolt|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|60/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Tapu Koko|Volt Switch|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|26/100
+|-enditem|p2a: Cofagrigus|Sitrus Berry|[eat]
+|-heal|p2a: Cofagrigus|50/100|[from] item: Sitrus Berry
+
+|
+|switch|p1a: Pidgeot|Pidgeot, L72, F|100/100|[from]move: Volt Switch
+|move|p2b: Cryogonal|Freeze-Dry|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|27/100
+|move|p1b: Aromatisse|Thunderbolt|p2b: Cryogonal
+|-damage|p2b: Cryogonal|70/100
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Pidgeot
+|-immune|p1a: Pidgeot
+|
+|upkeep
+|turn|3
+
+|
+|detailschange|p1a: Pidgeot|Pidgeot-Mega, L72, F
+|-mega|p1a: Pidgeot|Pidgeot|Pidgeotite
+|move|p1a: Pidgeot|Hurricane|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|8/100
+|move|p2b: Cryogonal|Freeze-Dry|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|move|p1b: Aromatisse|Heal Pulse|p1: Pidgeot|[notarget]
+|-fail|p1b: Aromatisse
+|move|p2a: Cofagrigus|Shadow Ball|p1b: Aromatisse
+|-damage|p1b: Aromatisse|76/100
+|
+|-end|p2a: Cofagrigus|move: Taunt
+|upkeep
+
+|
+|switch|p1a: Umbreon|Umbreon, L77, F|100/100
+|turn|4
+
+|
+|move|p1b: Aromatisse|Protect|p1b: Aromatisse
+|-singleturn|p1b: Aromatisse|Protect
+|move|p2b: Cryogonal|Recover|p2b: Cryogonal
+|-heal|p2b: Cryogonal|100/100
+|move|p1a: Umbreon|Snarl|p2b: Cryogonal|[spread] p2a,p2b
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-damage|p2b: Cryogonal|93/100
+|-unboost|p2b: Cryogonal|spa|1
+|faint|p2a: Cofagrigus
+|
+|upkeep
+
+|
+|switch|p2a: Masquerain|Masquerain, L84, F|100/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|-unboost|p1b: Aromatisse|atk|1
+|turn|5
+
+|
+|switch|p2b: Mew|Mew, L70|100/100
+|move|p2a: Masquerain|Quiver Dance|p2a: Masquerain
+|-boost|p2a: Masquerain|spa|1
+|-boost|p2a: Masquerain|spd|1
+|-boost|p2a: Masquerain|spe|1
+|move|p1a: Umbreon|Snarl|p2b: Mew|[spread] p2a,p2b
+|-supereffective|p2b: Mew
+|-damage|p2a: Masquerain|93/100
+|-damage|p2b: Mew|76/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Mew|spa|1
+|move|p1b: Aromatisse|Thunderbolt|p2a: Masquerain
+|-supereffective|p2a: Masquerain
+|-damage|p2a: Masquerain|38/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p2b: Cryogonal|Cryogonal, L78|93/100
+|move|p2a: Masquerain|Struggle Bug|p1b: Aromatisse|[spread] p1a,p1b
+|-supereffective|p1a: Umbreon
+|-resisted|p1b: Aromatisse
+|-damage|p1a: Umbreon|76/100
+|-damage|p1b: Aromatisse|70/100
+|-unboost|p1a: Umbreon|spa|1
+|-unboost|p1b: Aromatisse|spa|1
+|move|p1a: Umbreon|Snarl|p2a: Masquerain|[spread] p2a,p2b
+|-crit|p2b: Cryogonal
+|-damage|p2a: Masquerain|33/100
+|-damage|p2b: Cryogonal|80/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Cryogonal|spa|1
+|move|p1b: Aromatisse|Thunderbolt|p2a: Masquerain
+|-supereffective|p2a: Masquerain
+|-damage|p2a: Masquerain|10/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Masquerain|Roost|p2a: Masquerain
+|-heal|p2a: Masquerain|60/100
+|-singleturn|p2a: Masquerain|move: Roost
+|move|p2b: Cryogonal|Freeze-Dry|p1a: Umbreon
+|-damage|p1a: Umbreon|64/100
+|move|p1a: Umbreon|Snarl|p2b: Cryogonal|[spread] p2a,p2b
+|-damage|p2a: Masquerain|55/100
+|-damage|p2b: Cryogonal|75/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Cryogonal|spa|1
+|move|p1b: Aromatisse|Thunderbolt|p2a: Masquerain
+|-damage|p2a: Masquerain|43/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Masquerain|Struggle Bug|p1b: Aromatisse|[spread] p1a,p1b
+|-supereffective|p1a: Umbreon
+|-resisted|p1b: Aromatisse
+|-crit|p1b: Aromatisse
+|-damage|p1a: Umbreon|50/100
+|-damage|p1b: Aromatisse|60/100
+|-unboost|p1a: Umbreon|spa|1
+|-unboost|p1b: Aromatisse|spa|1
+|-enditem|p1a: Umbreon|Sitrus Berry|[eat]
+|-heal|p1a: Umbreon|75/100|[from] item: Sitrus Berry
+|move|p2b: Cryogonal|Recover|p2b: Cryogonal
+|-heal|p2b: Cryogonal|100/100
+|move|p1a: Umbreon|Snarl|p2b: Cryogonal|[spread] p2a,p2b
+|-damage|p2a: Masquerain|40/100
+|-damage|p2b: Cryogonal|97/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Cryogonal|spa|1
+|move|p1b: Aromatisse|Heal Pulse|p1a: Umbreon
+|-heal|p1a: Umbreon|100/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2b: Cloyster|Cloyster, L77, F|100/100
+|switch|p1a: Tapu Koko|Tapu Koko, L72|60/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p1b: Aromatisse|Protect|p1b: Aromatisse
+|-singleturn|p1b: Aromatisse|Protect
+|move|p2a: Masquerain|Roost|p2a: Masquerain
+|-heal|p2a: Masquerain|90/100
+|-singleturn|p2a: Masquerain|move: Roost
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2b: Cryogonal|Cryogonal, L78|97/100
+|switch|p1b: Hitmontop|Hitmontop, L84, M|100/100
+|-ability|p1b: Hitmontop|Intimidate|boost
+|-unboost|p2a: Masquerain|atk|1
+|-unboost|p2b: Cryogonal|atk|1
+|move|p2a: Masquerain|Struggle Bug|p1b: Hitmontop|[spread] p1a,p1b
+|-resisted|p1a: Tapu Koko
+|-resisted|p1b: Hitmontop
+|-damage|p1a: Tapu Koko|55/100
+|-damage|p1b: Hitmontop|98/100
+|-unboost|p1a: Tapu Koko|spa|1
+|-unboost|p1b: Hitmontop|spa|1
+|move|p1a: Tapu Koko|Taunt|p2b: Cryogonal
+|-start|p2b: Cryogonal|move: Taunt
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Mew|Mew, L70|76/100
+|move|p1b: Hitmontop|Fake Out|p2b: Cryogonal
+|-damage|p2b: Cryogonal|75/100
+|-damage|p1b: Hitmontop|88/100|[from] item: Life Orb
+|move|p1a: Tapu Koko|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|52/100
+
+|
+|switch|p1a: Umbreon|Umbreon, L77, F|100/100|[from]move: Volt Switch
+|cant|p2b: Cryogonal|flinch
+|
+|upkeep
+|turn|12
+
+|
+|move|p1b: Hitmontop|Mach Punch|p2b: Cryogonal
+|-supereffective|p2b: Cryogonal
+|-damage|p2b: Cryogonal|1/100
+|-enditem|p2b: Cryogonal|Sitrus Berry|[eat]
+|-heal|p2b: Cryogonal|26/100|[from] item: Sitrus Berry
+|-damage|p1b: Hitmontop|78/100|[from] item: Life Orb
+|move|p2b: Cryogonal|Freeze-Dry|p1b: Hitmontop
+|-damage|p1b: Hitmontop|52/100
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|100/100
+|-singleturn|p2a: Mew|move: Roost
+|move|p1a: Umbreon|Snarl|p2a: Mew|[spread] p2a,p2b
+|-supereffective|p2a: Mew
+|-crit|p2a: Mew
+|-crit|p2b: Cryogonal
+|-damage|p2a: Mew|65/100
+|-damage|p2b: Cryogonal|15/100
+|-unboost|p2a: Mew|spa|1
+|-unboost|p2b: Cryogonal|spa|1
+|
+|-end|p2b: Cryogonal|move: Taunt
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Masquerain|Masquerain, L84, F|90/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|-unboost|p1b: Hitmontop|atk|1
+|move|p1b: Hitmontop|Mach Punch|p2b: Cryogonal
+|-supereffective|p2b: Cryogonal
+|-damage|p2b: Cryogonal|0 fnt
+|-damage|p1b: Hitmontop|42/100|[from] item: Life Orb
+|faint|p2b: Cryogonal
+|move|p1a: Umbreon|Snarl|p2a: Masquerain
+|-damage|p2a: Masquerain|77/100
+|-unboost|p2a: Masquerain|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p2b: Cloyster|Cloyster, L77, F|100/100
+|turn|14
+
+|
+|switch|p1b: Tapu Koko|Tapu Koko, L72|55/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|move|p2a: Masquerain|Air Slash|p1b: Tapu Koko
+|-resisted|p1b: Tapu Koko
+|-crit|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|22/100
+|move|p2b: Cloyster|Shell Smash|p2b: Cloyster
+|-unboost|p2b: Cloyster|def|1
+|-unboost|p2b: Cloyster|spd|1
+|-boost|p2b: Cloyster|atk|2
+|-boost|p2b: Cloyster|spa|2
+|-boost|p2b: Cloyster|spe|2
+|-enditem|p2b: Cloyster|White Herb
+|-clearnegativeboost|p2b: Cloyster|[silent]
+|move|p1a: Umbreon|Snarl|p2b: Cloyster|[spread] p2a,p2b
+|-damage|p2a: Masquerain|66/100
+|-damage|p2b: Cloyster|80/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Cloyster|spa|1
+|
+|upkeep
+|turn|15
+
+|
+|move|p2b: Cloyster|Icicle Spear|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|0 fnt
+|-hitcount|p1b: Tapu Koko|1
+|faint|p1b: Tapu Koko
+|move|p2a: Masquerain|Struggle Bug|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|84/100
+|-unboost|p1a: Umbreon|spa|1
+|move|p1a: Umbreon|Snarl|p2a: Masquerain|[spread] p2a,p2b
+|-damage|p2a: Masquerain|59/100
+|-damage|p2b: Cloyster|65/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Cloyster|spa|1
+|
+|upkeep
+
+|
+|switch|p1b: Hitmontop|Hitmontop, L84, M|42/100
+|-ability|p1b: Hitmontop|Intimidate|boost
+|-unboost|p2a: Masquerain|atk|1
+|-unboost|p2b: Cloyster|atk|1
+|turn|16
+
+|
+|switch|p2a: Latias|Latias, L70, F|100/100
+|move|p1b: Hitmontop|Mach Punch|p2b: Cloyster
+|-supereffective|p2b: Cloyster
+|-damage|p2b: Cloyster|29/100
+|-damage|p1b: Hitmontop|32/100|[from] item: Life Orb
+|move|p2b: Cloyster|Icicle Spear|p1b: Hitmontop
+|-damage|p1b: Hitmontop|18/100
+|-damage|p1b: Hitmontop|4/100
+|-damage|p1b: Hitmontop|0 fnt
+|-hitcount|p1b: Hitmontop|3
+|faint|p1b: Hitmontop
+|move|p1a: Umbreon|Snarl|p2b: Cloyster|[spread] p2a,p2b
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|86/100
+|-damage|p2b: Cloyster|14/100
+|-unboost|p2a: Latias|spa|1
+|-unboost|p2b: Cloyster|spa|1
+|
+|upkeep
+
+|
+|switch|p1b: Aromatisse|Aromatisse, L83, F|60/100
+|turn|17
+
+|
+|detailschange|p2a: Latias|Latias-Mega, L70, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p2b: Cloyster|Liquidation|p1b: Aromatisse
+|-damage|p1b: Aromatisse|17/100
+|-enditem|p1b: Aromatisse|Sitrus Berry|[eat]
+|-heal|p1b: Aromatisse|42/100|[from] item: Sitrus Berry
+|move|p2a: Latias|Heal Pulse|p2b: Cloyster
+|-heal|p2b: Cloyster|64/100
+|move|p1a: Umbreon|Snarl|p2b: Cloyster|[spread] p2a,p2b
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|75/100
+|-damage|p2b: Cloyster|49/100
+|-unboost|p2a: Latias|spa|1
+|-unboost|p2b: Cloyster|spa|1
+|move|p1b: Aromatisse|Moonblast|p2a: Latias
+|-supereffective|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+
+|
+|switch|p2a: Masquerain|Masquerain, L84, F|59/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|-unboost|p1b: Aromatisse|atk|1
+|turn|18
+
+|
+|move|p1b: Aromatisse|Protect|p1b: Aromatisse
+|-singleturn|p1b: Aromatisse|Protect
+|move|p2b: Cloyster|Icicle Spear|p1b: Aromatisse
+|-activate|p1b: Aromatisse|move: Protect
+|move|p2a: Masquerain|Quiver Dance|p2a: Masquerain
+|-boost|p2a: Masquerain|spa|1
+|-boost|p2a: Masquerain|spd|1
+|-boost|p2a: Masquerain|spe|1
+|move|p1a: Umbreon|Snarl|p2b: Cloyster|[spread] p2a,p2b
+|-damage|p2a: Masquerain|55/100
+|-damage|p2b: Cloyster|35/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Cloyster|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|19
+
+|
+|move|p2b: Cloyster|Icicle Spear|p1b: Aromatisse
+|-damage|p1b: Aromatisse|29/100
+|-damage|p1b: Aromatisse|16/100
+|-damage|p1b: Aromatisse|3/100
+|-damage|p1b: Aromatisse|0 fnt
+|-hitcount|p1b: Aromatisse|4
+|faint|p1b: Aromatisse
+|move|p2a: Masquerain|Quiver Dance|p2a: Masquerain
+|-boost|p2a: Masquerain|spa|1
+|-boost|p2a: Masquerain|spd|1
+|-boost|p2a: Masquerain|spe|1
+|move|p1a: Umbreon|Snarl|p2b: Cloyster|[spread] p2a,p2b
+|-damage|p2a: Masquerain|51/100
+|-damage|p2b: Cloyster|19/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Cloyster|spa|1
+|
+|upkeep
+
+|
+|switch|p1b: Dragonite|Dragonite, L70, M|100/100
+|turn|20
+
+|
+|move|p1b: Dragonite|Extreme Speed|p2b: Cloyster
+|-damage|p2b: Cloyster|3/100
+|move|p2a: Masquerain|Air Slash|p1a: Umbreon
+|-damage|p1a: Umbreon|58/100
+|move|p2b: Cloyster|Icicle Spear|p1b: Dragonite
+|-supereffective|p1b: Dragonite
+|-enditem|p1b: Dragonite|Yache Berry|[eat]
+|-enditem|p1b: Dragonite|Yache Berry|[weaken]
+|-damage|p1b: Dragonite|83/100
+|-supereffective|p1b: Dragonite
+|-damage|p1b: Dragonite|19/100
+|-supereffective|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|-hitcount|p1b: Dragonite|3
+|faint|p1b: Dragonite
+|move|p1a: Umbreon|Snarl|p2b: Cloyster|[spread] p2a,p2b
+|-damage|p2a: Masquerain|48/100
+|-damage|p2b: Cloyster|0 fnt
+|-unboost|p2a: Masquerain|spa|1
+|faint|p2b: Cloyster
+|
+|upkeep
+
+|
+|switch|p2b: Mew|Mew, L70|65/100
+|turn|21
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p2a: Masquerain|Air Slash|p1a: Umbreon
+|-damage|p1a: Umbreon|36/100
+|move|p1a: Umbreon|Snarl|p2a: Masquerain|[spread] p2a,p2b
+|-supereffective|p2b: Mew
+|-damage|p2a: Masquerain|44/100
+|-damage|p2b: Mew|50/100
+|-unboost|p2a: Masquerain|spa|1
+|-unboost|p2b: Mew|spa|1
+|-enditem|p2b: Mew|Sitrus Berry|[eat]
+|-heal|p2b: Mew|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|22
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p2a: Masquerain|Air Slash|p1a: Umbreon
+|-damage|p1a: Umbreon|18/100
+|cant|p1a: Umbreon|flinch
+|
+|upkeep
+|turn|23
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Masquerain|Air Slash|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|upkeep
+|turn|24
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Masquerain|Air Slash|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|upkeep
+|turn|25
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p2a: Masquerain|Air Slash|p1a: Umbreon
+|-damage|p1a: Umbreon|2/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Masquerain|Quiver Dance|p2a: Masquerain
+|-boost|p2a: Masquerain|spa|1
+|-boost|p2a: Masquerain|spd|1
+|-boost|p2a: Masquerain|spe|1
+|move|p2b: Mew|Roost|p2b: Mew
+|-heal|p2b: Mew|100/100
+|-singleturn|p2b: Mew|move: Roost
+|
+|-heal|p1a: Umbreon|51/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|27
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p2a: Masquerain|Air Slash|p1a: Umbreon
+|-damage|p1a: Umbreon|28/100
+|cant|p1a: Umbreon|flinch
+|
+|upkeep
+|turn|28
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p2a: Masquerain|Air Slash|p1a: Umbreon
+|-damage|p1a: Umbreon|4/100
+|cant|p1a: Umbreon|flinch
+|
+|upkeep
+|turn|29
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Masquerain|Struggle Bug|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|upkeep
+|turn|30
+
+|
+|move|p2b: Mew|Helping Hand|p2a: Masquerain
+|-singleturn|p2a: Masquerain|Helping Hand|[of] p2b: Mew
+|move|p2a: Masquerain|Struggle Bug|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|win|DanielDAce

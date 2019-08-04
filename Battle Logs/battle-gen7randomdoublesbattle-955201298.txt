@@ -1,0 +1,64 @@
+|init|battle
+|title|KunSan vs. asdsadw3213213
+|j|☆KunSan
+|j|☆asdsadw3213213
+|player|p1|KunSan|1|1109
+|player|p2|asdsadw3213213|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Greninja|Greninja, L70, M|100/100
+|switch|p1b: Salazzle|Salazzle, L81, F|100/100
+|switch|p2a: Plusle|Plusle, L88, F|100/100
+|switch|p2b: Jirachi|Jirachi, L70|100/100
+|-item|p1b: Salazzle|Air Balloon
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KunSan)
+
+|inactiveoff|Battle timer is now OFF.
+
+|l|☆KunSan
+
+|player|p1|
+|j|☆KunSan
+
+|player|p1|KunSan|1
+
+|
+|switch|p1a: Dugtrio|Dugtrio, L86, F|100/100
+|move|p1b: Salazzle|Fake Out|p2b: Jirachi
+|-resisted|p2b: Jirachi
+|-damage|p2b: Jirachi|96/100
+|move|p2a: Plusle|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio
+|cant|p2b: Jirachi|flinch
+|
+|upkeep
+|turn|2
+
+|l|☆KunSan
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by asdsadw3213213)
+
+|inactive|KunSan has 30 seconds to reconnect!
+
+|inactive|KunSan has 20 seconds to reconnect!
+
+|inactive|KunSan has 15 seconds to reconnect!
+
+|inactive|KunSan has 10 seconds to reconnect!
+
+|inactive|KunSan has 5 seconds to reconnect!
+
+|-message|KunSan lost due to inactivity.
+|
+|win|asdsadw3213213

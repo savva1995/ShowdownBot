@@ -1,0 +1,104 @@
+|init|battle
+|title|kruzer01 vs. africanagrande
+|j|☆kruzer01
+|j|☆africanagrande
+|player|p1|kruzer01|170|1008
+|player|p2|africanagrande|101|1044
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Blissey, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p2|Starmie|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Kingdra, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by africanagrande)
+|
+|start
+|switch|p1a: Chubby Fuddy|Blissey, F|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: Chubby Fuddy|Stealth Rock|p2a: Venusaur
+|-sidestart|p2: africanagrande|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Steely Wheely|Forretress, M|100/100
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p2a: Venusaur|Hidden Power|p1a: Steely Wheely
+|-supereffective|p1a: Steely Wheely
+|-ability|p1a: Steely Wheely|Sturdy
+|-damage|p1a: Steely Wheely|1/100
+|move|p1a: Steely Wheely|Spikes|p2a: Venusaur
+|-sidestart|p2: africanagrande|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Steely Wheely|7/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Steely Wheely
+|-resisted|p1a: Steely Wheely
+|-damage|p1a: Steely Wheely|0 fnt
+|faint|p1a: Steely Wheely
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|inactive|kruzer01 has 120 seconds left.
+
+|
+|switch|p1a: Chubby Fuddy|Blissey, F|100/100
+|turn|5
+
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Chubby Fuddy|Seismic Toss|p2a: Venusaur
+|-damage|p2a: Venusaur|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|75/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|-message|kruzer01 forfeited.
+
+|
+|win|africanagrande

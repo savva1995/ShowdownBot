@@ -1,0 +1,254 @@
+|init|battle
+|title|Loup n'a l'as vs. lwk1231
+|j|☆Loup n'a l'as
+|j|☆lwk1231
+|player|p1|Loup n'a l'as|101|1536
+|player|p2|lwk1231|266|1455
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Groudon, L50|item
+|poke|p1|Yveltal, L50|item
+|poke|p1|Mimikyu, L50, M|item
+|poke|p1|Metagross, L50|item
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Landorus-Therian, L50, M|item
+|poke|p2|Xerneas, L50|item
+|poke|p2|Rayquaza, L50|item
+|poke|p2|Incineroar, L50, M|item
+|poke|p2|Stakataka, L50|item
+|poke|p2|Tapu Fini, L50|item
+|poke|p2|Talonflame, L50, M|item
+|teampreview|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lwk1231)
+
+|
+|start
+|switch|p1a: Yveltal|Yveltal, L50|48/48
+|switch|p1b: Metagross|Metagross, L50|48/48
+|switch|p2a: Incineroar|Incineroar, L50, M|48/48
+|switch|p2b: Xerneas|Xerneas, L50|48/48
+|-ability|p1a: Yveltal|Dark Aura
+|-ability|p2b: Xerneas|Fairy Aura
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Yveltal|atk|1
+|-fail|p1b: Metagross|unboost|[from] ability: Clear Body|[of] p1b: Metagross
+|turn|1
+
+|
+|switch|p1a: Groudon|Groudon, L50|48/48
+|detailschange|p1a: Groudon|Groudon-Primal, L50
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p2a: Incineroar|Fake Out|p1b: Metagross
+|-resisted|p1b: Metagross
+|-damage|p1b: Metagross|45/48
+|move|p2b: Xerneas|Geomancy||[still]
+|-prepare|p2b: Xerneas|Geomancy|p2b: Xerneas
+|-enditem|p2b: Xerneas|Power Herb
+|-anim|p2b: Xerneas|Geomancy|p2b: Xerneas
+|-boost|p2b: Xerneas|spa|2
+|-boost|p2b: Xerneas|spd|2
+|-boost|p2b: Xerneas|spe|2
+|cant|p1b: Metagross|flinch
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Rayquaza|Rayquaza, L50|48/48
+|-ability|p2a: Rayquaza|Air Lock
+|move|p2b: Xerneas|Protect|p2b: Xerneas
+|-singleturn|p2b: Xerneas|Protect
+|move|p1b: Metagross|Substitute|p1b: Metagross
+|-start|p1b: Metagross|Substitute
+|-damage|p1b: Metagross|34/48
+|move|p1a: Groudon|Precipice Blades|p2a: Rayquaza|[spread] 
+|-activate|p2b: Xerneas|move: Protect
+|-immune|p2a: Rayquaza
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+
+|
+|detailschange|p2a: Rayquaza|Rayquaza-Mega, L50
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p1b: Metagross|Protect|p1b: Metagross
+|-singleturn|p1b: Metagross|Protect
+|move|p2b: Xerneas|Dazzling Gleam|p1a: Groudon|[spread] p1a
+|-activate|p1b: Metagross|move: Protect
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|33/48
+|move|p2a: Rayquaza|Earth Power|p1b: Metagross
+|-activate|p1b: Metagross|move: Protect
+|move|p1a: Groudon|Precipice Blades|p2b: Xerneas|[spread] p2b
+|-immune|p2a: Rayquaza
+|-damage|p2b: Xerneas|27/48
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|4
+
+|
+|detailschange|p1b: Metagross|Metagross-Mega, L50
+|-mega|p1b: Metagross|Metagross|Metagrossite
+|move|p2b: Xerneas|Dazzling Gleam|p1a: Groudon|[spread] p1a,p1b
+|-resisted|p1b: Metagross
+|-end|p1b: Metagross|Substitute
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|18/48
+|move|p2a: Rayquaza|Earth Power|p1b: Metagross
+|-supereffective|p1b: Metagross
+|-damage|p1b: Metagross|0 fnt
+|-damage|p2a: Rayquaza|43/48|[from] item: Life Orb
+|faint|p1b: Metagross
+|move|p1a: Groudon|Precipice Blades|p2a: Rayquaza|[spread] p2b
+|-immune|p2a: Rayquaza
+|-damage|p2b: Xerneas|5/48
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p1b: Mimikyu|Mimikyu, L50, M|48/48
+|turn|5
+
+|inactive|lwk1231 has 30 seconds left.
+
+|
+|switch|p2b: Tapu Fini|Tapu Fini, L50|48/48
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2b: Tapu Fini
+|switch|p1a: Yveltal|Yveltal, L50|48/48
+|-ability|p1a: Yveltal|Dark Aura
+|move|p1b: Mimikyu|Shadow Sneak|p2b: Tapu Fini
+|-damage|p2b: Tapu Fini|42/48
+|move|p2a: Rayquaza|Earth Power|p1a: Yveltal
+|-immune|p1a: Yveltal
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|6
+
+|inactive|Loup n'a l'as has 30 seconds left.
+
+|inactive|Loup n'a l'as has 20 seconds left.
+
+|inactive|Loup n'a l'as has 15 seconds left.
+
+|
+|-weather|none
+|switch|p2a: Incineroar|Incineroar, L50, M|48/48
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Yveltal|atk|1
+|-unboost|p1b: Mimikyu|atk|1
+|move|p1a: Yveltal|Tailwind|p1a: Yveltal
+|-sidestart|p1: Loup n'a l'as|move: Tailwind
+|-zpower|p1b: Mimikyu
+|move|p1b: Mimikyu|Let's Snuggle Forever|p2a: Incineroar|[zeffect]
+|-damage|p2a: Incineroar|26/48
+|move|p2b: Tapu Fini|Icy Wind|p1a: Yveltal|[spread] p1a,p1b
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|41/48
+|-activate|p1b: Mimikyu|ability: Disguise
+|-damage|p1b: Mimikyu|48/48
+|-unboost|p1a: Yveltal|spe|1
+|-unboost|p1b: Mimikyu|spe|1
+|detailschange|p1b: Mimikyu|Mimikyu-Busted, L50, M
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Groudon|Groudon-Primal, L50|18/48
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p1b: Mimikyu|Play Rough|p2b: Tapu Fini
+|-damage|p2b: Tapu Fini|33/48
+|-unboost|p2b: Tapu Fini|atk|1
+|move|p2b: Tapu Fini|Heal Pulse|p2a: Incineroar
+|-heal|p2a: Incineroar|48/48
+|move|p2a: Incineroar|U-turn|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|16/48
+
+|
+|switch|p2a: Rayquaza|Rayquaza-Mega, L50|43/48|[from]move: U-turn
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|8
+
+|inactive|Loup n'a l'as has 30 seconds left.
+
+|
+|switch|p1a: Yveltal|Yveltal, L50|41/48
+|-ability|p1a: Yveltal|Dark Aura
+|switch|p2b: Incineroar|Incineroar, L50, M|48/48
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Yveltal|atk|1
+|-unboost|p1b: Mimikyu|atk|1
+|move|p1b: Mimikyu|Play Rough|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|25/48
+|move|p2a: Rayquaza|Dragon Ascent|p1b: Mimikyu
+|-damage|p1b: Mimikyu|0 fnt
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|21/48|[from] item: Life Orb
+|faint|p1b: Mimikyu
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p1b: Groudon|Groudon-Primal, L50|16/48
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1b: Groudon
+|turn|9
+
+|
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Yveltal
+|-damage|p1a: Yveltal|37/48
+|cant|p1a: Yveltal|flinch
+|move|p2a: Rayquaza|Earth Power|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|DesolateLand|[upkeep]
+|-fieldend|Misty Terrain
+|-sideend|p1: Loup n'a l'as|move: Tailwind
+|upkeep
+|turn|10
+
+|inactive|lwk1231 has 30 seconds left.
+
+|
+|switch|p2b: Xerneas|Xerneas, L50|5/48
+|-ability|p2b: Xerneas|Fairy Aura
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|16/48|[from] item: Life Orb
+|faint|p1a: Yveltal
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+
+|-message|Loup n'a l'as forfeited.
+
+|
+|win|lwk1231

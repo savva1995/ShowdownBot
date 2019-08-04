@@ -1,0 +1,340 @@
+|init|battle
+|title|juliusdaisuke23 vs. Pachiguru
+|j|☆juliusdaisuke23
+|j|☆Pachiguru
+|player|p1|juliusdaisuke23|108|1346
+|player|p2|Pachiguru|2|1310
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Groudon|Groudon, L78|100/100
+|switch|p2a: Umbreon|Umbreon, L84, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|1
+|
+|move|p1a: Groudon|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|64/100
+|move|p2a: Umbreon|Toxic|p1a: Groudon
+|-status|p1a: Groudon|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Umbreon|70/100|[from] item: Leftovers
+|-damage|p1a: Groudon|95/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by juliusdaisuke23)
+
+|
+|move|p1a: Groudon|Thunder Wave||[still]
+|-status|p2a: Umbreon|par
+|-activate|p2a: Umbreon|ability: Synchronize
+|-fail|p2a: Umbreon
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|76/100 par|[from] item: Leftovers
+|-damage|p1a: Groudon|89/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Gallade|Gallade, L81, M|100/100
+|move|p2a: Umbreon|Heal Bell|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Heal Bell
+|-curestatus|p2a: Umbreon|par|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|4
+
+|
+|detailschange|p1a: Gallade|Gallade-Mega, L81, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Gallade|Drain Punch|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Charizard|Charizard, L80, M|100/100
+|move|p1a: Gallade|Drain Punch|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|74/100
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L80, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|move|p2a: Charizard|Air Slash|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-crit|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon, L78|89/100 tox
+|turn|7
+
+|
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam|p1a: Groudon
+|-anim|p2a: Charizard|Solar Beam|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|8/100 tox
+|move|p1a: Groudon|Stone Edge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|8/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Ninjask|Ninjask, L89, F|100/100
+|turn|8
+
+|
+|switch|p1a: Mamoswine|Mamoswine, L82, F|100/100
+|move|p2a: Ninjask|Leech Life|p1a: Mamoswine
+|-damage|p1a: Mamoswine|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Nihilego|Nihilego, L82|100/100
+|move|p1a: Mamoswine|Stealth Rock|p2a: Nihilego
+|-sidestart|p2: Pachiguru|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Nihilego|Power Gem|p1a: Mamoswine
+|-damage|p1a: Mamoswine|30/100
+|move|p1a: Mamoswine|Earthquake|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-crit|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|-damage|p1a: Mamoswine|20/100|[from] item: Life Orb
+|faint|p2a: Nihilego
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|77/100
+|-damage|p1a: Mamoswine|10/100|[from] item: Life Orb
+|move|p2a: Vaporeon|Scald|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-heal|p2a: Vaporeon|83/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|turn|12
+
+|inactive|Pachiguru has 120 seconds left.
+
+|
+|move|p1a: Dhelmise|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|49/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Dhelmise
+|move|p2a: Vaporeon|Roar|p1a: Dhelmise
+|drag|p1a: Masquerain|Masquerain, L89, F|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Vaporeon|atk|1
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Masquerain|Air Slash|p2a: Vaporeon|[miss]
+|-miss|p1a: Masquerain|p2a: Vaporeon
+|move|p2a: Vaporeon|Roar|p1a: Masquerain
+|drag|p1a: Groudon|Groudon, L78|8/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|8/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Groudon|Thunder Wave|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|2/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Groudon|Thunder Wave|p2a: Vaporeon
+|-status|p2a: Vaporeon|par
+|cant|p2a: Vaporeon|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|0 fnt|[from] psn
+|faint|p1a: Groudon
+|upkeep
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|turn|16
+
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, L80, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|-activate|p2a: Toxapex|trapped
+|move|p2a: Toxapex|Toxic Spikes|p1a: Dhelmise
+|-sidestart|p1: juliusdaisuke23|move: Toxic Spikes
+|
+|-weather|none
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Dhelmise|Knock Off|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Dhelmise|psn
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Dhelmise|88/100 psn|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Dhelmise|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|53/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Dhelmise
+|move|p2a: Toxapex|Toxic Spikes|p1a: Dhelmise
+|-sidestart|p1: juliusdaisuke23|move: Toxic Spikes
+|
+|-damage|p1a: Dhelmise|76/100 psn|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Dhelmise|Rapid Spin|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|-sideend|p1: juliusdaisuke23|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Dhelmise
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|96/100
+|
+|-damage|p1a: Dhelmise|64/100 psn|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|move|p2a: Toxapex|Scald|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|57/100 psn
+|
+|-damage|p1a: Dhelmise|45/100 psn|[from] psn
+|upkeep
+|turn|22
+
+|inactive|Pachiguru has 120 seconds left.
+
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Dhelmise|32/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Ninjask|Ninjask, L89, F|100/100
+|-damage|p2a: Ninjask|51/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p2a: Ninjask|Leech Life|p1a: Dhelmise
+|-damage|p1a: Dhelmise|1/100 psn
+|-heal|p2a: Ninjask|67/100|[from] drain|[of] p1a: Dhelmise
+|move|p1a: Dhelmise|Anchor Shot|p2a: Ninjask
+|-damage|p2a: Ninjask|6/100
+|-activate|p2a: Ninjask|trapped
+|
+|-damage|p1a: Dhelmise|0 fnt|[from] psn
+|faint|p1a: Dhelmise
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+
+|
+|switch|p1a: Masquerain|Masquerain, L89, F|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Ninjask|atk|1
+|turn|24
+
+|-message|Pachiguru forfeited.
+
+|
+|win|juliusdaisuke23

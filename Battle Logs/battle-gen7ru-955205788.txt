@@ -1,0 +1,81 @@
+|init|battle
+|title|ImLexio vs. Mii scha
+|j|☆ImLexio
+|j|☆Mii scha
+|player|p1|ImLexio|261|1000
+|player|p2|Mii scha|58|1055
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Flygon, F|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Porygon2|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Rotom-Mow|item
+|poke|p1|Arcanine, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Pangoro, M|item
+|poke|p2|Swellow, M|item
+|poke|p2|Necrozma|item
+|poke|p2|Whimsicott, F|item
+|poke|p2|Kingler, M|item
+|teampreview
+|
+|start
+|switch|p1a: Porygon2|Porygon2|100/100
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|turn|1
+|
+|move|p2a: Whimsicott|U-turn|p1a: Porygon2
+|-damage|p1a: Porygon2|94/100
+|
+|switch|p2a: Pangoro|Pangoro, M|100/100|[from]move: U-turn
+|move|p1a: Porygon2|Toxic|p2a: Pangoro
+|-status|p2a: Pangoro|tox
+|-enditem|p2a: Pangoro|Lum Berry|[eat]
+|-curestatus|p2a: Pangoro|tox|[msg]
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Pangoro|atk|1
+|move|p2a: Pangoro|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|70/100
+|-damage|p2a: Pangoro|84/100|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|-enditem|p1a: Arcanine|Rocky Helmet|[from] move: Knock Off|[of] p2a: Pangoro
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Necrozma|Necrozma|100/100
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Necrozma|[miss]
+|-miss|p1a: Arcanine|p2a: Necrozma
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Porygon2|Porygon2|94/100
+|move|p2a: Necrozma|Stealth Rock|p1a: Porygon2
+|-sidestart|p1: ImLexio|move: Stealth Rock
+|
+|upkeep
+|turn|5
+
+|-message|Mii scha forfeited.
+
+|
+|win|ImLexio

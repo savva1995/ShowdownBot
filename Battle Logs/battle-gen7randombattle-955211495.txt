@@ -1,0 +1,324 @@
+|init|battle
+|title|Badlucksteve vs. Pands94
+|j|☆Badlucksteve
+|j|☆Pands94
+|player|p1|Badlucksteve|20|1318
+|player|p2|Pands94|283|1316
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|switch|p2a: Unown|Unown|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Badlucksteve)
+|
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Unown|Hidden Power|p1a: Cobalion
+|-damage|p1a: Cobalion|59/100
+|
+|-heal|p1a: Cobalion|65/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Cobalion|Stone Edge|p2a: Unown|[miss]
+|-miss|p1a: Cobalion|p2a: Unown
+|move|p2a: Unown|Hidden Power|p1a: Cobalion
+|-damage|p1a: Cobalion|17/100
+|
+|-heal|p1a: Cobalion|23/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Cobalion|Stone Edge|p2a: Unown
+|-damage|p2a: Unown|33/100
+|move|p2a: Unown|Hidden Power|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|switch|p1a: Scolipede|Scolipede, L81, F|100/100
+|turn|4
+|
+|move|p1a: Scolipede|Megahorn|p2a: Unown
+|-supereffective|p2a: Unown
+|-damage|p2a: Unown|0 fnt
+|-damage|p1a: Scolipede|90/100|[from] item: Life Orb
+|faint|p2a: Unown
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|5
+|
+|move|p1a: Scolipede|Swords Dance|p1a: Scolipede
+|-boost|p1a: Scolipede|atk|2
+|move|p2a: Gigalith|Stealth Rock|p1a: Scolipede
+|-sidestart|p1: Badlucksteve|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scolipede|84/100|[from] Sandstorm
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|6
+|
+|move|p1a: Scolipede|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|7/100
+|-damage|p1a: Scolipede|74/100|[from] item: Life Orb
+|move|p2a: Gigalith|Stone Edge|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|13/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, M|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|-ability|p1a: Hawlucha|Mold Breaker
+|turn|7
+
+|
+|move|p1a: Hawlucha|Stone Edge|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|82/100|[from] Sandstorm
+|-heal|p1a: Hawlucha|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Zeraora|Zeraora, L82|100/100
+|turn|8
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, F|100/100
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|move|p2a: Zeraora|Plasma Fists|p1a: Gigalith
+|-damage|p1a: Gigalith|59/100
+|-fieldactivate|move: Ion Deluge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|94/100|[from] Sandstorm
+|-heal|p1a: Gigalith|65/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Zeraora|Grass Knot|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|23/100
+|move|p1a: Gigalith|Superpower|p2a: Zeraora
+|-damage|p2a: Zeraora|46/100
+|-unboost|p1a: Gigalith|atk|1
+|-unboost|p1a: Gigalith|def|1
+|
+|-weather|none
+|-heal|p1a: Gigalith|29/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, M|88/100
+|-damage|p1a: Hawlucha|75/100|[from] Stealth Rock
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Zeraora|Grass Knot|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|69/100
+|
+|-heal|p1a: Hawlucha|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, F|29/100
+|-damage|p1a: Gigalith|16/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Zeraora|Volt Switch|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mismagius|94/100|[from] Sandstorm
+|-heal|p2a: Mismagius|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Slaking|Slaking, L89, M|100/100
+|-damage|p1a: Slaking|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|76/100
+|move|p1a: Slaking|Night Slash|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mismagius|70/100|[from] Sandstorm
+|-damage|p1a: Slaking|82/100|[from] Sandstorm
+|-heal|p2a: Mismagius|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Zeraora|Zeraora, L82|46/100
+|switch|p1a: Hawlucha|Hawlucha, L80, M|75/100
+|-damage|p1a: Hawlucha|63/100|[from] Stealth Rock
+|-ability|p1a: Hawlucha|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|40/100|[from] Sandstorm
+|-damage|p1a: Hawlucha|56/100|[from] Sandstorm
+|-heal|p1a: Hawlucha|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Xatu|Xatu, L86, M|100/100
+|-damage|p1a: Xatu|76/100|[from] Stealth Rock
+|move|p2a: Zeraora|Plasma Fists|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|34/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Slaking|Slaking, L89, M|82/100
+|-damage|p1a: Slaking|70/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Zeraora|Plasma Fists|p1a: Slaking
+|-damage|p1a: Slaking|45/100
+|-fieldactivate|move: Ion Deluge
+|move|p1a: Slaking|Night Slash|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|turn|16
+
+|
+|cant|p1a: Slaking|ability: Truant
+|move|p2a: Tsareena|Knock Off|p1a: Slaking
+|-damage|p1a: Slaking|22/100
+|-enditem|p1a: Slaking|Choice Band|[from] move: Knock Off|[of] p2a: Tsareena
+|-damage|p2a: Tsareena|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Slaking|Giga Impact|p2a: Tsareena|[miss]
+|-miss|p1a: Slaking|p2a: Tsareena
+|move|p2a: Tsareena|Knock Off|p1a: Slaking
+|-damage|p1a: Slaking|8/100
+|-damage|p2a: Tsareena|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+
+|
+|cant|p1a: Slaking|ability: Truant
+|move|p2a: Tsareena|Knock Off|p1a: Slaking
+|-crit|p1a: Slaking
+|-damage|p1a: Slaking|0 fnt
+|-damage|p2a: Tsareena|71/100|[from] item: Life Orb
+|faint|p1a: Slaking
+|
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, M|63/100
+|-damage|p1a: Hawlucha|50/100|[from] Stealth Rock
+|-ability|p1a: Hawlucha|Mold Breaker
+|turn|19
+
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Tsareena
+|-damage|p2a: Tsareena|30/100
+|move|p2a: Tsareena|Knock Off|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|25/100
+|-enditem|p1a: Hawlucha|Leftovers|[from] move: Knock Off|[of] p2a: Tsareena
+|-damage|p2a: Tsareena|20/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|upkeep
+
+|
+|switch|p2a: Reshiram|Reshiram, L78|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|turn|21
+
+|
+|move|p1a: Hawlucha|Stone Edge|p2a: Reshiram
+|-supereffective|p2a: Reshiram
+|-crit|p2a: Reshiram
+|-damage|p2a: Reshiram|32/100
+|move|p2a: Reshiram|Toxic|p1a: Hawlucha
+|-status|p1a: Hawlucha|tox
+|
+|-heal|p2a: Reshiram|38/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|19/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Hawlucha|Stone Edge|p2a: Reshiram
+|-supereffective|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|
+|-damage|p1a: Hawlucha|6/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|76/100
+|turn|23
+
+|
+|move|p1a: Hawlucha|Stone Edge|p2a: Mismagius
+|-damage|p2a: Mismagius|45/100
+|move|p2a: Mismagius|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|win|Pands94

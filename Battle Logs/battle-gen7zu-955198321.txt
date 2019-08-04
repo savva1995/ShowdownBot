@@ -1,0 +1,271 @@
+|init|battle
+|title|Farlance vs. Thethunderbirds
+|j|☆Farlance
+|j|☆Thethunderbirds
+|player|p1|Farlance|194|1154
+|player|p2|Thethunderbirds|163|1140
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] ZU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Regice|item
+|poke|p1|Avalugg, M|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Komala, M|item
+|poke|p1|Butterfree, M|item
+|poke|p1|Golem-Alola, F|item
+|poke|p2|Electivire, F|item
+|poke|p2|Altaria, M|item
+|poke|p2|Regice|item
+|poke|p2|Masquerain, M|item
+|poke|p2|Crustle, M|item
+|poke|p2|Silvally-*|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thethunderbirds)
+
+|
+|start
+|switch|p1a: Golem|Golem-Alola, F|100/100
+|switch|p2a: Masquerain|Masquerain, M|100/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Golem|atk|1
+|turn|1
+
+|
+|move|p2a: Masquerain|Quiver Dance|p2a: Masquerain
+|-boost|p2a: Masquerain|spa|1
+|-boost|p2a: Masquerain|spd|1
+|-boost|p2a: Masquerain|spe|1
+|move|p1a: Golem|Rock Blast|p2a: Masquerain
+|-supereffective|p2a: Masquerain
+|-damage|p2a: Masquerain|26/100
+|-supereffective|p2a: Masquerain
+|-damage|p2a: Masquerain|0 fnt
+|-hitcount|p2a: Masquerain|2
+|faint|p2a: Masquerain
+|
+|upkeep
+
+|
+|switch|p2a: Regice|Regice|100/100
+|turn|2
+
+|
+|move|p2a: Regice|Rock Polish|p2a: Regice
+|-boost|p2a: Regice|spe|2
+|move|p1a: Golem|Return|p2a: Regice
+|-damage|p2a: Regice|47/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Regice|Focus Blast|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|20/100
+|move|p1a: Golem|Return|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|upkeep
+
+|
+|switch|p2a: Crustle|Crustle, M|100/100
+|turn|4
+
+|
+|move|p2a: Crustle|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|upkeep
+
+|
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|5
+
+|j| The first ghoul
+
+|
+|switch|p2a: Silvally|Silvally-Dragon|100/100
+|move|p1a: Rampardos|Rock Slide|p2a: Silvally
+|-damage|p2a: Silvally|42/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Rampardos|Rock Slide|p2a: Silvally
+|-crit|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+
+|
+|switch|p2a: Electivire|Electivire, F|100/100
+|turn|7
+
+|
+|switch|p1a: Butterfree|Butterfree, M|100/100
+|move|p2a: Electivire|Cross Chop|p1a: Butterfree|[miss]
+|-miss|p2a: Electivire|p1a: Butterfree
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Electivire|Wild Charge|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-enditem|p1a: Butterfree|Focus Sash
+|-damage|p1a: Butterfree|1/100
+|-damage|p2a: Electivire|78/100|[from] Recoil
+|-damage|p2a: Electivire|68/100|[from] item: Life Orb
+|move|p1a: Butterfree|Quiver Dance|p1a: Butterfree
+|-boost|p1a: Butterfree|spa|1
+|-boost|p1a: Butterfree|spd|1
+|-boost|p1a: Butterfree|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Butterfree|Bug Buzz|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|upkeep
+
+|
+|switch|p2a: Altaria|Altaria, M|100/100
+|turn|10
+
+|
+|move|p1a: Butterfree|Bug Buzz|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|35/100
+|move|p2a: Altaria|Dragon Dance|p2a: Altaria
+|-boost|p2a: Altaria|atk|1
+|-boost|p2a: Altaria|spe|1
+|
+|-heal|p2a: Altaria|41/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Altaria|Dragon Claw|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|-heal|p2a: Altaria|48/100|[from] item: Leftovers
+|upkeep
+
+|j| Hax ruins pokemon
+
+|
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|12
+
+|
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|98/100
+|-singleturn|p2a: Altaria|move: Roost
+|move|p1a: Rampardos|Rock Slide|p2a: Altaria
+|-damage|p2a: Altaria|26/100
+|
+|-heal|p2a: Altaria|32/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Altaria|Earthquake|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|
+|-heal|p2a: Altaria|39/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: BlockOfIce|Regice|100/100
+|turn|14
+
+|
+|move|p2a: Altaria|Dragon Claw|p1a: BlockOfIce
+|-damage|p1a: BlockOfIce|61/100
+|move|p1a: BlockOfIce|Ice Beam|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|-heal|p1a: BlockOfIce|67/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Crustle|Crustle, M|100/100
+|turn|15
+
+|
+|move|p2a: Crustle|Stone Edge|p1a: BlockOfIce|[miss]
+|-miss|p2a: Crustle|p1a: BlockOfIce
+|move|p1a: BlockOfIce|Toxic|p2a: Crustle|[miss]
+|-miss|p1a: BlockOfIce|p2a: Crustle
+|
+|-heal|p1a: BlockOfIce|74/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Crustle|Stone Edge|p1a: BlockOfIce
+|-supereffective|p1a: BlockOfIce
+|-damage|p1a: BlockOfIce|0 fnt
+|faint|p1a: BlockOfIce
+|
+|upkeep
+
+|
+|switch|p1a: ChunkOfIce|Avalugg, M|100/100
+|turn|17
+
+|
+|move|p2a: Crustle|Stone Edge|p1a: ChunkOfIce|[miss]
+|-miss|p2a: Crustle|p1a: ChunkOfIce
+|move|p1a: ChunkOfIce|Avalanche|p2a: Crustle
+|-damage|p2a: Crustle|75/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Crustle|Earthquake|p1a: ChunkOfIce
+|-damage|p1a: ChunkOfIce|88/100
+|move|p1a: ChunkOfIce|Avalanche|p2a: Crustle
+|-damage|p2a: Crustle|30/100
+|
+|upkeep
+|turn|19
+
+|
+|-zpower|p2a: Crustle
+|move|p2a: Crustle|Continental Crush|p1a: ChunkOfIce|[zeffect]
+|-supereffective|p1a: ChunkOfIce
+|-damage|p1a: ChunkOfIce|28/100
+|move|p1a: ChunkOfIce|Avalanche|p2a: Crustle
+|-crit|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|win|Farlance

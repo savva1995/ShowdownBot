@@ -1,0 +1,170 @@
+|init|battle
+|title|tangerine0w0 vs. notbadatpokemon
+|j|☆tangerine0w0
+|j|☆notbadatpokemon
+|player|p1|tangerine0w0|169|1159
+|player|p2|notbadatpokemon|169|1129
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Reuniclus|Reuniclus, L83, M|100/100
+|switch|p2a: Purugly|Purugly, L89, F|100/100
+|turn|1
+|
+|move|p2a: Purugly|Fake Out|p1a: Reuniclus
+|-damage|p1a: Reuniclus|82/100
+|-damage|p2a: Purugly|91/100|[from] item: Life Orb
+|cant|p1a: Reuniclus|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Purugly|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|18/100
+|-enditem|p1a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p2a: Purugly
+|-damage|p2a: Purugly|81/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|68/100
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Swampert|Swampert, L80, M|100/100
+|move|p2a: Purugly|Knock Off|p1a: Swampert
+|-damage|p1a: Swampert|78/100
+|-damage|p2a: Purugly|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+
+|
+|detailschange|p1a: Swampert|Swampert-Mega, L80, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p2a: Purugly|U-turn|p1a: Swampert
+|-damage|p1a: Swampert|57/100
+|-damage|p2a: Purugly|61/100|[from] item: Life Orb
+
+|
+|switch|p2a: Shaymin|Shaymin-Sky, L78|100/100|[from]move: U-turn
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Swampert|Ice Punch|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|faint|p2a: Shaymin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tangerine0w0)
+
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L88, M|100/100
+|turn|6
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|19/100
+|move|p2a: Hitmonchan|Drain Punch|p1a: Swampert
+|-damage|p1a: Swampert|17/100
+|-heal|p2a: Hitmonchan|44/100|[from] drain|[of] p1a: Swampert
+|-damage|p2a: Hitmonchan|34/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Purugly|Purugly, L89, F|61/100
+|turn|8
+
+|
+|switch|p1a: Xerneas|Xerneas, L78|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Purugly|U-turn|p1a: Xerneas
+|-resisted|p1a: Xerneas
+|-damage|p1a: Xerneas|90/100
+|-damage|p2a: Purugly|51/100|[from] item: Life Orb
+
+|
+|switch|p2a: Rotom|Rotom-Heat, L82|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|move|p2a: Rotom|Will-O-Wisp|p1a: Xerneas
+|-status|p1a: Xerneas|brn
+|
+|-damage|p1a: Xerneas|84/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Xerneas|Psyshock|p2a: Rotom
+|-damage|p2a: Rotom|47/100
+|move|p2a: Rotom|Overheat|p1a: Xerneas
+|-damage|p1a: Xerneas|58/100 brn
+|-unboost|p2a: Rotom|spa|2
+|-damage|p2a: Rotom|37/100|[from] item: Life Orb
+|
+|-damage|p1a: Xerneas|52/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Xerneas|Psyshock|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Xerneas|46/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Kartana|Kartana, L80|100/100
+|turn|12
+
+|
+|move|p1a: Xerneas|Hidden Power|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|-damage|p1a: Xerneas|40/100 brn|[from] brn
+|upkeep
+
+|-message|notbadatpokemon forfeited.
+
+|
+|win|tangerine0w0

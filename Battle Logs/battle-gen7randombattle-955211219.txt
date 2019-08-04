@@ -1,0 +1,354 @@
+|init|battle
+|title|heikoko4 vs. kakayama
+|j|☆heikoko4
+|j|☆kakayama
+|player|p1|heikoko4|102|1422
+|player|p2|kakayama|236|1453
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Shaymin|Shaymin-Sky, L78|100/100
+|switch|p2a: Dragalge|Dragalge, L84, M|100/100
+|turn|1
+
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|move|p2a: Dragalge|Toxic Spikes|p1a: Nidoking
+|-sidestart|p1: heikoko4|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Illumise|Illumise, L89, F|100/100
+|move|p1a: Nidoking|Ice Beam|p2a: Illumise
+|-damage|p2a: Illumise|65/100
+|
+|-heal|p2a: Illumise|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Illumise|Encore|p1a: Nidoking
+|-start|p1a: Nidoking|Encore
+|move|p1a: Nidoking|Ice Beam|p2a: Illumise
+|-damage|p2a: Illumise|35/100
+|
+|-heal|p2a: Illumise|41/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Illumise|Wish|p2a: Illumise
+|move|p1a: Nidoking|Ice Beam|p2a: Illumise
+|-damage|p2a: Illumise|8/100
+|
+|-heal|p2a: Illumise|14/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Illumise|U-turn|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|90/100
+
+|
+|switch|p2a: Mewtwo|Mewtwo, L78|100/100|[from]move: U-turn
+|-ability|p2a: Mewtwo|Unnerve|p1: heikoko4
+|move|p1a: Nidoking|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|70/100
+|
+|-heal|p2a: Mewtwo|100/100|[from] move: Wish|[wisher] Illumise
+|-end|p1a: Nidoking|Encore
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Electrode|Electrode, L89|100/100
+|-status|p1a: Electrode|psn
+|move|p2a: Mewtwo|Psystrike|p1a: Electrode
+|-damage|p1a: Electrode|39/100 psn
+|
+|-damage|p1a: Electrode|26/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Illumise|Illumise, L89, F|14/100
+|move|p1a: Electrode|Signal Beam|p2a: Illumise
+|-damage|p2a: Illumise|0 fnt
+|faint|p2a: Illumise
+|
+|-damage|p1a: Electrode|14/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Aggron|Aggron, L82, M|100/100
+|turn|8
+
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|90/100
+|-sideend|p1: heikoko4|move: Toxic Spikes|[of] p1a: Nidoking
+|detailschange|p2a: Aggron|Aggron-Mega, L82, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p2a: Aggron|Stealth Rock|p1a: Nidoking
+|-sidestart|p1: heikoko4|move: Stealth Rock
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Mewtwo|Mewtwo, L78|100/100
+|-ability|p2a: Mewtwo|Unnerve|p1: heikoko4
+|move|p1a: Nidoking|Earth Power|p2a: Mewtwo
+|-damage|p2a: Mewtwo|55/100
+|
+|-heal|p2a: Mewtwo|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Electrode|Electrode, L89|14/100 psn
+|-damage|p1a: Electrode|2/100 psn|[from] Stealth Rock
+|move|p2a: Mewtwo|Psystrike|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|-heal|p2a: Mewtwo|67/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Vikavolt|Vikavolt, L86, M|100/100
+|-damage|p1a: Vikavolt|76/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p2a: Mewtwo|Fire Blast|p1a: Vikavolt|[miss]
+|-miss|p2a: Mewtwo|p1a: Vikavolt
+|move|p1a: Vikavolt|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|upkeep
+
+|c|☆kakayama|yum
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|turn|12
+
+|
+|move|p2a: Meloetta|Relic Song|p1a: Vikavolt
+|-damage|p1a: Vikavolt|37/100
+|-formechange|p2a: Meloetta|Meloetta-Pirouette|[msg]
+|move|p1a: Vikavolt|Thunderbolt|p2a: Meloetta
+|-damage|p2a: Meloetta|49/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Meloetta|Return|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+
+|
+|switch|p1a: Shaymin|Shaymin-Sky, L78|100/100
+|-damage|p1a: Shaymin|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Meloetta|Return|p1a: Shaymin
+|-damage|p1a: Shaymin|23/100
+|move|p1a: Shaymin|Air Slash|p2a: Meloetta
+|-supereffective|p2a: Meloetta
+|-damage|p2a: Meloetta|10/100
+|
+|-heal|p1a: Shaymin|29/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Meloetta|Return|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|faint|p1a: Shaymin
+|
+|upkeep
+
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|90/100
+|-damage|p1a: Nidoking|84/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Meloetta|Knock Off|p1a: Nidoking
+|-damage|p1a: Nidoking|50/100
+|-enditem|p1a: Nidoking|Life Orb|[from] move: Knock Off|[of] p2a: Meloetta
+|move|p1a: Nidoking|Earth Power|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|faint|p2a: Meloetta
+|
+|upkeep
+
+|
+|switch|p2a: Dragonite|Dragonite, L81, F|100/100
+|turn|17
+
+|
+|move|p1a: Nidoking|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|51/100
+|move|p2a: Dragonite|Earthquake|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, L83, M|100/100
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Mienshao|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|10/100
+|-enditem|p2a: Dragonite|Lum Berry|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|85/100|[from] item: Life Orb
+|move|p2a: Dragonite|Outrage|p1a: Mienshao
+|-damage|p1a: Mienshao|4/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Mienshao|Knock Off|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p1a: Mienshao|0 fnt|[from] item: Life Orb
+|faint|p2a: Dragonite
+|faint|p1a: Mienshao
+|
+|upkeep
+
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|switch|p2a: Aggron|Aggron-Mega, L82, M|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: Virizion|Substitute|p1a: Virizion
+|-start|p1a: Virizion|Substitute
+|-damage|p1a: Virizion|69/100
+|move|p2a: Aggron|Toxic||[still]
+|-fail|p2a: Aggron
+|
+|-heal|p1a: Virizion|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|move|p2a: Aggron|Heavy Slam|p1a: Virizion
+|-activate|p1a: Virizion|move: Substitute|[damage]
+|
+|-heal|p1a: Virizion|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|move|p2a: Aggron|Heavy Slam|p1a: Virizion
+|-crit|p1a: Virizion
+|-end|p1a: Virizion|Substitute
+|
+|-heal|p1a: Virizion|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Dragalge|Dragalge, L84, M|100/100
+|move|p1a: Virizion|Substitute|p1a: Virizion
+|-start|p1a: Virizion|Substitute
+|-damage|p1a: Virizion|63/100
+|
+|-heal|p1a: Virizion|69/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Virizion|Focus Blast|p2a: Dragalge|[miss]
+|-miss|p1a: Virizion|p2a: Dragalge
+|move|p2a: Dragalge|Sludge Wave|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-end|p1a: Virizion|Substitute
+|
+|-heal|p1a: Virizion|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Virizion|Focus Blast|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|62/100
+|move|p2a: Dragalge|Sludge Wave|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|38/100
+|
+|-heal|p1a: Virizion|45/100|[from] item: Leftovers
+|-heal|p2a: Dragalge|68/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+
+|
+|move|p1a: Virizion|Focus Blast|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|29/100
+|move|p2a: Dragalge|Sludge Wave|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|10/100
+|
+|-heal|p1a: Virizion|16/100|[from] item: Leftovers
+|-heal|p2a: Dragalge|35/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Aggron|Aggron-Mega, L82, M|100/100
+|move|p1a: Virizion|Focus Blast|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|-heal|p1a: Virizion|23/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Dragalge|Dragalge, L84, M|35/100
+|turn|28
+
+|c|☆heikoko4|no miss
+
+|
+|move|p1a: Virizion|Focus Blast|p2a: Dragalge|[miss]
+|-miss|p1a: Virizion|p2a: Dragalge
+|move|p2a: Dragalge|Sludge Wave|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|win|kakayama

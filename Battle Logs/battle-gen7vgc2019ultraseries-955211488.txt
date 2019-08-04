@@ -1,0 +1,175 @@
+|init|battle
+|title|Riccardo097852 vs. Andreanac
+|j|☆Riccardo097852
+|j|☆Andreanac
+|player|p1|Riccardo097852|209|1203
+|player|p2|Andreanac|163|1166
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Xerneas, L50|item
+|poke|p1|Incineroar, L50, F|item
+|poke|p1|Groudon, L50|item
+|poke|p1|Raichu, L50, M|item
+|poke|p1|Gastrodon, L50, M|item
+|poke|p1|Gengar, L50, M|item
+|poke|p2|Necrozma-Dusk-Mane, L50|item
+|poke|p2|Xerneas, L50|item
+|poke|p2|Salamence, L50, F|item
+|poke|p2|Tapu Fini, L50|item
+|poke|p2|Incineroar, L50, M|item
+|poke|p2|Tapu Lele, L50|item
+|teampreview|4
+
+|
+|start
+|switch|p1a: Groudon|Groudon, L50|48/48
+|switch|p1b: Gastrodon-East|Gastrodon, L50, M|48/48
+|switch|p2a: Xerneas|Xerneas, L50|48/48
+|switch|p2b: Tapu Lele|Tapu Lele, L50|48/48
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Tapu Lele
+|-ability|p2a: Xerneas|Fairy Aura
+|detailschange|p1a: Groudon|Groudon-Primal, L50
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+
+|
+|switch|p2a: Salamence|Salamence, L50, F|48/48
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1b: Gastrodon-East|atk|1
+|move|p2b: Tapu Lele|Psyshock|p1b: Gastrodon-East
+|-damage|p1b: Gastrodon-East|6/48
+|move|p1a: Groudon|Fire Punch|p2b: Tapu Lele
+|-crit|p2b: Tapu Lele
+|-damage|p2b: Tapu Lele|0 fnt
+|faint|p2b: Tapu Lele
+|move|p1b: Gastrodon-East|Clear Smog|p2a: Salamence
+|-damage|p2a: Salamence|40/48
+|-clearboost|p2a: Salamence
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p2b: Necrozma|Necrozma-Dusk-Mane, L50|48/48
+|turn|2
+
+|
+|switch|p1b: Gengar|Gengar, L50, M, shiny|48/48
+|detailschange|p2a: Salamence|Salamence-Mega, L50, F
+|-mega|p2a: Salamence|Salamence|Salamencite
+|detailschange|p2b: Necrozma|Necrozma-Ultra, L50
+|-burst|p2b: Necrozma|Necrozma|Ultranecrozium Z
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p2b: Necrozma|Earth Power|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|move|p2a: Salamence|Hyper Voice|p1a: Groudon|[spread] p1b
+|-activate|p1a: Groudon|move: Protect
+|-damage|p1b: Gengar|22/48
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+
+|
+|-weather|none
+|switch|p1a: Xerneas|Xerneas, L50|48/48
+|-ability|p1a: Xerneas|Fairy Aura
+|detailschange|p1b: Gengar|Gengar-Mega, L50, M, shiny
+|-mega|p1b: Gengar|Gengar|Gengarite
+|move|p1b: Gengar|Protect|p1b: Gengar
+|-singleturn|p1b: Gengar|Protect
+|move|p2b: Necrozma|Protect|p2b: Necrozma
+|-singleturn|p2b: Necrozma|Protect
+|move|p2a: Salamence|Tailwind|p2a: Salamence
+|-sidestart|p2: Andreanac|move: Tailwind
+|
+|upkeep
+|turn|4
+
+|
+|move|p2b: Necrozma|Photon Geyser|p1a: Xerneas
+|-damage|p1a: Xerneas|15/48
+|move|p2a: Salamence|Hyper Voice|p1a: Xerneas|[spread] p1a,p1b
+|-damage|p1a: Xerneas|3/48
+|-damage|p1b: Gengar|1/48
+|move|p1b: Gengar|Shadow Ball|p2b: Necrozma
+|-supereffective|p2b: Necrozma
+|-damage|p2b: Necrozma|0 fnt
+|faint|p2b: Necrozma
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|upkeep
+
+|
+|switch|p2b: Xerneas|Xerneas, L50|48/48
+|-ability|p2b: Xerneas|Fairy Aura
+|turn|5
+
+|
+|move|p2a: Salamence|Hyper Voice|p1a: Xerneas|[spread] p1a,p1b
+|-damage|p1a: Xerneas|0 fnt
+|-damage|p1b: Gengar|0 fnt
+|faint|p1a: Xerneas
+|faint|p1b: Gengar
+|move|p2b: Xerneas|Geomancy||[still]
+|-prepare|p2b: Xerneas|Geomancy|p2b: Xerneas
+|-enditem|p2b: Xerneas|Power Herb
+|-anim|p2b: Xerneas|Geomancy|p2b: Xerneas
+|-boost|p2b: Xerneas|spa|2
+|-boost|p2b: Xerneas|spd|2
+|-boost|p2b: Xerneas|spe|2
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p1b: Groudon|Groudon-Primal, L50|48/48
+|switch|p1a: Gastrodon-East|Gastrodon, L50, M|6/48
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1b: Groudon
+|turn|6
+
+|
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p1a: Gastrodon-East|Protect|p1a: Gastrodon-East
+|-singleturn|p1a: Gastrodon-East|Protect
+|move|p2b: Xerneas|Moonblast|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p2a: Salamence|Hyper Voice|p1b: Groudon|[spread] 
+|-activate|p1a: Gastrodon-East|move: Protect
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|DesolateLand|[upkeep]
+|-sideend|p2: Andreanac|move: Tailwind
+|upkeep
+|turn|7
+
+|
+|move|p2b: Xerneas|Moonblast|p1b: Groudon
+|-resisted|p1b: Groudon
+|-damage|p1b: Groudon|6/48
+|-unboost|p1b: Groudon|spa|1
+|move|p2a: Salamence|Hyper Voice|p1b: Groudon|[spread] p1a,p1b
+|-damage|p1a: Gastrodon-East|0 fnt
+|-damage|p1b: Groudon|0 fnt
+|faint|p1a: Gastrodon-East
+|faint|p1b: Groudon
+|-weather|none
+|
+|win|Andreanac

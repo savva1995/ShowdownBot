@@ -1,0 +1,109 @@
+|init|battle
+|title|Uberviab vs. Deadpool0793
+|j|☆Uberviab
+|j|☆Deadpool0793
+|player|p1|Uberviab|102|1000
+|player|p2|Deadpool0793|92|1108
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Skarmory, M|item
+|poke|p1|Celesteela|item
+|poke|p1|Heatran, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Scizor, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Cradily, F|item
+|poke|p2|Tapu Bulu|item
+|teampreview
+|
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Cradily|Cradily, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Uberviab)
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|U-turn|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|19/100
+|
+|switch|p1a: Jirachi|Jirachi, shiny|100/100|[from]move: U-turn
+|move|p2a: Cradily|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Uberviab|move: Stealth Rock
+|
+|-heal|p2a: Cradily|25/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: Jirachi|Iron Head|p2a: Venusaur
+|-damage|p2a: Venusaur|53/100
+|
+|upkeep
+|turn|3
+
+|
+|detailschange|p2a: Venusaur|Venusaur-Mega, M
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Jirachi|Zen Headbutt|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|4
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|58/100
+|-damage|p1a: Jirachi|84/100|[from] item: Rocky Helmet|[of] p2a: Tapu Bulu
+|cant|p2a: Tapu Bulu|flinch
+|
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|96/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|64/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|21/100
+|-damage|p1a: Jirachi|79/100|[from] item: Rocky Helmet|[of] p2a: Tapu Bulu
+|cant|p2a: Tapu Bulu|flinch
+|
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|92/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|27/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+
+|-message|Deadpool0793 forfeited.
+
+|
+|win|Uberviab

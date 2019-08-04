@@ -1,0 +1,125 @@
+|init|battle
+|title|HYPHY HOUSE vs. ucandoitallnitebae
+|j|☆HYPHY HOUSE
+|j|☆ucandoitallnitebae
+|player|p1|HYPHY HOUSE|144|1059
+|player|p2|ucandoitallnitebae|170|1068
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Diancie|item
+|poke|p1|Tsareena, F|item
+|poke|p1|Sneasel, M|item
+|poke|p1|Bewear, F|item
+|poke|p1|Yanmega, M|item
+|poke|p1|Drapion, M|item
+|poke|p2|Ampharos, F|item
+|poke|p2|Rotom-Mow|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Metagross|item
+|poke|p2|Tsareena, F|item
+|poke|p2|Swellow, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ucandoitallnitebae)
+
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+
+|inactive|ucandoitallnitebae has 120 seconds left.
+
+|
+|move|p2a: Rotom|Volt Switch|p1a: Diancie
+|-damage|p1a: Diancie|82/100
+
+|inactive|ucandoitallnitebae has 90 seconds left.
+
+|
+|switch|p2a: Metagross|Metagross|100/100|[from]move: Volt Switch
+|move|p1a: Diancie|Diamond Storm|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|87/100
+|
+|-heal|p1a: Diancie|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|inactive|ucandoitallnitebae has 90 seconds left.
+
+|
+|switch|p1a: Yanmega|Yanmega, M|100/100
+|move|p2a: Metagross|Stealth Rock|p1a: Yanmega
+|-sidestart|p1: HYPHY HOUSE|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|inactive|ucandoitallnitebae has 90 seconds left.
+
+|
+|move|p1a: Yanmega|Bug Buzz|p2a: Metagross
+|-damage|p2a: Metagross|25/100
+|move|p2a: Metagross|Meteor Mash|p1a: Yanmega
+|-damage|p1a: Yanmega|44/100
+|
+|upkeep
+|turn|4
+
+|inactive|ucandoitallnitebae has 90 seconds left.
+
+|
+|switch|p2a: Ampharos|Ampharos, F|100/100
+|move|p1a: Yanmega|Bug Buzz|p2a: Ampharos
+|-damage|p2a: Ampharos|22/100
+|
+|upkeep
+|turn|5
+
+|inactive|HYPHY HOUSE has 120 seconds left.
+
+|
+|detailschange|p2a: Ampharos|Ampharos-Mega, F
+|-mega|p2a: Ampharos|Ampharos|Ampharosite
+|-ability|p2a: Ampharos|Mold Breaker
+|move|p1a: Yanmega|Bug Buzz|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|
+|upkeep
+
+|inactive|ucandoitallnitebae has 90 seconds left.
+
+|
+|switch|p2a: Swellow|Swellow, M|100/100
+|turn|6
+
+|inactive|ucandoitallnitebae has 90 seconds left.
+
+|l|☆HYPHY HOUSE
+
+|inactive|HYPHY HOUSE disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|HYPHY HOUSE has 30 seconds to reconnect!
+
+|inactive|HYPHY HOUSE has 20 seconds to reconnect!
+
+|inactive|HYPHY HOUSE has 15 seconds to reconnect!
+
+|inactive|HYPHY HOUSE has 10 seconds to reconnect!
+
+|inactive|HYPHY HOUSE has 5 seconds to reconnect!
+
+|-message|HYPHY HOUSE lost due to inactivity.
+|
+|win|ucandoitallnitebae

@@ -1,0 +1,274 @@
+|init|battle
+|title|duKYS vs. beretta666
+|j|☆duKYS
+|j|☆beretta666
+|player|p1|duKYS|156|
+|player|p2|beretta666|260|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dunsparce|Dunsparce, L89, F|100/100
+|switch|p2a: Jolteon|Jolteon, L84, F|100/100
+|turn|1
+|
+|move|p2a: Jolteon|Hidden Power|p1a: Dunsparce
+|-damage|p1a: Dunsparce|75/100
+|move|p1a: Dunsparce|Rock Slide|p2a: Jolteon
+|-damage|p2a: Jolteon|77/100
+|
+|-heal|p1a: Dunsparce|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Mewtwo|Mewtwo, L78|100/100
+|-ability|p2a: Mewtwo|Unnerve|p1: duKYS
+|move|p1a: Dunsparce|Coil|p1a: Dunsparce
+|-boost|p1a: Dunsparce|atk|1
+|-boost|p1a: Dunsparce|def|1
+|-boost|p1a: Dunsparce|accuracy|1
+|
+|-heal|p1a: Dunsparce|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Mewtwo|Calm Mind|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spa|1
+|-boost|p2a: Mewtwo|spd|1
+|move|p1a: Dunsparce|Rock Slide|p2a: Mewtwo
+|-damage|p2a: Mewtwo|75/100
+|
+|-heal|p1a: Dunsparce|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|detailschange|p2a: Mewtwo|Mewtwo-Mega-Y, L78
+|-mega|p2a: Mewtwo|Mewtwo|Mewtwonite Y
+|move|p2a: Mewtwo|Psystrike|p1a: Dunsparce
+|-damage|p1a: Dunsparce|33/100
+|move|p1a: Dunsparce|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|21/100
+|-status|p2a: Mewtwo|par
+|
+|-heal|p1a: Dunsparce|39/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|cant|p2a: Mewtwo|par
+|move|p1a: Dunsparce|Roost|p1a: Dunsparce
+|-heal|p1a: Dunsparce|89/100
+|-singleturn|p1a: Dunsparce|move: Roost
+|
+|-heal|p1a: Dunsparce|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Scizor|Scizor, L82, F|100/100
+|move|p1a: Dunsparce|Body Slam|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|80/100
+|
+|-heal|p1a: Dunsparce|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Suicune|Suicune, L82|100/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|71/100
+|-damage|p2a: Scizor|70/100|[from] item: Life Orb
+|move|p1a: Suicune|Ice Beam|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|58/100
+|
+|-heal|p1a: Suicune|77/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Suicune|Scald|p2a: Scizor
+|-damage|p2a: Scizor|24/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-heal|p1a: Suicune|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|43/100
+|-damage|p2a: Scizor|15/100|[from] item: Life Orb
+|move|p1a: Suicune|Scald|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Suicune|49/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Vikavolt|Vikavolt, L86, F|100/100
+|turn|11
+
+|
+|move|p1a: Suicune|Ice Beam|p2a: Vikavolt
+|-damage|p2a: Vikavolt|79/100
+|move|p2a: Vikavolt|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+
+|
+|switch|p1a: Aggron|Aggron, L88, M|100/100
+|-item|p1a: Aggron|Air Balloon
+|turn|12
+
+|
+|move|p1a: Aggron|Stealth Rock|p2a: Vikavolt
+|-sidestart|p2: beretta666|move: Stealth Rock
+|move|p2a: Vikavolt|Thunderbolt|p1a: Aggron
+|-damage|p1a: Aggron|4/100
+|-enditem|p1a: Aggron|Air Balloon
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Aggron|Head Smash|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|upkeep
+
+|
+|switch|p2a: Jolteon|Jolteon, L84, F|77/100
+|-damage|p2a: Jolteon|65/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar, L80, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, L80, F
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Jolteon|Thunderbolt|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|54/100
+|move|p1a: Tyranitar|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Victini|Victini, L80|100/100
+|-damage|p2a: Victini|76/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Victini|Grass Knot|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|25/100
+|move|p1a: Tyranitar|Earthquake|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victini|7/100|[from] Sandstorm
+|upkeep
+|turn|17
+
+|
+|move|p2a: Victini|Grass Knot|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victini|1/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Dunsparce|Dunsparce, L89, F|100/100
+|turn|18
+
+|
+|move|p2a: Victini|Blue Flare|p1a: Dunsparce
+|-damage|p1a: Dunsparce|55/100
+|move|p1a: Dunsparce|Rock Slide|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dunsparce|48/100|[from] Sandstorm
+|-heal|p1a: Dunsparce|55/100|[from] item: Leftovers
+|upkeep
+
+|l|☆beretta666
+
+|player|p2|
+|j|☆beretta666
+
+|player|p2|beretta666|260
+
+|
+|switch|p2a: Glalie|Glalie, L89, F|100/100
+|-damage|p2a: Glalie|76/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Glalie|Explosion|p1a: Dunsparce
+|-damage|p1a: Dunsparce|0 fnt
+|faint|p2a: Glalie
+|faint|p1a: Dunsparce
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Mewtwo|Mewtwo-Mega-Y, L78|21/100 par
+|switch|p1a: Swellow|Swellow, L84, F|100/100
+|-damage|p2a: Mewtwo|9/100 par|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: Swellow|Quick Attack|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|win|duKYS

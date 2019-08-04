@@ -1,0 +1,158 @@
+|init|battle
+|title|Ivan274 vs. TheInfernous
+|j|☆Ivan274
+|j|☆TheInfernous
+|player|p1|Ivan274|101|1138
+|player|p2|TheInfernous|269|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Deoxys-Defense|item
+|poke|p1|Furfrou-Pharaoh, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Spoink, M|item
+|poke|p1|Archeops, M|item
+|poke|p1|Bouffalant, M|item
+|poke|p2|Aegislash, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Mimikyu, M|
+|poke|p2|Rayquaza|
+|poke|p2|Lycanroc-Dusk, F|item
+|poke|p2|Volcarona, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Archeops|Archeops, M|100/100
+|switch|p2a: Lycanroc|Lycanroc-Dusk, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ivan274)
+|
+|move|p1a: Archeops|Earth Power|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-enditem|p2a: Lycanroc|Focus Sash
+|-damage|p2a: Lycanroc|1/100
+|move|p2a: Lycanroc|Stealth Rock|p1a: Archeops
+|-sidestart|p1: Ivan274|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Archeops|Earth Power|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+
+|inactive|TheInfernous has 120 seconds left.
+
+|inactive|TheInfernous has 90 seconds left.
+
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|turn|3
+
+|
+|move|p1a: Archeops|Earth Power|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|29/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|faint|p1a: Archeops
+|
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys-Defense|100/100
+|-damage|p1a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|turn|4
+
+|
+|move|p1a: Deoxys|Night Shade|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+
+|inactive|TheInfernous has 90 seconds left.
+
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|5
+
+|
+|move|p2a: Mimikyu|Dark Pulse|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|73/100
+|move|p1a: Deoxys|Night Shade|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Mimikyu|Dark Pulse|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|59/100
+|cant|p1a: Deoxys|flinch
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Mimikyu|Dark Pulse|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|45/100
+|move|p1a: Deoxys|Double Team|p1a: Deoxys
+|-boost|p1a: Deoxys|evasion|1
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Mimikyu|Dark Pulse|p1a: Deoxys|[miss]
+|-miss|p2a: Mimikyu|p1a: Deoxys
+|move|p1a: Deoxys|Cosmic Power|p1a: Deoxys
+|-boost|p1a: Deoxys|def|1
+|-boost|p1a: Deoxys|spd|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Mimikyu|Dark Pulse|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|34/100
+|move|p1a: Deoxys|Cosmic Power|p1a: Deoxys
+|-boost|p1a: Deoxys|def|1
+|-boost|p1a: Deoxys|spd|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Mimikyu|Drain Punch|p1a: Deoxys|[miss]
+|-miss|p2a: Mimikyu|p1a: Deoxys
+|move|p1a: Deoxys|Double Team|p1a: Deoxys
+|-boost|p1a: Deoxys|evasion|1
+|
+|upkeep
+|turn|11
+
+|inactive|TheInfernous has 120 seconds left.
+
+|-message|TheInfernous forfeited.
+
+|
+|win|Ivan274

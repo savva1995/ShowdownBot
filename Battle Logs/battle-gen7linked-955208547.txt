@@ -1,0 +1,101 @@
+|init|battle
+|title|Etosan vs. Jammin720
+|j|☆Etosan
+|j|☆Jammin720
+|player|p1|Etosan|290|1066
+|player|p2|Jammin720|124|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Linked
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pinsir, M|item
+|poke|p1|Yanmega, F|item
+|poke|p1|Mew|item
+|poke|p1|Klefki, F|item
+|poke|p1|Kommo-o, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Victini|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Scizor, F|item
+|poke|p2|Lickilicky, F|item
+|poke|p2|Ribombee, F|item
+|poke|p2|Xurkitree|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jammin720)
+|c|☆Etosan|hf
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|turn|1
+|
+|move|p1a: Jirachi|Iron Head|p2a: Xurkitree
+|-resisted|p2a: Xurkitree
+|-damage|p2a: Xurkitree|79/100
+|move|p1a: Jirachi|Heart Stamp|p2a: Xurkitree
+|-damage|p2a: Xurkitree|50/100
+|cant|p2a: Xurkitree|flinch
+|cant|p2a: Xurkitree|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Jirachi|Iron Head|p2a: Xurkitree
+|-resisted|p2a: Xurkitree
+|-damage|p2a: Xurkitree|29/100
+|move|p1a: Jirachi|Heart Stamp|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|faint|p2a: Xurkitree
+|
+|upkeep
+|
+|switch|p2a: Victini|Victini|100/100
+|turn|3
+|
+|move|p2a: Victini|Fusion Bolt|p1a: Jirachi
+|-damage|p1a: Jirachi|82/100
+|move|p2a: Victini|Fusion Flare|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+
+|
+|switch|p1a: Yanmega|Yanmega, F|100/100
+|turn|4
+
+|l|☆Jammin720
+
+|inactive|Jammin720 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Jammin720 has 30 seconds to reconnect!
+
+|l|☆Etosan
+
+|inactive|Etosan disconnected and has a minute to reconnect!
+
+|player|p1|
+|inactive|Jammin720 has 20 seconds to reconnect!
+
+|inactive|Jammin720 has 15 seconds to reconnect!
+
+|inactive|Jammin720 has 10 seconds to reconnect!
+
+|inactive|Jammin720 has 5 seconds to reconnect!
+
+|-message|Jammin720 lost due to inactivity.
+|
+|win|Etosan

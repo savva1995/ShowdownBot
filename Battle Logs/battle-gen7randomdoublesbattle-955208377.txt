@@ -1,0 +1,50 @@
+|init|battle
+|title|Calamityy vs. Simon's Enemy
+|j|☆Calamityy
+|j|☆Simon's Enemy
+|player|p1|Calamityy|36|1241
+|player|p2|Simon's Enemy|265|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, L78, F|100/100
+|switch|p1b: Palossand|Palossand, L81, F|100/100
+|switch|p2a: Articuno|Articuno, L71|100/100
+|switch|p2b: Pidgeot|Pidgeot, L72, M|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Calamityy)
+
+|
+|detailschange|p2b: Pidgeot|Pidgeot-Mega, L72, M
+|-mega|p2b: Pidgeot|Pidgeot|Pidgeotite
+|move|p2b: Pidgeot|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|91/100
+
+|
+|switch|p2b: Araquanid|Araquanid, L84, F|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|Snarl|p2a: Articuno|[spread] p2b
+|-miss|p1a: Mandibuzz|p2a: Articuno
+|-damage|p2b: Araquanid|93/100
+|-unboost|p2b: Araquanid|spa|1
+|move|p2a: Articuno|Freeze-Dry|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|53/100
+|move|p1b: Palossand|Shadow Ball|p2a: Articuno
+|-damage|p2a: Articuno|70/100
+|
+|-heal|p1a: Mandibuzz|59/100|[from] item: Leftovers
+|-heal|p2b: Araquanid|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|-message|Calamityy forfeited.
+
+|
+|win|Simon's Enemy

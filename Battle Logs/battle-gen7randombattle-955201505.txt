@@ -1,0 +1,131 @@
+|init|battle
+|title|Trishagupta2190 vs. L’intolerance
+|j|☆Trishagupta2190
+|j|☆L’intolerance
+|player|p1|Trishagupta2190|2|1555
+|player|p2|L’intolerance|101|1555
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exploud|Exploud, L85, F|100/100
+|switch|p2a: Heatran|Heatran, L80, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by L’intolerance)
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Exploud
+|-sidestart|p1: Trishagupta2190|move: Stealth Rock
+|move|p1a: Exploud|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|38/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Salamence|Salamence, L81, M|100/100
+|move|p1a: Exploud|Surf|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|82/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Medicham|Medicham, L80, F|100/100
+|-damage|p1a: Medicham|94/100|[from] Stealth Rock
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|upkeep
+|turn|4
+|
+|detailschange|p1a: Medicham|Medicham-Mega, L80, F
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Salamence
+|-damage|p2a: Salamence|60/100
+|cant|p2a: Salamence|flinch
+|
+|upkeep
+|turn|5
+
+|
+|-zpower|p2a: Salamence
+|move|p2a: Salamence|Supersonic Skystrike|p1a: Medicham|[zeffect]
+|-supereffective|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Barbaracle|Barbaracle, L84, F|100/100
+|-damage|p1a: Barbaracle|88/100|[from] Stealth Rock
+|turn|6
+
+|l|☆L’intolerance
+
+|inactive|L’intolerance disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆L’intolerance
+
+|inactive|L’intolerance reconnected and has 130 seconds left.
+
+|player|p2|L’intolerance|101
+
+|
+|move|p2a: Salamence|Earthquake|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Haxorus|Haxorus, L82, F|100/100
+|-damage|p1a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|7
+
+|
+|move|p2a: Salamence|Outrage|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+
+|l|☆Trishagupta2190
+
+|inactive|Trishagupta2190 disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Trishagupta2190 has 30 seconds to reconnect!
+
+|inactive|Trishagupta2190 has 20 seconds to reconnect!
+
+|inactive|Trishagupta2190 has 15 seconds to reconnect!
+
+|inactive|Trishagupta2190 has 10 seconds to reconnect!
+
+|inactive|Trishagupta2190 has 5 seconds to reconnect!
+
+|-message|Trishagupta2190 lost due to inactivity.
+|
+|win|L’intolerance

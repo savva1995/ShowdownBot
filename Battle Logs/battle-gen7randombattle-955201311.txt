@@ -1,0 +1,337 @@
+|init|battle
+|title|Craeyoushnikov vs. DnilB
+|j|☆Craeyoushnikov
+|j|☆DnilB
+|player|p1|Craeyoushnikov|170|1080
+|player|p2|DnilB|163|1071
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, L81, F|100/100
+|switch|p2a: Camerupt|Camerupt, L85, M|100/100
+|turn|1
+|
+|switch|p1a: Lanturn|Lanturn, L88, M|100/100
+|detailschange|p2a: Camerupt|Camerupt-Mega, L85, M
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Camerupt|Ancient Power|p1a: Lanturn
+|-damage|p1a: Lanturn|75/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, F|100/100
+|move|p1a: Lanturn|Hydro Pump|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|68/100
+|-damage|p1a: Lanturn|65/100|[from] item: Life Orb
+|
+|-heal|p2a: Whimsicott|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Whimsicott|Encore|p1a: Lanturn
+|-start|p1a: Lanturn|Encore
+|move|p1a: Lanturn|Hydro Pump|p2a: Whimsicott|[miss]
+|-miss|p1a: Lanturn|p2a: Whimsicott
+|
+|-heal|p2a: Whimsicott|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|move|p2a: Whimsicott|U-turn|p1a: Solgaleo
+|-damage|p1a: Solgaleo|91/100
+
+|
+|switch|p2a: Camerupt|Camerupt-Mega, L85, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Solgaleo|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Lanturn|Lanturn, L88, M|65/100
+|move|p2a: Camerupt|Fire Blast|p1a: Lanturn|[miss]
+|-miss|p2a: Camerupt|p1a: Lanturn
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, F|80/100
+|move|p1a: Lanturn|Hydro Pump|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|46/100
+|-damage|p1a: Lanturn|55/100|[from] item: Life Orb
+|
+|-heal|p2a: Whimsicott|52/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Whimsicott|U-turn|p1a: Lanturn
+|-damage|p1a: Lanturn|40/100
+
+|
+|switch|p2a: Camerupt|Camerupt-Mega, L85, M|100/100|[from]move: U-turn
+|move|p1a: Lanturn|Volt Switch|p2a: Camerupt
+|-immune|p2a: Camerupt
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, F|52/100
+|move|p1a: Lanturn|Hydro Pump|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|21/100
+|-damage|p1a: Lanturn|31/100|[from] item: Life Orb
+|
+|-heal|p2a: Whimsicott|27/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Whimsicott|U-turn|p1a: Lanturn
+|-damage|p1a: Lanturn|15/100
+
+|
+|switch|p2a: Camerupt|Camerupt-Mega, L85, M|100/100|[from]move: U-turn
+|move|p1a: Lanturn|Hydro Pump|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|-damage|p1a: Lanturn|5/100|[from] item: Life Orb
+|faint|p2a: Camerupt
+|
+|upkeep
+
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, F|27/100
+|turn|10
+
+|
+|move|p2a: Whimsicott|Moonblast|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|-heal|p2a: Whimsicott|33/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|97/100
+|turn|11
+
+|
+|move|p2a: Whimsicott|U-turn|p1a: Solgaleo
+|-damage|p1a: Solgaleo|86/100
+
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100|[from]move: U-turn
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Archeops
+|-supereffective|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|-heal|p1a: Solgaleo|92/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Craeyoushnikov)
+
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, F|33/100
+|turn|12
+
+|
+|move|p2a: Whimsicott|U-turn|p1a: Solgaleo
+|-damage|p1a: Solgaleo|82/100
+
+|
+|switch|p2a: Magnezone|Magnezone, L80|100/100|[from]move: U-turn
+|move|p1a: Solgaleo|Stone Edge|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|87/100
+|
+|-heal|p1a: Solgaleo|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Magnezone|Volt Switch|p1a: Solgaleo
+|-damage|p1a: Solgaleo|60/100
+
+|
+|switch|p2a: Whimsicott|Whimsicott, L86, F|33/100|[from]move: Volt Switch
+|move|p1a: Solgaleo|Zen Headbutt|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-heal|p1a: Solgaleo|66/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Magnezone|Magnezone, L80|87/100
+|turn|14
+
+|
+|move|p2a: Magnezone|Volt Switch|p1a: Solgaleo
+|-damage|p1a: Solgaleo|41/100
+
+|
+|switch|p2a: Dialga|Dialga, L78|100/100|[from]move: Volt Switch
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Solgaleo|Zen Headbutt|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|86/100
+|
+|-heal|p1a: Solgaleo|48/100|[from] item: Leftovers
+|-heal|p2a: Dialga|92/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|Craeyoushnikov has 120 seconds left.
+
+|inactive|Craeyoushnikov has 90 seconds left.
+
+|
+|move|p1a: Solgaleo|Morning Sun|p1a: Solgaleo
+|-heal|p1a: Solgaleo|98/100
+|move|p2a: Dialga|Stealth Rock|p1a: Solgaleo
+|-sidestart|p1: Craeyoushnikov|move: Stealth Rock
+|
+|-heal|p1a: Solgaleo|100/100|[from] item: Leftovers
+|-heal|p2a: Dialga|98/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Bisharp|Bisharp, L82, M|100/100
+|-damage|p1a: Bisharp|94/100|[from] Stealth Rock
+|move|p2a: Dialga|Fire Blast|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|5/100
+|
+|-heal|p2a: Dialga|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|inactive|DnilB has 120 seconds left.
+
+|
+|switch|p1a: Mightyena|Mightyena, L89, F|100/100
+|-damage|p1a: Mightyena|88/100|[from] Stealth Rock
+|-ability|p1a: Mightyena|Intimidate|boost
+|-unboost|p2a: Dialga|atk|1
+|move|p2a: Dialga|Fire Blast|p1a: Mightyena
+|-damage|p1a: Mightyena|40/100
+|
+|upkeep
+|turn|18
+
+|inactive|DnilB has 120 seconds left.
+
+|
+|move|p2a: Dialga|Fire Blast|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|faint|p1a: Mightyena
+|
+|upkeep
+
+|
+|switch|p1a: Dragonite|Dragonite, L81, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Dialga|Draco Meteor|p1a: Dragonite|[miss]
+|-miss|p2a: Dialga|p1a: Dragonite
+|move|p1a: Dragonite|Earthquake|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|50/100
+|
+|-heal|p2a: Dialga|56/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|inactive|Craeyoushnikov has 90 seconds left.
+
+|
+|move|p2a: Dialga|Draco Meteor|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Dialga|spa|2
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Dialga|62/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Craeyoushnikov has 90 seconds left.
+
+|
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|-damage|p1a: Malamar|88/100|[from] Stealth Rock
+|turn|21
+
+|
+|switch|p2a: Magnezone|Magnezone, L80|87/100
+|-zpower|p1a: Malamar
+|move|p1a: Malamar|Z-Happy Hour|p1a: Malamar|[anim]Happy Hour
+|-boost|p1a: Malamar|atk|1|[zeffect]
+|-boost|p1a: Malamar|def|1|[zeffect]
+|-boost|p1a: Malamar|spa|1|[zeffect]
+|-boost|p1a: Malamar|spd|1|[zeffect]
+|-boost|p1a: Malamar|spe|1|[zeffect]
+|
+|upkeep
+|turn|22
+
+|
+|move|p1a: Malamar|Superpower|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Magnezone
+|
+|upkeep
+
+|
+|switch|p2a: Dialga|Dialga, L78|62/100
+|-ability|p2a: Dialga|Pressure
+|turn|23
+
+|
+|move|p1a: Malamar|Superpower|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Dialga
+|
+|upkeep
+
+|
+|switch|p2a: Liepard|Liepard, L88, M|100/100
+|turn|24
+
+|
+|move|p2a: Liepard|Copycat|p2a: Liepard
+|move|p2a: Liepard|Superpower|p1a: Malamar|[from]Copycat
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Malamar
+|move|p1a: Malamar|Superpower|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-crit|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Liepard
+|
+|win|Craeyoushnikov

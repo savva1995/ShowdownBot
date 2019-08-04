@@ -1,0 +1,249 @@
+|init|battle
+|title|Loomilaka vs. xRaytra
+|j|☆Loomilaka
+|j|☆xRaytra
+|player|p1|Loomilaka|1|1786
+|player|p2|xRaytra|70|1759
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, L87, F|100/100
+|switch|p2a: Drifblim|Drifblim, L89, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xRaytra)
+|
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, L87, F
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|move|p2a: Drifblim|Acrobatics|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|70/100
+|move|p1a: Abomasnow|Blizzard|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|turn|2
+|
+|switch|p1a: Gyarados|Gyarados, L81, F|100/100
+|move|p2a: Sawk|Bulk Up|p2a: Sawk
+|-boost|p2a: Sawk|atk|1
+|-boost|p2a: Sawk|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Sawk|94/100|[from] Hail
+|-damage|p1a: Gyarados|95/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p2a: Sawk|Bulk Up|p2a: Sawk
+|-boost|p2a: Sawk|atk|1
+|-boost|p2a: Sawk|def|1
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gyarados|89/100|[from] Hail
+|-damage|p2a: Sawk|88/100|[from] Hail
+|upkeep
+|turn|4
+|
+|-zpower|p1a: Gyarados
+|move|p1a: Gyarados|Supersonic Skystrike|p2a: Sawk|[zeffect]
+|-supereffective|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gyarados|83/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Lanturn|Lanturn, L88, F|100/100
+|turn|5
+|inactive|Loomilaka has 120 seconds left.
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|58/100
+|move|p2a: Lanturn|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|-damage|p2a: Lanturn|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|33/100
+|move|p2a: Lanturn|Toxic||[still]
+|-fail|p2a: Lanturn
+|
+|upkeep
+|turn|7
+|inactive|Loomilaka has 120 seconds left.
+|
+|move|p1a: Gyarados|Waterfall|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|56/100
+|move|p2a: Lanturn|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|-damage|p2a: Lanturn|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|9/100
+|move|p2a: Lanturn|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|-damage|p2a: Lanturn|36/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Gyarados|Waterfall|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|4/100
+|move|p2a: Lanturn|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Lanturn|0 fnt|[from] item: Life Orb
+|faint|p1a: Gyarados
+|faint|p2a: Lanturn
+|
+|upkeep
+|
+|switch|p1a: Donphan|Donphan, L84, F|100/100
+|switch|p2a: Scrafty|Scrafty, L86, F|100/100
+|turn|10
+|inactive|Loomilaka has 120 seconds left.
+|
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|move|p1a: Donphan|Earthquake|p2a: Scrafty
+|-damage|p2a: Scrafty|43/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Scrafty|Knock Off|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|42/100
+|-enditem|p1a: Donphan|Choice Band|[from] move: Knock Off|[of] p2a: Scrafty
+|move|p1a: Donphan|Earthquake|p2a: Scrafty
+|-damage|p2a: Scrafty|2/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Donphan|Ice Shard|p2a: Scrafty
+|-crit|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+|
+|switch|p2a: Bruxish|Bruxish, L85, M|100/100
+|turn|13
+|
+|move|p2a: Bruxish|Swords Dance|p2a: Bruxish
+|-boost|p2a: Bruxish|atk|2
+|move|p1a: Donphan|Knock Off|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|23/100
+|-enditem|p2a: Bruxish|Life Orb|[from] move: Knock Off|[of] p1a: Donphan
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Bruxish|Liquidation|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow-Mega, L87, F|70/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|15
+|
+|move|p2a: Bruxish|Psychic Fangs|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bruxish|17/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Regigigas|Regigigas, L89|100/100
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|16
+|
+|move|p2a: Bruxish|Psychic Fangs|p1a: Regigigas
+|-damage|p1a: Regigigas|30/100
+|move|p1a: Regigigas|Knock Off|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|faint|p2a: Bruxish
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Regigigas|24/100|[from] Hail
+|-heal|p1a: Regigigas|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Zapdos|Zapdos, L80|100/100
+|turn|17
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Regigigas
+|-damage|p1a: Regigigas|7/100
+|move|p1a: Regigigas|Substitute|p1a: Regigigas
+|-fail|p1a: Regigigas|move: Substitute|[weak]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Hail
+|-damage|p1a: Regigigas|0 fnt|[from] Hail
+|faint|p1a: Regigigas
+|-end|p1a: Regigigas|Slow Start|[silent]
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|
+|-end|p1: Regigigas|Slow Start|[silent]
+|switch|p1a: Pangoro|Pangoro, L86, M|100/100
+|-ability|p1a: Pangoro|Mold Breaker
+|turn|18
+|
+|move|p2a: Zapdos|Toxic|p1a: Pangoro
+|-status|p1a: Pangoro|tox
+|move|p1a: Pangoro|Knock Off|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-enditem|p2a: Zapdos|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|-damage|p1a: Pangoro|91/100 tox|[from] item: Life Orb
+|faint|p2a: Zapdos
+|
+|win|Loomilaka
+|raw|Loomilaka's rating: 1786 &rarr; <strong>1805</strong><br />(+19 for winning)
+|raw|xRaytra's rating: 1759 &rarr; <strong>1741</strong><br />(-18 for losing)
+|l|☆Loomilaka
+|l|☆xRaytra

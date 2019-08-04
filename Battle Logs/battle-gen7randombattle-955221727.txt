@@ -1,0 +1,267 @@
+|init|battle
+|title|jettywang vs. chaouch
+|j|☆jettywang
+|j|☆chaouch
+|player|p1|jettywang|170|1528
+|player|p2|chaouch|162|1547
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Furret|Furret, L89, M|100/100
+|switch|p2a: Chatot|Chatot, L89, F|100/100
+|-item|p2a: Chatot|Leftovers|[from] ability: Frisk|[of] p1a: Furret|[identify]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chaouch)
+|
+|move|p1a: Furret|Trick|p2a: Chatot
+|-activate|p1a: Furret|move: Trick|[of] p2a: Chatot
+|-item|p2a: Chatot|Choice Scarf|[from] move: Trick
+|-item|p1a: Furret|Leftovers|[from] move: Trick
+|move|p2a: Chatot|Substitute|p2a: Chatot
+|-start|p2a: Chatot|Substitute
+|-damage|p2a: Chatot|76/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gliscor|Gliscor, L80, F|100/100
+|move|p1a: Furret|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|79/100
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Furret
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Furret|Double-Edge|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|26/100
+|-damage|p1a: Furret|86/100|[from] Recoil
+|move|p2a: Gliscor|Knock Off|p1a: Furret
+|-damage|p1a: Furret|63/100
+|-enditem|p1a: Furret|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Furret|Double-Edge|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p1a: Furret|56/100|[from] Recoil
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|switch|p2a: Chatot|Chatot, L89, F|76/100
+|turn|5
+|
+|move|p2a: Chatot|Chatter|p1a: Furret
+|-damage|p1a: Furret|25/100
+|-start|p1a: Furret|confusion
+|-activate|p1a: Furret|confusion
+|move|p1a: Furret|U-turn|p2a: Chatot
+|-resisted|p2a: Chatot
+|-damage|p2a: Chatot|63/100
+|
+|switch|p1a: Dialga|Dialga, L78|100/100|[from]move: U-turn
+|-ability|p1a: Dialga|Pressure
+|
+|upkeep
+|turn|6
+|inactive|chaouch has 120 seconds left.
+|
+|move|p2a: Chatot|Chatter|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|89/100
+|-start|p1a: Dialga|confusion
+|-activate|p1a: Dialga|confusion
+|-damage|p1a: Dialga|81/100|[from] confusion
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|-activate|p1a: Dialga|confusion
+|-damage|p1a: Dialga|75/100|[from] confusion
+|
+|upkeep
+|turn|8
+|inactive|jettywang has 120 seconds left.
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Power-Up Punch|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|57/100
+|-boost|p2a: Kangaskhan|atk|1
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|49/100
+|-boost|p2a: Kangaskhan|atk|1
+|-hitcount|p1a: Dialga|2
+|-activate|p1a: Dialga|confusion
+|move|p1a: Dialga|Draco Meteor|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|8/100
+|-unboost|p1a: Dialga|spa|2
+|
+|upkeep
+|turn|9
+|inactive|jettywang has 120 seconds left.
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|-hitcount|p1a: Dialga|1
+|faint|p1a: Dialga
+|
+|upkeep
+|
+|switch|p1a: Furret|Furret, L89, M|25/100
+|-item|p2a: Kangaskhan|Kangaskhanite|[from] ability: Frisk|[of] p1a: Furret|[identify]
+|turn|10
+|inactive|jettywang has 120 seconds left.
+|
+|move|p1a: Furret|Double-Edge|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-damage|p1a: Furret|23/100|[from] Recoil
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|
+|switch|p2a: Chatot|Chatot, L89, F|63/100
+|turn|11
+|
+|move|p2a: Chatot|Chatter|p1a: Furret
+|-damage|p1a: Furret|0 fnt
+|faint|p1a: Furret
+|
+|upkeep
+|
+|switch|p1a: Liepard|Liepard, L88, F|100/100
+|turn|12
+|
+|move|p1a: Liepard|Thunder Wave|p2a: Chatot
+|-status|p2a: Chatot|par
+|move|p2a: Chatot|Chatter|p1a: Liepard
+|-damage|p1a: Liepard|57/100
+|-start|p1a: Liepard|confusion
+|
+|-heal|p1a: Liepard|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|jettywang has 120 seconds left.
+
+|
+|switch|p1a: Terrakion|Terrakion, L82|100/100
+|cant|p2a: Chatot|par
+|
+|upkeep
+|turn|14
+
+|inactive|jettywang has 120 seconds left.
+
+|
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|move|p2a: Chatot|Chatter|p1a: Terrakion
+|-damage|p1a: Terrakion|76/100
+|-start|p1a: Terrakion|confusion
+|
+|upkeep
+|turn|15
+
+|
+|-activate|p1a: Terrakion|confusion
+|-damage|p1a: Terrakion|47/100|[from] confusion
+|move|p2a: Chatot|Chatter|p1a: Terrakion
+|-damage|p1a: Terrakion|22/100
+|
+|upkeep
+|turn|16
+
+|
+|-activate|p1a: Terrakion|confusion
+|move|p1a: Terrakion|Close Combat|p2a: Chatot
+|-damage|p2a: Chatot|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-damage|p1a: Terrakion|12/100|[from] item: Life Orb
+|faint|p2a: Chatot
+|
+|upkeep
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+|turn|17
+
+|
+|-activate|p1a: Terrakion|confusion
+|move|p1a: Terrakion|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-damage|p1a: Terrakion|2/100|[from] item: Life Orb
+|faint|p2a: Vaporeon
+|
+|upkeep
+
+|
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-item|p2a: Stakataka|Air Balloon
+|turn|18
+
+|
+|-activate|p1a: Terrakion|confusion
+|-damage|p1a: Terrakion|0 fnt|[from] confusion
+|faint|p1a: Terrakion
+|move|p2a: Stakataka|Stealth Rock|p1: Terrakion
+|-sidestart|p1: jettywang|move: Stealth Rock
+|
+|upkeep
+
+|
+|switch|p1a: Kommo-o|Kommo-o, L80, F|100/100
+|-damage|p1a: Kommo-o|95/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p1a: Kommo-o|Dragon Dance|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Stakataka|Gyro Ball|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Bulletproof
+|
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Barbaracle|Barbaracle, L84, M|100/100
+|move|p1a: Kommo-o|Close Combat|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|-unboost|p1a: Kommo-o|spd|1
+|faint|p2a: Barbaracle
+|
+|upkeep
+
+|
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-item|p2a: Stakataka|Air Balloon
+|turn|21
+
+|
+|move|p1a: Kommo-o|Close Combat|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|-enditem|p2a: Stakataka|Air Balloon
+|-unboost|p1a: Kommo-o|def|1
+|-unboost|p1a: Kommo-o|spd|1
+|faint|p2a: Stakataka
+|
+|win|jettywang

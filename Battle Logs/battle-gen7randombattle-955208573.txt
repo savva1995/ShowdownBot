@@ -1,0 +1,427 @@
+|init|battle
+|title|kodak800 vs. dafagway
+|j|☆kodak800
+|j|☆dafagway
+|player|p1|kodak800|208|1164
+|player|p2|dafagway|102|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toucannon|Toucannon, L89, M|100/100
+|switch|p2a: Pikachu|Pikachu-Unova, L90, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dafagway)
+|
+|switch|p1a: Porygon2|Porygon2, L84|100/100
+|-ability|p1a: Porygon2|Static|[from] ability: Trace|[of] p2a: Pikachu
+|move|p2a: Pikachu|Volt Tackle|p1a: Porygon2
+|-damage|p1a: Porygon2|53/100
+|-damage|p2a: Pikachu|79/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Kecleon|Kecleon, L89, F|100/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Kecleon|Fake Out|p1a: Porygon2
+|-damage|p1a: Porygon2|86/100
+|-damage|p2a: Kecleon|91/100|[from] item: Life Orb
+|cant|p1a: Porygon2|flinch
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Porygon2|Toxic|p2a: Kecleon
+|-status|p2a: Kecleon|tox
+|move|p2a: Kecleon|Stealth Rock|p1a: Porygon2
+|-start|p2a: Kecleon|typechange|Rock|[from] ability: Protean
+|-sidestart|p1: kodak800|move: Stealth Rock
+|
+|-damage|p2a: Kecleon|85/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Porygon2|Thunderbolt|p2a: Kecleon
+|-damage|p2a: Kecleon|64/100 tox
+|move|p2a: Kecleon|Knock Off|p1a: Porygon2
+|-start|p2a: Kecleon|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Porygon2|52/100
+|-enditem|p1a: Porygon2|Eviolite|[from] move: Knock Off|[of] p2a: Kecleon
+|-damage|p2a: Kecleon|54/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Kecleon|43/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|move|p2a: Kecleon|Drain Punch|p1a: Porygon2
+|-start|p2a: Kecleon|typechange|Fighting|[from] ability: Protean
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|19/100
+|-heal|p2a: Kecleon|88/100 tox|[from] drain|[of] p1a: Porygon2
+|-damage|p2a: Kecleon|78/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Kecleon|60/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Porygon2|Tri Attack|p2a: Kecleon
+|-damage|p2a: Kecleon|34/100 tox
+|move|p2a: Kecleon|Drain Punch|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-heal|p2a: Kecleon|44/100 tox|[from] drain|[of] p1a: Porygon2
+|-damage|p2a: Kecleon|34/100 tox|[from] item: Life Orb
+|faint|p1a: Porygon2
+|
+|-damage|p2a: Kecleon|10/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Toucannon|Toucannon, L89, M|100/100
+|-damage|p1a: Toucannon|76/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Toucannon|Swords Dance|p1a: Toucannon
+|-boost|p1a: Toucannon|atk|2
+|move|p2a: Kecleon|Knock Off|p1a: Toucannon
+|-start|p2a: Kecleon|typechange|Dark|[from] ability: Protean
+|-crit|p1a: Toucannon
+|-damage|p1a: Toucannon|0 fnt
+|-enditem|p1a: Toucannon|Focus Sash|[from] move: Knock Off|[of] p2a: Kecleon
+|-damage|p2a: Kecleon|0 fnt|[from] item: Life Orb
+|faint|p1a: Toucannon
+|faint|p2a: Kecleon
+|
+|upkeep
+
+|
+|switch|p1a: Kommo-o|Kommo-o, L80, M|100/100
+|switch|p2a: Dragalge|Dragalge, L84, M|100/100
+|-damage|p1a: Kommo-o|95/100|[from] Stealth Rock
+|turn|9
+
+|
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Dragalge|[zeffect]
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|faint|p2a: Dragalge
+|
+|upkeep
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|100/100
+|turn|10
+
+|
+|move|p1a: Kommo-o|Poison Jab|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|44/100
+|move|p2a: Aromatisse|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-heal|p2a: Aromatisse|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, L82, F|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|11
+
+|c|☆dafagway|hahhaha got boosted but still get OHKO
+
+|
+|move|p1a: Mimikyu|Taunt|p2a: Aromatisse
+|-activate|p2a: Aromatisse|ability: Aroma Veil|[of] p2a: Aromatisse
+|move|p2a: Aromatisse|Moonblast|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|-unboost|p1a: Mimikyu|spa|1
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L82, F
+|
+|-heal|p1a: Mimikyu|94/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p1a: Mimikyu|100/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Scyther|Scyther, L88, M|100/100
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Scyther
+|-damage|p2a: Scyther|68/100
+|
+|-heal|p2a: Scyther|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|14
+
+|inactive|dafagway has 120 seconds left.
+
+|
+|move|p2a: Scyther|U-turn|p1a: Mimikyu
+|-resisted|p1a: Mimikyu
+|-damage|p1a: Mimikyu|85/100
+
+|
+|switch|p2a: Tornadus|Tornadus, L83, M|100/100|[from]move: U-turn
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-heal|p1a: Mimikyu|92/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Tornadus|Bulk Up|p2a: Tornadus
+|-boost|p2a: Tornadus|atk|1
+|-boost|p2a: Tornadus|def|1
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Tornadus
+|-damage|p2a: Tornadus|68/100
+|
+|-heal|p1a: Mimikyu|98/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Tornadus|Acrobatics|p1a: Mimikyu
+|-damage|p1a: Mimikyu|6/100
+|move|p1a: Mimikyu|Play Rough|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Mimikyu|13/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Scyther|Scyther, L88, M|100/100
+|turn|17
+
+|
+|move|p2a: Scyther|U-turn|p1a: Mimikyu
+|-resisted|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+
+|
+|switch|p2a: Pikachu|Pikachu-Unova, L90, M|79/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p1a: Passimian|Passimian, L86, F|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Passimian|Close Combat|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Pikachu
+|
+|upkeep
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|62/100
+|turn|19
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, F|100/100
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Aromatisse|Moonblast|p1a: Gigalith
+|-damage|p1a: Gigalith|62/100
+|-unboost|p1a: Gigalith|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aromatisse|56/100|[from] Sandstorm
+|-heal|p2a: Aromatisse|62/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Gigalith|Stone Edge|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aromatisse|56/100|[from] Sandstorm
+|-heal|p2a: Aromatisse|62/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|74/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|inactive|kodak800 has 120 seconds left.
+
+|
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|move|p1a: Gigalith|Stone Edge|p2a: Aromatisse
+|-damage|p2a: Aromatisse|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aromatisse|9/100|[from] Sandstorm
+|-heal|p2a: Aromatisse|15/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|80/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|inactive|kodak800 has 120 seconds left.
+
+|inactive|kodak800 has 90 seconds left.
+
+|inactive|kodak800 has 60 seconds left.
+
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Gigalith|Stone Edge|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aromatisse|9/100|[from] Sandstorm
+|-heal|p2a: Aromatisse|59/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Aromatisse|65/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|86/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Aromatisse|Moonblast|p1a: Gigalith
+|-damage|p1a: Gigalith|61/100
+|-unboost|p1a: Gigalith|spa|1
+|move|p1a: Gigalith|Stone Edge|p2a: Aromatisse
+|-damage|p2a: Aromatisse|12/100
+|
+|-weather|none
+|-heal|p2a: Aromatisse|18/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|67/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|inactive|dafagway has 120 seconds left.
+
+|
+|switch|p1a: Passimian|Passimian, L86, F|94/100
+|-damage|p1a: Passimian|88/100|[from] Stealth Rock
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|24/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Passimian|Iron Head|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|74/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Aromatisse|80/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Scyther|Scyther, L88, M|100/100
+|move|p1a: Passimian|Iron Head|p2a: Scyther
+|-damage|p2a: Scyther|72/100
+|
+|upkeep
+|turn|27
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, F|67/100
+|-damage|p1a: Gigalith|55/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Scyther|Brick Break|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scyther|66/100|[from] Sandstorm
+|-heal|p1a: Gigalith|12/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Scyther|Brick Break|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scyther|60/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Passimian|Passimian, L86, F|88/100
+|-damage|p1a: Passimian|82/100|[from] Stealth Rock
+|turn|29
+
+|c|☆dafagway|hahahaha nc game
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|80/100
+|move|p1a: Passimian|Rock Slide|p2a: Aromatisse|[miss]
+|-miss|p1a: Passimian|p2a: Aromatisse
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Passimian|76/100|[from] Sandstorm
+|-damage|p2a: Aromatisse|74/100|[from] Sandstorm
+|-heal|p2a: Aromatisse|80/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Passimian|Rock Slide|p2a: Aromatisse
+|-damage|p2a: Aromatisse|57/100
+|cant|p2a: Aromatisse|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Passimian|70/100|[from] Sandstorm
+|-damage|p2a: Aromatisse|51/100|[from] Sandstorm
+|-heal|p2a: Aromatisse|57/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p1a: Passimian|Rock Slide|p2a: Aromatisse
+|-damage|p2a: Aromatisse|33/100
+|move|p2a: Aromatisse|Moonblast|p1a: Passimian
+|-supereffective|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|win|dafagway

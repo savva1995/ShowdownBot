@@ -1,0 +1,141 @@
+|init|battle
+|title|Talulachu vs. PhantomwolfElite12
+|j|☆Talulachu
+|j|☆PhantomwolfElite12
+|player|p1|Talulachu|266|1000
+|player|p2|PhantomwolfElite12|289|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Bidoof, F|item
+|poke|p1|Bidoof, M|item
+|poke|p1|Bidoof, M|item
+|poke|p1|Bidoof, M|item
+|poke|p1|Bidoof, F|item
+|poke|p1|Furret, F|
+|poke|p2|Zeraora|item
+|poke|p2|Mightyena, M|
+|poke|p2|Mimikyu, F|item
+|poke|p2|Gengar, F|item
+|poke|p2|Nihilego|item
+|poke|p2|Bewear, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: My leige|Bidoof, F, shiny|100/100
+|switch|p2a: Creepy area 51 boi|Mimikyu, F|100/100
+|turn|1
+|
+|-zpower|p2a: Creepy area 51 boi
+|move|p2a: Creepy area 51 boi|Let's Snuggle Forever|p1a: My leige|[zeffect]
+|-damage|p1a: My leige|0 fnt
+|faint|p1a: My leige
+|
+|upkeep
+|
+|switch|p1a: The King|Bidoof, M, shiny|100/100
+|turn|2
+|
+|switch|p2a: Zappyboi|Zeraora|100/100
+|move|p1a: The King|Ice Beam|p2a: Zappyboi
+|-damage|p2a: Zappyboi|88/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Zappyboi|Close Combat|p1a: The King
+|-supereffective|p1a: The King
+|-damage|p1a: The King|0 fnt
+|-unboost|p2a: Zappyboi|def|1
+|-unboost|p2a: Zappyboi|spd|1
+|-damage|p2a: Zappyboi|78/100|[from] item: Life Orb
+|faint|p1a: The King
+|
+|upkeep
+|
+|switch|p1a: Doofus|Bidoof, M, shiny|100/100
+|turn|4
+|
+|move|p2a: Zappyboi|Close Combat|p1a: Doofus
+|-supereffective|p1a: Doofus
+|-damage|p1a: Doofus|0 fnt
+|-damage|p2a: Zappyboi|62/100|[from] item: Rocky Helmet|[of] p1a: Doofus
+|-unboost|p2a: Zappyboi|def|1
+|-unboost|p2a: Zappyboi|spd|1
+|-damage|p2a: Zappyboi|52/100|[from] item: Life Orb
+|faint|p1a: Doofus
+|
+|upkeep
+
+|
+|switch|p1a: The doof|Bidoof, M, shiny|100/100
+|turn|5
+
+|
+|move|p2a: Zappyboi|Close Combat|p1a: The doof
+|-supereffective|p1a: The doof
+|-damage|p1a: The doof|0 fnt
+|-unboost|p2a: Zappyboi|def|1
+|-unboost|p2a: Zappyboi|spd|1
+|-damage|p2a: Zappyboi|42/100|[from] item: Life Orb
+|faint|p1a: The doof
+|
+|upkeep
+
+|
+|switch|p1a: Homonculus|Bidoof, F, shiny|100/100
+|turn|6
+
+|
+|move|p2a: Zappyboi|Close Combat|p1a: Homonculus
+|-supereffective|p1a: Homonculus
+|-crit|p1a: Homonculus
+|-enditem|p1a: Homonculus|Focus Sash
+|-damage|p1a: Homonculus|1/100
+|-unboost|p2a: Zappyboi|def|1
+|-unboost|p2a: Zappyboi|spd|1
+|-damage|p2a: Zappyboi|32/100|[from] item: Life Orb
+|move|p1a: Homonculus|Toxic|p2a: Zappyboi
+|-status|p2a: Zappyboi|tox
+|
+|-damage|p2a: Zappyboi|26/100 tox|[from] psn
+|-ability|p1a: Homonculus|Moody|boost
+|-boost|p1a: Homonculus|evasion|2
+|-unboost|p1a: Homonculus|def|1
+|upkeep
+|turn|7
+
+|
+|move|p2a: Zappyboi|Close Combat|p1a: Homonculus
+|-supereffective|p1a: Homonculus
+|-damage|p1a: Homonculus|0 fnt
+|-unboost|p2a: Zappyboi|def|1
+|-unboost|p2a: Zappyboi|spd|1
+|-damage|p2a: Zappyboi|17/100 tox|[from] item: Life Orb
+|faint|p1a: Homonculus
+|
+|-damage|p2a: Zappyboi|5/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: WALCC|Furret, F|100/100
+|-item|p2a: Zappyboi|Life Orb|[from] ability: Frisk|[of] p1a: WALCC|[identify]
+|turn|8
+
+|
+|move|p2a: Zappyboi|Close Combat|p1a: WALCC
+|-supereffective|p1a: WALCC
+|-damage|p1a: WALCC|0 fnt
+|-unboost|p2a: Zappyboi|def|1
+|-unboost|p2a: Zappyboi|spd|1
+|-damage|p2a: Zappyboi|0 fnt|[from] item: Life Orb
+|faint|p1a: WALCC
+|faint|p2a: Zappyboi
+|
+|win|PhantomwolfElite12

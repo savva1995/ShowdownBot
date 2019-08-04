@@ -1,0 +1,25 @@
+|init|battle
+|title|northwestp vs. Guest 1381002
+|j|☆northwestp
+|player|p1|northwestp|198|1034
+|player|p2|Guest 1381002|1|1011
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cinccino|Cinccino, L87, M|100/100
+|switch|p2a: Umbreon|Umbreon, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Guest 1381002)
+|inactive|northwestp has 120 seconds left.
+
+|-message|Guest 1381002 forfeited.
+
+|
+|win|northwestp

@@ -1,0 +1,255 @@
+|init|battle
+|title|Arthurvarolo vs. ddhhff
+|j|☆Arthurvarolo
+|j|☆ddhhff
+|player|p1|Arthurvarolo|1|1052
+|player|p2|ddhhff|102|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Espeon, F|item
+|poke|p1|Charizard, F|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Garchomp, M|item
+|poke|p2|Torkoal, F|item
+|poke|p2|Houndoom, F|item
+|poke|p2|Victreebel, M|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Hawlucha, F|item
+|poke|p2|Golduck, F|item
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Garchomp|Poison Jab|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Houndoom|Houndoom, F|100/100
+|turn|3
+
+|
+|detailschange|p2a: Houndoom|Houndoom-Mega, F
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Dark Pulse|p1a: Garchomp
+|-damage|p1a: Garchomp|30/100
+|move|p1a: Garchomp|Earthquake|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Garchomp|36/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Victreebel|Victreebel, M|100/100
+|turn|4
+
+|
+|move|p2a: Victreebel|Leaf Blade|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Victreebel|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Victreebel|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Victreebel|78/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|turn|5
+
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-X, F
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Torkoal|Earth Power|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Charizard|38/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+
+|
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|88/100
+|-singleturn|p1a: Charizard|move: Roost
+|move|p2a: Torkoal|Earth Power|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Charizard|45/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Torkoal
+|-damage|p2a: Torkoal|37/100
+|move|p2a: Torkoal|Earth Power|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|none
+|-heal|p2a: Torkoal|43/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|9
+
+|
+|switch|p2a: Victreebel|Victreebel, M|78/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Victreebel
+|-sidestart|p2: ddhhff|move: Stealth Rock
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Torkoal|Torkoal, F|43/100
+|-damage|p2a: Torkoal|18/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ferrothorn|Spikes|p2a: Torkoal
+|-sidestart|p2: ddhhff|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Torkoal|Lava Plume|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Focus Sash
+|-damage|p1a: Ferrothorn|1/100
+|move|p1a: Ferrothorn|Spikes|p2a: Torkoal
+|-sidestart|p2: ddhhff|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+
+|
+|move|p2a: Torkoal|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Torkoal|5/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: ddhhff|Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-sideend|p2: ddhhff|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|-enditem|p1a: Tapu Fini|Misty Seed
+|-boost|p1a: Tapu Fini|spd|1
+|turn|13
+
+|
+|switch|p2a: Victreebel|Victreebel, M|78/100
+|move|p1a: Tapu Fini|Calm Mind|p1a: Tapu Fini
+|-boost|p1a: Tapu Fini|spa|1
+|-boost|p1a: Tapu Fini|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+
+|
+|-zpower|p2a: Victreebel
+|move|p2a: Victreebel|Z-Growth|p2a: Victreebel|[anim]Growth
+|-boost|p2a: Victreebel|spa|1|[zeffect]
+|-boost|p2a: Victreebel|atk|2
+|-boost|p2a: Victreebel|spa|2
+|move|p1a: Tapu Fini|Calm Mind|p1a: Tapu Fini
+|-boost|p1a: Tapu Fini|spa|1
+|-boost|p1a: Tapu Fini|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+
+|
+|move|p2a: Victreebel|Poison Jab|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|turn|16
+
+|
+|move|p2a: Victreebel|Poison Jab|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|17
+
+|
+|move|p2a: Victreebel|Poison Jab|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|win|ddhhff

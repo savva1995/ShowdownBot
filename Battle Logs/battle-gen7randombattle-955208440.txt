@@ -1,0 +1,290 @@
+|init|battle
+|title|lolcatz11 vs. endeav0ur
+|j|☆lolcatz11
+|j|☆endeav0ur
+|player|p1|lolcatz11|260|1365
+|player|p2|endeav0ur|169|1423
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Floette|Floette-Eternal, L80, F|100/100
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|turn|1
+|
+|move|p2a: Meloetta|U-turn|p1a: Floette
+|-resisted|p1a: Floette
+|-damage|p1a: Floette|91/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lolcatz11)
+|
+|switch|p2a: Simipour|Simipour, L89, M|100/100|[from]move: U-turn
+|move|p1a: Floette|Light of Ruin|p2a: Simipour
+|-damage|p2a: Simipour|0 fnt
+|-damage|p1a: Floette|35/100|[from] Recoil
+|faint|p2a: Simipour
+|
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, L84, F|100/100
+|turn|2
+
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Floette
+|-supereffective|p1a: Floette
+|-damage|p1a: Floette|0 fnt
+|faint|p1a: Floette
+|
+|upkeep
+
+|
+|switch|p1a: Mew|Mew, L80|100/100
+|turn|3
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|move|p1a: Mew|Psyshock|p2a: Meloetta
+|-resisted|p2a: Meloetta
+|-damage|p2a: Meloetta|85/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Wishiwashi|Wishiwashi, L89, F|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p2a: Meloetta|U-turn|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|88/100
+
+|
+|switch|p2a: Articuno|Articuno, L88|100/100|[from]move: U-turn
+|-ability|p2a: Articuno|Pressure
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Articuno|Substitute|p2a: Articuno
+|-start|p2a: Articuno|Substitute
+|-damage|p2a: Articuno|76/100
+|move|p1a: Wishiwashi|Scald|p2a: Articuno
+|-crit|p2a: Articuno
+|-end|p2a: Articuno|Substitute
+|
+|-heal|p2a: Articuno|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Wishiwashi
+|-supereffective|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|41/100
+|move|p1a: Wishiwashi|Scald|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|38/100
+|
+|-heal|p2a: Articuno|44/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Mew|Mew, L80|100/100
+|move|p2a: Articuno|Freeze-Dry|p1a: Mew
+|-damage|p1a: Mew|74/100
+|
+|-heal|p1a: Mew|80/100|[from] item: Leftovers
+|-heal|p2a: Articuno|50/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|85/100
+|move|p1a: Mew|Psyshock|p2a: Meloetta
+|-resisted|p2a: Meloetta
+|-damage|p2a: Meloetta|69/100
+|
+|-heal|p1a: Mew|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Wishiwashi|Wishiwashi, L89, F|41/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p2a: Meloetta|Shadow Ball|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|18/100
+|
+|-formechange|p1a: Wishiwashi|Wishiwashi||[from] ability: Schooling
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Latias|Latias, L81, F|100/100
+|move|p1a: Wishiwashi|Scald|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|94/100
+|-status|p2a: Latias|brn
+|
+|-damage|p2a: Latias|88/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|detailschange|p2a: Latias|Latias-Mega, L81, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p2a: Latias|Surf|p1a: Wishiwashi
+|-resisted|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|0 fnt
+|faint|p1a: Wishiwashi
+|
+|-damage|p2a: Latias|82/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Mew|Mew, L80|86/100
+|turn|12
+
+|
+|move|p2a: Latias|Surf|p1a: Mew
+|-damage|p1a: Mew|60/100
+|move|p1a: Mew|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|49/100 brn
+|
+|-heal|p1a: Mew|66/100|[from] item: Leftovers
+|-damage|p2a: Latias|42/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Latias|Draco Meteor|p1a: Mew
+|-damage|p1a: Mew|6/100
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Mew|Nasty Plot|p1a: Mew
+|-boost|p1a: Mew|spa|2
+|
+|-heal|p1a: Mew|13/100|[from] item: Leftovers
+|-damage|p2a: Latias|36/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Latias|Surf|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-damage|p2a: Latias|30/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Zeraora|Zeraora, L82|100/100
+|turn|15
+
+|
+|switch|p2a: Articuno|Articuno, L88|50/100
+|-ability|p2a: Articuno|Pressure
+|move|p1a: Zeraora|Plasma Fists|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|91/100|[from] item: Life Orb
+|faint|p2a: Articuno
+|
+|upkeep
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|69/100
+|turn|16
+
+|
+|move|p2a: Meloetta|U-turn|p1a: Zeraora
+|-damage|p1a: Zeraora|74/100
+
+|
+|switch|p2a: Breloom|Breloom, L81, F|100/100|[from]move: U-turn
+|move|p1a: Zeraora|Plasma Fists|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|68/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|64/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Darmanitan|Darmanitan, L83, M|100/100
+|move|p2a: Breloom|Mach Punch|p1a: Darmanitan
+|-damage|p1a: Darmanitan|57/100
+|-damage|p2a: Breloom|58/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Darmanitan
+|-damage|p1a: Darmanitan|9/100
+|-damage|p2a: Breloom|48/100|[from] item: Life Orb
+|move|p1a: Darmanitan|Flare Blitz|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-damage|p1a: Darmanitan|0 fnt|[from] Recoil
+|faint|p2a: Breloom
+|faint|p1a: Darmanitan
+|
+|upkeep
+
+|
+|switch|p1a: Zeraora|Zeraora, L82|64/100
+|switch|p2a: Machamp|Machamp, L84, F|100/100
+|turn|19
+
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Machamp
+|-damage|p2a: Machamp|49/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|54/100|[from] item: Life Orb
+|move|p2a: Machamp|Dynamic Punch|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|upkeep
+
+|
+|switch|p1a: Metagross|Metagross, L78|100/100
+|turn|20
+
+|
+|detailschange|p1a: Metagross|Metagross-Mega, L78
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p1a: Metagross|Zen Headbutt|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|69/100
+|turn|21
+
+|
+|move|p2a: Meloetta|Shadow Ball|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|50/100
+|move|p1a: Metagross|Meteor Mash|p2a: Meloetta
+|-damage|p2a: Meloetta|12/100
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Meloetta|Shadow Ball|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|win|endeav0ur

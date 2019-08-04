@@ -1,0 +1,141 @@
+|init|battle
+|title|Hollandiaa vs. gosn
+|j|☆Hollandiaa
+|j|☆gosn
+|player|p1|Hollandiaa|101|1610
+|player|p2|gosn|266|1604
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Volbeat|Volbeat, L89, M|100/100
+|switch|p2a: Solrock|Solrock, L89|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gosn)
+|j| maimaiQuiverDance
+|
+|move|p1a: Volbeat|U-turn|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|55/100
+|l| maimaiQuiverDance
+|
+|switch|p1a: Venusaur|Venusaur, L81, F|100/100|[from]move: U-turn
+|move|p2a: Solrock|Stealth Rock|p1a: Venusaur
+|-sidestart|p1: Hollandiaa|move: Stealth Rock
+|
+|-heal|p2a: Solrock|61/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Hollandiaa has 120 seconds left.
+
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Solrock
+|-resisted|p2a: Solrock
+|-damage|p2a: Solrock|44/100
+|move|p2a: Solrock|Explosion|p1a: Venusaur
+|-damage|p1a: Venusaur|20/100
+|faint|p2a: Solrock
+|
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, M|100/100
+|turn|3
+
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p2a: Darmanitan|95/100|[from] Recoil
+|faint|p1a: Venusaur
+|
+|upkeep
+
+|
+|switch|p1a: Volbeat|Volbeat, L89, M|100/100
+|-damage|p1a: Volbeat|76/100|[from] Stealth Rock
+|turn|4
+
+|
+|move|p1a: Volbeat|Thunder Wave|p2a: Darmanitan
+|-status|p2a: Darmanitan|par
+|move|p2a: Darmanitan|Flare Blitz|p1a: Volbeat
+|-supereffective|p1a: Volbeat
+|-damage|p1a: Volbeat|0 fnt
+|-damage|p2a: Darmanitan|74/100 par|[from] Recoil
+|faint|p1a: Volbeat
+|
+|upkeep
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p1a: Togekiss|Air Slash|p2a: Darmanitan
+|-damage|p2a: Darmanitan|37/100 par
+|cant|p2a: Darmanitan|flinch
+|
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Togekiss|Air Slash|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|-heal|p1a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L88, M|100/100
+|turn|7
+
+|
+|move|p2a: Hitmonchan|Ice Punch|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|36/100
+|move|p1a: Togekiss|Air Slash|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|54/100
+|
+|-heal|p1a: Togekiss|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Dragalge|Dragalge, L84, F|100/100
+|-damage|p1a: Dragalge|88/100|[from] Stealth Rock
+|move|p2a: Hitmonchan|Ice Punch|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|30/100
+|
+|-heal|p1a: Dragalge|36/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p2a: Hitmonchan|Ice Punch|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, L88, M|100/100
+|-damage|p1a: Drampa|88/100|[from] Stealth Rock
+|turn|10
+
+|-message|Hollandiaa forfeited.
+
+|
+|win|gosn

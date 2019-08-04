@@ -1,0 +1,276 @@
+|init|battle
+|title|Vgamingpixel vs. tres12
+|j|☆Vgamingpixel
+|j|☆tres12
+|player|p1|Vgamingpixel|290|1245
+|player|p2|tres12|101|1289
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toxicroak|Toxicroak, L84, F|100/100
+|switch|p2a: Victreebel|Victreebel, L88, M|100/100
+|turn|1
+|
+|move|p1a: Toxicroak|Ice Punch|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|52/100
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Toxicroak|Ice Punch|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|7/100
+|move|p2a: Victreebel|Sleep Powder|p1a: Toxicroak|[miss]
+|-miss|p2a: Victreebel|p1a: Toxicroak
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L85, F|100/100
+|move|p1a: Toxicroak|Ice Punch|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|83/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Dry Skin|[of] p1a: Toxicroak
+|
+|-heal|p2a: Cofagrigus|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Doublade|Doublade, L82, F|100/100
+|move|p2a: Cofagrigus|Trick Room|p2a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p2a: Cofagrigus
+|
+|-heal|p2a: Cofagrigus|95/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|24/100
+|-unboost|p1a: Doublade|spd|1
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|-heal|p2a: Cofagrigus|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|47/100
+|-activate|p2a: Cofagrigus|ability: Mummy|No Guard|[of] p1a: Doublade
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|-heal|p2a: Cofagrigus|53/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana, L80|100/100
+|turn|7
+
+|
+|move|p2a: Cofagrigus|Nasty Plot|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|2
+|move|p1a: Kartana|Knock Off|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-activate|p2a: Cofagrigus|ability: Mummy|Beast Boost|[of] p1a: Kartana
+|-enditem|p2a: Cofagrigus|Leftovers|[from] move: Knock Off|[of] p1a: Kartana
+|-damage|p1a: Kartana|91/100|[from] item: Life Orb
+|faint|p2a: Cofagrigus
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vgamingpixel)
+
+|
+|switch|p2a: Miltank|Miltank, L86, F|100/100
+|turn|8
+
+|
+|move|p1a: Kartana|Sacred Sword|p2a: Miltank
+|-supereffective|p2a: Miltank
+|-damage|p2a: Miltank|28/100
+|-damage|p1a: Kartana|81/100|[from] item: Life Orb
+|move|p2a: Miltank|Earthquake|p1a: Kartana
+|-damage|p1a: Kartana|57/100
+|
+|-heal|p2a: Miltank|34/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Mienshao|Mienshao, L83, F|100/100
+|move|p1a: Kartana|Sacred Sword|p2a: Mienshao
+|-damage|p2a: Mienshao|32/100
+|-damage|p1a: Kartana|47/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Kartana
+|-supereffective|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|-activate|p1a: Kartana|ability: Mummy|Regenerator|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|22/100|[from] item: Life Orb
+|faint|p1a: Kartana
+|
+|upkeep
+
+|
+|switch|p1a: Palossand|Palossand, L86, F|100/100
+|turn|11
+
+|
+|move|p2a: Mienshao|Stone Edge|p1a: Palossand
+|-resisted|p1a: Palossand
+|-damage|p1a: Palossand|84/100
+|-damage|p2a: Mienshao|12/100|[from] item: Life Orb
+|move|p1a: Palossand|Earth Power|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|-heal|p1a: Palossand|90/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Sunflora|Sunflora, L89, M|100/100
+|turn|12
+
+|
+|move|p1a: Palossand|Toxic|p2a: Sunflora
+|-status|p2a: Sunflora|tox
+|move|p2a: Sunflora|Sunny Day|p2a: Sunflora
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Palossand|96/100|[from] item: Leftovers
+|-damage|p2a: Sunflora|94/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|move|p2a: Sunflora|Giga Drain|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|94/100
+|-heal|p2a: Sunflora|98/100 tox|[from] drain|[of] p1a: Ho-Oh
+|-damage|p2a: Sunflora|88/100 tox|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|99/100|[from] item: Leftovers
+|-damage|p2a: Sunflora|76/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Miltank|Miltank, L86, F|34/100
+|move|p1a: Ho-Oh|Flame Charge|p2a: Miltank
+|-damage|p2a: Miltank|8/100
+|-boost|p1a: Ho-Oh|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|100/100|[from] item: Leftovers
+|-heal|p2a: Miltank|15/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Ho-Oh|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|faint|p2a: Miltank
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Zeraora|Zeraora, L82|100/100
+|turn|16
+
+|
+|move|p2a: Zeraora|Plasma Fists|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|26/100
+|-fieldactivate|move: Ion Deluge
+|move|p1a: Ho-Oh|Earthquake|p2a: Zeraora
+|-supereffective|p2a: Zeraora
+|-damage|p2a: Zeraora|30/100
+|
+|-weather|none
+|-heal|p1a: Ho-Oh|32/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Palossand|Palossand, L86, F|96/100
+|move|p2a: Zeraora|Plasma Fists|p1a: Palossand
+|-immune|p1a: Palossand
+|
+|-heal|p1a: Palossand|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Zeraora|Grass Knot|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-damage|p1a: Palossand|36/100
+|move|p1a: Palossand|Earth Power|p2a: Zeraora
+|-supereffective|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|-heal|p1a: Palossand|42/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Victreebel|Victreebel, L88, M|7/100
+|turn|19
+
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Palossand|[miss]
+|-miss|p2a: Victreebel|p1a: Palossand
+|move|p1a: Palossand|Earth Power|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|-heal|p1a: Palossand|48/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Sunflora|Sunflora, L89, M|76/100 tox
+|turn|20
+
+|
+|switch|p1a: Muk|Muk, L89, M|100/100
+|move|p2a: Sunflora|Giga Drain|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|84/100
+|-heal|p2a: Sunflora|86/100 tox|[from] drain|[of] p1a: Muk
+|-damage|p2a: Sunflora|76/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Muk|90/100|[from] item: Black Sludge
+|-damage|p2a: Sunflora|70/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Muk|Poison Jab|p2a: Sunflora
+|-supereffective|p2a: Sunflora
+|-damage|p2a: Sunflora|0 fnt
+|faint|p2a: Sunflora
+|
+|win|Vgamingpixel

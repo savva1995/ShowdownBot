@@ -1,0 +1,47 @@
+|init|battle
+|title|tonyman2009 vs. Lanouelduletremont
+|j|☆tonyman2009
+|j|☆Lanouelduletremont
+|player|p1|tonyman2009|184|1344
+|player|p2|Lanouelduletremont|37|1377
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aggron, M|item
+|poke|p1|Genesect-*|item
+|poke|p1|Gyarados, F|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Mawile, F|item
+|teampreview|1
+
+|
+|start
+|switch|p1a: Genesect|Genesect|100/100
+|switch|p2a: Gyarados|Gyarados, M, shiny|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Genesect|atk|1
+|turn|1
+
+|
+|-zpower|p1a: Genesect
+|move|p1a: Genesect|Gigavolt Havoc|p2a: Gyarados|[zeffect]
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|tonyman2009

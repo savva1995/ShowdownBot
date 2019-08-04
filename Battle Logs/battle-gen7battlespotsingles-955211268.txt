@@ -1,0 +1,167 @@
+|init|battle
+|title|penta1 vs. zyxwvu12
+|j|☆penta1
+|j|☆zyxwvu12
+|player|p1|penta1|101|1385
+|player|p2|zyxwvu12|170|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Salamence, L50, M|item
+|poke|p1|Mamoswine, L50, F|item
+|poke|p1|Aegislash, L50, M|item
+|poke|p1|Porygon2, L50|item
+|poke|p1|Mimikyu, L50, F|item
+|poke|p1|Thundurus-Therian, L50, M|item
+|poke|p2|Sharpedo, L50, M|item
+|poke|p2|Charizard, L50, F|item
+|poke|p2|Mimikyu, L50, F|item
+|poke|p2|Glalie, L50, F|item
+|poke|p2|Pyukumuku, L50, M|item
+|poke|p2|Serperior, L50, M|item
+|teampreview|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zyxwvu12)
+
+|inactive|penta1 has 120 seconds left.
+
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, L50, M|48/48
+|switch|p2a: Sharpedo|Sharpedo, L50, M|48/48
+|turn|1
+
+|
+|switch|p2a: Pyukumuku|Pyukumuku, L50, M|48/48
+|-zpower|p1a: Thundurus
+|move|p1a: Thundurus|Gigavolt Havoc|p2a: Pyukumuku|[zeffect]
+|-supereffective|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|-damage|p1a: Thundurus|5/48|[from] ability: Innards Out|[of] p2a: Pyukumuku
+|faint|p2a: Pyukumuku
+|
+|upkeep
+
+|
+|switch|p2a: Sharpedo|Sharpedo, L50, M|48/48
+|turn|2
+
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Thundurus|Thunderbolt|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Mimikyu|Mimikyu, L50, F|48/48
+|move|p2a: Sharpedo|Hydro Pump|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|48/48
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L50, F
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|4
+
+|inactive|penta1 has 120 seconds left.
+
+|
+|-zpower|p2a: Sharpedo
+|move|p2a: Sharpedo|Hydro Vortex|p1a: Mimikyu|[zeffect]
+|-damage|p1a: Mimikyu|1/48
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|5
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|11/48
+|move|p2a: Sharpedo|Hydro Pump|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p1a: Porygon2|Porygon2, L50|48/48
+|turn|6
+
+|inactive|penta1 has 120 seconds left.
+
+|
+|move|p2a: Sharpedo|Destiny Bond|p2a: Sharpedo
+|-singlemove|p2a: Sharpedo|Destiny Bond
+|move|p1a: Porygon2|Recover||[still]
+|-fail|p1a: Porygon2
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|7
+
+|
+|move|p1a: Porygon2|Recover||[still]
+|-fail|p1a: Porygon2
+|move|p2a: Sharpedo|Roar|p1a: Porygon2
+|drag|p1a: Thundurus|Thundurus-Therian, L50, M|5/48
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Porygon2|Porygon2, L50|48/48
+|move|p2a: Sharpedo|Hydro Pump|p1a: Porygon2
+|-damage|p1a: Porygon2|36/48
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Charizard|Charizard, L50, F|48/48
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|48/48
+|
+|upkeep
+|turn|10
+
+|
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Overheat|p1a: Porygon2
+|-damage|p1a: Porygon2|20/48
+|-unboost|p2a: Charizard|spa|2
+|move|p1a: Porygon2|Thunderbolt|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|18/48
+|-status|p2a: Charizard|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+
+|-message|zyxwvu12 forfeited.
+
+|
+|win|penta1

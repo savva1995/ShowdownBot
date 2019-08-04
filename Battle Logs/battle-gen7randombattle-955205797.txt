@@ -1,0 +1,34 @@
+|init|battle
+|title|holaholaole vs. MagikarpTheGreat
+|j|☆holaholaole
+|j|☆MagikarpTheGreat
+|player|p1|holaholaole|101|1135
+|player|p2|MagikarpTheGreat|2|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Togekiss|Togekiss, L82, M|100/100
+|switch|p2a: Noctowl|Noctowl, L89, M|100/100
+|turn|1
+
+|
+|switch|p1a: Lunatone|Lunatone, L89|100/100
+|move|p2a: Noctowl|Hurricane|p1a: Lunatone
+|-resisted|p1a: Lunatone
+|-damage|p1a: Lunatone|65/100
+|
+|-heal|p1a: Lunatone|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|-message|holaholaole forfeited.
+
+|
+|win|MagikarpTheGreat

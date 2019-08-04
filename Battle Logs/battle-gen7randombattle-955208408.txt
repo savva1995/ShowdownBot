@@ -1,0 +1,110 @@
+|init|battle
+|title|Pachiguru vs. Smeagogol
+|j|☆Pachiguru
+|j|☆Smeagogol
+|player|p1|Pachiguru|2|1322
+|player|p2|Smeagogol|72|1351
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vivillon|Vivillon, L86, M|100/100
+|switch|p2a: Samurott|Samurott, L87, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Smeagogol)
+|
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|76/100
+|move|p2a: Samurott|Liquidation|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|
+|-heal|p1a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Deoxys|Deoxys-Defense, L78|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Samurott|Liquidation|p1a: Deoxys
+|-damage|p1a: Deoxys|69/100
+|
+|-heal|p1a: Deoxys|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Samurott
+|-sidestart|p2: Smeagogol|move: Stealth Rock
+|move|p2a: Samurott|Megahorn|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-crit|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, F|100/100
+|turn|4
+
+|
+|move|p2a: Samurott|Liquidation|p1a: Slurpuff
+|-damage|p1a: Slurpuff|66/100
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|16/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|40/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Slurpuff
+|-damage|p1a: Slurpuff|23/100
+|move|p1a: Slurpuff|Play Rough|p2a: Samurott|[miss]
+|-miss|p1a: Slurpuff|p2a: Samurott
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Slurpuff
+|-damage|p1a: Slurpuff|6/100
+|move|p1a: Slurpuff|Drain Punch|p2a: Samurott
+|-damage|p2a: Samurott|34/100
+|-heal|p1a: Slurpuff|42/100|[from] drain|[of] p2a: Samurott
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Slurpuff
+|-damage|p1a: Slurpuff|26/100
+|move|p1a: Slurpuff|Drain Punch|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-heal|p1a: Slurpuff|45/100|[from] drain|[of] p2a: Samurott
+|faint|p2a: Samurott
+|
+|upkeep
+
+|
+|switch|p2a: Naganadel|Naganadel, L78|100/100
+|-damage|p2a: Naganadel|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Slurpuff|Return|p2a: Naganadel
+|-damage|p2a: Naganadel|0 fnt
+|faint|p2a: Naganadel
+|
+|upkeep
+
+|-message|Smeagogol forfeited.
+
+|
+|win|Pachiguru

@@ -1,0 +1,138 @@
+|init|battle
+|title|chirch44 vs. Thorny101
+|j|☆chirch44
+|j|☆Thorny101
+|player|p1|chirch44|275|1225
+|player|p2|Thorny101|170|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Unfezant|Unfezant, L80, M|100/100
+|switch|p1b: Krookodile|Krookodile, L77, F|100/100
+|switch|p2a: Xurkitree|Xurkitree, L72|100/100
+|switch|p2b: Gastrodon|Gastrodon, L82, M|100/100
+|-ability|p1b: Krookodile|Intimidate|boost
+|-unboost|p2a: Xurkitree|atk|1
+|-unboost|p2b: Gastrodon|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thorny101)
+|inactive|chirch44 has 120 seconds left.
+|
+|move|p1a: Unfezant|Tailwind|p1a: Unfezant
+|-sidestart|p1: chirch44|move: Tailwind
+|move|p1b: Krookodile|Knock Off|p2b: Gastrodon
+|-damage|p2b: Gastrodon|51/100
+|-enditem|p2b: Gastrodon|Sitrus Berry|[from] move: Knock Off|[of] p1b: Krookodile
+|-damage|p1b: Krookodile|91/100|[from] item: Life Orb
+|move|p2a: Xurkitree|Tail Glow|p2a: Xurkitree
+|-boost|p2a: Xurkitree|spa|3
+|move|p2b: Gastrodon|Earth Power|p1b: Krookodile
+|-damage|p1b: Krookodile|48/100
+|
+|upkeep
+|turn|2
+
+|inactive|Thorny101 has 120 seconds left.
+
+|
+|move|p1a: Unfezant|Return|p2b: Gastrodon
+|-damage|p2b: Gastrodon|2/100
+|move|p1b: Krookodile|Earthquake|p2a: Xurkitree|[spread] p2a,p2b
+|-immune|p1a: Unfezant
+|-supereffective|p2a: Xurkitree
+|-enditem|p2a: Xurkitree|Focus Sash
+|-damage|p2a: Xurkitree|1/100
+|-damage|p2b: Gastrodon|0 fnt
+|-damage|p1b: Krookodile|39/100|[from] item: Life Orb
+|faint|p2b: Gastrodon
+|move|p2a: Xurkitree|Thunderbolt|p1a: Unfezant
+|-supereffective|p1a: Unfezant
+|-damage|p1a: Unfezant|0 fnt
+|faint|p1a: Unfezant
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Vikavolt|Vikavolt, L79, F|100/100
+|switch|p2b: Clefable|Clefable, L81, F|100/100
+|turn|3
+
+|
+|move|p1b: Krookodile|Earthquake|p2a: Xurkitree|[spread] p2a,p2b
+|-immune|p1a: Vikavolt|[from] ability: Levitate
+|-supereffective|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|-damage|p2b: Clefable|61/100
+|-damage|p1b: Krookodile|29/100|[from] item: Life Orb
+|faint|p2a: Xurkitree
+|move|p1a: Vikavolt|Thunderbolt|p2b: Clefable
+|-damage|p2b: Clefable|9/100
+|-damage|p1a: Vikavolt|91/100|[from] item: Life Orb
+|move|p2b: Clefable|Fire Blast|p1a: Vikavolt|[miss]
+|-miss|p2b: Clefable|p1a: Vikavolt
+|
+|upkeep
+
+|
+|switch|p2a: Lycanroc|Lycanroc-Dusk, L80, F|100/100
+|turn|4
+
+|
+|move|p1b: Krookodile|Protect|p1b: Krookodile
+|-singleturn|p1b: Krookodile|Protect
+|move|p1a: Vikavolt|String Shot|p2a: Lycanroc|[spread] p2a,p2b
+|-unboost|p2a: Lycanroc|spe|2
+|-unboost|p2b: Clefable|spe|2
+|move|p2a: Lycanroc|Drill Run|p1b: Krookodile
+|-activate|p1b: Krookodile|move: Protect
+|move|p2b: Clefable|Fire Blast|p1a: Vikavolt
+|-supereffective|p1a: Vikavolt
+|-damage|p1a: Vikavolt|6/100
+|
+|-sideend|p1: chirch44|move: Tailwind
+|upkeep
+|turn|5
+
+|inactive|Thorny101 has 120 seconds left.
+
+|
+|move|p1b: Krookodile|Earthquake|p2b: Clefable|[spread] p2a,p2b
+|-immune|p1a: Vikavolt|[from] ability: Levitate
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|-damage|p2b: Clefable|0 fnt
+|-damage|p1b: Krookodile|19/100|[from] item: Life Orb
+|faint|p2a: Lycanroc
+|faint|p2b: Clefable
+|move|p1a: Vikavolt|Thunderbolt|p2: Lycanroc|[notarget]
+|-fail|p1a: Vikavolt
+|
+|upkeep
+
+|l|☆Thorny101
+
+|inactive|Thorny101 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Thorny101 has 30 seconds to reconnect!
+
+|inactive|Thorny101 has 20 seconds to reconnect!
+
+|inactive|Thorny101 has 15 seconds to reconnect!
+
+|inactive|Thorny101 has 10 seconds to reconnect!
+
+|inactive|Thorny101 has 5 seconds to reconnect!
+
+|-message|Thorny101 lost due to inactivity.
+|
+|win|chirch44

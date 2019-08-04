@@ -1,0 +1,276 @@
+|init|battle
+|title|Chrisly vs. Xandyos
+|j|☆Chrisly
+|j|☆Xandyos
+|player|p1|Chrisly|102|1174
+|player|p2|Xandyos|293|1184
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Relicanth|Relicanth, L89, F|100/100
+|switch|p2a: Gengar|Gengar, L78, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chrisly)
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L78, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Relicanth|Earthquake|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|upkeep
+|turn|2
+
+|inactive|Xandyos has 120 seconds left.
+
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L89, M|100/100
+|move|p1a: Relicanth|Earthquake|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|59/100
+|
+|upkeep
+|turn|3
+
+|inactive|Xandyos has 120 seconds left.
+
+|
+|switch|p1a: Drapion|Drapion, L84, F|100/100
+|move|p2a: Mr. Mime|Focus Blast|p1a: Drapion
+|-damage|p1a: Drapion|42/100
+|-damage|p2a: Mr. Mime|50/100|[from] item: Life Orb
+|
+|-heal|p1a: Drapion|48/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|inactive|Xandyos has 120 seconds left.
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, F|100/100
+|move|p2a: Mr. Mime|Focus Blast|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|80/100
+|-damage|p2a: Mr. Mime|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+
+|inactive|Xandyos has 120 seconds left.
+
+|
+|move|p2a: Mr. Mime|Psyshock|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|60/100
+|-damage|p2a: Mr. Mime|30/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|upkeep
+
+|
+|switch|p2a: Snorlax|Snorlax, L84, F|100/100
+|turn|7
+
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|48/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|54/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+
+|
+|switch|p2a: Delphox|Delphox, L86, F|100/100
+|turn|9
+
+|
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100
+|move|p2a: Delphox|Shadow Ball|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|45/100
+|-damage|p2a: Delphox|91/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Drapion|Drapion, L84, F|48/100
+|move|p2a: Delphox|Shadow Ball|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|28/100
+|-damage|p2a: Delphox|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Drapion|34/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Naganadel|Naganadel, L78|100/100
+|move|p1a: Drapion|Knock Off|p2a: Naganadel
+|-damage|p2a: Naganadel|55/100
+|-enditem|p2a: Naganadel|Life Orb|[from] move: Knock Off|[of] p1a: Drapion
+|
+|-heal|p1a: Drapion|40/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|
+|move|p2a: Naganadel|U-turn|p1a: Drapion
+|-damage|p1a: Drapion|29/100
+
+|
+|switch|p2a: Gengar|Gengar-Mega, L78, F|100/100|[from]move: U-turn
+|move|p1a: Drapion|Aqua Tail|p2a: Gengar
+|-damage|p2a: Gengar|71/100
+|
+|-heal|p1a: Drapion|35/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|inactive|Chrisly has 120 seconds left.
+
+|inactive|Xandyos has 90 seconds left.
+
+|inactive|Chrisly has 90 seconds left.
+
+|
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|move|p1a: Drapion|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-activate|p2a: Gengar|move: Destiny Bond
+|faint|p1a: Drapion
+|
+|upkeep
+
+|inactive|Xandyos has 90 seconds left.
+
+|inactive|Chrisly has 60 seconds left.
+
+|
+|switch|p2a: Lurantis|Lurantis, L88, M|100/100
+|switch|p1a: Latias|Latias, L81, F|100/100
+|turn|14
+
+|inactive|Xandyos has 90 seconds left.
+
+|inactive|Chrisly has 60 seconds left.
+
+|
+|detailschange|p1a: Latias|Latias-Mega, L81, F
+|-mega|p1a: Latias|Latias|Latiasite
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Lurantis|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|82/100
+|-damage|p2a: Lurantis|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+
+|inactive|Xandyos has 90 seconds left.
+
+|inactive|Chrisly has 60 seconds left.
+
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Lurantis|Superpower|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|60/100
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|-damage|p2a: Lurantis|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+
+|inactive|Xandyos has 90 seconds left.
+
+|
+|move|p1a: Latias|Hidden Power|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|7/100
+|move|p2a: Lurantis|Leaf Storm|p1a: Latias|[miss]
+|-miss|p2a: Lurantis|p1a: Latias
+|
+|upkeep
+|turn|17
+
+|inactive|Xandyos has 90 seconds left.
+
+|
+|move|p1a: Latias|Hidden Power|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|faint|p2a: Lurantis
+|
+|upkeep
+
+|
+|switch|p2a: Naganadel|Naganadel, L78|55/100
+|turn|18
+
+|inactive|Chrisly has 90 seconds left.
+
+|
+|move|p2a: Naganadel|Sludge Wave|p1a: Latias
+|-damage|p1a: Latias|46/100
+|move|p1a: Latias|Psyshock|p2a: Naganadel
+|-supereffective|p2a: Naganadel
+|-damage|p2a: Naganadel|0 fnt
+|faint|p2a: Naganadel
+|
+|upkeep
+
+|
+|switch|p2a: Delphox|Delphox, L86, F|81/100
+|turn|19
+
+|
+|move|p2a: Delphox|Shadow Ball|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|21/100
+|-damage|p2a: Delphox|72/100|[from] item: Life Orb
+|move|p1a: Latias|Dragon Pulse|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|win|Chrisly

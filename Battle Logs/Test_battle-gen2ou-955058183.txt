@@ -1,0 +1,432 @@
+|init|battle
+|title|mharp vs. kennycat
+|j|☆mharp
+|j|☆kennycat
+|player|p1|mharp|154|1357
+|player|p2|kennycat|162|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Typhlosion|Typhlosion, M|100/100
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|1
+
+|
+|switch|p1a: Jumpluff|Jumpluff, M|100/100
+|move|p2a: Snorlax|Earthquake|p1a: Jumpluff
+|-immune|p1a: Jumpluff
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mharp)
+
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Jumpluff|Encore|p2a: Charizard
+|-fail|p2a: Charizard
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Jumpluff|Sleep Powder|p2a: Charizard|[miss]
+|-miss|p1a: Jumpluff
+|move|p2a: Charizard|Flamethrower|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|30/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Jumpluff|Sleep Powder|p2a: Charizard|[miss]
+|-miss|p1a: Jumpluff
+|move|p2a: Charizard|Flamethrower|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Espeon|Substitute|p1a: Espeon
+|-start|p1a: Espeon|Substitute
+|-damage|p1a: Espeon|76/100
+|move|p2a: Charizard|Flamethrower|p1a: Espeon
+|-end|p1a: Espeon|Substitute
+|
+|-heal|p1a: Espeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Espeon|Growth|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|move|p2a: Charizard|Flamethrower|p1a: Espeon
+|-damage|p1a: Espeon|48/100
+|
+|-heal|p1a: Espeon|54/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Espeon|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|46/100
+|
+|-heal|p1a: Espeon|60/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Espeon|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|4/100
+|-unboost|p2a: Blastoise|spd|1
+|move|p2a: Blastoise|Surf|p1a: Espeon
+|-damage|p1a: Espeon|28/100
+|
+|-heal|p1a: Espeon|34/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|10/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Espeon|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+
+|
+|switch|p2a: Pikachu|Pikachu, M|100/100
+|
+|-heal|p1a: Espeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Pikachu|Quick Attack|p1a: Espeon
+|-damage|p1a: Espeon|31/100
+|move|p1a: Espeon|Baton Pass|p1a: Espeon
+
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100|[from]move: Baton Pass
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: Quagsire|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|69/100
+|
+|-heal|p2a: Venusaur|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Typhlosion|Typhlosion, M|100/100
+|move|p2a: Venusaur|Giga Drain|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|89/100
+|-heal|p2a: Venusaur|81/100|[from] drain|[of] p1a: Typhlosion
+|
+|-heal|p1a: Typhlosion|95/100|[from] item: Leftovers
+|-heal|p2a: Venusaur|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|move|p1a: Typhlosion|Fire Blast|p2a: Espeon
+|-damage|p2a: Espeon|51/100
+|
+|-heal|p2a: Espeon|57/100|[from] item: Leftovers
+|-heal|p1a: Typhlosion|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Espeon|Psychic|p1a: Typhlosion
+|-damage|p1a: Typhlosion|60/100
+|move|p1a: Typhlosion|Fire Blast|p2a: Espeon
+|-damage|p2a: Espeon|11/100
+|
+|-heal|p2a: Espeon|17/100|[from] item: Leftovers
+|-heal|p1a: Typhlosion|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100|[from]move: Baton Pass
+|move|p1a: Typhlosion|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|75/100
+|
+|-heal|p1a: Typhlosion|72/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Typhlosion|Dynamic Punch|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|44/100
+|-start|p2a: Snorlax|confusion
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|34/100|[from] confusion
+|
+|-heal|p1a: Typhlosion|78/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|40/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Typhlosion|Dynamic Punch|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|
+|-heal|p1a: Typhlosion|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Typhlosion|Thunder Punch|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|58/100
+|move|p2a: Charizard|Flamethrower|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|65/100
+|
+|-heal|p1a: Typhlosion|72/100|[from] item: Leftovers
+|-heal|p2a: Charizard|65/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Charizard|Earthquake|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|24/100
+|move|p1a: Typhlosion|Thunder Punch|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|28/100
+|
+|-heal|p1a: Typhlosion|30/100|[from] item: Leftovers
+|-heal|p2a: Charizard|34/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Typhlosion|Thunder Punch|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+
+|
+|switch|p2a: Pikachu|Pikachu, M|100/100
+|
+|-heal|p1a: Typhlosion|36/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Pikachu|Quick Attack|p1a: Typhlosion
+|-damage|p1a: Typhlosion|28/100
+|move|p1a: Typhlosion|Fire Blast|p2a: Pikachu
+|-damage|p2a: Pikachu|8/100
+|
+|-heal|p1a: Typhlosion|34/100|[from] item: Leftovers
+|-heal|p2a: Pikachu|14/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Typhlosion|Fire Blast|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+
+|
+|switch|p2a: Espeon|Espeon, M|17/100
+|
+|-heal|p2a: Espeon|23/100|[from] item: Leftovers
+|-heal|p1a: Typhlosion|40/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Espeon|Psychic|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+
+|
+|switch|p1a: Espeon|Espeon, F|31/100
+|
+|-heal|p2a: Espeon|29/100|[from] item: Leftovers
+|-heal|p1a: Espeon|37/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Espeon|Growth|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|move|p2a: Espeon|Psychic|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|18/100
+|
+|-heal|p2a: Espeon|35/100|[from] item: Leftovers
+|-heal|p1a: Espeon|24/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Espeon|Protect|p2a: Espeon
+|-singleturn|p2a: Espeon|Protect
+|move|p1a: Espeon|Baton Pass|p1a: Espeon
+
+|j| Gen7OUOU
+
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100|[from]move: Baton Pass
+|
+|-heal|p2a: Espeon|41/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Espeon|Psychic|p1a: Quagsire
+|-damage|p1a: Quagsire|60/100
+|move|p1a: Quagsire|Ice Beam|p2a: Espeon
+|-damage|p2a: Espeon|15/100
+|
+|-heal|p2a: Espeon|21/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|66/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Venusaur|Venusaur, M|87/100
+|move|p1a: Quagsire|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|43/100
+|
+|-heal|p2a: Venusaur|49/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Espeon|Espeon, F|24/100
+|move|p2a: Venusaur|Giga Drain|p1a: Espeon
+|-damage|p1a: Espeon|3/100
+|-heal|p2a: Venusaur|59/100|[from] drain|[of] p1a: Espeon
+|
+|-heal|p1a: Espeon|9/100|[from] item: Leftovers
+|-heal|p2a: Venusaur|65/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Espeon|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+
+|
+|switch|p2a: Espeon|Espeon, M|21/100
+|
+|-heal|p1a: Espeon|15/100|[from] item: Leftovers
+|-heal|p2a: Espeon|27/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p2a: Espeon|Psychic|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+
+|
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|
+|-heal|p2a: Espeon|33/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p2a: Espeon|Psychic|p1a: Misdreavus
+|-crit|p1a: Misdreavus
+|-damage|p1a: Misdreavus|9/100
+|move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+|-start|p1a: Misdreavus|perish3|[silent]
+|-start|p2a: Espeon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Espeon|39/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|15/100|[from] item: Leftovers
+|-start|p2a: Espeon|perish3
+|-start|p1a: Misdreavus|perish3
+|upkeep
+|turn|32
+
+|l| Gen7OUOU
+
+|
+|move|p1a: Misdreavus|Protect|p1a: Misdreavus
+|-singleturn|p1a: Misdreavus|Protect
+|move|p2a: Espeon|Psychic|p1a: Misdreavus
+|-activate|p1a: Misdreavus|Protect
+|
+|-heal|p2a: Espeon|45/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|21/100|[from] item: Leftovers
+|-start|p2a: Espeon|perish2
+|-start|p1a: Misdreavus|perish2
+|upkeep
+|turn|33
+
+|
+|move|p1a: Misdreavus|Protect|p1a: Misdreavus
+|-singleturn|p1a: Misdreavus|Protect
+|move|p2a: Espeon|Psychic|p1a: Misdreavus
+|-activate|p1a: Misdreavus|Protect
+|
+|-heal|p2a: Espeon|51/100|[from] item: Leftovers
+|-heal|p1a: Misdreavus|27/100|[from] item: Leftovers
+|-start|p2a: Espeon|perish1
+|-start|p1a: Misdreavus|perish1
+|upkeep
+|turn|34
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Espeon|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|76/100
+|
+|-heal|p2a: Espeon|57/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|82/100|[from] item: Leftovers
+|-start|p2a: Espeon|perish0
+|upkeep
+|faint|p2a: Espeon
+|
+|win|mharp

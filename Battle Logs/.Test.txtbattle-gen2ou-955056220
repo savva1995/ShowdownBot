@@ -1,0 +1,49 @@
+|init|battle
+|title|savva1995 vs. YOUrShAdOw_12
+|j|☆savva1995
+|j|☆YOUrShAdOw_12
+|player|p1|savva1995|265|
+|player|p2|YOUrShAdOw_12|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Zapdos|Hidden Power|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|89/100
+|
+|-heal|p1a: Starmie|95/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|j| mharp
+
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|move|p1a: Starmie|Surf|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|13/100
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|-message|YOUrShAdOw_12 forfeited.
+
+|
+|win|savva1995

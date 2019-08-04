@@ -1,0 +1,55 @@
+|init|battle
+|title|zsdzsd vs. diggy69
+|j|☆zsdzsd
+|j|☆diggy69
+|player|p1|zsdzsd|262|1191
+|player|p2|diggy69|226|1175
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Regice|Regice, L89|100/100
+|switch|p2a: Abomasnow|Abomasnow, L83, M|100/100
+|turn|1
+
+|
+|move|p2a: Abomasnow|Trick|p1a: Regice
+|-activate|p2a: Abomasnow|move: Trick|[of] p1a: Regice
+|-item|p1a: Regice|Choice Scarf|[from] move: Trick
+|-item|p2a: Abomasnow|Leftovers|[from] move: Trick
+|move|p1a: Regice|Thunder Wave|p2a: Abomasnow
+|-status|p2a: Abomasnow|par
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Passimian|Passimian, L86, M|100/100
+|move|p2a: Abomasnow|Focus Blast|p1a: Passimian|[miss]
+|-miss|p2a: Abomasnow|p1a: Passimian
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Slowking|Slowking, L86, M|100/100
+|move|p1a: Passimian|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|10/100
+|-enditem|p2a: Slowking|Leftovers|[from] move: Knock Off|[of] p1a: Passimian
+|
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zsdzsd)
+
+|-message|diggy69 forfeited.
+
+|
+|win|zsdzsd

@@ -1,0 +1,60 @@
+|init|battle
+|title|Leopauld vs. Tyyyryyhft
+|j|☆Leopauld
+|j|☆Tyyyryyhft
+|player|p1|Leopauld|2|1096
+|player|p2|Tyyyryyhft|266|1047
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Floatzel|Floatzel, L89, F|100/100
+|switch|p2a: Uxie|Uxie, L84|100/100
+|turn|1
+|
+|switch|p1a: Liepard|Liepard, L88, M|100/100
+|move|p2a: Uxie|U-turn|p1a: Liepard
+|-supereffective|p1a: Liepard
+|-damage|p1a: Liepard|53/100
+
+|
+|switch|p2a: Aggron|Aggron, L82, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Liepard|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Golisopod|Golisopod, L84, F|100/100
+|detailschange|p2a: Aggron|Aggron-Mega, L82, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p2a: Aggron|Toxic|p1a: Golisopod
+|-status|p1a: Golisopod|tox
+|
+|-damage|p1a: Golisopod|94/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Golisopod|First Impression|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|89/100
+|move|p2a: Aggron|Rock Slide|p1a: Golisopod
+|-supereffective|p1a: Golisopod
+|-damage|p1a: Golisopod|58/100 tox
+|
+|-heal|p1a: Golisopod|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Golisopod|52/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|-message|Leopauld forfeited.
+
+|
+|win|Tyyyryyhft

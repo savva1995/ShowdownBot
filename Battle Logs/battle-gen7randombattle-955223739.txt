@@ -1,0 +1,256 @@
+|init|battle
+|title|DTMSentinal vs. danielfang
+|j|☆DTMSentinal
+|j|☆danielfang
+|player|p1|DTMSentinal|149|1998
+|player|p2|danielfang|265|2080
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kingdra|Kingdra, L85, M|100/100
+|switch|p2a: Glalie|Glalie, L86, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DTMSentinal)
+
+|
+|detailschange|p2a: Glalie|Glalie-Mega, L86, F
+|-mega|p2a: Glalie|Glalie|Glalitite
+|move|p2a: Glalie|Freeze-Dry|p1a: Kingdra
+|-supereffective|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|upkeep
+
+|
+|switch|p1a: Glaceon|Glaceon, L89, M|100/100
+|turn|2
+
+|inactive|danielfang has 120 seconds left.
+
+|
+|switch|p2a: Mew|Mew, L80|100/100
+|move|p1a: Glaceon|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Glaceon|tox
+|
+|-damage|p2a: Mew|94/100 tox|[from] psn
+|-damage|p1a: Glaceon|94/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|inactive|danielfang has 120 seconds left.
+
+|inactive|DTMSentinal has 120 seconds left.
+
+|
+|move|p2a: Mew|Stealth Rock|p1a: Glaceon
+|-sidestart|p1: DTMSentinal|move: Stealth Rock
+|move|p1a: Glaceon|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|44/100 tox
+|
+|-heal|p2a: Mew|50/100 tox|[from] item: Leftovers
+|-heal|p1a: Glaceon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|38/100 tox|[from] psn
+|-damage|p1a: Glaceon|88/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|inactive|danielfang has 120 seconds left.
+
+|inactive|danielfang has 90 seconds left.
+
+|
+|switch|p2a: Entei|Entei, L83|100/100
+|-ability|p2a: Entei|Pressure
+|move|p1a: Glaceon|Shadow Ball|p2a: Entei
+|-damage|p2a: Entei|74/100
+|
+|-heal|p1a: Glaceon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Glaceon|76/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|inactive|DTMSentinal has 120 seconds left.
+
+|
+|move|p2a: Entei|Sacred Fire|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|0 fnt
+|faint|p1a: Glaceon
+|
+|upkeep
+
+|
+|switch|p1a: Aromatisse|Aromatisse, L87, F|100/100
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Entei|Sacred Fire|p1a: Aromatisse
+|-damage|p1a: Aromatisse|26/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|32/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Dragonite|Dragonite, L81, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|move|p2a: Entei|Sacred Fire|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|47/100
+|
+|-heal|p1a: Dragonite|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|8
+
+|
+|move|p2a: Entei|Sacred Fire|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|85/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Moltres|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-curestatus|p1a: Dragonite|brn|[msg]
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Moltres
+|-damage|p2a: Moltres|39/100
+|-status|p1a: Dragonite|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|move|p2a: Moltres|Will-O-Wisp|p1a: Dragonite
+|-fail|p1a: Dragonite|brn
+|
+|-damage|p1a: Dragonite|79/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-damage|p1a: Dragonite|73/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow, L88, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|13
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Abomasnow|[from]lockedmove
+|-damage|p2a: Abomasnow|30/100
+|-start|p1a: Dragonite|confusion|[fatigue]
+|move|p2a: Abomasnow|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Abomasnow|36/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Swellow|Swellow, L84, M|100/100
+|-damage|p1a: Swellow|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Swellow|Brave Bird|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-damage|p1a: Swellow|61/100|[from] Recoil
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Swellow|55/100|[from] Hail
+|-status|p1a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+
+|
+|switch|p2a: Glalie|Glalie-Mega, L86, F|100/100
+|turn|15
+
+|
+|move|p1a: Swellow|Facade|p2a: Glalie
+|-damage|p2a: Glalie|21/100
+|move|p2a: Glalie|Return|p1a: Swellow
+|-supereffective|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|faint|p1a: Swellow
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Zeraora|Zeraora, L82|100/100
+|-damage|p1a: Zeraora|88/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|79/100|[from] item: Life Orb
+|faint|p2a: Glalie
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Zeraora|72/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Entei|Entei, L83|74/100
+|-ability|p2a: Entei|Pressure
+|turn|17
+
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Entei
+|-damage|p2a: Entei|25/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|63/100|[from] item: Life Orb
+|move|p2a: Entei|Sacred Fire|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|-weather|none
+|upkeep
+
+|-message|DTMSentinal forfeited.
+
+|
+|win|danielfang

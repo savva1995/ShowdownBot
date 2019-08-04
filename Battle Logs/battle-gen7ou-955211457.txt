@@ -1,0 +1,218 @@
+|init|battle
+|title|LEmecLOUCH vs. pripah
+|j|☆LEmecLOUCH
+|j|☆pripah
+|player|p1|LEmecLOUCH|269|1354
+|player|p2|pripah|281|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Toxapex, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Tangrowth, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Mawile, M|item
+|poke|p2|Toxapex, M|item
+|poke|p2|Zapdos|item
+|teampreview
+
+|
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|1
+
+|
+|-zpower|p1a: Tornadus
+|move|p1a: Tornadus|Supersonic Skystrike|p2a: Landorus|[zeffect]
+|-damage|p2a: Landorus|1/100
+|move|p2a: Landorus|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: LEmecLOUCH|move: Stealth Rock
+|
+|-heal|p2a: Landorus|7/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tornadus|Heat Wave|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|
+|-heal|p2a: Toxapex|98/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|
+|move|p1a: Tornadus|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: LEmecLOUCH|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Toxapex|Toxic Spikes|p1a: Tornadus
+|-sidestart|p1: LEmecLOUCH|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-sideend|p1: LEmecLOUCH|move: Toxic Spikes|[of] p1a: Toxapex
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|7/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tapu Koko|atk|1
+|move|p1a: Tapu Koko|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|3/100
+
+|
+|switch|p1a: Charizard|Charizard, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Landorus|9/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|detailschange|p1a: Charizard|Charizard-Mega-X, M
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Flare Blitz|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Charizard|97/100|[from] Recoil
+|faint|p2a: Landorus
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pripah)
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|8
+
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Tapu Lele|Psychic|p1a: Tangrowth
+|-damage|p1a: Tangrowth|55/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Tapu Lele|Psychic|p1a: Tangrowth
+|-damage|p1a: Tangrowth|13/100
+|move|p1a: Tangrowth|Knock Off|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|63/100
+|-enditem|p2a: Tapu Lele|Choice Scarf|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Tapu Lele|Psychic|p1a: Tornadus
+|-damage|p1a: Tornadus|19/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Tornadus|Hurricane|p2a: Tapu Lele|[miss]
+|-miss|p1a: Tornadus|p2a: Tapu Lele
+|move|p2a: Tapu Lele|Psychic|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|12
+
+|
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|5/100
+|move|p2a: Tapu Lele|Psychic|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|23/100
+|-unboost|p1a: Tapu Koko|spd|1
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|14
+
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Greninja|U-turn|p1a: Toxapex
+|-start|p2a: Greninja|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|92/100
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|
+|-heal|p1a: Toxapex|98/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|
+|move|p2a: Zapdos|Hidden Power|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|91/100
+|move|p1a: Toxapex|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-heal|p1a: Toxapex|97/100|[from] item: Black Sludge
+|-damage|p2a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|-message|pripah forfeited.
+
+|
+|win|LEmecLOUCH

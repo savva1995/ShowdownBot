@@ -1,0 +1,58 @@
+|init|battle
+|title|Aaaaakkk vs. BidoofIsDaRealGod
+|j|☆Aaaaakkk
+|j|☆BidoofIsDaRealGod
+|player|p1|Aaaaakkk|279|1220
+|player|p2|BidoofIsDaRealGod|153|1208
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sigilyph, F|item
+|poke|p1|Charizard, F|item
+|poke|p1|Magearna|item
+|poke|p2|Bastiodon, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Sawk, M|item
+|teampreview|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BidoofIsDaRealGod)
+|
+|start
+|switch|p1a: Charizard|Charizard, F|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|1
+|c|☆BidoofIsDaRealGod|Pewdiepie
+|
+|detailschange|p1a: Charizard|Charizard-Mega-X, F
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Rock Tomb|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|88/100
+|-unboost|p2a: Magnezone|spe|1
+|-zpower|p2a: Magnezone
+|move|p2a: Magnezone|Gigavolt Havoc|p1a: Charizard|[zeffect]
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|34/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Charizard|Flare Blitz|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-damage|p1a: Charizard|7/100|[from] Recoil
+|faint|p2a: Magnezone
+|
+|win|Aaaaakkk

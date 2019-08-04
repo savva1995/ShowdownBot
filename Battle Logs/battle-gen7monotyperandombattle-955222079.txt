@@ -1,0 +1,38 @@
+|init|battle
+|title|KillerHpg vs. sommoooo
+|j|☆KillerHpg
+|j|☆sommoooo
+|player|p1|KillerHpg|92|1056
+|player|p2|sommoooo|13|1181
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko, L80|100/100
+|switch|p2a: Shiinotic|Shiinotic, L89, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|1
+|
+|move|p1a: Tapu Koko|Brave Bird|p2a: Shiinotic
+|-supereffective|p2a: Shiinotic
+|-damage|p2a: Shiinotic|16/100
+|-damage|p1a: Tapu Koko|71/100|[from] Recoil
+|move|p2a: Shiinotic|Spore|p1a: Tapu Koko
+|-activate|p1a: Tapu Koko|move: Electric Terrain
+|
+|upkeep
+|turn|2
+|-message|sommoooo forfeited.
+|
+|win|KillerHpg
+|l|☆sommoooo
+|l|☆KillerHpg
+|raw|KillerHpg's rating: 1056 &rarr; <strong>1099</strong><br />(+43 for winning)
+|raw|sommoooo's rating: 1181 &rarr; <strong>1148</strong><br />(-33 for losing)

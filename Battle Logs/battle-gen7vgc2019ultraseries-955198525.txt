@@ -1,0 +1,33 @@
+|init|battle
+|title|Madstah vs. Iamprettyconfused
+|j|☆Madstah
+|j|☆Iamprettyconfused
+|player|p1|Madstah|3|1037
+|player|p2|Iamprettyconfused|28|1000
+|teamsize|p1|4
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Persian, L50, F|item
+|poke|p1|Mr. Mime, L50, M|item
+|poke|p1|Xurkitree, L50|item
+|poke|p1|Seaking, L50, F|
+|poke|p2|Tapu Koko, L50|item
+|poke|p2|Tsareena, L50, F|item
+|poke|p2|Spinda, L50, M|item
+|poke|p2|Smeargle, L50, M|item
+|poke|p2|Giratina, L50|item
+|poke|p2|Clefable, L50, F|item
+|teampreview|4
+|-message|Iamprettyconfused forfeited.
+|
+|win|Madstah
+|l|☆Iamprettyconfused
+|raw|Madstah's rating: 1037 &rarr; <strong>1068</strong><br />(+31 for winning)
+|raw|Iamprettyconfused's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆Madstah

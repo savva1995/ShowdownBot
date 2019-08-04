@@ -1,0 +1,54 @@
+|init|battle
+|title|Smeargle Esta Roto vs. PocketFan25
+|j|☆Smeargle Esta Roto
+|j|☆PocketFan25
+|player|p1|Smeargle Esta Roto|290|
+|player|p2|PocketFan25|262|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Samurott|Samurott, L87, F|100/100
+|switch|p2a: Hitmontop|Hitmontop, L86, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Smeargle Esta Roto)
+|
+|switch|p1a: Aegislash|Aegislash, L78, F|100/100
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Tsareena|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|38/100
+|-enditem|p1a: Aegislash|Leftovers|[from] move: Knock Off|[of] p2a: Tsareena
+|-damage|p2a: Tsareena|91/100|[from] item: Life Orb
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Tsareena
+|-damage|p2a: Tsareena|56/100
+|
+|upkeep
+|turn|3
+
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Tsareena|Synthesis|p2a: Tsareena
+|-heal|p2a: Tsareena|100/100
+|
+|upkeep
+|turn|4
+
+|-message|Smeargle Esta Roto forfeited.
+
+|
+|win|PocketFan25

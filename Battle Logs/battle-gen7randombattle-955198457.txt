@@ -1,0 +1,215 @@
+|init|battle
+|title|elvergalarga11 vs. lilzay17
+|j|☆elvergalarga11
+|j|☆lilzay17
+|player|p1|elvergalarga11|170|1202
+|player|p2|lilzay17|170|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Girafarig|Girafarig, L89, F|100/100
+|switch|p2a: Samurott|Samurott, L87, M|100/100
+|turn|1
+|
+|move|p1a: Girafarig|Nasty Plot|p1a: Girafarig
+|-boost|p1a: Girafarig|spa|2
+|move|p2a: Samurott|Megahorn|p1a: Girafarig
+|-supereffective|p1a: Girafarig
+|-damage|p1a: Girafarig|15/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lilzay17)
+|
+|move|p1a: Girafarig|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|move|p2a: Samurott|Liquidation|p1a: Girafarig
+|-damage|p1a: Girafarig|0 fnt
+|faint|p1a: Girafarig
+|
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, F|100/100
+|turn|3
+
+|
+|move|p2a: Samurott|Sacred Sword|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|-damage|p2a: Samurott|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Samurott
+|move|p1a: Ferrothorn|Leech Seed|p2: Samurott|[notarget]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Garchomp|Garchomp, L80, F|100/100
+|turn|4
+
+|inactive|elvergalarga11 has 120 seconds left.
+
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, L80, F
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Ferrothorn|Knock Off|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|84/100
+|
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Garchomp|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p1a: Weavile|Weavile, L81, M|100/100
+|turn|6
+
+|
+|switch|p2a: Registeel|Registeel, L84|100/100
+|move|p1a: Weavile|Ice Shard|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|93/100
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Registeel|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Houndoom|Houndoom, L83, F|100/100
+|move|p2a: Registeel|Iron Head|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|79/100
+|
+|-heal|p2a: Registeel|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Garchomp|Garchomp-Mega, L80, F|84/100
+|detailschange|p1a: Houndoom|Houndoom-Mega, L83, F
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|move|p1a: Houndoom|Fire Blast|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|60/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Mesprit|Mesprit, L86|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Mesprit
+|-immune|p1a: Mesprit|[from] ability: Levitate
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Garchomp|Outrage|p1a: Mesprit
+|-damage|p1a: Mesprit|43/100
+|move|p1a: Mesprit|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Mesprit|49/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Mightyena|Mightyena, L89, F|100/100
+|turn|11
+
+|
+|switch|p1a: Houndoom|Houndoom-Mega, L83, F|79/100
+|move|p2a: Mightyena|Play Rough|p1a: Houndoom|[miss]
+|-miss|p2a: Mightyena|p1a: Houndoom
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Mightyena
+|-damage|p2a: Mightyena|31/100
+|move|p2a: Mightyena|Play Rough|p1a: Houndoom
+|-damage|p1a: Houndoom|55/100
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-item|p2a: Stakataka|Air Balloon
+|move|p1a: Houndoom|Nasty Plot|p1a: Houndoom
+|-boost|p1a: Houndoom|spa|2
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|-enditem|p2a: Stakataka|Air Balloon
+|faint|p2a: Stakataka
+|
+|upkeep
+
+|
+|switch|p2a: Haxorus|Haxorus, L82, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|15
+
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+
+|
+|switch|p2a: Registeel|Registeel, L84|100/100
+|turn|16
+
+|c|☆lilzay17|gg
+
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|upkeep
+
+|
+|switch|p2a: Mightyena|Mightyena, L89, F|31/100
+|turn|17
+
+|
+|move|p2a: Mightyena|Sucker Punch|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|40/100
+|move|p1a: Houndoom|Dark Pulse|p2a: Mightyena
+|-resisted|p2a: Mightyena
+|-damage|p2a: Mightyena|0 fnt
+|faint|p2a: Mightyena
+|
+|win|elvergalarga11

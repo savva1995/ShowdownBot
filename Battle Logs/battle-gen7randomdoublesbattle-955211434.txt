@@ -1,0 +1,65 @@
+|init|battle
+|title|Illanpn vs. Ruspy
+|j|☆Illanpn
+|j|☆Ruspy
+|player|p1|Illanpn|169|1523
+|player|p2|Ruspy|265|1397
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, L78, M|100/100
+|switch|p1b: Lickilicky|Lickilicky, L78, M|100/100
+|switch|p2a: Carbink|Carbink, L79|100/100
+|switch|p2b: Mudsdale|Mudsdale, L79, F|100/100
+|-ability|p1b: Lickilicky|Cloud Nine
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ruspy)
+
+|
+|move|p2b: Mudsdale|Protect|p2b: Mudsdale
+|-singleturn|p2b: Mudsdale|Protect
+|move|p1a: Thundurus|Knock Off|p2b: Mudsdale
+|-activate|p2b: Mudsdale|move: Protect
+|move|p1b: Lickilicky|Earthquake|p2b: Mudsdale|[spread] p1a,p2a
+|-activate|p2b: Mudsdale|move: Protect
+|-supereffective|p2a: Carbink
+|-damage|p1a: Thundurus|73/100
+|-damage|p2a: Carbink|71/100
+|replace|p1a: Zoroark|Zoroark, L78, M
+|-end|p1a: Zoroark|Illusion
+|move|p2a: Carbink|Trick Room|p2a: Carbink
+|-fieldstart|move: Trick Room|[of] p2a: Carbink
+|
+|upkeep
+|turn|2
+
+|inactive|Illanpn has 120 seconds left.
+|inactive|Ruspy has 120 seconds left.
+
+|
+|switch|p1a: Clefable|Clefable, L81, F|100/100
+|move|p2a: Carbink|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|80/100
+|-unboost|p1a: Clefable|spa|1
+|move|p2b: Mudsdale|High Horsepower|p1b: Lickilicky
+|-damage|p1b: Lickilicky|65/100
+|move|p1b: Lickilicky|Body Slam|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|59/100
+|
+|-heal|p1b: Lickilicky|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|inactive|Illanpn has 120 seconds left.
+
+|-message|Illanpn forfeited.
+
+|
+|win|Ruspy

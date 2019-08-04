@@ -1,0 +1,117 @@
+|init|battle
+|title|LT63RB union vs. sannoh kogyo
+|j|☆LT63RB union
+|j|☆sannoh kogyo
+|player|p1|LT63RB union|134|1826
+|player|p2|sannoh kogyo|169|1824
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Serperior, F|item
+|poke|p1|Hoopa-Unbound|item
+|poke|p1|Greninja, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Tangrowth, F|item
+|poke|p2|Tapu Fini|item
+|teampreview
+|j|‽XXXSUICUNEXXX
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|1
+|
+|move|p2a: Zapdos|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|10/100
+|move|p1a: Landorus|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: sannoh kogyo|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|j| LT63RB Ash
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Tyranitar|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|10/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|turn|5
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|64/100
+|-damage|p1a: Landorus|0 fnt|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tangrowth|58/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|6
+|
+|move|p1a: Hoopa|Drain Punch|p2a: Tangrowth
+|-damage|p2a: Tangrowth|33/100
+|-damage|p1a: Hoopa|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Giga Drain|p1a: Hoopa
+|-damage|p1a: Hoopa|60/100
+|-heal|p2a: Tangrowth|43/100|[from] drain|[of] p1a: Hoopa
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|54/100|[from] Sandstorm
+|-damage|p2a: Tangrowth|37/100|[from] Sandstorm
+|upkeep
+|turn|7
+
+|c|☆LT63RB union|nice plays
+
+|-message|LT63RB union forfeited.
+
+|
+|win|sannoh kogyo

@@ -1,0 +1,315 @@
+|init|battle
+|title|Quianominorleo vs. a ninja kiwi
+|j|☆Quianominorleo
+|j|☆a ninja kiwi
+|player|p1|Quianominorleo|supernerd-gen2|2188
+|player|p2|a ninja kiwi|150|2143
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cacturne|Cacturne, L89, M|100/100
+|switch|p2a: Tornadus|Tornadus, L83, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quianominorleo)
+|
+|switch|p1a: Froslass|Froslass, L88, F|100/100
+|move|p2a: Tornadus|U-turn|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|88/100
+|
+|switch|p2a: Groudon|Groudon, L78|100/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Froslass|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Froslass|Ice Beam|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|32/100
+|move|p2a: Groudon|Stealth Rock|p1a: Froslass
+|-sidestart|p1: Quianominorleo|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Froslass|100/100|[from] item: Leftovers
+|-heal|p2a: Groudon|38/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Escavalier|Escavalier, L84, F|100/100
+|move|p1a: Froslass|Ice Beam|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Escavalier|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Donphan|Donphan, L84, F|100/100
+|-damage|p1a: Donphan|94/100|[from] Stealth Rock
+|move|p2a: Escavalier|Iron Head|p1a: Donphan
+|-damage|p1a: Donphan|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Donphan|70/100|[from] item: Leftovers
+|-heal|p2a: Escavalier|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100
+|move|p1a: Donphan|Rapid Spin|p2a: Mismagius
+|-immune|p2a: Mismagius
+|
+|-weather|none
+|-heal|p1a: Donphan|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Donphan
+|-damage|p1a: Donphan|31/100
+|move|p1a: Donphan|Knock Off|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|21/100
+|-enditem|p2a: Mismagius|Leftovers|[from] move: Knock Off|[of] p1a: Donphan
+|
+|-heal|p1a: Donphan|38/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Cacturne|Cacturne, L89, M|100/100
+|-damage|p1a: Cacturne|88/100|[from] Stealth Rock
+|move|p2a: Mismagius|Shadow Ball|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-crit|p1a: Cacturne
+|-damage|p1a: Cacturne|53/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Mismagius|Dazzling Gleam|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|
+|upkeep
+|
+|switch|p1a: Froslass|Froslass, L88, F|100/100
+|-damage|p1a: Froslass|76/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Escavalier|Escavalier, L84, F|96/100
+|move|p1a: Froslass|Shadow Ball|p2a: Escavalier
+|-damage|p2a: Escavalier|67/100
+|
+|-heal|p1a: Froslass|82/100|[from] item: Leftovers
+|-heal|p2a: Escavalier|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Escavalier|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|56/100
+|-enditem|p1a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|-heal|p2a: Escavalier|79/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Groudon|Groudon, L78|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Vaporeon|Scald|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|10/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Groudon|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|7/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|16/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Groudon|Earthquake|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|57/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Groudon|22/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Groudon|Earthquake|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|28/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L78|100/100
+|-damage|p1a: Necrozma|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Necrozma|Moongeist Beam|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Escavalier|Escavalier, L84, F|79/100
+|turn|16
+|
+|switch|p1a: Donphan|Donphan, L84, F|38/100
+|-damage|p1a: Donphan|31/100|[from] Stealth Rock
+|move|p2a: Escavalier|Knock Off|p1a: Donphan
+|-damage|p1a: Donphan|6/100
+|-enditem|p1a: Donphan|Leftovers|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|-heal|p2a: Escavalier|84/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|a ninja kiwi has 120 seconds left.
+|inactive|a ninja kiwi has 90 seconds left.
+|
+|move|p1a: Donphan|Rapid Spin|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|82/100
+|-sideend|p1: Quianominorleo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|move|p2a: Escavalier|Knock Off|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-heal|p2a: Escavalier|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L78|88/100
+|turn|18
+|inactive|a ninja kiwi has 60 seconds left.
+|
+|move|p1a: Necrozma|Heat Wave|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, L83, M|100/100
+|turn|19
+|
+|switch|p1a: Froslass|Froslass, L88, F|82/100
+|move|p2a: Tornadus|Heat Wave|p1a: Froslass|[miss]
+|-miss|p2a: Tornadus|p1a: Froslass
+|
+|-heal|p1a: Froslass|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|a ninja kiwi has 60 seconds left.
+|inactive|a ninja kiwi has 30 seconds left.
+|
+|move|p1a: Froslass|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|23/100
+|move|p2a: Tornadus|Heat Wave|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-crit|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L78|88/100
+|turn|21
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|switch|p2a: Lilligant|Lilligant, L87, F|100/100
+|turn|22
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Lilligant
+|-damage|p2a: Lilligant|41/100
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-heal|p2a: Lilligant|47/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Lilligant|Sleep Powder|p1a: Necrozma
+|-status|p1a: Necrozma|slp|[from] move: Sleep Powder
+|cant|p1a: Necrozma|slp
+|
+|-heal|p2a: Lilligant|53/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|a ninja kiwi has 60 seconds left.
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|cant|p1a: Necrozma|slp
+|
+|-heal|p2a: Lilligant|59/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Lilligant|Giga Drain|p1a: Necrozma
+|-damage|p1a: Necrozma|33/100 slp
+|-heal|p2a: Lilligant|88/100|[from] drain|[of] p1a: Necrozma
+|cant|p1a: Necrozma|slp
+|
+|-heal|p2a: Lilligant|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Lilligant|Giga Drain|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-heal|p2a: Lilligant|100/100|[from] drain|[of] p1a: Necrozma
+|faint|p1a: Necrozma
+|
+|upkeep
+
+|
+|switch|p1a: Talonflame|Talonflame, L83, F|100/100
+|turn|27
+
+|
+|-zpower|p1a: Talonflame
+|move|p1a: Talonflame|Supersonic Skystrike|p2a: Lilligant|[zeffect]
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|upkeep
+
+|-message|a ninja kiwi forfeited.
+
+|
+|win|Quianominorleo

@@ -1,0 +1,260 @@
+|init|battle
+|title|Someones vs. bUM InTrUdER
+|j|☆Someones
+|j|☆bUM InTrUdER
+|player|p1|Someones|92|1039
+|player|p2|bUM InTrUdER|2|1086
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aurorus, F|item
+|poke|p1|Haxorus, F|item
+|poke|p1|Linoone, M|item
+|poke|p1|Chandelure, M|item
+|poke|p1|Sandslash-Alola, M|item
+|poke|p1|Mienshao, M|item
+|poke|p2|Pikachu, F|item
+|poke|p2|Umbreon, F|item
+|poke|p2|Chandelure, F|item
+|poke|p2|Marowak-Alola, F|item
+|poke|p2|Dusclops, F|item
+|poke|p2|Minior-Blue|item
+|teampreview
+|
+|start
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|switch|p2a: Minior|Minior-Blue|100/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bUM InTrUdER)
+|
+|switch|p1a: Aurorus|Aurorus, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Minior|94/100|[from] Hail
+|upkeep
+|turn|2
+|
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|move|p1a: Aurorus|Encore|p2a: Minior
+|-start|p2a: Minior|Encore
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Minior|88/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|move|p1a: Aurorus|Stealth Rock|p2a: Minior
+|-sidestart|p2: bUM InTrUdER|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Minior|82/100|[from] Hail
+|upkeep
+|turn|4
+|
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|0
+|-boost|p2a: Minior|spa|0
+|-boost|p2a: Minior|spe|0
+|move|p1a: Aurorus|Freeze-Dry|p2a: Minior
+|-supereffective|p2a: Minior
+|-damage|p2a: Minior|0 fnt
+|faint|p2a: Minior
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Dusclops|Dusclops, F, shiny|100/100
+|-damage|p2a: Dusclops|88/100|[from] Stealth Rock
+|-item|p1a: Aurorus|Focus Sash|[from] ability: Frisk|[of] p2a: Dusclops|[identify]
+|turn|5
+
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Dusclops|Power-Up Punch|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Umbreon|Umbreon, F, shiny|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Chandelure|Shadow Ball|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|75/100
+|-unboost|p2a: Umbreon|spd|1
+|
+|-heal|p2a: Umbreon|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Aurorus|Aurorus, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Umbreon|75/100|[from] Hail
+|-heal|p2a: Umbreon|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Dusclops|Dusclops, F, shiny|88/100
+|-damage|p2a: Dusclops|76/100|[from] Stealth Rock
+|-item|p1a: Aurorus|Focus Sash|[from] ability: Frisk|[of] p2a: Dusclops|[identify]
+|move|p1a: Aurorus|Freeze-Dry|p2a: Dusclops
+|-damage|p2a: Dusclops|59/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dusclops|53/100|[from] Hail
+|-heal|p2a: Dusclops|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Sandslash|Sandslash-Alola, M|100/100
+|move|p2a: Dusclops|Power-Up Punch|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|72/100
+|-boost|p2a: Dusclops|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dusclops|95/100|[from] Hail
+|upkeep
+|turn|10
+
+|
+|move|p1a: Sandslash|Aurora Veil|p1a: Sandslash
+|-sidestart|p1: Someones|move: Aurora Veil
+|move|p2a: Dusclops|Power-Up Punch|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|50/100
+|-boost|p2a: Dusclops|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dusclops|89/100|[from] Hail
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Dusclops|Shadow Sneak|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|70/100
+|
+|-weather|none
+|upkeep
+|turn|12
+
+|
+|move|p2a: Dusclops|Shadow Sneak|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|40/100
+|move|p1a: Chandelure|Fire Blast|p2a: Dusclops
+|-damage|p2a: Dusclops|58/100
+|
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|move|p2a: Dusclops|Shadow Sneak|p1a: Mienshao
+|-damage|p1a: Mienshao|83/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Mienshao|Knock Off|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|10/100
+|-enditem|p2a: Dusclops|Eviolite|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|73/100|[from] item: Life Orb
+|move|p2a: Dusclops|Pain Split|p1a: Mienshao
+|-sethp|p1a: Mienshao|41/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Dusclops|40/100|[from] move: Pain Split
+|
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|move|p1a: Mienshao|Knock Off|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-enditem|p2a: Chandelure|Choice Scarf|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|31/100|[from] item: Life Orb
+|faint|p2a: Chandelure
+|
+|upkeep
+
+|
+|switch|p2a: Pikachu|Pikachu, F|100/100
+|-damage|p2a: Pikachu|88/100|[from] Stealth Rock
+|turn|16
+
+|inactive|Someones has 120 seconds left.
+
+|
+|switch|p1a: Haxorus|Haxorus, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Pikachu|Nuzzle|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|96/100
+|-status|p1a: Haxorus|par
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Pikachu|Knock Off|p1a: Haxorus
+|-damage|p1a: Haxorus|80/100 par
+|move|p1a: Haxorus|Earthquake|p2a: Pikachu
+|-supereffective|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|-sideend|p1: Someones|move: Aurora Veil
+|upkeep
+
+|-message|bUM InTrUdER forfeited.
+
+|
+|win|Someones

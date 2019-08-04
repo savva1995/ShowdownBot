@@ -1,0 +1,185 @@
+|init|battle
+|title|Pheeeeeeeel vs. Overk
+|j|☆Pheeeeeeeel
+|j|☆Overk
+|player|p1|Pheeeeeeeel|209|1091
+|player|p2|Overk|274|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Umbreon|Umbreon, L84, F|100/100
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|turn|1
+
+|
+|switch|p2a: Doublade|Doublade, L82, M|100/100
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Alomomola|Alomomola, L82, M|100/100
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Alomomola|Knock Off|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|80/100
+|-enditem|p2a: Doublade|Eviolite|[from] move: Knock Off|[of] p1a: Alomomola
+|move|p2a: Doublade|Sacred Sword|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|
+|-heal|p1a: Alomomola|73/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Alomomola|Scald|p2a: Doublade
+|-damage|p2a: Doublade|49/100
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|-heal|p1a: Alomomola|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Alomomola|Scald|p2a: Doublade
+|-damage|p2a: Doublade|21/100
+|move|p2a: Doublade|Sacred Sword|p1a: Alomomola
+|-damage|p1a: Alomomola|25/100
+|
+|-heal|p1a: Alomomola|31/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele, L80|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|7
+
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Tapu Lele
+|-activate|p1a: Tapu Lele|move: Psychic Terrain
+|move|p1a: Tapu Lele|Psyshock|p2a: Doublade
+|-resisted|p2a: Doublade
+|-crit|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|-damage|p1a: Tapu Lele|91/100|[from] item: Life Orb
+|faint|p2a: Doublade
+|
+|upkeep
+
+|
+|switch|p2a: Diggersby|Diggersby, L81, F|100/100
+|turn|8
+
+|
+|move|p1a: Tapu Lele|Focus Blast|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|-damage|p1a: Tapu Lele|81/100|[from] item: Life Orb
+|faint|p2a: Diggersby
+|
+|upkeep
+
+|
+|switch|p2a: Clefable|Clefable, L80, F|100/100
+|turn|9
+
+|
+|switch|p1a: Naganadel|Naganadel, L78|100/100
+|move|p2a: Clefable|Stealth Rock|p1a: Naganadel
+|-sidestart|p1: Pheeeeeeeel|move: Stealth Rock
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Naganadel|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|3/100
+|-status|p2a: Clefable|psn
+|-damage|p1a: Naganadel|91/100|[from] item: Life Orb
+|move|p2a: Clefable|Thunder Wave|p1a: Naganadel
+|-status|p1a: Naganadel|par
+|
+|-heal|p2a: Clefable|9/100 psn|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|59/100 psn
+|move|p1a: Naganadel|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Naganadel|81/100 par|[from] item: Life Orb
+|faint|p2a: Clefable
+|-ability|p1a: Naganadel|Beast Boost|boost
+|-boost|p1a: Naganadel|spa|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p2a: Poliwrath|Poliwrath, L89, F|100/100
+|turn|12
+
+|
+|cant|p1a: Naganadel|par
+|move|p2a: Poliwrath|Circle Throw|p1a: Naganadel|[miss]
+|-miss|p2a: Poliwrath|p1a: Naganadel
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Naganadel|Nasty Plot|p1a: Naganadel
+|-boost|p1a: Naganadel|spa|2
+|move|p2a: Poliwrath|Circle Throw|p1a: Naganadel
+|-resisted|p1a: Naganadel
+|-crit|p1a: Naganadel
+|-damage|p1a: Naganadel|52/100 par
+|drag|p1a: Mismagius|Mismagius, L86, M|100/100
+|-damage|p1a: Mismagius|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Mismagius|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Mismagius|Nasty Plot|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|2
+|move|p2a: Poliwrath|Scald|p1a: Mismagius
+|-damage|p1a: Mismagius|68/100
+|
+|-heal|p1a: Mismagius|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|-message|Overk forfeited.
+
+|
+|win|Pheeeeeeeel

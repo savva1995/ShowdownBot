@@ -1,0 +1,239 @@
+|init|battle
+|title|naitik pandit vs. Cristalette
+|j|☆naitik pandit
+|j|☆Cristalette
+|player|p1|naitik pandit|170|1097
+|player|p2|Cristalette|253|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Glaceon|Glaceon, L89, F|100/100
+|switch|p2a: Scyther|Scyther, L88, F|100/100
+|turn|1
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Glaceon|Ice Beam|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|35/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Scyther|Roost|p2a: Scyther
+|-heal|p2a: Scyther|85/100
+|-singleturn|p2a: Scyther|move: Roost
+|move|p1a: Glaceon|Ice Beam|p2a: Scyther
+|-damage|p2a: Scyther|53/100
+|-status|p2a: Scyther|frz
+|
+|upkeep
+|turn|3
+
+|
+|cant|p2a: Scyther|frz
+|move|p1a: Glaceon|Ice Beam|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|upkeep
+
+|
+|switch|p2a: Diancie|Diancie, L84|100/100
+|turn|4
+
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Diancie
+|-damage|p2a: Diancie|58/100
+|move|p2a: Diancie|Light Screen|p2a: Diancie
+|-sidestart|p2: Cristalette|move: Light Screen
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Diancie
+|-crit|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+
+|
+|switch|p2a: Blissey|Blissey, L82, F|100/100
+|turn|6
+
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|-status|p2a: Blissey|frz
+|cant|p2a: Blissey|frz
+|
+|-heal|p2a: Blissey|97/100 frz|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|c|☆Cristalette|is it a joke ?
+
+|
+|move|p1a: Glaceon|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|93/100 frz
+|cant|p2a: Blissey|frz
+|
+|-heal|p2a: Blissey|99/100 frz|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|91/100 frz
+|cant|p2a: Blissey|frz
+|
+|-heal|p2a: Blissey|98/100 frz|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|88/100 frz
+|cant|p2a: Blissey|frz
+|
+|-heal|p2a: Blissey|94/100 frz|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|86/100 frz
+|-curestatus|p2a: Blissey|frz|[msg]
+|move|p2a: Blissey|Flamethrower|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|66/100
+|
+|-heal|p1a: Glaceon|72/100|[from] item: Leftovers
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Glaceon|Protect|p1a: Glaceon
+|-singleturn|p1a: Glaceon|Protect
+|move|p2a: Blissey|Flamethrower|p1a: Glaceon
+|-activate|p1a: Glaceon|move: Protect
+|
+|-heal|p1a: Glaceon|78/100|[from] item: Leftovers
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|-sideend|p2: Cristalette|move: Light Screen
+|upkeep
+|turn|12
+
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|82/100
+|-status|p2a: Blissey|frz
+|-curestatus|p2a: Blissey|frz|[msg]
+|move|p2a: Blissey|Thunder Wave|p1a: Glaceon
+|-status|p1a: Glaceon|par
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|-heal|p1a: Glaceon|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Blissey|Flamethrower|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|50/100 par
+|cant|p1a: Glaceon|par
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|-heal|p1a: Glaceon|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Blissey|Flamethrower|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|19/100 par
+|move|p1a: Glaceon|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|-heal|p1a: Glaceon|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Xurkitree|Xurkitree, L81|100/100
+|move|p2a: Blissey|Flamethrower|p1a: Xurkitree
+|-damage|p1a: Xurkitree|78/100
+|
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Xurkitree|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Seismic Toss|p1a: Xurkitree
+|-damage|p1a: Xurkitree|47/100
+|
+|-heal|p2a: Blissey|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Xurkitree|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|56/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Xurkitree
+|-damage|p1a: Xurkitree|17/100
+|
+|-heal|p2a: Blissey|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Xurkitree|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|43/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|faint|p1a: Xurkitree
+|
+|-heal|p2a: Blissey|49/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Moltres|Moltres, L82|100/100
+|turn|19
+
+|
+|-zpower|p1a: Moltres
+|move|p1a: Moltres|Supersonic Skystrike|p2a: Blissey|[zeffect]
+|-damage|p2a: Blissey|21/100 par
+|move|p2a: Blissey|Thunder Wave|p1a: Moltres
+|-status|p1a: Moltres|par
+|
+|-heal|p2a: Blissey|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|l|☆naitik pandit
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cristalette)
+
+|-message|Cristalette forfeited.
+
+|
+|win|naitik pandit

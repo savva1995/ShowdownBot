@@ -1,0 +1,35 @@
+|init|battle
+|title|Julien_l vs. 25-よしろすずき-Desu
+|j|☆Julien_l
+|j|☆25-よしろすずき-Desu
+|player|p1|Julien_l|102|1269
+|player|p2|25-よしろすずき-Desu|52|1235
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Doublade|Doublade, L82, M|100/100
+|switch|p2a: Drapion|Drapion, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 25-よしろすずき-Desu)
+|
+|move|p2a: Drapion|Knock Off|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|66/100
+|-enditem|p1a: Doublade|Eviolite|[from] move: Knock Off|[of] p2a: Drapion
+|move|p1a: Doublade|Sacred Sword|p2a: Drapion
+|-damage|p2a: Drapion|78/100
+|
+|upkeep
+|turn|2
+
+|-message|Julien_l forfeited.
+
+|
+|win|25-よしろすずき-Desu

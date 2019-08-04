@@ -1,0 +1,87 @@
+|init|battle
+|title|Drauror vs. Trymerys TArgaryen
+|j|☆Drauror
+|j|☆Trymerys TArgaryen
+|player|p1|Drauror|2|1463
+|player|p2|Trymerys TArgaryen|148|1306
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aggron, M|item
+|poke|p1|Chesnaught, F|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Blissey, F|item
+|poke|p1|Doublade, M|item
+|poke|p1|Rotom-Heat|item
+|poke|p2|Azelf|item
+|poke|p2|Infernape, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Empoleon, F|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Aerodactyl, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Trymerys TArgaryen)
+|
+|start
+|switch|p1a: Doublade|Doublade, M|100/100
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|turn|1
+|
+|move|p2a: Empoleon|Stealth Rock|p1a: Doublade
+|-sidestart|p1: Drauror|move: Stealth Rock
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Doublade|Sacred Sword|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|80/100
+|
+|-heal|p2a: Amoonguss|86/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|
+|move|p1a: Doublade|Iron Head|p2a: Amoonguss
+|-damage|p2a: Amoonguss|38/100
+|cant|p2a: Amoonguss|flinch
+|
+|-heal|p2a: Amoonguss|44/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|inactive|Trymerys TArgaryen has 120 seconds left.
+
+|inactive|Trymerys TArgaryen has 90 seconds left.
+
+|inactive|Trymerys TArgaryen has 60 seconds left.
+
+|inactive|Trymerys TArgaryen has 30 seconds left.
+
+|inactive|Trymerys TArgaryen has 20 seconds left.
+
+|inactive|Trymerys TArgaryen has 15 seconds left.
+
+|inactive|Trymerys TArgaryen has 10 seconds left.
+
+|inactive|Trymerys TArgaryen has 5 seconds left.
+
+|-message|Trymerys TArgaryen lost due to inactivity.
+|
+|win|Drauror

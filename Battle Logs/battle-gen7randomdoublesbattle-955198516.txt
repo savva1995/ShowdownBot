@@ -1,0 +1,313 @@
+|init|battle
+|title|Pikablu22 vs. Franisulemani
+|j|☆Pikablu22
+|j|‽Franisulemani
+|player|p1|Pikablu22|265|1519
+|player|p2|Franisulemani|10|1705
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Butterfree|Butterfree, L89, F|100/100
+|switch|p1b: Steelix|Steelix, L70, F|100/100
+|switch|p2a: Golem|Golem-Alola, L80, F|100/100
+|switch|p2b: Hippowdon|Hippowdon, L77, F|100/100
+|-item|p2a: Golem|Air Balloon
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Franisulemani)
+|
+|switch|p1b: Tauros|Tauros, L80, M|100/100
+|-ability|p1b: Tauros|Intimidate|boost
+|-unboost|p2a: Golem|atk|1
+|-unboost|p2b: Hippowdon|atk|1
+|move|p1a: Butterfree|Protect|p1a: Butterfree
+|-singleturn|p1a: Butterfree|Protect
+|move|p2a: Golem|Rock Slide|p1b: Tauros|[spread] 
+|-activate|p1a: Butterfree|move: Protect
+|-miss|p2a: Golem|p1b: Tauros
+|move|p2b: Hippowdon|Earthquake|p1a: Butterfree|[spread] p1b
+|-activate|p1a: Butterfree|move: Protect
+|-immune|p2a: Golem
+|-damage|p1b: Tauros|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tauros|74/100|[from] Sandstorm
+|-damage|p1a: Butterfree|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Tsareena|Tsareena, L78, F|100/100
+|switch|p2b: Magnezone|Magnezone, L76|100/100
+|-item|p2b: Magnezone|Air Balloon
+|move|p1b: Tauros|Rock Slide|p2a: Golem|[spread] p2a,p2b
+|-resisted|p2b: Magnezone
+|-damage|p2a: Golem|87/100
+|-damage|p2b: Magnezone|91/100
+|-enditem|p2a: Golem|Air Balloon
+|-enditem|p2b: Magnezone|Air Balloon
+|-damage|p1b: Tauros|64/100|[from] item: Life Orb
+|cant|p2a: Golem|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tauros|58/100|[from] Sandstorm
+|-damage|p1a: Tsareena|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Dragonite|Dragonite, L70, M|100/100
+|move|p1b: Tauros|Zen Headbutt|p2a: Dragonite
+|-damage|p2a: Dragonite|85/100
+|-damage|p1b: Tauros|48/100|[from] item: Life Orb
+|move|p1a: Tsareena|Trop Kick|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|75/100
+|-unboost|p2a: Dragonite|atk|1
+|move|p2b: Magnezone|Thunderbolt|p1b: Tauros
+|-damage|p1b: Tauros|0 fnt
+|faint|p1b: Tauros
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|88/100|[from] Sandstorm
+|-damage|p2a: Dragonite|69/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1b: Steelix|Steelix, L70, F|100/100
+|turn|4
+
+|
+|detailschange|p1b: Steelix|Steelix-Mega, L70, F
+|-mega|p1b: Steelix|Steelix|Steelixite
+|move|p1a: Tsareena|Trop Kick|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Draco Meteor|p1a: Tsareena
+|-damage|p1a: Tsareena|60/100
+|-unboost|p2a: Dragonite|spa|2
+|move|p2b: Magnezone|Flash Cannon|p1a: Tsareena
+|-damage|p1a: Tsareena|34/100
+|move|p1b: Steelix|Earthquake|p2b: Magnezone|[spread] p1a,p2b
+|-immune|p2a: Dragonite
+|-resisted|p1a: Tsareena
+|-supereffective|p2b: Magnezone
+|-damage|p1a: Tsareena|17/100
+|-damage|p2b: Magnezone|0 fnt
+|faint|p2b: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|10/100|[from] Sandstorm
+|-damage|p2a: Dragonite|54/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2b: Golem|Golem-Alola, L80, F|87/100
+|turn|5
+
+|
+|move|p2b: Golem|Protect|p2b: Golem
+|-singleturn|p2b: Golem|Protect
+|move|p1a: Tsareena|Trop Kick|p2b: Golem
+|-activate|p2b: Golem|move: Protect
+|move|p2a: Dragonite|Dragon Claw|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|move|p1b: Steelix|Rock Slide|p2b: Golem|[spread] p2a
+|-activate|p2b: Golem|move: Protect
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|13/100
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L81, F|100/100
+|-ability|p1a: Spiritomb|Pressure
+|turn|6
+
+|inactive|Pikablu22 has 120 seconds left.
+
+|
+|move|p1a: Spiritomb|Protect|p1a: Spiritomb
+|-singleturn|p1a: Spiritomb|Protect
+|move|p2a: Dragonite|Dragon Claw|p1a: Spiritomb
+|-activate|p1a: Spiritomb|move: Protect
+|move|p2b: Golem|Double-Edge|p1a: Spiritomb
+|-activate|p1a: Spiritomb|move: Protect
+|move|p1b: Steelix|Earthquake|p2a: Dragonite|[spread] p2b
+|-activate|p1a: Spiritomb|move: Protect
+|-immune|p2a: Dragonite
+|-supereffective|p2b: Golem
+|-damage|p2b: Golem|0 fnt
+|faint|p2b: Golem
+|
+|upkeep
+
+|
+|switch|p2b: Slowking|Slowking, L80, F|100/100
+|turn|7
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|move|p2b: Slowking|Scald|p1b: Steelix
+|-supereffective|p1b: Steelix
+|-damage|p1b: Steelix|22/100
+|move|p1b: Steelix|Rock Slide|p2b: Slowking
+|-damage|p2b: Slowking|81/100
+|
+|-heal|p2b: Slowking|87/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Hippowdon|Hippowdon, L77, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|8
+
+|inactive|Pikablu22 has 120 seconds left.
+
+|
+|move|p2a: Hippowdon|Earthquake|p1b: Steelix|[spread] p2b,p1a,p1b
+|-supereffective|p1b: Steelix
+|-damage|p2b: Slowking|59/100
+|-damage|p1a: Spiritomb|71/100
+|-damage|p1b: Steelix|0 fnt
+|faint|p1b: Steelix
+|move|p1a: Spiritomb|Snarl|p2b: Slowking|[spread] p2a,p2b
+|-supereffective|p2b: Slowking
+|-damage|p2a: Hippowdon|83/100
+|-damage|p2b: Slowking|35/100
+|-unboost|p2a: Hippowdon|spa|1
+|-unboost|p2b: Slowking|spa|1
+|move|p2b: Slowking|Scald|p1a: Spiritomb
+|-damage|p1a: Spiritomb|50/100
+|-status|p1a: Spiritomb|brn
+|-enditem|p1a: Spiritomb|Sitrus Berry|[eat]
+|-heal|p1a: Spiritomb|74/100 brn|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spiritomb|68/100 brn|[from] Sandstorm
+|-damage|p2b: Slowking|29/100|[from] Sandstorm
+|-heal|p2b: Slowking|35/100|[from] item: Leftovers
+|-damage|p1a: Spiritomb|62/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1b: Butterfree|Butterfree, L89, F|95/100
+|turn|9
+
+|inactive|Franisulemani has 120 seconds left.
+
+|inactive|Franisulemani has 90 seconds left.
+
+|
+|move|p1b: Butterfree|Air Slash|p2a: Hippowdon
+|-damage|p2a: Hippowdon|45/100
+|-enditem|p2a: Hippowdon|Sitrus Berry|[eat]
+|-heal|p2a: Hippowdon|70/100|[from] item: Sitrus Berry
+|move|p2a: Hippowdon|Rock Slide|p1a: Spiritomb|[spread] p1a,p1b
+|-supereffective|p1b: Butterfree
+|-crit|p1b: Butterfree
+|-enditem|p1b: Butterfree|Charti Berry|[eat]
+|-enditem|p1b: Butterfree|Charti Berry|[weaken]
+|-damage|p1a: Spiritomb|47/100 brn
+|-damage|p1b: Butterfree|32/100
+|cant|p1a: Spiritomb|flinch
+|move|p2b: Slowking|Ice Beam|p1b: Butterfree
+|-supereffective|p1b: Butterfree
+|-damage|p1b: Butterfree|0 fnt
+|faint|p1b: Butterfree
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spiritomb|41/100 brn|[from] Sandstorm
+|-damage|p2b: Slowking|29/100|[from] Sandstorm
+|-heal|p2b: Slowking|35/100|[from] item: Leftovers
+|-damage|p1a: Spiritomb|35/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1b: Dialga|Dialga, L70|100/100
+|-ability|p1b: Dialga|Pressure
+|turn|10
+
+|inactive|Franisulemani has 120 seconds left.
+
+|
+|switch|p2a: Aurorus|Aurorus, L77, M|100/100
+|move|p1b: Dialga|Flash Cannon|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|27/100
+|move|p1a: Spiritomb|Snarl|p2b: Slowking|[spread] p2a,p2b
+|-supereffective|p2b: Slowking
+|-damage|p2a: Aurorus|18/100
+|-damage|p2b: Slowking|12/100
+|-unboost|p2a: Aurorus|spa|1
+|-unboost|p2b: Slowking|spa|1
+|move|p2b: Slowking|Scald|p1a: Spiritomb
+|-damage|p1a: Spiritomb|18/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spiritomb|12/100 brn|[from] Sandstorm
+|-damage|p2b: Slowking|6/100|[from] Sandstorm
+|-heal|p2b: Slowking|12/100|[from] item: Leftovers
+|-damage|p1a: Spiritomb|6/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2b: Slowking
+|-supereffective|p2b: Slowking
+|-damage|p2b: Slowking|0 fnt
+|faint|p2b: Slowking
+|move|p1b: Dialga|Flash Cannon|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|faint|p2a: Aurorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Spiritomb|0 fnt|[from] Sandstorm
+|faint|p1a: Spiritomb
+|upkeep
+
+|
+|switch|p2b: Hippowdon|Hippowdon, L77, F|70/100
+|turn|12
+
+|
+|move|p1b: Dialga|Flash Cannon|p2b: Hippowdon
+|-damage|p2b: Hippowdon|31/100
+|move|p2b: Hippowdon|Slack Off|p2b: Hippowdon
+|-heal|p2b: Hippowdon|81/100
+|
+|-weather|none
+|upkeep
+|turn|13
+
+|
+|move|p1b: Dialga|Flash Cannon|p2b: Hippowdon
+|-damage|p2b: Hippowdon|46/100
+|move|p2b: Hippowdon|Earthquake|p1b: Dialga
+|-supereffective|p1b: Dialga
+|-damage|p1b: Dialga|22/100
+|
+|-heal|p1b: Dialga|29/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1b: Dialga|Flash Cannon|p2b: Hippowdon
+|-damage|p2b: Hippowdon|9/100
+|move|p2b: Hippowdon|Earthquake|p1b: Dialga
+|-supereffective|p1b: Dialga
+|-damage|p1b: Dialga|0 fnt
+|faint|p1b: Dialga
+|
+|win|Franisulemani

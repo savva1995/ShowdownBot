@@ -1,0 +1,99 @@
+|init|battle
+|title|Rikkuwu vs. Lin_Beifong99
+|j|☆Rikkuwu
+|j|☆Lin_Beifong99
+|player|p1|Rikkuwu|274|1084
+|player|p2|Lin_Beifong99|265|1097
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowking|Slowking, L86, F|100/100
+|switch|p2a: Malamar|Malamar, L86, F|100/100
+|turn|1
+|
+|move|p2a: Malamar|Superpower|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|86/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Slowking|Scald|p2a: Malamar
+|-damage|p2a: Malamar|64/100
+|
+|-heal|p2a: Malamar|70/100|[from] item: Leftovers
+|-heal|p1a: Slowking|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Malamar|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+|faint|p1a: Slowking
+|
+|-heal|p2a: Malamar|77/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Leavanny|Leavanny, L89, M|100/100
+|turn|3
+
+|
+|move|p1a: Leavanny|Sticky Web|p2a: Malamar
+|-sidestart|p2: Lin_Beifong99|move: Sticky Web
+|move|p2a: Malamar|Superpower|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|77/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p1a: Leavanny|84/100|[from] item: Leftovers
+|-heal|p2a: Malamar|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Leavanny|Knock Off|p2a: Malamar
+|-damage|p2a: Malamar|68/100
+|-enditem|p2a: Malamar|Leftovers|[from] move: Knock Off|[of] p1a: Leavanny
+|move|p2a: Malamar|Knock Off|p1a: Leavanny
+|-damage|p1a: Leavanny|5/100
+|-enditem|p1a: Leavanny|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Leavanny|Leaf Blade|p2a: Malamar
+|-damage|p2a: Malamar|49/100
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Leavanny|Swords Dance|p1a: Leavanny
+|-boost|p1a: Leavanny|atk|2
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Superpower|p1a: Leavanny|[from]Sleep Talk
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Leavanny
+|
+|upkeep
+
+|-message|Rikkuwu forfeited.
+
+|
+|win|Lin_Beifong99

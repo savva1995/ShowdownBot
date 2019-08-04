@@ -1,0 +1,178 @@
+|init|battle
+|title|Aj92000 vs. ItsYaBoiEmir
+|j|☆Aj92000
+|j|☆ItsYaBoiEmir
+|player|p1|Aj92000|1|1135
+|player|p2|ItsYaBoiEmir|1|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Throh|Throh, L89, M|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|100/100
+|-ability|p1a: Throh|Mold Breaker
+|turn|1
+|
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Throh
+|-sidestart|p1: Aj92000|move: Stealth Rock
+|move|p1a: Throh|Bulk Up|p1a: Throh
+|-boost|p1a: Throh|atk|1
+|-boost|p1a: Throh|def|1
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aj92000)
+|
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Throh
+|-damage|p1a: Throh|64/100
+|move|p1a: Throh|Ice Punch|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|36/100
+|
+|-heal|p1a: Throh|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Throh
+|-damage|p1a: Throh|30/100
+|move|p1a: Throh|Ice Punch|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-heal|p1a: Throh|36/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko, L80|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|4
+
+|
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Throh
+|-supereffective|p1a: Throh
+|-damage|p1a: Throh|0 fnt
+|-damage|p2a: Tapu Koko|91/100|[from] item: Life Orb
+|faint|p1a: Throh
+|
+|upkeep
+
+|
+|switch|p1a: Roserade|Roserade, L84, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L82, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Aj92000
+|move|p1a: Roserade|Spikes|p2a: Aerodactyl
+|-sidestart|p2: ItsYaBoiEmir|Spikes
+|
+|-heal|p1a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L82, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+
+|
+|switch|p1a: Gengar|Gengar, L78, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|detailschange|p1a: Gengar|Gengar-Mega, L78, F
+|-mega|p1a: Gengar|Gengar|Gengarite
+|move|p2a: Aerodactyl|Stone Edge|p1a: Gengar
+|-damage|p1a: Gengar|18/100
+|move|p1a: Gengar|Shadow Ball|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|57/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Gengar|Protect|p1a: Gengar
+|-singleturn|p1a: Gengar|Protect
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Gengar
+|-activate|p1a: Gengar|move: Protect
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+
+|c|☆ItsYaBoiEmir|Gengar more like Deadgar
+
+|
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+
+|
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L78|100/100
+|-damage|p1a: Necrozma|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|detailschange|p1a: Necrozma|Necrozma-Ultra, L78
+|-burst|p1a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Aerodactyl|Stone Edge|p1a: Necrozma
+|-damage|p1a: Necrozma|43/100
+|move|p1a: Necrozma|Power Gem|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p2a: Gyarados|Gyarados, L81, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Necrozma|atk|1
+|turn|11
+
+|
+|move|p1a: Necrozma|Moongeist Beam|p2a: Gyarados
+|-damage|p2a: Gyarados|69/100
+|move|p2a: Gyarados|Dragon Tail|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|8/100
+|drag|p1a: Tapu Lele|Tapu Lele, L80|100/100
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Tapu Lele|Calm Mind|p1a: Tapu Lele
+|-boost|p1a: Tapu Lele|spa|1
+|-boost|p1a: Tapu Lele|spd|1
+|-zpower|p2a: Gyarados
+|move|p2a: Gyarados|Supersonic Skystrike|p1a: Tapu Lele|[zeffect]
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|
+|upkeep
+
+|-message|Aj92000 forfeited.
+
+|
+|win|ItsYaBoiEmir

@@ -1,0 +1,267 @@
+|init|battle
+|title|Petitfilou vs. Vietnam Gay Bottom
+|j|☆Petitfilou
+|j|☆Vietnam Gay Bottom
+|player|p1|Petitfilou|169|1161
+|player|p2|Vietnam Gay Bottom|265|1258
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aurorus|Aurorus, L88, F|100/100
+|switch|p2a: Steelix|Steelix, L82, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vietnam Gay Bottom)
+
+|
+|detailschange|p2a: Steelix|Steelix-Mega, L82, M
+|-mega|p2a: Steelix|Steelix|Steelixite
+|move|p1a: Aurorus|Blizzard|p2a: Steelix
+|-damage|p2a: Steelix|49/100
+|move|p2a: Steelix|Stealth Rock|p1a: Aurorus
+|-sidestart|p1: Petitfilou|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Steelix|43/100|[from] Hail
+|upkeep
+|turn|2
+
+|
+|move|p1a: Aurorus|Blizzard|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|l|☆Vietnam Gay Bottom
+
+|inactive|Vietnam Gay Bottom disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆Vietnam Gay Bottom
+
+|inactive|Vietnam Gay Bottom reconnected and has 125 seconds left.
+
+|player|p2|Vietnam Gay Bottom|265
+|inactive|Vietnam Gay Bottom has 120 seconds left.
+
+|
+|switch|p2a: Sandslash|Sandslash, L89, F|100/100
+|turn|3
+
+|
+|move|p2a: Sandslash|Earthquake|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|28/100
+|move|p1a: Aurorus|Blizzard|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Aurorus|34/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Vietnam Gay Bottom has 120 seconds left.
+
+|
+|switch|p2a: Gligar|Gligar, L82, F|100/100
+|turn|4
+
+|inactive|Petitfilou has 120 seconds left.
+
+|
+|move|p2a: Gligar|Earthquake|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|faint|p1a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gligar|94/100|[from] Hail
+|upkeep
+
+|inactive|Petitfilou has 120 seconds left.
+
+|inactive|Petitfilou has 90 seconds left.
+
+|inactive|Petitfilou has 60 seconds left.
+
+|
+|switch|p1a: Cloyster|Cloyster, L84, F|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p2a: Gligar|U-turn|p1a: Cloyster
+|-damage|p1a: Cloyster|66/100
+
+|
+|switch|p2a: Mudsdale|Mudsdale, L88, F|100/100|[from]move: U-turn
+|move|p1a: Cloyster|Icicle Spear|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|82/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|70/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|61/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|52/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|45/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-hitcount|p2a: Mudsdale|5
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|inactive|Petitfilou has 60 seconds left.
+
+|
+|move|p1a: Cloyster|Hydro Pump|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|
+|upkeep
+
+|l|☆Vietnam Gay Bottom
+
+|inactive|Vietnam Gay Bottom disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆Vietnam Gay Bottom
+
+|inactive|Vietnam Gay Bottom reconnected and has 115 seconds left.
+
+|player|p2|Vietnam Gay Bottom|265
+
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, M|100/100
+|turn|7
+
+|inactive|Petitfilou has 60 seconds left.
+
+|
+|move|p1a: Cloyster|Hydro Pump|p2a: Rhyperior|[miss]
+|-miss|p1a: Cloyster|p2a: Rhyperior
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|
+|upkeep
+|turn|8
+
+|inactive|Petitfilou has 60 seconds left.
+
+|
+|move|p2a: Rhyperior|Stone Edge|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+
+|
+|switch|p1a: Avalugg|Avalugg, L89, M|100/100
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p2a: Rhyperior|Stone Edge|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|29/100
+|move|p1a: Avalugg|Avalanche|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|46/100
+|-enditem|p2a: Rhyperior|Weakness Policy
+|-boost|p2a: Rhyperior|atk|2
+|-boost|p2a: Rhyperior|spa|2
+|
+|-heal|p1a: Avalugg|35/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Rhyperior|Stone Edge|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-crit|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+
+|inactive|Petitfilou has 60 seconds left.
+
+|
+|switch|p1a: Mamoswine|Mamoswine, L82, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|21/100
+|move|p2a: Rhyperior|Stone Edge|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+
+|
+|switch|p1a: Weavile|Weavile, L81, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Weavile|Knock Off|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-damage|p1a: Weavile|66/100|[from] item: Life Orb
+|faint|p2a: Rhyperior
+|
+|upkeep
+
+|
+|switch|p2a: Gligar|Gligar, L82, F|94/100
+|turn|13
+
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|-damage|p1a: Weavile|56/100|[from] item: Life Orb
+|faint|p2a: Gligar
+|
+|upkeep
+
+|
+|switch|p2a: Diggersby|Diggersby, L81, M|100/100
+|turn|14
+
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|-damage|p1a: Weavile|46/100|[from] item: Life Orb
+|faint|p2a: Diggersby
+|
+|win|Petitfilou

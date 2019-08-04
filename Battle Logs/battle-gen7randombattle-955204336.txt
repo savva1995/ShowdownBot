@@ -1,0 +1,82 @@
+|init|battle
+|title|Tornadoflame10 vs. TheLittleSylveon
+|j|☆Tornadoflame10
+|j|☆TheLittleSylveon
+|player|p1|Tornadoflame10|265|1217
+|player|p2|TheLittleSylveon|34|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ninjask|Ninjask, L89, M|100/100
+|switch|p2a: Crobat|Crobat, L82, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tornadoflame10)
+
+|inactive|Tornadoflame10 has 120 seconds left.
+|inactive|TheLittleSylveon has 120 seconds left.
+
+|
+|switch|p1a: Zygarde|Zygarde, L78|100/100
+|move|p2a: Crobat|Toxic|p1a: Zygarde
+|-status|p1a: Zygarde|tox
+|-enditem|p1a: Zygarde|Lum Berry|[eat]
+|-curestatus|p1a: Zygarde|tox|[msg]
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Crobat|Toxic|p1a: Zygarde
+|-status|p1a: Zygarde|tox
+|move|p1a: Zygarde|Dragon Dance|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|spe|1
+|
+|-damage|p1a: Zygarde|94/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Jellicent|Jellicent, L88, M|100/100
+|move|p1a: Zygarde|Thousand Arrows|p2a: Jellicent
+|-damage|p2a: Jellicent|58/100
+|
+|-heal|p2a: Jellicent|64/100|[from] item: Leftovers
+|-damage|p1a: Zygarde|82/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Zygarde|Outrage|p2a: Jellicent
+|-damage|p2a: Jellicent|8/100
+|move|p2a: Jellicent|Scald|p1a: Zygarde
+|-damage|p1a: Zygarde|54/100 tox
+|
+|-heal|p2a: Jellicent|14/100|[from] item: Leftovers
+|-damage|p1a: Zygarde|36/100 tox|[from] psn
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete, L78
+|-heal|p1a: Zygarde|59/100 tox|[silent]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Zygarde|Outrage|p2a: Jellicent|[from]lockedmove
+|-damage|p2a: Jellicent|0 fnt
+|-start|p1a: Zygarde|confusion|[fatigue]
+|faint|p2a: Jellicent
+|
+|-damage|p1a: Zygarde|34/100 tox|[from] psn
+|upkeep
+
+|-message|TheLittleSylveon forfeited.
+
+|
+|win|Tornadoflame10

@@ -1,0 +1,268 @@
+|init|battle
+|title|Cvp23 vs. luigicircuit
+|j|☆Cvp23
+|j|☆luigicircuit
+|player|p1|Cvp23|wally|1958
+|player|p2|luigicircuit|170|1956
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tsareena|Tsareena, L84, F|100/100
+|switch|p2a: Tapu Lele|Tapu Lele, L80|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|1
+
+|
+|move|p2a: Tapu Lele|Calm Mind|p2a: Tapu Lele
+|-boost|p2a: Tapu Lele|spa|1
+|-boost|p2a: Tapu Lele|spd|1
+|move|p1a: Tsareena|Power Whip|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|32/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Tapu Lele|Moonblast|p1a: Tsareena
+|-damage|p1a: Tsareena|34/100
+|move|p1a: Tsareena|Power Whip|p2a: Tapu Lele
+|-crit|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-heal|p1a: Tsareena|40/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Mothim|Mothim, L89, M|100/100
+|turn|3
+
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, M|100/100
+|move|p2a: Mothim|Quiver Dance|p2a: Mothim
+|-boost|p2a: Mothim|spa|1
+|-boost|p2a: Mothim|spd|1
+|-boost|p2a: Mothim|spe|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Mothim|Air Slash|p1a: Mudsdale
+|-damage|p1a: Mudsdale|48/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-damage|p2a: Mothim|91/100|[from] item: Life Orb
+|move|p1a: Mudsdale|Rock Slide|p2a: Mothim
+|-supereffective|p2a: Mothim
+|-damage|p2a: Mothim|0 fnt
+|faint|p2a: Mothim
+|
+|-heal|p1a: Mudsdale|54/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cvp23)
+
+|
+|switch|p2a: Araquanid|Araquanid, L84, M|100/100
+|turn|5
+
+|
+|move|p2a: Araquanid|Sticky Web|p1a: Mudsdale
+|-sidestart|p1: Cvp23|move: Sticky Web
+|move|p1a: Mudsdale|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: luigicircuit|move: Stealth Rock
+|
+|-heal|p1a: Mudsdale|60/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+
+|
+|move|p2a: Araquanid|Liquidation|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|7/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Rock Slide|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|46/100
+|
+|-heal|p2a: Araquanid|51/100|[from] item: Leftovers
+|-heal|p1a: Mudsdale|13/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Araquanid|Liquidation|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|-heal|p2a: Araquanid|57/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Scolipede|Scolipede, L81, M|100/100
+|-activate|p1a: Scolipede|move: Sticky Web
+|-unboost|p1a: Scolipede|spe|1
+|turn|8
+
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Araquanid
+|-damage|p2a: Araquanid|24/100
+|move|p2a: Araquanid|Liquidation|p1a: Scolipede
+|-damage|p1a: Scolipede|32/100
+|
+|-heal|p1a: Scolipede|38/100|[from] item: Black Sludge
+|-heal|p2a: Araquanid|30/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|9
+
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Araquanid
+|-damage|p2a: Araquanid|1/100
+|move|p2a: Araquanid|Liquidation|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|-heal|p2a: Araquanid|7/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, F|100/100
+|turn|10
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert, L80, M|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|turn|11
+
+|
+|detailschange|p2a: Swampert|Swampert-Mega, L80, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1a: Gliscor|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|move|p2a: Swampert|Ice Punch|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|18/100 tox
+|
+|-heal|p1a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-heal|p1a: Gliscor|80/100 tox
+|-singleturn|p1a: Gliscor|move: Roost
+|move|p2a: Swampert|Waterfall|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|5/100 tox
+|
+|-heal|p1a: Gliscor|18/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Swampert|76/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-heal|p1a: Gliscor|68/100 tox
+|-singleturn|p1a: Gliscor|move: Roost
+|move|p2a: Swampert|Waterfall|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Swampert|57/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Tsareena|Tsareena, L84, F|40/100
+|-activate|p1a: Tsareena|move: Sticky Web
+|-unboost|p1a: Tsareena|spe|1
+|turn|14
+
+|
+|move|p2a: Swampert|Ice Punch|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|-damage|p2a: Swampert|32/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Kingler|Kingler, L87, M|100/100
+|-activate|p1a: Kingler|move: Sticky Web
+|-unboost|p1a: Kingler|spe|1
+|turn|15
+
+|
+|move|p2a: Swampert|Earthquake|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|30/100
+|move|p1a: Kingler|Agility|p1a: Kingler
+|-boost|p1a: Kingler|spe|2
+|
+|-damage|p2a: Swampert|2/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Kingler|Liquidation|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+
+|
+|switch|p2a: Groudon|Groudon, L78|100/100
+|-damage|p2a: Groudon|95/100|[from] Stealth Rock
+|detailschange|p2a: Groudon|Groudon-Primal, L78
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|17
+
+|
+|move|p1a: Kingler|Knock Off|p2a: Groudon
+|-damage|p2a: Groudon|74/100
+|-damage|p1a: Kingler|20/100|[from] item: Life Orb
+|move|p2a: Groudon|Precipice Blades|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sudowoodo|Sudowoodo, L89, M|100/100
+|-activate|p1a: Sudowoodo|move: Sticky Web
+|-unboost|p1a: Sudowoodo|spe|1
+|turn|18
+
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Sudowoodo
+|-supereffective|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|0 fnt
+|faint|p1a: Sudowoodo
+|
+|win|luigicircuit

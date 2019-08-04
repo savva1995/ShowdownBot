@@ -1,0 +1,87 @@
+|init|battle
+|title|4thrateteam vs. BidoofIsDaRealGod
+|j|☆4thrateteam
+|j|☆BidoofIsDaRealGod
+|player|p1|4thrateteam|201|1127
+|player|p2|BidoofIsDaRealGod|153|1184
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aron, L1, M|item
+|poke|p1|Wobbuffet, M|item
+|poke|p1|Weavile, F|item
+|poke|p2|Bastiodon, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Sawk, M|item
+|teampreview|1
+|
+|start
+|switch|p1a: Aron|Aron, L1, M, shiny|100/100
+|switch|p2a: Sawk|Sawk, M|100/100
+|turn|1
+
+|
+|move|p2a: Sawk|Dig||[still]
+|-prepare|p2a: Sawk|Dig|p1a: Aron
+|move|p1a: Aron|Endeavor|p2a: Sawk|[miss]
+|-miss|p1a: Aron|p2a: Sawk
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Aron|Protect|p1a: Aron
+|-singleturn|p1a: Aron|Protect
+|move|p2a: Sawk|Dig|p1a: Aron|[from]lockedmove
+|-activate|p1a: Aron|move: Protect
+|
+|upkeep
+|turn|3
+
+|
+|-zpower|p2a: Sawk
+|move|p2a: Sawk|All-Out Pummeling|p1a: Aron|[zeffect]
+|-supereffective|p1a: Aron
+|-ability|p1a: Aron|Sturdy
+|-damage|p1a: Aron|9/100
+|move|p1a: Aron|Endeavor|p2a: Sawk
+|-damage|p2a: Sawk|1/100
+|-heal|p1a: Aron|100/100|[from] item: Shell Bell|[of] p2a: Sawk
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Sawk|Dig||[still]
+|-prepare|p2a: Sawk|Dig|p1a: Aron
+|move|p1a: Aron|Sandstorm|p1a: Aron
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Aron|Protect|p1a: Aron
+|-singleturn|p1a: Aron|Protect
+|move|p2a: Sawk|Dig|p1a: Aron|[from]lockedmove
+|-activate|p1a: Aron|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sawk|0 fnt|[from] Sandstorm
+|faint|p2a: Sawk
+|
+|win|4thrateteam
+|upkeep

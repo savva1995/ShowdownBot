@@ -1,0 +1,299 @@
+|init|battle
+|title|doodlegameur vs. Mellow1004
+|j|☆doodlegameur
+|j|☆Mellow1004
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|doodlegameur|72|
+|player|p2|Mellow1004|falkner-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pidgeot|Pidgeot, L82, F|100/100
+|switch|p2a: Virizion|Virizion, L84|100/100
+|turn|1
+|
+|switch|p2a: Dialga|Dialga, L78|100/100
+|-ability|p2a: Dialga|Pressure
+|detailschange|p1a: Pidgeot|Pidgeot-Mega, L82, F
+|-mega|p1a: Pidgeot|Pidgeot|Pidgeotite
+|move|p1a: Pidgeot|Hurricane|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|76/100
+|
+|-heal|p2a: Dialga|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Pidgeot|U-turn|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|76/100
+|
+|switch|p1a: Seismitoad|Seismitoad, L86, M|100/100|[from]move: U-turn
+|move|p2a: Dialga|Thunderbolt|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-heal|p2a: Dialga|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Virizion|Virizion, L84|100/100
+|move|p1a: Seismitoad|Rain Dance|p1a: Seismitoad
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p1a: Seismitoad|Sludge Wave|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|70/100
+|-damage|p1a: Seismitoad|91/100|[from] item: Life Orb
+|move|p2a: Virizion|Giga Drain|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-heal|p2a: Virizion|100/100|[from] drain|[of] p1a: Seismitoad
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Pidgeot|Pidgeot-Mega, L82, F|100/100
+|turn|5
+
+|
+|switch|p2a: Dialga|Dialga, L78|82/100
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Pidgeot|Heat Wave|p2a: Dialga
+|-damage|p2a: Dialga|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dialga|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Pidgeot|U-turn|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|66/100
+
+|
+|switch|p1a: Diancie|Diancie, L84|100/100|[from]move: U-turn
+|move|p2a: Dialga|Thunderbolt|p1a: Diancie
+|-damage|p1a: Diancie|75/100
+|-status|p1a: Diancie|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dialga|72/100|[from] item: Leftovers
+|-heal|p1a: Diancie|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|Mellow1004 has 120 seconds left.
+
+|
+|switch|p2a: Steelix|Steelix, L82, F|100/100
+|move|p1a: Diancie|Moonblast|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|76/100
+|
+|-weather|none
+|-heal|p1a: Diancie|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Victini|Victini, L80|100/100
+|detailschange|p2a: Steelix|Steelix-Mega, L82, F
+|-mega|p2a: Steelix|Steelix|Steelixite
+|move|p2a: Steelix|Roar|p1a: Victini
+|drag|p1a: Mewtwo|Mewtwo, L78|100/100
+|-ability|p1a: Mewtwo|Unnerve|p2: Mellow1004
+|
+|upkeep
+|turn|9
+
+|inactive|Mellow1004 has 90 seconds left.
+
+|
+|switch|p2a: Virizion|Virizion, L84|100/100
+|move|p1a: Mewtwo|Fire Blast|p2a: Virizion|[miss]
+|-miss|p1a: Mewtwo|p2a: Virizion
+|
+|upkeep
+|turn|10
+
+|c|☆doodlegameur|Dialga et la défense
+
+|
+|switch|p2a: Gyarados|Gyarados, L81, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Mewtwo|atk|1
+|move|p1a: Mewtwo|Fire Blast|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|86/100
+|
+|-heal|p2a: Gyarados|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|inactive|Mellow1004 has 90 seconds left.
+
+|
+|move|p1a: Mewtwo|Psystrike|p2a: Gyarados
+|-damage|p2a: Gyarados|37/100
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|13/100
+|
+|-heal|p2a: Gyarados|19/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|inactive|Mellow1004 has 90 seconds left.
+
+|
+|move|p1a: Mewtwo|Psystrike|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|move|p2a: Gyarados|Waterfall|p1a: Mewtwo
+|-damage|p1a: Mewtwo|67/100
+|
+|-heal|p1a: Mewtwo|73/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|25/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|Mellow1004 has 90 seconds left.
+
+|
+|move|p1a: Mewtwo|Psystrike|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-heal|p1a: Mewtwo|79/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Dialga|Dialga, L78|72/100
+|-ability|p2a: Dialga|Pressure
+|turn|14
+
+|
+|move|p1a: Mewtwo|Fire Blast|p2a: Dialga
+|-damage|p2a: Dialga|36/100
+|move|p2a: Dialga|Draco Meteor|p1a: Mewtwo
+|-damage|p1a: Mewtwo|17/100
+|-unboost|p2a: Dialga|spa|2
+|
+|-heal|p1a: Mewtwo|23/100|[from] item: Leftovers
+|-heal|p2a: Dialga|42/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|74/100
+|move|p2a: Dialga|Draco Meteor|p1a: Mewtwo
+|-damage|p1a: Mewtwo|45/100
+|-unboost|p2a: Dialga|spa|2
+|
+|-heal|p1a: Mewtwo|51/100|[from] item: Leftovers
+|-heal|p2a: Dialga|48/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Mewtwo|atk|1
+|move|p1a: Mewtwo|Fire Blast|p2a: Tauros|[miss]
+|-miss|p1a: Mewtwo|p2a: Tauros
+|
+|-heal|p1a: Mewtwo|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Mewtwo|Psystrike|p2a: Tauros
+|-damage|p2a: Tauros|59/100
+|move|p2a: Tauros|Double-Edge|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|-damage|p2a: Tauros|39/100|[from] Recoil
+|faint|p1a: Mewtwo
+|
+|upkeep
+
+|
+|switch|p1a: Pidgeot|Pidgeot-Mega, L82, F|100/100
+|turn|18
+
+|
+|switch|p2a: Dialga|Dialga, L78|48/100
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Pidgeot|Hurricane|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|23/100
+|
+|-heal|p2a: Dialga|29/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Pidgeot|Hurricane|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|4/100
+|-start|p2a: Dialga|confusion
+|-activate|p2a: Dialga|confusion
+|-damage|p2a: Dialga|0 fnt|[from] confusion
+|faint|p2a: Dialga
+|
+|upkeep
+
+|
+|switch|p2a: Virizion|Virizion, L84|100/100
+|turn|20
+
+|c|☆doodlegameur|Je suis désolée
+
+|
+|move|p1a: Pidgeot|Hurricane|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|upkeep
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|39/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Pidgeot|atk|1
+|turn|21
+
+|
+|move|p1a: Pidgeot|Hurricane|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+
+|c|☆Mellow1004|Fais chier
+
+|c|☆Mellow1004|Gg
+
+|c|☆doodlegameur|Siret
+
+|inactive|Mellow1004 has 120 seconds left.
+
+|-message|Mellow1004 forfeited.
+
+|
+|win|doodlegameur

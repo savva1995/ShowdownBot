@@ -1,0 +1,35 @@
+|init|battle
+|title|theo itan vs. BadatRanBats
+|j|☆theo itan
+|j|☆BadatRanBats
+|player|p1|theo itan|167|1367
+|player|p2|BadatRanBats|168|1279
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Smeargle, F|item
+|poke|p1|Espeon, F|item
+|poke|p1|Zapdos|item
+|poke|p1|Scolipede, F|item
+|poke|p1|Probopass, L2, F|item
+|poke|p1|Type: Null|item
+|poke|p2|Marshadow|item
+|poke|p2|Sableye, M|item
+|poke|p2|Mismagius, F|item
+|poke|p2|Trevenant, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Froslass, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|-message|BadatRanBats forfeited.
+|
+|win|theo itan
+|l|☆BadatRanBats
+|raw|theo itan's rating: 1367 &rarr; <strong>1382</strong><br />(+15 for winning)
+|raw|BadatRanBats's rating: 1279 &rarr; <strong>1261</strong><br />(-18 for losing)
+|l|☆theo itan

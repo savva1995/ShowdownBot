@@ -1,0 +1,260 @@
+|init|battle
+|title|dun 26 vs. Lakkisboi
+|j|☆dun 26
+|j|☆Lakkisboi
+|player|p1|dun 26|192|1730
+|player|p2|Lakkisboi|177|1664
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zebstrika|Zebstrika, L89, M|100/100
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|turn|1
+|
+|switch|p2a: Golurk|Golurk, L88|100/100
+|move|p1a: Zebstrika|Volt Switch|p2a: Golurk
+|-immune|p2a: Golurk
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Umbreon|Umbreon, L84, F|100/100
+|move|p2a: Golurk|Dynamic Punch|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|32/100
+|-start|p1a: Umbreon|confusion
+|-damage|p2a: Golurk|90/100|[from] item: Life Orb
+|
+|-heal|p1a: Umbreon|38/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Comfey|Comfey, L86, M|100/100
+|move|p2a: Golurk|Stealth Rock|p1a: Comfey
+|-sidestart|p1: dun 26|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Bruxish|Bruxish, L85, M|100/100
+|move|p1a: Comfey|Toxic|p2a: Bruxish
+|-status|p2a: Bruxish|tox
+|
+|-damage|p2a: Bruxish|95/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Buzzwole|Buzzwole, L81|100/100
+|-damage|p1a: Buzzwole|88/100|[from] Stealth Rock
+|move|p2a: Bruxish|Swords Dance|p2a: Bruxish
+|-boost|p2a: Bruxish|atk|2
+|
+|-damage|p2a: Bruxish|83/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Buzzwole|Leech Life|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|-heal|p1a: Buzzwole|100/100|[from] drain|[of] p2a: Bruxish
+|faint|p2a: Bruxish
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|upkeep
+|
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|turn|7
+
+|
+|switch|p1a: Zebstrika|Zebstrika, L89, M|100/100
+|-damage|p1a: Zebstrika|88/100|[from] Stealth Rock
+|move|p2a: Volcanion|Fire Blast|p1a: Zebstrika
+|-damage|p1a: Zebstrika|26/100
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Snorlax|Snorlax, L84, F|100/100
+|move|p1a: Zebstrika|Hidden Power|p2a: Snorlax
+|-damage|p2a: Snorlax|87/100
+|
+|upkeep
+|turn|9
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dun 26)
+
+|
+|-activate|p1a: Zebstrika|move: Pursuit
+|move|p2a: Snorlax|Pursuit|p1a: Zebstrika|[from]Pursuit
+|-damage|p1a: Zebstrika|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Zebstrika
+|
+|upkeep
+
+|
+|switch|p1a: Umbreon|Umbreon, L84, F|38/100
+|-damage|p1a: Umbreon|26/100|[from] Stealth Rock
+|turn|10
+
+|
+|switch|p2a: Breloom|Breloom, L81, M|100/100
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|32/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Umbreon
+|-damage|p1a: Umbreon|19/100
+|-damage|p1a: Umbreon|6/100
+|-hitcount|p1a: Umbreon|2
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|12/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|-heal|p1a: Umbreon|62/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|68/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Comfey|Comfey, L86, M|100/100
+|-damage|p1a: Comfey|88/100|[from] Stealth Rock
+|move|p2a: Breloom|Bullet Seed|p1a: Comfey
+|-damage|p1a: Comfey|51/100
+|-damage|p1a: Comfey|15/100
+|-damage|p1a: Comfey|0 fnt
+|-hitcount|p1a: Comfey|3
+|faint|p1a: Comfey
+|
+|upkeep
+
+|
+|switch|p1a: Buzzwole|Buzzwole, L81|100/100
+|-damage|p1a: Buzzwole|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|70/100
+|move|p1a: Buzzwole|Poison Jab|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|34/100
+|
+|-heal|p2a: Breloom|40/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Delphox|Delphox, L86, F|100/100
+|move|p1a: Buzzwole|Poison Jab|p2a: Delphox
+|-damage|p2a: Delphox|70/100
+|
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Aggron|Aggron, L82, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|move|p2a: Delphox|Fire Blast|p1a: Aggron
+|-damage|p1a: Aggron|25/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Delphox|Fire Blast|p1a: Aggron|[miss]
+|-miss|p2a: Delphox|p1a: Aggron
+|move|p1a: Aggron|Earthquake|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|3/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Delphox|Fire Blast|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|
+|switch|p1a: Buzzwole|Buzzwole, L81|70/100
+|-damage|p1a: Buzzwole|57/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Delphox|Fire Blast|p1a: Buzzwole
+|-supereffective|p1a: Buzzwole
+|-damage|p1a: Buzzwole|0 fnt
+|faint|p1a: Buzzwole
+|
+|upkeep
+
+|
+|switch|p1a: Umbreon|Umbreon, L84, F|68/100
+|-damage|p1a: Umbreon|56/100|[from] Stealth Rock
+|turn|20
+
+|
+|switch|p2a: Golurk|Golurk, L88|90/100
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Golurk|Dynamic Punch|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|68/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Umbreon|Toxic|p2a: Golurk
+|-status|p2a: Golurk|tox
+|move|p2a: Golurk|Dynamic Punch|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|-damage|p2a: Golurk|80/100 tox|[from] item: Life Orb
+|faint|p1a: Umbreon
+|
+|-damage|p2a: Golurk|74/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana, L80|100/100
+|-damage|p1a: Kartana|94/100|[from] Stealth Rock
+|turn|23
+
+|-message|dun 26 forfeited.
+
+|
+|win|Lakkisboi

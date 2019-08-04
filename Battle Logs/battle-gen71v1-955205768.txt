@@ -1,0 +1,68 @@
+|init|battle
+|title|br0tean vs. Waifu Bandit
+|j|☆br0tean
+|j|☆Waifu Bandit
+|player|p1|br0tean|169|1236
+|player|p2|Waifu Bandit|166|1188
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Porygon2|item
+|poke|p1|Sudowoodo, M|item
+|poke|p1|Togekiss, F|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Weavile, M|item
+|poke|p2|Ninetales-Alola, M|item
+|teampreview|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Waifu Bandit)
+
+|
+|start
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+
+|
+|move|p2a: Weavile|Fake Out|p1a: Togekiss
+|-damage|p1a: Togekiss|88/100
+|cant|p1a: Togekiss|flinch
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Weavile|Natural Gift|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|20/100
+|move|p1a: Togekiss|Reflect|p1a: Togekiss
+|-sidestart|p1: br0tean|Reflect
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Weavile|Natural Gift||[still]
+|-fail|p2a: Weavile
+|move|p1a: Togekiss|Soft-Boiled|p1a: Togekiss
+|-heal|p1a: Togekiss|71/100
+|
+|upkeep
+|turn|4
+
+|-message|Waifu Bandit forfeited.
+
+|
+|win|br0tean

@@ -1,0 +1,390 @@
+|init|battle
+|title|FRIGOALEGNA vs. Nehuen1752Y
+|j|☆FRIGOALEGNA
+|j|☆Nehuen1752Y
+|player|p1|FRIGOALEGNA|266|1142
+|player|p2|Nehuen1752Y|260|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zekrom|Zekrom, L78|100/100
+|switch|p2a: Cofagrigus|Cofagrigus, L85, M|100/100
+|-ability|p1a: Zekrom|Teravolt
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FRIGOALEGNA)
+|
+|move|p1a: Zekrom|Volt Switch|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|71/100
+|inactive|FRIGOALEGNA has 120 seconds left.
+|
+|switch|p1a: Froslass|Froslass, L88, F|100/100|[from]move: Volt Switch
+|move|p2a: Cofagrigus|Trick Room|p2a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p2a: Cofagrigus
+|
+|-heal|p2a: Cofagrigus|77/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Florges|Florges, L84, F|100/100
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Florges
+|-damage|p1a: Florges|79/100
+|
+|-heal|p2a: Cofagrigus|83/100|[from] item: Leftovers
+|-heal|p1a: Florges|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Cofagrigus|Pain Split|p1a: Florges
+|-sethp|p1a: Florges|79/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Cofagrigus|89/100|[from] move: Pain Split
+|move|p1a: Florges|Toxic|p2a: Cofagrigus
+|-status|p2a: Cofagrigus|tox
+|
+|-heal|p2a: Cofagrigus|95/100 tox|[from] item: Leftovers
+|-heal|p1a: Florges|85/100|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|89/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|inactive|FRIGOALEGNA has 120 seconds left.
+
+|
+|move|p2a: Cofagrigus|Haze|p2a: Cofagrigus
+|-clearallboost
+|move|p1a: Florges|Wish|p1a: Florges
+|
+|-heal|p2a: Cofagrigus|95/100 tox|[from] item: Leftovers
+|-heal|p1a: Florges|91/100|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|83/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Florges
+|-damage|p1a: Florges|70/100
+|move|p1a: Florges|Moonblast|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|40/100 tox
+|
+|-heal|p1a: Florges|100/100|[from] move: Wish|[wisher] Florges
+|-heal|p2a: Cofagrigus|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|28/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+
+|c|☆FRIGOALEGNA|Wtf are u doing?!
+
+|
+|move|p1a: Florges|Wish|p1a: Florges
+|move|p2a: Cofagrigus|Trick Room|p2a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p2a: Cofagrigus
+|
+|-heal|p2a: Cofagrigus|34/100 tox|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|11/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Florges
+|-damage|p1a: Florges|79/100
+|move|p1a: Florges|Moonblast|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|-heal|p1a: Florges|100/100|[from] move: Wish|[wisher] Florges
+|upkeep
+
+|c|☆FRIGOALEGNA|Are u a noob?
+
+|
+|switch|p2a: Jirachi|Jirachi, L80|100/100
+|turn|8
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|move|p2a: Jirachi|Toxic|p1a: Volcanion
+|-status|p1a: Volcanion|tox
+|
+|-damage|p1a: Volcanion|94/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Jirachi|U-turn|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|88/100 tox
+
+|
+|switch|p2a: Raichu|Raichu-Alola, L88, F|100/100|[from]move: U-turn
+|move|p1a: Volcanion|Fire Blast|p2a: Raichu|[miss]
+|-miss|p1a: Volcanion|p2a: Raichu
+|
+|-damage|p1a: Volcanion|76/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Emolga|Emolga, L89, F|100/100
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Emolga
+|-ability|p1a: Emolga|Motor Drive|boost
+|-boost|p1a: Emolga|spe|1
+|move|p1a: Emolga|U-turn|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|38/100
+|-damage|p1a: Emolga|91/100|[from] item: Life Orb
+
+|c|☆FRIGOALEGNA|What a noob
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|100/100|[from]move: U-turn
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Raichu|atk|1
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Hitmontop|Sucker Punch|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|-damage|p1a: Hitmontop|91/100|[from] item: Life Orb
+|faint|p2a: Raichu
+|
+|upkeep
+
+|
+|switch|p2a: Jirachi|Jirachi, L80|100/100
+|turn|13
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|76/100 tox
+|move|p2a: Jirachi|Toxic|p1a: Volcanion
+|-fail|p1a: Volcanion|tox
+|
+|-damage|p1a: Volcanion|70/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Volcanion|Fire Blast|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|4/100
+|move|p2a: Jirachi|Ice Punch|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|66/100 tox
+|
+|-heal|p2a: Jirachi|10/100|[from] item: Leftovers
+|-damage|p1a: Volcanion|54/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Volcanion|Fire Blast|p2a: Jirachi|[miss]
+|-miss|p1a: Volcanion|p2a: Jirachi
+|move|p2a: Jirachi|U-turn|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|47/100 tox
+
+|
+|switch|p2a: Flygon|Flygon, L84, F|100/100|[from]move: U-turn
+|
+|-damage|p1a: Volcanion|28/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|c|☆FRIGOALEGNA|Also luck
+
+|
+|move|p1a: Volcanion|Fire Blast|p2a: Flygon|[miss]
+|-miss|p1a: Volcanion|p2a: Flygon
+|move|p2a: Flygon|Dragon Dance|p2a: Flygon
+|-boost|p2a: Flygon|atk|1
+|-boost|p2a: Flygon|spe|1
+|
+|-damage|p1a: Volcanion|4/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|c|☆FRIGOALEGNA|Cmon
+
+|
+|move|p2a: Flygon|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+
+|
+|switch|p1a: Froslass|Froslass, L88, F|100/100
+|turn|18
+
+|
+|move|p2a: Flygon|Earthquake|p1a: Froslass
+|-damage|p1a: Froslass|31/100
+|-start|p2a: Flygon|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Froslass
+|move|p1a: Froslass|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-heal|p1a: Froslass|37/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Jirachi|Jirachi, L80|10/100
+|turn|19
+
+|
+|move|p1a: Froslass|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-heal|p1a: Froslass|43/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Carbink|Carbink, L89|100/100
+|turn|20
+
+|inactive|FRIGOALEGNA has 120 seconds left.
+
+|
+|move|p1a: Froslass|Taunt|p2a: Carbink
+|-start|p2a: Carbink|move: Taunt
+|move|p2a: Carbink|Moonblast|p1a: Froslass
+|-damage|p1a: Froslass|12/100
+|
+|-heal|p1a: Froslass|18/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Froslass|Shadow Ball|p2a: Carbink
+|-damage|p2a: Carbink|77/100
+|-unboost|p2a: Carbink|spd|1
+|move|p2a: Carbink|Moonblast|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|upkeep
+
+|inactive|FRIGOALEGNA has 120 seconds left.
+
+|
+|switch|p1a: Florges|Florges, L84, F|100/100
+|turn|22
+
+|
+|move|p1a: Florges|Toxic|p2a: Carbink|[miss]
+|-miss|p1a: Florges|p2a: Carbink
+|move|p2a: Carbink|Power Gem|p1a: Florges
+|-damage|p1a: Florges|86/100
+|
+|-heal|p1a: Florges|92/100|[from] item: Leftovers
+|-end|p2a: Carbink|move: Taunt
+|upkeep
+|turn|23
+
+|inactive|FRIGOALEGNA has 120 seconds left.
+
+|
+|move|p1a: Florges|Toxic|p2a: Carbink
+|-status|p2a: Carbink|tox
+|move|p2a: Carbink|Stealth Rock|p1a: Florges
+|-sidestart|p1: FRIGOALEGNA|move: Stealth Rock
+|
+|-heal|p1a: Florges|98/100|[from] item: Leftovers
+|-damage|p2a: Carbink|71/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Florges|Wish|p1a: Florges
+|move|p2a: Carbink|Power Gem|p1a: Florges
+|-damage|p1a: Florges|83/100
+|
+|-heal|p1a: Florges|89/100|[from] item: Leftovers
+|-damage|p2a: Carbink|59/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|move|p1a: Florges|Moonblast|p2a: Carbink
+|-damage|p2a: Carbink|13/100 tox
+|move|p2a: Carbink|Power Gem|p1a: Florges
+|-damage|p1a: Florges|74/100
+|
+|-heal|p1a: Florges|100/100|[from] move: Wish|[wisher] Florges
+|-damage|p2a: Carbink|0 fnt|[from] psn
+|faint|p2a: Carbink
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|26
+
+|
+|move|p2a: Xurkitree|Electric Terrain|p2a: Xurkitree
+|-fieldstart|move: Electric Terrain
+|move|p1a: Florges|Toxic|p2a: Xurkitree
+|-status|p2a: Xurkitree|tox
+|
+|-damage|p2a: Xurkitree|95/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Xurkitree|Thunderbolt|p1a: Florges
+|-damage|p1a: Florges|45/100
+|move|p1a: Florges|Wish|p1a: Florges
+|
+|-heal|p1a: Florges|51/100|[from] item: Leftovers
+|-damage|p2a: Xurkitree|83/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|move|p2a: Xurkitree|Thunderbolt|p1a: Florges
+|-damage|p1a: Florges|4/100
+|move|p1a: Florges|Moonblast|p2a: Xurkitree
+|-damage|p2a: Xurkitree|35/100 tox
+|-unboost|p2a: Xurkitree|spa|1
+|
+|-heal|p1a: Florges|54/100|[from] move: Wish|[wisher] Florges
+|-heal|p1a: Florges|60/100|[from] item: Leftovers
+|-damage|p2a: Xurkitree|17/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|
+|-zpower|p2a: Xurkitree
+|move|p2a: Xurkitree|Gigavolt Havoc|p1a: Florges|[zeffect]
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|-damage|p2a: Xurkitree|0 fnt|[from] psn
+|faint|p2a: Xurkitree
+|
+|win|FRIGOALEGNA
+|upkeep

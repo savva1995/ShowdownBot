@@ -1,0 +1,324 @@
+|init|battle
+|title|Tahiamoimeme vs. MS3D
+|j|☆Tahiamoimeme
+|j|☆MS3D
+|player|p1|Tahiamoimeme|80|1603
+|player|p2|MS3D|209|1555
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sharpedo, M|item
+|poke|p1|Klefki, M|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Mimikyu, F|item
+|poke|p1|Bewear, F|item
+|poke|p1|Latias, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Manectric, F|item
+|poke|p2|Kabutops, M|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Klefki, F|item
+|teampreview
+
+|c|☆MS3D|/log MS3D made this room hidden.
+
+|c|☆Tahiamoimeme|tu veux
+
+|c|☆MS3D|?
+
+|c|☆Tahiamoimeme|J’me suis trompé c’est DonSalvatore au fait MS3D ^^
+
+|c|☆MS3D|J'me demandais
+
+|c|☆MS3D|trnql ?
+
+|
+|start
+|switch|p1a: Klefki|Klefki, M|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|1
+
+|c|☆Tahiamoimeme|ça va trnkl, ça dit quoi ?
+
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|move|p1a: Klefki|Spikes|p2a: Mamoswine
+|-sidestart|p2: MS3D|Spikes
+|
+|upkeep
+|turn|2
+
+|c|☆MS3D|j'viens juste d'me co
+
+|
+|move|p1a: Klefki|Magnet Rise|p1a: Klefki
+|-start|p1a: Klefki|Magnet Rise
+|move|p2a: Mamoswine|Stealth Rock|p1a: Klefki
+|-sidestart|p1: Tahiamoimeme|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|c|☆Tahiamoimeme|pareil apres des jours sans sd
+
+|
+|switch|p2a: Klefki|Klefki, F|100/100
+|-damage|p2a: Klefki|88/100|[from] Spikes
+|move|p1a: Klefki|Spikes|p2a: Klefki
+|-sidestart|p2: MS3D|Spikes
+|
+|-heal|p2a: Klefki|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Klefki|Spikes|p2a: Klefki
+|-sidestart|p2: MS3D|Spikes
+|move|p2a: Klefki|Spikes|p1a: Klefki
+|-sidestart|p1: Tahiamoimeme|Spikes
+|
+|-heal|p2a: Klefki|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|-damage|p1a: Krookodile|88/100|[from] Spikes
+|-damage|p1a: Krookodile|82/100|[from] Stealth Rock
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Klefki|atk|1
+|move|p2a: Klefki|Spikes|p1a: Krookodile
+|-sidestart|p1: Tahiamoimeme|Spikes
+|
+|-heal|p2a: Klefki|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Krookodile|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: MS3D|move: Stealth Rock
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|-damage|p1a: Klefki|95/100|[from] Stealth Rock
+|-damage|p1a: Klefki|78/100|[from] Spikes
+|move|p2a: Tornadus|Superpower|p1a: Klefki
+|-crit|p1a: Klefki
+|-damage|p1a: Klefki|24/100
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|
+|-heal|p1a: Klefki|30/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|-damage|p2a: Manectric|76/100|[from] Spikes
+|-damage|p2a: Manectric|63/100|[from] Stealth Rock
+|move|p1a: Klefki|Thunder Wave|p2a: Manectric
+|-ability|p2a: Manectric|Lightning Rod|boost
+|-boost|p2a: Manectric|spa|1
+|
+|-heal|p1a: Klefki|36/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|detailschange|p2a: Manectric|Manectric-Mega, F
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Klefki|atk|1
+|move|p2a: Manectric|Hidden Power|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|23/100
+|move|p1a: Klefki|Play Rough|p2a: Manectric
+|-damage|p2a: Manectric|40/100
+|
+|-heal|p1a: Klefki|29/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|c|☆Tahiamoimeme|ce crit bordel
+
+|
+|move|p2a: Manectric|Flamethrower|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|11
+
+|c|☆MS3D|j'vois pas comment j'win
+
+|
+|switch|p2a: Klefki|Klefki, F|100/100
+|-damage|p2a: Klefki|76/100|[from] Spikes
+|-damage|p2a: Klefki|70/100|[from] Stealth Rock
+|move|p1a: Latias|Psychic|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|50/100
+|
+|-heal|p2a: Klefki|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|c|☆MS3D|tellement rain c'est pourri
+
+|
+|switch|p1a: Krookodile|Krookodile, M|82/100
+|-damage|p1a: Krookodile|66/100|[from] Spikes
+|-damage|p1a: Krookodile|60/100|[from] Stealth Rock
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Klefki|atk|1
+|move|p2a: Klefki|Play Rough|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|22/100
+|-enditem|p1a: Krookodile|Iapapa Berry|[eat]
+|-heal|p1a: Krookodile|72/100|[from] item: Iapapa Berry
+|
+|-heal|p2a: Klefki|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|c|☆Tahiamoimeme|lol
+
+|
+|move|p1a: Krookodile|Earthquake|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Tornadus|Hurricane|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, F|88/100
+|-damage|p1a: Latias|76/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: Latias|Draco Meteor|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Tornadus
+|
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|-damage|p2a: Mamoswine|63/100|[from] Spikes
+|turn|16
+
+|
+|switch|p1a: Mimikyu|Mimikyu, F, shiny|100/100
+|-damage|p1a: Mimikyu|84/100|[from] Spikes
+|-damage|p1a: Mimikyu|72/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Icicle Crash|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|72/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F, shiny
+|-damage|p2a: Mamoswine|53/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Mimikyu
+|-damage|p1a: Mimikyu|20/100
+|-damage|p2a: Mamoswine|43/100|[from] item: Life Orb
+|move|p1a: Mimikyu|Shadow Claw|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p1a: Mimikyu|10/100|[from] item: Life Orb
+|faint|p2a: Mamoswine
+|
+|upkeep
+
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|76/100|[from] Spikes
+|-damage|p2a: Politoed|63/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|18
+
+|
+|switch|p2a: Manectric|Manectric-Mega, F|40/100
+|-damage|p2a: Manectric|28/100|[from] Stealth Rock
+|-damage|p2a: Manectric|3/100|[from] Spikes
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Mimikyu|atk|1
+|move|p1a: Mimikyu|Play Rough|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-damage|p1a: Mimikyu|0 fnt|[from] item: Life Orb
+|faint|p2a: Manectric
+|faint|p1a: Mimikyu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Kabutops|Kabutops, M|100/100
+|switch|p1a: Latias|Latias, F|76/100
+|-damage|p1a: Latias|64/100|[from] Stealth Rock
+|-damage|p2a: Kabutops|88/100|[from] Stealth Rock
+|-damage|p2a: Kabutops|63/100|[from] Spikes
+|turn|19
+
+|
+|move|p1a: Latias|Psychic|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Politoed|Politoed, F|63/100
+|-damage|p2a: Politoed|51/100|[from] Stealth Rock
+|-damage|p2a: Politoed|26/100|[from] Spikes
+|turn|20
+
+|c|☆Tahiamoimeme|gg
+
+|c|☆MS3D|gg
+
+|
+|move|p1a: Latias|Psychic|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|win|Tahiamoimeme

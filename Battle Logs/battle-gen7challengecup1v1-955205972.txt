@@ -1,0 +1,71 @@
+|init|battle
+|title|G1TheClassic vs. kjijk
+|j|☆G1TheClassic
+|j|☆kjijk
+|j|*Lady Monita
+|player|p1|G1TheClassic|151|
+|player|p2|kjijk|teamrocket|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Challenge Cup 1v1
+|rated|Tournament battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Regigigas, L65|item
+|poke|p1|Plusle, L80, M|item
+|poke|p1|Spiritomb, L75, M|item
+|poke|p1|Muk-Alola, L74, M|item
+|poke|p1|Mudbray, L82, F|item
+|poke|p1|Fraxure, L80, M|item
+|poke|p2|Suicune, L69|item
+|poke|p2|Kommo-o, L68, F|item
+|poke|p2|Reshiram, L65|item
+|poke|p2|Snivy, L88, M|item
+|poke|p2|Buzzwole, L70|item
+|poke|p2|Vullaby, L82, F|item
+|teampreview|1
+
+|
+|start
+|switch|p1a: Regigigas|Regigigas, L65|100/100
+|switch|p2a: Suicune|Suicune, L69|100/100
+|-start|p1a: Regigigas|ability: Slow Start
+|-ability|p2a: Suicune|Pressure
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by G1TheClassic)
+
+|
+|move|p2a: Suicune|Whirlpool|p1a: Regigigas
+|-damage|p1a: Regigigas|88/100
+|-activate|p1a: Regigigas|move: Whirlpool|[of] p2a: Suicune
+|move|p1a: Regigigas|Rock Polish|p1a: Regigigas
+|-boost|p1a: Regigigas|spe|2
+|
+|-damage|p1a: Regigigas|75/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+
+|
+|move|p2a: Suicune|Hydro Pump|p1a: Regigigas
+|-damage|p1a: Regigigas|35/100
+|move|p1a: Regigigas|Revenge|p2a: Suicune
+|-damage|p2a: Suicune|80/100
+|
+|-damage|p1a: Regigigas|23/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+
+|c|☆G1TheClassic|gg
+
+|
+|move|p1a: Regigigas|Confide|p2a: Suicune
+|-unboost|p2a: Suicune|spa|1
+|move|p2a: Suicune|Hydro Pump|p1a: Regigigas
+|-damage|p1a: Regigigas|0 fnt
+|faint|p1a: Regigigas
+|-end|p1a: Regigigas|Slow Start|[silent]
+|
+|win|kjijk

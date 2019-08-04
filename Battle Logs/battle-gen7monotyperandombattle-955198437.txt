@@ -1,0 +1,235 @@
+|init|battle
+|title|imapenut vs. TNT-2019
+|j|☆imapenut
+|j|☆TNT-2019
+|player|p1|imapenut|266|1418
+|player|p2|TNT-2019|1|1351
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Silvally|Silvally, L89|100/100
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|move|p2a: Kyogre|Water Spout|p1a: Silvally
+|-damage|p1a: Silvally|23/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Silvally|29/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Kyogre|Water Spout|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆imapenut|Oh snap
+|
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|turn|3
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Meloetta
+|-damage|p1a: Meloetta|26/100
+|move|p1a: Meloetta|Hyper Voice|p2a: Kyogre
+|-damage|p2a: Kyogre|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Meloetta|32/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|c|☆imapenut|O.o
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|turn|5
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, M|100/100
+|move|p1a: Porygon-Z|Tri Attack|p2a: Clawitzer
+|-damage|p2a: Clawitzer|65/100
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|c|☆imapenut|Ngl it tempting to trick that thing
+
+|
+|move|p1a: Porygon-Z|Tri Attack|p2a: Clawitzer
+|-damage|p2a: Clawitzer|31/100
+|move|p2a: Clawitzer|Water Pulse|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|47/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Porygon-Z|Tri Attack|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|72/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|8
+
+|
+|move|p1a: Porygon-Z|Tri Attack|p2a: Kyogre
+|-damage|p2a: Kyogre|38/100
+|move|p2a: Kyogre|Water Spout|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|3/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Milotic|Milotic, L84, F|100/100
+|move|p1a: Porygon-Z|Tri Attack|p2a: Milotic
+|-damage|p2a: Milotic|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Swellow|Swellow, L84, M|100/100
+|move|p2a: Milotic|Dragon Tail|p1a: Swellow
+|-damage|p1a: Swellow|85/100
+|drag|p1a: Braviary|Braviary, L86, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|c|☆imapenut|Caaaaa caaaawwww
+
+|
+|move|p1a: Braviary|Brave Bird|p2a: Milotic
+|-damage|p2a: Milotic|6/100
+|-damage|p1a: Braviary|78/100|[from] Recoil
+|-damage|p1a: Braviary|68/100|[from] item: Life Orb
+|move|p2a: Milotic|Scald|p1a: Braviary
+|-damage|p1a: Braviary|23/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|12/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Braviary|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-damage|p1a: Braviary|13/100|[from] item: Life Orb
+|faint|p2a: Milotic
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|3/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Poliwrath|Poliwrath, L89, F|100/100
+|turn|13
+
+|
+|move|p1a: Porygon-Z|Tri Attack|p2a: Poliwrath
+|-damage|p2a: Poliwrath|59/100
+|move|p2a: Poliwrath|Scald|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|-heal|p2a: Poliwrath|65/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Braviary|Braviary, L86, M|13/100
+|turn|14
+
+|
+|switch|p2a: Carracosta|Carracosta, L88, M|100/100
+|move|p1a: Braviary|Brave Bird|p2a: Carracosta
+|-resisted|p2a: Carracosta
+|-damage|p2a: Carracosta|73/100
+|-damage|p1a: Braviary|5/100|[from] Recoil
+|-damage|p1a: Braviary|0 fnt|[from] item: Life Orb
+|faint|p1a: Braviary
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TNT-2019)
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: TNT-2019
+|turn|15
+
+|
+|move|p1a: Pyroar|Dark Pulse|p2a: Carracosta
+|-damage|p2a: Carracosta|36/100
+|-damage|p1a: Pyroar|91/100|[from] item: Life Orb
+|move|p2a: Carracosta|Shell Smash|p2a: Carracosta
+|-unboost|p2a: Carracosta|def|1
+|-unboost|p2a: Carracosta|spd|1
+|-boost|p2a: Carracosta|atk|2
+|-boost|p2a: Carracosta|spa|2
+|-boost|p2a: Carracosta|spe|2
+|-enditem|p2a: Carracosta|White Herb
+|-clearnegativeboost|p2a: Carracosta|[silent]
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Carracosta|Aqua Jet|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|9/100
+|move|p1a: Pyroar|Dark Pulse|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|-damage|p1a: Pyroar|0 fnt|[from] item: Life Orb
+|faint|p2a: Carracosta
+|faint|p1a: Pyroar
+|
+|upkeep
+
+|
+|switch|p1a: Swellow|Swellow, L84, M|85/100
+|switch|p2a: Kyogre|Kyogre, L78|38/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|17
+
+|
+|move|p2a: Kyogre|Thunder|p1a: Swellow
+|-supereffective|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|faint|p1a: Swellow
+|
+|win|TNT-2019

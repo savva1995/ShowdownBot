@@ -1,0 +1,311 @@
+|init|battle
+|title|Martoz vs. BioDark27
+|j|☆Martoz
+|j|☆BioDark27
+|player|p1|Martoz|56|1782
+|player|p2|BioDark27|92|1856
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Braviary|Braviary, L86, M|100/100
+|switch|p2a: Parasect|Parasect, L89, F|100/100
+|turn|1
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|76/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BioDark27)
+|
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Skarmory|Whirlwind|p1a: Braviary
+|drag|p1a: Palkia|Palkia, L78|100/100
+|-ability|p1a: Palkia|Pressure
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Blastoise|Blastoise, L84, M|100/100
+|move|p1a: Palkia|Fire Blast|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|85/100
+|
+|upkeep
+|turn|4
+|
+|detailschange|p2a: Blastoise|Blastoise-Mega, L84, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Palkia|Spacial Rend|p2a: Blastoise
+|-damage|p2a: Blastoise|45/100
+|move|p2a: Blastoise|Dark Pulse|p1a: Palkia
+|-damage|p1a: Palkia|79/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Gardevoir|Gardevoir, L84, F|100/100
+|-ability|p2a: Gardevoir|Pressure|[from] ability: Trace|[of] p1a: Palkia
+|-ability|p2a: Gardevoir|Pressure
+|move|p1a: Palkia|Spacial Rend|p2a: Gardevoir
+|-immune|p2a: Gardevoir
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Dugtrio|Dugtrio-Alola, L88, F|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Dugtrio
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|67/100
+|-unboost|p1a: Dugtrio|spa|1
+|
+|upkeep
+|turn|7
+|inactive|BioDark27 has 120 seconds left.
+|
+|switch|p1a: Victini|Victini, L80|100/100
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|
+|upkeep
+|turn|8
+|l|☆Martoz
+|inactive|Martoz disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Martoz
+|inactive|Martoz reconnected and has 140 seconds left.
+|player|p1|Martoz|56
+|
+|switch|p2a: Blastoise|Blastoise-Mega, L84, M|45/100
+|move|p1a: Victini|Bolt Strike|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|inactive|BioDark27 has 120 seconds left.
+|l|☆Martoz
+|inactive|Martoz disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Martoz
+|inactive|Martoz reconnected.
+|player|p1|Martoz|56
+|inactive|BioDark27 has 90 seconds left.
+|
+|switch|p2a: Durant|Durant, L83, M|100/100
+|turn|9
+|
+|move|p2a: Durant|Stone Edge|p1a: Victini|[miss]
+|-miss|p2a: Durant|p1a: Victini
+|move|p1a: Victini|Blue Flare|p2a: Durant
+|-supereffective|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|upkeep
+|
+|switch|p2a: Parasect|Parasect, L89, F|100/100
+|turn|10
+|
+|move|p1a: Victini|Blue Flare|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-enditem|p2a: Parasect|Focus Sash
+|-damage|p2a: Parasect|1/100
+|move|p2a: Parasect|Spore|p1a: Victini
+|-status|p1a: Victini|slp|[from] move: Spore
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|100/100
+|move|p2a: Parasect|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|87/100
+|-enditem|p1a: Togekiss|Leftovers|[from] move: Knock Off|[of] p2a: Parasect
+|
+|upkeep
+|turn|12
+|inactive|BioDark27 has 120 seconds left.
+
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|100/100
+|move|p1a: Togekiss|Heal Bell|p1a: Togekiss
+|-activate|p1a: Togekiss|move: Heal Bell
+|-curestatus|p1: Victini|slp|[msg]
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Togekiss|Air Slash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|78/100
+|move|p2a: Skarmory|Spikes|p1a: Togekiss
+|-sidestart|p1: Martoz|Spikes
+|
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Togekiss|Air Slash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|59/100
+|move|p2a: Skarmory|Whirlwind|p1a: Togekiss
+|drag|p1a: Dugtrio|Dugtrio-Alola, L88, F|67/100
+|-damage|p1a: Dugtrio|55/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|65/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|87/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Togekiss|Defog|p2a: Skarmory
+|-unboost|p2a: Skarmory|evasion|1
+|-sideend|p1: Martoz|Spikes|[from] move: Defog|[of] p1a: Togekiss
+|move|p2a: Skarmory|Spikes|p1a: Togekiss
+|-sidestart|p1: Martoz|Spikes
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Togekiss|Air Slash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|79/100
+|cant|p2a: Skarmory|flinch
+|
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Togekiss|Defog|p2a: Skarmory
+|-unboost|p2a: Skarmory|evasion|1
+|-sideend|p1: Martoz|Spikes|[from] move: Defog|[of] p1a: Togekiss
+|move|p2a: Skarmory|Whirlwind|p1a: Togekiss
+|drag|p1a: Dugtrio|Dugtrio-Alola, L88, F|55/100
+|
+|-heal|p2a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Leavanny|Leavanny, L89, F|100/100
+|move|p2a: Skarmory|Brave Bird|p1a: Leavanny
+|-supereffective|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|-damage|p2a: Skarmory|52/100|[from] Recoil
+|faint|p1a: Leavanny
+|
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Victini|Victini, L80|100/100
+|turn|20
+
+|
+|switch|p2a: Parasect|Parasect, L89, F|1/100
+|move|p1a: Victini|Blue Flare|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|upkeep
+
+|
+|switch|p2a: Alakazam|Alakazam, L81, F|100/100
+|turn|21
+
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|65/100
+|move|p1a: Victini|U-turn|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|33/100
+
+|
+|switch|p1a: Dugtrio|Dugtrio-Alola, L88, F|55/100|[from]move: U-turn
+|
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Skarmory|Skarmory, L80, M|58/100
+|move|p1a: Dugtrio|Stone Edge|p2a: Skarmory
+|-damage|p2a: Skarmory|28/100
+|-damage|p1a: Dugtrio|45/100|[from] item: Life Orb
+|
+|-heal|p2a: Skarmory|34/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Victini|Victini, L80|65/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|84/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p2a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Victini|Blue Flare|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+
+|
+|switch|p2a: Alakazam|Alakazam, L81, F|33/100
+|turn|25
+
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|25/100
+|move|p1a: Victini|U-turn|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+
+|
+|switch|p1a: Braviary|Braviary, L86, M|76/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p2a: Gardevoir|Gardevoir, L84, F|100/100
+|-ability|p2a: Gardevoir|Sheer Force|[from] ability: Trace|[of] p1a: Braviary
+|turn|26
+
+|
+|-zpower|p1a: Braviary
+|move|p1a: Braviary|Supersonic Skystrike|p2a: Gardevoir|[zeffect]
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|win|Martoz

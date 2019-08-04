@@ -1,0 +1,258 @@
+|init|battle
+|title|wishful thinking 1 vs. xMagic_77
+|j|☆wishful thinking 1
+|j|☆xMagic_77
+|player|p1|wishful thinking 1|265|2292
+|player|p2|xMagic_77|269|2173
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Altaria|Altaria, L82, F|100/100
+|switch|p2a: Banette|Banette, L84, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xMagic_77)
+|l|☆xMagic_77
+|inactive|xMagic_77 disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆xMagic_77
+|inactive|xMagic_77 reconnected and has 130 seconds left.
+|player|p2|xMagic_77|269
+|inactive|xMagic_77 has 120 seconds left.
+|
+|switch|p1a: Mew|Mew, L80|100/100
+|detailschange|p2a: Banette|Banette-Mega, L84, M
+|-mega|p2a: Banette|Banette|Banettite
+|move|p2a: Banette|Taunt|p1a: Mew
+|-start|p1a: Mew|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Entei|Entei, L83|100/100
+|-ability|p2a: Entei|Pressure
+|move|p1a: Mew|Psyshock|p2a: Entei
+|-damage|p2a: Entei|75/100
+|
+|upkeep
+|turn|3
+|l|☆xMagic_77
+|inactive|xMagic_77 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|xMagic_77 has 30 seconds to reconnect!
+|j|☆xMagic_77
+|inactive|xMagic_77 reconnected and has 100 seconds left.
+|player|p2|xMagic_77|269
+|
+|move|p2a: Entei|Sacred Fire|p1a: Mew
+|-damage|p1a: Mew|39/100
+|move|p1a: Mew|Psyshock|p2a: Entei
+|-damage|p2a: Entei|51/100
+|
+|-heal|p1a: Mew|45/100|[from] item: Leftovers
+|-end|p1a: Mew|move: Taunt
+|upkeep
+|turn|4
+|
+|switch|p1a: Chandelure|Chandelure, L82, F|100/100
+|move|p2a: Entei|Sacred Fire|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-crit|p1a: Chandelure
+|-damage|p1a: Chandelure|44/100
+|
+|upkeep
+|turn|5
+|inactive|xMagic_77 has 90 seconds left.
+|
+|switch|p2a: Cinccino|Cinccino, L87, F|100/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Cinccino
+|-immune|p2a: Cinccino
+|
+|upkeep
+|turn|6
+|inactive|xMagic_77 has 90 seconds left.
+|
+|switch|p1a: Breloom|Breloom, L81, M|100/100
+|move|p2a: Cinccino|Rock Blast|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|94/100
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|87/100
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|81/100
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|74/100
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|68/100
+|-hitcount|p1a: Breloom|5
+|
+|-heal|p1a: Breloom|74/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|xMagic_77 has 90 seconds left.
+|
+|switch|p2a: Banette|Banette-Mega, L84, M|100/100
+|move|p1a: Breloom|Bullet Seed|p2a: Banette
+|-damage|p2a: Banette|79/100
+|-damage|p2a: Banette|58/100
+|-damage|p2a: Banette|36/100
+|-hitcount|p2a: Banette|3
+|
+|-heal|p1a: Breloom|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Chandelure|Chandelure, L82, F|44/100
+|move|p2a: Banette|Shadow Claw|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|inactive|wishful thinking 1 has 120 seconds left.
+|
+|switch|p1a: Minior|Minior, L86|100/100
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|9
+|inactive|xMagic_77 has 90 seconds left.
+|inactive|wishful thinking 1 has 120 seconds left.
+|
+|move|p2a: Banette|Shadow Claw|p1a: Minior
+|-damage|p1a: Minior|59/100
+|move|p1a: Minior|Acrobatics|p2a: Banette
+|-damage|p2a: Banette|16/100
+|
+|upkeep
+|turn|10
+|inactive|wishful thinking 1 has 120 seconds left.
+|inactive|xMagic_77 has 90 seconds left.
+|
+|move|p2a: Banette|Shadow Claw|p1a: Minior
+|-damage|p1a: Minior|15/100
+|move|p1a: Minior|Power Gem|p2a: Banette
+|-damage|p2a: Banette|0 fnt
+|faint|p2a: Banette
+|
+|-formechange|p1a: Minior|Minior||[from] ability: Shields Down
+|upkeep
+|inactive|xMagic_77 has 90 seconds left.
+|inactive|xMagic_77 has 60 seconds left.
+|
+|switch|p2a: Kartana|Kartana, L80|100/100
+|turn|11
+
+|inactive|wishful thinking 1 has 120 seconds left.
+
+|
+|move|p1a: Minior|Acrobatics|p2a: Kartana
+|-damage|p2a: Kartana|79/100
+|move|p2a: Kartana|Smart Strike|p1a: Minior
+|-supereffective|p1a: Minior
+|-damage|p1a: Minior|0 fnt
+|-damage|p2a: Kartana|70/100|[from] item: Life Orb
+|faint|p1a: Minior
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|inactive|wishful thinking 1 has 120 seconds left.
+
+|
+|switch|p1a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|12
+
+|
+|switch|p1a: Altaria|Altaria, L82, F|100/100
+|move|p2a: Kartana|Leaf Blade|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|70/100
+|-damage|p2a: Kartana|60/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+
+|inactive|xMagic_77 has 90 seconds left.
+
+|
+|move|p2a: Kartana|Smart Strike|p1a: Altaria
+|-crit|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|-damage|p2a: Kartana|50/100|[from] item: Life Orb
+|faint|p1a: Altaria
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Breloom|Breloom, L81, M|80/100
+|turn|14
+
+|
+|switch|p2a: Latios|Latios, L81, M|100/100
+|move|p1a: Breloom|Mach Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|86/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Mew|Mew, L80|45/100
+|move|p2a: Latios|Psyshock|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mew|32/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Latios|Draco Meteor|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Mew
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|17
+
+|inactive|xMagic_77 has 120 seconds left.
+
+|
+|switch|p2a: Kartana|Kartana, L80|50/100
+|move|p1a: Kyogre|Ice Beam|p2a: Kartana
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|xMagic_77 has 120 seconds left.
+
+|
+|switch|p2a: Muk|Muk-Alola, L82, M|100/100
+|turn|18
+
+|-message|wishful thinking 1 forfeited.
+
+|
+|win|xMagic_77

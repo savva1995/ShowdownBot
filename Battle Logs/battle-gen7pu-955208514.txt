@@ -1,0 +1,333 @@
+|init|battle
+|title|nayfury vs. Hellsaw
+|j|☆nayfury
+|j|☆Hellsaw
+|player|p1|nayfury|190|1055
+|player|p2|Hellsaw|10|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vespiquen, F|item
+|poke|p1|Sawsbuck-Autumn, M|item
+|poke|p1|Meowstic, M|item
+|poke|p1|Flareon, F|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Regirock|item
+|poke|p2|Eelektross, F|item
+|poke|p2|Bastiodon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hellsaw)
+|
+|start
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|turn|1
+|
+|move|p2a: Regirock|Stealth Rock|p1a: Armaldo
+|-sidestart|p1: nayfury|move: Stealth Rock
+|move|p1a: Armaldo|Knock Off|p2a: Regirock
+|-damage|p2a: Regirock|87/100
+|-enditem|p2a: Regirock|Leftovers|[from] move: Knock Off|[of] p1a: Armaldo
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Regirock|Stone Edge|p1a: Armaldo
+|-supereffective|p1a: Armaldo
+|-damage|p1a: Armaldo|23/100
+|move|p1a: Armaldo|Toxic|p2a: Regirock
+|-status|p2a: Regirock|tox
+|
+|-heal|p1a: Armaldo|29/100|[from] item: Leftovers
+|-damage|p2a: Regirock|81/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Regirock|Stone Edge|p1a: Armaldo
+|-supereffective|p1a: Armaldo
+|-crit|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|-damage|p2a: Regirock|69/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Sawsbuck|Sawsbuck-Autumn, M|100/100
+|-damage|p1a: Sawsbuck|88/100|[from] Stealth Rock
+|turn|4
+
+|
+|move|p1a: Sawsbuck|Agility|p1a: Sawsbuck
+|-boost|p1a: Sawsbuck|spe|2
+|move|p2a: Regirock|Thunder Wave|p1a: Sawsbuck
+|-status|p1a: Sawsbuck|par
+|
+|-damage|p2a: Regirock|50/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p1a: Sawsbuck|Horn Leech|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|19/100 tox
+|-heal|p1a: Sawsbuck|100/100 par|[from] drain|[of] p2a: Regirock
+|move|p2a: Regirock|Stone Edge|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|38/100 par
+|
+|-damage|p2a: Regirock|0 fnt|[from] psn
+|faint|p2a: Regirock
+|upkeep
+
+|
+|switch|p2a: Bastiodon|Bastiodon, F|100/100
+|turn|6
+
+|
+|switch|p1a: Meowstic|Meowstic, M|100/100
+|-damage|p1a: Meowstic|88/100|[from] Stealth Rock
+|move|p2a: Bastiodon|Protect||[still]
+|-fail|p2a: Bastiodon
+|
+|-heal|p1a: Meowstic|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Meowstic|Thunder Wave|p2a: Bastiodon
+|-status|p2a: Bastiodon|par
+|cant|p2a: Bastiodon|par
+|
+|-heal|p1a: Meowstic|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Meowstic|Heal Bell|p1a: Meowstic
+|-activate|p1a: Meowstic|move: Heal Bell
+|-curestatus|p1: Sawsbuck|par|[msg]
+|move|p2a: Bastiodon|Toxic|p1a: Meowstic
+|-status|p1a: Meowstic|tox
+|
+|-damage|p1a: Meowstic|94/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|-damage|p1a: Rotom|75/100|[from] Stealth Rock
+|move|p2a: Bastiodon|Iron Head|p1a: Rotom
+|-damage|p1a: Rotom|61/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Rotom|Defog|p2a: Bastiodon
+|-unboost|p2a: Bastiodon|evasion|1
+|-sideend|p1: nayfury|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|move|p2a: Bastiodon|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-damage|p1a: Rotom|54/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|cant|p2a: Bastiodon|par
+|move|p1a: Rotom|Pain Split|p2a: Bastiodon
+|-sethp|p2a: Bastiodon|76/100 par|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|81/100 tox|[from] move: Pain Split
+|
+|-heal|p2a: Bastiodon|82/100 par|[from] item: Leftovers
+|-damage|p1a: Rotom|68/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Meowstic|Meowstic, M|94/100 tox
+|move|p2a: Bastiodon|Protect||[still]
+|-fail|p2a: Bastiodon
+|
+|-heal|p1a: Meowstic|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Bastiodon|88/100 par|[from] item: Leftovers
+|-damage|p1a: Meowstic|94/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Meowstic|Heal Bell|p1a: Meowstic
+|-activate|p1a: Meowstic|move: Heal Bell
+|-curestatus|p1a: Meowstic|tox|[msg]
+|-curestatus|p1: Rotom|tox|[msg]
+|move|p2a: Bastiodon|Stealth Rock|p1a: Meowstic
+|-sidestart|p1: nayfury|move: Stealth Rock
+|
+|-heal|p1a: Meowstic|100/100|[from] item: Leftovers
+|-heal|p2a: Bastiodon|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Meowstic|Magic Coat|p1a: Meowstic
+|-singleturn|p1a: Meowstic|move: Magic Coat
+|cant|p2a: Bastiodon|par
+|
+|-heal|p2a: Bastiodon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Flareon|Flareon, F|100/100
+|-damage|p1a: Flareon|75/100|[from] Stealth Rock
+|move|p2a: Bastiodon|Toxic|p1a: Flareon
+|-status|p1a: Flareon|tox
+|
+|-damage|p1a: Flareon|69/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Flareon|Superpower|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-damage|p1a: Flareon|57/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Rotom|Rotom-Frost|68/100
+|-damage|p1a: Rotom|43/100|[from] Stealth Rock
+|move|p2a: Jellicent|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|upkeep
+|turn|18
+
+|
+|-zpower|p1a: Rotom
+|move|p1a: Rotom|Subzero Slammer|p2a: Jellicent|[zeffect]
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|72/100
+|move|p2a: Jellicent|Scald|p1a: Rotom
+|-damage|p1a: Rotom|23/100
+|
+|-heal|p2a: Jellicent|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Meowstic|Meowstic, M|100/100
+|-damage|p1a: Meowstic|88/100|[from] Stealth Rock
+|move|p2a: Jellicent|Scald|p1a: Meowstic
+|-crit|p1a: Meowstic
+|-damage|p1a: Meowstic|54/100
+|
+|-heal|p1a: Meowstic|60/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|84/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Meowstic|Magic Coat|p1a: Meowstic
+|-singleturn|p1a: Meowstic|move: Magic Coat
+|move|p2a: Jellicent|Scald|p1a: Meowstic
+|-damage|p1a: Meowstic|37/100
+|
+|-heal|p1a: Meowstic|43/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|90/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Meowstic|Thunder Wave|p2a: Jellicent
+|-status|p2a: Jellicent|par
+|move|p2a: Jellicent|Scald|p1a: Meowstic
+|-damage|p1a: Meowstic|22/100
+|-status|p1a: Meowstic|brn
+|
+|-heal|p1a: Meowstic|29/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|96/100 par|[from] item: Leftovers
+|-damage|p1a: Meowstic|22/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Meowstic|Heal Bell|p1a: Meowstic
+|-activate|p1a: Meowstic|move: Heal Bell
+|-curestatus|p1a: Meowstic|brn|[msg]
+|-curestatus|p1: Flareon|tox|[msg]
+|move|p2a: Jellicent|Scald|p1a: Meowstic
+|-damage|p1a: Meowstic|0 fnt
+|faint|p1a: Meowstic
+|
+|-heal|p2a: Jellicent|100/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Sawsbuck|Sawsbuck-Autumn, M|38/100
+|-damage|p1a: Sawsbuck|25/100|[from] Stealth Rock
+|turn|23
+
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|move|p1a: Sawsbuck|Swords Dance|p1a: Sawsbuck
+|-boost|p1a: Sawsbuck|atk|2
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Sawsbuck|Horn Leech|p2a: Aggron
+|-damage|p2a: Aggron|62/100
+|-heal|p1a: Sawsbuck|43/100|[from] drain|[of] p2a: Aggron
+|move|p2a: Aggron|Head Smash|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|0 fnt
+|faint|p1a: Sawsbuck
+|
+|upkeep
+
+|
+|switch|p1a: Flareon|Flareon, F|57/100
+|-damage|p1a: Flareon|32/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p1a: Flareon|Flare Blitz|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|-damage|p1a: Flareon|6/100|[from] Recoil
+|faint|p2a: Aggron
+|
+|upkeep
+
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|turn|26
+
+|
+|move|p2a: Cryogonal|Knock Off|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|-enditem|p1a: Flareon|Choice Band|[from] move: Knock Off|[of] p2a: Cryogonal
+|faint|p1a: Flareon
+|
+|upkeep
+
+|-message|nayfury forfeited.
+
+|
+|win|Hellsaw

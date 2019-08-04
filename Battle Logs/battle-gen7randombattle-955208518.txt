@@ -1,0 +1,181 @@
+|init|battle
+|title|Snowwww vs. Loki-Shura
+|j|☆Snowwww
+|j|☆Loki-Shura
+|player|p1|Snowwww|43|1397
+|player|p2|Loki-Shura|260|1366
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nihilego|Nihilego, L82|100/100
+|switch|p2a: Gastrodon|Gastrodon, L88, F|100/100
+|-item|p1a: Nihilego|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Snowwww)
+|
+|move|p1a: Nihilego|Stealth Rock|p2a: Gastrodon
+|-sidestart|p2: Loki-Shura|move: Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|56/100
+|-enditem|p1a: Nihilego|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Nihilego|Toxic Spikes|p2a: Gastrodon
+|-sidestart|p2: Loki-Shura|move: Toxic Spikes
+|move|p2a: Gastrodon|Earthquake|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|
+|upkeep
+|
+|switch|p1a: Slowking|Slowking, L86, F|100/100
+|turn|3
+|
+|switch|p2a: Uxie|Uxie, L84|100/100
+|-damage|p2a: Uxie|88/100|[from] Stealth Rock
+|move|p1a: Slowking|Grass Knot|p2a: Uxie
+|-damage|p2a: Uxie|83/100
+|
+|-heal|p2a: Uxie|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Uxie|Yawn|p1a: Slowking
+|-start|p1a: Slowking|move: Yawn|[of] p2a: Uxie
+|move|p1a: Slowking|Nasty Plot|p1a: Slowking
+|-boost|p1a: Slowking|spa|2
+|
+|-heal|p2a: Uxie|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Uxie|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|60/100
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Uxie
+|move|p1a: Slowking|Scald|p2a: Uxie
+|-damage|p2a: Uxie|42/100
+|
+|-heal|p2a: Uxie|48/100|[from] item: Leftovers
+|-end|p1a: Slowking|move: Yawn|[silent]
+|-status|p1a: Slowking|slp
+|upkeep
+|turn|6
+
+|
+|move|p2a: Uxie|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|31/100 slp
+|cant|p1a: Slowking|slp
+|
+|-heal|p2a: Uxie|54/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Uxie|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+
+|
+|switch|p2a: Breloom|Breloom, L81, M|100/100|[from]move: U-turn
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|-status|p2a: Breloom|psn
+|
+|-damage|p2a: Breloom|82/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, L83, M|100/100
+|turn|8
+
+|
+|move|p1a: Mienshao|Fake Out|p2a: Breloom
+|-damage|p2a: Breloom|62/100 psn
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|cant|p2a: Breloom|flinch
+|
+|-damage|p2a: Breloom|50/100 psn|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Mienshao
+|-damage|p1a: Mienshao|37/100
+|-damage|p2a: Breloom|40/100 psn|[from] item: Life Orb
+|move|p1a: Mienshao|U-turn|p2a: Breloom
+|-damage|p2a: Breloom|4/100 psn
+|-damage|p1a: Mienshao|28/100|[from] item: Life Orb
+
+|
+|switch|p1a: Cresselia|Cresselia, L84, F|100/100|[from]move: U-turn
+|
+|-damage|p2a: Breloom|0 fnt|[from] psn
+|faint|p2a: Breloom
+|upkeep
+
+|
+|switch|p2a: Uxie|Uxie, L84|54/100
+|-damage|p2a: Uxie|42/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p2a: Uxie|Yawn|p1a: Cresselia
+|-start|p1a: Cresselia|move: Yawn|[of] p2a: Uxie
+|move|p1a: Cresselia|Thunder Wave|p2a: Uxie
+|-status|p2a: Uxie|par
+|
+|-heal|p2a: Uxie|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Excadrill|Excadrill, L80, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Uxie|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|74/100
+|-enditem|p1a: Excadrill|Life Orb|[from] move: Knock Off|[of] p2a: Uxie
+|
+|-heal|p2a: Uxie|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Uxie|Yawn|p1a: Excadrill
+|-start|p1a: Excadrill|move: Yawn|[of] p2a: Uxie
+|
+|-heal|p2a: Uxie|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Excadrill|Iron Head|p2a: Uxie
+|-damage|p2a: Uxie|5/100 par
+|move|p2a: Uxie|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|56/100
+|
+|-heal|p2a: Uxie|11/100 par|[from] item: Leftovers
+|-end|p1a: Excadrill|move: Yawn|[silent]
+|-status|p1a: Excadrill|slp
+|upkeep
+|turn|14
+
+|-message|Snowwww forfeited.
+
+|
+|win|Loki-Shura

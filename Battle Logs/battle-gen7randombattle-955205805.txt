@@ -1,0 +1,324 @@
+|init|battle
+|title|OG_Bazterd vs. JackassNoob
+|j|☆OG_Bazterd
+|j|☆JackassNoob
+|player|p1|OG_Bazterd|102|1438
+|player|p2|JackassNoob|7|1385
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chandelure|Chandelure, L82, M|100/100
+|switch|p2a: Gourgeist|Gourgeist-Super, L89, F|100/100
+|-item|p1a: Chandelure|Focus Sash|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|1
+|
+|switch|p2a: Charizard|Charizard, L80, M|100/100
+|move|p1a: Chandelure|Fire Blast|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|69/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L80, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|100/100
+|-singleturn|p2a: Charizard|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, F|100/100
+|-ability|p1a: Spiritomb|Pressure
+|switch|p2a: Magnezone|Magnezone, L80|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|move|p1a: Spiritomb|Dark Pulse|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Spiritomb
+|-damage|p1a: Spiritomb|64/100
+|move|p1a: Spiritomb|Dark Pulse|p2a: Magnezone
+|-damage|p2a: Magnezone|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Magnezone|47/100|[from] item: Leftovers
+|-heal|p1a: Spiritomb|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Spiritomb
+|-damage|p1a: Spiritomb|34/100
+|move|p1a: Spiritomb|Dark Pulse|p2a: Magnezone
+|-damage|p2a: Magnezone|9/100
+|
+|-weather|none
+|-heal|p2a: Magnezone|15/100|[from] item: Leftovers
+|-heal|p1a: Spiritomb|40/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Spiritomb
+|-damage|p1a: Spiritomb|2/100
+|-status|p1a: Spiritomb|par
+|move|p1a: Spiritomb|Rest|p1a: Spiritomb
+|-status|p1a: Spiritomb|slp|[from] move: Rest
+|-heal|p1a: Spiritomb|100/100 slp|[silent]
+|
+|-heal|p2a: Magnezone|21/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Spiritomb
+|-damage|p1a: Spiritomb|60/100 slp
+|cant|p1a: Spiritomb|slp
+|move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+|move|p1a: Spiritomb|Rest|p1a: Spiritomb|[from]Sleep Talk
+|-fail|p1a: Spiritomb
+|
+|-heal|p2a: Magnezone|27/100|[from] item: Leftovers
+|-heal|p1a: Spiritomb|66/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Spiritomb
+|-crit|p1a: Spiritomb
+|-damage|p1a: Spiritomb|5/100 slp
+|cant|p1a: Spiritomb|slp
+|move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Magnezone|[from]Sleep Talk
+|-status|p2a: Magnezone|brn
+|
+|-heal|p2a: Magnezone|33/100 brn|[from] item: Leftovers
+|-heal|p1a: Spiritomb|11/100 slp|[from] item: Leftovers
+|-damage|p2a: Magnezone|27/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|-heal|p2a: Magnezone|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Magnezone|27/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham, L86, M|100/100
+|turn|11
+
+|
+|move|p1a: Medicham|Zen Headbutt|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, L89, F|100/100
+|-item|p1a: Medicham|Choice Band|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|12
+
+|
+|switch|p1a: Clefable|Clefable, L80, M|100/100
+|move|p2a: Gourgeist|Substitute|p2a: Gourgeist
+|-start|p2a: Gourgeist|Substitute
+|-damage|p2a: Gourgeist|75/100
+|
+|-heal|p2a: Gourgeist|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Clefable
+|-damage|p1a: Clefable|58/100
+|move|p1a: Clefable|Moonblast|p2a: Gourgeist
+|-end|p2a: Gourgeist|Substitute
+|
+|-heal|p2a: Gourgeist|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Clefable
+|-damage|p1a: Clefable|16/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Gourgeist|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Gourgeist|99/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Chandelure|Chandelure, L82, M|100/100
+|turn|16
+
+|
+|move|p2a: Gourgeist|Shadow Sneak|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|56/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|23/100
+|
+|-heal|p2a: Gourgeist|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Gourgeist|Shadow Sneak|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|11/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|upkeep
+
+|
+|switch|p2a: Heracross|Heracross, L83, F|100/100
+|turn|18
+
+|
+|move|p2a: Heracross|Knock Off|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-enditem|p1a: Chandelure|Focus Sash|[from] move: Knock Off|[of] p2a: Heracross
+|faint|p1a: Chandelure
+|
+|-status|p2a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham, L86, M|100/100
+|turn|19
+
+|
+|move|p2a: Heracross|Knock Off|p1a: Medicham
+|-damage|p1a: Medicham|45/100
+|-enditem|p1a: Medicham|Choice Band|[from] move: Knock Off|[of] p2a: Heracross
+|move|p1a: Medicham|Zen Headbutt|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|upkeep
+
+|
+|switch|p2a: Charizard|Charizard-Mega-Y, L80, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|turn|20
+
+|
+|move|p2a: Charizard|Air Slash|p1a: Medicham
+|-supereffective|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sharpedo|Sharpedo, L82, M|100/100
+|turn|21
+
+|
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam|p1a: Sharpedo
+|-anim|p2a: Charizard|Solar Beam|p1a: Sharpedo
+|-supereffective|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|turn|22
+
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam|p1a: Manaphy
+|-anim|p2a: Charizard|Solar Beam|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Manaphy|31/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|c|☆JackassNoob|I was scared of rain dange
+
+|c|☆JackassNoob|dance*
+
+|
+|move|p1a: Manaphy|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Manaphy|37/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, L81, F|100/100
+|turn|24
+
+|c|☆OG_Bazterd|Nah, problematic mons wit different sets
+
+|
+|move|p2a: Weavile|Knock Off|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|-enditem|p1a: Manaphy|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Manaphy
+|
+|win|JackassNoob

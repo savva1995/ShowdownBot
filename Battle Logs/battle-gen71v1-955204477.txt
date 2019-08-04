@@ -1,0 +1,57 @@
+|init|battle
+|title|telepokemon vs. doodlegameur
+|j|☆telepokemon
+|j|☆doodlegameur
+|player|p1|telepokemon|1|1105
+|player|p2|doodlegameur|72|1171
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Pikachu, F|item
+|poke|p1|Venusaur, M|item
+|poke|p2|Slowbro, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Medicham, M|item
+|teampreview|1
+|j| maxpyro
+|j| DarkDavidYT
+|
+|start
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|1
+|
+|detailschange|p2a: Alakazam|Alakazam-Mega, F
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Lightning Rod|[from] ability: Trace|[of] p1a: Pikachu
+|move|p1a: Pikachu|Fake Out|p2a: Alakazam
+|-damage|p2a: Alakazam|66/100
+|cant|p2a: Alakazam|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Pikachu|Quick Attack|p2a: Alakazam
+|-damage|p2a: Alakazam|29/100
+|move|p2a: Alakazam|Psyshock|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|win|doodlegameur
+|l|☆telepokemon
+|l|☆doodlegameur
+|raw|telepokemon's rating: 1105 &rarr; <strong>1084</strong><br />(-21 for losing)
+|raw|doodlegameur's rating: 1171 &rarr; <strong>1191</strong><br />(+20 for winning)

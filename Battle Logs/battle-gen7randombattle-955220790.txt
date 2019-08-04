@@ -1,0 +1,402 @@
+|init|battle
+|title|secretleviathan vs. St4rF0rc3
+|j|☆secretleviathan
+|j|☆St4rF0rc3
+|player|p1|secretleviathan|110|2067
+|player|p2|St4rF0rc3|101|1908
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Manectric|Manectric, L82, F|100/100
+|switch|p2a: Beheeyem|Beheeyem, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by St4rF0rc3)
+|
+|detailschange|p1a: Manectric|Manectric-Mega, L82, F
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Beheeyem|atk|1
+|move|p1a: Manectric|Volt Switch|p2a: Beheeyem
+|-damage|p2a: Beheeyem|72/100
+|
+|switch|p1a: Slowking|Slowking, L86, F|100/100|[from]move: Volt Switch
+|move|p2a: Beheeyem|Psyshock|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|76/100
+|
+|-heal|p1a: Slowking|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Beheeyem|Nasty Plot|p2a: Beheeyem
+|-boost|p2a: Beheeyem|spa|2
+|move|p1a: Slowking|Scald|p2a: Beheeyem
+|-damage|p2a: Beheeyem|44/100
+|
+|-heal|p1a: Slowking|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Beheeyem|Signal Beam|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|14/100
+|move|p1a: Slowking|Scald|p2a: Beheeyem
+|-damage|p2a: Beheeyem|16/100
+|-status|p2a: Beheeyem|brn
+|
+|-heal|p1a: Slowking|20/100|[from] item: Leftovers
+|-damage|p2a: Beheeyem|9/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Tapu Fini|Tapu Fini, L80|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Beheeyem|Psyshock|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|4/100
+|
+|-heal|p1a: Tapu Fini|10/100|[from] item: Leftovers
+|-damage|p2a: Beheeyem|3/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Tapu Fini|Moonblast|p2a: Beheeyem
+|-damage|p2a: Beheeyem|0 fnt
+|faint|p2a: Beheeyem
+|
+|-heal|p1a: Tapu Fini|17/100|[from] item: Leftovers
+|upkeep
+|inactive|St4rF0rc3 has 120 seconds left.
+|
+|switch|p2a: Froslass|Froslass, L88, F|100/100
+|turn|6
+|inactive|secretleviathan has 120 seconds left.
+|inactive|St4rF0rc3 has 120 seconds left.
+|
+|switch|p1a: Illumise|Illumise, L89, F|100/100
+|move|p2a: Froslass|Shadow Ball|p1a: Illumise
+|-damage|p1a: Illumise|69/100
+|
+|-heal|p1a: Illumise|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|secretleviathan has 120 seconds left.
+|inactive|St4rF0rc3 has 120 seconds left.
+|
+|switch|p2a: Escavalier|Escavalier, L84, F|100/100
+|move|p1a: Illumise|Wish|p1a: Illumise
+|
+|-heal|p1a: Illumise|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|secretleviathan has 120 seconds left.
+|inactive|St4rF0rc3 has 120 seconds left.
+|inactive|St4rF0rc3 has 90 seconds left.
+|
+|switch|p1a: Manectric|Manectric-Mega, L82, F|100/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Escavalier|atk|1
+|move|p2a: Escavalier|Swords Dance|p2a: Escavalier
+|-boost|p2a: Escavalier|atk|2
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|9
+|inactive|St4rF0rc3 has 90 seconds left.
+|inactive|secretleviathan has 90 seconds left.
+|
+|switch|p2a: Dialga|Dialga, L78|100/100
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Manectric|Overheat|p2a: Dialga
+|-damage|p2a: Dialga|65/100
+|-unboost|p1a: Manectric|spa|2
+|
+|-heal|p2a: Dialga|71/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|St4rF0rc3 has 90 seconds left.
+|
+|move|p1a: Manectric|Volt Switch|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|62/100
+|inactive|secretleviathan has 60 seconds left.
+|
+|switch|p1a: Slowking|Slowking, L86, F|53/100|[from]move: Volt Switch
+|move|p2a: Dialga|Stealth Rock|p1a: Slowking
+|-sidestart|p1: secretleviathan|move: Stealth Rock
+|
+|-heal|p2a: Dialga|68/100|[from] item: Leftovers
+|-heal|p1a: Slowking|60/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|secretleviathan has 60 seconds left.
+|
+|switch|p1a: Illumise|Illumise, L89, F|81/100
+|-damage|p1a: Illumise|56/100|[from] Stealth Rock
+|move|p2a: Dialga|Thunderbolt|p1a: Illumise
+|-damage|p1a: Illumise|24/100
+|
+|-heal|p1a: Illumise|30/100|[from] item: Leftovers
+|-heal|p2a: Dialga|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|secretleviathan has 60 seconds left.
+|
+|move|p1a: Illumise|U-turn|p2a: Dialga
+|-resisted|p2a: Dialga
+|-crit|p2a: Dialga
+|-damage|p2a: Dialga|64/100
+|
+|switch|p1a: Snorlax|Snorlax, L84, F|100/100|[from]move: U-turn
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|move|p2a: Dialga|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|72/100
+|
+|-heal|p2a: Dialga|70/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|St4rF0rc3 has 120 seconds left.
+|
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|move|p2a: Dialga|Roar|p1a: Snorlax
+|drag|p1a: Illumise|Illumise, L89, F|30/100
+|-damage|p1a: Illumise|6/100|[from] Stealth Rock
+|
+|-heal|p1a: Illumise|12/100|[from] item: Leftovers
+|-heal|p2a: Dialga|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|St4rF0rc3 has 120 seconds left.
+|inactive|secretleviathan has 60 seconds left.
+|
+|move|p1a: Illumise|Thunder Wave|p2a: Dialga
+|-status|p2a: Dialga|par
+|move|p2a: Dialga|Roar|p1a: Illumise
+|drag|p1a: Slowking|Slowking, L86, F|93/100
+|-damage|p1a: Slowking|80/100|[from] Stealth Rock
+|
+|-heal|p1a: Slowking|87/100|[from] item: Leftovers
+|-heal|p2a: Dialga|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|St4rF0rc3 has 120 seconds left.
+|
+|move|p1a: Slowking|Nasty Plot|p1a: Slowking
+|-boost|p1a: Slowking|spa|2
+|move|p2a: Dialga|Thunderbolt|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|44/100
+|
+|-heal|p1a: Slowking|50/100|[from] item: Leftovers
+|-heal|p2a: Dialga|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|secretleviathan has 30 seconds left.
+|
+|move|p1a: Slowking|Fire Blast|p2a: Dialga
+|-damage|p2a: Dialga|31/100 par
+|move|p2a: Dialga|Roar|p1a: Slowking
+|drag|p1a: Illumise|Illumise, L89, F|12/100
+|-damage|p1a: Illumise|0 fnt|[from] Stealth Rock
+|faint|p1a: Illumise
+|
+|-heal|p2a: Dialga|37/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Venusaur|Venusaur, L85, M|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Dialga
+|-start|p2a: Dialga|move: Leech Seed
+|cant|p2a: Dialga|par
+|
+|-heal|p2a: Dialga|43/100 par|[from] item: Leftovers
+|-damage|p2a: Dialga|31/100 par|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|100/100|[silent]
+|upkeep
+|turn|18
+|
+|switch|p1a: Slowking|Slowking, L86, F|83/100
+|-damage|p1a: Slowking|71/100|[from] Stealth Rock
+|move|p2a: Dialga|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|22/100
+|-unboost|p2a: Dialga|spa|2
+|
+|-heal|p1a: Slowking|28/100|[from] item: Leftovers
+|-heal|p2a: Dialga|37/100 par|[from] item: Leftovers
+|-damage|p2a: Dialga|24/100 par|[from] Leech Seed|[of] p1a: Slowking
+|-heal|p1a: Slowking|40/100|[silent]
+|upkeep
+|turn|19
+|
+|switch|p2a: Escavalier|Escavalier, L84, F|100/100
+|move|p1a: Slowking|Fire Blast|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|-heal|p1a: Slowking|46/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Malamar|Malamar, L86, M|100/100
+|turn|20
+|inactive|secretleviathan has 60 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur, L85, M|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|move|p2a: Malamar|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|51/100
+|-enditem|p1a: Venusaur|Heat Rock|[from] move: Knock Off|[of] p2a: Malamar
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Dialga|Dialga, L78|24/100 par
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Venusaur|Leech Seed|p2a: Dialga
+|-start|p2a: Dialga|move: Leech Seed
+|
+|-heal|p2a: Dialga|30/100 par|[from] item: Leftovers
+|-damage|p2a: Dialga|18/100 par|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|63/100|[silent]
+|upkeep
+|turn|22
+|
+|switch|p1a: Slowking|Slowking, L86, F|79/100
+|-damage|p1a: Slowking|67/100|[from] Stealth Rock
+|move|p2a: Dialga|Roar|p1a: Slowking
+|drag|p1a: Snorlax|Snorlax, L84, F|78/100
+|-damage|p1a: Snorlax|66/100|[from] Stealth Rock
+|
+|-heal|p1a: Snorlax|72/100|[from] item: Leftovers
+|-heal|p2a: Dialga|24/100 par|[from] item: Leftovers
+|-damage|p2a: Dialga|12/100 par|[from] Leech Seed|[of] p1a: Snorlax
+|-heal|p1a: Snorlax|81/100|[silent]
+|upkeep
+|turn|23
+|
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|cant|p2a: Dialga|par
+|
+|-heal|p2a: Dialga|18/100 par|[from] item: Leftovers
+|-heal|p1a: Snorlax|87/100|[from] item: Leftovers
+|-damage|p2a: Dialga|5/100 par|[from] Leech Seed|[of] p1a: Snorlax
+|-heal|p1a: Snorlax|96/100|[silent]
+|upkeep
+|turn|24
+|
+|cant|p2a: Dialga|par
+|move|p1a: Snorlax|Return|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Malamar|Malamar, L86, M|100/100
+|turn|25
+|
+|switch|p1a: Slowking|Slowking, L86, F|99/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Malamar|Superpower|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|72/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p1a: Slowking|78/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Malamar|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|switch|p1a: Venusaur|Venusaur, L85, M|63/100
+|-damage|p1a: Venusaur|51/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Malamar
+|-damage|p2a: Malamar|59/100
+|-zpower|p2a: Malamar
+|move|p2a: Malamar|Z-Happy Hour|p2a: Malamar|[anim]Happy Hour
+|-boost|p2a: Malamar|atk|1|[zeffect]
+|-boost|p2a: Malamar|def|1|[zeffect]
+|-boost|p2a: Malamar|spa|1|[zeffect]
+|-boost|p2a: Malamar|spd|1|[zeffect]
+|-boost|p2a: Malamar|spe|1|[zeffect]
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Malamar|Psycho Cut|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric-Mega, L82, F|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|-ability|p1a: Manectric|Intimidate|boost
+|-boost|p2a: Malamar|atk|1
+|turn|29
+|inactive|St4rF0rc3 has 120 seconds left.
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Malamar
+|-damage|p2a: Malamar|28/100
+|move|p2a: Malamar|Psycho Cut|p1a: Manectric
+|-crit|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|upkeep
+|
+|switch|p1a: Tapu Fini|Tapu Fini, L80|17/100
+|-damage|p1a: Tapu Fini|4/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|30
+|
+|move|p2a: Malamar|Superpower|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Tapu Fini
+|
+|upkeep
+
+|
+|switch|p1a: Snorlax|Snorlax, L84, F|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|turn|31
+
+|
+|move|p2a: Malamar|Superpower|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Snorlax
+|
+|win|St4rF0rc3

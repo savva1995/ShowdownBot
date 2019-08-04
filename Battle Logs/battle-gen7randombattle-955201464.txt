@@ -1,0 +1,162 @@
+|init|battle
+|title|alphaca07 vs. AB627
+|j|☆alphaca07
+|j|☆AB627
+|player|p1|alphaca07|1|1425
+|player|p2|AB627|265|1363
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Unfezant|Unfezant, L89, M|100/100
+|switch|p2a: Castform|Castform, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AB627)
+|
+|move|p1a: Unfezant|Return|p2a: Castform
+|-damage|p2a: Castform|51/100
+|move|p2a: Castform|Hail|p2a: Castform
+|-weather|Hail
+|-formechange|p2a: Castform|Castform-Snowy|[msg]|[from] ability: Forecast
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Unfezant|95/100|[from] Hail
+|upkeep
+|turn|2
+|
+|move|p1a: Unfezant|U-turn|p2a: Castform
+|-damage|p2a: Castform|31/100
+|
+|switch|p1a: Jolteon|Jolteon, L84, M|100/100|[from]move: U-turn
+|move|p2a: Castform|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|49/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jolteon|43/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p1a: Jolteon|Volt Switch|p2a: Castform
+|-damage|p2a: Castform|0 fnt
+|faint|p2a: Castform
+
+|
+|switch|p1a: Zekrom|Zekrom, L78|100/100|[from]move: Volt Switch
+|-ability|p1a: Zekrom|Teravolt
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Zekrom|95/100|[from] Hail
+|-heal|p1a: Zekrom|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow, L87, F|100/100
+|turn|4
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, F|100/100
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L87, F
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p2a: Abomasnow|Blizzard|p1a: Reuniclus
+|-damage|p1a: Reuniclus|47/100
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Abomasnow|Blizzard|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Magearna|Magearna, L80|100/100
+|turn|6
+
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Abomasnow|Hidden Power|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|60/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Magearna|Iron Head|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|33/100
+|cant|p2a: Abomasnow|flinch
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Magearna|Iron Head|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Kartana|Kartana, L80|100/100
+|turn|9
+
+|
+|-zpower|p1a: Magearna
+|move|p1a: Magearna|Twinkle Tackle|p2a: Kartana|[zeffect]
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Thundurus|Thundurus, L81, M|100/100
+|turn|10
+
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Thundurus
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Honchkrow|Honchkrow, L84, M|100/100
+|turn|11
+
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Honchkrow
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+
+|-message|AB627 forfeited.
+
+|
+|win|alphaca07

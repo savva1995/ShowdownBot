@@ -1,0 +1,250 @@
+|init|battle
+|title|funny123 vs. Ayyub76
+|j|☆funny123
+|j|☆Ayyub76
+|player|p1|funny123|238|1302
+|player|p2|Ayyub76|293|1366
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kyogre|item
+|poke|p1|Mewtwo|item
+|poke|p1|Groudon|item
+|poke|p1|Kyurem-White|item
+|poke|p1|Arceus-*|item
+|poke|p1|Darkrai|item
+|poke|p2|Zygarde|item
+|poke|p2|Marshadow|item
+|poke|p2|Necrozma-Dusk-Mane|item
+|poke|p2|Gengar, F|item
+|poke|p2|Arceus-*|item
+|poke|p2|Yveltal|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ayyub76)
+|
+|start
+|switch|p1a: Kyogre|Kyogre|100/100
+|switch|p2a: Arceus|Arceus-Fairy|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|move|p2a: Arceus|Judgment|p1a: Kyogre
+|-damage|p1a: Kyogre|63/100
+|move|p1a: Kyogre|Origin Pulse|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Ayyub76|that specs?
+|
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|2
+|
+|move|p2a: Marshadow|Close Combat|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-unboost|p2a: Marshadow|def|1
+|-unboost|p2a: Marshadow|spd|1
+|-damage|p2a: Marshadow|91/100|[from] item: Life Orb
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Groudon|Groudon|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|3
+
+|
+|switch|p2a: Zygarde|Zygarde|100/100
+|move|p1a: Groudon|Precipice Blades|p2a: Zygarde
+|-damage|p2a: Zygarde|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zygarde|25/100|[from] item: Leftovers
+|-activate|p2a: Zygarde|ability: Power Construct
+|detailschange|p2a: Zygarde|Zygarde-Complete
+|-heal|p2a: Zygarde|51/100|[silent]
+|upkeep
+|turn|4
+
+|inactive|funny123 has 120 seconds left.
+
+|inactive|funny123 has 90 seconds left.
+
+|inactive|funny123 has 60 seconds left.
+
+|c|☆Ayyub76|and that banded?
+
+|
+|switch|p2a: Yveltal|Yveltal, shiny|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Groudon|Precipice Blades|p2a: Yveltal
+|-immune|p2a: Yveltal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|move|p2a: Yveltal|Toxic|p1a: Kyurem
+|-status|p1a: Kyurem|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Kyurem|94/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|inactive|funny123 has 60 seconds left.
+
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Kyurem|Ice Burn||[still]
+|-prepare|p1a: Kyurem|Ice Burn|p2a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Kyurem|82/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|inactive|Ayyub76 has 120 seconds left.
+
+|inactive|Ayyub76 has 90 seconds left.
+
+|
+|move|p1a: Kyurem|Ice Burn|p2a: Necrozma|[from]lockedmove
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|60/100
+|move|p2a: Necrozma|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: funny123|move: Stealth Rock
+|
+|-weather|none
+|-damage|p1a: Kyurem|64/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|inactive|funny123 has 60 seconds left.
+
+|c|☆Ayyub76|is every mon choiced?
+
+|c|☆Ayyub76|lol
+
+|
+|move|p1a: Kyurem|Ice Burn||[still]
+|-prepare|p1a: Kyurem|Ice Burn|p2a: Necrozma
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon|100/100
+|-damage|p1a: Groudon|94/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|9
+
+|
+|move|p1a: Groudon|Precipice Blades|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Yveltal|Yveltal, shiny|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|10
+
+|inactive|funny123 has 60 seconds left.
+
+|inactive|funny123 has 30 seconds left.
+
+|
+|switch|p1a: Arceus|Arceus|100/100
+|-damage|p1a: Arceus|88/100|[from] Stealth Rock
+|move|p2a: Yveltal|Foul Play|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p1a: Arceus|Extreme Speed|p2a: Yveltal
+|-crit|p2a: Yveltal
+|-damage|p2a: Yveltal|63/100
+|move|p2a: Yveltal|Foul Play|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|inactive|funny123 has 30 seconds left.
+
+|
+|switch|p1a: Groudon|Groudon|94/100
+|-damage|p1a: Groudon|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Yveltal|Foul Play|p1a: Groudon
+|-damage|p1a: Groudon|29/100
+|move|p1a: Groudon|Thunder Punch|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+
+|inactive|funny123 has 30 seconds left.
+
+|inactive|funny123 has 20 seconds left.
+
+|c|☆Ayyub76|not tryna miss?
+
+|inactive|funny123 has 15 seconds left.
+
+|
+|move|p2a: Yveltal|Foul Play|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|-weather|none
+|upkeep
+
+|inactive|funny123 has 25 seconds left this turn.
+
+|inactive|funny123 has 20 seconds left.
+
+|inactive|funny123 has 15 seconds left.
+
+|inactive|funny123 has 10 seconds left.
+
+|inactive|funny123 has 5 seconds left.
+
+|-message|funny123 lost due to inactivity.
+|
+|win|Ayyub76

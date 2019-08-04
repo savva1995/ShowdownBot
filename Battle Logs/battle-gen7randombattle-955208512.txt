@@ -1,0 +1,245 @@
+|init|battle
+|title|ChescoHD vs. Jyothi
+|j|☆ChescoHD
+|j|☆Jyothi
+|player|p1|ChescoHD|25|1000
+|player|p2|Jyothi|1|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lunatone|Lunatone, L89|100/100
+|switch|p2a: Dedenne|Dedenne, L89, F|100/100
+|turn|1
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, F|100/100
+|move|p2a: Dedenne|Thunderbolt|p1a: Mudsdale
+|-immune|p1a: Mudsdale
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dedenne|Grass Knot|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|51/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Earthquake|p2a: Dedenne
+|-supereffective|p2a: Dedenne
+|-damage|p2a: Dedenne|0 fnt
+|faint|p2a: Dedenne
+|
+|-heal|p1a: Mudsdale|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, M|100/100
+|turn|3
+|
+|switch|p1a: Galvantula|Galvantula, L84, F|100/100
+|move|p2a: Vaporeon|Scald|p1a: Galvantula
+|-damage|p1a: Galvantula|51/100
+|-status|p1a: Galvantula|brn
+|
+|-damage|p1a: Galvantula|45/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|33/100
+|-damage|p1a: Galvantula|35/100 brn|[from] item: Life Orb
+
+|
+|switch|p1a: Victini|Victini, L80|100/100|[from]move: Volt Switch
+|move|p2a: Vaporeon|Ice Beam|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|92/100
+|-status|p1a: Victini|frz
+|
+|-heal|p2a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Escavalier|Escavalier, L84, F|100/100
+|-curestatus|p1a: Victini|frz|[msg]
+|move|p1a: Victini|Grass Knot|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|97/100
+|
+|-heal|p2a: Escavalier|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChescoHD)
+
+|
+|move|p1a: Victini|Blue Flare|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|upkeep
+
+|
+|switch|p2a: Jellicent|Jellicent, L88, M|100/100
+|turn|7
+
+|
+|move|p1a: Victini|Grass Knot|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|68/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|40/100
+|-damage|p2a: Jellicent|58/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Victini|Bolt Strike|p2a: Jellicent|[miss]
+|-miss|p1a: Victini|p2a: Jellicent
+|move|p2a: Jellicent|Shadow Ball|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|-damage|p2a: Jellicent|48/100|[from] item: Life Orb
+|faint|p1a: Victini
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, L84, F|35/100 brn
+|turn|9
+
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-damage|p1a: Galvantula|26/100 brn|[from] item: Life Orb
+|faint|p2a: Jellicent
+
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, F|57/100|[from]move: Volt Switch
+|
+|-heal|p1a: Mudsdale|63/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, F|100/100
+|turn|10
+
+|
+|move|p1a: Mudsdale|Heavy Slam|p2a: Reuniclus
+|-damage|p2a: Reuniclus|63/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p1a: Mudsdale|69/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Mudsdale|Heavy Slam|p2a: Reuniclus
+|-damage|p2a: Reuniclus|19/100
+|move|p2a: Reuniclus|Shadow Ball|p1a: Mudsdale
+|-damage|p1a: Mudsdale|28/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-unboost|p1a: Mudsdale|spd|1
+|
+|-heal|p1a: Mudsdale|34/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Mudsdale|Heavy Slam|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-heal|p1a: Mudsdale|40/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gallade|Gallade, L81, M|100/100
+|turn|13
+
+|
+|move|p2a: Gallade|Knock Off|p1a: Mudsdale
+|-damage|p1a: Mudsdale|26/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-enditem|p1a: Mudsdale|Leftovers|[from] move: Knock Off|[of] p2a: Gallade
+|move|p1a: Mudsdale|Earthquake|p2a: Gallade
+|-damage|p2a: Gallade|24/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Mudsdale
+|-damage|p1a: Mudsdale|11/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Heavy Slam|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, M|40/100
+|turn|15
+
+|
+|switch|p1a: Naganadel|Naganadel, L78|100/100
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|46/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Naganadel|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|29/100
+|-damage|p1a: Naganadel|91/100|[from] item: Life Orb
+
+|
+|switch|p1a: Diggersby|Diggersby, L81, F|100/100|[from]move: U-turn
+|move|p2a: Vaporeon|Heal Bell||[still]
+|-activate|p2a: Vaporeon|move: Heal Bell
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|35/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Diggersby|Return|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|41/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|move|p1a: Diggersby|Return|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-damage|p1a: Diggersby|90/100|[from] item: Life Orb
+|faint|p2a: Vaporeon
+|
+|win|ChescoHD

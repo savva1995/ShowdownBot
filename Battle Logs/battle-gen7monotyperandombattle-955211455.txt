@@ -1,0 +1,509 @@
+|init|battle
+|title|testerqwe5 vs. Pippofrancowaifu
+|j|☆testerqwe5
+|j|☆Pippofrancowaifu
+|player|p1|testerqwe5|102|1350
+|player|p2|Pippofrancowaifu|11|1500
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Whiscash|Whiscash, L89, F|100/100
+|switch|p2a: Blastoise|Blastoise, L84, M|100/100
+|turn|1
+
+|
+|switch|p2a: Lumineon|Lumineon, L89, M|100/100
+|switch|p1a: Jellicent|Jellicent, L88, F|100/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Lumineon|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|move|p1a: Jellicent|Shadow Ball|p2a: Lumineon
+|-damage|p2a: Lumineon|61/100
+|-damage|p1a: Jellicent|91/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Jellicent|85/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testerqwe5)
+
+|
+|move|p2a: Lumineon|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|75/100 tox
+|-damage|p2a: Lumineon|52/100|[from] item: Life Orb
+
+|
+|switch|p2a: Toxapex|Toxapex, L80, F|100/100|[from]move: U-turn
+|move|p1a: Jellicent|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100
+|-damage|p1a: Jellicent|66/100 tox|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p1a: Jellicent|54/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Whiscash|Whiscash, L89, F|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Whiscash
+|-sidestart|p1: testerqwe5|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|move|p1a: Whiscash|Dragon Dance|p1a: Whiscash
+|-boost|p1a: Whiscash|atk|1
+|-boost|p1a: Whiscash|spe|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Whiscash
+|-sidestart|p1: testerqwe5|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Whiscash|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|86/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Quagsire|Quagsire, L88, F|100/100
+|move|p1a: Whiscash|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|50/100
+|
+|-heal|p2a: Quagsire|56/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Whiscash|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|13/100
+|move|p2a: Quagsire|Toxic|p1a: Whiscash
+|-status|p1a: Whiscash|tox
+|
+|-heal|p2a: Quagsire|19/100|[from] item: Leftovers
+|-damage|p1a: Whiscash|94/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Whiscash|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-damage|p1a: Whiscash|82/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Blastoise|Blastoise, L84, M|100/100
+|turn|10
+
+|
+|detailschange|p2a: Blastoise|Blastoise-Mega, L84, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Whiscash|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|56/100
+|move|p2a: Blastoise|Dark Pulse|p1a: Whiscash
+|-damage|p1a: Whiscash|48/100 tox
+|
+|-damage|p1a: Whiscash|30/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Whiscash|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|13/100
+|move|p2a: Blastoise|Dark Pulse|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|faint|p1a: Whiscash
+|
+|upkeep
+
+|
+|switch|p1a: Tentacruel|Tentacruel, L82, M|100/100
+|-sideend|p1: testerqwe5|move: Toxic Spikes|[of] p1a: Tentacruel
+|turn|12
+
+|
+|switch|p2a: Kingdra|Kingdra, L85, F|100/100
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Kingdra
+|-damage|p2a: Kingdra|84/100
+|-status|p2a: Kingdra|psn
+|
+|-damage|p2a: Kingdra|71/100 psn|[from] psn
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|54/100 tox
+|move|p2a: Kingdra|Outrage|p1a: Jellicent
+|-damage|p1a: Jellicent|6/100 tox
+|
+|-damage|p2a: Kingdra|59/100 psn|[from] psn
+|-damage|p1a: Jellicent|0 fnt|[from] psn
+|faint|p1a: Jellicent
+|upkeep
+
+|
+|switch|p1a: Cloyster|Cloyster, L84, F|100/100
+|turn|14
+
+|inactive|testerqwe5 has 120 seconds left.
+
+|
+|move|p2a: Kingdra|Outrage|p1a: Cloyster|[from]lockedmove
+|-damage|p1a: Cloyster|66/100
+|-start|p2a: Kingdra|confusion|[fatigue]
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|
+|-damage|p2a: Kingdra|46/100 psn|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Kingdra
+|-damage|p2a: Kingdra|29/100 psn
+|-damage|p2a: Kingdra|10/100 psn
+|-damage|p2a: Kingdra|0 fnt
+|-hitcount|p2a: Kingdra|3
+|faint|p2a: Kingdra
+|
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, L80, F|100/100
+|turn|16
+
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100
+|-hitcount|p2a: Toxapex|5
+|move|p2a: Toxapex|Scald|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|48/100
+|-status|p1a: Cloyster|brn
+|
+|-heal|p2a: Toxapex|65/100|[from] item: Black Sludge
+|-damage|p1a: Cloyster|43/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Cloyster|37/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Cloyster|Icicle Spear|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Cloyster|31/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|94/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|70/100
+|-hitcount|p2a: Toxapex|5
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Cloyster|25/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Toxapex|Scald|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|turn|21
+
+|
+|switch|p2a: Starmie|Starmie, L82|100/100
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|39/100
+|move|p1a: Manaphy|Energy Ball|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-heal|p1a: Manaphy|45/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Lumineon|Lumineon, L89, M|52/100
+|turn|23
+
+|
+|move|p2a: Lumineon|Toxic|p1a: Manaphy
+|-status|p1a: Manaphy|tox
+|move|p1a: Manaphy|Energy Ball|p2a: Lumineon
+|-supereffective|p2a: Lumineon
+|-damage|p2a: Lumineon|0 fnt
+|faint|p2a: Lumineon
+|
+|-heal|p1a: Manaphy|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Manaphy|45/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, L80, F|100/100
+|turn|24
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|-heal|p1a: Manaphy|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Manaphy|39/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|move|p1a: Manaphy|Energy Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|17/100
+|move|p2a: Toxapex|Scald|p1a: Manaphy
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|30/100 tox
+|
+|-heal|p1a: Manaphy|36/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|23/100|[from] item: Black Sludge
+|-damage|p1a: Manaphy|18/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Manaphy|Energy Ball|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Manaphy|24/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|29/100|[from] item: Black Sludge
+|-damage|p1a: Manaphy|0 fnt|[from] psn
+|faint|p1a: Manaphy
+|upkeep
+
+|
+|switch|p1a: Clawitzer|Clawitzer, L86, F|100/100
+|turn|27
+
+|inactive|testerqwe5 has 120 seconds left.
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|10/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|61/100
+|
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|53/100
+|move|p2a: Toxapex|Scald|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|94/100
+|
+|-heal|p2a: Toxapex|59/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|-start|p2a: Toxapex|confusion
+|-activate|p2a: Toxapex|confusion
+|-damage|p2a: Toxapex|35/100|[from] confusion
+|
+|-heal|p2a: Toxapex|41/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|21/100
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Scald|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-crit|p1a: Clawitzer
+|-damage|p1a: Clawitzer|85/100
+|
+|-heal|p2a: Toxapex|27/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|6/100
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|56/100
+|
+|-heal|p2a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|-end|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Scald|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|79/100
+|
+|-heal|p2a: Toxapex|49/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|28/100
+|move|p2a: Toxapex|Scald|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|73/100
+|
+|-heal|p2a: Toxapex|34/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|14/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|64/100
+|
+|-heal|p2a: Toxapex|70/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100
+|-start|p2a: Toxapex|confusion
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Scald|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|67/100
+|-status|p1a: Clawitzer|brn
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p1a: Clawitzer|60/100 brn|[from] brn
+|upkeep
+|turn|38
+
+|-message|Pippofrancowaifu forfeited.
+
+|
+|win|testerqwe5

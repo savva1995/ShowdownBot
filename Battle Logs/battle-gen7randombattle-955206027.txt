@@ -1,0 +1,137 @@
+|init|battle
+|title|Hydoablaster vs. Foggy15
+|j|☆Hydoablaster
+|j|☆Foggy15
+|player|p1|Hydoablaster|169|1245
+|player|p2|Foggy15|2|1272
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Genesect|Genesect, L78|100/100
+|switch|p2a: Octillery|Octillery, L89, F|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Foggy15)
+
+|
+|move|p1a: Genesect|Shift Gear|p1a: Genesect
+|-boost|p1a: Genesect|spe|2
+|-boost|p1a: Genesect|atk|1
+|move|p2a: Octillery|Scald|p1a: Genesect
+|-damage|p1a: Genesect|61/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Genesect|Thunderbolt|p2a: Octillery
+|-supereffective|p2a: Octillery
+|-damage|p2a: Octillery|22/100
+|move|p2a: Octillery|Scald|p1a: Genesect
+|-damage|p1a: Genesect|18/100
+|-status|p1a: Genesect|brn
+|
+|-damage|p1a: Genesect|12/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Genesect|Thunderbolt|p2a: Octillery
+|-supereffective|p2a: Octillery
+|-damage|p2a: Octillery|0 fnt
+|faint|p2a: Octillery
+|
+|-damage|p1a: Genesect|6/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Forretress|Forretress, L84, F|100/100
+|turn|4
+
+|
+|move|p1a: Genesect|Flamethrower|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-ability|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/100
+|move|p2a: Forretress|Stealth Rock|p1a: Genesect
+|-sidestart|p1: Hydoablaster|move: Stealth Rock
+|
+|-heal|p2a: Forretress|7/100|[from] item: Leftovers
+|-damage|p1a: Genesect|0 fnt|[from] brn
+|faint|p1a: Genesect
+|upkeep
+
+|
+|switch|p1a: Drapion|Drapion, L84, M|100/100
+|-damage|p1a: Drapion|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p1a: Drapion|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|-damage|p1a: Drapion|79/100|[from] item: Life Orb
+|faint|p2a: Forretress
+|
+|upkeep
+
+|
+|switch|p2a: Scyther|Scyther, L88, F|100/100
+|turn|6
+
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Drapion|Knock Off|p2a: Scyther
+|-damage|p2a: Scyther|71/100
+|-enditem|p2a: Scyther|Eviolite|[from] move: Knock Off|[of] p1a: Drapion
+|-damage|p1a: Drapion|69/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Scyther|Aerial Ace|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|upkeep
+
+|
+|switch|p1a: Toxapex|Toxapex, L80, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p2a: Scyther|Aerial Ace|p1a: Toxapex
+|-damage|p1a: Toxapex|7/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|13/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p2a: Scyther|Aerial Ace|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, L81, M|100/100
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|turn|10
+
+|-message|Hydoablaster forfeited.
+
+|
+|win|Foggy15

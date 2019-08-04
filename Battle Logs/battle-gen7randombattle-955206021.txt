@@ -1,0 +1,26 @@
+|init|battle
+|title|Guest 1390303 vs. nooobtooob
+|j|☆nooobtooob
+|player|p1|Guest 1390303|265|1000
+|player|p2|nooobtooob|102|1057
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|switch|p2a: Wishiwashi|Wishiwashi, L89, F|100/100
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Guest 1390303)
+|-message|Guest 1390303 forfeited.
+|
+|win|nooobtooob
+|raw|Guest 1390303's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|nooobtooob's rating: 1057 &rarr; <strong>1083</strong><br />(+26 for winning)
+|l|☆nooobtooob

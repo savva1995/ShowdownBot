@@ -1,0 +1,205 @@
+|init|battle
+|title|asdfdghf vs. Tapu Finidi
+|j|☆asdfdghf
+|j|☆Tapu Finidi
+|player|p1|asdfdghf|17|1273
+|player|p2|Tapu Finidi|102|1248
+|teamsize|p1|6
+|teamsize|p2|5
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Yveltal, L50|item
+|poke|p1|Xerneas, L50|item
+|poke|p1|Lopunny, L50, F|item
+|poke|p1|Landorus-Therian, L50, M|item
+|poke|p1|Celesteela, L50|item
+|poke|p1|Amoonguss, L50, F|item
+|poke|p2|Venusaur, L50, F|item
+|poke|p2|Yveltal, L50|item
+|poke|p2|Xerneas, L50|item
+|poke|p2|Tapu Koko, L50|item
+|poke|p2|Incineroar, L50, M|item
+|teampreview|4
+|c|☆asdfdghf|gl hf
+|c|☆Tapu Finidi|u2
+|
+|start
+|switch|p1a: Lopunny|Lopunny, L50, F, shiny|48/48
+|switch|p1b: Xerneas|Xerneas, L50|48/48
+|switch|p2a: Xerneas|Xerneas, L50|48/48
+|switch|p2b: Incineroar|Incineroar, L50, M|48/48
+|-ability|p1b: Xerneas|Fairy Aura
+|-ability|p2a: Xerneas|Fairy Aura
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lopunny|atk|1
+|-unboost|p1b: Xerneas|atk|1
+|turn|1
+
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, L50, F, shiny
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Xerneas
+|-damage|p2a: Xerneas|42/48
+|move|p2b: Incineroar|Fake Out|p1b: Xerneas
+|-damage|p1b: Xerneas|43/48
+|cant|p1b: Xerneas|flinch
+|cant|p2a: Xerneas|flinch
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Lopunny|Low Kick|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|20/48
+|move|p1b: Xerneas|Geomancy||[still]
+|-prepare|p1b: Xerneas|Geomancy|p1b: Xerneas
+|-enditem|p1b: Xerneas|Power Herb
+|-anim|p1b: Xerneas|Geomancy|p1b: Xerneas
+|-boost|p1b: Xerneas|spa|2
+|-boost|p1b: Xerneas|spd|2
+|-boost|p1b: Xerneas|spe|2
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|move|p2b: Incineroar|Snarl|p1b: Xerneas|[spread] p1a,p1b
+|-resisted|p1a: Lopunny
+|-crit|p1a: Lopunny
+|-resisted|p1b: Xerneas
+|-damage|p1a: Lopunny|43/48
+|-damage|p1b: Xerneas|41/48
+|-unboost|p1a: Lopunny|spa|1
+|-unboost|p1b: Xerneas|spa|1
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Celesteela|Celesteela, L50|48/48
+|move|p1b: Xerneas|Moonblast|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Xerneas|Dazzling Gleam|p1b: Xerneas|[spread] p1a,p1b
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|34/48
+|-damage|p1b: Xerneas|24/48g
+|
+|upkeep
+
+|
+|switch|p2b: Tapu Koko|Tapu Koko, L50|48/48
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2b: Tapu Koko
+|turn|4
+
+|
+|move|p2b: Tapu Koko|Protect|p2b: Tapu Koko
+|-singleturn|p2b: Tapu Koko|Protect
+|move|p1b: Xerneas|Moonblast|p2b: Tapu Koko
+|-activate|p2b: Tapu Koko|move: Protect
+|move|p2a: Xerneas|Moonblast|p1b: Xerneas
+|-damage|p1b: Xerneas|0 fnt
+|faint|p1b: Xerneas
+|move|p1a: Celesteela|Heavy Slam|p2a: Xerneas
+|-supereffective|p2a: Xerneas
+|-damage|p2a: Xerneas|12/48
+|
+|upkeep
+
+|
+|switch|p1b: Lopunny|Lopunny-Mega, L50, F, shiny|43/48
+|turn|5
+
+|
+|move|p2a: Xerneas|Protect|p2a: Xerneas
+|-singleturn|p2a: Xerneas|Protect
+|move|p1b: Lopunny|Fake Out|p2b: Tapu Koko
+|-damage|p2b: Tapu Koko|33/48
+|cant|p2b: Tapu Koko|flinch
+|move|p1a: Celesteela|Heavy Slam|p2b: Tapu Koko
+|-damage|p2b: Tapu Koko|0 fnt
+|faint|p2b: Tapu Koko
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spd|1
+|
+|upkeep
+
+|
+|switch|p2b: Venusaur|Venusaur, L50, F|48/48
+|turn|6
+
+|
+|detailschange|p2b: Venusaur|Venusaur-Mega, L50, F
+|-mega|p2b: Venusaur|Venusaur|Venusaurite
+|move|p1a: Celesteela|Wide Guard|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Wide Guard
+|move|p2a: Xerneas|Dazzling Gleam|p1a: Celesteela|[spread] 
+|-activate|p1a: Celesteela|move: Wide Guard
+|-activate|p1b: Lopunny|move: Wide Guard
+|move|p1b: Lopunny|Return|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|move|p2b: Venusaur|Leech Seed|p1a: Celesteela
+|-start|p1a: Celesteela|move: Leech Seed
+|
+|-damage|p1a: Celesteela|28/48|[from] Leech Seed|[of] p2b: Venusaur
+|upkeep
+|turn|7
+
+|
+|move|p1b: Lopunny|Return|p2b: Venusaur
+|-damage|p2b: Venusaur|26/48
+|move|p2b: Venusaur|Leech Seed|p1b: Lopunny
+|-start|p1b: Lopunny|move: Leech Seed
+|move|p1a: Celesteela|Heavy Slam|p2b: Venusaur
+|-damage|p2b: Venusaur|9/48
+|
+|-damage|p1b: Lopunny|37/48|[from] Leech Seed|[of] p2b: Venusaur
+|-heal|p2b: Venusaur|13/48|[silent]
+|-damage|p1a: Celesteela|22/48|[from] Leech Seed|[of] p2b: Venusaur
+|-heal|p2b: Venusaur|19/48|[silent]
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Yveltal|Yveltal, L50|48/48
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2b: Venusaur|Protect|p2b: Venusaur
+|-singleturn|p2b: Venusaur|Protect
+|move|p1b: Lopunny|Return|p2b: Venusaur
+|-activate|p2b: Venusaur|move: Protect
+|
+|-damage|p1b: Lopunny|31/48|[from] Leech Seed|[of] p2b: Venusaur
+|-heal|p2b: Venusaur|23/48|[silent]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+
+|c|☆Tapu Finidi|gg
+
+|
+|move|p1b: Lopunny|Encore|p2b: Venusaur
+|-start|p2b: Venusaur|Encore
+|move|p1a: Yveltal|Oblivion Wing|p2b: Venusaur
+|-supereffective|p2b: Venusaur
+|-damage|p2b: Venusaur|2/48
+|move|p2b: Venusaur|Protect||[still]
+|-fail|p2b: Venusaur
+|
+|-damage|p1b: Lopunny|25/48|[from] Leech Seed|[of] p2b: Venusaur
+|-heal|p2b: Venusaur|6/48|[silent]
+|upkeep
+|turn|10
+
+|-message|Tapu Finidi forfeited.
+
+|
+|win|asdfdghf

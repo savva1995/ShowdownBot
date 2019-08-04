@@ -1,0 +1,45 @@
+|init|battle
+|title|Gen7OUOU vs. TheYellowPeridot
+|j|☆Gen7OUOU
+|j|☆TheYellowPeridot
+|player|p1|Gen7OUOU|129|1226
+|player|p2|TheYellowPeridot|2|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheYellowPeridot)
+
+|inactive|Gen7OUOU has 120 seconds left.
+
+|inactive|Gen7OUOU has 90 seconds left.
+
+|inactive|Gen7OUOU has 60 seconds left.
+
+|inactive|Gen7OUOU has 30 seconds left.
+
+|inactive|Gen7OUOU has 20 seconds left.
+
+|inactive|Gen7OUOU has 15 seconds left.
+
+|inactive|Gen7OUOU has 10 seconds left.
+
+|inactive|Gen7OUOU has 5 seconds left.
+
+|-message|Gen7OUOU lost due to inactivity.
+|
+|win|TheYellowPeridot

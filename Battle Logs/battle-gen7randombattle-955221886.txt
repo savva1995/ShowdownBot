@@ -1,0 +1,65 @@
+|init|battle
+|title|Jeff50813 vs. vitalik97
+|j|☆Jeff50813
+|j|☆vitalik97
+|player|p1|Jeff50813|170|1628
+|player|p2|vitalik97|86|1647
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aegislash|Aegislash, L78, M|100/100
+|switch|p2a: Scizor|Scizor, L80, M|100/100
+|turn|1
+|
+|detailschange|p2a: Scizor|Scizor-Mega, L80, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Scizor|Knock Off|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Scizor|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-enditem|p1a: Aegislash|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+|faint|p1a: Aegislash
+|
+|upkeep
+|-message|Jeff50813 forfeited.
+|
+|win|vitalik97

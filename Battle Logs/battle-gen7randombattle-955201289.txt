@@ -1,0 +1,61 @@
+|init|battle
+|title|Jrtihfrt vs. zSen
+|j|☆Jrtihfrt
+|j|☆zSen
+|player|p1|Jrtihfrt|1|1041
+|player|p2|zSen|51|1024
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magnezone|Magnezone, L80|100/100
+|switch|p2a: Umbreon|Umbreon, L84, M|100/100
+|turn|1
+|
+|switch|p2a: Marowak|Marowak, L89, M|100/100
+|move|p1a: Magnezone|Volt Switch|p2a: Marowak
+|-ability|p2a: Marowak|Lightning Rod|boost
+|-boost|p2a: Marowak|spa|1
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Dodrio|Dodrio, L88, M|100/100
+|move|p2a: Marowak|Stealth Rock|p1a: Dodrio
+|-sidestart|p1: Jrtihfrt|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Dodrio|Jump Kick|p2a: Marowak
+|-damage|p2a: Marowak|64/100
+|-damage|p1a: Dodrio|91/100|[from] item: Life Orb
+|move|p2a: Marowak|Stone Edge|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|upkeep
+
+|l|☆Jrtihfrt
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zSen)
+
+|inactive|Jrtihfrt has 30 seconds to reconnect!
+
+|inactive|Jrtihfrt has 20 seconds to reconnect!
+
+|-message|zSen forfeited.
+
+|
+|win|Jrtihfrt

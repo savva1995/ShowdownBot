@@ -1,0 +1,402 @@
+|init|battle
+|title|Cacsturni vs. Bravo75
+|j|☆Cacsturni
+|j|☆Bravo75
+|player|p1|Cacsturni|65|1079
+|player|p2|Bravo75|167|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine, M|item
+|poke|p1|Quagsire, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rotom-Mow|item
+|poke|p1|Lucario, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p2|Zangoose, F|item
+|poke|p2|Forretress, M|item
+|poke|p2|Diancie|item
+|poke|p2|Gastrodon-East, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Volcarona, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cacsturni)
+
+|inactive|Bravo75 has 120 seconds left.
+
+|
+|start
+|switch|p1a: Lucario|Lucario, M|100/100
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|1
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Diancie|Diancie|100/100
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, M
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Tyranitar|Stone Edge|p2a: Diancie
+|-damage|p2a: Diancie|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+
+|inactive|Cacsturni has 120 seconds left.
+
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-fail|p2a: Diancie|unboost|[from] ability: Clear Body|[of] p2a: Diancie
+|detailschange|p2a: Diancie|Diancie-Mega
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Moonblast|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|57/100|[from] Sandstorm
+|upkeep
+|turn|4
+
+|
+|move|p1a: Arcanine|Close Combat|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|faint|p2a: Diancie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|50/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M, shiny|100/100
+|turn|5
+
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Gastrodon|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|83/100
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p2a: Gastrodon|Protect|p2a: Gastrodon
+|-singleturn|p2a: Gastrodon|Protect
+|move|p1a: Rotom|Leaf Storm|p2a: Gastrodon
+|-activate|p2a: Gastrodon|move: Protect
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Volcarona|Volcarona, M|94/100
+|move|p1a: Rotom|Leaf Storm|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|78/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Tyranitar|Tyranitar-Mega, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|72/100|[from] Sandstorm
+|upkeep
+|turn|9
+
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|39/100
+|-heal|p2a: Volcarona|100/100|[from] drain|[of] p1a: Tyranitar
+|-damage|p2a: Volcarona|91/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Stone Edge|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Zangoose|Zangoose, F|100/100
+|turn|10
+
+|
+|move|p2a: Zangoose|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Zangoose|def|1
+|-unboost|p2a: Zangoose|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zangoose|94/100|[from] Sandstorm
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+
+|
+|switch|p1a: Arcanine|Arcanine, M|50/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Zangoose|atk|1
+|turn|11
+
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|-damage|p1a: Arcanine|23/100|[from] Recoil
+|faint|p2a: Zangoose
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|16/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M, shiny|100/100
+|turn|12
+
+|
+|switch|p1a: Rotom|Rotom-Mow|83/100
+|move|p2a: Gastrodon|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-weather|none
+|-damage|p1a: Rotom|77/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Gastrodon|Protect|p2a: Gastrodon
+|-singleturn|p2a: Gastrodon|Protect
+|-zpower|p1a: Rotom
+|move|p1a: Rotom|Bloom Doom|p2a: Gastrodon|[zeffect]
+|-supereffective|p2a: Gastrodon
+|-zbroken|p2a: Gastrodon
+|-damage|p2a: Gastrodon|36/100
+|
+|-heal|p2a: Gastrodon|42/100|[from] item: Leftovers
+|-damage|p1a: Rotom|65/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Rotom|Leaf Storm|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|82/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-damage|p1a: Rotom|46/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Rotom|Volt Switch|p2a: Forretress
+|-damage|p2a: Forretress|59/100
+
+|
+|switch|p1a: Arcanine|Arcanine, M|16/100|[from]move: Volt Switch
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Forretress|atk|1
+|move|p2a: Forretress|Spikes|p1a: Arcanine
+|-sidestart|p1: Cacsturni|Spikes
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M, shiny|42/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|16/100
+|-status|p2a: Gastrodon|brn
+|-damage|p1a: Arcanine|5/100|[from] Recoil
+|
+|-heal|p2a: Gastrodon|22/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|16/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-damage|p1a: Arcanine|0 fnt|[from] Recoil
+|faint|p2a: Gastrodon
+|faint|p1a: Arcanine
+|
+|upkeep
+
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|18
+
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Reuniclus|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|82/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|-damage|p1a: Quagsire|88/100|[from] Spikes
+|turn|21
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Quagsire
+|-damage|p1a: Quagsire|58/100
+|move|p1a: Quagsire|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|tox|[msg]
+|
+|-heal|p1a: Quagsire|64/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Quagsire
+|-damage|p1a: Quagsire|29/100
+|move|p1a: Quagsire|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-heal|p1a: Quagsire|35/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|76/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Quagsire
+|-damage|p1a: Quagsire|4/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|54/100
+|
+|-heal|p1a: Quagsire|60/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|64/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Quagsire
+|-damage|p1a: Quagsire|25/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|75/100
+|
+|-heal|p1a: Quagsire|81/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|45/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Quagsire
+|-damage|p1a: Quagsire|52/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|-damage|p2a: Dragonite|20/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Rotom|Rotom-Mow|46/100 tox
+|move|p2a: Dragonite|Dragon Claw|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Dragonite|0 fnt|[from] psn
+|faint|p2a: Dragonite
+|upkeep
+
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|switch|p2a: Forretress|Forretress, M|59/100
+|-damage|p1a: Lucario|88/100|[from] Spikes
+|turn|27
+
+|
+|move|p1a: Lucario|Nasty Plot|p1a: Lucario
+|-boost|p1a: Lucario|spa|2
+|move|p2a: Forretress|Gyro Ball|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|62/100
+|
+|upkeep
+|turn|28
+
+|
+|move|p1a: Lucario|Nasty Plot|p1a: Lucario
+|-boost|p1a: Lucario|spa|2
+|move|p2a: Forretress|Gyro Ball|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|38/100
+|
+|upkeep
+|turn|29
+
+|
+|move|p1a: Lucario|Aura Sphere|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|-damage|p1a: Lucario|28/100|[from] item: Life Orb
+|faint|p2a: Forretress
+|
+|win|Cacsturni

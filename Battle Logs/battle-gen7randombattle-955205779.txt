@@ -1,0 +1,311 @@
+|init|battle
+|title|Pokethanos vs. xbxbsb
+|j|☆Pokethanos
+|j|☆xbxbsb
+|player|p1|Pokethanos|168|1079
+|player|p2|xbxbsb|1|1049
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Emboar|Emboar, L85, F|100/100
+|switch|p2a: Raichu|Raichu, L89, M|100/100
+|turn|1
+|
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|move|p1a: Emboar|Flare Blitz|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|64/100
+|-damage|p1a: Emboar|90/100|[from] Recoil
+|
+|-heal|p2a: Keldeo|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Raikou|Raikou, L84|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|45/100
+|
+|-heal|p2a: Keldeo|51/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|move|p2a: Keldeo|Secret Sword|p1a: Raikou
+|-damage|p1a: Raikou|60/100
+|
+|-heal|p1a: Raikou|66/100|[from] item: Leftovers
+|-heal|p2a: Keldeo|57/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Florges|Florges, L84, F|100/100
+|move|p1a: Raikou|Thunderbolt|p2a: Florges
+|-damage|p2a: Florges|72/100
+|
+|-heal|p1a: Raikou|72/100|[from] item: Leftovers
+|-heal|p2a: Florges|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xbxbsb)
+
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Florges
+|-damage|p2a: Florges|53/100
+|move|p2a: Florges|Wish|p2a: Florges
+|
+|-heal|p1a: Raikou|79/100|[from] item: Leftovers
+|-heal|p2a: Florges|59/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Florges|Toxic|p1a: Raikou
+|-status|p1a: Raikou|tox
+|
+|-heal|p2a: Florges|100/100|[from] move: Wish|[wisher] Florges
+|-heal|p1a: Raikou|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Raikou|79/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Florges|Calm Mind|p2a: Florges
+|-boost|p2a: Florges|spa|1
+|-boost|p2a: Florges|spd|1
+|
+|-heal|p1a: Raikou|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Raikou|72/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Florges
+|-damage|p2a: Florges|64/100
+|-status|p2a: Florges|par
+|move|p2a: Florges|Calm Mind|p2a: Florges
+|-boost|p2a: Florges|spa|1
+|-boost|p2a: Florges|spd|1
+|
+|-heal|p1a: Raikou|79/100 tox|[from] item: Leftovers
+|-heal|p2a: Florges|70/100 par|[from] item: Leftovers
+|-damage|p1a: Raikou|60/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Emboar|Emboar, L85, F|90/100
+|move|p2a: Florges|Wish|p2a: Florges
+|
+|-heal|p2a: Florges|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Emboar|Flare Blitz|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|-damage|p1a: Emboar|70/100|[from] Recoil
+|faint|p2a: Florges
+|
+|upkeep
+
+|
+|switch|p2a: Keldeo|Keldeo, L80|57/100
+|turn|11
+
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Emboar|[miss]
+|-miss|p2a: Keldeo|p1a: Emboar
+|move|p1a: Emboar|Wild Charge|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-damage|p1a: Emboar|58/100|[from] Recoil
+|faint|p2a: Keldeo
+|
+|upkeep
+
+|inactive|xbxbsb has 120 seconds left.
+
+|
+|switch|p2a: Raichu|Raichu, L89, M|100/100
+|turn|12
+
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Emboar
+|-damage|p1a: Emboar|34/100
+|move|p1a: Emboar|Flare Blitz|p2a: Raichu
+|-damage|p2a: Raichu|5/100
+|-damage|p1a: Emboar|9/100|[from] Recoil
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Emboar|Sucker Punch|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|upkeep
+
+|
+|switch|p2a: Sceptile|Sceptile, L84, M|100/100
+|turn|14
+
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, L84, M
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Emboar|Sucker Punch|p2a: Sceptile
+|-damage|p2a: Sceptile|72/100
+|move|p2a: Sceptile|Earthquake|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|upkeep
+
+|
+|switch|p1a: Lopunny|Lopunny, L80, F|100/100
+|turn|15
+
+|
+|switch|p2a: Heracross|Heracross, L83, F|100/100
+|detailschange|p1a: Lopunny|Lopunny-Mega, L80, F
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Ice Punch|p2a: Heracross
+|-damage|p2a: Heracross|71/100
+|
+|-status|p2a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Charizard|Charizard, L87, M|100/100
+|move|p2a: Heracross|Swords Dance|p2a: Heracross
+|-boost|p2a: Heracross|atk|2
+|
+|-damage|p2a: Heracross|65/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|100/100
+|move|p1a: Charizard|Air Slash|p2a: Hydreigon
+|-damage|p2a: Hydreigon|62/100
+|-damage|p1a: Charizard|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+
+|inactive|xbxbsb has 120 seconds left.
+
+|
+|switch|p1a: Malamar|Malamar, L86, M|100/100
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|100/100
+|-singleturn|p2a: Hydreigon|move: Roost
+|
+|upkeep
+|turn|19
+
+|inactive|xbxbsb has 120 seconds left.
+
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Malamar
+|-damage|p1a: Malamar|58/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|move|p1a: Malamar|Superpower|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|6/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|-heal|p1a: Malamar|64/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Heracross|Heracross, L83, F|65/100 brn
+|move|p1a: Malamar|Superpower|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|40/100 brn
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|-heal|p1a: Malamar|71/100|[from] item: Leftovers
+|-damage|p2a: Heracross|34/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Charizard|Charizard, L87, M|91/100
+|move|p2a: Heracross|Megahorn|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|70/100
+|
+|-damage|p2a: Heracross|28/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Charizard|Air Slash|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|-damage|p1a: Charizard|60/100|[from] item: Life Orb
+|faint|p2a: Heracross
+|
+|upkeep
+
+|
+|switch|p2a: Sceptile|Sceptile-Mega, L84, M|72/100
+|turn|23
+
+|inactive|xbxbsb has 90 seconds left.
+
+|
+|move|p2a: Sceptile|Outrage|p1a: Charizard
+|-damage|p1a: Charizard|3/100
+|move|p1a: Charizard|Air Slash|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-crit|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-damage|p1a: Charizard|0 fnt|[from] item: Life Orb
+|faint|p2a: Sceptile
+|faint|p1a: Charizard
+|
+|upkeep
+
+|inactive|xbxbsb has 90 seconds left.
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|6/100
+|switch|p1a: Lopunny|Lopunny-Mega, L80, F|100/100
+|turn|24
+
+|
+|move|p1a: Lopunny|Ice Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|Pokethanos

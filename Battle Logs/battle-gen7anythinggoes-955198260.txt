@@ -1,0 +1,153 @@
+|init|battle
+|title|IguotAlpha vs. Telepathy20220
+|j|☆IguotAlpha
+|j|☆Telepathy20220
+|player|p1|IguotAlpha|162|1307
+|player|p2|Telepathy20220|209|1349
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Bronzong|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Sylveon, F|item
+|poke|p1|Lopunny, M|item
+|poke|p2|Salamence, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Kyogre|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Celesteela|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100
+|turn|1
+
+|
+|switch|p2a: Charizard|Charizard, M, shiny|100/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Charizard
+|-sidestart|p2: Telepathy20220|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Charizard|Focus Blast|p1a: Bronzong
+|-damage|p1a: Bronzong|78/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|74/100
+|
+|-heal|p1a: Bronzong|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Charizard|Flamethrower|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|33/100
+|move|p1a: Bronzong|Toxic|p2a: Charizard
+|-status|p2a: Charizard|tox
+|
+|-heal|p1a: Bronzong|39/100|[from] item: Leftovers
+|-damage|p2a: Charizard|68/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|detailschange|p2a: Charizard|Charizard-Mega-Y, M, shiny
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Charizard|Flamethrower|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bronzong|45/100|[from] item: Leftovers
+|-damage|p2a: Charizard|56/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Charizard|Flamethrower|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bronzong|51/100|[from] item: Leftovers
+|-damage|p2a: Charizard|38/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Telepathy20220)
+
+|
+|move|p1a: Bronzong|Protect||[still]
+|-fail|p1a: Bronzong
+|move|p2a: Charizard|Flamethrower|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|13/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|7
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-ability|p2a: Tyranitar|Unnerve|p1: IguotAlpha
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|none
+|upkeep
+
+|l|☆Telepathy20220
+
+|inactive|Telepathy20220 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Telepathy20220 has 30 seconds to reconnect!
+
+|inactive|Telepathy20220 has 20 seconds to reconnect!
+
+|inactive|Telepathy20220 has 15 seconds to reconnect!
+
+|inactive|Telepathy20220 has 10 seconds to reconnect!
+
+|inactive|Telepathy20220 has 5 seconds to reconnect!
+
+|-message|Telepathy20220 lost due to inactivity.
+|
+|win|IguotAlpha

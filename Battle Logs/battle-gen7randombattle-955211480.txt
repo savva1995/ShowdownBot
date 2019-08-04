@@ -1,0 +1,480 @@
+|init|battle
+|title|fezfezfezfez vs. xRaytra
+|j|☆fezfezfezfez
+|j|☆xRaytra
+|player|p1|fezfezfezfez|102|1753
+|player|p2|xRaytra|70|1780
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toxicroak|Toxicroak, L84, M|100/100
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100
+|turn|1
+|
+|switch|p2a: Gastrodon|Gastrodon, L88, M|100/100
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|42/100
+|move|p2a: Gastrodon|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|3/100
+|
+|-heal|p2a: Gastrodon|48/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xRaytra)
+
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-heal|p1a: Toxicroak|32/100|[from] drain|[of] p2a: Gastrodon
+|faint|p2a: Gastrodon
+|
+|upkeep
+
+|
+|switch|p2a: Pyroar|Pyroar, L87, F|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: fezfezfezfez
+|turn|4
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Pyroar|atk|1
+|move|p2a: Pyroar|Hyper Voice|p1a: Hitmontop
+|-damage|p1a: Hitmontop|74/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Pyroar|Will-O-Wisp|p1a: Hitmontop
+|-status|p1a: Hitmontop|brn
+|move|p1a: Hitmontop|Stone Edge|p2a: Pyroar
+|-supereffective|p2a: Pyroar
+|-damage|p2a: Pyroar|73/100
+|
+|-damage|p1a: Hitmontop|67/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Magearna|Magearna, L80|100/100
+|move|p1a: Hitmontop|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|78/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|-heal|p2a: Magearna|85/100|[from] item: Leftovers
+|-damage|p1a: Hitmontop|61/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|43/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|43/100
+|-status|p1a: Lilligant|psn
+|
+|-heal|p1a: Lilligant|49/100 psn|[from] item: Leftovers
+|-damage|p1a: Lilligant|36/100 psn|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-heal|p1a: Lilligant|43/100 psn|[from] item: Leftovers
+|-damage|p1a: Lilligant|30/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Pyroar|Pyroar, L87, F|73/100
+|-ability|p2a: Pyroar|Unnerve|p1: fezfezfezfez
+|turn|11
+
+|
+|switch|p1a: Audino|Audino, L86, M|100/100
+|move|p2a: Pyroar|Hyper Voice|p1a: Audino
+|-damage|p1a: Audino|67/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Pyroar|Sunny Day|p2a: Pyroar
+|-weather|SunnyDay
+|move|p1a: Audino|Heal Bell|p1a: Audino
+|-activate|p1a: Audino|move: Heal Bell
+|-curestatus|p1: Lilligant|psn|[msg]
+|-curestatus|p1: Hitmontop|brn|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+
+|inactive|xRaytra has 120 seconds left.
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|61/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Pyroar|atk|1
+|move|p2a: Pyroar|Fire Blast|p1a: Hitmontop|[miss]
+|-miss|p2a: Pyroar|p1a: Hitmontop
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p2a: Pyroar|Fire Blast|p1a: Hitmontop|[miss]
+|-miss|p2a: Pyroar|p1a: Hitmontop
+|move|p1a: Hitmontop|Close Combat|p2a: Pyroar
+|-supereffective|p2a: Pyroar
+|-damage|p2a: Pyroar|0 fnt
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|faint|p2a: Pyroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Metagross|Metagross, L78|100/100
+|turn|15
+
+|
+|switch|p1a: Shiinotic|Shiinotic, L89, M|100/100
+|detailschange|p2a: Metagross|Metagross-Mega, L78
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p2a: Metagross|Meteor Mash|p1a: Shiinotic
+|-supereffective|p1a: Shiinotic
+|-damage|p1a: Shiinotic|0 fnt
+|faint|p1a: Shiinotic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|61/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Metagross|atk|1
+|turn|16
+
+|
+|switch|p2a: Solrock|Solrock, L89|100/100
+|move|p1a: Hitmontop|Close Combat|p2a: Solrock
+|-damage|p2a: Solrock|56/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+
+|inactive|xRaytra has 120 seconds left.
+
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|30/100
+|move|p2a: Solrock|Will-O-Wisp|p1a: Lilligant|[miss]
+|-miss|p2a: Solrock|p1a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lilligant|36/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Solrock
+|-status|p2a: Solrock|slp|[from] move: Sleep Powder
+|cant|p2a: Solrock|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lilligant|42/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Metagross|Metagross-Mega, L78|100/100
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-weather|none
+|-heal|p1a: Lilligant|48/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|44/100
+|move|p2a: Metagross|Meteor Mash|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|upkeep
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|61/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Metagross|atk|1
+|turn|21
+
+|
+|switch|p2a: Solrock|Solrock, L89|56/100 slp
+|move|p1a: Hitmontop|Close Combat|p2a: Solrock
+|-damage|p2a: Solrock|16/100 slp
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Toxicroak|Toxicroak, L84, M|32/100
+|-curestatus|p2a: Solrock|slp|[msg]
+|move|p2a: Solrock|Reflect|p2a: Solrock
+|-sidestart|p2: xRaytra|Reflect
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Solrock
+|-damage|p2a: Solrock|3/100
+|-heal|p1a: Toxicroak|39/100|[from] drain|[of] p2a: Solrock
+|move|p2a: Solrock|Will-O-Wisp|p1a: Toxicroak
+|-status|p1a: Toxicroak|brn
+|
+|-damage|p1a: Toxicroak|33/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Solrock
+|-damage|p2a: Solrock|0 fnt
+|-heal|p1a: Toxicroak|34/100 brn|[from] drain|[of] p2a: Solrock
+|faint|p2a: Solrock
+|
+|-damage|p1a: Toxicroak|28/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Magearna|Magearna, L80|91/100
+|turn|25
+
+|
+|switch|p1a: Audino|Audino, L86, M|99/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|97/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|detailschange|p1a: Audino|Audino-Mega, L86, M
+|-mega|p1a: Audino|Audino|Audinite
+|move|p2a: Magearna|Focus Blast|p1a: Audino
+|-damage|p1a: Audino|71/100
+|move|p1a: Audino|Fire Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|63/100
+|
+|-heal|p2a: Magearna|69/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|-heal|p2a: Magearna|75/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|-heal|p2a: Magearna|81/100|[from] item: Leftovers
+|-sideend|p2: xRaytra|Reflect
+|upkeep
+|turn|30
+
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|-heal|p2a: Magearna|87/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|-heal|p2a: Magearna|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p2a: Magearna|Thunderbolt|p1a: Audino
+|-damage|p1a: Audino|51/100
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|-heal|p2a: Magearna|99/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p2a: Magearna|Thunderbolt|p1a: Audino
+|-damage|p1a: Audino|34/100
+|move|p1a: Audino|Fire Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|50/100
+|
+|-heal|p2a: Magearna|56/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Audino
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|62/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|61/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Magearna|atk|1
+|turn|35
+
+|
+|move|p1a: Hitmontop|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|14/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|move|p2a: Magearna|Fleur Cannon|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Hitmontop
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|21/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, L82, F|100/100
+|turn|36
+
+|
+|move|p1a: Latias|Psyshock|p2a: Magearna
+|-resisted|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+
+|
+|switch|p2a: Metagross|Metagross-Mega, L78|44/100
+|turn|37
+
+|
+|move|p1a: Latias|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|20/100
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|upkeep
+|turn|38
+
+|
+|move|p2a: Metagross|Meteor Mash|p1a: Latias
+|-damage|p1a: Latias|45/100
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Latias|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|win|fezfezfezfez

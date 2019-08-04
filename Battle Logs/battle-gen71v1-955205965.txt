@@ -1,0 +1,58 @@
+|init|battle
+|title|kchrisstian vs. 5luke
+|j|☆kchrisstian
+|j|☆5luke
+|player|p1|kchrisstian|99|
+|player|p2|5luke|47|
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sawk, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Slowbro, M|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Archeops, M|item
+|teampreview|1
+|
+|start
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Spiritomb|atk|1
+|turn|1
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, M
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p1a: Gyarados|Waterfall|p2a: Spiritomb
+|-damage|p2a: Spiritomb|44/100
+|-zpower|p2a: Spiritomb
+|move|p2a: Spiritomb|Z-Taunt|p1a: Gyarados|[anim]Taunt
+|-boost|p2a: Spiritomb|atk|1|[zeffect]
+|-start|p1a: Gyarados|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Spiritomb|Sucker Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|88/100
+|move|p1a: Gyarados|Waterfall|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|win|kchrisstian
+|l|☆kchrisstian

@@ -1,0 +1,257 @@
+|init|battle
+|title|ademme vs. Vicepollon
+|j|☆ademme
+|j|☆Vicepollon
+|player|p1|ademme|80|1318
+|player|p2|Vicepollon|2|1365
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Xatu|Xatu, L86, M|100/100
+|switch|p2a: Accelgor|Accelgor, L86, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ademme)
+|inactive|Vicepollon also wants the timer to be on.
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Xatu
+|-damage|p1a: Xatu|56/100
+|move|p1a: Xatu|Calm Mind|p1a: Xatu
+|-boost|p1a: Xatu|spa|1
+|-boost|p1a: Xatu|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Xatu
+|-damage|p1a: Xatu|26/100
+|move|p1a: Xatu|Heat Wave|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-damage|p2a: Accelgor|3/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Accelgor|atk|1
+|turn|4
+
+|
+|move|p2a: Accelgor|Spikes|p1a: Qwilfish
+|-sidestart|p1: ademme|Spikes
+|move|p1a: Qwilfish|Liquidation|p2a: Accelgor
+|-crit|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|
+|upkeep
+
+|
+|switch|p2a: Raikou|Raikou, L84|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|5
+
+|
+|switch|p1a: Gogoat|Gogoat, L89, F|100/100
+|-damage|p1a: Gogoat|88/100|[from] Spikes
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Raikou|Hidden Power|p1a: Gogoat
+|-supereffective|p1a: Gogoat
+|-damage|p1a: Gogoat|34/100
+|-damage|p2a: Raikou|91/100|[from] item: Life Orb
+|move|p1a: Gogoat|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|8/100
+|-damage|p1a: Gogoat|24/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Raikou|Hidden Power|p1a: Gogoat
+|-supereffective|p1a: Gogoat
+|-damage|p1a: Gogoat|0 fnt
+|-damage|p2a: Raikou|0 fnt|[from] item: Life Orb
+|faint|p1a: Gogoat
+|faint|p2a: Raikou
+|
+|upkeep
+
+|
+|switch|p2a: Thundurus|Thundurus, L81, M|100/100
+|switch|p1a: Qwilfish|Qwilfish, L88, F|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Spikes
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|turn|8
+
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|-damage|p2a: Thundurus|91/100|[from] item: Life Orb
+|faint|p1a: Qwilfish
+|
+|upkeep
+
+|
+|switch|p1a: Xerneas|Xerneas, L78|100/100
+|-damage|p1a: Xerneas|88/100|[from] Spikes
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|9
+
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Xerneas
+|-damage|p1a: Xerneas|48/100
+|-damage|p2a: Thundurus|81/100|[from] item: Life Orb
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+
+|
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|turn|11
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|45/100
+|-unboost|p2a: Volcanion|spa|1
+|move|p2a: Volcanion|Steam Eruption|p1a: Xerneas
+|-damage|p1a: Xerneas|33/100
+|-status|p1a: Xerneas|brn
+|
+|-heal|p2a: Volcanion|51/100|[from] item: Leftovers
+|-damage|p1a: Xerneas|27/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-damage|p1a: Xerneas|21/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, F|100/100
+|turn|13
+
+|
+|move|p2a: Bruxish|Aqua Jet|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|upkeep
+
+|
+|switch|p1a: Suicune|Suicune, L82|100/100
+|-damage|p1a: Suicune|88/100|[from] Spikes
+|-ability|p1a: Suicune|Pressure
+|turn|14
+
+|
+|switch|p2a: Vespiquen|Vespiquen, L89, F|100/100
+|-ability|p2a: Vespiquen|Pressure
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Suicune|Ice Beam|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-damage|p2a: Vespiquen|48/100
+|move|p2a: Vespiquen|Attack Order|p1a: Suicune
+|-damage|p1a: Suicune|67/100
+|
+|-heal|p1a: Suicune|73/100|[from] item: Leftovers
+|-heal|p2a: Vespiquen|54/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|100/100
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|-heal|p1a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Suicune|Ice Beam|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-crit|p2a: Vespiquen
+|-damage|p2a: Vespiquen|0 fnt
+|faint|p2a: Vespiquen
+|
+|-heal|p1a: Suicune|85/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, F|100/100
+|turn|18
+
+|
+|move|p2a: Bruxish|Psychic Fangs|p1a: Suicune
+|-damage|p1a: Suicune|45/100
+|move|p1a: Suicune|Hidden Power|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|35/100
+|
+|-heal|p1a: Suicune|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Bruxish|Psychic Fangs|p1a: Suicune
+|-damage|p1a: Suicune|13/100
+|move|p1a: Suicune|Hidden Power|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|faint|p2a: Bruxish
+|
+|win|ademme

@@ -1,0 +1,328 @@
+|init|battle
+|title|LethalAmbipom vs. Qsxaz
+|j|☆LethalAmbipom
+|j|☆Qsxaz
+|player|p1|LethalAmbipom|170|1577
+|player|p2|Qsxaz|1|1554
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, L84, F|100/100
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Qsxaz)
+|
+|switch|p2a: Granbull|Granbull, L89, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Mandibuzz|atk|1
+|move|p1a: Mandibuzz|Toxic|p2a: Granbull
+|-status|p2a: Granbull|tox
+|
+|-damage|p2a: Granbull|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Aurorus|Aurorus, L88, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|move|p2a: Granbull|Thunder Wave|p1a: Aurorus
+|-status|p1a: Aurorus|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Granbull|88/100 tox|[from] Hail
+|-heal|p2a: Granbull|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Granbull|100/100 tox|[from] Grassy Terrain
+|-damage|p2a: Granbull|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Granbull|Heal Bell|p2a: Granbull
+|-activate|p2a: Granbull|move: Heal Bell
+|-curestatus|p2a: Granbull|tox|[msg]
+|move|p1a: Aurorus|Stealth Rock|p2a: Granbull
+|-sidestart|p2: Qsxaz|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Granbull|82/100|[from] Hail
+|-heal|p2a: Granbull|88/100|[from] item: Leftovers
+|-heal|p2a: Granbull|94/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+
+|
+|move|p2a: Granbull|Earthquake|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|72/100 par
+|move|p1a: Aurorus|Blizzard|p2a: Granbull
+|-damage|p2a: Granbull|41/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Granbull|35/100|[from] Hail
+|-heal|p2a: Granbull|41/100|[from] item: Leftovers
+|-heal|p2a: Granbull|47/100|[from] Grassy Terrain
+|-heal|p1a: Aurorus|78/100 par|[from] item: Leftovers
+|-heal|p1a: Aurorus|84/100 par|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|move|p2a: Granbull|Play Rough|p1a: Aurorus|[miss]
+|-miss|p2a: Granbull|p1a: Aurorus
+|move|p1a: Aurorus|Blizzard|p2a: Granbull
+|-damage|p2a: Granbull|0 fnt
+|faint|p2a: Granbull
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Aurorus|90/100 par|[from] item: Leftovers
+|-heal|p1a: Aurorus|97/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-damage|p2a: Tapu Bulu|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|6
+
+|
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|-damage|p2a: Tapu Bulu|41/100|[from] Recoil
+|faint|p1a: Aurorus
+|
+|-weather|none
+|-heal|p2a: Tapu Bulu|47/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|54/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, M|100/100
+|turn|7
+
+|
+|switch|p2a: Drapion|Drapion, L84, F|100/100
+|-damage|p2a: Drapion|88/100|[from] Stealth Rock
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p2a: Drapion|94/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+
+|
+|move|p2a: Drapion|Poison Jab|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|26/100
+|-damage|p2a: Drapion|84/100|[from] item: Life Orb
+|move|p1a: Togekiss|Air Slash|p2a: Drapion
+|-damage|p2a: Drapion|11/100
+|
+|-heal|p2a: Drapion|17/100|[from] Grassy Terrain
+|-heal|p1a: Togekiss|32/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Flareon|Flareon, L89, M|100/100
+|move|p2a: Drapion|Poison Jab|p1a: Flareon
+|-damage|p1a: Flareon|47/100
+|-damage|p2a: Drapion|8/100|[from] item: Life Orb
+|
+|-heal|p2a: Drapion|13/100|[from] Grassy Terrain
+|-heal|p1a: Flareon|53/100|[from] Grassy Terrain
+|-status|p1a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+
+|
+|move|p2a: Drapion|Earthquake|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|9/100 tox
+|-damage|p2a: Drapion|4/100|[from] item: Life Orb
+|move|p1a: Flareon|Flame Charge|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|-boost|p1a: Flareon|spe|1
+|faint|p2a: Drapion
+|
+|-heal|p1a: Flareon|16/100 tox|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p1a: Flareon|9/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Dragon, L78|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|upkeep
+
+|
+|switch|p1a: Mandibuzz|Mandibuzz, L84, F|100/100
+|turn|12
+
+|
+|move|p2a: Arceus|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|move|p1a: Mandibuzz|Toxic|p2a: Arceus|[miss]
+|-miss|p1a: Mandibuzz|p2a: Arceus
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Arceus|Fire Blast|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|59/100 brn
+|move|p1a: Mandibuzz|Toxic|p2a: Arceus
+|-status|p2a: Arceus|tox
+|
+|-heal|p1a: Mandibuzz|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Arceus|82/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|59/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Arceus|Judgment|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|20/100 brn
+|move|p1a: Mandibuzz|Foul Play|p2a: Arceus
+|-damage|p2a: Arceus|67/100 tox
+|
+|-heal|p1a: Mandibuzz|26/100 brn|[from] item: Leftovers
+|-damage|p2a: Arceus|55/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|20/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Arceus|Fire Blast|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Arceus|37/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, M|32/100
+|turn|16
+
+|
+|move|p2a: Arceus|Fire Blast|p1a: Togekiss
+|-damage|p1a: Togekiss|9/100
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|59/100
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-heal|p1a: Togekiss|65/100|[from] item: Leftovers
+|-damage|p2a: Arceus|13/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Arceus|Fire Blast|p1a: Togekiss
+|-damage|p1a: Togekiss|39/100
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p1a: Togekiss|45/100|[from] item: Leftovers
+|-damage|p2a: Arceus|0 fnt|[from] psn
+|faint|p2a: Arceus
+|upkeep
+
+|
+|switch|p2a: Chandelure|Chandelure, L82, M|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Togekiss
+|-damage|p1a: Togekiss|14/100
+|-unboost|p1a: Togekiss|spd|1
+|move|p1a: Togekiss|Air Slash|p2a: Chandelure
+|-damage|p2a: Chandelure|6/100
+|
+|-heal|p1a: Togekiss|21/100|[from] item: Leftovers
+|-heal|p2a: Chandelure|12/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Togekiss|Air Slash|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|-heal|p1a: Togekiss|27/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, F|100/100
+|-damage|p2a: Talonflame|51/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p2a: Talonflame|Flare Blitz|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Talonflame|42/100|[from] Recoil
+|-damage|p2a: Talonflame|32/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon, L78|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|21
+
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Groudon
+|-damage|p1a: Groudon|63/100
+|-damage|p2a: Talonflame|19/100|[from] Recoil
+|-damage|p2a: Talonflame|9/100|[from] item: Life Orb
+|move|p1a: Groudon|Thunder Wave|p2a: Talonflame
+|-status|p2a: Talonflame|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Groudon|Dragon Claw|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|75/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|54/100
+|-damage|p2a: Tapu Bulu|41/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|23
+
+|
+|move|p1a: Groudon|Stone Edge|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|10/100
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p2a: Tapu Bulu|0 fnt|[from] Recoil
+|faint|p1a: Groudon
+|faint|p2a: Tapu Bulu
+|
+|win|LethalAmbipom

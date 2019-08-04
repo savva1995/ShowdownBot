@@ -1,0 +1,386 @@
+|init|battle
+|title|Kingttar1202 vs. hovalisa
+|j|☆Kingttar1202
+|j|☆hovalisa
+|player|p1|Kingttar1202|70|1402
+|player|p2|hovalisa|159|1354
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Magearna|item
+|poke|p1|Greninja, M|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Medicham, F|item
+|poke|p2|Bisharp, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tapu Fini|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Kingttar1202 has 30 seconds left this turn.
+|inactive|hovalisa has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kingttar1202)
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|1
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+|inactive|Kingttar1202 has 10 seconds left.
+|inactive|hovalisa has 10 seconds left.
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|94/100
+|
+|upkeep
+|turn|2
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+|inactive|hovalisa has 10 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Magearna|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|3
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+|
+|move|p2a: Rotom|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|19/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Rotom
+|-sidestart|p2: hovalisa|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+|inactive|Kingttar1202 has 10 seconds left.
+|inactive|hovalisa has 10 seconds left.
+
+|inactive|hovalisa has 5 seconds left.
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p1a: Greninja|Greninja, M|100/100
+|
+|upkeep
+|turn|5
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 10 seconds left this turn.
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Greninja
+|-sidestart|p1: Kingttar1202|move: Stealth Rock
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p1a: Garchomp|Garchomp, F|19/100
+|-damage|p1a: Garchomp|13/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Ferrothorn|48/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, F
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Tyranitar|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Tyranitar|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Tyranitar|59/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p2a: Medicham|Medicham, F|100/100
+|-damage|p2a: Medicham|94/100|[from] Stealth Rock
+|turn|8
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|detailschange|p2a: Medicham|Medicham-Mega, F
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|High Jump Kick|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p2a: Medicham|78/100|[from] item: Rocky Helmet|[of] p1a: Tornadus
+|faint|p1a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|72/100|[from] Sandstorm
+|upkeep
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|inactive|Kingttar1202 has 10 seconds left.
+
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|9
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|move|p1a: Excadrill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|20/100
+|cant|p2a: Landorus|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|inactive|hovalisa has 10 seconds left.
+
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Excadrill|Iron Head|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|51/100
+|
+|-weather|none
+|upkeep
+|turn|12
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Excadrill
+|-damage|p1a: Excadrill|37/100
+|move|p1a: Excadrill|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Excadrill|43/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|20/100
+|-damage|p2a: Landorus|8/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|turn|13
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|move|p1a: Excadrill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Excadrill|49/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|inactive|hovalisa has 10 seconds left.
+
+|
+|switch|p2a: Medicham|Medicham-Mega, F|72/100
+|-damage|p2a: Medicham|66/100|[from] Stealth Rock
+|turn|14
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p1a: Tyranitar|Tyranitar-Mega, F|59/100
+|-damage|p1a: Tyranitar|47/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Medicham|Psycho Cut|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|60/100|[from] Sandstorm
+|upkeep
+|turn|15
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p1a: Magearna|Magearna|94/100
+|-damage|p1a: Magearna|88/100|[from] Stealth Rock
+|move|p2a: Medicham|High Jump Kick|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|53/100|[from] Sandstorm
+|upkeep
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|turn|16
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-damage|p2a: Tapu Fini|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Greninja|Dark Pulse|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Greninja|82/100|[from] Sandstorm
+|-damage|p2a: Tapu Fini|61/100|[from] Sandstorm
+|-heal|p2a: Tapu Fini|67/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|
+|switch|p1a: Excadrill|Excadrill, M|49/100
+|-damage|p1a: Excadrill|46/100|[from] Stealth Rock
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Fini|61/100|[from] Sandstorm
+|-heal|p1a: Excadrill|52/100|[from] item: Leftovers
+|-heal|p2a: Tapu Fini|67/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 15 seconds left this turn.
+
+|inactive|Kingttar1202 has 10 seconds left.
+|inactive|hovalisa has 10 seconds left.
+
+|inactive|hovalisa has 5 seconds left.
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|17/100
+|move|p2a: Tapu Fini|Hydro Pump|p1a: Excadrill|[miss]
+|-miss|p2a: Tapu Fini|p1a: Excadrill
+|
+|-weather|none
+|-heal|p1a: Excadrill|58/100|[from] item: Leftovers
+|-heal|p2a: Tapu Fini|23/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 10 seconds left this turn.
+
+|inactive|hovalisa has 5 seconds left.
+
+|
+|move|p1a: Excadrill|Iron Head|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|-heal|p1a: Excadrill|64/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Kingttar1202 has 15 seconds left this turn.
+|inactive|hovalisa has 10 seconds left this turn.
+
+|-message|hovalisa forfeited.
+
+|
+|win|Kingttar1202

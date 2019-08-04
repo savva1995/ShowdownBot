@@ -1,0 +1,130 @@
+|init|battle
+|title|Darkinash vs. scp-1024
+|j|☆Darkinash
+|j|☆scp-1024
+|player|p1|Darkinash|1|1380
+|player|p2|scp-1024|1|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ribombee|Ribombee, L85, M|100/100
+|switch|p2a: Simisear|Simisear, L89, M|100/100
+|turn|1
+|
+|switch|p1a: Azumarill|Azumarill, L80, M|100/100
+|move|p2a: Simisear|Fire Blast|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|75/100
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Darkinash)
+
+|
+|switch|p2a: Delphox|Delphox, L86, F|100/100
+|move|p1a: Azumarill|Knock Off|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|-enditem|p2a: Delphox|Choice Scarf|[from] move: Knock Off|[of] p1a: Azumarill
+|faint|p2a: Delphox
+|
+|upkeep
+
+|
+|switch|p2a: Durant|Durant, L83, F|100/100
+|turn|3
+
+|
+|move|p2a: Durant|Iron Head|p1a: Azumarill
+|-damage|p1a: Azumarill|4/100
+|-damage|p2a: Durant|91/100|[from] item: Life Orb
+|move|p1a: Azumarill|Knock Off|p2a: Durant
+|-damage|p2a: Durant|50/100
+|-enditem|p2a: Durant|Life Orb|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Dragonite|Dragonite, L81, F|100/100
+|move|p2a: Durant|Iron Head|p1a: Dragonite|[miss]
+|-miss|p2a: Durant|p1a: Dragonite
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Durant|Stone Edge|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|60/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Durant
+|-resisted|p2a: Durant
+|-damage|p2a: Durant|10/100
+|move|p2a: Durant|Stone Edge|p1a: Dragonite|[miss]
+|-miss|p2a: Durant|p1a: Dragonite
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Durant|[from]lockedmove
+|-resisted|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|-start|p1a: Dragonite|confusion|[fatigue]
+|faint|p2a: Durant
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-end|p1a: Dragonite|confusion
+|
+|upkeep
+
+|c|☆scp-1024|？
+
+|
+|switch|p2a: Tyranitar|Tyranitar, L80, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|8
+
+|
+|detailschange|p2a: Tyranitar|Tyranitar-Mega, L80, F
+|-mega|p2a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Dragonite|Outrage|p2a: Tyranitar
+|-damage|p2a: Tyranitar|43/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|54/100|[from] Sandstorm
+|upkeep
+|turn|9
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Tyranitar|[from]lockedmove
+|-damage|p2a: Tyranitar|0 fnt
+|-start|p1a: Dragonite|confusion|[fatigue]
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|48/100|[from] Sandstorm
+|upkeep
+
+|-message|scp-1024 forfeited.
+
+|
+|win|Darkinash

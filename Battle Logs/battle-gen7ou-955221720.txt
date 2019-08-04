@@ -1,0 +1,308 @@
+|init|battle
+|title|filipeluis03 vs. rebahk
+|j|☆filipeluis03
+|j|☆rebahk
+|player|p1|filipeluis03|1|1553
+|player|p2|rebahk|101|1549
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Heracross, F|item
+|poke|p1|Pelipper, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Ditto|item
+|poke|p1|Kabutops, F|item
+|poke|p2|Magearna|item
+|poke|p2|Victini|item
+|poke|p2|Tangrowth, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Tyranitar, M|item
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Victini|Victini|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Victini|Final Gambit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p2a: Victini
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|switch|p1a: Heracross|Heracross, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heracross|atk|1
+|detailschange|p1a: Heracross|Heracross-Mega, F
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p2a: Landorus|Toxic|p1a: Heracross
+|-status|p1a: Heracross|tox
+|move|p1a: Heracross|Rock Blast|p2a: Landorus
+|-damage|p2a: Landorus|87/100
+|-damage|p2a: Landorus|72/100
+|-damage|p2a: Landorus|57/100
+|-damage|p2a: Landorus|42/100
+|-damage|p2a: Landorus|26/100
+|-hitcount|p2a: Landorus|5
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|88/100 tox|[from] Sandstorm
+|-heal|p2a: Landorus|32/100|[from] item: Leftovers
+|-damage|p1a: Heracross|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Landorus|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: filipeluis03|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|38/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Landorus|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|move|p1a: Pelipper|Defog|p2a: Landorus
+|-unboost|p2a: Landorus|evasion|1
+|-sideend|p1: filipeluis03|Stealth Rock|[from] move: Defog|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|44/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: filipeluis03|move: Stealth Rock
+|move|p1a: Pelipper|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|5/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|11/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Pelipper|Defog|p2a: Magearna
+|-unboost|p2a: Magearna|evasion|1
+|-sideend|p1: filipeluis03|Stealth Rock|[from] move: Defog|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|63/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Kabutops|Kabutops, F|100/100
+|move|p2a: Magearna|Thunderbolt|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|9
+|
+|switch|p2a: Landorus|Landorus-Therian, M|11/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kingdra|atk|1
+|move|p1a: Kingdra|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Kingdra|Hydro Pump|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|94/100|[from] Sandstorm
+|-damage|p2a: Tangrowth|71/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|switch|p1a: Pelipper|Pelipper, F|63/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|57/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Kingdra|Kingdra, M|94/100
+|move|p2a: Tornadus|Hurricane|p1a: Kingdra
+|-damage|p1a: Kingdra|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Kingdra|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|17/100
+|move|p2a: Tornadus|Hurricane|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Tornadus|[from] ability: Imposter
+|turn|14
+|
+|move|p1a: Ditto|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|9/100
+|-damage|p1a: Ditto|84/100|[from] item: Rocky Helmet|[of] p2a: Tornadus
+|
+|switch|p1a: Pelipper|Pelipper, F|57/100 tox|[from]move: U-turn
+|move|p2a: Tornadus|Hurricane|p1a: Pelipper
+|-damage|p1a: Pelipper|4/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|0 fnt|[from] psn
+|faint|p1a: Pelipper
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Tornadus|[from] ability: Imposter
+|turn|15
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Ditto|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|97/100
+|
+|switch|p1a: Heracross|Heracross-Mega, F|82/100 tox|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Heracross|76/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Heracross|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|41/100
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Heracross|64/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|42/100
+|move|p1a: Heracross|Pin Missile|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|30/100
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|19/100
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|9/100
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-hitcount|p2a: Tornadus|4
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Heracross|46/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Tangrowth|Tangrowth, M|74/100
+|turn|18
+
+|
+|move|p1a: Heracross|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|9/100
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|move|p2a: Tangrowth|Hidden Power|p1a: Heracross
+|-damage|p1a: Heracross|17/100 tox
+|
+|-weather|none
+|-damage|p1a: Heracross|0 fnt|[from] psn
+|faint|p1a: Heracross
+|upkeep
+
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Tangrowth|[from] ability: Imposter
+|turn|19
+
+|
+|move|p1a: Ditto|Earthquake|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|1/100
+|move|p2a: Tangrowth|Earthquake|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|90/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Ditto|Earthquake|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|upkeep
+
+|
+|switch|p2a: Magearna|Magearna|97/100
+|turn|21
+
+|
+|-zpower|p2a: Magearna
+|move|p2a: Magearna|Twinkle Tackle|p1a: Ditto|[zeffect]
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|rebahk

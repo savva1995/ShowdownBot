@@ -1,0 +1,243 @@
+|init|battle
+|title|Mrpuyy vs. NegaOU
+|j|☆Mrpuyy
+|j|☆NegaOU
+|player|p1|Mrpuyy|84|1090
+|player|p2|NegaOU|265|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Swampert, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Pelipper, F|item
+|poke|p1|Manaphy|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p2|Golem-Alola, F|item
+|poke|p2|Golisopod, F|item
+|poke|p2|Blacephalon|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Lopunny, F|item
+|poke|p2|Shaymin|item
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Lopunny|Lopunny, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, F
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|Fake Out|p1a: Pelipper
+|-damage|p1a: Pelipper|78/100
+|cant|p1a: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Lopunny|Return|p1a: Pelipper
+|-damage|p1a: Pelipper|25/100
+|move|p1a: Pelipper|Hurricane|p2a: Lopunny
+|-supereffective|p2a: Lopunny
+|-damage|p2a: Lopunny|0 fnt
+|faint|p2a: Lopunny
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|3
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Golem|Golem-Alola, F|100/100
+|-item|p2a: Golem|Air Balloon
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Golem
+|-damage|p2a: Golem|80/100
+|-enditem|p2a: Golem|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Golem|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100
+|-damage|p2a: Golem|68/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Golem
+|-sidestart|p2: NegaOU|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mrpuyy)
+
+|inactive|NegaOU has 120 seconds left.
+
+|
+|move|p2a: Golem|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100
+|-damage|p2a: Golem|56/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Toxic|p2a: Golem
+|-status|p2a: Golem|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p2a: Golem|50/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Golem|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Golem|37/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Golem|25/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|8
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-hitcount|p2a: Golem|1
+|faint|p2a: Golem
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Shaymin|Shaymin|100/100
+|-damage|p2a: Shaymin|88/100|[from] Stealth Rock
+|turn|9
+
+|
+|switch|p1a: Pelipper|Pelipper, F|25/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-zpower|p2a: Shaymin
+|move|p2a: Shaymin|Z-Celebrate|p2a: Shaymin|[anim]Celebrate
+|-boost|p2a: Shaymin|atk|1|[zeffect]
+|-boost|p2a: Shaymin|def|1|[zeffect]
+|-boost|p2a: Shaymin|spa|1|[zeffect]
+|-boost|p2a: Shaymin|spd|1|[zeffect]
+|-boost|p2a: Shaymin|spe|1|[zeffect]
+|-activate|p2a: Shaymin|move: Celebrate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Shaymin|Seed Flare|p1a: Pelipper|[miss]
+|-miss|p2a: Shaymin|p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|20/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Shaymin|Seed Flare|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja-Ash, M|100/100
+|turn|12
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Shaymin
+|-resisted|p2a: Shaymin
+|-damage|p2a: Shaymin|11/100
+|-resisted|p2a: Shaymin
+|-damage|p2a: Shaymin|1/100
+|-resisted|p2a: Shaymin
+|-crit|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|-hitcount|p2a: Shaymin|3
+|faint|p2a: Shaymin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|-damage|p2a: Golisopod|76/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|62/100
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|49/100
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|35/100
+|-hitcount|p2a: Golisopod|3
+|-activate|p2a: Golisopod|ability: Emergency Exit
+
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|13/100
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-hitcount|p2a: Mamoswine|2
+|faint|p2a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|-message|NegaOU forfeited.
+
+|
+|win|Mrpuyy

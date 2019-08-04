@@ -1,0 +1,291 @@
+|init|battle
+|title|jettywang vs. Annaruse
+|j|☆jettywang
+|j|☆Annaruse
+|player|p1|jettywang|170|
+|player|p2|Annaruse|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Shiftry|Shiftry, L89, M|100/100
+|switch|p2a: Camerupt|Camerupt, L85, F|100/100
+|turn|1
+
+|
+|switch|p1a: Salamence|Salamence, L81, M|100/100
+|detailschange|p2a: Camerupt|Camerupt-Mega, L85, F
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Camerupt|Stealth Rock|p1a: Salamence
+|-sidestart|p1: jettywang|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Salamence|Earthquake|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|38/100
+|move|p2a: Camerupt|Will-O-Wisp|p1a: Salamence
+|-status|p1a: Salamence|brn
+|
+|-damage|p1a: Salamence|95/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Diancie|Diancie, L84|100/100
+|move|p1a: Salamence|Draco Meteor|p2a: Diancie
+|-immune|p2a: Diancie
+|
+|-damage|p1a: Salamence|89/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Salamence|Earthquake|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|76/100
+|move|p2a: Diancie|Diamond Storm|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|7/100 brn
+|-boost|p2a: Diancie|def|2
+|
+|-damage|p1a: Salamence|1/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p1a: Salamence|Earthquake|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|63/100
+|move|p2a: Diancie|Reflect|p2a: Diancie
+|-sidestart|p2: Annaruse|Reflect
+|
+|-damage|p1a: Salamence|0 fnt|[from] brn
+|faint|p1a: Salamence
+|upkeep
+
+|
+|switch|p1a: Lucario|Lucario, L82, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|6
+
+|
+|switch|p2a: Palkia|Palkia, L78|100/100
+|-ability|p2a: Palkia|Pressure
+|move|p1a: Lucario|Flash Cannon|p2a: Palkia
+|-resisted|p2a: Palkia
+|-damage|p2a: Palkia|86/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, M|100/100
+|move|p2a: Palkia|Fire Blast|p1a: Reuniclus
+|-damage|p1a: Reuniclus|68/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100
+|move|p2a: Palkia|Dragon Tail|p1a: Reuniclus
+|-damage|p1a: Reuniclus|77/100
+|drag|p1a: Medicham|Medicham, L86, M|100/100
+|-damage|p1a: Medicham|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Palkia
+|-damage|p2a: Palkia|32/100
+|move|p2a: Palkia|Dragon Tail|p1a: Medicham
+|-damage|p1a: Medicham|62/100
+|drag|p1a: Shiftry|Shiftry, L89, M|100/100
+|-damage|p1a: Shiftry|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Shiftry|Sucker Punch|p2a: Palkia
+|-damage|p2a: Palkia|15/100
+|move|p2a: Palkia|Fire Blast|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|9/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Palkia|Draco Meteor|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|-unboost|p2a: Palkia|spa|2
+|faint|p1a: Shiftry
+|
+|upkeep
+
+|
+|switch|p1a: Lucario|Lucario, L82, M|98/100
+|-damage|p1a: Lucario|95/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Lucario|Vacuum Wave|p2a: Palkia
+|-damage|p2a: Palkia|1/100
+|move|p2a: Palkia|Fire Blast|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|43/100
+|
+|-sideend|p2: Annaruse|Reflect
+|upkeep
+|turn|13
+
+|
+|move|p1a: Lucario|Vacuum Wave|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos, L80|100/100
+|turn|14
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, M|77/100
+|move|p2a: Zapdos|Heat Wave|p1a: Reuniclus|[miss]
+|-miss|p2a: Zapdos|p1a: Reuniclus
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Zapdos|U-turn|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|38/100
+|-damage|p2a: Zapdos|91/100|[from] item: Life Orb
+
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|100/100|[from]move: U-turn
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Eelektross|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-enditem|p1a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p2a: Eelektross
+|faint|p1a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham, L86, M|62/100
+|-damage|p1a: Medicham|56/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Eelektross
+|-crit|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|upkeep
+
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L86, M|100/100
+|turn|18
+
+|
+|switch|p1a: Sableye|Sableye, L81, M|100/100
+|-damage|p1a: Sableye|88/100|[from] Stealth Rock
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Sableye
+|-immune|p1a: Sableye
+|-damage|p2a: Hitmonlee|50/100|[from] highjumpkick
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Diancie|Diancie, L84|63/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Diancie
+|-status|p2a: Diancie|brn
+|
+|-damage|p2a: Diancie|58/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Sableye|Calm Mind|p1a: Sableye
+|-boost|p1a: Sableye|spa|1
+|-boost|p1a: Sableye|spd|1
+|move|p2a: Diancie|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|6/100
+|-unboost|p1a: Sableye|spa|1
+|
+|-damage|p2a: Diancie|52/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p2a: Diancie|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-damage|p2a: Diancie|46/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham, L86, M|56/100
+|-damage|p1a: Medicham|50/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L86, M|50/100
+|turn|23
+
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Medicham
+|-resisted|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|upkeep
+
+|
+|switch|p1a: Lucario|Lucario, L82, M|43/100
+|-damage|p1a: Lucario|41/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Lucario|Vacuum Wave|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|27/100
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|win|Annaruse

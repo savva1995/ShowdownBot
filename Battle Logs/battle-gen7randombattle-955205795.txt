@@ -1,0 +1,240 @@
+|init|battle
+|title|GameTekShadowV4 vs. g45g4g45
+|j|☆GameTekShadowV4
+|j|☆g45g4g45
+|player|p1|GameTekShadowV4|274|1351
+|player|p2|g45g4g45|102|1379
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Girafarig|Girafarig, L89, F|100/100
+|switch|p2a: Snorlax|Snorlax, L84, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by g45g4g45)
+|
+|move|p1a: Girafarig|Substitute|p1a: Girafarig
+|-start|p1a: Girafarig|Substitute
+|-damage|p1a: Girafarig|76/100
+|move|p2a: Snorlax|Crunch|p1a: Girafarig
+|-supereffective|p1a: Girafarig
+|-end|p1a: Girafarig|Substitute
+|
+|-heal|p1a: Girafarig|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Girafarig|Nasty Plot|p1a: Girafarig
+|-boost|p1a: Girafarig|spa|2
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Girafarig|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Girafarig|Hyper Voice|p2a: Snorlax
+|-damage|p2a: Snorlax|56/100
+|move|p2a: Snorlax|Crunch|p1a: Girafarig
+|-supereffective|p1a: Girafarig
+|-damage|p1a: Girafarig|7/100
+|
+|-heal|p1a: Girafarig|13/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Girafarig|Hyper Voice|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|4/100
+|move|p2a: Snorlax|Return|p1a: Girafarig
+|-damage|p1a: Girafarig|0 fnt
+|faint|p1a: Girafarig
+|
+|-heal|p2a: Snorlax|11/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana, L80|100/100
+|turn|5
+
+|
+|switch|p2a: Entei|Entei, L83|100/100
+|-ability|p2a: Entei|Pressure
+|move|p1a: Kartana|Smart Strike|p2a: Entei
+|-resisted|p2a: Entei
+|-damage|p2a: Entei|73/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, F|100/100
+|move|p2a: Entei|Sacred Fire|p1a: Reuniclus
+|-damage|p1a: Reuniclus|41/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Entei|Sacred Fire|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p1a: Ambipom|Ambipom, L86, M|100/100
+|turn|8
+
+|
+|switch|p2a: Snorlax|Snorlax, L84, M|11/100
+|move|p1a: Ambipom|Return|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, L80, F|100/100
+|turn|9
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, L80, F
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p1a: Ambipom|Return|p2a: Medicham
+|-damage|p2a: Medicham|13/100
+|move|p2a: Medicham|High Jump Kick|p1a: Ambipom
+|-supereffective|p1a: Ambipom
+|-damage|p1a: Ambipom|0 fnt
+|faint|p1a: Ambipom
+|
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana, L80|100/100
+|turn|10
+
+|
+|switch|p2a: Skuntank|Skuntank, L88, M|100/100
+|move|p1a: Kartana|Sacred Sword|p2a: Skuntank
+|-damage|p2a: Skuntank|45/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Azelf|Azelf, L82|100/100
+|move|p1a: Kartana|Sacred Sword|p2a: Azelf
+|-resisted|p2a: Azelf
+|-damage|p2a: Azelf|64/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Aurorus|Aurorus, L88, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|move|p2a: Azelf|Fire Blast|p1a: Aurorus
+|-damage|p1a: Aurorus|69/100
+|-damage|p2a: Azelf|54/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Azelf|48/100|[from] Hail
+|-heal|p1a: Aurorus|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Kingler|Kingler, L87, F|100/100
+|move|p1a: Aurorus|Stealth Rock|p2a: Kingler
+|-sidestart|p2: g45g4g45|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Kingler|95/100|[from] Hail
+|-heal|p1a: Aurorus|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Kingler|Liquidation|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|faint|p1a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Kingler|89/100|[from] Hail
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, L84, M|100/100
+|turn|15
+
+|
+|move|p1a: Jolteon|Volt Switch|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+
+|
+|switch|p1a: Kartana|Kartana, L80|100/100|[from]move: Volt Switch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Kartana|94/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Azelf|Azelf, L82|48/100
+|-damage|p2a: Azelf|35/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Azelf|Fire Blast|p1a: Kartana
+|-supereffective|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|-damage|p2a: Azelf|25/100|[from] item: Life Orb
+|faint|p1a: Kartana
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, L84, M|100/100
+|turn|17
+
+|
+|move|p1a: Jolteon|Volt Switch|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|upkeep
+
+|
+|switch|p2a: Entei|Entei, L83|73/100
+|-damage|p2a: Entei|49/100|[from] Stealth Rock
+|-ability|p2a: Entei|Pressure
+|turn|18
+
+|
+|move|p2a: Entei|Extreme Speed|p1a: Jolteon
+|-damage|p1a: Jolteon|45/100
+|move|p1a: Jolteon|Volt Switch|p2a: Entei
+|-damage|p2a: Entei|5/100
+|
+|upkeep
+|turn|19
+
+|-message|GameTekShadowV4 forfeited.
+
+|
+|win|g45g4g45

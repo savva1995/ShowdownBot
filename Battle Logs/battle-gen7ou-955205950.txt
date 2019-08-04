@@ -1,0 +1,57 @@
+|init|battle
+|title|Pokekral vs. koghan
+|j|☆Pokekral
+|j|☆koghan
+|player|p1|Pokekral|102|1080
+|player|p2|koghan|126|1132
+|teamsize|p1|1
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Charizard, F|item
+|poke|p2|Torkoal, M|item
+|poke|p2|Shiftry, M|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Exeggutor, F|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|1
+|
+|move|p2a: Ninetales|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|25/100
+|move|p1a: Landorus|Substitute|p1a: Landorus
+|-fail|p1a: Landorus|move: Substitute|[weak]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Ninetales|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|koghan
+|l|☆Pokekral
+|raw|Pokekral's rating: 1080 &rarr; <strong>1061</strong><br />(-19 for losing)
+|raw|koghan's rating: 1132 &rarr; <strong>1153</strong><br />(+21 for winning)
+|l|☆koghan

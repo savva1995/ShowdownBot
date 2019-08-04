@@ -1,0 +1,177 @@
+|init|battle
+|title|chrisocampo vs. febrezzzze
+|j|☆chrisocampo
+|j|☆febrezzzze
+|player|p1|chrisocampo|101|
+|player|p2|febrezzzze|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Heracross|Heracross, L70, M|100/100
+|switch|p1b: Vileplume|Vileplume, L80, M|100/100
+|switch|p2a: Passimian|Passimian, L80, M|100/100
+|switch|p2b: Guzzlord|Guzzlord, L72|100/100
+|turn|1
+
+|
+|detailschange|p1a: Heracross|Heracross-Mega, L70, M
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p2a: Passimian|U-turn|p1b: Vileplume
+|-crit|p1b: Vileplume
+|-damage|p1b: Vileplume|52/100
+|-status|p2a: Passimian|slp|[from] ability: Effect Spore|[of] p1b: Vileplume
+|-damage|p2a: Passimian|91/100 slp|[from] item: Life Orb
+
+|c|☆febrezzzze|you get mean when we play this game
+
+|
+|switch|p2a: Giratina|Giratina-Origin, L70|100/100|[from]move: U-turn
+|move|p1a: Heracross|Close Combat|p2a: Giratina
+|-immune|p2a: Giratina
+|move|p1b: Vileplume|Moonblast|p2b: Guzzlord
+|-supereffective|p2b: Guzzlord
+|-damage|p2b: Guzzlord|0 fnt
+|faint|p2b: Guzzlord
+|
+|upkeep
+
+|
+|switch|p2b: Honchkrow|Honchkrow, L79, F|100/100
+|turn|2
+
+|
+|move|p2a: Giratina|Calm Mind|p2a: Giratina
+|-boost|p2a: Giratina|spa|1
+|-boost|p2a: Giratina|spd|1
+|move|p2b: Honchkrow|Brave Bird|p1b: Vileplume
+|-supereffective|p1b: Vileplume
+|-damage|p1b: Vileplume|0 fnt
+|-damage|p2b: Honchkrow|86/100|[from] Recoil
+|-damage|p2b: Honchkrow|76/100|[from] item: Life Orb
+|faint|p1b: Vileplume
+|-ability|p2b: Honchkrow|Moxie|boost
+|-boost|p2b: Honchkrow|atk|1
+|move|p1a: Heracross|Bullet Seed|p2b: Honchkrow
+|-resisted|p2b: Honchkrow
+|-damage|p2b: Honchkrow|70/100
+|-resisted|p2b: Honchkrow
+|-damage|p2b: Honchkrow|65/100
+|-resisted|p2b: Honchkrow
+|-damage|p2b: Honchkrow|59/100
+|-resisted|p2b: Honchkrow
+|-damage|p2b: Honchkrow|53/100
+|-resisted|p2b: Honchkrow
+|-damage|p2b: Honchkrow|48/100
+|-hitcount|p2b: Honchkrow|5
+|
+|upkeep
+
+|
+|switch|p1b: Lumineon|Lumineon, L83, F|100/100
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chrisocampo)
+
+|
+|move|p1b: Lumineon|Ice Beam|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|71/100
+|-damage|p1b: Lumineon|90/100|[from] item: Life Orb
+|move|p2a: Giratina|Dragon Pulse|p1b: Lumineon
+|-crit|p1b: Lumineon
+|-damage|p1b: Lumineon|3/100
+|move|p2b: Honchkrow|Brave Bird|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|-damage|p2b: Honchkrow|21/100|[from] Recoil
+|-damage|p2b: Honchkrow|12/100|[from] item: Life Orb
+|faint|p1a: Heracross
+|-ability|p2b: Honchkrow|Moxie|boost
+|-boost|p2b: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Reshiram|Reshiram, L70|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|4
+
+|
+|move|p1b: Lumineon|Ice Beam|p2b: Honchkrow
+|-supereffective|p2b: Honchkrow
+|-damage|p2b: Honchkrow|0 fnt
+|-damage|p1b: Lumineon|0 fnt|[from] item: Life Orb
+|faint|p2b: Honchkrow
+|faint|p1b: Lumineon
+|move|p1a: Reshiram|Draco Meteor|p2a: Giratina|[miss]
+|-miss|p1a: Reshiram|p2a: Giratina
+|move|p2a: Giratina|Dragon Pulse|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|8/100
+|-enditem|p1a: Reshiram|Sitrus Berry|[eat]
+|-heal|p1a: Reshiram|33/100|[from] item: Sitrus Berry
+|
+|upkeep
+
+|
+|switch|p1b: Tapu Bulu|Tapu Bulu, L72|100/100
+|switch|p2b: Clefable|Clefable, L81, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Tapu Bulu
+|turn|5
+
+|
+|move|p2a: Giratina|Shadow Ball|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|faint|p1a: Reshiram
+|move|p1b: Tapu Bulu|Leech Seed|p2b: Clefable
+|-start|p2b: Clefable|move: Leech Seed
+|move|p2b: Clefable|Dazzling Gleam|p1b: Tapu Bulu
+|-damage|p1b: Tapu Bulu|53/100
+|
+|-heal|p1b: Tapu Bulu|59/100|[from] item: Leftovers
+|-heal|p1b: Tapu Bulu|65/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|100/100
+|turn|6
+
+|
+|move|p1a: Hitmonlee|Knock Off|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|22/100
+|-damage|p1a: Hitmonlee|91/100|[from] item: Life Orb
+|move|p2a: Giratina|Shadow Ball|p1a: Hitmonlee
+|-crit|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|17/100
+|move|p1b: Tapu Bulu|Nature's Madness|p2a: Giratina
+|-damage|p2a: Giratina|11/100
+|move|p2b: Clefable|Dazzling Gleam|p1b: Tapu Bulu|[spread] p1a,p1b
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|-damage|p1b: Tapu Bulu|27/100
+|faint|p1a: Hitmonlee
+|
+|-heal|p1b: Tapu Bulu|33/100|[from] item: Leftovers
+|-heal|p1b: Tapu Bulu|39/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+
+|
+|move|p2a: Giratina|Dragon Pulse|p1b: Tapu Bulu
+|-immune|p1b: Tapu Bulu
+|move|p1b: Tapu Bulu|Wood Hammer|p2b: Clefable
+|-damage|p2b: Clefable|33/100
+|-damage|p1b: Tapu Bulu|10/100|[from] Recoil
+|move|p2b: Clefable|Fire Blast|p1b: Tapu Bulu
+|-supereffective|p1b: Tapu Bulu
+|-damage|p1b: Tapu Bulu|0 fnt
+|faint|p1b: Tapu Bulu
+|
+|win|febrezzzze

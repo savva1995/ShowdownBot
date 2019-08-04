@@ -1,0 +1,353 @@
+|init|battle
+|title|uh6 vs. Bloodybyalol
+|j|☆uh6
+|j|☆Bloodybyalol
+|player|p1|uh6|101|1719
+|player|p2|Bloodybyalol|2|1726
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cherrim|Cherrim, L89, M|100/100
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bloodybyalol)
+|
+|switch|p1a: Blissey|Blissey, L82, F|100/100
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Blissey
+|-damage|p1a: Blissey|89/100
+|
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, M|100/100
+|move|p1a: Blissey|Thunder Wave|p2a: Feraligatr
+|-status|p2a: Feraligatr|par
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Decidueye|Decidueye, L86, M|100/100
+|cant|p2a: Feraligatr|par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|move|p1a: Decidueye|Leaf Blade|p2a: Cryogonal
+|-damage|p2a: Cryogonal|43/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Blissey|Blissey, L82, F|100/100
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Blissey
+|-damage|p1a: Blissey|89/100
+|
+|-heal|p1a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, M|100/100 par
+|move|p1a: Blissey|Thunder Wave|p2a: Feraligatr
+|-fail|p2a: Feraligatr|par
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Decidueye|Decidueye, L86, M|100/100
+|cant|p2a: Feraligatr|par
+|
+|upkeep
+|turn|8
+|c|☆Bloodybyalol|oh god
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|move|p1a: Decidueye|Leaf Blade|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|82/100
+|
+|upkeep
+|turn|9
+|c|☆uh6|yeah it's a pretty fundamentally bad game
+|
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|move|p2a: Tsareena|U-turn|p1a: Decidueye
+|-crit|p1a: Decidueye
+|-damage|p1a: Decidueye|56/100
+|-damage|p2a: Tsareena|72/100|[from] item: Life Orb
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|43/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Blissey|Blissey, L82, F|100/100
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Blissey
+|-damage|p1a: Blissey|90/100
+|
+|-heal|p1a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Decidueye|Decidueye, L86, M|56/100
+|move|p2a: Cryogonal|Toxic|p1a: Decidueye
+|-status|p1a: Decidueye|tox
+|
+|-damage|p1a: Decidueye|49/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Blissey|Blissey, L82, F|96/100
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|-status|p1a: Blissey|frz
+|
+|-heal|p1a: Blissey|91/100 frz|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, M|100/100 par
+|switch|p1a: Decidueye|Decidueye, L86, M|49/100 tox
+|
+|-damage|p1a: Decidueye|43/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|72/100
+|move|p1a: Decidueye|Leaf Blade|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|53/100
+|
+|-damage|p1a: Decidueye|31/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|-zpower|p1a: Decidueye
+|move|p1a: Decidueye|Sinister Arrow Raid|p2a: Tsareena|[zeffect]
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|-damage|p1a: Decidueye|12/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|43/100
+|turn|16
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|upkeep
+|
+|switch|p1a: Blissey|Blissey, L82, F|91/100
+|turn|17
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, M|100/100 par
+|move|p1a: Blissey|Thunder Wave|p2a: Feraligatr
+|-fail|p2a: Feraligatr|par
+|
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Cherrim|Cherrim, L89, M|100/100
+|move|p2a: Feraligatr|Liquidation|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|70/100
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|43/100
+|move|p1a: Cherrim|Energy Ball|p2a: Cryogonal
+|-damage|p2a: Cryogonal|19/100
+|-unboost|p2a: Cryogonal|spd|1
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Blissey|Blissey, L82, F|97/100
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Blissey
+|-damage|p1a: Blissey|86/100
+|
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, M|100/100 par
+|move|p1a: Blissey|Flamethrower|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-crit|p2a: Feraligatr
+|-damage|p2a: Feraligatr|87/100 par
+|
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Cherrim|Cherrim, L89, M|70/100
+|move|p2a: Feraligatr|Liquidation|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|37/100
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|19/100
+|move|p1a: Cherrim|Energy Ball|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+|
+|switch|p2a: Vikavolt|Vikavolt, L86, M|100/100
+|turn|24
+
+|
+|move|p1a: Cherrim|Hidden Power|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|68/100
+|move|p2a: Vikavolt|Agility|p2a: Vikavolt
+|-boost|p2a: Vikavolt|spe|2
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|0 fnt
+|-damage|p2a: Vikavolt|58/100|[from] item: Life Orb
+|faint|p1a: Cherrim
+|
+|upkeep
+
+|
+|switch|p1a: Darmanitan|Darmanitan, L83, F|100/100
+|turn|26
+
+|
+|move|p2a: Vikavolt|Thunderbolt|p1a: Darmanitan
+|-damage|p1a: Darmanitan|16/100
+|-damage|p2a: Vikavolt|48/100|[from] item: Life Orb
+|move|p1a: Darmanitan|Flare Blitz|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|-damage|p1a: Darmanitan|2/100|[from] Recoil
+|faint|p2a: Vikavolt
+|
+|upkeep
+
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, M|87/100 par
+|turn|27
+
+|
+|move|p2a: Feraligatr|Aqua Jet|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|-damage|p2a: Feraligatr|77/100 par|[from] item: Life Orb
+|faint|p1a: Darmanitan
+|
+|upkeep
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, F|100/100
+|turn|28
+
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Feraligatr
+|-damage|p2a: Feraligatr|3/100 par
+|-damage|p1a: Staraptor|76/100|[from] Recoil
+|-damage|p1a: Staraptor|66/100|[from] item: Life Orb
+|move|p2a: Feraligatr|Liquidation|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|upkeep
+
+|c|☆uh6|hrm
+
+|l|☆uh6
+
+|inactive|uh6 disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆uh6
+
+|inactive|uh6 reconnected and has 125 seconds left.
+
+|player|p1|uh6|101
+
+|
+|switch|p1a: Blissey|Blissey, L82, F|98/100
+|turn|29
+
+|
+|move|p2a: Feraligatr|Aqua Jet|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|-damage|p2a: Feraligatr|0 fnt|[from] item: Life Orb
+|faint|p2a: Feraligatr
+|move|p1a: Blissey|Flamethrower|p2: Feraligatr|[notarget]
+|-fail|p1a: Blissey
+|
+|-heal|p1a: Blissey|73/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|30
+
+|c|☆uh6|did not play this well at all
+
+|
+|move|p2a: Tapu Bulu|Bulk Up|p2a: Tapu Bulu
+|-boost|p2a: Tapu Bulu|atk|1
+|-boost|p2a: Tapu Bulu|def|1
+|move|p1a: Blissey|Thunder Wave|p2a: Tapu Bulu
+|-status|p2a: Tapu Bulu|par
+|
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|-heal|p1a: Blissey|85/100|[from] Grassy Terrain
+|upkeep
+|turn|31
+
+|
+|move|p1a: Blissey|Flamethrower|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|59/100 par
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-heal|p2a: Tapu Bulu|100/100 par|[from] drain|[of] p1a: Blissey
+|faint|p1a: Blissey
+|
+|upkeep
+
+|
+|switch|p1a: Espeon|Espeon, L84, M|100/100
+|turn|32
+
+|c|☆uh6|gg probably
+
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|win|Bloodybyalol

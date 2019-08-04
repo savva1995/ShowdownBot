@@ -1,0 +1,422 @@
+|init|battle
+|title|iMACHOPyou vs. Adlof Hilter
+|j|☆iMACHOPyou
+|j|☆Adlof Hilter
+|player|p1|iMACHOPyou|10|1900
+|player|p2|Adlof Hilter|256|1797
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iMACHOPyou)
+|
+|switch|p1a: Giratina|Giratina-Origin, L78|100/100
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Power-Up Punch|p1a: Giratina
+|-immune|p1a: Giratina
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ribombee|Ribombee, L85, F|100/100
+|move|p1a: Giratina|Will-O-Wisp|p2a: Ribombee
+|-status|p2a: Ribombee|brn
+|
+|-damage|p2a: Ribombee|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Seviper|Seviper, L89, M|100/100
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|
+|-damage|p2a: Ribombee|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Gligar|Gligar, L82, M|100/100
+|move|p1a: Seviper|Switcheroo|p2a: Gligar
+|-activate|p1a: Seviper|move: Trick|[of] p2a: Gligar
+|-item|p2a: Gligar|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Seviper|Eviolite|[from] move: Switcheroo
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Staraptor|Staraptor, L81, F|100/100
+|move|p2a: Gligar|U-turn|p1a: Staraptor
+|-resisted|p1a: Staraptor
+|-damage|p1a: Staraptor|91/100
+|
+|switch|p2a: Latios|Latios, L81, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|inactive|Adlof Hilter has 120 seconds left.
+|inactive|Adlof Hilter has 90 seconds left.
+|
+|move|p2a: Latios|Draco Meteor|p1a: Staraptor|[miss]
+|-miss|p2a: Latios|p1a: Staraptor
+|move|p1a: Staraptor|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|44/100
+|-damage|p1a: Staraptor|81/100|[from] item: Life Orb
+|
+|switch|p1a: Giratina|Giratina-Origin, L78|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Ribombee|Ribombee, L85, F|88/100 brn
+|move|p1a: Giratina|Shadow Sneak|p2a: Ribombee
+|-damage|p2a: Ribombee|58/100 brn
+|
+|-damage|p2a: Ribombee|52/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Seviper|Seviper, L89, M|100/100
+|move|p2a: Ribombee|Moonblast|p1a: Seviper
+|-resisted|p1a: Seviper
+|-damage|p1a: Seviper|73/100
+|-unboost|p1a: Seviper|spa|1
+|-damage|p2a: Ribombee|42/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Ribombee|36/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|switch|p2a: Gligar|Gligar, L82, M|100/100
+|switch|p1a: Giratina|Giratina-Origin, L78|100/100
+|
+|upkeep
+|turn|10
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|move|p2a: Gligar|Toxic|p1a: Giratina
+|-status|p1a: Giratina|tox
+|move|p1a: Giratina|Dragon Tail|p2a: Gligar
+|-damage|p2a: Gligar|69/100
+|drag|p2a: Latios|Latios, L81, M|44/100
+|
+|-damage|p1a: Giratina|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|switch|p2a: Gligar|Gligar, L82, M|69/100
+|move|p1a: Giratina|Will-O-Wisp|p2a: Gligar
+|-status|p2a: Gligar|brn
+|
+|-damage|p2a: Gligar|63/100 brn|[from] brn
+|-damage|p1a: Giratina|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100 brn
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Giratina|Draco Meteor|p2a: Gligar
+|-damage|p2a: Gligar|11/100 brn
+|-unboost|p1a: Giratina|spa|2
+|
+|-damage|p2a: Gligar|5/100 brn|[from] brn
+|-damage|p1a: Giratina|64/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Giratina|Shadow Sneak|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|-damage|p1a: Giratina|40/100 tox|[from] psn
+|upkeep
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100
+|turn|14
+|
+|switch|p2a: Kangaskhan|Kangaskhan-Mega, L78, F|100/100
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Giratina|Giratina-Origin, L78|40/100 tox
+|move|p2a: Kangaskhan|Power-Up Punch|p1a: Giratina
+|-immune|p1a: Giratina
+|
+|-damage|p1a: Giratina|34/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100
+|move|p1a: Giratina|Will-O-Wisp|p2a: Mismagius
+|-status|p2a: Mismagius|brn
+|
+|-damage|p2a: Mismagius|94/100 brn|[from] brn
+|-damage|p1a: Giratina|21/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Meloetta
+|-status|p1a: Meloetta|brn
+|
+|-heal|p2a: Mismagius|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|94/100 brn|[from] brn
+|-damage|p1a: Meloetta|95/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|move|p2a: Mismagius|Dazzling Gleam|p1a: Meloetta
+|-damage|p1a: Meloetta|80/100 brn
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|
+|-heal|p2a: Mismagius|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Meloetta|86/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|94/100 brn|[from] brn
+|-damage|p1a: Meloetta|80/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Kangaskhan|Kangaskhan-Mega, L78, F|100/100
+|move|p1a: Meloetta|Psyshock|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|46/100
+|
+|-heal|p1a: Meloetta|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Meloetta|80/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|42/100 brn
+|-supereffective|p1a: Meloetta
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|26/100 brn
+|-hitcount|p1a: Meloetta|2
+|move|p1a: Meloetta|Psyshock|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|-heal|p1a: Meloetta|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Meloetta|26/100 brn|[from] brn
+|upkeep
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|switch|p2a: Ribombee|Ribombee, L85, F|36/100 brn
+|turn|21
+|
+|switch|p1a: Seviper|Seviper, L89, M|73/100
+|move|p2a: Ribombee|Bug Buzz|p1a: Seviper
+|-resisted|p1a: Seviper
+|-damage|p1a: Seviper|46/100
+|-damage|p2a: Ribombee|26/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Ribombee|20/100 brn|[from] brn
+|upkeep
+|turn|22
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|move|p2a: Ribombee|Moonblast|p1a: Seviper
+|-resisted|p1a: Seviper
+|-damage|p1a: Seviper|14/100
+|-unboost|p1a: Seviper|spa|1
+|-damage|p2a: Ribombee|10/100 brn|[from] item: Life Orb
+|move|p1a: Seviper|Poison Jab|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|inactive|Adlof Hilter has 120 seconds left.
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|94/100 brn
+|turn|23
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Seviper
+|-damage|p1a: Seviper|0 fnt
+|faint|p1a: Seviper
+|
+|-heal|p2a: Mismagius|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|94/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Meloetta|Meloetta, L83|26/100 brn
+|turn|24
+
+|
+|move|p2a: Mismagius|Dazzling Gleam|p1a: Meloetta
+|-damage|p1a: Meloetta|10/100 brn
+|move|p1a: Meloetta|Psyshock|p2a: Mismagius
+|-damage|p2a: Mismagius|41/100 brn
+|
+|-heal|p2a: Mismagius|47/100 brn|[from] item: Leftovers
+|-heal|p1a: Meloetta|16/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|41/100 brn|[from] brn
+|-damage|p1a: Meloetta|10/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|
+|move|p2a: Mismagius|Dazzling Gleam|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|-heal|p2a: Mismagius|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|41/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Giratina|Giratina-Origin, L78|21/100 tox
+|turn|26
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Giratina|Shadow Sneak|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|83/100
+|
+|-heal|p2a: Tapu Bulu|89/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|96/100|[from] Grassy Terrain
+|-damage|p1a: Giratina|15/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|41/100 brn
+|move|p1a: Giratina|Will-O-Wisp|p2a: Mismagius
+|-fail|p2a: Mismagius|brn
+|
+|-heal|p2a: Mismagius|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|41/100 brn|[from] brn
+|-damage|p1a: Giratina|3/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|96/100
+|move|p1a: Giratina|Shadow Sneak|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|77/100
+|
+|-heal|p2a: Tapu Bulu|83/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|89/100|[from] Grassy Terrain
+|-damage|p1a: Giratina|0 fnt|[from] psn
+|faint|p1a: Giratina
+|upkeep
+
+|
+|switch|p1a: Lucario|Lucario, L78, F|100/100
+|turn|29
+
+|
+|detailschange|p1a: Lucario|Lucario-Mega, L78, F
+|-mega|p1a: Lucario|Lucario|Lucarionite
+|move|p1a: Lucario|Flash Cannon|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-crit|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|upkeep
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|41/100 brn
+|turn|30
+
+|
+|move|p2a: Mismagius|Pain Split|p1a: Lucario
+|-sethp|p1a: Lucario|71/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Mismagius|70/100 brn|[from] move: Pain Split
+|move|p1a: Lucario|Dark Pulse|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|24/100 brn
+|
+|-heal|p2a: Mismagius|31/100 brn|[from] item: Leftovers
+|-heal|p1a: Lucario|77/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Mismagius|24/100 brn|[from] brn
+|upkeep
+|turn|31
+
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Lucario
+|-damage|p1a: Lucario|23/100
+|move|p1a: Lucario|Dark Pulse|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+
+|
+|switch|p2a: Latios|Latios, L81, M|44/100
+|turn|32
+
+|
+|move|p2a: Latios|Hidden Power|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-damage|p2a: Latios|34/100|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|upkeep
+
+|
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|turn|33
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, F|81/100
+|move|p2a: Latios|Draco Meteor|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|24/100|[from] item: Life Orb
+|faint|p1a: Staraptor
+|
+|upkeep
+
+|
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|turn|34
+
+|
+|move|p2a: Latios|Draco Meteor|p1a: Malamar
+|-damage|p1a: Malamar|57/100
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|14/100|[from] item: Life Orb
+|-zpower|p1a: Malamar
+|move|p1a: Malamar|Z-Happy Hour|p1a: Malamar|[anim]Happy Hour
+|-boost|p1a: Malamar|atk|1|[zeffect]
+|-boost|p1a: Malamar|def|1|[zeffect]
+|-boost|p1a: Malamar|spa|1|[zeffect]
+|-boost|p1a: Malamar|spd|1|[zeffect]
+|-boost|p1a: Malamar|spe|1|[zeffect]
+|
+|upkeep
+|turn|35
+
+|-message|Adlof Hilter forfeited.
+
+|
+|win|iMACHOPyou

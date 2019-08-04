@@ -1,0 +1,94 @@
+|init|battle
+|title|Dawallacefan vs. Sylvesterze
+|j|☆Dawallacefan
+|j|☆Sylvesterze
+|player|p1|Dawallacefan|291|1130
+|player|p2|Sylvesterze|226|1193
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Lurantis, F|item
+|poke|p1|Sawsbuck-Winter, M|item
+|poke|p1|Serperior, F|item
+|poke|p1|Venusaur, F|item
+|poke|p1|Shiftry, F|item
+|poke|p1|Breloom, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Golem-Alola, M|item
+|poke|p2|Zeraora|item
+|poke|p2|Zapdos|item
+|poke|p2|Galvantula, F|item
+|poke|p2|Pikachu, F|item
+|teampreview
+|
+|start
+|switch|p1a: Venusaur|Venusaur, F, shiny|100/100
+|switch|p2a: Golem|Golem-Alola, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dawallacefan)
+|inactive|Sylvesterze also wants the timer to be on.
+|
+|detailschange|p1a: Venusaur|Venusaur-Mega, F, shiny
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Venusaur|Giga Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|21/100
+|move|p2a: Golem|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|78/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Venusaur|Giga Drain|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|83/100
+|-heal|p1a: Venusaur|85/100|[from] drain|[of] p2a: Zapdos
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Venusaur|[miss]
+|-miss|p2a: Zapdos|p1a: Venusaur
+|move|p1a: Venusaur|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|42/100
+|-status|p2a: Zapdos|psn
+|
+|-damage|p2a: Zapdos|30/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|l|☆Sylvesterze
+
+|inactive|Sylvesterze disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Sylvesterze has 30 seconds to reconnect!
+
+|inactive|Sylvesterze has 20 seconds to reconnect!
+
+|inactive|Sylvesterze has 15 seconds to reconnect!
+
+|inactive|Sylvesterze has 10 seconds to reconnect!
+
+|inactive|Sylvesterze has 5 seconds to reconnect!
+
+|-message|Sylvesterze lost due to inactivity.
+|
+|win|Dawallacefan

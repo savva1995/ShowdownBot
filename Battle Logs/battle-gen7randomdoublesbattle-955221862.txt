@@ -1,0 +1,178 @@
+|init|battle
+|title|nhklijn vs. AminitraboTTT
+|j|☆nhklijn
+|j|☆AminitraboTTT
+|player|p1|nhklijn|268|
+|player|p2|AminitraboTTT|120|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slaking|Slaking, L84, M|100/100
+|switch|p1b: Darkrai|Darkrai, L70|100/100
+|switch|p2a: Carracosta|Carracosta, L80, M|100/100
+|switch|p2b: Venomoth|Venomoth, L84, M|100/100
+|turn|1
+|c|☆AminitraboTTT|Hola, soy AminitraboTTT, el bot de la sala Español. gl hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AminitraboTTT)
+|
+|move|p1b: Darkrai|Protect|p1b: Darkrai
+|-singleturn|p1b: Darkrai|Protect
+|move|p1a: Slaking|Rock Slide|p2b: Venomoth|[spread] p2a,p2b
+|-supereffective|p2b: Venomoth
+|-damage|p2a: Carracosta|76/100
+|-damage|p2b: Venomoth|21/100
+|-enditem|p2b: Venomoth|Sitrus Berry|[eat]
+|-heal|p2b: Venomoth|46/100|[from] item: Sitrus Berry
+|-damage|p1a: Slaking|91/100|[from] item: Life Orb
+|cant|p2b: Venomoth|flinch
+|move|p2a: Carracosta|Earthquake|p1a: Slaking|[spread] p2b,p1a
+|-activate|p1b: Darkrai|move: Protect
+|-damage|p2b: Venomoth|18/100
+|-damage|p1a: Slaking|78/100
+|
+|upkeep
+|turn|2
+|
+|move|p1b: Darkrai|Snarl|p2a: Carracosta|[spread] p2a,p2b
+|-damage|p2a: Carracosta|46/100
+|-damage|p2b: Venomoth|0 fnt
+|-unboost|p2a: Carracosta|spa|1
+|-damage|p1b: Darkrai|91/100|[from] item: Life Orb
+|faint|p2b: Venomoth
+|cant|p1a: Slaking|ability: Truant
+|move|p2a: Carracosta|Earthquake|p1a: Slaking|[spread] p1a,p1b
+|-damage|p1a: Slaking|66/100
+|-damage|p1b: Darkrai|64/100
+|
+|upkeep
+|
+|switch|p2b: Hawlucha|Hawlucha, L79, M|100/100
+|-ability|p2b: Hawlucha|Mold Breaker
+|turn|3
+|
+|switch|p1a: Gengar|Gengar, L79, M|100/100
+|move|p2b: Hawlucha|High Jump Kick|p1b: Darkrai
+|-supereffective|p1b: Darkrai
+|-damage|p1b: Darkrai|0 fnt
+|-damage|p2b: Hawlucha|91/100|[from] item: Life Orb
+|faint|p1b: Darkrai
+|move|p2a: Carracosta|Earthquake|p1a: Gengar|[spread] p1a
+|-immune|p2b: Hawlucha
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|37/100
+|-enditem|p1a: Gengar|Sitrus Berry|[eat]
+|-heal|p1a: Gengar|62/100|[from] item: Sitrus Berry
+|
+|upkeep
+
+|
+|switch|p1b: Metagross|Metagross, L70|100/100
+|turn|4
+
+|
+|move|p2b: Hawlucha|High Jump Kick|p1b: Metagross
+|-damage|p1b: Metagross|44/100
+|-damage|p2b: Hawlucha|81/100|[from] item: Life Orb
+|move|p1a: Gengar|Shadow Ball|p2b: Hawlucha
+|-damage|p2b: Hawlucha|27/100
+|move|p1b: Metagross|Ice Punch|p2b: Hawlucha
+|-supereffective|p2b: Hawlucha
+|-damage|p2b: Hawlucha|0 fnt
+|faint|p2b: Hawlucha
+|move|p2a: Carracosta|Earthquake|p1a: Gengar|[spread] p1a,p1b
+|-supereffective|p1a: Gengar
+|-supereffective|p1b: Metagross
+|-damage|p1a: Gengar|0 fnt
+|-damage|p1b: Metagross|0 fnt
+|faint|p1a: Gengar
+|faint|p1b: Metagross
+|
+|upkeep
+
+|
+|switch|p2b: Giratina|Giratina-Origin, L70|100/100
+|switch|p1a: Slaking|Slaking, L84, M|66/100
+|switch|p1b: Aggron|Aggron, L76, M|100/100
+|turn|5
+
+|
+|move|p1a: Slaking|Hammer Arm|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|-unboost|p1a: Slaking|spe|1
+|-damage|p1a: Slaking|56/100|[from] item: Life Orb
+|faint|p2a: Carracosta
+|move|p2b: Giratina|Earthquake|p1a: Slaking|[spread] p1a,p1b
+|-supereffective|p1b: Aggron
+|-damage|p1a: Slaking|45/100
+|-damage|p1b: Aggron|50/100
+|move|p1b: Aggron|Heavy Slam|p2b: Giratina
+|-damage|p2b: Giratina|88/100
+|
+|upkeep
+
+|
+|switch|p2a: Politoed|Politoed, L79, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|6
+
+|
+|switch|p1b: Tyranitar|Tyranitar, L70, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2b: Giratina|Earthquake|p1b: Tyranitar|[spread] p2a,p1a,p1b
+|-supereffective|p1b: Tyranitar
+|-damage|p2a: Politoed|80/100
+|-damage|p1a: Slaking|34/100
+|-damage|p1b: Tyranitar|65/100
+|move|p2a: Politoed|Scald|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|23/100
+|cant|p1a: Slaking|ability: Truant
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Giratina|81/100|[from] Sandstorm
+|-damage|p2a: Politoed|74/100|[from] Sandstorm
+|-damage|p1a: Slaking|28/100|[from] Sandstorm
+|upkeep
+|turn|7
+
+|
+|detailschange|p1b: Tyranitar|Tyranitar-Mega, L70, F
+|-mega|p1b: Tyranitar|Tyranitar|Tyranitarite
+|move|p2b: Giratina|Earthquake|p1b: Tyranitar|[spread] p2a,p1a,p1b
+|-supereffective|p1b: Tyranitar
+|-damage|p2a: Politoed|52/100
+|-damage|p1a: Slaking|18/100
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|move|p2a: Politoed|Scald|p1a: Slaking
+|-damage|p1a: Slaking|0 fnt
+|faint|p1a: Slaking
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Giratina|75/100|[from] Sandstorm
+|-damage|p2a: Politoed|46/100|[from] Sandstorm
+|-enditem|p2a: Politoed|Sitrus Berry|[eat]
+|-heal|p2a: Politoed|71/100|[from] item: Sitrus Berry
+|upkeep
+
+|
+|switch|p1b: Aggron|Aggron, L76, M|50/100
+|turn|8
+
+|
+|move|p2b: Giratina|Earthquake|p1b: Aggron|[spread] p2a,p1b
+|-supereffective|p1b: Aggron
+|-damage|p2a: Politoed|50/100
+|-damage|p1b: Aggron|4/100
+|move|p2a: Politoed|Scald|p1b: Aggron
+|-supereffective|p1b: Aggron
+|-damage|p1b: Aggron|0 fnt
+|faint|p1b: Aggron
+|
+|win|AminitraboTTT

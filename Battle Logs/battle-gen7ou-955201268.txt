@@ -1,0 +1,188 @@
+|init|battle
+|title|kouxking vs. hoehohoe
+|j|☆kouxking
+|j|☆hoehohoe
+|player|p1|kouxking|287|1394
+|player|p2|hoehohoe|2|1408
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Victini|item
+|poke|p2|Breloom, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Galvantula, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Mandibuzz, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hoehohoe)
+|
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|1
+|
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|detailschange|p2a: Charizard|Charizard-Mega-Y, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Air Slash|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, F, shiny
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam|p1a: Tyranitar
+|move|p1a: Tyranitar|Stone Edge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|3
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Mandibuzz|Toxic|p1a: Tapu Fini
+|-activate|p1a: Tapu Fini|move: Misty Terrain
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Fini|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Galvantula|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Galvantula
+|-supereffective|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|6
+
+|
+|-zpower|p1a: Excadrill
+|move|p1a: Excadrill|Tectonic Rage|p2a: Breloom|[zeffect]
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|24/100
+|move|p2a: Breloom|Bullet Seed|p1a: Excadrill
+|-damage|p1a: Excadrill|72/100
+|-damage|p1a: Excadrill|43/100
+|-damage|p1a: Excadrill|17/100
+|-hitcount|p1a: Excadrill|3
+|
+|-weather|none
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Mach Punch|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|90/100
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|8
+
+|
+|move|p1a: Landorus|Knock Off|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-enditem|p2a: Breloom|Focus Sash|[from] move: Knock Off|[of] p1a: Landorus
+|faint|p2a: Breloom
+|
+|upkeep
+
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|9
+
+|
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Landorus|U-turn|p2a: Haxorus
+|-damage|p2a: Haxorus|69/100
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini|94/100|[from]move: U-turn
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Haxorus|Poison Jab|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|7/100
+|-enditem|p1a: Tapu Fini|Aguav Berry|[eat]
+|-heal|p1a: Tapu Fini|57/100|[from] item: Aguav Berry
+|move|p1a: Tapu Fini|Moonblast|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|turn|11
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|12
+
+|-message|hoehohoe forfeited.
+
+|
+|win|kouxking

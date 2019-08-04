@@ -1,0 +1,234 @@
+|init|battle
+|title|The Bestemmier vs. NIYIN
+|j|☆The Bestemmier
+|j|☆NIYIN
+|player|p1|The Bestemmier|147|1427
+|player|p2|NIYIN|184|1262
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Muk-Alola, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Greninja, M|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Virizion|item
+|poke|p2|Scrafty, M|item
+|poke|p2|Keldeo|item
+|teampreview
+|
+|start
+|switch|p1a: Krookodile|Krookodile, M, shiny|100/100
+|switch|p2a: JAUNEiss|Infernape, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: JAUNEiss|atk|1
+|turn|1
+|
+|move|p2a: JAUNEiss|Close Combat|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|46/100
+|-unboost|p2a: JAUNEiss|def|1
+|-unboost|p2a: JAUNEiss|spd|1
+|move|p1a: Krookodile|Stealth Rock|p2a: JAUNEiss
+|-sidestart|p2: NIYIN|move: Stealth Rock
+|
+|-heal|p1a: Krookodile|52/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: JAUNEiss|Close Combat|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-unboost|p2a: JAUNEiss|def|1
+|-unboost|p2a: JAUNEiss|spd|1
+|faint|p1a: Krookodile
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NIYIN)
+
+|
+|switch|p1a: Muk|Muk-Alola, M|100/100
+|turn|3
+
+|
+|move|p2a: JAUNEiss|Taunt|p1a: Muk
+|-start|p1a: Muk|move: Taunt
+|move|p1a: Muk|Poison Jab|p2a: JAUNEiss
+|-enditem|p2a: JAUNEiss|Focus Sash
+|-damage|p2a: JAUNEiss|1/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Muk|Shadow Sneak|p2a: JAUNEiss
+|-damage|p2a: JAUNEiss|0 fnt
+|faint|p2a: JAUNEiss
+|
+|upkeep
+
+|
+|switch|p2a: rantanBLANC|Hawlucha, M|100/100
+|-damage|p2a: rantanBLANC|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: rantanBLANC|Substitute|p2a: rantanBLANC
+|-start|p2a: rantanBLANC|Substitute
+|-damage|p2a: rantanBLANC|63/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: rantanBLANC|Swords Dance|p2a: rantanBLANC
+|-boost|p2a: rantanBLANC|atk|2
+|move|p1a: Mandibuzz|Foul Play|p2a: rantanBLANC
+|-resisted|p2a: rantanBLANC
+|-end|p2a: rantanBLANC|Substitute
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: rantanBLANC|Substitute|p2a: rantanBLANC
+|-start|p2a: rantanBLANC|Substitute
+|-damage|p2a: rantanBLANC|38/100
+|-enditem|p2a: rantanBLANC|Sitrus Berry|[eat]
+|-heal|p2a: rantanBLANC|63/100|[from] item: Sitrus Berry
+|move|p1a: Mandibuzz|Foul Play|p2a: rantanBLANC
+|-resisted|p2a: rantanBLANC
+|-end|p2a: rantanBLANC|Substitute
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: rantanBLANC|High Jump Kick|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|40/100
+|-damage|p2a: rantanBLANC|46/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|move|p1a: Mandibuzz|Foul Play|p2a: rantanBLANC
+|-resisted|p2a: rantanBLANC
+|-damage|p2a: rantanBLANC|0 fnt
+|faint|p2a: rantanBLANC
+|
+|upkeep
+
+|
+|switch|p2a: wtfAm Idoing hErE|Keldeo|100/100
+|-damage|p2a: wtfAm Idoing hErE|94/100|[from] Stealth Rock
+|turn|9
+
+|
+|switch|p1a: Muk|Muk-Alola, M|100/100
+|move|p2a: wtfAm Idoing hErE|Icy Wind|p1a: Muk
+|-damage|p1a: Muk|84/100
+|-unboost|p1a: Muk|spe|1
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: GRISzou|Terrakion|100/100
+|-damage|p2a: GRISzou|94/100|[from] Stealth Rock
+|move|p1a: Muk|Poison Jab|p2a: GRISzou
+|-resisted|p2a: GRISzou
+|-damage|p2a: GRISzou|70/100
+|-status|p2a: GRISzou|psn
+|
+|-damage|p2a: GRISzou|58/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: GRISzou|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: GRISzou|def|1
+|-unboost|p2a: GRISzou|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GRISzou|45/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M, shiny|100/100
+|turn|12
+
+|
+|move|p1a: Greninja|Ice Beam|p2a: GRISzou
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-damage|p2a: GRISzou|3/100 psn
+|move|p2a: GRISzou|Close Combat|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-unboost|p2a: GRISzou|def|1
+|-unboost|p2a: GRISzou|spd|1
+|faint|p1a: Greninja
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: GRISzou|0 fnt|[from] psn
+|faint|p2a: GRISzou
+|upkeep
+
+|
+|switch|p1a: Muk|Muk-Alola, M|84/100
+|switch|p2a: wtfAm Idoing hErE|Keldeo|94/100
+|-damage|p2a: wtfAm Idoing hErE|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: wtfAm Idoing hErE|Secret Sword|p1a: Muk
+|-damage|p1a: Muk|13/100
+|move|p1a: Muk|Poison Jab|p2a: wtfAm Idoing hErE
+|-damage|p2a: wtfAm Idoing hErE|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: wtfAm Idoing hErE|35/100|[from] Sandstorm
+|-damage|p1a: Muk|7/100|[from] Sandstorm
+|upkeep
+|turn|14
+
+|inactive|The Bestemmier has 120 seconds left.
+
+|
+|move|p1a: Muk|Shadow Sneak|p2a: wtfAm Idoing hErE
+|-damage|p2a: wtfAm Idoing hErE|18/100
+|move|p2a: wtfAm Idoing hErE|Secret Sword|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: wtfAm Idoing hErE|12/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Hydreigon|Hydreigon, M, shiny|100/100
+|turn|15
+
+|-message|The Bestemmier forfeited.
+
+|
+|win|NIYIN

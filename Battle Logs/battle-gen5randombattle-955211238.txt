@@ -1,0 +1,372 @@
+|init|battle
+|title|JulesP13 vs. emdawg69
+|j|☆JulesP13
+|j|☆emdawg69
+|player|p1|JulesP13|25|
+|player|p2|emdawg69|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magnezone|Magnezone, L80|100/100
+|switch|p2a: Maractus|Maractus, L86, F|100/100
+|-item|p1a: Magnezone|Air Balloon
+|turn|1
+
+|
+|move|p2a: Maractus|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|52/100
+|-enditem|p1a: Magnezone|Air Balloon
+|move|p1a: Magnezone|Hidden Power|p2a: Maractus
+|-supereffective|p2a: Maractus
+|-crit|p2a: Maractus
+|-enditem|p2a: Maractus|Focus Sash
+|-damage|p2a: Maractus|1/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Emboar|Emboar, L84, F|100/100
+|move|p2a: Maractus|Hidden Power|p1a: Emboar
+|-resisted|p1a: Emboar
+|-damage|p1a: Emboar|91/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Emboar|Flame Charge|p2a: Maractus
+|-supereffective|p2a: Maractus
+|-damage|p2a: Maractus|0 fnt
+|-boost|p1a: Emboar|spe|1
+|faint|p2a: Maractus
+|
+|upkeep
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L80, F|100/100
+|turn|4
+
+|
+|move|p1a: Emboar|Superpower|p2a: Vaporeon
+|-damage|p2a: Vaporeon|38/100
+|-unboost|p1a: Emboar|atk|1
+|-unboost|p1a: Emboar|def|1
+|move|p2a: Vaporeon|Hydro Pump|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|-heal|p2a: Vaporeon|44/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Magnezone|Magnezone, L80|52/100
+|turn|5
+
+|
+|switch|p2a: Groudon|Groudon, L78|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Magnezone|Thunder Wave|p2a: Groudon
+|-immune|p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p2a: Groudon|Swords Dance|p2a: Groudon
+|-boost|p2a: Groudon|atk|2
+|move|p1a: Magnezone|Hidden Power|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, M|100/100
+|move|p2a: Groudon|Earthquake|p1a: Staraptor
+|-immune|p1a: Staraptor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|69/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-damage|p1a: Staraptor|77/100|[from] Recoil
+|faint|p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric, L84, M|100/100
+|turn|9
+
+|
+|switch|p1a: Magnezone|Magnezone, L80|52/100
+|move|p2a: Manectric|Thunderbolt|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Wobbuffet|Wobbuffet, L81, M|100/100
+|move|p1a: Magnezone|Flash Cannon|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p1a: Magnezone|Flash Cannon|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|40/100
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, M|77/100
+|turn|12
+
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|-damage|p1a: Staraptor|56/100|[from] Recoil
+|faint|p2a: Wobbuffet
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric, L84, M|100/100
+|turn|13
+
+|
+|switch|p1a: Pachirisu|Pachirisu, L86, F|100/100
+|move|p2a: Manectric|Switcheroo|p1a: Pachirisu
+|-activate|p2a: Manectric|move: Trick|[of] p1a: Pachirisu
+|-item|p1a: Pachirisu|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Manectric|Leftovers|[from] move: Switcheroo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p1a: Pachirisu|Light Screen|p1a: Pachirisu
+|-sidestart|p1: JulesP13|move: Light Screen
+|move|p2a: Manectric|Overheat|p1a: Pachirisu
+|-damage|p1a: Pachirisu|71/100
+|-unboost|p2a: Manectric|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Azelf|Azelf, L82|100/100
+|switch|p2a: Weavile|Weavile, L82, M|100/100
+|-ability|p2a: Weavile|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+
+|
+|move|p2a: Weavile|Night Slash|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Azelf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Pachirisu|Pachirisu, L86, F|71/100
+|turn|17
+
+|
+|move|p1a: Pachirisu|Thunder Wave|p2a: Weavile
+|-status|p2a: Weavile|par
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+
+|
+|move|p1a: Pachirisu|Thunder Wave|p2a: Weavile
+|-fail|p2a: Weavile|par
+|move|p2a: Weavile|Ice Punch|p1a: Pachirisu
+|-crit|p1a: Pachirisu
+|-damage|p1a: Pachirisu|0 fnt
+|-damage|p2a: Weavile|81/100 par|[from] item: Life Orb
+|faint|p1a: Pachirisu
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: JulesP13|move: Light Screen
+|upkeep
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, M|56/100
+|turn|19
+
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-damage|p1a: Staraptor|31/100|[from] Recoil
+|faint|p2a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric, L84, M|100/100
+|turn|20
+
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Staraptor
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|turn|21
+
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|77/100
+|move|p1a: Lugia|Ice Beam|p2a: Manectric
+|-damage|p2a: Manectric|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Manectric|78/100|[from] item: Leftovers
+|-heal|p1a: Lugia|83/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Manectric|Overheat|p1a: Lugia|[miss]
+|-miss|p2a: Manectric|p1a: Lugia
+|move|p1a: Lugia|Ice Beam|p2a: Manectric
+|-damage|p2a: Manectric|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Manectric|56/100|[from] item: Leftovers
+|-heal|p1a: Lugia|89/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Manectric|Overheat|p1a: Lugia
+|-damage|p1a: Lugia|53/100
+|-unboost|p2a: Manectric|spa|2
+|move|p1a: Lugia|Ice Beam|p2a: Manectric
+|-crit|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lugia|60/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L80, F|44/100
+|turn|24
+
+|
+|move|p2a: Vaporeon|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|28/100
+|move|p1a: Lugia|Dragon Tail|p2a: Vaporeon
+|-damage|p2a: Vaporeon|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lugia|34/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|36/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|84/100
+|-singleturn|p1a: Lugia|move: Roost
+|move|p2a: Vaporeon|Ice Beam|p1a: Lugia
+|-damage|p1a: Lugia|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lugia|75/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|43/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Vaporeon|Hydro Pump|p1a: Lugia
+|-damage|p1a: Lugia|61/100
+|move|p1a: Lugia|Dragon Tail|p2a: Vaporeon
+|-damage|p2a: Vaporeon|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lugia|67/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|33/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Lugia|Dragon Tail|p2a: Vaporeon
+|-damage|p2a: Vaporeon|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lugia|74/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|25/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Lugia|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|17/100
+|move|p2a: Vaporeon|Hydro Pump|p1a: Lugia
+|-crit|p1a: Lugia
+|-damage|p1a: Lugia|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|67/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Lugia|50/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|-message|JulesP13 forfeited.
+
+|
+|win|emdawg69

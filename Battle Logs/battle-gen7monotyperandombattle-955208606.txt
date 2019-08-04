@@ -1,0 +1,195 @@
+|init|battle
+|title|Fchgd vs. Junior rugginoso
+|j|☆Fchgd
+|j|☆Junior rugginoso
+|player|p1|Fchgd|101|1029
+|player|p2|Junior rugginoso|265|1043
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zekrom|Zekrom, L78|100/100
+|switch|p2a: Staraptor|Staraptor, L81, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Zekrom|atk|1
+|-ability|p1a: Zekrom|Teravolt
+|turn|1
+|
+|move|p2a: Staraptor|Brave Bird|p1a: Zekrom
+|-resisted|p1a: Zekrom
+|-damage|p1a: Zekrom|74/100
+|-damage|p2a: Staraptor|91/100|[from] Recoil
+|-damage|p2a: Staraptor|81/100|[from] item: Life Orb
+|move|p1a: Zekrom|Volt Switch|p2a: Staraptor
+|-supereffective|p2a: Staraptor
+|-damage|p2a: Staraptor|10/100
+|
+|switch|p1a: Zebstrika|Zebstrika, L89, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Chansey|Chansey, L80, F|100/100
+|move|p1a: Zebstrika|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|92/100
+|
+|switch|p1a: Zekrom|Zekrom, L78|74/100|[from]move: Volt Switch
+|-ability|p1a: Zekrom|Teravolt
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Zekrom|Outrage|p2a: Chansey
+|-damage|p2a: Chansey|21/100
+|move|p2a: Chansey|Stealth Rock|p1a: Zekrom
+|-sidestart|p1: Fchgd|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Zekrom|Outrage|p2a: Chansey|[from]lockedmove
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fchgd)
+
+|
+|switch|p2a: Pyroar|Pyroar, L87, F|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: Fchgd
+|turn|5
+
+|
+|move|p2a: Pyroar|Will-O-Wisp|p1a: Zekrom
+|-status|p1a: Zekrom|brn
+|move|p1a: Zekrom|Outrage|p2a: Pyroar|[from]lockedmove
+|-damage|p2a: Pyroar|71/100
+|-start|p1a: Zekrom|confusion|[fatigue]
+|
+|-damage|p1a: Zekrom|68/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Pyroar|Hyper Voice|p1a: Zekrom
+|-damage|p1a: Zekrom|36/100 brn
+|-damage|p2a: Pyroar|61/100|[from] item: Life Orb
+|-activate|p1a: Zekrom|confusion
+|move|p1a: Zekrom|Draco Meteor|p2a: Pyroar
+|-damage|p2a: Pyroar|0 fnt
+|-unboost|p1a: Zekrom|spa|2
+|faint|p2a: Pyroar
+|
+|-damage|p1a: Zekrom|30/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Staraptor|Staraptor, L81, M|10/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Zekrom|atk|1
+|turn|7
+
+|
+|switch|p2a: Snorlax|Snorlax, L84, M|100/100
+|-activate|p1a: Zekrom|confusion
+|move|p1a: Zekrom|Volt Switch|p2a: Snorlax
+|-damage|p2a: Snorlax|93/100
+
+|
+|switch|p1a: Pikachu|Pikachu-Alola, L90, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Pikachu|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Pikachu|Volt Tackle|p2a: Snorlax
+|-damage|p2a: Snorlax|42/100
+|-damage|p1a: Pikachu|52/100|[from] Recoil
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|48/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Pikachu|Volt Tackle|p2a: Snorlax
+|-damage|p2a: Snorlax|7/100
+|-damage|p1a: Pikachu|25/100|[from] Recoil
+|move|p2a: Snorlax|Earthquake|p1a: Pikachu
+|-supereffective|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|-heal|p2a: Snorlax|13/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Zekrom|Zekrom, L78|30/100 brn
+|-damage|p1a: Zekrom|18/100 brn|[from] Stealth Rock
+|-ability|p1a: Zekrom|Teravolt
+|turn|10
+
+|
+|move|p1a: Zekrom|Volt Switch|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+
+|
+|switch|p1a: Zebstrika|Zebstrika, L89, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Zebstrika|88/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p2a: Drampa|Drampa, L88, F|100/100
+|turn|11
+
+|
+|move|p1a: Zebstrika|Volt Switch|p2a: Drampa
+|-resisted|p2a: Drampa
+|-damage|p2a: Drampa|89/100
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko, L80|100/100|[from]move: Volt Switch
+|-damage|p1a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Drampa|Hyper Voice|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|22/100
+|
+|-heal|p2a: Drampa|95/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|inactive|Junior rugginoso has 120 seconds left.
+
+|inactive|Junior rugginoso has 90 seconds left.
+
+|inactive|Junior rugginoso has 60 seconds left.
+
+|inactive|Junior rugginoso has 30 seconds left.
+
+|inactive|Junior rugginoso has 20 seconds left.
+
+|inactive|Junior rugginoso has 15 seconds left.
+
+|inactive|Junior rugginoso has 10 seconds left.
+
+|inactive|Junior rugginoso has 5 seconds left.
+
+|-message|Junior rugginoso lost due to inactivity.
+|
+|win|Fchgd

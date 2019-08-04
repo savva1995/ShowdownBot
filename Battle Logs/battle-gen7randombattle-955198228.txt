@@ -1,0 +1,454 @@
+|init|battle
+|title|Hoofedwind vs. MightyLuxray07
+|j|☆Hoofedwind
+|j|☆MightyLuxray07
+|player|p1|Hoofedwind|170|1000
+|player|p2|MightyLuxray07|169|1024
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Escavalier|Escavalier, L84, F|100/100
+|switch|p2a: Yanmega|Yanmega, L84, M|100/100
+|turn|1
+|
+|switch|p1a: Azelf|Azelf, L82|100/100
+|move|p2a: Yanmega|Ancient Power|p1a: Azelf
+|-damage|p1a: Azelf|70/100
+|-damage|p2a: Yanmega|91/100|[from] item: Life Orb
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|move|p2a: Yanmega|Giga Drain|p1a: Azelf
+|-damage|p1a: Azelf|31/100
+|-heal|p2a: Yanmega|100/100|[from] drain|[of] p1a: Azelf
+|-damage|p2a: Yanmega|91/100|[from] item: Life Orb
+|move|p1a: Azelf|Fire Blast|p2a: Yanmega
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|-damage|p1a: Azelf|22/100|[from] item: Life Orb
+|faint|p2a: Yanmega
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto, L89|100/100
+|-transform|p2a: Ditto|p1a: Azelf|[from] ability: Imposter
+|turn|3
+
+|
+|move|p2a: Ditto|Dazzling Gleam|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MightyLuxray07)
+
+|
+|switch|p1a: Venusaur|Venusaur, L81, M|100/100
+|turn|4
+
+|inactiveoff|Battle timer is now OFF.
+
+|
+|detailschange|p1a: Venusaur|Venusaur-Mega, L81, M
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p2a: Ditto|Dazzling Gleam|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|90/100
+|move|p1a: Venusaur|Sleep Powder|p2a: Ditto
+|-status|p2a: Ditto|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+
+|
+|cant|p2a: Ditto|slp
+|move|p1a: Venusaur|Giga Drain|p2a: Ditto
+|-damage|p2a: Ditto|55/100 slp
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Ditto
+|
+|upkeep
+|turn|6
+
+|
+|cant|p2a: Ditto|slp
+|move|p1a: Venusaur|Giga Drain|p2a: Ditto
+|-damage|p2a: Ditto|9/100 slp
+|
+|upkeep
+|turn|7
+
+|
+|cant|p2a: Ditto|slp
+|move|p1a: Venusaur|Giga Drain|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+
+|
+|switch|p2a: Articuno|Articuno, L88|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|8
+
+|
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L78|100/100
+|move|p2a: Articuno|Freeze-Dry|p1a: Necrozma
+|-damage|p1a: Necrozma|75/100
+|
+|upkeep
+|turn|9
+
+|
+|detailschange|p1a: Necrozma|Necrozma-Ultra, L78
+|-burst|p1a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p1a: Necrozma|Moongeist Beam|p2a: Articuno
+|-damage|p2a: Articuno|75/100
+|move|p2a: Articuno|Hurricane|p1a: Necrozma
+|-damage|p1a: Necrozma|33/100
+|-start|p1a: Necrozma|confusion
+|
+|-heal|p2a: Articuno|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|-activate|p1a: Necrozma|confusion
+|move|p1a: Necrozma|Photon Geyser|p2a: Articuno
+|-damage|p2a: Articuno|47/100
+|move|p2a: Articuno|Freeze-Dry|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-heal|p2a: Articuno|53/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L86, M|100/100
+|turn|11
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Hitmonlee|[miss]
+|-miss|p2a: Articuno|p1a: Hitmonlee
+|move|p1a: Hitmonlee|Stone Edge|p2a: Articuno|[miss]
+|-miss|p1a: Hitmonlee|p2a: Articuno
+|
+|-heal|p2a: Articuno|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Hitmonlee|[miss]
+|-miss|p2a: Articuno|p1a: Hitmonlee
+|move|p1a: Hitmonlee|Stone Edge|p2a: Articuno|[miss]
+|-miss|p1a: Hitmonlee|p2a: Articuno
+|
+|-heal|p2a: Articuno|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|8/100
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Articuno|[miss]
+|-miss|p1a: Hitmonlee|p2a: Articuno
+|-damage|p1a: Hitmonlee|0 fnt|[from] highjumpkick
+|faint|p1a: Hitmonlee
+|
+|-heal|p2a: Articuno|71/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Stunfisk|Stunfisk, L91, M|100/100
+|turn|14
+
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|58/100
+|-status|p1a: Stunfisk|frz
+|cant|p1a: Stunfisk|frz
+|
+|-heal|p2a: Articuno|77/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|21/100 frz
+|cant|p1a: Stunfisk|frz
+|
+|-heal|p2a: Articuno|83/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|faint|p1a: Stunfisk
+|
+|-heal|p2a: Articuno|89/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, F|100/100
+|turn|17
+
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|86/100
+|move|p1a: Escavalier|Knock Off|p2a: Articuno
+|-damage|p2a: Articuno|61/100
+|-enditem|p2a: Articuno|Leftovers|[from] move: Knock Off|[of] p1a: Escavalier
+|
+|-heal|p1a: Escavalier|92/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Escavalier
+|-damage|p1a: Escavalier|50/100
+|move|p1a: Escavalier|Knock Off|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|34/100
+|
+|-heal|p1a: Escavalier|55/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Escavalier|[miss]
+|-miss|p2a: Articuno|p1a: Escavalier
+|move|p1a: Escavalier|Knock Off|p2a: Articuno
+|-damage|p2a: Articuno|17/100
+|
+|-heal|p1a: Escavalier|61/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Escavalier
+|-damage|p1a: Escavalier|14/100
+|-start|p1a: Escavalier|confusion
+|-activate|p1a: Escavalier|confusion
+|move|p1a: Escavalier|Knock Off|p2a: Articuno
+|-damage|p2a: Articuno|1/100
+|
+|-heal|p1a: Escavalier|20/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|6/100
+|-activate|p1a: Escavalier|confusion
+|move|p1a: Escavalier|Knock Off|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|-heal|p1a: Escavalier|12/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|turn|22
+
+|
+|move|p2a: Sawk|Ice Punch|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|-damage|p2a: Sawk|91/100|[from] item: Life Orb
+|faint|p1a: Escavalier
+|
+|upkeep
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, L81, M|100/100
+|turn|23
+
+|
+|move|p2a: Sawk|Close Combat|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|65/100
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|-damage|p2a: Sawk|81/100|[from] item: Life Orb
+|move|p1a: Venusaur|Sleep Powder|p2a: Sawk
+|-status|p2a: Sawk|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|24
+
+|
+|cant|p2a: Sawk|slp
+|move|p1a: Venusaur|Giga Drain|p2a: Sawk
+|-damage|p2a: Sawk|30/100 slp
+|-heal|p1a: Venusaur|92/100|[from] drain|[of] p2a: Sawk
+|
+|upkeep
+|turn|25
+
+|
+|cant|p2a: Sawk|slp
+|move|p1a: Venusaur|Giga Drain|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Sawk
+|faint|p2a: Sawk
+|
+|upkeep
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|turn|26
+
+|
+|move|p2a: Meloetta|Relic Song|p1a: Venusaur
+|-damage|p1a: Venusaur|70/100
+|-formechange|p2a: Meloetta|Meloetta-Pirouette|[msg]
+|move|p1a: Venusaur|Sleep Powder|p2a: Meloetta|[miss]
+|-miss|p1a: Venusaur|p2a: Meloetta
+|
+|upkeep
+|turn|27
+
+|
+|move|p2a: Meloetta|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|54/100
+|move|p1a: Venusaur|Giga Drain|p2a: Meloetta
+|-damage|p2a: Meloetta|77/100
+|-heal|p1a: Venusaur|67/100|[from] drain|[of] p2a: Meloetta
+|
+|upkeep
+|turn|28
+
+|
+|move|p2a: Meloetta|Close Combat|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|44/100
+|-unboost|p2a: Meloetta|def|1
+|-unboost|p2a: Meloetta|spd|1
+|move|p1a: Venusaur|Sleep Powder|p2a: Meloetta
+|-status|p2a: Meloetta|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|29
+
+|
+|cant|p2a: Meloetta|slp
+|move|p1a: Venusaur|Giga Drain|p2a: Meloetta
+|-damage|p2a: Meloetta|42/100 slp
+|-heal|p1a: Venusaur|65/100|[from] drain|[of] p2a: Meloetta
+|
+|upkeep
+|turn|30
+
+|
+|cant|p2a: Meloetta|slp
+|move|p1a: Venusaur|Giga Drain|p2a: Meloetta
+|-damage|p2a: Meloetta|5/100 slp
+|-heal|p1a: Venusaur|86/100|[from] drain|[of] p2a: Meloetta
+|
+|upkeep
+|turn|31
+
+|
+|cant|p2a: Meloetta|slp
+|move|p1a: Venusaur|Giga Drain|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|-heal|p1a: Venusaur|89/100|[from] drain|[of] p2a: Meloetta
+|faint|p2a: Meloetta
+|
+|upkeep
+
+|
+|switch|p2a: Magearna|Magearna, L80|100/100
+|turn|32
+
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Magearna
+|-status|p2a: Magearna|slp|[from] move: Sleep Powder
+|cant|p2a: Magearna|slp
+|
+|upkeep
+|turn|33
+
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|86/100 slp
+|-heal|p1a: Venusaur|96/100|[from] drain|[of] p2a: Magearna
+|cant|p2a: Magearna|slp
+|
+|upkeep
+|turn|34
+
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|72/100 slp
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Magearna
+|cant|p2a: Magearna|slp
+|
+|upkeep
+|turn|35
+
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|56/100 slp
+|-curestatus|p2a: Magearna|slp|[msg]
+|-zpower|p2a: Magearna
+|move|p2a: Magearna|Twinkle Tackle|p1a: Venusaur|[zeffect]
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|64/100
+|
+|upkeep
+|turn|36
+
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Magearna|[miss]
+|-miss|p1a: Venusaur|p2a: Magearna
+|move|p2a: Magearna|Flash Cannon|p1a: Venusaur
+|-damage|p1a: Venusaur|35/100
+|
+|upkeep
+|turn|37
+
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Magearna|[miss]
+|-miss|p1a: Venusaur|p2a: Magearna
+|move|p2a: Magearna|Flash Cannon|p1a: Venusaur
+|-damage|p1a: Venusaur|4/100
+|
+|upkeep
+|turn|38
+
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|41/100
+|-heal|p1a: Venusaur|12/100|[from] drain|[of] p2a: Magearna
+|move|p2a: Magearna|Fleur Cannon|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Venusaur
+|
+|win|MightyLuxray07

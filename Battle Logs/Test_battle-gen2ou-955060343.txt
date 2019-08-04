@@ -1,0 +1,201 @@
+|init|battle
+|title|geenyus vs. mharp
+|j|☆geenyus
+|j|☆mharp
+|player|p1|geenyus|5|1615
+|player|p2|mharp|154|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Fish Queen|Jynx, F|100/100
+|switch|p2a: Typhlosion|Typhlosion, M|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mharp)
+
+|inactive|geenyus has 120 seconds left.
+
+|j| Gen7OUOU
+
+|inactive|geenyus has 90 seconds left.
+
+|inactive|geenyus has 60 seconds left.
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Typhlosion|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|74/100
+|
+|-heal|p1a: Snorlax|80/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|move|p1a: Snorlax|Double-Edge|p2a: Misdreavus
+|-immune|p2a: Misdreavus
+|
+|-heal|p1a: Snorlax|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|move|p2a: Misdreavus|Protect|p2a: Misdreavus
+|-fail|p2a: Misdreavus
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|move|p1a: Nidoking|Thief|p2a: Jumpluff
+|-damage|p2a: Jumpluff|91/100
+|-item|p1a: Nidoking|Miracle Berry|[from] move: Thief|[of] p2a: Jumpluff
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Jumpluff|Stun Spore|p1a: Nidoking|[miss]
+|-miss|p2a: Jumpluff
+|move|p1a: Nidoking|Ice Beam|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|7/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Jumpluff|Stun Spore|p1a: Nidoking
+|-status|p1a: Nidoking|par
+|-enditem|p1a: Nidoking|Miracle Berry|[eat]
+|-curestatus|p1a: Nidoking|par|[msg]
+|move|p1a: Nidoking|Ice Beam|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+
+|
+|switch|p2a: Espeon|Espeon, F|100/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Fish Queen|Jynx, F|100/100
+|move|p2a: Espeon|Substitute|p2a: Espeon
+|-start|p2a: Espeon|Substitute
+|-damage|p2a: Espeon|76/100
+|
+|-heal|p2a: Espeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Espeon|Growth|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|move|p1a: Fish Queen|Ice Beam|p2a: Espeon
+|-end|p2a: Espeon|Substitute
+|
+|-heal|p2a: Espeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Espeon|Growth|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|move|p1a: Fish Queen|Lovely Kiss|p2a: Espeon
+|-status|p2a: Espeon|slp|[from] move: Lovely Kiss
+|
+|-heal|p2a: Espeon|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|cant|p2a: Espeon|slp
+|move|p1a: Fish Queen|Substitute|p1a: Fish Queen
+|-start|p1a: Fish Queen|Substitute
+|-damage|p1a: Fish Queen|76/100
+|
+|-heal|p2a: Espeon|99/100 slp|[from] item: Leftovers
+|-heal|p1a: Fish Queen|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|cant|p2a: Espeon|slp
+|move|p1a: Fish Queen|Ice Beam|p2a: Espeon
+|-damage|p2a: Espeon|61/100 slp
+|
+|-heal|p2a: Espeon|67/100 slp|[from] item: Leftovers
+|-heal|p1a: Fish Queen|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|-curestatus|p2a: Espeon|slp|[msg]
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100|[from]move: Baton Pass
+|move|p1a: Fish Queen|Ice Beam|p2a: Quagsire
+|-damage|p2a: Quagsire|59/100
+|
+|-heal|p1a: Fish Queen|94/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Fish Queen|Ice Beam|p2a: Quagsire
+|-damage|p2a: Quagsire|21/100
+|move|p2a: Quagsire|Earthquake|p1a: Fish Queen
+|-end|p1a: Fish Queen|Substitute
+|
+|-heal|p1a: Fish Queen|99/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|27/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Fish Queen|Psychic|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+
+|
+|switch|p2a: Espeon|Espeon, F|67/100
+|
+|-heal|p2a: Espeon|73/100|[from] item: Leftovers
+|-heal|p1a: Fish Queen|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Espeon|Psychic|p1a: Fish Queen
+|-resisted|p1a: Fish Queen
+|-damage|p1a: Fish Queen|82/100
+|move|p1a: Fish Queen|Ice Beam|p2a: Espeon
+|-damage|p2a: Espeon|34/100
+|-status|p2a: Espeon|frz
+|
+|-heal|p2a: Espeon|40/100 frz|[from] item: Leftovers
+|-heal|p1a: Fish Queen|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|-message|mharp forfeited.
+
+|
+|win|geenyus

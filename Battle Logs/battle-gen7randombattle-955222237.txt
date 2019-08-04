@@ -1,0 +1,40 @@
+|init|battle
+|title|vitalik97 vs. Dakruon
+|j|☆vitalik97
+|j|☆Dakruon
+|player|p1|vitalik97|86|1666
+|player|p2|Dakruon|101|1644
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lycanroc|Lycanroc, L88, M|100/100
+|switch|p2a: Cradily|Cradily, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dakruon)
+|inactive|vitalik97 has 120 seconds left.
+|inactive|vitalik97 has 90 seconds left.
+|l|☆Dakruon
+|inactive|Dakruon disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|vitalik97 has 60 seconds left.
+
+|inactive|vitalik97 has 30 seconds left.
+
+|inactive|vitalik97 has 20 seconds left.
+
+|inactive|vitalik97 has 15 seconds left.
+
+|inactive|vitalik97 has 10 seconds left.
+
+|inactive|vitalik97 has 5 seconds left.
+
+|-message|vitalik97 lost due to inactivity.
+|
+|win|Dakruon

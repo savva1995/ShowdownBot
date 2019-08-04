@@ -1,0 +1,197 @@
+|init|battle
+|title|AshLightning2772 vs. Mourierrr
+|j|☆AshLightning2772
+|j|☆Mourierrr
+|player|p1|AshLightning2772|1|1527
+|player|p2|Mourierrr|169|1561
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Krookodile|Krookodile, L82, M|100/100
+|switch|p2a: Exeggutor|Exeggutor-Alola, L86, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Exeggutor|atk|1
+|-item|p1a: Krookodile|Focus Sash|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|1
+|
+|switch|p1a: Salazzle|Salazzle, L84, F|100/100
+|-item|p1a: Salazzle|Air Balloon
+|move|p2a: Exeggutor|Giga Drain|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|87/100
+|-enditem|p1a: Salazzle|Air Balloon
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Kyurem|Kyurem-White, L78|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|move|p1a: Salazzle|Sludge Wave|p2a: Kyurem
+|-damage|p2a: Kyurem|65/100
+|
+|-heal|p2a: Kyurem|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Kyurem
+|-damage|p2a: Kyurem|29/100
+|move|p2a: Kyurem|Earth Power|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-heal|p2a: Kyurem|35/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Krookodile|Krookodile, L82, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|turn|4
+
+|
+|move|p1a: Krookodile|Superpower|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Krookodile|atk|1
+|-unboost|p1a: Krookodile|def|1
+|faint|p2a: Kyurem
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AshLightning2772)
+
+|
+|switch|p2a: Exeggutor|Exeggutor-Alola, L86, F|100/100
+|-item|p1a: Krookodile|Focus Sash|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|5
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|move|p2a: Exeggutor|Leaf Storm|p1a: Pheromosa
+|-resisted|p1a: Pheromosa
+|-damage|p1a: Pheromosa|31/100
+|-unboost|p2a: Exeggutor|spa|2
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, M|100/100
+|move|p1a: Pheromosa|Ice Beam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|86/100
+|
+|-heal|p2a: Alomomola|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Cradily|Cradily, L89, F|100/100
+|move|p2a: Alomomola|Scald|p1a: Cradily
+|-ability|p1a: Cradily|Storm Drain|boost
+|-boost|p1a: Cradily|spa|1
+|
+|-heal|p2a: Alomomola|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Alomomola|Toxic|p1a: Cradily
+|-status|p1a: Cradily|tox
+|move|p1a: Cradily|Seed Bomb|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|51/100
+|
+|-heal|p2a: Alomomola|57/100|[from] item: Leftovers
+|-damage|p1a: Cradily|94/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Bellossom|Bellossom, L89, M|100/100
+|move|p1a: Cradily|Seed Bomb|p2a: Bellossom
+|-resisted|p2a: Bellossom
+|-damage|p2a: Bellossom|89/100
+|
+|-heal|p1a: Cradily|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Cradily|88/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Dodrio|Dodrio, L88, F|100/100
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|upkeep
+|turn|11
+
+|inactive|Mourierrr has 120 seconds left.
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L85, M|100/100
+|move|p1a: Dodrio|Return|p2a: Cofagrigus
+|-immune|p2a: Cofagrigus
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+|-boost|p1a: Dodrio|atk|2
+|move|p2a: Cofagrigus|Nasty Plot|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|2
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Dodrio|Knock Off|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|9/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Early Bird|[of] p1a: Dodrio
+|-enditem|p2a: Cofagrigus|Leftovers|[from] move: Knock Off|[of] p1a: Dodrio
+|move|p2a: Cofagrigus|Hidden Power|p1a: Dodrio
+|-damage|p1a: Dodrio|58/100
+|
+|-heal|p1a: Dodrio|64/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Dodrio|Knock Off|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|-heal|p1a: Dodrio|70/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Honchkrow|Honchkrow, L84, F|100/100
+|turn|15
+
+|
+|move|p1a: Dodrio|Return|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|
+|-heal|p1a: Dodrio|76/100|[from] item: Leftovers
+|upkeep
+
+|-message|Mourierrr forfeited.
+
+|
+|win|AshLightning2772

@@ -1,0 +1,108 @@
+|init|battle
+|title|Klaire Rouge vs. zadocfish3
+|j|☆Klaire Rouge
+|j|☆zadocfish3
+|player|p1|Klaire Rouge|8|1417
+|player|p2|zadocfish3|10|1198
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Latios, M|item
+|poke|p1|Victini|item
+|poke|p1|Gallade, M|item
+|poke|p2|Slaking, F|item
+|poke|p2|Bewear, M|item
+|poke|p2|Scolipede, F|item
+|teampreview|1
+|
+|start
+|switch|p1a: Laid|Gallade, M|100/100
+|switch|p2a: Scolipede|Scolipede, F|100/100
+|turn|1
+|
+|detailschange|p1a: Laid|Gallade-Mega, M
+|-mega|p1a: Laid|Gallade|Galladite
+|move|p2a: Scolipede|Toxic|p1a: Laid
+|-status|p1a: Laid|tox
+|move|p1a: Laid|Rock Tomb|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|50/100
+|-unboost|p2a: Scolipede|spe|1
+|
+|-heal|p2a: Scolipede|56/100|[from] item: Leftovers
+|-damage|p1a: Laid|94/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|2
+|
+|move|p2a: Scolipede|Protect|p2a: Scolipede
+|-singleturn|p2a: Scolipede|Protect
+|move|p1a: Laid|Encore|p2a: Scolipede
+|-activate|p2a: Scolipede|move: Protect
+|
+|-heal|p2a: Scolipede|62/100|[from] item: Leftovers
+|-damage|p1a: Laid|82/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|3
+|
+|move|p2a: Scolipede|Substitute|p2a: Scolipede
+|-start|p2a: Scolipede|Substitute
+|-damage|p2a: Scolipede|37/100
+|move|p1a: Laid|Rock Tomb|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-end|p2a: Scolipede|Substitute
+|
+|-heal|p2a: Scolipede|44/100|[from] item: Leftovers
+|-damage|p1a: Laid|63/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|4
+
+|
+|move|p2a: Scolipede|Protect|p2a: Scolipede
+|-singleturn|p2a: Scolipede|Protect
+|move|p1a: Laid|Encore|p2a: Scolipede
+|-activate|p2a: Scolipede|move: Protect
+|
+|-heal|p2a: Scolipede|50/100|[from] item: Leftovers
+|-damage|p1a: Laid|38/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|5
+
+|
+|move|p2a: Scolipede|Substitute|p2a: Scolipede
+|-start|p2a: Scolipede|Substitute
+|-damage|p2a: Scolipede|25/100
+|move|p1a: Laid|Rock Tomb|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-end|p2a: Scolipede|Substitute
+|
+|-heal|p2a: Scolipede|31/100|[from] item: Leftovers
+|-damage|p1a: Laid|7/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|6
+
+|-message|Klaire Rouge forfeited.
+
+|
+|win|zadocfish3

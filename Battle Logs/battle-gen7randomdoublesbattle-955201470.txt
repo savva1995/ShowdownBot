@@ -1,0 +1,267 @@
+|init|battle
+|title|kingsucc vs. Akinori1982
+|j|☆kingsucc
+|j|☆Akinori1982
+|player|p1|kingsucc|201|1214
+|player|p2|Akinori1982|143|1235
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cloyster|Cloyster, L77, M|100/100
+|switch|p1b: Kecleon|Kecleon, L82, F|100/100
+|switch|p2a: Lanturn|Lanturn, L83, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L83, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kingsucc)
+|
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1b: Kecleon|Fake Out|p2b: Amoonguss
+|-activate|p2b: Amoonguss|move: Protect
+|move|p2a: Lanturn|Discharge|p1b: Kecleon|[spread] p1a,p1b
+|-activate|p2b: Amoonguss|move: Protect
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|9/100
+|-damage|p1b: Kecleon|82/100
+|-status|p1a: Cloyster|par
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Lanturn|Scald|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|move|p1b: Kecleon|Drain Punch|p2a: Lanturn
+|-start|p1b: Kecleon|typechange|Fighting|[from] ability: Protean
+|-damage|p2a: Lanturn|62/100
+|-heal|p1b: Kecleon|100/100|[from] drain|[of] p2a: Lanturn
+|-damage|p1b: Kecleon|91/100|[from] item: Life Orb
+|move|p2b: Amoonguss|Spore|p1b: Kecleon
+|-status|p1b: Kecleon|slp|[from] move: Spore
+|
+|upkeep
+|
+|switch|p1a: Cobalion|Cobalion, L71|100/100
+|turn|3
+|
+|cant|p1b: Kecleon|slp
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1a: Cobalion|Substitute|p1a: Cobalion
+|-start|p1a: Cobalion|Substitute
+|-damage|p1a: Cobalion|76/100
+|move|p2a: Lanturn|Discharge|p1b: Kecleon|[spread] p1a,p1b
+|-activate|p2b: Amoonguss|move: Protect
+|-end|p1a: Cobalion|Substitute
+|-damage|p1b: Kecleon|73/100 slp
+|
+|-heal|p1a: Cobalion|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Lanturn|Scald|p1a: Cobalion
+|-damage|p1a: Cobalion|45/100
+|cant|p1b: Kecleon|slp
+|move|p2b: Amoonguss|Giga Drain|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|25/100
+|
+|-heal|p1a: Cobalion|31/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|cant|p1b: Kecleon|slp
+|move|p1a: Cobalion|Iron Head|p2b: Amoonguss
+|-damage|p2b: Amoonguss|58/100
+|move|p2a: Lanturn|Scald|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|move|p2b: Amoonguss|Giga Drain|p1b: Kecleon
+|-crit|p1b: Kecleon
+|-damage|p1b: Kecleon|35/100 slp
+|-heal|p2b: Amoonguss|72/100|[from] drain|[of] p1b: Kecleon
+|
+|upkeep
+
+|
+|switch|p1a: Darmanitan|Darmanitan, L81, F|100/100
+|turn|6
+
+|
+|move|p1a: Darmanitan|Fire Punch|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Lanturn|Scald|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|37/100
+|-curestatus|p1b: Kecleon|slp|[msg]
+|move|p1b: Kecleon|Drain Punch|p2a: Lanturn
+|-damage|p2a: Lanturn|22/100
+|-heal|p1b: Kecleon|64/100|[from] drain|[of] p2a: Lanturn
+|-damage|p1b: Kecleon|54/100|[from] item: Life Orb
+|
+|upkeep
+
+|
+|switch|p2b: Naganadel|Naganadel, L75|100/100
+|turn|7
+
+|
+|move|p2a: Lanturn|Protect|p2a: Lanturn
+|-singleturn|p2a: Lanturn|Protect
+|move|p2b: Naganadel|Fire Blast|p1b: Kecleon
+|-damage|p1b: Kecleon|25/100
+|move|p1a: Darmanitan|Superpower|p2b: Naganadel
+|-resisted|p2b: Naganadel
+|-damage|p2b: Naganadel|62/100
+|-unboost|p1a: Darmanitan|atk|1
+|-unboost|p1a: Darmanitan|def|1
+|-damage|p1a: Darmanitan|27/100|[from] item: Life Orb
+|move|p1b: Kecleon|Drain Punch|p2b: Naganadel
+|-resisted|p2b: Naganadel
+|-damage|p2b: Naganadel|37/100
+|-heal|p1b: Kecleon|37/100|[from] drain|[of] p2b: Naganadel
+|-enditem|p2b: Naganadel|Sitrus Berry|[eat]
+|-heal|p2b: Naganadel|62/100|[from] item: Sitrus Berry
+|-damage|p1b: Kecleon|27/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+
+|
+|move|p1b: Kecleon|Protect|p1b: Kecleon
+|-start|p1b: Kecleon|typechange|Normal|[from] ability: Protean
+|-singleturn|p1b: Kecleon|Protect
+|move|p2b: Naganadel|Tailwind|p2b: Naganadel
+|-sidestart|p2: Akinori1982|move: Tailwind
+|move|p1a: Darmanitan|U-turn|p2b: Naganadel
+|-resisted|p2b: Naganadel
+|-damage|p2b: Naganadel|49/100
+|-damage|p1a: Darmanitan|17/100|[from] item: Life Orb
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L77, M|100/100|[from]move: U-turn
+|move|p2a: Lanturn|Scald|p1a: Vaporeon
+|-immune|p1a: Vaporeon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Vaporeon|Helping Hand|p1b: Kecleon
+|-singleturn|p1b: Kecleon|Helping Hand|[of] p1a: Vaporeon
+|move|p1b: Kecleon|Shadow Sneak|p2b: Naganadel
+|-start|p1b: Kecleon|typechange|Ghost|[from] ability: Protean
+|-damage|p2b: Naganadel|11/100
+|-damage|p1b: Kecleon|17/100|[from] item: Life Orb
+|move|p2b: Naganadel|Draco Meteor|p1b: Kecleon
+|-damage|p1b: Kecleon|0 fnt
+|-unboost|p2b: Naganadel|spa|2
+|faint|p1b: Kecleon
+|-ability|p2b: Naganadel|Beast Boost|boost
+|-boost|p2b: Naganadel|spa|1
+|move|p2a: Lanturn|Hidden Power|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|77/100
+|
+|upkeep
+
+|
+|switch|p1b: Greninja|Greninja, L73, F|100/100
+|turn|10
+
+|
+|move|p2b: Naganadel|Protect|p2b: Naganadel
+|-singleturn|p2b: Naganadel|Protect
+|move|p2a: Lanturn|Discharge|p1a: Vaporeon|[spread] p1a,p1b
+|-activate|p2b: Naganadel|move: Protect
+|-supereffective|p1a: Vaporeon
+|-supereffective|p1b: Greninja
+|-damage|p1a: Vaporeon|44/100
+|-damage|p1b: Greninja|39/100
+|-status|p1b: Greninja|par
+|-enditem|p1a: Vaporeon|Sitrus Berry|[eat]
+|-heal|p1a: Vaporeon|69/100|[from] item: Sitrus Berry
+|move|p1b: Greninja|Ice Beam|p2b: Naganadel
+|-start|p1b: Greninja|typechange|Ice|[from] ability: Protean
+|-activate|p2b: Naganadel|move: Protect
+|move|p1a: Vaporeon|Muddy Water|p2b: Naganadel|[spread] p2a
+|-activate|p2b: Naganadel|move: Protect
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|12/100
+|
+|upkeep
+|turn|11
+
+|inactive|Akinori1982 has 120 seconds left.
+
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L76, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p2b: Naganadel|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|39/100
+|-unboost|p2b: Naganadel|spa|2
+|move|p1a: Vaporeon|Muddy Water|p2b: Naganadel|[spread] p2a,p2b
+|-resisted|p2b: Naganadel
+|-damage|p2a: Vanilluxe|72/100
+|-damage|p2b: Naganadel|0 fnt
+|faint|p2b: Naganadel
+|move|p1b: Greninja|Dark Pulse|p2a: Vanilluxe
+|-start|p1b: Greninja|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Vanilluxe|34/100
+|-enditem|p2a: Vanilluxe|Sitrus Berry|[eat]
+|-heal|p2a: Vanilluxe|58/100|[from] item: Sitrus Berry
+|-damage|p1b: Greninja|29/100 par|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vaporeon|33/100|[from] Hail
+|-damage|p1b: Greninja|23/100 par|[from] Hail
+|-sideend|p2: Akinori1982|move: Tailwind
+|upkeep
+
+|inactive|Akinori1982 has 120 seconds left.
+
+|
+|switch|p2b: Kricketune|Kricketune, L90, M|100/100
+|turn|12
+
+|
+|move|p2b: Kricketune|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|12/100
+|move|p2a: Vanilluxe|Flash Cannon|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|5/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|cant|p1b: Greninja|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2b: Kricketune|95/100|[from] Hail
+|-damage|p1a: Vaporeon|0 fnt|[from] Hail
+|-damage|p1b: Greninja|16/100 par|[from] Hail
+|faint|p1a: Vaporeon
+|upkeep
+
+|-message|kingsucc forfeited.
+
+|
+|win|Akinori1982

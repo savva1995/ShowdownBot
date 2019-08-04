@@ -1,0 +1,101 @@
+|init|battle
+|title|Linck129 vs. nousernameatall
+|j|☆Linck129
+|j|☆nousernameatall
+|player|p1|Linck129|101|1749
+|player|p2|nousernameatall|169|1768
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rampardos|Rampardos, L89, M|100/100
+|switch|p2a: Venusaur|Venusaur, L81, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nousernameatall)
+|
+|detailschange|p2a: Venusaur|Venusaur-Mega, L81, F
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p2a: Venusaur|Sleep Powder|p1a: Rampardos
+|-status|p1a: Rampardos|slp|[from] move: Sleep Powder
+|cant|p1a: Rampardos|slp
+|
+|upkeep
+|turn|2
+|l|☆Linck129
+|inactive|Linck129 disconnected and has a minute to reconnect!
+|player|p1|
+
+|j|☆Linck129@!
+
+|inactive|Linck129 reconnected and has 125 seconds left.
+
+|player|p1|Linck129|101
+|n|☆Linck129|linck129
+
+|inactive|Linck129 has 120 seconds left.
+|inactive|nousernameatall has 120 seconds left.
+
+|
+|switch|p2a: Infernape|Infernape, L82, F|100/100
+|switch|p1a: Galvantula|Galvantula, L84, M|100/100
+|
+|upkeep
+|turn|3
+
+|inactive|nousernameatall has 120 seconds left.
+
+|inactive|Linck129 has 120 seconds left.
+
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Infernape
+|-sidestart|p2: nousernameatall|move: Sticky Web
+|move|p2a: Infernape|Fire Blast|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+
+|
+|switch|p1a: Stoutland|Stoutland, L88, M|100/100
+|-ability|p1a: Stoutland|Intimidate|boost
+|-unboost|p2a: Infernape|atk|1
+|turn|4
+
+|
+|move|p1a: Stoutland|Return|p2a: Infernape
+|-damage|p2a: Infernape|36/100
+|-zpower|p2a: Infernape
+|move|p2a: Infernape|All-Out Pummeling|p1a: Stoutland|[zeffect]
+|-supereffective|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|faint|p1a: Stoutland
+|
+|upkeep
+
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, F|100/100
+|turn|5
+
+|
+|move|p2a: Infernape|Fire Blast|p1a: Slurpuff
+|-damage|p1a: Slurpuff|54/100
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|4/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|29/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+
+|-message|nousernameatall forfeited.
+
+|
+|win|Linck129

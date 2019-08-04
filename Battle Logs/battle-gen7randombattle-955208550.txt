@@ -1,0 +1,96 @@
+|init|battle
+|title|Freybug vs. manuelcmcl
+|j|☆Freybug
+|j|☆manuelcmcl
+|player|p1|Freybug|256|1507
+|player|p2|manuelcmcl|92|1483
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slaking|Slaking, L89, F|100/100
+|switch|p2a: Octillery|Octillery, L89, M|100/100
+|turn|1
+|
+|switch|p1a: Roserade|Roserade, L84, M|100/100
+|move|p2a: Octillery|Gunk Shot|p1a: Roserade
+|-damage|p1a: Roserade|50/100
+|
+|-heal|p1a: Roserade|56/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p1a: Roserade|Spikes|p2a: Octillery
+|-sidestart|p2: manuelcmcl|Spikes
+|move|p2a: Octillery|Ice Beam|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+
+|
+|switch|p1a: Vikavolt|Vikavolt, L86, F|100/100
+|turn|3
+
+|
+|move|p2a: Octillery|Hydro Pump|p1a: Vikavolt|[miss]
+|-miss|p2a: Octillery|p1a: Vikavolt
+|move|p1a: Vikavolt|Agility|p1a: Vikavolt
+|-boost|p1a: Vikavolt|spe|2
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Vikavolt|Thunderbolt|p2a: Octillery
+|-supereffective|p2a: Octillery
+|-damage|p2a: Octillery|0 fnt
+|-damage|p1a: Vikavolt|91/100|[from] item: Life Orb
+|faint|p2a: Octillery
+|
+|upkeep
+
+|
+|switch|p2a: Donphan|Donphan, L84, M|100/100
+|-damage|p2a: Donphan|88/100|[from] Spikes
+|turn|5
+
+|
+|move|p1a: Vikavolt|Energy Ball|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|-damage|p1a: Vikavolt|81/100|[from] item: Life Orb
+|faint|p2a: Donphan
+|
+|upkeep
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|-damage|p2a: Sawk|88/100|[from] Spikes
+|turn|6
+
+|
+|move|p1a: Vikavolt|Thunderbolt|p2a: Sawk
+|-damage|p2a: Sawk|22/100
+|-damage|p1a: Vikavolt|71/100|[from] item: Life Orb
+|move|p2a: Sawk|Close Combat|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|41/100
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|
+|-heal|p2a: Sawk|28/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|-message|manuelcmcl forfeited.
+
+|
+|win|Freybug

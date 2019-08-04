@@ -1,0 +1,166 @@
+|init|battle
+|title|Langford vs. Hshhu873
+|j|☆Langford
+|j|☆Hshhu873
+|player|p1|Langford|192|1159
+|player|p2|Hshhu873|161|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Greninja, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Medicham, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Volcarona, M|item
+|poke|p2|Cubone, F|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Diancie|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Yanmega, F|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|c|☆Langford|aw cute
+|
+|start
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|inactive|Langford has 30 seconds left this turn.
+|inactive|Hshhu873 has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hshhu873)
+|
+|move|p1a: Greninja|U-turn|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|90/100
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Ferrothorn
+|-anim|p2a: Ninetales|Solar Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Langford has 10 seconds left.
+|inactive|Langford has 5 seconds left.
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|move|p2a: Ninetales|Fire Blast|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Langford has 10 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+|
+|move|p1a: Greninja|U-turn|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|79/100
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Langford has 10 seconds left.
+|
+|switch|p1a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|move|p2a: Ninetales|Fire Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|5
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Hshhu873 has 10 seconds left.
+|
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|move|p1a: Landorus|Rock Polish|p1a: Landorus
+|-boost|p1a: Landorus|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Langford has 10 seconds left.
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Venusaur|Giga Drain|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+
+|
+|-zpower|p2a: Venusaur
+|move|p2a: Venusaur|Acid Downpour|p1a: Volcarona|[zeffect]
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|none
+|upkeep
+
+|inactive|Langford has 15 seconds left this turn.
+|inactive|Hshhu873 has 15 seconds left this turn.
+
+|-message|Langford forfeited.
+
+|
+|win|Hshhu873

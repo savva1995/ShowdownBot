@@ -1,0 +1,199 @@
+|init|battle
+|title|chiumma vs. Jjuunn
+|j|☆chiumma
+|j|☆Jjuunn
+|player|p1|chiumma|1|1148
+|player|p2|Jjuunn|154|1242
+|teamsize|p1|6
+|teamsize|p2|4
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Haxorus, L50, F|item
+|poke|p1|Politoed, L50, F|item
+|poke|p1|Kingdra, L50, F|item
+|poke|p1|Tapu Koko, L50|item
+|poke|p1|Scizor, L50, M|item
+|poke|p1|Moltres, L50|item
+|poke|p2|Jumpluff, L50, F|item
+|poke|p2|Altaria, L50, F|item
+|poke|p2|Shellos-East, L50, F|item
+|poke|p2|Dedenne, L50, F|item
+|teampreview|3
+
+|
+|start
+|switch|p1a: Scizor|Scizor, L50, M|48/48
+|switch|p2a: Dedenne|Dedenne, L50, F|48/48
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jjuunn)
+
+|
+|move|p2a: Dedenne|Nuzzle|p1a: Scizor
+|-damage|p1a: Scizor|45/48
+|-status|p1a: Scizor|par
+|cant|p1a: Scizor|par
+|
+|upkeep
+|turn|2
+
+|
+|detailschange|p1a: Scizor|Scizor-Mega, L50, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Dedenne|Substitute|p2a: Dedenne
+|-start|p2a: Dedenne|Substitute
+|-damage|p2a: Dedenne|36/48
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dedenne
+|-crit|p2a: Dedenne
+|-end|p2a: Dedenne|Substitute
+|move|p2a: Dedenne|Substitute|p2a: Dedenne
+|-start|p2a: Dedenne|Substitute
+|-damage|p2a: Dedenne|24/48
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dedenne
+|-end|p2a: Dedenne|Substitute
+|move|p2a: Dedenne|Substitute|p2a: Dedenne
+|-start|p2a: Dedenne|Substitute
+|-damage|p2a: Dedenne|12/48
+|-enditem|p2a: Dedenne|Starf Berry|[eat]
+|-boost|p2a: Dedenne|atk|2
+|-heal|p2a: Dedenne|27/48|[from] ability: Cheek Pouch
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dedenne
+|-end|p2a: Dedenne|Substitute
+|move|p2a: Dedenne|Recycle|p2a: Dedenne
+|-item|p2a: Dedenne|Starf Berry|[from] move: Recycle
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dedenne
+|-damage|p2a: Dedenne|0 fnt
+|faint|p2a: Dedenne
+|
+|upkeep
+
+|
+|switch|p2a: Altaria|Altaria, L50, F|48/48
+|turn|7
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Altaria
+|-damage|p2a: Altaria|11/48
+|move|p2a: Altaria|Fire Blast|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko, L50|48/48
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|8
+
+|l|☆chiumma
+
+|inactive|chiumma disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆chiumma
+
+|inactive|chiumma reconnected and has 120 seconds left.
+
+|player|p1|chiumma|1
+
+|
+|detailschange|p2a: Altaria|Altaria-Mega, L50, F
+|-mega|p2a: Altaria|Altaria|Altarianite
+|move|p1a: Tapu Koko|Dazzling Gleam|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|upkeep
+
+|
+|switch|p2a: Jumpluff|Jumpluff, L50, F|48/48
+|turn|9
+
+|
+|move|p1a: Tapu Koko|Dazzling Gleam|p2a: Jumpluff
+|-damage|p2a: Jumpluff|22/48
+|move|p2a: Jumpluff|Leech Seed|p1a: Tapu Koko
+|-start|p1a: Tapu Koko|move: Leech Seed
+|
+|-damage|p1a: Tapu Koko|42/48|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|27/48|[silent]
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Haxorus|Haxorus, L50, F|48/48
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|15/48
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Jumpluff|Leech Seed|p1a: Haxorus
+|-start|p1a: Haxorus|move: Leech Seed
+|move|p1a: Haxorus|Poison Jab|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-damage|p1a: Haxorus|42/48|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|20/48|[silent]
+|upkeep
+|turn|12
+
+|
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|8/48
+|-enditem|p2a: Jumpluff|Aguav Berry|[eat]
+|-heal|p2a: Jumpluff|32/48|[from] item: Aguav Berry
+|move|p1a: Haxorus|Poison Jab|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-damage|p1a: Haxorus|36/48|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|37/48|[silent]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|13
+
+|
+|move|p2a: Jumpluff|Sleep Powder|p1a: Haxorus|[miss]
+|-miss|p2a: Jumpluff|p1a: Haxorus
+|move|p1a: Haxorus|Poison Jab|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|win|chiumma

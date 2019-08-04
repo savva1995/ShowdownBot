@@ -1,0 +1,158 @@
+|init|battle
+|title|maximecamp vs. ormasupa
+|j|☆maximecamp
+|j|☆ormasupa
+|player|p1|maximecamp|224|1331
+|player|p2|ormasupa|127|1367
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, L84, F|100/100
+|switch|p2a: Garchomp|Garchomp, L80, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by maximecamp)
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, L80, M
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p2a: Garchomp|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|upkeep
+|
+|switch|p1a: Lurantis|Lurantis, L88, F|100/100
+|turn|2
+|
+|switch|p2a: Virizion|Virizion, L84|100/100
+|move|p1a: Lurantis|Hidden Power|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|72/100
+|-damage|p1a: Lurantis|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Virizion|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Turtonator|Turtonator, L89, F|100/100
+|move|p2a: Virizion|Calm Mind|p2a: Virizion
+|-boost|p2a: Virizion|spa|1
+|-boost|p2a: Virizion|spd|1
+|
+|-heal|p2a: Virizion|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Virizion|Hidden Power|p1a: Turtonator
+|-damage|p1a: Turtonator|85/100
+|move|p1a: Turtonator|Fire Blast|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|44/100
+|
+|-heal|p2a: Virizion|50/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Virizion|Focus Blast|p1a: Turtonator
+|-damage|p1a: Turtonator|38/100
+|move|p1a: Turtonator|Fire Blast|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|10/100
+|
+|-heal|p2a: Virizion|17/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Sylveon|Sylveon, L82, M|100/100
+|move|p2a: Virizion|Focus Blast|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|76/100
+|
+|-heal|p2a: Virizion|23/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Virizion|Giga Drain|p1a: Sylveon
+|-damage|p1a: Sylveon|54/100
+|-heal|p2a: Virizion|37/100|[from] drain|[of] p1a: Sylveon
+|move|p1a: Sylveon|Hyper Voice|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|-heal|p1a: Sylveon|60/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, F|100/100
+|turn|8
+
+|
+|switch|p1a: Lurantis|Lurantis, L88, F|91/100
+|move|p2a: Cinccino|Tail Slap|p1a: Lurantis
+|-damage|p1a: Lurantis|76/100
+|-damage|p1a: Lurantis|61/100
+|-damage|p1a: Lurantis|47/100
+|-damage|p1a: Lurantis|32/100
+|-damage|p1a: Lurantis|17/100
+|-hitcount|p1a: Lurantis|5
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Cinccino|Tail Slap|p1a: Lurantis
+|-damage|p1a: Lurantis|3/100
+|-damage|p1a: Lurantis|0 fnt
+|-hitcount|p1a: Lurantis|2
+|faint|p1a: Lurantis
+|
+|upkeep
+
+|
+|switch|p1a: Turtonator|Turtonator, L89, F|38/100
+|turn|10
+
+|
+|move|p2a: Cinccino|Tail Slap|p1a: Turtonator
+|-damage|p1a: Turtonator|28/100
+|-damage|p1a: Turtonator|17/100
+|-damage|p1a: Turtonator|6/100
+|-damage|p1a: Turtonator|0 fnt
+|-hitcount|p1a: Turtonator|4
+|faint|p1a: Turtonator
+|
+|upkeep
+
+|
+|switch|p1a: Sylveon|Sylveon, L82, M|60/100
+|turn|11
+
+|
+|move|p2a: Cinccino|Tail Slap|p1a: Sylveon
+|-damage|p1a: Sylveon|41/100
+|-damage|p1a: Sylveon|23/100
+|-damage|p1a: Sylveon|5/100
+|-damage|p1a: Sylveon|0 fnt
+|-hitcount|p1a: Sylveon|4
+|faint|p1a: Sylveon
+|
+|upkeep
+
+|-message|maximecamp forfeited.
+
+|
+|win|ormasupa

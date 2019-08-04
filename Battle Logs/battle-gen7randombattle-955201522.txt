@@ -1,0 +1,49 @@
+|init|battle
+|title|Anshulkhanna vs. Norym ial
+|j|☆Anshulkhanna
+|j|☆Norym ial
+|player|p1|Anshulkhanna|1|1056
+|player|p2|Norym ial|101|1025
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gumshoos|Gumshoos, L89, F|100/100
+|switch|p2a: Exeggutor|Exeggutor-Alola, L86, M|100/100
+|-item|p1a: Gumshoos|Choice Band|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|1
+|
+|move|p1a: Gumshoos|Fire Punch|p2a: Exeggutor
+|-damage|p2a: Exeggutor|70/100
+|move|p2a: Exeggutor|Flamethrower|p1a: Gumshoos
+|-damage|p1a: Gumshoos|68/100
+|-status|p1a: Gumshoos|brn
+|
+|-damage|p1a: Gumshoos|62/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Celebi|Celebi, L82|100/100
+|move|p1a: Gumshoos|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|72/100
+|
+|-heal|p2a: Celebi|78/100|[from] item: Leftovers
+|-damage|p1a: Gumshoos|56/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|l|☆Norym ial
+
+|player|p2|
+
+|-message|Anshulkhanna forfeited.
+
+|
+|win|Norym ial

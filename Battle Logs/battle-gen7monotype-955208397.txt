@@ -1,0 +1,162 @@
+|init|battle
+|title|Tsillyboy vs. tru0067
+|j|☆Tsillyboy
+|j|☆tru0067
+|player|p1|Tsillyboy|209|1406
+|player|p2|tru0067|184|1450
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Kommo-o, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Cobalion|item
+|poke|p1|Terrakion|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Gastrodon-East, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Nidoking, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tsillyboy)
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|turn|1
+|
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Gastrodon|[zeffect]
+|-damage|p2a: Gastrodon|32/100
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Gastrodon|Clear Smog|p1a: Kommo-o
+|-damage|p1a: Kommo-o|92/100
+|-clearboost|p1a: Kommo-o
+|
+|-heal|p2a: Gastrodon|38/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Kommo-o|Dragon Dance|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|88/100
+|
+|-heal|p2a: Gastrodon|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Gastrodon|Clear Smog|p1a: Cobalion
+|-immune|p1a: Cobalion
+|
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Hippowdon
+|-damage|p2a: Hippowdon|58/100
+|cant|p2a: Hippowdon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Hippowdon
+|-damage|p2a: Hippowdon|17/100
+|move|p2a: Hippowdon|Yawn|p1a: Cobalion
+|-start|p1a: Cobalion|move: Yawn|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|24/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cobalion|atk|1
+|move|p1a: Cobalion|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p1a: Cobalion|move: Yawn|[silent]
+|-status|p1a: Cobalion|slp
+|upkeep
+|turn|8
+
+|
+|cant|p1a: Cobalion|slp
+|move|p2a: Landorus|Rock Polish|p2a: Landorus
+|-boost|p2a: Landorus|spe|2
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|-curestatus|p1a: Cobalion|slp|[msg]
+|move|p1a: Cobalion|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|10
+
+|
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Gliscor|Knock Off|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|91/100
+|-ability|p1a: Cobalion|Justified|boost
+|-boost|p1a: Cobalion|atk|1
+|-enditem|p1a: Cobalion|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+
+|-message|tru0067 forfeited.
+
+|
+|win|Tsillyboy

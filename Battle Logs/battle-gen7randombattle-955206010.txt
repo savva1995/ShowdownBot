@@ -1,0 +1,332 @@
+|init|battle
+|title|dddjobbie vs. 77HRay
+|j|☆dddjobbie
+|j|☆77HRay
+|player|p1|dddjobbie|250|1762
+|player|p2|77HRay|1|1651
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electrode|Electrode, L89|100/100
+|switch|p2a: Drapion|Drapion, L84, F|100/100
+|turn|1
+
+|
+|switch|p1a: Miltank|Miltank, L86, F|100/100
+|move|p2a: Drapion|Knock Off|p1a: Miltank
+|-damage|p1a: Miltank|72/100
+|-enditem|p1a: Miltank|Leftovers|[from] move: Knock Off|[of] p2a: Drapion
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Miltank|Stealth Rock|p2a: Drapion
+|-sidestart|p2: 77HRay|move: Stealth Rock
+|move|p2a: Drapion|Swords Dance|p2a: Drapion
+|-boost|p2a: Drapion|atk|2
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Miltank|Body Slam|p2a: Drapion
+|-damage|p2a: Drapion|71/100
+|-status|p2a: Drapion|par
+|move|p2a: Drapion|Poison Jab|p1a: Miltank
+|-damage|p1a: Miltank|28/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|78/100
+|move|p2a: Drapion|Poison Jab|p1a: Miltank
+|-damage|p1a: Miltank|34/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Terrakion|Terrakion, L82|100/100
+|move|p2a: Drapion|Taunt|p1a: Terrakion
+|-start|p1a: Terrakion|move: Taunt
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Terrakion|Earthquake|p2a: Drapion
+|-supereffective|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|-damage|p1a: Terrakion|91/100|[from] item: Life Orb
+|faint|p2a: Drapion
+|
+|upkeep
+
+|
+|switch|p2a: Durant|Durant, L83, M|100/100
+|-damage|p2a: Durant|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|move|p2a: Durant|Hone Claws|p2a: Durant
+|-boost|p2a: Durant|atk|1
+|-boost|p2a: Durant|accuracy|1
+|move|p1a: Terrakion|Close Combat|p2a: Durant
+|-damage|p2a: Durant|12/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-damage|p1a: Terrakion|81/100|[from] item: Life Orb
+|
+|-end|p1a: Terrakion|move: Taunt
+|upkeep
+|turn|8
+
+|
+|move|p2a: Durant|Iron Head|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-damage|p2a: Durant|2/100|[from] item: Life Orb
+|faint|p1a: Terrakion
+|
+|upkeep
+
+|
+|switch|p1a: Electrode|Electrode, L89|100/100
+|turn|9
+
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, L82, F|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|switch|p1a: Miltank|Miltank, L86, F|34/100
+|move|p2a: Mamoswine|Stealth Rock|p1a: Miltank
+|-sidestart|p1: dddjobbie|move: Stealth Rock
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|84/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Miltank
+|-damage|p1a: Miltank|47/100
+|-damage|p2a: Mamoswine|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|97/100
+|move|p2a: Mamoswine|Earthquake|p1a: Miltank
+|-damage|p1a: Miltank|53/100
+|-damage|p2a: Mamoswine|68/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Girafarig|Girafarig, L89, M|100/100
+|-damage|p2a: Girafarig|88/100|[from] Stealth Rock
+|move|p1a: Miltank|Toxic|p2a: Girafarig|[miss]
+|-miss|p1a: Miltank|p2a: Girafarig
+|
+|-heal|p2a: Girafarig|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Miltank|Toxic|p2a: Girafarig|[miss]
+|-miss|p1a: Miltank|p2a: Girafarig
+|move|p2a: Girafarig|Hyper Voice|p1a: Miltank
+|-damage|p1a: Miltank|16/100
+|
+|-heal|p2a: Girafarig|99/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Miltank|Toxic|p2a: Girafarig
+|-status|p2a: Girafarig|tox
+|move|p2a: Girafarig|Substitute|p2a: Girafarig
+|-start|p2a: Girafarig|Substitute
+|-damage|p2a: Girafarig|75/100 tox
+|
+|-heal|p2a: Girafarig|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Girafarig|75/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|66/100
+|move|p2a: Girafarig|Nasty Plot|p2a: Girafarig
+|-boost|p2a: Girafarig|spa|2
+|
+|-heal|p2a: Girafarig|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Girafarig|69/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Miltank|Body Slam|p2a: Girafarig
+|-end|p2a: Girafarig|Substitute
+|move|p2a: Girafarig|Hyper Voice|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|faint|p1a: Miltank
+|
+|-heal|p2a: Girafarig|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Girafarig|57/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Darmanitan|Darmanitan, L83, F|100/100
+|-damage|p1a: Darmanitan|76/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Darmanitan|U-turn|p2a: Girafarig
+|-supereffective|p2a: Girafarig
+|-damage|p2a: Girafarig|0 fnt
+|-damage|p1a: Darmanitan|66/100|[from] item: Life Orb
+|faint|p2a: Girafarig
+
+|
+|switch|p1a: Emboar|Emboar, L85, M|100/100|[from]move: U-turn
+|-damage|p1a: Emboar|88/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p2a: Salamence|Salamence, L78, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Emboar|atk|1
+|turn|19
+
+|
+|detailschange|p2a: Salamence|Salamence-Mega, L78, M
+|-mega|p2a: Salamence|Salamence|Salamencite
+|move|p2a: Salamence|Earthquake|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|20/100
+|move|p1a: Emboar|Flare Blitz|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|55/100
+|-damage|p1a: Emboar|14/100|[from] Recoil
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Emboar|Sucker Punch|p2a: Salamence
+|-damage|p2a: Salamence|42/100
+|move|p2a: Salamence|Earthquake|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|upkeep
+
+|
+|switch|p1a: Electrode|Electrode, L89|100/100
+|-damage|p1a: Electrode|88/100|[from] Stealth Rock
+|turn|21
+
+|
+|switch|p2a: Abomasnow|Abomasnow, L88, M|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Electrode|Thunderbolt|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|61/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Electrode|82/100|[from] Hail
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele, L80|100/100
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Abomasnow|Earthquake|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|44/100
+|-damage|p2a: Abomasnow|51/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tapu Lele|38/100|[from] Hail
+|upkeep
+|turn|23
+
+|
+|move|p1a: Tapu Lele|Hidden Power|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-damage|p1a: Tapu Lele|28/100|[from] item: Life Orb
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tapu Lele|21/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, L82, F|68/100
+|-damage|p2a: Mamoswine|56/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Tapu Lele
+|-activate|p1a: Tapu Lele|move: Psychic Terrain
+|move|p1a: Tapu Lele|Moonblast|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p1a: Tapu Lele|12/100|[from] item: Life Orb
+|faint|p2a: Mamoswine
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tapu Lele|5/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Salamence|Salamence-Mega, L78, M|42/100
+|-damage|p2a: Salamence|17/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p2a: Salamence|Earthquake|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Electrode|Electrode, L89|82/100
+|-damage|p1a: Electrode|70/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|win|dddjobbie

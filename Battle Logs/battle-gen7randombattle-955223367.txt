@@ -1,0 +1,347 @@
+|init|battle
+|title|Guoyanan vs. highscreen
+|j|☆Guoyanan
+|j|☆highscreen
+|player|p1|Guoyanan|257|2178
+|player|p2|highscreen|265|1958
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jumpluff|Jumpluff, L89, M|100/100
+|switch|p2a: Lunala|Lunala, L78|100/100
+|turn|1
+|
+|switch|p2a: Pelipper|Pelipper, L84, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Jumpluff|Swords Dance|p1a: Jumpluff
+|-boost|p1a: Jumpluff|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Pelipper
+|-damage|p2a: Pelipper|36/100
+|move|p2a: Pelipper|Scald|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|79/100
+|-status|p1a: Jumpluff|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|42/100|[from] item: Leftovers
+|-damage|p1a: Jumpluff|73/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Pelipper
+|-damage|p2a: Pelipper|9/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|59/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|65/100|[from] item: Leftovers
+|-damage|p1a: Jumpluff|67/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Jumpluff|Swords Dance|p1a: Jumpluff
+|-boost|p1a: Jumpluff|atk|2
+|move|p2a: Pelipper|U-turn|p1a: Jumpluff
+|-damage|p1a: Jumpluff|53/100 brn
+
+|
+|switch|p2a: Arcanine|Arcanine, L84, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Jumpluff|47/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p1a: Jumpluff|Strength Sap|p2a: Arcanine
+|-unboost|p2a: Arcanine|atk|1
+|-heal|p1a: Jumpluff|100/100 brn
+|move|p2a: Arcanine|Flare Blitz|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|53/100 brn
+|-damage|p2a: Arcanine|85/100|[from] Recoil
+|-damage|p2a: Arcanine|75/100|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p1a: Jumpluff|47/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p1a: Jumpluff|Strength Sap|p2a: Arcanine
+|-unboost|p2a: Arcanine|atk|1
+|-heal|p1a: Jumpluff|100/100 brn
+|move|p2a: Arcanine|Flare Blitz|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|27/100 brn
+|-damage|p2a: Arcanine|52/100|[from] Recoil
+|-damage|p2a: Arcanine|42/100|[from] item: Life Orb
+|
+|-damage|p1a: Jumpluff|21/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+|move|p1a: Jumpluff|Acrobatics|p2a: Vaporeon
+|-damage|p2a: Vaporeon|58/100
+|
+|-heal|p2a: Vaporeon|65/100|[from] item: Leftovers
+|-damage|p1a: Jumpluff|15/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Jumpluff|Seed Bomb|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-damage|p1a: Jumpluff|9/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Silvally|Silvally-Ground, L89|100/100
+|turn|9
+
+|
+|move|p1a: Jumpluff|Strength Sap|p2a: Silvally
+|-unboost|p2a: Silvally|atk|1
+|-heal|p1a: Jumpluff|88/100 brn
+|move|p2a: Silvally|Flame Charge|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|68/100 brn
+|-boost|p2a: Silvally|spe|1
+|
+|-damage|p1a: Jumpluff|62/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Jumpluff|Seed Bomb|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|50/100
+|
+|-damage|p1a: Jumpluff|56/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Silvally|Rock Slide|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|turn|12
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by highscreen)
+
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Vaporeon
+|-damage|p1a: Vaporeon|44/100
+|move|p1a: Vaporeon|Scald|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-heal|p1a: Vaporeon|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Arcanine|Arcanine, L84, M|42/100
+|turn|13
+
+|
+|switch|p1a: Deoxys|Deoxys-Defense, L78|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Arcanine|Wild Charge|p1a: Deoxys
+|-damage|p1a: Deoxys|68/100
+|-damage|p2a: Arcanine|36/100|[from] Recoil
+|-damage|p2a: Arcanine|27/100|[from] item: Life Orb
+|
+|-heal|p1a: Deoxys|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Arcanine|Crunch|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|25/100
+|-damage|p2a: Arcanine|17/100|[from] item: Life Orb
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|75/100
+|
+|-heal|p1a: Deoxys|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Deoxys
+|-status|p1a: Deoxys|brn
+|move|p1a: Deoxys|Spikes|p2a: Arcanine
+|-sidestart|p2: highscreen|Spikes
+|
+|-heal|p1a: Deoxys|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Deoxys|81/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Arcanine|Crunch|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|27/100 brn
+|-damage|p2a: Arcanine|7/100|[from] item: Life Orb
+|move|p1a: Deoxys|Spikes|p2a: Arcanine
+|-sidestart|p2: highscreen|Spikes
+|
+|-heal|p1a: Deoxys|33/100 brn|[from] item: Leftovers
+|-damage|p1a: Deoxys|27/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Arcanine|Crunch|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-damage|p2a: Arcanine|0 fnt|[from] item: Life Orb
+|faint|p1a: Deoxys
+|faint|p2a: Arcanine
+|
+|upkeep
+
+|
+|switch|p2a: Pelipper|Pelipper, L84, F|65/100
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|18
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, L82, M|100/100
+|-damage|p2a: Mamoswine|84/100|[from] Spikes
+|turn|19
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|50/100
+|move|p2a: Mamoswine|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-damage|p2a: Mamoswine|74/100|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Bewear|Bewear, L84, M|100/100
+|turn|20
+
+|
+|switch|p2a: Lunala|Lunala, L78|100/100
+|-damage|p2a: Lunala|84/100|[from] Spikes
+|move|p1a: Bewear|Ice Punch|p2a: Lunala
+|-damage|p2a: Lunala|59/100
+|-damage|p1a: Bewear|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lunala|65/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Empoleon|Empoleon, L82, M|100/100
+|move|p2a: Lunala|Roost|p2a: Lunala
+|-heal|p2a: Lunala|100/100
+|-singleturn|p2a: Lunala|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+
+|
+|move|p2a: Lunala|Focus Blast|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|37/100
+|move|p1a: Empoleon|Scald|p2a: Lunala
+|-damage|p2a: Lunala|76/100
+|-damage|p1a: Empoleon|27/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2a: Lunala|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Lunala|Moongeist Beam|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|-heal|p2a: Lunala|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|atk|1
+|turn|24
+
+|
+|switch|p1a: Bewear|Bewear, L84, M|91/100
+|move|p2a: Lunala|Focus Blast|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|12/100
+|
+|-heal|p2a: Lunala|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Lunala|Psyshock|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|0 fnt
+|faint|p1a: Bewear
+|
+|-heal|p2a: Lunala|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|atk|1
+|turn|26
+
+|-message|Guoyanan forfeited.
+
+|
+|win|highscreen

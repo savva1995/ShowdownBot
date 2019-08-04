@@ -1,0 +1,299 @@
+|init|battle
+|title|Titigame74 vs. Zeldark
+|j|☆Titigame74
+|j|☆Zeldark
+|player|p1|Titigame74|2|1038
+|player|p2|Zeldark|216|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Galvantula, F|item
+|poke|p1|Xurkitree|item
+|poke|p1|Hoopa-Unbound|item
+|poke|p1|Tornadus, M|
+|poke|p1|Excadrill, F|item
+|poke|p1|Charizard, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Magearna|item
+|poke|p2|Mew|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Titigame74 has 30 seconds left this turn.
+|inactive|Zeldark has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Titigame74)
+|
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Royal lion|Landorus-Therian, M|100/100
+|-ability|p2a: Royal lion|Intimidate|boost
+|-unboost|p1a: Galvantula|atk|1
+|turn|1
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Royal lion
+|-sidestart|p2: Zeldark|move: Sticky Web
+|move|p2a: Royal lion|Explosion|p1a: Galvantula
+|-enditem|p1a: Galvantula|Focus Sash
+|-damage|p1a: Galvantula|1/100
+|faint|p2a: Royal lion
+|
+|upkeep
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+|inactive|Zeldark has 10 seconds left.
+|
+|switch|p2a: Sky king|Tornadus-Therian, M|100/100
+|turn|2
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+|
+|move|p1a: Galvantula|Thunder Wave|p2a: Sky king
+|-status|p2a: Sky king|par
+|cant|p2a: Sky king|par
+|
+|upkeep
+|turn|3
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|cant|p2a: Sky king|par
+|
+|upkeep
+|turn|4
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|
+|move|p1a: Tornadus|Knock Off|p2a: Sky king
+|-damage|p2a: Sky king|64/100 par
+|-enditem|p2a: Sky king|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|cant|p2a: Sky king|par
+|
+|upkeep
+|turn|5
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Titigame74 has 10 seconds left.
+
+|c|☆Titigame74|Sorry
+
+|
+|move|p1a: Tornadus|Knock Off|p2a: Sky king
+|-damage|p2a: Sky king|40/100 par
+|move|p2a: Sky king|Defog|p1a: Tornadus
+|-unboost|p1a: Tornadus|evasion|1
+|-ability|p1a: Tornadus|Defiant|boost
+|-boost|p1a: Tornadus|atk|2
+|-sideend|p2: Zeldark|Sticky Web|[from] move: Defog|[of] p2a: Sky king
+|
+|upkeep
+|turn|6
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Zeldark has 10 seconds left.
+
+|
+|move|p1a: Tornadus|Acrobatics|p2a: Sky king
+|-damage|p2a: Sky king|0 fnt
+|faint|p2a: Sky king
+|
+|upkeep
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|
+|switch|p2a: False bug|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: False bug
+|turn|7
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Titigame74 has 10 seconds left.
+
+|inactive|Titigame74 has 5 seconds left.
+
+|
+|detailschange|p2a: False bug|Tyranitar-Mega, M
+|-mega|p2a: False bug|Tyranitar|Tyranitarite
+|move|p1a: Tornadus|Superpower|p2a: False bug
+|-supereffective|p2a: False bug
+|-damage|p2a: False bug|0 fnt
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|faint|p2a: False bug
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|94/100|[from] Sandstorm
+|upkeep
+
+|inactive|Titigame74 has 10 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Zeldark has 10 seconds left.
+
+|
+|switch|p2a: Origon|Mew|100/100
+|turn|8
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|
+|move|p1a: Tornadus|Knock Off|p2a: Origon
+|-supereffective|p2a: Origon
+|-damage|p2a: Origon|23/100
+|-enditem|p2a: Origon|Light Clay|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Origon|Thunder Wave|p1a: Tornadus
+|-status|p1a: Tornadus|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Origon|17/100|[from] Sandstorm
+|-damage|p1a: Tornadus|88/100 par|[from] Sandstorm
+|upkeep
+|turn|9
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Titigame74 has 10 seconds left.
+|inactive|Zeldark has 10 seconds left.
+
+|
+|move|p2a: Origon|Reflect|p2a: Origon
+|-sidestart|p2: Zeldark|Reflect
+|move|p1a: Tornadus|Acrobatics|p2a: Origon
+|-damage|p2a: Origon|0 fnt
+|faint|p2a: Origon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|82/100 par|[from] Sandstorm
+|upkeep
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|
+|switch|p2a: Cannon|Magearna|100/100
+|turn|10
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|
+|move|p2a: Cannon|Shift Gear|p2a: Cannon
+|-boost|p2a: Cannon|spe|2
+|-boost|p2a: Cannon|atk|1
+|move|p1a: Tornadus|Knock Off|p2a: Cannon
+|-resisted|p2a: Cannon
+|-damage|p2a: Cannon|91/100
+|-enditem|p2a: Cannon|Weakness Policy|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|76/100 par|[from] Sandstorm
+|upkeep
+|turn|11
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|
+|move|p2a: Cannon|Flash Cannon|p1a: Tornadus
+|-damage|p1a: Tornadus|24/100 par
+|move|p1a: Tornadus|U-turn|p2a: Cannon
+|-resisted|p2a: Cannon
+|-damage|p2a: Cannon|88/100
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Titigame74 has 10 seconds left.
+
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: U-turn
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|none
+|upkeep
+|turn|12
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Titigame74 has 10 seconds left.
+|inactive|Zeldark has 10 seconds left.
+
+|
+|move|p2a: Cannon|Flash Cannon|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|74/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Cannon
+|-sidestart|p2: Zeldark|move: Stealth Rock
+|
+|upkeep
+|turn|13
+
+|inactive|Titigame74 has 15 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Titigame74 has 10 seconds left.
+
+|inactive|Titigame74 has 5 seconds left.
+
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Cannon|Fleur Cannon|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|61/100
+|-unboost|p2a: Cannon|spa|2
+|
+|-sideend|p2: Zeldark|Reflect
+|upkeep
+|turn|14
+
+|inactive|Titigame74 has 10 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Titigame74 has 5 seconds left.
+
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Cannon|Explosion|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p2a: Cannon
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|inactive|Titigame74 has 10 seconds left this turn.
+|inactive|Zeldark has 15 seconds left this turn.
+
+|inactive|Titigame74 has 5 seconds left.
+
+|-message|Titigame74 lost due to inactivity.
+|
+|win|Zeldark

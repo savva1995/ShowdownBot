@@ -1,0 +1,62 @@
+|init|battle
+|title|pokedoper1999 vs. arc1261
+|j|☆pokedoper1999
+|j|☆arc1261
+|player|p1|pokedoper1999|37|1403
+|player|p2|arc1261|265|1382
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Castform|Castform, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arc1261)
+|inactive|arc1261 has 120 seconds left.
+|
+|switch|p2a: Meowstic|Meowstic, L89, M|100/100
+|move|p1a: Castform|Hail|p1a: Castform
+|-weather|Hail
+|-formechange|p1a: Castform|Castform-Snowy|[msg]|[from] ability: Forecast
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Meowstic|94/100|[from] Hail
+|-heal|p2a: Meowstic|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Meowstic|Light Screen|p2a: Meowstic
+|-sidestart|p2: arc1261|move: Light Screen
+|-zpower|p1a: Castform
+|move|p1a: Castform|Subzero Slammer|p2a: Meowstic|[zeffect]
+|-damage|p2a: Meowstic|63/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Meowstic|57/100|[from] Hail
+|-heal|p2a: Meowstic|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Meowstic|Toxic|p1a: Castform
+|-status|p1a: Castform|tox
+|move|p1a: Castform|Blizzard|p2a: Meowstic
+|-damage|p2a: Meowstic|40/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Meowstic|34/100|[from] Hail
+|-heal|p2a: Meowstic|40/100|[from] item: Leftovers
+|-damage|p1a: Castform|95/100 tox|[from] psn
+|upkeep
+|turn|4
+|-message|pokedoper1999 forfeited.
+|
+|win|arc1261
+|l|☆pokedoper1999
+|raw|pokedoper1999's rating: 1403 &rarr; <strong>1381</strong><br />(-22 for losing)
+|raw|arc1261's rating: 1382 &rarr; <strong>1403</strong><br />(+21 for winning)

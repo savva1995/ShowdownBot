@@ -1,0 +1,346 @@
+|init|battle
+|title|Tamicelas vs. darkglalie
+|j|☆Tamicelas
+|j|☆darkglalie
+|player|p1|Tamicelas|170|1548
+|player|p2|darkglalie|96|1516
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ampharos|Ampharos, L84, M|100/100
+|switch|p2a: Alakazam|Alakazam, L80, M|100/100
+|turn|1
+|
+|detailschange|p2a: Alakazam|Alakazam-Mega, L80, M
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Static|[from] ability: Trace|[of] p1a: Ampharos
+|move|p2a: Alakazam|Psyshock|p1a: Ampharos
+|-damage|p1a: Ampharos|60/100
+|move|p1a: Ampharos|Volt Switch|p2a: Alakazam
+|-damage|p2a: Alakazam|64/100
+|
+|switch|p1a: Abomasnow|Abomasnow, L88, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|replace|p1a: Zoroark|Zoroark, L88, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by darkglalie)
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|turn|3
+
+|
+|move|p1a: Manaphy|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|24/100
+|move|p2a: Alakazam|Psyshock|p1a: Manaphy
+|-damage|p1a: Manaphy|62/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|move|p1a: Manaphy|Surf|p2a: Volcanion
+|-immune|p2a: Volcanion|[from] ability: Water Absorb
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Ampharos|Ampharos, L84, M|60/100
+|move|p2a: Volcanion|Sludge Wave|p1a: Ampharos
+|-damage|p1a: Ampharos|34/100
+|-status|p1a: Ampharos|psn
+|
+|-damage|p1a: Ampharos|22/100 psn|[from] psn
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|detailschange|p1a: Ampharos|Ampharos-Mega, L84, M
+|-mega|p1a: Ampharos|Ampharos|Ampharosite
+|-ability|p1a: Ampharos|Mold Breaker
+|move|p1a: Ampharos|Thunderbolt|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|76/100
+|-status|p2a: Tsareena|par
+|
+|-heal|p2a: Tsareena|83/100 par|[from] item: Leftovers
+|-damage|p1a: Ampharos|9/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Ampharos|Dragon Pulse|p2a: Tsareena
+|-damage|p2a: Tsareena|37/100 par
+|move|p2a: Tsareena|Synthesis|p2a: Tsareena
+|-heal|p2a: Tsareena|87/100 par
+|
+|-heal|p2a: Tsareena|93/100 par|[from] item: Leftovers
+|-damage|p1a: Ampharos|0 fnt|[from] psn
+|faint|p1a: Ampharos
+|upkeep
+
+|
+|switch|p1a: Abomasnow|Abomasnow, L88, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|8
+
+|
+|move|p1a: Abomasnow|Leech Seed|p2a: Tsareena
+|-immune|p2a: Tsareena
+|move|p2a: Tsareena|High Jump Kick|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|28/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tsareena|87/100 par|[from] Hail
+|-heal|p2a: Tsareena|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|move|p1a: Abomasnow|Blizzard|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|91/100
+|-damage|p1a: Abomasnow|18/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcanion|85/100|[from] Hail
+|upkeep
+|turn|10
+
+|
+|move|p2a: Volcanion|Sludge Wave|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcanion|79/100|[from] Hail
+|upkeep
+
+|
+|switch|p1a: Yveltal|Yveltal, L78|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|11
+
+|
+|move|p1a: Yveltal|Focus Blast|p2a: Volcanion
+|-damage|p2a: Volcanion|54/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Yveltal
+|-damage|p1a: Yveltal|56/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Yveltal|50/100|[from] Hail
+|-damage|p2a: Volcanion|48/100|[from] Hail
+|-heal|p1a: Yveltal|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Yveltal|Foul Play|p2a: Volcanion
+|-damage|p2a: Volcanion|7/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Yveltal
+|-damage|p1a: Yveltal|16/100
+|
+|-weather|none
+|-heal|p1a: Yveltal|22/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|darkglalie has 120 seconds left.
+
+|
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|72/100
+|-singleturn|p1a: Yveltal|move: Roost
+|move|p2a: Volcanion|Steam Eruption|p1a: Yveltal
+|-damage|p1a: Yveltal|28/100
+|
+|-heal|p1a: Yveltal|34/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Yveltal|Foul Play|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-heal|p1a: Yveltal|40/100|[from] item: Leftovers
+|upkeep
+
+|inactive|darkglalie has 120 seconds left.
+
+|
+|switch|p2a: Swalot|Swalot, L89, F|100/100
+|turn|15
+
+|
+|move|p1a: Yveltal|Taunt|p2a: Swalot
+|-start|p2a: Swalot|move: Taunt
+|cant|p2a: Swalot|move: Taunt|Toxic
+|
+|-heal|p1a: Yveltal|46/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|96/100
+|-singleturn|p1a: Yveltal|move: Roost
+|move|p2a: Swalot|Ice Beam|p1a: Yveltal
+|-damage|p1a: Yveltal|79/100
+|
+|-heal|p1a: Yveltal|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Yveltal|Foul Play|p2a: Swalot
+|-damage|p2a: Swalot|77/100
+|move|p2a: Swalot|Ice Beam|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|51/100
+|
+|-heal|p1a: Yveltal|57/100|[from] item: Leftovers
+|-heal|p2a: Swalot|83/100|[from] item: Black Sludge
+|-end|p2a: Swalot|move: Taunt
+|upkeep
+|turn|18
+
+|
+|move|p1a: Yveltal|Taunt|p2a: Swalot
+|-start|p2a: Swalot|move: Taunt
+|move|p2a: Swalot|Ice Beam|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|21/100
+|
+|-heal|p1a: Yveltal|27/100|[from] item: Leftovers
+|-heal|p2a: Swalot|89/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+
+|
+|move|p1a: Yveltal|Foul Play|p2a: Swalot
+|-damage|p2a: Swalot|64/100
+|move|p2a: Swalot|Sludge Bomb|p1a: Yveltal
+|-damage|p1a: Yveltal|2/100
+|-status|p1a: Yveltal|psn
+|
+|-heal|p1a: Yveltal|8/100 psn|[from] item: Leftovers
+|-heal|p2a: Swalot|70/100|[from] item: Black Sludge
+|-damage|p1a: Yveltal|0 fnt|[from] psn
+|faint|p1a: Yveltal
+|upkeep
+
+|
+|switch|p1a: Cloyster|Cloyster, L84, M|100/100
+|turn|20
+
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|move|p2a: Swalot|Sludge Bomb|p1a: Cloyster
+|-damage|p1a: Cloyster|38/100
+|-status|p1a: Cloyster|psn
+|
+|-heal|p2a: Swalot|76/100|[from] item: Black Sludge
+|-damage|p1a: Cloyster|26/100 psn|[from] psn
+|-end|p2a: Swalot|move: Taunt
+|upkeep
+|turn|21
+
+|c|☆darkglalie|lol, gg
+
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Swalot
+|-damage|p2a: Swalot|61/100
+|-damage|p2a: Swalot|46/100
+|-damage|p2a: Swalot|29/100
+|-damage|p2a: Swalot|12/100
+|-damage|p2a: Swalot|0 fnt
+|-hitcount|p2a: Swalot|5
+|faint|p2a: Swalot
+|
+|-damage|p1a: Cloyster|14/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Aegislash|Aegislash, L78, F|100/100
+|turn|22
+
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Cloyster|Hydro Pump|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-damage|p1a: Cloyster|1/100 psn|[from] psn
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, M|100/100
+|move|p1a: Cloyster|Icicle Spear|p2a: Clawitzer
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|90/100
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|81/100
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|71/100
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|62/100
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|52/100
+|-hitcount|p2a: Clawitzer|5
+|
+|-damage|p1a: Cloyster|0 fnt|[from] psn
+|faint|p1a: Cloyster
+|upkeep
+
+|l|☆Tamicelas
+
+|inactive|Tamicelas disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Tamicelas has 30 seconds to reconnect!
+
+|inactive|Tamicelas has 20 seconds to reconnect!
+
+|inactive|Tamicelas has 15 seconds to reconnect!
+
+|inactive|Tamicelas has 10 seconds to reconnect!
+
+|inactive|Tamicelas has 5 seconds to reconnect!
+
+|-message|Tamicelas lost due to inactivity.
+|
+|win|darkglalie

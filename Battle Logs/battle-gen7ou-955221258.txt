@@ -1,0 +1,328 @@
+|init|battle
+|title|kjel vs. xHUGGABLEx
+|j|☆kjel
+|j|☆xHUGGABLEx
+|player|p1|kjel|163|1582
+|player|p2|xHUGGABLEx|76|1537
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|item
+|poke|p1|Swampert, M|item
+|poke|p1|Kartana|item
+|poke|p1|Magearna|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Kingdra, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Scizor, F|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xHUGGABLEx)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|60/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|detailschange|p1a: Swampert|Swampert-Mega, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Waterfall|p2a: Magnezone
+|-damage|p2a: Magnezone|20/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|move|p1a: Swampert|Waterfall|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|20/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|26/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Swampert|Waterfall|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tapu Fini|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Tapu Fini|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tapu Fini|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|26/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|move|p1a: Magearna|Flash Cannon|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|7
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Kingdra|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|13/100
+|-zpower|p2a: Dragonite
+|move|p2a: Dragonite|Supersonic Skystrike|p1a: Kingdra|[zeffect]
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-weather|none
+|-fieldend|Misty Terrain
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|9
+|
+|move|p2a: Dragonite|Fly||[still]
+|-prepare|p2a: Dragonite|Fly|p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|10
+|
+|detailschange|p2a: Scizor|Scizor-Mega, F
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|74/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Pelipper|Scald|p2a: Scizor
+|-damage|p2a: Scizor|68/100
+|-status|p2a: Scizor|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Scizor|62/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100 brn
+|-singleturn|p2a: Scizor|move: Roost
+|move|p1a: Pelipper|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|98/100 brn
+|
+|switch|p1a: Kartana|Kartana|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Scizor|91/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|move|p2a: Scizor|Knock Off|p1a: Kartana
+|-damage|p1a: Kartana|90/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Scizor|85/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Magnezone|Magnezone|20/100
+|-zpower|p1a: Kartana
+|move|p1a: Kartana|All-Out Pummeling|p2a: Magnezone|[zeffect]
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|14
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Tapu Lele|Psychic|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Scizor|Scizor-Mega, F|85/100 brn
+|move|p1a: Magearna|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|68/100 brn
+|
+|switch|p1a: Swampert|Swampert-Mega, M|29/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Scizor|62/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Tapu Fini|Tapu Fini|91/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Swampert|Earthquake|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|34/100
+|
+|-weather|none
+|-heal|p2a: Tapu Fini|40/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Tapu Fini|Moonblast|p1a: Swampert
+|-damage|p1a: Swampert|2/100
+|move|p1a: Swampert|Earthquake|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor-Mega, F|62/100 brn
+|turn|18
+|
+|switch|p1a: Pelipper|Pelipper, F|74/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Scizor|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|64/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Scizor|56/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Pelipper|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|54/100 brn
+|
+|switch|p1a: Kartana|Kartana|90/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Scizor|47/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|73/100
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Scizor|41/100 brn|[from] brn
+|-fieldend|Misty Terrain
+|upkeep
+|turn|21
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|58/100
+|move|p1a: Kartana|Sacred Sword|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|22
+|
+|move|p2a: Tapu Lele|Psychic|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Magearna|Magearna|86/100
+|turn|23
+|
+|move|p2a: Tapu Lele|Psychic|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|71/100
+|move|p1a: Magearna|Flash Cannon|p2a: Tapu Lele
+|-supereffective|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|24/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Tapu Lele|Psychic|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|57/100
+|move|p1a: Magearna|Flash Cannon|p2a: Tapu Lele
+|-supereffective|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|win|kjel
+|raw|kjel's rating: 1582 &rarr; <strong>1599</strong><br />(+17 for winning)
+|raw|xHUGGABLEx's rating: 1537 &rarr; <strong>1520</strong><br />(-17 for losing)
+|l|☆kjel
+|l|☆xHUGGABLEx

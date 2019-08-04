@@ -1,0 +1,479 @@
+|init|battle
+|title|p120 vs. lelouchedragon
+|j|☆p120
+|j|☆lelouchedragon
+|player|p1|p120|102|1715
+|player|p2|lelouchedragon|266|1707
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Swoobat|Swoobat, L89, F|100/100
+|switch|p2a: Heatmor|Heatmor, L89, F|100/100
+|turn|1
+|
+|move|p1a: Swoobat|Substitute|p1a: Swoobat
+|-start|p1a: Swoobat|Substitute
+|-damage|p1a: Swoobat|76/100
+|move|p2a: Heatmor|Knock Off|p1a: Swoobat
+|-supereffective|p1a: Swoobat
+|-end|p1a: Swoobat|Substitute
+|
+|-heal|p1a: Swoobat|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Donphan|Donphan, L84, M|100/100
+|move|p2a: Heatmor|Knock Off|p1a: Donphan
+|-damage|p1a: Donphan|78/100
+|-enditem|p1a: Donphan|Choice Band|[from] move: Knock Off|[of] p2a: Heatmor
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by p120)
+|
+|move|p2a: Heatmor|Giga Drain|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|7/100
+|move|p1a: Donphan|Earthquake|p2a: Heatmor
+|-supereffective|p2a: Heatmor
+|-damage|p2a: Heatmor|6/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Donphan|Ice Shard|p2a: Heatmor
+|-resisted|p2a: Heatmor
+|-damage|p2a: Heatmor|0 fnt
+|faint|p2a: Heatmor
+|
+|upkeep
+|
+|switch|p2a: Palkia|Palkia, L78|100/100
+|-ability|p2a: Palkia|Pressure
+|turn|5
+|
+|move|p1a: Donphan|Knock Off|p2a: Palkia
+|-damage|p2a: Palkia|70/100
+|-enditem|p2a: Palkia|Lustrous Orb|[from] move: Knock Off|[of] p1a: Donphan
+|move|p2a: Palkia|Dragon Tail|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|upkeep
+|
+|switch|p1a: Azumarill|Azumarill, L80, M|100/100
+|turn|6
+|
+|move|p2a: Palkia|Thunder Wave|p1a: Azumarill|[miss]
+|-miss|p2a: Palkia|p1a: Azumarill
+|move|p1a: Azumarill|Play Rough|p2a: Palkia
+|-supereffective|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|
+|upkeep
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L85, M|100/100
+|turn|7
+|
+|move|p1a: Azumarill|Play Rough|p2a: Cofagrigus|[miss]
+|-miss|p1a: Azumarill|p2a: Cofagrigus
+|move|p2a: Cofagrigus|Will-O-Wisp|p1a: Azumarill|[miss]
+|-miss|p2a: Cofagrigus|p1a: Azumarill
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Azumarill|Play Rough|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|54/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Huge Power|[of] p1a: Azumarill
+|move|p2a: Cofagrigus|Will-O-Wisp|p1a: Azumarill
+|-status|p1a: Azumarill|brn
+|
+|-heal|p2a: Cofagrigus|60/100|[from] item: Leftovers
+|-damage|p1a: Azumarill|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Azumarill|Play Rough|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|49/100
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Azumarill
+|-damage|p1a: Azumarill|59/100 brn
+|
+|-heal|p2a: Cofagrigus|55/100|[from] item: Leftovers
+|-damage|p1a: Azumarill|53/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: lelouchedragon
+|move|p2a: Cofagrigus|Nasty Plot|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|2
+|
+|-heal|p2a: Cofagrigus|61/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Pyroar|Dark Pulse|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-damage|p1a: Pyroar|91/100|[from] item: Life Orb
+|faint|p2a: Cofagrigus
+|
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, L80, F|100/100
+|turn|12
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|81/100
+|-status|p2a: Chansey|brn
+|-damage|p1a: Pyroar|81/100|[from] item: Life Orb
+|move|p2a: Chansey|Stealth Rock|p1a: Pyroar
+|-sidestart|p1: p120|move: Stealth Rock
+|
+|-damage|p2a: Chansey|75/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Carracosta|Carracosta, L88, M|100/100
+|-damage|p1a: Carracosta|88/100|[from] Stealth Rock
+|move|p2a: Chansey|Thunder Wave|p1a: Carracosta
+|-status|p1a: Carracosta|par
+|
+|-damage|p2a: Chansey|69/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L86, M|100/100
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Carracosta|Aqua Jet|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|38/100
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|-heal|p2a: Hitmonlee|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Azumarill|Azumarill, L80, M|53/100 brn
+|-damage|p1a: Azumarill|41/100 brn|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Hitmonlee|Knock Off|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|23/100 brn
+|-enditem|p1a: Azumarill|Choice Band|[from] move: Knock Off|[of] p2a: Hitmonlee
+|move|p1a: Azumarill|Play Rough|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|-damage|p1a: Azumarill|17/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, L84, F|100/100
+|turn|17
+|
+|move|p2a: Noivern|Boomburst|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|-damage|p2a: Noivern|91/100|[from] item: Life Orb
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, L82, F|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Noivern
+|-damage|p2a: Noivern|48/100
+|move|p2a: Noivern|Draco Meteor|p1a: Chandelure
+|-damage|p1a: Chandelure|2/100
+|-unboost|p2a: Noivern|spa|2
+|-damage|p2a: Noivern|38/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Chansey|Chansey, L80, F|69/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-status|p1a: Chandelure|par
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|23
+|l|☆p120
+|inactive|p120 disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆p120
+|inactive|p120 reconnected and has 115 seconds left.
+|player|p1|p120|102
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|24
+|inactive|p120 has 120 seconds left.
+|inactive|p120 has 90 seconds left.
+|
+|cant|p1a: Chandelure|par
+|move|p2a: Chansey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled||[still]
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Stealth Rock||[still]
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|27
+|
+|cant|p1a: Chandelure|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|29
+|inactive|p120 has 120 seconds left.
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|36
+|
+|cant|p1a: Chandelure|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|38
+|
+|cant|p1a: Chandelure|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|39
+
+|
+|cant|p1a: Chandelure|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|40
+
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chandelure
+|-fail|p1a: Chandelure|par
+|
+|upkeep
+|turn|41
+
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey
+|move|p2a: Chansey|Stealth Rock||[still]
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|42
+
+|c|☆lelouchedragon|Don't u prefer to give up?
+
+|
+|switch|p1a: Swoobat|Swoobat, L89, F|82/100
+|-damage|p1a: Swoobat|57/100|[from] Stealth Rock
+|move|p2a: Chansey|Thunder Wave|p1a: Swoobat
+|-status|p1a: Swoobat|par
+|
+|-heal|p1a: Swoobat|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|
+|move|p1a: Swoobat|Substitute|p1a: Swoobat
+|-start|p1a: Swoobat|Substitute
+|-damage|p1a: Swoobat|39/100 par
+|move|p2a: Chansey|Seismic Toss|p1a: Swoobat
+|-end|p1a: Swoobat|Substitute
+|
+|-heal|p1a: Swoobat|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|inactive|p120 has 120 seconds left.
+
+|
+|move|p1a: Swoobat|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|90/100
+|move|p2a: Chansey|Seismic Toss|p1a: Swoobat
+|-damage|p1a: Swoobat|14/100 par
+|
+|-heal|p1a: Swoobat|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+
+|
+|move|p1a: Swoobat|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|79/100
+|move|p2a: Chansey|Seismic Toss|p1a: Swoobat
+|-damage|p1a: Swoobat|0 fnt
+|faint|p1a: Swoobat
+|
+|upkeep
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, M|81/100
+|-ability|p1a: Pyroar|Unnerve|p2: lelouchedragon
+|-damage|p1a: Pyroar|56/100|[from] Stealth Rock
+|turn|46
+
+|
+|move|p1a: Pyroar|Dark Pulse|p2a: Chansey
+|-damage|p2a: Chansey|69/100
+|-damage|p1a: Pyroar|46/100|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|47
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|81/100
+|-damage|p1a: Pyroar|36/100|[from] item: Life Orb
+|move|p2a: Chansey|Thunder Wave|p1a: Pyroar
+|-status|p1a: Pyroar|par
+|
+|upkeep
+|turn|48
+
+|-message|p120 forfeited.
+
+|
+|win|lelouchedragon

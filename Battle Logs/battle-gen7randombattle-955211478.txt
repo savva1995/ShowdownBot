@@ -1,0 +1,331 @@
+|init|battle
+|title|Gibboni vs. Zigger CEO
+|j|☆Gibboni
+|j|☆Zigger CEO
+|player|p1|Gibboni|2|1532
+|player|p2|Zigger CEO|235|1438
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Uxie|Uxie, L84|100/100
+|switch|p2a: Deoxys|Deoxys-Speed, L78|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gibboni)
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Uxie
+|-sidestart|p1: Gibboni|move: Stealth Rock
+|move|p1a: Uxie|Knock Off|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|43/100
+|-enditem|p2a: Deoxys|Focus Sash|[from] move: Knock Off|[of] p1a: Uxie
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Deoxys|Knock Off|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|65/100
+|-enditem|p1a: Uxie|Leftovers|[from] move: Knock Off|[of] p2a: Deoxys
+|move|p1a: Uxie|U-turn|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, F|100/100|[from]move: U-turn
+|-damage|p1a: Mudsdale|95/100|[from] Stealth Rock
+|
+|-heal|p1a: Mudsdale|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gliscor|Gliscor, L80, F|100/100
+|turn|3
+
+|
+|move|p2a: Gliscor|Toxic|p1a: Mudsdale
+|-status|p1a: Mudsdale|tox
+|move|p1a: Mudsdale|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Zigger CEO|move: Stealth Rock
+|
+|-damage|p1a: Mudsdale|95/100 tox|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Uxie|Uxie, L84|65/100
+|-damage|p1a: Uxie|53/100|[from] Stealth Rock
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Uxie|Heal Bell|p1a: Uxie
+|-activate|p1a: Uxie|move: Heal Bell
+|-curestatus|p1: Mudsdale|tox|[msg]
+|move|p2a: Gliscor|Toxic|p1a: Uxie|[miss]
+|-miss|p2a: Gliscor|p1a: Uxie
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Honchkrow|Honchkrow, L84, F|100/100
+|-damage|p2a: Honchkrow|76/100|[from] Stealth Rock
+|move|p1a: Uxie|Psychic|p2a: Honchkrow
+|-immune|p2a: Honchkrow
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Uxie|U-turn|p2a: Honchkrow
+|-damage|p2a: Honchkrow|55/100
+
+|
+|-activate|p1a: Uxie|move: Pursuit
+|move|p2a: Honchkrow|Pursuit|p1a: Uxie|[from]Pursuit
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|-damage|p2a: Honchkrow|45/100|[from] item: Life Orb
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Uxie
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, F|95/100
+|-damage|p1a: Mudsdale|89/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p2a: Honchkrow|Brave Bird|p1a: Mudsdale
+|-damage|p1a: Mudsdale|6/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-damage|p2a: Honchkrow|17/100|[from] Recoil
+|-damage|p2a: Honchkrow|7/100|[from] item: Life Orb
+|move|p1a: Mudsdale|Heavy Slam|p2a: Honchkrow
+|-crit|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|
+|-heal|p1a: Mudsdale|11/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gliscor|Gliscor, L80, F|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|9
+
+|inactive|Gibboni has 120 seconds left.
+
+|
+|switch|p1a: Sylveon|Sylveon, L82, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|47/100
+|
+|-heal|p1a: Sylveon|54/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+
+|inactive|Gibboni has 120 seconds left.
+
+|
+|move|p2a: Gliscor|Toxic|p1a: Sylveon
+|-status|p1a: Sylveon|tox
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|60/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|54/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|inactive|Gibboni has 120 seconds left.
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|12/100 tox
+|move|p1a: Sylveon|Hyper Voice|p2a: Gliscor
+|-damage|p2a: Gliscor|10/100 tox
+|
+|-heal|p1a: Sylveon|18/100 tox|[from] item: Leftovers
+|-heal|p2a: Gliscor|23/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sylveon|6/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Sylveon|Hyper Voice|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p1a: Sylveon|12/100 tox|[from] item: Leftovers
+|-heal|p2a: Gliscor|35/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sylveon|0 fnt|[from] psn
+|faint|p1a: Sylveon
+|upkeep
+
+|
+|switch|p1a: Hariyama|Hariyama, L86, F|100/100
+|-damage|p1a: Hariyama|94/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|85/100 tox
+|-singleturn|p2a: Gliscor|move: Roost
+|move|p1a: Hariyama|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|49/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Hariyama
+|-damage|p1a: Hariyama|85/100|[from] item: Life Orb
+|
+|-heal|p2a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, F|11/100
+|-damage|p1a: Mudsdale|6/100|[from] Stealth Rock
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|100/100 tox
+|-singleturn|p2a: Gliscor|move: Roost
+|
+|-heal|p1a: Mudsdale|11/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|upkeep
+
+|
+|switch|p1a: Rampardos|Rampardos, L89, M|100/100
+|-damage|p1a: Rampardos|88/100|[from] Stealth Rock
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|16
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|14/100
+|move|p1a: Rampardos|Head Smash|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p1a: Rampardos|0 fnt|[from] Recoil
+|faint|p2a: Gliscor
+|faint|p1a: Rampardos
+|
+|upkeep
+
+|
+|switch|p2a: Terrakion|Terrakion, L82|100/100
+|switch|p1a: Hariyama|Hariyama, L86, F|85/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|-damage|p1a: Hariyama|78/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Terrakion|Close Combat|p1a: Hariyama
+|-damage|p1a: Hariyama|17/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|85/100|[from] item: Life Orb
+|move|p1a: Hariyama|Close Combat|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-unboost|p1a: Hariyama|def|1
+|-unboost|p1a: Hariyama|spd|1
+|-damage|p1a: Hariyama|7/100|[from] item: Life Orb
+|faint|p2a: Terrakion
+|
+|upkeep
+
+|
+|switch|p2a: Klinklang|Klinklang, L86|100/100
+|-damage|p2a: Klinklang|94/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p2a: Klinklang|Return|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|-damage|p2a: Klinklang|84/100|[from] item: Life Orb
+|faint|p1a: Hariyama
+|
+|upkeep
+
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, L78|100/100
+|-damage|p1a: Necrozma|94/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Klinklang|Wild Charge|p1a: Necrozma
+|-damage|p1a: Necrozma|70/100
+|-damage|p2a: Klinklang|77/100|[from] Recoil
+|-damage|p2a: Klinklang|68/100|[from] item: Life Orb
+|move|p1a: Necrozma|Swords Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|2
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Klinklang|Wild Charge|p1a: Necrozma
+|-damage|p1a: Necrozma|44/100
+|-damage|p2a: Klinklang|60/100|[from] Recoil
+|-damage|p2a: Klinklang|50/100|[from] item: Life Orb
+|move|p1a: Necrozma|Autotomize|p1a: Necrozma
+|-boost|p1a: Necrozma|spe|2
+|-start|p1a: Necrozma|Autotomize
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Necrozma|Earthquake|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|0 fnt
+|faint|p2a: Klinklang
+|
+|upkeep
+
+|
+|switch|p2a: Aggron|Aggron, L82, F|100/100
+|-damage|p2a: Aggron|94/100|[from] Stealth Rock
+|turn|22
+
+|
+|detailschange|p2a: Aggron|Aggron-Mega, L82, F
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Necrozma|Earthquake|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|41/100
+|move|p2a: Aggron|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|win|Zigger CEO

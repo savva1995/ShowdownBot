@@ -1,0 +1,72 @@
+|init|battle
+|title|99wo vs. Hoes madd
+|j|☆99wo
+|j|☆Hoes madd
+|player|p1|99wo|2|1122
+|player|p2|Hoes madd|47|1102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arcanine|Arcanine, L84, F|100/100
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|turn|1
+|
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|76/100
+|move|p1a: Arcanine|Wild Charge|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|-damage|p1a: Arcanine|95/100|[from] Recoil|[of] p2a: Keldeo
+|-damage|p1a: Arcanine|85/100|[from] item: Life Orb
+|
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Arcanine|[miss]
+|-miss|p2a: Keldeo|p1a: Arcanine
+|move|p1a: Arcanine|Wild Charge|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|19/100
+|-damage|p1a: Arcanine|69/100|[from] Recoil
+|-damage|p1a: Arcanine|60/100|[from] item: Life Orb
+|
+|-heal|p2a: Keldeo|25/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Tentacruel|Tentacruel, L82, F|100/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|82/100
+|
+|-heal|p2a: Keldeo|31/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|c|☆Hoes madd|wait
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 99wo)
+
+|c|☆Hoes madd|you seriously didnt realize a water type would have water moves
+
+|c|☆Hoes madd|holy fuck lmao
+
+|inactive|Hoes madd has 120 seconds left.
+
+|c|☆Hoes madd|have the free win little buddy, you obviously need it... LOL
+
+|-message|Hoes madd forfeited.
+
+|
+|win|99wo

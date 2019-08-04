@@ -1,0 +1,287 @@
+|init|battle
+|title|hiijilo vs. Aomine62
+|j|☆hiijilo
+|j|☆Aomine62
+|player|p1|hiijilo|1|1100
+|player|p2|Aomine62|266|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L88, F|100/100
+|switch|p2a: Infernape|Infernape, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hiijilo)
+|
+|move|p1a: Dodrio|Brave Bird|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-crit|p2a: Infernape
+|-enditem|p2a: Infernape|Focus Sash
+|-damage|p2a: Infernape|1/100
+|-damage|p1a: Dodrio|66/100|[from] Recoil
+|move|p2a: Infernape|Nasty Plot|p2a: Infernape
+|-boost|p2a: Infernape|spa|2
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Kartana|Kartana, L80|100/100
+|move|p1a: Dodrio|Brave Bird|p2a: Kartana
+|-damage|p2a: Kartana|24/100
+|-damage|p1a: Dodrio|43/100|[from] Recoil
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Dodrio|Brave Bird|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|-damage|p1a: Dodrio|37/100|[from] Recoil
+|faint|p2a: Kartana
+|
+|upkeep
+
+|
+|switch|p2a: Infernape|Infernape, L82, F|1/100
+|turn|4
+
+|
+|move|p2a: Infernape|Vacuum Wave|p1a: Dodrio
+|-damage|p1a: Dodrio|13/100
+|move|p1a: Dodrio|Brave Bird|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|-damage|p1a: Dodrio|13/100|[from] Recoil
+|faint|p2a: Infernape
+|
+|upkeep
+
+|
+|switch|p2a: Mewtwo|Mewtwo, L78|100/100
+|-ability|p2a: Mewtwo|Unnerve|p1: hiijilo
+|turn|5
+
+|
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|detailschange|p2a: Mewtwo|Mewtwo-Mega-X, L78
+|-mega|p2a: Mewtwo|Mewtwo|Mewtwonite X
+|move|p2a: Mewtwo|Drain Punch|p1a: Malamar
+|-damage|p1a: Malamar|57/100
+|
+|-heal|p1a: Malamar|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Mewtwo|Taunt|p1a: Malamar
+|-start|p1a: Malamar|move: Taunt
+|cant|p1a: Malamar|move: Taunt|Rest
+|
+|-heal|p1a: Malamar|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Mewtwo|Drain Punch|p1a: Malamar
+|-damage|p1a: Malamar|28/100
+|move|p1a: Malamar|Knock Off|p2a: Mewtwo
+|-damage|p2a: Mewtwo|78/100
+|
+|-heal|p1a: Malamar|35/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Mewtwo|Drain Punch|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|-heal|p2a: Mewtwo|95/100|[from] drain|[of] p1a: Malamar
+|faint|p1a: Malamar
+|
+|upkeep
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, M|100/100
+|turn|9
+
+|
+|move|p2a: Mewtwo|Taunt|p1a: Escavalier
+|-start|p1a: Escavalier|move: Taunt
+|move|p1a: Escavalier|Megahorn|p2a: Mewtwo
+|-damage|p2a: Mewtwo|37/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Mewtwo|Drain Punch|p1a: Escavalier
+|-damage|p1a: Escavalier|58/100
+|-heal|p2a: Mewtwo|55/100|[from] drain|[of] p1a: Escavalier
+|move|p1a: Escavalier|Megahorn|p2a: Mewtwo
+|-damage|p2a: Mewtwo|2/100
+|
+|-heal|p1a: Escavalier|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Mewtwo|Drain Punch|p1a: Escavalier
+|-damage|p1a: Escavalier|19/100
+|-heal|p2a: Mewtwo|22/100|[from] drain|[of] p1a: Escavalier
+|move|p1a: Escavalier|Megahorn|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|-heal|p1a: Escavalier|25/100|[from] item: Leftovers
+|-end|p1a: Escavalier|move: Taunt
+|upkeep
+
+|
+|switch|p2a: Ninetales|Ninetales-Alola, L81, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|12
+
+|inactive|Aomine62 has 120 seconds left.
+
+|
+|move|p2a: Ninetales|Substitute|p2a: Ninetales
+|-start|p2a: Ninetales|Substitute
+|-damage|p2a: Ninetales|76/100
+|move|p1a: Escavalier|Iron Head|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-end|p2a: Ninetales|Substitute
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Escavalier|31/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|Aomine62 has 120 seconds left.
+
+|
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Aomine62|move: Aurora Veil
+|move|p1a: Escavalier|Iron Head|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Escavalier|37/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Aomine62 has 120 seconds left.
+
+|
+|switch|p2a: Leavanny|Leavanny, L89, M|100/100
+|turn|14
+
+|
+|move|p2a: Leavanny|Sticky Web|p1a: Escavalier
+|-sidestart|p1: hiijilo|move: Sticky Web
+|move|p1a: Escavalier|Megahorn|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|44/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Leavanny|50/100|[from] item: Leftovers
+|-heal|p1a: Escavalier|43/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Leavanny|Knock Off|p1a: Escavalier
+|-damage|p1a: Escavalier|16/100
+|-enditem|p1a: Escavalier|Leftovers|[from] move: Knock Off|[of] p2a: Leavanny
+|move|p1a: Escavalier|Megahorn|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-crit|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Raikou|Raikou, L84|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|16
+
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Dugtrio|Dugtrio, L82, F|100/100
+|-activate|p1a: Dugtrio|move: Sticky Web
+|-unboost|p1a: Dugtrio|spe|1
+|turn|17
+
+|
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|75/100
+|move|p1a: Dugtrio|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Raikou|Extrasensory|p1a: Dugtrio
+|-damage|p1a: Dugtrio|59/100
+|move|p1a: Dugtrio|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|39/100
+|
+|-heal|p2a: Raikou|45/100|[from] item: Leftovers
+|-heal|p1a: Dugtrio|66/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Raikou|Hidden Power|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|6/100
+|move|p1a: Dugtrio|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|7/100
+|
+|-heal|p2a: Raikou|14/100|[from] item: Leftovers
+|-heal|p1a: Dugtrio|12/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Raikou|Hidden Power|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-heal|p2a: Raikou|20/100|[from] item: Leftovers
+|-sideend|p2: Aomine62|move: Aurora Veil
+|upkeep
+
+|
+|switch|p1a: Dodrio|Dodrio, L88, F|13/100
+|turn|21
+
+|
+|move|p1a: Dodrio|Return|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|win|hiijilo

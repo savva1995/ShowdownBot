@@ -1,0 +1,50 @@
+|init|battle
+|title|missy102 vs. unironic dabbing
+|j|☆missy102
+|j|☆unironic dabbing
+|player|p1|missy102|1|1112
+|player|p2|unironic dabbing|43|1185
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Scizor, F|item
+|poke|p2|Quagsire, F|item
+|poke|p2|Kartana|item
+|poke|p2|Blacephalon|item
+|teampreview|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by unironic dabbing)
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|turn|1
+|
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Quagsire|[zeffect]
+|-damage|p2a: Quagsire|0 fnt
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|faint|p2a: Quagsire
+|
+|win|missy102
+|raw|missy102's rating: 1112 &rarr; <strong>1142</strong><br />(+30 for winning)
+|raw|unironic dabbing's rating: 1185 &rarr; <strong>1154</strong><br />(-31 for losing)
+|l|☆unironic dabbing
+|l|☆missy102

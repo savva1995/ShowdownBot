@@ -1,0 +1,211 @@
+|init|battle
+|title|MorrowDays vs. Franz93
+|j|☆MorrowDays
+|j|☆Franz93
+|player|p1|MorrowDays|265|1068
+|player|p2|Franz93|169|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gyarados|Gyarados, L80, F|100/100
+|switch|p2a: Tornadus|Tornadus, L83, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|turn|1
+
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, L80, F
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p2a: Tornadus|U-turn|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|76/100
+
+|
+|switch|p2a: Breloom|Breloom, L81, F|100/100|[from]move: U-turn
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|57/100
+|move|p2a: Breloom|Bullet Seed|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|38/100
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|1/100
+|-hitcount|p1a: Gyarados|2
+|-damage|p2a: Breloom|47/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Breloom|37/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, L84, M|100/100
+|turn|4
+
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|4/100
+
+|
+|switch|p1a: Sunflora|Sunflora, L89, M|100/100|[from]move: Volt Switch
+|move|p2a: Breloom|Rock Tomb|p1a: Sunflora
+|-damage|p1a: Sunflora|52/100
+|-unboost|p1a: Sunflora|spe|1
+|-damage|p2a: Breloom|0 fnt|[from] item: Life Orb
+|faint|p2a: Breloom
+|
+|upkeep
+
+|
+|switch|p2a: Victini|Victini, L80|100/100
+|turn|5
+
+|
+|move|p2a: Victini|Blue Flare|p1a: Sunflora
+|-supereffective|p1a: Sunflora
+|-damage|p1a: Sunflora|0 fnt
+|faint|p1a: Sunflora
+|
+|upkeep
+
+|
+|switch|p1a: Garchomp|Garchomp, L80, M|100/100
+|turn|6
+
+|
+|switch|p2a: Quagsire|Quagsire, L88, F|100/100
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Garchomp|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|20/100
+|move|p2a: Quagsire|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|75/100
+|-status|p1a: Garchomp|brn
+|-enditem|p1a: Garchomp|Lum Berry|[eat]
+|-curestatus|p1a: Garchomp|brn|[msg]
+|
+|-heal|p2a: Quagsire|26/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Garchomp|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|upkeep
+
+|
+|switch|p2a: Wailord|Wailord, L89, F|100/100
+|turn|9
+
+|
+|move|p1a: Garchomp|Outrage|p2a: Wailord
+|-damage|p2a: Wailord|0 fnt
+|faint|p2a: Wailord
+|
+|upkeep
+
+|
+|switch|p2a: Ninetales|Ninetales, L84, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|10
+
+|
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Garchomp
+|-anim|p2a: Ninetales|Solar Beam|p1a: Garchomp
+|-damage|p1a: Garchomp|50/100
+|move|p1a: Garchomp|Outrage|p2a: Ninetales|[from]lockedmove
+|-damage|p2a: Ninetales|0 fnt
+|-start|p1a: Garchomp|confusion|[fatigue]
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Victini|Victini, L80|100/100
+|turn|11
+
+|
+|move|p2a: Victini|Focus Blast|p1a: Garchomp
+|-damage|p1a: Garchomp|20/100
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Earthquake|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tornadus|Tornadus, L83, M|100/100
+|turn|12
+
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Haxorus|Haxorus, L82, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|13
+
+|
+|-zpower|p2a: Tornadus
+|move|p2a: Tornadus|Supersonic Skystrike|p1a: Haxorus|[zeffect]
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, L84, M|100/100
+|turn|14
+
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Galvantula|[miss]
+|-miss|p2a: Tornadus|p1a: Galvantula
+|move|p1a: Galvantula|Thunder|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|win|MorrowDays

@@ -1,0 +1,188 @@
+|init|battle
+|title|Sueuey vs. Libgen
+|j|☆Sueuey
+|j|☆Libgen
+|player|p1|Sueuey|1|1000
+|player|p2|Libgen|266|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|item
+|poke|p1|Rayquaza, L50|item
+|poke|p1|Tornadus, L50, M|item
+|poke|p1|Lunala, L50|item
+|poke|p1|Lucario, L50, F|item
+|poke|p1|Tapu Koko, L50|item
+|poke|p2|Lunala, L50|item
+|poke|p2|Clefable, L50, M|item
+|poke|p2|Kyogre, L50|item
+|poke|p2|Drampa, L50, F|item
+|poke|p2|Mawile, L50, F|item
+|poke|p2|Emboar, L50, F|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Libgen)
+|
+|start
+|switch|p1a: Lucario|Lucario, L50, F|48/48
+|switch|p1b: Rayquaza|Rayquaza, L50|48/48
+|switch|p2a: Lunala|Lunala, L50|48/48
+|switch|p2b: Clefable|Clefable, L50, M|48/48
+|-ability|p1b: Rayquaza|Air Lock
+|turn|1
+|
+|move|p2b: Clefable|Follow Me|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Follow Me
+|move|p1b: Rayquaza|Dragon Dance|p1b: Rayquaza
+|-boost|p1b: Rayquaza|atk|1
+|-boost|p1b: Rayquaza|spe|1
+|move|p1a: Lucario|Meteor Mash|p2b: Clefable
+|-supereffective|p2b: Clefable
+|-damage|p2b: Clefable|8/48
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|turn|2
+
+|
+|detailschange|p1b: Rayquaza|Rayquaza-Mega, L50
+|-mega|p1b: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1b: Rayquaza
+|move|p1a: Lucario|Follow Me|p1a: Lucario
+|-singleturn|p1a: Lucario|move: Follow Me
+|move|p2b: Clefable|Moonblast|p1a: Lucario
+|-damage|p1a: Lucario|24/48g
+|move|p2a: Lunala|Psyshock|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|move|p1b: Rayquaza|Crunch|p2b: Clefable
+|-resisted|p2b: Clefable
+|-damage|p2b: Clefable|0 fnt
+|-damage|p1b: Rayquaza|43/48|[from] item: Life Orb
+|faint|p2b: Clefable
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p2b: Mawile|Mawile, L50, F|48/48
+|switch|p1a: Incineroar|Incineroar, L50, F|48/48
+|-ability|p2b: Mawile|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Rayquaza|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Mawile|atk|1
+|turn|3
+
+|
+|detailschange|p2b: Mawile|Mawile-Mega, L50, F
+|-mega|p2b: Mawile|Mawile|Mawilite
+|move|p2b: Mawile|Protect|p2b: Mawile
+|-singleturn|p2b: Mawile|Protect
+|move|p1a: Incineroar|Darkest Lariat|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|33/48
+|move|p2a: Lunala|Psyshock|p1b: Rayquaza
+|-crit|p1b: Rayquaza
+|-damage|p1b: Rayquaza|12/48
+|move|p1b: Rayquaza|Dragon Ascent|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|-unboost|p1b: Rayquaza|def|1
+|-unboost|p1b: Rayquaza|spd|1
+|-damage|p1b: Rayquaza|7/48|[from] item: Life Orb
+|faint|p2a: Lunala
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L50|48/48
+|detailschange|p2a: Kyogre|Kyogre-Primal, L50
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|4
+
+|
+|switch|p1b: Lunala|Lunala, L50|48/48
+|move|p2b: Mawile|Sucker Punch||[still]
+|-fail|p2b: Mawile
+|move|p1a: Incineroar|U-turn|p2a: Kyogre
+|-damage|p2a: Kyogre|42/48
+
+|
+|switch|p1a: Rayquaza|Rayquaza-Mega, L50|7/48|[from]move: U-turn
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p2a: Kyogre|Water Spout|p1a: Rayquaza|[spread] p1a,p1b
+|-resisted|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-damage|p1b: Lunala|35/48
+|faint|p1a: Rayquaza
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p1a: Incineroar|Incineroar, L50, F|48/48
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Mawile|atk|1
+|turn|5
+
+|
+|move|p2b: Mawile|Protect|p2b: Mawile
+|-singleturn|p2b: Mawile|Protect
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|-zpower|p1b: Lunala
+|move|p1b: Lunala|Menacing Moonraze Maelstrom|p2a: Kyogre|[zeffect]
+|-zbroken|p2a: Kyogre
+|-damage|p2a: Kyogre|35/48
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+
+|
+|move|p2b: Mawile|Sucker Punch|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p2a: Kyogre|Scald|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|15/48
+|move|p1a: Incineroar|Flare Blitz|p2b: Mawile
+|-supereffective|p2b: Mawile
+|-damage|p2b: Mawile|1/48
+|-damage|p1a: Incineroar|3/48|[from] Recoil
+|
+|upkeep
+|turn|7
+
+|l|☆Sueuey
+
+|inactive|Sueuey disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Sueuey has 30 seconds left.
+
+|inactive|Sueuey has 20 seconds left.
+
+|inactive|Sueuey has 15 seconds left.
+
+|inactive|Sueuey has 10 seconds left.
+
+|inactive|Sueuey has 5 seconds left.
+
+|-message|Sueuey lost due to inactivity.
+|
+|win|Libgen

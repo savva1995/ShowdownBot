@@ -1,0 +1,257 @@
+|init|battle
+|title|BaerOhneFisch vs. ghost of jah
+|j|☆BaerOhneFisch
+|j|☆ghost of jah
+|player|p1|BaerOhneFisch|109|1370
+|player|p2|ghost of jah|167|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mienshao|Mienshao, L83, M|100/100
+|switch|p2a: Mismagius|Mismagius, L86, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ghost of jah)
+|
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Mienshao
+|-status|p1a: Mienshao|brn
+|move|p1a: Mienshao|Knock Off|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|42/100
+|-enditem|p2a: Mismagius|Focus Sash|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|91/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Mienshao|85/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Mismagius|Destiny Bond|p2a: Mismagius
+|-singlemove|p2a: Mismagius|Destiny Bond
+|move|p1a: Mienshao|Stone Edge|p2a: Mismagius
+|-damage|p2a: Mismagius|13/100
+|-damage|p1a: Mienshao|75/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Mienshao|69/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|100/100
+|move|p2a: Mismagius|Shadow Ball|p1a: Vileplume
+|-damage|p1a: Vileplume|66/100
+|
+|-heal|p1a: Vileplume|72/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Talonflame|Talonflame, L83, M|100/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Talonflame
+|-status|p2a: Talonflame|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Vileplume|78/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|c|☆ghost of jah|!dt Gale wings
+|raw|<ul class="utilichart"><li class="result"><span class="col namecol"><a href="https://dex.pokemonshowdown.com/abilities/galewings">Gale Wings</a></span> <span class="col abilitydesccol">If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.</span> </li><li style="clear:both"></li></ul>
+
+
+|
+|switch|p2a: Haxorus|Haxorus, L82, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Vileplume|Aromatherapy|p1a: Vileplume
+|-activate|p1a: Vileplume|move: Aromatherapy
+|-curestatus|p1: Mienshao|brn|[msg]
+|
+|-heal|p1a: Vileplume|84/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Kecleon|Kecleon, L89, F|100/100
+|move|p2a: Haxorus|Swords Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Kecleon|Fake Out|p2a: Haxorus
+|-damage|p2a: Haxorus|78/100
+|-damage|p1a: Kecleon|91/100|[from] item: Life Orb
+|cant|p2a: Haxorus|flinch
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Haxorus|Poison Jab|p1a: Kecleon
+|-damage|p1a: Kecleon|23/100
+|move|p1a: Kecleon|Drain Punch|p2a: Haxorus
+|-start|p1a: Kecleon|typechange|Fighting|[from] ability: Protean
+|-damage|p2a: Haxorus|36/100
+|-heal|p1a: Kecleon|45/100|[from] drain|[of] p2a: Haxorus
+|-damage|p1a: Kecleon|35/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|84/100
+|move|p2a: Haxorus|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|12/100
+|
+|-heal|p1a: Vileplume|18/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+
+|
+|move|p2a: Haxorus|Earthquake|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+
+|
+|switch|p1a: Kecleon|Kecleon, L89, F|35/100
+|turn|11
+
+|
+|move|p1a: Kecleon|Fake Out|p2a: Haxorus
+|-damage|p2a: Haxorus|14/100
+|-damage|p1a: Kecleon|25/100|[from] item: Life Orb
+|cant|p2a: Haxorus|flinch
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Kecleon|Shadow Sneak|p2a: Haxorus
+|-start|p1a: Kecleon|typechange|Ghost|[from] ability: Protean
+|-damage|p2a: Haxorus|0 fnt
+|-damage|p1a: Kecleon|15/100|[from] item: Life Orb
+|faint|p2a: Haxorus
+|
+|upkeep
+
+|
+|switch|p2a: Floette|Floette-Eternal, L80, F|100/100
+|turn|13
+
+|
+|switch|p1a: Terrakion|Terrakion, L82|100/100
+|move|p2a: Floette|Light of Ruin|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-damage|p2a: Floette|44/100|[from] Recoil
+|faint|p1a: Terrakion
+|
+|upkeep
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, F|100/100
+|turn|14
+
+|c|☆ghost of jah|!dt flower veil
+|raw|<ul class="utilichart"><li class="result"><span class="col namecol"><a href="https://dex.pokemonshowdown.com/abilities/flowerveil">Flower Veil</a></span> <span class="col abilitydesccol">This side's Grass types can't have stats lowered or status inflicted by other Pokemon.</span> </li><li style="clear:both"></li></ul>
+
+
+|
+|move|p1a: Staraptor|Double-Edge|p2a: Floette
+|-damage|p2a: Floette|0 fnt
+|-damage|p1a: Staraptor|87/100|[from] Recoil
+|-damage|p1a: Staraptor|77/100|[from] item: Life Orb
+|faint|p2a: Floette
+|
+|upkeep
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, M|100/100 slp
+|turn|15
+
+|
+|cant|p2a: Talonflame|slp
+|move|p1a: Staraptor|Double-Edge|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|-damage|p1a: Staraptor|45/100|[from] Recoil
+|-damage|p1a: Staraptor|35/100|[from] item: Life Orb
+|faint|p2a: Talonflame
+|
+|upkeep
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, F|13/100
+|turn|16
+
+|
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Staraptor
+|-status|p1a: Staraptor|brn
+|move|p1a: Staraptor|Brave Bird|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|-damage|p1a: Staraptor|31/100 brn|[from] Recoil
+|-damage|p1a: Staraptor|21/100 brn|[from] item: Life Orb
+|faint|p2a: Mismagius
+|
+|-damage|p1a: Staraptor|15/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Palkia|Palkia, L78|100/100
+|-ability|p2a: Palkia|Pressure
+|turn|17
+
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Palkia
+|-damage|p2a: Palkia|57/100
+|-damage|p1a: Staraptor|1/100 brn|[from] Recoil
+|-damage|p1a: Staraptor|0 fnt|[from] item: Life Orb
+|faint|p1a: Staraptor
+|move|p2a: Palkia|Hydro Pump|p1: Staraptor|[notarget]
+|-fail|p2a: Palkia
+|
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, L83, M|100/100
+|turn|18
+
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Palkia
+|-crit|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|faint|p2a: Palkia
+|
+|upkeep
+
+|
+|switch|p2a: Trevenant|Trevenant, L89, F|100/100
+|turn|19
+
+|
+|move|p1a: Mienshao|Knock Off|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|20/100
+|-enditem|p2a: Trevenant|Leftovers|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|move|p2a: Trevenant|Will-O-Wisp|p1a: Mienshao
+|-status|p1a: Mienshao|brn
+|
+|-damage|p1a: Mienshao|75/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Mienshao|Knock Off|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|-damage|p1a: Mienshao|65/100 brn|[from] item: Life Orb
+|faint|p2a: Trevenant
+|
+|win|BaerOhneFisch

@@ -1,0 +1,338 @@
+|init|battle
+|title|Grayghostking vs. Answord
+|j|☆Grayghostking
+|j|☆Answord
+|player|p1|Grayghostking|266|1221
+|player|p2|Answord|109|1219
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cryogonal|Cryogonal, L88|100/100
+|switch|p2a: Shiftry|Shiftry, L89, M|100/100
+|turn|1
+|
+|switch|p2a: Klefki|Klefki, L82, M|100/100
+|move|p1a: Cryogonal|Ice Beam|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|79/100
+|
+|-heal|p2a: Klefki|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Answord)
+|
+|move|p2a: Klefki|Spikes|p1a: Cryogonal
+|-sidestart|p1: Grayghostking|Spikes
+|move|p1a: Cryogonal|Hidden Power|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|46/100
+|
+|-heal|p2a: Klefki|52/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Klefki|Spikes|p1a: Cryogonal
+|-sidestart|p1: Grayghostking|Spikes
+|move|p1a: Cryogonal|Hidden Power|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|11/100
+|
+|-heal|p2a: Klefki|17/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Slurpuff|Slurpuff, L85, F|100/100
+|move|p1a: Cryogonal|Hidden Power|p2a: Slurpuff
+|-crit|p2a: Slurpuff
+|-damage|p2a: Slurpuff|72/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Cryogonal|Ice Beam|p2a: Slurpuff
+|-damage|p2a: Slurpuff|33/100
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|58/100|[from] item: Sitrus Berry
+|move|p2a: Slurpuff|Drain Punch|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|50/100
+|-heal|p2a: Slurpuff|84/100|[from] drain|[of] p1a: Cryogonal
+|
+|-heal|p1a: Cryogonal|56/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Slurpuff|Drain Punch|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|4/100
+|-heal|p2a: Slurpuff|100/100|[from] drain|[of] p1a: Cryogonal
+|move|p1a: Cryogonal|Ice Beam|p2a: Slurpuff
+|-damage|p2a: Slurpuff|57/100
+|
+|-heal|p1a: Cryogonal|10/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Slurpuff|Drain Punch|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|-heal|p2a: Slurpuff|62/100|[from] drain|[of] p1a: Cryogonal
+|faint|p1a: Cryogonal
+|
+|upkeep
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, M|100/100
+|-damage|p1a: Escavalier|84/100|[from] Spikes
+|turn|8
+
+|
+|switch|p2a: Zekrom|Zekrom, L78|100/100
+|-ability|p2a: Zekrom|Teravolt
+|move|p1a: Escavalier|Iron Head|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|85/100
+|
+|-heal|p1a: Escavalier|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Zekrom|Bolt Strike|p1a: Escavalier
+|-damage|p1a: Escavalier|33/100
+|move|p1a: Escavalier|Drill Run|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|40/100
+|
+|-heal|p1a: Escavalier|39/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Zekrom|Bolt Strike|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+
+|
+|switch|p1a: Buzzwole|Buzzwole, L81|100/100
+|-damage|p1a: Buzzwole|84/100|[from] Spikes
+|turn|11
+
+|
+|move|p2a: Zekrom|Draco Meteor|p1a: Buzzwole
+|-damage|p1a: Buzzwole|20/100
+|-unboost|p2a: Zekrom|spa|2
+|move|p1a: Buzzwole|Earthquake|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|0 fnt
+|faint|p2a: Zekrom
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Miltank|Miltank, L86, F|100/100
+|turn|12
+
+|
+|move|p2a: Miltank|Earthquake|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|12/100
+|move|p1a: Buzzwole|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|46/100
+|
+|-heal|p2a: Miltank|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Miltank|Body Slam|p1a: Buzzwole
+|-damage|p1a: Buzzwole|0 fnt
+|faint|p1a: Buzzwole
+|
+|-heal|p2a: Miltank|58/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Exploud|Exploud, L85, M|100/100
+|-damage|p1a: Exploud|84/100|[from] Spikes
+|turn|14
+
+|
+|switch|p2a: Klefki|Klefki, L82, M|17/100
+|move|p1a: Exploud|Boomburst|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+
+|
+|switch|p2a: Slurpuff|Slurpuff, L85, F|62/100
+|turn|15
+
+|
+|move|p2a: Slurpuff|Drain Punch|p1a: Exploud
+|-supereffective|p1a: Exploud
+|-damage|p1a: Exploud|47/100
+|-heal|p2a: Slurpuff|83/100|[from] drain|[of] p1a: Exploud
+|move|p1a: Exploud|Boomburst|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|upkeep
+
+|
+|switch|p2a: Shiftry|Shiftry, L89, M|100/100
+|turn|16
+
+|
+|move|p2a: Shiftry|Low Kick|p1a: Exploud
+|-supereffective|p1a: Exploud
+|-damage|p1a: Exploud|0 fnt
+|faint|p1a: Exploud
+|
+|upkeep
+
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, M|100/100
+|-damage|p1a: Whimsicott|84/100|[from] Spikes
+|turn|17
+
+|
+|switch|p2a: Abomasnow|Abomasnow, L87, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Whimsicott|Leech Seed|p2a: Abomasnow
+|-immune|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Whimsicott|78/100|[from] Hail
+|-heal|p1a: Whimsicott|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Victini|Victini, L80|100/100
+|-damage|p1a: Victini|84/100|[from] Spikes
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L87, F
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p2a: Abomasnow|Hidden Power|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Victini|71/100|[from] Hail
+|upkeep
+|turn|19
+
+|inactive|Grayghostking has 120 seconds left.
+
+|
+|switch|p2a: Miltank|Miltank, L86, F|58/100
+|move|p1a: Victini|Blue Flare|p2a: Miltank
+|-damage|p2a: Miltank|8/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Miltank|1/100|[from] Hail
+|-damage|p1a: Victini|65/100|[from] Hail
+|-heal|p2a: Miltank|8/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Miltank|Body Slam|p1a: Victini
+|-damage|p1a: Victini|38/100
+|move|p1a: Victini|Blue Flare|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|faint|p2a: Miltank
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Victini|31/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Shiftry|Shiftry, L89, M|100/100
+|turn|21
+
+|inactive|Grayghostking has 120 seconds left.
+
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, M|84/100
+|-damage|p1a: Whimsicott|68/100|[from] Spikes
+|turn|22
+
+|
+|move|p1a: Whimsicott|Toxic|p2a: Shiftry
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Shiftry
+|move|p2a: Shiftry|Knock Off|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|43/100
+|-enditem|p1a: Whimsicott|Leftovers|[from] move: Knock Off|[of] p2a: Shiftry
+|
+|upkeep
+|turn|23
+
+|inactive|Grayghostking has 120 seconds left.
+
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|27/100
+|move|p1a: Whimsicott|Moonblast|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|34/100
+|-unboost|p2a: Shiftry|spa|1
+|
+|upkeep
+|turn|24
+
+|inactive|Grayghostking has 120 seconds left.
+
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|10/100
+|move|p1a: Whimsicott|Moonblast|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow-Mega, L87, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|25
+
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|win|Answord

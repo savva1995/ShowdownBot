@@ -1,0 +1,77 @@
+|init|battle
+|title|Mrowsudyn vs. EndouMamoruu
+|j|☆Mrowsudyn
+|j|☆EndouMamoruu
+|player|p1|Mrowsudyn|269|1589
+|player|p2|EndouMamoruu|101|1324
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Donphan, M|item
+|poke|p2|Azumarill, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Gardevoir, F|item
+|teampreview|1
+|
+|start
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|switch|p2a: Gardevoir|Gardevoir, F, shiny|100/100
+|-ability|p1a: Gardevoir|Synchronize|[from] ability: Trace|[of] p2a: Gardevoir
+|turn|1
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, F, shiny
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, M
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Gardevoir|Substitute|p2a: Gardevoir
+|-start|p2a: Gardevoir|Substitute
+|-damage|p2a: Gardevoir|76/100
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Gardevoir|Hyper Beam|p1a: Gardevoir
+|-damage|p1a: Gardevoir|26/100
+|-mustrecharge|p2a: Gardevoir
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|
+|upkeep
+|turn|3
+|
+|cant|p2a: Gardevoir|recharge
+|move|p1a: Gardevoir|Psyshock|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-end|p2a: Gardevoir|Substitute
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Gardevoir|Hyper Beam|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-mustrecharge|p2a: Gardevoir
+|faint|p1a: Gardevoir
+|
+|win|EndouMamoruu
+|l|☆Mrowsudyn
+|c|☆EndouMamoruu|gg
+|raw|Mrowsudyn's rating: 1589 &rarr; <strong>1557</strong><br />(-32 for losing)
+|raw|EndouMamoruu's rating: 1324 &rarr; <strong>1357</strong><br />(+33 for winning)

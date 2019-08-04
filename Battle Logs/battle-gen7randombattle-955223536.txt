@@ -1,0 +1,317 @@
+|init|battle
+|title|Chisaki Kai vs. secretleviathan
+|j|☆Chisaki Kai
+|j|☆secretleviathan
+|player|p1|Chisaki Kai|25|2024
+|player|p2|secretleviathan|110|2026
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash, L80|100/100
+|switch|p2a: Empoleon|Empoleon, L82, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chisaki Kai)
+
+|
+|switch|p2a: Jolteon|Jolteon, L84, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Jolteon
+|-immune|p2a: Jolteon|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Steelix|Steelix, L86, F|100/100
+|move|p2a: Jolteon|Volt Switch|p1a: Steelix
+|-immune|p1a: Steelix
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Smeargle|Smeargle, L89, F|100/100
+|move|p1a: Steelix|Stealth Rock|p2a: Smeargle
+|-sidestart|p2: secretleviathan|move: Stealth Rock
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Smeargle|Sticky Web|p1a: Steelix
+|-sidestart|p1: Chisaki Kai|move: Sticky Web
+|move|p1a: Steelix|Roar|p2a: Smeargle
+|drag|p2a: Hitmontop|Hitmontop, L86, M|100/100
+|-damage|p2a: Hitmontop|94/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Steelix|atk|1
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Oricorio|Oricorio-Pom-Pom, L88, M|100/100
+|move|p2a: Hitmontop|Rapid Spin|p1a: Oricorio
+|-damage|p1a: Oricorio|94/100
+|-sideend|p2: secretleviathan|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Oricorio|Hurricane|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|14/100
+|-damage|p1a: Oricorio|84/100|[from] item: Life Orb
+|move|p2a: Hitmontop|Stone Edge|p1a: Oricorio
+|-supereffective|p1a: Oricorio
+|-damage|p1a: Oricorio|19/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Hitmontop|Sucker Punch|p1a: Oricorio
+|-damage|p1a: Oricorio|0 fnt
+|faint|p1a: Oricorio
+|
+|upkeep
+
+|
+|switch|p1a: Starmie|Starmie, L82|100/100
+|-activate|p1a: Starmie|move: Sticky Web
+|-unboost|p1a: Starmie|spe|1
+|turn|8
+
+|
+|switch|p2a: Jolteon|Jolteon, L84, F|100/100
+|move|p1a: Starmie|Psyshock|p2a: Jolteon
+|-damage|p2a: Jolteon|59/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Venusaur|Venusaur, L81, F|100/100
+|-activate|p1a: Venusaur|move: Sticky Web
+|-unboost|p1a: Venusaur|spe|1
+|move|p2a: Jolteon|Shadow Ball|p1a: Venusaur
+|-damage|p1a: Venusaur|70/100
+|
+|upkeep
+|turn|10
+
+|inactive|secretleviathan has 120 seconds left.
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound, L81|100/100
+|detailschange|p1a: Venusaur|Venusaur-Mega, L81, F
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Venusaur|Giga Drain|p2a: Hoopa
+|-damage|p2a: Hoopa|83/100
+|-heal|p1a: Venusaur|79/100|[from] drain|[of] p2a: Hoopa
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Rotom|Rotom-Wash, L80|100/100
+|move|p2a: Hoopa|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|37/100
+|
+|upkeep
+|turn|12
+
+|inactive|secretleviathan has 120 seconds left.
+
+|
+|switch|p2a: Jolteon|Jolteon, L84, F|59/100
+|move|p1a: Rotom|Pain Split|p2a: Jolteon
+|-sethp|p2a: Jolteon|46/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|53/100|[from] move: Pain Split
+|
+|upkeep
+|turn|13
+
+|inactive|secretleviathan has 120 seconds left.
+
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|10/100
+|move|p1a: Rotom|Hydro Pump|p2a: Jolteon
+|-damage|p2a: Jolteon|5/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+
+|
+|switch|p1a: Steelix|Steelix, L86, F|100/100
+|-activate|p1a: Steelix|move: Sticky Web
+|-unboost|p1a: Steelix|spe|1
+|turn|15
+
+|
+|switch|p2a: Smeargle|Smeargle, L89, F|100/100
+|move|p1a: Steelix|Stealth Rock|p2a: Smeargle
+|-sidestart|p2: secretleviathan|move: Stealth Rock
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Smeargle|Stealth Rock|p1a: Steelix
+|-sidestart|p1: Chisaki Kai|move: Stealth Rock
+|move|p1a: Steelix|Earthquake|p2a: Smeargle
+|-damage|p2a: Smeargle|2/100
+|-damage|p1a: Steelix|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Smeargle|Whirlwind|p1a: Steelix
+|drag|p1a: Starmie|Starmie, L82|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|-activate|p1a: Starmie|move: Sticky Web
+|-unboost|p1a: Starmie|spe|1
+|
+|-heal|p1a: Starmie|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Smeargle|Destiny Bond|p2a: Smeargle
+|-singlemove|p2a: Smeargle|Destiny Bond
+|move|p1a: Starmie|Rapid Spin|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|-sideend|p1: Chisaki Kai|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-sideend|p1: Chisaki Kai|Sticky Web|[from] move: Rapid Spin|[of] p1a: Starmie
+|faint|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Destiny Bond
+|faint|p1a: Starmie
+|
+|upkeep
+
+|inactive|secretleviathan has 120 seconds left.
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, L81, F|79/100
+|switch|p2a: Hoopa|Hoopa-Unbound, L81|83/100
+|-damage|p2a: Hoopa|71/100|[from] Stealth Rock
+|turn|19
+
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|move|p2a: Hoopa|Psychic|p1a: Lugia
+|-resisted|p1a: Lugia
+|-damage|p1a: Lugia|92/100
+|
+|-heal|p1a: Lugia|98/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Lugia|Toxic|p2a: Hoopa|[miss]
+|-miss|p1a: Lugia|p2a: Hoopa
+|move|p2a: Hoopa|Knock Off|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|20/100
+|-enditem|p1a: Lugia|Leftovers|[from] move: Knock Off|[of] p2a: Hoopa
+|
+|upkeep
+|turn|21
+
+|inactive|secretleviathan has 120 seconds left.
+
+|
+|move|p1a: Lugia|Toxic|p2a: Hoopa|[miss]
+|-miss|p1a: Lugia|p2a: Hoopa
+|move|p2a: Hoopa|Knock Off|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|
+|upkeep
+
+|
+|switch|p1a: Steelix|Steelix, L86, F|91/100
+|turn|22
+
+|inactive|secretleviathan has 120 seconds left.
+
+|
+|switch|p2a: Empoleon|Empoleon, L82, F|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|move|p1a: Steelix|Earthquake|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-crit|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|-damage|p1a: Steelix|81/100|[from] item: Life Orb
+|faint|p2a: Empoleon
+|
+|upkeep
+
+|inactive|secretleviathan has 120 seconds left.
+
+|
+|switch|p2a: Hitmontop|Hitmontop, L86, M|14/100
+|-damage|p2a: Hitmontop|8/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Steelix|atk|1
+|turn|23
+
+|
+|move|p2a: Hitmontop|Close Combat|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|36/100
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|move|p1a: Steelix|Earthquake|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-damage|p1a: Steelix|26/100|[from] item: Life Orb
+|faint|p2a: Hitmontop
+|
+|upkeep
+
+|inactive|secretleviathan has 120 seconds left.
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, M|100/100
+|-damage|p2a: Bruxish|88/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p2a: Bruxish|Liquidation|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|-damage|p2a: Bruxish|78/100|[from] item: Life Orb
+|faint|p1a: Steelix
+|
+|upkeep
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, L81, F|79/100
+|turn|25
+
+|
+|move|p2a: Bruxish|Psychic Fangs|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p2a: Bruxish|69/100|[from] item: Life Orb
+|faint|p1a: Venusaur
+|
+|win|secretleviathan

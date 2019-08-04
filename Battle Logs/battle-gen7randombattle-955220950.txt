@@ -1,0 +1,85 @@
+|init|battle
+|title|Elcrisciapp vs. boubaker3
+|j|☆Elcrisciapp
+|j|☆boubaker3
+|player|p1|Elcrisciapp|221|1414
+|player|p2|boubaker3|1|1365
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Druddigon|Druddigon, L86, M|100/100
+|switch|p2a: Masquerain|Masquerain, L89, F|100/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Druddigon|atk|1
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Elcrisciapp)
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|move|p2a: Masquerain|Sticky Web|p1a: Solgaleo
+|-sidestart|p1: Elcrisciapp|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Solgaleo|Stone Edge|p2a: Masquerain
+|-supereffective|p2a: Masquerain
+|-damage|p2a: Masquerain|0 fnt
+|faint|p2a: Masquerain
+|
+|upkeep
+
+|
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L78|100/100
+|turn|3
+
+|
+|detailschange|p2a: Necrozma|Necrozma-Ultra, L78
+|-burst|p2a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Necrozma|Moongeist Beam|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|31/100
+|move|p1a: Solgaleo|Stone Edge|p2a: Necrozma
+|-crit|p2a: Necrozma
+|-damage|p2a: Necrozma|40/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Necrozma|Moongeist Beam|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|faint|p1a: Solgaleo
+|
+|upkeep
+
+|inactive|Elcrisciapp has 120 seconds left.
+
+|
+|switch|p1a: Azumarill|Azumarill, L80, M|100/100
+|-activate|p1a: Azumarill|move: Sticky Web
+|-unboost|p1a: Azumarill|spe|1
+|turn|5
+
+|inactive|Elcrisciapp has 120 seconds left.
+
+|
+|-zpower|p2a: Necrozma
+|move|p2a: Necrozma|Light That Burns the Sky|p1a: Azumarill|[zeffect]
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+
+|-message|Elcrisciapp forfeited.
+
+|
+|win|boubaker3

@@ -1,0 +1,316 @@
+|init|battle
+|title|Lord Ghirahim vs. Eye_patch151
+|j|☆Lord Ghirahim
+|j|☆Eye_patch151
+|player|p1|Lord Ghirahim|135|1783
+|player|p2|Eye_patch151|209|1760
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magmortar|Magmortar, L86, F|100/100
+|switch|p2a: Charizard|Charizard, L80, F|100/100
+|turn|1
+|
+|switch|p2a: Golem|Golem, L89, F|100/100
+|move|p1a: Magmortar|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|move|p2a: Golem|Toxic|p1a: Lilligant
+|-status|p1a: Lilligant|tox
+|
+|-damage|p1a: Lilligant|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|100/100
+|move|p1a: Lilligant|Giga Drain|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|83/100
+|-heal|p1a: Lilligant|100/100 tox|[from] drain|[of] p2a: Skuntank
+|
+|-damage|p1a: Lilligant|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eye_patch151)
+|
+|switch|p1a: Klefki|Klefki, L82, F|100/100
+|move|p2a: Skuntank|Poison Jab|p1a: Klefki
+|-immune|p1a: Klefki
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Charizard|Charizard, L80, F|100/100
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Lord Ghirahim|Reflect
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Magmortar|Magmortar, L86, F|100/100
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L80, F
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Fire Blast|p1a: Magmortar
+|-resisted|p1a: Magmortar
+|-damage|p1a: Magmortar|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Charizard|Air Slash|p1a: Magmortar
+|-damage|p1a: Magmortar|47/100
+|move|p1a: Magmortar|Fire Blast|p2a: Charizard|[miss]
+|-miss|p1a: Magmortar|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Charizard|Air Slash|p1a: Magmortar
+|-damage|p1a: Magmortar|21/100
+|cant|p1a: Magmortar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Charizard|Air Slash|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|faint|p1a: Magmortar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Arceus|Arceus-Psychic, L78|100/100
+|turn|10
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Charizard|Fire Blast|p1a: Arceus
+|-damage|p1a: Arceus|56/100
+|
+|-weather|none
+|upkeep
+|turn|11
+|inactive|Lord Ghirahim has 120 seconds left.
+|
+|switch|p2a: Golem|Golem, L89, F|100/100
+|move|p1a: Arceus|Judgment|p2a: Golem
+|-damage|p2a: Golem|13/100
+|
+|-heal|p2a: Golem|19/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Golem|Sucker Punch|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|39/100
+|move|p1a: Arceus|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|-sideend|p1: Lord Ghirahim|Reflect
+|upkeep
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|83/100
+|turn|13
+|inactive|Lord Ghirahim has 120 seconds left.
+|
+|switch|p1a: Klefki|Klefki, L82, F|100/100
+|move|p2a: Skuntank|Crunch|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|76/100
+|-unboost|p1a: Klefki|def|1
+|-damage|p2a: Skuntank|73/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Charizard|Charizard-Mega-Y, L80, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Lord Ghirahim|Reflect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Lord Ghirahim|move: Light Screen
+|move|p2a: Charizard|Fire Blast|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Arceus|Arceus-Psychic, L78|39/100
+|turn|16
+
+|
+|move|p1a: Arceus|Judgment|p2a: Charizard
+|-damage|p2a: Charizard|53/100
+|move|p2a: Charizard|Fire Blast|p1a: Arceus
+|-damage|p1a: Arceus|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+
+|
+|move|p1a: Arceus|Ice Beam|p2a: Charizard
+|-damage|p2a: Charizard|31/100
+|move|p2a: Charizard|Air Slash|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Noctowl|Noctowl, L89, F|100/100
+|turn|18
+
+|
+|switch|p2a: Mew|Mew, L80|100/100
+|move|p1a: Noctowl|Night Shade|p2a: Mew
+|-damage|p2a: Mew|70/100
+|
+|-weather|none
+|-heal|p2a: Mew|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Mew|Stealth Rock|p1a: Noctowl
+|-sidestart|p1: Lord Ghirahim|move: Stealth Rock
+|move|p1a: Noctowl|Night Shade|p2a: Mew
+|-damage|p2a: Mew|46/100
+|
+|-heal|p2a: Mew|52/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|100/100
+|-singleturn|p2a: Mew|move: Roost
+|move|p1a: Noctowl|Night Shade|p2a: Mew
+|-damage|p2a: Mew|70/100
+|
+|-heal|p2a: Mew|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|move|p1a: Noctowl|Hurricane|p2a: Mew
+|-damage|p2a: Mew|37/100
+|
+|-heal|p2a: Mew|43/100|[from] item: Leftovers
+|-sideend|p1: Lord Ghirahim|Reflect
+|upkeep
+|turn|22
+
+|
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|93/100
+|-singleturn|p2a: Mew|move: Roost
+|move|p1a: Noctowl|Hurricane|p2a: Mew
+|-damage|p2a: Mew|54/100
+|
+|-heal|p2a: Mew|61/100|[from] item: Leftovers
+|-sideend|p1: Lord Ghirahim|move: Light Screen
+|upkeep
+|turn|23
+
+|
+|move|p2a: Mew|Psyshock|p1a: Noctowl
+|-damage|p1a: Noctowl|29/100
+|move|p1a: Noctowl|Whirlwind|p2a: Mew
+|drag|p2a: Entei|Entei, L83|100/100
+|-ability|p2a: Entei|Pressure
+|
+|-heal|p1a: Noctowl|35/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Entei|Flare Blitz|p1a: Noctowl
+|-damage|p1a: Noctowl|0 fnt
+|-damage|p2a: Entei|89/100|[from] Recoil
+|faint|p1a: Noctowl
+|
+|upkeep
+
+|
+|switch|p1a: Machamp|Machamp, L84, F|100/100
+|-damage|p1a: Machamp|94/100|[from] Stealth Rock
+|turn|25
+
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|73/100
+|move|p1a: Machamp|Dynamic Punch|p2a: Skuntank
+|-damage|p2a: Skuntank|1/100
+|-start|p2a: Skuntank|confusion
+|
+|upkeep
+|turn|26
+
+|
+|-activate|p2a: Skuntank|confusion
+|move|p2a: Skuntank|Poison Jab|p1a: Machamp
+|-damage|p1a: Machamp|49/100
+|-status|p1a: Machamp|psn
+|-damage|p2a: Skuntank|0 fnt|[from] item: Life Orb
+|faint|p2a: Skuntank
+|move|p1a: Machamp|Dynamic Punch|p2: Skuntank|[notarget]
+|-fail|p1a: Machamp
+|
+|-damage|p1a: Machamp|37/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Entei|Entei, L83|89/100
+|-ability|p2a: Entei|Pressure
+|turn|27
+
+|
+|move|p2a: Entei|Flare Blitz|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|-damage|p2a: Entei|79/100|[from] Recoil
+|faint|p1a: Machamp
+|
+|upkeep
+
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|88/100 tox
+|-damage|p1a: Lilligant|76/100 tox|[from] Stealth Rock
+|turn|28
+
+|
+|move|p2a: Entei|Flare Blitz|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|-damage|p2a: Entei|59/100|[from] Recoil
+|faint|p1a: Lilligant
+|
+|win|Eye_patch151

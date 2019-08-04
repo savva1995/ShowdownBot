@@ -1,0 +1,45 @@
+|init|battle
+|title|Kids game sweaties vs. fhntrfjrtfujhjgy
+|j|☆Kids game sweaties
+|j|☆fhntrfjrtfujhjgy
+|player|p1|Kids game sweaties|76|1000
+|player|p2|fhntrfjrtfujhjgy|226|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Type: Null|Type: Null, L89|100/100
+|switch|p2a: Butterfree|Butterfree, L89, M|100/100
+|turn|1
+|
+|move|p2a: Butterfree|Bug Buzz|p1a: Type: Null
+|-damage|p1a: Type: Null|77/100
+|-unboost|p1a: Type: Null|spd|1
+|-damage|p2a: Butterfree|91/100|[from] item: Life Orb
+|move|p1a: Type: Null|Return|p2a: Butterfree
+|-damage|p2a: Butterfree|29/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Butterfree|Bug Buzz|p1a: Type: Null
+|-damage|p1a: Type: Null|42/100
+|-unboost|p1a: Type: Null|spd|1
+|-damage|p2a: Butterfree|19/100|[from] item: Life Orb
+|move|p1a: Type: Null|Return|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|upkeep
+
+|-message|fhntrfjrtfujhjgy forfeited.
+
+|
+|win|Kids game sweaties

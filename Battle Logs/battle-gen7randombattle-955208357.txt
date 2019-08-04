@@ -1,0 +1,346 @@
+|init|battle
+|title|abceg vs. Marilin69
+|j|☆abceg
+|j|☆Marilin69
+|player|p1|abceg|266|1495
+|player|p2|Marilin69|101|1463
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, L82, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: Marilin69
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Marilin69)
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Hippowdon|Stone Edge|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Bulu|67/100|[from] Sandstorm
+|-heal|p1a: Tapu Bulu|73/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|79/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+
+|inactive|Marilin69 has 120 seconds left.
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|100/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|48/100
+|-heal|p1a: Tapu Bulu|100/100|[from] drain|[of] p2a: Nidoqueen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Bulu|94/100|[from] Sandstorm
+|-heal|p2a: Nidoqueen|54/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Scizor|Scizor, L82, M|100/100
+|move|p2a: Nidoqueen|Toxic Spikes|p1a: Scizor
+|-sidestart|p1: abceg|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Nidoqueen|61/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: Marilin69
+|move|p2a: Nidoqueen|Fire Blast|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Nidoqueen|67/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L82, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Hone Claws|p1a: Aerodactyl
+|-boost|p1a: Aerodactyl|atk|1
+|-boost|p1a: Aerodactyl|accuracy|1
+|move|p2a: Nidoqueen|Toxic Spikes|p1a: Aerodactyl
+|-sidestart|p1: abceg|move: Toxic Spikes
+|
+|-weather|none
+|-heal|p2a: Nidoqueen|73/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+
+|inactive|Marilin69 has 120 seconds left.
+
+|
+|move|p1a: Aerodactyl|Aerial Ace|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|19/100
+|move|p2a: Nidoqueen|Ice Beam|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|23/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Aerodactyl|Aerial Ace|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+
+|
+|switch|p2a: Hippowdon|Hippowdon, L82, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|8
+
+|
+|switch|p1a: Scizor|Scizor, L82, M|100/100
+|move|p2a: Hippowdon|Stone Edge|p1a: Scizor
+|-damage|p1a: Scizor|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p1a: Scizor|Bug Bite|p2a: Hippowdon
+|-damage|p2a: Hippowdon|64/100
+|-damage|p1a: Scizor|63/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Earthquake|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Oranguru|Oranguru, L89, F|100/100
+|move|p1a: Scizor|Superpower|p2a: Oranguru
+|-damage|p2a: Oranguru|56/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Oranguru|50/100|[from] Sandstorm
+|-heal|p2a: Oranguru|56/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Stoutland|Stoutland, L88, M|100/100
+|-status|p1a: Stoutland|tox
+|turn|11
+
+|
+|move|p1a: Stoutland|Crunch|p2a: Oranguru
+|-supereffective|p2a: Oranguru
+|-damage|p2a: Oranguru|14/100
+|move|p2a: Oranguru|Focus Blast|p1a: Stoutland|[miss]
+|-miss|p2a: Oranguru|p1a: Stoutland
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Stoutland|94/100 tox|[from] Sandstorm
+|-damage|p2a: Oranguru|7/100|[from] Sandstorm
+|-heal|p2a: Oranguru|14/100|[from] item: Leftovers
+|-damage|p1a: Stoutland|88/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Stoutland|Crunch|p2a: Oranguru
+|-supereffective|p2a: Oranguru
+|-damage|p2a: Oranguru|0 fnt
+|faint|p2a: Oranguru
+|
+|-weather|none
+|-damage|p1a: Stoutland|76/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Pikachu|Pikachu-Unova, L90, M|100/100
+|turn|13
+
+|
+|switch|p1a: Groudon|Groudon, L78|100/100
+|-status|p1a: Groudon|tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Pikachu|Volt Tackle|p1a: Groudon
+|-immune|p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Groudon|95/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, L82, M|23/100
+|move|p2a: Pikachu|Grass Knot|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-status|p1a: Tapu Bulu|tox
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|15
+
+|
+|switch|p2a: Deoxys|Deoxys-Speed, L78|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Tapu Bulu|Wood Hammer|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-damage|p1a: Tapu Bulu|73/100 tox|[from] Recoil
+|faint|p2a: Deoxys
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tapu Bulu|79/100 tox|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|85/100 tox|[from] Grassy Terrain
+|-damage|p1a: Tapu Bulu|79/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|turn|16
+
+|
+|switch|p1a: Stoutland|Stoutland, L88, M|76/100 tox
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Return|p1a: Stoutland
+|-damage|p1a: Stoutland|41/100 tox
+|-damage|p1a: Stoutland|33/100 tox
+|-hitcount|p1a: Stoutland|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Stoutland|39/100 tox|[from] Grassy Terrain
+|-damage|p1a: Stoutland|33/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Stoutland|Superpower|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|36/100
+|-unboost|p1a: Stoutland|atk|1
+|-unboost|p1a: Stoutland|def|1
+|move|p2a: Kangaskhan|Return|p1a: Stoutland
+|-crit|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|-hitcount|p1a: Stoutland|1
+|faint|p1a: Stoutland
+|
+|-weather|none
+|-heal|p2a: Kangaskhan|42/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Heracross|Heracross, L83, F|100/100
+|-status|p1a: Heracross|tox
+|turn|18
+
+|
+|move|p2a: Kangaskhan|Return|p1a: Heracross
+|-damage|p1a: Heracross|48/100 tox
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|28/100 tox
+|-hitcount|p1a: Heracross|2
+|move|p1a: Heracross|Close Combat|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|-damage|p1a: Heracross|18/100 tox|[from] item: Life Orb
+|faint|p2a: Kangaskhan
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|-heal|p1a: Heracross|24/100 tox|[from] Grassy Terrain
+|-damage|p1a: Heracross|18/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Pikachu|Pikachu-Unova, L90, M|100/100
+|turn|19
+
+|
+|move|p2a: Pikachu|Knock Off|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|-enditem|p1a: Heracross|Life Orb|[from] move: Knock Off|[of] p2a: Pikachu
+|faint|p1a: Heracross
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|79/100 tox
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|20
+
+|
+|move|p2a: Pikachu|Knock Off|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|60/100 tox
+|-enditem|p1a: Tapu Bulu|Leftovers|[from] move: Knock Off|[of] p2a: Pikachu
+|move|p1a: Tapu Bulu|Wood Hammer|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-damage|p1a: Tapu Bulu|32/100 tox|[from] Recoil
+|faint|p2a: Pikachu
+|
+|-heal|p1a: Tapu Bulu|38/100 tox|[from] Grassy Terrain
+|-damage|p1a: Tapu Bulu|32/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Hippowdon|Hippowdon, L82, F|70/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|21
+
+|
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|2/100
+|-heal|p1a: Tapu Bulu|75/100 tox|[from] drain|[of] p2a: Hippowdon
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Bulu|69/100 tox|[from] Sandstorm
+|-heal|p1a: Tapu Bulu|75/100 tox|[from] Grassy Terrain
+|-heal|p2a: Hippowdon|58/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|64/100|[from] Grassy Terrain
+|-damage|p1a: Tapu Bulu|63/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|-heal|p1a: Tapu Bulu|100/100 tox|[from] drain|[of] p2a: Hippowdon
+|faint|p2a: Hippowdon
+|
+|win|abceg

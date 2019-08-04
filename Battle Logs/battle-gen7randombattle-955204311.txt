@@ -1,0 +1,98 @@
+|init|battle
+|title|peter20 vs. Patrick07002
+|j|☆peter20
+|j|☆Patrick07002
+|player|p1|peter20|101|1114
+|player|p2|Patrick07002|25|1068
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zeraora|Zeraora, L82|100/100
+|switch|p2a: Cinccino|Cinccino, L87, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Patrick07002)
+
+|
+|switch|p2a: Mimikyu|Mimikyu, L82, F|100/100
+|move|p1a: Zeraora|Close Combat|p2a: Mimikyu
+|-immune|p2a: Mimikyu
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Zeraora|Hidden Power|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L82, F
+|move|p2a: Mimikyu|Taunt|p1a: Zeraora
+|-start|p1a: Zeraora|move: Taunt
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|upkeep
+|turn|4
+
+|
+|-zpower|p2a: Mimikyu
+|move|p2a: Mimikyu|Let's Snuggle Forever|p1a: Palkia|[zeffect]
+|-supereffective|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|faint|p1a: Palkia
+|
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, F|100/100
+|turn|5
+
+|
+|move|p2a: Mimikyu|Shadow Claw|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|57/100
+|-damage|p2a: Mimikyu|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, F|100/100
+|turn|6
+
+|
+|move|p2a: Cinccino|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100
+|-damage|p2a: Cinccino|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+
+|
+|switch|p2a: Aggron|Aggron, L82, M|100/100|[from]move: U-turn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Aggron
+|-start|p2a: Aggron|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|-damage|p2a: Aggron|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|59/100|[silent]
+|upkeep
+|turn|7
+
+|-message|Patrick07002 forfeited.
+
+|
+|win|peter20

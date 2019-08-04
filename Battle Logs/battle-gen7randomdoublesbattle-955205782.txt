@@ -1,0 +1,185 @@
+|init|battle
+|title|cruvendarkeyes vs. Flemmingjensen
+|j|☆cruvendarkeyes
+|j|☆Flemmingjensen
+|player|p1|cruvendarkeyes|101|1403
+|player|p2|Flemmingjensen|170|1429
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ambipom|Ambipom, L81, M|100/100
+|switch|p1b: Ledian|Ledian, L90, F|100/100
+|switch|p2a: Gardevoir|Gardevoir, L70, M|100/100
+|switch|p2b: Torterra|Torterra, L77, M|100/100
+|-ability|p2a: Gardevoir|Swarm|[from] ability: Trace|[of] p1b: Ledian
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cruvendarkeyes)
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, L70, M
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p1a: Ambipom|U-turn|p2a: Gardevoir
+|-damage|p2a: Gardevoir|69/100
+
+|
+|switch|p1a: Skarmory|Skarmory, L83, F|100/100|[from]move: U-turn
+|move|p1b: Ledian|Knock Off|p2a: Gardevoir
+|-damage|p2a: Gardevoir|52/100
+|move|p2a: Gardevoir|Hyper Voice|p1b: Ledian|[spread] p1a,p1b
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|77/100
+|-damage|p1b: Ledian|72/100
+|move|p2b: Torterra|Rock Polish|p2b: Torterra
+|-boost|p2b: Torterra|spe|2
+|
+|upkeep
+|turn|2
+
+|inactive|Flemmingjensen has 120 seconds left.
+
+|
+|switch|p2a: Manectric|Manectric, L82, M|100/100
+|move|p2b: Torterra|Wood Hammer|p1b: Ledian
+|-resisted|p1b: Ledian
+|-damage|p1b: Ledian|57/100
+|-damage|p2b: Torterra|96/100|[from] Recoil
+|move|p1b: Ledian|U-turn|p2b: Torterra
+|-supereffective|p2b: Torterra
+|-damage|p2b: Torterra|65/100
+
+|
+|switch|p1b: Ambipom|Ambipom, L81, M|100/100|[from]move: U-turn
+|move|p1a: Skarmory|Brave Bird|p2b: Torterra
+|-supereffective|p2b: Torterra
+|-crit|p2b: Torterra
+|-damage|p2b: Torterra|0 fnt
+|-damage|p1a: Skarmory|53/100|[from] Recoil
+|faint|p2b: Torterra
+|
+|upkeep
+
+|
+|switch|p2b: Bisharp|Bisharp, L80, F|100/100
+|turn|3
+
+|
+|move|p2a: Manectric|Protect|p2a: Manectric
+|-singleturn|p2a: Manectric|Protect
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p1b: Ambipom|Return|p2a: Manectric
+|-activate|p2a: Manectric|move: Protect
+|move|p2b: Bisharp|Knock Off|p1b: Ambipom
+|-damage|p1b: Ambipom|46/100
+|-enditem|p1b: Ambipom|Focus Sash|[from] move: Knock Off|[of] p2b: Bisharp
+|
+|upkeep
+|turn|4
+
+|
+|move|p1b: Ambipom|Return|p2a: Manectric
+|-damage|p2a: Manectric|42/100
+|move|p2a: Manectric|Volt Switch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Manectric|33/100|[from] item: Life Orb
+|faint|p1a: Skarmory
+
+|
+|switch|p2a: Gardevoir|Gardevoir-Mega, L70, M|52/100|[from]move: Volt Switch
+|move|p2b: Bisharp|Swords Dance|p2b: Bisharp
+|-boost|p2b: Bisharp|atk|2
+|
+|upkeep
+
+|
+|switch|p1a: Entei|Entei, L71|100/100
+|-ability|p1a: Entei|Pressure
+|turn|5
+
+|
+|move|p2b: Bisharp|Sucker Punch|p1b: Ambipom
+|-damage|p1b: Ambipom|0 fnt
+|faint|p1b: Ambipom
+|move|p1a: Entei|Sacred Fire|p2b: Bisharp
+|-supereffective|p2b: Bisharp
+|-damage|p2b: Bisharp|6/100
+|-status|p2b: Bisharp|brn
+|-damage|p1a: Entei|91/100|[from] item: Life Orb
+|move|p2a: Gardevoir|Hyper Voice|p1a: Entei
+|-resisted|p1a: Entei
+|-damage|p1a: Entei|59/100
+|
+|-damage|p2b: Bisharp|0 fnt|[from] brn
+|faint|p2b: Bisharp
+|upkeep
+
+|
+|switch|p1b: Ledian|Ledian, L90, F|57/100
+|switch|p2b: Manectric|Manectric, L82, M|33/100
+|turn|6
+
+|
+|move|p2b: Manectric|Thunderbolt|p1b: Ledian
+|-supereffective|p1b: Ledian
+|-damage|p1b: Ledian|0 fnt
+|-damage|p2b: Manectric|23/100|[from] item: Life Orb
+|faint|p1b: Ledian
+|move|p1a: Entei|Bulldoze|p2b: Manectric|[spread] p2a,p2b
+|-supereffective|p2b: Manectric
+|-damage|p2a: Gardevoir|29/100
+|-damage|p2b: Manectric|0 fnt
+|-unboost|p2a: Gardevoir|spe|1
+|-damage|p1a: Entei|49/100|[from] item: Life Orb
+|faint|p2b: Manectric
+|move|p2a: Gardevoir|Psyshock|p1a: Entei
+|-damage|p1a: Entei|8/100
+|
+|upkeep
+
+|
+|switch|p2b: Dialga|Dialga, L70|100/100
+|switch|p1b: Ribombee|Ribombee, L83, F|100/100
+|-ability|p2b: Dialga|Pressure
+|turn|7
+
+|
+|move|p1b: Ribombee|Moonblast|p2b: Dialga
+|-damage|p2b: Dialga|62/100
+|move|p1a: Entei|Sacred Fire|p2b: Dialga
+|-damage|p2b: Dialga|23/100
+|-status|p2b: Dialga|brn
+|-damage|p1a: Entei|0 fnt|[from] item: Life Orb
+|faint|p1a: Entei
+|move|p2b: Dialga|Flash Cannon|p1b: Ribombee
+|-supereffective|p1b: Ribombee
+|-damage|p1b: Ribombee|0 fnt
+|-damage|p2b: Dialga|13/100 brn|[from] item: Life Orb
+|faint|p1b: Ribombee
+|move|p2a: Gardevoir|Hyper Voice|p1: Entei|[notarget]
+|-fail|p2a: Gardevoir
+|
+|-damage|p2b: Dialga|7/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1b: Conkeldurr|Conkeldurr, L79, M|100/100
+|turn|8
+
+|
+|move|p2b: Dialga|Draco Meteor|p1b: Conkeldurr
+|-damage|p1b: Conkeldurr|41/100
+|-unboost|p2b: Dialga|spa|2
+|-damage|p2b: Dialga|0 fnt|[from] item: Life Orb
+|faint|p2b: Dialga
+|move|p2a: Gardevoir|Hyper Voice|p1b: Conkeldurr
+|-supereffective|p1b: Conkeldurr
+|-damage|p1b: Conkeldurr|0 fnt
+|faint|p1b: Conkeldurr
+|
+|win|Flemmingjensen

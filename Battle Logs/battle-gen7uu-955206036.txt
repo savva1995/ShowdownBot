@@ -1,0 +1,271 @@
+|init|battle
+|title|Bot Leni vs. drugtio
+|j|☆Bot Leni
+|j|☆drugtio
+|player|p1|Bot Leni|101|1096
+|player|p2|drugtio|280|1155
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Empoleon, M|item
+|poke|p1|Zeraora|item
+|poke|p1|Beedrill, M|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Togekiss, M|item
+|poke|p2|Togekiss, F|item
+|poke|p2|Swampert, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Dhelmise|item
+|poke|p2|Terrakion|item
+|poke|p2|Manectric, M|item
+|teampreview
+|
+|start
+|switch|p1a: Empoleon|Empoleon, M, shiny|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Empoleon
+|-damage|p1a: Empoleon|72/100
+|move|p1a: Empoleon|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: drugtio|move: Stealth Rock
+|
+|-heal|p1a: Empoleon|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|-damage|p2a: Dhelmise|88/100|[from] Stealth Rock
+|move|p1a: Empoleon|Toxic|p2a: Dhelmise
+|-status|p2a: Dhelmise|tox
+|
+|-heal|p1a: Empoleon|85/100|[from] item: Leftovers
+|-damage|p2a: Dhelmise|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Togekiss|Togekiss, M, shiny|100/100
+|move|p2a: Dhelmise|Rapid Spin|p1a: Togekiss
+|-damage|p1a: Togekiss|95/100
+|-sideend|p2: drugtio|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Dhelmise
+|
+|-heal|p1a: Togekiss|100/100|[from] item: Leftovers
+|-damage|p2a: Dhelmise|70/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Togekiss|Air Slash|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|33/100 tox
+|cant|p2a: Dhelmise|flinch
+|
+|-damage|p2a: Dhelmise|15/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Togekiss|Air Slash|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|faint|p2a: Dhelmise
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|100/100
+|turn|6
+
+|
+|move|p2a: Togekiss|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|69/100
+|cant|p1a: Togekiss|flinch
+|
+|-heal|p1a: Togekiss|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Togekiss|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|45/100
+|cant|p1a: Togekiss|flinch
+|
+|-heal|p1a: Togekiss|51/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Togekiss|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|19/100
+|cant|p1a: Togekiss|flinch
+|
+|-heal|p1a: Togekiss|25/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|move|p2a: Togekiss|Air Slash|p1a: Zeraora
+|-resisted|p1a: Zeraora
+|-damage|p1a: Zeraora|75/100
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|move|p1a: Zeraora|Plasma Fists|p2a: Manectric
+|-ability|p2a: Manectric|Lightning Rod|boost
+|-boost|p2a: Manectric|spa|1
+|
+|upkeep
+|turn|11
+
+|
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Zeraora|atk|1
+|move|p1a: Zeraora|Knock Off|p2a: Manectric
+|-damage|p2a: Manectric|75/100
+|-damage|p1a: Zeraora|65/100|[from] item: Life Orb
+|move|p2a: Manectric|Hidden Power|p1a: Zeraora
+|-damage|p1a: Zeraora|21/100
+|
+|upkeep
+|turn|12
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by drugtio)
+
+|inactive|Bot Leni has 120 seconds left.
+
+|
+|move|p1a: Zeraora|Close Combat|p2a: Manectric
+|-damage|p2a: Manectric|29/100
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|-damage|p1a: Zeraora|12/100|[from] item: Life Orb
+|move|p2a: Manectric|Hidden Power|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|upkeep
+
+|
+|switch|p1a: Beedrill|Beedrill, M, shiny|100/100
+|turn|13
+
+|inactive|drugtio has 120 seconds left.
+
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|detailschange|p1a: Beedrill|Beedrill-Mega, M, shiny
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p1a: Beedrill|Drill Run|p2a: Swampert
+|-damage|p2a: Swampert|78/100
+|-damage|p1a: Beedrill|84/100|[from] item: Rocky Helmet|[of] p2a: Swampert
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Beedrill|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|52/100
+|-damage|p1a: Beedrill|67/100|[from] item: Rocky Helmet|[of] p2a: Swampert
+|-enditem|p2a: Swampert|Rocky Helmet|[from] move: Knock Off|[of] p1a: Beedrill
+|move|p2a: Swampert|Stealth Rock|p1a: Beedrill
+|-sidestart|p1: Bot Leni|move: Stealth Rock
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Beedrill|U-turn|p2a: Swampert
+|-damage|p2a: Swampert|17/100
+
+|
+|switch|p1a: Hydreigon|Hydreigon, F, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Swampert|Roar|p1a: Hydreigon
+|drag|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Celebi|Giga Drain|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-heal|p1a: Celebi|98/100|[from] drain|[of] p2a: Swampert
+|faint|p2a: Swampert
+|
+|upkeep
+
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|100/100
+|turn|17
+
+|
+|move|p2a: Togekiss|Aura Sphere|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|85/100
+|-zpower|p1a: Celebi
+|move|p1a: Celebi|Shattered Psyche|p2a: Togekiss|[zeffect]
+|-damage|p2a: Togekiss|32/100
+|
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Celebi|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Celebi|Dazzling Gleam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+
+|c|☆drugtio|oh yea thats faster than hydr
+
+|inactive|drugtio has 120 seconds left.
+
+|c|☆drugtio|i guess it makes sense hyrdei doesnt look super aerodynamic
+
+|c|☆drugtio|celebis like a little fairy magic sprite flitting around type thing
+
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|32/100
+|turn|20
+
+|
+|move|p2a: Togekiss|Air Slash|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|12/100
+|move|p1a: Celebi|Psychic|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+
+|-message|drugtio forfeited.
+
+|
+|win|Bot Leni

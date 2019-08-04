@@ -1,0 +1,339 @@
+|init|battle
+|title|Stompe vs. nnothisispatrick
+|j|☆Stompe
+|j|☆nnothisispatrick
+|player|p1|Stompe|102|1275
+|player|p2|nnothisispatrick|246|1406
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Meloetta|item
+|poke|p1|Jirachi|item
+|poke|p1|Zapdos|item
+|poke|p1|Darmanitan, M|item
+|poke|p1|Pidgeot, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Greninja, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Kartana|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|
+|start
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Darmanitan|atk|1
+|turn|1
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: Stompe|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Landorus|Rock Tomb|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|70/100
+|-unboost|p1a: Zapdos|spe|1
+|move|p1a: Zapdos|Defog|p2a: Landorus
+|-unboost|p2a: Landorus|evasion|1
+|-sideend|p1: Stompe|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|
+|-heal|p1a: Zapdos|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|move|p2a: Heatran|Flame Charge|p1a: Darmanitan
+|-resisted|p1a: Darmanitan
+|-damage|p1a: Darmanitan|84/100
+|-boost|p2a: Heatran|spe|1
+|
+|upkeep
+|turn|5
+
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Darmanitan|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|83/100
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Hydreigon|U-turn|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|53/100
+
+|
+|switch|p1a: Zapdos|Zapdos|82/100|[from]move: U-turn
+|move|p2a: Greninja|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|4/100
+|
+|-heal|p1a: Zapdos|10/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Zapdos|Zapdos|10/100
+|move|p2a: Landorus|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: Stompe|move: Stealth Rock
+|
+|-heal|p1a: Zapdos|16/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Landorus|Rock Tomb|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+
+|
+|switch|p1a: Darmanitan|Darmanitan, M|84/100
+|-damage|p1a: Darmanitan|59/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Darmanitan|Flare Blitz|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Hydreigon|Hydreigon, M|83/100
+|-damage|p1a: Hydreigon|71/100|[from] Stealth Rock
+|move|p2a: Heatran|Flame Charge|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|58/100
+|-boost|p2a: Heatran|spe|1
+|
+|upkeep
+|turn|13
+
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Zapdos
+|-damage|p2a: Zapdos|54/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Zapdos
+|-damage|p2a: Zapdos|12/100
+|move|p2a: Zapdos|Volt Switch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|43/100
+
+|
+|switch|p2a: Jirachi|Jirachi|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Jirachi|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p1a: Darmanitan|Darmanitan, M|59/100
+|-damage|p1a: Darmanitan|34/100|[from] Stealth Rock
+|turn|16
+
+|
+|switch|p2a: Zapdos|Zapdos|12/100
+|move|p1a: Darmanitan|Flare Blitz|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-damage|p1a: Darmanitan|18/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-damage|p1a: Darmanitan|13/100|[from] Recoil
+|faint|p2a: Zapdos
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|53/100
+|turn|17
+
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Greninja|Water Shuriken|p1a: Jirachi
+|-damage|p1a: Jirachi|88/100
+|-damage|p1a: Jirachi|82/100
+|-damage|p1a: Jirachi|76/100
+|-damage|p1a: Jirachi|70/100
+|-hitcount|p1a: Jirachi|4
+|
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|switch|p1a: Meloetta|Meloetta|100/100
+|-damage|p1a: Meloetta|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Meloetta|Relic Song|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|79/100
+|-status|p2a: Heatran|slp|[from] move: Relic Song
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|cant|p2a: Heatran|slp
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Meloetta|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Meloetta|def|1
+|-unboost|p1a: Meloetta|spd|1
+|faint|p2a: Heatran
+|
+|upkeep
+
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|21
+
+|
+|switch|p1a: Darmanitan|Darmanitan, M|13/100
+|-damage|p1a: Darmanitan|0 fnt|[from] Stealth Rock
+|faint|p1a: Darmanitan
+|move|p2a: Jirachi|Iron Head|p1: Darmanitan|[notarget]
+|-fail|p2a: Jirachi
+|
+|upkeep
+
+|
+|switch|p1a: Jirachi|Jirachi|76/100
+|-damage|p1a: Jirachi|70/100|[from] Stealth Rock
+|turn|22
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Body Slam|p2a: Landorus
+|-damage|p2a: Landorus|85/100
+|
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Landorus|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+
+|
+|switch|p1a: Pidgeot|Pidgeot, M|100/100
+|-damage|p1a: Pidgeot|76/100|[from] Stealth Rock
+|turn|24
+
+|
+|detailschange|p1a: Pidgeot|Pidgeot-Mega, M
+|-mega|p1a: Pidgeot|Pidgeot|Pidgeotite
+|move|p1a: Pidgeot|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|11/100
+|-start|p2a: Landorus|confusion
+|-activate|p2a: Landorus|confusion
+|move|p2a: Landorus|Rock Tomb|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|11/100
+|-unboost|p1a: Pidgeot|spe|1
+|
+|upkeep
+|turn|25
+
+|
+|-activate|p2a: Landorus|confusion
+|move|p2a: Landorus|Rock Tomb|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|
+|upkeep
+
+|
+|switch|p1a: Meloetta|Meloetta|88/100
+|-damage|p1a: Meloetta|76/100|[from] Stealth Rock
+|turn|26
+
+|
+|-end|p2a: Landorus|confusion
+|move|p2a: Landorus|Explosion|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p2a: Landorus
+|faint|p1a: Meloetta
+|
+|win|nnothisispatrick

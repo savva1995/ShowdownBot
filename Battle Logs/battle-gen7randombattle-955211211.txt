@@ -1,0 +1,327 @@
+|init|battle
+|title|yup999 vs. Albytoce
+|j|☆yup999
+|j|☆Albytoce
+|player|p1|yup999|101|1375
+|player|p2|Albytoce|102|1364
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tsareena|Tsareena, L84, F, shiny|100/100
+|switch|p2a: Toxapex|Toxapex, L80, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yup999)
+|inactive|Albytoce also wants the timer to be on.
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Tsareena|U-turn|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Tsareena|psn
+|
+|-damage|p1a: Tsareena|88/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Toxapex|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|66/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Victreebel|Victreebel, L88, F|100/100
+|move|p1a: Hippowdon|Earthquake|p2a: Victreebel
+|-damage|p2a: Victreebel|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victreebel|51/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Tsareena|Tsareena, L84, F, shiny|88/100 psn
+|-zpower|p2a: Victreebel
+|move|p2a: Victreebel|Bloom Doom|p1a: Tsareena|[zeffect]
+|-resisted|p1a: Tsareena
+|-damage|p1a: Tsareena|47/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victreebel|45/100|[from] Sandstorm
+|-damage|p1a: Tsareena|41/100 psn|[from] Sandstorm
+|-damage|p1a: Tsareena|28/100 psn|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|move|p1a: Tsareena|Knock Off|p2a: Victreebel
+|-damage|p2a: Victreebel|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victreebel|4/100|[from] Sandstorm
+|-damage|p1a: Tsareena|22/100 psn|[from] Sandstorm
+|-damage|p1a: Tsareena|10/100 psn|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Victreebel|Knock Off|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|-enditem|p1a: Tsareena|Choice Band|[from] move: Knock Off|[of] p2a: Victreebel
+|faint|p1a: Tsareena
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Vanilluxe|Vanilluxe, L85, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|7
+
+|
+|move|p1a: Vanilluxe|Flash Cannon|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|-damage|p1a: Vanilluxe|91/100|[from] item: Life Orb
+|faint|p2a: Victreebel
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Delphox|Delphox, L86, F|100/100
+|turn|8
+
+|
+|switch|p1a: Dewgong|Dewgong, L89, M|100/100
+|move|p2a: Delphox|Calm Mind|p2a: Delphox
+|-boost|p2a: Delphox|spa|1
+|-boost|p2a: Delphox|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Delphox|95/100|[from] Hail
+|upkeep
+|turn|9
+
+|
+|move|p2a: Delphox|Fire Blast|p1a: Dewgong
+|-damage|p1a: Dewgong|61/100
+|-damage|p2a: Delphox|85/100|[from] item: Life Orb
+|move|p1a: Dewgong|Encore|p2a: Delphox
+|-start|p2a: Delphox|Encore
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Delphox|79/100|[from] Hail
+|-heal|p1a: Dewgong|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Dewgong|Protect|p1a: Dewgong
+|-singleturn|p1a: Dewgong|Protect
+|move|p2a: Delphox|Fire Blast|p1a: Dewgong
+|-activate|p1a: Dewgong|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Delphox|73/100|[from] Hail
+|-heal|p1a: Dewgong|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Delphox|Fire Blast|p1a: Dewgong|[miss]
+|-miss|p2a: Delphox|p1a: Dewgong
+|move|p1a: Dewgong|Surf|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|35/100
+|
+|-weather|none
+|-heal|p1a: Dewgong|80/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Delphox|Fire Blast|p1a: Dewgong
+|-damage|p1a: Dewgong|41/100
+|-damage|p2a: Delphox|25/100|[from] item: Life Orb
+|move|p1a: Dewgong|Surf|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|-heal|p1a: Dewgong|47/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gardevoir|Gardevoir, L81, M|100/100
+|-ability|p2a: Gardevoir|Thick Fat|[from] ability: Trace|[of] p1a: Dewgong
+|turn|13
+
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, L81, M
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Gardevoir|Hyper Voice|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|upkeep
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|turn|14
+
+|
+|switch|p2a: Lickilicky|Lickilicky, L89, M|100/100
+|-ability|p2a: Lickilicky|Cloud Nine
+|move|p1a: Dhelmise|Anchor Shot|p2a: Lickilicky
+|-damage|p2a: Lickilicky|71/100
+|-activate|p2a: Lickilicky|trapped
+|
+|-heal|p2a: Lickilicky|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Vanilluxe|Vanilluxe, L85, F|91/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Lickilicky|Swords Dance|p2a: Lickilicky
+|-boost|p2a: Lickilicky|atk|2
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Lickilicky|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Vanilluxe|Explosion|p2a: Lickilicky
+|-damage|p2a: Lickilicky|23/100
+|faint|p1a: Vanilluxe
+|move|p2a: Lickilicky|Knock Off|p1: Vanilluxe|[notarget]
+|-fail|p2a: Lickilicky
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Lickilicky|29/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Sableye|Sableye, L81, M|100/100
+|turn|17
+
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Lickilicky
+|-status|p2a: Lickilicky|brn
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Lickilicky|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Lickilicky|29/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Sableye|Calm Mind|p1a: Sableye
+|-boost|p1a: Sableye|spa|1
+|-boost|p1a: Sableye|spd|1
+|move|p2a: Lickilicky|Swords Dance|p2a: Lickilicky
+|-boost|p2a: Lickilicky|atk|2
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Lickilicky|79/100 brn|[from] move: Wish|[wisher] Lickilicky
+|-heal|p2a: Lickilicky|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Lickilicky|79/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, M|72/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Lickilicky|Swords Dance|p2a: Lickilicky
+|-boost|p2a: Lickilicky|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Lickilicky|85/100 brn|[from] item: Leftovers
+|-heal|p1a: Hippowdon|78/100|[from] item: Leftovers
+|-damage|p2a: Lickilicky|79/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Lickilicky|Body Slam|p1a: Hippowdon
+|-damage|p1a: Hippowdon|34/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Lickilicky
+|drag|p2a: Gardevoir|Gardevoir-Mega, L81, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gardevoir|94/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|40/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Gardevoir|Hyper Voice|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gardevoir|88/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|turn|22
+
+|
+|switch|p2a: Lickilicky|Lickilicky, L89, M|79/100 brn
+|-ability|p2a: Lickilicky|Cloud Nine
+|move|p1a: Dhelmise|Anchor Shot|p2a: Lickilicky
+|-damage|p2a: Lickilicky|50/100 brn
+|-activate|p2a: Lickilicky|trapped
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Lickilicky|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Lickilicky|50/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|move|p1a: Dhelmise|Power Whip|p2a: Lickilicky|[miss]
+|-miss|p1a: Dhelmise|p2a: Lickilicky
+|
+|-weather|none
+|-heal|p2a: Lickilicky|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Lickilicky|50/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p2a: Lickilicky|Swords Dance|p2a: Lickilicky
+|-boost|p2a: Lickilicky|atk|2
+|move|p1a: Dhelmise|Power Whip|p2a: Lickilicky|[miss]
+|-miss|p1a: Dhelmise|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|99/100 brn|[from] move: Wish|[wisher] Lickilicky
+|-heal|p2a: Lickilicky|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Lickilicky|94/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|-message|yup999 forfeited.
+
+|
+|win|Albytoce

@@ -1,0 +1,51 @@
+|init|battle
+|title|regulus7891 vs. Blue3465
+|j|☆regulus7891
+|j|☆Blue3465
+|player|p1|regulus7891|160|1230
+|player|p2|Blue3465|92|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles Ubers
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Blastoise, F|item
+|poke|p1|Togekiss, F|item
+|poke|p1|Eevee, M|item
+|poke|p1|Snorlax, F|item
+|poke|p1|Mewtwo|item
+|poke|p1|Groudon|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Xerneas|item
+|poke|p2|Greninja, M|item
+|poke|p2|Raichu-Alola, M|item
+|poke|p2|Castform, F|item
+|poke|p2|Necrozma-Dusk-Mane|item
+|teampreview
+|
+|start
+|switch|p1a: Blastoise|Blastoise, F, shiny|100/100
+|switch|p1b: Eevee|Eevee, M, shiny|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|switch|p2b: Castform|Castform, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-formechange|p2b: Castform|Castform-Sunny|[msg]|[from] ability: Forecast
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by regulus7891)
+|inactive|regulus7891 has 120 seconds left.
+|-message|regulus7891 forfeited.
+|
+|win|Blue3465
+|l|☆regulus7891
+|raw|regulus7891's rating: 1230 &rarr; <strong>1191</strong><br />(-39 for losing)
+|raw|Blue3465's rating: 1000 &rarr; <strong>1063</strong><br />(+63 for winning)
+|l|☆Blue3465

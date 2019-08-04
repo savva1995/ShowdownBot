@@ -1,0 +1,212 @@
+|init|battle
+|title|jiangyounan vs. sunajeb
+|j|☆jiangyounan
+|j|☆sunajeb
+|player|p1|jiangyounan|265|1438
+|player|p2|sunajeb|74|1378
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kartana|item
+|poke|p1|Tapu Bulu|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Greninja, M|item
+|poke|p1|Victini|item
+|poke|p1|Medicham, M|item
+|poke|p2|Tangrowth, M|item
+|poke|p2|Toxapex, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Charizard, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jiangyounan)
+
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Flash|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Flash
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Flash|atk|1
+|turn|1
+
+|
+|switch|p2a: Carlissan|Landorus-Therian, M|100/100
+|-ability|p2a: Carlissan|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Carlissan
+|-immune|p2a: Carlissan
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Carlissan|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|86/100
+
+|
+|switch|p2a: my headphones|Tangrowth, M|100/100|[from]move: U-turn
+|move|p1a: Landorus|Stealth Rock|p2a: my headphones
+|-sidestart|p2: sunajeb|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: my headphones|Knock Off|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|70/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: hot stuff|Heatran, F|100/100
+|-damage|p2a: hot stuff|88/100|[from] Stealth Rock
+|-zpower|p1a: Victini
+|move|p1a: Victini|Z-Celebrate|p1a: Victini|[anim]Celebrate
+|-boost|p1a: Victini|atk|1|[zeffect]
+|-boost|p1a: Victini|def|1|[zeffect]
+|-boost|p1a: Victini|spa|1|[zeffect]
+|-boost|p1a: Victini|spd|1|[zeffect]
+|-boost|p1a: Victini|spe|1|[zeffect]
+|-activate|p1a: Victini|move: Celebrate
+|
+|-heal|p2a: hot stuff|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Victini|Focus Blast|p2a: hot stuff|[miss]
+|-miss|p1a: Victini|p2a: hot stuff
+|move|p2a: hot stuff|Earth Power|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|32/100
+|
+|-heal|p2a: hot stuff|100/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|
+|move|p1a: Victini|Focus Blast|p2a: hot stuff
+|-supereffective|p2a: hot stuff
+|-damage|p2a: hot stuff|25/100
+|move|p2a: hot stuff|Earth Power|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|-heal|p2a: hot stuff|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|86/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: hot stuff|atk|1
+|turn|7
+
+|
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: hot stuff|Stealth Rock|p1a: Landorus
+|-sidestart|p1: jiangyounan|move: Stealth Rock
+|
+|-heal|p2a: hot stuff|37/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Landorus|Earthquake|p2a: hot stuff
+|-supereffective|p2a: hot stuff
+|-damage|p2a: hot stuff|0 fnt
+|faint|p2a: hot stuff
+|
+|upkeep
+
+|
+|switch|p2a: Carlissan|Landorus-Therian, M|100/100
+|-damage|p2a: Carlissan|88/100|[from] Stealth Rock
+|-ability|p2a: Carlissan|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|9
+
+|
+|move|p2a: Carlissan|Explosion|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p2a: Carlissan
+|faint|p1a: Landorus
+|
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham, M|100/100
+|switch|p2a: Flash|Tapu Koko|100/100
+|-damage|p2a: Flash|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Flash
+|-damage|p1a: Medicham|94/100|[from] Stealth Rock
+|turn|10
+
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Flash
+|-damage|p2a: Flash|54/100
+|cant|p2a: Flash|flinch
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: my headphones|Tangrowth, M|100/100
+|-damage|p2a: my headphones|88/100|[from] Stealth Rock
+|move|p1a: Medicham|Zen Headbutt|p2a: my headphones
+|-damage|p2a: my headphones|43/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: pik|Toxapex, M|100/100
+|-damage|p2a: pik|88/100|[from] Stealth Rock
+|move|p1a: Medicham|Zen Headbutt|p2a: pik
+|-supereffective|p2a: pik
+|-damage|p2a: pik|0 fnt
+|faint|p2a: pik
+|
+|upkeep
+
+|
+|switch|p2a: grrr|Charizard, M|100/100
+|-damage|p2a: grrr|51/100|[from] Stealth Rock
+|turn|13
+
+|
+|detailschange|p2a: grrr|Charizard-Mega-X, M
+|-mega|p2a: grrr|Charizard|Charizardite X
+|move|p1a: Medicham|Zen Headbutt|p2a: grrr
+|-crit|p2a: grrr
+|-damage|p2a: grrr|0 fnt
+|faint|p2a: grrr
+|
+|upkeep
+
+|-message|sunajeb forfeited.
+
+|
+|win|jiangyounan

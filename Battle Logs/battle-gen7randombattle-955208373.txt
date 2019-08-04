@@ -1,0 +1,144 @@
+|init|battle
+|title|Versac_aye_aye_ron vs. K2xm
+|j|☆Versac_aye_aye_ron
+|j|☆K2xm
+|player|p1|Versac_aye_aye_ron|2|1116
+|player|p2|K2xm|167|1142
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Keldeo|Keldeo, L80|100/100
+|switch|p2a: Pikachu|Pikachu, L90, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Versac_aye_aye_ron)
+|
+|switch|p1a: Electrode|Electrode, L89|100/100
+|move|p2a: Pikachu|Grass Knot|p1a: Electrode
+|-damage|p1a: Electrode|68/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Chesnaught|Chesnaught, L82, F|100/100
+|move|p1a: Electrode|Signal Beam|p2a: Chesnaught
+|-damage|p2a: Chesnaught|70/100
+|-damage|p1a: Electrode|58/100|[from] item: Life Orb
+|
+|-heal|p2a: Chesnaught|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Electrode|Thunderbolt|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|
+|-heal|p2a: Chesnaught|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|57/100
+|-damage|p1a: Electrode|48/100|[from] item: Life Orb
+|move|p2a: Chesnaught|Wood Hammer|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|-status|p2a: Chesnaught|par|[from] ability: Static|[of] p1a: Electrode
+|-damage|p2a: Chesnaught|43/100 par|[from] Recoil
+|faint|p1a: Electrode
+|
+|-heal|p2a: Chesnaught|49/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: K2xm
+|turn|5
+
+|
+|switch|p2a: Incineroar|Incineroar, L86, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Pyroar|atk|1
+|move|p1a: Pyroar|Sunny Day|p1a: Pyroar
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p2a: Incineroar|Fake Out|p1a: Pyroar
+|-damage|p1a: Pyroar|88/100
+|cant|p1a: Pyroar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|81/100
+|move|p2a: Incineroar|Knock Off|p1a: Pyroar
+|-damage|p1a: Pyroar|42/100
+|-enditem|p1a: Pyroar|Heat Rock|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Crawdaunt|Crawdaunt, L82, M|100/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|50/100
+|-damage|p2a: Incineroar|67/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|38/100
+|move|p2a: Incineroar|U-turn|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+
+|
+|switch|p2a: Pikachu|Pikachu, L90, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Genesect|Genesect, L78|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|turn|10
+
+|
+|move|p2a: Pikachu|Knock Off|p1a: Genesect
+|-damage|p1a: Genesect|59/100
+|-enditem|p1a: Genesect|Life Orb|[from] move: Knock Off|[of] p2a: Pikachu
+|move|p1a: Genesect|Shift Gear|p1a: Genesect
+|-boost|p1a: Genesect|spe|2
+|-boost|p1a: Genesect|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+
+|-message|Versac_aye_aye_ron forfeited.
+
+|
+|win|K2xm

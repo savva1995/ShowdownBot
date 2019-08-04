@@ -1,0 +1,412 @@
+|init|battle
+|title|shabaodd vs. lt63rb Karma
+|j|☆shabaodd
+|j|☆lt63rb Karma
+|player|p1|shabaodd|7|1650
+|player|p2|lt63rb Karma|101|1678
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Medicham, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Kartana|item
+|poke|p1|Tapu Bulu|item
+|poke|p1|Greninja, M|item
+|poke|p2|Swampert, F|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Manaphy|item
+|poke|p2|Pelipper, F|item
+|teampreview
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lt63rb Karma)
+
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+
+|
+|move|p2a: Tornadus|Taunt|p1a: Garchomp
+|-start|p1a: Garchomp|move: Taunt
+|cant|p1a: Garchomp|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Tornadus|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|88/100
+|-damage|p2a: Tornadus|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Tornadus|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Garchomp|Rock Tomb|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|73/100
+|-unboost|p2a: Pelipper|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Pelipper|Scald|p1a: Magnezone
+|-damage|p1a: Magnezone|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Magnezone|Flash Cannon|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|79/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|detailschange|p2a: Swampert|Swampert-Mega, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Waterfall|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Swampert|85/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|75/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|81/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Tapu Bulu|Swords Dance|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tapu Bulu|87/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|94/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+
+|
+|move|p2a: Tornadus|Hurricane|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|36/100
+|-start|p1a: Tapu Bulu|confusion
+|-activate|p1a: Tapu Bulu|confusion
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|50/100
+|-heal|p1a: Tapu Bulu|62/100|[from] drain|[of] p2a: Tornadus
+|-damage|p1a: Tapu Bulu|46/100|[from] item: Rocky Helmet|[of] p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tapu Bulu|52/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|58/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Garchomp|Garchomp, M|88/100
+|move|p2a: Tornadus|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Garchomp|54/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Pelipper|Pelipper, F|73/100
+|move|p1a: Garchomp|Rock Tomb|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|45/100
+|-unboost|p2a: Pelipper|spe|1
+|
+|-weather|none
+|-heal|p1a: Garchomp|60/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: lt63rb Karma|move: Stealth Rock
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|96/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Garchomp|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|move|p2a: Pelipper|Defog|p1a: Garchomp
+|-unboost|p1a: Garchomp|evasion|1
+|-sideend|p2: lt63rb Karma|Stealth Rock|[from] move: Defog|[of] p2a: Pelipper
+|
+|-damage|p2a: Pelipper|89/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Greninja
+|-sidestart|p2: lt63rb Karma|move: Stealth Rock
+|
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|58/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Greninja|Ice Beam|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana, shiny|100/100
+|turn|14
+
+|
+|switch|p1a: Magnezone|Magnezone|45/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|83/100
+|-damage|p2a: Tornadus|58/100|[from] Stealth Rock
+|
+|-heal|p1a: Magnezone|51/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Kartana|Kartana, shiny|100/100
+|move|p2a: Tornadus|U-turn|p1a: Kartana
+|-damage|p1a: Kartana|86/100
+
+|
+|switch|p2a: Pelipper|Pelipper, F|89/100 tox|[from]move: U-turn
+|-damage|p2a: Pelipper|65/100 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kartana|92/100|[from] Grassy Terrain
+|-damage|p2a: Pelipper|58/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Kartana|Leaf Blade|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kartana|98/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|92/100
+|-damage|p2a: Tornadus|67/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Kartana|Leaf Blade|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p1a: Kartana|82/100|[from] item: Rocky Helmet|[of] p2a: Tornadus
+|faint|p2a: Tornadus
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kartana|88/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert-Mega, F|85/100
+|-damage|p2a: Swampert|79/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p2a: Swampert|Superpower|p1a: Kartana
+|-supereffective|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2a: Swampert|def|1
+|faint|p1a: Kartana
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham, M|100/100
+|turn|19
+
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Swampert
+|-damage|p2a: Swampert|46/100
+|cant|p2a: Swampert|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Garchomp|Garchomp, M|60/100
+|move|p2a: Swampert|Waterfall|p1a: Garchomp
+|-damage|p1a: Garchomp|19/100
+|-damage|p2a: Swampert|34/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Swampert|17/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+
+|
+|move|p2a: Swampert|Waterfall|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Swampert|5/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Swampert|0 fnt|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|faint|p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham-Mega, M|100/100
+|switch|p2a: Greninja|Greninja-Ash, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Medicham|Fake Out|p2a: Greninja
+|-damage|p2a: Greninja|51/100
+|cant|p2a: Greninja|flinch
+|
+|-weather|none
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Magnezone|Magnezone|51/100
+|move|p2a: Greninja|Surf|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|24
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Greninja|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100
+|
+|-heal|p2a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p1a: Medicham|Medicham-Mega, M|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Medicham
+|-damage|p1a: Medicham|46/100
+|
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|c|☆shabaodd|t
+
+|inactive|lt63rb Karma has 120 seconds left.
+
+|
+|switch|p2a: Manaphy|Manaphy|100/100
+|-damage|p2a: Manaphy|88/100|[from] Stealth Rock
+|move|p1a: Medicham|High Jump Kick|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja-Ash, M|51/100
+|-damage|p2a: Greninja|39/100|[from] Stealth Rock
+|turn|27
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|75/100
+|-damage|p2a: Ferrothorn|69/100|[from] Stealth Rock
+|switch|p1a: Greninja|Greninja, M|100/100
+|
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Medicham|Medicham-Mega, M|46/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|29
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|44/100
+|cant|p2a: Ferrothorn|flinch
+|
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|13/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|win|lt63rb Karma

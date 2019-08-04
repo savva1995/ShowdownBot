@@ -1,0 +1,397 @@
+|init|battle
+|title|Lachrymose vs. UnknwnDarkZ
+|j|☆Lachrymose
+|j|☆UnknwnDarkZ
+|player|p1|Lachrymose|2|1267
+|player|p2|UnknwnDarkZ|1|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golurk|Golurk, L88|100/100
+|switch|p2a: Crustle|Crustle, L89, F|100/100
+|turn|1
+|
+|move|p1a: Golurk|Dynamic Punch|p2a: Crustle
+|-damage|p2a: Crustle|76/100
+|-start|p2a: Crustle|confusion
+|-activate|p2a: Crustle|confusion
+|move|p2a: Crustle|Spikes|p1a: Golurk
+|-sidestart|p1: Lachrymose|Spikes
+|
+|-heal|p2a: Crustle|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Golurk|Stealth Rock|p2a: Crustle
+|-sidestart|p2: UnknwnDarkZ|move: Stealth Rock
+|-activate|p2a: Crustle|confusion
+|move|p2a: Crustle|Spikes|p1a: Golurk
+|-sidestart|p1: Lachrymose|Spikes
+|
+|-heal|p2a: Crustle|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|-damage|p1a: Dhelmise|84/100|[from] Spikes
+|-activate|p2a: Crustle|confusion
+|-damage|p2a: Crustle|79/100|[from] confusion
+|
+|-heal|p2a: Crustle|85/100|[from] item: Leftovers
+|-heal|p1a: Dhelmise|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|-activate|p2a: Crustle|confusion
+|move|p2a: Crustle|X-Scissor|p1a: Dhelmise
+|-damage|p1a: Dhelmise|58/100
+|move|p1a: Dhelmise|Rapid Spin|p2a: Crustle
+|-resisted|p2a: Crustle
+|-damage|p2a: Crustle|82/100
+|-sideend|p1: Lachrymose|Spikes|[from] move: Rapid Spin|[of] p1a: Dhelmise
+|
+|-heal|p2a: Crustle|88/100|[from] item: Leftovers
+|-heal|p1a: Dhelmise|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|-end|p2a: Crustle|confusion
+|move|p2a: Crustle|X-Scissor|p1a: Dhelmise
+|-damage|p1a: Dhelmise|30/100
+|move|p1a: Dhelmise|Anchor Shot|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-damage|p2a: Crustle|24/100
+|-activate|p2a: Crustle|trapped
+|
+|-heal|p2a: Crustle|30/100|[from] item: Leftovers
+|-heal|p1a: Dhelmise|36/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Crustle|X-Scissor|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|-heal|p2a: Crustle|36/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UnknwnDarkZ)
+
+|inactive|Lachrymose has 120 seconds left.
+
+|
+|switch|p1a: Golurk|Golurk, L88|100/100
+|turn|7
+
+|
+|move|p1a: Golurk|Earthquake|p2a: Crustle
+|-damage|p2a: Crustle|1/100
+|move|p2a: Crustle|Earthquake|p1a: Golurk
+|-damage|p1a: Golurk|69/100
+|
+|-heal|p2a: Crustle|7/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Golurk|Dynamic Punch|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+
+|
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-damage|p2a: Stakataka|95/100|[from] Stealth Rock
+|-item|p2a: Stakataka|Air Balloon
+|turn|9
+
+|
+|move|p1a: Golurk|Dynamic Punch|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|14/100
+|-enditem|p2a: Stakataka|Air Balloon
+|-start|p2a: Stakataka|confusion
+|-activate|p2a: Stakataka|confusion
+|-damage|p2a: Stakataka|6/100|[from] confusion
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Golurk|Dynamic Punch|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|faint|p2a: Stakataka
+|
+|upkeep
+
+|
+|switch|p2a: Regirock|Regirock, L88|100/100
+|-damage|p2a: Regirock|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Golurk|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|43/100
+|move|p2a: Regirock|Curse|p2a: Regirock
+|-unboost|p2a: Regirock|spe|1
+|-boost|p2a: Regirock|atk|1
+|-boost|p2a: Regirock|def|1
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Golurk|Dynamic Punch|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|22/100
+|-start|p2a: Regirock|confusion
+|-activate|p2a: Regirock|confusion
+|move|p2a: Regirock|Rest|p2a: Regirock
+|-status|p2a: Regirock|slp|[from] move: Rest
+|-heal|p2a: Regirock|100/100 slp|[silent]
+|-enditem|p2a: Regirock|Chesto Berry|[eat]
+|-curestatus|p2a: Regirock|slp|[msg]
+|
+|upkeep
+|turn|13
+
+|inactive|Lachrymose has 120 seconds left.
+
+|
+|switch|p1a: Giratina|Giratina, L78|100/100
+|-ability|p1a: Giratina|Pressure
+|-activate|p2a: Regirock|confusion
+|-damage|p2a: Regirock|95/100|[from] confusion
+|
+|upkeep
+|turn|14
+
+|
+|-activate|p2a: Regirock|confusion
+|-damage|p2a: Regirock|89/100|[from] confusion
+|move|p1a: Giratina|Roar|p2a: Regirock
+|drag|p2a: Nihilego|Nihilego, L82|100/100
+|-damage|p2a: Nihilego|88/100|[from] Stealth Rock
+|-item|p2a: Nihilego|Air Balloon
+|
+|upkeep
+|turn|15
+
+|inactive|Lachrymose has 120 seconds left.
+
+|
+|move|p2a: Nihilego|Power Gem|p1a: Giratina
+|-damage|p1a: Giratina|75/100
+|move|p1a: Giratina|Shadow Ball|p2a: Nihilego
+|-damage|p2a: Nihilego|69/100
+|-enditem|p2a: Nihilego|Air Balloon
+|-unboost|p2a: Nihilego|spd|1
+|
+|-heal|p1a: Giratina|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Nihilego|Toxic Spikes|p1a: Giratina
+|-sidestart|p1: Lachrymose|move: Toxic Spikes
+|move|p1a: Giratina|Shadow Ball|p2a: Nihilego
+|-damage|p2a: Nihilego|40/100
+|
+|-heal|p1a: Giratina|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Nihilego|Toxic Spikes|p1a: Giratina
+|-sidestart|p1: Lachrymose|move: Toxic Spikes
+|move|p1a: Giratina|Shadow Ball|p2a: Nihilego
+|-damage|p2a: Nihilego|12/100
+|-unboost|p2a: Nihilego|spd|1
+|
+|-heal|p1a: Giratina|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Nihilego|Power Gem|p1a: Giratina
+|-damage|p1a: Giratina|69/100
+|move|p1a: Giratina|Shadow Ball|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|faint|p2a: Nihilego
+|
+|-heal|p1a: Giratina|75/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Diancie|Diancie, L80|100/100
+|-damage|p2a: Diancie|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|detailschange|p2a: Diancie|Diancie-Mega, L80
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Calm Mind|p2a: Diancie
+|-boost|p2a: Diancie|spa|1
+|-boost|p2a: Diancie|spd|1
+|move|p1a: Giratina|Shadow Ball|p2a: Diancie
+|-damage|p2a: Diancie|65/100
+|
+|-heal|p1a: Giratina|81/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Diancie|Moonblast|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|upkeep
+
+|inactive|Lachrymose has 120 seconds left.
+
+|
+|switch|p1a: Marowak|Marowak-Alola, L84, M|100/100
+|-status|p1a: Marowak|tox
+|turn|21
+
+|
+|move|p2a: Diancie|Earth Power|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|upkeep
+
+|
+|switch|p1a: Shedinja|Shedinja, L89|100/100
+|-status|p1a: Shedinja|tox
+|turn|22
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, F|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Shedinja|Will-O-Wisp|p2a: Gigalith
+|-status|p2a: Gigalith|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shedinja|0 fnt|[from] Sandstorm
+|faint|p1a: Shedinja
+|-heal|p2a: Gigalith|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Gigalith|88/100 brn|[from] brn
+|upkeep
+
+|inactive|Lachrymose has 120 seconds left.
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, M|100/100
+|-status|p1a: Cofagrigus|tox
+|turn|23
+
+|
+|move|p1a: Cofagrigus|Nasty Plot|p1a: Cofagrigus
+|-boost|p1a: Cofagrigus|spa|2
+|move|p2a: Gigalith|Stone Edge|p1a: Cofagrigus
+|-crit|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|72/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cofagrigus|66/100 tox|[from] Sandstorm
+|-heal|p1a: Cofagrigus|72/100 tox|[from] item: Leftovers
+|-heal|p2a: Gigalith|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|66/100 tox|[from] psn
+|-damage|p2a: Gigalith|88/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Cofagrigus|Hidden Power|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|46/100 brn
+|move|p2a: Gigalith|Stone Edge|p1a: Cofagrigus|[miss]
+|-miss|p2a: Gigalith|p1a: Cofagrigus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cofagrigus|60/100 tox|[from] Sandstorm
+|-heal|p1a: Cofagrigus|66/100 tox|[from] item: Leftovers
+|-heal|p2a: Gigalith|52/100 brn|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|54/100 tox|[from] psn
+|-damage|p2a: Gigalith|46/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|
+|move|p1a: Cofagrigus|Hidden Power|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-crit|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cofagrigus|48/100 tox|[from] Sandstorm
+|-heal|p1a: Cofagrigus|54/100 tox|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|36/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Regirock|Regirock, L88|89/100
+|-damage|p2a: Regirock|77/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p2a: Regirock|Rock Slide|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|12/100 tox
+|move|p1a: Cofagrigus|Hidden Power|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|40/100
+|
+|-weather|none
+|-heal|p1a: Cofagrigus|18/100 tox|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|0 fnt|[from] psn
+|faint|p1a: Cofagrigus
+|upkeep
+
+|
+|switch|p1a: Golurk|Golurk, L88|69/100
+|-status|p1a: Golurk|tox
+|turn|27
+
+|
+|move|p1a: Golurk|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|-damage|p1a: Golurk|63/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Diancie|Diancie-Mega, L80|65/100
+|-damage|p2a: Diancie|53/100|[from] Stealth Rock
+|turn|28
+
+|
+|move|p2a: Diancie|Moonblast|p1a: Golurk
+|-damage|p1a: Golurk|15/100 tox
+|move|p1a: Golurk|Earthquake|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|win|Lachrymose

@@ -1,0 +1,35 @@
+|init|battle
+|title|Suareazy88 vs. TeenPussyMuncher
+|j|☆Suareazy88
+|j|☆TeenPussyMuncher
+|player|p1|Suareazy88|2|1151
+|player|p2|TeenPussyMuncher|167|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golurk|Golurk, L88|100/100
+|switch|p2a: Celebi|Celebi, L82|100/100
+|turn|1
+|
+|move|p2a: Celebi|Giga Drain|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|46/100
+|move|p1a: Golurk|Shadow Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|22/100
+|
+|-heal|p2a: Celebi|28/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|-message|Suareazy88 forfeited.
+
+|
+|win|TeenPussyMuncher

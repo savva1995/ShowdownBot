@@ -1,0 +1,498 @@
+|init|battle
+|title|nona221 vs. Cat25
+|j|☆nona221
+|j|☆Cat25
+|player|p1|nona221|163|2041
+|player|p2|Cat25|229|2017
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, L86, F|100/100
+|switch|p2a: Carbink|Carbink, L89|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nona221)
+|
+|switch|p2a: Bronzong|Bronzong, L84|100/100
+|move|p1a: Vaporeon|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|66/100
+|
+|-heal|p2a: Bronzong|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Vaporeon|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|42/100
+|move|p2a: Bronzong|Light Screen|p2a: Bronzong
+|-sidestart|p2: Cat25|move: Light Screen
+|
+|-heal|p2a: Bronzong|48/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Vaporeon|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|32/100
+|-status|p2a: Bronzong|brn
+|move|p2a: Bronzong|Toxic|p1a: Vaporeon
+|-status|p1a: Vaporeon|tox
+|
+|-heal|p2a: Bronzong|38/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|94/100 tox|[from] psn
+|-damage|p2a: Bronzong|32/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100
+|move|p1a: Vaporeon|Scald|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|90/100
+|-status|p2a: Alomomola|brn
+|
+|-heal|p1a: Vaporeon|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Alomomola|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|88/100 tox|[from] psn
+|-damage|p2a: Alomomola|90/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|nona221 has 120 seconds left.
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|100/100
+|move|p2a: Alomomola|Toxic|p1a: Yanmega
+|-status|p1a: Yanmega|tox
+|
+|-heal|p2a: Alomomola|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Yanmega|94/100 tox|[from] psn
+|-damage|p2a: Alomomola|90/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|nona221 has 120 seconds left.
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, F|88/100 tox
+|switch|p2a: Carbink|Carbink, L89|100/100
+|
+|-heal|p1a: Vaporeon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Vaporeon|88/100 tox|[from] psn
+|-sideend|p2: Cat25|move: Light Screen
+|upkeep
+|turn|7
+|inactive|nona221 has 120 seconds left.
+|inactive|Cat25 has 120 seconds left.
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100 brn
+|move|p1a: Vaporeon|Scald|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|80/100 brn
+|
+|-heal|p1a: Vaporeon|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Alomomola|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|82/100 tox|[from] psn
+|-damage|p2a: Alomomola|80/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Cat25 has 120 seconds left.
+|inactive|nona221 has 120 seconds left.
+|
+|move|p1a: Vaporeon|Heal Bell|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Heal Bell
+|-curestatus|p1a: Vaporeon|tox|[msg]
+|-curestatus|p1: Yanmega|tox|[msg]
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|86/100 brn|[from] item: Leftovers
+|-damage|p2a: Alomomola|80/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Cat25 has 120 seconds left.
+|inactive|nona221 has 120 seconds left.
+|
+|switch|p1a: Plusle|Plusle, L89, M|100/100
+|switch|p2a: Bronzong|Bronzong, L84|32/100 brn
+|
+|-heal|p2a: Bronzong|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Bronzong|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|nona221 has 120 seconds left.
+|
+|move|p1a: Plusle|Nasty Plot|p1a: Plusle
+|-boost|p1a: Plusle|spa|2
+|move|p2a: Bronzong|Light Screen|p2a: Bronzong
+|-sidestart|p2: Cat25|move: Light Screen
+|
+|-heal|p2a: Bronzong|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Plusle|Encore|p2a: Bronzong
+|-start|p2a: Bronzong|Encore
+|move|p2a: Bronzong|Light Screen||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|c|☆Cat25|bruh
+|
+|switch|p2a: Carbink|Carbink, L89|100/100
+|move|p1a: Plusle|Nasty Plot|p1a: Plusle
+|-boost|p1a: Plusle|spa|2
+|
+|upkeep
+|turn|13
+|inactive|Cat25 has 120 seconds left.
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Carbink
+|-damage|p2a: Carbink|62/100
+|move|p2a: Carbink|Moonblast|p1a: Plusle
+|-damage|p1a: Plusle|68/100
+|
+|-heal|p1a: Plusle|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Carbink
+|-damage|p2a: Carbink|24/100
+|move|p2a: Carbink|Moonblast|p1a: Plusle
+|-damage|p1a: Plusle|43/100
+|
+|-heal|p1a: Plusle|49/100|[from] item: Leftovers
+|-sideend|p2: Cat25|move: Light Screen
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Doublade|Doublade, L82, M|100/100
+|switch|p2a: Bronzong|Bronzong, L84|94/100 brn
+|
+|-heal|p2a: Bronzong|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|94/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100 brn
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, F|88/100
+|move|p2a: Alomomola|Scald|p1a: Vaporeon
+|-heal|p1a: Vaporeon|100/100|[from] ability: Water Absorb|[of] p2a: Alomomola
+|
+|-heal|p2a: Alomomola|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|inactive|Cat25 has 120 seconds left.
+
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Alomomola|Toxic|p1a: Vaporeon
+|-status|p1a: Vaporeon|tox
+|
+|-heal|p2a: Alomomola|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|94/100 tox|[from] psn
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Plusle|Plusle, L89, M|49/100
+|move|p2a: Alomomola|Toxic|p1a: Plusle
+|-status|p1a: Plusle|tox
+|
+|-heal|p1a: Plusle|100/100 tox|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Alomomola|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Plusle|95/100 tox|[from] psn
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Bronzong|Bronzong, L84|94/100 brn
+|move|p1a: Plusle|Nasty Plot|p1a: Plusle
+|-boost|p1a: Plusle|spa|2
+|
+|-heal|p1a: Plusle|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Plusle|89/100 tox|[from] psn
+|-damage|p2a: Bronzong|94/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Bronzong
+|-damage|p2a: Bronzong|30/100 brn
+|move|p2a: Bronzong|Light Screen|p2a: Bronzong
+|-sidestart|p2: Cat25|move: Light Screen
+|
+|-heal|p1a: Plusle|95/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Plusle|77/100 tox|[from] psn
+|-damage|p2a: Bronzong|30/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Bronzong
+|-damage|p2a: Bronzong|1/100 brn
+|move|p2a: Bronzong|Light Screen||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p1a: Plusle|83/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|7/100 brn|[from] item: Leftovers
+|-damage|p1a: Plusle|59/100 tox|[from] psn
+|-damage|p2a: Bronzong|1/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|c|☆Cat25|wtf
+
+|c|☆Cat25|i just clicked randomly
+
+|c|☆Cat25|assuming that i would not survive that lol
+
+|inactive|Cat25 has 120 seconds left.
+
+|c|☆Cat25|i wasn't even paying attention
+
+|
+|move|p1a: Plusle|Hidden Power|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-heal|p1a: Plusle|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Plusle|35/100 tox|[from] psn
+|upkeep
+
+|inactive|Cat25 has 120 seconds left.
+
+|inactive|Cat25 has 90 seconds left.
+
+|
+|switch|p2a: Vikavolt|Vikavolt, L86, F|100/100
+|turn|24
+
+|c|☆Cat25|i threw the game so hard lol
+
+|c|☆Cat25|time to take a break after this
+
+|inactive|nona221 has 120 seconds left.
+
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|94/100
+|move|p2a: Vikavolt|Bug Buzz|p1a: Yanmega
+|-resisted|p1a: Yanmega
+|-damage|p1a: Yanmega|47/100
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Yanmega|Protect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Vikavolt|Bug Buzz|p1a: Yanmega
+|-activate|p1a: Yanmega|move: Protect
+|
+|-sideend|p2: Cat25|move: Light Screen
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|26
+
+|
+|move|p1a: Yanmega|Ancient Power|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|52/100
+|-damage|p1a: Yanmega|38/100|[from] item: Life Orb
+|move|p2a: Vikavolt|Bug Buzz|p1a: Yanmega
+|-resisted|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|upkeep
+
+|
+|switch|p1a: Doublade|Doublade, L82, M|100/100
+|turn|27
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100 brn
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, F|94/100 tox
+|move|p2a: Alomomola|Scald|p1a: Vaporeon
+|-heal|p1a: Vaporeon|100/100 tox|[from] ability: Water Absorb|[of] p2a: Alomomola
+|
+|-heal|p2a: Alomomola|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|94/100 tox|[from] psn
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|29
+
+|
+|switch|p2a: Breloom|Breloom, L81, F|100/100
+|move|p1a: Vaporeon|Heal Bell|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Heal Bell
+|-curestatus|p1a: Vaporeon|tox|[msg]
+|-curestatus|p1: Plusle|tox|[msg]
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p1a: Doublade|Doublade, L82, M|100/100
+|move|p2a: Breloom|Spore|p1a: Doublade
+|-status|p1a: Doublade|slp|[from] move: Spore
+|
+|upkeep
+|turn|31
+
+|inactive|Cat25 has 120 seconds left.
+
+|
+|switch|p1a: Kyurem|Kyurem-Black, L80|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|upkeep
+|turn|32
+
+|inactive|Cat25 has 120 seconds left.
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|18/100
+|move|p1a: Kyurem|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-heal|p1a: Kyurem|24/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Cat25 has 120 seconds left.
+
+|
+|switch|p2a: Pheromosa|Pheromosa, L78|100/100
+|turn|33
+
+|
+|switch|p1a: Doublade|Doublade, L82, M|100/100 slp
+|move|p2a: Pheromosa|Bug Buzz|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|88/100 slp
+|
+|upkeep
+|turn|34
+
+|
+|switch|p2a: Vikavolt|Vikavolt, L86, F|52/100
+|cant|p1a: Doublade|slp
+|
+|upkeep
+|turn|35
+
+|inactive|Cat25 has 90 seconds left.
+
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|67/100 slp
+|cant|p1a: Doublade|slp
+|
+|upkeep
+|turn|36
+
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|46/100 slp
+|-curestatus|p1a: Doublade|slp|[msg]
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|upkeep
+|turn|37
+
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|22/100
+|move|p1a: Doublade|Sacred Sword|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-damage|p2a: Vikavolt|28/100
+|
+|upkeep
+|turn|38
+
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|upkeep
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100 brn
+|turn|39
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, F|100/100
+|move|p2a: Alomomola|Scald|p1a: Vaporeon
+|-immune|p1a: Vaporeon|[from] ability: Water Absorb
+|
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|40
+
+|inactive|Cat25 has 120 seconds left.
+
+|
+|switch|p2a: Pheromosa|Pheromosa, L78|100/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|upkeep
+|turn|41
+
+|
+|switch|p1a: Doublade|Doublade, L82, M|22/100
+|move|p2a: Pheromosa|Bug Buzz|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|10/100
+|
+|-heal|p1a: Doublade|88/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|42
+
+|c|☆Cat25|yeah i can't break that lol
+
+|-message|Cat25 forfeited.
+
+|
+|win|nona221

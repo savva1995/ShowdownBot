@@ -1,0 +1,231 @@
+|init|battle
+|title|ewudfyud7 vs. Mahren
+|j|☆ewudfyud7
+|j|☆Mahren
+|player|p1|ewudfyud7|124|1000
+|player|p2|Mahren|101|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, L80, M|100/100
+|switch|p2a: Swoobat|Swoobat, L89, M|100/100
+|turn|1
+|
+|move|p2a: Swoobat|Air Slash|p1a: Kommo-o|[miss]
+|-miss|p2a: Swoobat|p1a: Kommo-o
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Swoobat|[zeffect]
+|-damage|p2a: Swoobat|12/100
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|
+|-heal|p2a: Swoobat|18/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Swoobat
+|-damage|p2a: Swoobat|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Swoobat
+|
+|upkeep
+|
+|switch|p2a: Tapu Lele|Tapu Lele, L80|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|3
+
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Tapu Lele
+|-immune|p2a: Tapu Lele
+|move|p2a: Tapu Lele|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-damage|p2a: Tapu Lele|91/100|[from] item: Life Orb
+|faint|p1a: Kommo-o
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mahren)
+
+|
+|switch|p1a: Ribombee|Ribombee, L85, F|100/100
+|turn|4
+
+|
+|switch|p2a: Rhyperior|Rhyperior, L84, F|100/100
+|move|p1a: Ribombee|Moonblast|p2a: Rhyperior
+|-damage|p2a: Rhyperior|41/100
+|-damage|p1a: Ribombee|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Rhyperior|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Ribombee|Bug Buzz|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-damage|p1a: Ribombee|81/100|[from] item: Life Orb
+|faint|p2a: Rhyperior
+|
+|upkeep
+
+|
+|switch|p2a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|6
+
+|
+|move|p1a: Ribombee|Bug Buzz|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-damage|p2a: Rayquaza|79/100
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p1a: Ribombee|71/100|[from] item: Life Orb
+|move|p2a: Rayquaza|Earthquake|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|46/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Ribombee
+|-activate|p1a: Ribombee|move: Psychic Terrain
+|move|p1a: Ribombee|Moonblast|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|-damage|p1a: Ribombee|36/100|[from] item: Life Orb
+|faint|p2a: Rayquaza
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|turn|8
+
+|
+|move|p1a: Ribombee|Hidden Power|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|56/100
+|-damage|p1a: Ribombee|26/100|[from] item: Life Orb
+|move|p2a: Cobalion|Close Combat|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|11/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|
+|-heal|p2a: Cobalion|62/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Ribombee|Hidden Power|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|-damage|p1a: Ribombee|1/100|[from] item: Life Orb
+|faint|p2a: Cobalion
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele, L80|100/100
+|turn|10
+
+|
+|move|p1a: Ribombee|Hidden Power|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|67/100
+|replace|p2a: Zoroark|Zoroark, L80, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p1a: Ribombee|0 fnt|[from] item: Life Orb
+|faint|p1a: Ribombee
+|move|p2a: Zoroark|Flamethrower|p1: Ribombee|[notarget]
+|-fail|p2a: Zoroark
+|
+|upkeep
+
+|
+|switch|p1a: Mismagius|Mismagius, L86, F|100/100
+|turn|11
+
+|
+|move|p1a: Mismagius|Will-O-Wisp|p2a: Zoroark
+|-status|p2a: Zoroark|brn
+|move|p2a: Zoroark|Dark Pulse|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|7/100
+|-damage|p2a: Zoroark|58/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Mismagius|14/100|[from] item: Leftovers
+|-damage|p2a: Zoroark|52/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Mismagius|Shadow Ball|p2a: Zoroark
+|-resisted|p2a: Zoroark
+|-damage|p2a: Zoroark|21/100 brn
+|move|p2a: Zoroark|Dark Pulse|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|-damage|p2a: Zoroark|11/100 brn|[from] item: Life Orb
+|faint|p1a: Mismagius
+|
+|-damage|p2a: Zoroark|5/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Terrakion|Terrakion, L82|100/100
+|turn|13
+
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Zoroark|[miss]
+|-miss|p1a: Terrakion|p2a: Zoroark
+|move|p2a: Zoroark|Sludge Bomb|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|85/100
+|-damage|p2a: Zoroark|0 fnt|[from] item: Life Orb
+|faint|p2a: Zoroark
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele, L80|91/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|14
+
+|
+|move|p1a: Terrakion|Close Combat|p2a: Tapu Lele
+|-resisted|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|67/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-damage|p1a: Terrakion|75/100|[from] item: Life Orb
+|move|p2a: Tapu Lele|Psyshock|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-damage|p2a: Tapu Lele|57/100|[from] item: Life Orb
+|faint|p1a: Terrakion
+|
+|upkeep
+
+|
+|switch|p1a: Darmanitan|Darmanitan, L83, M|100/100
+|turn|15
+
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|-damage|p1a: Darmanitan|86/100|[from] Recoil
+|faint|p2a: Tapu Lele
+|
+|win|ewudfyud7

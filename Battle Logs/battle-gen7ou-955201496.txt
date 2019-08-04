@@ -1,0 +1,292 @@
+|init|battle
+|title|AphroKejaun vs. walkingdeadfan
+|j|☆AphroKejaun
+|j|☆walkingdeadfan
+|player|p1|AphroKejaun|247|1361
+|player|p2|walkingdeadfan|148|1330
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Salamence, F|item
+|poke|p1|Venusaur, F|item
+|poke|p1|Greninja, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Mew|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Victini|item
+|poke|p2|Alakazam, F|item
+|teampreview
+|c|☆AphroKejaun|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by walkingdeadfan)
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|turn|1
+|
+|move|p2a: Aerodactyl|Taunt|p1a: Mew
+|-start|p1a: Mew|move: Taunt
+|move|p1a: Mew|Ice Beam|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|39/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Mew
+|-sidestart|p1: AphroKejaun|move: Stealth Rock
+|move|p1a: Mew|Ice Beam|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|3
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Greninja|Rock Slide|p2a: Volcarona
+|-start|p1a: Greninja|typechange|Rock|[from] ability: Protean
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|5
+
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|detailschange|p2a: Scizor|Scizor-Mega, F
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Scizor|Superpower|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: Magnezone
+|
+|upkeep
+
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|move|p1a: Mew|Thunder Wave|p2a: Scizor
+|-status|p2a: Scizor|par
+|move|p2a: Scizor|Bug Bite|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Salamence
+|-damage|p1a: Salamence|9/100
+|-zpower|p1a: Salamence
+|move|p1a: Salamence|Supersonic Skystrike|p2a: Scizor|[zeffect]
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|9
+
+|
+|move|p2a: Alakazam|Psychic|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|88/100
+|-damage|p1a: Greninja|76/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p1a: Greninja|U-turn|p2a: Alakazam
+|-start|p1a: Greninja|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Alakazam|atk|1
+|move|p2a: Alakazam|Thunder Wave|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Greninja|Greninja, M|76/100
+|-damage|p1a: Greninja|64/100|[from] Stealth Rock
+|move|p2a: Alakazam|Focus Blast|p1a: Greninja|[miss]
+|-miss|p2a: Alakazam|p1a: Greninja
+|
+|upkeep
+|turn|12
+
+|c|☆walkingdeadfan|lol fuck my win XD
+
+|
+|move|p1a: Greninja|U-turn|p2a: Alakazam
+|-start|p1a: Greninja|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+
+|
+|switch|p1a: Venusaur|Venusaur, F|100/100|[from]move: U-turn
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|13
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Landorus|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|83/100
+|-enditem|p2a: Dragonite|Weakness Policy|[from] move: Knock Off|[of] p1a: Landorus
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|7/100
+|-damage|p2a: Dragonite|66/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|53/100
+
+|
+|switch|p1a: Greninja|Greninja, M|64/100|[from]move: U-turn
+|-damage|p1a: Greninja|51/100|[from] Stealth Rock
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+
+|
+|switch|p1a: Venusaur|Venusaur, F|88/100
+|-damage|p1a: Venusaur|76/100|[from] Stealth Rock
+|turn|17
+
+|
+|detailschange|p1a: Venusaur|Venusaur-Mega, F
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p2a: Dragonite|Dragon Claw|p1a: Venusaur
+|-damage|p1a: Venusaur|32/100
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|82/100
+|
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|7/100
+|-damage|p1a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p1a: Landorus
+|move|p2a: Dragonite|Dragon Claw|p1: Landorus|[notarget]
+|-fail|p2a: Dragonite
+|
+|upkeep
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|82/100
+|-damage|p1a: Venusaur|70/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Venusaur
+|-damage|p1a: Venusaur|25/100
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|win|walkingdeadfan

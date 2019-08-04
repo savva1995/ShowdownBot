@@ -1,0 +1,435 @@
+|init|battle
+|title|Liamlutte vs. Ivan2108
+|j|☆Liamlutte
+|j|☆Ivan2108
+|player|p1|Liamlutte|170|1145
+|player|p2|Ivan2108|134|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Heatran, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Scizor, F|item
+|poke|p2|Celesteela|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Bisharp, F|item
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Celesteela|Celesteela, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Liamlutte)
+|
+|move|p2a: Celesteela|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|33/100
+|move|p1a: Skarmory|Toxic|p2a: Celesteela
+|-immune|p2a: Celesteela
+|
+|-heal|p1a: Skarmory|39/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Celesteela|Flamethrower|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Ivan2108|move: Stealth Rock
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Excadrill|Rapid Spin|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Heatran|Magma Storm|p2a: Excadrill|[miss]
+|-miss|p1a: Heatran|p2a: Excadrill
+|move|p2a: Excadrill|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|6
+
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Excadrill|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Excadrill|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-sideend|p2: Ivan2108|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-damage|p2a: Excadrill|59/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Celesteela|Celesteela, shiny|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Celesteela
+|-sidestart|p2: Ivan2108|Spikes
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Celesteela|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|37/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Celesteela
+|-immune|p2a: Celesteela
+|move|p2a: Celesteela|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|10
+
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|84/100
+|move|p2a: Celesteela|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|32/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|68/100
+|cant|p2a: Celesteela|flinch
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|51/100
+|cant|p2a: Celesteela|flinch
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-crit|p2a: Celesteela
+|-damage|p2a: Celesteela|26/100
+|cant|p2a: Celesteela|flinch
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|9/100
+|move|p2a: Celesteela|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|15
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|faint|p2a: Celesteela
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Spikes
+|turn|16
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|detailschange|p2a: Scizor|Scizor-Mega, F
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Skarmory|Skarmory, M|39/100
+|move|p2a: Ferrothorn|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|19
+
+|
+|move|p1a: Bisharp|Low Kick|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100
+|-damage|p1a: Bisharp|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Explosion|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|58/100
+|faint|p2a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p2a: Bisharp|Bisharp, F, shiny|100/100
+|-damage|p2a: Bisharp|88/100|[from] Spikes
+|turn|20
+
+|
+|move|p2a: Bisharp|Knock Off|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|31/100
+|-enditem|p1a: Bisharp|Choice Band|[from] move: Knock Off|[of] p2a: Bisharp
+|-damage|p2a: Bisharp|79/100|[from] item: Life Orb
+|move|p1a: Bisharp|Low Kick|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+
+|
+|switch|p2a: Excadrill|Excadrill, F|59/100
+|-damage|p2a: Excadrill|47/100|[from] Spikes
+|turn|21
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-damage|p2a: Excadrill|34/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|57/100|[silent]
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: Ivan2108|Spikes
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Skarmory|Drill Peck|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100
+|-damage|p2a: Skarmory|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Skarmory|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|66/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|51/100|[silent]
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Scizor|Scizor-Mega, F|88/100
+|-damage|p2a: Scizor|71/100|[from] Spikes
+|move|p1a: Ferrothorn|Power Whip|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|63/100
+|
+|upkeep
+|turn|26
+
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|
+|-damage|p2a: Scizor|50/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|62/100|[silent]
+|upkeep
+|turn|27
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100
+|-damage|p2a: Scizor|38/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Scizor|21/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Scizor
+|-sidestart|p2: Ivan2108|Spikes
+|
+|-damage|p2a: Scizor|9/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|53/100|[silent]
+|upkeep
+|turn|28
+
+|
+|move|p2a: Scizor|Pursuit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|30/100
+|-damage|p2a: Scizor|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Scizor
+|move|p1a: Ferrothorn|Power Whip|p2: Scizor|[notarget]
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p2a: Skarmory|Skarmory, M|66/100
+|turn|29
+
+|
+|move|p2a: Skarmory|Air Slash|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|59/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|28/100|[silent]
+|upkeep
+|turn|30
+
+|
+|move|p2a: Skarmory|Air Slash|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|17/100
+|cant|p1a: Ferrothorn|flinch
+|
+|-heal|p2a: Skarmory|65/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|53/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|27/100|[silent]
+|upkeep
+|turn|31
+
+|
+|move|p2a: Skarmory|Drill Peck|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|13/100
+|-damage|p2a: Skarmory|41/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Skarmory|25/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|8/100
+|
+|-heal|p2a: Skarmory|14/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|2/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|23/100|[silent]
+|upkeep
+|turn|32
+
+|
+|move|p2a: Skarmory|Drill Peck|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|7/100
+|-damage|p2a: Skarmory|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Skarmory
+|move|p1a: Ferrothorn|Gyro Ball|p2: Skarmory|[notarget]
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p2a: Excadrill|Excadrill, F|34/100
+|-damage|p2a: Excadrill|10/100|[from] Spikes
+|turn|33
+
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p1a: Bisharp|Bisharp, F|31/100
+|turn|34
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|Liamlutte

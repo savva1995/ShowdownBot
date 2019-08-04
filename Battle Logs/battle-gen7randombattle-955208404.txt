@@ -1,0 +1,44 @@
+|init|battle
+|title|ElZorros vs. XBert96
+|j|☆ElZorros
+|j|☆XBert96
+|player|p1|ElZorros|248|1168
+|player|p2|XBert96|1|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L83, M|100/100
+|switch|p2a: Shuckle|Shuckle, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by XBert96)
+|
+|switch|p1a: Corsola|Corsola, L89, F|100/100
+|move|p2a: Shuckle|Sticky Web|p1a: Corsola
+|-sidestart|p1: ElZorros|move: Sticky Web
+|
+|upkeep
+|turn|2
+|l|☆ElZorros
+|inactive|ElZorros disconnected and has a minute to reconnect!
+|player|p1|
+
+|inactive|ElZorros has 30 seconds to reconnect!
+
+|inactive|ElZorros has 20 seconds to reconnect!
+
+|inactive|ElZorros has 15 seconds to reconnect!
+
+|inactive|ElZorros has 10 seconds to reconnect!
+
+|inactive|ElZorros has 5 seconds to reconnect!
+
+|-message|ElZorros lost due to inactivity.
+|
+|win|XBert96

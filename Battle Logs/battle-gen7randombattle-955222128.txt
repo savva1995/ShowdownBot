@@ -1,0 +1,37 @@
+|init|battle
+|title|Littddddc w vs. kumsumkneeda
+|j|☆Littddddc w
+|j|☆kumsumkneeda
+|player|p1|Littddddc w|266|1044
+|player|p2|kumsumkneeda|2|1029
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pyukumuku|Pyukumuku, L89, F|100/100
+|switch|p2a: Dodrio|Dodrio, L88, M|100/100
+|turn|1
+|
+|move|p2a: Dodrio|Knock Off|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|67/100
+|-enditem|p1a: Pyukumuku|Light Clay|[from] move: Knock Off|[of] p2a: Dodrio
+|-damage|p2a: Dodrio|91/100|[from] item: Life Orb
+|move|p1a: Pyukumuku|Toxic|p2a: Dodrio
+|-status|p2a: Dodrio|tox
+|
+|-damage|p2a: Dodrio|85/100 tox|[from] psn
+|upkeep
+|turn|2
+|-message|kumsumkneeda forfeited.
+|
+|win|Littddddc w
+|l|☆kumsumkneeda
+|l|☆Littddddc w
+|raw|Littddddc w's rating: 1044 &rarr; <strong>1076</strong><br />(+32 for winning)
+|raw|kumsumkneeda's rating: 1029 &rarr; <strong>1016</strong><br />(-13 for losing)

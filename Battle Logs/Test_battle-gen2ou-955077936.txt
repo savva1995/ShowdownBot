@@ -1,0 +1,46 @@
+|init|battle
+|title|Me1111 vs. SuperDPD
+|j|☆Me1111
+|j|☆SuperDPD
+|player|p1|Me1111|1|
+|player|p2|SuperDPD|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|1
+
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|move|p1a: Dragonite|Ice Beam|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|92/100
+|
+|-heal|p2a: Cloyster|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|l|☆Me1111
+
+|player|p1|
+|j| Me111
+
+|j| u must go now
+
+|l| Me111
+
+|-message|SuperDPD forfeited.
+
+|
+|win|Me1111

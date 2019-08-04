@@ -1,0 +1,200 @@
+|init|battle
+|title|blackccat vs. AntonHorvath
+|j|☆blackccat
+|j|☆AntonHorvath
+|player|p1|blackccat|1|1071
+|player|p2|AntonHorvath|102|1206
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tapu Koko|item
+|poke|p1|Pikachu, F|item
+|poke|p1|Blissey, F|item
+|poke|p1|Hawlucha, F|item
+|poke|p1|Lopunny, F|item
+|poke|p1|Scizor, M|item
+|poke|p2|Milotic, F|item
+|poke|p2|Medicham, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Necrozma|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|blackccat has 30 seconds left this turn.
+|inactive|AntonHorvath has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AntonHorvath)
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|switch|p2a: Necrozma|Necrozma|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|1
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+|
+|move|p1a: Tapu Koko|U-turn|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|82/100
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+|inactive|blackccat has 10 seconds left.
+|
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: U-turn
+|move|p2a: Necrozma|Psychic|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|76/100
+|
+|-heal|p2a: Necrozma|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+|
+|move|p2a: Necrozma|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|move|p1a: Scizor|U-turn|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|36/100
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|
+|switch|p1a: Lopunny|Lopunny, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Necrozma|42/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, F
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Necrozma
+|-damage|p2a: Necrozma|29/100
+|cant|p2a: Necrozma|flinch
+|
+|-heal|p2a: Necrozma|35/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|
+|move|p1a: Lopunny|Return|p2a: Necrozma
+|-damage|p2a: Necrozma|2/100
+|move|p2a: Necrozma|Thunder Wave|p1a: Lopunny|[miss]
+|-miss|p2a: Necrozma|p1a: Lopunny
+|
+|-heal|p2a: Necrozma|8/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|
+|move|p1a: Lopunny|Return|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Lopunny|atk|1
+|turn|6
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|inactive|blackccat has 10 seconds left.
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Gyarados|Thunder Wave|p1a: Tapu Koko|[miss]
+|-miss|p2a: Gyarados|p1a: Tapu Koko
+|
+|upkeep
+|turn|7
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Thundurus
+|-immune|p2a: Thundurus|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|8
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|
+|move|p1a: Tapu Koko|U-turn|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|88/100
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|inactive|blackccat has 10 seconds left.
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100|[from]move: U-turn
+|move|p2a: Thundurus|Sludge Bomb|p1a: Blissey
+|-damage|p1a: Blissey|88/100
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|inactive|AntonHorvath has 10 seconds left.
+
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Blissey|Ice Beam|p2a: Excadrill
+|-damage|p2a: Excadrill|69/100
+|-enditem|p2a: Excadrill|Air Balloon
+|-status|p2a: Excadrill|frz
+|
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|blackccat has 15 seconds left this turn.
+|inactive|AntonHorvath has 15 seconds left this turn.
+
+|inactive|AntonHorvath has 10 seconds left.
+
+|-message|AntonHorvath forfeited.
+
+|
+|win|blackccat

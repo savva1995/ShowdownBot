@@ -1,0 +1,75 @@
+|init|battle
+|title|HEV0 vs. yoyo9487
+|j|☆HEV0
+|j|☆yoyo9487
+|player|p1|HEV0|264|1000
+|player|p2|yoyo9487|23|1082
+|teamsize|p1|5
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Lucario, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Sceptile, F|item
+|poke|p1|Greninja, M|item
+|poke|p1|Blaziken, M|item
+|poke|p2|Staraptor, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Snorlax, F|item
+|poke|p2|Celesteela|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Lucario|Lucario, M, shiny|100/100
+|switch|p2a: Celesteela|Celesteela, shiny|100/100
+|turn|1
+|
+|move|p1a: Lucario|Blaze Kick|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|58/100
+|move|p2a: Celesteela|Leech Seed|p1a: Lucario
+|-start|p1a: Lucario|move: Leech Seed
+|
+|-heal|p2a: Celesteela|64/100|[from] item: Leftovers
+|-damage|p1a: Lucario|88/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|74/100|[silent]
+|upkeep
+|turn|2
+|
+|move|p1a: Lucario|Blaze Kick|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|31/100
+|move|p2a: Celesteela|Ingrain|p2a: Celesteela
+|-start|p2a: Celesteela|move: Ingrain
+|
+|-heal|p2a: Celesteela|37/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|43/100|[from] Ingrain
+|-damage|p1a: Lucario|76/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|53/100|[silent]
+|upkeep
+|turn|3
+|
+|detailschange|p1a: Lucario|Lucario-Mega, M, shiny
+|-mega|p1a: Lucario|Lucario|Lucarionite
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Lucario|Blaze Kick|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|59/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|65/100|[from] Ingrain
+|-damage|p1a: Lucario|63/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|74/100|[silent]
+|upkeep
+|turn|4
+|-message|HEV0 forfeited.
+|
+|win|yoyo9487
+|l|☆HEV0

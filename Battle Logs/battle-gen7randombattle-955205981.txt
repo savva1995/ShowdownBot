@@ -1,0 +1,318 @@
+|init|battle
+|title|Maxibocio vs. Delodovic
+|j|☆Maxibocio
+|j|☆Delodovic
+|player|p1|Maxibocio|288|1643
+|player|p2|Delodovic|102|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ariados|Ariados, L89, M|100/100
+|switch|p2a: Spinda|Spinda, L89, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Maxibocio)
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Ariados|Poison Jab|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|88/100
+|-status|p2a: Gigalith|psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ariados|95/100|[from] Sandstorm
+|-heal|p2a: Gigalith|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|82/100 psn|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Ariados|Sticky Web|p2a: Gigalith
+|-sidestart|p2: Delodovic|move: Sticky Web
+|move|p2a: Gigalith|Stealth Rock|p1a: Ariados
+|-sidestart|p1: Maxibocio|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ariados|89/100|[from] Sandstorm
+|-heal|p2a: Gigalith|88/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|75/100 psn|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Ariados|Toxic Spikes|p2a: Gigalith
+|-sidestart|p2: Delodovic|move: Toxic Spikes
+|move|p2a: Gigalith|Stone Edge|p1a: Ariados|[miss]
+|-miss|p2a: Gigalith|p1a: Ariados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ariados|83/100|[from] Sandstorm
+|-heal|p2a: Gigalith|81/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|69/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Ariados|Toxic Spikes|p2a: Gigalith
+|-sidestart|p2: Delodovic|move: Toxic Spikes
+|move|p2a: Gigalith|Stone Edge|p1a: Ariados
+|-supereffective|p1a: Ariados
+|-damage|p1a: Ariados|0 fnt
+|faint|p1a: Ariados
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|75/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|63/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Samurott|Samurott, L87, F|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|switch|p2a: Lilligant|Lilligant, L87, F|100/100
+|-activate|p2a: Lilligant|move: Sticky Web
+|-unboost|p2a: Lilligant|spe|1
+|-status|p2a: Lilligant|tox
+|move|p1a: Samurott|Liquidation|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|76/100 tox
+|-damage|p1a: Samurott|78/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2a: Lilligant|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Lilligant|76/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Shaymin|Shaymin, L84|100/100
+|-damage|p1a: Shaymin|88/100|[from] Stealth Rock
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-heal|p1a: Shaymin|94/100|[from] item: Leftovers
+|-heal|p2a: Lilligant|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Lilligant|70/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|inactive|Delodovic has 120 seconds left.
+
+|
+|move|p1a: Shaymin|Air Slash|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|37/100 tox
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-heal|p2a: Lilligant|43/100 tox|[from] item: Leftovers
+|-heal|p1a: Shaymin|100/100|[from] item: Leftovers
+|-damage|p2a: Lilligant|25/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|inactive|Delodovic has 120 seconds left.
+
+|
+|move|p2a: Lilligant|Hidden Power|p1a: Shaymin
+|-damage|p1a: Shaymin|73/100
+|move|p1a: Shaymin|Air Slash|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|2/100 tox
+|
+|-heal|p2a: Lilligant|8/100 tox|[from] item: Leftovers
+|-heal|p1a: Shaymin|80/100|[from] item: Leftovers
+|-damage|p2a: Lilligant|0 fnt|[from] psn
+|faint|p2a: Lilligant
+|upkeep
+
+|inactive|Delodovic has 120 seconds left.
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L82, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Maxibocio
+|turn|9
+
+|inactive|Delodovic has 120 seconds left.
+
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L82, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Hone Claws|p2a: Aerodactyl
+|-boost|p2a: Aerodactyl|atk|1
+|-boost|p2a: Aerodactyl|accuracy|1
+|move|p1a: Shaymin|Seed Flare|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|55/100
+|
+|-heal|p1a: Shaymin|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|Delodovic has 120 seconds left.
+
+|
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|faint|p1a: Shaymin
+|
+|upkeep
+
+|
+|switch|p1a: Samurott|Samurott, L87, F|78/100
+|-damage|p1a: Samurott|66/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|11/100
+|-damage|p1a: Samurott|56/100|[from] item: Life Orb
+|move|p2a: Aerodactyl|Stone Edge|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+
+|
+|switch|p1a: Entei|Entei, L83|100/100
+|-damage|p1a: Entei|76/100|[from] Stealth Rock
+|-ability|p1a: Entei|Pressure
+|turn|12
+
+|
+|move|p1a: Entei|Extreme Speed|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|63/100 psn
+|-activate|p2a: Gigalith|move: Sticky Web
+|-unboost|p2a: Gigalith|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|13
+
+|
+|move|p1a: Entei|Extreme Speed|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|51/100 psn
+|move|p2a: Gigalith|Stone Edge|p1a: Entei
+|-supereffective|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|57/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|45/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence, L78, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Salamence|Roost|p1a: Salamence
+|-heal|p1a: Salamence|100/100
+|-singleturn|p1a: Salamence|move: Roost
+|move|p2a: Gigalith|Stone Edge|p1a: Salamence|[miss]
+|-miss|p2a: Gigalith|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|51/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|39/100 psn|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Salamence|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Xerneas|Xerneas, L78|100/100
+|-status|p2a: Xerneas|tox
+|-activate|p2a: Xerneas|move: Sticky Web
+|-unboost|p2a: Xerneas|spe|1
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|16
+
+|
+|detailschange|p1a: Salamence|Salamence-Mega, L78, M
+|-mega|p1a: Salamence|Salamence|Salamencite
+|move|p1a: Salamence|Double-Edge|p2a: Xerneas
+|-damage|p2a: Xerneas|10/100 tox
+|-damage|p1a: Salamence|53/100|[from] Recoil
+|move|p2a: Xerneas|Moonblast|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xerneas|4/100 tox|[from] Sandstorm
+|-damage|p2a: Xerneas|0 fnt|[from] psn
+|faint|p2a: Xerneas
+|upkeep
+
+|
+|switch|p1a: Heliolisk|Heliolisk, L86, F|100/100
+|switch|p2a: Spinda|Spinda, L89, F|100/100
+|-damage|p1a: Heliolisk|88/100|[from] Stealth Rock
+|-status|p2a: Spinda|tox
+|-activate|p2a: Spinda|move: Sticky Web
+|-boost|p2a: Spinda|spe|1
+|turn|17
+
+|
+|move|p1a: Heliolisk|Thunderbolt|p2a: Spinda
+|-crit|p2a: Spinda
+|-enditem|p2a: Spinda|Focus Sash
+|-damage|p2a: Spinda|1/100 tox
+|move|p2a: Spinda|Superpower|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|9/100
+|-boost|p2a: Spinda|atk|1
+|-boost|p2a: Spinda|def|1
+|
+|-weather|none
+|-damage|p2a: Spinda|0 fnt|[from] psn
+|faint|p2a: Spinda
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, L84, M|100/100
+|turn|18
+
+|
+|move|p2a: Noivern|Boomburst|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|-damage|p2a: Noivern|91/100|[from] item: Life Orb
+|faint|p1a: Heliolisk
+|
+|win|Delodovic

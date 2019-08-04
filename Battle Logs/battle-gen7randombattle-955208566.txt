@@ -1,0 +1,293 @@
+|init|battle
+|title|blooffy vs. Kp4w
+|j|☆blooffy
+|j|☆Kp4w
+|player|p1|blooffy|170|1539
+|player|p2|Kp4w|152|1550
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bruxish|Bruxish, L85, F|100/100
+|switch|p2a: Seaking|Seaking, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kp4w)
+|c|☆blooffy|move first
+|
+|switch|p1a: Articuno|Articuno, L88|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Seaking|Megahorn|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|80/100
+|
+|-heal|p1a: Articuno|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆blooffy|fuckin autist
+
+|
+|switch|p2a: Malamar|Malamar, L86, M|100/100
+|move|p1a: Articuno|Toxic|p2a: Malamar
+|-status|p2a: Malamar|tox
+|
+|-heal|p1a: Articuno|92/100|[from] item: Leftovers
+|-damage|p2a: Malamar|94/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Malamar
+|-damage|p2a: Malamar|64/100 tox
+|move|p2a: Malamar|Superpower|p1a: Articuno
+|-damage|p1a: Articuno|66/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p1a: Articuno|72/100|[from] item: Leftovers
+|-heal|p2a: Malamar|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Malamar|57/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Malamar
+|-damage|p2a: Malamar|28/100 tox
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|
+|-heal|p1a: Articuno|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Clawitzer|Clawitzer, L86, F|100/100
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest|p2a: Malamar|[from]Sleep Talk
+|-fail|p2a: Malamar
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Mudsdale|Mudsdale, L88, M|100/100
+|move|p1a: Clawitzer|U-turn|p2a: Mudsdale
+|-damage|p2a: Mudsdale|90/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+
+|
+|switch|p1a: Articuno|Articuno, L88|78/100|[from]move: U-turn
+|-ability|p1a: Articuno|Pressure
+|
+|-heal|p1a: Articuno|84/100|[from] item: Leftovers
+|-heal|p2a: Mudsdale|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|48/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Stealth Rock|p1a: Articuno
+|-sidestart|p1: blooffy|move: Stealth Rock
+|
+|-heal|p1a: Articuno|90/100|[from] item: Leftovers
+|-heal|p2a: Mudsdale|54/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|2/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Heavy Slam|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|22/100
+|
+|-heal|p1a: Articuno|28/100|[from] item: Leftovers
+|-heal|p2a: Mudsdale|8/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|
+|-heal|p1a: Articuno|34/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, L82, M|100/100
+|turn|10
+
+|
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|85/100
+|-singleturn|p1a: Articuno|move: Roost
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-heal|p1a: Articuno|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|-damage|p2a: Scizor|91/100|[from] item: Life Orb
+|faint|p1a: Articuno
+|
+|upkeep
+
+|inactive|blooffy has 120 seconds left.
+
+|c|☆Kp4w|Lol are you okay
+
+|
+|switch|p1a: Bruxish|Bruxish, L85, F|100/100
+|-damage|p1a: Bruxish|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Bruxish|Liquidation|p2a: Scizor
+|-damage|p2a: Scizor|54/100
+|-unboost|p2a: Scizor|def|1
+|move|p2a: Scizor|Bug Bite|p1a: Bruxish
+|-supereffective|p1a: Bruxish
+|-damage|p1a: Bruxish|0 fnt
+|-damage|p2a: Scizor|44/100|[from] item: Life Orb
+|faint|p1a: Bruxish
+|
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Kalos, L90, M|100/100
+|-damage|p1a: Pikachu|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p2a: Garchomp|Garchomp, L80, M|100/100
+|move|p1a: Pikachu|Volt Tackle|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Seaking|Seaking, L89, M|100/100
+|move|p1a: Pikachu|Hidden Power|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|90/100
+|
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Avalugg|Avalugg, L89, F|100/100
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|move|p2a: Seaking|Knock Off|p1a: Avalugg
+|-damage|p1a: Avalugg|58/100
+|-enditem|p1a: Avalugg|Leftovers|[from] move: Knock Off|[of] p2a: Seaking
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Scizor|Scizor, L82, M|44/100
+|move|p1a: Avalugg|Rapid Spin|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|41/100
+|-sideend|p1: blooffy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Clawitzer|Clawitzer, L86, F|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Scizor|Bug Bite|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|-damage|p2a: Scizor|31/100|[from] item: Life Orb
+|faint|p1a: Clawitzer
+|
+|upkeep
+
+|
+|switch|p1a: Infernape|Infernape, L82, M|100/100
+|turn|19
+
+|c|☆Kp4w|Guess you shouldnt have insulted me
+
+|c|☆Kp4w|Oops?
+
+|
+|move|p1a: Infernape|Vacuum Wave|p2a: Scizor
+|-damage|p2a: Scizor|5/100
+|-damage|p1a: Infernape|91/100|[from] item: Life Orb
+|move|p2a: Scizor|Bullet Punch|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|49/100
+|-damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|upkeep
+
+|c|☆blooffy|when is the truth insulting
+
+|
+|switch|p2a: Malamar|Malamar, L86, M|100/100 slp
+|turn|20
+
+|
+|move|p1a: Infernape|Flare Blitz|p2a: Malamar
+|-damage|p2a: Malamar|47/100 slp
+|-damage|p1a: Infernape|29/100|[from] Recoil
+|-damage|p1a: Infernape|20/100|[from] item: Life Orb
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Superpower|p1a: Infernape|[from]Sleep Talk
+|-damage|p1a: Infernape|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Infernape
+|
+|-heal|p2a: Malamar|54/100 slp|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Kalos, L90, M|88/100
+|turn|21
+
+|c|☆blooffy|even autists get luky
+
+|c|☆blooffy|lucky
+
+|inactive|Kp4w has 120 seconds left.
+
+|c|☆blooffy|good job
+
+|-message|blooffy forfeited.
+
+|
+|win|Kp4w

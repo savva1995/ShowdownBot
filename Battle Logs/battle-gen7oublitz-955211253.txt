@@ -1,0 +1,93 @@
+|init|battle
+|title|malachic vs. CosmicSalt
+|j|☆malachic
+|j|☆CosmicSalt
+|player|p1|malachic|293|1032
+|player|p2|CosmicSalt|102|1179
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Snorlax, F|item
+|poke|p1|Magearna|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Medicham, F|item
+|poke|p1|Victini|item
+|poke|p1|Serperior, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Pelipper, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Swampert, M|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Ferrothorn, F|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|malachic has 30 seconds left this turn.
+|inactive|CosmicSalt has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by malachic)
+|
+|start
+|switch|p1a: Medicham|Medicham, F, shiny|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|inactive|malachic has 15 seconds left this turn.
+|inactive|CosmicSalt has 15 seconds left this turn.
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|detailschange|p1a: Medicham|Medicham-Mega, F, shiny
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fire Punch|p2a: Tapu Koko
+|-crit|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|13/100
+|-status|p2a: Tapu Koko|brn
+|
+|-damage|p2a: Tapu Koko|7/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|malachic has 15 seconds left this turn.
+|inactive|CosmicSalt has 15 seconds left this turn.
+|inactive|CosmicSalt has 10 seconds left.
+|
+|move|p1a: Medicham|Bullet Punch|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|upkeep
+|inactive|malachic has 15 seconds left this turn.
+|inactive|CosmicSalt has 15 seconds left this turn.
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|3
+
+|inactive|malachic has 15 seconds left this turn.
+|inactive|CosmicSalt has 15 seconds left this turn.
+
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Medicham|[miss]
+|-miss|p2a: Tornadus|p1a: Medicham
+|move|p1a: Medicham|Ice Punch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+
+|inactive|malachic has 15 seconds left this turn.
+|inactive|CosmicSalt has 15 seconds left this turn.
+
+|-message|CosmicSalt forfeited.
+
+|
+|win|malachic

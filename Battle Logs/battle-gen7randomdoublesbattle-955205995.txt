@@ -1,0 +1,93 @@
+|init|battle
+|title|simonexsala vs. Calamityy
+|j|☆simonexsala
+|j|☆Calamityy
+|player|p1|simonexsala|251|1207
+|player|p2|Calamityy|36|1181
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vileplume|Vileplume, L80, F|100/100
+|switch|p1b: Guzzlord|Guzzlord, L72|100/100
+|switch|p2a: Victini|Victini, L70|100/100
+|switch|p2b: Ursaring|Ursaring, L79, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Calamityy)
+|inactive|simonexsala has 120 seconds left.
+|
+|move|p1a: Vileplume|Protect|p1a: Vileplume
+|-singleturn|p1a: Vileplume|Protect
+|move|p2a: Victini|Blue Flare|p1a: Vileplume
+|-activate|p1a: Vileplume|move: Protect
+|move|p2b: Ursaring|Swords Dance|p2b: Ursaring
+|-boost|p2b: Ursaring|atk|2
+|move|p1b: Guzzlord|Crunch|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|46/100
+|
+|-heal|p2a: Victini|52/100|[from] item: Leftovers
+|-status|p2b: Ursaring|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+
+|inactive|simonexsala has 120 seconds left.
+
+|
+|move|p2b: Ursaring|Close Combat|p1b: Guzzlord
+|-supereffective|p1b: Guzzlord
+|-damage|p1b: Guzzlord|0 fnt
+|-unboost|p2b: Ursaring|def|1
+|-unboost|p2b: Ursaring|spd|1
+|faint|p1b: Guzzlord
+|move|p2a: Victini|Focus Blast|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|87/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Victini|[miss]
+|-miss|p1a: Vileplume|p2a: Victini
+|
+|-heal|p2a: Victini|58/100|[from] item: Leftovers
+|-damage|p2b: Ursaring|94/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1b: Araquanid|Araquanid, L84, M|100/100
+|turn|3
+
+|
+|move|p1a: Vileplume|Protect|p1a: Vileplume
+|-singleturn|p1a: Vileplume|Protect
+|move|p2b: Ursaring|Facade|p1b: Araquanid
+|-damage|p1b: Araquanid|0 fnt
+|faint|p1b: Araquanid
+|move|p2a: Victini|Blue Flare|p1a: Vileplume
+|-activate|p1a: Vileplume|move: Protect
+|
+|-heal|p2a: Victini|64/100|[from] item: Leftovers
+|-damage|p2b: Ursaring|82/100 tox|[from] psn
+|upkeep
+
+|inactive|simonexsala has 120 seconds left.
+
+|inactive|simonexsala has 90 seconds left.
+
+|inactive|simonexsala has 60 seconds left.
+
+|inactive|simonexsala has 30 seconds left.
+
+|inactive|simonexsala has 20 seconds left.
+
+|inactive|simonexsala has 15 seconds left.
+
+|inactive|simonexsala has 10 seconds left.
+
+|inactive|simonexsala has 5 seconds left.
+
+|-message|simonexsala lost due to inactivity.
+|
+|win|Calamityy

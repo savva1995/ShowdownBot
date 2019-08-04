@@ -1,0 +1,238 @@
+|init|battle
+|title|DiceGuy vs. Mujie
+|j|☆DiceGuy
+|j|☆Mujie
+|player|p1|DiceGuy|238|
+|player|p2|Mujie|273|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Celesteela|Celesteela, L80|100/100
+|switch|p2a: Blastoise|Blastoise, L84, M|100/100
+|turn|1
+|
+|detailschange|p2a: Blastoise|Blastoise-Mega, L84, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Blastoise|Hydro Pump|p1a: Celesteela
+|-damage|p1a: Celesteela|54/100
+|move|p1a: Celesteela|Heavy Slam|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|84/100
+|
+|-heal|p1a: Celesteela|60/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Blastoise|Ice Beam|p1a: Celesteela
+|-damage|p1a: Celesteela|34/100
+|move|p1a: Celesteela|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|64/100
+|
+|-heal|p1a: Celesteela|40/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Cinccino|Cinccino, L87, M|100/100
+|move|p2a: Blastoise|Hydro Pump|p1a: Cinccino
+|-damage|p1a: Cinccino|31/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Cinccino|Tail Slap|p2a: Blastoise
+|-damage|p2a: Blastoise|50/100
+|-damage|p2a: Blastoise|39/100
+|-damage|p2a: Blastoise|28/100
+|-damage|p2a: Blastoise|16/100
+|-damage|p2a: Blastoise|3/100
+|-hitcount|p2a: Blastoise|5
+|move|p2a: Blastoise|Aura Sphere|p1a: Cinccino
+|-supereffective|p1a: Cinccino
+|-damage|p1a: Cinccino|0 fnt
+|faint|p1a: Cinccino
+|
+|upkeep
+
+|
+|switch|p1a: Volbeat|Volbeat, L89, M|100/100
+|turn|5
+
+|
+|switch|p2a: Swellow|Swellow, L84, F|100/100
+|move|p1a: Volbeat|U-turn|p2a: Swellow
+|-resisted|p2a: Swellow
+|-damage|p2a: Swellow|81/100
+
+|
+|switch|p1a: Aegislash|Aegislash, L78, F|100/100|[from]move: U-turn
+|
+|-status|p2a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Stunfisk|Stunfisk, L91, M|100/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Stunfisk
+|-damage|p2a: Stunfisk|54/100
+|move|p2a: Stunfisk|Earth Power|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+
+|
+|switch|p1a: Empoleon|Empoleon, L82, M|100/100
+|turn|8
+
+|
+|move|p1a: Empoleon|Scald|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|2/100
+|-damage|p1a: Empoleon|91/100|[from] item: Life Orb
+|move|p2a: Stunfisk|Earth Power|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|30/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Pelipper|Pelipper, L84, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Empoleon|Scald|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|35/100
+|-damage|p1a: Empoleon|20/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Pelipper|Hurricane|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|-damage|p2a: Pelipper|25/100|[from] item: Life Orb
+|faint|p1a: Empoleon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Celesteela|Celesteela, L80|40/100
+|turn|11
+
+|
+|move|p2a: Pelipper|Scald|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|-damage|p2a: Pelipper|16/100|[from] item: Life Orb
+|faint|p1a: Celesteela
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Volbeat|Volbeat, L89, M|100/100
+|turn|12
+
+|
+|move|p1a: Volbeat|Tailwind|p1a: Volbeat
+|-sidestart|p1: DiceGuy|move: Tailwind
+|move|p2a: Pelipper|Scald|p1a: Volbeat
+|-crit|p1a: Volbeat
+|-damage|p1a: Volbeat|1/100
+|-damage|p2a: Pelipper|6/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volbeat|7/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L88, M|100/100
+|move|p1a: Volbeat|U-turn|p2a: Hitmonchan
+|-resisted|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|86/100
+
+|
+|switch|p1a: Ribombee|Ribombee, L85, F|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|turn|14
+
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Hitmonchan|Fire Punch|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-damage|p2a: Hitmonchan|76/100|[from] item: Life Orb
+|faint|p1a: Ribombee
+|
+|upkeep
+
+|
+|switch|p1a: Volbeat|Volbeat, L89, M|7/100
+|turn|15
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, F|100/100
+|move|p1a: Volbeat|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|-heal|p1a: Volbeat|14/100|[from] item: Leftovers
+|-sideend|p1: DiceGuy|move: Tailwind
+|upkeep
+|turn|16
+
+|
+|move|p1a: Volbeat|U-turn|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|59/100 par
+|cant|p2a: Vileplume|par
+|
+|-heal|p1a: Volbeat|20/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|65/100 par|[from] item: Black Sludge
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Swellow|Swellow, L84, F|81/100 brn
+|move|p1a: Volbeat|U-turn|p2a: Swellow
+|-resisted|p2a: Swellow
+|-damage|p2a: Swellow|64/100 brn
+|
+|-heal|p1a: Volbeat|26/100|[from] item: Leftovers
+|-damage|p2a: Swellow|58/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Volbeat|Thunder Wave||[still]
+|-fail|p1a: Volbeat
+|move|p2a: Swellow|Brave Bird|p1a: Volbeat
+|-supereffective|p1a: Volbeat
+|-damage|p1a: Volbeat|0 fnt
+|-damage|p2a: Swellow|48/100 brn|[from] Recoil
+|faint|p1a: Volbeat
+|
+|win|Mujie

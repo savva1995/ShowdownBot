@@ -1,0 +1,257 @@
+|init|battle
+|title|themaksio vs. floraflowerr
+|j|☆themaksio
+|j|☆floraflowerr
+|player|p1|themaksio|101|1075
+|player|p2|floraflowerr|4|1137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Heatran, M|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Serperior, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Pinsir, M|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Heatran, M|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Porygon-Z|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Porygon-Z
+|-sidestart|p2: floraflowerr|move: Stealth Rock
+|-zpower|p2a: Porygon-Z
+|move|p2a: Porygon-Z|Z-Conversion|p2a: Porygon-Z|[anim]Conversion
+|-boost|p2a: Porygon-Z|atk|1|[zeffect]
+|-boost|p2a: Porygon-Z|def|1|[zeffect]
+|-boost|p2a: Porygon-Z|spa|1|[zeffect]
+|-boost|p2a: Porygon-Z|spd|1|[zeffect]
+|-boost|p2a: Porygon-Z|spe|1|[zeffect]
+|-start|p2a: Porygon-Z|typechange|Electric
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-enditem|p1a: Landorus|Focus Sash
+|-damage|p1a: Landorus|1/100
+|-status|p1a: Landorus|frz
+|cant|p1a: Landorus|frz
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|4
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Porygon-Z|Ice Beam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|93/100
+|
+|-heal|p1a: Heatran|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|35/100
+|move|p1a: Heatran|Earth Power|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|51/100
+|
+|-heal|p1a: Heatran|41/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|48/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Heatran|Heatran, M|48/100
+|move|p2a: Porygon-Z|Ice Beam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|40/100
+|
+|-heal|p1a: Heatran|46/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|52/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Heatran|Heatran, M|52/100
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|12
+
+|
+|detailschange|p1a: Alakazam|Alakazam-Mega, F
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|-ability|p1a: Alakazam|Adaptability|[from] ability: Trace|[of] p2a: Porygon-Z
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|10/100
+|move|p1a: Alakazam|Psychic|p2a: Porygon-Z
+|-crit|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-damage|p2a: Pinsir|76/100|[from] Stealth Rock
+|turn|13
+
+|
+|detailschange|p2a: Pinsir|Pinsir-Mega, M
+|-mega|p2a: Pinsir|Pinsir|Pinsirite
+|move|p2a: Pinsir|Quick Attack|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by floraflowerr)
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|14
+
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Tapu Koko|Hidden Power|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Rotom|Trick||[still]
+|-fail|p2a: Rotom
+|move|p1a: Tapu Koko|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|49/100
+
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Toxic|p2a: Gliscor
+|-status|p2a: Gliscor|tox
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Gliscor
+|-damage|p2a: Gliscor|73/100 tox
+|move|p2a: Gliscor|Defog|p1a: Garchomp
+|-unboost|p1a: Garchomp|evasion|1
+|-sideend|p2: floraflowerr|Stealth Rock|[from] move: Defog|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: floraflowerr|move: Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|59/100
+|
+|-heal|p2a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|19
+
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Gliscor
+|-damage|p2a: Gliscor|71/100 tox
+|move|p2a: Gliscor|Defog|p1a: Garchomp
+|-unboost|p1a: Garchomp|evasion|1
+|-sideend|p2: floraflowerr|Stealth Rock|[from] move: Defog|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+
+|-message|themaksio forfeited.
+
+|
+|win|floraflowerr

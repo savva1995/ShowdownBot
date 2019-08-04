@@ -1,0 +1,186 @@
+|init|battle
+|title|fxgy vs. no women no haxx
+|j|☆fxgy
+|j|☆no women no haxx
+|player|p1|fxgy|1|1098
+|player|p2|no women no haxx|130|1162
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Lopunny, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Zapdos|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Mawile, F|item
+|poke|p2|Dragalge, F|item
+|poke|p2|Magearna|item
+|poke|p2|Uxie|item
+|poke|p2|Ferrothorn, F|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|fxgy has 30 seconds left this turn.
+|inactive|no women no haxx has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by no women no haxx)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Uxie|atk|1
+|turn|1
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Uxie
+|-sidestart|p2: no women no haxx|move: Stealth Rock
+|move|p2a: Uxie|Trick Room|p2a: Uxie
+|-fieldstart|move: Trick Room|[of] p2a: Uxie
+|
+|upkeep
+|turn|2
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Uxie|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: fxgy|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Uxie|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+|inactive|no women no haxx has 10 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|-damage|p1a: Tyranitar|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+|inactive|fxgy has 10 seconds left.
+|inactive|no women no haxx has 10 seconds left.
+|
+|switch|p1a: Lopunny|Lopunny, F|100/100
+|-damage|p1a: Lopunny|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|-damage|p2a: Ferrothorn|58/100|[from] item: Life Orb
+|faint|p1a: Lopunny
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|turn|5
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+|inactive|no women no haxx has 10 seconds left.
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Zapdos
+|-sidestart|p1: fxgy|Spikes
+|move|p1a: Zapdos|Heat Wave|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|69/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+|inactive|no women no haxx has 10 seconds left.
+|
+|switch|p2a: Uxie|Uxie|94/100
+|-damage|p2a: Uxie|82/100|[from] Stealth Rock
+|turn|6
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+|
+|move|p1a: Zapdos|Discharge|p2a: Uxie
+|-damage|p2a: Uxie|54/100
+|move|p2a: Uxie|Trick Room|p2a: Uxie
+|-fieldstart|move: Trick Room|[of] p2a: Uxie
+|
+|-weather|none
+|upkeep
+|turn|7
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|move|p1a: Zapdos|Discharge|p2a: Magearna
+|-damage|p2a: Magearna|60/100
+|-status|p2a: Magearna|par
+|
+|upkeep
+|turn|8
+
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+
+|
+|-zpower|p2a: Magearna
+|move|p2a: Magearna|Twinkle Tackle|p1a: Zapdos|[zeffect]
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+
+|inactive|fxgy has 10 seconds left.
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-damage|p1a: Tyranitar|63/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|9
+
+|inactive|fxgy has 15 seconds left this turn.
+|inactive|no women no haxx has 15 seconds left this turn.
+
+|inactive|fxgy has 10 seconds left.
+
+|inactive|fxgy has 5 seconds left.
+
+|l|☆fxgy
+
+|inactive|fxgy disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|-message|fxgy lost due to inactivity.
+|
+|win|no women no haxx

@@ -1,0 +1,243 @@
+|init|battle
+|title|IndianaJ vs. Middleagepokefan
+|j|☆IndianaJ
+|j|☆Middleagepokefan
+|player|p1|IndianaJ|23|1715
+|player|p2|Middleagepokefan|266|1637
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Giratina|Giratina, L78|100/100
+|switch|p2a: Zangoose|Zangoose, L89, F|100/100
+|-ability|p1a: Giratina|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Middleagepokefan)
+|
+|switch|p2a: Swellow|Swellow, L84, M|100/100
+|switch|p1a: Masquerain|Masquerain, L89, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Swellow|atk|1
+|
+|-status|p2a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Gligar|Gligar, L82, F|100/100
+|move|p2a: Swellow|Brave Bird|p1a: Gligar
+|-damage|p1a: Gligar|74/100
+|-damage|p2a: Swellow|92/100 brn|[from] Recoil
+|
+|-damage|p2a: Swellow|86/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Mamoswine|Mamoswine, L82, M|100/100
+|move|p1a: Gligar|Knock Off|p2a: Mamoswine
+|-damage|p2a: Mamoswine|82/100
+|-enditem|p2a: Mamoswine|Choice Band|[from] move: Knock Off|[of] p1a: Gligar
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Buzzwole|Buzzwole, L81|100/100
+|move|p2a: Mamoswine|Knock Off|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|90/100
+|-enditem|p1a: Buzzwole|Choice Scarf|[from] move: Knock Off|[of] p2a: Mamoswine
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Ribombee|Ribombee, L85, F|100/100
+|move|p1a: Buzzwole|Stone Edge|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Swellow|Swellow, L84, M|86/100 brn
+|turn|6
+
+|
+|switch|p1a: Gligar|Gligar, L82, F|74/100
+|move|p2a: Swellow|Brave Bird|p1a: Gligar
+|-damage|p1a: Gligar|32/100
+|-damage|p2a: Swellow|72/100 brn|[from] Recoil
+|
+|-damage|p2a: Swellow|66/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Swellow|Facade|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|faint|p1a: Gligar
+|
+|-damage|p2a: Swellow|60/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Giratina|Giratina, L78|100/100
+|-ability|p1a: Giratina|Pressure
+|turn|8
+
+|
+|move|p2a: Swellow|Brave Bird|p1a: Giratina
+|-damage|p1a: Giratina|61/100
+|-damage|p2a: Swellow|40/100 brn|[from] Recoil
+|move|p1a: Giratina|Dragon Pulse|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|
+|-heal|p1a: Giratina|67/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, L82, M|82/100
+|turn|9
+
+|
+|switch|p1a: Buzzwole|Buzzwole, L81|90/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Buzzwole
+|-damage|p1a: Buzzwole|64/100
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Lurantis|Lurantis, L88, M|100/100
+|move|p1a: Buzzwole|Superpower|p2a: Lurantis
+|-damage|p2a: Lurantis|43/100
+|-unboost|p1a: Buzzwole|atk|1
+|-unboost|p1a: Buzzwole|def|1
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Masquerain|Masquerain, L89, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-boost|p2a: Lurantis|atk|1
+|move|p2a: Lurantis|Leaf Storm|p1a: Masquerain
+|-resisted|p1a: Masquerain
+|-damage|p1a: Masquerain|84/100
+|-boost|p2a: Lurantis|spa|2
+|-damage|p2a: Lurantis|33/100|[from] item: Life Orb
+|
+|-heal|p1a: Masquerain|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Zangoose|Zangoose, L89, F|100/100
+|move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+|-boost|p1a: Masquerain|spa|1
+|-boost|p1a: Masquerain|spd|1
+|-boost|p1a: Masquerain|spe|1
+|
+|-heal|p1a: Masquerain|96/100|[from] item: Leftovers
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+
+|
+|move|p2a: Zangoose|Quick Attack|p1a: Masquerain
+|-damage|p1a: Masquerain|60/100
+|move|p1a: Masquerain|Air Slash|p2a: Zangoose
+|-damage|p2a: Zangoose|39/100 tox
+|
+|-heal|p1a: Masquerain|66/100|[from] item: Leftovers
+|-damage|p2a: Zangoose|33/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Zangoose|Quick Attack|p1a: Masquerain
+|-damage|p1a: Masquerain|25/100
+|move|p1a: Masquerain|Bug Buzz|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|faint|p2a: Zangoose
+|
+|-heal|p1a: Masquerain|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Minior|Minior, L86|100/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|15
+
+|
+|move|p1a: Masquerain|Air Slash|p2a: Minior
+|-resisted|p2a: Minior
+|-damage|p2a: Minior|78/100
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|-enditem|p2a: Minior|White Herb
+|-clearnegativeboost|p2a: Minior|[silent]
+|
+|-heal|p1a: Masquerain|37/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|move|p1a: Masquerain|Air Slash|p2a: Minior
+|-resisted|p2a: Minior
+|-damage|p2a: Minior|44/100
+|
+|-heal|p1a: Masquerain|43/100|[from] item: Leftovers
+|-formechange|p2a: Minior|Minior||[from] ability: Shields Down
+|upkeep
+|turn|17
+
+|
+|move|p2a: Minior|Power Gem|p1a: Masquerain
+|-supereffective|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|faint|p1a: Masquerain
+|
+|upkeep
+
+|
+|switch|p1a: Audino|Audino, L86, F|100/100
+|turn|18
+
+|
+|detailschange|p1a: Audino|Audino-Mega, L86, F
+|-mega|p1a: Audino|Audino|Audinite
+|move|p2a: Minior|Acrobatics|p1a: Audino
+|-damage|p1a: Audino|10/100
+|move|p1a: Audino|Dazzling Gleam|p2a: Minior
+|-damage|p2a: Minior|0 fnt
+|faint|p2a: Minior
+|
+|upkeep
+
+|-message|Middleagepokefan forfeited.
+
+|
+|win|IndianaJ

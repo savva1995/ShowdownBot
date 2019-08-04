@@ -1,0 +1,75 @@
+|init|battle
+|title|Lisandrochaz vs. Silly Pink Hippo
+|j|☆Lisandrochaz
+|j|☆Silly Pink Hippo
+|player|p1|Lisandrochaz|1|1123
+|player|p2|Silly Pink Hippo|2|1039
+|teamsize|p1|6
+|teamsize|p2|2
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Pelipper, M|item
+|poke|p1|Swampert, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Jolteon, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Volcanion|item
+|poke|p2|Raichu, M|item
+|poke|p2|Manectric, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Silly Pink Hippo)
+|
+|start
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|switch|p1b: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Raichu|Raichu, M|100/100
+|switch|p2b: Manectric|Manectric, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Raichu|atk|1
+|-unboost|p2b: Manectric|atk|1
+|turn|1
+|inactive|Silly Pink Hippo has 120 seconds left.
+|
+|move|p2a: Raichu|Grass Knot|p1b: Rhyperior
+|-supereffective|p1b: Rhyperior
+|-damage|p1b: Rhyperior|0 fnt
+|faint|p1b: Rhyperior
+|move|p2b: Manectric|Discharge|p1a: Gyarados|[spread] p1a
+|-ability|p2a: Raichu|Lightning Rod|boost
+|-boost|p2a: Raichu|spa|1
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p1b: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|2
+
+|
+|detailschange|p1a: Swampert|Swampert-Mega, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Earthquake|p2a: Raichu|[spread] p2a,p2b
+|-immune|p1b: Pelipper
+|-supereffective|p2a: Raichu
+|-supereffective|p2b: Manectric
+|-damage|p2a: Raichu|0 fnt
+|-damage|p2b: Manectric|0 fnt
+|faint|p2a: Raichu
+|faint|p2b: Manectric
+|
+|win|Lisandrochaz

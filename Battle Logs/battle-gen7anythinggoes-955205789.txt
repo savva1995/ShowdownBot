@@ -1,0 +1,434 @@
+|init|battle
+|title|jam31 vs. JoelyMoley
+|j|☆jam31
+|j|☆JoelyMoley
+|player|p1|jam31|265|
+|player|p2|JoelyMoley|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Serperior, M|item
+|poke|p1|Pelipper, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Lopunny, M|item
+|poke|p2|Butterfree, F|item
+|poke|p2|Talonflame, F|item
+|poke|p2|Gengar, F|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Linoone, M|item
+|poke|p2|Giratina-Origin|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Butterfree|Butterfree, F|100/100
+|turn|1
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Skarmory
+|-status|p1a: Skarmory|slp|[from] move: Sleep Powder
+|cant|p1a: Skarmory|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Butterfree|Quiver Dance|p2a: Butterfree
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|-boost|p2a: Butterfree|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Butterfree|94/100|[from] Hail
+|upkeep
+|turn|3
+
+|
+|move|p2a: Butterfree|Bug Buzz|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|71/100
+|-damage|p2a: Butterfree|85/100|[from] item: Life Orb
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: jam31|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Butterfree|79/100|[from] Hail
+|upkeep
+|turn|4
+
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Ninetales
+|-status|p1a: Ninetales|slp|[from] move: Sleep Powder
+|cant|p1a: Ninetales|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Butterfree|72/100|[from] Hail
+|upkeep
+|turn|5
+
+|
+|move|p2a: Butterfree|Quiver Dance|p2a: Butterfree
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|-boost|p2a: Butterfree|spe|1
+|-curestatus|p1a: Ninetales|slp|[msg]
+|move|p1a: Ninetales|Freeze-Dry|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|44/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Butterfree|38/100|[from] Hail
+|upkeep
+|turn|6
+
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Ninetales
+|-status|p1a: Ninetales|slp|[from] move: Sleep Powder
+|cant|p1a: Ninetales|slp
+|
+|-weather|none
+|upkeep
+|turn|7
+
+|
+|move|p2a: Butterfree|Quiver Dance|p2a: Butterfree
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|-boost|p2a: Butterfree|spe|1
+|cant|p1a: Ninetales|slp
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Butterfree|Bug Buzz|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|47/100 slp
+|-damage|p2a: Butterfree|28/100|[from] item: Life Orb
+|cant|p1a: Ninetales|slp
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Butterfree|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|15/100 slp
+|-damage|p2a: Butterfree|18/100|[from] item: Life Orb
+|-curestatus|p1a: Ninetales|slp|[msg]
+|move|p1a: Ninetales|Freeze-Dry|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|upkeep
+
+|
+|switch|p2a: Linoone|Linoone, M|100/100
+|turn|10
+
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Ninetales
+|-damage|p1a: Ninetales|2/100
+|move|p1a: Ninetales|Hypnosis|p2a: Linoone
+|-status|p2a: Linoone|slp|[from] move: Hypnosis
+|
+|-sideend|p1: jam31|move: Aurora Veil
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Ninetales|Freeze-Dry|p2a: Gengar
+|-damage|p2a: Gengar|70/100
+|
+|upkeep
+|turn|12
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|upkeep
+
+|
+|switch|p1a: Lopunny|Lopunny, M|100/100
+|turn|13
+
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, M
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Gengar
+|-damage|p2a: Gengar|33/100
+|cant|p2a: Gengar|flinch
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Lopunny|Return|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|15
+
+|
+|move|p1a: Lopunny|Return|p2a: Azumarill
+|-damage|p2a: Azumarill|34/100
+|move|p2a: Azumarill|Light Screen|p2a: Azumarill
+|-sidestart|p2: JoelyMoley|move: Light Screen
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Lopunny
+|-damage|p1a: Lopunny|71/100
+|move|p1a: Lopunny|Return|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+
+|
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|turn|17
+
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Lopunny
+|-supereffective|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|-damage|p2a: Talonflame|82/100|[from] Recoil
+|faint|p1a: Lopunny
+|
+|upkeep
+
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|18
+
+|
+|switch|p2a: Linoone|Linoone, M|100/100 slp
+|move|p1a: Pelipper|Defog|p2a: Linoone
+|-unboost|p2a: Linoone|evasion|1
+|-sideend|p2: JoelyMoley|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+
+|
+|cant|p2a: Linoone|slp
+|move|p1a: Pelipper|U-turn|p2a: Linoone
+|-damage|p2a: Linoone|91/100 slp
+
+|
+|switch|p1a: Keldeo|Keldeo|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Talonflame|Talonflame, F|82/100
+|move|p1a: Keldeo|Taunt|p2a: Talonflame
+|-start|p2a: Talonflame|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|13/100
+|-damage|p2a: Talonflame|54/100|[from] Recoil
+|move|p1a: Keldeo|Scald|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|19/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Giratina|Giratina-Origin|100/100
+|turn|22
+
+|
+|move|p1a: Keldeo|Scald|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|77/100
+|move|p2a: Giratina|Dragon Claw|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100 slp
+|turn|23
+
+|
+|move|p2a: Giratina|Dragon Claw|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|89/100 slp
+|-damage|p2a: Giratina|61/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|cant|p1a: Skarmory|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+
+|
+|move|p2a: Giratina|Calm Mind|p2a: Giratina
+|-boost|p2a: Giratina|spa|1
+|-boost|p2a: Giratina|spd|1
+|cant|p1a: Skarmory|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+
+|
+|move|p2a: Giratina|Calm Mind|p2a: Giratina
+|-boost|p2a: Giratina|spa|1
+|-boost|p2a: Giratina|spd|1
+|-curestatus|p1a: Skarmory|slp|[msg]
+|move|p1a: Skarmory|Whirlwind|p2a: Giratina
+|drag|p2a: Linoone|Linoone, M|91/100 slp
+|
+|-weather|none
+|upkeep
+|turn|26
+
+|
+|cant|p2a: Linoone|slp
+|move|p1a: Skarmory|Spikes|p2a: Linoone
+|-sidestart|p2: JoelyMoley|Spikes
+|
+|upkeep
+|turn|27
+
+|
+|cant|p2a: Linoone|slp
+|move|p1a: Skarmory|Spikes|p2a: Linoone
+|-sidestart|p2: JoelyMoley|Spikes
+|
+|upkeep
+|turn|28
+
+|
+|-curestatus|p2a: Linoone|slp|[msg]
+|move|p2a: Linoone|Belly Drum|p2a: Linoone
+|-damage|p2a: Linoone|41/100
+|-setboost|p2a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Linoone|Aguav Berry|[eat]
+|-heal|p2a: Linoone|91/100|[from] item: Aguav Berry
+|move|p1a: Skarmory|Spikes|p2a: Linoone
+|-sidestart|p2: JoelyMoley|Spikes
+|
+|upkeep
+|turn|29
+
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|62/100
+|-damage|p2a: Linoone|75/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Linoone
+|drag|p2a: Giratina|Giratina-Origin|61/100
+|
+|upkeep
+|turn|30
+
+|
+|move|p2a: Giratina|Return|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|54/100
+|-damage|p2a: Giratina|44/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Toxic|p2a: Giratina
+|-status|p2a: Giratina|tox
+|
+|-damage|p2a: Giratina|38/100 tox|[from] psn
+|upkeep
+|turn|31
+
+|
+|move|p2a: Giratina|Dragon Claw|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|37/100
+|-damage|p2a: Giratina|21/100 tox|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|87/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-damage|p2a: Giratina|9/100 tox|[from] psn
+|upkeep
+|turn|32
+
+|
+|move|p2a: Giratina|Dragon Claw|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|76/100
+|-damage|p2a: Giratina|0 fnt|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|faint|p2a: Giratina
+|move|p1a: Skarmory|Whirlwind|p2: Giratina|[notarget]
+|-fail|p1a: Skarmory
+|
+|upkeep
+
+|
+|switch|p2a: Linoone|Linoone, M|75/100
+|-damage|p2a: Linoone|50/100|[from] Spikes
+|turn|33
+
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|69/100
+|-damage|p2a: Linoone|33/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Toxic|p2a: Linoone
+|-status|p2a: Linoone|tox
+|
+|-damage|p2a: Linoone|27/100 tox|[from] psn
+|upkeep
+|turn|34
+
+|
+|move|p2a: Linoone|Ice Beam|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|46/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|96/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-damage|p2a: Linoone|15/100 tox|[from] psn
+|upkeep
+|turn|35
+
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|90/100
+|-damage|p2a: Linoone|0 fnt|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|faint|p2a: Linoone
+|
+|win|jam31

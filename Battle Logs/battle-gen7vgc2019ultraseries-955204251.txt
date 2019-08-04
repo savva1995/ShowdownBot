@@ -1,0 +1,55 @@
+|init|battle
+|title|Keldeo500 vs. Youyou2005
+|j|☆Keldeo500
+|j|☆Youyou2005
+|player|p1|Keldeo500|278|1000
+|player|p2|Youyou2005|290|1138
+|teamsize|p1|4
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Lilligant, L50, F|item
+|poke|p1|Charizard, L50, M|item
+|poke|p1|Linoone, L50, M|item
+|poke|p1|Castform, L50, F|item
+|poke|p2|Kyogre, L50|item
+|poke|p2|Yveltal, L50|item
+|poke|p2|Gengar, L50, F|item
+|poke|p2|Tapu Lele, L50|item
+|poke|p2|Incineroar, L50, M|item
+|poke|p2|Stakataka, L50|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Youyou2005)
+|
+|start
+|switch|p1a: Lilligant|Lilligant, L50, F, shiny|48/48
+|switch|p1b: Linoone|Linoone, L50, M|48/48
+|switch|p2a: Gengar|Gengar, L50, F|48/48
+|switch|p2b: Incineroar|Incineroar, L50, M|48/48
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-unboost|p1b: Linoone|atk|1
+|turn|1
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L50, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2b: Incineroar|Fake Out|p1b: Linoone
+|-damage|p1b: Linoone|40/48
+|move|p2a: Gengar|Sludge Bomb|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|cant|p1b: Linoone|flinch
+|
+|upkeep
+
+|-message|Keldeo500 forfeited.
+
+|
+|win|Youyou2005

@@ -1,0 +1,64 @@
+|init|battle
+|title|Guest 1382665 vs. ethytjytjytjyt
+|j|☆ethytjytjytjyt
+|player|p1|Guest 1382665|2|1000
+|player|p2|ethytjytjytjyt|265|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Komala|Komala, L89, M|100/100
+|switch|p2a: Bisharp|Bisharp, L82, F|100/100
+|-ability|p1a: Komala|Comatose
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ethytjytjytjyt)
+|
+|move|p1a: Komala|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|10/100
+|-damage|p1a: Komala|90/100|[from] item: Life Orb
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Komala|Sucker Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-damage|p1a: Komala|80/100|[from] item: Life Orb
+|faint|p2a: Bisharp
+|
+|upkeep
+
+|c|☆ethytjytjytjyt|lucky moron
+
+|l|☆ethytjytjytjyt
+
+|inactive|ethytjytjytjyt disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|ethytjytjytjyt has 30 seconds to reconnect!
+
+|inactive|ethytjytjytjyt has 20 seconds to reconnect!
+
+|inactive|ethytjytjytjyt has 15 seconds to reconnect!
+
+|inactive|ethytjytjytjyt has 10 seconds to reconnect!
+
+|inactive|ethytjytjytjyt has 5 seconds to reconnect!
+
+|inactive|Guest 1382665 also wants the timer to be on.
+
+|inactive|Guest 1382665 no longer wants the timer on, but the timer is staying on because ethytjytjytjyt still does.
+
+|-message|ethytjytjytjyt lost due to inactivity.
+|
+|win|Guest 1382665

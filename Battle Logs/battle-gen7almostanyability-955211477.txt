@@ -1,0 +1,178 @@
+|init|battle
+|title|ajgsdak vs. bobbio
+|j|☆ajgsdak
+|j|☆bobbio
+|player|p1|ajgsdak|260|1047
+|player|p2|bobbio|265|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Almost Any Ability
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zapdos|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Manaphy|item
+|poke|p1|Volcanion|item
+|poke|p1|Swampert, F|item
+|poke|p2|Buzzwole|item
+|poke|p2|Entei|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Magearna|item
+|poke|p2|Azumarill, M|item
+|rule|Ability Clause: Limit two of each ability
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bobbio)
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Zapdos
+|turn|1
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Zapdos|Thunder|p2a: Magearna
+|-damage|p2a: Magearna|75/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Zapdos|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|72/100
+|
+|switch|p1a: Volcanion|Volcanion|100/100|[from]move: U-turn
+|move|p2a: Magearna|Fleur Cannon|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|58/100
+|-unboost|p2a: Magearna|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Magearna
+|-damage|p2a: Magearna|3/100
+|move|p2a: Magearna|Volt Switch|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|27/100
+
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Azumarill|[miss]
+|-miss|p1a: Volcanion|p2a: Azumarill
+|-zpower|p2a: Azumarill
+|move|p2a: Azumarill|Z-Belly Drum|p2a: Azumarill|[anim]Belly Drum
+|-damage|p2a: Azumarill|50/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|turn|6
+
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Tapu Koko
+|-crit|p2a: Tapu Koko
+|-enditem|p2a: Tapu Koko|Focus Sash
+|-damage|p2a: Tapu Koko|1/100
+|move|p2a: Tapu Koko|Return|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Swampert|Swampert, F|100/100
+|turn|7
+
+|
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|detailschange|p1a: Swampert|Swampert-Mega, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Power-Up Punch|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|95/100
+|-boost|p1a: Swampert|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Buzzwole|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Buzzwole
+|-damage|p2a: Buzzwole|25/100
+|move|p2a: Buzzwole|Bulk Up|p2a: Buzzwole
+|-boost|p2a: Buzzwole|atk|1
+|-boost|p2a: Buzzwole|def|1
+|
+|-weather|none
+|-heal|p2a: Buzzwole|31/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Buzzwole|Roost|p2a: Buzzwole
+|-heal|p2a: Buzzwole|81/100
+|-singleturn|p2a: Buzzwole|move: Roost
+|move|p1a: Swampert|Waterfall|p2a: Buzzwole
+|-damage|p2a: Buzzwole|52/100
+|
+|-heal|p2a: Buzzwole|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|move|p2a: Buzzwole|Bulk Up|p2a: Buzzwole
+|-boost|p2a: Buzzwole|atk|1
+|-boost|p2a: Buzzwole|def|1
+|
+|-heal|p2a: Buzzwole|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Landorus|Return|p2a: Buzzwole
+|-supereffective|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|
+|upkeep
+
+|-message|bobbio forfeited.
+
+|
+|win|ajgsdak

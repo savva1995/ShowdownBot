@@ -1,0 +1,499 @@
+|init|battle
+|title|zolip84 vs. Sasta gamer
+|j|☆zolip84
+|j|☆Sasta gamer
+|player|p1|zolip84|102|1087
+|player|p2|Sasta gamer|265|1124
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Stunfisk|Stunfisk, L91, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|atk|1
+|turn|1
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|61/100
+|move|p1a: Stunfisk|Earth Power|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|61/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Sawk|Sawk, L87, M|100/100
+|move|p2a: Porygon-Z|Ice Beam|p1a: Sawk
+|-damage|p1a: Sawk|71/100
+|
+|-heal|p1a: Sawk|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Mew|Mew, L80|100/100
+|move|p1a: Sawk|Close Combat|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|74/100
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|
+|-heal|p2a: Mew|80/100|[from] item: Leftovers
+|-heal|p1a: Sawk|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Mew|Aura Sphere|p1a: Sawk
+|-damage|p1a: Sawk|53/100
+|move|p1a: Sawk|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|17/100
+|-enditem|p2a: Mew|Leftovers|[from] move: Knock Off|[of] p1a: Sawk
+|
+|-heal|p1a: Sawk|60/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Mew|Psyshock|p1a: Sawk
+|-supereffective|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sasta gamer)
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|6
+
+|
+|move|p1a: Porygon-Z|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|61/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|atk|1
+|turn|7
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|-zpower|p2a: Porygon-Z
+|move|p2a: Porygon-Z|Z-Conversion|p2a: Porygon-Z|[anim]Conversion
+|-boost|p2a: Porygon-Z|atk|1|[zeffect]
+|-boost|p2a: Porygon-Z|def|1|[zeffect]
+|-boost|p2a: Porygon-Z|spa|1|[zeffect]
+|-boost|p2a: Porygon-Z|spd|1|[zeffect]
+|-boost|p2a: Porygon-Z|spe|1|[zeffect]
+|-start|p2a: Porygon-Z|typechange|Ghost
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Cobalion
+|-damage|p1a: Cobalion|37/100
+|move|p1a: Cobalion|Iron Head|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|40/100
+|
+|-heal|p1a: Cobalion|43/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, M|100/100
+|turn|10
+
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|62/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|13/100
+|
+|-heal|p1a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Porygon-Z|Recover|p2a: Porygon-Z
+|-heal|p2a: Porygon-Z|63/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|36/100
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Porygon-Z|Recover|p2a: Porygon-Z
+|-heal|p2a: Porygon-Z|86/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|59/100
+|
+|-heal|p1a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|34/100
+|
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Porygon-Z|Recover|p2a: Porygon-Z
+|-heal|p2a: Porygon-Z|84/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|57/100
+|
+|-heal|p1a: Ferrothorn|20/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p1a: Rhyperior|Rhyperior, L84, F|100/100
+|turn|16
+
+|c|☆Sasta gamer|Xxb
+
+|inactive|zolip84 has 120 seconds left.
+
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|22/100
+|-enditem|p1a: Rhyperior|Weakness Policy
+|-boost|p1a: Rhyperior|atk|2
+|-boost|p1a: Rhyperior|spa|2
+|move|p1a: Rhyperior|Megahorn|p2a: Porygon-Z
+|-resisted|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|21/100
+|
+|upkeep
+|turn|17
+
+|inactive|zolip84 has 120 seconds left.
+
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|atk|1
+|turn|18
+
+|
+|move|p1a: Porygon-Z|Shadow Ball|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p2a: Comfey|Comfey, L86, F|100/100
+|turn|19
+
+|
+|switch|p1a: Stunfisk|Stunfisk, L91, M|61/100
+|move|p2a: Comfey|Toxic|p1a: Stunfisk|[miss]
+|-miss|p2a: Comfey|p1a: Stunfisk
+|
+|upkeep
+|turn|20
+
+|c|☆Sasta gamer|Xxx vnn
+
+|
+|move|p2a: Comfey|Toxic|p1a: Stunfisk
+|-status|p1a: Stunfisk|tox
+|move|p1a: Stunfisk|Discharge|p2a: Comfey
+|-damage|p2a: Comfey|71/100
+|
+|-heal|p2a: Comfey|77/100|[from] item: Leftovers
+|-damage|p1a: Stunfisk|55/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|100/100
+|move|p1a: Stunfisk|Earth Power|p2a: Comfey
+|-damage|p2a: Comfey|67/100
+|
+|-heal|p2a: Comfey|73/100|[from] item: Leftovers
+|-damage|p1a: Stunfisk|43/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Stunfisk
+|-damage|p1a: Stunfisk|32/100 tox
+|-heal|p2a: Comfey|86/100|[from] drain|[of] p1a: Stunfisk
+|move|p1a: Stunfisk|Rest|p1a: Stunfisk
+|-status|p1a: Stunfisk|slp|[from] move: Rest
+|-heal|p1a: Stunfisk|100/100 slp|[silent]
+|
+|-heal|p2a: Comfey|92/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|c|☆Sasta gamer|Xx
+
+|
+|switch|p2a: Qwilfish|Qwilfish, L88, M|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Stunfisk|atk|1
+|cant|p1a: Stunfisk|slp
+|move|p1a: Stunfisk|Sleep Talk|p1a: Stunfisk
+|move|p1a: Stunfisk|Discharge|p2a: Qwilfish|[from]Sleep Talk
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|5/100
+|-status|p2a: Qwilfish|par
+|
+|-heal|p2a: Qwilfish|11/100 par|[from] item: Black Sludge
+|upkeep
+|turn|24
+
+|
+|cant|p1a: Stunfisk|slp
+|move|p1a: Stunfisk|Sleep Talk|p1a: Stunfisk
+|move|p1a: Stunfisk|Rest|p1a: Stunfisk|[from]Sleep Talk
+|-fail|p1a: Stunfisk
+|cant|p2a: Qwilfish|par
+|
+|-heal|p2a: Qwilfish|18/100 par|[from] item: Black Sludge
+|upkeep
+|turn|25
+
+|
+|-curestatus|p1a: Stunfisk|slp|[msg]
+|move|p1a: Stunfisk|Discharge|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|upkeep
+
+|
+|switch|p2a: Comfey|Comfey, L86, F|92/100
+|turn|26
+
+|
+|move|p2a: Comfey|Toxic|p1a: Stunfisk
+|-status|p1a: Stunfisk|tox
+|move|p1a: Stunfisk|Earth Power|p2a: Comfey
+|-damage|p2a: Comfey|58/100
+|
+|-heal|p2a: Comfey|64/100|[from] item: Leftovers
+|-damage|p1a: Stunfisk|94/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Stunfisk
+|-damage|p1a: Stunfisk|83/100 tox
+|-heal|p2a: Comfey|77/100|[from] drain|[of] p1a: Stunfisk
+|move|p1a: Stunfisk|Earth Power|p2a: Comfey
+|-damage|p2a: Comfey|44/100
+|
+|-heal|p2a: Comfey|50/100|[from] item: Leftovers
+|-damage|p1a: Stunfisk|71/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|100/100
+|move|p1a: Stunfisk|Earth Power|p2a: Comfey
+|-damage|p2a: Comfey|62/100
+|
+|-heal|p2a: Comfey|68/100|[from] item: Leftovers
+|-damage|p1a: Stunfisk|53/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Stunfisk
+|-damage|p1a: Stunfisk|39/100 tox
+|-heal|p2a: Comfey|83/100|[from] drain|[of] p1a: Stunfisk
+|move|p1a: Stunfisk|Rest|p1a: Stunfisk
+|-status|p1a: Stunfisk|slp|[from] move: Rest
+|-heal|p1a: Stunfisk|100/100 slp|[silent]
+|
+|-heal|p2a: Comfey|90/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p2a: Shiftry|Shiftry, L89, F|100/100
+|cant|p1a: Stunfisk|slp
+|move|p1a: Stunfisk|Sleep Talk|p1a: Stunfisk
+|move|p1a: Stunfisk|Discharge|p2a: Shiftry|[from]Sleep Talk
+|-resisted|p2a: Shiftry
+|-damage|p2a: Shiftry|83/100
+|-status|p2a: Shiftry|par
+|
+|upkeep
+|turn|31
+
+|
+|cant|p1a: Stunfisk|slp
+|move|p1a: Stunfisk|Sleep Talk|p1a: Stunfisk
+|move|p1a: Stunfisk|Rest|p1a: Stunfisk|[from]Sleep Talk
+|-fail|p1a: Stunfisk
+|move|p2a: Shiftry|Leaf Blade|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|16/100 slp
+|-damage|p2a: Shiftry|73/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|32
+
+|
+|-curestatus|p1a: Stunfisk|slp|[msg]
+|move|p1a: Stunfisk|Sleep Talk||[still]
+|-fail|p1a: Stunfisk
+|cant|p2a: Shiftry|par
+|
+|upkeep
+|turn|33
+
+|
+|move|p1a: Stunfisk|Rest|p1a: Stunfisk
+|-status|p1a: Stunfisk|slp|[from] move: Rest
+|-heal|p1a: Stunfisk|100/100 slp|[silent]
+|move|p2a: Shiftry|Leaf Blade|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-crit|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|-damage|p2a: Shiftry|63/100 par|[from] item: Life Orb
+|faint|p1a: Stunfisk
+|
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|34
+
+|
+|move|p1a: Porygon-Z|Ice Beam|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|upkeep
+
+|
+|switch|p2a: Comfey|Comfey, L86, F|90/100
+|turn|35
+
+|
+|move|p1a: Porygon-Z|Ice Beam|p2a: Comfey
+|-damage|p2a: Comfey|47/100
+|move|p2a: Comfey|Toxic|p1a: Porygon-Z
+|-status|p1a: Porygon-Z|tox
+|
+|-heal|p2a: Comfey|54/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|95/100 tox|[from] psn
+|upkeep
+|turn|36
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|100/100
+|move|p1a: Porygon-Z|Ice Beam|p2a: Comfey
+|-damage|p2a: Comfey|57/100
+|
+|-heal|p2a: Comfey|63/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|83/100 tox|[from] psn
+|upkeep
+|turn|37
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|100/100
+|move|p1a: Porygon-Z|Ice Beam|p2a: Comfey
+|-damage|p2a: Comfey|58/100
+|
+|-heal|p2a: Comfey|64/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|65/100 tox|[from] psn
+|upkeep
+|turn|38
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|100/100
+|move|p1a: Porygon-Z|Ice Beam|p2a: Comfey
+|-crit|p2a: Comfey
+|-damage|p2a: Comfey|39/100
+|
+|-heal|p2a: Comfey|45/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|41/100 tox|[from] psn
+|upkeep
+|turn|39
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|95/100
+|move|p1a: Porygon-Z|Ice Beam|p2a: Comfey
+|-damage|p2a: Comfey|53/100
+|
+|-heal|p2a: Comfey|59/100|[from] item: Leftovers
+|-damage|p1a: Porygon-Z|12/100 tox|[from] psn
+|upkeep
+|turn|40
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-heal|p2a: Comfey|69/100|[from] drain|[of] p1a: Porygon-Z
+|faint|p1a: Porygon-Z
+|
+|win|Sasta gamer

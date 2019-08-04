@@ -1,0 +1,298 @@
+|init|battle
+|title|ythgdre vs. Traconis1995
+|j|☆ythgdre
+|j|☆Traconis1995
+|player|p1|ythgdre|1|1043
+|player|p2|Traconis1995|169|1053
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scolipede|Scolipede, L81, M|100/100
+|switch|p2a: Deoxys|Deoxys, L78|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Scolipede
+|
+|upkeep
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, F|100/100
+|turn|2
+|
+|switch|p2a: Swanna|Swanna, L89, M|100/100
+|move|p1a: Typhlosion|Eruption|p2a: Swanna
+|-resisted|p2a: Swanna
+|-damage|p2a: Swanna|64/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Quagsire|Quagsire, L88, M|100/100
+|move|p2a: Swanna|Defog|p1a: Quagsire
+|-unboost|p1a: Quagsire|evasion|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Swanna|Hurricane|p1a: Quagsire|[miss]
+|-miss|p2a: Swanna|p1a: Quagsire
+|move|p1a: Quagsire|Toxic|p2a: Swanna
+|-status|p2a: Swanna|tox
+|
+|-damage|p2a: Swanna|58/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Swanna|Hurricane|p1a: Quagsire
+|-damage|p1a: Quagsire|44/100
+|-damage|p2a: Swanna|48/100 tox|[from] item: Life Orb
+|move|p1a: Quagsire|Scald|p2a: Swanna
+|-resisted|p2a: Swanna
+|-damage|p2a: Swanna|33/100 tox
+|
+|-heal|p1a: Quagsire|50/100|[from] item: Leftovers
+|-damage|p2a: Swanna|21/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Swanna|Hurricane|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-damage|p2a: Swanna|11/100 tox|[from] item: Life Orb
+|faint|p1a: Quagsire
+|
+|-damage|p2a: Swanna|0 fnt|[from] psn
+|faint|p2a: Swanna
+|upkeep
+
+|
+|switch|p2a: Malamar|Malamar, L86, F|100/100
+|switch|p1a: Archeops|Archeops, L87, M|100/100
+|turn|7
+
+|
+|move|p1a: Archeops|Acrobatics|p2a: Malamar
+|-damage|p2a: Malamar|40/100
+|move|p2a: Malamar|Knock Off|p1a: Archeops
+|-damage|p1a: Archeops|67/100
+|
+|-heal|p2a: Malamar|46/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Archeops|Acrobatics|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|upkeep
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, F|100/100
+|turn|9
+
+|
+|move|p2a: Talonflame|Flare Blitz|p1a: Archeops
+|-resisted|p1a: Archeops
+|-damage|p1a: Archeops|44/100
+|-damage|p2a: Talonflame|93/100|[from] Recoil
+|move|p1a: Archeops|Aqua Tail|p2a: Talonflame|[miss]
+|-miss|p1a: Archeops|p2a: Talonflame
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Umbreon|Umbreon, L84, F|100/100
+|move|p1a: Archeops|Tailwind|p1a: Archeops
+|-sidestart|p1: ythgdre|move: Tailwind
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Archeops|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|81/100
+
+|
+|switch|p1a: Swalot|Swalot, L89, M|100/100|[from]move: U-turn
+|move|p2a: Umbreon|Toxic|p1a: Swalot
+|-immune|p1a: Swalot
+|
+|-heal|p2a: Umbreon|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Kartana|Kartana, L80|100/100
+|move|p1a: Swalot|Toxic|p2a: Kartana
+|-immune|p2a: Kartana
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Swalot|Earthquake|p2a: Kartana
+|-damage|p2a: Kartana|79/100
+|move|p2a: Kartana|Swords Dance|p2a: Kartana
+|-boost|p2a: Kartana|atk|2
+|
+|-sideend|p1: ythgdre|move: Tailwind
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Archeops|Archeops, L87, M|44/100
+|move|p2a: Kartana|Sacred Sword|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|-damage|p2a: Kartana|70/100|[from] item: Life Orb
+|faint|p1a: Archeops
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, F|100/100
+|turn|15
+
+|
+|move|p1a: Typhlosion|Eruption|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|upkeep
+
+|
+|switch|p2a: Umbreon|Umbreon, L84, F|87/100
+|turn|16
+
+|
+|switch|p1a: Swalot|Swalot, L89, M|100/100
+|switch|p2a: Deoxys|Deoxys, L78|100/100
+|-ability|p2a: Deoxys|Pressure
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Deoxys|Spikes|p1a: Swalot
+|-sidestart|p1: ythgdre|Spikes
+|move|p1a: Swalot|Sludge Bomb|p2a: Deoxys
+|-damage|p2a: Deoxys|32/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Swalot
+|-supereffective|p1a: Swalot
+|-damage|p1a: Swalot|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Swalot
+|
+|upkeep
+
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, F|100/100
+|-damage|p1a: Typhlosion|88/100|[from] Spikes
+|turn|19
+
+|
+|move|p1a: Typhlosion|Eruption|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+
+|
+|switch|p2a: Umbreon|Umbreon, L84, F|87/100
+|turn|20
+
+|
+|move|p1a: Typhlosion|Eruption|p2a: Umbreon
+|-damage|p2a: Umbreon|48/100
+|move|p2a: Umbreon|Toxic|p1a: Typhlosion
+|-status|p1a: Typhlosion|tox
+|
+|-heal|p2a: Umbreon|54/100|[from] item: Leftovers
+|-damage|p1a: Typhlosion|82/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Typhlosion|Eruption|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|60/100|[from] item: Leftovers
+|-damage|p1a: Typhlosion|69/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, F|93/100
+|move|p1a: Typhlosion|Eruption|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|63/100
+|
+|-damage|p1a: Typhlosion|51/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p1a: Typhlosion|Eruption|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|40/100
+|move|p2a: Talonflame|Brave Bird|p1a: Typhlosion
+|-damage|p1a: Typhlosion|5/100 tox
+|-damage|p2a: Talonflame|25/100|[from] Recoil
+|
+|-damage|p1a: Typhlosion|0 fnt|[from] psn
+|faint|p1a: Typhlosion
+|upkeep
+
+|
+|switch|p1a: Xerneas|Xerneas, L78|100/100
+|-damage|p1a: Xerneas|88/100|[from] Spikes
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|24
+
+|
+|-zpower|p2a: Talonflame
+|move|p2a: Talonflame|Supersonic Skystrike|p1a: Xerneas|[zeffect]
+|-damage|p1a: Xerneas|38/100
+|move|p1a: Xerneas|Rock Slide|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|upkeep
+
+|
+|switch|p2a: Umbreon|Umbreon, L84, F|60/100
+|turn|25
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|win|ythgdre

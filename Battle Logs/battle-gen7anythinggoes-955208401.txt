@@ -1,0 +1,107 @@
+|init|battle
+|title|QuatoRzZ vs. iiOpticalFreeze
+|j|☆QuatoRzZ
+|j|☆iiOpticalFreeze
+|player|p1|QuatoRzZ|29|1544
+|player|p2|iiOpticalFreeze|290|1530
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Arceus-*|item
+|poke|p1|Arceus-*|item
+|poke|p1|Arceus-*|item
+|poke|p1|Arceus-*|item
+|poke|p1|Marshadow|item
+|poke|p2|Rayquaza|item
+|poke|p2|Smeargle, F|item
+|poke|p2|Solgaleo|item
+|poke|p2|Marshadow|item
+|poke|p2|Arceus-*|item
+|poke|p2|Greninja, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by QuatoRzZ)
+|
+|start
+|switch|p1a: Arceus|Arceus-Water|100/100
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|turn|1
+|
+|move|p1a: Arceus|Stealth Rock|p2a: Smeargle
+|-sidestart|p2: iiOpticalFreeze|move: Stealth Rock
+|move|p2a: Smeargle|Spore|p1a: Arceus
+|-status|p1a: Arceus|slp|[from] move: Spore
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|accuracy|1
+|upkeep
+|turn|2
+|
+|switch|p1a: Arceus|Arceus-Grass|100/100
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|3
+|
+|move|p2a: Smeargle|Magic Coat|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Magic Coat
+|move|p1a: Arceus|Grass Knot|p2a: Smeargle
+|-damage|p2a: Smeargle|39/100
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|evasion|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|4
+|
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+|
+|switch|p2a: Solgaleo|Solgaleo|100/100|[from]move: Baton Pass
+|-damage|p2a: Solgaleo|94/100|[from] Stealth Rock
+|move|p1a: Arceus|Grass Knot|p2a: Solgaleo
+|-resisted|p2a: Solgaleo
+|-damage|p2a: Solgaleo|77/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Solgaleo|Flame Charge|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|56/100
+|-boost|p2a: Solgaleo|spe|1
+|move|p1a: Arceus|Fire Blast|p2a: Solgaleo|[miss]
+|-miss|p1a: Arceus|p2a: Solgaleo
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Solgaleo|Flame Charge|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|10/100
+|-boost|p2a: Solgaleo|spe|1
+|move|p1a: Arceus|Fire Blast|p2a: Solgaleo|[miss]
+|-miss|p1a: Arceus|p2a: Solgaleo
+|
+|upkeep
+|turn|7
+
+|-message|QuatoRzZ forfeited.
+
+|
+|win|iiOpticalFreeze

@@ -1,0 +1,70 @@
+|init|battle
+|title|crvgbgxhbh vs. guzmaguzmaguzma
+|j|☆crvgbgxhbh
+|j|☆guzmaguzmaguzma
+|player|p1|crvgbgxhbh|253|1000
+|player|p2|guzmaguzmaguzma|110|1062
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Lucario, M|item
+|poke|p1|Groudon|item
+|poke|p1|Primarina, F|item
+|poke|p1|Pheromosa|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Dragonite, F|item
+|poke|p2|Blacephalon|item
+|poke|p2|Beheeyem, F|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Dragonair, M|item
+|poke|p2|Gengar, F|item
+|poke|p2|Mewtwo|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Beheeyem|Beheeyem, F|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+
+|
+|switch|p2a: Dragonair|Dragonair, M|100/100
+|move|p1a: Groudon|Fire Punch|p2a: Dragonair
+|-resisted|p2a: Dragonair
+|-damage|p2a: Dragonair|45/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p1a: Groudon|Rock Polish|p1a: Groudon
+|-boost|p1a: Groudon|spe|2
+|move|p2a: Dragonair|Waterfall||[still]
+|-fail|p2a: Dragonair|Waterfall|[from] Desolate Land
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p1a: Groudon|Fire Punch|p2a: Dragonair
+|-resisted|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|-message|guzmaguzmaguzma forfeited.
+
+|
+|win|crvgbgxhbh

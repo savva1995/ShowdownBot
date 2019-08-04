@@ -1,0 +1,406 @@
+|init|battle
+|title|Holoband vs. Pokemon Breeder Z
+|j|☆Holoband
+|j|☆Pokemon Breeder Z
+|player|p1|Holoband|170|1087
+|player|p2|Pokemon Breeder Z|18|1283
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Hackmons Cup
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Litwick|Litwick, L91, F|100/100
+|switch|p2a: Delibird|Delibird, L86, F|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Delibird
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Litwick
+|turn|1
+|
+|move|p2a: Delibird|Sacred Fire|p1a: Litwick
+|-resisted|p1a: Litwick
+|-damage|p1a: Litwick|92/100
+|-enditem|p1a: Litwick|Kee Berry|[eat]
+|-boost|p1a: Litwick|def|1
+|move|p1a: Litwick|Magma Storm|p2a: Delibird
+|-supereffective|p2a: Delibird
+|-crit|p2a: Delibird
+|-damage|p2a: Delibird|3/100
+|-activate|p2a: Delibird|move: Magma Storm|[of] p1a: Litwick
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Delibird|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2a: Delibird
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pokemon Breeder Z)
+|
+|switch|p2a: Dodrio|Dodrio, L76, F|100/100
+|turn|2
+|
+|move|p2a: Dodrio|Shadow Force||[still]
+|-prepare|p2a: Dodrio|Shadow Force|p1a: Litwick
+|move|p1a: Litwick|Nuzzle|p2a: Dodrio|[miss]
+|-miss|p1a: Litwick|p2a: Dodrio
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|inactive|Holoband has 120 seconds left.
+
+|
+|switch|p1a: Toxicroak|Toxicroak, L75, F|100/100
+|move|p2a: Dodrio|Shadow Force|p1a: Toxicroak|[from]lockedmove
+|-damage|p1a: Toxicroak|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p1a: Toxicroak|Brutal Swing|p2a: Dodrio
+|-damage|p2a: Dodrio|67/100
+|move|p2a: Dodrio|Boomburst|p1a: Toxicroak
+|-damage|p1a: Toxicroak|2/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Toxicroak|Brutal Swing|p2a: Dodrio
+|-damage|p2a: Dodrio|36/100
+|move|p2a: Dodrio|High Jump Kick|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|none
+|-fieldend|Misty Terrain
+|upkeep
+
+|
+|switch|p1a: Dewgong|Dewgong, L75, M|100/100
+|turn|6
+
+|
+|switch|p1a: Litwick|Litwick, L91, F|92/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Litwick
+|move|p2a: Dodrio|High Jump Kick|p1a: Litwick
+|-immune|p1a: Litwick
+|-damage|p2a: Dodrio|0 fnt|[from] highjumpkick
+|faint|p2a: Dodrio
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Hitmontop|Hitmontop, L76, M|100/100
+|turn|7
+
+|
+|move|p2a: Hitmontop|Shadow Bone|p1a: Litwick
+|-supereffective|p1a: Litwick
+|-damage|p1a: Litwick|25/100
+|move|p1a: Litwick|Nuzzle|p2a: Hitmontop
+|-damage|p2a: Hitmontop|97/100
+|-status|p2a: Hitmontop|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Quilladin|Quilladin, L80, F|100/100
+|move|p2a: Hitmontop|Shadow Bone|p1a: Quilladin
+|-damage|p1a: Quilladin|72/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|67/100 par
+|-heal|p1a: Quilladin|98/100|[from] drain|[of] p2a: Hitmontop
+|cant|p2a: Hitmontop|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|33/100 par
+|-heal|p1a: Quilladin|100/100|[from] drain|[of] p2a: Hitmontop
+|cant|p2a: Hitmontop|par
+|
+|-weather|none
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Deino|Deino, L89, F|100/100
+|move|p1a: Quilladin|Oblivion Wing|p2a: Deino
+|-damage|p2a: Deino|77/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Dewgong|Dewgong, L75, M|100/100
+|move|p2a: Deino|Multi-Attack|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-damage|p1a: Dewgong|48/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Dewgong|Reflect|p1a: Dewgong
+|-sidestart|p1: Holoband|Reflect
+|move|p2a: Deino|Multi-Attack|p1a: Dewgong
+|-damage|p1a: Dewgong|31/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Dewgong|Bone Rush|p2a: Deino
+|-damage|p2a: Deino|71/100
+|-damage|p2a: Deino|64/100
+|-damage|p2a: Deino|57/100
+|-damage|p2a: Deino|51/100
+|-damage|p2a: Deino|43/100
+|-hitcount|p2a: Deino|5
+|move|p2a: Deino|Multi-Attack|p1a: Dewgong
+|-damage|p1a: Dewgong|13/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Dewgong|Bone Rush|p2a: Deino
+|-damage|p2a: Deino|35/100
+|-damage|p2a: Deino|28/100
+|-damage|p2a: Deino|21/100
+|-hitcount|p2a: Deino|3
+|move|p2a: Deino|Multi-Attack|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|upkeep
+
+|
+|switch|p1a: Quilladin|Quilladin, L80, F|100/100
+|turn|16
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Deino
+|-crit|p2a: Deino
+|-damage|p2a: Deino|0 fnt
+|faint|p2a: Deino
+|
+|upkeep
+
+|
+|switch|p2a: Machamp|Machamp, L74, F|100/100
+|-ability|p2a: Machamp|Intimidate|boost
+|-unboost|p1a: Quilladin|atk|1
+|turn|17
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|72/100
+|move|p2a: Machamp|Hyperspace Hole|p1a: Quilladin
+|-damage|p1a: Quilladin|75/100
+|
+|-sideend|p1: Holoband|Reflect
+|upkeep
+|turn|18
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|42/100
+|-heal|p1a: Quilladin|100/100|[from] drain|[of] p2a: Machamp
+|move|p2a: Machamp|Uproar|p1a: Quilladin
+|-damage|p1a: Quilladin|74/100
+|-start|p2a: Machamp|Uproar
+|
+|-start|p2a: Machamp|Uproar|[upkeep]
+|upkeep
+|turn|19
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|9/100
+|-heal|p1a: Quilladin|100/100|[from] drain|[of] p2a: Machamp
+|move|p2a: Machamp|Uproar|p1a: Quilladin|[from]lockedmove
+|-damage|p1a: Quilladin|74/100
+|
+|-start|p2a: Machamp|Uproar|[upkeep]
+|upkeep
+|turn|20
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|-heal|p1a: Quilladin|82/100|[from] drain|[of] p2a: Machamp
+|faint|p2a: Machamp
+|
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan-Mega, L69, F|100/100
+|turn|21
+
+|
+|switch|p1a: Litwick|Litwick, L91, F|25/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Litwick
+|move|p2a: Kangaskhan|Volt Tackle|p1a: Litwick
+|-enditem|p2a: Kangaskhan|Electric Gem|[from] gem|[move] Volt Tackle
+|-damage|p1a: Litwick|0 fnt
+|-damage|p2a: Kangaskhan|93/100|[from] Recoil
+|faint|p1a: Litwick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence-Mega, L64, F|100/100
+|turn|22
+
+|
+|move|p2a: Kangaskhan|Volt Tackle|p1a: Salamence
+|-damage|p1a: Salamence|74/100
+|-damage|p2a: Kangaskhan|85/100|[from] Recoil
+|move|p1a: Salamence|Close Combat|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|28/100
+|-unboost|p1a: Salamence|def|1
+|-unboost|p1a: Salamence|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+
+|
+|move|p2a: Kangaskhan|Volt Tackle|p1a: Salamence
+|-damage|p1a: Salamence|35/100
+|-enditem|p1a: Salamence|Sitrus Berry|[eat]
+|-heal|p1a: Salamence|60/100|[from] item: Sitrus Berry
+|-damage|p2a: Kangaskhan|17/100|[from] Recoil
+|move|p1a: Salamence|Close Combat|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-unboost|p1a: Salamence|def|1
+|-unboost|p1a: Salamence|spd|1
+|faint|p2a: Kangaskhan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Hitmontop|Hitmontop, L76, M|33/100 par
+|turn|24
+
+|
+|switch|p1a: Quilladin|Quilladin, L80, F|100/100
+|cant|p2a: Hitmontop|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+
+|
+|move|p1a: Quilladin|Speed Swap|p2a: Hitmontop
+|-activate|p1a: Quilladin|move: Speed Swap|[of] p2a: Hitmontop
+|move|p2a: Hitmontop|Clangorous Soulblaze|p1a: Quilladin
+|-damage|p1a: Quilladin|69/100
+|replace|p1a: Marshtomp|Marshtomp, L80, M
+|-end|p1a: Marshtomp|Illusion
+|-boost|p2a: Hitmontop|atk|1
+|-boost|p2a: Hitmontop|def|1
+|-boost|p2a: Hitmontop|spa|1
+|-boost|p2a: Hitmontop|spd|1
+|-boost|p2a: Hitmontop|spe|1
+|
+|-weather|none
+|upkeep
+|turn|26
+
+|
+|move|p1a: Marshtomp|Accelerock|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-crit|p2a: Hitmontop
+|-damage|p2a: Hitmontop|28/100 par
+|move|p2a: Hitmontop|Shadow Bone|p1a: Marshtomp
+|-damage|p1a: Marshtomp|31/100
+|
+|upkeep
+|turn|27
+
+|
+|move|p1a: Marshtomp|Accelerock|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|26/100 par
+|cant|p2a: Hitmontop|par
+|
+|upkeep
+|turn|28
+
+|
+|move|p1a: Marshtomp|Accelerock|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|23/100 par
+|move|p2a: Hitmontop|Shadow Bone|p1a: Marshtomp
+|-damage|p1a: Marshtomp|0 fnt
+|faint|p1a: Marshtomp
+|
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence-Mega, L64, F|60/100
+|turn|29
+
+|
+|move|p1a: Salamence|Memento|p2a: Hitmontop
+|-unboost|p2a: Hitmontop|atk|2
+|-unboost|p2a: Hitmontop|spa|2
+|faint|p1a: Salamence
+|move|p2a: Hitmontop|Shadow Bone|p1: Salamence|[notarget]
+|-fail|p2a: Hitmontop
+|
+|upkeep
+
+|
+|switch|p1a: Quilladin|Quilladin, L80, F|82/100
+|turn|30
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|2/100 par
+|-heal|p1a: Quilladin|99/100|[from] drain|[of] p2a: Hitmontop
+|move|p2a: Hitmontop|Shadow Bone|p1a: Quilladin
+|-damage|p1a: Quilladin|81/100
+|
+|upkeep
+|turn|31
+
+|
+|move|p1a: Quilladin|Oblivion Wing|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-heal|p1a: Quilladin|82/100|[from] drain|[of] p2a: Hitmontop
+|faint|p2a: Hitmontop
+|
+|win|Holoband

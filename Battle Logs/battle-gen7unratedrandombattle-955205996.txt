@@ -1,0 +1,197 @@
+|init|battle
+|title|Boteokin vs. 9980648w
+|j|☆Boteokin
+|j|☆9980648w
+|player|p1|Boteokin|2|
+|player|p2|9980648w|260|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aegislash|Aegislash, L78, M|100/100
+|switch|p2a: Houndoom|Houndoom, L83, M|100/100
+|turn|1
+|
+|move|p2a: Houndoom|Taunt|p1a: Aegislash
+|-start|p1a: Aegislash|move: Taunt
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|59/100
+|-damage|p1a: Aegislash|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+
+|
+|detailschange|p2a: Houndoom|Houndoom-Mega, L83, M
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p1a: Aegislash|Shadow Sneak|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|45/100
+|-damage|p1a: Aegislash|81/100|[from] item: Life Orb
+|move|p2a: Houndoom|Fire Blast|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+
+|
+|switch|p1a: Lunatone|Lunatone, L89|100/100
+|turn|3
+
+|
+|switch|p2a: Beedrill|Beedrill, L89, M|100/100
+|move|p1a: Lunatone|Earth Power|p2a: Beedrill
+|-damage|p2a: Beedrill|75/100
+|
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 9980648w)
+
+|
+|move|p2a: Beedrill|Toxic Spikes|p1a: Lunatone
+|-sidestart|p1: Boteokin|move: Toxic Spikes
+|move|p1a: Lunatone|Power Gem|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|7/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Beedrill|Toxic Spikes|p1a: Lunatone
+|-sidestart|p1: Boteokin|move: Toxic Spikes
+|move|p1a: Lunatone|Earth Power|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|upkeep
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, M|100/100
+|turn|6
+
+|
+|move|p1a: Lunatone|Earth Power|p2a: Vaporeon
+|-damage|p2a: Vaporeon|83/100
+|move|p2a: Vaporeon|Scald|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|38/100
+|-status|p1a: Lunatone|brn
+|
+|-heal|p1a: Lunatone|44/100 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|89/100|[from] item: Leftovers
+|-damage|p1a: Lunatone|38/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, F|100/100
+|-sideend|p1: Boteokin|move: Toxic Spikes|[of] p1a: Vileplume
+|move|p2a: Vaporeon|Scald|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|82/100
+|
+|-heal|p2a: Vaporeon|95/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|88/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Houndoom|Houndoom-Mega, L83, M|45/100
+|move|p1a: Vileplume|Giga Drain|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|26/100
+|-heal|p1a: Vileplume|97/100|[from] drain|[of] p2a: Houndoom
+|
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Lunatone|Lunatone, L89|38/100 brn
+|move|p2a: Houndoom|Fire Blast|p1a: Lunatone
+|-resisted|p1a: Lunatone
+|-damage|p1a: Lunatone|13/100 brn
+|
+|-heal|p1a: Lunatone|19/100 brn|[from] item: Leftovers
+|-damage|p1a: Lunatone|13/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|0 fnt
+|faint|p1a: Lunatone
+|
+|upkeep
+
+|
+|switch|p1a: Celebi|Celebi, L82|100/100
+|turn|11
+
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Houndoom|atk|1
+|turn|12
+
+|l|☆Boteokin
+
+|inactive|Boteokin disconnected and has 300 seconds to reconnect!
+
+|player|p1|
+
+|inactive|Boteokin has 270 seconds to reconnect!
+
+|inactive|Boteokin has 240 seconds to reconnect!
+
+|inactive|Boteokin has 210 seconds to reconnect!
+
+|inactive|Boteokin has 180 seconds to reconnect!
+
+|c|☆9980648w|做
+
+|inactive|Boteokin has 150 seconds to reconnect!
+
+|inactive|Boteokin has 120 seconds to reconnect!
+
+|inactive|Boteokin has 90 seconds to reconnect!
+
+|player|p2|uarh|260
+|n|☆uarh|9980648w
+
+|player|p2|uarh|260|
+
+|inactive|Boteokin has 60 seconds to reconnect!
+
+|inactive|Boteokin has 30 seconds to reconnect!
+
+|inactive|Boteokin has 20 seconds to reconnect!
+
+|inactive|Boteokin has 15 seconds to reconnect!
+
+|inactive|Boteokin has 10 seconds to reconnect!
+
+|inactive|Boteokin has 5 seconds to reconnect!
+
+|-message|Boteokin lost due to inactivity.
+|
+|win|uarh

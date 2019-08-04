@@ -1,0 +1,62 @@
+|init|battle
+|title|Frel vs. SkyGX_
+|j|☆Frel
+|j|☆SkyGX_
+|player|p1|Frel|101|1187
+|player|p2|SkyGX_|2|1152
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Volcarona|Volcarona, L80, M|100/100
+|switch|p2a: Omastar|Omastar, L88, M|100/100
+|turn|1
+|
+|switch|p1a: Salazzle|Salazzle, L84, F|100/100
+|-item|p1a: Salazzle|Air Balloon
+|move|p2a: Omastar|Shell Smash|p2a: Omastar
+|-unboost|p2a: Omastar|def|1
+|-unboost|p2a: Omastar|spd|1
+|-boost|p2a: Omastar|atk|2
+|-boost|p2a: Omastar|spa|2
+|-boost|p2a: Omastar|spe|2
+|-enditem|p2a: Omastar|White Herb
+|-clearnegativeboost|p2a: Omastar|[silent]
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Omastar|Scald|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|-enditem|p1a: Salazzle|Air Balloon
+|faint|p1a: Salazzle
+|
+|upkeep
+
+|
+|switch|p1a: Houndoom|Houndoom, L87, M|100/100
+|turn|3
+
+|
+|move|p2a: Omastar|Scald|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|upkeep
+
+|c|☆Frel|Bg
+
+|-message|Frel forfeited.
+
+|
+|win|SkyGX_

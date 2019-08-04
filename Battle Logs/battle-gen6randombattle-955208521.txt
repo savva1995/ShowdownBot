@@ -1,0 +1,23 @@
+|init|battle
+|title|GamerulMorti vs. xXBlueStormXx
+|j|☆GamerulMorti
+|j|☆xXBlueStormXx
+|player|p1|GamerulMorti|293|
+|player|p2|xXBlueStormXx|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Octillery|Octillery, L89, M|100/100
+|switch|p2a: Slowking|Slowking, L84, F|100/100
+|turn|1
+
+|-message|xXBlueStormXx forfeited.
+
+|
+|win|GamerulMorti

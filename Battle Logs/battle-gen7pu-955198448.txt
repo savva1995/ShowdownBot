@@ -1,0 +1,388 @@
+|init|battle
+|title|fez125 vs. nayfury
+|j|☆fez125
+|j|☆nayfury
+|player|p1|fez125|238|1148
+|player|p2|nayfury|190|1089
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Abomasnow, F|item
+|poke|p1|Beartic, F|item
+|poke|p1|Armaldo, F|item
+|poke|p1|Primeape, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Haunter, F|item
+|poke|p2|Whiscash, F|item
+|poke|p2|Sawsbuck-Autumn, F|item
+|poke|p2|Meowstic, M|item
+|poke|p2|Flareon, M|item
+|poke|p2|Armaldo, F|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fez125)
+|
+|start
+|switch|p1a: Primeape|Primeape, F|100/100
+|switch|p2a: Meowstic|Meowstic, M|100/100
+|turn|1
+|
+|move|p2a: Meowstic|Fake Out|p1a: Primeape
+|-damage|p1a: Primeape|90/100
+|cant|p1a: Primeape|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Meowstic|Thunder Wave|p1a: Primeape|[miss]
+|-miss|p2a: Meowstic|p1a: Primeape
+|move|p1a: Primeape|U-turn|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|54/100
+|
+|switch|p1a: Armaldo|Armaldo, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Meowstic|61/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Meowstic|Thunder Wave|p1a: Armaldo|[miss]
+|-miss|p2a: Meowstic|p1a: Armaldo
+|move|p1a: Armaldo|X-Scissor|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|upkeep
+
+|
+|switch|p2a: Flareon|Flareon, M|100/100
+|turn|4
+
+|
+|move|p2a: Flareon|Flare Blitz|p1a: Armaldo
+|-damage|p1a: Armaldo|3/100
+|-damage|p2a: Flareon|59/100|[from] Recoil
+|move|p1a: Armaldo|Stone Edge|p2a: Flareon|[miss]
+|-miss|p1a: Armaldo|p2a: Flareon
+|
+|-heal|p1a: Armaldo|9/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Flareon|Flare Blitz|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|-damage|p2a: Flareon|55/100|[from] Recoil
+|faint|p1a: Armaldo
+|
+|upkeep
+
+|
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|turn|6
+
+|
+|switch|p2a: Whiscash|Whiscash, F|100/100
+|switch|p1a: Haunter|Haunter, F|100/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Haunter|Will-O-Wisp|p2a: Whiscash
+|-status|p2a: Whiscash|brn
+|move|p2a: Whiscash|Substitute|p2a: Whiscash
+|-start|p2a: Whiscash|Substitute
+|-damage|p2a: Whiscash|75/100 brn
+|
+|-heal|p2a: Whiscash|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Whiscash|75/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|inactive|nayfury has 120 seconds left.
+
+|
+|move|p1a: Haunter|Hex|p2a: Whiscash
+|-end|p2a: Whiscash|Substitute
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|-heal|p2a: Whiscash|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Whiscash|75/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|inactive|nayfury has 120 seconds left.
+
+|
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|move|p1a: Haunter|Hex|p2a: Whiscash
+|-damage|p2a: Whiscash|25/100 brn
+|
+|-heal|p2a: Whiscash|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Whiscash|25/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Whiscash|Waterfall|p1a: Haunter
+|-damage|p1a: Haunter|58/100
+|move|p1a: Haunter|Hex|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|
+|upkeep
+
+|inactive|nayfury has 120 seconds left.
+
+|
+|switch|p2a: Flareon|Flareon, M|55/100
+|turn|11
+
+|inactive|nayfury has 120 seconds left.
+
+|
+|move|p2a: Flareon|Flare Blitz|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|-damage|p2a: Flareon|35/100|[from] Recoil
+|faint|p1a: Haunter
+|
+|upkeep
+
+|
+|switch|p1a: Primeape|Primeape, F|90/100
+|turn|12
+
+|
+|move|p1a: Primeape|Close Combat|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Flareon
+|
+|upkeep
+
+|
+|switch|p2a: Armaldo|Armaldo, F|100/100
+|turn|13
+
+|
+|move|p1a: Primeape|Close Combat|p2a: Armaldo
+|-damage|p2a: Armaldo|53/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Armaldo|Stealth Rock|p1a: Primeape
+|-sidestart|p1: fez125|move: Stealth Rock
+|
+|-heal|p2a: Armaldo|59/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|nayfury has 120 seconds left.
+
+|
+|move|p1a: Primeape|Close Combat|p2a: Armaldo
+|-damage|p2a: Armaldo|8/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Armaldo|Knock Off|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|22/100
+|-enditem|p1a: Primeape|Choice Scarf|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-heal|p2a: Armaldo|14/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|nayfury has 120 seconds left.
+
+|
+|move|p1a: Primeape|Close Combat|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Armaldo
+|
+|upkeep
+
+|inactive|nayfury has 120 seconds left.
+
+|
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|turn|16
+
+|
+|move|p1a: Primeape|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+
+|
+|switch|p1a: Ludicolo|Ludicolo, M|100/100|[from]move: U-turn
+|-damage|p1a: Ludicolo|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ludicolo
+|-status|p1a: Ludicolo|brn
+|
+|-heal|p2a: Rotom|87/100|[from] item: Leftovers
+|-damage|p1a: Ludicolo|82/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Sawsbuck|Sawsbuck-Autumn, F|100/100
+|move|p1a: Ludicolo|Toxic|p2a: Sawsbuck
+|-status|p2a: Sawsbuck|tox
+|
+|-damage|p2a: Sawsbuck|94/100 tox|[from] psn
+|-damage|p1a: Ludicolo|76/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Sawsbuck|Agility|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|spe|2
+|move|p1a: Ludicolo|Giga Drain|p2a: Sawsbuck
+|-ability|p2a: Sawsbuck|Sap Sipper|boost
+|-boost|p2a: Sawsbuck|atk|1
+|
+|-damage|p2a: Sawsbuck|82/100 tox|[from] psn
+|-damage|p1a: Ludicolo|70/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Sawsbuck|Swords Dance|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|atk|2
+|move|p1a: Ludicolo|Hydro Pump|p2a: Sawsbuck
+|-resisted|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|60/100 tox
+|
+|-damage|p2a: Sawsbuck|41/100 tox|[from] psn
+|-damage|p1a: Ludicolo|64/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Sawsbuck|Horn Leech|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|-heal|p2a: Sawsbuck|73/100 tox|[from] drain|[of] p1a: Ludicolo
+|faint|p1a: Ludicolo
+|
+|-damage|p2a: Sawsbuck|49/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-damage|p1a: Abomasnow|75/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|21
+
+|
+|move|p2a: Sawsbuck|Horn Leech|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|31/100
+|-heal|p2a: Sawsbuck|72/100 tox|[from] drain|[of] p1a: Abomasnow
+|move|p1a: Abomasnow|Blizzard|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Frost|87/100
+|turn|22
+
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Abomasnow
+|-status|p1a: Abomasnow|brn
+|move|p1a: Abomasnow|Giga Drain|p2a: Rotom
+|-damage|p2a: Rotom|65/100
+|-heal|p1a: Abomasnow|40/100 brn|[from] drain|[of] p2a: Rotom
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Rotom|72/100|[from] item: Leftovers
+|-damage|p1a: Abomasnow|34/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Rotom|Blizzard|p1a: Abomasnow
+|-damage|p1a: Abomasnow|5/100 brn
+|move|p1a: Abomasnow|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Rotom|78/100|[from] item: Leftovers
+|-damage|p2a: Rotom|65/100|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|15/100 brn|[silent]
+|-damage|p1a: Abomasnow|9/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p2a: Rotom|Defog|p1a: Abomasnow
+|-unboost|p1a: Abomasnow|evasion|1
+|-sideend|p1: fez125|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|move|p1a: Abomasnow|Synthesis|p1a: Abomasnow
+|-heal|p1a: Abomasnow|34/100 brn
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Rotom|72/100|[from] item: Leftovers
+|-damage|p2a: Rotom|59/100|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|43/100 brn|[silent]
+|-damage|p1a: Abomasnow|37/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|
+|move|p2a: Rotom|Blizzard|p1a: Abomasnow
+|-damage|p1a: Abomasnow|8/100 brn
+|move|p1a: Abomasnow|Blizzard|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|42/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Rotom|49/100|[from] item: Leftovers
+|-damage|p2a: Rotom|36/100|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|18/100 brn|[silent]
+|-damage|p1a: Abomasnow|12/100 brn|[from] brn
+|upkeep
+|turn|26
+
+|
+|move|p2a: Rotom|Blizzard|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Rotom|42/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Beartic|Beartic, F, shiny|100/100
+|turn|27
+
+|
+|move|p1a: Beartic|Brick Break|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|fez125

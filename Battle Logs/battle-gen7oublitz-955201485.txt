@@ -1,0 +1,356 @@
+|init|battle
+|title|Horman D vs. grossefrappe2
+|j|☆Horman D
+|j|☆grossefrappe2
+|player|p1|Horman D|120|1483
+|player|p2|grossefrappe2|2|1456
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Magearna|item
+|poke|p1|Kartana|item
+|poke|p1|Pinsir, F|item
+|poke|p1|Greninja, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Magearna|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Blacephalon|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Excadrill, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Horman D has 30 seconds left this turn.
+|inactive|grossefrappe2 has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Horman D)
+|inactive|grossefrappe2 also wants the timer to be on.
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left.
+|inactive|grossefrappe2 has 5 seconds left.
+|
+|move|p1a: Landorus|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Horman D|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left this turn.
+|inactive|grossefrappe2 has 5 seconds left.
+|
+|move|p1a: Landorus|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left this turn.
+|inactive|grossefrappe2 has 5 seconds left.
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|3
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left this turn.
+|inactive|grossefrappe2 has 5 seconds left.
+|
+|detailschange|p2a: Gyarados|Gyarados-Mega, M
+|-mega|p2a: Gyarados|Gyarados|Gyaradosite
+|-ability|p2a: Gyarados|Mold Breaker
+|move|p1a: Landorus|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: grossefrappe2|move: Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|4
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left this turn.
+|
+|move|p2a: Gyarados|Crunch|p1a: Landorus
+|-damage|p1a: Landorus|13/100
+|move|p1a: Landorus|Explosion|p2a: Gyarados
+|-damage|p2a: Gyarados|40/100
+|faint|p1a: Landorus
+|
+|upkeep
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+|
+|switch|p1a: Kartana|Kartana, shiny|100/100
+|-damage|p1a: Kartana|94/100|[from] Stealth Rock
+|turn|5
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+|
+|move|p2a: Gyarados|Crunch|p1a: Kartana
+|-damage|p1a: Kartana|18/100
+|move|p1a: Kartana|Leaf Blade|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left.
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-damage|p2a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|6
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+|inactive|Horman D has 10 seconds left.
+|inactive|grossefrappe2 has 10 seconds left.
+|
+|move|p2a: Tapu Koko|Reflect|p2a: Tapu Koko
+|-sidestart|p2: grossefrappe2|Reflect
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|
+|upkeep
+|turn|7
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left.
+|
+|move|p2a: Tapu Koko|Light Screen|p2a: Tapu Koko
+|-sidestart|p2: grossefrappe2|move: Light Screen
+|move|p1a: Kartana|Leaf Blade|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|10/100
+|
+|upkeep
+|turn|8
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|inactive|Horman D has 10 seconds left.
+
+|
+|move|p2a: Tapu Koko|Taunt|p1a: Kartana
+|-start|p1a: Kartana|move: Taunt
+|move|p1a: Kartana|Leaf Blade|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|switch|p2a: Hawlucha|Hawlucha, M, shiny|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|9
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|upkeep
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|turn|10
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|move|p2a: Hawlucha|High Jump Kick|p1a: Magearna
+|-damage|p1a: Magearna|41/100
+|move|p1a: Magearna|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|20/100
+|
+|-heal|p1a: Magearna|47/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|move|p2a: Hawlucha|High Jump Kick|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|upkeep
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|turn|12
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|inactive|grossefrappe2 has 10 seconds left.
+
+|
+|move|p1a: Greninja|Water Shuriken|p2a: Hawlucha
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p2a: Hawlucha|14/100
+|-damage|p2a: Hawlucha|9/100
+|-hitcount|p2a: Hawlucha|2
+|-damage|p1a: Greninja|78/100|[from] item: Life Orb
+|move|p2a: Hawlucha|High Jump Kick|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|switch|p1a: Pinsir|Pinsir, F|100/100
+|-damage|p1a: Pinsir|76/100|[from] Stealth Rock
+|turn|13
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|detailschange|p1a: Pinsir|Pinsir-Mega, F
+|-mega|p1a: Pinsir|Pinsir|Pinsirite
+|move|p1a: Pinsir|Quick Attack|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-sideend|p2: grossefrappe2|Reflect
+|upkeep
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|inactive|grossefrappe2 has 10 seconds left.
+
+|inactive|grossefrappe2 has 5 seconds left.
+
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|14
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left this turn.
+
+|inactive|grossefrappe2 has 5 seconds left.
+
+|
+|move|p1a: Pinsir|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|22/100
+|move|p2a: Magearna|Ice Beam|p1a: Pinsir
+|-supereffective|p1a: Pinsir
+|-damage|p1a: Pinsir|4/100
+|
+|-heal|p2a: Magearna|28/100|[from] item: Leftovers
+|-sideend|p2: grossefrappe2|move: Light Screen
+|upkeep
+|turn|15
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left this turn.
+
+|inactive|grossefrappe2 has 5 seconds left.
+
+|
+|move|p1a: Pinsir|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 10 seconds left this turn.
+
+|
+|switch|p2a: Blacephalon|Blacephalon, shiny|100/100
+|-damage|p2a: Blacephalon|76/100|[from] Stealth Rock
+|turn|16
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|inactive|grossefrappe2 has 10 seconds left.
+
+|
+|move|p1a: Pinsir|Quick Attack|p2a: Blacephalon
+|-damage|p2a: Blacephalon|19/100
+|move|p2a: Blacephalon|Shadow Ball|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spe|1
+|
+|upkeep
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|turn|17
+
+|inactive|Horman D has 15 seconds left this turn.
+|inactive|grossefrappe2 has 15 seconds left this turn.
+
+|
+|-zpower|p2a: Blacephalon
+|move|p2a: Blacephalon|Never-Ending Nightmare|p1a: Kyurem|[zeffect]
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|grossefrappe2

@@ -1,0 +1,421 @@
+|init|battle
+|title|Cocinegro vs. Ander2019
+|j|☆Cocinegro
+|j|☆Ander2019
+|player|p1|Cocinegro|238|1631
+|player|p2|Ander2019|266|1602
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Latios|Latios, L81, M|100/100
+|switch|p2a: Bisharp|Bisharp, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ander2019)
+|
+|switch|p1a: Corsola|Corsola, L89, M|100/100
+|move|p2a: Bisharp|Knock Off|p1a: Corsola
+|-damage|p1a: Corsola|57/100
+|-enditem|p1a: Corsola|Leftovers|[from] move: Knock Off|[of] p2a: Bisharp
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Bisharp|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|25/100
+|move|p1a: Corsola|Stealth Rock|p2a: Bisharp
+|-sidestart|p2: Ander2019|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Bisharp|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Venomoth|Venomoth, L83, F|100/100
+|turn|4
+|
+|move|p1a: Venomoth|Substitute|p1a: Venomoth
+|-start|p1a: Venomoth|Substitute
+|-damage|p1a: Venomoth|76/100
+|move|p2a: Bisharp|Knock Off|p1a: Venomoth
+|-end|p1a: Venomoth|Substitute
+|
+|-heal|p1a: Venomoth|82/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Venomoth|Bug Buzz|p2a: Bisharp
+|-damage|p2a: Bisharp|69/100
+|move|p2a: Bisharp|Knock Off|p1a: Venomoth
+|-damage|p1a: Venomoth|22/100
+|-enditem|p1a: Venomoth|Black Sludge|[from] move: Knock Off|[of] p2a: Bisharp
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|upkeep
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|turn|7
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Bisharp
+|-status|p2a: Bisharp|slp|[from] move: Sleep Powder
+|cant|p2a: Bisharp|slp
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Meowstic|Meowstic, L89, M|100/100
+|-damage|p2a: Meowstic|88/100|[from] Stealth Rock
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Meowstic|Light Screen|p2a: Meowstic
+|-sidestart|p2: Ander2019|move: Light Screen
+|move|p1a: Lilligant|Petal Dance|p2a: Meowstic
+|-damage|p2a: Meowstic|47/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Meowstic|Yawn|p1a: Lilligant
+|-start|p1a: Lilligant|move: Yawn|[of] p2a: Meowstic
+|move|p1a: Lilligant|Petal Dance|p2a: Meowstic|[from]lockedmove
+|-damage|p2a: Meowstic|7/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Latios|Latios, L81, M|100/100
+|move|p2a: Meowstic|Reflect|p2a: Meowstic
+|-sidestart|p2: Ander2019|Reflect
+|
+|upkeep
+|turn|12
+
+|
+|detailschange|p1a: Latios|Latios-Mega, L81, M
+|-mega|p1a: Latios|Latios|Latiosite
+|move|p2a: Meowstic|Yawn|p1a: Latios
+|-start|p1a: Latios|move: Yawn|[of] p2a: Meowstic
+|move|p1a: Latios|Psyshock|p2a: Meowstic
+|-resisted|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|upkeep
+
+|
+|switch|p2a: Kyurem|Kyurem-Black, L80|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|turn|13
+
+|
+|switch|p1a: Nihilego|Nihilego, L82|100/100
+|-item|p1a: Nihilego|Air Balloon
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|51/100
+|
+|-heal|p2a: Kyurem|57/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Nihilego|Sludge Wave|p2a: Kyurem
+|-activate|p2a: Kyurem|move: Substitute|[damage]
+|move|p2a: Kyurem|Ice Beam|p1a: Nihilego
+|-damage|p1a: Nihilego|74/100
+|-enditem|p1a: Nihilego|Air Balloon
+|
+|-heal|p2a: Kyurem|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Nihilego|Sludge Wave|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Earth Power|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|7/100
+|
+|-heal|p2a: Kyurem|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Nihilego|Sludge Wave|p2a: Kyurem
+|-damage|p2a: Kyurem|51/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|26/100
+|
+|-heal|p2a: Kyurem|32/100|[from] item: Leftovers
+|-sideend|p2: Ander2019|move: Light Screen
+|upkeep
+|turn|17
+
+|
+|move|p1a: Nihilego|Sludge Wave|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Earth Power|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|
+|-heal|p2a: Kyurem|38/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Latios|Latios-Mega, L81, M|100/100
+|turn|18
+
+|
+|switch|p2a: Bisharp|Bisharp, L82, F|69/100 slp
+|-damage|p2a: Bisharp|63/100 slp|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|30/100 slp
+|-unboost|p1a: Latios|spa|2
+|
+|-sideend|p2: Ander2019|Reflect
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|-curestatus|p2a: Bisharp|slp|[msg]
+|move|p2a: Bisharp|Knock Off|p1a: Lilligant
+|-damage|p1a: Lilligant|55/100
+|-enditem|p1a: Lilligant|Leftovers|[from] move: Knock Off|[of] p2a: Bisharp
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Bisharp
+|-status|p2a: Bisharp|slp|[from] move: Sleep Powder
+|cant|p2a: Bisharp|slp
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100
+|-damage|p2a: Mismagius|88/100|[from] Stealth Rock
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-heal|p2a: Mismagius|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Lilligant|Petal Dance|p2a: Mismagius
+|-damage|p2a: Mismagius|17/100
+|move|p2a: Mismagius|Shadow Ball|p1a: Lilligant
+|-damage|p1a: Lilligant|27/100
+|
+|-heal|p2a: Mismagius|23/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p1a: Lilligant|Petal Dance|p2a: Mismagius|[from]lockedmove
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+
+|
+|switch|p2a: Bisharp|Bisharp, L82, F|30/100 slp
+|-damage|p2a: Bisharp|24/100 slp|[from] Stealth Rock
+|turn|24
+
+|
+|-curestatus|p2a: Bisharp|slp|[msg]
+|move|p2a: Bisharp|Sucker Punch|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|upkeep
+
+|
+|switch|p1a: Latios|Latios-Mega, L81, M|100/100
+|turn|25
+
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|39/100
+|move|p1a: Latios|Hidden Power|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+
+|
+|switch|p2a: Milotic|Milotic, L84, M|100/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Milotic|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|-damage|p1a: Latios|33/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p1a: Latios|Draco Meteor|p2a: Milotic|[miss]
+|-miss|p1a: Latios|p2a: Milotic
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-damage|p1a: Latios|20/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|move|p1a: Latios|Psyshock|p2a: Milotic
+|-damage|p2a: Milotic|33/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|83/100
+|
+|-heal|p2a: Milotic|89/100|[from] item: Leftovers
+|-damage|p1a: Latios|2/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|
+|move|p1a: Latios|Draco Meteor|p2a: Milotic
+|-damage|p2a: Milotic|18/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|68/100
+|
+|-heal|p2a: Milotic|74/100|[from] item: Leftovers
+|-damage|p1a: Latios|0 fnt|[from] psn
+|faint|p1a: Latios
+|upkeep
+
+|
+|switch|p1a: Lunala|Lunala, L78|100/100
+|turn|30
+
+|
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Milotic|Toxic|p1a: Lunala
+|-status|p1a: Lunala|tox
+|
+|-heal|p2a: Milotic|80/100|[from] item: Leftovers
+|-damage|p1a: Lunala|94/100 tox|[from] psn
+|upkeep
+|turn|31
+
+|
+|move|p1a: Lunala|Psyshock|p2a: Milotic
+|-damage|p2a: Milotic|25/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|75/100
+|
+|-heal|p1a: Lunala|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Milotic|81/100|[from] item: Leftovers
+|-damage|p1a: Lunala|88/100 tox|[from] psn
+|upkeep
+|turn|32
+
+|
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-heal|p1a: Lunala|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Lunala|76/100 tox|[from] psn
+|upkeep
+|turn|33
+
+|
+|move|p1a: Lunala|Psyshock|p2a: Milotic
+|-damage|p2a: Milotic|35/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|85/100
+|
+|-heal|p1a: Lunala|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Milotic|91/100|[from] item: Leftovers
+|-damage|p1a: Lunala|58/100 tox|[from] psn
+|upkeep
+|turn|34
+
+|
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-heal|p1a: Lunala|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Lunala|33/100 tox|[from] psn
+|upkeep
+|turn|35
+
+|
+|move|p1a: Lunala|Psyshock|p2a: Milotic
+|-damage|p2a: Milotic|16/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|66/100
+|
+|-heal|p1a: Lunala|39/100 tox|[from] item: Leftovers
+|-heal|p2a: Milotic|73/100|[from] item: Leftovers
+|-damage|p1a: Lunala|2/100 tox|[from] psn
+|upkeep
+|turn|36
+
+|c|☆Cocinegro|gg
+
+|
+|move|p1a: Lunala|Psyshock|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-heal|p1a: Lunala|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Lunala|0 fnt|[from] psn
+|faint|p1a: Lunala
+|
+|win|Ander2019
+|upkeep

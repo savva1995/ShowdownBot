@@ -1,0 +1,39 @@
+|init|battle
+|title|hopeisbetter vs. ninonas
+|j|☆hopeisbetter
+|j|☆ninonas
+|player|p1|hopeisbetter|288|1077
+|player|p2|ninonas|101|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crobat, M|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Milotic, F|item
+|poke|p1|Cradily, F|item
+|poke|p1|Arcanine, F|item
+|poke|p2|Tangrowth, F|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Magearna|item
+|poke|p2|Greninja, F|item
+|poke|p2|Jirachi|item
+|teampreview
+|-message|hopeisbetter forfeited.
+|
+|win|ninonas
+|l|☆hopeisbetter
+|raw|hopeisbetter's rating: 1077 &rarr; <strong>1059</strong><br />(-18 for losing)
+|raw|ninonas's rating: 1125 &rarr; <strong>1146</strong><br />(+21 for winning)

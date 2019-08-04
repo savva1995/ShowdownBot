@@ -1,0 +1,312 @@
+|init|battle
+|title|matt15rsp vs. LiCuKi
+|j|☆matt15rsp
+|j|☆LiCuKi
+|player|p1|matt15rsp|125|1646
+|player|p2|LiCuKi|163|1670
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zekrom|Zekrom, L78|100/100
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|-ability|p1a: Zekrom|Teravolt
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by matt15rsp)
+|
+|switch|p2a: Torterra|Torterra, L86, M|100/100
+|move|p1a: Zekrom|Bolt Strike|p2a: Torterra
+|-immune|p2a: Torterra
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Vespiquen|Vespiquen, L89, F|100/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Torterra|Rock Polish|p2a: Torterra
+|-boost|p2a: Torterra|spe|2
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Chatot|Chatot, L89, F|100/100
+|move|p1a: Vespiquen|Toxic|p2a: Chatot
+|-status|p2a: Chatot|tox
+|
+|-damage|p2a: Chatot|94/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Chatot|Nasty Plot|p2a: Chatot
+|-boost|p2a: Chatot|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chatot|88/100 tox|[from] Sandstorm
+|-damage|p2a: Chatot|76/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Chatot|Chatter|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|79/100
+|-start|p1a: Gigalith|confusion
+|-damage|p2a: Chatot|66/100 tox|[from] item: Life Orb
+|-activate|p1a: Gigalith|confusion
+|-damage|p1a: Gigalith|68/100|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chatot|60/100 tox|[from] Sandstorm
+|-heal|p1a: Gigalith|74/100|[from] item: Leftovers
+|-damage|p2a: Chatot|42/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Chatot|Boomburst|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|26/100
+|-damage|p2a: Chatot|32/100 tox|[from] item: Life Orb
+|-activate|p1a: Gigalith|confusion
+|move|p1a: Gigalith|Stealth Rock|p2a: Chatot
+|-sidestart|p2: LiCuKi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chatot|26/100 tox|[from] Sandstorm
+|-heal|p1a: Gigalith|32/100|[from] item: Leftovers
+|-damage|p2a: Chatot|2/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Chatot|Boomburst|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|-damage|p2a: Chatot|0 fnt|[from] item: Life Orb
+|faint|p1a: Gigalith
+|faint|p2a: Chatot
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Doublade|Doublade, L82, F|100/100
+|switch|p1a: Vespiquen|Vespiquen, L89, F|100/100
+|-ability|p1a: Vespiquen|Pressure
+|-damage|p2a: Doublade|94/100|[from] Stealth Rock
+|turn|8
+
+|
+|switch|p1a: Silvally|Silvally-Fairy, L88|100/100
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|move|p1a: Silvally|Flamethrower|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|36/100
+|move|p2a: Doublade|Iron Head|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|2/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+
+|
+|switch|p1a: Zekrom|Zekrom, L78|100/100
+|-ability|p1a: Zekrom|Teravolt
+|turn|11
+
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Zekrom
+|-damage|p1a: Zekrom|74/100
+|move|p1a: Zekrom|Bolt Strike|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|-heal|p1a: Zekrom|80/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Zekrom
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|22/100
+|move|p1a: Zekrom|Bolt Strike|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|-heal|p1a: Zekrom|28/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Buzzwole|Buzzwole, L81|100/100
+|-damage|p2a: Buzzwole|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Buzzwole|Stone Edge|p1a: Zekrom
+|-damage|p1a: Zekrom|0 fnt
+|faint|p1a: Zekrom
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Dragalge|Dragalge, L84, M|100/100
+|turn|14
+
+|
+|move|p2a: Buzzwole|Stone Edge|p1a: Dragalge
+|-damage|p1a: Dragalge|50/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Buzzwole|[miss]
+|-miss|p1a: Dragalge|p2a: Buzzwole
+|
+|-heal|p1a: Dragalge|56/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Araquanid|Araquanid, L84, M|100/100
+|-damage|p2a: Araquanid|76/100|[from] Stealth Rock
+|move|p1a: Dragalge|Draco Meteor|p2a: Araquanid|[miss]
+|-miss|p1a: Dragalge|p2a: Araquanid
+|
+|-heal|p1a: Dragalge|62/100|[from] item: Black Sludge
+|-heal|p2a: Araquanid|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|l|☆matt15rsp
+
+|inactive|matt15rsp disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆matt15rsp
+
+|inactive|matt15rsp reconnected and has 135 seconds left.
+
+|player|p1|matt15rsp|125
+
+|
+|switch|p1a: Vespiquen|Vespiquen, L89, F|100/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Araquanid|Mirror Coat||[still]
+|-fail|p2a: Araquanid
+|
+|-heal|p2a: Araquanid|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Vespiquen|Toxic|p2a: Araquanid
+|-status|p2a: Araquanid|tox
+|move|p2a: Araquanid|Toxic|p1a: Vespiquen
+|-status|p1a: Vespiquen|tox
+|
+|-heal|p2a: Araquanid|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Vespiquen|95/100 tox|[from] psn
+|-damage|p2a: Araquanid|88/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Vespiquen|Attack Order|p2a: Araquanid
+|-damage|p2a: Araquanid|53/100 tox
+|move|p2a: Araquanid|Liquidation|p1a: Vespiquen
+|-damage|p1a: Vespiquen|50/100 tox
+|-unboost|p1a: Vespiquen|def|1
+|
+|-heal|p1a: Vespiquen|56/100 tox|[from] item: Leftovers
+|-heal|p2a: Araquanid|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Vespiquen|44/100 tox|[from] psn
+|-damage|p2a: Araquanid|47/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Vespiquen|Attack Order|p2a: Araquanid
+|-damage|p2a: Araquanid|13/100 tox
+|move|p2a: Araquanid|Liquidation|p1a: Vespiquen
+|-damage|p1a: Vespiquen|0 fnt
+|faint|p1a: Vespiquen
+|
+|-heal|p2a: Araquanid|19/100 tox|[from] item: Leftovers
+|-damage|p2a: Araquanid|1/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Dragalge|Dragalge, L84, M|62/100
+|turn|20
+
+|
+|move|p1a: Dragalge|Scald|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-heal|p1a: Dragalge|68/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Torterra|Torterra, L86, M|100/100
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|turn|21
+
+|
+|switch|p1a: Cinccino|Cinccino, L87, M|100/100
+|move|p2a: Torterra|Earthquake|p1a: Cinccino
+|-damage|p1a: Cinccino|39/100
+|
+|-heal|p2a: Torterra|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Cinccino|Tail Slap|p2a: Torterra
+|-damage|p2a: Torterra|89/100
+|-damage|p2a: Torterra|77/100
+|-damage|p2a: Torterra|66/100
+|-crit|p2a: Torterra
+|-damage|p2a: Torterra|47/100
+|-damage|p2a: Torterra|36/100
+|-hitcount|p2a: Torterra|5
+|move|p2a: Torterra|Rock Polish|p2a: Torterra
+|-boost|p2a: Torterra|spe|2
+|
+|-heal|p2a: Torterra|42/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|c|☆LiCuKi|gg wp
+
+|-message|matt15rsp forfeited.
+
+|
+|win|LiCuKi

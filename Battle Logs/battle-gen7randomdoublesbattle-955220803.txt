@@ -1,0 +1,336 @@
+|init|battle
+|title|Daky vs. Shawn Dee
+|j|☆Daky
+|j|☆Shawn Dee
+|player|p1|Daky|244|1681
+|player|p2|Shawn Dee|142|1521
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toucannon|Toucannon, L81, M|100/100
+|switch|p1b: Exploud|Exploud, L80, F|100/100
+|switch|p2a: Crustle|Crustle, L81, F|100/100
+|switch|p2b: Weezing|Weezing, L80, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Daky)
+|inactive|Daky has 120 seconds left.
+|
+|switch|p1a: Incineroar|Incineroar, L76, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Crustle|atk|1
+|-unboost|p2b: Weezing|atk|1
+|-enditem|p2a: Crustle|White Herb
+|-clearnegativeboost|p2a: Crustle|[silent]
+|move|p1b: Exploud|Hyper Voice|p2b: Weezing|[spread] p2a,p2b
+|-resisted|p2a: Crustle
+|-crit|p2b: Weezing
+|-damage|p2a: Crustle|83/100
+|-damage|p2b: Weezing|41/100
+|-enditem|p2b: Weezing|Sitrus Berry|[eat]
+|-heal|p2b: Weezing|66/100|[from] item: Sitrus Berry
+|-damage|p1b: Exploud|91/100|[from] item: Life Orb
+|move|p2b: Weezing|Toxic|p1b: Exploud
+|-status|p1b: Exploud|tox
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|
+|-damage|p1b: Exploud|85/100 tox|[from] psn
+|upkeep
+|turn|2
+|inactive|Shawn Dee has 120 seconds left.
+|
+|move|p1a: Incineroar|Fake Out|p2a: Crustle
+|-resisted|p2a: Crustle
+|-damage|p2a: Crustle|75/100
+|-damage|p1a: Incineroar|91/100|[from] item: Life Orb
+|cant|p2a: Crustle|flinch
+|move|p1b: Exploud|Hyper Voice|p2b: Weezing|[spread] p2a,p2b
+|-resisted|p2a: Crustle
+|-crit|p2b: Weezing
+|-damage|p2a: Crustle|47/100
+|-damage|p2b: Weezing|0 fnt
+|-damage|p1b: Exploud|75/100 tox|[from] item: Life Orb
+|faint|p2b: Weezing
+|
+|-damage|p1b: Exploud|63/100 tox|[from] psn
+|upkeep
+|
+|switch|p2b: Ho-Oh|Ho-Oh, L70|100/100
+|turn|3
+|
+|switch|p1b: Hippowdon|Hippowdon, L77, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Hippowdon
+|switch|p1a: Magnezone|Magnezone, L76|100/100
+|move|p2a: Crustle|Rock Slide|p1b: Hippowdon|[spread] p1a,p1b
+|-resisted|p1a: Magnezone
+|-resisted|p1b: Hippowdon
+|-damage|p1a: Magnezone|78/100
+|-damage|p1b: Hippowdon|84/100
+|move|p2b: Ho-Oh|Substitute|p2b: Ho-Oh
+|-start|p2b: Ho-Oh|Substitute
+|-damage|p2b: Ho-Oh|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Ho-Oh|70/100|[from] Sandstorm
+|-heal|p1a: Magnezone|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Daky has 120 seconds left.
+|
+|switch|p1a: Incineroar|Incineroar, L76, F|91/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Crustle|atk|1
+|-immune|p2b: Ho-Oh
+|move|p2a: Crustle|Earthquake|p1a: Incineroar|[spread] p1a,p1b
+|-immune|p2b: Ho-Oh
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|24/100
+|-damage|p1b: Hippowdon|62/100
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Hippowdon
+|-damage|p1b: Hippowdon|35/100
+|-enditem|p1b: Hippowdon|Sitrus Berry|[eat]
+|-heal|p1b: Hippowdon|60/100|[from] item: Sitrus Berry
+|move|p1b: Hippowdon|Whirlwind|p2a: Crustle
+|drag|p2a: Crawdaunt|Crawdaunt, L82, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Ho-Oh|64/100|[from] Sandstorm
+|-damage|p2a: Crawdaunt|95/100|[from] Sandstorm
+|-damage|p1a: Incineroar|18/100|[from] Sandstorm
+|upkeep
+|turn|5
+|inactive|Shawn Dee has 120 seconds left.
+|inactive|Daky has 120 seconds left.
+|
+|switch|p2a: Articuno|Articuno, L71|100/100
+|-ability|p2a: Articuno|Pressure
+|switch|p1a: Exploud|Exploud, L80, F|63/100 tox
+|move|p2b: Ho-Oh|Earthquake|p1a: Exploud|[spread] p1a,p1b
+|-immune|p2a: Articuno
+|-damage|p1a: Exploud|40/100 tox
+|-damage|p1b: Hippowdon|46/100
+|move|p1b: Hippowdon|Whirlwind|p2b: Ho-Oh
+|drag|p2b: Crustle|Crustle, L81, F|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Articuno|94/100|[from] Sandstorm
+|-damage|p1a: Exploud|34/100 tox|[from] Sandstorm
+|-damage|p1a: Exploud|28/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|Shawn Dee has 120 seconds left.
+|inactive|Daky has 120 seconds left.
+|
+|switch|p2a: Ho-Oh|Ho-Oh, L70|97/100
+|move|p1a: Exploud|Hyper Voice|p2b: Crustle|[spread] p2a,p2b
+|-resisted|p2b: Crustle
+|-damage|p2a: Ho-Oh|73/100
+|-damage|p2b: Crustle|34/100
+|-damage|p1a: Exploud|19/100 tox|[from] item: Life Orb
+|move|p2b: Crustle|Earthquake|p1b: Hippowdon|[spread] p1a,p1b
+|-immune|p2a: Ho-Oh
+|-damage|p1a: Exploud|0 fnt
+|-damage|p1b: Hippowdon|32/100
+|faint|p1a: Exploud
+|move|p1b: Hippowdon|Slack Off|p1b: Hippowdon
+|-heal|p1b: Hippowdon|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ho-Oh|67/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Incineroar|Incineroar, L76, F|18/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ho-Oh|atk|1
+|-unboost|p2b: Crustle|atk|1
+|turn|7
+|
+|switch|p1a: Toucannon|Toucannon, L81, M|100/100
+|move|p2a: Ho-Oh|Earthquake|p1b: Hippowdon|[spread] p2b,p1b
+|-immune|p1a: Toucannon
+|-damage|p2b: Crustle|23/100
+|-damage|p1b: Hippowdon|72/100
+|move|p2b: Crustle|Earthquake|p1a: Toucannon|[spread] p1b
+|-immune|p2a: Ho-Oh
+|-immune|p1a: Toucannon
+|-damage|p1b: Hippowdon|62/100
+|move|p1b: Hippowdon|Earthquake|p2a: Ho-Oh|[spread] p2b
+|-immune|p1a: Toucannon
+|-immune|p2a: Ho-Oh
+|-damage|p2b: Crustle|0 fnt
+|faint|p2b: Crustle
+|
+|-weather|none
+|upkeep
+|
+|switch|p2b: Articuno|Articuno, L71|94/100
+|-ability|p2b: Articuno|Pressure
+|turn|8
+|
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Hippowdon
+|-damage|p1b: Hippowdon|43/100
+|move|p2b: Articuno|Freeze-Dry|p1a: Toucannon
+|-supereffective|p1a: Toucannon
+|-damage|p1a: Toucannon|55/100
+|move|p1a: Toucannon|Tailwind|p1a: Toucannon
+|-sidestart|p1: Daky|move: Tailwind
+|move|p1b: Hippowdon|Slack Off|p1b: Hippowdon
+|-heal|p1b: Hippowdon|93/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Crawdaunt|Crawdaunt, L82, F|95/100
+|move|p1a: Toucannon|Brave Bird|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|33/100
+|-damage|p1a: Toucannon|36/100|[from] Recoil
+|-enditem|p1a: Toucannon|Sitrus Berry|[eat]
+|-heal|p1a: Toucannon|61/100|[from] item: Sitrus Berry
+|move|p2b: Articuno|Freeze-Dry|p1b: Hippowdon
+|-supereffective|p1b: Hippowdon
+|-damage|p1b: Hippowdon|44/100
+|move|p1b: Hippowdon|Whirlwind|p2b: Articuno
+|drag|p2b: Ho-Oh|Ho-Oh, L70|99/100
+|
+|upkeep
+|turn|10
+|inactive|Shawn Dee has 120 seconds left.
+|
+|move|p1a: Toucannon|Brave Bird|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|32/100
+|-damage|p1a: Toucannon|38/100|[from] Recoil
+|move|p1b: Hippowdon|Earthquake|p2b: Ho-Oh|[spread] p2a
+|-immune|p1a: Toucannon
+|-immune|p2b: Ho-Oh
+|-damage|p2a: Crawdaunt|2/100
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Toucannon
+|-damage|p1a: Toucannon|0 fnt
+|faint|p1a: Toucannon
+|move|p2a: Crawdaunt|Liquidation|p1b: Hippowdon
+|-supereffective|p1b: Hippowdon
+|-damage|p1b: Hippowdon|0 fnt
+|-damage|p2a: Crawdaunt|0 fnt|[from] item: Life Orb
+|faint|p1b: Hippowdon
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|inactive|Shawn Dee has 120 seconds left.
+|
+|switch|p1a: Incineroar|Incineroar, L76, F|18/100
+|switch|p2a: Scolipede|Scolipede, L81, F|100/100
+|switch|p1b: Magnezone|Magnezone, L76|84/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Scolipede|atk|1
+|-unboost|p2b: Ho-Oh|atk|1
+|turn|11
+|inactive|Daky has 120 seconds left.
+|
+|switch|p2b: Articuno|Articuno, L71|94/100
+|-ability|p2b: Articuno|Pressure
+|move|p2a: Scolipede|Protect|p2a: Scolipede
+|-singleturn|p2a: Scolipede|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Articuno
+|-damage|p2b: Articuno|80/100
+|-damage|p1a: Incineroar|8/100|[from] item: Life Orb
+|move|p1b: Magnezone|Electroweb|p2a: Scolipede|[spread] p2b
+|-activate|p2a: Scolipede|move: Protect
+|-supereffective|p2b: Articuno
+|-damage|p2b: Articuno|47/100
+|-unboost|p2b: Articuno|spe|1
+|
+|-heal|p1b: Magnezone|91/100|[from] item: Leftovers
+|-sideend|p1: Daky|move: Tailwind
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|12
+|inactive|Shawn Dee has 120 seconds left.
+|
+|switch|p1a: Virizion|Virizion, L71|100/100
+|move|p2a: Scolipede|Rock Slide|p1b: Magnezone|[spread] p1a
+|-miss|p2a: Scolipede|p1b: Magnezone
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|92/100
+|-damage|p2a: Scolipede|90/100|[from] item: Life Orb
+|move|p1b: Magnezone|Electroweb|p2a: Scolipede|[spread] p2a,p2b
+|-supereffective|p2b: Articuno
+|-damage|p2a: Scolipede|68/100
+|-damage|p2b: Articuno|15/100
+|-unboost|p2a: Scolipede|spe|1
+|-unboost|p2b: Articuno|spe|1
+|move|p2b: Articuno|Roost|p2b: Articuno
+|-heal|p2b: Articuno|65/100
+|-singleturn|p2b: Articuno|move: Roost
+|
+|-heal|p1a: Virizion|98/100|[from] item: Leftovers
+|-heal|p1b: Magnezone|97/100|[from] item: Leftovers
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|13
+|inactive|Shawn Dee has 120 seconds left.
+|
+|move|p2a: Scolipede|Aqua Tail|p1b: Magnezone
+|-damage|p1b: Magnezone|76/100
+|-damage|p2a: Scolipede|58/100|[from] item: Life Orb
+|move|p1a: Virizion|Stone Edge|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-crit|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|move|p1b: Magnezone|Flash Cannon|p2b: Articuno
+|-supereffective|p2b: Articuno
+|-damage|p2b: Articuno|1/100
+|move|p2b: Articuno|Hurricane|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|-heal|p1b: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ho-Oh|Ho-Oh, L70|66/100
+|switch|p1a: Incineroar|Incineroar, L76, F|8/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ho-Oh|atk|1
+|-unboost|p2b: Articuno|atk|1
+|turn|14
+|
+|move|p1a: Incineroar|Fake Out|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|49/100
+|-damage|p1a: Incineroar|0 fnt|[from] item: Life Orb
+|faint|p1a: Incineroar
+|cant|p2a: Ho-Oh|flinch
+|move|p1b: Magnezone|Electroweb|p2a: Ho-Oh|[spread] p2a,p2b
+|-supereffective|p2a: Ho-Oh
+|-supereffective|p2b: Articuno
+|-damage|p2a: Ho-Oh|23/100
+|-damage|p2b: Articuno|0 fnt
+|-unboost|p2a: Ho-Oh|spe|1
+|faint|p2b: Articuno
+|
+|-heal|p1b: Magnezone|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|c|☆Daky|gg
+
+|c|☆Shawn Dee|Gg
+
+|
+|move|p1b: Magnezone|Electroweb|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|win|Daky

@@ -1,0 +1,271 @@
+|init|battle
+|title|SJC2003 vs. Emiaj
+|j|☆SJC2003
+|j|☆Emiaj
+|player|p1|SJC2003|87|1500
+|player|p2|Emiaj|101|1506
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Azumarill, F|item
+|poke|p1|Medicham, M|item
+|poke|p1|Tangrowth, M|item
+|poke|p1|Toxapex, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Heatran, F|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Pelipper, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Toxicroak, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Emiaj)
+|
+|start
+|switch|p1a: Medicham|Medicham, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Zen Headbutt|p2a: Pelipper
+|-damage|p2a: Pelipper|47/100
+|move|p2a: Pelipper|U-turn|p1a: Medicham
+|-damage|p1a: Medicham|87/100
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Medicham|Zen Headbutt|p2a: Azumarill
+|-damage|p2a: Azumarill|32/100
+|-zpower|p2a: Azumarill
+|move|p2a: Azumarill|Z-Belly Drum|p2a: Azumarill|[anim]Belly Drum
+|-heal|p2a: Azumarill|100/100|[zeffect]
+|-damage|p2a: Azumarill|51/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|64/100
+|-damage|p2a: Azumarill|34/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Azumarill|Knock Off|p1a: Tangrowth
+|-crit|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-damage|p2a: Azumarill|17/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Azumarill
+|faint|p1a: Tangrowth
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, M|87/100
+|turn|5
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|move|p1a: Medicham|Fake Out|p2a: Toxicroak
+|-damage|p2a: Toxicroak|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|77/100|[from] ability: Dry Skin
+|upkeep
+|turn|6
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Medicham
+|-damage|p1a: Medicham|49/100
+|-damage|p2a: Toxicroak|67/100|[from] item: Life Orb
+|move|p1a: Medicham|Zen Headbutt|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|turn|7
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|detailschange|p2a: Swampert|Swampert-Mega, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Waterfall|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|8
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-zpower|p1a: Azumarill
+|move|p1a: Azumarill|Z-Belly Drum|p1a: Azumarill|[anim]Belly Drum
+|-damage|p1a: Azumarill|50/100
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|move|p1a: Azumarill|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|9/100
+|-damage|p1a: Azumarill|38/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Azumarill
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Azumarill
+|-damage|p1a: Azumarill|9/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Azumarill|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Azumarill|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|faint|p1a: Azumarill
+|
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham-Mega, M|49/100
+|switch|p2a: Pelipper|Pelipper, F|47/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|11
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|move|p1a: Medicham|Fake Out|p2a: Greninja
+|-damage|p2a: Greninja|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Greninja|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|72/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Swampert|Swampert-Mega, M|100/100
+|move|p1a: Toxapex|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|78/100|[from] item: Black Sludge
+|-damage|p2a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Swampert|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Swampert|82/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Medicham|Medicham-Mega, M|49/100
+|turn|15
+
+|
+|move|p1a: Medicham|Fake Out|p2a: Swampert
+|-damage|p2a: Swampert|60/100 tox
+|cant|p2a: Swampert|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Swampert|42/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Swampert|Earthquake|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Swampert|17/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|17
+
+|
+|switch|p2a: Greninja|Greninja, M|61/100
+|move|p1a: Toxapex|Recover||[still]
+|-fail|p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+
+|
+|move|p2a: Greninja|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|move|p1a: Toxapex|Toxic|p2a: Greninja
+|-status|p2a: Greninja|tox
+|
+|-weather|none
+|-heal|p1a: Toxapex|71/100|[from] item: Black Sludge
+|-damage|p2a: Greninja|55/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Greninja|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p1a: Toxapex|37/100|[from] item: Black Sludge
+|-damage|p2a: Greninja|43/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Greninja|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|win|Emiaj

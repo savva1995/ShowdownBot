@@ -1,0 +1,87 @@
+|init|battle
+|title|Speed to win vs. CharkieXD
+|j|☆Speed to win
+|j|☆CharkieXD
+|player|p1|Speed to win|170|1055
+|player|p2|CharkieXD|23|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cloyster|Cloyster, L84, F|100/100
+|switch|p2a: Simisage|Simisage, L89, F|100/100
+|turn|1
+
+|
+|move|p2a: Simisage|Superpower|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|51/100
+|-unboost|p2a: Simisage|atk|1
+|-unboost|p2a: Simisage|def|1
+|move|p1a: Cloyster|Icicle Spear|p2a: Simisage
+|-supereffective|p2a: Simisage
+|-damage|p2a: Simisage|66/100
+|-supereffective|p2a: Simisage
+|-damage|p2a: Simisage|31/100
+|-supereffective|p2a: Simisage
+|-damage|p2a: Simisage|0 fnt
+|-hitcount|p2a: Simisage|3
+|faint|p2a: Simisage
+|
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric, L82, M|100/100
+|turn|2
+
+|
+|detailschange|p2a: Manectric|Manectric-Mega, L82, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Cloyster|atk|1
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|move|p2a: Manectric|Volt Switch|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+
+|
+|switch|p1a: Giratina|Giratina-Origin, L78|100/100
+|turn|3
+
+|l|☆CharkieXD
+
+|player|p2|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Speed to win)
+
+|inactive|CharkieXD has 30 seconds to reconnect!
+
+|inactive|CharkieXD has 20 seconds to reconnect!
+
+|inactive|CharkieXD has 15 seconds to reconnect!
+
+|inactive|CharkieXD has 10 seconds to reconnect!
+
+|l|☆Speed to win
+
+|inactive|Speed to win disconnected and has a minute to reconnect!
+
+|player|p1|
+|inactive|CharkieXD has 5 seconds to reconnect!
+
+|-message|CharkieXD lost due to inactivity.
+|
+|win|Speed to win

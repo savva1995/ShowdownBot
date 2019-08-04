@@ -1,0 +1,227 @@
+|init|battle
+|title|renst vs. DatTrash
+|j|☆renst
+|j|☆DatTrash
+|player|p1|renst|102|1761
+|player|p2|DatTrash|266|1857
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|switch|p2a: Gengar|Gengar, L78, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DatTrash)
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Meloetta|Knock Off|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Primeape|Primeape, L88, F|100/100
+|move|p1a: Meloetta|Knock Off|p2a: Primeape
+|-resisted|p2a: Primeape
+|-damage|p2a: Primeape|88/100
+|-enditem|p2a: Primeape|Choice Scarf|[from] move: Knock Off|[of] p1a: Meloetta
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Moltres|Moltres, L82|100/100
+|move|p2a: Primeape|U-turn|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|95/100
+
+|
+|switch|p2a: Heatran|Heatran, L80, F|100/100|[from]move: U-turn
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Moltres|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|78/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Stealth Rock|p1a: Moltres
+|-sidestart|p1: renst|move: Stealth Rock
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Moltres|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|56/100
+|-start|p2a: Heatran|confusion
+|-activate|p2a: Heatran|confusion
+|move|p2a: Heatran|Flash Cannon|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|76/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Moltres|Hurricane|p2a: Heatran|[miss]
+|-miss|p1a: Moltres|p2a: Heatran
+|-activate|p2a: Heatran|confusion
+|move|p2a: Heatran|Flash Cannon|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|57/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Gengar|Gengar, L78, F|100/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|upkeep
+|turn|8
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L78, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|-zpower|p1a: Moltres
+|move|p1a: Moltres|Supersonic Skystrike|p2a: Gengar|[zeffect]
+|-zbroken|p2a: Gengar
+|-damage|p2a: Gengar|73/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Moltres
+|-damage|p1a: Moltres|59/100
+|move|p1a: Moltres|Fire Blast|p2a: Gengar
+|-damage|p2a: Gengar|10/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Gengar|Disable|p1a: Moltres
+|-start|p1a: Moltres|Disable|Fire Blast
+|cant|p1a: Moltres|Disable|Fire Blast
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Gengar|Taunt|p1a: Moltres
+|-start|p1a: Moltres|move: Taunt
+|move|p1a: Moltres|Hurricane|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Yveltal|Yveltal, L78|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|12
+
+|
+|move|p2a: Yveltal|Dark Pulse|p1a: Moltres
+|-damage|p1a: Moltres|12/100
+|move|p1a: Moltres|Hurricane|p2a: Yveltal
+|-damage|p2a: Yveltal|59/100
+|
+|-heal|p2a: Yveltal|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Yveltal|Dark Pulse|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-heal|p2a: Yveltal|71/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L84, F|100/100
+|-damage|p1a: Nidoqueen|94/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Yveltal|U-turn|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|85/100
+
+|
+|switch|p2a: Heatran|Heatran, L80, F|56/100|[from]move: U-turn
+|move|p1a: Nidoqueen|Sludge Wave|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Lilligant|Lilligant, L87, F|100/100
+|move|p1a: Nidoqueen|Earth Power|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|74/100
+|
+|-heal|p2a: Lilligant|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Lilligant|Sleep Powder|p1a: Nidoqueen
+|-status|p1a: Nidoqueen|slp|[from] move: Sleep Powder
+|cant|p1a: Nidoqueen|slp
+|
+|-heal|p2a: Lilligant|86/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|cant|p1a: Nidoqueen|slp
+|
+|-heal|p2a: Lilligant|92/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Lilligant|Petal Dance|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|10/100 slp
+|cant|p1a: Nidoqueen|slp
+|
+|-heal|p2a: Lilligant|98/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Lilligant|Petal Dance|p1a: Nidoqueen|[from]lockedmove
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|-heal|p2a: Lilligant|100/100|[from] item: Leftovers
+|upkeep
+
+|-message|renst forfeited.
+
+|
+|win|DatTrash

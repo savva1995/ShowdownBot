@@ -1,0 +1,380 @@
+|init|battle
+|title|Fyskire vs. GAMOGAME
+|j|☆Fyskire
+|j|☆GAMOGAME
+|player|p1|Fyskire|169|1322
+|player|p2|GAMOGAME|265|1367
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Leafeon|Leafeon, L89, M|100/100
+|switch|p2a: Gligar|Gligar, L82, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GAMOGAME)
+|inactive|Fyskire has 120 seconds left.
+|
+|switch|p1a: Drapion|Drapion, L84, F|100/100
+|move|p2a: Gligar|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|92/100
+|-enditem|p1a: Drapion|Life Orb|[from] move: Knock Off|[of] p2a: Gligar
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Drapion|Swords Dance|p1a: Drapion
+|-boost|p1a: Drapion|atk|2
+|move|p2a: Gligar|Earthquake|p1a: Drapion
+|-supereffective|p1a: Drapion
+|-damage|p1a: Drapion|35/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Drapion|Aqua Tail|p2a: Gligar|[miss]
+|-miss|p1a: Drapion|p2a: Gligar
+|move|p2a: Gligar|Earthquake|p1a: Drapion
+|-supereffective|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|upkeep
+
+|
+|switch|p1a: Decidueye|Decidueye, L86, M|100/100
+|turn|4
+
+|
+|move|p2a: Gligar|Knock Off|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|73/100
+|-zpower|p1a: Decidueye
+|move|p1a: Decidueye|Sinister Arrow Raid|p2a: Gligar|[zeffect]
+|-damage|p2a: Gligar|49/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|99/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Skuntank|Skuntank, L88, M|100/100
+|move|p1a: Decidueye|Leaf Blade|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|62/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Skuntank|Poison Jab|p1a: Decidueye
+|-damage|p1a: Decidueye|35/100
+|-status|p1a: Decidueye|psn
+|move|p1a: Decidueye|Spirit Shackle|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|25/100
+|-activate|p2a: Skuntank|trapped
+|
+|-damage|p1a: Decidueye|23/100 psn|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p2a: Skuntank|Crunch|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, L83, M|100/100
+|turn|9
+
+|inactive|Fyskire has 120 seconds left.
+
+|
+|switch|p2a: Gligar|Gligar, L82, M|99/100
+|move|p1a: Mienshao|Fake Out|p2a: Gligar
+|-damage|p2a: Gligar|89/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mienshao|Poison Jab|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|78/100
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|move|p2a: Gligar|Knock Off|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|65/100
+|-enditem|p1a: Mienshao|Life Orb|[from] move: Knock Off|[of] p2a: Gligar
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Mienshao|Poison Jab|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|70/100
+|move|p2a: Gligar|Earthquake|p1a: Mienshao
+|-crit|p1a: Mienshao
+|-damage|p1a: Mienshao|1/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Mienshao|Poison Jab|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|62/100
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Mienshao|Poison Jab|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|93/100
+|move|p2a: Gligar|Knock Off|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+
+|
+|switch|p1a: Blissey|Blissey, L82, F|100/100
+|turn|14
+
+|inactive|Fyskire has 90 seconds left.
+
+|
+|move|p2a: Gligar|Knock Off|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|-enditem|p1a: Blissey|Leftovers|[from] move: Knock Off|[of] p2a: Gligar
+|move|p1a: Blissey|Flamethrower|p2a: Gligar
+|-damage|p2a: Gligar|76/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Gligar|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|30/100
+|move|p1a: Blissey|Flamethrower|p2a: Gligar
+|-damage|p2a: Gligar|58/100
+|
+|upkeep
+|turn|16
+
+|inactive|Fyskire has 90 seconds left.
+
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Blissey|Flamethrower|p2a: Gligar
+|-damage|p2a: Gligar|84/100
+|-status|p2a: Gligar|brn
+|
+|-damage|p2a: Gligar|78/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|inactive|Fyskire has 90 seconds left.
+
+|
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Gligar|Earthquake|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|-damage|p2a: Gligar|72/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|inactive|Fyskire has 90 seconds left.
+
+|
+|move|p2a: Gligar|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|8/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|58/100
+|
+|-damage|p2a: Gligar|66/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100 brn
+|-singleturn|p2a: Gligar|move: Roost
+|
+|-damage|p2a: Gligar|94/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Tropius|Tropius, L89, F|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Tropius|Substitute|p2a: Tropius
+|-start|p2a: Tropius|Substitute
+|-damage|p2a: Tropius|75/100
+|move|p1a: Blissey|Flamethrower|p2a: Tropius
+|-supereffective|p2a: Tropius
+|-end|p2a: Tropius|Substitute
+|
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Bronzong|Bronzong, L84|100/100
+|move|p1a: Blissey|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|67/100
+|
+|-heal|p2a: Bronzong|73/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|inactive|Fyskire has 90 seconds left.
+
+|
+|move|p1a: Blissey|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|40/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Blissey
+|-damage|p1a: Blissey|69/100
+|
+|-heal|p2a: Bronzong|46/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|inactive|GAMOGAME has 120 seconds left.
+
+|
+|move|p1a: Blissey|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|16/100
+|move|p2a: Bronzong|Explosion|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p2a: Bronzong
+|faint|p1a: Blissey
+|
+|upkeep
+
+|inactive|GAMOGAME has 120 seconds left.
+
+|inactive|Fyskire has 90 seconds left.
+
+|
+|switch|p1a: Blaziken|Blaziken, L78, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|spa|1
+|turn|25
+
+|inactive|Fyskire has 90 seconds left.
+
+|inactive|GAMOGAME has 120 seconds left.
+
+|
+|-zpower|p2a: Porygon-Z
+|move|p2a: Porygon-Z|Z-Conversion|p2a: Porygon-Z|[anim]Conversion
+|-boost|p2a: Porygon-Z|atk|1|[zeffect]
+|-boost|p2a: Porygon-Z|def|1|[zeffect]
+|-boost|p2a: Porygon-Z|spa|1|[zeffect]
+|-boost|p2a: Porygon-Z|spd|1|[zeffect]
+|-boost|p2a: Porygon-Z|spe|1|[zeffect]
+|-start|p2a: Porygon-Z|typechange|Electric
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|26
+
+|inactive|Fyskire has 90 seconds left.
+|inactive|GAMOGAME has 120 seconds left.
+
+|
+|detailschange|p1a: Blaziken|Blaziken-Mega, L78, M
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Blaziken|Knock Off|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|64/100
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+
+|
+|switch|p1a: Leafeon|Leafeon, L89, M|100/100
+|turn|27
+
+|
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|52/100
+|move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|2
+|
+|-heal|p1a: Leafeon|58/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|4/100
+|move|p1a: Leafeon|Leaf Blade|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|-heal|p1a: Leafeon|10/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Ribombee|Ribombee, L85, F|100/100
+|turn|29
+
+|
+|move|p2a: Ribombee|Bug Buzz|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-crit|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|win|GAMOGAME

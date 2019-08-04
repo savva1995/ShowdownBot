@@ -1,0 +1,111 @@
+|init|battle
+|title|Orkid vs. Fairytail392
+|j|☆Orkid
+|j|☆Fairytail392
+|player|p1|Orkid|211|1251
+|player|p2|Fairytail392|70|1233
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ninetales|Ninetales, L84, F|100/100
+|switch|p2a: Meganium|Meganium, L89, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|switch|p2a: Tentacruel|Tentacruel, L82, F|100/100
+|move|p1a: Ninetales|Substitute|p1a: Ninetales
+|-start|p1a: Ninetales|Substitute
+|-damage|p1a: Ninetales|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|move|p2a: Tentacruel|Scald|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-end|p1a: Ninetales|Substitute
+|-damage|p2a: Tentacruel|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, M|100/100
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Heliolisk
+|-anim|p1a: Ninetales|Solar Beam|p2a: Heliolisk
+|-damage|p2a: Heliolisk|26/100
+|replace|p2a: Zoroark|Zoroark, L86, M
+|-end|p2a: Zoroark|Illusion
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Zoroark|Sludge Bomb|p1a: Ninetales
+|-damage|p1a: Ninetales|57/100
+|-status|p1a: Ninetales|psn
+|-damage|p2a: Zoroark|16/100|[from] item: Life Orb
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Zoroark
+|-anim|p1a: Ninetales|Solar Beam|p2a: Zoroark
+|-crit|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|63/100 psn|[from] item: Leftovers
+|-damage|p1a: Ninetales|51/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Staraptor|Staraptor, L81, M|100/100
+|turn|5
+
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|
+|-weather|none
+|-heal|p1a: Ninetales|57/100 psn|[from] item: Leftovers
+|-damage|p1a: Ninetales|45/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Tentacruel|Tentacruel, L82, F|91/100
+|turn|6
+
+|
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Tentacruel
+|move|p2a: Tentacruel|Scald|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p2a: Tentacruel|81/100|[from] item: Life Orb
+|faint|p1a: Ninetales
+|
+|upkeep
+
+|
+|switch|p1a: Toxapex|Toxapex, L80, M|100/100
+|turn|7
+
+|-message|Fairytail392 forfeited.
+
+|
+|win|Orkid

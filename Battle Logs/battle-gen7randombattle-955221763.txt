@@ -1,0 +1,252 @@
+|init|battle
+|title|pieeerrrre vs. rws1
+|j|☆pieeerrrre
+|j|☆rws1
+|player|p1|pieeerrrre|170|1831
+|player|p2|rws1|170|1752
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops, L88, F|100/100
+|switch|p2a: Nihilego|Nihilego, L82|100/100
+|-item|p2a: Nihilego|Air Balloon
+|turn|1
+|
+|move|p2a: Nihilego|Grass Knot|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|6/100
+|move|p1a: Kabutops|Liquidation|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|-enditem|p2a: Nihilego|Air Balloon
+|faint|p2a: Nihilego
+|
+|upkeep
+|
+|switch|p2a: Cherrim|Cherrim, L89, M|100/100
+|turn|2
+|
+|switch|p1a: Muk|Muk, L89, M|100/100
+|move|p2a: Cherrim|Giga Drain|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|91/100
+|
+|-heal|p1a: Muk|97/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Aegislash|Aegislash, L78, M|100/100
+|move|p1a: Muk|Poison Jab|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|-heal|p1a: Muk|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, L80, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|5
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Excadrill
+|-damage|p1a: Excadrill|42/100
+|-damage|p2a: Aegislash|91/100|[from] item: Life Orb
+|move|p1a: Excadrill|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Excadrill|32/100|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Cherrim|Cherrim, L89, M|100/100
+|turn|6
+|
+|move|p2a: Cherrim|Sunny Day|p2a: Cherrim
+|-weather|SunnyDay
+|-formechange|p2a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|move|p1a: Excadrill|Iron Head|p2a: Cherrim
+|-damage|p2a: Cherrim|46/100
+|-damage|p1a: Excadrill|23/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Cherrim|Giga Drain|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-heal|p2a: Cherrim|59/100|[from] drain|[of] p1a: Excadrill
+|faint|p1a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Muk|Muk, L89, M|100/100
+|turn|8
+|
+|move|p2a: Cherrim|Solar Beam||[still]
+|-prepare|p2a: Cherrim|Solar Beam|p1a: Muk
+|-anim|p2a: Cherrim|Solar Beam|p1a: Muk
+|-resisted|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|77/100
+|move|p1a: Muk|Poison Jab|p2a: Cherrim
+|-supereffective|p2a: Cherrim
+|-damage|p2a: Cherrim|0 fnt
+|faint|p2a: Cherrim
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Muk|83/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Cresselia|Cresselia, L84, F|100/100
+|turn|9
+|
+|switch|p1a: Heliolisk|Heliolisk, L86, F|100/100
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Heliolisk|88/100|[from] ability: Dry Skin|[of] p1a: Heliolisk
+|-heal|p2a: Cresselia|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Heliolisk|Dark Pulse|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Heliolisk|76/100|[from] ability: Dry Skin|[of] p1a: Heliolisk
+|-heal|p2a: Cresselia|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Heliolisk|Dark Pulse|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|60/100
+|cant|p2a: Cresselia|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Heliolisk|64/100|[from] ability: Dry Skin|[of] p1a: Heliolisk
+|-heal|p2a: Cresselia|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Heliolisk|Dark Pulse|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|39/100
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Heliolisk|52/100|[from] ability: Dry Skin|[of] p1a: Heliolisk
+|-heal|p2a: Cresselia|20/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Heliolisk|Dark Pulse|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|move|p2a: Cresselia|Moonblast|p1a: Heliolisk
+|-damage|p1a: Heliolisk|18/100
+|
+|-weather|none
+|-heal|p2a: Cresselia|26/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Heliolisk|Dark Pulse|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|upkeep
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, F|100/100
+|turn|15
+
+|
+|move|p2a: Heliolisk|Thunderbolt|p1a: Heliolisk
+|-resisted|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|turn|16
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Heliolisk
+|
+|upkeep
+
+|
+|switch|p2a: Pelipper|Pelipper, L84, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|17
+
+|
+|switch|p1a: Muk|Muk, L89, M|83/100
+|move|p2a: Pelipper|Hurricane|p1a: Muk
+|-damage|p1a: Muk|43/100
+|-damage|p2a: Pelipper|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Muk|49/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+
+|
+|move|p2a: Pelipper|Hurricane|p1a: Muk
+|-damage|p1a: Muk|12/100
+|-damage|p2a: Pelipper|81/100|[from] item: Life Orb
+|move|p1a: Muk|Poison Jab|p2a: Pelipper
+|-damage|p2a: Pelipper|41/100
+|-status|p2a: Pelipper|psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Muk|18/100|[from] item: Black Sludge
+|-damage|p2a: Pelipper|29/100 psn|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Muk|Shadow Sneak|p2a: Pelipper
+|-damage|p2a: Pelipper|16/100 psn
+|move|p2a: Pelipper|Hurricane|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|-damage|p2a: Pelipper|6/100 psn|[from] item: Life Orb
+|faint|p1a: Muk
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|0 fnt|[from] psn
+|faint|p2a: Pelipper
+|
+|win|pieeerrrre
+|upkeep

@@ -1,0 +1,145 @@
+|init|battle
+|title|Kinxbro vs. Stawlk
+|j|☆Kinxbro
+|j|☆Stawlk
+|player|p1|Kinxbro|109|1000
+|player|p2|Stawlk|162|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Lycanroc-Dusk, F|item
+|poke|p1|Kabutops, M|item
+|poke|p1|Golem-Alola, F|item
+|poke|p1|Aggron, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Celesteela|item
+|poke|p2|Jirachi|item
+|teampreview
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, M, shiny|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Stawlk)
+|
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, M, shiny
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p1a: Aerodactyl|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Stawlk|move: Stealth Rock
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion, shiny|100/100
+|turn|3
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F, shiny|100/100
+|turn|4
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|upkeep
+
+|
+|switch|p1a: Kabutops|Kabutops, M, shiny|100/100
+|turn|5
+
+|
+|move|p1a: Kabutops|Aqua Jet|p2a: Scizor
+|-damage|p2a: Scizor|85/100
+|move|p2a: Scizor|Bullet Punch|p1a: Kabutops
+|-enditem|p1a: Kabutops|Focus Sash
+|-damage|p1a: Kabutops|1/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|upkeep
+
+|
+|switch|p1a: Aggron|Aggron, M, shiny|100/100
+|turn|7
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Aggron
+|-damage|p1a: Aggron|60/100
+|move|p1a: Aggron|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|33/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Scizor|Brick Break|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-crit|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|
+|switch|p1a: Golem|Golem-Alola, F, shiny|100/100
+|turn|9
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Golem
+|-damage|p1a: Golem|47/100
+|move|p1a: Golem|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|11/100
+|
+|-heal|p1a: Golem|53/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|win|Stawlk

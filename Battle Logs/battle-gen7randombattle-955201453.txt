@@ -1,0 +1,262 @@
+|init|battle
+|title|swegassus vs. Bouboutator
+|j|☆swegassus
+|j|☆Bouboutator
+|player|p1|swegassus|46|1218
+|player|p2|Bouboutator|265|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Steelix|Steelix, L82, F|100/100
+|switch|p2a: Deoxys|Deoxys-Defense, L78|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|detailschange|p1a: Steelix|Steelix-Mega, L82, F
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p2a: Deoxys|Stealth Rock|p1a: Steelix
+|-sidestart|p1: swegassus|move: Stealth Rock
+|move|p1a: Steelix|Heavy Slam|p2a: Deoxys
+|-damage|p2a: Deoxys|51/100
+|
+|-heal|p2a: Deoxys|57/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Marowak|Marowak-Alola, L84, F|100/100
+|move|p1a: Steelix|Heavy Slam|p2a: Marowak
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|77/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Marowak|Flare Blitz|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|26/100
+|-damage|p2a: Marowak|50/100|[from] Recoil
+|move|p1a: Steelix|Earthquake|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|upkeep
+|
+|switch|p2a: Lurantis|Lurantis, L88, M|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bouboutator)
+|
+|move|p2a: Lurantis|Leaf Storm|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|-boost|p2a: Lurantis|spa|2
+|-damage|p2a: Lurantis|91/100|[from] item: Life Orb
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|-damage|p1a: Volcanion|76/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p1a: Volcanion|Fire Blast|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|faint|p2a: Lurantis
+|
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, L80, M|100/100
+|turn|6
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, L80, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Volcanion
+|-damage|p1a: Volcanion|58/100
+|cant|p1a: Volcanion|flinch
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Volcanion|Fire Blast|p2a: Medicham
+|-damage|p2a: Medicham|35/100
+|move|p2a: Medicham|Thunder Punch|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+
+|inactive|swegassus has 120 seconds left.
+
+|
+|switch|p1a: Tornadus|Tornadus, L83, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Tornadus|Acrobatics|p2a: Medicham
+|-supereffective|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|upkeep
+
+|
+|switch|p2a: Starmie|Starmie, L82|100/100
+|turn|9
+
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|5/100
+|move|p1a: Tornadus|U-turn|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|50/100
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, F|100/100|[from]move: U-turn
+|-damage|p1a: Escavalier|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Escavalier|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Escavalier
+|-damage|p1a: Escavalier|64/100
+|move|p1a: Escavalier|Megahorn|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-heal|p1a: Escavalier|70/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Politoed|Politoed, L84, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|11
+
+|
+|move|p2a: Politoed|Scald|p1a: Escavalier
+|-damage|p1a: Escavalier|28/100
+|move|p1a: Escavalier|Swords Dance|p1a: Escavalier
+|-boost|p1a: Escavalier|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Escavalier|33/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Politoed|Scald|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Kabutops|Kabutops, L88, F|100/100
+|-damage|p1a: Kabutops|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Kabutops|Stone Edge|p2a: Politoed
+|-damage|p2a: Politoed|46/100
+|move|p2a: Politoed|Scald|p1a: Kabutops
+|-damage|p1a: Kabutops|52/100
+|-status|p1a: Kabutops|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kabutops|45/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Kabutops|Stone Edge|p2a: Politoed
+|-damage|p2a: Politoed|21/100
+|move|p2a: Politoed|Scald|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Wishiwashi|Wishiwashi, L89, M|100/100
+|-damage|p1a: Wishiwashi|88/100|[from] Stealth Rock
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|15
+
+|
+|move|p2a: Politoed|Rest|p2a: Politoed
+|-status|p2a: Politoed|slp|[from] move: Rest
+|-heal|p2a: Politoed|100/100 slp|[silent]
+|-enditem|p2a: Politoed|Chesto Berry|[eat]
+|-curestatus|p2a: Politoed|slp|[msg]
+|move|p1a: Wishiwashi|Hidden Power|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|53/100
+|
+|-weather|none
+|upkeep
+|turn|16
+
+|
+|move|p2a: Politoed|Scald|p1a: Wishiwashi
+|-resisted|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|76/100
+|move|p1a: Wishiwashi|Hidden Power|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|upkeep
+
+|
+|switch|p2a: Deoxys|Deoxys-Defense, L78|57/100
+|-ability|p2a: Deoxys|Pressure
+|turn|17
+
+|inactive|swegassus has 120 seconds left.
+
+|
+|move|p2a: Deoxys|Knock Off|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|61/100
+|-enditem|p1a: Wishiwashi|Expert Belt|[from] move: Knock Off|[of] p2a: Deoxys
+|move|p1a: Wishiwashi|Hydro Pump|p2a: Deoxys
+|-damage|p2a: Deoxys|2/100
+|
+|-heal|p2a: Deoxys|8/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|inactive|swegassus has 120 seconds left.
+
+|
+|move|p2a: Deoxys|Knock Off|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|52/100
+|move|p1a: Wishiwashi|Hydro Pump|p2a: Deoxys|[miss]
+|-miss|p1a: Wishiwashi|p2a: Deoxys
+|
+|-heal|p2a: Deoxys|14/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|-message|Bouboutator forfeited.
+
+|
+|win|swegassus

@@ -1,0 +1,364 @@
+|init|battle
+|title|Thorich4 vs. Bobstar21
+|j|☆Thorich4
+|j|☆Bobstar21
+|player|p1|Thorich4|130|1139
+|player|p2|Bobstar21|102|1178
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cacturne|Cacturne, L89, M|100/100
+|switch|p2a: Noivern|Noivern, L84, F|100/100
+|turn|1
+|
+|switch|p1a: Zeraora|Zeraora, L82|100/100
+|move|p2a: Noivern|Taunt|p1a: Zeraora
+|-start|p1a: Zeraora|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Noivern
+|-damage|p2a: Noivern|54/100
+|-fieldactivate|move: Ion Deluge
+|move|p2a: Noivern|U-turn|p1a: Zeraora
+|-damage|p1a: Zeraora|84/100
+|
+|switch|p2a: Torterra|Torterra, L86, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Zeraora|Hidden Power|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|47/100
+|move|p2a: Torterra|Rock Polish|p2a: Torterra
+|-boost|p2a: Torterra|spe|2
+|
+|-heal|p2a: Torterra|53/100|[from] item: Leftovers
+|-end|p1a: Zeraora|move: Taunt
+|upkeep
+|turn|4
+
+|
+|move|p2a: Torterra|Earthquake|p1a: Zeraora
+|-supereffective|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|-heal|p2a: Torterra|59/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, F|100/100
+|turn|5
+
+|
+|switch|p2a: Genesect|Genesect-Douse, L78|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|move|p1a: Hawlucha|Acrobatics|p2a: Genesect
+|-damage|p2a: Genesect|79/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Genesect
+|-damage|p2a: Genesect|23/100
+|move|p2a: Genesect|Ice Beam|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+
+|
+|switch|p1a: Breloom|Breloom, L81, F|100/100
+|turn|7
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: Genesect
+|-damage|p2a: Genesect|0 fnt
+|faint|p2a: Genesect
+|
+|upkeep
+
+|
+|switch|p2a: Hypno|Hypno, L89, M|100/100
+|turn|8
+
+|
+|move|p2a: Hypno|Thunder Wave|p1a: Breloom
+|-status|p1a: Breloom|par
+|move|p1a: Breloom|Spore|p2a: Hypno
+|-immune|p2a: Hypno|[from] ability: Insomnia
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Cacturne|Cacturne, L89, M|100/100
+|move|p2a: Hypno|Wish|p2a: Hypno
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Hypno|Thunder Wave|p1a: Cacturne|[miss]
+|-miss|p2a: Hypno|p1a: Cacturne
+|move|p1a: Cacturne|Dark Pulse|p2a: Hypno
+|-supereffective|p2a: Hypno
+|-damage|p2a: Hypno|37/100
+|
+|-heal|p2a: Hypno|87/100|[from] move: Wish|[wisher] Hypno
+|-heal|p2a: Hypno|93/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Hypno|Wish|p2a: Hypno
+|move|p1a: Cacturne|Dark Pulse|p2a: Hypno
+|-supereffective|p2a: Hypno
+|-damage|p2a: Hypno|20/100
+|
+|-heal|p2a: Hypno|27/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Tyranitar|Tyranitar, L80, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Cacturne|Dark Pulse|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cacturne|95/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] move: Wish|[wisher] Hypno
+|upkeep
+|turn|13
+
+|
+|detailschange|p2a: Tyranitar|Tyranitar-Mega, L80, M
+|-mega|p2a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Tyranitar|Earthquake|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-damage|p1a: Cacturne|72/100
+|move|p1a: Cacturne|Seed Bomb|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cacturne|66/100|[from] Sandstorm
+|upkeep
+|turn|14
+
+|
+|move|p2a: Tyranitar|Ice Punch|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Primeape|Primeape, L88, M|100/100
+|turn|15
+
+|
+|move|p1a: Primeape|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primeape|94/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, L84, F|54/100
+|turn|16
+
+|
+|move|p1a: Primeape|Close Combat|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|26/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Noivern|Roost|p2a: Noivern
+|-heal|p2a: Noivern|76/100
+|-singleturn|p2a: Noivern|move: Roost
+|
+|-weather|none
+|-heal|p2a: Noivern|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Primeape|Close Combat|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|55/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Noivern|U-turn|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|69/100
+
+|
+|switch|p2a: Hypno|Hypno, L89, M|27/100|[from]move: U-turn
+|
+|-heal|p2a: Hypno|33/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Primeape|Close Combat|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|5/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Hypno|Wish|p2a: Hypno
+|
+|-heal|p2a: Hypno|11/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Hypno|Protect|p2a: Hypno
+|-singleturn|p2a: Hypno|Protect
+|move|p1a: Primeape|Close Combat|p2a: Hypno
+|-activate|p2a: Hypno|move: Protect
+|
+|-heal|p2a: Hypno|61/100|[from] move: Wish|[wisher] Hypno
+|-heal|p2a: Hypno|67/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Rhyperior|Rhyperior, L84, F|100/100
+|move|p2a: Hypno|Wish|p2a: Hypno
+|
+|-heal|p2a: Hypno|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Torterra|Torterra, L86, F|59/100
+|move|p1a: Rhyperior|Megahorn|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, L84, F|55/100
+|turn|22
+
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Rhyperior
+|-damage|p1a: Rhyperior|43/100
+|-unboost|p2a: Noivern|spa|2
+|move|p1a: Rhyperior|Megahorn|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|35/100
+|
+|-heal|p2a: Noivern|41/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Noivern|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|34/100
+
+|
+|switch|p2a: Hypno|Hypno, L89, M|73/100|[from]move: U-turn
+|move|p1a: Rhyperior|Stone Edge|p2a: Hypno
+|-damage|p2a: Hypno|20/100
+|
+|-heal|p2a: Hypno|26/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Hypno|Wish|p2a: Hypno
+|move|p1a: Rhyperior|Rock Polish|p1a: Rhyperior
+|-boost|p1a: Rhyperior|spe|2
+|
+|-heal|p2a: Hypno|32/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Rhyperior|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, L84, F|41/100
+|turn|26
+
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Rhyperior|[miss]
+|-miss|p2a: Noivern|p1a: Rhyperior
+|move|p1a: Rhyperior|Stone Edge|p2a: Noivern|[miss]
+|-miss|p1a: Rhyperior|p2a: Noivern
+|
+|-heal|p2a: Noivern|47/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|-unboost|p2a: Noivern|spa|2
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: Noivern|53/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Primeape|Primeape, L88, M|69/100
+|turn|28
+
+|
+|move|p1a: Primeape|Ice Punch|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, L81, M|100/100
+|turn|29
+
+|
+|switch|p1a: Breloom|Breloom, L81, F|100/100 par
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|upkeep
+|turn|30
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|win|Thorich4

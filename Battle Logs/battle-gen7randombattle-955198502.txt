@@ -1,0 +1,424 @@
+|init|battle
+|title|Uta The Clown vs. lunarleaf
+|j|☆Uta The Clown
+|j|☆lunarleaf
+|player|p1|Uta The Clown|59|1676
+|player|p2|lunarleaf|94|1644
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, L80, M|100/100
+|switch|p2a: Leavanny|Leavanny, L89, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Leavanny|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Uta The Clown)
+
+|inactive|lunarleaf has 120 seconds left.
+
+|
+|switch|p1a: Weezing|Weezing, L86, M|100/100
+|move|p2a: Leavanny|Sticky Web|p1a: Weezing
+|-sidestart|p1: Uta The Clown|move: Sticky Web
+|
+|upkeep
+|turn|2
+
+|inactive|lunarleaf has 120 seconds left.
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Mismagius
+|-status|p2a: Mismagius|brn
+|
+|-damage|p2a: Mismagius|94/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|70/100 brn
+|move|p1a: Weezing|Sludge Bomb|p2a: Mismagius
+|-resisted|p2a: Mismagius
+|-activate|p2a: Mismagius|move: Substitute|[damage]
+|
+|-heal|p2a: Mismagius|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|70/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Weezing
+|-damage|p1a: Weezing|61/100
+|move|p1a: Weezing|Fire Blast|p2a: Mismagius
+|-crit|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-heal|p2a: Mismagius|76/100 brn|[from] item: Leftovers
+|-heal|p1a: Weezing|67/100|[from] item: Black Sludge
+|-damage|p2a: Mismagius|70/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|45/100 brn
+|move|p1a: Weezing|Fire Blast|p2a: Mismagius|[miss]
+|-miss|p1a: Weezing|p2a: Mismagius
+|
+|-heal|p2a: Mismagius|51/100 brn|[from] item: Leftovers
+|-heal|p1a: Weezing|73/100|[from] item: Black Sludge
+|-damage|p2a: Mismagius|45/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Weezing
+|-damage|p1a: Weezing|32/100
+|move|p1a: Weezing|Fire Blast|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-heal|p2a: Mismagius|51/100 brn|[from] item: Leftovers
+|-heal|p1a: Weezing|38/100|[from] item: Black Sludge
+|-damage|p2a: Mismagius|45/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|20/100 brn
+|move|p1a: Weezing|Fire Blast|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-heal|p2a: Mismagius|26/100 brn|[from] item: Leftovers
+|-heal|p1a: Weezing|44/100|[from] item: Black Sludge
+|-damage|p2a: Mismagius|20/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Weezing
+|-damage|p1a: Weezing|1/100
+|move|p1a: Weezing|Fire Blast|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|-heal|p1a: Weezing|7/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Leavanny|Leavanny, L89, F|100/100
+|turn|9
+
+|
+|move|p2a: Leavanny|Leaf Blade|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+
+|
+|switch|p1a: Sableye|Sableye, L81, F|100/100
+|-activate|p1a: Sableye|move: Sticky Web
+|-unboost|p1a: Sableye|spe|1
+|turn|10
+
+|inactive|lunarleaf has 120 seconds left.
+
+|inactive|lunarleaf has 90 seconds left.
+
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Leavanny
+|-status|p2a: Leavanny|brn
+|move|p2a: Leavanny|Swords Dance|p2a: Leavanny
+|-boost|p2a: Leavanny|atk|2
+|
+|-damage|p2a: Leavanny|94/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|inactive|lunarleaf has 90 seconds left.
+
+|inactive|lunarleaf has 60 seconds left.
+
+|
+|move|p1a: Sableye|Calm Mind|p1a: Sableye
+|-boost|p1a: Sableye|spa|1
+|-boost|p1a: Sableye|spd|1
+|move|p2a: Leavanny|Swords Dance|p2a: Leavanny
+|-boost|p2a: Leavanny|atk|2
+|
+|-damage|p2a: Leavanny|88/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|detailschange|p1a: Sableye|Sableye-Mega, L81, F
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p2a: Leavanny|Swords Dance|p2a: Leavanny
+|-boost|p2a: Leavanny|atk|2
+|move|p1a: Sableye|Shadow Ball|p2a: Leavanny
+|-damage|p2a: Leavanny|52/100 brn
+|-unboost|p2a: Leavanny|spd|1
+|
+|-damage|p2a: Leavanny|46/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|inactive|lunarleaf has 60 seconds left.
+
+|
+|move|p2a: Leavanny|Leaf Blade|p1a: Sableye
+|-damage|p1a: Sableye|24/100
+|move|p1a: Sableye|Shadow Ball|p2a: Leavanny
+|-crit|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|upkeep
+
+|inactive|lunarleaf has 60 seconds left.
+
+|
+|switch|p2a: Sharpedo|Sharpedo, L82, F|100/100
+|turn|14
+
+|inactive|lunarleaf has 60 seconds left.
+
+|
+|move|p2a: Sharpedo|Crunch|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p1a: Ribombee|Ribombee, L85, F|100/100
+|-activate|p1a: Ribombee|move: Sticky Web
+|-unboost|p1a: Ribombee|spe|1
+|turn|15
+
+|
+|detailschange|p2a: Sharpedo|Sharpedo-Mega, L82, F
+|-mega|p2a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Sharpedo|Waterfall|p1a: Ribombee
+|-damage|p1a: Ribombee|47/100
+|move|p1a: Ribombee|Moonblast|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|-heal|p1a: Ribombee|53/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Victini|Victini, L80|100/100
+|turn|16
+
+|inactive|Uta The Clown has 120 seconds left.
+
+|inactive|Uta The Clown has 90 seconds left.
+
+|
+|move|p2a: Victini|Blue Flare|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+
+|inactive|Uta The Clown has 90 seconds left.
+
+|
+|switch|p1a: Feraligatr|Feraligatr, L82, M|100/100
+|-activate|p1a: Feraligatr|move: Sticky Web
+|-unboost|p1a: Feraligatr|spe|1
+|turn|17
+
+|
+|switch|p2a: Umbreon|Umbreon, L84, F|100/100
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|upkeep
+|turn|18
+
+|inactive|Uta The Clown has 90 seconds left.
+
+|c|☆lunarleaf|v
+
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Umbreon|Toxic|p1a: Feraligatr
+|-status|p1a: Feraligatr|tox
+|
+|-damage|p1a: Feraligatr|94/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Feraligatr|Liquidation|p2a: Umbreon
+|-damage|p2a: Umbreon|16/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|22/100|[from] item: Leftovers
+|-damage|p1a: Feraligatr|82/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|inactive|Uta The Clown has 90 seconds left.
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|-heal|p2a: Umbreon|72/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|78/100|[from] item: Leftovers
+|-damage|p1a: Feraligatr|63/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|inactive|lunarleaf has 120 seconds left.
+
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|100/100
+|move|p1a: Feraligatr|Liquidation|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|-damage|p1a: Feraligatr|38/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Umbreon|Umbreon, L84, F|78/100
+|turn|22
+
+|inactive|lunarleaf has 120 seconds left.
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Feraligatr|Liquidation|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|84/100|[from] item: Leftovers
+|-damage|p1a: Feraligatr|7/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Feraligatr|Liquidation|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|90/100|[from] item: Leftovers
+|-damage|p1a: Feraligatr|0 fnt|[from] psn
+|faint|p1a: Feraligatr
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, L80, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Umbreon|atk|1
+|turn|24
+
+|
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: Umbreon|Toxic|p1a: Landorus|[miss]
+|-miss|p2a: Umbreon|p1a: Landorus
+|
+|-heal|p2a: Umbreon|96/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|inactive|Uta The Clown has 120 seconds left.
+
+|
+|move|p1a: Landorus|Rock Polish|p1a: Landorus
+|-boost|p1a: Landorus|spe|2
+|move|p2a: Umbreon|Toxic|p1a: Landorus|[miss]
+|-miss|p2a: Umbreon|p1a: Landorus
+|
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|inactive|Uta The Clown has 120 seconds left.
+
+|
+|move|p1a: Landorus|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|29/100
+|move|p2a: Umbreon|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-heal|p2a: Umbreon|36/100|[from] item: Leftovers
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|c|☆lunarleaf|:o
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Landorus|Earthquake|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|42/100|[from] item: Leftovers
+|-damage|p1a: Landorus|82/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Landorus|Earthquake|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|48/100|[from] item: Leftovers
+|-damage|p1a: Landorus|63/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|
+|move|p2a: Umbreon|Protect||[still]
+|-fail|p2a: Umbreon
+|move|p1a: Landorus|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|-damage|p1a: Landorus|38/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Victini|Victini, L80|100/100
+|turn|30
+
+|
+|move|p1a: Landorus|Earthquake|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|win|Uta The Clown

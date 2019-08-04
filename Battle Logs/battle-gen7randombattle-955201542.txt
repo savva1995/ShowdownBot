@@ -1,0 +1,95 @@
+|init|battle
+|title|Dshetty vs. AbirSavage
+|j|☆Dshetty
+|j|☆AbirSavage
+|player|p1|Dshetty|101|1117
+|player|p2|AbirSavage|266|1141
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Thundurus|Thundurus, L81, M|100/100
+|switch|p2a: Pyukumuku|Pyukumuku, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AbirSavage)
+
+|
+|switch|p2a: Chansey|Chansey, L80, F|100/100
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Chansey|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: Dshetty|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Chansey|Seismic Toss|p1a: Thundurus
+|-damage|p1a: Thundurus|70/100
+|
+|-heal|p1a: Thundurus|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|48/100
+|-status|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|-heal|p1a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-heal|p1a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Aggron|Aggron, L82, F|100/100
+|turn|6
+
+|
+|detailschange|p2a: Aggron|Aggron-Mega, L82, F
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|63/100
+|move|p2a: Aggron|Rock Slide|p1a: Thundurus|[miss]
+|-miss|p2a: Aggron|p1a: Thundurus
+|
+|-heal|p1a: Thundurus|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|-heal|p1a: Thundurus|76/100|[from] item: Leftovers
+|upkeep
+
+|-message|AbirSavage forfeited.
+
+|
+|win|Dshetty

@@ -1,0 +1,112 @@
+|init|battle
+|title|lwk1231 vs. NayeonLove
+|j|☆lwk1231
+|j|☆NayeonLove
+|player|p1|lwk1231|266|1450
+|player|p2|NayeonLove|249|1536
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Xerneas, L50|item
+|poke|p1|Rayquaza, L50|item
+|poke|p1|Incineroar, L50, F|item
+|poke|p1|Stakataka, L50|item
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Togekiss, L50, M|item
+|poke|p2|Kyogre, L50|item
+|poke|p2|Rayquaza, L50|item
+|poke|p2|Whimsicott, L50, F|item
+|poke|p2|Gengar, L50, F|item
+|poke|p2|Tapu Koko, L50|item
+|poke|p2|Incineroar, L50, M|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lwk1231)
+|
+|start
+|switch|p1a: Togekiss|Togekiss, L50, M|48/48
+|switch|p1b: Incineroar|Incineroar, L50, F|48/48
+|switch|p2a: Whimsicott|Whimsicott, L50, F|48/48
+|switch|p2b: Tapu Koko|Tapu Koko, L50|48/48
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2b: Tapu Koko
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|-unboost|p2b: Tapu Koko|atk|1
+|turn|1
+|
+|move|p2a: Whimsicott|Protect|p2a: Whimsicott
+|-singleturn|p2a: Whimsicott|Protect
+|move|p2b: Tapu Koko|Protect|p2b: Tapu Koko
+|-singleturn|p2b: Tapu Koko|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Tapu Koko
+|-activate|p2b: Tapu Koko|move: Protect
+|move|p1a: Togekiss|Tailwind|p1a: Togekiss
+|-sidestart|p1: lwk1231|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: NayeonLove|move: Tailwind
+|move|p1a: Togekiss|Air Slash|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p2b: Tapu Koko|Volt Switch|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|10/48
+|-damage|p2b: Tapu Koko|43/48|[from] item: Life Orb
+
+|
+|switch|p2b: Rayquaza|Rayquaza, L50|48/48|[from]move: Volt Switch
+|-ability|p2b: Rayquaza|Air Lock
+|move|p1b: Incineroar|U-turn|p2b: Rayquaza
+|-resisted|p2b: Rayquaza
+|-damage|p2b: Rayquaza|43/48
+
+|
+|switch|p1b: Xerneas|Xerneas, L50|48/48|[from]move: U-turn
+|-ability|p1b: Xerneas|Fairy Aura
+|
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L50|48/48
+|detailschange|p2a: Kyogre|Kyogre-Primal, L50
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|3
+
+|
+|detailschange|p2b: Rayquaza|Rayquaza-Mega, L50
+|-mega|p2b: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2b: Rayquaza
+|move|p1a: Togekiss|Follow Me|p1a: Togekiss
+|-singleturn|p1a: Togekiss|move: Follow Me
+|move|p2b: Rayquaza|Dragon Ascent|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-unboost|p2b: Rayquaza|def|1
+|-unboost|p2b: Rayquaza|spd|1
+|faint|p1a: Togekiss
+|move|p1b: Xerneas|Geomancy||[still]
+|-prepare|p1b: Xerneas|Geomancy|p1b: Xerneas
+|-enditem|p1b: Xerneas|Power Herb
+|-anim|p1b: Xerneas|Geomancy|p1b: Xerneas
+|-boost|p1b: Xerneas|spa|2
+|-boost|p1b: Xerneas|spd|2
+|-boost|p1b: Xerneas|spe|2
+|move|p2a: Kyogre|Origin Pulse|p1b: Xerneas
+|-damage|p1b: Xerneas|35/48
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|-message|NayeonLove forfeited.
+
+|
+|win|lwk1231

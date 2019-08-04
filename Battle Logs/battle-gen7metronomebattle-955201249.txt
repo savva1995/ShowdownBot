@@ -1,0 +1,105 @@
+|init|battle
+|title|Allien19 vs. jagwei
+|j|☆Allien19
+|j|☆jagwei
+|player|p1|Allien19|101|
+|player|p2|jagwei|2|
+|teamsize|p1|2
+|teamsize|p2|2
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Metronome Battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blacephalon|Blacephalon, shiny|100/100
+|switch|p1b: Abomasnow|Abomasnow-Mega, M, shiny|100/100
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|switch|p2b: Hitmonchan|Hitmonchan, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Allien19)
+|
+|move|p1a: Blacephalon|Metronome|p1a: Blacephalon
+|move|p1a: Blacephalon|Aromatic Mist|p1b: Abomasnow|[from]Metronome
+|-boost|p1b: Abomasnow|spd|1
+|move|p2a: Hitmonlee|Metronome|p2a: Hitmonlee
+|move|p2a: Hitmonlee|Trick Room|p2a: Hitmonlee|[from]Metronome
+|-fieldstart|move: Trick Room|[of] p2a: Hitmonlee
+|move|p2b: Hitmonchan|Metronome|p2b: Hitmonchan
+|move|p2b: Hitmonchan|Defog|p1b: Abomasnow|[from]Metronome
+|-unboost|p1b: Abomasnow|evasion|1
+|move|p1b: Abomasnow|Metronome|p1b: Abomasnow
+|move|p1b: Abomasnow|Leaf Blade|p2b: Hitmonchan|[from]Metronome
+|-damage|p2b: Hitmonchan|50/100
+|
+|upkeep
+|turn|2
+|
+|move|p1b: Abomasnow|Metronome|p1b: Abomasnow
+|move|p1b: Abomasnow|Silver Wind|p2b: Hitmonchan|[from]Metronome
+|-resisted|p2b: Hitmonchan
+|-damage|p2b: Hitmonchan|41/100
+|move|p2b: Hitmonchan|Metronome|p2b: Hitmonchan
+|move|p2b: Hitmonchan|Megahorn|p1b: Abomasnow|[from]Metronome
+|-supereffective|p1b: Abomasnow
+|-damage|p1b: Abomasnow|45/100
+|-enditem|p1b: Abomasnow|Weakness Policy
+|-boost|p1b: Abomasnow|atk|2
+|-boost|p1b: Abomasnow|spa|2
+|move|p2a: Hitmonlee|Metronome|p2a: Hitmonlee
+|move|p2a: Hitmonlee|Retaliate|p1b: Abomasnow|[from]Metronome
+|-crit|p1b: Abomasnow
+|-damage|p1b: Abomasnow|19/100
+|move|p1a: Blacephalon|Metronome|p1a: Blacephalon
+|move|p1a: Blacephalon|Fire Punch|p2a: Hitmonlee|[from]Metronome
+|-damage|p2a: Hitmonlee|55/100
+|
+|upkeep
+|turn|3
+|
+|move|p1b: Abomasnow|Metronome|p1b: Abomasnow
+|move|p1b: Abomasnow|Water Pulse|p1a: Blacephalon|[from]Metronome
+|-activate|p1a: Blacephalon|ability: Storm Drain
+|-ability|p1a: Blacephalon|Storm Drain|boost
+|-boost|p1a: Blacephalon|spa|1
+|move|p2b: Hitmonchan|Metronome|p2b: Hitmonchan
+|move|p2b: Hitmonchan|Brutal Swing|p1a: Blacephalon|[from]Metronome|[spread] p2a,p1a,p1b
+|-resisted|p2a: Hitmonlee
+|-supereffective|p1a: Blacephalon
+|-damage|p2a: Hitmonlee|47/100
+|-damage|p1a: Blacephalon|62/100
+|-damage|p1b: Abomasnow|9/100
+|move|p2a: Hitmonlee|Metronome|p2a: Hitmonlee
+|move|p2a: Hitmonlee|Torment|p1a: Blacephalon|[from]Metronome
+|-start|p1a: Blacephalon|Torment
+|-enditem|p1a: Blacephalon|Mental Herb
+|-end|p1a: Blacephalon|Torment
+|move|p1a: Blacephalon|Metronome|p1a: Blacephalon
+|move|p1a: Blacephalon|Psycho Boost|p2a: Hitmonlee|[from]Metronome
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|-unboost|p1a: Blacephalon|spa|2
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|turn|4
+
+|
+|move|p1b: Abomasnow|Metronome|p1b: Abomasnow
+|move|p1b: Abomasnow|Stone Edge|p2b: Hitmonchan|[from]Metronome|[miss]
+|-miss|p1b: Abomasnow|p2b: Hitmonchan
+|move|p2b: Hitmonchan|Metronome|p2b: Hitmonchan
+|move|p2b: Hitmonchan|Low Kick|p1a: Blacephalon|[from]Metronome
+|-immune|p1a: Blacephalon
+|move|p1a: Blacephalon|Metronome|p1a: Blacephalon
+|move|p1a: Blacephalon|Confusion|p2b: Hitmonchan|[from]Metronome
+|-supereffective|p2b: Hitmonchan
+|-damage|p2b: Hitmonchan|17/100
+|
+|upkeep
+|turn|5
+
+|-message|jagwei forfeited.
+
+|
+|win|Allien19

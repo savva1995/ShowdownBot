@@ -1,0 +1,52 @@
+|init|battle
+|title|Emperor vs. Remer000000
+|j|☆Emperor
+|j|☆Remer000000
+|player|p1|Emperor|257|1296
+|player|p2|Remer000000|1|1000
+|teamsize|p1|6
+|teamsize|p2|1
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Linked
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Weavile, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Klefki, F|item
+|poke|p1|Charizard, M|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Jirachi|item
+|poke|p2|Kyurem-Black|item
+|teampreview
+|
+|start
+|switch|p1a: Jirachi|Jirachi, shiny|100/100
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Emperor)
+
+|
+|move|p2a: Kyurem|Freeze Shock||[still]
+|-prepare|p2a: Kyurem|Freeze Shock|p1a: Jirachi
+|move|p2a: Kyurem|Dragon Pulse|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|84/100
+|move|p1a: Jirachi|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|39/100
+|move|p1a: Jirachi|Zen Headbutt|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|Emperor

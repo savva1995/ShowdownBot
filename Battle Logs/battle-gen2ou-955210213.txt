@@ -1,0 +1,245 @@
+|init|battle
+|title|NaokoP vs. some scrup
+|j|☆NaokoP
+|j|☆some scrup
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|NaokoP|erika-gen2|
+|player|p2|some scrup|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|turn|1
+|
+|move|p2a: Nidoking|Lovely Kiss|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Lovely Kiss
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Cloyster|Spikes|p1a: Snorlax
+|-sidestart|p1: NaokoP|Spikes
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|6
+|c|☆some scrup|o
+|c|☆some scrup|ok
+|
+|move|p2a: Zapdos|Thunder|p1a: Snorlax|[miss]
+|-miss|p2a: Zapdos
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Zapdos|Thunder|p1a: Snorlax|[miss]
+|-miss|p2a: Zapdos
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Self-Destruct|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Zapdos
+|c|☆some scrup|ok
+|inactive|NaokoP has 120 seconds left.
+|
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|88/100|[from] Spikes
+|
+|-heal|p1a: Cloyster|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Nidoking|Thunder|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|4/100
+|-status|p1a: Cloyster|par
+|move|p1a: Cloyster|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|39/100
+|-status|p2a: Nidoking|frz
+|
+|-heal|p2a: Nidoking|45/100 frz|[from] item: Leftovers
+|-heal|p1a: Cloyster|10/100 par|[from] item: Leftovers
+|-curestatus|p2a: Nidoking|frz|[msg]
+|upkeep
+|turn|9
+|inactive|NaokoP has 120 seconds left.
+|
+|move|p2a: Nidoking|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-heal|p2a: Nidoking|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: Snorlax
+|-damage|p2a: Snorlax|88/100
+|
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|NaokoP has 120 seconds left.
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|-damage|p1a: Steelix|88/100|[from] Spikes
+|move|p2a: Snorlax|Body Slam|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|79/100
+|
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|-heal|p1a: Steelix|85/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|move|p1a: Steelix|Curse|p1a: Steelix
+|-unboost|p1a: Steelix|spe|1
+|-boost|p1a: Steelix|atk|1
+|-boost|p1a: Steelix|def|1
+|
+|-heal|p1a: Steelix|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Cloyster|Surf|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|19/100
+|move|p1a: Steelix|Explosion|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p1a: Steelix
+|faint|p2a: Cloyster
+|
+|switch|p2a: Nidoking|Nidoking, M|51/100
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Spikes
+|
+|-heal|p1a: Gengar|94/100|[from] item: Leftovers
+|-heal|p2a: Nidoking|57/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Gengar|Ice Punch|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|13/100
+|-status|p2a: Nidoking|frz
+|cant|p2a: Nidoking|frz
+|
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|-heal|p2a: Nidoking|19/100 frz|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆some scrup|pepehands
+|
+|move|p1a: Gengar|Ice Punch|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Gengar|Dynamic Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|41/100
+|-start|p2a: Tyranitar|confusion
+|-activate|p2a: Tyranitar|confusion
+|-damage|p2a: Tyranitar|31/100|[from] confusion
+|
+|-heal|p2a: Tyranitar|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Gengar|Thunder|p2a: Tyranitar|[miss]
+|-miss|p1a: Gengar
+|-activate|p2a: Tyranitar|confusion
+|-damage|p2a: Tyranitar|28/100|[from] confusion
+|
+|-heal|p2a: Tyranitar|34/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Gengar|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|7/100
+|-activate|p2a: Tyranitar|confusion
+|move|p2a: Tyranitar|Pursuit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|64/100
+|
+|-heal|p1a: Gengar|70/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|13/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Gengar|Ice Punch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|
+|-heal|p1a: Gengar|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|-damage|p1a: Exeggutor|88/100|[from] Spikes
+|move|p2a: Machamp|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|76/100
+|
+|-heal|p1a: Exeggutor|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Machamp
+|-status|p2a: Machamp|slp|[from] move: Sleep Powder
+|cant|p2a: Machamp|slp
+|
+|-heal|p1a: Exeggutor|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆some scrup|gg gl in tour
+|-message|some scrup forfeited.
+|
+|win|NaokoP
+|c|☆NaokoP|gg
+|l|☆NaokoP
+|l|☆some scrup

@@ -1,0 +1,79 @@
+|init|battle
+|title|ryaum v2 vs. mdzz0001
+|j|☆ryaum v2
+|j|☆mdzz0001
+|player|p1|ryaum v2|214|1111
+|player|p2|mdzz0001|29|1111
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Linked
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Weavile, M|item
+|poke|p1|Beedrill, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Lucario, M|item
+|poke|p2|Quagsire, F|item
+|poke|p2|Tangrowth, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Clefable, M|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Beedrill, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ryaum v2)
+|
+|start
+|switch|p1a: Stingmon|Beedrill, M, shiny|100/100
+|switch|p2a: Beedrill|Beedrill, M|100/100
+|turn|1
+|
+|detailschange|p2a: Beedrill|Beedrill-Mega, M
+|-mega|p2a: Beedrill|Beedrill|Beedrillite
+|detailschange|p1a: Stingmon|Beedrill-Mega, M, shiny
+|-mega|p1a: Stingmon|Beedrill|Beedrillite
+|move|p1a: Stingmon|Knock Off|p2a: Beedrill
+|-damage|p2a: Beedrill|35/100
+|move|p1a: Stingmon|U-turn|p2a: Beedrill
+|-resisted|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+
+|
+|switch|p1a: Potty|Tornadus-Therian, M|100/100|[from]uturn
+|
+|upkeep
+
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|2
+
+|
+|move|p1a: Potty|Knock Off|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|64/100
+|-enditem|p2a: Jirachi|Assault Vest|[from] move: Knock Off|[of] p1a: Potty
+|move|p2a: Jirachi|Iron Head|p1a: Potty
+|-damage|p1a: Potty|55/100
+|-damage|p2a: Jirachi|47/100|[from] item: Rocky Helmet|[of] p1a: Potty
+|move|p2a: Jirachi|Heart Stamp|p1a: Potty
+|-damage|p1a: Potty|22/100
+|-damage|p2a: Jirachi|31/100|[from] item: Rocky Helmet|[of] p1a: Potty
+|
+|upkeep
+|turn|3
+
+|-message|mdzz0001 forfeited.
+
+|
+|win|ryaum v2

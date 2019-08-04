@@ -1,0 +1,336 @@
+|init|battle
+|title|SpeedForXZ vs. xsiodusshadow
+|j|☆SpeedForXZ
+|j|☆xsiodusshadow
+|player|p1|SpeedForXZ|170|
+|player|p2|xsiodusshadow|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aromatisse|Aromatisse, L87, M|100/100
+|switch|p2a: Swampert|Swampert, L80, M|100/100
+|turn|1
+
+|
+|switch|p2a: Bronzong|Bronzong, L84|100/100
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Bronzong|Gyro Ball|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|move|p2a: Bronzong|Toxic|p1a: Aromatisse
+|-status|p1a: Aromatisse|tox
+|
+|-damage|p1a: Aromatisse|95/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Camerupt|Camerupt, L85, M|100/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Camerupt
+|-sidestart|p1: SpeedForXZ|move: Stealth Rock
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Swampert|Swampert, L80, M|100/100
+|move|p1a: Camerupt|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-damage|p2a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Aromatisse|Aromatisse, L87, M|95/100 tox
+|-damage|p1a: Aromatisse|82/100 tox|[from] Stealth Rock
+|detailschange|p2a: Swampert|Swampert-Mega, L80, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|45/100 tox
+|
+|-heal|p1a: Aromatisse|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|82/100 tox|[from] psn
+|-damage|p1a: Aromatisse|45/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Swampert|Rain Dance|p2a: Swampert
+|-weather|RainDance
+|move|p1a: Aromatisse|Aromatherapy|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Aromatherapy
+|-curestatus|p1a: Aromatisse|tox|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aromatisse|51/100|[from] item: Leftovers
+|-damage|p2a: Swampert|63/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Shaymin|Shaymin-Sky, L78|100/100
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aromatisse|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Shaymin|82/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Shaymin|Leech Seed|p1a: Aromatisse
+|-start|p1a: Aromatisse|move: Leech Seed
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Shaymin|88/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|69/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|57/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|100/100|[silent]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Shaymin|Air Slash|p1a: Aromatisse
+|-damage|p1a: Aromatisse|34/100
+|cant|p1a: Aromatisse|flinch
+|
+|-weather|none
+|-heal|p1a: Aromatisse|83/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Aromatisse|89/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|77/100|[from] Leech Seed|[of] p2a: Shaymin
+|upkeep
+|turn|12
+
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Shaymin|Air Slash|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|83/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|71/100|[from] Leech Seed|[of] p2a: Shaymin
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Venomoth|Venomoth, L83, M|100/100
+|move|p1a: Aromatisse|Moonblast|p2a: Venomoth
+|-resisted|p2a: Venomoth
+|-damage|p2a: Venomoth|74/100
+|
+|-heal|p2a: Venomoth|80/100|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|77/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|65/100|[from] Leech Seed|[of] p2a: Venomoth
+|-heal|p2a: Venomoth|95/100|[silent]
+|upkeep
+|turn|14
+
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-heal|p2a: Venomoth|100/100|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|71/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|58/100|[from] Leech Seed|[of] p2a: Venomoth
+|upkeep
+|turn|15
+
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Aromatisse
+|-status|p1a: Aromatisse|slp|[from] move: Sleep Powder
+|cant|p1a: Aromatisse|slp
+|
+|-heal|p1a: Aromatisse|64/100 slp|[from] item: Leftovers
+|-damage|p1a: Aromatisse|52/100 slp|[from] Leech Seed|[of] p2a: Venomoth
+|upkeep
+|turn|16
+
+|
+|cant|p1a: Aromatisse|slp
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-heal|p1a: Aromatisse|58/100 slp|[from] item: Leftovers
+|-damage|p1a: Aromatisse|46/100 slp|[from] Leech Seed|[of] p2a: Venomoth
+|upkeep
+|turn|17
+
+|
+|cant|p1a: Aromatisse|slp
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-heal|p1a: Aromatisse|52/100 slp|[from] item: Leftovers
+|-damage|p1a: Aromatisse|39/100 slp|[from] Leech Seed|[of] p2a: Venomoth
+|upkeep
+|turn|18
+
+|
+|-curestatus|p1a: Aromatisse|slp|[msg]
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-heal|p1a: Aromatisse|45/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|33/100|[from] Leech Seed|[of] p2a: Venomoth
+|upkeep
+|turn|19
+
+|
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-heal|p1a: Aromatisse|39/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|27/100|[from] Leech Seed|[of] p2a: Venomoth
+|upkeep
+|turn|20
+
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-heal|p1a: Aromatisse|33/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|20/100|[from] Leech Seed|[of] p2a: Venomoth
+|upkeep
+|turn|21
+
+|
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|0
+|-boost|p2a: Venomoth|spd|0
+|-boost|p2a: Venomoth|spe|0
+|move|p1a: Aromatisse|Aromatherapy||[still]
+|-activate|p1a: Aromatisse|move: Aromatherapy
+|-fail|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|26/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|14/100|[from] Leech Seed|[of] p2a: Venomoth
+|upkeep
+|turn|22
+
+|
+|move|p2a: Venomoth|Bug Buzz|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, L82, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p2a: Venomoth|Bug Buzz|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+
+|
+|switch|p1a: Camerupt|Camerupt, L85, M|100/100
+|-damage|p1a: Camerupt|88/100|[from] Stealth Rock
+|turn|24
+
+|
+|detailschange|p1a: Camerupt|Camerupt-Mega, L85, M
+|-mega|p1a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Venomoth|Sludge Bomb|p1a: Camerupt
+|-resisted|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|
+|upkeep
+
+|
+|switch|p1a: Barbaracle|Barbaracle, L84, F|100/100
+|-damage|p1a: Barbaracle|88/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p2a: Venomoth|Bug Buzz|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|upkeep
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p2a: Venomoth|Bug Buzz|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+
+|
+|switch|p1a: Torterra|Torterra, L86, F|100/100
+|-damage|p1a: Torterra|94/100|[from] Stealth Rock
+|turn|27
+
+|
+|move|p2a: Venomoth|Sludge Bomb|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|
+|win|xsiodusshadow

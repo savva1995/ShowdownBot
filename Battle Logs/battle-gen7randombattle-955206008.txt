@@ -1,0 +1,305 @@
+|init|battle
+|title|gg2910 vs. Kees Chaos
+|j|☆gg2910
+|j|☆Kees Chaos
+|player|p1|gg2910|289|1203
+|player|p2|Kees Chaos|129|1153
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Shedinja|Shedinja, L89|100/100
+|switch|p2a: Arcanine|Arcanine, L84, F|100/100
+|turn|1
+|
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Shedinja|[miss]
+|-miss|p2a: Arcanine|p1a: Shedinja
+|move|p1a: Shedinja|Swords Dance|p1a: Shedinja
+|-boost|p1a: Shedinja|atk|2
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Shedinja|Shadow Sneak|p2a: Arcanine
+|-damage|p2a: Arcanine|69/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-enditem|p1a: Shedinja|Focus Sash
+|-damage|p1a: Shedinja|100/100
+|
+|-heal|p2a: Arcanine|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Shedinja|Shadow Sneak|p2a: Arcanine
+|-damage|p2a: Arcanine|40/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-damage|p1a: Shedinja|0 fnt
+|-damage|p2a: Arcanine|40/100|[from] Recoil
+|faint|p1a: Shedinja
+|
+|-heal|p2a: Arcanine|46/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Gastrodon|Gastrodon, L88, M|100/100
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gg2910)
+
+|
+|switch|p2a: Kartana|Kartana, L80|100/100
+|move|p1a: Gastrodon|Scald|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|49/100
+|-status|p2a: Kartana|brn
+|-damage|p1a: Gastrodon|91/100|[from] item: Life Orb
+|
+|-damage|p2a: Kartana|43/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|move|p2a: Kartana|Leaf Blade|p1a: Solgaleo
+|-resisted|p1a: Solgaleo
+|-damage|p1a: Solgaleo|89/100
+|-damage|p2a: Kartana|33/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Solgaleo|95/100|[from] item: Leftovers
+|-damage|p2a: Kartana|27/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Kartana|Sacred Sword|p1a: Solgaleo
+|-damage|p1a: Solgaleo|77/100
+|-damage|p2a: Kartana|17/100 brn|[from] item: Life Orb
+|move|p1a: Solgaleo|Stone Edge|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|4/100 brn
+|
+|-heal|p1a: Solgaleo|83/100|[from] item: Leftovers
+|-damage|p2a: Kartana|0 fnt|[from] brn
+|faint|p2a: Kartana
+|upkeep
+
+|
+|switch|p2a: Arcanine|Arcanine, L84, F|46/100
+|turn|7
+
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-crit|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|-damage|p2a: Arcanine|13/100|[from] Recoil
+|faint|p1a: Solgaleo
+|
+|-heal|p2a: Arcanine|19/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Gastrodon|Gastrodon, L88, M|91/100
+|turn|8
+
+|
+|switch|p2a: Tentacruel|Tentacruel, L82, F|100/100
+|move|p1a: Gastrodon|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|84/100
+|-damage|p1a: Gastrodon|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Tentacruel|90/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Gastrodon
+|-sidestart|p1: gg2910|move: Toxic Spikes
+|move|p1a: Gastrodon|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-damage|p1a: Gastrodon|71/100|[from] item: Life Orb
+|faint|p2a: Tentacruel
+|
+|upkeep
+
+|
+|switch|p2a: Sigilyph|Sigilyph, L86, M|100/100
+|turn|10
+
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Gastrodon|Ice Beam|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|52/100
+|-damage|p1a: Gastrodon|62/100|[from] item: Life Orb
+|
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Gastrodon|Ice Beam|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|18/100 brn
+|-damage|p1a: Gastrodon|52/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|68/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Gastrodon|Ice Beam|p2a: Sigilyph
+|-damage|p2a: Sigilyph|50/100 brn
+|-damage|p1a: Gastrodon|42/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|92/100
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Azelf|Azelf, L82|100/100
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|
+|upkeep
+|turn|15
+
+|inactive|Kees Chaos has 120 seconds left.
+
+|
+|move|p1a: Azelf|Nasty Plot|p1a: Azelf
+|-boost|p1a: Azelf|spa|2
+|move|p2a: Sigilyph|Stored Power|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|51/100
+|
+|-heal|p1a: Azelf|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Azelf|Nasty Plot|p1a: Azelf
+|-boost|p1a: Azelf|spa|2
+|move|p2a: Sigilyph|Psycho Shift|p1a: Azelf
+|-status|p1a: Azelf|brn
+|-curestatus|p2a: Sigilyph|brn|[msg]
+|
+|-heal|p1a: Azelf|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Azelf|58/100 brn|[from] brn
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|17
+
+|inactive|Kees Chaos has 120 seconds left.
+
+|
+|move|p1a: Azelf|Dazzling Gleam|p2a: Sigilyph
+|-damage|p2a: Sigilyph|26/100 brn
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|
+|-heal|p1a: Azelf|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Azelf|58/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Azelf|Nasty Plot|p1a: Azelf
+|-boost|p1a: Azelf|spa|2
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|76/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|
+|-heal|p1a: Azelf|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Azelf|58/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Azelf|Psyshock|p2a: Sigilyph
+|-resisted|p2a: Sigilyph
+|-damage|p2a: Sigilyph|55/100 brn
+|move|p2a: Sigilyph|Stored Power|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+
+|
+|switch|p1a: Venomoth|Venomoth, L83, M|100/100
+|-sideend|p1: gg2910|move: Toxic Spikes|[of] p1a: Venomoth
+|turn|20
+
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|upkeep
+
+|
+|switch|p1a: Miltank|Miltank, L86, F|100/100
+|turn|21
+
+|
+|move|p1a: Miltank|Curse|p1a: Miltank
+|-unboost|p1a: Miltank|spe|1
+|-boost|p1a: Miltank|atk|1
+|-boost|p1a: Miltank|def|1
+|move|p2a: Sigilyph|Stored Power|p1a: Miltank
+|-damage|p1a: Miltank|2/100
+|
+|-heal|p1a: Miltank|9/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|faint|p1a: Miltank
+|
+|upkeep
+
+|
+|switch|p1a: Gastrodon|Gastrodon, L88, M|92/100
+|turn|23
+
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|win|Kees Chaos

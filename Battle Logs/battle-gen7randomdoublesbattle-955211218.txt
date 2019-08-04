@@ -1,0 +1,97 @@
+|init|battle
+|title|Qnnnnn vs. Franisulemani
+|j|☆Qnnnnn
+|j|‽Franisulemani
+|player|p1|Qnnnnn|102|1627
+|player|p2|Franisulemani|10|1712
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Moltres|Moltres, L71|100/100
+|switch|p1b: Gothitelle|Gothitelle, L80, M|100/100
+|switch|p2a: Exploud|Exploud, L80, F|100/100
+|switch|p2b: Rampardos|Rampardos, L80, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Franisulemani)
+|
+|switch|p1a: Quagsire|Quagsire, L86, F|100/100
+|move|p2a: Exploud|Hyper Voice|p1a: Quagsire|[spread] p1a,p1b
+|-damage|p1a: Quagsire|84/100
+|-damage|p1b: Gothitelle|77/100
+|move|p1b: Gothitelle|Energy Ball|p2b: Rampardos
+|-supereffective|p2b: Rampardos
+|-damage|p2b: Rampardos|35/100
+|move|p2b: Rampardos|Rock Slide|p1b: Gothitelle|[spread] p1b
+|-miss|p2b: Rampardos|p1a: Quagsire
+|-damage|p1b: Gothitelle|14/100
+|-enditem|p1b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1b: Gothitelle|39/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|2
+|
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2b: Rampardos|Protect|p2b: Rampardos
+|-singleturn|p2b: Rampardos|Protect
+|move|p2a: Exploud|Hyper Voice|p1a: Quagsire|[spread] p1a
+|-activate|p1b: Gothitelle|move: Protect
+|-damage|p1a: Quagsire|66/100
+|move|p1a: Quagsire|Earthquake|p2b: Rampardos|[spread] p2a
+|-activate|p1b: Gothitelle|move: Protect
+|-activate|p2b: Rampardos|move: Protect
+|-damage|p2a: Exploud|64/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Exploud|Hyper Voice|p1a: Quagsire|[spread] p1a,p1b
+|-damage|p1a: Quagsire|50/100
+|-damage|p1b: Gothitelle|16/100
+|move|p1b: Gothitelle|Psyshock|p2a: Exploud
+|-damage|p2a: Exploud|32/100
+|move|p2b: Rampardos|Rock Slide|p1b: Gothitelle|[spread] p1a,p1b
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|29/100
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|move|p1a: Quagsire|Earthquake|p2b: Rampardos|[spread] p2a,p2b
+|-supereffective|p2b: Rampardos
+|-damage|p2a: Exploud|0 fnt
+|-damage|p2b: Rampardos|0 fnt
+|faint|p2a: Exploud
+|faint|p2b: Rampardos
+|
+|upkeep
+
+|
+|switch|p2a: Ludicolo|Ludicolo, L81, F|100/100
+|switch|p1b: Moltres|Moltres, L71|100/100
+|switch|p2b: Togekiss|Togekiss, L75, F|100/100
+|turn|4
+
+|inactive|Qnnnnn has 120 seconds left.
+
+|inactive|Qnnnnn has 90 seconds left.
+
+|inactive|Qnnnnn has 60 seconds left.
+
+|inactive|Qnnnnn has 30 seconds left.
+
+|inactive|Qnnnnn has 20 seconds left.
+
+|inactive|Qnnnnn has 15 seconds left.
+
+|inactive|Qnnnnn has 10 seconds left.
+
+|inactive|Qnnnnn has 5 seconds left.
+
+|-message|Qnnnnn lost due to inactivity.
+|
+|win|Franisulemani

@@ -1,0 +1,323 @@
+|init|battle
+|title|SmugleafGreen vs. blimytoad
+|j|☆SmugleafGreen
+|j|☆blimytoad
+|player|p1|SmugleafGreen|93|1600
+|player|p2|blimytoad|38|1558
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, L78, F|100/100
+|switch|p2a: Smeargle|Smeargle, L89, M|100/100
+|turn|1
+|
+|switch|p1a: Chesnaught|Chesnaught, L82, M|100/100
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Sawk|Bulk Up|p2a: Sawk
+|-boost|p2a: Sawk|atk|1
+|-boost|p2a: Sawk|def|1
+|move|p1a: Chesnaught|Leech Seed|p2a: Sawk
+|-start|p2a: Sawk|move: Leech Seed
+|
+|-damage|p2a: Sawk|88/100|[from] Leech Seed|[of] p1a: Chesnaught
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Amoonguss|Amoonguss, L82, M|100/100
+|move|p1a: Chesnaught|Drain Punch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|86/100
+|
+|-heal|p2a: Amoonguss|92/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|move|p1a: Chesnaught|Spikes|p2a: Amoonguss
+|-sidestart|p2: blimytoad|Spikes
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Chesnaught
+|-immune|p1a: Chesnaught|[from] ability: Bulletproof
+|
+|-heal|p2a: Amoonguss|99/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Celesteela|Celesteela, L80|100/100
+|move|p1a: Chesnaught|Spikes|p2a: Celesteela
+|-sidestart|p2: blimytoad|Spikes
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Luxray|Luxray, L89, M|100/100
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|-status|p1a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+
+|
+|move|p2a: Celesteela|Fire Blast|p1a: Luxray
+|-crit|p1a: Luxray
+|-damage|p1a: Luxray|58/100 brn
+|move|p1a: Luxray|Volt Switch|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|44/100
+|-enditem|p2a: Celesteela|Weakness Policy
+|-boost|p2a: Celesteela|atk|2
+|-boost|p2a: Celesteela|spa|2
+
+|
+|switch|p1a: Klinklang|Klinklang, L86|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Celesteela|Fire Blast|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|faint|p1a: Klinklang
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Luxray|Luxray, L89, M|58/100 brn
+|turn|9
+
+|
+|move|p2a: Celesteela|Fire Blast|p1a: Luxray
+|-damage|p1a: Luxray|0 fnt
+|faint|p1a: Luxray
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L78, F|100/100
+|turn|10
+
+|
+|detailschange|p1a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p1a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Celesteela|Flash Cannon|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|22/100
+|move|p1a: Kangaskhan|Power-Up Punch|p2a: Celesteela
+|-damage|p2a: Celesteela|34/100
+|-boost|p1a: Kangaskhan|atk|1
+|-damage|p2a: Celesteela|30/100
+|-boost|p1a: Kangaskhan|atk|1
+|-hitcount|p2a: Celesteela|2
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|-hitcount|p2a: Celesteela|1
+|faint|p2a: Celesteela
+|
+|upkeep
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|88/100
+|-damage|p2a: Sawk|71/100|[from] Spikes
+|turn|12
+
+|
+|move|p1a: Kangaskhan|Return|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|-hitcount|p2a: Sawk|1
+|faint|p2a: Sawk
+|
+|upkeep
+
+|
+|switch|p2a: Uxie|Uxie, L84|100/100
+|turn|13
+
+|
+|move|p1a: Kangaskhan|Sucker Punch||[still]
+|-fail|p1a: Kangaskhan
+|move|p2a: Uxie|Yawn|p1a: Kangaskhan
+|-start|p1a: Kangaskhan|move: Yawn|[of] p2a: Uxie
+|
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Landorus|Landorus, L78, M|100/100
+|move|p1a: Kangaskhan|Return|p2a: Landorus
+|-damage|p2a: Landorus|9/100
+|-damage|p2a: Landorus|0 fnt
+|-hitcount|p2a: Landorus|2
+|faint|p2a: Landorus
+|
+|-end|p1a: Kangaskhan|move: Yawn|[silent]
+|-status|p1a: Kangaskhan|slp
+|upkeep
+
+|
+|switch|p2a: Uxie|Uxie, L84|100/100
+|turn|15
+
+|
+|move|p2a: Uxie|Psychic|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|upkeep
+
+|
+|switch|p1a: Archeops|Archeops, L87, M|100/100
+|turn|16
+
+|
+|move|p1a: Archeops|U-turn|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|40/100
+
+|
+|switch|p1a: Chesnaught|Chesnaught, L82, M|100/100|[from]move: U-turn
+|move|p2a: Uxie|Psychic|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|37/100
+|
+|-heal|p2a: Uxie|46/100|[from] item: Leftovers
+|-heal|p1a: Chesnaught|43/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Uxie|Psychic|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|-heal|p2a: Uxie|52/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Archeops|Archeops, L87, M|100/100
+|turn|18
+
+|
+|switch|p2a: Smeargle|Smeargle, L89, M|100/100
+|-damage|p2a: Smeargle|84/100|[from] Spikes
+|move|p1a: Archeops|U-turn|p2a: Smeargle
+|-damage|p2a: Smeargle|8/100
+
+|
+|switch|p1a: Ninetales|Ninetales-Alola, L81, F|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Smeargle|2/100|[from] Hail
+|upkeep
+|turn|19
+
+|
+|move|p1a: Ninetales|Substitute|p1a: Ninetales
+|-start|p1a: Ninetales|Substitute
+|-damage|p1a: Ninetales|76/100
+|move|p2a: Smeargle|Spore||[still]
+|-fail|p2a: Smeargle
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Smeargle|0 fnt|[from] Hail
+|faint|p2a: Smeargle
+|-heal|p1a: Ninetales|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Amoonguss|Amoonguss, L82, M|100/100
+|-damage|p2a: Amoonguss|84/100|[from] Spikes
+|turn|20
+
+|
+|move|p1a: Ninetales|Blizzard|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|15/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-end|p1a: Ninetales|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Amoonguss|9/100|[from] Hail
+|-heal|p1a: Ninetales|88/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|15/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Uxie|Uxie, L84|52/100
+|move|p1a: Ninetales|Blizzard|p2a: Uxie
+|-damage|p2a: Uxie|27/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Uxie|21/100|[from] Hail
+|-heal|p1a: Ninetales|94/100|[from] item: Leftovers
+|-heal|p2a: Uxie|27/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Ninetales|Blizzard|p2a: Uxie
+|-damage|p2a: Uxie|2/100
+|move|p2a: Uxie|Yawn|p1a: Ninetales
+|-start|p1a: Ninetales|move: Yawn|[of] p2a: Uxie
+|
+|-weather|none
+|-heal|p1a: Ninetales|99/100|[from] item: Leftovers
+|-heal|p2a: Uxie|8/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Archeops|Archeops, L87, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L82, M|48/100
+|-damage|p2a: Amoonguss|32/100|[from] Spikes
+|
+|-heal|p2a: Amoonguss|38/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+
+|
+|move|p1a: Archeops|Stone Edge|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|upkeep
+
+|
+|switch|p2a: Uxie|Uxie, L84|8/100
+|turn|25
+
+|c|☆blimytoad|gg
+
+|
+|move|p1a: Archeops|Stone Edge|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|
+|win|SmugleafGreen

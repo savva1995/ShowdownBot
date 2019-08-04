@@ -1,0 +1,406 @@
+|init|battle
+|title|Jaano vs. Thefakefildrong
+|j|☆Jaano
+|j|☆Thefakefildrong
+|player|p1|Jaano|162|1339
+|player|p2|Thefakefildrong|1|1345
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Volbeat|Volbeat, L89, M|100/100
+|switch|p2a: Gogoat|Gogoat, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thefakefildrong)
+|
+|switch|p2a: Forretress|Forretress, L84, M|100/100
+|move|p1a: Volbeat|Thunder Wave|p2a: Forretress
+|-status|p2a: Forretress|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Volbeat|U-turn|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|91/100 par
+|
+|switch|p1a: Infernape|Infernape, L82, M|100/100|[from]move: U-turn
+|move|p2a: Forretress|Stealth Rock|p1a: Infernape
+|-sidestart|p1: Jaano|move: Stealth Rock
+|
+|-heal|p2a: Forretress|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Kabutops|Kabutops, L88, F|100/100
+|move|p1a: Infernape|Fire Blast|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|92/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Kabutops|Aqua Jet|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|50/100
+|move|p1a: Infernape|Close Combat|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|faint|p2a: Kabutops
+|
+|upkeep
+
+|
+|switch|p2a: Kingler|Kingler, L87, M|100/100
+|turn|5
+
+|
+|switch|p1a: Magnezone|Magnezone, L80|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|move|p2a: Kingler|Rock Slide|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|71/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Kingler|Superpower|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-unboost|p2a: Kingler|atk|1
+|-unboost|p2a: Kingler|def|1
+|-damage|p2a: Kingler|91/100|[from] item: Life Orb
+|faint|p1a: Magnezone
+|
+|upkeep
+
+|
+|switch|p1a: Oricorio|Oricorio-Pom-Pom, L88, F|100/100
+|-damage|p1a: Oricorio|76/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p2a: Seismitoad|Seismitoad, L86, M|100/100
+|move|p1a: Oricorio|Revelation Dance|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p1a: Oricorio|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Oricorio|Hurricane|p2a: Seismitoad|[miss]
+|-miss|p1a: Oricorio|p2a: Seismitoad
+|move|p2a: Seismitoad|Rain Dance|p2a: Seismitoad
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Oricorio|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Seismitoad|Scald|p1a: Oricorio
+|-damage|p1a: Oricorio|19/100
+|-damage|p2a: Seismitoad|91/100|[from] item: Life Orb
+|move|p1a: Oricorio|Hurricane|p2a: Seismitoad
+|-damage|p2a: Seismitoad|46/100
+|-start|p2a: Seismitoad|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Oricorio|25/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|-activate|p2a: Seismitoad|confusion
+|move|p2a: Seismitoad|Scald|p1a: Oricorio
+|-damage|p1a: Oricorio|0 fnt
+|-damage|p2a: Seismitoad|36/100|[from] item: Life Orb
+|faint|p1a: Oricorio
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p2a: Forretress|Forretress, L84, M|97/100 par
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|-heal|p2a: Forretress|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Forretress|Spikes|p1a: Vaporeon
+|-sidestart|p1: Jaano|Spikes
+|
+|-weather|none
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|13
+
+|
+|move|p1a: Vaporeon|Scald|p2a: Forretress
+|-crit|p2a: Forretress
+|-damage|p2a: Forretress|26/100 par
+|move|p2a: Forretress|Spikes|p1a: Vaporeon
+|-sidestart|p1: Jaano|Spikes
+|
+|-heal|p2a: Forretress|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Forretress|Volt Switch|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|83/100
+
+|
+|switch|p2a: Kingler|Kingler, L87, M|91/100|[from]move: Volt Switch
+|move|p1a: Vaporeon|Roar|p2a: Kingler
+|drag|p2a: Gogoat|Gogoat, L89, F|100/100
+|
+|-heal|p1a: Vaporeon|90/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Gogoat|Leech Seed|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|96/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Infernape|Infernape, L82, M|50/100
+|-damage|p1a: Infernape|37/100|[from] Stealth Rock
+|-damage|p1a: Infernape|21/100|[from] Spikes
+|move|p2a: Gogoat|Leech Seed|p1a: Infernape
+|-start|p1a: Infernape|move: Leech Seed
+|
+|-damage|p1a: Infernape|8/100|[from] Leech Seed|[of] p2a: Gogoat
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Emboar|Emboar, L85, F|100/100
+|move|p1a: Infernape|Close Combat|p2a: Emboar
+|-damage|p2a: Emboar|50/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|
+|-damage|p1a: Infernape|0 fnt|[from] Leech Seed|[of] p2a: Emboar
+|-heal|p2a: Emboar|56/100|[silent]
+|faint|p1a: Infernape
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|96/100
+|-damage|p1a: Vaporeon|83/100|[from] Stealth Rock
+|-damage|p1a: Vaporeon|67/100|[from] Spikes
+|turn|18
+
+|
+|switch|p1a: Volbeat|Volbeat, L89, M|100/100
+|-damage|p1a: Volbeat|76/100|[from] Stealth Rock
+|-damage|p1a: Volbeat|59/100|[from] Spikes
+|move|p2a: Emboar|Wild Charge|p1a: Volbeat
+|-damage|p1a: Volbeat|25/100
+|-damage|p2a: Emboar|49/100|[from] Recoil
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Volbeat|Defog|p2a: Emboar
+|-unboost|p2a: Emboar|evasion|1
+|-sideend|p1: Jaano|Spikes|[from] move: Defog|[of] p1a: Volbeat
+|-sideend|p1: Jaano|Stealth Rock|[from] move: Defog|[of] p1a: Volbeat
+|move|p2a: Emboar|Wild Charge|p1a: Volbeat
+|-damage|p1a: Volbeat|0 fnt
+|-damage|p2a: Emboar|44/100|[from] Recoil
+|faint|p1a: Volbeat
+|
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, M|67/100
+|turn|20
+
+|
+|move|p2a: Emboar|Wild Charge|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|15/100
+|-damage|p2a: Emboar|30/100|[from] Recoil
+|move|p1a: Vaporeon|Scald|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|-heal|p1a: Vaporeon|21/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gogoat|Gogoat, L89, F|100/100
+|turn|21
+
+|
+|move|p2a: Gogoat|Horn Leech|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+
+|
+|switch|p1a: Porygon2|Porygon2, L84|100/100
+|-ability|p1a: Porygon2|Sap Sipper|[from] ability: Trace|[of] p2a: Gogoat
+|turn|22
+
+|
+|move|p2a: Gogoat|Leech Seed|p1a: Porygon2
+|-ability|p1a: Porygon2|Sap Sipper|boost
+|-boost|p1a: Porygon2|atk|1
+|move|p1a: Porygon2|Thunder Wave|p2a: Gogoat|[miss]
+|-miss|p1a: Porygon2|p2a: Gogoat
+|
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Kingler|Kingler, L87, M|91/100
+|move|p1a: Porygon2|Ice Beam|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|72/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Kingler|Superpower|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|37/100
+|-unboost|p2a: Kingler|atk|1
+|-unboost|p2a: Kingler|def|1
+|-damage|p2a: Kingler|63/100|[from] item: Life Orb
+|move|p1a: Porygon2|Thunder Wave|p2a: Kingler
+|-status|p2a: Kingler|par
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|87/100
+|move|p2a: Kingler|Superpower|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|39/100
+|-unboost|p2a: Kingler|atk|1
+|-unboost|p2a: Kingler|def|1
+|-damage|p2a: Kingler|53/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Seismitoad|Seismitoad, L86, M|36/100
+|move|p1a: Porygon2|Tri Attack|p2a: Seismitoad
+|-damage|p2a: Seismitoad|5/100
+|-status|p2a: Seismitoad|brn
+|
+|-damage|p2a: Seismitoad|0 fnt|[from] brn
+|faint|p2a: Seismitoad
+|upkeep
+
+|
+|switch|p2a: Gogoat|Gogoat, L89, F|100/100
+|turn|27
+
+|
+|move|p2a: Gogoat|Horn Leech|p1a: Porygon2
+|-ability|p1a: Porygon2|Sap Sipper|boost
+|-boost|p1a: Porygon2|atk|1
+|move|p1a: Porygon2|Thunder Wave|p2a: Gogoat
+|-status|p2a: Gogoat|par
+|
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Kingler|Kingler, L87, M|53/100 par
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|89/100
+|
+|upkeep
+|turn|29
+
+|
+|move|p1a: Porygon2|Tri Attack|p2a: Kingler
+|-damage|p2a: Kingler|2/100 par
+|move|p2a: Kingler|Rock Slide|p1a: Porygon2
+|-damage|p1a: Porygon2|62/100
+|
+|upkeep
+|turn|30
+
+|
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|move|p2a: Kingler|Superpower|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|34/100
+|-unboost|p2a: Kingler|atk|1
+|-unboost|p2a: Kingler|def|1
+|-damage|p2a: Kingler|0 fnt|[from] item: Life Orb
+|faint|p2a: Kingler
+|
+|upkeep
+
+|
+|switch|p2a: Forretress|Forretress, L84, M|32/100 par
+|turn|31
+
+|
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|84/100
+|move|p2a: Forretress|Gyro Ball|p1a: Porygon2
+|-damage|p1a: Porygon2|59/100
+|
+|-heal|p2a: Forretress|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p1a: Porygon2|Ice Beam|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|21/100 par
+|move|p2a: Forretress|Volt Switch|p1a: Porygon2
+|-damage|p1a: Porygon2|50/100
+
+|-message|Thefakefildrong forfeited.
+
+|
+|win|Jaano

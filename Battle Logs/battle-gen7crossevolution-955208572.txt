@@ -1,0 +1,265 @@
+|init|battle
+|title|Damp Winds vs. bnast
+|j|☆Damp Winds
+|j|☆bnast
+|player|p1|Damp Winds|52|1188
+|player|p2|bnast|221|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Cross Evolution
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Electabuzz, F|item
+|poke|p1|Lileep, M|item
+|poke|p1|Frogadier, F|item
+|poke|p1|Grimer-Alola, M|item
+|poke|p1|Baltoy|item
+|poke|p1|Ducklett, M|item
+|poke|p2|Magneton|item
+|poke|p2|Marshadow|item
+|poke|p2|Groudon|item
+|poke|p2|Croagunk, F|item
+|poke|p2|Cranidos, F|item
+|poke|p2|Gligar, F|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Damp Winds)
+|
+|start
+|switch|p1a: Pelipper|Lileep, M|100/100
+|switch|p2a: Lycanroc-Dusk|Cranidos, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+
+|
+|switch|p1a: Xatu|Baltoy|100/100
+|move|p2a: Lycanroc-Dusk|Superpower|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|40/100
+|-unboost|p2a: Lycanroc-Dusk|atk|1
+|-unboost|p2a: Lycanroc-Dusk|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Xatu|46/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Xatu|U-turn|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|97/100
+
+|
+|switch|p1a: Pangoro|Grimer-Alola, M|100/100|[from]move: U-turn
+|-ability|p1a: Pangoro|Mold Breaker
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Pangoro|[miss]
+|-miss|p2a: Groudon|p1a: Pangoro
+|move|p1a: Pangoro|Parting Shot|p2a: Groudon
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2a: Groudon|spa|1
+
+|
+|switch|p1a: Xatu|Baltoy|46/100|[from]move: Parting Shot
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Xatu|52/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Groudon|Overheat|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-unboost|p2a: Groudon|spa|2
+|faint|p1a: Xatu
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Ludicolo|Frogadier, F, shiny|100/100
+|turn|5
+
+|
+|-weather|none
+|switch|p2a: Milotic|Croagunk, F|100/100
+|move|p1a: Ludicolo|Ice Beam|p2a: Milotic
+|-damage|p2a: Milotic|78/100
+|-damage|p1a: Ludicolo|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Milotic|84/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Pelipper|Lileep, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Milotic|Coil|p2a: Milotic
+|-boost|p2a: Milotic|atk|1
+|-boost|p2a: Milotic|def|1
+|-boost|p2a: Milotic|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Milotic|Drain Punch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|42/100
+|-heal|p2a: Milotic|100/100|[from] drain|[of] p1a: Pelipper
+|move|p1a: Pelipper|U-turn|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|99/100
+
+|
+|switch|p1a: Dragonite|Electabuzz, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|-start|p1a: Dragonite|typechange|Electric/Flying|[silent]
+|turn|8
+
+|
+|switch|p2a: Groudon|Groudon-Primal|97/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p1a: Dragonite|Hurricane|p2a: Groudon|[miss]
+|-miss|p1a: Dragonite|p2a: Groudon
+|move|p2a: Groudon|Overheat|p1a: Dragonite
+|-damage|p1a: Dragonite|42/100
+|-unboost|p2a: Groudon|spa|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p1a: Dragonite|Hurricane|p2a: Groudon
+|-damage|p2a: Groudon|38/100
+|-start|p2a: Groudon|confusion
+|-activate|p2a: Groudon|confusion
+|-damage|p2a: Groudon|27/100|[from] confusion
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p1a: Dragonite|Cross Chop|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|12
+
+|
+|move|p1a: Dragonite|Hurricane|p2a: Marshadow|[miss]
+|-miss|p1a: Dragonite|p2a: Marshadow
+|move|p2a: Marshadow|Spectral Thief||[still]
+|-clearpositiveboost|p1a: Dragonite|p2a: Marshadow|move: Spectral Thief
+|-boost|p2a: Marshadow|atk|1
+|-boost|p2a: Marshadow|spe|1
+|-anim|p2a: Marshadow|Spectral Thief|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+
+|
+|switch|p1a: Pangoro|Grimer-Alola, M|100/100
+|-ability|p1a: Pangoro|Mold Breaker
+|turn|13
+
+|
+|move|p2a: Marshadow|Close Combat|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|-unboost|p2a: Marshadow|def|1
+|-unboost|p2a: Marshadow|spd|1
+|faint|p1a: Pangoro
+|
+|upkeep
+
+|
+|switch|p1a: Pelipper|Lileep, M|42/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+
+|
+|move|p2a: Marshadow|Spectral Thief|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Ludicolo|Frogadier, F, shiny|91/100
+|turn|15
+
+|
+|move|p1a: Ludicolo|Hydro Pump|p2a: Marshadow
+|-enditem|p2a: Marshadow|Focus Sash
+|-damage|p2a: Marshadow|1/100
+|-damage|p1a: Ludicolo|81/100|[from] item: Life Orb
+|move|p2a: Marshadow|Spectral Thief|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Venomoth|Ducklett, M|100/100
+|turn|16
+
+|
+|move|p2a: Marshadow|Shadow Sneak|p1a: Venomoth
+|-damage|p1a: Venomoth|20/100
+|move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+|-boost|p1a: Venomoth|spa|1
+|-boost|p1a: Venomoth|spd|1
+|-boost|p1a: Venomoth|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+
+|
+|move|p2a: Marshadow|Shadow Sneak|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|win|bnast

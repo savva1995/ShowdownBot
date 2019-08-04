@@ -1,0 +1,258 @@
+|init|battle
+|title|Javigross01 vs. LT63RB doudou
+|j|☆Javigross01
+|j|☆LT63RB doudou
+|player|p1|Javigross01|267|1558
+|player|p2|LT63RB doudou|swimmerm-gen2|1570
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tapu Koko|item
+|poke|p1|Kartana|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p2|Swampert, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Manaphy|item
+|poke|p2|Pelipper, F|item
+|teampreview
+
+|
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Tornadus|Heat Wave|p2a: Tornadus
+|-damage|p2a: Tornadus|70/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Tornadus|Hurricane|p2a: Tornadus
+|-damage|p2a: Tornadus|20/100
+|-start|p2a: Tornadus|confusion
+|-activate|p2a: Tornadus|confusion
+|move|p2a: Tornadus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|90/100
+|-damage|p2a: Tornadus|4/100|[from] item: Rocky Helmet|[of] p1a: Tornadus
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Greninja|Ice Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|65/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-zpower|p1a: Kyurem
+|move|p1a: Kyurem|Subzero Slammer|p2a: Ferrothorn|[zeffect]
+|-damage|p2a: Ferrothorn|13/100
+|
+|-heal|p2a: Ferrothorn|19/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p1a: Tornadus|Hurricane|p2a: Pelipper
+|-damage|p2a: Pelipper|37/100
+|move|p2a: Pelipper|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|94/100
+|-damage|p2a: Pelipper|21/100|[from] item: Rocky Helmet|[of] p1a: Tornadus
+
+|
+|switch|p2a: Manaphy|Manaphy|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p1a: Tornadus|Hurricane|p2a: Manaphy
+|-damage|p2a: Manaphy|47/100
+|-zpower|p2a: Manaphy
+|move|p2a: Manaphy|Hydro Vortex|p1a: Tornadus|[zeffect]
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana|100/100
+|turn|8
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|19/100
+|move|p1a: Kartana|Leaf Blade|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|8/100
+|-damage|p1a: Kartana|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|14/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Tapu Koko
+|-sidestart|p1: Javigross01|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|21/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Swampert
+|-immune|p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+
+|
+|detailschange|p2a: Swampert|Swampert-Mega, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Earthquake|p1a: Tapu Koko
+|-supereffective|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Swampert|Ice Punch|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Swampert|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana|88/100
+|-damage|p1a: Kartana|82/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|21/100
+|move|p1a: Kartana|Leaf Blade|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|10/100
+|-damage|p1a: Kartana|70/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|17/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|65/100
+|-damage|p1a: Kyurem|40/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-heal|p2a: Ferrothorn|23/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+
+|
+|switch|p2a: Manaphy|Manaphy|47/100
+|move|p1a: Tyranitar|Crunch|p2a: Manaphy
+|-damage|p2a: Manaphy|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Manaphy|0 fnt|[from] Sandstorm
+|faint|p2a: Manaphy
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert-Mega, M|88/100
+|turn|16
+
+|
+|switch|p1a: Kartana|Kartana|70/100
+|-damage|p1a: Kartana|63/100|[from] Stealth Rock
+|move|p2a: Swampert|Earthquake|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|turn|17
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, M
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Swampert|Superpower|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2a: Swampert|def|1
+|faint|p1a: Tyranitar
+|
+|win|LT63RB doudou

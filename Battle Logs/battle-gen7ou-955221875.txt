@@ -1,0 +1,104 @@
+|init|battle
+|title|LT63RB union vs. AI program
+|j|☆LT63RB union
+|j|☆AI program
+|player|p1|LT63RB union|134|1845
+|player|p2|AI program|102|1867
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Serperior, F|item
+|poke|p1|Hoopa-Unbound|item
+|poke|p1|Greninja, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Xurkitree|item
+|poke|p2|Serperior, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Diancie|item
+|poke|p2|Slurpuff, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AI program)
+|
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|turn|1
+
+|
+|switch|p2a: Program 2|Xurkitree|100/100
+|detailschange|p1a: Scizor|Scizor-Mega, F
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|Bullet Punch|p2a: Program 2
+|-resisted|p2a: Program 2
+|-damage|p2a: Program 2|80/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-zpower|p2a: Program 2
+|move|p2a: Program 2|Z-Hypnosis|p1a: Greninja|[anim]Hypnosis
+|-boost|p2a: Program 2|spe|1|[zeffect]
+|-status|p1a: Greninja|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|3
+
+|j|‽XXXSUICUNEXXX
+
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Program 2|Tail Glow|p2a: Program 2
+|-boost|p2a: Program 2|spa|3
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Program 2|Thunderbolt|p1a: Hoopa
+|-crit|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|-ability|p2a: Program 2|Beast Boost|boost
+|-boost|p2a: Program 2|spa|1
+|
+|upkeep
+
+|l|☆LT63RB union
+
+|inactive|LT63RB union disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|LT63RB union has 30 seconds to reconnect!
+
+|j| LT63RB Ash
+
+|j| KVR_1993
+
+|inactive|LT63RB union has 20 seconds to reconnect!
+
+|inactive|LT63RB union has 15 seconds to reconnect!
+
+|inactive|LT63RB union has 10 seconds to reconnect!
+
+|inactive|LT63RB union has 5 seconds to reconnect!
+
+|-message|LT63RB union lost due to inactivity.
+|
+|win|AI program

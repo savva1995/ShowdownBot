@@ -1,0 +1,103 @@
+|init|battle
+|title|CATB vs. Survipeer
+|j|☆CATB
+|j|☆Survipeer
+|player|p1|CATB|201|1571
+|player|p2|Survipeer|272|1537
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aurorus|Aurorus, L88, M|100/100
+|switch|p2a: Zebstrika|Zebstrika, L89, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|turn|1
+|
+|move|p2a: Zebstrika|Overheat|p1a: Aurorus
+|-damage|p1a: Aurorus|76/100
+|-unboost|p2a: Zebstrika|spa|2
+|move|p1a: Aurorus|Earth Power|p2a: Zebstrika
+|-supereffective|p2a: Zebstrika
+|-damage|p2a: Zebstrika|36/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Zebstrika|30/100|[from] Hail
+|-heal|p1a: Aurorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Zebstrika|Wild Charge|p1a: Aurorus
+|-damage|p1a: Aurorus|46/100
+|-damage|p2a: Zebstrika|18/100|[from] Recoil
+|move|p1a: Aurorus|Blizzard|p2a: Zebstrika
+|-damage|p2a: Zebstrika|0 fnt
+|faint|p2a: Zebstrika
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Aurorus|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|100/100
+|turn|3
+|
+|move|p2a: Nidoqueen|Earth Power|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|faint|p1a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nidoqueen|94/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|turn|4
+|
+|switch|p2a: Crawdaunt|Crawdaunt, L82, F|100/100
+|-zpower|p1a: Malamar
+|move|p1a: Malamar|Z-Happy Hour|p1a: Malamar|[anim]Happy Hour
+|-boost|p1a: Malamar|atk|1|[zeffect]
+|-boost|p1a: Malamar|def|1|[zeffect]
+|-boost|p1a: Malamar|spa|1|[zeffect]
+|-boost|p1a: Malamar|spd|1|[zeffect]
+|-boost|p1a: Malamar|spe|1|[zeffect]
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Malamar|94/100|[from] Hail
+|-damage|p2a: Crawdaunt|95/100|[from] Hail
+|upkeep
+|turn|5
+|
+|move|p1a: Malamar|Superpower|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Crawdaunt
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Oricorio|Oricorio-Pom-Pom, L88, M|100/100
+|turn|6
+
+|
+|move|p1a: Malamar|Knock Off|p2a: Oricorio
+|-damage|p2a: Oricorio|12/100
+|-enditem|p2a: Oricorio|Leftovers|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Oricorio|Hurricane|p1a: Malamar|[miss]
+|-miss|p2a: Oricorio|p1a: Malamar
+|
+|upkeep
+|turn|7
+
+|-message|Survipeer forfeited.
+
+|
+|win|CATB

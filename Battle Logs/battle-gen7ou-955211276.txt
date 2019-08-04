@@ -1,0 +1,294 @@
+|init|battle
+|title|tripfire vs. Stinto
+|j|☆tripfire
+|j|☆Stinto
+|player|p1|tripfire|1|1102
+|player|p2|Stinto|266|1131
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Chansey, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Ribombee, M|item
+|poke|p2|Muk-Alola, F|item
+|poke|p2|Serperior, M|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Hawlucha, F|item
+|teampreview
+
+|
+|start
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|1
+
+|
+|move|p2a: Tapu Koko|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|66/100
+
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100|[from]move: Volt Switch
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|3
+
+|
+|move|p2a: Hawlucha|Drain Punch|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|4
+
+|
+|move|p2a: Hawlucha|Drain Punch|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|45/100
+|move|p1a: Kyurem|Fusion Bolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+
+|
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|5
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Serperior|Leaf Storm|p1a: Ferrothorn|[miss]
+|-miss|p2a: Serperior|p1a: Ferrothorn
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: Stinto|move: Stealth Rock
+|
+|upkeep
+|turn|7
+
+|
+|detailschange|p2a: Gyarados|Gyarados-Mega, F
+|-mega|p2a: Gyarados|Gyarados|Gyaradosite
+|-ability|p2a: Gyarados|Mold Breaker
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Gyarados
+|-start|p2a: Gyarados|move: Leech Seed
+|
+|-damage|p2a: Gyarados|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Gyarados|Earthquake|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-damage|p2a: Gyarados|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+
+|
+|move|p2a: Gyarados|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|46/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|55/100
+|
+|-damage|p2a: Gyarados|43/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|58/100|[silent]
+|upkeep
+|turn|10
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-damage|p2a: Gyarados|31/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|70/100|[silent]
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|move|p2a: Gyarados|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-damage|p2a: Gyarados|18/100|[from] Leech Seed|[of] p1a: Gyarados
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|70/100
+|move|p2a: Gyarados|Waterfall|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100
+|-damage|p2a: Gyarados|6/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Gyarados|0 fnt|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p2a: Gyarados
+|
+|upkeep
+
+|
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|29/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Serperior
+|-damage|p2a: Serperior|6/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-damage|p2a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|15
+
+|
+|move|p2a: Tapu Koko|Wild Charge|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|4/100
+|-damage|p2a: Tapu Koko|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Tapu Koko|59/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-damage|p2a: Tapu Koko|51/100|[from] Recoil
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tapu Koko
+|-start|p2a: Tapu Koko|move: Leech Seed
+|
+|-damage|p2a: Tapu Koko|38/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|14/100|[silent]
+|upkeep
+|turn|16
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Tapu Koko|Wild Charge|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-damage|p2a: Tapu Koko|26/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|24/100|[silent]
+|upkeep
+|turn|17
+
+|
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|move|p2a: Tapu Koko|Wild Charge|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Tapu Koko|14/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Tapu Koko|0 fnt|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|faint|p2a: Tapu Koko
+|
+|upkeep
+
+|
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p2a: Ribombee|76/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Ribombee|atk|1
+|turn|18
+
+|
+|move|p2a: Ribombee|Moonblast|p1a: Gyarados
+|-damage|p1a: Gyarados|53/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Gyarados|Waterfall|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+
+|
+|switch|p2a: Muk|Muk-Alola, F|100/100
+|-damage|p2a: Muk|88/100|[from] Stealth Rock
+|turn|20
+
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, F
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p1a: Gyarados|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|win|tripfire

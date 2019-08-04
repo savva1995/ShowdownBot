@@ -1,0 +1,107 @@
+|init|battle
+|title|illama222 vs. zadocfish3
+|j|☆illama222
+|j|☆zadocfish3
+|player|p1|illama222|137|1163
+|player|p2|zadocfish3|10|1071
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Altaria, F|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Dragalge, M|item
+|poke|p2|Slaking, M|item
+|poke|p2|Bewear, M|item
+|poke|p2|Scolipede, F|item
+|teampreview|1
+|
+|start
+|switch|p1a: Altaria|Altaria, F|100/100
+|switch|p2a: Scolipede|Scolipede, F|100/100
+|-ability|p1a: Altaria|Cloud Nine
+|turn|1
+|
+|move|p2a: Scolipede|Toxic|p1a: Altaria
+|-status|p1a: Altaria|tox
+|move|p1a: Altaria|Fire Blast|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|15/100
+|
+|-heal|p2a: Scolipede|21/100|[from] item: Leftovers
+|-damage|p1a: Altaria|94/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|2
+|
+|move|p2a: Scolipede|Protect|p2a: Scolipede
+|-singleturn|p2a: Scolipede|Protect
+|move|p1a: Altaria|Draco Meteor|p2a: Scolipede
+|-activate|p2a: Scolipede|move: Protect
+|
+|-heal|p2a: Scolipede|28/100|[from] item: Leftovers
+|-damage|p1a: Altaria|82/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|3
+
+|
+|move|p2a: Scolipede|Substitute|p2a: Scolipede
+|-start|p2a: Scolipede|Substitute
+|-damage|p2a: Scolipede|3/100
+|move|p1a: Altaria|Draco Meteor|p2a: Scolipede
+|-end|p2a: Scolipede|Substitute
+|-unboost|p1a: Altaria|spa|2
+|
+|-heal|p2a: Scolipede|9/100|[from] item: Leftovers
+|-damage|p1a: Altaria|63/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|4
+
+|
+|move|p2a: Scolipede|Protect|p2a: Scolipede
+|-singleturn|p2a: Scolipede|Protect
+|move|p1a: Altaria|Ice Beam|p2a: Scolipede
+|-activate|p2a: Scolipede|move: Protect
+|
+|-heal|p2a: Scolipede|15/100|[from] item: Leftovers
+|-damage|p1a: Altaria|39/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|5
+
+|
+|move|p2a: Scolipede|Protect||[still]
+|-fail|p2a: Scolipede
+|move|p1a: Altaria|Fire Blast|p2a: Scolipede|[miss]
+|-miss|p1a: Altaria|p2a: Scolipede
+|
+|-heal|p2a: Scolipede|21/100|[from] item: Leftovers
+|-damage|p1a: Altaria|8/100 tox|[from] psn
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|6
+
+|c|☆zadocfish3|ouch
+
+|-message|illama222 forfeited.
+
+|
+|win|zadocfish3

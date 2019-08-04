@@ -1,0 +1,241 @@
+|init|battle
+|title|Fra078 vs. Cri02
+|j|☆Fra078
+|j|☆Cri02
+|player|p1|Fra078|101|
+|player|p2|Cri02|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Relicanth|Relicanth, L89, M|100/100
+|switch|p2a: Drifblim|Drifblim, L89, F|100/100
+|turn|1
+|
+|move|p2a: Drifblim|Destiny Bond|p2a: Drifblim
+|-singlemove|p2a: Drifblim|Destiny Bond
+|move|p1a: Relicanth|Head Smash|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|-activate|p2a: Drifblim|move: Destiny Bond
+|faint|p1a: Relicanth
+|
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, F|100/100
+|switch|p1a: Gliscor|Gliscor, L80, F|100/100
+|turn|2
+
+|
+|move|p2a: Darmanitan|Earthquake|p1a: Gliscor
+|-immune|p1a: Gliscor
+|move|p1a: Gliscor|Earthquake|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|15/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Gliscor
+|-damage|p1a: Gliscor|4/100 tox
+|-damage|p2a: Darmanitan|0 fnt|[from] Recoil
+|faint|p2a: Darmanitan
+|move|p1a: Gliscor|Earthquake|p2: Darmanitan|[notarget]
+|-fail|p1a: Gliscor
+|
+|-heal|p1a: Gliscor|16/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow, L87, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|4
+
+|
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L87, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Abomasnow|Giga Drain|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gliscor|10/100 tox|[from] Hail
+|-heal|p1a: Gliscor|23/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Ribombee|Ribombee, L85, F|100/100
+|move|p2a: Abomasnow|Giga Drain|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ribombee|68/100|[from] Hail
+|upkeep
+|turn|6
+
+|
+|move|p1a: Ribombee|Hidden Power|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|34/100
+|-damage|p1a: Ribombee|58/100|[from] item: Life Orb
+|move|p2a: Abomasnow|Hidden Power|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|turn|7
+
+|
+|move|p1a: Marshadow|Rock Tomb|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Marshadow|95/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Sylveon|Sylveon, L82, F|100/100
+|turn|8
+
+|
+|switch|p1a: Diancie|Diancie, L80|100/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|detailschange|p1a: Diancie|Diancie-Mega, L80
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Calm Mind|p1a: Diancie
+|-boost|p1a: Diancie|spa|1
+|-boost|p1a: Diancie|spd|1
+|move|p2a: Sylveon|Hyper Voice|p1a: Diancie
+|-damage|p1a: Diancie|66/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Diancie|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|44/100
+|move|p2a: Sylveon|Shadow Ball|p1a: Diancie
+|-damage|p1a: Diancie|49/100
+|-unboost|p1a: Diancie|spd|1
+|
+|-heal|p2a: Sylveon|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, F|100/100
+|move|p1a: Diancie|Moonblast|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|62/100
+|-unboost|p2a: Vileplume|spa|1
+|
+|-heal|p2a: Vileplume|68/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|
+|move|p1a: Diancie|Psyshock|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+
+|
+|switch|p2a: Barbaracle|Barbaracle, L84, M|100/100
+|turn|13
+
+|
+|move|p1a: Diancie|Moonblast|p2a: Barbaracle
+|-damage|p2a: Barbaracle|25/100
+|move|p2a: Barbaracle|Shell Smash|p2a: Barbaracle
+|-unboost|p2a: Barbaracle|def|1
+|-unboost|p2a: Barbaracle|spd|1
+|-boost|p2a: Barbaracle|atk|2
+|-boost|p2a: Barbaracle|spa|2
+|-boost|p2a: Barbaracle|spe|2
+|-enditem|p2a: Barbaracle|White Herb
+|-clearnegativeboost|p2a: Barbaracle|[silent]
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Barbaracle|Earthquake|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|95/100
+|turn|15
+
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|faint|p2a: Barbaracle
+|
+|upkeep
+
+|
+|switch|p2a: Sylveon|Sylveon, L82, F|50/100
+|turn|16
+
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Sylveon
+|-damage|p2a: Sylveon|5/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|-heal|p2a: Sylveon|11/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, F|23/100 tox
+|turn|17
+
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|17/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|35/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|win|Fra078

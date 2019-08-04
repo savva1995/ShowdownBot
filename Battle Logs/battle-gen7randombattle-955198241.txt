@@ -1,0 +1,277 @@
+|init|battle
+|title|funggg vs. N4nashz
+|j|☆funggg
+|j|☆N4nashz
+|player|p1|funggg|23|1024
+|player|p2|N4nashz|170|1016
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mawile|Mawile, L80, M|100/100
+|switch|p2a: Zapdos|Zapdos, L80|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|1
+|
+|move|p2a: Zapdos|U-turn|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|97/100
+|
+|switch|p2a: Nihilego|Nihilego, L82|100/100|[from]move: U-turn
+|-item|p2a: Nihilego|Air Balloon
+|move|p1a: Mawile|Substitute|p1a: Mawile
+|-start|p1a: Mawile|Substitute
+|-damage|p1a: Mawile|73/100
+|
+|upkeep
+|turn|2
+
+|
+|-singleturn|p1a: Mawile|move: Focus Punch
+|move|p2a: Nihilego|Toxic Spikes|p1a: Mawile
+|-sidestart|p1: funggg|move: Toxic Spikes
+|move|p1a: Mawile|Focus Punch|p2a: Nihilego
+|-damage|p2a: Nihilego|56/100
+|-enditem|p2a: Nihilego|Air Balloon
+|
+|upkeep
+|turn|3
+
+|
+|-singleturn|p1a: Mawile|move: Focus Punch
+|move|p2a: Nihilego|Thunderbolt|p1a: Mawile
+|-end|p1a: Mawile|Substitute
+|move|p1a: Mawile|Focus Punch|p2a: Nihilego
+|-damage|p2a: Nihilego|13/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Nihilego|Thunderbolt|p1a: Mawile
+|-damage|p1a: Mawile|17/100
+|move|p1a: Mawile|Play Rough|p2a: Nihilego
+|-resisted|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|faint|p2a: Nihilego
+|
+|upkeep
+
+|
+|switch|p2a: Raikou|Raikou, L84|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|5
+
+|
+|move|p2a: Raikou|Extrasensory|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|-damage|p2a: Raikou|91/100|[from] item: Life Orb
+|faint|p1a: Mawile
+|
+|upkeep
+
+|
+|switch|p1a: Heatran|Heatran, L80, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|6
+
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|56/100
+|-enditem|p1a: Heatran|Air Balloon
+|-damage|p2a: Raikou|81/100|[from] item: Life Orb
+|move|p1a: Heatran|Earth Power|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|32/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|10/100
+|-damage|p2a: Raikou|23/100|[from] item: Life Orb
+|move|p1a: Heatran|Earth Power|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos, L80|100/100
+|turn|8
+
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+
+|
+|switch|p1a: Incineroar|Incineroar, L86, M|100/100
+|-status|p1a: Incineroar|psn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|9
+
+|
+|move|p1a: Incineroar|Fake Out|p2a: Zapdos
+|-damage|p2a: Zapdos|87/100
+|cant|p2a: Zapdos|flinch
+|
+|-heal|p2a: Zapdos|93/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|88/100 psn|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Incineroar
+|-damage|p1a: Incineroar|67/100 psn
+|move|p1a: Incineroar|Darkest Lariat|p2a: Zapdos
+|-damage|p2a: Zapdos|49/100
+|
+|-heal|p2a: Zapdos|55/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|55/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Incineroar
+|-damage|p1a: Incineroar|33/100 psn
+|move|p1a: Incineroar|Darkest Lariat|p2a: Zapdos
+|-damage|p2a: Zapdos|12/100
+|
+|-heal|p2a: Zapdos|19/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|21/100 psn|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p2a: Zapdos|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|11/100 psn
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|100/100|[from]move: U-turn
+|move|p1a: Incineroar|Darkest Lariat|p2a: Meloetta
+|-supereffective|p2a: Meloetta
+|-damage|p2a: Meloetta|13/100
+|
+|-heal|p2a: Meloetta|19/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|0 fnt|[from] psn
+|faint|p1a: Incineroar
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Hoenn, L90, M|100/100
+|-status|p1a: Pikachu|psn
+|turn|13
+
+|
+|move|p1a: Pikachu|Volt Switch|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|faint|p2a: Meloetta
+
+|
+|switch|p1a: Deoxys|Deoxys, L78|100/100|[from]move: Volt Switch
+|-status|p1a: Deoxys|psn
+|-ability|p1a: Deoxys|Pressure
+|
+|-damage|p1a: Deoxys|88/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos, L80|19/100
+|turn|14
+
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: N4nashz|move: Stealth Rock
+|move|p2a: Zapdos|U-turn|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|18/100 psn
+
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L85, F|100/100|[from]move: U-turn
+|-damage|p2a: Vanilluxe|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Deoxys|13/100 psn|[from] Hail
+|-damage|p1a: Deoxys|0 fnt|[from] psn
+|faint|p1a: Deoxys
+|upkeep
+
+|
+|switch|p1a: Primarina|Primarina, L82, M|100/100
+|-status|p1a: Primarina|psn
+|turn|15
+
+|
+|move|p2a: Vanilluxe|Flash Cannon|p1a: Primarina
+|-damage|p1a: Primarina|81/100 psn
+|move|p1a: Primarina|Hidden Power|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|18/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Primarina|75/100 psn|[from] Hail
+|-damage|p1a: Primarina|63/100 psn|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Vanilluxe|Flash Cannon|p1a: Primarina
+|-crit|p1a: Primarina
+|-damage|p1a: Primarina|30/100 psn
+|move|p1a: Primarina|Hidden Power|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Primarina|24/100 psn|[from] Hail
+|-damage|p1a: Primarina|11/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos, L80|19/100
+|-damage|p2a: Zapdos|0 fnt|[from] Stealth Rock
+|faint|p2a: Zapdos
+
+|
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L78|100/100
+|-damage|p2a: Necrozma|88/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Primarina|Hidden Power|p2a: Necrozma
+|-damage|p2a: Necrozma|66/100
+|move|p2a: Necrozma|Power Gem|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Necrozma|60/100|[from] Hail
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Hoenn, L90, M|100/100 psn
+|turn|18
+
+|
+|move|p1a: Pikachu|Knock Off|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|win|funggg

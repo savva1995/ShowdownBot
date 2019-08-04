@@ -1,0 +1,327 @@
+|init|battle
+|title|Flapjacksonian3953 vs. GayAloe
+|j|☆Flapjacksonian3953
+|j|☆GayAloe
+|player|p1|Flapjacksonian3953|102|1439
+|player|p2|GayAloe|102|1392
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Liepard|Liepard, L88, F|100/100
+|switch|p2a: Hypno|Hypno, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Flapjacksonian3953)
+|
+|move|p1a: Liepard|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|move|p2a: Hypno|Thunder Wave|p1a: Liepard
+|-status|p1a: Liepard|par
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Liepard|Knock Off|p2a: Hypno
+|-supereffective|p2a: Hypno
+|-damage|p2a: Hypno|27/100 par
+|-enditem|p2a: Hypno|Focus Sash|[from] move: Knock Off|[of] p1a: Liepard
+|move|p2a: Hypno|Foul Play|p1a: Liepard
+|-resisted|p1a: Liepard
+|-damage|p1a: Liepard|82/100 par
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Liepard|U-turn|p2a: Hypno
+|-supereffective|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+
+|inactive|Flapjacksonian3953 has 120 seconds left.
+
+|
+|switch|p1a: Marowak|Marowak-Alola, L84, F|100/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p2a: Milotic|Milotic, L84, F|100/100
+|turn|4
+
+|
+|move|p2a: Milotic|Scald|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|17/100
+|move|p1a: Marowak|Shadow Bone|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|20/100
+|
+|-heal|p2a: Milotic|26/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Milotic|Scald|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|-heal|p2a: Milotic|32/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Dustox|Dustox, L89, F|100/100
+|turn|6
+
+|
+|move|p2a: Milotic|Rest|p2a: Milotic
+|-status|p2a: Milotic|slp|[from] move: Rest
+|-heal|p2a: Milotic|100/100 slp|[silent]
+|move|p1a: Dustox|Quiver Dance|p1a: Dustox
+|-boost|p1a: Dustox|spa|1
+|-boost|p1a: Dustox|spd|1
+|-boost|p1a: Dustox|spe|1
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Dustox|Quiver Dance|p1a: Dustox
+|-boost|p1a: Dustox|spa|1
+|-boost|p1a: Dustox|spd|1
+|-boost|p1a: Dustox|spe|1
+|cant|p2a: Milotic|slp
+|move|p2a: Milotic|Sleep Talk|p2a: Milotic
+|move|p2a: Milotic|Rest|p2a: Milotic|[from]Sleep Talk
+|-fail|p2a: Milotic
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Dustox|Quiver Dance|p1a: Dustox
+|-boost|p1a: Dustox|spa|1
+|-boost|p1a: Dustox|spd|1
+|-boost|p1a: Dustox|spe|1
+|cant|p2a: Milotic|slp
+|move|p2a: Milotic|Sleep Talk|p2a: Milotic
+|move|p2a: Milotic|Rest|p2a: Milotic|[from]Sleep Talk
+|-fail|p2a: Milotic
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Dustox|Quiver Dance|p1a: Dustox
+|-boost|p1a: Dustox|spa|1
+|-boost|p1a: Dustox|spd|1
+|-boost|p1a: Dustox|spe|1
+|-curestatus|p2a: Milotic|slp|[msg]
+|move|p2a: Milotic|Dragon Tail|p1a: Dustox
+|-damage|p1a: Dustox|88/100
+|drag|p1a: Liepard|Liepard, L88, F|82/100 par
+|
+|upkeep
+|turn|10
+
+|
+|cant|p1a: Liepard|par
+|move|p2a: Milotic|Scald|p1a: Liepard
+|-damage|p1a: Liepard|35/100 par
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Milotic|Scald|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|upkeep
+
+|
+|switch|p1a: Dustox|Dustox, L89, F|88/100
+|turn|12
+
+|
+|move|p2a: Milotic|Scald|p1a: Dustox
+|-damage|p1a: Dustox|57/100
+|move|p1a: Dustox|Sludge Bomb|p2a: Milotic
+|-damage|p2a: Milotic|81/100
+|
+|-heal|p2a: Milotic|87/100|[from] item: Leftovers
+|-heal|p1a: Dustox|63/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|
+|move|p2a: Milotic|Scald|p1a: Dustox
+|-damage|p1a: Dustox|31/100
+|move|p1a: Dustox|Quiver Dance|p1a: Dustox
+|-boost|p1a: Dustox|spa|1
+|-boost|p1a: Dustox|spd|1
+|-boost|p1a: Dustox|spe|1
+|
+|-heal|p1a: Dustox|37/100|[from] item: Black Sludge
+|-heal|p2a: Milotic|93/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Dustox|Sludge Bomb|p2a: Milotic
+|-damage|p2a: Milotic|69/100
+|move|p2a: Milotic|Dragon Tail|p1a: Dustox
+|-damage|p1a: Dustox|23/100
+|drag|p1a: Tyranitar|Tyranitar, L80, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|63/100|[from] Sandstorm
+|-heal|p2a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, L80, M
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Milotic|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|63/100|[from] Sandstorm
+|-heal|p2a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Tyranitar|Crunch|p2a: Milotic
+|-damage|p2a: Milotic|1/100
+|move|p2a: Milotic|Dragon Tail|p1a: Tyranitar
+|-damage|p1a: Tyranitar|59/100
+|drag|p1a: Salamence|Salamence, L81, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|95/100|[from] Sandstorm
+|-damage|p2a: Milotic|0 fnt|[from] Sandstorm
+|faint|p2a: Milotic
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, L82, M|100/100
+|turn|17
+
+|
+|switch|p1a: Dustox|Dustox, L89, F|23/100
+|move|p2a: Klefki|Thunder Wave|p1a: Dustox
+|-status|p1a: Dustox|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dustox|17/100 par|[from] Sandstorm
+|-heal|p1a: Dustox|23/100 par|[from] item: Black Sludge
+|upkeep
+|turn|18
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Dustox
+|-resisted|p1a: Dustox
+|-damage|p1a: Dustox|6/100 par
+|cant|p1a: Dustox|par
+|
+|-weather|none
+|-heal|p1a: Dustox|12/100 par|[from] item: Black Sludge
+|upkeep
+|turn|19
+
+|
+|move|p2a: Klefki|Play Rough|p1a: Dustox
+|-resisted|p1a: Dustox
+|-damage|p1a: Dustox|0 fnt
+|faint|p1a: Dustox
+|
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar-Mega, L80, M|59/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|20
+
+|
+|move|p2a: Klefki|Thunder Wave|p1a: Tyranitar
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Tyranitar
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini, L80|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|22
+
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|46/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Fini|40/100|[from] Sandstorm
+|-heal|p2a: Tapu Fini|46/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Spiritomb|Spiritomb, L88, M|100/100
+|-ability|p2a: Spiritomb|Pressure
+|turn|24
+
+|
+|move|p1a: Tyranitar|Crunch|p2a: Spiritomb
+|-damage|p2a: Spiritomb|40/100
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Misty Terrain
+|
+|-weather|none
+|-heal|p2a: Spiritomb|46/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|-message|GayAloe forfeited.
+
+|
+|win|Flapjacksonian3953

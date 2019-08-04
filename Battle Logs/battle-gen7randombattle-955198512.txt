@@ -1,0 +1,285 @@
+|init|battle
+|title|sumanth11 vs. Sniffypopo
+|j|☆sumanth11
+|j|☆Sniffypopo
+|player|p1|sumanth11|266|1189
+|player|p2|Sniffypopo|214|1155
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gourgeist|Gourgeist-Small, L89, F|100/100
+|switch|p2a: Silvally|Silvally-Ghost, L89|100/100
+|-item|p2a: Silvally|Ghost Memory|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sumanth11)
+|
+|switch|p1a: Steelix|Steelix, L82, M|100/100
+|move|p2a: Silvally|Multi-Attack|p1a: Steelix
+|-damage|p1a: Steelix|77/100
+|
+|upkeep
+|turn|2
+
+|
+|detailschange|p1a: Steelix|Steelix-Mega, L82, M
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p2a: Silvally|Ice Beam|p1a: Steelix
+|-damage|p1a: Steelix|49/100
+|move|p1a: Steelix|Toxic|p2a: Silvally
+|-status|p2a: Silvally|tox
+|
+|-damage|p2a: Silvally|94/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Silvally|Flamethrower|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|-damage|p2a: Silvally|82/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Articuno|Articuno, L88|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|4
+
+|
+|move|p2a: Silvally|Flamethrower|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|66/100
+|-status|p1a: Articuno|brn
+|move|p1a: Articuno|Freeze-Dry|p2a: Silvally
+|-damage|p2a: Silvally|60/100 tox
+|
+|-heal|p1a: Articuno|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Silvally|42/100 tox|[from] psn
+|-damage|p1a: Articuno|66/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Silvally|Flamethrower|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|29/100 brn
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|79/100 brn
+|-singleturn|p1a: Articuno|move: Roost
+|
+|-heal|p1a: Articuno|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Silvally|18/100 tox|[from] psn
+|-damage|p1a: Articuno|79/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Silvally|Flamethrower|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|47/100 brn
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|97/100 brn
+|-singleturn|p1a: Articuno|move: Roost
+|
+|-heal|p1a: Articuno|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Silvally|0 fnt|[from] psn
+|faint|p2a: Silvally
+|-damage|p1a: Articuno|95/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, L80, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|7
+
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Tyranitar
+|-damage|p2a: Tyranitar|88/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Gourgeist|Gourgeist-Small, L89, F|100/100
+|-item|p2a: Tyranitar|Assault Vest|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|8
+
+|
+|move|p1a: Gourgeist|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|move|p2a: Tyranitar|Crunch|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gourgeist|33/100|[from] Sandstorm
+|-heal|p1a: Gourgeist|39/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|75/100|[from] Leech Seed|[of] p1a: Gourgeist
+|-heal|p1a: Gourgeist|54/100|[silent]
+|upkeep
+|turn|9
+
+|inactive|sumanth11 has 120 seconds left.
+
+|
+|switch|p2a: Dhelmise|Dhelmise, L86|100/100
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gourgeist|73/100|[from] Sandstorm
+|-damage|p2a: Dhelmise|94/100|[from] Sandstorm
+|-heal|p1a: Gourgeist|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Gourgeist|Leech Seed|p2a: Dhelmise
+|-immune|p2a: Dhelmise
+|move|p2a: Dhelmise|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|21/100
+|-enditem|p1a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p2a: Dhelmise
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gourgeist|15/100|[from] Sandstorm
+|-damage|p2a: Dhelmise|88/100|[from] Sandstorm
+|upkeep
+|turn|11
+
+|
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|40/100
+|move|p2a: Dhelmise|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-crit|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Victini|Victini, L80|100/100
+|turn|12
+
+|
+|move|p1a: Victini|Blue Flare|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|28/100
+|move|p2a: Dhelmise|Knock Off|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|39/100
+|-enditem|p1a: Victini|Assault Vest|[from] move: Knock Off|[of] p2a: Dhelmise
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Victini|Zen Headbutt|p2a: Dhelmise
+|-damage|p2a: Dhelmise|1/100
+|move|p2a: Dhelmise|Knock Off|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+
+|inactive|sumanth11 has 120 seconds left.
+
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|100/100
+|turn|14
+
+|inactive|sumanth11 has 120 seconds left.
+
+|
+|move|p1a: Yanmega|Ancient Power|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|-damage|p1a: Yanmega|91/100|[from] item: Life Orb
+|faint|p2a: Dhelmise
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, L80, F|75/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|15
+
+|
+|move|p1a: Yanmega|Bug Buzz|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|-damage|p1a: Yanmega|81/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Stone Edge|p1a: Yanmega
+|-supereffective|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Tentacruel|Tentacruel, L82, F|100/100
+|turn|16
+
+|
+|move|p1a: Tentacruel|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|16/100
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|Stone Edge|p1a: Tentacruel
+|-damage|p1a: Tentacruel|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|62/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|9/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|2/100 brn
+|-enditem|p2a: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Tyranitar|Stone Edge|p1a: Tentacruel
+|-damage|p1a: Tentacruel|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|24/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|0 fnt|[from] brn
+|faint|p2a: Tyranitar
+|upkeep
+
+|
+|switch|p2a: Doublade|Doublade, L82, F|100/100
+|turn|18
+
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Tentacruel
+|-damage|p1a: Tentacruel|4/100
+|move|p1a: Tentacruel|Knock Off|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|79/100
+|-enditem|p2a: Doublade|Eviolite|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|0 fnt|[from] Sandstorm
+|faint|p1a: Tentacruel
+|
+|win|Sniffypopo
+|upkeep

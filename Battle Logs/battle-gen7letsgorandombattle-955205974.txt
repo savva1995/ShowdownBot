@@ -1,0 +1,234 @@
+|init|battle
+|title|mommyyouhear vs. FranceRPZ
+|j|☆mommyyouhear
+|j|☆FranceRPZ
+|player|p1|mommyyouhear|163|1000
+|player|p2|FranceRPZ|170|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7 Let's Go] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|turn|1
+|
+|switch|p1a: Raichu|Raichu, F|100/100
+|detailschange|p2a: Slowbro|Slowbro-Mega, M
+|-mega|p2a: Slowbro|Slowbro|Slowbronite
+|move|p2a: Slowbro|Toxic|p1a: Raichu
+|-status|p1a: Raichu|tox
+|
+|-damage|p1a: Raichu|94/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Onix|Onix, F|100/100
+|move|p1a: Raichu|Iron Tail|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|57/100
+|
+|-damage|p1a: Raichu|82/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|c|☆FranceRPZ|iron tail on slowbro ?
+
+|
+|move|p1a: Raichu|Iron Tail|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|18/100
+|move|p2a: Onix|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|3/100 tox
+|
+|-damage|p1a: Raichu|0 fnt|[from] psn
+|faint|p1a: Raichu
+|upkeep
+
+|
+|switch|p1a: Beedrill|Beedrill, M|100/100
+|turn|4
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|detailschange|p1a: Beedrill|Beedrill-Mega, M
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p1a: Beedrill|Brick Break|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|88/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Beedrill|X-Scissor|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|65/100
+|move|p2a: Zapdos|Drill Peck|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FranceRPZ)
+
+|
+|switch|p1a: Ditto|Ditto|100/100
+|turn|6
+
+|
+|switch|p2a: Onix|Onix, F|18/100
+|move|p1a: Ditto|Transform|p2a: Onix
+|-transform|p1a: Ditto|p2a: Onix
+|-endability|p1a: Ditto|No Ability|[from] move: Transform
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Onix|Stealth Rock|p1a: Ditto
+|-sidestart|p1: mommyyouhear|move: Stealth Rock
+|move|p1a: Ditto|Dragon Tail|p2a: Onix
+|-damage|p2a: Onix|10/100
+|drag|p2a: Slowbro|Slowbro-Mega, M|100/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Slowbro|Scald|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+
+|
+|switch|p1a: Golduck|Golduck, M|100/100
+|-damage|p1a: Golduck|88/100|[from] Stealth Rock
+|turn|9
+
+|c|☆FranceRPZ|you're genius
+
+|
+|move|p1a: Golduck|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|88/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Golduck|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|80/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Golduck|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|74/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Golduck|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|70/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Golduck|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|66/100
+|-status|p2a: Slowbro|frz
+|cant|p2a: Slowbro|frz
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Persian|Persian-Alola, M|100/100
+|-damage|p1a: Persian|88/100|[from] Stealth Rock
+|cant|p2a: Slowbro|frz
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Persian|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|53/100 frz
+|-curestatus|p2a: Slowbro|frz|[from] move: Scald
+|move|p2a: Slowbro|Scald|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|upkeep
+
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|16
+
+|c|☆FranceRPZ|the game
+
+|c|☆FranceRPZ|is
+
+|c|☆FranceRPZ|OVEEEEEER
+
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|37/100
+|move|p2a: Slowbro|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|upkeep
+
+|c|☆mommyyouhear|gg
+
+|
+|switch|p1a: Golduck|Golduck, M|88/100
+|-damage|p1a: Golduck|76/100|[from] Stealth Rock
+|turn|17
+
+|c|☆FranceRPZ|Thx
+
+|
+|move|p1a: Golduck|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|33/100
+|move|p2a: Slowbro|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|win|FranceRPZ

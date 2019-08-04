@@ -1,0 +1,253 @@
+|init|battle
+|title|MAHMUDUL vs. FreeLegendaire
+|j|☆MAHMUDUL
+|j|☆FreeLegendaire
+|player|p1|MAHMUDUL|169|1110
+|player|p2|FreeLegendaire|170|1095
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Carnivine|Carnivine, L89, M|100/100
+|switch|p2a: Tauros|Tauros, L87, M, shiny|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Carnivine|atk|1
+|turn|1
+|
+|move|p2a: Tauros|Double-Edge|p1a: Carnivine
+|-damage|p1a: Carnivine|13/100
+|-damage|p2a: Tauros|71/100|[from] Recoil
+|-zpower|p1a: Carnivine
+|move|p1a: Carnivine|Bloom Doom|p2a: Tauros|[zeffect]
+|-damage|p2a: Tauros|24/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Tauros|Double-Edge|p1a: Carnivine
+|-damage|p1a: Carnivine|0 fnt
+|-damage|p2a: Tauros|20/100|[from] Recoil
+|faint|p1a: Carnivine
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, L84, F|100/100
+|-item|p1a: Salazzle|Air Balloon
+|turn|3
+
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, F|100/100
+|turn|4
+
+|
+|switch|p1a: Pikachu|Pikachu-Partner, L90, M|100/100
+|move|p2a: Clawitzer|Water Pulse|p1a: Pikachu
+|-damage|p1a: Pikachu|27/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|100/100
+|move|p1a: Pikachu|Volt Tackle|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|64/100
+|-damage|p1a: Pikachu|11/100|[from] Recoil
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Gengar|Gengar, L78, M|100/100
+|move|p2a: Hydreigon|U-turn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|93/100
+
+|
+|switch|p2a: Scyther|Scyther, L88, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+
+|
+|detailschange|p1a: Gengar|Gengar-Mega, L78, M
+|-mega|p1a: Gengar|Gengar|Gengarite
+|move|p1a: Gengar|Shadow Ball|p2a: Scyther
+|-damage|p2a: Scyther|68/100
+|move|p2a: Scyther|Aerial Ace|p1a: Gengar
+|-damage|p1a: Gengar|29/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Scyther
+|-damage|p2a: Scyther|33/100
+|move|p2a: Scyther|Aerial Ace|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+
+|
+|switch|p1a: Salazzle|Salazzle, L84, F|100/100
+|-item|p1a: Salazzle|Air Balloon
+|turn|9
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, F|100/100
+|move|p1a: Salazzle|Fire Blast|p2a: Clawitzer
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|86/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Salazzle|Hidden Power|p2a: Clawitzer
+|-supereffective|p2a: Clawitzer
+|-damage|p2a: Clawitzer|62/100
+|move|p2a: Clawitzer|Water Pulse|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|-enditem|p1a: Salazzle|Air Balloon
+|faint|p1a: Salazzle
+|
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Partner, L90, M|11/100
+|turn|11
+
+|
+|switch|p2a: Beheeyem|Beheeyem, L89, M|100/100
+|move|p1a: Pikachu|Volt Tackle|p2a: Beheeyem
+|-damage|p2a: Beheeyem|23/100
+|-damage|p1a: Pikachu|0 fnt|[from] Recoil
+|faint|p1a: Pikachu
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|turn|12
+
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Beheeyem
+|-supereffective|p2a: Beheeyem
+|-damage|p2a: Beheeyem|0 fnt
+|-damage|p1a: Marshadow|91/100|[from] item: Life Orb
+|faint|p2a: Beheeyem
+|
+|upkeep
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|64/100
+|turn|13
+
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|49/100
+|-damage|p1a: Marshadow|81/100|[from] item: Life Orb
+|move|p2a: Hydreigon|Fire Blast|p1a: Marshadow|[miss]
+|-miss|p2a: Hydreigon|p1a: Marshadow
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Marshadow|[miss]
+|-miss|p2a: Hydreigon|p1a: Marshadow
+|move|p1a: Marshadow|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-damage|p1a: Marshadow|71/100|[from] item: Life Orb
+|faint|p2a: Hydreigon
+|
+|upkeep
+
+|
+|switch|p2a: Scyther|Scyther, L88, M|33/100
+|turn|15
+
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Scyther
+|-damage|p2a: Scyther|10/100
+|-damage|p1a: Marshadow|62/100|[from] item: Life Orb
+|move|p2a: Scyther|Bug Bite|p1a: Marshadow
+|-resisted|p1a: Marshadow
+|-damage|p1a: Marshadow|44/100
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, F|62/100
+|move|p1a: Marshadow|Spectral Thief|p2a: Clawitzer
+|-damage|p2a: Clawitzer|17/100
+|-damage|p1a: Marshadow|34/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FreeLegendaire)
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-damage|p1a: Marshadow|25/100|[from] item: Life Orb
+|faint|p2a: Clawitzer
+|
+|upkeep
+
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L85, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|18
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-damage|p1a: Marshadow|15/100|[from] item: Life Orb
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Marshadow|9/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Scyther|Scyther, L88, M|10/100
+|turn|19
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Scyther
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-damage|p1a: Marshadow|0 fnt|[from] item: Life Orb
+|faint|p2a: Scyther
+|faint|p1a: Marshadow
+|
+|win|MAHMUDUL

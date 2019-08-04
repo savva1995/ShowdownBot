@@ -1,0 +1,252 @@
+|init|battle
+|title|DarkAgentR vs. Zalzak
+|j|☆DarkAgentR
+|j|☆Zalzak
+|player|p1|DarkAgentR|1|
+|player|p2|Zalzak|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Articuno|Articuno, L88|100/100
+|switch|p2a: Muk|Muk, L89, F|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|1
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Muk
+|-damage|p2a: Muk|78/100
+|move|p2a: Muk|Fire Punch|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|67/100
+|-status|p1a: Articuno|psn|[from] ability: Poison Touch|[of] p2a: Muk
+|
+|-heal|p1a: Articuno|73/100 psn|[from] item: Leftovers
+|-heal|p2a: Muk|84/100|[from] item: Black Sludge
+|-damage|p1a: Articuno|60/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Muk
+|-damage|p2a: Muk|62/100
+|move|p2a: Muk|Fire Punch|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|26/100 psn
+|
+|-heal|p1a: Articuno|32/100 psn|[from] item: Leftovers
+|-heal|p2a: Muk|68/100|[from] item: Black Sludge
+|-damage|p1a: Articuno|19/100 psn|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Muk|Shadow Sneak|p1a: Articuno
+|-damage|p1a: Articuno|9/100 psn
+|move|p1a: Articuno|Freeze-Dry|p2a: Muk
+|-damage|p2a: Muk|47/100
+|
+|-heal|p1a: Articuno|15/100 psn|[from] item: Leftovers
+|-heal|p2a: Muk|53/100|[from] item: Black Sludge
+|-damage|p1a: Articuno|3/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Muk|Shadow Sneak|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|-heal|p2a: Muk|59/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L84, F|100/100
+|turn|5
+
+|
+|switch|p2a: Barbaracle|Barbaracle, L84, F|100/100
+|move|p1a: Nidoqueen|Toxic Spikes|p2a: Barbaracle
+|-sidestart|p2: Zalzak|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Nidoqueen|Earth Power|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|faint|p2a: Barbaracle
+|
+|upkeep
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, M|100/100
+|-status|p2a: Krookodile|psn
+|turn|7
+
+|
+|move|p2a: Krookodile|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|-damage|p2a: Krookodile|90/100 psn|[from] item: Life Orb
+|faint|p1a: Nidoqueen
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|-damage|p2a: Krookodile|78/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Ursaring|Ursaring, L89, F|100/100
+|turn|8
+
+|
+|move|p1a: Ursaring|Protect|p1a: Ursaring
+|-singleturn|p1a: Ursaring|Protect
+|move|p2a: Krookodile|Stealth Rock|p1a: Ursaring
+|-sidestart|p1: DarkAgentR|move: Stealth Rock
+|
+|-damage|p2a: Krookodile|66/100 psn|[from] psn
+|-status|p1a: Ursaring|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|-status|p2a: Sawk|psn
+|move|p1a: Ursaring|Crunch|p2a: Sawk
+|-resisted|p2a: Sawk
+|-damage|p2a: Sawk|76/100 psn
+|
+|-heal|p2a: Sawk|82/100 psn|[from] item: Leftovers
+|-damage|p2a: Sawk|70/100 psn|[from] psn
+|-damage|p1a: Ursaring|94/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Ursaring|Protect|p1a: Ursaring
+|-singleturn|p1a: Ursaring|Protect
+|move|p2a: Sawk|Close Combat|p1a: Ursaring
+|-activate|p1a: Ursaring|move: Protect
+|
+|-heal|p2a: Sawk|76/100 psn|[from] item: Leftovers
+|-damage|p2a: Sawk|64/100 psn|[from] psn
+|-damage|p1a: Ursaring|88/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Sawk|Close Combat|p1a: Ursaring
+|-supereffective|p1a: Ursaring
+|-damage|p1a: Ursaring|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Ursaring
+|
+|-heal|p2a: Sawk|70/100 psn|[from] item: Leftovers
+|-damage|p2a: Sawk|57/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Krookodile|Krookodile, L82, M|100/100
+|-damage|p1a: Krookodile|94/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Krookodile|Earthquake|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, M|66/100 psn
+|turn|13
+
+|
+|move|p1a: Krookodile|Earthquake|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Muk|Muk, L89, F|59/100
+|-sideend|p2: Zalzak|move: Toxic Spikes|[of] p2a: Muk
+|turn|14
+
+|
+|move|p1a: Krookodile|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, L80, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|turn|15
+
+|
+|move|p1a: Krookodile|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Superpower|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2a: Landorus|def|1
+|-damage|p2a: Landorus|91/100|[from] item: Life Orb
+|faint|p1a: Krookodile
+|
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Original, L90, M|100/100
+|-damage|p1a: Pikachu|88/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p1a: Pikachu|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Typhlosion|Typhlosion, L86, F|100/100
+|turn|17
+
+|
+|move|p2a: Typhlosion|Eruption|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-damage|p1a: Tapu Bulu|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|18
+
+|
+|move|p2a: Typhlosion|Eruption|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|
+|win|Zalzak

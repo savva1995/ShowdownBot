@@ -1,0 +1,222 @@
+|init|battle
+|title|ImRossk vs. Loomilaka
+|j|☆ImRossk
+|j|☆Loomilaka
+|player|p1|ImRossk|209|1735
+|player|p2|Loomilaka|1|1805
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Genesect|Genesect-Douse, L78|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|1
+|
+|switch|p1a: Doublade|Doublade, L82, F|100/100
+|switch|p2a: Simisear|Simisear, L89, F|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Lunatone|Lunatone, L89|100/100
+|move|p2a: Simisear|Fire Blast|p1a: Lunatone
+|-resisted|p1a: Lunatone
+|-damage|p1a: Lunatone|71/100
+|-damage|p2a: Simisear|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Kingdra|Kingdra, L85, M|100/100
+|move|p1a: Lunatone|Rock Polish|p1a: Lunatone
+|-boost|p1a: Lunatone|spe|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Lunatone|Psychic|p2a: Kingdra
+|-damage|p2a: Kingdra|52/100
+|-unboost|p2a: Kingdra|spd|1
+|-damage|p1a: Lunatone|61/100|[from] item: Life Orb
+|move|p2a: Kingdra|Waterfall|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|0 fnt
+|-damage|p2a: Kingdra|42/100|[from] item: Life Orb
+|faint|p1a: Lunatone
+|
+|upkeep
+|
+|switch|p1a: Tapu Lele|Tapu Lele, L80|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|5
+|
+|move|p1a: Tapu Lele|Moonblast|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|-damage|p1a: Tapu Lele|91/100|[from] item: Life Orb
+|faint|p2a: Kingdra
+|
+|upkeep
+|
+|switch|p2a: Simisear|Simisear, L89, F|91/100
+|turn|6
+|
+|move|p2a: Simisear|Fire Blast|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|36/100
+|-damage|p2a: Simisear|81/100|[from] item: Life Orb
+|move|p1a: Tapu Lele|Calm Mind|p1a: Tapu Lele
+|-boost|p1a: Tapu Lele|spa|1
+|-boost|p1a: Tapu Lele|spd|1
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Simisear|Fire Blast|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|-damage|p2a: Simisear|71/100|[from] item: Life Orb
+|faint|p1a: Tapu Lele
+|
+|upkeep
+|
+|switch|p1a: Venusaur|Venusaur, L81, F|100/100
+|turn|8
+|
+|switch|p2a: Naganadel|Naganadel, L78|100/100
+|detailschange|p1a: Venusaur|Venusaur-Mega, L81, F
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Venusaur|Earthquake|p2a: Naganadel
+|-supereffective|p2a: Naganadel
+|-damage|p2a: Naganadel|34/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Doublade|Doublade, L82, F|100/100
+|move|p2a: Naganadel|Draco Meteor|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|60/100
+|-unboost|p2a: Naganadel|spa|2
+|-damage|p2a: Naganadel|24/100|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|10
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|100/100
+|move|p1a: Doublade|Shadow Claw|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|86/100
+|
+|-heal|p2a: Mandibuzz|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|16/100
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|-heal|p2a: Mandibuzz|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|-heal|p2a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|c|☆ImRossk|Lol
+|
+|switch|p1a: Garbodor|Garbodor, L86, M|100/100
+|turn|13
+|
+|move|p2a: Mandibuzz|Brave Bird|p1a: Garbodor
+|-damage|p1a: Garbodor|65/100
+|-damage|p2a: Mandibuzz|90/100|[from] Recoil
+|move|p1a: Garbodor|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-heal|p2a: Mandibuzz|96/100 tox|[from] item: Leftovers
+|-heal|p1a: Garbodor|71/100|[from] item: Black Sludge
+|-damage|p2a: Mandibuzz|90/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|31/100
+|move|p1a: Garbodor|Toxic Spikes|p2a: Mandibuzz
+|-sidestart|p2: Loomilaka|move: Toxic Spikes
+|
+|-heal|p2a: Mandibuzz|96/100 tox|[from] item: Leftovers
+|-heal|p1a: Garbodor|37/100|[from] item: Black Sludge
+|-damage|p2a: Mandibuzz|84/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|2/100
+|move|p1a: Garbodor|Pain Split|p2a: Mandibuzz
+|-sethp|p2a: Mandibuzz|43/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: Garbodor|50/100|[from] move: Pain Split
+|
+|-heal|p2a: Mandibuzz|49/100 tox|[from] item: Leftovers
+|-heal|p1a: Garbodor|56/100|[from] item: Black Sludge
+|-damage|p2a: Mandibuzz|31/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Naganadel|Naganadel, L78|24/100
+|-sideend|p2: Loomilaka|move: Toxic Spikes|[of] p2a: Naganadel
+|move|p1a: Garbodor|Gunk Shot|p2a: Naganadel
+|-resisted|p2a: Naganadel
+|-damage|p2a: Naganadel|0 fnt
+|faint|p2a: Naganadel
+|
+|-heal|p1a: Garbodor|62/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Venomoth|Venomoth, L83, M|100/100
+|turn|17
+|
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|move|p1a: Garbodor|Toxic Spikes|p2a: Venomoth
+|-sidestart|p2: Loomilaka|move: Toxic Spikes
+|
+|-heal|p1a: Garbodor|68/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|move|p1a: Garbodor|Pain Split|p2a: Venomoth
+|-sethp|p2a: Venomoth|88/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Garbodor|79/100|[from] move: Pain Split
+|
+|-heal|p2a: Venomoth|94/100|[from] item: Black Sludge
+|-heal|p1a: Garbodor|85/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|-message|ImRossk forfeited.
+|
+|win|Loomilaka
+|l|☆ImRossk
+|raw|ImRossk's rating: 1736 &rarr; <strong>1720</strong><br />(-16 for losing)
+|raw|Loomilaka's rating: 1805 &rarr; <strong>1821</strong><br />(+16 for winning)
+|l|☆Loomilaka

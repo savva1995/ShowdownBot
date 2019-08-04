@@ -1,0 +1,41 @@
+|init|battle
+|title|Guest 1383368 vs. CHOCOGABRI
+|j|☆CHOCOGABRI
+|player|p1|Guest 1383368|1|1187
+|player|p2|CHOCOGABRI|99|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Marshadow|item
+|poke|p1|Mewtwo|item
+|poke|p1|Groudon|item
+|poke|p1|Scolipede, M|item
+|poke|p1|Necrozma-Dusk-Mane|item
+|poke|p1|Yveltal|item
+|poke|p2|Greninja, M|item
+|poke|p2|Chesnaught, M|item
+|poke|p2|Talonflame, F|item
+|poke|p2|Heliolisk, M|item
+|poke|p2|Aurorus, F|item
+|poke|p2|Noivern, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CHOCOGABRI)
+|inactive|CHOCOGABRI has 120 seconds left.
+|-message|CHOCOGABRI forfeited.
+|
+|win|Guest 1383368
+|l|☆CHOCOGABRI
+|raw|Guest 1383368's rating: 1187 &rarr; <strong>1208</strong><br />(+21 for winning)
+|raw|CHOCOGABRI's rating: 1136 &rarr; <strong>1114</strong><br />(-22 for losing)

@@ -1,0 +1,426 @@
+|init|battle
+|title|vergison vs. Nehuen1752Y
+|j|☆vergison
+|j|☆Nehuen1752Y
+|player|p1|vergison|102|1116
+|player|p2|Nehuen1752Y|260|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toucannon|Toucannon, L89, M|100/100
+|switch|p2a: Ludicolo|Ludicolo, L88, F|100/100
+|turn|1
+|
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|move|p1a: Toucannon|Swords Dance|p1a: Toucannon
+|-boost|p1a: Toucannon|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Ludicolo|Scald|p1a: Toucannon
+|-damage|p1a: Toucannon|31/100
+|-status|p1a: Toucannon|brn
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|move|p1a: Toucannon|Return|p2a: Ludicolo
+|-damage|p2a: Ludicolo|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toucannon|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Toucannon|31/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Ludicolo|Scald|p1a: Toucannon
+|-damage|p1a: Toucannon|0 fnt
+|-damage|p2a: Ludicolo|23/100|[from] item: Life Orb
+|faint|p1a: Toucannon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sawk|Sawk, L87, M|100/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|4
+
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Sawk
+|-damage|p1a: Sawk|60/100
+|-heal|p2a: Ludicolo|42/100|[from] drain|[of] p1a: Sawk
+|-damage|p2a: Ludicolo|32/100|[from] item: Life Orb
+|move|p1a: Sawk|Poison Jab|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|-damage|p1a: Sawk|50/100|[from] item: Life Orb
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Azelf|Azelf, L82|100/100
+|turn|5
+
+|
+|switch|p1a: Delphox|Delphox, L86, F|100/100
+|move|p2a: Azelf|Nasty Plot|p2a: Azelf
+|-boost|p2a: Azelf|spa|2
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p1a: Delphox|Shadow Ball|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|38/100
+|move|p2a: Azelf|Dazzling Gleam|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|73/100
+|-damage|p2a: Azelf|29/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Delphox|Shadow Ball|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|upkeep
+
+|
+|switch|p2a: Miltank|Miltank, L86, F|100/100
+|turn|8
+
+|
+|switch|p1a: Sawk|Sawk, L87, M|50/100
+|-ability|p1a: Sawk|Mold Breaker
+|move|p2a: Miltank|Earthquake|p1a: Sawk
+|-damage|p1a: Sawk|26/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Miltank|Body Slam|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|upkeep
+
+|
+|switch|p1a: Suicune|Suicune, L82|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|10
+
+|
+|move|p2a: Miltank|Body Slam|p1a: Suicune
+|-damage|p1a: Suicune|78/100
+|move|p1a: Suicune|Scald|p2a: Miltank
+|-damage|p2a: Miltank|69/100
+|
+|-heal|p2a: Miltank|75/100|[from] item: Leftovers
+|-heal|p1a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Miltank|Curse|p2a: Miltank
+|-unboost|p2a: Miltank|spe|1
+|-boost|p2a: Miltank|atk|1
+|-boost|p2a: Miltank|def|1
+|move|p1a: Suicune|Scald|p2a: Miltank
+|-damage|p2a: Miltank|45/100
+|
+|-heal|p1a: Suicune|90/100|[from] item: Leftovers
+|-heal|p2a: Miltank|51/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Suicune|Scald|p2a: Miltank
+|-damage|p2a: Miltank|20/100
+|move|p2a: Miltank|Body Slam|p1a: Suicune
+|-damage|p1a: Suicune|57/100
+|
+|-heal|p1a: Suicune|63/100|[from] item: Leftovers
+|-heal|p2a: Miltank|26/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|76/100
+|
+|-heal|p2a: Miltank|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Calm Mind|p1a: Suicune|[from]Sleep Talk
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Miltank|Curse|p2a: Miltank
+|-unboost|p2a: Miltank|spe|1
+|-boost|p2a: Miltank|atk|1
+|-boost|p2a: Miltank|def|1
+|
+|-heal|p2a: Miltank|89/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Scald|p2a: Miltank|[from]Sleep Talk
+|-damage|p2a: Miltank|49/100
+|move|p2a: Miltank|Body Slam|p1a: Suicune
+|-damage|p1a: Suicune|54/100 slp
+|
+|-heal|p1a: Suicune|60/100 slp|[from] item: Leftovers
+|-heal|p2a: Miltank|55/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Scald|p2a: Miltank
+|-damage|p2a: Miltank|13/100
+|-status|p2a: Miltank|brn
+|move|p2a: Miltank|Body Slam|p1a: Suicune
+|-damage|p1a: Suicune|36/100
+|
+|-heal|p1a: Suicune|42/100|[from] item: Leftovers
+|-heal|p2a: Miltank|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Miltank|13/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|move|p2a: Miltank|Body Slam|p1a: Suicune
+|-damage|p1a: Suicune|77/100 slp
+|
+|-heal|p1a: Suicune|83/100 slp|[from] item: Leftovers
+|-heal|p2a: Miltank|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Miltank|13/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Calm Mind|p1a: Suicune|[from]Sleep Talk
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Miltank|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|67/100 slp
+|
+|-heal|p1a: Suicune|73/100 slp|[from] item: Leftovers
+|-heal|p2a: Miltank|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Miltank|13/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest|p1a: Suicune|[from]Sleep Talk
+|-fail|p1a: Suicune
+|move|p2a: Miltank|Curse|p2a: Miltank
+|-unboost|p2a: Miltank|spe|1
+|-boost|p2a: Miltank|atk|1
+|-boost|p2a: Miltank|def|1
+|
+|-heal|p1a: Suicune|79/100 slp|[from] item: Leftovers
+|-heal|p2a: Miltank|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Miltank|13/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Scald|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|faint|p2a: Miltank
+|
+|-heal|p1a: Suicune|85/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100
+|turn|21
+
+|
+|switch|p1a: Delphox|Delphox, L86, F|73/100
+|move|p2a: Vileplume|Sleep Powder|p1a: Delphox
+|-status|p1a: Delphox|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|22
+
+|
+|cant|p1a: Delphox|slp
+|move|p2a: Vileplume|Sludge Bomb|p1a: Delphox
+|-damage|p1a: Delphox|35/100 slp
+|
+|upkeep
+|turn|23
+
+|
+|cant|p1a: Delphox|slp
+|move|p2a: Vileplume|Sludge Bomb|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|upkeep
+
+|
+|switch|p1a: Flygon|Flygon, L84, M|100/100
+|turn|24
+
+|
+|move|p1a: Flygon|Fire Punch|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|61/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|79/100
+|-status|p1a: Flygon|psn
+|-enditem|p1a: Flygon|Lum Berry|[eat]
+|-curestatus|p1a: Flygon|psn|[msg]
+|
+|-heal|p2a: Vileplume|67/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+
+|
+|move|p1a: Flygon|Fire Punch|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|29/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|58/100
+|
+|-heal|p2a: Vileplume|35/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+
+|
+|move|p1a: Flygon|Fire Punch|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+
+|
+|switch|p2a: Galvantula|Galvantula, L84, M|100/100
+|turn|27
+
+|
+|move|p2a: Galvantula|Hidden Power|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|-damage|p2a: Galvantula|91/100|[from] item: Life Orb
+|faint|p1a: Flygon
+|
+|upkeep
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, M|100/100
+|turn|28
+
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Reuniclus
+|-sidestart|p1: vergison|move: Sticky Web
+|move|p1a: Reuniclus|Shadow Ball|p2a: Galvantula
+|-damage|p2a: Galvantula|46/100
+|
+|upkeep
+|turn|29
+
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|22/100
+|-damage|p2a: Galvantula|36/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Shadow Ball|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+
+|
+|switch|p2a: Beautifly|Beautifly, L89, F|100/100
+|turn|30
+
+|
+|move|p2a: Beautifly|Quiver Dance|p2a: Beautifly
+|-boost|p2a: Beautifly|spa|1
+|-boost|p2a: Beautifly|spd|1
+|-boost|p2a: Beautifly|spe|1
+|move|p1a: Reuniclus|Shadow Ball|p2a: Beautifly
+|-damage|p2a: Beautifly|68/100
+|-unboost|p2a: Beautifly|spd|1
+|
+|upkeep
+|turn|31
+
+|
+|move|p2a: Beautifly|Bug Buzz|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-damage|p2a: Beautifly|58/100|[from] item: Life Orb
+|faint|p1a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p1a: Suicune|Suicune, L82|85/100
+|-activate|p1a: Suicune|move: Sticky Web
+|-unboost|p1a: Suicune|spe|1
+|-ability|p1a: Suicune|Pressure
+|turn|32
+
+|
+|move|p2a: Beautifly|Bug Buzz|p1a: Suicune
+|-damage|p1a: Suicune|25/100
+|-damage|p2a: Beautifly|48/100|[from] item: Life Orb
+|move|p1a: Suicune|Scald|p2a: Beautifly
+|-damage|p2a: Beautifly|7/100
+|-status|p2a: Beautifly|brn
+|
+|-heal|p1a: Suicune|31/100|[from] item: Leftovers
+|-damage|p2a: Beautifly|1/100 brn|[from] brn
+|upkeep
+|turn|33
+
+|
+|move|p2a: Beautifly|Bug Buzz|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|-damage|p2a: Beautifly|0 fnt|[from] item: Life Orb
+|faint|p1a: Suicune
+|faint|p2a: Beautifly
+|
+|win|Nehuen1752Y

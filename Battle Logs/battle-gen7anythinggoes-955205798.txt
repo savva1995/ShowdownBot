@@ -1,0 +1,169 @@
+|init|battle
+|title|Clem42 vs. leighton142823
+|j|☆Clem42
+|j|☆leighton142823
+|player|p1|Clem42|290|1195
+|player|p2|leighton142823|2|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Torterra, M|item
+|poke|p1|Roserade, F|item
+|poke|p1|Carnivine, F|item
+|poke|p1|Cherrim, F|item
+|poke|p1|Leafeon, M|item
+|poke|p1|Tangrowth, F|item
+|poke|p2|Kyogre|item
+|poke|p2|Groudon|item
+|poke|p2|Blissey, F|item
+|poke|p2|Smeargle, F|item
+|poke|p2|Salamence, F|item
+|poke|p2|Medicham, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Roserade|Roserade, F|100/100
+|switch|p2a: Medicham|Medicham, M, shiny|100/100
+|turn|1
+|
+|detailschange|p2a: Medicham|Medicham-Mega, M, shiny
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fire Punch|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-enditem|p1a: Roserade|Focus Sash
+|-damage|p1a: Roserade|1/100
+|-status|p1a: Roserade|brn
+|move|p1a: Roserade|Sleep Powder|p2a: Medicham
+|-status|p2a: Medicham|slp|[from] move: Sleep Powder
+|
+|-damage|p1a: Roserade|0 fnt|[from] brn
+|faint|p1a: Roserade
+|upkeep
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|turn|2
+|
+|cant|p2a: Medicham|slp
+|move|p1a: Torterra|Stealth Rock|p2a: Medicham
+|-sidestart|p2: leighton142823|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|cant|p2a: Medicham|slp
+|move|p1a: Torterra|Earthquake|p2a: Medicham
+|-damage|p2a: Medicham|23/100 slp
+|
+|upkeep
+|turn|4
+|
+|-curestatus|p2a: Medicham|slp|[msg]
+|move|p2a: Medicham|Fire Punch|p1a: Torterra
+|-supereffective|p1a: Torterra
+|-damage|p1a: Torterra|14/100
+|move|p1a: Torterra|Wood Hammer|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|-damage|p1a: Torterra|8/100|[from] Recoil
+|faint|p2a: Medicham
+|
+|upkeep
+
+|
+|switch|p2a: Salamence|Salamence, F, shiny|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|5
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Clem42)
+
+|
+|move|p2a: Salamence|Flamethrower|p1a: Torterra
+|-supereffective|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-heal|p2a: Salamence|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Cherrim|Cherrim, F|100/100
+|turn|6
+
+|
+|move|p1a: Cherrim|Sunny Day|p1a: Cherrim
+|-weather|SunnyDay
+|-formechange|p1a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|move|p2a: Salamence|Flamethrower|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salamence|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Cherrim|Dazzling Gleam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|37/100
+|move|p2a: Salamence|Flamethrower|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|0 fnt
+|faint|p1a: Cherrim
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salamence|43/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|turn|8
+
+|
+|move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|2
+|move|p2a: Salamence|Flamethrower|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salamence|49/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Carnivine|Carnivine, F|100/100
+|turn|9
+
+|inactive|leighton142823 has 120 seconds left.
+
+|l|☆leighton142823
+
+|inactive|leighton142823 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|leighton142823 has 30 seconds to reconnect!
+
+|inactive|leighton142823 has 20 seconds to reconnect!
+
+|inactive|leighton142823 has 15 seconds to reconnect!
+
+|inactive|leighton142823 has 10 seconds to reconnect!
+
+|inactive|leighton142823 has 5 seconds to reconnect!
+
+|-message|leighton142823 lost due to inactivity.
+|
+|win|Clem42

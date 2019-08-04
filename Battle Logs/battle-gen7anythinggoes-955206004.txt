@@ -1,0 +1,48 @@
+|init|battle
+|title|N4nashz vs. HardFlame
+|j|☆N4nashz
+|j|☆HardFlame
+|player|p1|N4nashz|170|1001
+|player|p2|HardFlame|266|1029
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Azumarill, M|item
+|poke|p1|Blaziken, F|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Magnezone|item
+|poke|p2|Aegislash, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Blastoise, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+
+|l|☆N4nashz
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HardFlame)
+
+|inactive|N4nashz has 30 seconds to reconnect!
+
+|inactive|N4nashz has 20 seconds to reconnect!
+
+|inactive|N4nashz has 15 seconds to reconnect!
+
+|inactive|N4nashz has 10 seconds to reconnect!
+
+|inactive|N4nashz has 5 seconds to reconnect!
+
+|-message|N4nashz lost due to inactivity.
+|
+|win|HardFlame

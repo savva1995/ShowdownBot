@@ -1,0 +1,90 @@
+|init|battle
+|title|Donut play me vs. Monkepo
+|j|☆Donut play me
+|j|☆Monkepo
+|player|p1|Donut play me|101|1434
+|player|p2|Monkepo|233|1533
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Medicham, F|item
+|poke|p1|Noivern, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Metagross|item
+|poke|p1|Aurorus, M|item
+|poke|p1|Umbreon, M|item
+|poke|p2|Porygon2|item
+|poke|p2|Beedrill, F|item
+|poke|p2|Landorus, M|item
+|poke|p2|Marshadow|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Deoxys-Defense|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Noivern|Noivern, F|100/100
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+
+|
+|move|p1a: Noivern|Boomburst|p2a: Deoxys
+|-damage|p2a: Deoxys|62/100
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: Monkepo|move: Light Screen
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Deoxys|Reflect|p2a: Deoxys
+|-sidestart|p2: Monkepo|Reflect
+|
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Donut play me)
+
+|
+|move|p2a: Deoxys|Taunt|p1a: Scizor
+|-start|p1a: Scizor|move: Taunt
+|move|p1a: Scizor|U-turn|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|19/100
+
+|
+|switch|p1a: Metagross|Metagross|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+
+|c|☆Monkepo|gtg sorry
+
+|c|☆Monkepo|gg
+
+|l|☆Monkepo
+
+|inactive|Monkepo disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Monkepo has 30 seconds to reconnect!
+
+|inactive|Monkepo has 20 seconds to reconnect!
+
+|inactive|Monkepo has 15 seconds to reconnect!
+
+|inactive|Monkepo has 10 seconds to reconnect!
+
+|inactive|Monkepo has 5 seconds to reconnect!
+
+|-message|Monkepo lost due to inactivity.
+|
+|win|Donut play me

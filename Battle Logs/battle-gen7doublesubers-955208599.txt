@@ -1,0 +1,329 @@
+|init|battle
+|title|KESHAVKIRUPA vs. Hanou143
+|j|☆KESHAVKIRUPA
+|j|☆Hanou143
+|player|p1|KESHAVKIRUPA|262|1451
+|player|p2|Hanou143|102|1310
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles Ubers
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Spinda, M|item
+|poke|p1|Rayquaza|item
+|poke|p1|Kyogre|item
+|poke|p1|Florges, F|item
+|poke|p1|Necrozma-Dusk-Mane|item
+|poke|p1|Arceus-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Magearna|item
+|poke|p2|Rayquaza|item
+|poke|p2|Groudon|item
+|poke|p2|Kyogre|item
+|poke|p2|Xerneas|item
+|teampreview
+
+|
+|start
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|switch|p1b: Spinda|Spinda, M, shiny|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|switch|p2b: Xerneas|Xerneas|100/100
+|-ability|p2b: Xerneas|Fairy Aura
+|-ability|p1a: Rayquaza|Air Lock
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hanou143)
+
+|j| Hexagene
+
+|
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Protect|p1a: Rayquaza
+|-singleturn|p1a: Rayquaza|Protect
+|move|p2b: Xerneas|Geomancy||[still]
+|-prepare|p2b: Xerneas|Geomancy|p2b: Xerneas
+|-enditem|p2b: Xerneas|Power Herb
+|-anim|p2b: Xerneas|Geomancy|p2b: Xerneas
+|-boost|p2b: Xerneas|spa|2
+|-boost|p2b: Xerneas|spd|2
+|-boost|p2b: Xerneas|spe|2
+|move|p2a: Magearna|Fleur Cannon|p1a: Rayquaza
+|-activate|p1a: Rayquaza|move: Protect
+|move|p1b: Spinda|Trick Room|p1b: Spinda
+|-fieldstart|move: Trick Room|[of] p1b: Spinda
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|2
+
+|inactive|KESHAVKIRUPA has 120 seconds left.
+
+|
+|-weather|none
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1b: Spinda|Encore|p2b: Xerneas
+|-start|p2b: Xerneas|Encore
+|move|p2a: Magearna|Ice Beam|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|87/100
+|move|p2b: Xerneas|Geomancy||[still]
+|-prepare|p2b: Xerneas|Geomancy|p2b: Xerneas
+|
+|upkeep
+|turn|3
+
+|inactive|KESHAVKIRUPA has 120 seconds left.
+
+|
+|move|p1b: Spinda|Encore|p2a: Magearna
+|-start|p2a: Magearna|Encore
+|move|p2a: Magearna|Ice Beam|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|65/100
+|move|p1a: Necrozma|Swords Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|2
+|move|p2b: Xerneas|Geomancy|p2b: Xerneas|[from]lockedmove
+|-boost|p2b: Xerneas|spa|2
+|-boost|p2b: Xerneas|spd|2
+|-boost|p2b: Xerneas|spe|2
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Rayquaza|Rayquaza-Mega|100/100
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1b: Spinda|Disable|p2a: Magearna
+|-start|p2a: Magearna|Disable|Ice Beam
+|cant|p2a: Magearna|Disable|Ice Beam
+|move|p2b: Xerneas|Geomancy||[still]
+|-prepare|p2b: Xerneas|Geomancy|p2b: Xerneas
+|
+|-weather|DeltaStream|[upkeep]
+|-end|p2b: Xerneas|Encore
+|upkeep
+|turn|5
+
+|
+|move|p1b: Spinda|Encore|p2b: Xerneas
+|-start|p2b: Xerneas|Encore
+|-activate|p2a: Magearna|move: Struggle
+|move|p2a: Magearna|Struggle|p1a: Rayquaza
+|-crit|p1a: Rayquaza
+|-damage|p1a: Rayquaza|89/100
+|-damage|p2a: Magearna|76/100|[from] recoil
+|move|p1a: Rayquaza|Swords Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|2
+|move|p2b: Xerneas|Geomancy|p2b: Xerneas|[from]lockedmove
+|-boost|p2b: Xerneas|spa|2
+|-boost|p2b: Xerneas|spd|2
+|-boost|p2b: Xerneas|spe|2
+|
+|-weather|DeltaStream|[upkeep]
+|-heal|p2a: Magearna|82/100|[from] item: Leftovers
+|-end|p2a: Magearna|Encore
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+
+|
+|move|p1a: Rayquaza|Protect|p1a: Rayquaza
+|-singleturn|p1a: Rayquaza|Protect
+|move|p2b: Xerneas|Geomancy||[still]
+|-prepare|p2b: Xerneas|Geomancy|p2b: Xerneas
+|move|p2a: Magearna|Dazzling Gleam|p1b: Spinda|[spread] p1b
+|-activate|p1a: Rayquaza|move: Protect
+|-damage|p1b: Spinda|49/100
+|move|p1b: Spinda|Trick Room|p1b: Spinda
+|-fieldstart|move: Trick Room|[of] p1b: Spinda
+|
+|-weather|DeltaStream|[upkeep]
+|-heal|p2a: Magearna|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|j| Vchj
+
+|inactive|Hanou143 has 120 seconds left.
+
+|j| FamLitLeo
+
+|
+|move|p1b: Spinda|Skill Swap|p1a: Rayquaza
+|-activate|p1b: Spinda|move: Skill Swap|||[of] p1a: Rayquaza
+|-weather|none
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1b: Spinda
+|move|p2a: Magearna|Dazzling Gleam|p1a: Rayquaza|[spread] p1a,p1b
+|-supereffective|p1a: Rayquaza
+|-damage|p1a: Rayquaza|26/100
+|-damage|p1b: Spinda|0 fnt
+|faint|p1b: Spinda
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-weather|none
+|move|p1a: Rayquaza|V-create|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-boost|p1a: Rayquaza|spe|1
+|-boost|p1a: Rayquaza|def|1
+|-boost|p1a: Rayquaza|spd|1
+|faint|p2a: Magearna
+|move|p2b: Xerneas|Geomancy|p2b: Xerneas|[from]lockedmove
+|-boost|p2b: Xerneas|spa|0
+|-boost|p2b: Xerneas|spd|0
+|-boost|p2b: Xerneas|spe|0
+|
+|-end|p2b: Xerneas|Encore
+|upkeep
+
+|l| Vchj
+
+|inactive|Hanou143 has 120 seconds left.
+
+|
+|switch|p1b: Necrozma|Necrozma-Dusk-Mane|65/100
+|switch|p2a: Arceus|Arceus|100/100
+|turn|8
+
+|
+|move|p1a: Rayquaza|Protect|p1a: Rayquaza
+|-singleturn|p1a: Rayquaza|Protect
+|-zpower|p1b: Necrozma
+|move|p1b: Necrozma|Searing Sunraze Smash|p2b: Xerneas|[zeffect]
+|-supereffective|p2b: Xerneas
+|-damage|p2b: Xerneas|0 fnt
+|faint|p2b: Xerneas
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|
+|upkeep
+
+|
+|switch|p2b: Groudon|Groudon|100/100
+|detailschange|p2b: Groudon|Groudon-Primal
+|-primal|p2b: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2b: Groudon
+|turn|9
+
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|move|p1b: Necrozma|Earthquake|p2b: Groudon|[spread] p2a,p2b
+|-supereffective|p2b: Groudon
+|-damage|p2a: Arceus|81/100
+|-damage|p2b: Groudon|56/100
+|move|p2b: Groudon|Eruption|p1b: Necrozma
+|-supereffective|p1b: Necrozma
+|-damage|p1b: Necrozma|0 fnt
+|faint|p1b: Necrozma
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1b: Florges|Florges, F|100/100
+|switch|p1a: Kyogre|Kyogre|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|10
+
+|inactive|Hanou143 has 120 seconds left.
+
+|
+|switch|p2b: Rayquaza|Rayquaza|100/100
+|-ability|p2b: Rayquaza|Air Lock
+|move|p1b: Florges|Ally Switch|p1b: Florges
+|swap|p1b: Florges|0|[from] move: Ally Switch
+|move|p2a: Arceus|Extreme Speed|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|move|p1b: Kyogre|Origin Pulse|p2b: Rayquaza|[spread] p2a,p2b
+|-resisted|p2b: Rayquaza
+|-crit|p2b: Rayquaza
+|-damage|p2a: Arceus|46/100
+|-damage|p2b: Rayquaza|59/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p1a: Arceus|Arceus|100/100
+|turn|11
+
+|
+|detailschange|p2b: Rayquaza|Rayquaza-Mega
+|-mega|p2b: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2b: Rayquaza
+|move|p2b: Rayquaza|Extreme Speed|p1b: Kyogre
+|-damage|p1b: Kyogre|73/100
+|move|p2a: Arceus|Extreme Speed|p1b: Kyogre
+|-damage|p1b: Kyogre|3/100
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p1b: Kyogre|Ice Beam|p2b: Rayquaza
+|-activate||deltastream
+|-supereffective|p2b: Rayquaza
+|-enditem|p2b: Rayquaza|Yache Berry|[eat]
+|-enditem|p2b: Rayquaza|Yache Berry|[weaken]
+|-damage|p2b: Rayquaza|18/100
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|12
+
+|inactive|KESHAVKIRUPA has 120 seconds left.
+
+|
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Rayquaza|Extreme Speed|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p1a: Arceus|Extreme Speed|p2b: Rayquaza
+|-damage|p2b: Rayquaza|0 fnt
+|faint|p2b: Rayquaza
+|-weather|none
+|move|p2a: Arceus|Extreme Speed|p1a: Arceus
+|-damage|p1a: Arceus|42/100
+|
+|upkeep
+
+|
+|switch|p2b: Groudon|Groudon-Primal|56/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2b: Groudon
+|turn|13
+
+|
+|move|p1a: Arceus|Protect|p1a: Arceus
+|-singleturn|p1a: Arceus|Protect
+|move|p2a: Arceus|Extreme Speed|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|move|p2b: Groudon|Precipice Blades|p1a: Arceus
+|-activate|p1a: Arceus|move: Protect
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|win|Hanou143

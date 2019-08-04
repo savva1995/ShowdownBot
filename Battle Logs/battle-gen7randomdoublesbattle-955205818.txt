@@ -1,0 +1,317 @@
+|init|battle
+|title|LimbicLogic vs. xfbjjbhgg
+|j|☆LimbicLogic
+|j|☆xfbjjbhgg
+|player|p1|LimbicLogic|222|1101
+|player|p2|xfbjjbhgg|3|1050
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Malamar|Malamar, L81, M|100/100
+|switch|p1b: Manectric|Manectric, L72, F|100/100
+|switch|p2a: Bewear|Bewear, L79, M|100/100
+|switch|p2b: Seviper|Seviper, L83, M|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xfbjjbhgg)
+
+|
+|detailschange|p1b: Manectric|Manectric-Mega, L72, F
+|-mega|p1b: Manectric|Manectric|Manectite
+|-ability|p1b: Manectric|Intimidate|boost
+|-unboost|p2a: Bewear|atk|1
+|-unboost|p2b: Seviper|atk|1
+|move|p1b: Manectric|Thunderbolt|p2b: Seviper
+|-damage|p2b: Seviper|51/100
+|move|p1a: Malamar|Superpower|p2a: Bewear
+|-supereffective|p2a: Bewear
+|-damage|p2a: Bewear|74/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2b: Seviper|Sludge Bomb|p1a: Malamar
+|-damage|p1a: Malamar|56/100
+|move|p2a: Bewear|Double-Edge|p1a: Malamar
+|-damage|p1a: Malamar|24/100
+|-damage|p2a: Bewear|65/100|[from] Recoil
+|-damage|p2a: Bewear|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|
+|switch|p2a: Lunala|Lunala, L70|100/100
+|move|p1b: Manectric|Snarl|p2b: Seviper|[spread] p2a,p2b
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|83/100
+|-damage|p2b: Seviper|37/100
+|-unboost|p2a: Lunala|spa|1
+|-unboost|p2b: Seviper|spa|1
+|-enditem|p2b: Seviper|Sitrus Berry|[eat]
+|-heal|p2b: Seviper|62/100|[from] item: Sitrus Berry
+|move|p1a: Malamar|Superpower|p2a: Lunala
+|-immune|p2a: Lunala
+|move|p2b: Seviper|Sludge Bomb|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|-heal|p2a: Lunala|89/100|[from] item: Leftovers
+|upkeep
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|
+|switch|p1a: Arceus|Arceus, L70|100/100
+|turn|3
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1b: Manectric|Snarl|p2a: Lunala|[spread] 
+|-activate|p2a: Lunala|move: Wide Guard
+|-activate|p2b: Seviper|move: Wide Guard
+|move|p1a: Arceus|Shadow Claw|p2b: Seviper
+|-damage|p2b: Seviper|39/100
+|move|p2b: Seviper|Glare|p1a: Arceus
+|-status|p1a: Arceus|par
+|
+|-heal|p2a: Lunala|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|inactive|xfbjjbhgg has 120 seconds left.
+
+|
+|switch|p2a: Celebi|Celebi, L70|100/100
+|switch|p2b: Bewear|Bewear, L79, M|56/100
+|move|p1b: Manectric|Snarl|p2b: Bewear|[spread] p2a,p2b
+|-supereffective|p2a: Celebi
+|-resisted|p2b: Bewear
+|-damage|p2a: Celebi|78/100
+|-damage|p2b: Bewear|49/100
+|-unboost|p2a: Celebi|spa|1
+|-unboost|p2b: Bewear|spa|1
+|move|p1a: Arceus|Shadow Claw|p2b: Bewear
+|-immune|p2b: Bewear
+|
+|upkeep
+|turn|5
+
+|inactive|xfbjjbhgg has 120 seconds left.
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|
+|switch|p1b: Dragonite|Dragonite, L70, F|100/100
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|move|p2b: Bewear|Hammer Arm|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|-unboost|p2b: Bewear|spe|1
+|-damage|p2b: Bewear|40/100|[from] item: Life Orb
+|faint|p1a: Arceus
+|
+|upkeep
+
+|
+|switch|p1a: Manectric|Manectric-Mega, L72, F|100/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|-unboost|p2b: Bewear|atk|1
+|turn|6
+
+|
+|move|p1a: Manectric|Snarl|p2a: Celebi|[spread] p2a,p2b
+|-supereffective|p2a: Celebi
+|-resisted|p2b: Bewear
+|-damage|p2a: Celebi|54/100
+|-damage|p2b: Bewear|33/100
+|-unboost|p2a: Celebi|spa|1
+|-unboost|p2b: Bewear|spa|1
+|move|p2a: Celebi|Psychic|p1b: Dragonite
+|-damage|p1b: Dragonite|85/100
+|move|p1b: Dragonite|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|11/100
+|-enditem|p2a: Celebi|Sitrus Berry|[eat]
+|-heal|p2a: Celebi|36/100|[from] item: Sitrus Berry
+|move|p2b: Bewear|Ice Punch|p1b: Dragonite
+|-supereffective|p1b: Dragonite
+|-enditem|p1b: Dragonite|Yache Berry|[eat]
+|-enditem|p1b: Dragonite|Yache Berry|[weaken]
+|-damage|p1b: Dragonite|39/100
+|-damage|p2b: Bewear|24/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|inactive|xfbjjbhgg has 120 seconds left.
+
+|inactive|LimbicLogic has 90 seconds left.
+
+|
+|move|p1a: Manectric|Volt Switch|p2b: Bewear
+|-damage|p2b: Bewear|0 fnt
+|faint|p2b: Bewear
+
+|inactive|LimbicLogic has 90 seconds left.
+
+|
+|switch|p1a: Excadrill|Excadrill, L78, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|86/100
+|move|p1b: Dragonite|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|48/100
+|
+|upkeep
+
+|
+|switch|p2b: Seviper|Seviper, L83, M|39/100
+|turn|8
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|
+|move|p1a: Excadrill|Iron Head|p2a: Celebi
+|-damage|p2a: Celebi|7/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|57/100
+|move|p2b: Seviper|Glare|p1a: Excadrill
+|-status|p1a: Excadrill|par
+|move|p1b: Dragonite|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|17/100
+|
+|upkeep
+|turn|9
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|67/100
+|move|p2b: Seviper|Glare|p1b: Dragonite
+|-status|p1b: Dragonite|par
+|move|p1b: Dragonite|Roost|p1b: Dragonite
+|-heal|p1b: Dragonite|89/100 par
+|-singleturn|p1b: Dragonite|move: Roost
+|cant|p1a: Excadrill|par
+|
+|upkeep
+|turn|10
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|
+|move|p1b: Dragonite|Extreme Speed|p2b: Seviper
+|-damage|p2b: Seviper|13/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|move|p2b: Seviper|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|39/100 par
+|move|p1a: Excadrill|Drill Run|p2b: Seviper
+|-supereffective|p2b: Seviper
+|-damage|p2b: Seviper|0 fnt
+|faint|p2b: Seviper
+|
+|-heal|p1a: Excadrill|45/100 par|[from] item: Leftovers
+|upkeep
+
+|inactive|xfbjjbhgg has 120 seconds left.
+
+|
+|switch|p2b: Dragonite|Dragonite, L70, F|100/100
+|turn|11
+
+|inactive|LimbicLogic has 120 seconds left.
+
+|
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|move|p2b: Dragonite|Superpower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2b: Dragonite|atk|1
+|-unboost|p2b: Dragonite|def|1
+|faint|p1a: Excadrill
+|move|p1b: Dragonite|Dragon Claw|p2b: Dragonite
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|42/100
+|
+|upkeep
+
+|
+|switch|p1a: Manectric|Manectric-Mega, L72, F|100/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|-unboost|p2b: Dragonite|atk|1
+|turn|12
+
+|
+|move|p1a: Manectric|Thunderbolt|p2b: Dragonite
+|-damage|p2b: Dragonite|1/100
+|move|p2a: Celebi|Psychic|p1a: Manectric
+|-damage|p1a: Manectric|20/100
+|move|p2b: Dragonite|Dragon Claw|p1b: Dragonite
+|-supereffective|p1b: Dragonite
+|-damage|p1b: Dragonite|49/100 par
+|cant|p1b: Dragonite|par
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Manectric|Snarl|p2b: Dragonite|[spread] p2b
+|-miss|p1a: Manectric|p2a: Celebi
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|move|p2a: Celebi|Psychic|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|move|p1b: Dragonite|Roost|p1b: Dragonite
+|-heal|p1b: Dragonite|99/100 par
+|-singleturn|p1b: Dragonite|move: Roost
+|
+|upkeep
+
+|
+|switch|p1a: Chesnaught|Chesnaught, L76, M|100/100
+|switch|p2b: Lunala|Lunala, L70|95/100
+|turn|14
+
+|
+|move|p2a: Celebi|Psychic|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|move|p2b: Lunala|Psychic|p1b: Dragonite
+|-crit|p1b: Dragonite
+|-damage|p1b: Dragonite|40/100 par
+|move|p1b: Dragonite|Dragon Claw|p2a: Celebi
+|-damage|p2a: Celebi|68/100
+|
+|-heal|p2b: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|-message|LimbicLogic forfeited.
+
+|
+|win|xfbjjbhgg

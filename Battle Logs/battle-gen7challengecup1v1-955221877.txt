@@ -1,0 +1,102 @@
+|init|battle
+|title|POKEnotPRO vs. eaubot
+|j|☆POKEnotPRO
+|j|☆eaubot
+|player|p1|POKEnotPRO|169|1073
+|player|p2|eaubot|115|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Challenge Cup 1v1
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Golduck, L74, F|item
+|poke|p1|Gastly, L88, M|item
+|poke|p1|Solrock, L76|item
+|poke|p1|Cutiefly, L88, F|item
+|poke|p1|Dewgong, L75, F|item
+|poke|p1|Munchlax, L81, F|item
+|poke|p2|Wartortle, L80, M|item
+|poke|p2|Tauros, L74, M|item
+|poke|p2|Meowth, L89, M|item
+|poke|p2|Gastly, L88, F|item
+|poke|p2|Shiinotic, L80, M|item
+|poke|p2|Dwebble, L86, M|item
+|teampreview|1
+|c|☆eaubot|gl hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eaubot)
+|inactive|POKEnotPRO has 120 seconds left.
+|
+|start
+|switch|p1a: Solrock|Solrock, L76|100/100
+|switch|p2a: Meowth|Meowth, L89, M|100/100
+|-ability|p2a: Meowth|Unnerve|p1: POKEnotPRO
+|turn|1
+|
+|move|p2a: Meowth|Shadow Ball|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|64/100
+|move|p1a: Solrock|Toxic|p2a: Meowth
+|-status|p2a: Meowth|tox
+|
+|-damage|p2a: Meowth|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Meowth|Shadow Ball|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|28/100
+|move|p1a: Solrock|Rest|p1a: Solrock
+|-status|p1a: Solrock|slp|[from] move: Rest
+|-heal|p1a: Solrock|100/100 slp|[silent]
+|
+|-damage|p2a: Meowth|83/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Meowth|Shadow Ball|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|69/100 slp
+|cant|p1a: Solrock|slp
+|
+|-damage|p2a: Meowth|65/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Meowth|Shadow Ball|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|36/100 slp
+|cant|p1a: Solrock|slp
+|
+|-damage|p2a: Meowth|41/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Meowth|Shadow Ball|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|4/100 slp
+|-curestatus|p1a: Solrock|slp|[msg]
+|move|p1a: Solrock|Rest|p1a: Solrock
+|-status|p1a: Solrock|slp|[from] move: Rest
+|-heal|p1a: Solrock|100/100 slp|[silent]
+|
+|-damage|p2a: Meowth|12/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Meowth|Shadow Ball|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|69/100 slp
+|cant|p1a: Solrock|slp
+|
+|-damage|p2a: Meowth|0 fnt|[from] psn
+|faint|p2a: Meowth
+|
+|win|POKEnotPRO
+|upkeep

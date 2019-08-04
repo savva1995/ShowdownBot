@@ -1,0 +1,372 @@
+|init|battle
+|title|bjfuytfuyg vs. HeroLopez
+|j|☆bjfuytfuyg
+|j|☆HeroLopez
+|player|p1|bjfuytfuyg|1|1000
+|player|p2|HeroLopez|101|1013
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Malamar, F|item
+|poke|p1|Ditto|item
+|poke|p1|Gastrodon, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Salamence, F|item
+|poke|p1|Metagross|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Clefable, M|item
+|teampreview
+|
+|start
+|switch|p1a: Salamence|Salamence, F, shiny|100/100
+|switch|p1b: Cloyster|Cloyster, M, shiny|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|switch|p2b: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-fail|p2a: Gliscor|unboost|Attack|[from] ability: Hyper Cutter|[of] p2a: Gliscor
+|-unboost|p2b: Landorus|atk|1
+|-ability|p2b: Landorus|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|-unboost|p1b: Cloyster|atk|1
+|-enditem|p1b: Cloyster|White Herb
+|-clearnegativeboost|p1b: Cloyster|[silent]
+|turn|1
+
+|
+|move|p1a: Salamence|Crunch|p2b: Landorus
+|-damage|p2b: Landorus|85/100
+|move|p2a: Gliscor|Tailwind|p2a: Gliscor
+|-sidestart|p2: HeroLopez|move: Tailwind
+|move|p2b: Landorus|Stealth Rock|p1a: Salamence
+|-sidestart|p1: bjfuytfuyg|move: Stealth Rock
+|move|p1b: Cloyster|Toxic Spikes|p2b: Landorus
+|-sidestart|p2: HeroLopez|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Gliscor|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|move|p2b: Landorus|Swords Dance|p2b: Landorus
+|-boost|p2b: Landorus|atk|2
+|move|p1a: Salamence|Crunch|p2b: Landorus
+|-damage|p2b: Landorus|71/100
+|-unboost|p2b: Landorus|def|1
+|move|p1b: Cloyster|Toxic Spikes|p2b: Landorus
+|-sidestart|p2: HeroLopez|move: Toxic Spikes
+|
+|-damage|p1a: Salamence|94/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-status|p2a: Tapu Fini|tox
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2b: Landorus|[from] ability: Imposter
+|-ability|p1a: Ditto|Intimidate|boost
+|-unboost|p2a: Tapu Fini|atk|1
+|-unboost|p2b: Landorus|atk|1
+|move|p2b: Landorus|Rock Slide|p1b: Cloyster|[spread] p1a
+|-miss|p2b: Landorus|p1b: Cloyster
+|-damage|p1a: Ditto|58/100
+|move|p1b: Cloyster|Shell Smash|p1b: Cloyster
+|-unboost|p1b: Cloyster|def|1
+|-unboost|p1b: Cloyster|spd|1
+|-boost|p1b: Cloyster|atk|2
+|-boost|p1b: Cloyster|spa|2
+|-boost|p1b: Cloyster|spe|2
+|
+|-heal|p1a: Ditto|64/100|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|94/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|-zpower|p2b: Landorus
+|move|p2b: Landorus|Continental Crush|p1b: Cloyster|[zeffect]
+|-supereffective|p1b: Cloyster
+|-damage|p1b: Cloyster|0 fnt
+|faint|p1b: Cloyster
+|move|p2a: Tapu Fini|Defog|p1a: Ditto
+|-unboost|p1a: Ditto|evasion|1
+|-sideend|p1: bjfuytfuyg|Stealth Rock|[from] move: Defog|[of] p2a: Tapu Fini
+|-sideend|p2: HeroLopez|Toxic Spikes|[from] move: Defog|[of] p2a: Tapu Fini
+|move|p1a: Ditto|Stealth Rock|p2a: Tapu Fini
+|-sidestart|p2: HeroLopez|move: Stealth Rock
+|
+|-heal|p1a: Ditto|70/100|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|82/100 tox|[from] psn
+|-sideend|p2: HeroLopez|move: Tailwind
+|upkeep
+
+|
+|switch|p1b: Salamence|Salamence, F, shiny|94/100 tox
+|-ability|p1b: Salamence|Intimidate|boost
+|-unboost|p2a: Tapu Fini|atk|1
+|-unboost|p2b: Landorus|atk|1
+|turn|5
+
+|
+|switch|p1b: Gastrodon|Gastrodon, M, shiny|100/100
+|move|p2b: Landorus|Rock Slide|p1b: Gastrodon|[spread] p1a,p1b
+|-resisted|p1b: Gastrodon
+|-damage|p1a: Ditto|50/100
+|-damage|p1b: Gastrodon|95/100
+|move|p1a: Ditto|Rock Slide|p2b: Landorus|[spread] p2a,p2b
+|-damage|p2a: Tapu Fini|65/100 tox
+|-damage|p2b: Landorus|38/100
+|move|p2a: Tapu Fini|Light Screen|p2a: Tapu Fini
+|-sidestart|p2: HeroLopez|move: Light Screen
+|
+|-heal|p1a: Ditto|56/100|[from] item: Leftovers
+|-heal|p1b: Gastrodon|100/100|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|47/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p1a: Ditto|U-turn|p2b: Landorus
+|-resisted|p2b: Landorus
+|-damage|p2b: Landorus|19/100
+
+|
+|switch|p1a: Salamence|Salamence, F, shiny|94/100 tox|[from]move: U-turn
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tapu Fini|atk|1
+|-unboost|p2b: Landorus|atk|1
+|move|p2b: Landorus|Stealth Rock|p1a: Salamence
+|-sidestart|p1: bjfuytfuyg|move: Stealth Rock
+|move|p2a: Tapu Fini|Nature's Madness|p1b: Gastrodon|[miss]
+|-miss|p2a: Tapu Fini|p1b: Gastrodon
+|move|p1b: Gastrodon|Scald|p2b: Landorus
+|-supereffective|p2b: Landorus
+|-crit|p2b: Landorus
+|-damage|p2b: Landorus|0 fnt
+|faint|p2b: Landorus
+|
+|-heal|p1a: Salamence|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|94/100 tox|[from] psn
+|-damage|p2a: Tapu Fini|23/100 tox|[from] psn
+|upkeep
+|-enditem|p2a: Tapu Fini|Wiki Berry|[eat]
+|-heal|p2a: Tapu Fini|73/100 tox|[from] item: Wiki Berry
+
+|
+|switch|p2b: Clefable|Clefable, M|100/100
+|-damage|p2b: Clefable|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p1a: Ditto|Ditto, shiny|56/100
+|-damage|p1a: Ditto|44/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2b: Clefable|[from] ability: Imposter
+|move|p2a: Tapu Fini|Nature's Madness|p1a: Ditto
+|-damage|p1a: Ditto|22/100
+|move|p2b: Clefable|Wish|p2b: Clefable
+|move|p1b: Gastrodon|Scald|p2b: Clefable
+|-damage|p2b: Clefable|72/100
+|
+|-heal|p1a: Ditto|28/100|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|42/100 tox|[from] psn
+|-fieldend|Misty Terrain
+|upkeep
+|turn|8
+
+|
+|move|p2a: Tapu Fini|Scald|p1b: Gastrodon
+|-activate|p1b: Gastrodon|ability: Storm Drain
+|-ability|p1b: Gastrodon|Storm Drain|boost
+|-boost|p1b: Gastrodon|spa|1
+|move|p2b: Clefable|Substitute|p2b: Clefable
+|-start|p2b: Clefable|Substitute
+|-damage|p2b: Clefable|47/100
+|move|p1a: Ditto|Wish|p1a: Ditto
+|move|p1b: Gastrodon|Scald|p2b: Clefable
+|-end|p2b: Clefable|Substitute
+|
+|-heal|p2b: Clefable|97/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Ditto|34/100|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|5/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Tapu Fini|Nature's Madness|p1a: Ditto
+|-damage|p1a: Ditto|17/100
+|move|p1a: Ditto|Substitute|p1a: Ditto
+|-fail|p1a: Ditto|move: Substitute|[weak]
+|move|p2b: Clefable|Ice Beam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|move|p1b: Gastrodon|Earth Power|p2b: Clefable
+|-damage|p2b: Clefable|70/100
+|
+|-damage|p2a: Tapu Fini|0 fnt|[from] psn
+|faint|p2a: Tapu Fini
+|-sideend|p2: HeroLopez|move: Light Screen
+|upkeep
+
+|
+|switch|p1a: Malamar|Malamar, F, shiny|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|-damage|p1a: Malamar|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p2a: Gliscor|Tailwind|p2a: Gliscor
+|-sidestart|p2: HeroLopez|move: Tailwind
+|move|p1a: Malamar|Toxic|p2b: Clefable
+|-status|p2b: Clefable|tox
+|move|p2b: Clefable|Ice Beam|p1b: Gastrodon
+|-damage|p1b: Gastrodon|86/100
+|move|p1b: Gastrodon|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Malamar|94/100|[from] item: Leftovers
+|-heal|p1b: Gastrodon|92/100|[from] item: Leftovers
+|-damage|p2b: Clefable|64/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p2b: Clefable|Moonblast|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|19/100
+|move|p1a: Malamar|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|49/100
+|-damage|p1a: Malamar|7/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Ferrothorn|Leech Seed|p1b: Gastrodon
+|-start|p1b: Gastrodon|move: Leech Seed
+|move|p1b: Gastrodon|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|-enditem|p2a: Ferrothorn|Aguav Berry|[eat]
+|-heal|p2a: Ferrothorn|64/100|[from] item: Aguav Berry
+|
+|-heal|p1a: Malamar|13/100|[from] item: Leftovers
+|-heal|p1b: Gastrodon|98/100|[from] item: Leftovers
+|-damage|p1b: Gastrodon|86/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|76/100|[silent]
+|-damage|p2b: Clefable|52/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p2b: Clefable|Moonblast|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|move|p2a: Ferrothorn|Knock Off|p1b: Gastrodon
+|-damage|p1b: Gastrodon|66/100
+|-enditem|p1b: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|move|p1b: Gastrodon|Scald|p2b: Clefable
+|-damage|p2b: Clefable|17/100 tox
+|
+|-damage|p1b: Gastrodon|53/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|89/100|[silent]
+|-damage|p2b: Clefable|0 fnt|[from] psn
+|faint|p2b: Clefable
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence, F, shiny|94/100 tox
+|switch|p2b: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Salamence|70/100 tox|[from] Stealth Rock
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|-damage|p2b: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|13
+
+|
+|detailschange|p2b: Tyranitar|Tyranitar-Mega, M
+|-mega|p2b: Tyranitar|Tyranitar|Tyranitarite
+|move|p2b: Tyranitar|Rock Slide|p1a: Salamence|[spread] p1a,p1b
+|-supereffective|p1a: Salamence
+|-resisted|p1b: Gastrodon
+|-damage|p1a: Salamence|7/100 tox
+|-damage|p1b: Gastrodon|42/100
+|move|p1a: Salamence|Fire Fang|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|28/100
+|-damage|p1a: Salamence|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Salamence
+|move|p2a: Ferrothorn|Gyro Ball|p1b: Gastrodon
+|-resisted|p1b: Gastrodon
+|-damage|p1b: Gastrodon|40/100
+|move|p1b: Gastrodon|Scald|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gastrodon|28/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|41/100|[silent]
+|-sideend|p2: HeroLopez|move: Tailwind
+|upkeep
+
+|
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|-damage|p1a: Metagross|95/100|[from] Stealth Rock
+|turn|14
+
+|
+|detailschange|p1a: Metagross|Metagross-Mega, shiny
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p1a: Metagross|Meteor Mash|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|move|p1b: Gastrodon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100
+|move|p2a: Ferrothorn|Gyro Ball|p1b: Gastrodon
+|-resisted|p1b: Gastrodon
+|-damage|p1b: Gastrodon|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gastrodon|12/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|38/100|[silent]
+|upkeep
+|turn|15
+
+|c|☆HeroLopez|gg
+
+|
+|move|p1a: Metagross|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|-damage|p1a: Metagross|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p1b: Gastrodon|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|win|bjfuytfuyg

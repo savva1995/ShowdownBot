@@ -1,0 +1,107 @@
+|init|battle
+|title|Mario Doccia 33 vs. Gottifampj
+|j|☆Mario Doccia 33
+|j|☆Gottifampj
+|player|p1|Mario Doccia 33|34|1247
+|player|p2|Gottifampj|281|1134
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Hippowdon, L50, M|item
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Rotom-Heat, L50|item
+|poke|p1|Kartana, L50|item
+|poke|p1|Salamence, L50, M|item
+|poke|p1|Porygon2, L50|item
+|poke|p2|Feraligatr, L50, F|item
+|poke|p2|Blastoise, L50, M|item
+|poke|p2|Dragonite, L50, F|item
+|poke|p2|Espeon, L50, F|item
+|poke|p2|Sceptile, L50, F|item
+|poke|p2|Mamoswine, L50, F|item
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gottifampj)
+|inactive|Mario Doccia 33 has 120 seconds left.
+
+|
+|start
+|switch|p1a: Porygon2|Porygon2, L50|48/48
+|switch|p2a: Feraligatr|Feraligatr, L50, F|48/48
+|-ability|p1a: Porygon2|Sheer Force|[from] ability: Trace|[of] p2a: Feraligatr
+|turn|1
+
+|
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|move|p1a: Porygon2|Foul Play|p2a: Feraligatr
+|-damage|p2a: Feraligatr|22/48
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Feraligatr|Liquidation|p1a: Porygon2
+|-damage|p1a: Porygon2|18/48
+|move|p1a: Porygon2|Foul Play|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|upkeep
+
+|
+|switch|p2a: Dragonite|Dragonite, L50, F|48/48
+|turn|3
+
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Porygon2|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|17/48
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini, L50|48/48
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|5
+
+|
+|move|p2a: Dragonite|Earthquake|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|22/48
+|move|p1a: Tapu Fini|Moonblast|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, L50, F|48/48
+|turn|6
+
+|
+|-zpower|p1a: Tapu Fini
+|move|p1a: Tapu Fini|Hydro Vortex|p2a: Mamoswine|[zeffect]
+|-supereffective|p2a: Mamoswine
+|-crit|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|win|Mario Doccia 33

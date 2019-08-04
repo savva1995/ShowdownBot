@@ -1,0 +1,353 @@
+|init|battle
+|title|Noohjon vs. Alexegame
+|j|☆Noohjon
+|j|☆Alexegame
+|player|p1|Noohjon|102|1088
+|player|p2|Alexegame|274|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Froslass|Froslass, L88, F|100/100
+|switch|p2a: Castform|Castform, F|100/100
+|turn|1
+|
+|move|p1a: Froslass|Thunder Wave|p2a: Castform
+|-status|p2a: Castform|par
+|cant|p2a: Castform|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Froslass|Ice Beam|p2a: Castform
+|-damage|p2a: Castform|73/100 par
+|move|p2a: Castform|Fire Blast|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|22/100
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Honchkrow|Honchkrow, L84, F|100/100
+|move|p2a: Castform|Fire Blast|p1a: Honchkrow
+|-damage|p1a: Honchkrow|62/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Honchkrow|Superpower|p2a: Castform
+|-supereffective|p2a: Castform
+|-damage|p2a: Castform|0 fnt
+|-unboost|p1a: Honchkrow|atk|1
+|-unboost|p1a: Honchkrow|def|1
+|-damage|p1a: Honchkrow|52/100|[from] item: Life Orb
+|faint|p2a: Castform
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Articuno|Articuno, L88|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|5
+
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Articuno
+|-damage|p2a: Articuno|66/100
+|-damage|p1a: Honchkrow|42/100|[from] item: Life Orb
+|move|p2a: Articuno|Freeze-Dry|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|
+|-heal|p2a: Articuno|72/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, F|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Alexegame
+|turn|6
+
+|
+|switch|p2a: Reshiram|Reshiram, L78|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Pyroar|Sunny Day|p1a: Pyroar
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|move|p2a: Reshiram|Stone Edge|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Espeon|Espeon, L84, M|100/100
+|move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+|-boost|p1a: Porygon-Z|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p2a: Espeon|Substitute|p2a: Espeon
+|-start|p2a: Espeon|Substitute
+|-damage|p2a: Espeon|76/100
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Espeon
+|-end|p2a: Espeon|Substitute
+|-damage|p1a: Porygon-Z|58/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Espeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Espeon|Psyshock|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|9/100
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Espeon
+|-damage|p2a: Espeon|9/100
+|-damage|p1a: Porygon-Z|0 fnt|[from] item: Life Orb
+|faint|p1a: Porygon-Z
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Espeon|15/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Froslass|Froslass, L88, F|22/100
+|turn|11
+
+|
+|move|p1a: Froslass|Shadow Ball|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, L80, F|100/100
+|turn|12
+
+|
+|move|p1a: Froslass|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|cant|p2a: Heatran|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+
+|
+|move|p1a: Froslass|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|71/100 par
+|-unboost|p2a: Heatran|spd|1
+|move|p2a: Heatran|Magma Storm|p1a: Froslass|[miss]
+|-miss|p2a: Heatran|p1a: Froslass
+|
+|-weather|none
+|-heal|p2a: Heatran|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Froslass|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|35/100 par
+|cant|p2a: Heatran|par
+|
+|-heal|p2a: Heatran|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Froslass|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+
+|
+|switch|p2a: Samurott|Samurott, L87, M|100/100
+|turn|16
+
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Froslass
+|-damage|p1a: Froslass|1/100
+|-start|p2a: Samurott|Disable|Aqua Jet|[from] ability: Cursed Body|[of] p1a: Froslass
+|move|p1a: Froslass|Thunder Wave|p2a: Samurott
+|-status|p2a: Samurott|par
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Froslass|Shadow Ball|p2a: Samurott
+|-damage|p2a: Samurott|79/100 par
+|-unboost|p2a: Samurott|spd|1
+|move|p2a: Samurott|Sacred Sword|p1a: Froslass
+|-immune|p1a: Froslass
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Froslass|Shadow Ball|p2a: Samurott
+|-damage|p2a: Samurott|48/100 par
+|-unboost|p2a: Samurott|spd|1
+|move|p2a: Samurott|Ice Beam|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|upkeep
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, F|100/100
+|turn|19
+
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-damage|p1a: Vileplume|91/100|[from] item: Life Orb
+|faint|p2a: Samurott
+|
+|upkeep
+
+|
+|switch|p2a: Articuno|Articuno, L88|72/100
+|-ability|p2a: Articuno|Pressure
+|turn|20
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Alexegame)
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|5/100
+|move|p1a: Vileplume|Hidden Power|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|40/100
+|-damage|p1a: Vileplume|0 fnt|[from] item: Life Orb
+|faint|p1a: Vileplume
+|
+|-heal|p2a: Articuno|46/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, F|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Alexegame
+|turn|21
+
+|
+|move|p1a: Pyroar|Sunny Day|p1a: Pyroar
+|-weather|SunnyDay
+|move|p2a: Articuno|Roost|p2a: Articuno
+|-heal|p2a: Articuno|97/100
+|-singleturn|p2a: Articuno|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Articuno|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|5/100
+|move|p2a: Articuno|Hurricane|p1a: Pyroar
+|-damage|p1a: Pyroar|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Articuno|11/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p1a: Pyroar|Solar Beam||[still]
+|-prepare|p1a: Pyroar|Solar Beam|p2a: Articuno
+|-anim|p1a: Pyroar|Solar Beam|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Reshiram|Reshiram, L78|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|turn|24
+
+|
+|move|p1a: Pyroar|Solar Beam||[still]
+|-prepare|p1a: Pyroar|Solar Beam|p2a: Reshiram
+|-anim|p1a: Pyroar|Solar Beam|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|94/100
+|move|p2a: Reshiram|Stone Edge|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reshiram|99/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Cradily|Cradily, L89, M|100/100
+|turn|25
+
+|
+|move|p2a: Reshiram|Draco Meteor|p1a: Cradily
+|-damage|p1a: Cradily|52/100
+|-unboost|p2a: Reshiram|spa|2
+|move|p1a: Cradily|Toxic|p2a: Reshiram
+|-status|p2a: Reshiram|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reshiram|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Cradily|58/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|94/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Cradily
+|-damage|p1a: Cradily|25/100
+|move|p1a: Cradily|Curse|p1a: Cradily
+|-unboost|p1a: Cradily|spe|1
+|-boost|p1a: Cradily|atk|1
+|-boost|p1a: Cradily|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reshiram|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Cradily|31/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|88/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Cradily
+|-damage|p1a: Cradily|0 fnt
+|faint|p1a: Cradily
+|
+|win|Alexegame

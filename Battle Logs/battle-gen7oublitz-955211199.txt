@@ -1,0 +1,340 @@
+|init|battle
+|title|Ujitsu vs. Yonko Shanks
+|j|☆Ujitsu
+|j|☆Yonko Shanks
+|player|p1|Ujitsu|169|1464
+|player|p2|Yonko Shanks|293|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mawile, M|item
+|poke|p1|Serperior, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Zapdos|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Greninja, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Tangrowth, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Medicham, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Ujitsu has 30 seconds left this turn.
+|inactive|Yonko Shanks has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yonko Shanks)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|90/100
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100|[from]move: U-turn
+|move|p1a: Landorus|Stealth Rock|p2a: Tangrowth
+|-sidestart|p2: Yonko Shanks|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: Tangrowth|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|64/100
+|-enditem|p1a: Landorus|Focus Sash|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|3
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|move|p1a: Landorus|Explosion|p2a: Tangrowth
+|-damage|p2a: Tangrowth|9/100
+|faint|p1a: Landorus
+|move|p2a: Tangrowth|Giga Drain|p1: Landorus|[notarget]
+|-fail|p2a: Tangrowth
+|
+|upkeep
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|switch|p1a: Greninja|Greninja, F|100/100
+|turn|4
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Greninja|Ice Beam|p2a: Heatran
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|83/100
+|-status|p2a: Heatran|frz
+|
+|-heal|p2a: Heatran|89/100 frz|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|inactive|Ujitsu has 10 seconds left.
+|inactive|Yonko Shanks has 10 seconds left.
+|
+|move|p1a: Greninja|Low Kick|p2a: Heatran
+|-start|p1a: Greninja|typechange|Fighting|[from] ability: Protean
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Greninja|atk|1
+|turn|6
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|switch|p1a: Serperior|Serperior, F|100/100
+|move|p2a: Landorus|U-turn|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|37/100
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from]move: U-turn
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|move|p1a: Serperior|Glare|p2a: Tornadus
+|-status|p2a: Tornadus|par
+|move|p2a: Tornadus|U-turn|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|inactive|Yonko Shanks has 10 seconds left.
+|
+|switch|p2a: Tangrowth|Tangrowth, F|42/100|[from]move: U-turn
+|-damage|p2a: Tangrowth|29/100|[from] Stealth Rock
+|
+|upkeep
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Tangrowth|atk|1
+|turn|8
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100 par
+|-damage|p2a: Tornadus|76/100 par|[from] Stealth Rock
+|detailschange|p1a: Mawile|Mawile-Mega, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|
+|upkeep
+|turn|9
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|move|p1a: Mawile|Sucker Punch|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mawile|atk|1
+|turn|10
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|move|p1a: Mawile|Sucker Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|11
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p1a: Greninja|Greninja, F|100/100
+|turn|12
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p2a: Tangrowth|Tangrowth, F|63/100
+|-damage|p2a: Tangrowth|50/100|[from] Stealth Rock
+|-zpower|p1a: Greninja
+|move|p1a: Greninja|All-Out Pummeling|p2a: Tangrowth|[zeffect]
+|-start|p1a: Greninja|typechange|Fighting|[from] ability: Protean
+|-damage|p2a: Tangrowth|12/100
+|
+|upkeep
+|turn|13
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|move|p1a: Greninja|Ice Beam|p2a: Tangrowth
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p2a: Medicham|Medicham, M|100/100
+|-damage|p2a: Medicham|94/100|[from] Stealth Rock
+|turn|14
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|detailschange|p2a: Medicham|Medicham-Mega, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Zapdos
+|-damage|p1a: Zapdos|85/100
+|
+|-heal|p1a: Zapdos|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|move|p2a: Medicham|Zen Headbutt|p1a: Zapdos
+|-damage|p1a: Zapdos|41/100
+|move|p1a: Zapdos|Discharge|p2a: Medicham
+|-damage|p2a: Medicham|48/100
+|
+|-heal|p1a: Zapdos|47/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|move|p2a: Medicham|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p1a: Greninja|Greninja, F|100/100
+|turn|17
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|move|p1a: Greninja|Gunk Shot|p2a: Medicham
+|-start|p1a: Greninja|typechange|Poison|[from] ability: Protean
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|upkeep
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|switch|p2a: Hydreigon|Hydreigon, F|88/100
+|-damage|p2a: Hydreigon|76/100|[from] Stealth Rock
+|turn|18
+
+|inactive|Ujitsu has 15 seconds left this turn.
+|inactive|Yonko Shanks has 15 seconds left this turn.
+
+|
+|move|p1a: Greninja|Low Kick|p2a: Hydreigon
+|-start|p1a: Greninja|typechange|Fighting|[from] ability: Protean
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|Ujitsu

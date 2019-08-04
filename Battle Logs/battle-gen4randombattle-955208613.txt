@@ -1,0 +1,37 @@
+|init|battle
+|title|gapo d vs. Guest 1392900
+|j|☆gapo d
+|player|p1|gapo d|102|1219
+|player|p2|Guest 1392900|2|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|4
+|tier|[Gen 4] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwrath|Poliwrath, L83, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, L83, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Guest 1392900)
+|inactive|gapo d has 120 seconds left.
+|inactive|gapo d has 90 seconds left.
+
+|inactive|gapo d has 60 seconds left.
+
+|inactive|gapo d has 30 seconds left.
+
+|inactive|gapo d has 20 seconds left.
+
+|inactive|gapo d has 15 seconds left.
+
+|inactive|gapo d has 10 seconds left.
+
+|inactive|gapo d has 5 seconds left.
+
+|-message|gapo d lost due to inactivity.
+|
+|win|Guest 1392900

@@ -1,0 +1,126 @@
+|init|battle
+|title|DarkDavidYT vs. Alto Mando Azrael
+|j|☆DarkDavidYT
+|j|☆Alto Mando Azrael
+|player|p1|DarkDavidYT|15|1000
+|player|p2|Alto Mando Azrael|70|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Celesteela|item
+|poke|p1|Tapu Lele|item
+|poke|p1|Hawlucha, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Froslass, F|item
+|poke|p2|Gastrodon, F|item
+|poke|p2|Lucario, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Milotic, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|1
+|
+|move|p2a: Lucario|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|55/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Lucario|Earthquake|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|72/100
+|
+|-heal|p1a: Tapu Lele|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|3
+
+|
+|move|p2a: Lucario|Iron Tail|p1a: Tapu Lele
+|-supereffective|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|15/100
+|move|p1a: Tapu Lele|Calm Mind|p1a: Tapu Lele
+|-boost|p1a: Tapu Lele|spa|1
+|-boost|p1a: Tapu Lele|spd|1
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Celesteela|Celesteela|100/100
+|move|p2a: Lucario|Iron Tail|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|87/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Lucario|Aura Sphere|p1a: Celesteela
+|-damage|p1a: Celesteela|47/100
+|move|p1a: Celesteela|Leech Seed|p2a: Lucario
+|-start|p2a: Lucario|move: Leech Seed
+|
+|-damage|p2a: Lucario|88/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|58/100|[silent]
+|upkeep
+|turn|6
+
+|
+|move|p2a: Lucario|Aura Sphere|p1a: Celesteela
+|-damage|p1a: Celesteela|22/100
+|move|p1a: Celesteela|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|6/100
+|
+|-damage|p2a: Lucario|0 fnt|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|26/100|[silent]
+|faint|p2a: Lucario
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p2a: Garchomp|Garchomp, F, shiny|100/100
+|turn|7
+
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, F, shiny
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p2a: Garchomp|Fire Fang|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|
+|upkeep
+
+|
+|switch|p1a: Jirachi|Jirachi|55/100
+|turn|8
+
+|
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+
+|-message|DarkDavidYT forfeited.
+
+|
+|win|Alto Mando Azrael

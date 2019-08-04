@@ -1,0 +1,235 @@
+|init|battle
+|title|juapao15 vs. EddieT15
+|j|☆juapao15
+|j|☆EddieT15
+|player|p1|juapao15|265|1370
+|player|p2|EddieT15|1|1354
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Marowak-Alola, M|item
+|poke|p1|Stakataka|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Uxie|item
+|poke|p1|Goodra, M|item
+|poke|p1|Crawdaunt, M|item
+|poke|p2|Pidgeot, F|item
+|poke|p2|Cobalion|item
+|poke|p2|Zeraora|item
+|poke|p2|Gligar, M|item
+|poke|p2|Celebi|item
+|poke|p2|Primarina, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EddieT15)
+|inactive|juapao15 has 120 seconds left.
+|l|☆EddieT15
+|inactive|EddieT15 disconnected and has a minute to reconnect!
+|player|p2|
+|
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|1
+
+|j|☆EddieT15
+
+|inactive|EddieT15 reconnected and has 140 seconds left.
+
+|player|p2|EddieT15|1
+
+|
+|move|p2a: Zeraora|Knock Off|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|53/100
+|-enditem|p1a: Uxie|Mental Herb|[from] move: Knock Off|[of] p2a: Zeraora
+|move|p1a: Uxie|Stealth Rock|p2a: Zeraora
+|-sidestart|p2: EddieT15|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Zeraora|Plasma Fists|p1a: Uxie
+|-damage|p1a: Uxie|19/100
+|-fieldactivate|move: Ion Deluge
+|move|p1a: Uxie|Trick Room|p1a: Uxie
+|-fieldstart|move: Trick Room|[of] p1a: Uxie
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|-damage|p2a: Gligar|88/100|[from] Stealth Rock
+|move|p1a: Uxie|Memento|p2a: Gligar
+|-fail|p2a: Gligar|unboost|Attack|[from] ability: Hyper Cutter|[of] p2a: Gligar
+|-unboost|p2a: Gligar|spa|2
+|faint|p1a: Uxie
+|
+|upkeep
+
+|
+|switch|p1a: Marowak|Marowak-Alola, M|100/100
+|turn|4
+
+|
+|move|p1a: Marowak|Swords Dance|p1a: Marowak
+|-boost|p1a: Marowak|atk|2
+|move|p2a: Gligar|Earthquake|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|48/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Marowak|Flare Blitz|p2a: Gligar
+|-crit|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|upkeep
+
+|
+|switch|p2a: Primarina|Primarina, M|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p1a: Marowak|Shadow Bone|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p1a: Goodra|Goodra, M|100/100
+|move|p2a: Zeraora|Knock Off|p1a: Goodra
+|-damage|p1a: Goodra|62/100
+|-enditem|p1a: Goodra|Assault Vest|[from] move: Knock Off|[of] p2a: Zeraora
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Zeraora|Drain Punch|p1a: Goodra
+|-damage|p1a: Goodra|33/100
+|-heal|p2a: Zeraora|100/100|[from] drain|[of] p1a: Goodra
+|move|p1a: Goodra|Earthquake|p2a: Zeraora
+|-supereffective|p2a: Zeraora
+|-damage|p2a: Zeraora|42/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Pidgeot|Pidgeot, F|100/100
+|-damage|p2a: Pidgeot|76/100|[from] Stealth Rock
+|move|p1a: Goodra|Earthquake|p2a: Pidgeot
+|-immune|p2a: Pidgeot
+|
+|upkeep
+|turn|10
+
+|
+|detailschange|p2a: Pidgeot|Pidgeot-Mega, F
+|-mega|p2a: Pidgeot|Pidgeot|Pidgeotite
+|move|p2a: Pidgeot|Hurricane|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|11
+
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Cresselia
+|-damage|p1a: Cresselia|62/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Pidgeot|Hurricane|p1: Cresselia|[notarget]
+|-fail|p2a: Pidgeot
+|
+|upkeep
+
+|
+|switch|p1a: Marowak|Marowak-Alola, M|48/100
+|-heal|p1a: Marowak|100/100|[from] move: Lunar Dance
+|turn|13
+
+|
+|move|p1a: Marowak|Flare Blitz|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|upkeep
+
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|97/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Marowak|Flare Blitz|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|upkeep
+
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: Marowak|Flare Blitz|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p2a: Zeraora|Zeraora|42/100
+|-damage|p2a: Zeraora|30/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Zeraora|Knock Off|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|39/100
+|-enditem|p1a: Marowak|Thick Club|[from] move: Knock Off|[of] p2a: Zeraora
+|move|p1a: Marowak|Flare Blitz|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|win|juapao15

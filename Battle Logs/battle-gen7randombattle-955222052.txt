@@ -1,0 +1,359 @@
+|init|battle
+|title|Akhena vs. dripspresso
+|j|☆Akhena
+|j|☆dripspresso
+|player|p1|Akhena|166|1612
+|player|p2|dripspresso|101|1546
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Stantler|Stantler, L89, F|100/100
+|switch|p2a: Phione|Phione, L89|100/100
+|turn|1
+|
+|move|p1a: Stantler|Double-Edge|p2a: Phione
+|-damage|p2a: Phione|36/100
+|-damage|p1a: Stantler|78/100|[from] Recoil
+|-damage|p1a: Stantler|68/100|[from] item: Life Orb
+|move|p2a: Phione|U-turn|p1a: Stantler
+|-damage|p1a: Stantler|47/100
+|
+|switch|p2a: Durant|Durant, L83, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dripspresso)
+|
+|move|p2a: Durant|Hone Claws|p2a: Durant
+|-boost|p2a: Durant|atk|1
+|-boost|p2a: Durant|accuracy|1
+|move|p1a: Stantler|Jump Kick|p2a: Durant
+|-damage|p2a: Durant|63/100
+|-damage|p1a: Stantler|37/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Stantler|Sucker Punch|p2a: Durant
+|-damage|p2a: Durant|37/100
+|-damage|p1a: Stantler|27/100|[from] item: Life Orb
+|move|p2a: Durant|Iron Head|p1a: Stantler
+|-damage|p1a: Stantler|0 fnt
+|-damage|p2a: Durant|27/100|[from] item: Life Orb
+|faint|p1a: Stantler
+|
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus, L81, M|100/100
+|turn|4
+|
+|move|p2a: Durant|Superpower|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|40/100
+|-unboost|p2a: Durant|atk|1
+|-unboost|p2a: Durant|def|1
+|-damage|p2a: Durant|17/100|[from] item: Life Orb
+|move|p1a: Thundurus|Thunderbolt|p2a: Durant
+|-crit|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|-damage|p1a: Thundurus|30/100|[from] item: Life Orb
+|faint|p2a: Durant
+|
+|upkeep
+|
+|switch|p2a: Diancie|Diancie, L80|100/100
+|turn|5
+|
+|move|p1a: Thundurus|Taunt|p2a: Diancie
+|-start|p2a: Diancie|move: Taunt
+|move|p2a: Diancie|Moonblast|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|switch|p1a: Tyrantrum|Tyrantrum, L84, F|100/100
+|turn|6
+|
+|switch|p2a: Phione|Phione, L89|36/100
+|move|p1a: Tyrantrum|Superpower|p2a: Phione
+|-damage|p2a: Phione|0 fnt
+|-unboost|p1a: Tyrantrum|atk|1
+|-unboost|p1a: Tyrantrum|def|1
+|-damage|p1a: Tyrantrum|91/100|[from] item: Life Orb
+|faint|p2a: Phione
+|
+|upkeep
+|
+|switch|p2a: Diancie|Diancie, L80|100/100
+|turn|7
+|
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|detailschange|p2a: Diancie|Diancie-Mega, L80
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Moonblast|p1a: Cobalion
+|-damage|p1a: Cobalion|64/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Chandelure|Chandelure, L82, F|100/100
+|move|p1a: Cobalion|Iron Head|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|83/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Reshiram|Reshiram, L78|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|move|p2a: Chandelure|Fire Blast|p1a: Reshiram
+|-resisted|p1a: Reshiram
+|-damage|p1a: Reshiram|85/100
+|-damage|p2a: Chandelure|73/100|[from] item: Life Orb
+|
+|-heal|p1a: Reshiram|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Reshiram|Stone Edge|p2a: Chandelure|[miss]
+|-miss|p1a: Reshiram|p2a: Chandelure
+|move|p2a: Chandelure|Hidden Power|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|48/100
+|-damage|p2a: Chandelure|64/100|[from] item: Life Orb
+|
+|-heal|p1a: Reshiram|54/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Reshiram|Roost|p1a: Reshiram
+|-heal|p1a: Reshiram|100/100
+|-singleturn|p1a: Reshiram|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reshiram|94/100|[from] Sandstorm
+|-heal|p1a: Reshiram|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Reshiram|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|59/100
+|-unboost|p1a: Reshiram|spa|2
+|move|p2a: Gigalith|Stealth Rock|p1a: Reshiram
+|-sidestart|p1: Akhena|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reshiram|94/100|[from] Sandstorm
+|-heal|p1a: Reshiram|100/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Reshiram|Stone Edge|p2a: Gigalith
+|-damage|p2a: Gigalith|46/100
+|move|p2a: Gigalith|Earthquake|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reshiram|34/100|[from] Sandstorm
+|-heal|p1a: Reshiram|40/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|52/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Reshiram|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|32/100
+|-unboost|p1a: Reshiram|spa|2
+|move|p2a: Gigalith|Earthquake|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|faint|p1a: Reshiram
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|38/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|64/100
+|-damage|p1a: Cobalion|62/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: Cobalion|Close Combat|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Gigalith
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Diancie|Diancie-Mega, L80|100/100
+|turn|16
+
+|
+|switch|p2a: Lilligant|Lilligant, L87, F|100/100
+|move|p1a: Cobalion|Iron Head|p2a: Lilligant
+|-damage|p2a: Lilligant|71/100
+|
+|-heal|p2a: Lilligant|77/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: dripspresso
+|-damage|p1a: Pyroar|76/100|[from] Stealth Rock
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-heal|p2a: Lilligant|83/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Lilligant|Sleep Powder|p1a: Pyroar
+|-status|p1a: Pyroar|slp|[from] move: Sleep Powder
+|cant|p1a: Pyroar|slp
+|
+|-heal|p2a: Lilligant|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|cant|p1a: Pyroar|slp
+|
+|-heal|p2a: Lilligant|95/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|-curestatus|p1a: Pyroar|slp|[msg]
+|move|p1a: Pyroar|Fire Blast|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|41/100
+|-damage|p1a: Pyroar|66/100|[from] item: Life Orb
+|
+|-heal|p2a: Lilligant|47/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Lilligant|Sleep Powder|p1a: Pyroar
+|-status|p1a: Pyroar|slp|[from] move: Sleep Powder
+|cant|p1a: Pyroar|slp
+|
+|-heal|p2a: Lilligant|53/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|-curestatus|p1a: Pyroar|slp|[msg]
+|move|p1a: Pyroar|Fire Blast|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-crit|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|-damage|p1a: Pyroar|56/100|[from] item: Life Orb
+|faint|p2a: Lilligant
+|
+|upkeep
+
+|
+|switch|p2a: Diancie|Diancie-Mega, L80|100/100
+|turn|23
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Diancie|[miss]
+|-miss|p1a: Pyroar|p2a: Diancie
+|move|p2a: Diancie|Calm Mind|p2a: Diancie
+|-boost|p2a: Diancie|spa|1
+|-boost|p2a: Diancie|spd|1
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|76/100
+|-damage|p1a: Pyroar|46/100|[from] item: Life Orb
+|move|p2a: Diancie|Psyshock|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|upkeep
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|62/100
+|-damage|p1a: Cobalion|59/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+
+|
+|switch|p2a: Chandelure|Chandelure, L82, F|64/100
+|turn|26
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|48/100
+|move|p2a: Chandelure|Fire Blast|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|-damage|p2a: Chandelure|38/100|[from] item: Life Orb
+|faint|p1a: Cobalion
+|
+|upkeep
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, L84, F|91/100
+|-damage|p1a: Tyrantrum|78/100|[from] Stealth Rock
+|turn|27
+
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|13/100
+|-damage|p2a: Chandelure|28/100|[from] item: Life Orb
+|move|p1a: Tyrantrum|Dragon Claw|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-damage|p1a: Tyrantrum|3/100|[from] item: Life Orb
+|faint|p2a: Chandelure
+|
+|win|Akhena

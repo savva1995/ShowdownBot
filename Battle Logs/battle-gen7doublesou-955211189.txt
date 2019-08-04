@@ -1,0 +1,250 @@
+|init|battle
+|title|Inioen vs. tdtdt
+|j|‽Inioen
+|j|☆tdtdt
+|player|p1|Inioen|18|1724
+|player|p2|tdtdt|102|1508
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Tapu Lele|item
+|poke|p1|Greninja, M|item
+|poke|p1|Kartana|item
+|poke|p1|Nihilego|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Whimsicott, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Gallade, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Ambipom, F|item
+|teampreview
+|
+|start
+|switch|p1a: Kartana|Kartana|100/100
+|switch|p1b: Metagross|Metagross|100/100
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|switch|p2b: Ambipom|Ambipom, F|100/100
+|turn|1
+|
+|detailschange|p1b: Metagross|Metagross-Mega
+|-mega|p1b: Metagross|Metagross|Metagrossite
+|move|p2b: Ambipom|Fake Out|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|91/100
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: tdtdt|move: Tailwind
+|move|p1b: Metagross|Iron Head|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-enditem|p2a: Whimsicott|Focus Sash
+|-damage|p2a: Whimsicott|1/100
+|cant|p1a: Kartana|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Whimsicott|Protect|p2a: Whimsicott
+|-singleturn|p2a: Whimsicott|Protect
+|move|p2b: Ambipom|Fire Punch|p1a: Kartana
+|-supereffective|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|move|p1b: Metagross|Iron Head|p2b: Ambipom
+|-damage|p2b: Ambipom|5/100
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|3
+
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|switch|p1a: Greninja|Greninja, M|100/100
+|move|p2b: Ambipom|Fire Punch|p1b: Metagross
+|-supereffective|p1b: Metagross
+|-damage|p1b: Metagross|63/100
+|move|p1b: Metagross|Iron Head|p2b: Ambipom
+|-damage|p2b: Ambipom|0 fnt
+|faint|p2b: Ambipom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gallade|94/100|[from] Sandstorm
+|-damage|p1a: Greninja|95/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2b: Charizard|Charizard, F|100/100
+|turn|4
+
+|
+|detailschange|p2b: Charizard|Charizard-Mega-Y, F
+|-mega|p2b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Charizard
+|move|p1a: Greninja|Protect|p1a: Greninja
+|-singleturn|p1a: Greninja|Protect
+|move|p1b: Metagross|Protect|p1b: Metagross
+|-singleturn|p1b: Metagross|Protect
+|move|p2b: Charizard|Beat Up|p2a: Gallade
+|-damage|p2a: Gallade|89/100
+|-ability|p2a: Gallade|Justified|boost
+|-boost|p2a: Gallade|atk|1
+|-damage|p2a: Gallade|85/100
+|-ability|p2a: Gallade|Justified|boost
+|-boost|p2a: Gallade|atk|1
+|-damage|p2a: Gallade|81/100
+|-ability|p2a: Gallade|Justified|boost
+|-boost|p2a: Gallade|atk|1
+|-damage|p2a: Gallade|77/100
+|-ability|p2a: Gallade|Justified|boost
+|-boost|p2a: Gallade|atk|1
+|-damage|p2a: Gallade|72/100
+|-ability|p2a: Gallade|Justified|boost
+|-boost|p2a: Gallade|atk|1
+|-hitcount|p2a: Gallade|5
+|move|p2a: Gallade|Rock Slide|p1a: Greninja|[spread] 
+|-activate|p1a: Greninja|move: Protect
+|-activate|p1b: Metagross|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: tdtdt|move: Tailwind
+|upkeep
+|turn|5
+
+|
+|move|p2a: Gallade|Protect|p2a: Gallade
+|-singleturn|p2a: Gallade|Protect
+|-zpower|p1a: Greninja
+|move|p1a: Greninja|Black Hole Eclipse|p2b: Charizard|[zeffect]
+|-damage|p2b: Charizard|26/100
+|move|p1b: Metagross|Iron Head|p2b: Charizard
+|-resisted|p2b: Charizard
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2b: Whimsicott|Whimsicott, F|1/100
+|turn|6
+
+|
+|move|p2b: Whimsicott|Protect|p2b: Whimsicott
+|-singleturn|p2b: Whimsicott|Protect
+|move|p1a: Greninja|Water Shuriken|p2b: Whimsicott
+|-activate|p2b: Whimsicott|move: Protect
+|move|p1b: Metagross|Iron Head|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|7
+
+|
+|move|p2a: Tapu Lele|Protect|p2a: Tapu Lele
+|-singleturn|p2a: Tapu Lele|Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: tdtdt|move: Tailwind
+|move|p1a: Greninja|Dark Pulse|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|move|p1b: Metagross|Iron Head|p2a: Tapu Lele
+|-activate|p2a: Tapu Lele|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2b: Terrakion|Terrakion|100/100
+|turn|8
+
+|
+|move|p1a: Greninja|Protect|p1a: Greninja
+|-singleturn|p1a: Greninja|Protect
+|move|p1b: Metagross|Protect|p1b: Metagross
+|-singleturn|p1b: Metagross|Protect
+|move|p2b: Terrakion|Earthquake|p1b: Metagross|[spread] p2a
+|-activate|p1a: Greninja|move: Protect
+|-activate|p1b: Metagross|move: Protect
+|-damage|p2a: Tapu Lele|59/100
+|move|p2a: Tapu Lele|Dazzling Gleam|p1b: Metagross|[spread] 
+|-activate|p1a: Greninja|move: Protect
+|-activate|p1b: Metagross|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p1b: Tapu Lele|Tapu Lele|100/100
+|move|p2b: Terrakion|Earthquake|p1b: Tapu Lele|[spread] p2a,p1a,p1b
+|-supereffective|p1a: Tyranitar
+|-damage|p2a: Tapu Lele|17/100
+|-damage|p1a: Tyranitar|65/100
+|-damage|p1b: Tapu Lele|69/100
+|-enditem|p1a: Tyranitar|Weakness Policy
+|-boost|p1a: Tyranitar|atk|2
+|-boost|p1a: Tyranitar|spa|2
+|move|p2a: Tapu Lele|Dazzling Gleam|p1a: Tyranitar|[spread] p1a,p1b
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|32/100
+|-damage|p1b: Tapu Lele|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Lele|11/100|[from] Sandstorm
+|-damage|p1b: Tapu Lele|35/100|[from] Sandstorm
+|upkeep
+|turn|10
+
+|
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2b: Terrakion|Rock Slide|p1b: Tapu Lele|[spread] p1b
+|-activate|p1a: Tyranitar|move: Protect
+|-damage|p1b: Tapu Lele|2/100
+|-enditem|p1b: Tapu Lele|Wiki Berry|[eat]
+|-heal|p1b: Tapu Lele|52/100|[from] item: Wiki Berry
+|move|p2a: Tapu Lele|Dazzling Gleam|p1a: Tyranitar|[spread] p1b
+|-activate|p1a: Tyranitar|move: Protect
+|-damage|p1b: Tapu Lele|24/100
+|move|p1b: Tapu Lele|Dazzling Gleam|p2a: Tapu Lele|[spread] p2a,p2b
+|-supereffective|p2b: Terrakion
+|-crit|p2b: Terrakion
+|-damage|p2a: Tapu Lele|0 fnt
+|-damage|p2b: Terrakion|28/100
+|faint|p2a: Tapu Lele
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tapu Lele|18/100|[from] Sandstorm
+|-sideend|p2: tdtdt|move: Tailwind
+|upkeep
+|turn|11
+
+|-message|tdtdt forfeited.
+
+|
+|win|Inioen

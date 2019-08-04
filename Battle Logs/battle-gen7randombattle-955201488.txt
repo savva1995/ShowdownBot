@@ -1,0 +1,287 @@
+|init|battle
+|title|skei vs. Girtania
+|j|☆skei
+|j|☆Girtania
+|player|p1|skei|105|1639
+|player|p2|Girtania|265|1601
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Liepard|Liepard, L88, M|100/100
+|switch|p2a: Cherrim|Cherrim, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Girtania)
+|
+|move|p1a: Liepard|Substitute|p1a: Liepard
+|-start|p1a: Liepard|Substitute
+|-damage|p1a: Liepard|75/100
+|move|p2a: Cherrim|Dazzling Gleam|p1a: Liepard
+|-supereffective|p1a: Liepard
+|-end|p1a: Liepard|Substitute
+|-damage|p2a: Cherrim|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Liepard|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Liepard|Knock Off|p2a: Cherrim
+|-damage|p2a: Cherrim|45/100
+|-enditem|p2a: Cherrim|Life Orb|[from] move: Knock Off|[of] p1a: Liepard
+|move|p2a: Cherrim|Dazzling Gleam|p1a: Liepard
+|-supereffective|p1a: Liepard
+|-damage|p1a: Liepard|13/100
+|
+|-heal|p1a: Liepard|19/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, L80, M|100/100
+|move|p2a: Cherrim|Dazzling Gleam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|
+|-heal|p1a: Toxapex|96/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Uxie|Uxie, L84|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Uxie
+|-sidestart|p2: Girtania|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|move|p2a: Uxie|Yawn|p1a: Toxapex
+|-start|p1a: Toxapex|move: Yawn|[of] p2a: Uxie
+|move|p1a: Toxapex|Toxic Spikes|p2a: Uxie
+|-sidestart|p2: Girtania|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Liepard|Liepard, L88, M|19/100
+|move|p2a: Uxie|Stealth Rock|p1a: Liepard
+|-sidestart|p1: skei|move: Stealth Rock
+|
+|-heal|p1a: Liepard|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Liepard|Copycat|p1a: Liepard
+|move|p1a: Liepard|Stealth Rock|p2a: Uxie|[from]Copycat
+|-sidestart|p2: Girtania|move: Stealth Rock
+|move|p2a: Uxie|Knock Off|p1a: Liepard
+|-resisted|p1a: Liepard
+|-damage|p1a: Liepard|10/100
+|-enditem|p1a: Liepard|Leftovers|[from] move: Knock Off|[of] p2a: Uxie
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Liepard|Knock Off|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|40/100
+|-enditem|p2a: Uxie|Leftovers|[from] move: Knock Off|[of] p1a: Liepard
+|move|p2a: Uxie|Knock Off|p1a: Liepard
+|-resisted|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|upkeep
+
+|
+|switch|p1a: Honchkrow|Honchkrow, L84, M|100/100
+|-damage|p1a: Honchkrow|76/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p2a: Uxie|Yawn|p1a: Honchkrow
+|-start|p1a: Honchkrow|move: Yawn|[of] p2a: Uxie
+|move|p1a: Honchkrow|Pursuit|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|4/100
+|-damage|p1a: Honchkrow|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Starmie|Starmie, L82|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Uxie|Knock Off|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|37/100
+|-enditem|p1a: Starmie|Life Orb|[from] move: Knock Off|[of] p2a: Uxie
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Starmie|Ice Beam|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|
+|upkeep
+
+|
+|switch|p2a: Cherrim|Cherrim, L89, M|45/100
+|-status|p2a: Cherrim|tox
+|-damage|p2a: Cherrim|32/100 tox|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Starmie|Ice Beam|p2a: Cherrim
+|-supereffective|p2a: Cherrim
+|-damage|p2a: Cherrim|0 fnt
+|faint|p2a: Cherrim
+|
+|upkeep
+
+|
+|switch|p2a: Victreebel|Victreebel, L88, M|100/100
+|-damage|p2a: Victreebel|88/100|[from] Stealth Rock
+|-sideend|p2: Girtania|move: Toxic Spikes|[of] p2a: Victreebel
+|turn|13
+
+|
+|move|p1a: Starmie|Ice Beam|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|42/100
+|-zpower|p2a: Victreebel
+|move|p2a: Victreebel|Z-Sleep Powder|p1a: Starmie|[anim]Sleep Powder
+|-boost|p2a: Victreebel|spe|1|[zeffect]
+|-status|p1a: Starmie|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Honchkrow|Honchkrow, L84, M|66/100
+|-damage|p1a: Honchkrow|41/100|[from] Stealth Rock
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|-damage|p1a: Honchkrow|31/100|[from] item: Life Orb
+|faint|p2a: Victreebel
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Emboar|Emboar, L85, M|100/100
+|-damage|p2a: Emboar|88/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Emboar|Wild Charge|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|-damage|p2a: Emboar|81/100|[from] Recoil
+|faint|p1a: Honchkrow
+|
+|upkeep
+
+|
+|switch|p1a: Palossand|Palossand, L86, F|100/100
+|-damage|p1a: Palossand|95/100|[from] Stealth Rock
+|turn|17
+
+|
+|switch|p2a: Guzzlord|Guzzlord, L87|100/100
+|-damage|p2a: Guzzlord|88/100|[from] Stealth Rock
+|move|p1a: Palossand|Earth Power|p2a: Guzzlord
+|-damage|p2a: Guzzlord|64/100
+|
+|-heal|p1a: Palossand|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|inactive|Girtania has 120 seconds left.
+
+|
+|switch|p1a: Breloom|Breloom, L81, M|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|move|p2a: Guzzlord|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|70/100
+|-damage|p2a: Guzzlord|54/100|[from] item: Life Orb
+|
+|-heal|p1a: Breloom|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Breloom|Spore|p2a: Guzzlord
+|-status|p2a: Guzzlord|slp|[from] move: Spore
+|cant|p2a: Guzzlord|slp
+|
+|-heal|p1a: Breloom|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Emboar|Emboar, L85, M|81/100
+|-damage|p2a: Emboar|69/100|[from] Stealth Rock
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-heal|p1a: Breloom|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: Emboar
+|-damage|p2a: Emboar|14/100
+|move|p2a: Emboar|Flare Blitz|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-damage|p2a: Emboar|0 fnt|[from] Recoil
+|faint|p1a: Breloom
+|faint|p2a: Emboar
+|
+|upkeep
+
+|
+|switch|p1a: Starmie|Starmie, L82|37/100
+|switch|p2a: Garchomp|Garchomp, L80, M|100/100
+|-damage|p1a: Starmie|25/100|[from] Stealth Rock
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|22
+
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, L80, M
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p1a: Starmie|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|10/100
+|-status|p2a: Garchomp|frz
+|cant|p2a: Garchomp|frz
+|
+|upkeep
+|turn|23
+
+|c|☆Girtania|gg
+
+|-message|Girtania forfeited.
+
+|
+|win|skei

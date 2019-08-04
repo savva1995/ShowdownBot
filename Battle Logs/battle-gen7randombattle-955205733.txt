@@ -1,0 +1,259 @@
+|init|battle
+|title|PI GRECO 31415926. vs. Ninja1738
+|j|☆PI GRECO 31415926.
+|j|☆Ninja1738
+|player|p1|PI GRECO 31415926.|265|1055
+|player|p2|Ninja1738|162|1015
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Forretress|Forretress, L84, M|100/100
+|switch|p2a: Chimecho|Chimecho, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PI GRECO 31415926.)
+|
+|move|p2a: Chimecho|Shadow Ball|p1a: Forretress
+|-damage|p1a: Forretress|71/100
+|-unboost|p1a: Forretress|spd|1
+|move|p1a: Forretress|Toxic|p2a: Chimecho
+|-status|p2a: Chimecho|tox
+|
+|-heal|p1a: Forretress|77/100|[from] item: Leftovers
+|-damage|p2a: Chimecho|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Chimecho|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|38/100
+|move|p1a: Forretress|Spikes|p2a: Chimecho
+|-sidestart|p2: Ninja1738|Spikes
+|
+|-heal|p1a: Forretress|44/100|[from] item: Leftovers
+|-damage|p2a: Chimecho|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Chimecho|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|5/100
+|move|p1a: Forretress|Spikes|p2a: Chimecho
+|-sidestart|p2: Ninja1738|Spikes
+|
+|-heal|p1a: Forretress|11/100|[from] item: Leftovers
+|-damage|p2a: Chimecho|64/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Chimecho|Shadow Ball|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-damage|p2a: Chimecho|39/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Aggron|Aggron, L82, F|100/100
+|turn|5
+|
+|move|p2a: Chimecho|Heal Bell|p2a: Chimecho
+|-activate|p2a: Chimecho|move: Heal Bell
+|-curestatus|p2a: Chimecho|tox|[msg]
+|move|p1a: Aggron|Heavy Slam|p2a: Chimecho
+|-damage|p2a: Chimecho|0 fnt
+|faint|p2a: Chimecho
+|
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, L80, M|100/100
+|-damage|p2a: Heatran|84/100|[from] Spikes
+|turn|6
+
+|
+|move|p2a: Heatran|Magma Storm|p1a: Aggron
+|-damage|p1a: Aggron|31/100
+|-activate|p1a: Aggron|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Aggron|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Aggron|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+
+|
+|switch|p2a: Sharpedo|Sharpedo, L83, F|100/100
+|-damage|p2a: Sharpedo|84/100|[from] Spikes
+|turn|7
+
+|
+|detailschange|p1a: Aggron|Aggron-Mega, L82, F
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p2a: Sharpedo|Ice Beam|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|13/100
+|-damage|p2a: Sharpedo|74/100|[from] item: Life Orb
+|move|p1a: Aggron|Thunder Wave|p2a: Sharpedo
+|-status|p2a: Sharpedo|par
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|8
+
+|
+|cant|p2a: Sharpedo|par
+|move|p1a: Aggron|Roar|p2a: Sharpedo
+|drag|p2a: Donphan|Donphan, L84, M|100/100
+|-damage|p2a: Donphan|84/100|[from] Spikes
+|
+|-heal|p2a: Donphan|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Donphan|Ice Shard|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|10/100
+|move|p1a: Aggron|Roar|p2a: Donphan
+|drag|p2a: Audino|Audino, L86, M|100/100
+|-damage|p2a: Audino|84/100|[from] Spikes
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Audino|Fire Blast|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|
+|switch|p1a: Ursaring|Ursaring, L89, M|100/100
+|turn|11
+
+|
+|move|p1a: Ursaring|Swords Dance|p1a: Ursaring
+|-boost|p1a: Ursaring|atk|2
+|move|p2a: Audino|Dazzling Gleam|p1a: Ursaring
+|-damage|p1a: Ursaring|85/100
+|
+|-status|p1a: Ursaring|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+
+|
+|move|p1a: Ursaring|Facade|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|-damage|p1a: Ursaring|79/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Donphan|Donphan, L84, M|90/100
+|-damage|p2a: Donphan|73/100|[from] Spikes
+|turn|13
+
+|
+|move|p1a: Ursaring|Close Combat|p2a: Donphan
+|-damage|p2a: Donphan|8/100
+|-unboost|p1a: Ursaring|def|1
+|-unboost|p1a: Ursaring|spd|1
+|move|p2a: Donphan|Stealth Rock|p1a: Ursaring
+|-sidestart|p1: PI GRECO 31415926.|move: Stealth Rock
+|
+|-heal|p2a: Donphan|15/100|[from] item: Leftovers
+|-damage|p1a: Ursaring|66/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Ursaring|Facade|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-damage|p1a: Ursaring|48/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Sharpedo|Sharpedo, L83, F|74/100 par
+|-damage|p2a: Sharpedo|57/100 par|[from] Spikes
+|turn|15
+
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Ursaring|Facade|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-damage|p1a: Ursaring|23/100 tox|[from] psn
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|16
+
+|
+|cant|p2a: Sharpedo|par
+|move|p1a: Ursaring|Facade|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|-damage|p1a: Ursaring|0 fnt|[from] psn
+|faint|p1a: Ursaring
+|upkeep
+
+|
+|switch|p2a: Groudon|Groudon, L78|100/100
+|switch|p1a: Hawlucha|Hawlucha, L80, M|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|-damage|p2a: Groudon|84/100|[from] Spikes
+|detailschange|p2a: Groudon|Groudon-Primal, L78
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|17
+
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Groudon|Fire Punch|p1a: Hawlucha
+|-damage|p1a: Hawlucha|14/100
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|39/100|[from] item: Sitrus Berry
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|18
+
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Groudon
+|-crit|p2a: Groudon
+|-damage|p2a: Groudon|4/100
+|move|p2a: Groudon|Fire Punch|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, L83, F|100/100
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p1a: Mienshao|Fake Out|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-damage|p1a: Mienshao|85/100|[from] item: Life Orb
+|faint|p2a: Groudon
+|-weather|none
+|
+|win|PI GRECO 31415926.

@@ -1,0 +1,649 @@
+|init|battle
+|title|Lostkiller vs. ulyss
+|j|☆Lostkiller
+|j|☆ulyss
+|player|p1|Lostkiller|171|1396
+|player|p2|ulyss|153|1414
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Jirachi|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Greninja, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Heatran, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Azumarill, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lostkiller)
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|1
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Jirachi|U-turn|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|89/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Magnezone|atk|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: ulyss|move: Stealth Rock
+|move|p2a: Magnezone|Flash Cannon|p1a: Landorus
+|-damage|p1a: Landorus|39/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-damage|p2a: Tapu Bulu|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Landorus|Earthquake|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|77/100
+|
+|-heal|p2a: Tapu Bulu|83/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|89/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|move|p1a: Landorus|Knock Off|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|77/100
+|-enditem|p2a: Tapu Bulu|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|move|p2a: Tapu Bulu|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-heal|p2a: Tapu Bulu|83/100|[from] Grassy Terrain
+|-damage|p1a: Landorus|27/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|94/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Tapu Bulu|Leech Seed|p1a: Volcarona
+|-start|p1a: Volcarona|move: Leech Seed
+|
+|-heal|p2a: Tapu Bulu|99/100|[from] Grassy Terrain
+|-damage|p1a: Volcarona|88/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|100/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Volcarona|Fiery Dance|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Volcarona|94/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] Grassy Terrain
+|-damage|p1a: Volcarona|82/100|[from] Leech Seed|[of] p2a: Heatran
+|upkeep
+|turn|7
+|
+|switch|p1a: Landorus|Landorus-Therian, M|27/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Lostkiller|move: Stealth Rock
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-damage|p2a: Tapu Bulu|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Landorus|Knock Off|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|80/100
+|
+|-heal|p2a: Tapu Bulu|86/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Tapu Bulu|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-heal|p1a: Jirachi|100/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|92/100|[from] Grassy Terrain
+|-damage|p1a: Jirachi|88/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|100/100|[silent]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Tapu Bulu|Protect|p2a: Tapu Bulu
+|-singleturn|p2a: Tapu Bulu|Protect
+|move|p1a: Jirachi|U-turn|p2a: Tapu Bulu
+|-activate|p2a: Tapu Bulu|move: Protect
+|
+|-heal|p1a: Jirachi|94/100|[from] Grassy Terrain
+|-damage|p1a: Jirachi|82/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|upkeep
+|turn|11
+
+|
+|move|p1a: Jirachi|U-turn|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|81/100
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|27/100|[from]move: U-turn
+|-damage|p1a: Landorus|15/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Bulu|atk|1
+|move|p2a: Tapu Bulu|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-heal|p2a: Tapu Bulu|87/100|[from] Grassy Terrain
+|-damage|p1a: Landorus|3/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|98/100|[silent]
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Jirachi|Jirachi|82/100
+|-damage|p1a: Jirachi|76/100|[from] Stealth Rock
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|82/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+
+|
+|move|p1a: Jirachi|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|96/100
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|3/100|[from]move: U-turn
+|-damage|p1a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p1a: Landorus
+|move|p2a: Heatran|Lava Plume|p1: Landorus|[notarget]
+|-fail|p2a: Heatran
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|14
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, F
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Tyranitar|Stone Edge|p2a: Heatran
+|-damage|p2a: Heatran|40/100
+|move|p2a: Heatran|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|47/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|98/100
+|-damage|p2a: Tapu Bulu|86/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Tyranitar|Crunch|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Bulu|55/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|88/100 tox|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|61/100|[from] Grassy Terrain
+|-damage|p1a: Tyranitar|76/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Tapu Bulu|Protect|p2a: Tapu Bulu
+|-singleturn|p2a: Tapu Bulu|Protect
+|move|p1a: Tyranitar|Ice Punch|p2a: Tapu Bulu
+|-activate|p2a: Tapu Bulu|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Bulu|55/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|82/100 tox|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|61/100|[from] Grassy Terrain
+|-damage|p1a: Tyranitar|64/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azumarill|63/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|70/100 tox|[from] Grassy Terrain
+|-heal|p2a: Azumarill|69/100|[from] item: Leftovers
+|-heal|p2a: Azumarill|75/100|[from] Grassy Terrain
+|-damage|p1a: Tyranitar|45/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Azumarill
+|-damage|p2a: Azumarill|30/100
+|move|p2a: Azumarill|Whirlpool|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|34/100 tox
+|-activate|p1a: Tyranitar|move: Whirlpool|[of] p2a: Azumarill
+|
+|-weather|none
+|-heal|p1a: Tyranitar|40/100 tox|[from] Grassy Terrain
+|-heal|p2a: Azumarill|36/100|[from] item: Leftovers
+|-heal|p2a: Azumarill|42/100|[from] Grassy Terrain
+|-damage|p1a: Tyranitar|9/100 tox|[from] psn
+|-damage|p1a: Tyranitar|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p1a: Tyranitar
+|upkeep
+
+|inactive|Lostkiller has 120 seconds left.
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-damage|p1a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|19
+
+|
+|move|p2a: Azumarill|Protect|p2a: Azumarill
+|-singleturn|p2a: Azumarill|Protect
+|move|p1a: Tapu Koko|Discharge|p2a: Azumarill
+|-activate|p2a: Azumarill|move: Protect
+|
+|-heal|p2a: Azumarill|48/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|61/100
+|-damage|p2a: Tapu Bulu|48/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Tapu Koko|Discharge|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|36/100
+|-status|p2a: Tapu Bulu|par
+|
+|-heal|p1a: Tapu Koko|94/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|42/100 par|[from] Grassy Terrain
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Jirachi|Jirachi|82/100
+|-damage|p1a: Jirachi|76/100|[from] Stealth Rock
+|move|p2a: Tapu Bulu|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-heal|p1a: Jirachi|82/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|48/100 par|[from] Grassy Terrain
+|-damage|p1a: Jirachi|70/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|60/100 par|[silent]
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|94/100
+|-damage|p1a: Tapu Koko|82/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|switch|p2a: Magnezone|Magnezone|89/100
+|-damage|p2a: Magnezone|83/100|[from] Stealth Rock
+|
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Volcarona|Volcarona, M|82/100
+|-damage|p1a: Volcarona|32/100|[from] Stealth Rock
+|move|p2a: Magnezone|Thunderbolt|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|turn|24
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|60/100 par
+|-damage|p2a: Tapu Bulu|48/100 par|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Greninja|Dark Pulse|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|27/100 par
+|
+|-heal|p1a: Greninja|94/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|33/100 par|[from] Grassy Terrain
+|upkeep
+|turn|25
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|12/100 par
+|move|p2a: Tapu Bulu|Leech Seed|p1a: Greninja
+|-start|p1a: Greninja|move: Leech Seed
+|
+|-heal|p1a: Greninja|99/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|19/100 par|[from] Grassy Terrain
+|-damage|p1a: Greninja|88/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|29/100 par|[silent]
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Jirachi|Jirachi|70/100
+|-damage|p1a: Jirachi|64/100|[from] Stealth Rock
+|move|p2a: Tapu Bulu|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-heal|p1a: Jirachi|70/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|35/100 par|[from] Grassy Terrain
+|-damage|p1a: Jirachi|57/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|47/100 par|[silent]
+|upkeep
+|turn|27
+
+|
+|move|p1a: Jirachi|U-turn|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|30/100 par
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|82/100|[from]move: U-turn
+|-damage|p1a: Tapu Koko|69/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Tapu Bulu|Leech Seed|p1a: Tapu Koko
+|-start|p1a: Tapu Koko|move: Leech Seed
+|
+|-damage|p1a: Tapu Koko|57/100|[from] Leech Seed|[of] p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|40/100 par|[silent]
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Jirachi|Jirachi|57/100
+|-damage|p1a: Jirachi|51/100|[from] Stealth Rock
+|switch|p2a: Magnezone|Magnezone|83/100
+|-damage|p2a: Magnezone|77/100|[from] Stealth Rock
+|
+|upkeep
+|turn|29
+
+|
+|switch|p2a: Heatran|Heatran, M|47/100
+|-damage|p2a: Heatran|34/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|30/100
+
+|
+|switch|p1a: Greninja|Greninja, M|88/100|[from]move: U-turn
+|-damage|p1a: Greninja|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Heatran|36/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|31
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|57/100
+|-damage|p1a: Tapu Koko|44/100|[from] Stealth Rock
+|detailschange|p2a: Alakazam|Alakazam-Mega, F
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Electric Surge|[from] ability: Trace|[of] p1a: Tapu Koko
+|move|p2a: Alakazam|Focus Blast|p1a: Tapu Koko|[miss]
+|-miss|p2a: Alakazam|p1a: Tapu Koko
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|32
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|40/100 par
+|-damage|p2a: Tapu Bulu|28/100 par|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Tapu Koko|Discharge|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|15/100 par
+|
+|-heal|p1a: Tapu Koko|50/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|21/100 par|[from] Grassy Terrain
+|upkeep
+|turn|33
+
+|
+|move|p1a: Tapu Koko|Discharge|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|7/100 par
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|-heal|p2a: Tapu Bulu|28/100 par|[from] drain|[of] p1a: Tapu Koko
+|faint|p1a: Tapu Koko
+|
+|-heal|p2a: Tapu Bulu|34/100 par|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Jirachi|Jirachi|51/100
+|-damage|p1a: Jirachi|45/100|[from] Stealth Rock
+|turn|34
+
+|
+|move|p1a: Jirachi|U-turn|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|16/100 par
+
+|
+|switch|p1a: Greninja|Greninja-Ash, M|76/100|[from]move: U-turn
+|-damage|p1a: Greninja|63/100|[from] Stealth Rock
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-heal|p2a: Tapu Bulu|42/100 par|[from] drain|[of] p1a: Greninja
+|faint|p1a: Greninja
+|
+|-heal|p2a: Tapu Bulu|48/100 par|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Jirachi|Jirachi|45/100
+|-damage|p1a: Jirachi|39/100|[from] Stealth Rock
+|turn|35
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|-heal|p1a: Jirachi|45/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Azumarill|Azumarill, F|48/100
+|-damage|p2a: Azumarill|36/100|[from] Stealth Rock
+|turn|36
+
+|
+|move|p2a: Azumarill|Protect|p2a: Azumarill
+|-singleturn|p2a: Azumarill|Protect
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-activate|p2a: Azumarill|move: Protect
+|
+|-heal|p1a: Jirachi|51/100|[from] Grassy Terrain
+|-heal|p2a: Azumarill|42/100|[from] item: Leftovers
+|-heal|p2a: Azumarill|48/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|37
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-damage|p2a: Azumarill|21/100
+|cant|p2a: Azumarill|flinch
+|
+|-heal|p2a: Azumarill|27/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|move|p2a: Azumarill|Protect|p2a: Azumarill
+|-singleturn|p2a: Azumarill|Protect
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-activate|p2a: Azumarill|move: Protect
+|
+|-heal|p2a: Azumarill|33/100|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-damage|p2a: Azumarill|6/100
+|cant|p2a: Azumarill|flinch
+|
+|-heal|p2a: Azumarill|12/100|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|
+|move|p2a: Azumarill|Protect|p2a: Azumarill
+|-singleturn|p2a: Azumarill|Protect
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-activate|p2a: Azumarill|move: Protect
+|
+|-heal|p2a: Azumarill|19/100|[from] item: Leftovers
+|upkeep
+|turn|41
+
+|
+|move|p2a: Azumarill|Protect|p2a: Azumarill
+|-singleturn|p2a: Azumarill|Protect
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-activate|p2a: Azumarill|move: Protect
+|
+|-heal|p2a: Azumarill|25/100|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|
+|move|p2a: Azumarill|Protect||[still]
+|-fail|p2a: Azumarill
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-damage|p2a: Azumarill|1/100
+|
+|-heal|p2a: Azumarill|7/100|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|
+|move|p2a: Azumarill|Protect|p2a: Azumarill
+|-singleturn|p2a: Azumarill|Protect
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-activate|p2a: Azumarill|move: Protect
+|
+|-heal|p2a: Azumarill|13/100|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|
+|move|p2a: Azumarill|Protect||[still]
+|-fail|p2a: Azumarill
+|move|p1a: Jirachi|Iron Head|p2a: Azumarill
+|-crit|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+
+|
+|switch|p2a: Magnezone|Magnezone|77/100
+|-damage|p2a: Magnezone|71/100|[from] Stealth Rock
+|turn|45
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|61/100
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|36/100
+|
+|upkeep
+|turn|46
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|move: Substitute|[damage]
+|move|p2a: Magnezone|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|4/100
+|
+|upkeep
+|turn|47
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|move: Substitute|[damage]
+|move|p2a: Magnezone|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|win|ulyss

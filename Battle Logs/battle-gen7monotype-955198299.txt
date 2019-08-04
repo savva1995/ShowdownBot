@@ -1,0 +1,173 @@
+|init|battle
+|title|Ghisteslwchlohm vs. the_jarems
+|j|☆Ghisteslwchlohm
+|j|☆the_jarems
+|player|p1|Ghisteslwchlohm|224|1145
+|player|p2|the_jarems|2|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Weavile, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Glalie, M|item
+|poke|p1|Froslass, F|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Dragalge, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Latias, F|item
+|teampreview
+|
+|start
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Toxic|p1a: Cloyster
+|-status|p1a: Cloyster|tox
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|-damage|p1a: Cloyster|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|29/100
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-hitcount|p2a: Garchomp|2
+|faint|p2a: Garchomp
+|
+|-damage|p1a: Cloyster|82/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|3
+
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Cloyster
+|-damage|p1a: Cloyster|32/100 tox
+|-damage|p2a: Dragonite|84/100|[from] item: Rocky Helmet|[of] p1a: Cloyster
+|move|p1a: Cloyster|Icicle Spear|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|2/100
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-hitcount|p2a: Dragonite|2
+|faint|p2a: Dragonite
+|
+|-damage|p1a: Cloyster|14/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Dragalge|Dragalge, F|100/100
+|turn|4
+
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|62/100
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|23/100
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|-hitcount|p2a: Dragalge|3
+|faint|p2a: Dragalge
+|
+|-damage|p1a: Cloyster|0 fnt|[from] psn
+|faint|p1a: Cloyster
+|upkeep
+
+|
+|switch|p1a: Glalie|Glalie, M|100/100
+|switch|p2a: Latias|Latias, F|100/100
+|turn|5
+
+|
+|detailschange|p2a: Latias|Latias-Mega, F
+|-mega|p2a: Latias|Latias|Latiasite
+|detailschange|p1a: Glalie|Glalie-Mega, M
+|-mega|p1a: Glalie|Glalie|Glalitite
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Glalie|Body Slam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|22/100
+|
+|upkeep
+|turn|6
+
+|c|☆Ghisteslwchlohm|so bold
+
+|
+|move|p1a: Glalie|Ice Shard|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+
+|c|☆the_jarems|lmfao
+
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|7
+
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|upkeep
+
+|
+|switch|p1a: Kyurem|Kyurem-Black, shiny|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|8
+
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Kyurem
+|-damage|p1a: Kyurem|69/100
+|move|p1a: Kyurem|Ice Beam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|9
+
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|win|Ghisteslwchlohm

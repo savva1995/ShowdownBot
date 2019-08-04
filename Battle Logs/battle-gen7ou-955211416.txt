@@ -1,0 +1,140 @@
+|init|battle
+|title|jvhbknlmae vs. mountainsoundss
+|j|☆jvhbknlmae
+|j|☆mountainsoundss
+|player|p1|jvhbknlmae|2|1108
+|player|p2|mountainsoundss|102|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, M|item
+|poke|p1|Greninja, F|item
+|poke|p1|Kommo-o, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Lopunny, M|item
+|poke|p1|Cloyster, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Hawlucha, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|
+|start
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Cloyster
+|-sidestart|p1: jvhbknlmae|move: Stealth Rock
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jvhbknlmae)
+
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|23/100
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-hitcount|p2a: Garchomp|2
+|faint|p2a: Garchomp
+|
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|3
+
+|
+|move|p1a: Cloyster|Spikes|p2a: Rotom
+|-sidestart|p2: mountainsoundss|Spikes
+|move|p2a: Rotom|Will-O-Wisp|p1a: Cloyster
+|-status|p1a: Cloyster|brn
+|
+|-damage|p1a: Cloyster|94/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Cloyster|Explosion|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|faint|p1a: Cloyster
+|move|p2a: Rotom|Hydro Pump|p1: Cloyster|[notarget]
+|-fail|p2a: Rotom
+|
+|-heal|p2a: Rotom|51/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|turn|5
+
+|
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Rotom|[zeffect]
+|-damage|p2a: Rotom|0 fnt
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|faint|p2a: Rotom
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-damage|p2a: Tapu Koko|88/100|[from] Spikes
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|6
+
+|
+|move|p1a: Kommo-o|Stealth Rock|p2a: Tapu Koko
+|-sidestart|p2: mountainsoundss|move: Stealth Rock
+|move|p2a: Tapu Koko|Hidden Power|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|47/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Kommo-o|Poison Jab|p2a: Tapu Koko
+|-supereffective|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|10/100
+|-zpower|p2a: Tapu Koko
+|move|p2a: Tapu Koko|Gigavolt Havoc|p1a: Kommo-o|[zeffect]
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|13/100
+|
+|upkeep
+|turn|8
+
+|-message|mountainsoundss forfeited.
+
+|
+|win|jvhbknlmae

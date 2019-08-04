@@ -1,0 +1,132 @@
+|init|battle
+|title|ejm0625 vs. KangourouMasque
+|j|☆ejm0625
+|j|☆KangourouMasque
+|player|p1|ejm0625|138|1168
+|player|p2|KangourouMasque|2|1131
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bibarel, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Medicham, F|item
+|poke|p1|Ninetales-Alola, M|item
+|poke|p2|Manectric, F|item
+|poke|p2|Crawdaunt, F|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Manectric|Manectric, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Manectric|atk|1
+|turn|1
+
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Tornadus|Hurricane|p1a: Honchkrow
+|-damage|p1a: Honchkrow|9/100
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|move|p1a: Honchkrow|Pursuit|p2a: Tornadus
+|-damage|p2a: Tornadus|60/100
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Tornadus|Heat Wave|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|20/100
+|-damage|p2a: Tornadus|51/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|move|p1a: Magnezone|Hyper Beam|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-mustrecharge|p1a: Magnezone
+|faint|p2a: Manectric
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|5
+
+|
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|cant|p1a: Magnezone|recharge
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Medicham|Medicham, F|100/100
+|move|p2a: Tapu Fini|Surf|p1a: Medicham
+|-damage|p1a: Medicham|31/100
+|
+|upkeep
+|turn|7
+
+|
+|detailschange|p1a: Medicham|Medicham-Mega, F
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Poison Jab|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|20/100
+|move|p2a: Tapu Fini|Surf|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Fini|atk|1
+|turn|8
+
+|
+|move|p1a: Landorus|Stone Edge|p2a: Tapu Fini|[miss]
+|-miss|p1a: Landorus|p2a: Tapu Fini
+|-zpower|p2a: Tapu Fini
+|move|p2a: Tapu Fini|Hydro Vortex|p1a: Landorus|[zeffect]
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+
+|-message|ejm0625 forfeited.
+
+|
+|win|KangourouMasque

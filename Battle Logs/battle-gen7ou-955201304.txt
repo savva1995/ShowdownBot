@@ -1,0 +1,420 @@
+|init|battle
+|title|gonxosantos88 vs. Yayou
+|j|☆gonxosantos88
+|j|☆Yayou
+|player|p1|gonxosantos88|238|1194
+|player|p2|Yayou|80|1188
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cloyster, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Emboar, M|item
+|poke|p1|Dragalge, F|item
+|poke|p1|Pidgeot, M|item
+|poke|p1|Decidueye, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Azumarill, F|item
+|poke|p2|Sableye, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Crobat, F|item
+|poke|p2|Greninja, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yayou)
+
+|inactive|gonxosantos88 has 120 seconds left.
+
+|
+|start
+|switch|p1a: Kranos|Pidgeot, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kranos|atk|1
+|turn|1
+
+|
+|move|p1a: Kranos|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|93/100
+
+|
+|switch|p1a: Wintersun|Cloyster, M|100/100|[from]move: U-turn
+|move|p2a: Landorus|Hidden Power|p1a: Wintersun
+|-resisted|p1a: Wintersun
+|-damage|p1a: Wintersun|89/100
+|-damage|p2a: Landorus|83/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Nolceia|Decidueye, F|100/100
+|move|p2a: Landorus|Earth Power|p1a: Nolceia
+|-resisted|p1a: Nolceia
+|-damage|p1a: Nolceia|83/100
+|-damage|p2a: Landorus|73/100|[from] item: Life Orb
+|
+|-heal|p1a: Nolceia|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Landorus|Knock Off|p1a: Nolceia
+|-supereffective|p1a: Nolceia
+|-damage|p1a: Nolceia|9/100
+|-enditem|p1a: Nolceia|Leftovers|[from] move: Knock Off|[of] p2a: Landorus
+|-damage|p2a: Landorus|63/100|[from] item: Life Orb
+|move|p1a: Nolceia|Spirit Shackle|p2a: Landorus
+|-damage|p2a: Landorus|30/100
+|-activate|p2a: Landorus|trapped
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Landorus|Knock Off|p1a: Nolceia
+|-supereffective|p1a: Nolceia
+|-damage|p1a: Nolceia|0 fnt
+|-damage|p2a: Landorus|20/100|[from] item: Life Orb
+|faint|p1a: Nolceia
+|
+|upkeep
+
+|
+|switch|p1a: Baal Hammon|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Baal Hammon
+|turn|5
+
+|
+|detailschange|p1a: Baal Hammon|Tyranitar-Mega, M
+|-mega|p1a: Baal Hammon|Tyranitar|Tyranitarite
+|move|p2a: Landorus|Earth Power|p1a: Baal Hammon
+|-supereffective|p1a: Baal Hammon
+|-damage|p1a: Baal Hammon|38/100
+|-damage|p2a: Landorus|10/100|[from] item: Life Orb
+|move|p1a: Baal Hammon|Dragon Dance|p1a: Baal Hammon
+|-boost|p1a: Baal Hammon|atk|1
+|-boost|p1a: Baal Hammon|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p1a: Baal Hammon|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|7
+
+|
+|switch|p1a: Wintersun|Cloyster, M|89/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Wintersun
+|-resisted|p1a: Wintersun
+|-damage|p1a: Wintersun|82/100
+|-damage|p2a: Azumarill|84/100|[from] item: Rocky Helmet|[of] p1a: Wintersun
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wintersun|76/100|[from] Sandstorm
+|-damage|p2a: Azumarill|78/100|[from] Sandstorm
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|move|p1a: Wintersun|Ice Beam|p2a: Sableye
+|-damage|p2a: Sableye|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wintersun|70/100|[from] Sandstorm
+|-damage|p2a: Sableye|68/100|[from] Sandstorm
+|upkeep
+|turn|9
+
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Wintersun|Ice Beam|p2a: Sableye
+|-damage|p2a: Sableye|46/100
+|-status|p2a: Sableye|frz
+|cant|p2a: Sableye|frz
+|
+|-weather|none
+|upkeep
+|turn|10
+
+|
+|move|p1a: Wintersun|Ice Beam|p2a: Sableye
+|-damage|p2a: Sableye|26/100 frz
+|-curestatus|p2a: Sableye|frz|[msg]
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|76/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Ganon|Emboar, M|100/100
+|move|p2a: Sableye|Knock Off|p1a: Ganon
+|-resisted|p1a: Ganon
+|-damage|p1a: Ganon|85/100
+|-enditem|p1a: Ganon|Figy Berry|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Ganon|Flare Blitz|p2a: Sableye
+|-damage|p2a: Sableye|7/100
+|-damage|p1a: Ganon|68/100|[from] Recoil
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|57/100
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Azumarill|Azumarill, F|78/100
+|move|p1a: Ganon|Flare Blitz|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|42/100
+|-damage|p1a: Ganon|56/100|[from] Recoil
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Wintersun|Cloyster, M|70/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Wintersun
+|-resisted|p1a: Wintersun
+|-damage|p1a: Wintersun|63/100
+|-damage|p2a: Azumarill|26/100|[from] item: Rocky Helmet|[of] p1a: Wintersun
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Wintersun|Ice Beam|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|16/100
+|move|p2a: Azumarill|Power-Up Punch|p1a: Wintersun
+|-supereffective|p1a: Wintersun
+|-damage|p1a: Wintersun|43/100
+|-damage|p2a: Azumarill|0 fnt|[from] item: Rocky Helmet|[of] p1a: Wintersun
+|faint|p2a: Azumarill
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|16
+
+|
+|move|p2a: Greninja|Dark Pulse|p1a: Wintersun
+|-damage|p1a: Wintersun|0 fnt
+|faint|p1a: Wintersun
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p1a: Sakura|Dragalge, F|100/100
+|turn|17
+
+|
+|move|p2a: Greninja|Ice Beam|p1a: Sakura
+|-supereffective|p1a: Sakura
+|-damage|p1a: Sakura|42/100
+|move|p1a: Sakura|Draco Meteor|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-unboost|p1a: Sakura|spa|2
+|faint|p2a: Greninja
+|
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, F|100/100
+|turn|18
+
+|
+|switch|p1a: Kranos|Pidgeot, M|100/100
+|move|p2a: Crobat|Brave Bird|p1a: Kranos
+|-crit|p1a: Kranos
+|-damage|p1a: Kranos|0 fnt
+|-damage|p2a: Crobat|68/100|[from] Recoil
+|faint|p1a: Kranos
+|
+|-heal|p2a: Crobat|74/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Baal Hammon|Tyranitar-Mega, M|38/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Baal Hammon
+|turn|19
+
+|
+|move|p2a: Crobat|Taunt|p1a: Baal Hammon
+|-start|p1a: Baal Hammon|move: Taunt
+|cant|p1a: Baal Hammon|move: Taunt|Dragon Dance
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|68/100|[from] Sandstorm
+|-heal|p2a: Crobat|74/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Sableye|Sableye-Mega, M|57/100
+|move|p1a: Baal Hammon|Fire Punch|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sableye|6/100|[from] Sandstorm
+|upkeep
+|turn|21
+
+|
+|move|p1a: Baal Hammon|Fire Punch|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p1a: Baal Hammon|move: Taunt
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|22
+
+|
+|switch|p1a: Ganon|Emboar, M|56/100
+|move|p2a: Scizor|Bullet Punch|p1a: Ganon
+|-resisted|p1a: Ganon
+|-damage|p1a: Ganon|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ganon|34/100|[from] Sandstorm
+|upkeep
+|turn|23
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Ganon
+|-resisted|p1a: Ganon
+|-damage|p1a: Ganon|16/100
+|move|p1a: Ganon|Flare Blitz|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-damage|p1a: Ganon|0 fnt|[from] item: Rocky Helmet|[of] p2a: Scizor
+|faint|p2a: Scizor
+|faint|p1a: Ganon
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, F|74/100
+|switch|p1a: Baal Hammon|Tyranitar-Mega, M|38/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Baal Hammon
+|turn|24
+
+|
+|move|p2a: Crobat|Toxic|p1a: Baal Hammon
+|-status|p1a: Baal Hammon|tox
+|move|p1a: Baal Hammon|Rock Slide|p2a: Crobat|[miss]
+|-miss|p1a: Baal Hammon|p2a: Crobat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|68/100|[from] Sandstorm
+|-heal|p2a: Crobat|74/100|[from] item: Black Sludge
+|-damage|p1a: Baal Hammon|32/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|inactive|Yayou has 120 seconds left.
+
+|
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100
+|-singleturn|p2a: Crobat|move: Roost
+|move|p1a: Baal Hammon|Rock Slide|p2a: Crobat
+|-damage|p2a: Crobat|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|37/100|[from] Sandstorm
+|-heal|p2a: Crobat|43/100|[from] item: Black Sludge
+|-damage|p1a: Baal Hammon|20/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|inactive|Yayou has 120 seconds left.
+
+|
+|switch|p1a: Sakura|Dragalge, F|42/100
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|93/100
+|-singleturn|p2a: Crobat|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|87/100|[from] Sandstorm
+|-damage|p1a: Sakura|36/100|[from] Sandstorm
+|-heal|p2a: Crobat|93/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+
+|inactive|Yayou has 120 seconds left.
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Sakura
+|-damage|p1a: Sakura|0 fnt
+|-damage|p2a: Crobat|80/100|[from] Recoil
+|faint|p1a: Sakura
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|74/100|[from] Sandstorm
+|-heal|p2a: Crobat|80/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Baal Hammon|Tyranitar-Mega, M|20/100 tox
+|turn|28
+
+|
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100
+|-singleturn|p2a: Crobat|move: Roost
+|move|p1a: Baal Hammon|Dragon Dance|p1a: Baal Hammon
+|-boost|p1a: Baal Hammon|atk|1
+|-boost|p1a: Baal Hammon|spe|1
+|
+|-weather|none
+|-damage|p1a: Baal Hammon|13/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|
+|move|p1a: Baal Hammon|Rock Slide|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-crit|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|win|gonxosantos88

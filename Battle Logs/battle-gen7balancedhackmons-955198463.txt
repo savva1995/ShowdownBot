@@ -1,0 +1,600 @@
+|init|battle
+|title|it's RAYning men vs. trytyui
+|j|☆it's RAYning men
+|j|☆trytyui
+|player|p1|it's RAYning men|125|1093
+|player|p2|trytyui|2|1043
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Balanced Hackmons
+|rated|
+|rule|Ability Clause: Limit two of each ability
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|CFZ Clause: Crystal-free Z-Moves are banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rayquaza-Mega|item
+|poke|p1|Gengar-Mega, F|item
+|poke|p1|Mewtwo-Mega-X|item
+|poke|p1|Chansey, F|item
+|poke|p1|Giratina|item
+|poke|p1|Yveltal|item
+|poke|p2|Heracross-Mega, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Chansey, F|item
+|poke|p2|Steelix-Mega, F|item
+|poke|p2|Mewtwo-Mega-X|item
+|poke|p2|Tyranitar-Mega, M|item
+|teampreview
+|
+|start
+|switch|p1a: Mewtwo|Mewtwo-Mega-X|100/100
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|turn|1
+|
+|move|p2a: Kyurem|Fake Out|p1a: Mewtwo
+|-damage|p1a: Mewtwo|76/100
+|cant|p1a: Mewtwo|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Kyurem|Extreme Speed|p1a: Mewtwo
+|-damage|p1a: Mewtwo|25/100
+|move|p1a: Mewtwo|U-turn|p2a: Kyurem
+|-damage|p2a: Kyurem|73/100
+|
+|switch|p1a: Chansey|Chansey, F|100/100|[from]move: U-turn
+|-transform|p1a: Chansey|p2a: Kyurem|[from] ability: Imposter
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Steelix|Steelix-Mega, F|100/100
+|move|p1a: Chansey|Boomburst|p2a: Steelix
+|-damage|p2a: Steelix|36/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Chansey|Extreme Speed|p2a: Steelix
+|-damage|p2a: Steelix|10/100
+|-damage|p1a: Chansey|84/100|[from] item: Rocky Helmet|[of] p2a: Steelix
+|move|p2a: Steelix|Strength Sap|p1a: Chansey
+|-unboost|p1a: Chansey|atk|1
+|-heal|p2a: Steelix|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Chansey|Boomburst|p2a: Steelix
+|-damage|p2a: Steelix|31/100
+|move|p2a: Steelix|Shore Up|p2a: Steelix
+|-heal|p2a: Steelix|81/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Chansey|Boomburst|p2a: Steelix
+|-damage|p2a: Steelix|16/100
+|move|p2a: Steelix|Strength Sap|p1a: Chansey
+|-unboost|p1a: Chansey|atk|1
+|-heal|p2a: Steelix|100/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Chansey|Boomburst|p2a: Steelix
+|-damage|p2a: Steelix|35/100
+|move|p2a: Steelix|Shore Up|p2a: Steelix
+|-heal|p2a: Steelix|85/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Chansey|Stealth Rock|p2a: Steelix
+|-sidestart|p2: trytyui|move: Stealth Rock
+|move|p2a: Steelix|Anchor Shot|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|61/100
+|-activate|p1a: Chansey|trapped
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Chansey|Boomburst|p2a: Steelix
+|-damage|p2a: Steelix|23/100
+|move|p2a: Steelix|Strength Sap|p1a: Chansey
+|-unboost|p1a: Chansey|atk|1
+|-heal|p2a: Steelix|91/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Chansey|Extreme Speed|p2a: Steelix
+|-damage|p2a: Steelix|66/100
+|-damage|p1a: Chansey|44/100|[from] item: Rocky Helmet|[of] p2a: Steelix
+|move|p2a: Steelix|Anchor Shot|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|10/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Chansey|Extreme Speed|p2a: Steelix
+|-damage|p2a: Steelix|42/100
+|-damage|p1a: Chansey|0 fnt|[from] item: Rocky Helmet|[of] p2a: Steelix
+|faint|p1a: Chansey
+|move|p2a: Steelix|Shore Up|p2a: Steelix
+|-heal|p2a: Steelix|92/100
+|
+|upkeep
+
+|
+|switch|p1a: Mewtwo|Mewtwo-Mega-X|25/100
+|turn|12
+
+|
+|move|p1a: Mewtwo|Close Combat|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|-damage|p1a: Mewtwo|9/100|[from] item: Rocky Helmet|[of] p2a: Steelix
+|-unboost|p1a: Mewtwo|def|1
+|-unboost|p1a: Mewtwo|spd|1
+|faint|p2a: Steelix
+|
+|upkeep
+
+|
+|switch|p2a: Kyurem|Kyurem-Black|73/100
+|-damage|p2a: Kyurem|48/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Kyurem|Fake Out|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|upkeep
+
+|
+|switch|p1a: Rayquaza|Rayquaza-Mega|100/100
+|turn|14
+
+|
+|move|p2a: Kyurem|Extreme Speed|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-enditem|p1a: Rayquaza|Focus Sash
+|-damage|p1a: Rayquaza|1/100
+|move|p1a: Rayquaza|Dragon Hammer|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+
+|
+|switch|p2a: Mewtwo|Mewtwo-Mega-X|100/100
+|-damage|p2a: Mewtwo|94/100|[from] Stealth Rock
+|turn|15
+
+|
+|switch|p1a: Giratina|Giratina|100/100
+|move|p2a: Mewtwo|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|59/100
+|-enditem|p1a: Giratina|Safety Goggles|[from] move: Knock Off|[of] p2a: Mewtwo
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|-transform|p2a: Chansey|p1a: Giratina|[from] ability: Imposter
+|move|p1a: Giratina|Strength Sap|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|-heal|p1a: Giratina|96/100
+|
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Yveltal
+|-sidestart|p1: it's RAYning men|move: Stealth Rock
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Chansey|Core Enforcer|p1a: Yveltal
+|-crit|p1a: Yveltal
+|-damage|p1a: Yveltal|75/100
+|move|p1a: Yveltal|Rapid Spin|p2a: Chansey
+|-immune|p2a: Chansey
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Chansey|Core Enforcer|p1a: Yveltal
+|-damage|p1a: Yveltal|60/100
+|move|p1a: Yveltal|Knock Off|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|66/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Yveltal
+|
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Heracross|Heracross-Mega, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|move|p1a: Yveltal|Revelation Dance|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|72/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Giratina|Giratina|96/100
+|-damage|p1a: Giratina|83/100|[from] Stealth Rock
+|move|p2a: Heracross|Swords Dance|p2a: Heracross
+|-boost|p2a: Heracross|atk|2
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Heracross|Leech Life|p1a: Giratina
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|46/100
+|-heal|p2a: Heracross|97/100|[from] drain|[of] p1a: Giratina
+|-damage|p2a: Heracross|88/100|[from] item: Life Orb
+|move|p1a: Giratina|Haze|p1a: Giratina
+|-clearallboost
+|
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Tyranitar|Tyranitar-Mega, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|move|p1a: Giratina|Strength Sap|p2a: Tyranitar
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Tyranitar
+|
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Yveltal|Yveltal|93/100
+|-damage|p1a: Yveltal|68/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Knock Off|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|51/100
+|-enditem|p1a: Yveltal|Assault Vest|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Tyranitar|Toxic Spikes|p1a: Yveltal
+|-sidestart|p1: it's RAYning men|move: Toxic Spikes
+|move|p1a: Yveltal|Rapid Spin|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|87/100
+|-sideend|p1: it's RAYning men|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Yveltal
+|-sideend|p1: it's RAYning men|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Yveltal
+|
+|upkeep
+|turn|26
+
+|
+|move|p2a: Tyranitar|Toxic Spikes|p1a: Yveltal
+|-sidestart|p1: it's RAYning men|move: Toxic Spikes
+|move|p1a: Yveltal|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|76/100
+|-enditem|p2a: Tyranitar|Safety Goggles|[from] move: Knock Off|[of] p1a: Yveltal
+|
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Chansey|Chansey, F|66/100
+|-damage|p2a: Chansey|54/100|[from] Stealth Rock
+|-transform|p2a: Chansey|p1a: Yveltal|[from] ability: Imposter
+|move|p1a: Yveltal|Rapid Spin|p2a: Chansey
+|-damage|p2a: Chansey|51/100
+|-sideend|p1: it's RAYning men|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Yveltal
+|
+|upkeep
+|turn|28
+
+|
+|move|p2a: Chansey|Revelation Dance|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|39/100
+|move|p1a: Yveltal|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|42/100
+
+|
+|switch|p1a: Rayquaza|Rayquaza-Mega|1/100|[from]move: U-turn
+|
+|upkeep
+|turn|29
+
+|
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Chansey
+|-damage|p2a: Chansey|2/100
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|move|p2a: Chansey|Rapid Spin|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-sideend|p2: trytyui|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Chansey
+|faint|p1a: Rayquaza
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by trytyui)
+
+|
+|switch|p1a: Yveltal|Yveltal|73/100
+|turn|30
+
+|
+|switch|p2a: Heracross|Heracross-Mega, M|88/100
+|move|p1a: Yveltal|U-turn|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|79/100
+
+|
+|switch|p1a: Giratina|Giratina|46/100|[from]move: U-turn
+|
+|upkeep
+|turn|31
+
+|
+|switch|p2a: Tyranitar|Tyranitar-Mega, M|76/100
+|move|p1a: Giratina|Core Enforcer|p2a: Tyranitar
+|-damage|p2a: Tyranitar|49/100
+|
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|move|p2a: Tyranitar|Thunder Wave|p1a: Yveltal
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Yveltal
+|
+|upkeep
+|turn|33
+
+|
+|move|p2a: Tyranitar|Toxic Spikes|p1a: Yveltal
+|-sidestart|p1: it's RAYning men|move: Toxic Spikes
+|move|p1a: Yveltal|Revelation Dance|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|
+|upkeep
+|turn|34
+
+|
+|switch|p2a: Heracross|Heracross-Mega, M|79/100
+|move|p1a: Yveltal|U-turn|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|71/100
+
+|
+|switch|p1a: Gengar|Gengar-Mega, F|100/100|[from]move: U-turn
+|-sideend|p1: it's RAYning men|move: Toxic Spikes|[of] p1a: Gengar
+|
+|upkeep
+|turn|35
+
+|inactive|it's RAYning men has 120 seconds left.
+
+|
+|move|p2a: Heracross|Leech Life|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|82/100
+|-heal|p2a: Heracross|79/100|[from] drain|[of] p1a: Gengar
+|-damage|p2a: Heracross|69/100|[from] item: Life Orb
+|move|p1a: Gengar|Entrainment|p2a: Heracross
+|-endability|p2a: Heracross|Triage|[from] move: Entrainment
+|-ability|p2a: Heracross|Normalize|[from] move: Entrainment
+|
+|upkeep
+|turn|36
+
+|
+|switch|p2a: Mewtwo|Mewtwo-Mega-X|94/100
+|move|p1a: Gengar|Anchor Shot|p2a: Mewtwo
+|-damage|p2a: Mewtwo|81/100
+|-activate|p2a: Mewtwo|trapped
+|
+|upkeep
+|turn|37
+
+|
+|switch|p1a: Giratina|Giratina|46/100
+|move|p2a: Mewtwo|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|15/100
+|
+|upkeep
+|turn|38
+
+|
+|switch|p2a: Tyranitar|Tyranitar-Mega, M|34/100
+|move|p1a: Giratina|Strength Sap|p2a: Tyranitar
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Tyranitar
+|
+|upkeep
+|turn|39
+
+|inactive|it's RAYning men has 120 seconds left.
+
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|move|p2a: Tyranitar|Knock Off|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|89/100
+|
+|upkeep
+|turn|40
+
+|inactive|it's RAYning men has 120 seconds left.
+
+|
+|switch|p2a: Mewtwo|Mewtwo-Mega-X|81/100
+|move|p1a: Yveltal|U-turn|p2a: Mewtwo
+|-damage|p2a: Mewtwo|65/100
+
+|
+|switch|p1a: Giratina|Giratina|15/100|[from]move: U-turn
+|
+|upkeep
+|turn|41
+
+|
+|move|p1a: Giratina|Strength Sap||[still]
+|cant|p2a: Mewtwo|ability: Dazzling|Strength Sap|[of] p1a: Giratina
+|move|p2a: Mewtwo|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|upkeep
+
+|
+|switch|p1a: Gengar|Gengar-Mega, F|82/100
+|turn|42
+
+|
+|move|p1a: Gengar|Entrainment|p2a: Mewtwo
+|-endability|p2a: Mewtwo|Dazzling|[from] move: Entrainment
+|-ability|p2a: Mewtwo|Normalize|[from] move: Entrainment
+|move|p2a: Mewtwo|Knock Off|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|43
+
+|
+|switch|p2a: Tyranitar|Tyranitar-Mega, M|34/100
+|move|p1a: Gengar|Anchor Shot|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|30/100
+|-activate|p2a: Tyranitar|trapped
+|
+|upkeep
+|turn|44
+
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|move|p2a: Tyranitar|Thunder Wave|p1a: Yveltal
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Yveltal
+|
+|upkeep
+|turn|45
+
+|
+|move|p2a: Tyranitar|Knock Off|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|88/100
+|move|p1a: Yveltal|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|6/100
+
+|
+|switch|p1a: Gengar|Gengar-Mega, F|82/100|[from]move: U-turn
+|
+|upkeep
+|turn|46
+
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|move|p2a: Tyranitar|Knock Off|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|88/100
+|
+|upkeep
+|turn|47
+
+|
+|move|p2a: Tyranitar|Knock Off|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|75/100
+|move|p1a: Yveltal|Rapid Spin|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|5/100
+|
+|upkeep
+|turn|48
+
+|
+|move|p2a: Tyranitar|Knock Off|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|63/100
+|move|p1a: Yveltal|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+
+|
+|switch|p1a: Gengar|Gengar-Mega, F|82/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p2a: Mewtwo|Mewtwo-Mega-X|65/100
+|turn|49
+
+|
+|switch|p1a: Yveltal|Yveltal|97/100
+|move|p2a: Mewtwo|Shell Smash|p2a: Mewtwo
+|-unboost|p2a: Mewtwo|def|1
+|-unboost|p2a: Mewtwo|spd|1
+|-boost|p2a: Mewtwo|atk|2
+|-boost|p2a: Mewtwo|spa|2
+|-boost|p2a: Mewtwo|spe|2
+|
+|upkeep
+|turn|50
+
+|
+|move|p2a: Mewtwo|Close Combat|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-unboost|p2a: Mewtwo|def|1
+|-unboost|p2a: Mewtwo|spd|1
+|faint|p1a: Yveltal
+|
+|upkeep
+
+|-message|it's RAYning men forfeited.
+
+|
+|win|trytyui

@@ -1,0 +1,356 @@
+|init|battle
+|title|Honestly grow up vs. poopsino
+|j|☆Honestly grow up
+|j|☆poopsino
+|player|p1|Honestly grow up|107|1297
+|player|p2|poopsino|167|1287
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Deoxys|Deoxys-Defense, L78|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by poopsino)
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|67/100
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|59/100
+|-hitcount|p1a: Deoxys|2
+|move|p1a: Deoxys|Knock Off|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|90/100
+|
+|-heal|p1a: Deoxys|65/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|move|p1a: Deoxys|Spikes|p2a: Solgaleo
+|-sidestart|p2: poopsino|Spikes
+|
+|-heal|p1a: Deoxys|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Deoxys
+|-damage|p1a: Deoxys|34/100
+|move|p1a: Deoxys|Knock Off|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|77/100
+|-enditem|p2a: Solgaleo|Leftovers|[from] move: Knock Off|[of] p1a: Deoxys
+|
+|-heal|p1a: Deoxys|39/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Deoxys
+|-damage|p1a: Deoxys|1/100
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|51/100
+|
+|-heal|p1a: Deoxys|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Deoxys
+|-damage|p1a: Deoxys|18/100
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|68/100
+|
+|-heal|p1a: Deoxys|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Deoxys
+|-damage|p1a: Deoxys|35/100
+|move|p1a: Deoxys|Spikes|p2a: Solgaleo
+|-sidestart|p2: poopsino|Spikes
+|
+|-heal|p1a: Deoxys|41/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Solgaleo|Flare Blitz|p1a: Deoxys
+|-damage|p1a: Deoxys|8/100
+|-damage|p2a: Solgaleo|71/100|[from] Recoil
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|58/100
+|
+|-heal|p1a: Deoxys|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Sharpedo|Sharpedo, L83, F|100/100
+|-damage|p2a: Sharpedo|84/100|[from] Spikes
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|100/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Sharpedo|Crunch|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|16/100
+|-damage|p2a: Sharpedo|74/100|[from] item: Life Orb
+|move|p1a: Deoxys|Spikes|p2a: Sharpedo
+|-sidestart|p2: poopsino|Spikes
+|
+|-heal|p1a: Deoxys|22/100|[from] item: Leftovers
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|10
+
+|
+|move|p2a: Sharpedo|Crunch|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-damage|p2a: Sharpedo|64/100|[from] item: Life Orb
+|faint|p1a: Deoxys
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p1a: Togedemaru|Togedemaru, L86, F|100/100
+|-item|p1a: Togedemaru|Air Balloon
+|turn|11
+
+|
+|move|p2a: Sharpedo|Crunch|p1a: Togedemaru
+|-damage|p1a: Togedemaru|39/100
+|-enditem|p1a: Togedemaru|Air Balloon
+|-unboost|p1a: Togedemaru|def|1
+|-damage|p2a: Sharpedo|54/100|[from] item: Life Orb
+|move|p1a: Togedemaru|Zing Zap|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|upkeep
+
+|
+|switch|p2a: Nidoking|Nidoking, L82, M|100/100
+|-damage|p2a: Nidoking|76/100|[from] Spikes
+|turn|12
+
+|
+|move|p1a: Togedemaru|U-turn|p2a: Nidoking
+|-resisted|p2a: Nidoking
+|-damage|p2a: Nidoking|66/100
+
+|
+|switch|p1a: Claydol|Claydol, L88|100/100|[from]move: U-turn
+|move|p2a: Nidoking|Earth Power|p1a: Claydol
+|-immune|p1a: Claydol|[from] ability: Levitate
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Nidoking|Sludge Wave|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|78/100
+|move|p1a: Claydol|Stealth Rock|p2a: Nidoking
+|-sidestart|p2: poopsino|move: Stealth Rock
+|
+|-heal|p1a: Claydol|84/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Nidoking|Sludge Wave|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|60/100
+|move|p1a: Claydol|Earthquake|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|-heal|p1a: Claydol|66/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan-Mega, L78, F|90/100
+|-damage|p2a: Kangaskhan|65/100|[from] Spikes
+|-damage|p2a: Kangaskhan|53/100|[from] Stealth Rock
+|turn|15
+
+|
+|switch|p1a: Togedemaru|Togedemaru, L86, F|39/100
+|move|p2a: Kangaskhan|Sucker Punch||[still]
+|-fail|p2a: Kangaskhan
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Togedemaru|Wish|p1a: Togedemaru
+|move|p2a: Kangaskhan|Earthquake|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|-hitcount|p1a: Togedemaru|1
+|faint|p1a: Togedemaru
+|
+|upkeep
+
+|
+|switch|p1a: Luvdisc|Luvdisc, L89, F|100/100
+|turn|17
+
+|
+|move|p1a: Luvdisc|Toxic|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|tox
+|move|p2a: Kangaskhan|Power-Up Punch|p1a: Luvdisc
+|-damage|p1a: Luvdisc|82/100
+|-boost|p2a: Kangaskhan|atk|1
+|-damage|p1a: Luvdisc|75/100
+|-boost|p2a: Kangaskhan|atk|1
+|-hitcount|p1a: Luvdisc|2
+|
+|-heal|p1a: Luvdisc|100/100|[from] move: Wish|[wisher] Togedemaru
+|-damage|p2a: Kangaskhan|47/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Luvdisc|Sweet Kiss|p2a: Kangaskhan
+|-start|p2a: Kangaskhan|confusion
+|-activate|p2a: Kangaskhan|confusion
+|move|p2a: Kangaskhan|Return|p1a: Luvdisc
+|-damage|p1a: Luvdisc|0 fnt
+|-hitcount|p1a: Luvdisc|1
+|faint|p1a: Luvdisc
+|
+|-damage|p2a: Kangaskhan|34/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Claydol|Claydol, L88|66/100
+|turn|19
+
+|
+|-activate|p2a: Kangaskhan|confusion
+|-damage|p2a: Kangaskhan|13/100 tox|[from] confusion
+|move|p1a: Claydol|Stealth Rock||[still]
+|-fail|p1a: Claydol
+|
+|-heal|p1a: Claydol|72/100|[from] item: Leftovers
+|-damage|p2a: Kangaskhan|0 fnt|[from] psn
+|faint|p2a: Kangaskhan
+|upkeep
+
+|
+|switch|p2a: Latios|Latios, L81, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|20
+
+|
+|switch|p1a: Houndoom|Houndoom, L83, M|100/100
+|move|p2a: Latios|Trick||[still]
+|-fail|p2a: Latios
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Pyukumuku|Pyukumuku, L89, F|100/100
+|-damage|p2a: Pyukumuku|76/100|[from] Spikes
+|-damage|p2a: Pyukumuku|63/100|[from] Stealth Rock
+|detailschange|p1a: Houndoom|Houndoom-Mega, L83, M
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|move|p1a: Houndoom|Nasty Plot|p1a: Houndoom
+|-boost|p1a: Houndoom|spa|2
+|
+|-heal|p2a: Pyukumuku|70/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Houndoom|Nasty Plot|p1a: Houndoom
+|-boost|p1a: Houndoom|spa|2
+|move|p2a: Pyukumuku|Toxic|p1a: Houndoom
+|-status|p1a: Houndoom|tox
+|
+|-heal|p2a: Pyukumuku|76/100|[from] item: Leftovers
+|-damage|p1a: Houndoom|94/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|-damage|p1a: Houndoom|24/100 tox|[from] ability: Innards Out|[of] p2a: Pyukumuku
+|faint|p2a: Pyukumuku
+|
+|-damage|p1a: Houndoom|11/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|71/100
+|-damage|p2a: Solgaleo|46/100|[from] Spikes
+|-damage|p2a: Solgaleo|40/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|0 fnt
+|faint|p2a: Solgaleo
+|
+|-damage|p1a: Houndoom|0 fnt|[from] psn
+|faint|p1a: Houndoom
+|upkeep
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, F|100/100
+|switch|p2a: Latios|Latios, L81, M|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|25
+
+|
+|move|p2a: Latios|Trick|p1a: Gigalith
+|-activate|p2a: Latios|move: Trick|[of] p1a: Gigalith
+|-item|p1a: Gigalith|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Choice Band|[from] move: Trick
+|move|p1a: Gigalith|Stone Edge|p2a: Latios|[miss]
+|-miss|p1a: Gigalith|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|70/100|[from] Sandstorm
+|upkeep
+|turn|26
+
+|
+|move|p2a: Latios|Surf|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|62/100
+|move|p1a: Gigalith|Stone Edge|p2a: Latios
+|-damage|p2a: Latios|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|0 fnt|[from] Sandstorm
+|faint|p2a: Latios
+|
+|win|Honestly grow up
+|upkeep

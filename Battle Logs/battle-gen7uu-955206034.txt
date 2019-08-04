@@ -1,0 +1,395 @@
+|init|battle
+|title|N zyy vs. Roisku
+|j|☆N zyy
+|j|☆Roisku
+|player|p1|N zyy|102|1475
+|player|p2|Roisku|2|1387
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zygarde-10%|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Aerodactyl, F|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Galvantula, F|item
+|poke|p2|Gengar, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Roserade, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Umbreon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Roisku)
+|
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|1
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Scizor
+|-sidestart|p1: N zyy|move: Sticky Web
+|move|p1a: Scizor|U-turn|p2a: Galvantula
+|-damage|p2a: Galvantula|38/100
+|
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|-activate|p2a: Galvantula|move: Pursuit
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, F
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Pursuit|p2a: Galvantula|[from]Pursuit
+|-damage|p2a: Galvantula|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|3
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Scizor|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|89/100
+|
+|switch|p2a: Gengar|Gengar, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|-damage|p2a: Gengar|91/100|[from] item: Life Orb
+|move|p1a: Rotom|Volt Switch|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|29/100
+|j| thunder dlolt
+|
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|5
+|
+|-activate|p2a: Gengar|move: Pursuit
+|move|p1a: Aerodactyl|Pursuit|p2a: Gengar|[from]Pursuit
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Aerodactyl|Disable|Pursuit|[from] ability: Cursed Body|[of] p2a: Gengar
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Heat|34/100
+|move|p2a: Scizor|Bullet Punch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|29/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Defog|p2a: Scizor
+|-unboost|p2a: Scizor|evasion|1
+|-sideend|p1: N zyy|Sticky Web|[from] move: Defog|[of] p1a: Rotom
+|move|p2a: Scizor|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|18/100
+|-enditem|p1a: Rotom|Figy Berry|[eat]
+|-heal|p1a: Rotom|68/100|[from] item: Figy Berry
+|-start|p1a: Rotom|confusion
+|
+|switch|p2a: Roserade|Roserade, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-zpower|p2a: Roserade
+|move|p2a: Roserade|Z-Sleep Powder|p1a: Seismitoad|[anim]Sleep Powder
+|-boost|p2a: Roserade|spe|1|[zeffect]
+|-status|p1a: Seismitoad|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, F|100/100
+|move|p2a: Roserade|Leaf Storm|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|18/100
+|-unboost|p2a: Roserade|spa|2
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|4/100
+|move|p1a: Aerodactyl|Stone Edge|p2a: Roserade
+|-damage|p2a: Roserade|2/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|12
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|90/100
+|
+|-heal|p2a: Scizor|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Rotom|Rotom-Heat|68/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-heal|p2a: Scizor|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|move|p1a: Rotom|Overheat|p2a: Umbreon
+|-damage|p2a: Umbreon|76/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-heal|p2a: Umbreon|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Rotom|Volt Switch|p2a: Umbreon
+|-damage|p2a: Umbreon|76/100
+
+|
+|switch|p1a: Scizor|Scizor, F|100/100|[from]move: Volt Switch
+|move|p2a: Umbreon|Foul Play|p1a: Scizor
+|-damage|p1a: Scizor|62/100
+|
+|-heal|p1a: Scizor|68/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Scizor|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|29/100
+
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100|[from]move: U-turn
+|move|p2a: Umbreon|Foul Play|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|54/100
+|
+|-heal|p2a: Umbreon|35/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|U-turn|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|41/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Mienshao|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+
+|
+|switch|p1a: Rotom|Rotom-Heat|68/100|[from]move: U-turn
+|
+|-heal|p2a: Scizor|93/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Rotom|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|62/100
+
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100 slp|[from]move: Volt Switch
+|move|p2a: Scizor|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|71/100 slp
+
+|
+|switch|p2a: Roserade|Roserade, M|2/100|[from]move: U-turn
+|
+|-heal|p1a: Seismitoad|77/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Roserade|Leaf Storm|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: Roserade|spa|2
+|faint|p1a: Seismitoad
+|
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, F|68/100
+|turn|21
+
+|
+|switch|p2a: Scizor|Scizor, M|62/100
+|move|p1a: Scizor|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|49/100
+
+|
+|switch|p1a: Rotom|Rotom-Heat|68/100|[from]move: U-turn
+|
+|-heal|p2a: Scizor|55/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Umbreon|Umbreon, F|41/100
+|move|p1a: Rotom|Volt Switch|p2a: Umbreon
+|-damage|p2a: Umbreon|27/100
+
+|
+|switch|p1a: Mienshao|Mienshao, F|87/100|[from]move: Volt Switch
+|
+|-heal|p2a: Umbreon|33/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|U-turn|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|39/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Mienshao|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+
+|
+|switch|p1a: Rotom|Rotom-Heat|68/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p2a: Roserade|Roserade, M|2/100
+|turn|25
+
+|
+|switch|p1a: Zygarde|Zygarde-10%|100/100
+|-ability|p1a: Zygarde|Aura Break
+|move|p2a: Roserade|Sludge Bomb|p1a: Zygarde
+|-resisted|p1a: Zygarde
+|-damage|p1a: Zygarde|66/100
+|-status|p1a: Zygarde|psn
+|
+|-damage|p1a: Zygarde|53/100 psn|[from] psn
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Scizor|Scizor, M|55/100
+|move|p1a: Zygarde|Thousand Arrows|p2a: Scizor
+|-damage|p2a: Scizor|30/100
+|
+|-heal|p2a: Scizor|37/100|[from] item: Leftovers
+|-damage|p1a: Zygarde|41/100 psn|[from] psn
+|upkeep
+|turn|27
+
+|
+|-zpower|p1a: Zygarde
+|move|p1a: Zygarde|Tectonic Rage|p2a: Scizor|[zeffect]
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-damage|p1a: Zygarde|28/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Roserade|Roserade, M|2/100
+|turn|28
+
+|
+|move|p1a: Zygarde|Thousand Arrows|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-damage|p1a: Zygarde|16/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|29
+
+|
+|move|p1a: Zygarde|Pain Split|p2a: Kyurem
+|-sethp|p2a: Kyurem|55/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Zygarde|86/100 psn|[from] move: Pain Split
+|move|p2a: Kyurem|Ice Beam|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|faint|p1a: Zygarde
+|
+|-heal|p2a: Kyurem|61/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|turn|30
+
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|N zyy

@@ -1,0 +1,373 @@
+|init|battle
+|title|Kikkoalin vs. swagorilla12435
+|j|☆Kikkoalin
+|j|☆swagorilla12435
+|player|p1|Kikkoalin|209|1087
+|player|p2|swagorilla12435|102|1111
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, L82, M|100/100
+|switch|p2a: Volcarona|Volcarona, L80, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by swagorilla12435)
+|
+|switch|p2a: Torkoal|Torkoal, L89, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Hippowdon|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|turn|3
+
+|
+|switch|p1a: Whiscash|Whiscash, L89, F|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Whiscash
+|-damage|p1a: Whiscash|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p2a: Volcanion|Steam Eruption|p1a: Whiscash
+|-damage|p1a: Whiscash|55/100
+|move|p1a: Whiscash|Dragon Dance|p1a: Whiscash
+|-boost|p1a: Whiscash|atk|1
+|-boost|p1a: Whiscash|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Whiscash|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-damage|p1a: Whiscash|45/100|[from] item: Life Orb
+|faint|p2a: Volcanion
+|
+|-weather|none
+|upkeep
+
+|inactive|swagorilla12435 has 120 seconds left.
+
+|
+|switch|p2a: Volcarona|Volcarona, L80, F|100/100
+|turn|6
+
+|inactive|swagorilla12435 has 120 seconds left.
+
+|
+|move|p1a: Whiscash|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|8/100
+|-damage|p1a: Whiscash|35/100|[from] item: Life Orb
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Whiscash
+|-supereffective|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|-heal|p2a: Volcarona|31/100|[from] drain|[of] p1a: Whiscash
+|faint|p1a: Whiscash
+|
+|upkeep
+
+|
+|switch|p1a: Golurk|Golurk, L88|100/100
+|turn|8
+
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|34/100
+|-heal|p2a: Volcarona|68/100|[from] drain|[of] p1a: Golurk
+|move|p1a: Golurk|Rock Polish|p1a: Golurk
+|-boost|p1a: Golurk|spe|2
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|-heal|p2a: Volcarona|87/100|[from] drain|[of] p1a: Golurk
+|faint|p1a: Golurk
+|
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon, L78|100/100
+|detailschange|p1a: Groudon|Groudon-Primal, L78
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|10
+
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Groudon
+|-damage|p1a: Groudon|68/100
+|-heal|p2a: Volcarona|100/100|[from] drain|[of] p1a: Groudon
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Groudon|Precipice Blades|p2a: Volcarona
+|-enditem|p2a: Volcarona|Focus Sash
+|-damage|p2a: Volcarona|1/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|12
+
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Groudon
+|-damage|p1a: Groudon|19/100
+|-heal|p2a: Volcarona|27/100|[from] drain|[of] p1a: Groudon
+|move|p1a: Groudon|Fire Punch|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|inactive|swagorilla12435 has 120 seconds left.
+
+|
+|switch|p2a: Blaziken|Blaziken, L78, F|100/100
+|turn|13
+
+|inactive|swagorilla12435 has 120 seconds left.
+
+|
+|detailschange|p2a: Blaziken|Blaziken-Mega, L78, F
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Blaziken|Knock Off|p1a: Groudon
+|-damage|p1a: Groudon|5/100
+|move|p1a: Groudon|Rock Polish|p1a: Groudon
+|-boost|p1a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|14
+
+|
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Groudon|Precipice Blades|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|15
+
+|
+|move|p2a: Blaziken|Knock Off|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p1a: Seismitoad|Seismitoad, L86, M|100/100
+|turn|16
+
+|
+|move|p2a: Blaziken|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|70/100
+|-enditem|p1a: Seismitoad|Life Orb|[from] move: Knock Off|[of] p2a: Blaziken
+|move|p1a: Seismitoad|Rain Dance|p1a: Seismitoad
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|17
+
+|
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Seismitoad|Scald|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|18
+
+|
+|move|p2a: Blaziken|Flare Blitz|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|57/100
+|-damage|p2a: Blaziken|95/100|[from] Recoil
+|move|p1a: Seismitoad|Scald|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|swagorilla12435 has 120 seconds left.
+
+|
+|switch|p2a: Entei|Entei, L83|100/100
+|-ability|p2a: Entei|Pressure
+|turn|19
+
+|
+|move|p2a: Entei|Extreme Speed|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|8/100
+|move|p1a: Seismitoad|Earthquake|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+
+|inactive|swagorilla12435 has 120 seconds left.
+
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Entei|Extreme Speed|p1a: Hippowdon
+|-damage|p1a: Hippowdon|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Entei|22/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|inactive|swagorilla12435 has 120 seconds left.
+
+|
+|move|p2a: Entei|Extreme Speed|p1a: Hippowdon
+|-damage|p1a: Hippowdon|60/100
+|move|p1a: Hippowdon|Earthquake|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|66/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Salazzle|Salazzle, L84, F|100/100
+|-item|p2a: Salazzle|Air Balloon
+|turn|22
+
+|
+|move|p2a: Salazzle|Nasty Plot|p2a: Salazzle
+|-boost|p2a: Salazzle|spa|2
+|move|p1a: Hippowdon|Stone Edge|p2a: Salazzle|[miss]
+|-miss|p1a: Hippowdon|p2a: Salazzle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|95/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|72/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Salazzle|Hidden Power|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|89/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Seismitoad|Seismitoad, L86, M|8/100
+|turn|24
+
+|
+|move|p2a: Salazzle|Hidden Power|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Flygon|Flygon, L84, M|100/100
+|turn|25
+
+|inactive|swagorilla12435 has 120 seconds left.
+
+|inactive|swagorilla12435 has 90 seconds left.
+
+|
+|move|p2a: Salazzle|Fire Blast|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|48/100
+|move|p1a: Flygon|Outrage|p2a: Salazzle
+|-damage|p2a: Salazzle|18/100
+|-enditem|p2a: Salazzle|Air Balloon
+|
+|-heal|p1a: Flygon|54/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Salazzle|Fire Blast|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|1/100
+|move|p1a: Flygon|Outrage|p2a: Salazzle|[from]lockedmove
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|win|Kikkoalin

@@ -1,0 +1,118 @@
+|init|battle
+|title|kevain vs. SoftButFirm
+|j|☆kevain
+|j|☆SoftButFirm
+|player|p1|kevain|1|1297
+|player|p2|SoftButFirm|78|1331
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Beautifly|Beautifly, L89, F|100/100
+|switch|p2a: Claydol|Claydol, L88|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SoftButFirm)
+|
+|move|p2a: Claydol|Stealth Rock|p1a: Beautifly
+|-sidestart|p1: kevain|move: Stealth Rock
+|move|p1a: Beautifly|Quiver Dance|p1a: Beautifly
+|-boost|p1a: Beautifly|spa|1
+|-boost|p1a: Beautifly|spd|1
+|-boost|p1a: Beautifly|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Beautifly|Quiver Dance|p1a: Beautifly
+|-boost|p1a: Beautifly|spa|1
+|-boost|p1a: Beautifly|spd|1
+|-boost|p1a: Beautifly|spe|1
+|move|p2a: Claydol|Toxic|p1a: Beautifly
+|-status|p1a: Beautifly|tox
+|
+|-damage|p1a: Beautifly|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Heat, L82|100/100
+|move|p1a: Beautifly|Bug Buzz|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|
+|-heal|p2a: Rotom|60/100|[from] item: Leftovers
+|-damage|p1a: Beautifly|83/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Beautifly|Hidden Power|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Beautifly|65/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Glaceon|Glaceon, L89, M|100/100
+|turn|5
+|
+|move|p1a: Beautifly|Bug Buzz|p2a: Glaceon
+|-damage|p2a: Glaceon|29/100
+|move|p2a: Glaceon|Ice Beam|p1a: Beautifly
+|-supereffective|p1a: Beautifly
+|-damage|p1a: Beautifly|0 fnt
+|faint|p1a: Beautifly
+|
+|-heal|p2a: Glaceon|35/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana, L80|100/100
+|-damage|p1a: Kartana|94/100|[from] Stealth Rock
+|turn|6
+
+|
+|switch|p2a: Claydol|Claydol, L88|100/100
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Kartana|Knock Off|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|-enditem|p2a: Claydol|Leftovers|[from] move: Knock Off|[of] p1a: Kartana
+|-damage|p1a: Kartana|85/100|[from] item: Life Orb
+|faint|p2a: Claydol
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|8
+
+|
+|move|p1a: Kartana|Knock Off|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|-enditem|p2a: Rayquaza|Leftovers|[from] move: Knock Off|[of] p1a: Kartana
+|-damage|p1a: Kartana|75/100|[from] item: Life Orb
+|faint|p2a: Rayquaza
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+
+|-message|SoftButFirm forfeited.
+
+|
+|win|kevain

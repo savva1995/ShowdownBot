@@ -1,0 +1,331 @@
+|init|battle
+|title|Gansoo vs. el fufun
+|j|☆Gansoo
+|j|☆el fufun
+|player|p1|Gansoo|168|1139
+|player|p2|el fufun|237|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Primeape, F|item
+|poke|p1|Celesteela|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Tangrowth, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Volcanion|item
+|poke|p2|Weavile, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Pinsir, M|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Diggersby, M|item
+|poke|p2|Cloyster, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Gansoo has 30 seconds left this turn.
+|inactive|el fufun has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gansoo)
+|
+|start
+|switch|p1a: Primeape|Primeape, F|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|
+|move|p2a: Weavile|Fake Out|p1a: Primeape
+|-damage|p1a: Primeape|75/100
+|cant|p1a: Primeape|flinch
+|
+|upkeep
+|turn|2
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|
+|move|p1a: Primeape|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|23/100
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Weavile|Beat Up|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|97/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|94/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|90/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|88/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|86/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|83/100
+|-hitcount|p1a: Tyranitar|6
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|17/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|inactive|Gansoo has 10 seconds left.
+|inactive|el fufun has 10 seconds left.
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: Tangrowth|Giga Drain|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-heal|p1a: Tangrowth|100/100|[from] drain|[of] p2a: Cloyster
+|faint|p2a: Cloyster
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|94/100|[from] Sandstorm
+|upkeep
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|turn|5
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|
+|switch|p1a: Celesteela|Celesteela|100/100
+|detailschange|p2a: Pinsir|Pinsir-Mega, M
+|-mega|p2a: Pinsir|Pinsir|Pinsirite
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pinsir|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Celesteela|Heavy Slam|p2a: Pinsir
+|-damage|p2a: Pinsir|47/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+|
+|move|p2a: Pinsir|Rock Slide|p1a: Celesteela|[miss]
+|-miss|p2a: Pinsir|p1a: Celesteela
+|move|p1a: Celesteela|Heavy Slam|p2a: Pinsir
+|-damage|p2a: Pinsir|5/100
+|
+|upkeep
+|turn|8
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|switch|p1a: Tyranitar|Tyranitar, F|83/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Pinsir|Rock Slide|p1a: Tyranitar
+|-damage|p1a: Tyranitar|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pinsir|0 fnt|[from] Sandstorm
+|faint|p2a: Pinsir
+|upkeep
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|inactive|el fufun has 10 seconds left.
+
+|
+|switch|p2a: Diggersby|Diggersby, M, shiny|100/100
+|turn|9
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, F
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Tyranitar|Stealth Rock|p2a: Diggersby
+|-sidestart|p2: el fufun|move: Stealth Rock
+|move|p2a: Diggersby|Return|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|inactive|Gansoo has 10 seconds left.
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|10
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|-zpower|p1a: Kyurem
+|move|p1a: Kyurem|Subzero Slammer|p2a: Diggersby|[zeffect]
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|faint|p2a: Diggersby
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|inactive|el fufun has 10 seconds left.
+
+|
+|switch|p2a: Weavile|Weavile, M|17/100
+|-damage|p2a: Weavile|0 fnt|[from] Stealth Rock
+|faint|p2a: Weavile
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|switch|p2a: Azumarill|Azumarill, M, shiny|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|turn|11
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-crit|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|88/100|[from] Sandstorm
+|upkeep
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|12
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|inactive|el fufun has 10 seconds left.
+
+|
+|move|p2a: Jirachi|Heart Stamp|p1a: Kyurem
+|-damage|p1a: Kyurem|61/100
+|cant|p1a: Kyurem|flinch
+|
+|-weather|none
+|upkeep
+|turn|13
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|move|p2a: Jirachi|Heart Stamp|p1a: Kyurem
+|-damage|p1a: Kyurem|35/100
+|cant|p1a: Kyurem|flinch
+|
+|upkeep
+|turn|14
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|move|p2a: Jirachi|Heart Stamp|p1a: Kyurem
+|-damage|p1a: Kyurem|9/100
+|move|p1a: Kyurem|Fusion Bolt|p2a: Jirachi
+|-damage|p2a: Jirachi|51/100
+|
+|upkeep
+|turn|15
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|move|p2a: Jirachi|Heart Stamp|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|switch|p1a: Celesteela|Celesteela|100/100
+|turn|16
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|
+|move|p2a: Jirachi|Heart Stamp|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|88/100
+|move|p1a: Celesteela|Leech Seed|p2a: Jirachi
+|-start|p2a: Jirachi|move: Leech Seed
+|
+|-heal|p1a: Celesteela|94/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|39/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|100/100|[silent]
+|upkeep
+|turn|17
+
+|inactive|Gansoo has 15 seconds left this turn.
+|inactive|el fufun has 15 seconds left this turn.
+
+|-message|el fufun forfeited.
+
+|
+|win|Gansoo

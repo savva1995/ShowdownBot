@@ -1,0 +1,361 @@
+|init|battle
+|title|Badis is bad vs. Levi Ackermann
+|j|☆Badis is bad
+|j|☆Levi Ackermann
+|player|p1|Badis is bad|266|2089
+|player|p2|Levi Ackermann|102|1992
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Heatran|Heatran, L80, M|100/100
+|switch|p2a: Sharpedo|Sharpedo, L82, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|switch|p1a: Electivire|Electivire, L89, M|100/100
+|move|p2a: Sharpedo|Waterfall|p1a: Electivire
+|-damage|p1a: Electivire|59/100
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|2
+|
+|switch|p1a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|detailschange|p2a: Sharpedo|Sharpedo-Mega, L82, M
+|-mega|p2a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Sharpedo|Crunch|p1a: Rayquaza
+|-damage|p1a: Rayquaza|38/100
+|-unboost|p1a: Rayquaza|def|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rayquaza|Extreme Speed|p2a: Sharpedo
+|-damage|p2a: Sharpedo|68/100
+|move|p2a: Sharpedo|Crunch|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|
+|upkeep
+
+|
+|switch|p1a: Regirock|Regirock, L88|100/100
+|turn|4
+
+|
+|move|p2a: Sharpedo|Waterfall|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|62/100
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Venusaur|Venusaur, L85, F|100/100
+|move|p1a: Regirock|Drain Punch|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|83/100
+|-heal|p1a: Regirock|71/100|[from] drain|[of] p2a: Venusaur
+|
+|-heal|p2a: Venusaur|89/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Regirock
+|-start|p1a: Regirock|move: Leech Seed
+|move|p1a: Regirock|Stone Edge|p2a: Venusaur
+|-damage|p2a: Venusaur|21/100
+|
+|-heal|p2a: Venusaur|27/100|[from] item: Black Sludge
+|-damage|p1a: Regirock|59/100|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|40/100|[silent]
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Heatran|Heatran, L80, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Venusaur|Substitute|p2a: Venusaur
+|-start|p2a: Venusaur|Substitute
+|-damage|p2a: Venusaur|15/100
+|
+|-heal|p2a: Venusaur|22/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Heatran
+|-status|p1a: Heatran|slp|[from] move: Sleep Powder
+|cant|p1a: Heatran|slp
+|
+|-heal|p2a: Venusaur|28/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|cant|p1a: Heatran|slp
+|
+|-heal|p2a: Venusaur|34/100|[from] item: Black Sludge
+|-damage|p1a: Heatran|88/100 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|46/100|[silent]
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Sharpedo|Sharpedo-Mega, L82, M|68/100
+|switch|p1a: Uxie|Uxie, L84|100/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Sharpedo|Crunch|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|6/100
+|move|p1a: Uxie|Thunder Wave|p2a: Sharpedo
+|-status|p2a: Sharpedo|par
+|
+|-heal|p1a: Uxie|12/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Uxie|U-turn|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-crit|p2a: Sharpedo
+|-damage|p2a: Sharpedo|7/100 par
+
+|
+|switch|p1a: Electivire|Electivire, L89, M|59/100|[from]move: U-turn
+|move|p2a: Sharpedo|Waterfall|p1a: Electivire
+|-damage|p1a: Electivire|13/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Electivire|Wild Charge|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|-damage|p1a: Electivire|11/100|[from] Recoil
+|faint|p2a: Sharpedo
+|
+|upkeep
+
+|
+|switch|p2a: Naganadel|Naganadel, L78|100/100
+|turn|14
+
+|
+|switch|p1a: Heatran|Heatran, L80, M|88/100 slp
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Naganadel|Dragon Pulse|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|68/100 slp
+|-enditem|p1a: Heatran|Air Balloon
+|-damage|p2a: Naganadel|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Sudowoodo|Sudowoodo, L89, M|100/100
+|cant|p1a: Heatran|slp
+|
+|upkeep
+|turn|16
+
+|
+|-curestatus|p1a: Heatran|slp|[msg]
+|move|p1a: Heatran|Earth Power|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|34/100
+|move|p2a: Sudowoodo|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Sudowoodo|24/100|[from] item: Life Orb
+|faint|p1a: Heatran
+|
+|upkeep
+
+|
+|switch|p1a: Regirock|Regirock, L88|59/100
+|turn|17
+
+|
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|move|p2a: Sudowoodo|Wood Hammer|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|28/100
+|-damage|p2a: Sudowoodo|14/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Sudowoodo|Toxic|p1a: Regirock
+|-status|p1a: Regirock|tox
+|move|p1a: Regirock|Rest|p1a: Regirock
+|-status|p1a: Regirock|slp|[from] move: Rest
+|-heal|p1a: Regirock|100/100 slp|[silent]
+|-enditem|p1a: Regirock|Chesto Berry|[eat]
+|-curestatus|p1a: Regirock|slp|[msg]
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Sudowoodo|Toxic|p1a: Regirock
+|-status|p1a: Regirock|tox
+|move|p1a: Regirock|Drain Punch|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|0 fnt
+|faint|p2a: Sudowoodo
+|
+|-damage|p1a: Regirock|95/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Venusaur|Venusaur, L85, F|46/100
+|turn|20
+
+|
+|move|p2a: Venusaur|Substitute|p2a: Venusaur
+|-start|p2a: Venusaur|Substitute
+|-damage|p2a: Venusaur|22/100
+|move|p1a: Regirock|Stone Edge|p2a: Venusaur
+|-end|p2a: Venusaur|Substitute
+|
+|-heal|p2a: Venusaur|28/100|[from] item: Black Sludge
+|-damage|p1a: Regirock|83/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p2a: Venusaur|Substitute|p2a: Venusaur
+|-start|p2a: Venusaur|Substitute
+|-damage|p2a: Venusaur|3/100
+|move|p1a: Regirock|Stone Edge|p2a: Venusaur
+|-end|p2a: Venusaur|Substitute
+|
+|-heal|p2a: Venusaur|9/100|[from] item: Black Sludge
+|-damage|p1a: Regirock|65/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Regirock
+|-start|p1a: Regirock|move: Leech Seed
+|move|p1a: Regirock|Drain Punch|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|-heal|p1a: Regirock|69/100 tox|[from] drain|[of] p2a: Venusaur
+|faint|p2a: Venusaur
+|
+|-damage|p1a: Regirock|45/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Latias|Latias, L82, F|100/100
+|turn|23
+
+|
+|move|p2a: Latias|Draco Meteor|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|-unboost|p2a: Latias|spa|2
+|faint|p1a: Regirock
+|
+|upkeep
+
+|
+|switch|p1a: Weavile|Weavile, L81, F|100/100
+|turn|24
+
+|
+|move|p1a: Weavile|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|-enditem|p2a: Latias|Choice Specs|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Latias
+|
+|upkeep
+
+|
+|switch|p2a: Buzzwole|Buzzwole, L81|100/100
+|turn|25
+
+|
+|switch|p1a: Electivire|Electivire, L89, M|11/100
+|move|p2a: Buzzwole|Superpower|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|-unboost|p2a: Buzzwole|atk|1
+|-unboost|p2a: Buzzwole|def|1
+|faint|p1a: Electivire
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Uxie|Uxie, L84|12/100
+|turn|26
+
+|
+|move|p2a: Buzzwole|Superpower|p1a: Uxie
+|-resisted|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|-unboost|p2a: Buzzwole|atk|1
+|-unboost|p2a: Buzzwole|def|1
+|faint|p1a: Uxie
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Weavile|Weavile, L81, F|100/100
+|turn|27
+
+|
+|switch|p2a: Naganadel|Naganadel, L78|91/100
+|move|p1a: Weavile|Icicle Crash|p2a: Naganadel
+|-supereffective|p2a: Naganadel
+|-damage|p2a: Naganadel|0 fnt
+|faint|p2a: Naganadel
+|
+|upkeep
+
+|
+|switch|p2a: Buzzwole|Buzzwole, L81|100/100
+|turn|28
+
+|
+|move|p2a: Buzzwole|Superpower|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Buzzwole|atk|1
+|-unboost|p2a: Buzzwole|def|1
+|faint|p1a: Weavile
+|
+|win|Levi Ackermann

@@ -1,0 +1,363 @@
+|init|battle
+|title|Tingle81 vs. borjaocerin
+|j|☆Tingle81
+|j|☆borjaocerin
+|player|p1|Tingle81|2|
+|player|p2|borjaocerin|293|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Floatzel|Floatzel, L89, M|100/100
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|1
+|
+|move|p1a: Floatzel|Brick Break|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|90/100
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Floatzel
+|-supereffective|p1a: Floatzel
+|-enditem|p1a: Floatzel|Focus Sash
+|-damage|p1a: Floatzel|1/100
+|-damage|p2a: Tapu Bulu|50/100|[from] Recoil
+|
+|-heal|p1a: Floatzel|7/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|56/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|63/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|move|p1a: Floatzel|Taunt|p2a: Tapu Bulu
+|-start|p2a: Tapu Bulu|move: Taunt
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Floatzel
+|-supereffective|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|-damage|p2a: Tapu Bulu|60/100|[from] Recoil
+|faint|p1a: Floatzel
+|
+|-heal|p2a: Tapu Bulu|66/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|73/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tingle81)
+
+|
+|move|p1a: Porygon-Z|Tri Attack|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|-damage|p1a: Porygon-Z|90/100|[from] item: Life Orb
+|faint|p2a: Tapu Bulu
+|
+|-heal|p1a: Porygon-Z|96/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Porygon-Z|atk|1
+|turn|4
+
+|
+|move|p2a: Tauros|Earthquake|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|70/100
+|move|p1a: Porygon-Z|Tri Attack|p2a: Tauros
+|-damage|p2a: Tauros|23/100
+|-status|p2a: Tauros|frz
+|-damage|p1a: Porygon-Z|60/100|[from] item: Life Orb
+|
+|-heal|p2a: Tauros|29/100 frz|[from] Grassy Terrain
+|-heal|p1a: Porygon-Z|66/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|cant|p2a: Tauros|frz
+|move|p1a: Porygon-Z|Tri Attack|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-damage|p1a: Porygon-Z|56/100|[from] item: Life Orb
+|faint|p2a: Tauros
+|
+|-heal|p1a: Porygon-Z|62/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|turn|6
+
+|
+|move|p2a: Moltres|Fire Blast|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|6/100
+|move|p1a: Porygon-Z|Tri Attack|p2a: Moltres
+|-damage|p2a: Moltres|26/100
+|-status|p2a: Moltres|par
+|-damage|p1a: Porygon-Z|0 fnt|[from] item: Life Orb
+|faint|p1a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|100/100
+|turn|7
+
+|
+|switch|p2a: Qwilfish|Qwilfish, L88, M|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Jellicent|atk|1
+|move|p1a: Jellicent|Shadow Ball|p2a: Qwilfish
+|-crit|p2a: Qwilfish
+|-damage|p2a: Qwilfish|37/100
+|
+|-heal|p2a: Qwilfish|43/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|move|p2a: Qwilfish|Pain Split|p1a: Jellicent
+|-sethp|p1a: Jellicent|68/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Qwilfish|83/100|[from] move: Pain Split
+|move|p1a: Jellicent|Shadow Ball|p2a: Qwilfish
+|-damage|p2a: Qwilfish|39/100
+|
+|-heal|p2a: Qwilfish|45/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Qwilfish|Toxic Spikes|p1a: Jellicent
+|-sidestart|p1: Tingle81|move: Toxic Spikes
+|move|p1a: Jellicent|Toxic|p2a: Qwilfish
+|-immune|p2a: Qwilfish
+|
+|-heal|p2a: Qwilfish|51/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Qwilfish|Pain Split|p1a: Jellicent
+|-sethp|p1a: Jellicent|60/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Qwilfish|75/100|[from] move: Pain Split
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-heal|p2a: Qwilfish|81/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Raikou|Raikou, L84|100/100
+|-status|p1a: Raikou|psn
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Qwilfish|Toxic Spikes|p1a: Raikou
+|-sidestart|p1: Tingle81|move: Toxic Spikes
+|
+|-heal|p2a: Qwilfish|87/100|[from] item: Black Sludge
+|-damage|p1a: Raikou|88/100 psn|[from] psn
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Moltres|Moltres, L82|26/100 par
+|move|p1a: Raikou|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-damage|p1a: Raikou|78/100 psn|[from] item: Life Orb
+|faint|p2a: Moltres
+|
+|-damage|p1a: Raikou|66/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Pinsir|Pinsir, L81, M|100/100
+|turn|13
+
+|
+|move|p1a: Raikou|Hidden Power|p2a: Pinsir
+|-damage|p2a: Pinsir|65/100
+|-damage|p1a: Raikou|56/100 psn|[from] item: Life Orb
+|move|p2a: Pinsir|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|-ability|p2a: Pinsir|Moxie|boost
+|-boost|p2a: Pinsir|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Mismagius|Mismagius, L86, F|100/100
+|turn|14
+
+|
+|detailschange|p2a: Pinsir|Pinsir-Mega, L81, M
+|-mega|p2a: Pinsir|Pinsir|Pinsirite
+|move|p1a: Mismagius|Nasty Plot|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|2
+|move|p2a: Pinsir|Earthquake|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Mismagius|Nasty Plot|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|2
+|move|p2a: Pinsir|Return|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|upkeep
+
+|
+|switch|p1a: Muk|Muk-Alola, L82, M|100/100
+|-sideend|p1: Tingle81|move: Toxic Spikes|[of] p1a: Muk
+|turn|16
+
+|
+|move|p2a: Pinsir|Close Combat|p1a: Muk
+|-damage|p1a: Muk|32/100
+|-unboost|p2a: Pinsir|def|1
+|-unboost|p2a: Pinsir|spd|1
+|move|p1a: Muk|Fire Punch|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|14/100
+|-status|p2a: Pinsir|brn
+|
+|-heal|p1a: Muk|38/100|[from] item: Black Sludge
+|-damage|p2a: Pinsir|9/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Pinsir|Return|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|-damage|p2a: Pinsir|3/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|100/100
+|turn|18
+
+|
+|move|p2a: Pinsir|Return|p1a: Jellicent
+|-damage|p1a: Jellicent|52/100
+|move|p1a: Jellicent|Shadow Ball|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|-heal|p1a: Jellicent|58/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Qwilfish|Qwilfish, L88, M|87/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Jellicent|atk|1
+|turn|19
+
+|
+|move|p2a: Qwilfish|Liquidation|p1a: Jellicent
+|-heal|p1a: Jellicent|82/100|[from] ability: Water Absorb|[of] p2a: Qwilfish
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-heal|p2a: Qwilfish|93/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+
+|
+|move|p2a: Qwilfish|Liquidation|p1a: Jellicent
+|-immune|p1a: Jellicent|[from] ability: Water Absorb
+|move|p1a: Jellicent|Shadow Ball|p2a: Qwilfish
+|-damage|p2a: Qwilfish|45/100
+|-unboost|p2a: Qwilfish|spd|1
+|
+|-heal|p2a: Qwilfish|52/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+
+|
+|move|p2a: Qwilfish|Pain Split|p1a: Jellicent
+|-sethp|p1a: Jellicent|71/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Qwilfish|88/100|[from] move: Pain Split
+|move|p1a: Jellicent|Shadow Ball|p2a: Qwilfish
+|-damage|p2a: Qwilfish|21/100
+|
+|-heal|p2a: Qwilfish|28/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Qwilfish|Pain Split|p1a: Jellicent
+|-sethp|p1a: Jellicent|50/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Qwilfish|61/100|[from] move: Pain Split
+|move|p1a: Jellicent|Toxic|p2a: Qwilfish
+|-immune|p2a: Qwilfish
+|
+|-heal|p2a: Qwilfish|68/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|56/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Qwilfish|Pain Split|p1a: Jellicent
+|-sethp|p1a: Jellicent|55/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Qwilfish|68/100|[from] move: Pain Split
+|move|p1a: Jellicent|Shadow Ball|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|-heal|p1a: Jellicent|61/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Typhlosion|Typhlosion, L86, F|100/100
+|turn|24
+
+|
+|move|p2a: Typhlosion|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|34/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|84/100
+|
+|-heal|p1a: Jellicent|90/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Typhlosion|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|64/100
+|move|p1a: Jellicent|Scald|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|35/100
+|
+|-heal|p1a: Jellicent|70/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Typhlosion|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|44/100
+|move|p1a: Jellicent|Scald|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|win|Tingle81

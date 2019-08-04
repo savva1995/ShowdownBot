@@ -1,0 +1,64 @@
+|init|battle
+|title|Suisaad vs. pokedoper1999
+|j|☆Suisaad
+|j|☆pokedoper1999
+|player|p1|Suisaad|10|1342
+|player|p2|pokedoper1999|37|1381
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Farfetch'd|Farfetch'd, L89, M|100/100
+|switch|p2a: Lunala|Lunala, L78|100/100
+|turn|1
+|
+|switch|p2a: Celesteela|Celesteela, L80|100/100
+|move|p1a: Farfetch'd|Brave Bird|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-crit|p2a: Celesteela
+|-damage|p2a: Celesteela|68/100
+|-damage|p1a: Farfetch'd|87/100|[from] Recoil
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Xatu|Xatu, L86, M|100/100
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Celesteela|Flash Cannon|p1a: Xatu
+|-damage|p1a: Xatu|61/100
+|move|p1a: Xatu|Calm Mind|p1a: Xatu
+|-boost|p1a: Xatu|spa|1
+|-boost|p1a: Xatu|spd|1
+|
+|-heal|p1a: Xatu|67/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Infernape|Infernape, L82, M|100/100
+|move|p1a: Xatu|Psychic|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|-heal|p1a: Xatu|73/100|[from] item: Leftovers
+|upkeep
+
+|-message|pokedoper1999 forfeited.
+
+|
+|win|Suisaad

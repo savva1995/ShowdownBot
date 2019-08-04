@@ -1,0 +1,277 @@
+|init|battle
+|title|Hydoablaster vs. MrSuplex
+|j|☆Hydoablaster
+|j|☆MrSuplex
+|player|p1|Hydoablaster|169|1199
+|player|p2|MrSuplex|247|1186
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Carracosta|Carracosta, L88, M|100/100
+|switch|p2a: Pachirisu|Pachirisu, L89, M|100/100
+|turn|1
+|l|☆MrSuplex
+|player|p2|
+|j|☆MrSuplex
+|player|p2|MrSuplex|247
+|
+|switch|p1a: Amoonguss|Amoonguss, L82, M|100/100
+|move|p2a: Pachirisu|Nuzzle|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|98/100
+|-status|p1a: Amoonguss|par
+|
+|-heal|p1a: Amoonguss|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p2a: Pachirisu|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|89/100 par
+|
+|switch|p2a: Latias|Latias, L81, F|100/100|[from]move: U-turn
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Latias
+|-damage|p2a: Latias|76/100
+|-status|p2a: Latias|psn
+|
+|-heal|p1a: Amoonguss|95/100 par|[from] item: Black Sludge
+|-damage|p2a: Latias|64/100 psn|[from] psn
+|upkeep
+|turn|3
+
+|
+|detailschange|p2a: Latias|Latias-Mega, L81, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|cant|p1a: Amoonguss|par
+|
+|-heal|p1a: Amoonguss|100/100 par|[from] item: Black Sludge
+|-damage|p2a: Latias|52/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Latias|Hidden Power|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|46/100 par
+|cant|p1a: Amoonguss|par
+|
+|-heal|p1a: Amoonguss|52/100 par|[from] item: Black Sludge
+|-damage|p2a: Latias|39/100 psn|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Amoonguss|Foul Play|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|7/100 psn
+|
+|-heal|p1a: Amoonguss|58/100 par|[from] item: Black Sludge
+|-damage|p2a: Latias|0 fnt|[from] psn
+|faint|p2a: Latias
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, L81, M|100/100
+|turn|6
+
+|
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Amoonguss|Stun Spore|p2a: Weavile
+|-status|p2a: Weavile|par
+|
+|-heal|p1a: Amoonguss|64/100 par|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|
+|move|p2a: Weavile|Icicle Crash|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Weavile|91/100 par|[from] item: Life Orb
+|faint|p1a: Amoonguss
+|
+|upkeep
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|100/100
+|turn|8
+
+|
+|switch|p2a: Pachirisu|Pachirisu, L89, M|100/100
+|move|p1a: Conkeldurr|Knock Off|p2a: Pachirisu
+|-damage|p2a: Pachirisu|62/100
+|-enditem|p2a: Pachirisu|Focus Sash|[from] move: Knock Off|[of] p1a: Conkeldurr
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Sawk
+|-damage|p2a: Sawk|36/100
+|
+|-heal|p2a: Sawk|42/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|95/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Sawk
+|-damage|p2a: Sawk|13/100
+|move|p2a: Sawk|Close Combat|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|40/100 brn
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|
+|-heal|p2a: Sawk|19/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|34/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|-damage|p1a: Conkeldurr|28/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Slowking|Slowking, L86, F|100/100
+|turn|12
+
+|
+|move|p1a: Conkeldurr|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|14/100
+|-enditem|p2a: Slowking|Leftovers|[from] move: Knock Off|[of] p1a: Conkeldurr
+|move|p2a: Slowking|Nasty Plot|p2a: Slowking
+|-boost|p2a: Slowking|spa|2
+|
+|-damage|p1a: Conkeldurr|22/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Conkeldurr|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-damage|p1a: Conkeldurr|16/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, L81, M|91/100 par
+|turn|14
+
+|
+|cant|p2a: Weavile|par
+|move|p1a: Conkeldurr|Mach Punch|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-damage|p1a: Conkeldurr|10/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Pachirisu|Pachirisu, L89, M|62/100
+|turn|15
+
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Pachirisu
+|-damage|p2a: Pachirisu|24/100
+|move|p2a: Pachirisu|Thunderbolt|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, L84, M|100/100
+|turn|16
+
+|
+|move|p1a: Jolteon|Shadow Ball|p2a: Pachirisu
+|-damage|p2a: Pachirisu|0 fnt
+|faint|p2a: Pachirisu
+|
+|upkeep
+
+|
+|switch|p2a: Dialga|Dialga, L78|100/100
+|-ability|p2a: Dialga|Pressure
+|turn|17
+
+|
+|switch|p1a: Mothim|Mothim, L89, M|100/100
+|move|p2a: Dialga|Toxic|p1a: Mothim
+|-status|p1a: Mothim|tox
+|
+|-damage|p1a: Mothim|95/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Dialga|Fire Blast|p1a: Mothim
+|-supereffective|p1a: Mothim
+|-damage|p1a: Mothim|0 fnt
+|faint|p1a: Mothim
+|
+|upkeep
+
+|
+|switch|p1a: Carracosta|Carracosta, L88, M|100/100
+|turn|19
+
+|
+|move|p2a: Dialga|Toxic|p1a: Carracosta
+|-status|p1a: Carracosta|tox
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|-enditem|p1a: Carracosta|White Herb
+|-clearnegativeboost|p1a: Carracosta|[silent]
+|
+|-damage|p1a: Carracosta|94/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Carracosta|Earthquake|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|6/100
+|move|p2a: Dialga|Flash Cannon|p1a: Carracosta
+|-damage|p1a: Carracosta|50/100 tox
+|-unboost|p1a: Carracosta|spd|1
+|
+|-heal|p2a: Dialga|12/100|[from] item: Leftovers
+|-damage|p1a: Carracosta|38/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Carracosta|Earthquake|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|win|Hydoablaster

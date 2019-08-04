@@ -1,0 +1,242 @@
+|init|battle
+|title|telepokemon vs. estebuchopro
+|j|☆telepokemon
+|j|☆estebuchopro
+|player|p1|telepokemon|1|1256
+|player|p2|estebuchopro|162|1210
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Marowak-Alola, F|item
+|poke|p1|Uxie|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Stakataka|item
+|poke|p1|Aggron, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Feraligatr, F|item
+|poke|p2|Sceptile, M|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Latias, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by estebuchopro)
+|
+|start
+|switch|p1a: Uxie|Uxie, shiny|100/100
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Uxie|atk|1
+|turn|1
+
+|
+|move|p2a: Krookodile|Knock Off|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|30/100
+|-enditem|p1a: Uxie|Mental Herb|[from] move: Knock Off|[of] p2a: Krookodile
+|move|p1a: Uxie|Stealth Rock|p2a: Krookodile
+|-sidestart|p2: estebuchopro|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Aggron|Aggron, F|100/100
+|move|p2a: Krookodile|Knock Off|p1a: Aggron
+|-damage|p1a: Aggron|81/100
+|
+|upkeep
+|turn|3
+
+|
+|detailschange|p1a: Aggron|Aggron-Mega, F
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p2a: Krookodile|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|43/100
+|move|p1a: Aggron|Power-Up Punch|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|62/100
+|-boost|p1a: Aggron|atk|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Krookodile|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|6/100
+|move|p1a: Aggron|Heavy Slam|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|75/100|[from] Stealth Rock
+|turn|5
+
+|
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100
+|move|p2a: Rotom|Overheat|p1a: Cresselia
+|-damage|p1a: Cresselia|74/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Rotom|Defog|p1a: Cresselia
+|-unboost|p1a: Cresselia|evasion|1
+|-sideend|p2: estebuchopro|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Marowak|Marowak-Alola, F, shiny|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Marowak
+|-damage|p1a: Marowak|85/100
+
+|
+|switch|p2a: Latias|Latias, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Marowak|Shadow Bone|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+
+|
+|switch|p2a: Feraligatr|Feraligatr, F|100/100
+|turn|9
+
+|
+|move|p1a: Marowak|Shadow Bone|p2a: Feraligatr
+|-damage|p2a: Feraligatr|25/100
+|move|p2a: Feraligatr|Liquidation|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|upkeep
+
+|
+|switch|p1a: Cresselia|Cresselia, F, shiny|74/100
+|turn|10
+
+|
+|move|p2a: Feraligatr|Crunch|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|31/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Feraligatr|Crunch|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|upkeep
+
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|100/100
+|turn|12
+
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|3/100
+|-damage|p1a: Crawdaunt|90/100|[from] item: Life Orb
+|move|p2a: Feraligatr|Liquidation|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|55/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|-damage|p1a: Crawdaunt|45/100|[from] item: Life Orb
+|faint|p2a: Feraligatr
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|14
+
+|
+|switch|p1a: Stakataka|Stakataka|100/100
+|move|p2a: Scizor|U-turn|p1a: Stakataka
+|-resisted|p1a: Stakataka
+|-damage|p1a: Stakataka|85/100
+
+|
+|switch|p2a: Sceptile|Sceptile, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, M
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Focus Blast|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|faint|p1a: Stakataka
+|
+|upkeep
+
+|
+|switch|p1a: Uxie|Uxie, shiny|30/100
+|turn|16
+
+|
+|move|p2a: Sceptile|Dragon Pulse|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|upkeep
+
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|45/100
+|turn|17
+
+|
+|move|p2a: Sceptile|Dragon Pulse|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+
+|-message|telepokemon forfeited.
+
+|
+|win|estebuchopro

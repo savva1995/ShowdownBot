@@ -1,0 +1,189 @@
+|init|battle
+|title|bubloo8 vs. Maxibocio
+|j|☆bubloo8
+|j|☆Maxibocio
+|player|p1|bubloo8|170|1607
+|player|p2|Maxibocio|288|1663
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Simisage|Simisage, L89, M|100/100
+|switch|p2a: Delcatty|Delcatty, L89, M|100/100
+|turn|1
+|
+|move|p2a: Delcatty|Fake Out|p1a: Simisage
+|-damage|p1a: Simisage|81/100
+|-damage|p2a: Delcatty|91/100|[from] item: Life Orb
+|cant|p1a: Simisage|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Simisage|Superpower|p2a: Delcatty
+|-supereffective|p2a: Delcatty
+|-damage|p2a: Delcatty|11/100
+|-unboost|p1a: Simisage|atk|1
+|-unboost|p1a: Simisage|def|1
+|move|p2a: Delcatty|Thunder Wave|p1a: Simisage
+|-status|p1a: Simisage|par
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Delcatty|Double-Edge|p1a: Simisage
+|-damage|p1a: Simisage|0 fnt
+|-damage|p2a: Delcatty|0 fnt|[from] Recoil
+|faint|p1a: Simisage
+|faint|p2a: Delcatty
+|
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, L82, F|100/100
+|switch|p2a: Pheromosa|Pheromosa, L78|100/100
+|turn|4
+
+|
+|move|p2a: Pheromosa|U-turn|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L82, F
+
+|
+|switch|p2a: Kabutops|Kabutops, L88, M|100/100|[from]move: U-turn
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|upkeep
+|turn|5
+
+|
+|-zpower|p1a: Mimikyu
+|move|p1a: Mimikyu|Let's Snuggle Forever|p2a: Kabutops|[zeffect]
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|upkeep
+
+|
+|switch|p2a: Shaymin|Shaymin, L84|100/100
+|turn|6
+
+|
+|move|p2a: Shaymin|Seed Flare|p1a: Mimikyu|[miss]
+|-miss|p2a: Shaymin|p1a: Mimikyu
+|move|p1a: Mimikyu|Play Rough|p2a: Shaymin
+|-damage|p2a: Shaymin|52/100
+|
+|-heal|p2a: Shaymin|59/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Shaymin|Seed Flare|p1a: Mimikyu
+|-damage|p1a: Mimikyu|45/100
+|move|p1a: Mimikyu|Play Rough|p2a: Shaymin
+|-damage|p2a: Shaymin|6/100
+|
+|-heal|p2a: Shaymin|12/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|faint|p2a: Shaymin
+|
+|upkeep
+
+|
+|switch|p2a: Pheromosa|Pheromosa, L78|100/100
+|turn|9
+
+|
+|move|p2a: Pheromosa|Poison Jab|p1a: Mimikyu
+|-damage|p1a: Mimikyu|16/100
+|-status|p1a: Mimikyu|psn
+|move|p1a: Mimikyu|Play Rough|p2a: Pheromosa
+|-supereffective|p2a: Pheromosa
+|-damage|p2a: Pheromosa|0 fnt
+|faint|p2a: Pheromosa
+|
+|-damage|p1a: Mimikyu|3/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko, L80|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|10
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|67/100
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-damage|p2a: Tapu Koko|57/100|[from] item: Life Orb
+|faint|p1a: Mimikyu
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Maxibocio)
+
+|
+|switch|p1a: Aromatisse|Aromatisse, L87, F|100/100
+|turn|11
+
+|
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Aromatisse
+|-damage|p1a: Aromatisse|54/100
+|-damage|p2a: Tapu Koko|47/100|[from] item: Life Orb
+|move|p1a: Aromatisse|Moonblast|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|-heal|p1a: Aromatisse|60/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100
+|turn|12
+
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Archeops|Stone Edge|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Archeops|Stone Edge|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|-damage|p2a: Archeops|91/100|[from] item: Life Orb
+|faint|p1a: Aromatisse
+|
+|upkeep
+
+|
+|switch|p1a: Araquanid|Araquanid, L84, M|100/100
+|turn|14
+
+|
+|move|p2a: Archeops|Stone Edge|p1a: Araquanid|[miss]
+|-miss|p2a: Archeops|p1a: Araquanid
+|move|p1a: Araquanid|Liquidation|p2a: Archeops
+|-supereffective|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|win|bubloo8

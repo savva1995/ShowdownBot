@@ -1,0 +1,68 @@
+|init|battle
+|title|Red S0l0 Cup vs. Eclipsion
+|j|☆Red S0l0 Cup
+|j|☆Eclipsion
+|player|p1|Red S0l0 Cup|170|1295
+|player|p2|Eclipsion|zinnia|1286
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Heatran, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Clefable, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Toxapex, F|item
+|poke|p2|Nihilego|item
+|poke|p2|Latias, F|item
+|poke|p2|Kartana|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Gastrodon, F|item
+|teampreview
+|c|☆Eclipsion|thicc™
+
+|
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Ay|Thundurus-Therian, M|100/100
+|turn|1
+
+|
+|move|p2a: Ay|Nasty Plot|p2a: Ay
+|-boost|p2a: Ay|spa|2
+|move|p1a: Heatran|Magma Storm|p2a: Ay
+|-damage|p2a: Ay|42/100
+|-activate|p2a: Ay|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Ay|30/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|2
+
+|
+|move|p2a: Ay|Focus Blast|p1a: Heatran|[miss]
+|-miss|p2a: Ay|p1a: Heatran
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|76/100
+|
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|-damage|p2a: Ay|18/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+
+|-message|Eclipsion forfeited.
+
+|
+|win|Red S0l0 Cup

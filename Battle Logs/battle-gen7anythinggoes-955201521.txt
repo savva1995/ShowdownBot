@@ -1,0 +1,248 @@
+|init|battle
+|title|TrapMonarch vs. e5570
+|j|☆TrapMonarch
+|j|☆e5570
+|player|p1|TrapMonarch|148|1224
+|player|p2|e5570|80|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Nidoking, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Miltank, F|item
+|poke|p1|Gengar, F|item
+|poke|p1|Blaziken, M|item
+|poke|p2|Cinccino, F|item
+|poke|p2|Espeon, F|item
+|poke|p2|Forretress, F|item
+|poke|p2|Noivern, F|item
+|poke|p2|Zoroark, F|item
+|poke|p2|Clefable, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Blazer|Blaziken, M|100/100
+|switch|p2a: Scarf|Cinccino, F, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by e5570)
+|
+|move|p1a: Blazer|Protect|p1a: Blazer
+|-singleturn|p1a: Blazer|Protect
+|move|p2a: Scarf|Rock Blast|p1a: Blazer
+|-activate|p1a: Blazer|move: Protect
+|
+|-ability|p1a: Blazer|Speed Boost|boost
+|-boost|p1a: Blazer|spe|1
+|upkeep
+|turn|2
+
+|inactive|TrapMonarch has 120 seconds left.
+
+|
+|move|p1a: Blazer|Baton Pass|p1a: Blazer
+
+|
+|switch|p1a: Weeb King|Nidoking, M, shiny|100/100|[from]move: Baton Pass
+|move|p2a: Scarf|Rock Blast|p1a: Weeb King
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|96/100
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|90/100
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|85/100
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|80/100
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|75/100
+|-hitcount|p1a: Weeb King|5
+|
+|upkeep
+|turn|3
+
+|inactive|TrapMonarch has 120 seconds left.
+
+|
+|switch|p2a: Jurassic|Noivern, F, shiny|100/100
+|move|p1a: Weeb King|Earth Power|p2a: Jurassic
+|-immune|p2a: Jurassic
+|
+|upkeep
+|turn|4
+
+|inactive|TrapMonarch has 120 seconds left.
+
+|
+|move|p1a: Weeb King|Ice Beam|p2a: Jurassic
+|-supereffective|p2a: Jurassic
+|-damage|p2a: Jurassic|0 fnt
+|faint|p2a: Jurassic
+|
+|upkeep
+
+|
+|switch|p2a: Espionage|Espeon, F, shiny|100/100
+|turn|5
+
+|
+|move|p1a: Weeb King|Earth Power|p2a: Espionage
+|-damage|p2a: Espionage|48/100
+|move|p2a: Espionage|Trick|p1a: Weeb King
+|-activate|p2a: Espionage|move: Trick|[of] p1a: Weeb King
+|-item|p1a: Weeb King|Choice Scarf|[from] move: Trick
+|-item|p2a: Espionage|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Espionage|Protect|p2a: Espionage
+|-singleturn|p2a: Espionage|Protect
+|move|p1a: Weeb King|Earth Power|p2a: Espionage
+|-activate|p2a: Espionage|move: Protect
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Henry Wu|Zoroark, F, shiny|100/100
+|move|p1a: Weeb King|Earth Power|p2a: Henry Wu
+|-damage|p2a: Henry Wu|2/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Weeb King|Earth Power|p2a: Henry Wu
+|-damage|p2a: Henry Wu|0 fnt
+|faint|p2a: Henry Wu
+|
+|upkeep
+
+|
+|switch|p2a: The Wall|Forretress, F, shiny|100/100
+|turn|9
+
+|
+|move|p1a: Weeb King|Earth Power|p2a: The Wall
+|-damage|p2a: The Wall|23/100
+|move|p2a: The Wall|Pain Split|p1a: Weeb King
+|-sethp|p1a: Weeb King|51/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: The Wall|44/100|[from] move: Pain Split
+|
+|-heal|p2a: The Wall|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Weeb King|Earth Power|p2a: The Wall
+|-damage|p2a: The Wall|0 fnt
+|faint|p2a: The Wall
+|
+|upkeep
+
+|
+|switch|p2a: Scarf|Cinccino, F, shiny|100/100
+|turn|11
+
+|
+|move|p1a: Weeb King|Earth Power|p2a: Scarf
+|-damage|p2a: Scarf|13/100
+|move|p2a: Scarf|Rock Blast|p1a: Weeb King
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|46/100
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|41/100
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|36/100
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|31/100
+|-resisted|p1a: Weeb King
+|-damage|p1a: Weeb King|26/100
+|-hitcount|p1a: Weeb King|5
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Weeb King|Earth Power|p2a: Scarf
+|-damage|p2a: Scarf|0 fnt
+|faint|p2a: Scarf
+|
+|upkeep
+
+|
+|switch|p2a: Espionage|Espeon, F, shiny|48/100
+|turn|13
+
+|
+|move|p1a: Weeb King|Earth Power|p2a: Espionage
+|-damage|p2a: Espionage|7/100
+|move|p2a: Espionage|Wish|p2a: Espionage
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Espionage|Protect|p2a: Espionage
+|-singleturn|p2a: Espionage|Protect
+|move|p1a: Weeb King|Earth Power|p2a: Espionage
+|-activate|p2a: Espionage|move: Protect
+|
+|-heal|p2a: Espionage|57/100|[from] move: Wish|[wisher] Espionage
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Foreshadow|Alakazam, M|100/100
+|move|p2a: Espionage|Wish|p2a: Espionage
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Foreshadow|Shadow Ball|p2a: Espionage
+|-supereffective|p2a: Espionage
+|-damage|p2a: Espionage|7/100
+|move|p2a: Espionage|Trick|p1a: Foreshadow
+|-activate|p2a: Espionage|move: Trick|[of] p1a: Foreshadow
+|-item|p1a: Foreshadow|Life Orb|[from] move: Trick
+|-item|p2a: Espionage|Focus Sash|[from] move: Trick
+|
+|-heal|p2a: Espionage|57/100|[from] move: Wish|[wisher] Espionage
+|upkeep
+|turn|17
+
+|
+|move|p1a: Foreshadow|Shadow Ball|p2a: Espionage
+|-supereffective|p2a: Espionage
+|-damage|p2a: Espionage|0 fnt
+|faint|p2a: Espionage
+|
+|upkeep
+
+|
+|switch|p2a: Frappuccino|Clefable, M, shiny|100/100
+|turn|18
+
+|
+|move|p1a: Foreshadow|Thunder Wave|p2a: Frappuccino
+|-status|p2a: Frappuccino|par
+|cant|p2a: Frappuccino|par
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Foreshadow|Psychic|p2a: Frappuccino
+|-crit|p2a: Frappuccino
+|-damage|p2a: Frappuccino|0 fnt
+|faint|p2a: Frappuccino
+|
+|win|TrapMonarch

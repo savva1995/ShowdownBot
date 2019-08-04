@@ -1,0 +1,264 @@
+|init|battle
+|title|Kittycatmreow vs. Peaches77
+|j|☆Kittycatmreow
+|j|☆Peaches77
+|player|p1|Kittycatmreow|266|
+|player|p2|Peaches77|278|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grumpig|Grumpig, L89, F|100/100
+|switch|p2a: Greninja|Greninja, L80, M|100/100
+|turn|1
+|
+|move|p2a: Greninja|U-turn|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|59/100
+
+|
+|switch|p2a: Kingler|Kingler, L87, F|100/100|[from]move: U-turn
+|move|p1a: Grumpig|Toxic|p2a: Kingler
+|-status|p2a: Kingler|tox
+|
+|-damage|p2a: Kingler|95/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Grumpig|Psychic|p2a: Kingler
+|-damage|p2a: Kingler|31/100 tox
+|move|p2a: Kingler|Agility|p2a: Kingler
+|-boost|p2a: Kingler|spe|2
+|
+|-damage|p2a: Kingler|19/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Kingler|Knock Off|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|0 fnt
+|-enditem|p1a: Grumpig|Focus Sash|[from] move: Knock Off|[of] p2a: Kingler
+|-damage|p2a: Kingler|9/100 tox|[from] item: Life Orb
+|faint|p1a: Grumpig
+|
+|-damage|p2a: Kingler|0 fnt|[from] psn
+|faint|p2a: Kingler
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, L82, F|100/100
+|switch|p2a: Blaziken|Blaziken, L78, F|100/100
+|turn|4
+
+|
+|switch|p1a: Heatran|Heatran, L80, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|detailschange|p2a: Blaziken|Blaziken-Mega, L78, F
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Blaziken|Flare Blitz|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|5
+
+|
+|move|p2a: Blaziken|High Jump Kick|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p1a: Stakataka|Stakataka, L83|100/100
+|-item|p1a: Stakataka|Air Balloon
+|turn|6
+
+|
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Stakataka|Trick Room|p1a: Stakataka
+|-fieldstart|move: Trick Room|[of] p1a: Stakataka
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|7
+
+|
+|move|p1a: Stakataka|Earthquake|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|24/100
+|move|p2a: Blaziken|High Jump Kick|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|-enditem|p1a: Stakataka|Air Balloon
+|faint|p1a: Stakataka
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p1a: Braviary|Braviary, L86, M|100/100
+|turn|8
+
+|
+|move|p1a: Braviary|Superpower|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|faint|p2a: Blaziken
+|
+|upkeep
+
+|
+|switch|p2a: Exeggutor|Exeggutor, L89, F|100/100
+|turn|9
+
+|
+|switch|p1a: Mimikyu|Mimikyu, L82, F|100/100
+|move|p2a: Exeggutor|Leech Seed|p1a: Mimikyu
+|-start|p1a: Mimikyu|move: Leech Seed
+|
+|-damage|p1a: Mimikyu|88/100|[from] Leech Seed|[of] p2a: Exeggutor
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|77/100
+|move|p2a: Exeggutor|Giga Drain|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L82, F
+|
+|-damage|p1a: Mimikyu|75/100|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|86/100|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Exeggutor|Substitute|p2a: Exeggutor
+|-start|p2a: Exeggutor|Substitute
+|-damage|p2a: Exeggutor|61/100
+|
+|-damage|p1a: Mimikyu|63/100|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|70/100|[silent]
+|upkeep
+|turn|12
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-end|p2a: Exeggutor|Substitute
+|move|p2a: Exeggutor|Giga Drain|p1a: Mimikyu
+|-damage|p1a: Mimikyu|17/100
+|-heal|p2a: Exeggutor|86/100|[from] drain|[of] p1a: Mimikyu
+|
+|-damage|p1a: Mimikyu|5/100|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|95/100|[silent]
+|upkeep
+|turn|13
+
+|
+|-zpower|p1a: Mimikyu
+|move|p1a: Mimikyu|Let's Snuggle Forever|p2a: Exeggutor|[zeffect]
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|upkeep
+
+|
+|switch|p2a: Alakazam|Alakazam, L81, F|100/100
+|turn|14
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, L80, M|100/100
+|turn|15
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-hitcount|p1a: Mimikyu|1
+|faint|p1a: Mimikyu
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, L80, M
+|
+|upkeep
+
+|
+|switch|p1a: Braviary|Braviary, L86, M|100/100
+|turn|16
+
+|
+|move|p2a: Greninja|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|32/100
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|
+|-heal|p1a: Braviary|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Greninja|U-turn|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|30/100
+
+|
+|switch|p2a: Exploud|Exploud, L85, M|100/100|[from]move: U-turn
+|move|p1a: Braviary|Superpower|p2a: Exploud
+|-supereffective|p2a: Exploud
+|-damage|p2a: Exploud|0 fnt
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|faint|p2a: Exploud
+|
+|-heal|p1a: Braviary|36/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja-Ash, L80, M|100/100
+|turn|18
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Braviary
+|-damage|p1a: Braviary|26/100
+|-damage|p1a: Braviary|15/100
+|-damage|p1a: Braviary|4/100
+|-hitcount|p1a: Braviary|3
+|move|p1a: Braviary|Superpower|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|faint|p2a: Greninja
+|
+|win|Kittycatmreow

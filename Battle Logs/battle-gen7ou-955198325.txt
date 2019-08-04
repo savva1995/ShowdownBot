@@ -1,0 +1,369 @@
+|init|battle
+|title|dinganator vs. BigBoisOnly
+|j|☆dinganator
+|j|☆BigBoisOnly
+|player|p1|dinganator|101|1338
+|player|p2|BigBoisOnly|11|1343
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Greninja, M|item
+|poke|p1|Kartana|item
+|poke|p1|Magearna|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Greninja, M|item
+|poke|p2|Tapu Koko|item
+|teampreview
+
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Charizard|Charizard, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|turn|1
+
+|
+|detailschange|p2a: Charizard|Charizard-Mega-Y, F
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|2
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Greninja|Rock Slide|p2a: Toxapex|[miss]
+|-start|p1a: Greninja|typechange|Rock|[from] ability: Protean
+|-miss|p1a: Greninja|p2a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|move|p2a: Toxapex|Scald|p1a: Alakazam
+|-damage|p1a: Alakazam|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|detailschange|p1a: Alakazam|Alakazam-Mega, M
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|-ability|p1a: Alakazam|Sand Stream|[from] ability: Trace|[of] p2a: Tyranitar
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|83/100|[from] Sandstorm
+|upkeep
+|turn|5
+
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Alakazam|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|10/100|[from] Sandstorm
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Kartana|Kartana|100/100
+|move|p2a: Tyranitar|Crunch|p1a: Kartana
+|-damage|p1a: Kartana|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Charizard|Charizard-Mega-Y, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Kartana|Sacred Sword|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Charizard|Focus Blast|p1a: Rotom
+|-damage|p1a: Rotom|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|66/100
+
+|
+|switch|p1a: Alakazam|Alakazam-Mega, M|10/100|[from]move: Volt Switch
+|-ability|p1a: Alakazam|Regenerator|[from] ability: Trace|[of] p2a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|60/100
+|move|p2a: Toxapex|Scald|p1a: Alakazam
+|-damage|p1a: Alakazam|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|47/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Alakazam|Psychic|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|44/100|[from] Sandstorm
+|upkeep
+|turn|12
+
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|38/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|13
+
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Greninja|Water Shuriken|p1a: Magearna
+|-damage|p1a: Magearna|97/100
+|-damage|p1a: Magearna|94/100
+|-damage|p1a: Magearna|91/100
+|-hitcount|p1a: Magearna|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|95/100|[from] Sandstorm
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Magearna|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|73/100
+
+|
+|switch|p1a: Alakazam|Alakazam-Mega, M|71/100|[from]move: Volt Switch
+|-ability|p1a: Alakazam|Regenerator|[from] ability: Trace|[of] p2a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|65/100|[from] Sandstorm
+|-damage|p2a: Toxapex|67/100|[from] Sandstorm
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|
+|move|p1a: Alakazam|Energy Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Alakazam
+|-sidestart|p1: dinganator|move: Toxic Spikes
+|
+|-weather|none
+|-heal|p2a: Toxapex|53/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Charizard|Charizard-Mega-Y, F|58/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Alakazam|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Alakazam|Psychic|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Rotom|Rotom-Wash|52/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Reuniclus
+|-damage|p2a: Reuniclus|64/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Reuniclus|[miss]
+|-miss|p1a: Rotom|p2a: Reuniclus
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|
+|-weather|none
+|upkeep
+|turn|21
+
+|
+|move|p1a: Rotom|Defog|p2a: Reuniclus
+|-unboost|p2a: Reuniclus|evasion|1
+|-sideend|p1: dinganator|Toxic Spikes|[from] move: Defog|[of] p1a: Rotom
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Kartana|Kartana|59/100
+|move|p2a: Reuniclus|Psyshock|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|26/100
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Kartana|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|54/100
+|-damage|p1a: Kartana|9/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|-enditem|p2a: Reuniclus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Kartana
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Kartana|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|34/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|84/100
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Kartana|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|62/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Kartana|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|78/100
+|move|p2a: Reuniclus|Psyshock|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|27
+
+|
+|move|p1a: Greninja|Ice Beam|p2a: Reuniclus
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-damage|p2a: Reuniclus|64/100
+|move|p2a: Reuniclus|Psyshock|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+
+|
+|switch|p1a: Magearna|Magearna|91/100
+|turn|28
+
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Reuniclus
+|-damage|p2a: Reuniclus|39/100
+|-unboost|p1a: Magearna|spa|2
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|89/100
+|
+|upkeep
+|turn|29
+
+|-message|dinganator forfeited.
+
+|
+|win|BigBoisOnly

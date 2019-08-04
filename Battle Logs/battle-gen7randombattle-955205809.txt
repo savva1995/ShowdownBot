@@ -1,0 +1,56 @@
+|init|battle
+|title|BamHaneulNara vs. postmel
+|j|☆BamHaneulNara
+|j|☆postmel
+|player|p1|BamHaneulNara|169|1145
+|player|p2|postmel|101|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Togedemaru|Togedemaru, L86, F|100/100
+|switch|p2a: Jellicent|Jellicent, L88, F|100/100
+|-item|p1a: Togedemaru|Air Balloon
+|turn|1
+
+|
+|switch|p2a: Breloom|Breloom, L81, F|100/100
+|move|p1a: Togedemaru|Zing Zap|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|77/100
+|
+|-heal|p2a: Breloom|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|l|☆BamHaneulNara
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by postmel)
+
+|l|☆postmel
+
+|inactive|postmel disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|BamHaneulNara has 30 seconds to reconnect!
+
+|inactive|BamHaneulNara has 20 seconds to reconnect!
+
+|inactive|BamHaneulNara has 15 seconds to reconnect!
+
+|inactive|BamHaneulNara has 10 seconds to reconnect!
+
+|inactive|BamHaneulNara has 5 seconds to reconnect!
+
+|-message|BamHaneulNara lost due to inactivity.
+|
+|win|postmel

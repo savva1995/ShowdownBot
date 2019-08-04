@@ -1,0 +1,356 @@
+|init|battle
+|title|kerorek vs. Grinty
+|j|☆kerorek
+|j|☆Grinty
+|player|p1|kerorek|4|1532
+|player|p2|Grinty|181|1590
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gallade, M|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Gengar, M|item
+|poke|p1|Chesnaught, F|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Uxie|item
+|poke|p2|Greninja, F|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Celesteela|item
+|poke|p2|Diancie|item
+|poke|p2|Serperior, F|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|turn|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Nidoqueen|atk|1
+|move|p1a: Nidoqueen|Earth Power|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Chesnaught
+|-sidestart|p1: kerorek|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Celesteela|Celesteela|100/100
+|move|p1a: Chesnaught|Spikes|p2a: Celesteela
+|-sidestart|p2: Grinty|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Uxie|Uxie|100/100
+|-damage|p1a: Uxie|88/100|[from] Stealth Rock
+|move|p2a: Celesteela|Air Slash|p1a: Uxie
+|-damage|p1a: Uxie|69/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Uxie|Stealth Rock|p2a: Celesteela
+|-sidestart|p2: Grinty|move: Stealth Rock
+|move|p2a: Celesteela|Air Slash|p1a: Uxie
+|-damage|p1a: Uxie|44/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Uxie|Yawn|p2a: Celesteela
+|-start|p2a: Celesteela|move: Yawn|[of] p1a: Uxie
+|move|p2a: Celesteela|Air Slash|p1a: Uxie
+|-damage|p1a: Uxie|17/100
+|-enditem|p1a: Uxie|Iapapa Berry|[eat]
+|-heal|p1a: Uxie|67/100|[from] item: Iapapa Berry
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Diancie|Diancie|100/100
+|-damage|p2a: Diancie|88/100|[from] Stealth Rock
+|-damage|p2a: Diancie|76/100|[from] Spikes
+|move|p1a: Uxie|U-turn|p2a: Diancie
+|-resisted|p2a: Diancie
+|-crit|p2a: Diancie
+|-damage|p2a: Diancie|65/100
+
+|
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100|[from]move: U-turn
+|-damage|p1a: Nidoqueen|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+
+|
+|detailschange|p2a: Diancie|Diancie-Mega
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Earth Power|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|43/100
+|move|p1a: Nidoqueen|Ice Beam|p2a: Diancie
+|-damage|p2a: Diancie|31/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Uxie|Uxie|67/100
+|-damage|p1a: Uxie|55/100|[from] Stealth Rock
+|move|p2a: Diancie|Earth Power|p1a: Uxie
+|-immune|p1a: Uxie|[from] ability: Levitate
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Uxie|atk|1
+|move|p1a: Uxie|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|84/100
+
+|
+|switch|p1a: Gallade|Gallade, M, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+
+|
+|detailschange|p1a: Gallade|Gallade-Mega, M, shiny
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p1a: Gallade|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Celesteela|Celesteela|100/100
+|-damage|p2a: Celesteela|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p1a: Uxie|Uxie|55/100
+|-damage|p1a: Uxie|42/100|[from] Stealth Rock
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Celesteela|Air Slash|p1a: Uxie
+|-damage|p1a: Uxie|21/100
+|move|p1a: Uxie|Yawn|p2a: Celesteela
+|-start|p2a: Celesteela|move: Yawn|[of] p1a: Uxie
+|
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Diancie|Diancie-Mega|31/100
+|-damage|p2a: Diancie|19/100|[from] Spikes
+|-damage|p2a: Diancie|6/100|[from] Stealth Rock
+|move|p1a: Uxie|U-turn|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+
+|
+|switch|p1a: Gallade|Gallade-Mega, M, shiny|94/100|[from]move: U-turn
+|-damage|p1a: Gallade|88/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, F|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|-damage|p2a: Greninja|76/100|[from] Spikes
+|turn|15
+
+|
+|move|p2a: Greninja|Gunk Shot|p1a: Gallade
+|-start|p2a: Greninja|typechange|Poison|[from] ability: Protean
+|-damage|p1a: Gallade|42/100
+|move|p1a: Gallade|Close Combat|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|6/100
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Uxie|Uxie|21/100
+|-damage|p1a: Uxie|8/100|[from] Stealth Rock
+|move|p2a: Greninja|Hydro Pump|p1a: Uxie
+|-start|p2a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|upkeep
+
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+
+|
+|switch|p2a: Celesteela|Celesteela|88/100
+|-damage|p2a: Celesteela|76/100|[from] Stealth Rock
+|turn|18
+
+|
+|switch|p1a: Nidoqueen|Nidoqueen, F|43/100
+|-damage|p1a: Nidoqueen|36/100|[from] Stealth Rock
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|upkeep
+|turn|19
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kerorek)
+
+|
+|move|p2a: Celesteela|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Celesteela
+|-damage|p2a: Celesteela|18/100
+|move|p2a: Celesteela|Flamethrower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Gengar|Gengar, M|88/100
+|-damage|p1a: Gengar|76/100|[from] Stealth Rock
+|turn|21
+
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|faint|p2a: Celesteela
+|
+|upkeep
+
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|88/100|[from] Spikes
+|-damage|p2a: Kommo-o|82/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Bulletproof
+|move|p2a: Kommo-o|Dragon Dance|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|-damage|p1a: Chesnaught|94/100|[from] Stealth Rock
+|-zpower|p2a: Kommo-o
+|move|p2a: Kommo-o|Clangorous Soulblaze|p1a: Chesnaught|[zeffect]
+|-damage|p1a: Chesnaught|27/100
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|-heal|p1a: Chesnaught|33/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Chesnaught|Spiky Shield|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|move: Protect
+|move|p2a: Kommo-o|Poison Jab|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|-damage|p2a: Kommo-o|70/100|[from] Spiky Shield|[of] p1a: Chesnaught
+|
+|-heal|p1a: Chesnaught|39/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Kommo-o|Poison Jab|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|upkeep
+
+|
+|switch|p1a: Gengar|Gengar, M|76/100
+|-damage|p1a: Gengar|64/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-unboost|p2a: Kommo-o|def|1
+|faint|p1a: Gengar
+|
+|upkeep
+
+|-message|kerorek forfeited.
+
+|
+|win|Grinty

@@ -1,0 +1,68 @@
+|init|battle
+|title|Adamteeemack vs. Danielferral
+|j|‽Adamteeemack
+|j|☆Danielferral
+|player|p1|Adamteeemack|170|1544
+|player|p2|Danielferral|170|1282
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Lilligant, F|item
+|poke|p1|Torkoal, F|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Pheromosa|item
+|poke|p1|Tapu Lele|item
+|poke|p1|Oricorio-Pom-Pom, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Arcanine, F|item
+|poke|p2|Aegislash, M|item
+|poke|p2|Aerodactyl, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adamteeemack)
+|
+|start
+|switch|p1a: Lilligant|Lilligant, F, shiny|100/100
+|switch|p1b: Torkoal|Torkoal, F|100/100
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|switch|p2b: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2b: Tapu Koko
+|-item|p2b: Tapu Koko|Air Balloon
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Adamteeemack
+|move|p1a: Lilligant|After You|p1b: Torkoal
+|-activate|p1b: Torkoal|move: After You
+|move|p1b: Torkoal|Eruption|p2a: Aerodactyl|[spread] p2a,p2b
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|36/100
+|-damage|p2b: Tapu Koko|0 fnt
+|-enditem|p2b: Tapu Koko|Air Balloon
+|faint|p2b: Tapu Koko
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Danielferral forfeited.
+|
+|win|Adamteeemack
+|l|☆Danielferral
+|raw|Adamteeemack's rating: 1544 &rarr; <strong>1551</strong><br />(+7 for winning)
+|raw|Danielferral's rating: 1282 &rarr; <strong>1273</strong><br />(-9 for losing)

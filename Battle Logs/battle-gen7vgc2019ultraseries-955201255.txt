@@ -1,0 +1,145 @@
+|init|battle
+|title|NikyuAlex vs. Red tomatoes
+|j|☆NikyuAlex
+|j|☆Red tomatoes
+|player|p1|NikyuAlex|163|1563
+|player|p2|Red tomatoes|163|1453
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Rayquaza, L50|item
+|poke|p1|Xerneas, L50|item
+|poke|p1|Incineroar, L50, M|item
+|poke|p1|Tapu Koko, L50|item
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Metagross, L50|item
+|poke|p2|Kyogre, L50|item
+|poke|p2|Rayquaza, L50|item
+|poke|p2|Gengar, L50, M|item
+|poke|p2|Tapu Koko, L50|item
+|poke|p2|Incineroar, L50, F|item
+|poke|p2|Stakataka, L50|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Red tomatoes)
+
+|inactive|NikyuAlex has 60 seconds left.
+
+|inactive|NikyuAlex has 30 seconds left.
+
+|inactive|NikyuAlex has 20 seconds left.
+
+|inactive|NikyuAlex has 15 seconds left.
+
+|inactive|NikyuAlex has 10 seconds left.
+
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko, L50|48/48
+|switch|p1b: Incineroar|Incineroar, L50, M|48/48
+|switch|p2a: Gengar|Gengar, L50, M|48/48
+|switch|p2b: Incineroar|Incineroar, L50, F|48/48
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tapu Koko|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L50, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p1a: Tapu Koko|Protect|p1a: Tapu Koko
+|-singleturn|p1a: Tapu Koko|Protect
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p2b: Incineroar|U-turn|p1b: Incineroar
+|-damage|p1b: Incineroar|40/48
+
+|
+|switch|p2b: Stakataka|Stakataka, L50|48/48|[from]move: U-turn
+|move|p1b: Incineroar|U-turn|p2b: Stakataka
+|-resisted|p2b: Stakataka
+|-damage|p2b: Stakataka|46/48
+
+|
+|switch|p1b: Xerneas|Xerneas, L50|48/48|[from]move: U-turn
+|-ability|p1b: Xerneas|Fairy Aura
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Gengar|Sludge Bomb|p1a: Tapu Koko
+|-supereffective|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|move|p1b: Xerneas|Geomancy||[still]
+|-prepare|p1b: Xerneas|Geomancy|p1b: Xerneas
+|-enditem|p1b: Xerneas|Power Herb
+|-anim|p1b: Xerneas|Geomancy|p1b: Xerneas
+|-boost|p1b: Xerneas|spa|2
+|-boost|p1b: Xerneas|spd|2
+|-boost|p1b: Xerneas|spe|2
+|move|p2b: Stakataka|Trick Room|p2b: Stakataka
+|-fieldstart|move: Trick Room|[of] p2b: Stakataka
+|
+|upkeep
+
+|
+|switch|p1a: Incineroar|Incineroar, L50, M|40/48
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|-unboost|p2b: Stakataka|atk|1
+|turn|3
+
+|
+|switch|p2b: Incineroar|Incineroar, L50, F|48/48
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Xerneas|atk|1
+|move|p1a: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|44/48
+|move|p2a: Gengar|Sludge Bomb|p1a: Incineroar
+|-damage|p1a: Incineroar|22/48
+|move|p1b: Xerneas|Moonblast|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+
+|
+|switch|p2b: Stakataka|Stakataka, L50|46/48
+|turn|4
+
+|
+|move|p1b: Xerneas|Protect|p1b: Xerneas
+|-singleturn|p1b: Xerneas|Protect
+|move|p2b: Stakataka|Rock Slide|p1b: Xerneas|[spread] p1a
+|-activate|p1b: Xerneas|move: Protect
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-ability|p2b: Stakataka|Beast Boost|boost
+|-boost|p2b: Stakataka|def|1
+|move|p2a: Gengar|Sludge Bomb|p1b: Xerneas
+|-activate|p1b: Xerneas|move: Protect
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini, L50|48/48
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|5
+
+|-message|NikyuAlex forfeited.
+
+|
+|win|Red tomatoes

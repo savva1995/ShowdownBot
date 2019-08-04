@@ -1,0 +1,158 @@
+|init|battle
+|title|CMerc2807 vs. gosn
+|j|☆CMerc2807
+|j|☆gosn
+|player|p1|CMerc2807|169|1564
+|player|p2|gosn|266|1604
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Leavanny|Leavanny, L89, M|100/100
+|switch|p2a: Ambipom|Ambipom, L86, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gosn)
+|
+|move|p2a: Ambipom|Fake Out|p1a: Leavanny
+|-damage|p1a: Leavanny|68/100
+|-damage|p2a: Ambipom|91/100|[from] item: Life Orb
+|cant|p1a: Leavanny|flinch
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Garbodor|Garbodor, L86, F|100/100
+|move|p2a: Ambipom|Knock Off|p1a: Garbodor
+|-damage|p1a: Garbodor|66/100
+|-enditem|p1a: Garbodor|Black Sludge|[from] move: Knock Off|[of] p2a: Ambipom
+|-damage|p2a: Ambipom|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Ambipom|Return|p1a: Garbodor
+|-damage|p1a: Garbodor|13/100
+|-damage|p2a: Ambipom|72/100|[from] item: Life Orb
+|move|p1a: Garbodor|Pain Split|p2a: Ambipom
+|-sethp|p2a: Ambipom|42/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Garbodor|41/100|[from] move: Pain Split
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Ambipom|Return|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: Ambipom|17/100|[from] ability: Aftermath|[of] p1a: Garbodor
+|-damage|p2a: Ambipom|8/100|[from] item: Life Orb
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|switch|p1a: Leavanny|Leavanny, L89, M|68/100
+|turn|5
+|
+|move|p2a: Ambipom|Return|p1a: Leavanny
+|-damage|p1a: Leavanny|15/100
+|-damage|p2a: Ambipom|0 fnt|[from] item: Life Orb
+|faint|p2a: Ambipom
+|move|p1a: Leavanny|Sticky Web|p2: Ambipom
+|-sidestart|p2: gosn|move: Sticky Web
+|
+|upkeep
+
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|turn|6
+
+|
+|switch|p1a: Kyogre|Kyogre, L78|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal, L78
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|move|p2a: Moltres|Fire Blast||[still]
+|-fail|p2a: Moltres|Fire Blast|[from] Primordial Sea
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|7
+
+|
+|-zpower|p2a: Moltres
+|move|p2a: Moltres|Supersonic Skystrike|p1a: Kyogre|[zeffect]
+|-damage|p1a: Kyogre|49/100
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|8
+
+|
+|move|p2a: Moltres|Will-O-Wisp|p1a: Kyogre|[miss]
+|-miss|p2a: Moltres|p1a: Kyogre
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p2a: Moltres|Hurricane|p1a: Kyogre
+|-damage|p1a: Kyogre|33/100
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Moltres|Hurricane|p1a: Kyogre
+|-damage|p1a: Kyogre|21/100
+|move|p1a: Kyogre|Rest|p1a: Kyogre
+|-status|p1a: Kyogre|slp|[from] move: Rest
+|-heal|p1a: Kyogre|100/100 slp|[silent]
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Moltres|Hurricane|p1a: Kyogre
+|-damage|p1a: Kyogre|87/100 slp
+|cant|p1a: Kyogre|slp
+|move|p1a: Kyogre|Sleep Talk|p1a: Kyogre
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre|[from]Sleep Talk
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|12
+
+|
+|move|p2a: Moltres|Hurricane|p1a: Kyogre
+|-damage|p1a: Kyogre|77/100 slp
+|cant|p1a: Kyogre|slp
+|move|p1a: Kyogre|Sleep Talk|p1a: Kyogre
+|move|p1a: Kyogre|Rest|p1a: Kyogre|[from]Sleep Talk
+|-fail|p1a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|13
+
+|-message|gosn forfeited.
+
+|
+|win|CMerc2807

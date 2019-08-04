@@ -1,0 +1,314 @@
+|init|battle
+|title|Laikai vs. Mobibig
+|j|☆Laikai
+|j|☆Mobibig
+|player|p1|Laikai|267|1455
+|player|p2|Mobibig|10|1536
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Luxray|Luxray, L89, M|100/100
+|switch|p2a: Magnezone|Magnezone, L80|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mobibig)
+|
+|move|p1a: Luxray|Crunch|p2a: Magnezone
+|-damage|p2a: Magnezone|75/100
+|move|p2a: Magnezone|Volt Switch|p1a: Luxray
+|-resisted|p1a: Luxray
+|-damage|p1a: Luxray|78/100
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100|[from]move: Volt Switch
+|
+|-status|p1a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Fake Out|p1a: Luxray
+|-damage|p1a: Luxray|59/100 brn
+|-damage|p1a: Luxray|55/100 brn
+|-hitcount|p1a: Luxray|2
+|cant|p1a: Luxray|flinch
+|
+|-damage|p1a: Luxray|49/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Luxray
+|-supereffective|p1a: Luxray
+|-crit|p1a: Luxray
+|-damage|p1a: Luxray|0 fnt
+|-hitcount|p1a: Luxray|1
+|faint|p1a: Luxray
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, L82, M|100/100
+|turn|4
+
+|
+|move|p2a: Kangaskhan|Return|p1a: Togekiss
+|-damage|p1a: Togekiss|62/100
+|-damage|p1a: Togekiss|52/100
+|-hitcount|p1a: Togekiss|2
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p1a: Togekiss|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Magnezone|Magnezone, L80|75/100
+|move|p1a: Togekiss|Aura Sphere|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Togekiss|64/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, F|100/100
+|turn|6
+
+|
+|move|p2a: Heliolisk|Rain Dance|p2a: Heliolisk
+|-weather|RainDance
+|move|p1a: Togekiss|Aura Sphere|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-damage|p2a: Heliolisk|7/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heliolisk|19/100|[from] ability: Dry Skin
+|-heal|p1a: Togekiss|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Heliolisk|Thunder|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Heliolisk|9/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heliolisk|21/100|[from] ability: Dry Skin
+|upkeep
+
+|
+|switch|p1a: Seismitoad|Seismitoad, L86, M|100/100
+|turn|8
+
+|
+|switch|p2a: Venomoth|Venomoth, L83, F|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Venomoth
+|-damage|p2a: Venomoth|28/100
+|-damage|p1a: Seismitoad|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Venomoth|34/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|-damage|p1a: Seismitoad|81/100|[from] item: Life Orb
+|faint|p2a: Venomoth
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan-Mega, L78, F|100/100
+|turn|10
+
+|
+|move|p2a: Kangaskhan|Fake Out|p1a: Seismitoad
+|-damage|p1a: Seismitoad|66/100
+|-damage|p1a: Seismitoad|62/100
+|-hitcount|p1a: Seismitoad|2
+|cant|p1a: Seismitoad|flinch
+|
+|-weather|none
+|upkeep
+|turn|11
+
+|
+|move|p2a: Kangaskhan|Return|p1a: Seismitoad
+|-damage|p1a: Seismitoad|25/100
+|-damage|p1a: Seismitoad|15/100
+|-hitcount|p1a: Seismitoad|2
+|move|p1a: Seismitoad|Rain Dance|p1a: Seismitoad
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+
+|
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-hitcount|p1a: Seismitoad|1
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, F|100/100
+|turn|13
+
+|
+|move|p1a: Staraptor|Close Combat|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-unboost|p1a: Staraptor|def|1
+|-unboost|p1a: Staraptor|spd|1
+|faint|p2a: Kangaskhan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, F|21/100
+|turn|14
+
+|
+|switch|p1a: Venusaur|Venusaur, L81, F|100/100
+|move|p2a: Heliolisk|Thunder|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|70/100
+|-damage|p2a: Heliolisk|11/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heliolisk|24/100|[from] ability: Dry Skin
+|upkeep
+|turn|15
+
+|
+|detailschange|p1a: Venusaur|Venusaur-Mega, L81, F
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p2a: Heliolisk|Dark Pulse|p1a: Venusaur
+|-damage|p1a: Venusaur|42/100
+|-damage|p2a: Heliolisk|14/100|[from] item: Life Orb
+|move|p1a: Venusaur|Giga Drain|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|-heal|p1a: Venusaur|48/100|[from] drain|[of] p2a: Heliolisk
+|faint|p2a: Heliolisk
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, F|100/100
+|turn|16
+
+|
+|move|p2a: Bruxish|Psychic Fangs|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p2a: Bruxish|91/100|[from] item: Life Orb
+|faint|p1a: Venusaur
+|
+|upkeep
+
+|
+|switch|p1a: Regirock|Regirock, L88|100/100
+|turn|17
+
+|
+|move|p2a: Bruxish|Swords Dance|p2a: Bruxish
+|-boost|p2a: Bruxish|atk|2
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Bruxish|Swords Dance|p2a: Bruxish
+|-boost|p2a: Bruxish|atk|2
+|move|p1a: Regirock|Rock Slide|p2a: Bruxish
+|-damage|p2a: Bruxish|26/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Bruxish|Liquidation|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|18/100
+|-damage|p2a: Bruxish|17/100|[from] item: Life Orb
+|move|p1a: Regirock|Rock Slide|p2a: Bruxish|[miss]
+|-miss|p1a: Regirock|p2a: Bruxish
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Bruxish|Liquidation|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|-damage|p2a: Bruxish|7/100|[from] item: Life Orb
+|faint|p1a: Regirock
+|
+|upkeep
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, F|100/100
+|turn|21
+
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|-damage|p1a: Staraptor|99/100|[from] Recoil
+|faint|p2a: Bruxish
+|
+|upkeep
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L87, F|100/100
+|turn|22
+
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Aromatisse
+|-damage|p2a: Aromatisse|18/100
+|-damage|p1a: Staraptor|67/100|[from] Recoil
+|move|p2a: Aromatisse|Moonblast|p1a: Staraptor
+|-damage|p1a: Staraptor|8/100
+|
+|-heal|p2a: Aromatisse|24/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Staraptor|Brave Bird|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|30/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|-damage|p1a: Staraptor|0 fnt|[from] Recoil
+|faint|p2a: Aromatisse
+|faint|p1a: Staraptor
+|
+|win|Laikai

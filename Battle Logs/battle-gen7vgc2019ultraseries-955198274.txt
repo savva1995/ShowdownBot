@@ -1,0 +1,71 @@
+|init|battle
+|title|Madstah vs. gongyouli
+|j|☆Madstah
+|j|☆gongyouli
+|player|p1|Madstah|3|1052
+|player|p2|gongyouli|170|1107
+|teamsize|p1|4
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Persian, L50, M|item
+|poke|p1|Mr. Mime, L50, F|item
+|poke|p1|Xurkitree, L50|item
+|poke|p1|Seaking, L50, M|
+|poke|p2|Kyogre, L50|item
+|poke|p2|Xerneas, L50|item
+|poke|p2|Tornadus, L50, M|item
+|poke|p2|Kangaskhan, L50, F|item
+|poke|p2|Kommo-o, L50, F|item
+|poke|p2|Kartana, L50|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Madstah)
+|
+|start
+|switch|p1a: Chleo|Persian, L50, M|48/48
+|switch|p1b: Xurkitree|Xurkitree, L50|48/48
+|switch|p2a: Tornadus|Tornadus, L50, M|48/48
+|switch|p2b: Kangaskhan|Kangaskhan, L50, F|48/48
+|turn|1
+
+|
+|detailschange|p2b: Kangaskhan|Kangaskhan-Mega, L50, F
+|-mega|p2b: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p1a: Chleo|Fake Out|p2b: Kangaskhan
+|-damage|p2b: Kangaskhan|35/48
+|cant|p2b: Kangaskhan|flinch
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: gongyouli|move: Tailwind
+|-zpower|p1b: Xurkitree
+|move|p1b: Xurkitree|Z-Rain Dance|p1b: Xurkitree|[anim]Rain Dance
+|-boost|p1b: Xurkitree|spe|1|[zeffect]
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+
+|
+|-zpower|p2a: Tornadus
+|move|p2a: Tornadus|Supersonic Skystrike|p1a: Chleo|[zeffect]
+|-damage|p1a: Chleo|0 fnt
+|faint|p1a: Chleo
+|move|p2b: Kangaskhan|Double-Edge|p1b: Xurkitree
+|-damage|p1b: Xurkitree|8/48
+|-damage|p1b: Xurkitree|0 fnt
+|-hitcount|p1b: Xurkitree|2
+|-damage|p2b: Kangaskhan|21/48|[from] Recoil
+|faint|p1b: Xurkitree
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|-message|Madstah forfeited.
+
+|
+|win|gongyouli

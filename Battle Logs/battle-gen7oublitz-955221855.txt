@@ -1,0 +1,103 @@
+|init|battle
+|title|Fullox8 vs. Winniemarbles
+|j|☆Fullox8
+|j|☆Winniemarbles
+|player|p1|Fullox8|2|1105
+|player|p2|Winniemarbles|102|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lopunny, F|item
+|poke|p1|Magearna|item
+|poke|p1|Greninja, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tapu Lele|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Heatran, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Zapdos|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Fullox8 has 30 seconds left this turn.
+|inactive|Winniemarbles has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Winniemarbles)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Sky Cat|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sky Cat|atk|1
+|-ability|p2a: Sky Cat|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|1
+|inactive|Fullox8 has 15 seconds left this turn.
+|inactive|Winniemarbles has 15 seconds left this turn.
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Sky Cat
+|-sidestart|p2: Winniemarbles|move: Stealth Rock
+|move|p2a: Sky Cat|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|36/100
+|
+|-heal|p1a: Landorus|42/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Fullox8 has 15 seconds left this turn.
+|inactive|Winniemarbles has 15 seconds left this turn.
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Sky Cat|Defog|p1a: Magearna
+|-unboost|p1a: Magearna|evasion|1
+|-sideend|p2: Winniemarbles|Stealth Rock|[from] move: Defog|[of] p2a: Sky Cat
+|
+|upkeep
+|turn|3
+|inactive|Fullox8 has 15 seconds left this turn.
+|inactive|Winniemarbles has 15 seconds left this turn.
+|inactive|Fullox8 has 10 seconds left.
+|
+|switch|p2a: Miami|Heatran, M|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|42/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Miami|atk|1
+|
+|-heal|p1a: Landorus|48/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Fullox8 has 15 seconds left this turn.
+|inactive|Winniemarbles has 15 seconds left this turn.
+|inactive|Fullox8 has 10 seconds left.
+|inactive|Winniemarbles has 10 seconds left.
+|
+|switch|p2a: Sky Cat|Landorus-Therian, M|100/100
+|-ability|p2a: Sky Cat|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stone Edge|p2a: Sky Cat|[miss]
+|-miss|p1a: Landorus|p2a: Sky Cat
+|
+|-heal|p1a: Landorus|54/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Fullox8 has 15 seconds left this turn.
+|inactive|Winniemarbles has 15 seconds left this turn.
+|inactive|Fullox8 has 10 seconds left.
+|inactive|Winniemarbles has 10 seconds left.
+|inactive|Fullox8 has 5 seconds left.
+
+|-message|Fullox8 lost due to inactivity.
+|
+|win|Winniemarbles

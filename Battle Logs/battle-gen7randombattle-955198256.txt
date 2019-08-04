@@ -1,0 +1,73 @@
+|init|battle
+|title|raddarada vs. Rrerfgttrr
+|j|☆raddarada
+|j|☆Rrerfgttrr
+|player|p1|raddarada|1|1091
+|player|p2|Rrerfgttrr|265|1043
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Spiritomb|Spiritomb, L88, M|100/100
+|switch|p2a: Toxapex|Toxapex, L80, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rrerfgttrr)
+|
+|switch|p1a: Probopass|Probopass, L89, F|100/100
+|-item|p1a: Probopass|Air Balloon
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Probopass|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: Rrerfgttrr|move: Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Probopass
+|-supereffective|p1a: Probopass
+|-damage|p1a: Probopass|74/100
+|-enditem|p1a: Probopass|Air Balloon
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Probopass|Flash Cannon|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|80/100
+|move|p2a: Toxapex|Scald|p1a: Probopass
+|-supereffective|p1a: Probopass
+|-damage|p1a: Probopass|50/100
+|
+|-heal|p2a: Toxapex|86/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|inactive|Rrerfgttrr has 120 seconds left.
+
+|l|☆Rrerfgttrr
+
+|inactive|Rrerfgttrr disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Rrerfgttrr has 30 seconds to reconnect!
+
+|inactive|Rrerfgttrr has 20 seconds to reconnect!
+
+|inactive|Rrerfgttrr has 15 seconds to reconnect!
+
+|inactive|Rrerfgttrr has 10 seconds to reconnect!
+
+|inactive|Rrerfgttrr has 5 seconds to reconnect!
+
+|-message|Rrerfgttrr lost due to inactivity.
+|
+|win|raddarada

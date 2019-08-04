@@ -1,0 +1,367 @@
+|init|battle
+|title|DragonDanceDiancie vs. marrickchill
+|j|☆DragonDanceDiancie
+|j|☆marrickchill
+|player|p1|DragonDanceDiancie|162|2190
+|player|p2|marrickchill|169|2085
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Swampert|Swampert, L80, M|100/100
+|switch|p2a: Pyukumuku|Pyukumuku, L89, M|100/100
+|turn|1
+|
+|switch|p1a: Toxapex|Toxapex, L80, F|100/100
+|move|p2a: Pyukumuku|Reflect|p2a: Pyukumuku
+|-sidestart|p2: marrickchill|Reflect
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gligar|Gligar, L82, M|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Gligar
+|-sidestart|p2: marrickchill|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Swampert|Swampert, L80, M|100/100
+|move|p2a: Gligar|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|72/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Garbodor|Garbodor, L86, F|100/100
+|-sideend|p2: marrickchill|move: Toxic Spikes|[of] p2a: Garbodor
+|detailschange|p1a: Swampert|Swampert-Mega, L80, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Ice Punch|p2a: Garbodor
+|-damage|p2a: Garbodor|87/100
+|
+|-heal|p2a: Garbodor|93/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Espeon|Espeon, L84, F|100/100
+|move|p2a: Garbodor|Toxic|p1a: Espeon
+|move|p1a: Espeon|Toxic|p2a: Garbodor|[from]Magic Bounce
+|-immune|p2a: Garbodor
+|
+|-heal|p2a: Garbodor|99/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Gligar|Gligar, L82, M|100/100
+|move|p1a: Espeon|Psyshock|p2a: Gligar
+|-damage|p2a: Gligar|66/100
+|-damage|p1a: Espeon|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Gligar|Knock Off|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|37/100
+|-enditem|p1a: Espeon|Life Orb|[from] move: Knock Off|[of] p2a: Gligar
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Espeon|Psyshock|p2a: Gligar
+|-damage|p2a: Gligar|29/100
+|move|p2a: Gligar|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-sideend|p2: marrickchill|Reflect
+|upkeep
+|
+|switch|p1a: Simisage|Simisage, L89, F|100/100
+|turn|9
+|
+|switch|p1a: Palossand|Palossand, L86, M|100/100
+|switch|p2a: Garbodor|Garbodor, L86, F|99/100
+|
+|-heal|p2a: Garbodor|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p2a: Garbodor|Toxic|p1a: Palossand
+|-status|p1a: Palossand|tox
+|move|p1a: Palossand|Stealth Rock|p2a: Garbodor
+|-sidestart|p2: marrickchill|move: Stealth Rock
+|
+|-damage|p1a: Palossand|95/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Garbodor|Gunk Shot|p1a: Palossand|[miss]
+|-miss|p2a: Garbodor|p1a: Palossand
+|move|p1a: Palossand|Earth Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|20/100
+|
+|-heal|p2a: Garbodor|26/100|[from] item: Black Sludge
+|-heal|p1a: Palossand|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Palossand|89/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Garbodor|Pain Split|p1a: Palossand
+|-sethp|p1a: Palossand|57/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|58/100|[from] move: Pain Split
+|move|p1a: Palossand|Shadow Ball|p2a: Garbodor
+|-damage|p2a: Garbodor|25/100
+|
+|-heal|p2a: Garbodor|31/100|[from] item: Black Sludge
+|-heal|p1a: Palossand|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Palossand|45/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Garbodor|Pain Split|p1a: Palossand
+|-sethp|p1a: Palossand|38/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|39/100|[from] move: Pain Split
+|move|p1a: Palossand|Shadow Ball|p2a: Garbodor
+|-damage|p2a: Garbodor|6/100
+|-unboost|p2a: Garbodor|spd|1
+|
+|-heal|p2a: Garbodor|12/100|[from] item: Black Sludge
+|-heal|p1a: Palossand|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Palossand|20/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Garbodor|Gunk Shot|p1a: Palossand|[miss]
+|-miss|p2a: Garbodor|p1a: Palossand
+|move|p1a: Palossand|Shadow Ball|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-heal|p1a: Palossand|26/100 tox|[from] item: Leftovers
+|-damage|p1a: Palossand|0 fnt|[from] psn
+|faint|p1a: Palossand
+|upkeep
+
+|
+|switch|p2a: Arcanine|Arcanine, L84, F|100/100
+|switch|p1a: Simisage|Simisage, L89, F|100/100
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|turn|15
+
+|
+|switch|p1a: Swampert|Swampert-Mega, L80, M|72/100
+|switch|p2a: Lunala|Lunala, L78|100/100
+|-damage|p2a: Lunala|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Lunala|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Lunala
+|-damage|p2a: Lunala|77/100
+|move|p2a: Lunala|Roost|p2a: Lunala
+|-heal|p2a: Lunala|100/100
+|-singleturn|p2a: Lunala|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Lunala
+|-damage|p2a: Lunala|77/100
+|move|p2a: Lunala|Roost|p2a: Lunala
+|-heal|p2a: Lunala|100/100
+|-singleturn|p2a: Lunala|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Lunala
+|-damage|p2a: Lunala|73/100
+|move|p2a: Lunala|Roost|p2a: Lunala
+|-heal|p2a: Lunala|100/100
+|-singleturn|p2a: Lunala|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Lunala
+|-damage|p2a: Lunala|77/100
+|cant|p2a: Lunala|flinch
+|
+|-weather|none
+|-heal|p2a: Lunala|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Lunala|Moongeist Beam|p1a: Swampert
+|-damage|p1a: Swampert|17/100
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lunala|89/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Gligar|Gligar, L82, M|29/100
+|-damage|p2a: Gligar|17/100|[from] Stealth Rock
+|move|p1a: Swampert|Waterfall|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Pyukumuku|Pyukumuku, L89, M|100/100
+|-damage|p2a: Pyukumuku|88/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p1a: Swampert|Earthquake|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|49/100
+|move|p2a: Pyukumuku|Reflect|p2a: Pyukumuku
+|-sidestart|p2: marrickchill|Reflect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Toxapex|Toxapex, L80, F|100/100
+|move|p2a: Pyukumuku|Light Screen|p2a: Pyukumuku
+|-sidestart|p2: marrickchill|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Lunala|Lunala, L78|89/100
+|-damage|p2a: Lunala|77/100|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic Spikes|p2a: Lunala
+|-sidestart|p2: marrickchill|move: Toxic Spikes
+|
+|-weather|none
+|-heal|p2a: Lunala|83/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Lunala|Psyshock|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|38/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Lunala|89/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|44/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+
+|
+|move|p2a: Lunala|Psyshock|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Lunala|95/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Simisage|Simisage, L89, F|100/100
+|turn|28
+
+|
+|move|p1a: Simisage|Nasty Plot|p1a: Simisage
+|-boost|p1a: Simisage|spa|2
+|move|p2a: Lunala|Moongeist Beam|p1a: Simisage
+|-damage|p1a: Simisage|52/100
+|
+|-heal|p2a: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Simisage|Giga Drain|p2a: Lunala
+|-damage|p2a: Lunala|84/100
+|-heal|p1a: Simisage|62/100|[from] drain|[of] p2a: Lunala
+|-damage|p1a: Simisage|53/100|[from] item: Life Orb
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p2a: Lunala|90/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Simisage|Giga Drain|p2a: Lunala
+|-damage|p2a: Lunala|68/100
+|-heal|p1a: Simisage|66/100|[from] drain|[of] p2a: Lunala
+|-damage|p1a: Simisage|57/100|[from] item: Life Orb
+|move|p2a: Lunala|Psyshock|p1a: Simisage
+|-damage|p1a: Simisage|0 fnt
+|faint|p1a: Simisage
+|
+|-heal|p2a: Lunala|74/100|[from] item: Leftovers
+|-sideend|p2: marrickchill|Reflect
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, L88, F|100/100
+|turn|31
+
+|l|☆DragonDanceDiancie
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by marrickchill)
+
+|inactive|DragonDanceDiancie has 30 seconds to reconnect!
+
+|inactive|DragonDanceDiancie has 20 seconds to reconnect!
+
+|inactive|DragonDanceDiancie has 15 seconds to reconnect!
+
+|inactive|DragonDanceDiancie has 10 seconds to reconnect!
+
+|inactive|DragonDanceDiancie has 5 seconds to reconnect!
+
+|-message|DragonDanceDiancie lost due to inactivity.
+|
+|win|marrickchill

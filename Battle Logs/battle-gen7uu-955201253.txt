@@ -1,0 +1,323 @@
+|init|battle
+|title|Turbozgeg vs. Hunter119898
+|j|☆Turbozgeg
+|j|☆Hunter119898
+|player|p1|Turbozgeg|162|1186
+|player|p2|Hunter119898|150|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Manectric, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Moltres|item
+|poke|p1|Volcanion|item
+|poke|p1|Crobat, F|item
+|poke|p1|Scizor, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Chesnaught, M|item
+|poke|p2|Talonflame, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Mimikyu, F|item
+|poke|p2|Goodra, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Turbozgeg)
+|
+|start
+|switch|p1a: Crobat|Crobat, F|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|1
+|c|☆Turbozgeg|Glhf
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Crobat
+|-damage|p1a: Crobat|58/100
+|-unboost|p1a: Crobat|spd|1
+|move|p1a: Crobat|U-turn|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|92/100
+|
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|-zpower|p2a: Gengar
+|move|p2a: Gengar|All-Out Pummeling|p1a: Scizor|[zeffect]
+|-damage|p1a: Scizor|20/100
+|move|p1a: Scizor|Pursuit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|turn|3
+
+|
+|switch|p1a: Crobat|Crobat, F|58/100
+|move|p2a: Goodra|Flamethrower|p1a: Crobat
+|-damage|p1a: Crobat|22/100
+|
+|-heal|p1a: Crobat|28/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|78/100
+|-singleturn|p1a: Crobat|move: Roost
+|move|p2a: Goodra|Flamethrower|p1a: Crobat
+|-damage|p1a: Crobat|41/100
+|
+|-heal|p1a: Crobat|48/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Crobat|Toxic|p2a: Goodra
+|-status|p2a: Goodra|tox
+|move|p2a: Goodra|Dragon Pulse|p1a: Crobat
+|-damage|p1a: Crobat|1/100
+|
+|-heal|p1a: Crobat|7/100|[from] item: Leftovers
+|-damage|p2a: Goodra|94/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|57/100
+|-singleturn|p1a: Crobat|move: Roost
+|move|p2a: Goodra|Dragon Pulse|p1a: Crobat
+|-damage|p1a: Crobat|12/100
+|
+|-heal|p1a: Crobat|18/100|[from] item: Leftovers
+|-damage|p2a: Goodra|82/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|68/100
+|-singleturn|p1a: Crobat|move: Roost
+|move|p2a: Goodra|Dragon Pulse|p1a: Crobat
+|-damage|p1a: Crobat|20/100
+|
+|-heal|p1a: Crobat|26/100|[from] item: Leftovers
+|-damage|p2a: Goodra|63/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Crobat|U-turn|p2a: Goodra
+|-damage|p2a: Goodra|44/100 tox
+
+|
+|switch|p1a: Moltres|Moltres|100/100|[from]move: U-turn
+|move|p2a: Goodra|Ice Beam|p1a: Moltres
+|-damage|p1a: Moltres|67/100
+|
+|-damage|p2a: Goodra|19/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Moltres|U-turn|p2a: Goodra
+|-damage|p2a: Goodra|3/100 tox
+
+|
+|switch|p1a: Manectric|Manectric, F|100/100|[from]move: U-turn
+|move|p2a: Goodra|Sludge Wave|p1a: Manectric
+|-damage|p1a: Manectric|46/100
+|-status|p1a: Manectric|psn
+|
+|-damage|p1a: Manectric|34/100 psn|[from] psn
+|-damage|p2a: Goodra|0 fnt|[from] psn
+|faint|p2a: Goodra
+|upkeep
+
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|10
+
+|
+|detailschange|p1a: Manectric|Manectric-Mega, F
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Mimikyu|atk|1
+|move|p1a: Manectric|Volt Switch|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+
+|
+|switch|p1a: Scizor|Scizor, M|20/100|[from]move: Volt Switch
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|upkeep
+
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|12
+
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Volcanion|Sludge Wave|p2a: Mimikyu
+|-damage|p2a: Mimikyu|34/100
+|-damage|p1a: Volcanion|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Mimikyu|Drain Punch|p1a: Volcanion
+|-damage|p1a: Volcanion|24/100
+|-heal|p2a: Mimikyu|74/100|[from] drain|[of] p1a: Volcanion
+|-damage|p2a: Mimikyu|64/100|[from] item: Life Orb
+|move|p1a: Volcanion|Sludge Wave|p2a: Mimikyu
+|-damage|p2a: Mimikyu|3/100
+|-damage|p1a: Volcanion|14/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Mimikyu|Drain Punch|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|63/100
+|-heal|p2a: Mimikyu|25/100|[from] drain|[of] p1a: Latias
+|-damage|p2a: Mimikyu|15/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Manectric|Manectric-Mega, F|34/100 psn
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Mimikyu|atk|1
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|-damage|p2a: Mimikyu|5/100|[from] item: Life Orb
+|faint|p1a: Manectric
+|
+|upkeep
+
+|
+|switch|p1a: Moltres|Moltres|67/100
+|turn|16
+
+|
+|move|p2a: Mimikyu|Drain Punch|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|41/100
+|-heal|p2a: Mimikyu|25/100|[from] drain|[of] p1a: Moltres
+|-damage|p2a: Mimikyu|15/100|[from] item: Life Orb
+|move|p1a: Moltres|Hurricane|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+
+|inactive|Hunter119898 has 120 seconds left.
+
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|17
+
+|
+|switch|p1a: Volcanion|Volcanion|14/100
+|move|p2a: Terrakion|Stone Edge|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, F|63/100
+|turn|18
+
+|
+|move|p1a: Latias|Psychic|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|upkeep
+
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|19
+
+|
+|switch|p1a: Crobat|Crobat, F|26/100
+|move|p2a: Talonflame|Brave Bird|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|-damage|p2a: Talonflame|90/100|[from] Recoil
+|faint|p1a: Crobat
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, F|63/100
+|turn|20
+
+|
+|move|p1a: Latias|Draco Meteor|p2a: Talonflame
+|-damage|p2a: Talonflame|3/100
+|-unboost|p1a: Latias|spa|2
+|move|p2a: Talonflame|Brave Bird|p1a: Latias
+|-damage|p1a: Latias|3/100
+|-damage|p2a: Talonflame|0 fnt|[from] Recoil
+|faint|p2a: Talonflame
+|
+|upkeep
+
+|
+|switch|p2a: Chesnaught|Chesnaught, M|100/100
+|turn|21
+
+|
+|switch|p1a: Moltres|Moltres|41/100
+|move|p2a: Chesnaught|Dragon Claw|p1a: Moltres
+|-damage|p1a: Moltres|6/100
+|-status|p2a: Chesnaught|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|-damage|p2a: Chesnaught|91/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Chesnaught|85/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|-zpower|p1a: Moltres
+|move|p1a: Moltres|Supersonic Skystrike|p2a: Chesnaught|[zeffect]
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|0 fnt
+|faint|p2a: Chesnaught
+|
+|win|Turbozgeg

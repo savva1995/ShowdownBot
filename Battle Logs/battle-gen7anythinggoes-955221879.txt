@@ -1,0 +1,191 @@
+|init|battle
+|title|Rayner1 vs. Marshmallow Boii
+|j|☆Rayner1
+|j|☆Marshmallow Boii
+|player|p1|Rayner1|13|1321
+|player|p2|Marshmallow Boii|teamrocket|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Mewtwo|item
+|poke|p1|Necrozma-Dusk-Mane|item
+|poke|p1|Xerneas|item
+|poke|p1|Yveltal|item
+|poke|p1|Groudon|item
+|poke|p1|Marshadow|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Medicham, F|item
+|poke|p2|Uxie|item
+|poke|p2|Blaziken, F|item
+|poke|p2|Sylveon, F|item
+|poke|p2|Drapion, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rayner1)
+|
+|start
+|switch|p1a: Marshadow|Marshadow|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|turn|1
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|41/100
+|-damage|p1a: Marshadow|91/100|[from] item: Life Orb
+|move|p2a: Uxie|Stealth Rock|p1a: Marshadow
+|-sidestart|p1: Rayner1|move: Stealth Rock
+|
+|-heal|p2a: Uxie|47/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Drapion|Drapion, F|100/100
+|move|p1a: Marshadow|Shadow Sneak|p2a: Drapion
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|78/100
+|-damage|p1a: Marshadow|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|move|p1a: Marshadow|Close Combat|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|56/100
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-damage|p1a: Marshadow|71/100|[from] item: Life Orb
+|
+|-heal|p2a: Sylveon|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Sylveon
+|-damage|p2a: Sylveon|9/100
+|-damage|p1a: Marshadow|61/100|[from] item: Life Orb
+|move|p2a: Sylveon|Hyper Voice|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|-heal|p2a: Sylveon|15/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-damage|p1a: Yveltal|76/100|[from] Stealth Rock
+|-ability|p1a: Yveltal|Dark Aura
+|turn|5
+
+|
+|move|p1a: Yveltal|Oblivion Wing|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-heal|p1a: Yveltal|87/100|[from] drain|[of] p2a: Sylveon
+|-damage|p1a: Yveltal|77/100|[from] item: Life Orb
+|faint|p2a: Sylveon
+|
+|upkeep
+
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|6
+
+|
+|move|p1a: Yveltal|Oblivion Wing|p2a: Azumarill
+|-damage|p2a: Azumarill|44/100
+|-heal|p1a: Yveltal|100/100|[from] drain|[of] p2a: Azumarill
+|-damage|p1a: Yveltal|91/100|[from] item: Life Orb
+|move|p2a: Azumarill|Play Rough|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|upkeep
+
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Necrozma|94/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p2a: Uxie|Uxie|47/100
+|detailschange|p1a: Necrozma|Necrozma-Ultra
+|-burst|p1a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p1a: Necrozma|Photon Geyser|p2a: Uxie
+|-resisted|p2a: Uxie
+|-damage|p2a: Uxie|23/100
+|
+|-heal|p2a: Uxie|29/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|
+|upkeep
+
+|
+|switch|p2a: Drapion|Drapion, F|78/100
+|turn|9
+
+|
+|move|p2a: Drapion|Endure|p2a: Drapion
+|-singleturn|p2a: Drapion|move: Endure
+|move|p1a: Necrozma|Photon Geyser|p2a: Drapion
+|-immune|p2a: Drapion
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Drapion|Night Slash|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|47/100
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Drapion
+|-crit|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, F|100/100
+|turn|11
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, F
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Necrozma
+|-damage|p1a: Necrozma|25/100
+|cant|p1a: Necrozma|flinch
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Medicham|Bullet Punch|p1a: Necrozma
+|-damage|p1a: Necrozma|6/100
+|-zpower|p1a: Necrozma
+|move|p1a: Necrozma|Light That Burns the Sky|p2a: Medicham|[zeffect]
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|upkeep
+
+|
+|switch|p2a: Azumarill|Azumarill, M|44/100
+|turn|13
+
+|-message|Marshmallow Boii forfeited.
+
+|
+|win|Rayner1

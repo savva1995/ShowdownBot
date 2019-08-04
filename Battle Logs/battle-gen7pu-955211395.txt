@@ -1,0 +1,72 @@
+|init|battle
+|title|Popo Choerry vs. Stormrycon
+|j|☆Popo Choerry
+|j|☆Stormrycon
+|player|p1|Popo Choerry|102|1253
+|player|p2|Stormrycon|267|1082
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Quagsire, M|item
+|poke|p1|Clefairy, F|item
+|poke|p1|Sandslash-Alola, M|item
+|poke|p1|Sableye, M|item
+|poke|p1|Rapidash, F|item
+|poke|p1|Gurdurr, M|item
+|poke|p2|Lycanroc, F|item
+|poke|p2|Victreebel, M|item
+|poke|p2|Sandslash-Alola, M|item
+|poke|p2|Eelektross, F|item
+|poke|p2|Primeape, F|item
+|poke|p2|Silvally-*|item
+|teampreview
+|
+|start
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|switch|p2a: Primeape|Primeape, F|100/100
+|turn|1
+|
+|move|p2a: Primeape|U-turn|p1a: Gurdurr
+|-resisted|p1a: Gurdurr
+|-damage|p1a: Gurdurr|94/100
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100|[from]move: U-turn
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Sandslash|Sandslash-Alola, M|100/100
+|move|p2a: Silvally|Multi-Attack|p1a: Sandslash
+|-resisted|p1a: Sandslash
+|-damage|p1a: Sandslash|85/100
+|
+|-heal|p1a: Sandslash|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Silvally|Flamethrower|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|upkeep
+
+|-message|Popo Choerry forfeited.
+
+|
+|win|Stormrycon

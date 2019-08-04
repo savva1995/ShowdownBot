@@ -1,0 +1,333 @@
+|init|battle
+|title|UULT Sylvearna vs. estebuchopro
+|j|☆UULT Sylvearna
+|j|☆estebuchopro
+|player|p1|UULT Sylvearna|138|1216
+|player|p2|estebuchopro|162|1219
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sylveon, F|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Hydreigon, F|item
+|poke|p2|Scizor, F|item
+|poke|p2|Feraligatr, F|item
+|poke|p2|Sceptile, F|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Krookodile, F|item
+|poke|p2|Latias, F|item
+|teampreview
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|turn|1
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Krookodile|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: UULT Sylvearna|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Krookodile
+|-enditem|p2a: Krookodile|Focus Sash
+|-damage|p2a: Krookodile|1/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Krookodile|Stone Edge|p1a: Hydreigon
+|-damage|p1a: Hydreigon|62/100
+|
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by estebuchopro)
+
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Krookodile
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|4
+
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|58/100
+|
+|-heal|p1a: Tentacruel|65/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Latias
+|-damage|p2a: Latias|97/100
+|-sideend|p1: UULT Sylvearna|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|71/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|move|p2a: Latias|Psyshock|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|39/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Rotom|Overheat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|56/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Latias|Latias, F|97/100
+|move|p1a: Hippowdon|Toxic|p2a: Latias
+|-status|p2a: Latias|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|91/100 tox|[from] Sandstorm
+|-damage|p2a: Latias|85/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|-zpower|p2a: Latias
+|move|p2a: Latias|Devastating Drake|p1a: Hippowdon|[zeffect]
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|79/100 tox|[from] Sandstorm
+|-damage|p2a: Latias|67/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|39/100
+|turn|11
+
+|
+|-activate|p2a: Latias|move: Pursuit
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Pursuit|p2a: Latias|[from]Pursuit
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|12
+
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|78/100
+|
+|-weather|none
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Rotom|Rotom-Heat|94/100
+|-zpower|p1a: Scizor
+|move|p1a: Scizor|All-Out Pummeling|p2a: Rotom|[zeffect]
+|-damage|p2a: Rotom|19/100
+|-enditem|p2a: Rotom|Iapapa Berry|[eat]
+|-heal|p2a: Rotom|69/100|[from] item: Iapapa Berry
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Hydreigon|Hydreigon, F|62/100
+|move|p2a: Rotom|Volt Switch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|46/100
+
+|
+|switch|p2a: Scizor|Scizor, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+
+|
+|switch|p2a: Feraligatr|Feraligatr, F|100/100
+|turn|16
+
+|
+|switch|p1a: Tentacruel|Tentacruel, F|71/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|-heal|p1a: Tentacruel|77/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+
+|
+|move|p2a: Feraligatr|Crunch|p1a: Tentacruel
+|-damage|p1a: Tentacruel|7/100
+|move|p1a: Tentacruel|Haze|p1a: Tentacruel
+|-clearallboost
+|
+|-heal|p1a: Tentacruel|13/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+
+|
+|move|p1a: Tentacruel|Scald|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|85/100
+|move|p2a: Feraligatr|Crunch|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+
+|
+|switch|p1a: Hydreigon|Hydreigon, F|46/100
+|turn|19
+
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Feraligatr
+|
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Heat|69/100
+|turn|20
+
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Rotom|Toxic|p1a: Sylveon
+|-status|p1a: Sylveon|tox
+|
+|-damage|p1a: Sylveon|94/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p2a: Rotom|Overheat|p1a: Sylveon
+|-damage|p1a: Sylveon|60/100 tox
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|66/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|54/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Sceptile|Sceptile, F|100/100
+|switch|p1a: Hydreigon|Hydreigon, F|46/100
+|
+|-heal|p1a: Hydreigon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|23
+
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, F
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Dragon Pulse|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, M|78/100
+|turn|24
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Sceptile
+|-damage|p2a: Sceptile|51/100
+|move|p2a: Sceptile|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, M|39/100
+|turn|25
+
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: Sceptile
+|-crit|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Heat|69/100
+|turn|26
+
+|c|☆estebuchopro|gg
+
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|UULT Sylvearna

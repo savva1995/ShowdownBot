@@ -1,0 +1,25 @@
+|init|battle
+|title|Suareazy88 vs. cwkong03
+|j|☆Suareazy88
+|j|☆cwkong03
+|player|p1|Suareazy88|2|1177
+|player|p2|cwkong03|169|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lunatone|Lunatone, L89|100/100
+|switch|p2a: Simisage|Simisage, L89, F|100/100
+|turn|1
+|-message|Suareazy88 forfeited.
+|
+|win|cwkong03
+|l|☆Suareazy88
+|raw|Suareazy88's rating: 1177 &rarr; <strong>1151</strong><br />(-26 for losing)
+|raw|cwkong03's rating: 1168 &rarr; <strong>1193</strong><br />(+25 for winning)

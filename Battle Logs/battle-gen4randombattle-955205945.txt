@@ -1,0 +1,24 @@
+|init|battle
+|title|the_redgrin vs. Jack2200
+|j|☆the_redgrin
+|j|☆Jack2200
+|player|p1|the_redgrin|giovanni-gen3|
+|player|p2|Jack2200|163|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|4
+|tier|[Gen 4] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golduck|Golduck, L83, F|100/100
+|switch|p2a: Gengar|Gengar, L75, M|100/100
+|-ability|p1a: Golduck|Cloud Nine
+|turn|1
+
+|-message|Jack2200 forfeited.
+
+|
+|win|the_redgrin

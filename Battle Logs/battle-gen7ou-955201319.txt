@@ -1,0 +1,409 @@
+|init|battle
+|title|jelly2020 vs. x01110101100
+|j|☆jelly2020
+|j|☆x01110101100
+|player|p1|jelly2020|102|1349
+|player|p2|x01110101100|102|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Diancie|item
+|poke|p1|Crawdaunt, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Zapdos|item
+|poke|p1|Victini|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Torkoal, F|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Tapu Lele|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by x01110101100)
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Sunkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Sunkoal
+|turn|1
+|
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Diamond Storm|p2a: Venusaur
+|-damage|p2a: Venusaur|28/100
+|-boost|p1a: Diancie|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam|p1a: Ferrothorn
+|-anim|p2a: Venusaur|Solar Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Venusaur|Hidden Power|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Venusaur|Hidden Power|p1a: Zapdos
+|-damage|p1a: Zapdos|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zapdos|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Le mega-bro|Garchomp, F|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Le mega-bro
+|-resisted|p2a: Le mega-bro
+|-damage|p2a: Le mega-bro|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Diancie|Diancie-Mega|100/100
+|move|p2a: Le mega-bro|Earthquake|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Le mega-bro|atk|1
+|turn|7
+
+|
+|switch|p2a: Une licorne mâle|Keldeo-Resolute|100/100
+|move|p1a: Landorus|Earthquake|p2a: Une licorne mâle
+|-damage|p2a: Une licorne mâle|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Zapdos|Zapdos|88/100
+|move|p2a: Une licorne mâle|Icy Wind|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|41/100
+|-unboost|p1a: Zapdos|spe|1
+|
+|-weather|none
+|-heal|p1a: Zapdos|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Une licorne mâle|Icy Wind|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|-unboost|p1a: Ferrothorn|spe|1
+|
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Sunkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Sunkoal
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Sunkoal
+|-sidestart|p2: x01110101100|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|move|p2a: Sunkoal|Rapid Spin|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|95/100
+|-sideend|p2: x01110101100|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sunkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|83/100
+|switch|p2a: Forfeit please|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Forfeit please
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Sunkoal|Torkoal, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Sunkoal
+|-start|p2a: Sunkoal|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|-damage|p2a: Sunkoal|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Une licorne mâle|Keldeo-Resolute|31/100
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Une licorne mâle|Secret Sword|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Zapdos|Zapdos|47/100
+|move|p2a: Une licorne mâle|Secret Sword|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zapdos|28/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|17
+
+|
+|move|p2a: Une licorne mâle|Secret Sword|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|3/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|53/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-weather|none
+|-heal|p1a: Zapdos|60/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Le mega-bro|Garchomp, F|77/100
+|move|p1a: Zapdos|Volt Switch|p2a: Le mega-bro
+|-immune|p2a: Le mega-bro
+|
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Le mega-bro|Swords Dance|p2a: Le mega-bro
+|-boost|p2a: Le mega-bro|atk|2
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Le mega-bro|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|22/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Le mega-bro
+|-start|p2a: Le mega-bro|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|28/100|[from] item: Leftovers
+|-damage|p2a: Le mega-bro|65/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|41/100|[silent]
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Le mega-bro|atk|1
+|move|p2a: Le mega-bro|Swords Dance|p2a: Le mega-bro
+|-boost|p2a: Le mega-bro|atk|2
+|
+|-damage|p2a: Le mega-bro|52/100|[from] Leech Seed|[of] p1a: Landorus
+|upkeep
+|turn|22
+
+|
+|move|p1a: Landorus|Earthquake|p2a: Le mega-bro
+|-damage|p2a: Le mega-bro|0 fnt
+|faint|p2a: Le mega-bro
+|
+|upkeep
+
+|
+|switch|p2a: Une licorne mâle|Keldeo-Resolute|31/100
+|turn|23
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|41/100
+|move|p2a: Une licorne mâle|Icy Wind|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|22/100
+|-unboost|p1a: Ferrothorn|spe|1
+|
+|-heal|p1a: Ferrothorn|28/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Sunkoal|Torkoal, F|88/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Sunkoal
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Sunkoal
+|-sidestart|p2: x01110101100|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|34/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Sunkoal|Yawn|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Yawn|[of] p2a: Sunkoal
+|move|p1a: Ferrothorn|Leech Seed|p2a: Sunkoal|[miss]
+|-miss|p1a: Ferrothorn|p2a: Sunkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|40/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|95/100
+|move|p2a: Sunkoal|Lava Plume|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Venusaur|Venusaur, F|28/100
+|-damage|p2a: Venusaur|16/100|[from] Stealth Rock
+|move|p1a: Crawdaunt|Crabhammer|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|-damage|p1a: Crawdaunt|45/100|[from] item: Life Orb
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Hey im mvp|Houndoom, M|100/100
+|-damage|p2a: Hey im mvp|76/100|[from] Stealth Rock
+|turn|28
+
+|
+|detailschange|p2a: Hey im mvp|Houndoom-Mega, M
+|-mega|p2a: Hey im mvp|Houndoom|Houndoominite
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Hey im mvp
+|-supereffective|p2a: Hey im mvp
+|-damage|p2a: Hey im mvp|29/100
+|-damage|p1a: Crawdaunt|35/100|[from] item: Life Orb
+|move|p2a: Hey im mvp|Solar Beam||[still]
+|-prepare|p2a: Hey im mvp|Solar Beam|p1a: Crawdaunt
+|-anim|p2a: Hey im mvp|Solar Beam|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Hey im mvp|17/100|[from] ability: Solar Power|[of] p2a: Hey im mvp
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hey im mvp|atk|1
+|turn|29
+
+|
+|switch|p2a: Forfeit please|Tapu Lele|100/100
+|-damage|p2a: Forfeit please|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Forfeit please
+|move|p1a: Landorus|U-turn|p2a: Forfeit please
+|-damage|p2a: Forfeit please|47/100
+
+|
+|switch|p1a: Victini|Victini|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+
+|
+|move|p2a: Forfeit please|Shadow Ball|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|49/100
+|-zpower|p1a: Victini
+|move|p1a: Victini|Z-Celebrate|p1a: Victini|[anim]Celebrate
+|-boost|p1a: Victini|atk|1|[zeffect]
+|-boost|p1a: Victini|def|1|[zeffect]
+|-boost|p1a: Victini|spa|1|[zeffect]
+|-boost|p1a: Victini|spd|1|[zeffect]
+|-boost|p1a: Victini|spe|1|[zeffect]
+|-activate|p1a: Victini|move: Celebrate
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|31
+
+|
+|move|p1a: Victini|Searing Shot|p2a: Forfeit please
+|-crit|p2a: Forfeit please
+|-damage|p2a: Forfeit please|0 fnt
+|faint|p2a: Forfeit please
+|
+|-weather|none
+|upkeep
+
+|-message|x01110101100 forfeited.
+
+|
+|win|jelly2020

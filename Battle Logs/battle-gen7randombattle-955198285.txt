@@ -1,0 +1,346 @@
+|init|battle
+|title|Colthorus vs. joey_822
+|j|☆Colthorus
+|j|☆joey_822
+|player|p1|Colthorus|170|1192
+|player|p2|joey_822|265|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Accelgor|Accelgor, L86, M|100/100
+|switch|p2a: Palossand|Palossand, L86, F|100/100
+|turn|1
+|
+|move|p1a: Accelgor|Toxic Spikes|p2a: Palossand
+|-sidestart|p2: joey_822|move: Toxic Spikes
+|move|p2a: Palossand|Earth Power|p1a: Accelgor
+|-resisted|p1a: Accelgor
+|-damage|p1a: Accelgor|75/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L85, F|100/100
+|-status|p2a: Vanilluxe|psn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Accelgor|Toxic Spikes|p2a: Vanilluxe
+|-sidestart|p2: joey_822|move: Toxic Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Accelgor|68/100|[from] Hail
+|-damage|p2a: Vanilluxe|88/100 psn|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Accelgor|Focus Blast|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|44/100 psn
+|move|p2a: Vanilluxe|Blizzard|p1a: Accelgor
+|-damage|p1a: Accelgor|10/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Accelgor|4/100|[from] Hail
+|-damage|p2a: Vanilluxe|32/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Accelgor|Focus Blast|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Accelgor|0 fnt|[from] Hail
+|faint|p1a: Accelgor
+|upkeep
+
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, F|100/100
+|switch|p2a: Palossand|Palossand, L86, F|100/100
+|-status|p2a: Palossand|tox
+|turn|5
+
+|
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|50/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|75/100|[from] item: Sitrus Berry
+|move|p2a: Palossand|Earth Power|p1a: Slurpuff
+|-damage|p1a: Slurpuff|32/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Slurpuff|26/100|[from] Hail
+|-damage|p2a: Palossand|95/100 tox|[from] Hail
+|-heal|p2a: Palossand|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Palossand|95/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Palossand|[miss]
+|-miss|p1a: Slurpuff|p2a: Palossand
+|move|p2a: Palossand|Earth Power|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|-weather|none
+|-heal|p2a: Palossand|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Palossand|89/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-ability|p1a: Palkia|Pressure
+|turn|7
+
+|
+|switch|p2a: Gardevoir|Gardevoir, L81, F|100/100
+|-status|p2a: Gardevoir|tox
+|-ability|p2a: Gardevoir|Pressure|[from] ability: Trace|[of] p1a: Palkia
+|-ability|p2a: Gardevoir|Pressure
+|move|p1a: Palkia|Hydro Pump|p2a: Gardevoir
+|-damage|p2a: Gardevoir|53/100 tox
+|
+|-damage|p2a: Gardevoir|47/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, L81, F
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Gardevoir|Psyshock|p1a: Palkia
+|-damage|p1a: Palkia|60/100
+|move|p1a: Palkia|Hydro Pump|p2a: Gardevoir
+|-damage|p2a: Gardevoir|3/100 tox
+|
+|-damage|p2a: Gardevoir|0 fnt|[from] psn
+|faint|p2a: Gardevoir
+|upkeep
+
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, M|100/100
+|-status|p2a: Reuniclus|tox
+|turn|9
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by joey_822)
+
+|
+|move|p1a: Palkia|Spacial Rend|p2a: Reuniclus
+|-damage|p2a: Reuniclus|59/100 tox
+|move|p2a: Reuniclus|Psyshock|p1a: Palkia
+|-damage|p1a: Palkia|11/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Palkia|Draco Meteor|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-unboost|p1a: Palkia|spa|2
+|faint|p2a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p2a: Simipour|Simipour, L89, M|100/100
+|-status|p2a: Simipour|tox
+|turn|11
+
+|
+|move|p2a: Simipour|Ice Beam|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|-damage|p2a: Simipour|91/100 tox|[from] item: Life Orb
+|faint|p1a: Palkia
+|
+|-damage|p2a: Simipour|85/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Fearow|Fearow, L89, F|100/100
+|turn|12
+
+|
+|move|p2a: Simipour|Ice Beam|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|18/100
+|-damage|p2a: Simipour|75/100 tox|[from] item: Life Orb
+|move|p1a: Fearow|Return|p2a: Simipour
+|-damage|p2a: Simipour|0 fnt
+|faint|p2a: Simipour
+|
+|upkeep
+
+|l|☆Colthorus
+
+|inactive|Colthorus disconnected and has a minute to reconnect!
+
+|player|p1|
+|inactive|joey_822 has 120 seconds left.
+
+|j|☆Colthorus
+
+|inactive|Colthorus reconnected.
+
+|player|p1|Colthorus|170
+
+|
+|switch|p2a: Audino|Audino, L88, F|100/100
+|-status|p2a: Audino|tox
+|turn|13
+
+|
+|move|p1a: Fearow|Return|p2a: Audino
+|-damage|p2a: Audino|52/100 tox
+|move|p2a: Audino|Double-Edge|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|-damage|p2a: Audino|48/100 tox|[from] Recoil
+|faint|p1a: Fearow
+|
+|-heal|p2a: Audino|54/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|48/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|100/100
+|turn|14
+
+|l|☆joey_822
+
+|inactive|joey_822 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆joey_822
+
+|inactive|joey_822 reconnected and has 105 seconds left.
+
+|player|p2|joey_822|265
+
+|
+|switch|p2a: Palossand|Palossand, L86, F|89/100 tox
+|move|p1a: Conkeldurr|Mach Punch|p2a: Palossand
+|-immune|p2a: Palossand
+|
+|-heal|p2a: Palossand|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Palossand|89/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|inactive|joey_822 has 90 seconds left.
+
+|l|☆joey_822
+
+|inactive|joey_822 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆joey_822
+
+|inactive|joey_822 reconnected and has 70 seconds left.
+
+|player|p2|joey_822|265
+
+|
+|switch|p1a: Volcarona|Volcarona, L80, F|100/100
+|move|p2a: Palossand|Shadow Ball|p1a: Volcarona
+|-damage|p1a: Volcarona|68/100
+|
+|-heal|p2a: Palossand|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Palossand|83/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|16/100 tox
+|-heal|p1a: Volcarona|100/100|[from] drain|[of] p2a: Palossand
+|-damage|p1a: Volcarona|91/100|[from] item: Life Orb
+|move|p2a: Palossand|Shadow Ball|p1a: Volcarona
+|-damage|p1a: Volcarona|60/100
+|
+|-heal|p2a: Palossand|21/100 tox|[from] item: Leftovers
+|-damage|p2a: Palossand|4/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|inactive|Colthorus has 120 seconds left.
+
+|
+|switch|p2a: Audino|Audino, L88, F|81/100 tox
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|100/100
+|-singleturn|p1a: Volcarona|move: Roost
+|
+|-heal|p2a: Audino|87/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|81/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|inactive|Colthorus has 120 seconds left.
+
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Audino
+|-damage|p2a: Audino|43/100 tox
+|-boost|p1a: Volcarona|spa|1
+|-damage|p1a: Volcarona|91/100|[from] item: Life Orb
+|move|p2a: Audino|Thunder Wave|p1a: Volcarona
+|-status|p1a: Volcarona|par
+|
+|-heal|p2a: Audino|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|36/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|inactive|Colthorus has 120 seconds left.
+
+|inactive|joey_822 has 60 seconds left.
+
+|
+|move|p2a: Audino|Heal Bell|p2a: Audino
+|-activate|p2a: Audino|move: Heal Bell
+|-curestatus|p2a: Audino|tox|[msg]
+|-curestatus|p2: Palossand|tox|[msg]
+|move|p1a: Volcarona|Fiery Dance|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|-damage|p1a: Volcarona|81/100 par|[from] item: Life Orb
+|faint|p2a: Audino
+|
+|upkeep
+
+|inactive|joey_822 has 60 seconds left.
+
+|
+|switch|p2a: Palossand|Palossand, L86, F|4/100
+|-status|p2a: Palossand|tox
+|turn|20
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|100/100
+|move|p2a: Palossand|Earth Power|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|55/100
+|
+|-heal|p2a: Palossand|10/100 tox|[from] item: Leftovers
+|-damage|p2a: Palossand|4/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Conkeldurr|Knock Off|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|-enditem|p2a: Palossand|Leftovers|[from] move: Knock Off|[of] p1a: Conkeldurr
+|faint|p2a: Palossand
+|
+|win|Colthorus

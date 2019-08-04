@@ -1,0 +1,249 @@
+|init|battle
+|title|DoodleBob67 vs. iodine666
+|j|☆DoodleBob67
+|j|☆iodine666
+|player|p1|DoodleBob67|2|
+|player|p2|iodine666|169|
+|teamsize|p1|1
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Custom Game
+|clearpoke
+|poke|p1|Mewtwo-Mega-Y|item
+|poke|p2|Magikarp, M|item
+|poke|p2|Magikarp, M|item
+|poke|p2|Magikarp, F|item
+|poke|p2|Magikarp, M|item
+|poke|p2|Magikarp, M|item
+|poke|p2|Magikarp, M|item
+|teampreview|24
+|
+|start
+|switch|p1a: Mewtwo|Mewtwo-Mega-Y|353/353
+|switch|p2a: FAST|Magikarp, M|244/244
+|turn|1
+|
+|move|p1a: Mewtwo|Rest|p1a: Mewtwo
+|-fail|p1a: Mewtwo
+|move|p2a: FAST|Magikarp's Revenge|p1a: Mewtwo
+|-damage|p1a: Mewtwo|304/353
+|-mustrecharge|p2a: FAST
+|-weather|RainDance
+|-singleturn|p2a: FAST|move: Magic Coat
+|-start|p2a: FAST|Aqua Ring
+|-unboost|p1a: Mewtwo|def|1
+|-unboost|p1a: Mewtwo|spa|1
+|-start|p1a: Mewtwo|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|cant|p2a: FAST|recharge
+|-activate|p1a: Mewtwo|confusion
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p2a: FAST|Draco Meteor|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|264/353
+|-unboost|p2a: FAST|spa|2
+|-activate|p1a: Mewtwo|confusion
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DoodleBob67)
+
+|
+|move|p2a: FAST|Hidden Power|p1a: Mewtwo
+|-damage|p1a: Mewtwo|257/353
+|-end|p1a: Mewtwo|confusion
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|inactive|DoodleBob67 has 270 seconds left.
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Dragon Tail|p1a: Mewtwo
+|-damage|p1a: Mewtwo|233/353
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|inactive|DoodleBob67 has 270 seconds left.
+
+|inactiveoff|Battle timer is now OFF.
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Draco Meteor|p1a: Mewtwo
+|-damage|p1a: Mewtwo|221/353
+|-unboost|p2a: FAST|spa|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Draco Meteor|p1a: Mewtwo|[miss]
+|-miss|p2a: FAST|p1a: Mewtwo
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Draco Meteor|p1a: Mewtwo
+|-damage|p1a: Mewtwo|212/353
+|-unboost|p2a: FAST|spa|2
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Draco Meteor|p1a: Mewtwo
+|-damage|p1a: Mewtwo|204/353
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Draco Meteor|p1a: Mewtwo
+|-damage|p1a: Mewtwo|197/353
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Draco Meteor|p1a: Mewtwo
+|-damage|p1a: Mewtwo|190/353
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Draco Meteor|p1a: Mewtwo
+|-damage|p1a: Mewtwo|184/353
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Dragon Tail|p1a: Mewtwo|[miss]
+|-miss|p2a: FAST|p1a: Mewtwo
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Hidden Power|p1a: Mewtwo
+|-damage|p1a: Mewtwo|180/353
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Hidden Power|p1a: Mewtwo
+|-damage|p1a: Mewtwo|177/353
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Mewtwo|Rest||[still]
+|debug|set status [slp] interrupted
+|-fail|p1a: Mewtwo
+|debug|move failed because it did nothing
+|move|p2a: FAST|Hidden Power|p1a: Mewtwo
+|-damage|p1a: Mewtwo|174/353
+|
+|upkeep
+|turn|17
+
+|
+|-activate|p1a: Mewtwo|move: Struggle
+|move|p1a: Mewtwo|Struggle|p2a: FAST
+|-damage|p2a: FAST|157/244
+|-damage|p1a: Mewtwo|86/353|[from] recoil
+|move|p2a: FAST|Dragon Tail|p1a: Mewtwo
+|-damage|p1a: Mewtwo|60/353
+|
+|-heal|p2a: FAST|172/244|[from] item: Leftovers
+|-heal|p2a: FAST|187/244|[from] Aqua Ring
+|upkeep
+|turn|18
+
+|
+|-activate|p1a: Mewtwo|move: Struggle
+|move|p1a: Mewtwo|Struggle|p2a: FAST
+|-damage|p2a: FAST|111/244
+|-damage|p1a: Mewtwo|0 fnt|[from] recoil
+|faint|p1a: Mewtwo
+|
+|win|iodine666

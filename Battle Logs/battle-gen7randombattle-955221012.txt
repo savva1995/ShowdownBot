@@ -1,0 +1,97 @@
+|init|battle
+|title|samla vs. TylerSwift2
+|j|☆samla
+|j|☆TylerSwift2
+|player|p1|samla|170|1111
+|player|p2|TylerSwift2|281|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bisharp|Bisharp, L82, M|100/100
+|switch|p2a: Gyarados|Gyarados, L80, F|100/100
+|turn|1
+|
+|switch|p2a: Ampharos|Ampharos, L89, M|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, L84, F|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Ampharos
+|-damage|p2a: Ampharos|89/100
+|
+|switch|p1a: Blaziken|Blaziken, L78, F|100/100|[from]move: U-turn
+|move|p2a: Ampharos|Volt Switch|p1a: Blaziken
+|-damage|p1a: Blaziken|50/100
+|
+|switch|p2a: Gyarados|Gyarados, L80, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|3
+
+|
+|detailschange|p2a: Gyarados|Gyarados-Mega, L80, F
+|-mega|p2a: Gyarados|Gyarados|Gyaradosite
+|-ability|p2a: Gyarados|Mold Breaker
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Gyarados|Waterfall|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|4
+
+|
+|detailschange|p1a: Blaziken|Blaziken-Mega, L78, F
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Blaziken|High Jump Kick|p2a: Gyarados|[miss]
+|-miss|p1a: Blaziken|p2a: Gyarados
+|-damage|p1a: Blaziken|0 fnt|[from] highjumpkick
+|faint|p1a: Blaziken
+|move|p2a: Gyarados|Waterfall|p1: Blaziken|[notarget]
+|-fail|p2a: Gyarados
+|
+|upkeep
+
+|
+|switch|p1a: Celesteela|Celesteela, L80|100/100
+|turn|5
+
+|
+|switch|p2a: Ampharos|Ampharos, L89, M|89/100
+|move|p1a: Celesteela|Leech Seed|p2a: Ampharos
+|-start|p2a: Ampharos|move: Leech Seed
+|
+|-heal|p2a: Ampharos|96/100|[from] item: Leftovers
+|-damage|p2a: Ampharos|83/100|[from] Leech Seed|[of] p1a: Celesteela
+|upkeep
+|turn|6
+
+|
+|move|p2a: Ampharos|Volt Switch|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|33/100
+
+|
+|switch|p2a: Starmie|Starmie, L82|100/100|[from]move: Volt Switch
+|move|p1a: Celesteela|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|70/100
+|
+|-heal|p2a: Starmie|76/100|[from] item: Leftovers
+|-heal|p1a: Celesteela|39/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|-message|samla forfeited.
+
+|
+|win|TylerSwift2

@@ -1,0 +1,38 @@
+|init|battle
+|title|anon3321 vs. 7u2hejw
+|j|☆anon3321
+|j|☆7u2hejw
+|player|p1|anon3321|101|1024
+|player|p2|7u2hejw|167|1050
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aggron|Aggron, L82, F|100/100
+|switch|p2a: Crustle|Crustle, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 7u2hejw)
+|
+|detailschange|p1a: Aggron|Aggron-Mega, L82, F
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p2a: Crustle|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|77/100
+|move|p1a: Aggron|Stealth Rock|p2a: Crustle
+|-sidestart|p2: 7u2hejw|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|-message|7u2hejw forfeited.
+|
+|win|anon3321
+|l|☆7u2hejw
+|raw|anon3321's rating: 1024 &rarr; <strong>1063</strong><br />(+39 for winning)
+|raw|7u2hejw's rating: 1050 &rarr; <strong>1031</strong><br />(-19 for losing)
+|l|☆anon3321

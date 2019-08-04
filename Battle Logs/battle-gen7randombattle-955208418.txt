@@ -1,0 +1,303 @@
+|init|battle
+|title|asiuhaisu23 vs. SlakingTheSlacker
+|j|☆asiuhaisu23
+|j|☆SlakingTheSlacker
+|player|p1|asiuhaisu23|1|1029
+|player|p2|SlakingTheSlacker|101|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, L87, F|100/100
+|switch|p2a: Roserade|Roserade, L84, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|switch|p2a: Typhlosion|Typhlosion, L86, M|100/100
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, L87, F
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|move|p1a: Abomasnow|Blizzard|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|73/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Typhlosion|67/100|[from] Hail
+|upkeep
+|turn|2
+|
+|switch|p1a: Donphan|Donphan, L84, F|100/100
+|move|p2a: Typhlosion|Eruption|p1a: Donphan
+|-damage|p1a: Donphan|41/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Typhlosion|60/100|[from] Hail
+|-damage|p1a: Donphan|35/100|[from] Hail
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by asiuhaisu23)
+
+|inactive|SlakingTheSlacker has 120 seconds left.
+
+|inactive|SlakingTheSlacker has 90 seconds left.
+
+|
+|move|p1a: Donphan|Ice Shard|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|50/100
+|move|p2a: Typhlosion|Eruption|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Typhlosion|44/100|[from] Hail
+|upkeep
+
+|
+|switch|p1a: Bruxish|Bruxish, L85, M|100/100
+|turn|4
+
+|
+|move|p1a: Bruxish|Aqua Jet|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|-damage|p1a: Bruxish|91/100|[from] item: Life Orb
+|faint|p2a: Typhlosion
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bruxish|85/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Genesect|Genesect, L78|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|turn|5
+
+|inactive|SlakingTheSlacker has 120 seconds left.
+
+|
+|move|p1a: Bruxish|Liquidation|p2a: Genesect
+|-damage|p2a: Genesect|46/100
+|-unboost|p2a: Genesect|def|1
+|-damage|p1a: Bruxish|75/100|[from] item: Life Orb
+|move|p2a: Genesect|Thunderbolt|p1a: Bruxish
+|-supereffective|p1a: Bruxish
+|-damage|p1a: Bruxish|0 fnt
+|-damage|p2a: Genesect|36/100|[from] item: Life Orb
+|faint|p1a: Bruxish
+|
+|-weather|none
+|upkeep
+
+|inactive|asiuhaisu23 has 120 seconds left.
+
+|
+|switch|p1a: Sharpedo|Sharpedo, L83, F|100/100
+|turn|6
+
+|inactive|asiuhaisu23 has 120 seconds left.
+
+|
+|move|p1a: Sharpedo|Waterfall|p2a: Genesect
+|-damage|p2a: Genesect|0 fnt
+|-damage|p1a: Sharpedo|91/100|[from] item: Life Orb
+|faint|p2a: Genesect
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p2a: Roserade|Roserade, L84, M|100/100
+|turn|7
+
+|
+|move|p1a: Sharpedo|Crunch|p2a: Roserade
+|-damage|p2a: Roserade|30/100
+|-damage|p1a: Sharpedo|81/100|[from] item: Life Orb
+|move|p2a: Roserade|Toxic Spikes|p1a: Sharpedo
+|-sidestart|p1: asiuhaisu23|move: Toxic Spikes
+|
+|-heal|p2a: Roserade|36/100|[from] item: Black Sludge
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|8
+
+|
+|move|p1a: Sharpedo|Crunch|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|-damage|p1a: Sharpedo|71/100|[from] item: Life Orb
+|faint|p2a: Roserade
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p2a: Wormadam|Wormadam-Sandy, L89, F|100/100
+|turn|9
+
+|
+|move|p1a: Sharpedo|Waterfall|p2a: Wormadam
+|-supereffective|p2a: Wormadam
+|-damage|p2a: Wormadam|13/100
+|-damage|p1a: Sharpedo|61/100|[from] item: Life Orb
+|move|p2a: Wormadam|Earthquake|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|-heal|p2a: Wormadam|19/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Scolipede|Scolipede, L81, F|100/100
+|-sideend|p1: asiuhaisu23|move: Toxic Spikes|[of] p1a: Scolipede
+|turn|10
+
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Wormadam
+|-resisted|p2a: Wormadam
+|-damage|p2a: Wormadam|6/100
+|move|p2a: Wormadam|Earthquake|p1a: Scolipede
+|-damage|p1a: Scolipede|54/100
+|
+|-heal|p1a: Scolipede|60/100|[from] item: Black Sludge
+|-heal|p2a: Wormadam|12/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|11
+
+|inactive|SlakingTheSlacker has 120 seconds left.
+
+|
+|move|p1a: Scolipede|Megahorn|p2a: Wormadam
+|-damage|p2a: Wormadam|0 fnt
+|faint|p2a: Wormadam
+|
+|-heal|p1a: Scolipede|66/100|[from] item: Black Sludge
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p2a: Staraptor|Staraptor, L81, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Scolipede|atk|1
+|turn|12
+
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Staraptor
+|-damage|p2a: Staraptor|75/100
+|move|p2a: Staraptor|U-turn|p1a: Scolipede
+|-resisted|p1a: Scolipede
+|-damage|p1a: Scolipede|49/100
+|-damage|p2a: Staraptor|65/100|[from] item: Life Orb
+
+|inactive|SlakingTheSlacker has 90 seconds left.
+
+|
+|switch|p2a: Emboar|Emboar, L85, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Scolipede|55/100|[from] item: Black Sludge
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|13
+
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Emboar
+|-damage|p2a: Emboar|81/100
+|move|p2a: Emboar|Superpower|p1a: Scolipede
+|-resisted|p1a: Scolipede
+|-damage|p1a: Scolipede|37/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|
+|-heal|p1a: Scolipede|44/100|[from] item: Black Sludge
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|14
+
+|c|☆asiuhaisu23|???
+
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Emboar
+|-damage|p2a: Emboar|49/100
+|move|p2a: Emboar|Superpower|p1a: Scolipede
+|-resisted|p1a: Scolipede
+|-damage|p1a: Scolipede|32/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|
+|-heal|p1a: Scolipede|38/100|[from] item: Black Sludge
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|15
+
+|
+|move|p1a: Scolipede|Swords Dance|p1a: Scolipede
+|-boost|p1a: Scolipede|atk|2
+|move|p2a: Emboar|Superpower|p1a: Scolipede
+|-resisted|p1a: Scolipede
+|-damage|p1a: Scolipede|30/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|
+|-heal|p1a: Scolipede|36/100|[from] item: Black Sludge
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|16
+
+|
+|move|p1a: Scolipede|Swords Dance|p1a: Scolipede
+|-boost|p1a: Scolipede|atk|2
+|move|p2a: Emboar|Flare Blitz|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|-damage|p2a: Emboar|40/100|[from] Recoil
+|faint|p1a: Scolipede
+|
+|upkeep
+
+|
+|switch|p1a: Celebi|Celebi, L82|100/100
+|turn|17
+
+|inactive|SlakingTheSlacker has 90 seconds left.
+
+|
+|move|p1a: Celebi|Psychic|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|upkeep
+
+|inactive|SlakingTheSlacker has 90 seconds left.
+
+|
+|switch|p2a: Staraptor|Staraptor, L81, M|65/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|turn|18
+
+|
+|move|p1a: Celebi|Psychic|p2a: Staraptor
+|-damage|p2a: Staraptor|16/100
+|move|p2a: Staraptor|Double-Edge|p1a: Celebi
+|-damage|p1a: Celebi|48/100
+|-damage|p2a: Staraptor|0 fnt|[from] Recoil
+|faint|p2a: Staraptor
+|
+|win|asiuhaisu23

@@ -1,0 +1,95 @@
+|init|battle
+|title|fake morty vs. kupapk
+|j|☆fake morty
+|j|☆kupapk
+|player|p1|fake morty|102|1000
+|player|p2|kupapk|170|1027
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Heracross|Heracross, L81, M|100/100
+|switch|p2a: Kingler|Kingler, L87, M|100/100
+|turn|1
+|
+|detailschange|p1a: Heracross|Heracross-Mega, L81, M
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p2a: Kingler|Liquidation|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|8/100
+|move|p1a: Heracross|Bullet Seed|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|81/100
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|63/100
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|44/100
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|26/100
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|8/100
+|-hitcount|p2a: Kingler|5
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Kingler|Liquidation|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, F|100/100
+|turn|3
+
+|
+|move|p2a: Kingler|X-Scissor|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|-damage|p2a: Kingler|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Kingler
+|move|p1a: Ferrothorn|Spikes|p2: Kingler
+|-sidestart|p2: kupapk|Spikes
+|
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Emboar|Emboar, L85, M|100/100
+|-damage|p2a: Emboar|88/100|[from] Spikes
+|turn|4
+
+|
+|move|p2a: Emboar|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+
+|l|☆fake morty
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kupapk)
+
+|inactive|fake morty has 30 seconds to reconnect!
+
+|inactive|fake morty has 20 seconds to reconnect!
+
+|inactive|fake morty has 15 seconds to reconnect!
+
+|inactive|fake morty has 10 seconds to reconnect!
+
+|inactive|fake morty has 5 seconds to reconnect!
+
+|-message|fake morty lost due to inactivity.
+|
+|win|kupapk

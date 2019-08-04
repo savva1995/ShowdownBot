@@ -1,0 +1,42 @@
+|init|battle
+|title|Pirates parrot vs. WiraTheWolf
+|j|☆Pirates parrot
+|j|☆WiraTheWolf
+|player|p1|Pirates parrot|101|1228
+|player|p2|WiraTheWolf|219|1080
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Slaking, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Charizard, M|item
+|poke|p2|Electivire, L80, M|item
+|poke|p2|Feraligatr, L90, F|item
+|poke|p2|Infernape, M|item
+|teampreview|1
+
+|
+|start
+|switch|p1a: Slaking|Slaking, M, shiny|100/100
+|switch|p2a: Feraligatr|Feraligatr, L90, F|100/100
+|turn|1
+
+|
+|-zpower|p1a: Slaking
+|move|p1a: Slaking|Breakneck Blitz|p2a: Feraligatr|[zeffect]
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|win|Pirates parrot

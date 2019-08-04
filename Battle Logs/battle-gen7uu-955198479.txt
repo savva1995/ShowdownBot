@@ -1,0 +1,112 @@
+|init|battle
+|title|kljhjycfhhgc vs. WTUU Marca
+|j|☆kljhjycfhhgc
+|j|☆WTUU Marca
+|player|p1|kljhjycfhhgc|76|1000
+|player|p2|WTUU Marca|92|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, F|item
+|poke|p1|Beedrill, M|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Durant, F|item
+|poke|p1|Donphan, F|item
+|poke|p1|Barbaracle, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Zeraora|item
+|poke|p2|Crawdaunt, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WTUU Marca)
+|
+|start
+|switch|p1a: Beedrill|Beedrill, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|detailschange|p1a: Beedrill|Beedrill-Mega, M
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p1a: Beedrill|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|41/100
+|
+|switch|p1a: Barbaracle|Barbaracle, M|100/100|[from]move: U-turn
+|move|p2a: Politoed|Scald|p1a: Barbaracle
+|-damage|p1a: Barbaracle|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Barbaracle|Stone Edge|p2a: Politoed|[miss]
+|-miss|p1a: Barbaracle|p2a: Politoed
+|move|p2a: Politoed|Rest|p2a: Politoed
+|-status|p2a: Politoed|slp|[from] move: Rest
+|-heal|p2a: Politoed|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|55/100 slp
+|cant|p2a: Politoed|slp
+|move|p2a: Politoed|Sleep Talk|p2a: Politoed
+|move|p2a: Politoed|Rest|p2a: Politoed|[from]Sleep Talk
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|move|p1a: Barbaracle|Liquidation|p2a: Kingdra
+|-resisted|p2a: Kingdra
+|-damage|p2a: Kingdra|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Kingdra|Hydro Pump|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|6
+
+|
+|move|p2a: Kingdra|Hydro Pump|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|-message|kljhjycfhhgc forfeited.
+
+|
+|win|WTUU Marca

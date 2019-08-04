@@ -1,0 +1,203 @@
+|init|battle
+|title|Jakkex vs. cuicuicru
+|j|☆Jakkex
+|j|☆cuicuicru
+|player|p1|Jakkex|10|1332
+|player|p2|cuicuicru|69|1203
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mamoswine, F|item
+|poke|p1|Doublade, F|item
+|poke|p1|Manectric, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Swampert, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Ribombee, F|item
+|poke|p2|Bisharp, F|item
+|poke|p2|Scizor, F|item
+|poke|p2|Latias, F|item
+|poke|p2|Primarina, F|item
+|teampreview
+|
+|start
+|switch|p1a: Swampert|Swampert, F|100/100
+|switch|p2a: Rombifloust|Ribombee, F|100/100
+|turn|1
+|
+|move|p2a: Rombifloust|Sticky Web|p1a: Swampert
+|-sidestart|p1: Jakkex|move: Sticky Web
+|move|p1a: Swampert|Stealth Rock|p2a: Rombifloust
+|-sidestart|p2: cuicuicru|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Grande|Primarina, F|100/100
+|-damage|p2a: Grande|88/100|[from] Stealth Rock
+|move|p1a: Swampert|Earthquake|p2a: Grande
+|-damage|p2a: Grande|35/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Grande|Moonblast|p1a: Swampert
+|-damage|p1a: Swampert|25/100
+|move|p1a: Swampert|Earthquake|p2a: Grande
+|-damage|p2a: Grande|0 fnt
+|faint|p2a: Grande
+|
+|-heal|p1a: Swampert|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Whamuu|Latias, F|100/100
+|-damage|p2a: Whamuu|88/100|[from] Stealth Rock
+|turn|4
+
+|
+|move|p2a: Whamuu|Calm Mind|p2a: Whamuu
+|-boost|p2a: Whamuu|spa|1
+|-boost|p2a: Whamuu|spd|1
+|move|p1a: Swampert|Toxic|p2a: Whamuu|[miss]
+|-miss|p1a: Swampert|p2a: Whamuu
+|
+|-heal|p1a: Swampert|38/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Whamuu|Psychic|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+
+|c|☆Jakkex|Awaken, my masters
+
+|
+|switch|p1a: Latias|Latias, F|100/100
+|turn|6
+
+|
+|move|p1a: Latias|Draco Meteor|p2a: Whamuu
+|-supereffective|p2a: Whamuu
+|-damage|p2a: Whamuu|20/100
+|-unboost|p1a: Latias|spa|2
+|-zpower|p2a: Whamuu
+|move|p2a: Whamuu|Devastating Drake|p1a: Latias|[zeffect]
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|-activate|p1a: Mamoswine|move: Sticky Web
+|-unboost|p1a: Mamoswine|spe|1
+|turn|7
+
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Whamuu
+|-supereffective|p2a: Whamuu
+|-damage|p2a: Whamuu|0 fnt
+|-damage|p1a: Mamoswine|91/100|[from] item: Life Orb
+|faint|p2a: Whamuu
+|
+|upkeep
+
+|
+|switch|p2a: Cheddar|Nidoking, M|100/100
+|-damage|p2a: Cheddar|95/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p2a: Cheddar|Earth Power|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+
+|
+|switch|p1a: Doublade|Doublade, F|100/100
+|-activate|p1a: Doublade|move: Sticky Web
+|-unboost|p1a: Doublade|spe|1
+|turn|9
+
+|
+|move|p2a: Cheddar|Earth Power|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|upkeep
+
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-activate|p1a: Amoonguss|move: Sticky Web
+|-unboost|p1a: Amoonguss|spe|1
+|turn|10
+
+|
+|move|p2a: Cheddar|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|33/100
+|move|p1a: Amoonguss|Spore|p2a: Cheddar
+|-status|p2a: Cheddar|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|39/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|
+|cant|p2a: Cheddar|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Cheddar
+|-damage|p2a: Cheddar|63/100 slp
+|-heal|p1a: Amoonguss|51/100|[from] drain|[of] p2a: Cheddar
+|
+|-heal|p1a: Amoonguss|57/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|
+|-curestatus|p2a: Cheddar|slp|[msg]
+|move|p2a: Cheddar|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|upkeep
+
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|-activate|p1a: Manectric|move: Sticky Web
+|-unboost|p1a: Manectric|spe|1
+|turn|13
+
+|
+|detailschange|p1a: Manectric|Manectric-Mega, F
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Cheddar|atk|1
+|move|p2a: Cheddar|Earth Power|p1a: Manectric
+|-supereffective|p1a: Manectric
+|-crit|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|win|cuicuicru

@@ -1,0 +1,294 @@
+|init|battle
+|title|Eddie2pro vs. Eiernacken
+|j|☆Eddie2pro
+|j|☆Eiernacken
+|player|p1|Eddie2pro|2|1306
+|player|p2|Eiernacken|101|1267
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chandelure|Chandelure, L82, F|100/100
+|switch|p2a: Exploud|Exploud, L85, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eiernacken)
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Exploud
+|-damage|p2a: Exploud|46/100
+|move|p2a: Exploud|Boomburst|p1a: Chandelure
+|-damage|p1a: Chandelure|1/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, L80, F|100/100
+|move|p1a: Chandelure|Fire Blast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|73/100
+|
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Chandelure|Energy Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Chandelure
+|-sidestart|p1: Eddie2pro|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|57/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|move|p1a: Chandelure|Calm Mind|p1a: Chandelure
+|-boost|p1a: Chandelure|spa|1
+|-boost|p1a: Chandelure|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|move|p2a: Toxapex|Scald|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-heal|p2a: Toxapex|71/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|turn|6
+
+|
+|switch|p2a: Hippowdon|Hippowdon, L82, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lugia|69/100|[from] Sandstorm
+|-heal|p1a: Lugia|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Lugia|Toxic|p2a: Hippowdon
+|-status|p2a: Hippowdon|tox
+|move|p2a: Hippowdon|Stealth Rock|p1a: Lugia
+|-sidestart|p1: Eddie2pro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lugia|69/100|[from] Sandstorm
+|-heal|p1a: Lugia|76/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|94/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Lugia|Psychic|p2a: Hippowdon
+|-damage|p2a: Hippowdon|65/100 tox
+|move|p2a: Hippowdon|Stone Edge|p1a: Lugia|[miss]
+|-miss|p2a: Hippowdon|p1a: Lugia
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lugia|69/100|[from] Sandstorm
+|-heal|p1a: Lugia|76/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|59/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Lugia|Psychic|p2a: Hippowdon
+|-damage|p2a: Hippowdon|28/100 tox
+|move|p2a: Hippowdon|Stone Edge|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lugia|69/100|[from] Sandstorm
+|-heal|p1a: Lugia|76/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|34/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|15/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Lugia|Psychic|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|none
+|-heal|p1a: Lugia|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Milotic|Milotic, L84, M|100/100
+|turn|11
+
+|
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|57/100
+|move|p2a: Milotic|Toxic||[still]
+|-fail|p2a: Milotic
+|
+|-heal|p1a: Lugia|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Lugia|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|move|p2a: Milotic|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|
+|-heal|p1a: Lugia|69/100|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|move|p2a: Milotic|Ice Beam|p1a: Lugia
+|-damage|p1a: Lugia|92/100
+|
+|-heal|p1a: Lugia|98/100|[from] item: Leftovers
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|88/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|74/100
+|move|p2a: Milotic|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|
+|-heal|p1a: Lugia|80/100|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|76/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|55/100
+|move|p2a: Milotic|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|
+|-heal|p1a: Lugia|61/100|[from] item: Leftovers
+|-heal|p2a: Milotic|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|58/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|move|p2a: Milotic|Toxic|p1a: Lugia
+|-status|p1a: Lugia|tox
+|
+|-heal|p2a: Milotic|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Lugia|94/100 tox|[from] psn
+|-damage|p2a: Milotic|34/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Solrock|Solrock, L89|100/100
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|69/100 tox
+|
+|-heal|p1a: Lugia|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Lugia|63/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Milotic|Milotic, L84, M|34/100 tox
+|move|p1a: Lugia|Toxic|p2a: Milotic
+|-fail|p2a: Milotic|tox
+|
+|-heal|p1a: Lugia|69/100 tox|[from] item: Leftovers
+|-heal|p2a: Milotic|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Lugia|51/100 tox|[from] psn
+|-damage|p2a: Milotic|34/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Solrock|Solrock, L89|100/100
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100 tox
+|-singleturn|p1a: Lugia|move: Roost
+|
+|-damage|p1a: Lugia|76/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Milotic|Milotic, L84, M|34/100 tox
+|move|p1a: Lugia|Toxic|p2a: Milotic
+|-fail|p2a: Milotic|tox
+|
+|-heal|p1a: Lugia|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Milotic|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Lugia|51/100 tox|[from] psn
+|-damage|p2a: Milotic|34/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Toxapex|Toxapex, L80, F|100/100
+|move|p1a: Lugia|Toxic|p2a: Toxapex
+|-immune|p2a: Toxapex
+|
+|-heal|p1a: Lugia|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Lugia|21/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|l|☆Eddie2pro
+
+|inactive|Eddie2pro disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|c|☆Eiernacken|entwendet
+
+|inactive|Eddie2pro has 30 seconds to reconnect!
+
+|inactive|Eddie2pro has 20 seconds to reconnect!
+
+|inactive|Eddie2pro has 15 seconds to reconnect!
+
+|inactive|Eddie2pro has 10 seconds to reconnect!
+
+|inactive|Eddie2pro has 5 seconds to reconnect!
+
+|-message|Eddie2pro lost due to inactivity.
+|
+|win|Eiernacken

@@ -1,0 +1,181 @@
+|init|battle
+|title|davidmavalg vs. Gdyufeu
+|j|☆davidmavalg
+|j|☆Gdyufeu
+|player|p1|davidmavalg|70|1111
+|player|p2|Gdyufeu|266|1120
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, L86, M|100/100
+|switch|p2a: Bewear|Bewear, L84, M|100/100
+|turn|1
+|
+|move|p1a: Vaporeon|Scald|p2a: Bewear
+|-damage|p2a: Bewear|61/100
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Vaporeon|Scald|p2a: Bewear
+|-damage|p2a: Bewear|21/100
+|move|p2a: Bewear|Return|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, F|100/100
+|turn|3
+
+|
+|move|p2a: Bewear|Ice Punch|p1a: Spiritomb
+|-damage|p1a: Spiritomb|52/100
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Bewear
+|-status|p2a: Bewear|brn
+|
+|-damage|p2a: Bewear|15/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Bewear|Ice Punch|p1a: Spiritomb
+|-damage|p1a: Spiritomb|27/100
+|move|p1a: Spiritomb|Pursuit|p2a: Bewear
+|-resisted|p2a: Bewear
+|-damage|p2a: Bewear|11/100 brn
+|-damage|p1a: Spiritomb|17/100|[from] item: Life Orb
+|
+|-damage|p2a: Bewear|4/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Bewear|Ice Punch|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|-damage|p2a: Bewear|0 fnt|[from] brn
+|faint|p2a: Bewear
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, L82, F|100/100
+|switch|p1a: Snorlax|Snorlax, L84, M|100/100
+|turn|6
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Snorlax
+|-damage|p1a: Snorlax|64/100
+|-damage|p2a: Crobat|83/100|[from] Recoil
+|move|p1a: Snorlax|Fire Punch|p2a: Crobat
+|-damage|p2a: Crobat|60/100
+|-status|p2a: Crobat|brn
+|
+|-heal|p2a: Crobat|66/100 brn|[from] item: Black Sludge
+|-heal|p1a: Snorlax|70/100|[from] item: Leftovers
+|-damage|p2a: Crobat|60/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Crobat|U-turn|p1a: Snorlax
+|-damage|p1a: Snorlax|63/100
+
+|
+|switch|p2a: Kingler|Kingler, L87, M|100/100|[from]move: U-turn
+|move|p1a: Snorlax|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|68/100
+|-status|p2a: Kingler|par
+|
+|-heal|p1a: Snorlax|69/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Snorlax|Earthquake|p2a: Kingler
+|-damage|p2a: Kingler|43/100 par
+|cant|p2a: Kingler|par
+|
+|-heal|p1a: Snorlax|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Snorlax|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|9/100 par
+|move|p2a: Kingler|Knock Off|p1a: Snorlax
+|-damage|p1a: Snorlax|37/100
+|-enditem|p1a: Snorlax|Leftovers|[from] move: Knock Off|[of] p2a: Kingler
+|-damage|p2a: Kingler|0 fnt|[from] item: Life Orb
+|faint|p2a: Kingler
+|
+|upkeep
+
+|
+|switch|p2a: Kartana|Kartana, L80|100/100
+|turn|10
+
+|
+|move|p2a: Kartana|Sacred Sword|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-damage|p2a: Kartana|91/100|[from] item: Life Orb
+|faint|p1a: Snorlax
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|turn|11
+
+|
+|move|p2a: Kartana|Leaf Blade|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|-damage|p2a: Kartana|81/100|[from] item: Life Orb
+|faint|p1a: Nidoking
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Cacturne|Cacturne, L89, M|100/100
+|turn|12
+
+|
+|move|p2a: Kartana|Sacred Sword|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|-damage|p2a: Kartana|71/100|[from] item: Life Orb
+|faint|p1a: Cacturne
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Dialga|Dialga, L78|100/100
+|-ability|p1a: Dialga|Pressure
+|turn|13
+
+|
+|move|p2a: Kartana|Sacred Sword|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|-damage|p2a: Kartana|62/100|[from] item: Life Orb
+|faint|p1a: Dialga
+|
+|win|Gdyufeu

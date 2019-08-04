@@ -1,0 +1,152 @@
+|init|battle
+|title|Certus vs. VDfedhj
+|j|☆Certus
+|j|☆VDfedhj
+|player|p1|Certus|162|1000
+|player|p2|VDfedhj|265|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Amoonguss, F|item
+|poke|p1|Azumarill, M|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Chandelure, F|item
+|poke|p1|Scolipede, M|item
+|poke|p2|Giratina-Origin|item
+|poke|p2|Mewtwo|item
+|poke|p2|Magearna|item
+|poke|p2|Yveltal|item
+|poke|p2|Groudon|item
+|poke|p2|Arceus-*|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Azumarill|Azumarill, M, shiny|100/100
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-ability|p2a: Mewtwo|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VDfedhj)
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Azumarill|Soak|p2a: Groudon
+|-start|p2a: Groudon|typechange|Water
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Groudon|Stealth Rock|p1a: Azumarill
+|-sidestart|p1: Certus|move: Stealth Rock
+|move|p1a: Azumarill|Light Screen|p1a: Azumarill
+|-sidestart|p1: Certus|move: Light Screen
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Groudon|Toxic|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Amoonguss|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Groudon|Overheat|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|28/100
+|-unboost|p2a: Groudon|spa|2
+|move|p1a: Amoonguss|Giga Drain|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|55/100
+|-heal|p1a: Amoonguss|49/100|[from] drain|[of] p2a: Groudon
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Amoonguss|55/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|-weather|none
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Amoonguss|Protect||[still]
+|-fail|p1a: Amoonguss
+|
+|-heal|p1a: Amoonguss|61/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Azumarill|Azumarill, M, shiny|100/100
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|move|p2a: Yveltal|Oblivion Wing|p1a: Azumarill
+|-damage|p1a: Azumarill|55/100
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|
+|-sideend|p1: Certus|move: Light Screen
+|upkeep
+|turn|7
+
+|
+|move|p2a: Yveltal|Oblivion Wing|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|-heal|p2a: Yveltal|100/100|[from] drain|[of] p1a: Azumarill
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|faint|p1a: Azumarill
+|
+|upkeep
+
+|
+|switch|p1a: Scolipede|Scolipede, M, shiny|100/100
+|-damage|p1a: Scolipede|76/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Scolipede|Protect|p1a: Scolipede
+|-singleturn|p1a: Scolipede|Protect
+|move|p2a: Yveltal|Oblivion Wing|p1a: Scolipede
+|-activate|p1a: Scolipede|move: Protect
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|9
+
+|
+|move|p1a: Scolipede|Pin Missile|p2a: Yveltal
+|-damage|p2a: Yveltal|78/100
+|-damage|p2a: Yveltal|67/100
+|-damage|p2a: Yveltal|55/100
+|-hitcount|p2a: Yveltal|3
+|move|p2a: Yveltal|Oblivion Wing|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|-heal|p2a: Yveltal|92/100|[from] drain|[of] p1a: Scolipede
+|-damage|p2a: Yveltal|82/100|[from] item: Life Orb
+|faint|p1a: Scolipede
+|
+|upkeep
+
+|-message|Certus forfeited.
+
+|
+|win|VDfedhj

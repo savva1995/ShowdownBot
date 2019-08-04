@@ -1,0 +1,57 @@
+|init|battle
+|title|TeQuillo vs. Trittico
+|j|☆TeQuillo
+|j|☆Trittico
+|player|p1|TeQuillo|253|1283
+|player|p2|Trittico|253|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Parasect|Parasect, L89, F|100/100
+|switch|p2a: Grumpig|Grumpig, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TeQuillo)
+|
+|switch|p2a: Naganadel|Naganadel, L78|100/100
+|move|p1a: Parasect|Spore|p2a: Naganadel
+|-status|p2a: Naganadel|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|cant|p2a: Naganadel|slp
+|move|p1a: Parasect|Leech Seed|p2a: Naganadel
+|-start|p2a: Naganadel|move: Leech Seed
+|
+|-damage|p2a: Naganadel|88/100 slp|[from] Leech Seed|[of] p1a: Parasect
+|upkeep
+|turn|3
+|
+|switch|p2a: Weezing|Weezing, L86, F|100/100
+|switch|p1a: Dialga|Dialga, L78|100/100
+|-ability|p1a: Dialga|Pressure
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dialga|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Trittico|move: Stealth Rock
+|move|p2a: Weezing|Will-O-Wisp|p1a: Dialga|[miss]
+|-miss|p2a: Weezing|p1a: Dialga
+|
+|upkeep
+|turn|5
+|-message|Trittico forfeited.
+|
+|win|TeQuillo
+|l|☆Trittico
+|raw|TeQuillo's rating: 1284 &rarr; <strong>1311</strong><br />(+27 for winning)
+|raw|Trittico's rating: 1317 &rarr; <strong>1295</strong><br />(-22 for losing)
+|l|☆TeQuillo

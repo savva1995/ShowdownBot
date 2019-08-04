@@ -1,0 +1,54 @@
+|init|battle
+|title|Ninja1738 vs. Aaaaakkk
+|j|☆Ninja1738
+|j|☆Aaaaakkk
+|player|p1|Ninja1738|162|1239
+|player|p2|Aaaaakkk|279|1241
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Sawk, M|item
+|poke|p1|Decidueye, F|item
+|poke|p2|Sigilyph, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Magearna|item
+|teampreview|1
+|
+|start
+|switch|p1a: Greninja|Greninja, M, shiny|100/100
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|1
+|
+|detailschange|p2a: Charizard|Charizard-Mega-X, M
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|-zpower|p1a: Greninja
+|move|p1a: Greninja|Hydro Vortex|p2a: Charizard|[zeffect]
+|-damage|p2a: Charizard|16/100
+|move|p2a: Charizard|Rock Tomb|p1a: Greninja
+|-damage|p1a: Greninja|62/100
+|-unboost|p1a: Greninja|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Charizard|Outrage|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|win|Aaaaakkk
+|raw|Ninja1738's rating: 1239 &rarr; <strong>1214</strong><br />(-25 for losing)
+|raw|Aaaaakkk's rating: 1241 &rarr; <strong>1266</strong><br />(+25 for winning)
+|l|☆Aaaaakkk

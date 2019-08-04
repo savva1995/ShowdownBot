@@ -1,0 +1,194 @@
+|init|battle
+|title|tino010193 vs. berryyy
+|j|☆tino010193
+|j|☆berryyy
+|player|p1|tino010193|2|1531
+|player|p2|berryyy|2|1378
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon, L77, F|100/100
+|switch|p1b: Scizor|Scizor, L70, F|100/100
+|switch|p2a: Pidgeot|Pidgeot, L72, M|100/100
+|switch|p2b: Talonflame|Talonflame, L79, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by berryyy)
+|
+|switch|p1b: Drifblim|Drifblim, L79, M|100/100
+|detailschange|p2a: Pidgeot|Pidgeot-Mega, L72, M
+|-mega|p2a: Pidgeot|Pidgeot|Pidgeotite
+|move|p1a: Jolteon|Volt Switch|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|30/100
+|
+|switch|p1a: Scizor|Scizor, L70, F|100/100|[from]move: Volt Switch
+|move|p2b: Talonflame|Flare Blitz|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2b: Talonflame|72/100|[from] Recoil
+|faint|p1a: Scizor
+|move|p2a: Pidgeot|Tailwind|p2a: Pidgeot
+|-sidestart|p2: berryyy|move: Tailwind
+|
+|upkeep
+|
+|switch|p1a: Victini|Victini, L70|100/100
+|turn|2
+
+|
+|-zpower|p2b: Talonflame
+|move|p2b: Talonflame|Supersonic Skystrike|p1a: Victini|[zeffect]
+|-damage|p1a: Victini|35/100
+|move|p2a: Pidgeot|Hurricane|p1b: Drifblim
+|-damage|p1b: Drifblim|56/100
+|-start|p1b: Drifblim|confusion
+|move|p1a: Victini|Psychic|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|-damage|p1a: Victini|25/100|[from] item: Life Orb
+|faint|p2a: Pidgeot
+|-activate|p1b: Drifblim|confusion
+|move|p1b: Drifblim|Thunderbolt|p2b: Talonflame
+|-supereffective|p2b: Talonflame
+|-damage|p2b: Talonflame|19/100
+|
+|upkeep
+
+|
+|switch|p2a: Thundurus|Thundurus, L71, M|100/100
+|turn|3
+
+|
+|switch|p1a: Jolteon|Jolteon, L77, F|100/100
+|move|p2b: Talonflame|Brave Bird|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|71/100
+|-damage|p2b: Talonflame|10/100|[from] Recoil
+|move|p2a: Thundurus|Thunderbolt|p1b: Drifblim
+|-supereffective|p1b: Drifblim
+|-damage|p1b: Drifblim|0 fnt
+|faint|p1b: Drifblim
+|
+|upkeep
+
+|
+|switch|p1b: Mienshao|Mienshao, L78, M|100/100
+|turn|4
+
+|
+|move|p1b: Mienshao|Feint|p2b: Talonflame
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|move|p2a: Thundurus|Hidden Power|p1b: Mienshao
+|-supereffective|p1b: Mienshao
+|-damage|p1b: Mienshao|37/100
+|-enditem|p1b: Mienshao|Sitrus Berry|[eat]
+|-heal|p1b: Mienshao|62/100|[from] item: Sitrus Berry
+|move|p1a: Jolteon|Volt Switch|p2a: Thundurus
+|-damage|p2a: Thundurus|64/100
+
+|
+|switch|p1a: Vivillon|Vivillon, L88, M|100/100|[from]move: Volt Switch
+|
+|-sideend|p2: berryyy|move: Tailwind
+|upkeep
+
+|
+|switch|p2b: Ludicolo|Ludicolo, L81, F|100/100
+|turn|5
+
+|
+|move|p1b: Mienshao|Stone Edge|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|move|p1a: Vivillon|Hurricane|p2b: Ludicolo
+|-supereffective|p2b: Ludicolo
+|-damage|p2b: Ludicolo|17/100
+|move|p2b: Ludicolo|Rain Dance|p2b: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Suicune|Suicune, L71|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|6
+
+|
+|move|p1b: Mienshao|Feint|p2b: Ludicolo
+|-damage|p2b: Ludicolo|7/100
+|move|p2b: Ludicolo|Hydro Pump|p1a: Vivillon
+|-damage|p1a: Vivillon|4/100
+|-damage|p2b: Ludicolo|0 fnt|[from] item: Life Orb
+|faint|p2b: Ludicolo
+|move|p1a: Vivillon|Hurricane|p2a: Suicune
+|-damage|p2a: Suicune|53/100
+|-start|p2a: Suicune|confusion
+|-activate|p2a: Suicune|confusion
+|move|p2a: Suicune|Hydro Pump|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Suicune|59/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, L77, F|71/100
+|switch|p2b: Cresselia|Cresselia, L70, F|100/100
+|turn|7
+
+|
+|move|p1b: Mienshao|Feint|p2a: Suicune
+|-damage|p2a: Suicune|50/100
+|move|p1a: Jolteon|Volt Switch|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|3/100
+
+|
+|switch|p1a: Victini|Victini, L70|25/100|[from]move: Volt Switch
+|-activate|p2a: Suicune|confusion
+|-damage|p2a: Suicune|0 fnt|[from] confusion
+|faint|p2a: Suicune
+|move|p2b: Cresselia|Psyshock|p1b: Mienshao
+|-supereffective|p1b: Mienshao
+|-damage|p1b: Mienshao|0 fnt
+|faint|p1b: Mienshao
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1b: Jolteon|Jolteon, L77, F|71/100
+|turn|8
+
+|
+|move|p1b: Jolteon|Signal Beam|p2b: Cresselia
+|-supereffective|p2b: Cresselia
+|-crit|p2b: Cresselia
+|-damage|p2b: Cresselia|50/100
+|-enditem|p2b: Cresselia|Sitrus Berry|[eat]
+|-heal|p2b: Cresselia|75/100|[from] item: Sitrus Berry
+|move|p1a: Victini|U-turn|p2b: Cresselia
+|-supereffective|p2b: Cresselia
+|-damage|p2b: Cresselia|44/100
+|-damage|p1a: Victini|15/100|[from] item: Life Orb
+|move|p2b: Cresselia|Moonblast|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+
+|-message|berryyy forfeited.
+
+|
+|win|tino010193

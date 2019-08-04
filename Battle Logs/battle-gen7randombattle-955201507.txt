@@ -1,0 +1,366 @@
+|init|battle
+|title|husainzohair vs. Vic_15
+|j|☆husainzohair
+|j|☆Vic_15
+|player|p1|husainzohair|1|2093
+|player|p2|Vic_15|1|2160
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aggron|Aggron, L82, F|100/100
+|switch|p2a: Spinda|Spinda, L89, M|100/100
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, F|100/100
+|detailschange|p1a: Aggron|Aggron-Mega, L82, F
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p1a: Aggron|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Vic_15|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vic_15)
+|
+|switch|p1a: Infernape|Infernape, L82, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Infernape
+|-sidestart|p1: husainzohair|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Goodra|Goodra, L84, F|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|move|p1a: Infernape|Fire Blast|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|76/100
+|-damage|p1a: Infernape|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Tapu Koko|Tapu Koko, L80|100/100
+|-damage|p1a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Goodra|Fire Blast|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|49/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Tapu Koko|U-turn|p2a: Goodra
+|-damage|p2a: Goodra|54/100
+
+|
+|switch|p1a: Fearow|Fearow, L89, F|100/100|[from]move: U-turn
+|-damage|p1a: Fearow|76/100|[from] Stealth Rock
+|move|p2a: Goodra|Earthquake|p1a: Fearow
+|-immune|p1a: Fearow
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Fearow|U-turn|p2a: Goodra
+|-damage|p2a: Goodra|21/100
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko, L80|49/100|[from]move: U-turn
+|-damage|p1a: Tapu Koko|37/100|[from] Stealth Rock
+|move|p2a: Goodra|Draco Meteor|p1a: Tapu Koko
+|-immune|p1a: Tapu Koko
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Tapu Koko|U-turn|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+
+|
+|switch|p1a: Fearow|Fearow, L89, F|76/100|[from]move: U-turn
+|-damage|p1a: Fearow|51/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p2a: Carracosta|Carracosta, L88, F|100/100
+|-damage|p2a: Carracosta|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Fearow|U-turn|p2a: Carracosta
+|-damage|p2a: Carracosta|69/100
+
+|
+|switch|p1a: Aggron|Aggron-Mega, L82, F|100/100|[from]move: U-turn
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|move|p2a: Carracosta|Shell Smash|p2a: Carracosta
+|-unboost|p2a: Carracosta|def|1
+|-unboost|p2a: Carracosta|spd|1
+|-boost|p2a: Carracosta|atk|2
+|-boost|p2a: Carracosta|spa|2
+|-boost|p2a: Carracosta|spe|2
+|-enditem|p2a: Carracosta|White Herb
+|-clearnegativeboost|p2a: Carracosta|[silent]
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+
+|
+|move|p2a: Carracosta|Liquidation|p1a: Aggron
+|-damage|p1a: Aggron|51/100
+|move|p1a: Aggron|Roar|p2a: Carracosta
+|drag|p2a: Mimikyu|Mimikyu, L82, M|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Aggron|Heavy Slam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|78/100
+|-damage|p1a: Aggron|39/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko, L80|37/100
+|-damage|p1a: Tapu Koko|24/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Ferrothorn|Power Whip|p1a: Tapu Koko|[miss]
+|-miss|p2a: Ferrothorn|p1a: Tapu Koko
+|
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Power Whip|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|
+|-heal|p2a: Ferrothorn|80/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Infernape|Infernape, L82, F|91/100
+|-damage|p1a: Infernape|78/100|[from] Stealth Rock
+|turn|14
+
+|
+|switch|p2a: Spinda|Spinda, L89, M|100/100
+|-damage|p2a: Spinda|88/100|[from] Stealth Rock
+|move|p1a: Infernape|Fire Blast|p2a: Spinda|[miss]
+|-miss|p1a: Infernape|p2a: Spinda
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Spinda|Sucker Punch|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|69/100
+|move|p1a: Infernape|Fire Blast|p2a: Spinda
+|-damage|p2a: Spinda|10/100
+|-status|p2a: Spinda|brn
+|-damage|p1a: Infernape|59/100|[from] item: Life Orb
+|
+|-damage|p2a: Spinda|4/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|16
+
+|c|☆Vic_15|hahahaha
+
+|c|☆Vic_15|insane
+
+|
+|move|p1a: Infernape|Vacuum Wave|p2a: Spinda
+|-supereffective|p2a: Spinda
+|-damage|p2a: Spinda|0 fnt
+|-damage|p1a: Infernape|50/100|[from] item: Life Orb
+|faint|p2a: Spinda
+|
+|upkeep
+
+|
+|switch|p2a: Mimikyu|Mimikyu, L82, M|88/100
+|-damage|p2a: Mimikyu|75/100|[from] Stealth Rock
+|turn|17
+
+|
+|switch|p1a: Aggron|Aggron-Mega, L82, F|39/100
+|-damage|p1a: Aggron|33/100|[from] Stealth Rock
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Mimikyu|Shadow Claw|p1a: Aggron
+|-crit|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|
+|switch|p1a: Barbaracle|Barbaracle, L84, F|100/100
+|-damage|p1a: Barbaracle|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Mimikyu|Taunt|p1a: Barbaracle
+|-start|p1a: Barbaracle|move: Taunt
+|move|p1a: Barbaracle|Earthquake|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|75/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L82, M
+|
+|upkeep
+|turn|20
+
+|
+|-zpower|p2a: Mimikyu
+|move|p2a: Mimikyu|Let's Snuggle Forever|p1a: Barbaracle|[zeffect]
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|upkeep
+
+|
+|switch|p1a: Fearow|Fearow, L89, F|51/100
+|-damage|p1a: Fearow|26/100|[from] Stealth Rock
+|turn|21
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, F|80/100 par
+|-damage|p2a: Ferrothorn|74/100 par|[from] Stealth Rock
+|move|p1a: Fearow|Drill Peck|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|36/100 par
+|-damage|p1a: Fearow|14/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Fearow|Drill Peck|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100 par
+|-damage|p1a: Fearow|2/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|-enditem|p1a: Fearow|Choice Band|[from] move: Knock Off|[of] p2a: Ferrothorn
+|faint|p1a: Fearow
+|
+|-heal|p2a: Ferrothorn|8/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Infernape|Infernape, L82, F|50/100
+|-damage|p1a: Infernape|37/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p1a: Infernape|Vacuum Wave|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Infernape|28/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p2a: Carracosta|Carracosta, L88, F|69/100
+|-damage|p2a: Carracosta|57/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p2a: Carracosta|Aqua Jet|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+
+|
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|-damage|p1a: Malamar|88/100|[from] Stealth Rock
+|turn|25
+
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, L82, M|75/100
+|-damage|p2a: Mimikyu|63/100|[from] Stealth Rock
+|-zpower|p1a: Malamar
+|move|p1a: Malamar|Z-Happy Hour|p1a: Malamar|[anim]Happy Hour
+|-boost|p1a: Malamar|atk|1|[zeffect]
+|-boost|p1a: Malamar|def|1|[zeffect]
+|-boost|p1a: Malamar|spa|1|[zeffect]
+|-boost|p1a: Malamar|spd|1|[zeffect]
+|-boost|p1a: Malamar|spe|1|[zeffect]
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Malamar|Psycho Cut|p2a: Mimikyu
+|-damage|p2a: Mimikyu|13/100
+|move|p2a: Mimikyu|Play Rough|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|53/100
+|
+|upkeep
+|turn|27
+
+|
+|move|p1a: Malamar|Psycho Cut|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+
+|
+|switch|p2a: Vikavolt|Vikavolt, L86, M|100/100
+|-damage|p2a: Vikavolt|76/100|[from] Stealth Rock
+|turn|28
+
+|
+|move|p1a: Malamar|Knock Off|p2a: Vikavolt
+|-damage|p2a: Vikavolt|19/100
+|-enditem|p2a: Vikavolt|Life Orb|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Vikavolt|Bug Buzz|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|win|Vic_15

@@ -1,0 +1,109 @@
+|init|battle
+|title|Pipluppike vs. damn so gud
+|j|☆Pipluppike
+|j|☆damn so gud
+|player|p1|Pipluppike|169|1303
+|player|p2|damn so gud|10|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|switch|p2a: Hypno|Hypno, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pipluppike)
+|
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|move|p2a: Hypno|Toxic|p1a: Meloetta
+|-status|p1a: Meloetta|tox
+|
+|-damage|p1a: Meloetta|95/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Meloetta|Shadow Ball|p2a: Hypno
+|-supereffective|p2a: Hypno
+|-damage|p2a: Hypno|43/100
+|move|p2a: Hypno|Wish|p2a: Hypno
+|
+|-heal|p1a: Meloetta|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|89/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Bewear|Bewear, L84, F|100/100
+|move|p1a: Meloetta|Shadow Ball|p2a: Bewear
+|-immune|p2a: Bewear
+|
+|-heal|p1a: Meloetta|95/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|77/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Meloetta|Focus Blast|p2a: Bewear|[miss]
+|-miss|p1a: Meloetta|p2a: Bewear
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|
+|-heal|p1a: Meloetta|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|59/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Octillery|Octillery, L89, F|100/100
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Bewear|Shadow Claw|p1a: Octillery
+|-crit|p1a: Octillery
+|-damage|p1a: Octillery|0 fnt
+|-damage|p2a: Bewear|91/100|[from] item: Life Orb
+|faint|p1a: Octillery
+|
+|upkeep
+
+|
+|switch|p1a: Weavile|Weavile, L81, M|100/100
+|turn|7
+
+|inactive|Pipluppike has 120 seconds left.
+
+|
+|move|p1a: Weavile|Low Kick|p2a: Bewear
+|-supereffective|p2a: Bewear
+|-damage|p2a: Bewear|59/100
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|move|p2a: Bewear|Hammer Arm|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Bewear|spe|1
+|-damage|p2a: Bewear|49/100|[from] item: Life Orb
+|faint|p1a: Weavile
+|
+|upkeep
+
+|inactive|Pipluppike has 90 seconds left.
+
+|inactive|Pipluppike has 60 seconds left.
+
+|-message|damn so gud forfeited by changing their name.
+|l|damnsogud
+
+|
+|win|Pipluppike

@@ -1,0 +1,106 @@
+|init|battle
+|title|svata vs. mgwm
+|j|☆svata
+|j|☆mgwm
+|player|p1|svata|150|1403
+|player|p2|mgwm|101|1426
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Groudon|Groudon, L78|100/100
+|switch|p2a: Minior|Minior, L86|100/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|detailschange|p1a: Groudon|Groudon-Primal, L78
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by svata)
+|
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|-enditem|p2a: Minior|White Herb
+|-clearnegativeboost|p2a: Minior|[silent]
+|move|p1a: Groudon|Dragon Tail|p2a: Minior
+|-damage|p2a: Minior|79/100
+|drag|p2a: Ariados|Ariados, L89, M|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Heatran|Heatran, L80, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Groudon|Stone Edge|p2a: Heatran
+|-damage|p2a: Heatran|68/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p1a: Groudon|Precipice Blades|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Machamp|Machamp, L84, M|100/100
+|turn|4
+
+|
+|-weather|none
+|switch|p1a: Togekiss|Togekiss, L82, M|100/100
+|move|p2a: Machamp|Dynamic Punch|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|90/100
+|-start|p1a: Togekiss|confusion
+|
+|-heal|p1a: Togekiss|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|mgwm has 120 seconds left.
+
+|
+|-activate|p1a: Togekiss|confusion
+|move|p1a: Togekiss|Air Slash|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|31/100
+|cant|p2a: Machamp|flinch
+|
+|-heal|p1a: Togekiss|100/100|[from] item: Leftovers
+|-heal|p2a: Machamp|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|mgwm has 120 seconds left.
+
+|
+|-activate|p1a: Togekiss|confusion
+|move|p1a: Togekiss|Air Slash|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+
+|-message|mgwm forfeited.
+
+|
+|win|svata

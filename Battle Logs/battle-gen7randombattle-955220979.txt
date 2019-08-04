@@ -1,0 +1,157 @@
+|init|battle
+|title|whereamim8 vs. Guest 1405108
+|j|☆whereamim8
+|player|p1|whereamim8|201|1019
+|player|p2|Guest 1405108|265|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mawile|Mawile, L80, M|100/100
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Alomomola|atk|1
+|turn|1
+|
+|detailschange|p1a: Mawile|Mawile-Mega, L80, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p2a: Alomomola|Scald|p1a: Mawile
+|-damage|p1a: Mawile|79/100
+|-status|p1a: Mawile|brn
+|move|p1a: Mawile|Substitute|p1a: Mawile
+|-start|p1a: Mawile|Substitute
+|-damage|p1a: Mawile|55/100 brn
+|
+|-damage|p1a: Mawile|48/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Alomomola|Scald|p1a: Mawile
+|-activate|p1a: Mawile|move: Substitute|[damage]
+|move|p1a: Mawile|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|83/100
+|-enditem|p2a: Alomomola|Leftovers|[from] move: Knock Off|[of] p1a: Mawile
+|
+|-damage|p1a: Mawile|42/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|move|p2a: Alomomola|Scald|p1a: Volcanion
+|-immune|p1a: Volcanion|[from] ability: Water Absorb
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, F|100/100
+|move|p2a: Alomomola|Toxic|p1a: Vileplume
+|-immune|p1a: Vileplume
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Excadrill|Excadrill, L80, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Vileplume|Giga Drain|p2a: Excadrill
+|-damage|p2a: Excadrill|60/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Excadrill|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|39/100
+|-damage|p2a: Excadrill|50/100|[from] item: Life Orb
+|move|p1a: Vileplume|Sleep Powder|p2a: Excadrill
+|-status|p2a: Excadrill|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Vileplume|45/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|
+|cant|p2a: Excadrill|slp
+|move|p1a: Vileplume|Aromatherapy|p1a: Vileplume
+|-activate|p1a: Vileplume|move: Aromatherapy
+|-curestatus|p1: Mawile|brn|[msg]
+|
+|-heal|p1a: Vileplume|51/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|-curestatus|p2a: Excadrill|slp|[msg]
+|move|p2a: Excadrill|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-damage|p2a: Excadrill|41/100|[from] item: Life Orb
+|faint|p1a: Vileplume
+|
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, L83, M|100/100
+|turn|9
+
+|
+|move|p1a: Mienshao|Fake Out|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|30/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|cant|p2a: Excadrill|flinch
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|upkeep
+
+|
+|switch|p2a: Forretress|Forretress, L84, F|100/100
+|turn|11
+
+|
+|move|p1a: Mienshao|Knock Off|p2a: Forretress
+|-damage|p2a: Forretress|74/100
+|-enditem|p2a: Forretress|Leftovers|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|71/100|[from] item: Life Orb
+|move|p2a: Forretress|Gyro Ball|p1a: Mienshao
+|-damage|p1a: Mienshao|28/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|move|p2a: Forretress|Gyro Ball|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|97/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Volcanion|Fire Blast|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+
+|player|p2|
+|-message|Guest 1405108 forfeited.
+|
+|win|whereamim8

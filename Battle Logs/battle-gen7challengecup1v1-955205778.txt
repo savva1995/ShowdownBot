@@ -1,0 +1,54 @@
+|init|battle
+|title|eaubot vs. immortal pastaman
+|j|☆eaubot
+|j|☆immortal pastaman
+|player|p1|eaubot|115|1125
+|player|p2|immortal pastaman|1|1292
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Challenge Cup 1v1
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Comfey, L74, M|item
+|poke|p1|Delibird, L86, F|item
+|poke|p1|Grovyle, L80, F|item
+|poke|p1|Pidgey, L93, F|item
+|poke|p1|Hypno, L75, F|item
+|poke|p1|Kabuto, L84, M|item
+|poke|p2|Dragonair, L79, M|item
+|poke|p2|Gigalith, L73, M|item
+|poke|p2|Quilladin, L80, M|item
+|poke|p2|Wurmple, L99, M|item
+|poke|p2|Dunsparce, L79, M|item
+|poke|p2|Swoobat, L78, F|item
+|teampreview|1
+|c|☆eaubot|gl hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eaubot)
+
+|inactive|immortal pastaman has 120 seconds left.
+
+|
+|start
+|switch|p1a: Delibird|Delibird, L86, F|100/100
+|switch|p2a: Dragonair|Dragonair, L79, M|100/100
+|turn|1
+
+|
+|move|p2a: Dragonair|Fire Blast|p1a: Delibird
+|-supereffective|p1a: Delibird
+|-damage|p1a: Delibird|8/100
+|move|p1a: Delibird|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|58/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Dragonair|Ice Beam|p1a: Delibird
+|-damage|p1a: Delibird|0 fnt
+|faint|p1a: Delibird
+|
+|win|immortal pastaman

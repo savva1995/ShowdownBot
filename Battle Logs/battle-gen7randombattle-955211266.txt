@@ -1,0 +1,181 @@
+|init|battle
+|title|gobies123 vs. Ferocca
+|j|☆gobies123
+|j|☆Ferocca
+|player|p1|gobies123|247|1880
+|player|p2|Ferocca|101|1905
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Illumise|Illumise, L89, F|100/100
+|switch|p2a: Bewear|Bewear, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gobies123)
+|inactive|gobies123 has 120 seconds left.
+|
+|switch|p1a: Forretress|Forretress, L84, F|100/100
+|move|p2a: Bewear|Double-Edge|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|69/100
+|-damage|p2a: Bewear|92/100|[from] Recoil
+|
+|-heal|p1a: Forretress|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|move|p1a: Forretress|Stealth Rock|p2a: Xurkitree
+|-sidestart|p2: Ferocca|move: Stealth Rock
+|
+|-heal|p1a: Forretress|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, F|100/100
+|move|p2a: Xurkitree|Thunderbolt|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Crobat|Crobat, L82, F|100/100
+|-damage|p2a: Crobat|76/100|[from] Stealth Rock
+|move|p1a: Gliscor|U-turn|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|71/100
+
+|
+|switch|p1a: Forretress|Forretress, L84, F|81/100|[from]move: U-turn
+|
+|-heal|p2a: Crobat|77/100|[from] item: Black Sludge
+|-heal|p1a: Forretress|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Crobat|Taunt|p1a: Forretress
+|-start|p1a: Forretress|move: Taunt
+|move|p1a: Forretress|Volt Switch|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|49/100
+
+|
+|switch|p1a: Weezing|Weezing, L86, F|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Crobat|56/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|move|p2a: Crobat|Taunt|p1a: Weezing
+|-start|p1a: Weezing|move: Taunt
+|move|p1a: Weezing|Fire Blast|p2a: Crobat
+|-damage|p2a: Crobat|25/100
+|
+|-heal|p2a: Crobat|31/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Forretress|Forretress, L84, F|87/100
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|81/100
+|-singleturn|p2a: Crobat|move: Roost
+|
+|-heal|p2a: Crobat|87/100|[from] item: Black Sludge
+|-heal|p1a: Forretress|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Crobat|Taunt|p1a: Forretress
+|-start|p1a: Forretress|move: Taunt
+|move|p1a: Forretress|Volt Switch|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|58/100
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, F|100/100 tox|[from]move: Volt Switch
+|
+|-heal|p2a: Crobat|64/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Gliscor
+|-damage|p1a: Gliscor|65/100 tox
+|-damage|p2a: Crobat|53/100|[from] Recoil
+|move|p1a: Gliscor|Knock Off|p2a: Crobat
+|-damage|p2a: Crobat|26/100
+|-enditem|p2a: Crobat|Black Sludge|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Forretress|Forretress, L84, F|93/100
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|76/100
+|-singleturn|p2a: Crobat|move: Roost
+|
+|-heal|p1a: Forretress|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100
+|-singleturn|p2a: Crobat|move: Roost
+|move|p1a: Forretress|Gyro Ball|p2a: Crobat
+|-damage|p2a: Crobat|64/100
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Forretress
+|-damage|p1a: Forretress|71/100
+|-damage|p2a: Crobat|55/100|[from] Recoil
+|move|p1a: Forretress|Volt Switch|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|25/100
+
+|l|☆Ferocca
+
+|inactive|Ferocca disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, F|78/100 tox|[from]move: Volt Switch
+|
+|-heal|p1a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+
+|inactive|Ferocca has 30 seconds to reconnect!
+
+|inactive|Ferocca has 20 seconds to reconnect!
+
+|inactive|Ferocca has 15 seconds to reconnect!
+
+|inactive|Ferocca has 10 seconds to reconnect!
+
+|inactive|Ferocca has 5 seconds to reconnect!
+
+|-message|Ferocca lost due to inactivity.
+|
+|win|gobies123

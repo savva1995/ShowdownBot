@@ -1,0 +1,214 @@
+|init|battle
+|title|cruvendarkeyes vs. Enicef9
+|j|☆cruvendarkeyes
+|j|☆Enicef9
+|player|p1|cruvendarkeyes|101|1375
+|player|p2|Enicef9|151|1386
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rayquaza|Rayquaza, L70|100/100
+|switch|p1b: Persian|Persian-Alola, L85, F|100/100
+|switch|p2a: Cobalion|Cobalion, L71|100/100
+|switch|p2b: Hitmonchan|Hitmonchan, L84, M|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|1
+|
+|switch|p1b: Hawlucha|Hawlucha, L79, M|100/100
+|move|p2a: Cobalion|Substitute|p2a: Cobalion
+|-start|p2a: Cobalion|Substitute
+|-damage|p2a: Cobalion|76/100
+|move|p2b: Hitmonchan|Drain Punch|p1b: Hawlucha
+|-resisted|p1b: Hawlucha
+|-damage|p1b: Hawlucha|71/100
+|-damage|p2b: Hitmonchan|91/100|[from] item: Life Orb
+|move|p1a: Rayquaza|Earthquake|p2a: Cobalion|[spread] p2a,p2b
+|-immune|p1b: Hawlucha
+|-supereffective|p2a: Cobalion
+|-end|p2a: Cobalion|Substitute
+|-damage|p2b: Hitmonchan|64/100
+|
+|-heal|p2a: Cobalion|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cruvendarkeyes)
+
+|inactive|Enicef9 has 120 seconds left.
+
+|
+|switch|p2a: Banette|Banette, L74, F|100/100
+|switch|p2b: Dialga|Dialga, L70|100/100
+|-ability|p2b: Dialga|Pressure
+|move|p1b: Hawlucha|Sky Drop|p2b: Dialga
+|-fail|p2b: Dialga|move: Sky Drop|[heavy]
+|move|p1a: Rayquaza|Earthquake|p2a: Banette|[spread] p2a,p2b
+|-immune|p1b: Hawlucha
+|-supereffective|p2b: Dialga
+|-damage|p2a: Banette|66/100
+|-damage|p2b: Dialga|61/100
+|
+|-heal|p2b: Dialga|68/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|detailschange|p2a: Banette|Banette-Mega, L74, F
+|-mega|p2a: Banette|Banette|Banettite
+|move|p2a: Banette|Will-O-Wisp|p1a: Rayquaza
+|-status|p1a: Rayquaza|brn
+|move|p1b: Hawlucha|High Jump Kick|p2b: Dialga
+|-supereffective|p2b: Dialga
+|-damage|p2b: Dialga|0 fnt
+|faint|p2b: Dialga
+|move|p1a: Rayquaza|Earthquake|p2a: Banette|[spread] p2a
+|-immune|p1b: Hawlucha
+|-damage|p2a: Banette|50/100
+|
+|-damage|p1a: Rayquaza|94/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2b: Thundurus|Thundurus-Therian, L71, M|100/100
+|turn|4
+
+|
+|move|p2a: Banette|Protect|p2a: Banette
+|-singleturn|p2a: Banette|Protect
+|move|p1b: Hawlucha|Sky Drop|p2a: Banette
+|-activate|p2a: Banette|move: Protect
+|move|p2b: Thundurus|Thunderbolt|p1b: Hawlucha
+|-supereffective|p1b: Hawlucha
+|-damage|p1b: Hawlucha|0 fnt
+|-damage|p2b: Thundurus|90/100|[from] item: Life Orb
+|faint|p1b: Hawlucha
+|move|p1a: Rayquaza|Draco Meteor|p2b: Thundurus
+|-damage|p2b: Thundurus|14/100
+|-unboost|p1a: Rayquaza|spa|2
+|
+|-damage|p1a: Rayquaza|88/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1b: Relicanth|Relicanth, L81, M|100/100
+|turn|5
+
+|
+|move|p2b: Thundurus|Thunderbolt|p1b: Relicanth
+|-supereffective|p1b: Relicanth
+|-damage|p1b: Relicanth|33/100
+|-damage|p2b: Thundurus|4/100|[from] item: Life Orb
+|move|p1a: Rayquaza|Tailwind|p1a: Rayquaza
+|-sidestart|p1: cruvendarkeyes|move: Tailwind
+|move|p2a: Banette|Shadow Claw|p1a: Rayquaza
+|-damage|p1a: Rayquaza|50/100 brn
+|move|p1b: Relicanth|Rock Slide|p2b: Thundurus|[spread] p2a,p2b
+|-supereffective|p2b: Thundurus
+|-damage|p2a: Banette|19/100
+|-damage|p2b: Thundurus|0 fnt
+|faint|p2b: Thundurus
+|
+|-damage|p1a: Rayquaza|44/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2b: Hitmonchan|Hitmonchan, L84, M|64/100
+|turn|6
+
+|
+|move|p2a: Banette|Protect|p2a: Banette
+|-singleturn|p2a: Banette|Protect
+|move|p1a: Rayquaza|Extreme Speed|p2b: Hitmonchan
+|-damage|p2b: Hitmonchan|49/100
+|move|p1b: Relicanth|Rock Slide|p2a: Banette|[spread] p2b
+|-activate|p2a: Banette|move: Protect
+|-resisted|p2b: Hitmonchan
+|-damage|p2b: Hitmonchan|35/100
+|cant|p2b: Hitmonchan|flinch
+|
+|-damage|p1a: Rayquaza|38/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Banette|Protect||[still]
+|-fail|p2a: Banette
+|move|p1a: Rayquaza|Draco Meteor|p2b: Hitmonchan
+|-damage|p2b: Hitmonchan|8/100
+|-unboost|p1a: Rayquaza|spa|2
+|move|p1b: Relicanth|Rock Slide|p2b: Hitmonchan|[spread] p2a,p2b
+|-resisted|p2b: Hitmonchan
+|-damage|p2a: Banette|0 fnt
+|-damage|p2b: Hitmonchan|0 fnt
+|faint|p2a: Banette
+|faint|p2b: Hitmonchan
+|
+|-damage|p1a: Rayquaza|32/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2b: Cobalion|Cobalion, L71|82/100
+|switch|p2a: Incineroar|Incineroar, L76, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rayquaza|atk|1
+|-unboost|p1b: Relicanth|atk|1
+|turn|8
+
+|
+|move|p2a: Incineroar|Fake Out|p1a: Rayquaza
+|-damage|p1a: Rayquaza|16/100 brn
+|-damage|p2a: Incineroar|91/100|[from] item: Life Orb
+|cant|p1a: Rayquaza|flinch
+|move|p1b: Relicanth|Earthquake|p2b: Cobalion|[spread] p2a,p2b
+|-immune|p1a: Rayquaza
+|-supereffective|p2a: Incineroar
+|-supereffective|p2b: Cobalion
+|-damage|p2a: Incineroar|66/100
+|-damage|p2b: Cobalion|58/100
+|move|p2b: Cobalion|Iron Head|p1b: Relicanth
+|-damage|p1b: Relicanth|18/100
+|
+|-heal|p2b: Cobalion|64/100|[from] item: Leftovers
+|-damage|p1a: Rayquaza|10/100 brn|[from] brn
+|-sideend|p1: cruvendarkeyes|move: Tailwind
+|upkeep
+|turn|9
+
+|
+|move|p2b: Cobalion|Iron Head|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|move|p1b: Relicanth|Earthquake|p2b: Cobalion|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-supereffective|p2b: Cobalion
+|-damage|p2a: Incineroar|40/100
+|-damage|p2b: Cobalion|44/100
+|move|p2a: Incineroar|Darkest Lariat|p1b: Relicanth
+|-damage|p1b: Relicanth|0 fnt
+|-damage|p2a: Incineroar|31/100|[from] item: Life Orb
+|faint|p1b: Relicanth
+|
+|-heal|p2b: Cobalion|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Terrakion|Terrakion, L71|100/100
+|switch|p1b: Pikachu|Pikachu, L86, F|100/100
+|turn|10
+
+|
+|move|p1b: Pikachu|Thunderbolt|p2b: Cobalion
+|-damage|p2b: Cobalion|0 fnt
+|faint|p2b: Cobalion
+|move|p1a: Terrakion|Stone Edge|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|cruvendarkeyes

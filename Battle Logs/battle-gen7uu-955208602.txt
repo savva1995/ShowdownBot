@@ -1,0 +1,518 @@
+|init|battle
+|title|DuFickschnitzel vs. DanteKyu
+|j|☆DuFickschnitzel
+|j|☆DanteKyu
+|player|p1|DuFickschnitzel|170|1000
+|player|p2|DanteKyu|80|1069
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Piloswine, M|item
+|poke|p1|Pangoro, F|item
+|poke|p1|Mantine, M|item
+|poke|p1|Shuckle, F|item
+|poke|p1|Dugtrio-Alola, F|item
+|poke|p1|Arcanine, M|item
+|poke|p2|Araquanid, F|item
+|poke|p2|Sylveon, F|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Nidoqueen, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DanteKyu)
+|
+|start
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|switch|p2a: Kinana|Nidoqueen, F, shiny|100/100
+|turn|1
+
+|
+|move|p2a: Kinana|Earth Power|p1a: Shuckle
+|-damage|p1a: Shuckle|73/100
+|move|p1a: Shuckle|Sticky Web|p2a: Kinana
+|-sidestart|p2: DanteKyu|move: Sticky Web
+|
+|-heal|p1a: Shuckle|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Kinana|Sludge Wave|p1a: Shuckle
+|-resisted|p1a: Shuckle
+|-damage|p1a: Shuckle|64/100
+|move|p1a: Shuckle|Stealth Rock|p2a: Kinana
+|-sidestart|p2: DanteKyu|move: Stealth Rock
+|
+|-heal|p1a: Shuckle|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Kinana|Stone Edge|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|43/100
+|move|p1a: Shuckle|Infestation|p2a: Kinana
+|-resisted|p2a: Kinana
+|-damage|p2a: Kinana|99/100
+|-activate|p2a: Kinana|move: Infestation|[of] p1a: Shuckle
+|
+|-heal|p2a: Kinana|100/100|[from] item: Black Sludge
+|-heal|p1a: Shuckle|49/100|[from] item: Leftovers
+|-damage|p2a: Kinana|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+
+|
+|move|p2a: Kinana|Stone Edge|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|21/100
+|move|p1a: Shuckle|Infestation|p2a: Kinana
+|-resisted|p2a: Kinana
+|-damage|p2a: Kinana|87/100
+|
+|-heal|p2a: Kinana|93/100|[from] item: Black Sludge
+|-heal|p1a: Shuckle|27/100|[from] item: Leftovers
+|-damage|p2a: Kinana|81/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Kinana|Stone Edge|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|3/100
+|move|p1a: Shuckle|Encore|p2a: Kinana
+|-start|p2a: Kinana|Encore
+|
+|-heal|p2a: Kinana|87/100|[from] item: Black Sludge
+|-heal|p1a: Shuckle|9/100|[from] item: Leftovers
+|-damage|p2a: Kinana|75/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+
+|
+|move|p2a: Kinana|Stone Edge|p1a: Shuckle|[miss]
+|-miss|p2a: Kinana|p1a: Shuckle
+|move|p1a: Shuckle|Encore||[still]
+|-fail|p1a: Shuckle
+|
+|-heal|p2a: Kinana|81/100|[from] item: Black Sludge
+|-heal|p1a: Shuckle|15/100|[from] item: Leftovers
+|-damage|p2a: Kinana|68/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+
+|
+|move|p2a: Kinana|Stone Edge|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|faint|p1a: Shuckle
+|
+|-heal|p2a: Kinana|75/100|[from] item: Black Sludge
+|-end|p2a: Kinana|Infestation|[partiallytrapped]
+|upkeep
+
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|turn|8
+
+|
+|switch|p2a: Leonardo|Blastoise, F|100/100
+|-damage|p2a: Leonardo|88/100|[from] Stealth Rock
+|-activate|p2a: Leonardo|move: Sticky Web
+|-unboost|p2a: Leonardo|spe|1
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|78/100
+|
+|-heal|p2a: Leonardo|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|73/100
+|-status|p2a: Leonardo|brn
+|move|p2a: Leonardo|Rapid Spin|p1a: Mantine
+|-damage|p1a: Mantine|99/100
+|-sideend|p2: DanteKyu|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Leonardo
+|-sideend|p2: DanteKyu|Sticky Web|[from] move: Rapid Spin|[of] p2a: Leonardo
+|
+|-heal|p1a: Mantine|100/100|[from] item: Leftovers
+|-heal|p2a: Leonardo|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Leonardo|73/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|63/100 brn
+|move|p2a: Leonardo|Ice Beam|p1a: Mantine
+|-damage|p1a: Mantine|86/100
+|
+|-heal|p1a: Mantine|92/100|[from] item: Leftovers
+|-heal|p2a: Leonardo|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Leonardo|63/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|54/100 brn
+|move|p2a: Leonardo|Ice Beam|p1a: Mantine
+|-damage|p1a: Mantine|76/100
+|
+|-heal|p1a: Mantine|83/100|[from] item: Leftovers
+|-heal|p2a: Leonardo|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Leonardo|54/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|43/100 brn
+|move|p2a: Leonardo|Dark Pulse|p1a: Mantine
+|-damage|p1a: Mantine|70/100
+|
+|-heal|p1a: Mantine|76/100|[from] item: Leftovers
+|-heal|p2a: Leonardo|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Leonardo|43/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|33/100 brn
+|move|p2a: Leonardo|Scald|p1a: Mantine
+|-heal|p1a: Mantine|100/100|[from] ability: Water Absorb|[of] p2a: Leonardo
+|
+|-heal|p2a: Leonardo|39/100 brn|[from] item: Leftovers
+|-damage|p2a: Leonardo|33/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|22/100 brn
+|move|p2a: Leonardo|Ice Beam|p1a: Mantine
+|-damage|p1a: Mantine|86/100
+|
+|-heal|p1a: Mantine|92/100|[from] item: Leftovers
+|-heal|p2a: Leonardo|28/100 brn|[from] item: Leftovers
+|-damage|p2a: Leonardo|22/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|12/100 brn
+|move|p2a: Leonardo|Ice Beam|p1a: Mantine
+|-damage|p1a: Mantine|78/100
+|
+|-heal|p1a: Mantine|84/100|[from] item: Leftovers
+|-heal|p2a: Leonardo|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Leonardo|12/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|switch|p2a: Mavis|Sylveon, F|100/100
+|move|p1a: Mantine|Scald|p2a: Mavis
+|-damage|p2a: Mavis|89/100
+|-status|p2a: Mavis|brn
+|
+|-heal|p1a: Mantine|90/100|[from] item: Leftovers
+|-heal|p2a: Mavis|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Mavis|89/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|move|p1a: Mantine|Haze|p1a: Mantine
+|-clearallboost
+|move|p2a: Mavis|Heal Bell|p2a: Mavis
+|-activate|p2a: Mavis|move: Heal Bell
+|-curestatus|p2a: Mavis|brn|[msg]
+|-curestatus|p2: Leonardo|brn|[msg]
+|
+|-heal|p1a: Mantine|96/100|[from] item: Leftovers
+|-heal|p2a: Mavis|95/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Mantine|Scald|p2a: Mavis
+|-damage|p2a: Mavis|83/100
+|move|p2a: Mavis|Wish|p2a: Mavis
+|
+|-heal|p1a: Mantine|100/100|[from] item: Leftovers
+|-heal|p2a: Mavis|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Leonardo|Blastoise, F|12/100
+|move|p1a: Mantine|Scald|p2a: Leonardo
+|-resisted|p2a: Leonardo
+|-damage|p2a: Leonardo|2/100
+|
+|-heal|p2a: Leonardo|57/100|[from] move: Wish|[wisher] Mavis
+|-heal|p2a: Leonardo|63/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Mavis|Sylveon, F|89/100
+|move|p1a: Mantine|Scald|p2a: Mavis
+|-damage|p2a: Mavis|76/100
+|
+|-heal|p2a: Mavis|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|move|p2a: Mavis|Wish|p2a: Mavis
+|
+|-heal|p2a: Mavis|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Leonardo|Blastoise, F|63/100
+|move|p1a: Arcanine|Wild Charge|p2a: Leonardo
+|-supereffective|p2a: Leonardo
+|-damage|p2a: Leonardo|0 fnt
+|-damage|p1a: Arcanine|83/100|[from] Recoil
+|-damage|p1a: Arcanine|73/100|[from] item: Life Orb
+|faint|p2a: Leonardo
+|
+|upkeep
+
+|
+|switch|p2a: Kinana|Nidoqueen, F, shiny|75/100
+|turn|23
+
+|inactive|DuFickschnitzel has 120 seconds left.
+
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Kinana
+|-damage|p2a: Kinana|0 fnt
+|-damage|p1a: Arcanine|44/100|[from] Recoil
+|-damage|p1a: Arcanine|34/100|[from] item: Life Orb
+|faint|p2a: Kinana
+|
+|upkeep
+
+|
+|switch|p2a: Metroid|Araquanid, F, shiny|100/100
+|turn|24
+
+|inactive|DuFickschnitzel has 120 seconds left.
+
+|
+|move|p1a: Arcanine|Wild Charge|p2a: Metroid
+|-supereffective|p2a: Metroid
+|-damage|p2a: Metroid|21/100
+|-damage|p1a: Arcanine|13/100|[from] Recoil
+|-damage|p1a: Arcanine|3/100|[from] item: Life Orb
+|move|p2a: Metroid|Liquidation|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-heal|p2a: Metroid|27/100|[from] item: Leftovers
+|upkeep
+
+|inactive|DuFickschnitzel has 120 seconds left.
+
+|
+|switch|p1a: Dugtrio|Dugtrio-Alola, F|100/100
+|turn|25
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|switch|p2a: 30 mins|Rotom-Heat, shiny|100/100
+|move|p1a: Dugtrio|Iron Head|p2a: 30 mins
+|-resisted|p2a: 30 mins
+|-damage|p2a: 30 mins|85/100
+|-damage|p1a: Dugtrio|91/100|[from] item: Life Orb
+|
+|-heal|p2a: 30 mins|91/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|switch|p1a: Pangoro|Pangoro, F|100/100
+|move|p2a: 30 mins|Overheat|p1a: Pangoro
+|-damage|p1a: Pangoro|37/100
+|-unboost|p2a: 30 mins|spa|2
+|
+|-heal|p2a: 30 mins|97/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|move|p2a: 30 mins|Will-O-Wisp|p1a: Pangoro
+|-status|p1a: Pangoro|brn
+|move|p1a: Pangoro|Knock Off|p2a: 30 mins
+|-damage|p2a: 30 mins|41/100
+|-enditem|p2a: 30 mins|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|
+|-damage|p1a: Pangoro|31/100 brn|[from] brn
+|upkeep
+|turn|28
+
+|inactive|DanteKyu has 120 seconds left.
+
+|
+|move|p2a: 30 mins|Volt Switch|p1a: Pangoro
+|-damage|p1a: Pangoro|12/100 brn
+
+|
+|switch|p2a: Mavis|Sylveon, F|88/100|[from]move: Volt Switch
+|move|p1a: Pangoro|Knock Off|p2a: Mavis
+|-resisted|p2a: Mavis
+|-damage|p2a: Mavis|63/100
+|-enditem|p2a: Mavis|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|
+|-damage|p1a: Pangoro|6/100 brn|[from] brn
+|upkeep
+|turn|29
+
+|
+|move|p2a: Mavis|Wish|p2a: Mavis
+|move|p1a: Pangoro|Knock Off|p2a: Mavis
+|-resisted|p2a: Mavis
+|-damage|p2a: Mavis|46/100
+|
+|-damage|p1a: Pangoro|0 fnt|[from] brn
+|faint|p1a: Pangoro
+|upkeep
+
+|
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|turn|30
+
+|
+|move|p2a: Mavis|Hyper Voice|p1a: Piloswine
+|-damage|p1a: Piloswine|68/100
+|move|p1a: Piloswine|Stealth Rock|p2a: Mavis
+|-sidestart|p2: DanteKyu|move: Stealth Rock
+|
+|-heal|p2a: Mavis|96/100|[from] move: Wish|[wisher] Mavis
+|upkeep
+|turn|31
+
+|
+|move|p2a: Mavis|Wish|p2a: Mavis
+|move|p1a: Piloswine|Icicle Crash|p2a: Mavis
+|-damage|p2a: Mavis|46/100
+|
+|upkeep
+|turn|32
+
+|
+|switch|p2a: 30 mins|Rotom-Heat, shiny|41/100
+|-damage|p2a: 30 mins|16/100|[from] Stealth Rock
+|move|p1a: Piloswine|Icicle Crash|p2a: 30 mins
+|-resisted|p2a: 30 mins
+|-damage|p2a: 30 mins|0 fnt
+|faint|p2a: 30 mins
+|
+|upkeep
+
+|
+|switch|p2a: Metroid|Araquanid, F, shiny|27/100
+|-damage|p2a: Metroid|2/100|[from] Stealth Rock
+|turn|33
+
+|
+|move|p1a: Piloswine|Ice Shard|p2a: Metroid
+|-resisted|p2a: Metroid
+|-damage|p2a: Metroid|0 fnt
+|faint|p2a: Metroid
+|
+|upkeep
+
+|
+|switch|p2a: Mavis|Sylveon, F|46/100
+|-damage|p2a: Mavis|34/100|[from] Stealth Rock
+|turn|34
+
+|
+|move|p2a: Mavis|Hyper Voice|p1a: Piloswine
+|-damage|p1a: Piloswine|35/100
+|move|p1a: Piloswine|Earthquake|p2a: Mavis
+|-crit|p2a: Mavis
+|-damage|p2a: Mavis|0 fnt
+|faint|p2a: Mavis
+|
+|upkeep
+
+|
+|switch|p2a: Optimus|Reuniclus, M, shiny|100/100
+|-damage|p2a: Optimus|88/100|[from] Stealth Rock
+|turn|35
+
+|
+|move|p1a: Piloswine|Earthquake|p2a: Optimus
+|-damage|p2a: Optimus|37/100
+|move|p2a: Optimus|Energy Ball|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|
+|-heal|p2a: Optimus|43/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Dugtrio|Dugtrio-Alola, F|91/100
+|turn|36
+
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Optimus
+|-supereffective|p2a: Optimus
+|-damage|p2a: Optimus|0 fnt
+|-damage|p1a: Dugtrio|81/100|[from] item: Life Orb
+|faint|p2a: Optimus
+|
+|win|DuFickschnitzel

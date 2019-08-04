@@ -1,0 +1,66 @@
+|init|battle
+|title|Ollieisabitcrazy vs. aurangzaib
+|j|☆Ollieisabitcrazy
+|j|☆aurangzaib
+|player|p1|Ollieisabitcrazy|262|1215
+|player|p2|aurangzaib|165|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Blaziken, F|item
+|poke|p1|Aegislash, F|item
+|poke|p1|Kyogre|item
+|poke|p1|Groudon|item
+|poke|p1|Yveltal|item
+|poke|p1|Xerneas|item
+|poke|p2|Eevee, F|item
+|poke|p2|Hoopa-Unbound|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Dialga|item
+|poke|p2|Necrozma-Dawn-Wings|item
+|poke|p2|Rayquaza|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|switch|p2a: Eevee|Eevee, F, shiny|100/100
+|turn|1
+|
+|detailschange|p1a: Blaziken|Blaziken-Mega, F
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Blaziken|Bulk Up|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|1
+|-boost|p1a: Blaziken|def|1
+|-zpower|p2a: Eevee
+|move|p2a: Eevee|Extreme Evoboost|p2a: Eevee
+|-boost|p2a: Eevee|atk|2
+|-boost|p2a: Eevee|def|2
+|-boost|p2a: Eevee|spa|2
+|-boost|p2a: Eevee|spd|2
+|-boost|p2a: Eevee|spe|2
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|move|p1a: Blaziken|Blaze Kick|p2a: Eevee
+|-crit|p2a: Eevee
+|-damage|p2a: Eevee|0 fnt
+|faint|p2a: Eevee
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|-message|aurangzaib forfeited.
+|
+|win|Ollieisabitcrazy
+|l|☆aurangzaib
+|raw|Ollieisabitcrazy's rating: 1215 &rarr; <strong>1239</strong><br />(+24 for winning)
+|raw|aurangzaib's rating: 1209 &rarr; <strong>1185</strong><br />(-24 for losing)

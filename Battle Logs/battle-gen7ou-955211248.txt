@@ -1,0 +1,88 @@
+|init|battle
+|title|Reneba vs. Pabloml
+|j|☆Reneba
+|j|☆Pabloml
+|player|p1|Reneba|169|1054
+|player|p2|Pabloml|159|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Venusaur, F|item
+|poke|p1|Ninetales-Alola, F|item
+|poke|p1|Lycanroc-Dusk, F|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Toxapex, F|item
+|poke|p2|Staraptor, F|item
+|poke|p2|Luxray, F|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Roserade, F|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Garchomp, M|item
+|teampreview
+|
+|start
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|1
+
+|
+|move|p1a: Lycanroc|Stealth Rock|p2a: Empoleon
+|-sidestart|p2: Pabloml|move: Stealth Rock
+|move|p2a: Empoleon|Agility|p2a: Empoleon
+|-boost|p2a: Empoleon|spe|2
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Bisharp|Bisharp, M, shiny|100/100
+|move|p2a: Empoleon|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|76/100
+|
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Reneba)
+
+|
+|move|p2a: Empoleon|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|53/100
+|move|p1a: Bisharp|Brick Break|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|57/100
+|
+|-heal|p2a: Empoleon|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|l|☆Pabloml
+
+|inactive|Pabloml disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Pabloml has 30 seconds to reconnect!
+
+|inactive|Pabloml has 20 seconds to reconnect!
+
+|inactive|Pabloml has 15 seconds to reconnect!
+
+|inactive|Pabloml has 10 seconds to reconnect!
+
+|inactive|Pabloml has 5 seconds to reconnect!
+
+|-message|Pabloml lost due to inactivity.
+|
+|win|Reneba

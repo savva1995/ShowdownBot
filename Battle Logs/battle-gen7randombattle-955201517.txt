@@ -1,0 +1,305 @@
+|init|battle
+|title|AK Thor vs. Cana0627
+|j|☆AK Thor
+|j|☆Cana0627
+|player|p1|AK Thor|266|1093
+|player|p2|Cana0627|266|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gligar|Gligar, L82, M|100/100
+|switch|p2a: Houndoom|Houndoom, L83, M|100/100
+|turn|1
+
+|
+|switch|p2a: Seaking|Seaking, L89, F|100/100
+|move|p1a: Gligar|Earthquake|p2a: Seaking
+|-damage|p2a: Seaking|66/100
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AK Thor)
+
+|
+|switch|p1a: Sunflora|Sunflora, L89, F|100/100
+|move|p2a: Seaking|Scald|p1a: Sunflora
+|-resisted|p1a: Sunflora
+|-crit|p1a: Sunflora
+|-damage|p1a: Sunflora|83/100
+|-status|p1a: Sunflora|brn
+|
+|-damage|p1a: Sunflora|77/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Houndoom|Houndoom, L83, M|100/100
+|move|p1a: Sunflora|Giga Drain|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|74/100
+|-heal|p1a: Sunflora|89/100 brn|[from] drain|[of] p2a: Houndoom
+|-damage|p1a: Sunflora|79/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Sunflora|73/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Lanturn|Lanturn, L88, M|100/100
+|detailschange|p2a: Houndoom|Houndoom-Mega, L83, M
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Nasty Plot|p2a: Houndoom
+|-boost|p2a: Houndoom|spa|2
+|
+|upkeep
+|turn|5
+
+|inactive|AK Thor has 120 seconds left.
+
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Lanturn
+|-damage|p1a: Lanturn|32/100
+|cant|p1a: Lanturn|flinch
+|
+|upkeep
+|turn|6
+
+|inactive|AK Thor has 120 seconds left.
+
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|upkeep
+
+|inactive|AK Thor has 120 seconds left.
+
+|
+|switch|p1a: Jolteon|Jolteon, L84, F|100/100
+|turn|7
+
+|
+|move|p1a: Jolteon|Volt Switch|p2a: Houndoom
+|-damage|p2a: Houndoom|30/100
+
+|
+|switch|p1a: Gligar|Gligar, L82, M|100/100|[from]move: Volt Switch
+|move|p2a: Houndoom|Fire Blast|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|faint|p1a: Gligar
+|
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, L84, F|100/100
+|turn|8
+
+|
+|switch|p2a: Hippowdon|Hippowdon, L82, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Jolteon|Thunderbolt|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: AK Thor|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Houndoom|Houndoom-Mega, L83, M|30/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Houndoom|3/100|[from] Sandstorm
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Mismagius|Mismagius, L86, F|100/100
+|-damage|p1a: Mismagius|88/100|[from] Stealth Rock
+|move|p2a: Houndoom|Fire Blast|p1a: Mismagius
+|-damage|p1a: Mismagius|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Houndoom|0 fnt|[from] Sandstorm
+|-damage|p1a: Mismagius|25/100|[from] Sandstorm
+|faint|p2a: Houndoom
+|-heal|p1a: Mismagius|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Seaking|Seaking, L89, F|66/100
+|turn|12
+
+|
+|move|p1a: Mismagius|Pain Split|p2a: Seaking
+|-sethp|p2a: Seaking|46/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Mismagius|54/100|[from] move: Pain Split
+|move|p2a: Seaking|Knock Off|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|-enditem|p1a: Mismagius|Leftovers|[from] move: Knock Off|[of] p2a: Seaking
+|faint|p1a: Mismagius
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Seaking|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|74/100
+|-damage|p2a: Seaking|34/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Seaking
+|move|p1a: Ferrothorn|Power Whip|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|upkeep
+
+|
+|switch|p2a: Venusaur|Venusaur, L85, M|100/100
+|turn|14
+
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|78/100
+|-enditem|p2a: Venusaur|Black Sludge|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-heal|p2a: Venusaur|81/100|[from] drain|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|67/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|-heal|p2a: Venusaur|70/100|[from] drain|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|54/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|54/100
+|-heal|p2a: Venusaur|57/100|[from] drain|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|41/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|-heal|p2a: Venusaur|44/100|[from] drain|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|29/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100
+|-heal|p2a: Venusaur|33/100|[from] drain|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|19/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|26/100
+|-heal|p2a: Venusaur|24/100|[from] drain|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|7/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|16/100
+|-heal|p2a: Venusaur|12/100|[from] drain|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+
+|
+|switch|p2a: Aurorus|Aurorus, L88, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|turn|22
+
+|
+|move|p2a: Aurorus|Blizzard|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sunflora|Sunflora, L89, F|73/100 brn
+|-damage|p1a: Sunflora|61/100 brn|[from] Stealth Rock
+|turn|23
+
+|
+|move|p2a: Aurorus|Blizzard|p1a: Sunflora
+|-supereffective|p1a: Sunflora
+|-damage|p1a: Sunflora|0 fnt
+|faint|p1a: Sunflora
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|-message|AK Thor forfeited.
+
+|
+|win|Cana0627

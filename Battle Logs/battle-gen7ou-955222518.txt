@@ -1,0 +1,285 @@
+|init|battle
+|title|AI program vs. lt63rb sab
+|j|☆AI program
+|j|☆lt63rb sab
+|player|p1|AI program|102|1886
+|player|p2|lt63rb sab|101|1810
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, F|item
+|poke|p1|Xurkitree|item
+|poke|p1|Serperior, F|item
+|poke|p1|Greninja, M|item
+|poke|p1|Diancie|item
+|poke|p1|Slurpuff, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Mawile, F|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Kyurem|item
+|poke|p2|Magnezone|item
+|poke|p2|Serperior, F|item
+|teampreview
+|j| LT63RB Aqua
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AI program)
+|j| Dogerunner
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|1
+|j| KVR_1993
+|
+|switch|p1a: Program 3|Serperior, F|100/100
+|move|p2a: Serperior|Leaf Storm|p1a: Program 3
+|-resisted|p1a: Program 3
+|-damage|p1a: Program 3|70/100
+|-boost|p2a: Serperior|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Program 3|Glare|p2a: Kyurem
+|-status|p2a: Kyurem|par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Program 3|Glare|p2a: Kyurem
+|-fail|p2a: Kyurem|par
+|move|p2a: Kyurem|Ice Beam|p1a: Program 3
+|-supereffective|p1a: Program 3
+|-crit|p1a: Program 3
+|-damage|p1a: Program 3|0 fnt
+|faint|p1a: Program 3
+|
+|upkeep
+|j| SOMALIA
+|
+|switch|p1a: Diancie|Diancie|100/100
+|turn|4
+|
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Substitute|p1a: Diancie
+|-start|p1a: Diancie|Substitute
+|-damage|p1a: Diancie|76/100
+|move|p2a: Kyurem|Ice Beam|p1a: Diancie
+|-end|p1a: Diancie|Substitute
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Diancie|Substitute|p1a: Diancie
+|-start|p1a: Diancie|Substitute
+|-damage|p1a: Diancie|51/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Diancie|Stealth Rock|p2a: Tapu Fini
+|-sidestart|p2: lt63rb sab|move: Stealth Rock
+|move|p2a: Tapu Fini|Scald|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-end|p1a: Diancie|Substitute
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Diancie|Substitute|p1a: Diancie
+|-start|p1a: Diancie|Substitute
+|-damage|p1a: Diancie|26/100
+|move|p2a: Tapu Fini|Scald|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-end|p1a: Diancie|Substitute
+|
+|upkeep
+|turn|8
+|j| LT63RB Ash
+|
+|move|p1a: Diancie|Substitute|p1a: Diancie
+|-start|p1a: Diancie|Substitute
+|-damage|p1a: Diancie|1/100
+|move|p2a: Tapu Fini|Scald|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-end|p1a: Diancie|Substitute
+|
+|upkeep
+|turn|9
+|j|‽XXXSUICUNEXXX
+|
+|switch|p2a: Kyurem|Kyurem|100/100 par
+|-damage|p2a: Kyurem|76/100 par|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Diancie|Endeavor|p2a: Kyurem
+|-damage|p2a: Kyurem|1/100 par
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|10
+|
+|move|p1a: Diancie|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|switch|p2a: Serperior|Serperior, F|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Diancie
+|
+|upkeep
+|j| Matheus RW
+|j| LT63RB union
+|
+|switch|p1a: Program 1|Kommo-o, F|100/100
+|turn|12
+|l| Matheus RW
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-damage|p2a: Tapu Fini|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Program 1|Drain Punch|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|73/100
+|
+|-heal|p2a: Tapu Fini|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Program 1|Substitute|p1a: Program 1
+|-start|p1a: Program 1|Substitute
+|-damage|p1a: Program 1|75/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Program 1
+|-supereffective|p1a: Program 1
+|-end|p1a: Program 1|Substitute
+|
+|-heal|p2a: Tapu Fini|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Program 1|Thunder Punch|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|41/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Program 1
+|-supereffective|p1a: Program 1
+|-damage|p1a: Program 1|0 fnt
+|faint|p1a: Program 1
+|
+|-heal|p2a: Tapu Fini|47/100|[from] item: Leftovers
+|upkeep
+|j| LT63RB Pro
+|
+|switch|p1a: Program 6|Slurpuff, F|100/100
+|turn|15
+|
+|move|p2a: Tapu Fini|Moonblast|p1a: Program 6
+|-damage|p1a: Program 6|52/100
+|move|p1a: Program 6|Belly Drum|p1a: Program 6
+|-damage|p1a: Program 6|2/100
+|-setboost|p1a: Program 6|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Program 6|Sitrus Berry|[eat]
+|-heal|p1a: Program 6|27/100|[from] item: Sitrus Berry
+|
+|-heal|p2a: Tapu Fini|53/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Program 6|Play Rough|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Program 6|atk|1
+|turn|17
+|
+|detailschange|p2a: Mawile|Mawile-Mega, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p2a: Mawile|Sucker Punch|p1a: Program 6
+|-resisted|p1a: Program 6
+|-damage|p1a: Program 6|0 fnt
+|faint|p1a: Program 6
+|
+|upkeep
+|
+|switch|p1a: Program 2|Xurkitree|100/100
+|turn|18
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Program 2|atk|1
+|-zpower|p1a: Program 2
+|move|p1a: Program 2|Z-Hypnosis|p2a: Landorus|[anim]Hypnosis|[miss]
+|-boost|p1a: Program 2|spe|1|[zeffect]
+|-miss|p1a: Program 2|p2a: Landorus
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Program 2|Hypnosis|p2a: Landorus|[miss]
+|-miss|p1a: Program 2|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Program 2
+|-supereffective|p1a: Program 2
+|-damage|p1a: Program 2|0 fnt
+|faint|p1a: Program 2
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|20
+
+|
+|move|p1a: Greninja|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p2a: Serperior|Serperior, F|88/100
+|-damage|p2a: Serperior|76/100|[from] Stealth Rock
+|turn|21
+
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Greninja
+|
+|win|lt63rb sab

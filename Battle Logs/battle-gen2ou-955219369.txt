@@ -1,0 +1,453 @@
+|init|battle
+|title|Matzeho Sword vs. Matzeho Shield
+|j|☆Matzeho Sword
+|j|☆Matzeho Shield
+|player|p1|Matzeho Sword|169|
+|player|p2|Matzeho Shield|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|turn|1
+
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Lanturn|Spark|p1a: Quagsire
+|-immune|p1a: Quagsire
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Meganium|Meganium, M|100/100
+|move|p1a: Quagsire|Earthquake|p2a: Meganium
+|-crit|p2a: Meganium
+|-resisted|p2a: Meganium
+|-damage|p2a: Meganium|67/100
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|move|p2a: Meganium|Poison Powder|p1a: Crobat
+|-immune|p1a: Crobat
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Crobat|Confuse Ray|p2a: Skarmory
+|-start|p2a: Skarmory|confusion
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|-activate|p2a: Skarmory|confusion
+|-damage|p2a: Skarmory|93/100|[from] confusion
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|move|p1a: Nidoking|Fire Punch|p2a: Donphan
+|-damage|p2a: Donphan|79/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|move|p2a: Donphan|Strength|p1a: Crobat
+|-damage|p1a: Crobat|80/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Crobat|Confuse Ray|p2a: Donphan
+|-start|p2a: Donphan|confusion
+|-enditem|p2a: Donphan|Bitter Berry|[eat]
+|-end|p2a: Donphan|confusion
+|move|p2a: Donphan|Rollout|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|62/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|move|p2a: Donphan|Rollout|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|85/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Nidoking|Ice Punch|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|39/100
+|move|p2a: Donphan|Rollout|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|69/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Nidoking|Ice Punch|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+
+|
+|switch|p2a: Jynx|Jynx, F|100/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Jynx|Ice Punch|p1a: Espeon
+|-damage|p1a: Espeon|66/100
+|-status|p1a: Espeon|frz
+|
+|upkeep
+|turn|13
+
+|
+|cant|p1a: Espeon|frz
+|move|p2a: Jynx|Ice Punch|p1a: Espeon
+|-damage|p1a: Espeon|33/100 frz
+|
+|upkeep
+|turn|14
+
+|
+|cant|p1a: Espeon|frz
+|move|p2a: Jynx|Ice Punch|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+
+|
+|switch|p1a: Granbull|Granbull, M|100/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Granbull
+|-status|p1a: Granbull|slp|[from] move: Lovely Kiss
+|cant|p1a: Granbull|slp
+|
+|upkeep
+|turn|16
+
+|
+|cant|p1a: Granbull|slp
+|move|p2a: Jynx|Ice Punch|p1a: Granbull
+|-damage|p1a: Granbull|63/100 slp
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Jynx|Ice Punch|p1a: Granbull
+|-damage|p1a: Granbull|22/100 slp
+|cant|p1a: Granbull|slp
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Jynx|Ice Punch|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+
+|
+|switch|p1a: Crobat|Crobat, M|62/100
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Skarmory|Skarmory, M|93/100
+|move|p1a: Crobat|Fly||[still]
+|-prepare|p1a: Crobat|Fly|p2a: Skarmory
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Crobat|Fly|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|84/100
+|move|p2a: Skarmory|Swift|p1a: Crobat
+|-damage|p1a: Crobat|49/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Nidoking|Nidoking, M|69/100
+|move|p2a: Skarmory|Fly||[still]
+|-prepare|p2a: Skarmory|Fly|p1a: Nidoking
+|
+|upkeep
+|turn|22
+
+|
+|move|p1a: Nidoking|Fire Punch|p2a: Skarmory|[miss]
+|-miss|p1a: Nidoking
+|move|p2a: Skarmory|Fly|p1a: Nidoking
+|-damage|p1a: Nidoking|47/100
+|
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Nidoking|Thunder Punch|p2a: Lanturn
+|-damage|p2a: Lanturn|87/100
+|
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Lanturn|Supersonic|p1a: Quagsire
+|-start|p1a: Quagsire|confusion
+|
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Meganium|Meganium, M|67/100
+|-activate|p1a: Quagsire|confusion
+|-damage|p1a: Quagsire|92/100|[from] confusion
+|
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Crobat|Crobat, M|49/100
+|move|p2a: Meganium|Synthesis|p2a: Meganium
+|-heal|p2a: Meganium|100/100
+|
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Skarmory|Skarmory, M|84/100
+|move|p1a: Crobat|Confuse Ray|p2a: Skarmory
+|-start|p2a: Skarmory|confusion
+|
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Nidoking|Nidoking, M|47/100
+|-activate|p2a: Skarmory|confusion
+|move|p2a: Skarmory|Swift|p1a: Nidoking
+|-damage|p1a: Nidoking|35/100
+|
+|upkeep
+|turn|29
+
+|
+|switch|p2a: Lanturn|Lanturn, M|87/100
+|move|p1a: Nidoking|Thunder Punch|p2a: Lanturn
+|-damage|p2a: Lanturn|73/100
+|
+|upkeep
+|turn|30
+
+|
+|switch|p1a: Quagsire|Quagsire, M|92/100
+|move|p2a: Lanturn|Surf|p1a: Quagsire
+|-damage|p1a: Quagsire|60/100
+|
+|upkeep
+|turn|31
+
+|
+|switch|p2a: Meganium|Meganium, M|100/100
+|move|p1a: Quagsire|Sludge Bomb|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|62/100
+|
+|upkeep
+|turn|32
+
+|
+|move|p2a: Meganium|Synthesis|p2a: Meganium
+|-heal|p2a: Meganium|100/100
+|move|p1a: Quagsire|Sludge Bomb|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|66/100
+|
+|upkeep
+|turn|33
+
+|
+|switch|p1a: Crobat|Crobat, M|49/100
+|move|p2a: Meganium|Synthesis|p2a: Meganium
+|-heal|p2a: Meganium|100/100
+|
+|upkeep
+|turn|34
+
+|
+|move|p1a: Crobat|Fly||[still]
+|-prepare|p1a: Crobat|Fly|p2a: Meganium
+|move|p2a: Meganium|Body Slam|p1a: Crobat|[miss]
+|-miss|p2a: Meganium
+|
+|upkeep
+|turn|35
+
+|
+|switch|p2a: Skarmory|Skarmory, M|84/100
+|move|p1a: Crobat|Fly|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|74/100
+|
+|upkeep
+|turn|36
+
+|
+|move|p1a: Crobat|Confuse Ray|p2a: Skarmory
+|-start|p2a: Skarmory|confusion
+|-activate|p2a: Skarmory|confusion
+|move|p2a: Skarmory|Fly||[still]
+|-prepare|p2a: Skarmory|Fly|p1a: Crobat
+|
+|upkeep
+|turn|37
+
+|
+|move|p1a: Crobat|Fly||[still]
+|-prepare|p1a: Crobat|Fly|p2a: Skarmory
+|-end|p2a: Skarmory|confusion
+|move|p2a: Skarmory|Fly|p1a: Crobat|[miss]
+|-miss|p2a: Skarmory
+|
+|upkeep
+|turn|38
+
+|
+|switch|p2a: Lanturn|Lanturn, M|73/100
+|move|p1a: Crobat|Fly|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|62/100
+|
+|upkeep
+|turn|39
+
+|
+|move|p1a: Crobat|Confuse Ray|p2a: Lanturn
+|-start|p2a: Lanturn|confusion
+|-activate|p2a: Lanturn|confusion
+|move|p2a: Lanturn|Spark|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|11/100
+|
+|upkeep
+|turn|40
+
+|
+|-activate|p2a: Lanturn|confusion
+|move|p2a: Lanturn|Spark|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+
+|
+|switch|p1a: Quagsire|Quagsire, M|60/100
+|
+|upkeep
+|turn|41
+
+|
+|switch|p2a: Meganium|Meganium, M|100/100
+|move|p1a: Quagsire|Sludge Bomb|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|65/100
+|
+|upkeep
+|turn|42
+
+|
+|switch|p1a: Nidoking|Nidoking, M|35/100
+|move|p2a: Meganium|Razor Leaf|p1a: Nidoking
+|-damage|p1a: Nidoking|15/100
+|
+|upkeep
+|turn|43
+
+|
+|move|p1a: Nidoking|Fire Punch|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|32/100
+|move|p2a: Meganium|Razor Leaf|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|
+|upkeep
+|turn|44
+
+|
+|move|p2a: Meganium|Razor Leaf|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|37/100
+|move|p1a: Poliwrath|Ice Punch|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|3/100
+|
+|upkeep
+|turn|45
+
+|
+|move|p2a: Meganium|Razor Leaf|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+
+|
+|switch|p1a: Quagsire|Quagsire, M|60/100
+|
+|upkeep
+|turn|46
+
+|
+|move|p2a: Meganium|Razor Leaf|p1a: Quagsire
+|-crit|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|win|Matzeho Shield

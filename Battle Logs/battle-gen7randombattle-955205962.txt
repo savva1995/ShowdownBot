@@ -1,0 +1,319 @@
+|init|battle
+|title|Nope123 vs. JustDanti
+|j|☆Nope123
+|j|☆JustDanti
+|player|p1|Nope123|163|1151
+|player|p2|JustDanti|176|1186
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Registeel|Registeel, L84|100/100
+|switch|p2a: Electrode|Electrode, L89|100/100
+|turn|1
+|
+|switch|p2a: Diggersby|Diggersby, L81, M|100/100
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nope123)
+|
+|move|p2a: Diggersby|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|36/100
+|move|p1a: Registeel|Iron Head|p2a: Diggersby
+|-damage|p2a: Diggersby|53/100
+|
+|-heal|p1a: Registeel|42/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Diggersby|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|upkeep
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, M|100/100
+|turn|4
+
+|
+|switch|p2a: Electrode|Electrode, L89|100/100
+|move|p1a: Cofagrigus|Nasty Plot|p1a: Cofagrigus
+|-boost|p1a: Cofagrigus|spa|2
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Electrode|Foul Play|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-crit|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|77/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Aftermath|[of] p2a: Electrode
+|move|p1a: Cofagrigus|Nasty Plot|p1a: Cofagrigus
+|-boost|p1a: Cofagrigus|spa|2
+|
+|-heal|p1a: Cofagrigus|83/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Electrode|Foul Play|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|66/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Electrode
+|-damage|p2a: Electrode|1/100
+|
+|-heal|p1a: Cofagrigus|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Electrode|Foul Play|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-crit|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|44/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|-heal|p1a: Cofagrigus|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Diggersby|Diggersby, L81, M|53/100
+|turn|8
+
+|inactive|Nope123 has 120 seconds left.
+
+|
+|move|p2a: Diggersby|Knock Off|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|-activate|p1a: Cofagrigus|ability: Mummy|Huge Power|[of] p2a: Diggersby
+|-enditem|p1a: Cofagrigus|Leftovers|[from] move: Knock Off|[of] p2a: Diggersby
+|faint|p1a: Cofagrigus
+|
+|upkeep
+
+|
+|switch|p1a: Yveltal|Yveltal, L78|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|9
+
+|inactive|JustDanti has 120 seconds left.
+
+|
+|move|p1a: Yveltal|Dark Pulse|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|faint|p2a: Diggersby
+|
+|upkeep
+
+|inactive|JustDanti has 120 seconds left.
+
+|
+|switch|p2a: Empoleon|Empoleon, L82, F|100/100
+|turn|10
+
+|inactive|Nope123 has 120 seconds left.
+
+|
+|move|p1a: Yveltal|Dark Pulse|p2a: Empoleon
+|-damage|p2a: Empoleon|57/100
+|cant|p2a: Empoleon|flinch
+|
+|-heal|p2a: Empoleon|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Yveltal|Dark Pulse|p2a: Empoleon
+|-damage|p2a: Empoleon|21/100
+|move|p2a: Empoleon|Ice Beam|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-crit|p1a: Yveltal
+|-damage|p1a: Yveltal|39/100
+|
+|-heal|p1a: Yveltal|45/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|27/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Yveltal|Dark Pulse|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|-heal|p1a: Yveltal|51/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, M|100/100
+|turn|13
+
+|
+|move|p2a: Darmanitan|U-turn|p1a: Yveltal
+|-damage|p1a: Yveltal|26/100
+|-damage|p2a: Darmanitan|90/100|[from] item: Life Orb
+
+|inactive|JustDanti has 120 seconds left.
+
+|
+|switch|p2a: Xatu|Xatu, L86, F|100/100|[from]move: U-turn
+|move|p1a: Yveltal|Oblivion Wing|p2a: Xatu
+|-damage|p2a: Xatu|53/100
+|-heal|p1a: Yveltal|53/100|[from] drain|[of] p2a: Xatu
+|
+|-heal|p2a: Xatu|59/100|[from] item: Leftovers
+|-heal|p1a: Yveltal|59/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|JustDanti has 120 seconds left.
+
+|inactive|Nope123 has 120 seconds left.
+
+|inactive|Nope123 has 90 seconds left.
+
+|
+|move|p1a: Yveltal|Sucker Punch||[still]
+|-fail|p1a: Yveltal
+|move|p2a: Xatu|Thunder Wave|p1a: Yveltal
+|-status|p1a: Yveltal|par
+|
+|-heal|p2a: Xatu|65/100|[from] item: Leftovers
+|-heal|p1a: Yveltal|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|JustDanti has 120 seconds left.
+
+|
+|move|p1a: Yveltal|Sucker Punch||[still]
+|-fail|p1a: Yveltal
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|
+|-heal|p2a: Xatu|71/100|[from] item: Leftovers
+|-heal|p1a: Yveltal|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|JustDanti has 120 seconds left.
+
+|inactive|Nope123 has 90 seconds left.
+
+|
+|move|p2a: Xatu|Heat Wave|p1a: Yveltal
+|-damage|p1a: Yveltal|37/100 par
+|move|p1a: Yveltal|Dark Pulse|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|-heal|p1a: Yveltal|43/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, M|90/100
+|turn|17
+
+|inactive|Nope123 has 90 seconds left.
+
+|
+|move|p1a: Yveltal|Sucker Punch|p2a: Darmanitan
+|-damage|p2a: Darmanitan|38/100
+|move|p2a: Darmanitan|Rock Slide|p1a: Yveltal|[miss]
+|-miss|p2a: Darmanitan|p1a: Yveltal
+|
+|-heal|p1a: Yveltal|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Yveltal|Sucker Punch|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|-heal|p1a: Yveltal|56/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Lurantis|Lurantis, L88, F|100/100
+|turn|19
+
+|
+|move|p2a: Lurantis|Hidden Power|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|26/100 par
+|-damage|p2a: Lurantis|91/100|[from] item: Life Orb
+|cant|p1a: Yveltal|par
+|
+|-heal|p1a: Yveltal|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Lurantis|Hidden Power|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-damage|p2a: Lurantis|81/100|[from] item: Life Orb
+|faint|p1a: Yveltal
+|
+|upkeep
+
+|
+|switch|p1a: Diggersby|Diggersby, L81, M|100/100
+|turn|21
+
+|
+|move|p1a: Diggersby|Earthquake|p2a: Lurantis
+|-resisted|p2a: Lurantis
+|-damage|p2a: Lurantis|52/100
+|-damage|p1a: Diggersby|90/100|[from] item: Life Orb
+|move|p2a: Lurantis|Superpower|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|-damage|p2a: Lurantis|42/100|[from] item: Life Orb
+|faint|p1a: Diggersby
+|
+|upkeep
+
+|inactive|Nope123 has 120 seconds left.
+
+|l|☆Nope123
+
+|inactive|Nope123 disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Nope123 has 30 seconds to reconnect!
+
+|inactive|Nope123 has 20 seconds to reconnect!
+
+|inactive|Nope123 has 15 seconds to reconnect!
+
+|inactive|Nope123 has 10 seconds to reconnect!
+
+|inactive|Nope123 has 5 seconds to reconnect!
+
+|-message|Nope123 lost due to inactivity.
+|
+|win|JustDanti

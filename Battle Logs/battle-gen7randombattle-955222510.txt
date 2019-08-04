@@ -1,0 +1,224 @@
+|init|battle
+|title|sushi8899 vs. Guoyanan
+|j|☆sushi8899
+|j|☆Guoyanan
+|player|p1|sushi8899|101|2124
+|player|p2|Guoyanan|257|2160
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toxicroak|Toxicroak, L84, M|100/100
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|turn|1
+|
+|switch|p1a: Blastoise|Blastoise, L84, F|100/100
+|move|p2a: Solgaleo|Zen Headbutt|p1a: Blastoise
+|-damage|p1a: Blastoise|65/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Jellicent|Jellicent, L88, M|100/100
+|detailschange|p1a: Blastoise|Blastoise-Mega, L84, F
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Blastoise|Dark Pulse|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|45/100
+|
+|-heal|p2a: Jellicent|51/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Heracross|Heracross, L81, F|100/100
+|move|p1a: Blastoise|Dark Pulse|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|80/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Scyther|Scyther, L88, F|100/100
+|detailschange|p2a: Heracross|Heracross-Mega, L81, F
+|-mega|p2a: Heracross|Heracross|Heracronite
+|move|p2a: Heracross|Bullet Seed|p1a: Scyther
+|-resisted|p1a: Scyther
+|-damage|p1a: Scyther|99/100
+|-resisted|p1a: Scyther
+|-damage|p1a: Scyther|97/100
+|-resisted|p1a: Scyther
+|-damage|p1a: Scyther|95/100
+|-resisted|p1a: Scyther
+|-damage|p1a: Scyther|94/100
+|-resisted|p1a: Scyther
+|-damage|p1a: Scyther|92/100
+|-hitcount|p1a: Scyther|5
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Heracross|Rock Blast|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|63/100
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|31/100
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|3/100
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|-hitcount|p1a: Scyther|4
+|faint|p1a: Scyther
+|
+|upkeep
+
+|
+|switch|p1a: Nidoking|Nidoking, L82, M|100/100
+|turn|6
+
+|
+|move|p1a: Nidoking|Fire Blast|p2a: Heracross|[miss]
+|-miss|p1a: Nidoking|p2a: Heracross
+|move|p2a: Heracross|Bullet Seed|p1a: Nidoking
+|-damage|p1a: Nidoking|88/100
+|-damage|p1a: Nidoking|76/100
+|-damage|p1a: Nidoking|64/100
+|-damage|p1a: Nidoking|52/100
+|-damage|p1a: Nidoking|40/100
+|-hitcount|p1a: Nidoking|5
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Pelipper|Pelipper, L84, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Nidoking|Sludge Wave|p2a: Pelipper
+|-damage|p2a: Pelipper|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+
+|
+|move|p1a: Nidoking|Ice Beam|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|turn|9
+
+|
+|switch|p1a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Solgaleo|Zen Headbutt|p1a: Gigalith
+|-damage|p1a: Gigalith|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|22/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Solgaleo
+|-sidestart|p2: Guoyanan|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|28/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Blastoise|Blastoise-Mega, L84, F|65/100
+|turn|12
+
+|
+|move|p2a: Solgaleo|Zen Headbutt|p1a: Blastoise
+|-damage|p1a: Blastoise|36/100
+|cant|p1a: Blastoise|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blastoise|30/100|[from] Sandstorm
+|upkeep
+|turn|13
+
+|
+|move|p2a: Solgaleo|Zen Headbutt|p1a: Blastoise
+|-damage|p1a: Blastoise|1/100
+|cant|p1a: Blastoise|flinch
+|
+|-weather|none
+|upkeep
+|turn|14
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+
+|
+|switch|p1a: Musharna|Musharna, L89, M, shiny|100/100
+|turn|15
+
+|
+|switch|p2a: Jellicent|Jellicent, L88, M|51/100
+|-damage|p2a: Jellicent|38/100|[from] Stealth Rock
+|move|p1a: Musharna|Thunder Wave|p2a: Jellicent
+|-status|p2a: Jellicent|par
+|
+|-heal|p2a: Jellicent|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Toxicroak|Toxicroak, L84, M|100/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Toxicroak
+|-damage|p1a: Toxicroak|60/100
+|-unboost|p1a: Toxicroak|spd|1
+|
+|-heal|p2a: Jellicent|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|3/100 par
+|-damage|p1a: Toxicroak|51/100|[from] item: Life Orb
+|move|p2a: Jellicent|Shadow Ball|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-heal|p2a: Jellicent|9/100 par|[from] item: Leftovers
+|upkeep
+
+|-message|sushi8899 forfeited.
+
+|
+|win|Guoyanan

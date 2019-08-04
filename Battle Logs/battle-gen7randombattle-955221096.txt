@@ -1,0 +1,213 @@
+|init|battle
+|title|shadesfade vs. tnotgaytgoodhodor
+|j|☆shadesfade
+|j|☆tnotgaytgoodhodor
+|player|p1|shadesfade|1|1710
+|player|p2|tnotgaytgoodhodor|289|1742
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Archeops|Archeops, L87, F|100/100
+|switch|p2a: Braviary|Braviary, L86, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shadesfade)
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+|inactive|tnotgaytgoodhodor has 90 seconds left.
+|inactive|tnotgaytgoodhodor has 60 seconds left.
+|
+|move|p1a: Archeops|Head Smash|p2a: Braviary|[miss]
+|-miss|p1a: Archeops|p2a: Braviary
+|move|p2a: Braviary|Superpower|p1a: Archeops
+|-damage|p1a: Archeops|36/100
+|-unboost|p2a: Braviary|atk|1
+|-unboost|p2a: Braviary|def|1
+|-damage|p2a: Braviary|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+|
+|move|p1a: Archeops|Head Smash|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|-damage|p1a: Archeops|0 fnt|[from] Recoil
+|faint|p2a: Braviary
+|faint|p1a: Archeops
+|
+|upkeep
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+|
+|switch|p1a: Heatmor|Heatmor, L89, M|100/100
+|switch|p2a: Palkia|Palkia, L78|100/100
+|-ability|p2a: Palkia|Pressure
+|turn|3
+|inactive|tnotgaytgoodhodor has 90 seconds left.
+|
+|move|p2a: Palkia|Thunder Wave|p1a: Heatmor
+|-status|p1a: Heatmor|par
+|move|p1a: Heatmor|Knock Off|p2a: Palkia
+|-damage|p2a: Palkia|73/100
+|-enditem|p2a: Palkia|Lustrous Orb|[from] move: Knock Off|[of] p1a: Heatmor
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Palkia|Hydro Pump|p1a: Heatmor
+|-supereffective|p1a: Heatmor
+|-damage|p1a: Heatmor|0 fnt
+|faint|p1a: Heatmor
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|100/100
+|turn|5
+|
+|switch|p2a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: shadesfade
+|move|p1a: Whimsicott|Moonblast|p2a: Pyroar
+|-resisted|p2a: Pyroar
+|-damage|p2a: Pyroar|84/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Groudon|Groudon, L78|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Pyroar|Fire Blast|p1a: Groudon
+|-damage|p1a: Groudon|6/100
+|-damage|p2a: Pyroar|74/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|12/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Pyroar|Hyper Voice|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p2a: Pyroar|64/100|[from] item: Life Orb
+|faint|p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|100/100
+|turn|8
+|
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: shadesfade|move: Tailwind
+|move|p2a: Pyroar|Fire Blast|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p2a: Pyroar|54/100|[from] item: Life Orb
+|faint|p1a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, L82, M|100/100
+|turn|9
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Pyroar
+|-supereffective|p2a: Pyroar
+|-damage|p2a: Pyroar|0 fnt
+|faint|p2a: Pyroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Florges|Florges, L84, F|100/100
+|turn|10
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Florges
+|-damage|p2a: Florges|15/100
+|move|p2a: Florges|Wish|p2a: Florges
+|
+|-weather|none
+|-heal|p2a: Florges|21/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+|
+|move|p2a: Florges|Protect|p2a: Florges
+|-singleturn|p2a: Florges|Protect
+|move|p1a: Mamoswine|Earthquake|p2a: Florges
+|-activate|p2a: Florges|move: Protect
+|
+|-heal|p2a: Florges|71/100|[from] move: Wish|[wisher] Florges
+|-heal|p2a: Florges|77/100|[from] item: Leftovers
+|-sideend|p1: shadesfade|move: Tailwind
+|upkeep
+|turn|12
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|faint|p2a: Florges
+|
+|upkeep
+|
+|switch|p2a: Shuckle|Shuckle, L89, M|100/100
+|turn|13
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Shuckle
+|-damage|p2a: Shuckle|51/100
+|move|p2a: Shuckle|Toxic|p1a: Mamoswine
+|-status|p1a: Mamoswine|tox
+|
+|-heal|p2a: Shuckle|57/100|[from] item: Leftovers
+|-damage|p1a: Mamoswine|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Shuckle
+|-damage|p2a: Shuckle|13/100
+|move|p2a: Shuckle|Knock Off|p1a: Mamoswine
+|-damage|p1a: Mamoswine|86/100 tox
+|-enditem|p1a: Mamoswine|Choice Band|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|-heal|p2a: Shuckle|19/100|[from] item: Leftovers
+|-damage|p1a: Mamoswine|74/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|tnotgaytgoodhodor has 120 seconds left.
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-damage|p1a: Mamoswine|56/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Palkia|Palkia, L78|73/100
+|-ability|p2a: Palkia|Pressure
+|turn|16
+|
+|move|p2a: Palkia|Fire Blast|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|11/100 tox
+|move|p1a: Mamoswine|Earthquake|p2a: Palkia
+|-damage|p2a: Palkia|30/100
+|
+|-damage|p1a: Mamoswine|0 fnt|[from] psn
+|faint|p1a: Mamoswine
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, M|100/100
+|turn|17
+
+|
+|move|p2a: Palkia|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|win|tnotgaytgoodhodor

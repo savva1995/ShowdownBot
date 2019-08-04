@@ -1,0 +1,69 @@
+|init|battle
+|title|Martoz vs. Eye_patch151
+|j|☆Martoz
+|j|☆Eye_patch151
+|player|p1|Martoz|56|1807
+|player|p2|Eye_patch151|209|1781
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electivire|Electivire, L89, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eye_patch151)
+
+|inactive|Martoz has 120 seconds left.
+
+|inactive|Martoz has 90 seconds left.
+|inactive|Eye_patch151 has 120 seconds left.
+
+|l|☆Martoz
+
+|inactive|Martoz disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆Martoz
+
+|inactive|Martoz reconnected and has 55 seconds left.
+
+|player|p1|Martoz|56
+
+|
+|move|p1a: Electivire|Flamethrower|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|46/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Electivire
+|-damage|p1a: Electivire|76/100
+|-heal|p2a: Amoonguss|57/100|[from] drain|[of] p1a: Electivire
+|
+|-heal|p2a: Amoonguss|63/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+
+|l|☆Eye_patch151
+
+|inactive|Eye_patch151 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Eye_patch151 has 30 seconds to reconnect!
+
+|inactive|Eye_patch151 has 20 seconds to reconnect!
+
+|inactive|Eye_patch151 has 15 seconds to reconnect!
+
+|inactive|Eye_patch151 has 10 seconds to reconnect!
+
+|inactive|Eye_patch151 has 5 seconds to reconnect!
+
+|-message|Eye_patch151 lost due to inactivity.
+|
+|win|Martoz

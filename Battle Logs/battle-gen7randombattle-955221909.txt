@@ -1,0 +1,78 @@
+|init|battle
+|title|PT・Olka vs. RanmaruX
+|j|☆PT・Olka
+|j|☆RanmaruX
+|player|p1|PT・Olka|266|1077
+|player|p2|RanmaruX|169|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gumshoos|Gumshoos, L89, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, L82, M|100/100
+|turn|1
+
+|
+|switch|p2a: Marowak|Marowak-Alola, L84, M|100/100
+|move|p1a: Gumshoos|Return|p2a: Marowak
+|-immune|p2a: Marowak
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2a: Marowak|Flame Charge|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|93/100
+|-boost|p2a: Marowak|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Amoonguss|Amoonguss, L82, M|100/100
+|move|p1a: Kyogre|Water Spout|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|72/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Venusaur|Venusaur, L81, M|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|94/100
+|-heal|p2a: Amoonguss|74/100|[from] drain|[of] p1a: Venusaur
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|detailschange|p1a: Venusaur|Venusaur-Mega, L81, M
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Venusaur|Knock Off|p2a: Amoonguss
+|-damage|p2a: Amoonguss|50/100
+|-enditem|p2a: Amoonguss|Assault Vest|[from] move: Knock Off|[of] p1a: Venusaur
+|move|p2a: Amoonguss|Foul Play|p1a: Venusaur
+|-damage|p1a: Venusaur|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+
+|-message|RanmaruX forfeited.
+
+|
+|win|PT・Olka

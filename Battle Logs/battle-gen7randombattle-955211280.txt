@@ -1,0 +1,288 @@
+|init|battle
+|title|Grayghostking vs. phanisarathteja
+|j|☆Grayghostking
+|j|☆phanisarathteja
+|player|p1|Grayghostking|266|1196
+|player|p2|phanisarathteja|170|1189
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Politoed|Politoed, L84, F|100/100
+|switch|p2a: Primeape|Primeape, L88, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+
+|
+|move|p2a: Primeape|Gunk Shot|p1a: Politoed
+|-damage|p1a: Politoed|63/100
+|move|p1a: Politoed|Toxic|p2a: Primeape
+|-status|p2a: Primeape|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|70/100|[from] item: Leftovers
+|-damage|p2a: Primeape|94/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Primeape|Gunk Shot|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|76/100|[from] item: Leftovers
+|-damage|p2a: Primeape|82/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Primeape|Gunk Shot|p1a: Politoed
+|-damage|p1a: Politoed|39/100
+|-status|p1a: Politoed|psn
+|move|p1a: Politoed|Scald|p2a: Primeape
+|-damage|p2a: Primeape|30/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|45/100 psn|[from] item: Leftovers
+|-damage|p2a: Primeape|12/100 tox|[from] psn
+|-damage|p1a: Politoed|32/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Primeape|Gunk Shot|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|39/100 psn|[from] item: Leftovers
+|-damage|p2a: Primeape|0 fnt|[from] psn
+|faint|p2a: Primeape
+|-damage|p1a: Politoed|26/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, L80, M|100/100
+|turn|5
+
+|
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|move|p2a: Toxapex|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|15/100 psn
+|
+|-weather|none
+|-heal|p1a: Politoed|21/100 psn|[from] item: Leftovers
+|-damage|p1a: Politoed|9/100 psn|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Politoed|Encore|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Politoed|15/100 psn|[from] item: Leftovers
+|-damage|p1a: Politoed|3/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Politoed|Encore|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Politoed|9/100 psn|[from] item: Leftovers
+|-damage|p1a: Politoed|0 fnt|[from] psn
+|faint|p1a: Politoed
+|upkeep
+
+|
+|switch|p1a: Barbaracle|Barbaracle, L84, M|100/100
+|turn|8
+
+|
+|move|p1a: Barbaracle|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|move|p2a: Toxapex|Scald|p1a: Barbaracle
+|-damage|p1a: Barbaracle|80/100
+|
+|-heal|p2a: Toxapex|61/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|-enditem|p1a: Barbaracle|White Herb
+|-clearnegativeboost|p1a: Barbaracle|[silent]
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|faint|p2a: Meloetta
+|
+|upkeep
+
+|
+|switch|p2a: Hoopa|Hoopa, L85|100/100
+|turn|12
+
+|c|☆Grayghostking|Nice swap
+
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+
+|
+|switch|p2a: Crustle|Crustle, L89, M|100/100
+|turn|13
+
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-ability|p2a: Crustle|Sturdy
+|-damage|p2a: Crustle|1/100
+|move|p2a: Crustle|Earthquake|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|14
+
+|
+|move|p1a: Porygon-Z|Ice Beam|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, L80, M|100/100
+|turn|15
+
+|
+|switch|p1a: Bisharp|Bisharp, L82, F|100/100
+|move|p2a: Toxapex|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|76/100
+|-status|p1a: Bisharp|brn
+|
+|-damage|p1a: Bisharp|69/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Bisharp|Knock Off|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Bisharp|63/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Bisharp|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Bisharp
+|-damage|p1a: Bisharp|53/100 brn|[from] item: Life Orb
+|move|p2a: Toxapex|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|28/100 brn
+|
+|-damage|p1a: Bisharp|22/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Toxapex|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|19
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grayghostking)
+
+|inactive|phanisarathteja has 120 seconds left.
+
+|inactive|phanisarathteja has 90 seconds left.
+
+|inactive|phanisarathteja has 60 seconds left.
+
+|inactive|phanisarathteja has 30 seconds left.
+
+|inactive|phanisarathteja has 20 seconds left.
+
+|c|☆Grayghostking|Why do players like you
+
+|c|☆Grayghostking|even play
+
+|inactive|phanisarathteja has 15 seconds left.
+
+|inactive|phanisarathteja has 10 seconds left.
+
+|c|☆Grayghostking|if you’re just gonna do thus
+
+|inactive|phanisarathteja has 5 seconds left.
+
+|-message|phanisarathteja lost due to inactivity.
+|
+|win|Grayghostking

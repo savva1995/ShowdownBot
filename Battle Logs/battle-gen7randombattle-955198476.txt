@@ -1,0 +1,269 @@
+|init|battle
+|title|qwertzilla vs. Guinhopalhano
+|j|☆qwertzilla
+|j|☆Guinhopalhano
+|player|p1|qwertzilla|170|1376
+|player|p2|Guinhopalhano|1|1434
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|100/100
+|turn|1
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|move|p2a: Nidoqueen|Toxic Spikes|p1a: Volcanion
+|-sidestart|p1: qwertzilla|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by qwertzilla)
+|
+|move|p2a: Nidoqueen|Earth Power|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|33/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|2/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Liepard|Liepard, L88, F|100/100
+|-status|p1a: Liepard|psn
+|move|p2a: Nidoqueen|Earth Power|p1a: Liepard
+|-damage|p1a: Liepard|28/100 psn
+|
+|-heal|p1a: Liepard|34/100 psn|[from] item: Leftovers
+|-damage|p1a: Liepard|22/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|move|p1a: Liepard|Dark Pulse|p2a: Tauros
+|-damage|p2a: Tauros|65/100
+|
+|-heal|p1a: Liepard|28/100 psn|[from] item: Leftovers
+|-damage|p1a: Liepard|16/100 psn|[from] psn
+|upkeep
+|turn|5
+
+|inactive|Guinhopalhano has 120 seconds left.
+
+|inactive|qwertzilla has 120 seconds left.
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100
+|move|p1a: Liepard|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|-heal|p1a: Liepard|22/100 psn|[from] item: Leftovers
+|-damage|p1a: Liepard|9/100 psn|[from] psn
+|upkeep
+|turn|6
+
+|inactive|qwertzilla has 120 seconds left.
+
+|inactive|Guinhopalhano has 120 seconds left.
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|33/100
+|-status|p1a: Volcanion|psn
+|move|p2a: Vileplume|Strength Sap|p1a: Volcanion
+|-unboost|p1a: Volcanion|atk|1
+|
+|-damage|p1a: Volcanion|20/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|inactive|qwertzilla has 120 seconds left.
+
+|
+|switch|p2a: Heatran|Heatran, L80, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Volcanion|Fire Blast|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-damage|p1a: Volcanion|8/100 psn|[from] psn
+|upkeep
+|turn|8
+
+|inactive|qwertzilla has 120 seconds left.
+
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100 par
+|move|p1a: Volcanion|Steam Eruption|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|76/100 par
+|
+|-heal|p2a: Vileplume|82/100 par|[from] item: Black Sludge
+|-damage|p1a: Volcanion|0 fnt|[from] psn
+|faint|p1a: Volcanion
+|upkeep
+
+|inactive|qwertzilla has 120 seconds left.
+
+|inactive|qwertzilla has 90 seconds left.
+
+|inactive|qwertzilla has 60 seconds left.
+
+|
+|switch|p1a: Crustle|Crustle, L89, M|100/100
+|-status|p1a: Crustle|psn
+|turn|9
+
+|inactive|qwertzilla has 60 seconds left.
+
+|inactive|Guinhopalhano has 90 seconds left.
+
+|
+|move|p1a: Crustle|Shell Smash|p1a: Crustle
+|-unboost|p1a: Crustle|def|1
+|-unboost|p1a: Crustle|spd|1
+|-boost|p1a: Crustle|atk|2
+|-boost|p1a: Crustle|spa|2
+|-boost|p1a: Crustle|spe|2
+|-enditem|p1a: Crustle|White Herb
+|-clearnegativeboost|p1a: Crustle|[silent]
+|move|p2a: Vileplume|Sleep Powder||[still]
+|-fail|p2a: Vileplume
+|
+|-heal|p2a: Vileplume|88/100 par|[from] item: Black Sludge
+|-damage|p1a: Crustle|88/100 psn|[from] psn
+|upkeep
+|turn|10
+
+|inactive|Guinhopalhano has 90 seconds left.
+
+|
+|move|p1a: Crustle|Stone Edge|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-damage|p1a: Crustle|76/100 psn|[from] psn
+|upkeep
+
+|inactive|Guinhopalhano has 90 seconds left.
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|65/100
+|turn|11
+
+|inactive|qwertzilla has 60 seconds left.
+
+|
+|move|p1a: Crustle|X-Scissor|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|-damage|p1a: Crustle|64/100 psn|[from] psn
+|upkeep
+
+|inactive|Guinhopalhano has 90 seconds left.
+
+|
+|switch|p2a: Heatran|Heatran, L80, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|12
+
+|
+|move|p1a: Crustle|Stone Edge|p2a: Heatran
+|-damage|p2a: Heatran|25/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Roar|p1a: Crustle
+|drag|p1a: Marshadow|Marshadow, L78|100/100
+|-status|p1a: Marshadow|psn
+|
+|-damage|p1a: Marshadow|88/100 psn|[from] psn
+|upkeep
+|turn|13
+
+|inactive|Guinhopalhano has 90 seconds left.
+
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-damage|p1a: Marshadow|76/100 psn|[from] psn
+|upkeep
+
+|inactive|Guinhopalhano has 90 seconds left.
+
+|
+|switch|p2a: Luvdisc|Luvdisc, L89, F|100/100
+|turn|14
+
+|
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|move|p2a: Luvdisc|Sweet Kiss|p1a: Marshadow
+|-start|p1a: Marshadow|confusion
+|
+|-damage|p1a: Marshadow|64/100 psn|[from] psn
+|upkeep
+|turn|15
+
+|
+|-activate|p1a: Marshadow|confusion
+|-zpower|p1a: Marshadow
+|move|p1a: Marshadow|Soul-Stealing 7-Star Strike|p2a: Luvdisc|[zeffect]
+|-damage|p2a: Luvdisc|0 fnt
+|faint|p2a: Luvdisc
+|
+|-damage|p1a: Marshadow|51/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Palossand|Palossand, L86, M|100/100
+|turn|16
+
+|
+|-activate|p1a: Marshadow|confusion
+|move|p1a: Marshadow|Spectral Thief|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|6/100
+|move|p2a: Palossand|Shadow Ball|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|-heal|p2a: Palossand|12/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Liepard|Liepard, L88, F|9/100 psn
+|turn|17
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|2/100
+|move|p1a: Liepard|Dark Pulse|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-heal|p1a: Liepard|16/100 psn|[from] item: Leftovers
+|-damage|p1a: Liepard|3/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Palossand|Palossand, L86, M|12/100
+|turn|18
+
+|
+|move|p1a: Liepard|Dark Pulse|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|faint|p2a: Palossand
+|
+|win|qwertzilla

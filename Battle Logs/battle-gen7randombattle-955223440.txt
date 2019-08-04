@@ -1,0 +1,148 @@
+|init|battle
+|title|Sun-dried tomatoes vs. hnrysml
+|j|☆Sun-dried tomatoes
+|j|☆hnrysml
+|player|p1|Sun-dried tomatoes|1|1992
+|player|p2|hnrysml|2|2047
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Omastar|Omastar, L88, M|100/100
+|switch|p2a: Blaziken|Blaziken, L78, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hnrysml)
+|
+|detailschange|p2a: Blaziken|Blaziken-Mega, L78, M
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Blaziken|High Jump Kick|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-enditem|p1a: Omastar|Focus Sash
+|-damage|p1a: Omastar|1/100
+|move|p1a: Omastar|Stealth Rock|p2a: Blaziken
+|-sidestart|p2: hnrysml|move: Stealth Rock
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|switch|p1a: Zapdos|Zapdos, L80|100/100
+|move|p2a: Blaziken|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|64/100
+|-status|p2a: Blaziken|par|[from] ability: Static|[of] p1a: Zapdos
+|-enditem|p1a: Zapdos|Life Orb|[from] move: Knock Off|[of] p2a: Blaziken
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|3
+
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Blaziken
+|-damage|p2a: Blaziken|49/100 par
+|move|p2a: Blaziken|Flare Blitz|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-damage|p2a: Blaziken|27/100 par|[from] Recoil
+|faint|p1a: Zapdos
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p1a: Reshiram|Reshiram, L78|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|4
+
+|
+|move|p2a: Blaziken|High Jump Kick|p1a: Reshiram
+|-damage|p1a: Reshiram|40/100
+|move|p1a: Reshiram|Stone Edge|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|-heal|p1a: Reshiram|46/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Ribombee|Ribombee, L85, F|100/100
+|-damage|p2a: Ribombee|76/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p2a: Ribombee|Moonblast|p1a: Reshiram
+|-damage|p1a: Reshiram|8/100
+|-damage|p2a: Ribombee|66/100|[from] item: Life Orb
+|move|p1a: Reshiram|Stone Edge|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-crit|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-heal|p1a: Reshiram|14/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Palossand|Palossand, L86, M|100/100
+|-damage|p2a: Palossand|95/100|[from] Stealth Rock
+|turn|6
+
+|
+|switch|p1a: Omastar|Omastar, L88, M|1/100
+|move|p2a: Palossand|Toxic|p1a: Omastar
+|-status|p1a: Omastar|tox
+|
+|-heal|p2a: Palossand|100/100|[from] item: Leftovers
+|-damage|p1a: Omastar|0 fnt|[from] psn
+|faint|p1a: Omastar
+|upkeep
+
+|
+|switch|p1a: Tropius|Tropius, L89, M|100/100
+|turn|7
+
+|
+|switch|p2a: Aurorus|Aurorus, L88, M|100/100
+|-damage|p2a: Aurorus|76/100|[from] Stealth Rock
+|move|p1a: Tropius|Substitute|p1a: Tropius
+|-start|p1a: Tropius|Substitute
+|-damage|p1a: Tropius|75/100
+|
+|-heal|p2a: Aurorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Aurorus|Hyper Voice|p1a: Tropius
+|-supereffective|p1a: Tropius
+|-crit|p1a: Tropius
+|-damage|p1a: Tropius|0 fnt
+|faint|p1a: Tropius
+|
+|-heal|p2a: Aurorus|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Stakataka|Stakataka, L83|100/100
+|turn|9
+
+|
+|move|p2a: Aurorus|Earth Power|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|faint|p1a: Stakataka
+|
+|-heal|p2a: Aurorus|94/100|[from] item: Leftovers
+|upkeep
+
+|-message|Sun-dried tomatoes forfeited.
+
+|
+|win|hnrysml

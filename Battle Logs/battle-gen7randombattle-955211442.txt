@@ -1,0 +1,53 @@
+|init|battle
+|title|Onepotchefshow vs. zohnho
+|j|☆Onepotchefshow
+|j|☆zohnho
+|player|p1|Onepotchefshow|265|1080
+|player|p2|zohnho|2|1050
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Muk|Muk-Alola, L82, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, L82, M|100/100
+|turn|1
+|
+|switch|p1a: Skarmory|Skarmory, L80, M|100/100
+|move|p2a: Mamoswine|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Onepotchefshow|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Blaziken|Blaziken, L78, M|100/100
+|move|p1a: Skarmory|Brave Bird|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|3/100
+|-damage|p1a: Skarmory|66/100|[from] Recoil
+|
+|-heal|p1a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Necrozma|Necrozma, L84|100/100
+|-damage|p1a: Necrozma|88/100|[from] Stealth Rock
+|detailschange|p2a: Blaziken|Blaziken-Mega, L78, M
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Blaziken|Flare Blitz|p1a: Necrozma
+|-damage|p1a: Necrozma|39/100
+|-damage|p2a: Blaziken|0 fnt|[from] Recoil
+|faint|p2a: Blaziken
+|
+|-heal|p1a: Necrozma|45/100|[from] item: Leftovers
+|upkeep
+
+|-message|zohnho forfeited.
+
+|
+|win|Onepotchefshow

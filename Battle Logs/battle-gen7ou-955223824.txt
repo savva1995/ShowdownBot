@@ -1,0 +1,350 @@
+|init|battle
+|title|LT63RB K3NIX vs. AI program
+|j|☆LT63RB K3NIX
+|j|☆AI program
+|player|p1|LT63RB K3NIX|170|1702
+|player|p2|AI program|102|1862
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Swampert, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Manaphy|item
+|poke|p1|Greninja, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Xurkitree|item
+|poke|p2|Serperior, F|item
+|poke|p2|Greninja, M|item
+|poke|p2|Diancie|item
+|poke|p2|Slurpuff, F|item
+|teampreview
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LT63RB K3NIX)
+
+|
+|start
+|switch|p1a: Drops of Rain.|Pelipper, M|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Drops of Rain.
+|turn|1
+
+|
+|switch|p1a: Shattered Life.|Ferrothorn, M|100/100
+|detailschange|p2a: Diancie|Diancie-Mega
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Stealth Rock|p1a: Shattered Life.
+|-sidestart|p1: LT63RB K3NIX|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p2a: Diancie|Substitute|p2a: Diancie
+|-start|p2a: Diancie|Substitute
+|-damage|p2a: Diancie|76/100
+|move|p1a: Shattered Life.|Gyro Ball|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-end|p2a: Diancie|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p2a: Diancie|Substitute|p2a: Diancie
+|-start|p2a: Diancie|Substitute
+|-damage|p2a: Diancie|51/100
+|move|p1a: Shattered Life.|Gyro Ball|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-end|p2a: Diancie|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Days to come.|Greninja, M|100/100
+|-damage|p1a: Days to come.|88/100|[from] Stealth Rock
+|move|p2a: Diancie|Substitute|p2a: Diancie
+|-start|p2a: Diancie|Substitute
+|-damage|p2a: Diancie|26/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Days to come.|Water Shuriken|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-crit|p2a: Diancie
+|-end|p2a: Diancie|Substitute
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|-hitcount|p2a: Diancie|2
+|faint|p2a: Diancie
+|-activate|p1a: Days to come.|ability: Battle Bond
+|detailschange|p1a: Days to come.|Greninja-Ash, M
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|j| LT63RB Ash
+
+|inactive|AI program has 120 seconds left.
+
+|
+|switch|p2a: Program 3|Serperior, F|100/100
+|turn|6
+
+|
+|switch|p1a: Shattered Life.|Ferrothorn, M|100/100
+|-damage|p1a: Shattered Life.|94/100|[from] Stealth Rock
+|move|p2a: Program 3|Glare|p1a: Shattered Life.
+|-status|p1a: Shattered Life.|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Shattered Life.|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|AI program has 120 seconds left.
+
+|
+|switch|p2a: Program 1|Kommo-o, M|100/100
+|switch|p1a: Clouds in the Sky.|Tornadus-Therian, M|100/100
+|-damage|p1a: Clouds in the Sky.|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+
+|inactive|AI program has 120 seconds left.
+
+|
+|move|p1a: Clouds in the Sky.|Hurricane|p2a: Program 1
+|-supereffective|p2a: Program 1
+|-damage|p2a: Program 1|8/100
+|-enditem|p2a: Program 1|Salac Berry|[eat]
+|-boost|p2a: Program 1|spe|1
+|move|p2a: Program 1|Thunder Punch|p1a: Clouds in the Sky.
+|-supereffective|p1a: Clouds in the Sky.
+|-damage|p1a: Clouds in the Sky.|25/100
+|-damage|p2a: Program 1|0 fnt|[from] item: Rocky Helmet|[of] p1a: Clouds in the Sky.
+|faint|p2a: Program 1
+|
+|-weather|none
+|upkeep
+
+|inactive|AI program has 120 seconds left.
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|9
+
+|
+|switch|p1a: Shattered Life.|Ferrothorn, M|100/100 par
+|-damage|p1a: Shattered Life.|94/100 par|[from] Stealth Rock
+|move|p2a: Greninja|U-turn|p1a: Shattered Life.
+|-damage|p1a: Shattered Life.|80/100 par
+|-damage|p2a: Greninja|88/100|[from] ability: Iron Barbs|[of] p1a: Shattered Life.
+|-damage|p2a: Greninja|78/100|[from] item: Life Orb
+
+|
+|switch|p2a: Program 6|Slurpuff, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Shattered Life.|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Clouds in the Sky.|Tornadus-Therian, M|59/100
+|-damage|p1a: Clouds in the Sky.|34/100|[from] Stealth Rock
+|move|p2a: Program 6|Belly Drum|p2a: Program 6
+|-damage|p2a: Program 6|50/100
+|-setboost|p2a: Program 6|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Program 6|Sitrus Berry|[eat]
+|-heal|p2a: Program 6|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Program 6|Play Rough|p1a: Clouds in the Sky.
+|-damage|p1a: Clouds in the Sky.|0 fnt
+|-damage|p2a: Program 6|59/100|[from] item: Rocky Helmet|[of] p1a: Clouds in the Sky.
+|faint|p1a: Clouds in the Sky.
+|
+|upkeep
+
+|
+|switch|p1a: Shattered Life.|Ferrothorn, M|87/100 par
+|-damage|p1a: Shattered Life.|80/100 par|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Program 6|Drain Punch|p1a: Shattered Life.
+|-supereffective|p1a: Shattered Life.
+|-damage|p1a: Shattered Life.|0 fnt
+|-heal|p2a: Program 6|100/100|[from] drain|[of] p1a: Shattered Life.
+|-damage|p2a: Program 6|88/100|[from] ability: Iron Barbs|[of] p1a: Shattered Life.
+|faint|p1a: Shattered Life.
+|
+|upkeep
+
+|
+|switch|p1a: Drops of Rain.|Pelipper, M|100/100
+|-damage|p1a: Drops of Rain.|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Drops of Rain.
+|turn|13
+
+|
+|move|p2a: Program 6|Play Rough|p1a: Drops of Rain.|[miss]
+|-miss|p2a: Program 6|p1a: Drops of Rain.
+|move|p1a: Drops of Rain.|U-turn|p2a: Program 6
+|-resisted|p2a: Program 6
+|-damage|p2a: Program 6|83/100
+
+|
+|switch|p1a: Days to come.|Greninja-Ash, M|88/100|[from]move: U-turn
+|-damage|p1a: Days to come.|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p1a: Days to come.|Water Shuriken|p2a: Program 6
+|-damage|p2a: Program 6|45/100
+|-damage|p2a: Program 6|9/100
+|-damage|p2a: Program 6|0 fnt
+|-hitcount|p2a: Program 6|3
+|faint|p2a: Program 6
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Program 3|Serperior, F|100/100
+|turn|15
+
+|
+|switch|p1a: Manaphy|Manaphy|100/100
+|-damage|p1a: Manaphy|88/100|[from] Stealth Rock
+|move|p2a: Program 3|Leaf Storm|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|-boost|p2a: Program 3|spa|2
+|faint|p1a: Manaphy
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Fall Apart.|Swampert, M, shiny|100/100
+|-damage|p1a: Fall Apart.|94/100|[from] Stealth Rock
+|turn|16
+
+|
+|detailschange|p1a: Fall Apart.|Swampert-Mega, M, shiny
+|-mega|p1a: Fall Apart.|Swampert|Swampertite
+|move|p2a: Program 3|Leaf Storm|p1a: Fall Apart.
+|-supereffective|p1a: Fall Apart.
+|-damage|p1a: Fall Apart.|0 fnt
+|-boost|p2a: Program 3|spa|2
+|faint|p1a: Fall Apart.
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|j| LT63RB thms888
+
+|
+|switch|p1a: Days to come.|Greninja-Ash, M|76/100
+|-damage|p1a: Days to come.|64/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Program 3|Leaf Storm|p1a: Days to come.|[miss]
+|-miss|p2a: Program 3|p1a: Days to come.
+|move|p1a: Days to come.|Dark Pulse|p2a: Program 3
+|-damage|p2a: Program 3|10/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Drops of Rain.|Pelipper, M|76/100
+|-damage|p1a: Drops of Rain.|51/100|[from] Stealth Rock
+|move|p2a: Program 3|Leaf Storm|p1a: Drops of Rain.
+|-damage|p1a: Drops of Rain.|0 fnt
+|-boost|p2a: Program 3|spa|2
+|faint|p1a: Drops of Rain.
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Days to come.|Greninja-Ash, M|64/100
+|-damage|p1a: Days to come.|51/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p1a: Days to come.|Water Shuriken|p2a: Program 3
+|-resisted|p2a: Program 3
+|-damage|p2a: Program 3|0 fnt
+|-hitcount|p2a: Program 3|1
+|faint|p2a: Program 3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Program 2|Xurkitree|100/100
+|turn|20
+
+|
+|move|p1a: Days to come.|Water Shuriken|p2a: Program 2
+|-damage|p2a: Program 2|61/100
+|-damage|p2a: Program 2|18/100
+|-damage|p2a: Program 2|0 fnt
+|-hitcount|p2a: Program 2|3
+|faint|p2a: Program 2
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|78/100
+|turn|21
+
+|
+|move|p1a: Days to come.|Water Shuriken|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|62/100
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|45/100
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|31/100
+|-hitcount|p2a: Greninja|3
+|move|p2a: Greninja|U-turn|p1a: Days to come.
+|-supereffective|p1a: Days to come.
+|-damage|p1a: Days to come.|0 fnt
+|-damage|p2a: Greninja|21/100|[from] item: Life Orb
+|faint|p1a: Days to come.
+|
+|win|AI program

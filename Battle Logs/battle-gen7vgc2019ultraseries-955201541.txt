@@ -1,0 +1,210 @@
+|init|battle
+|title|SolLevante vs. MrNiKo14
+|j|☆SolLevante
+|j|☆MrNiKo14
+|player|p1|SolLevante|265|1353
+|player|p2|MrNiKo14|1|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Incineroar, L50, F|item
+|poke|p1|Yveltal, L50|item
+|poke|p1|Xerneas, L50|item
+|poke|p1|Landorus-Therian, L50, M|item
+|poke|p1|Lopunny, L50, M|item
+|poke|p2|Xerneas, L50|item
+|poke|p2|Lunala, L50|item
+|poke|p2|Lucario, L50, M|item
+|poke|p2|Incineroar, L50, M|item
+|poke|p2|Tapu Lele, L50|item
+|poke|p2|Amoonguss, L50, F|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MrNiKo14)
+
+|inactive|SolLevante has 60 seconds left.
+|inactive|MrNiKo14 has 60 seconds left.
+
+|inactive|SolLevante has 30 seconds left.
+
+|
+|start
+|switch|p1a: Tapu Fini|Tapu Fini, L50|48/48
+|switch|p1b: Yveltal|Yveltal, L50|48/48
+|switch|p2a: Lunala|Lunala, L50, shiny|48/48
+|switch|p2b: Lucario|Lucario, L50, M|48/48
+|-ability|p1b: Yveltal|Dark Aura
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|1
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele, L50, shiny|48/48
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|detailschange|p2b: Lucario|Lucario-Mega, L50, M
+|-mega|p2b: Lucario|Lucario|Lucarionite
+|move|p2b: Lucario|Meteor Mash|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|20/48
+|move|p1b: Yveltal|Tailwind|p1b: Yveltal
+|-sidestart|p1: SolLevante|move: Tailwind
+|move|p1a: Tapu Fini|Icy Wind|p2b: Lucario|[spread] p2a,p2b
+|-resisted|p2b: Lucario
+|-damage|p2a: Tapu Lele|43/48
+|-damage|p2b: Lucario|44/48
+|-unboost|p2a: Tapu Lele|spe|1
+|-unboost|p2b: Lucario|spe|1
+|
+|upkeep
+|turn|2
+
+|inactive|MrNiKo14 has 30 seconds left.
+
+|
+|switch|p1a: Landorus|Landorus-Therian, L50, M|48/48
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|-unboost|p2b: Lucario|atk|1
+|move|p1b: Yveltal|Snarl|p2a: Tapu Lele|[spread] p2a,p2b
+|-resisted|p2b: Lucario
+|-damage|p2a: Tapu Lele|31/48
+|-damage|p2b: Lucario|35/48
+|-unboost|p2a: Tapu Lele|spa|1
+|-unboost|p2b: Lucario|spa|1
+|move|p2a: Tapu Lele|Magic Room|p2a: Tapu Lele
+|-fieldstart|move: Magic Room|[of] p2a: Tapu Lele
+|move|p2b: Lucario|Meteor Mash|p1a: Landorus
+|-damage|p1a: Landorus|22/48
+|
+|upkeep
+|turn|3
+
+|
+|move|p2b: Lucario|Protect|p2b: Lucario
+|-singleturn|p2b: Lucario|Protect
+|move|p1a: Landorus|Earthquake|p2b: Lucario|[spread] p2a
+|-activate|p2b: Lucario|move: Protect
+|-immune|p1b: Yveltal
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|move|p1b: Yveltal|Foul Play|p2b: Lucario
+|-activate|p2b: Lucario|move: Protect
+|
+|upkeep
+
+|
+|switch|p2a: Xerneas|Xerneas, L50, shiny|48/48
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|4
+
+|
+|switch|p2b: Lunala|Lunala, L50, shiny|48/48
+|move|p2a: Xerneas|Protect|p2a: Xerneas
+|-singleturn|p2a: Xerneas|Protect
+|move|p1a: Landorus|Earthquake|p2b: Lunala|[spread] p2b
+|-activate|p2a: Xerneas|move: Protect
+|-immune|p1b: Yveltal
+|-damage|p2b: Lunala|39/48
+|move|p1b: Yveltal|Snarl|p2b: Lunala|[spread] p2b
+|-activate|p2a: Xerneas|move: Protect
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|2/48
+|-unboost|p2b: Lunala|spa|1
+|
+|-sideend|p1: SolLevante|move: Tailwind
+|upkeep
+|turn|5
+
+|inactive|SolLevante has 30 seconds left.
+|inactive|MrNiKo14 has 30 seconds left.
+
+|inactive|MrNiKo14 has 20 seconds left.
+
+|inactive|MrNiKo14 has 15 seconds left.
+
+|
+|-zpower|p2b: Lunala
+|move|p2b: Lunala|Menacing Moonraze Maelstrom|p1a: Landorus|[zeffect]
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|move|p1b: Yveltal|Tailwind|p1b: Yveltal
+|-sidestart|p1: SolLevante|move: Tailwind
+|move|p2a: Xerneas|Moonblast|p1b: Yveltal
+|-supereffective|p1b: Yveltal
+|-damage|p1b: Yveltal|2/48
+|-unboost|p1b: Yveltal|spa|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|inactive|SolLevante has 30 seconds left.
+
+|
+|switch|p1a: Xerneas|Xerneas, L50|48/48
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|6
+
+|
+|move|p1b: Yveltal|Snarl|p2b: Lunala|[spread] p2a,p2b
+|-resisted|p2a: Xerneas
+|-supereffective|p2b: Lunala
+|-damage|p2a: Xerneas|44/48
+|-damage|p2b: Lunala|0 fnt
+|-unboost|p2a: Xerneas|spa|1
+|faint|p2b: Lunala
+|move|p1a: Xerneas|Moonblast|p2a: Xerneas
+|-damage|p2a: Xerneas|19/48
+|-unboost|p2a: Xerneas|spa|1
+|move|p2a: Xerneas|Moonblast|p1a: Xerneas
+|-damage|p1a: Xerneas|35/48
+|
+|-fieldend|move: Magic Room|[of] p2: Tapu Lele
+|upkeep
+|-enditem|p1b: Yveltal|Aguav Berry|[eat]
+|-heal|p1b: Yveltal|26/48|[from] item: Aguav Berry
+
+|
+|switch|p2b: Lucario|Lucario-Mega, L50, M|35/48
+|turn|7
+
+|
+|move|p1b: Yveltal|Snarl|p2a: Xerneas|[spread] p2a,p2b
+|-resisted|p2a: Xerneas
+|-resisted|p2b: Lucario
+|-damage|p2a: Xerneas|16/48
+|-damage|p2b: Lucario|29/48
+|-unboost|p2a: Xerneas|spa|1
+|-unboost|p2b: Lucario|spa|1
+|move|p1a: Xerneas|Moonblast|p2b: Lucario
+|-damage|p2b: Lucario|0 fnt
+|faint|p2b: Lucario
+|move|p2a: Xerneas|Moonblast|p1b: Yveltal
+|-supereffective|p1b: Yveltal
+|-damage|p1b: Yveltal|6/48
+|
+|upkeep
+|turn|8
+
+|l|☆MrNiKo14
+
+|inactive|MrNiKo14 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|MrNiKo14 has 30 seconds left.
+
+|inactive|MrNiKo14 has 20 seconds left.
+
+|inactive|MrNiKo14 has 15 seconds left.
+
+|inactive|MrNiKo14 has 10 seconds left.
+
+|inactive|MrNiKo14 has 5 seconds left.
+
+|-message|MrNiKo14 lost due to inactivity.
+|
+|win|SolLevante

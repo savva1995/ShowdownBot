@@ -1,0 +1,151 @@
+|init|battle
+|title|FranceRPZ vs. Hgfvh
+|j|☆FranceRPZ
+|j|☆Hgfvh
+|player|p1|FranceRPZ|170|1170
+|player|p2|Hgfvh|101|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7 Let's Go] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lickitung|Lickitung, F|100/100
+|switch|p2a: Dugtrio|Dugtrio-Alola, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hgfvh)
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|55/100
+|move|p1a: Lickitung|Fire Blast|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|32/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Lickitung|Fire Blast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|93/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Lickitung
+|-damage|p1a: Lickitung|24/100
+|-status|p1a: Lickitung|psn
+|move|p1a: Lickitung|Facade|p2a: Tentacruel
+|-damage|p2a: Tentacruel|46/100
+|
+|-damage|p1a: Lickitung|11/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|upkeep
+
+|
+|switch|p1a: Starmie|Starmie|100/100
+|turn|5
+
+|
+|move|p1a: Starmie|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+
+|
+|switch|p2a: Muk|Muk, M|100/100
+|turn|6
+
+|
+|move|p1a: Starmie|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|48/100
+|move|p2a: Muk|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-damage|p1a: Starmie|94/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100 tox
+|
+|-damage|p1a: Starmie|88/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Muk|Muk, M|48/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Zapdos|U-turn|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|40/100
+
+|
+|switch|p1a: Starmie|Starmie|88/100 tox|[from]move: U-turn
+|move|p2a: Muk|Toxic|p1a: Starmie
+|-fail|p1a: Starmie|tox
+|
+|-damage|p1a: Starmie|82/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Muk|Protect|p2a: Muk
+|-singleturn|p2a: Muk|Protect
+|move|p1a: Starmie|Hydro Pump|p2a: Muk
+|-activate|p2a: Muk|move: Protect
+|
+|-damage|p1a: Starmie|70/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Pidgeot|Pidgeot, M|100/100
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100 tox
+|
+|-damage|p1a: Starmie|82/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|l|☆Hgfvh
+
+|inactive|Hgfvh disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Hgfvh has 30 seconds to reconnect!
+
+|inactive|Hgfvh has 20 seconds to reconnect!
+
+|inactive|Hgfvh has 15 seconds to reconnect!
+
+|inactive|Hgfvh has 10 seconds to reconnect!
+
+|inactive|Hgfvh has 5 seconds to reconnect!
+
+|-message|Hgfvh lost due to inactivity.
+|
+|win|FranceRPZ

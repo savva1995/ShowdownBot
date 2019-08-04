@@ -1,0 +1,165 @@
+|init|battle
+|title|Yega vs. GodFish66
+|j|☆Yega
+|j|☆GodFish66
+|player|p1|Yega|169|1197
+|player|p2|GodFish66|153|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Malamar, L50, F|item
+|poke|p1|Stakataka, L50|item
+|poke|p1|Necrozma-Dusk-Mane, L50|item
+|poke|p1|Kyogre, L50|item
+|poke|p1|Kangaskhan, L50, F|item
+|poke|p1|Tapu Fini, L50|item
+|poke|p2|Nidoking, L50, M|item
+|poke|p2|Kangaskhan, L50, F|item
+|poke|p2|Palkia, L50|item
+|poke|p2|Volcarona, L50, F|item
+|poke|p2|Xerneas, L50|item
+|poke|p2|Tapu Koko, L50|item
+|teampreview|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GodFish66)
+
+|inactive|Yega has 60 seconds left.
+
+|
+|start
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, L50|48/48
+|switch|p1b: Stakataka|Stakataka, L50|48/48
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|48/48
+|switch|p2b: Tapu Koko|Tapu Koko, L50|48/48
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2b: Tapu Koko
+|turn|1
+
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L50, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Fake Out|p1b: Stakataka
+|-resisted|p1b: Stakataka
+|-damage|p1b: Stakataka|46/48
+|-resisted|p1b: Stakataka
+|-damage|p1b: Stakataka|45/48
+|-hitcount|p1b: Stakataka|2
+|cant|p1b: Stakataka|flinch
+|-zpower|p2b: Tapu Koko
+|move|p2b: Tapu Koko|Gigavolt Havoc|p1b: Stakataka|[zeffect]
+|-damage|p1b: Stakataka|0 fnt
+|faint|p1b: Stakataka
+|move|p1a: Necrozma|Trick Room|p1a: Necrozma
+|-fieldstart|move: Trick Room|[of] p1a: Necrozma
+|
+|upkeep
+
+|
+|switch|p1b: Malamar|Malamar, L50, F|48/48
+|turn|2
+
+|
+|move|p2b: Tapu Koko|Protect|p2b: Tapu Koko
+|-singleturn|p2b: Tapu Koko|Protect
+|move|p1b: Malamar|Superpower|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|12/48
+|-boost|p1b: Malamar|atk|1
+|-boost|p1b: Malamar|def|1
+|move|p1a: Necrozma|Swords Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|2
+|move|p2a: Kangaskhan|Crunch|p1b: Malamar
+|-damage|p1b: Malamar|38/48
+|-boost|p1b: Malamar|def|1
+|-damage|p1b: Malamar|36/48
+|-hitcount|p1b: Malamar|2
+|
+|upkeep
+|turn|3
+
+|inactive|GodFish66 has 30 seconds left.
+
+|
+|move|p2a: Kangaskhan|Protect|p2a: Kangaskhan
+|-singleturn|p2a: Kangaskhan|Protect
+|move|p2b: Tapu Koko|Protect|p2b: Tapu Koko
+|-singleturn|p2b: Tapu Koko|Protect
+|move|p1b: Malamar|Superpower|p2a: Kangaskhan
+|-activate|p2a: Kangaskhan|move: Protect
+|move|p1a: Necrozma|Sunsteel Strike|p2b: Tapu Koko
+|-activate|p2b: Tapu Koko|move: Protect
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Kangaskhan|Crunch|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|33/48
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|29/48
+|-hitcount|p1a: Necrozma|2
+|move|p2b: Tapu Koko|Thunderbolt|p1a: Necrozma
+|-damage|p1a: Necrozma|8/48
+|move|p1b: Malamar|Trick Room|p1b: Malamar
+|-fieldend|move: Trick Room
+|move|p1a: Necrozma|Trick Room|p1a: Necrozma
+|-fieldstart|move: Trick Room|[of] p1a: Necrozma
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Kangaskhan|Protect|p2a: Kangaskhan
+|-singleturn|p2a: Kangaskhan|Protect
+|move|p2b: Tapu Koko|Protect|p2b: Tapu Koko
+|-singleturn|p2b: Tapu Koko|Protect
+|move|p1b: Malamar|Superpower|p2a: Kangaskhan
+|-activate|p2a: Kangaskhan|move: Protect
+|move|p1a: Necrozma|Sunsteel Strike|p2b: Tapu Koko
+|-activate|p2b: Tapu Koko|move: Protect
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|inactive|GodFish66 has 30 seconds left.
+
+|inactive|GodFish66 has 20 seconds left.
+
+|
+|move|p1b: Malamar|Superpower|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-boost|p1b: Malamar|atk|1
+|-boost|p1b: Malamar|def|1
+|faint|p2a: Kangaskhan
+|move|p1a: Necrozma|Sunsteel Strike|p2b: Tapu Koko
+|-damage|p2b: Tapu Koko|0 fnt
+|faint|p2b: Tapu Koko
+|
+|upkeep
+
+|
+|switch|p2a: Xerneas|Xerneas, L50|48/48
+|switch|p2b: Palkia|Palkia, L50|48/48
+|-ability|p2b: Palkia|Pressure
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|7
+
+|
+|move|p1b: Malamar|Knock Off|p2b: Palkia
+|-damage|p2b: Palkia|0 fnt
+|-enditem|p2b: Palkia|Aguav Berry|[from] move: Knock Off|[of] p1b: Malamar
+|faint|p2b: Palkia
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Xerneas
+|-supereffective|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|win|Yega

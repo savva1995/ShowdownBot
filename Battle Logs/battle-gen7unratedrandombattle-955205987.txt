@@ -1,0 +1,32 @@
+|init|battle
+|title|jmhblh vs. Jordy6
+|j|☆jmhblh
+|j|☆Jordy6
+|player|p1|jmhblh|257|
+|player|p2|Jordy6|8|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Guzzlord|Guzzlord, L87|100/100
+|switch|p2a: Palkia|Palkia, L78|100/100
+|-ability|p2a: Palkia|Pressure
+|turn|1
+|
+|move|p2a: Palkia|Draco Meteor|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|-unboost|p2a: Palkia|spa|2
+|faint|p1a: Guzzlord
+|
+|upkeep
+|-message|jmhblh forfeited.
+|
+|win|Jordy6
+|l|☆jmhblh
+|l|☆Jordy6

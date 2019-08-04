@@ -1,0 +1,57 @@
+|init|battle
+|title|gamermons vs. Youngone95
+|j|☆gamermons
+|j|☆Youngone95
+|player|p1|gamermons|97|1688
+|player|p2|Youngone95|169|1658
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Salazzle|Salazzle, L84, F|100/100
+|switch|p2a: Huntail|Huntail, L89, M|100/100
+|-item|p1a: Salazzle|Air Balloon
+|turn|1
+|
+|switch|p1a: Venusaur|Venusaur, L85, F|100/100
+|move|p2a: Huntail|Shell Smash|p2a: Huntail
+|-unboost|p2a: Huntail|def|1
+|-unboost|p2a: Huntail|spd|1
+|-boost|p2a: Huntail|atk|2
+|-boost|p2a: Huntail|spa|2
+|-boost|p2a: Huntail|spe|2
+|-enditem|p2a: Huntail|White Herb
+|-clearnegativeboost|p2a: Huntail|[silent]
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Huntail|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|5/100
+|move|p1a: Venusaur|Sleep Powder|p2a: Huntail|[miss]
+|-miss|p1a: Venusaur|p2a: Huntail
+|
+|-heal|p1a: Venusaur|11/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Huntail|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|-message|gamermons forfeited.
+|
+|win|Youngone95
+|l|☆gamermons
+|l|☆Youngone95
+|raw|gamermons's rating: 1688 &rarr; <strong>1666</strong><br />(-22 for losing)
+|raw|Youngone95's rating: 1658 &rarr; <strong>1679</strong><br />(+21 for winning)

@@ -1,0 +1,122 @@
+|init|battle
+|title|austinandout vs. NeoLactyma
+|j|☆austinandout
+|j|☆NeoLactyma
+|player|p1|austinandout|169|1214
+|player|p2|NeoLactyma|92|1100
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcarona, F|item
+|poke|p1|Kommo-o, F|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Greninja, M|item
+|poke|p1|Galvantula, F|item
+|poke|p1|Serperior, F|item
+|poke|p2|Greninja, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Magearna|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|austinandout has 30 seconds left this turn.
+|inactive|NeoLactyma has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NeoLactyma)
+|
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Galvantula|atk|1
+|turn|1
+|inactive|austinandout has 15 seconds left this turn.
+|inactive|NeoLactyma has 15 seconds left this turn.
+|inactive|NeoLactyma has 10 seconds left.
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Landorus
+|-sidestart|p2: NeoLactyma|move: Sticky Web
+|move|p2a: Landorus|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|2/100
+|
+|upkeep
+|turn|2
+|inactive|austinandout has 15 seconds left this turn.
+|inactive|NeoLactyma has 15 seconds left this turn.
+|
+|move|p1a: Galvantula|Bug Buzz|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|67/100
+|-damage|p1a: Galvantula|0 fnt|[from] item: Life Orb
+|faint|p1a: Galvantula
+|move|p2a: Landorus|Stealth Rock|p1: Galvantula
+|-sidestart|p1: austinandout|move: Stealth Rock
+|
+|upkeep
+|inactive|austinandout has 15 seconds left this turn.
+|inactive|NeoLactyma has 15 seconds left this turn.
+|inactive|austinandout has 10 seconds left.
+|inactive|austinandout has 5 seconds left.
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|turn|3
+|inactive|austinandout has 10 seconds left this turn.
+|inactive|NeoLactyma has 15 seconds left this turn.
+
+|
+|move|p1a: Greninja|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|inactive|austinandout has 15 seconds left this turn.
+|inactive|NeoLactyma has 15 seconds left this turn.
+
+|
+|switch|p2a: I m a fairy|Tapu Lele, shiny|100/100
+|-activate|p2a: I m a fairy|move: Sticky Web
+|-unboost|p2a: I m a fairy|spe|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: I m a fairy
+|turn|4
+
+|inactive|austinandout has 15 seconds left this turn.
+|inactive|NeoLactyma has 15 seconds left this turn.
+
+|inactive|austinandout has 10 seconds left.
+|inactive|NeoLactyma has 10 seconds left.
+
+|
+|move|p1a: Greninja|Ice Beam|p2a: I m a fairy
+|-damage|p2a: I m a fairy|45/100
+|-status|p2a: I m a fairy|frz
+|cant|p2a: I m a fairy|frz
+|
+|upkeep
+|turn|5
+
+|inactive|austinandout has 15 seconds left this turn.
+|inactive|NeoLactyma has 15 seconds left this turn.
+
+|inactive|NeoLactyma has 10 seconds left.
+
+|-message|NeoLactyma forfeited.
+
+|
+|win|austinandout

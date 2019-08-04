@@ -1,0 +1,218 @@
+|init|battle
+|title|Extazi vs. WTUU XdriveX
+|j|☆Extazi
+|j|☆WTUU XdriveX
+|player|p1|Extazi|240|1158
+|player|p2|WTUU XdriveX|226|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Scizor, F|item
+|poke|p1|Celebi|item
+|poke|p1|Krookodile, F|item
+|poke|p1|Primarina, F|item
+|poke|p1|Zeraora|item
+|poke|p1|Infernape, M|item
+|poke|p2|Crawdaunt, M|item
+|poke|p2|Manectric, F|item
+|poke|p2|Azelf|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Infernape, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WTUU XdriveX)
+|
+|start
+|switch|p1a: Mewvert|Celebi|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Taunt|p1a: Mewvert
+|-start|p1a: Mewvert|move: Taunt
+|cant|p1a: Mewvert|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Mewvert
+|-sidestart|p1: Extazi|move: Stealth Rock
+|move|p1a: Mewvert|U-turn|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|53/100
+|
+|switch|p1a: Krokro|Krookodile, F, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Krokro|94/100|[from] Stealth Rock
+|-ability|p1a: Krokro|Intimidate|boost
+|-unboost|p2a: Azelf|atk|1
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Krokro|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|70/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Supersaiyen|Infernape, M|100/100
+|-damage|p1a: Supersaiyen|88/100|[from] Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Supersaiyen
+|-resisted|p1a: Supersaiyen
+|-damage|p1a: Supersaiyen|72/100
+
+|
+|switch|p2a: Infernape|Infernape, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Supersaiyen|U-turn|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|92/100
+
+|
+|switch|p1a: Otariabis|Primarina, F, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Otariabis|88/100|[from] Stealth Rock
+|move|p2a: Infernape|Close Combat|p1a: Otariabis
+|-resisted|p1a: Otariabis
+|-damage|p1a: Otariabis|54/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Azelf|Azelf|53/100
+|move|p1a: Otariabis|Sparkling Aria|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|upkeep
+
+|
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|turn|7
+
+|
+|move|p2a: Nidoking|Earth Power|p1a: Otariabis
+|-damage|p1a: Otariabis|0 fnt
+|faint|p1a: Otariabis
+|
+|upkeep
+
+|
+|switch|p1a: Krokro|Krookodile, F, shiny|94/100
+|-damage|p1a: Krokro|88/100|[from] Stealth Rock
+|-ability|p1a: Krokro|Intimidate|boost
+|-unboost|p2a: Nidoking|atk|1
+|turn|8
+
+|
+|switch|p2a: Scizor|Scizor, M|70/100
+|move|p1a: Krokro|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|19/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Krokro
+|-damage|p1a: Krokro|44/100
+|move|p1a: Krokro|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|10
+
+|
+|switch|p1a: Mewvert|Celebi|100/100
+|-damage|p1a: Mewvert|88/100|[from] Stealth Rock
+|move|p2a: Crawdaunt|Knock Off|p1a: Mewvert
+|-supereffective|p1a: Mewvert
+|-damage|p1a: Mewvert|0 fnt
+|-enditem|p1a: Mewvert|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|faint|p1a: Mewvert
+|
+|upkeep
+
+|
+|switch|p1a: Chaton|Zeraora|100/100
+|-damage|p1a: Chaton|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|move|p1a: Chaton|Plasma Fists|p2a: Nidoking
+|-immune|p2a: Nidoking
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Krokro|Krookodile, F, shiny|44/100
+|-damage|p1a: Krokro|38/100|[from] Stealth Rock
+|-ability|p1a: Krokro|Intimidate|boost
+|-unboost|p2a: Nidoking|atk|1
+|move|p2a: Nidoking|Earth Power|p1a: Krokro
+|-damage|p1a: Krokro|0 fnt
+|faint|p1a: Krokro
+|
+|upkeep
+
+|
+|switch|p1a: Supersaiyen|Infernape, M|72/100
+|-damage|p1a: Supersaiyen|60/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Supersaiyen|Close Combat|p2a: Nidoking
+|-resisted|p2a: Nidoking
+|-damage|p2a: Nidoking|62/100
+|-unboost|p1a: Supersaiyen|def|1
+|-unboost|p1a: Supersaiyen|spd|1
+|move|p2a: Nidoking|Earth Power|p1a: Supersaiyen
+|-supereffective|p1a: Supersaiyen
+|-damage|p1a: Supersaiyen|0 fnt
+|faint|p1a: Supersaiyen
+|
+|upkeep
+
+|l|☆Extazi
+
+|inactive|Extazi disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Extazi has 30 seconds to reconnect!
+
+|inactive|Extazi has 20 seconds to reconnect!
+
+|inactive|Extazi has 15 seconds to reconnect!
+
+|inactive|Extazi has 10 seconds to reconnect!
+
+|inactive|Extazi has 5 seconds to reconnect!
+
+|-message|Extazi lost due to inactivity.
+|
+|win|WTUU XdriveX

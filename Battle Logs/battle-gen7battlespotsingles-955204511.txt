@@ -1,0 +1,109 @@
+|init|battle
+|title|kainashi vs. zyxwvu12
+|j|☆kainashi
+|j|☆zyxwvu12
+|player|p1|kainashi|23|1361
+|player|p2|zyxwvu12|170|1398
+|teamsize|p1|6
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Gigalith, L50, F|item
+|poke|p1|Excadrill, L50, M|item
+|poke|p1|Xurkitree, L50|item
+|poke|p1|Breloom, L50, F|item
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Salamence, L50, F|item
+|poke|p2|Glalie, L50, M|item
+|poke|p2|Garchomp, L50, F|item
+|poke|p2|Shuckle, L50, M|item
+|teampreview|3
+|
+|start
+|switch|p1a: Breloom|Breloom, L50, F|48/48
+|switch|p2a: Shuckle|Shuckle, L50, M|48/48
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kainashi)
+|
+|move|p1a: Breloom|Spore|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Spore
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|2
+
+|j| MacPhails2
+
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|3
+
+|j| Sieruma
+
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Shuckle
+|-damage|p2a: Shuckle|37/48 slp
+|-damage|p2a: Shuckle|26/48 slp
+|-damage|p2a: Shuckle|16/48 slp
+|-damage|p2a: Shuckle|5/48 slp
+|-hitcount|p2a: Shuckle|4
+|-enditem|p2a: Shuckle|Red Card|[of] p1a: Breloom
+|drag|p1a: Tapu Fini|Tapu Fini, L50|48/48
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Tapu Fini|Moonblast|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+
+|
+|switch|p2a: Glalie|Glalie, L50, M, shiny|48/48
+|turn|5
+
+|l| MacPhails2
+
+|inactive|kainashi has 120 seconds left.
+
+|
+|move|p1a: Tapu Fini|Moonblast|p2a: Glalie
+|-damage|p2a: Glalie|16/48
+|move|p2a: Glalie|Freeze-Dry|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|28/48
+|
+|-ability|p2a: Glalie|Moody|boost
+|-boost|p2a: Glalie|accuracy|2
+|-unboost|p2a: Glalie|spa|1
+|upkeep
+|turn|6
+
+|inactive|kainashi has 120 seconds left.
+
+|
+|detailschange|p2a: Glalie|Glalie-Mega, L50, M, shiny
+|-mega|p2a: Glalie|Glalie|Glalitite
+|move|p1a: Tapu Fini|Moonblast|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|faint|p2a: Glalie
+|
+|upkeep
+
+|-message|zyxwvu12 forfeited.
+
+|
+|win|kainashi

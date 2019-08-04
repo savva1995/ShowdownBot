@@ -1,0 +1,378 @@
+|init|battle
+|title|Narayanhakdo vs. Instorb
+|j|☆Narayanhakdo
+|j|☆Instorb
+|player|p1|Narayanhakdo|266|1324
+|player|p2|Instorb|266|1350
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Plusle|Plusle, L89, M|100/100
+|switch|p2a: Accelgor|Accelgor, L86, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Narayanhakdo)
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Plusle
+|-damage|p1a: Plusle|61/100
+|move|p1a: Plusle|Thunderbolt|p2a: Accelgor
+|-damage|p2a: Accelgor|52/100
+|-status|p2a: Accelgor|par
+|
+|-heal|p1a: Plusle|67/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Accelgor
+|-damage|p2a: Accelgor|4/100 par
+|cant|p2a: Accelgor|par
+|
+|-heal|p1a: Plusle|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|
+|-heal|p1a: Plusle|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|100/100
+|turn|4
+
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|90/100
+|move|p2a: Eelektross|U-turn|p1a: Plusle
+|-damage|p1a: Plusle|36/100
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Plusle|42/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Cinccino|U-turn|p1a: Plusle
+|-damage|p1a: Plusle|0 fnt
+|faint|p1a: Plusle
+
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|90/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p1a: Tsareena|Tsareena, L84, F|100/100
+|turn|6
+
+|
+|move|p1a: Tsareena|Knock Off|p2a: Eelektross
+|-damage|p2a: Eelektross|63/100
+|-enditem|p2a: Eelektross|Assault Vest|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Eelektross|U-turn|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|58/100
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Tsareena|Knock Off|p2a: Cinccino
+|-damage|p2a: Cinccino|63/100
+|-enditem|p2a: Cinccino|Choice Band|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Cinccino|U-turn|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|20/100
+
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|63/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Tsareena|Knock Off|p2a: Eelektross
+|-damage|p2a: Eelektross|45/100
+|move|p2a: Eelektross|U-turn|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, F|63/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|turn|9
+
+|
+|switch|p2a: Eelektross|Eelektross, L88, M|45/100
+|move|p1a: Pheromosa|High Jump Kick|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|
+|upkeep
+
+|
+|switch|p2a: Yveltal|Yveltal, L78|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|10
+
+|
+|move|p1a: Pheromosa|U-turn|p2a: Yveltal
+|-crit|p2a: Yveltal
+|-damage|p2a: Yveltal|64/100
+
+|
+|switch|p1a: Primarina|Primarina, L82, M|100/100|[from]move: U-turn
+|move|p2a: Yveltal|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|88/100
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, F|63/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Cinccino|Bullet Seed|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|72/100
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|57/100
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|40/100
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|23/100
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|7/100
+|-hitcount|p1a: Primarina|5
+|move|p1a: Primarina|Moonblast|p2a: Cinccino
+|-damage|p2a: Cinccino|8/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Cinccino|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|-enditem|p1a: Primarina|Choice Scarf|[from] move: Knock Off|[of] p2a: Cinccino
+|faint|p1a: Primarina
+|
+|upkeep
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|turn|13
+
+|
+|move|p1a: Pheromosa|High Jump Kick|p2a: Cinccino
+|-supereffective|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|
+|upkeep
+
+|
+|switch|p2a: Swalot|Swalot, L89, M|100/100
+|turn|14
+
+|
+|move|p1a: Pheromosa|U-turn|p2a: Swalot
+|-resisted|p2a: Swalot
+|-damage|p2a: Swalot|87/100
+
+|
+|switch|p1a: Quagsire|Quagsire, L88, F|100/100|[from]move: U-turn
+|move|p2a: Swalot|Sludge Bomb|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|84/100
+|-status|p1a: Quagsire|psn
+|
+|-heal|p2a: Swalot|94/100|[from] item: Black Sludge
+|-heal|p1a: Quagsire|90/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|78/100 psn|[from] psn
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Yveltal|Yveltal, L78|64/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Quagsire|Scald|p2a: Yveltal
+|-damage|p2a: Yveltal|42/100
+|
+|-heal|p2a: Yveltal|48/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|84/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|72/100 psn|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Yveltal|Dark Pulse|p1a: Quagsire
+|-damage|p1a: Quagsire|22/100 psn
+|move|p1a: Quagsire|Encore|p2a: Yveltal
+|-start|p2a: Yveltal|Encore
+|
+|-heal|p2a: Yveltal|55/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|29/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|16/100 psn|[from] psn
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Bewear|Bewear, L84, M|100/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|66/100 psn
+|
+|-heal|p1a: Quagsire|72/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|60/100 psn|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|move|p1a: Quagsire|Scald|p2a: Bewear
+|-damage|p2a: Bewear|74/100
+|-status|p2a: Bewear|brn
+|
+|-heal|p1a: Quagsire|66/100 psn|[from] item: Leftovers
+|-damage|p2a: Bewear|67/100 brn|[from] brn
+|-damage|p1a: Quagsire|54/100 psn|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Bewear|Double-Edge|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-damage|p2a: Bewear|51/100 brn|[from] Recoil
+|-damage|p2a: Bewear|42/100 brn|[from] item: Life Orb
+|faint|p1a: Quagsire
+|
+|-damage|p2a: Bewear|35/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|turn|20
+
+|
+|move|p1a: Pheromosa|High Jump Kick|p2a: Bewear
+|-supereffective|p2a: Bewear
+|-damage|p2a: Bewear|0 fnt
+|faint|p2a: Bewear
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|
+|upkeep
+
+|
+|switch|p2a: Swalot|Swalot, L89, M|94/100
+|turn|21
+
+|
+|move|p1a: Pheromosa|High Jump Kick|p2a: Swalot
+|-resisted|p2a: Swalot
+|-damage|p2a: Swalot|69/100
+|move|p2a: Swalot|Sludge Bomb|p1a: Pheromosa
+|-damage|p1a: Pheromosa|31/100
+|-status|p1a: Pheromosa|psn
+|
+|-heal|p2a: Swalot|75/100|[from] item: Black Sludge
+|-damage|p1a: Pheromosa|19/100 psn|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Pheromosa|U-turn|p2a: Swalot
+|-resisted|p2a: Swalot
+|-damage|p2a: Swalot|62/100
+
+|
+|switch|p1a: Magmortar|Magmortar, L86, M|100/100|[from]move: U-turn
+|move|p2a: Swalot|Sludge Bomb|p1a: Magmortar
+|-crit|p1a: Magmortar
+|-damage|p1a: Magmortar|71/100
+|
+|-heal|p2a: Swalot|68/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+
+|
+|move|p1a: Magmortar|Earthquake|p2a: Swalot
+|-supereffective|p2a: Swalot
+|-damage|p2a: Swalot|22/100
+|move|p2a: Swalot|Earthquake|p1a: Magmortar
+|-supereffective|p1a: Magmortar
+|-damage|p1a: Magmortar|18/100
+|
+|-heal|p2a: Swalot|29/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Yveltal|Yveltal, L78|55/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Magmortar|Thunderbolt|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|9/100
+|
+|-heal|p2a: Yveltal|15/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Yveltal|Dark Pulse|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|faint|p1a: Magmortar
+|
+|-heal|p2a: Yveltal|21/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|19/100 psn
+|turn|26
+
+|
+|switch|p2a: Swalot|Swalot, L89, M|29/100
+|move|p1a: Pheromosa|Ice Beam|p2a: Swalot
+|-damage|p2a: Swalot|4/100
+|
+|-heal|p2a: Swalot|10/100|[from] item: Black Sludge
+|-damage|p1a: Pheromosa|7/100 psn|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p1a: Pheromosa|Ice Beam|p2a: Swalot
+|-damage|p2a: Swalot|0 fnt
+|faint|p2a: Swalot
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|
+|-damage|p1a: Pheromosa|0 fnt|[from] psn
+|faint|p1a: Pheromosa
+|
+|win|Instorb
+|upkeep

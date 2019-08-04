@@ -1,0 +1,50 @@
+|init|battle
+|title|pollas ricas vs. ddfrfrr
+|j|☆pollas ricas
+|j|☆ddfrfrr
+|player|p1|pollas ricas|248|1000
+|player|p2|ddfrfrr|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Turtonator|Turtonator, L89, F|100/100
+|switch|p2a: Bastiodon|Bastiodon, L89, M|100/100
+|-item|p2a: Bastiodon|Air Balloon
+|turn|1
+|
+|switch|p1a: Gastrodon|Gastrodon, L88, F|100/100
+|move|p2a: Bastiodon|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: pollas ricas|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Sigilyph|Sigilyph, L86, F|100/100
+|move|p1a: Gastrodon|Scald|p2a: Sigilyph
+|-damage|p2a: Sigilyph|64/100
+|-status|p2a: Sigilyph|brn
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Gastrodon
+|-damage|p1a: Gastrodon|94/100
+|move|p1a: Gastrodon|Scald|p2a: Sigilyph
+|-damage|p2a: Sigilyph|27/100 brn
+|
+|-heal|p1a: Gastrodon|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|-message|pollas ricas forfeited.
+
+|
+|win|ddfrfrr

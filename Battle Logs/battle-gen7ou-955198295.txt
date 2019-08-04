@@ -1,0 +1,463 @@
+|init|battle
+|title|mylittlelatias vs. Shaad Skyel
+|j|☆mylittlelatias
+|j|☆Shaad Skyel
+|player|p1|mylittlelatias|170|1354
+|player|p2|Shaad Skyel|148|1384
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Lopunny, M|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Clefable, F|item
+|poke|p2|Latias, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Ferrothorn, M|item
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|1
+|
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|66/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: mylittlelatias|Spikes
+|
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|69/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Rotom|Rotom-Wash|66/100
+|move|p2a: Heatran|Stealth Rock|p1a: Rotom
+|-sidestart|p1: mylittlelatias|move: Stealth Rock
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|98/100
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100|[from]move: Volt Switch
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Zapdos|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: mylittlelatias|Spikes|[from] move: Defog|[of] p1a: Zapdos
+|-sideend|p1: mylittlelatias|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|move|p2a: Ferrothorn|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Ferrothorn|Spikes|p1a: Zapdos
+|-sidestart|p1: mylittlelatias|Spikes
+|
+|-damage|p1a: Zapdos|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Zapdos|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: mylittlelatias|Spikes|[from] move: Defog|[of] p1a: Zapdos
+|move|p2a: Ferrothorn|Spikes|p1a: Zapdos
+|-sidestart|p1: mylittlelatias|Spikes
+|
+|-damage|p1a: Zapdos|75/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Rotom|Rotom-Wash|66/100
+|move|p2a: Landorus|Stone Edge|p1a: Rotom|[miss]
+|-miss|p2a: Landorus|p1a: Rotom
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|77/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Shaad Skyel|move: Stealth Rock
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|57/100
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: mylittlelatias|Spikes
+|
+|-heal|p2a: Ferrothorn|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Zapdos|Zapdos|75/100
+|-ability|p1a: Zapdos|Pressure
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|84/100|[from] Spikes
+|move|p2a: Landorus|Stone Edge|p1a: Ferrothorn|[miss]
+|-miss|p2a: Landorus|p1a: Ferrothorn
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Heatran|Heatran, M|69/100
+|-damage|p2a: Heatran|57/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|25/100
+|
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Rotom|Rotom-Wash|66/100
+|move|p2a: Heatran|Stealth Rock|p1a: Rotom
+|-sidestart|p1: mylittlelatias|move: Stealth Rock
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Rotom|Trick||[still]
+|-fail|p1a: Rotom
+|move|p2a: Heatran|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Zapdos|Zapdos|75/100
+|-damage|p1a: Zapdos|50/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Landorus|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|38/100
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from]move: U-turn
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Zapdos|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p2: Shaad Skyel|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|-sideend|p1: mylittlelatias|Spikes|[from] move: Defog|[of] p1a: Zapdos
+|-sideend|p1: mylittlelatias|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+
+|
+|switch|p1a: Rotom|Rotom-Wash|66/100|[from]move: Volt Switch
+|move|p2a: Toxapex|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p2a: Toxapex|53/100|[from] item: Black Sludge
+|-damage|p1a: Rotom|60/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Heatran|Heatran, M|25/100
+|move|p1a: Rotom|Trick||[still]
+|-fail|p1a: Rotom
+|
+|-damage|p1a: Rotom|48/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Zapdos|Zapdos|38/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Heatran|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: mylittlelatias|move: Stealth Rock
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|88/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Heatran|Taunt|p1a: Zapdos
+|-start|p1a: Zapdos|move: Taunt
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+
+|
+|switch|p1a: Rotom|Rotom-Wash|48/100 tox|[from]move: Volt Switch
+|-damage|p1a: Rotom|35/100 tox|[from] Stealth Rock
+|
+|-damage|p1a: Rotom|29/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|76/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|26
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|77/100
+|-damage|p1a: Landorus|65/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|57/100
+|-damage|p2a: Landorus|59/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+
+|
+|switch|p2a: Latias|Latias, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|27
+
+|
+|detailschange|p2a: Latias|Latias-Mega, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p2a: Latias|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|84/100
+|-damage|p1a: Ferrothorn|78/100|[from] Stealth Rock
+|turn|28
+
+|
+|move|p2a: Latias|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|11/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latias
+|-damage|p2a: Latias|15/100
+|
+|upkeep
+|turn|29
+
+|
+|switch|p1a: Zapdos|Zapdos|88/100
+|-damage|p1a: Zapdos|63/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Latias|Hidden Power|p1a: Zapdos
+|-damage|p1a: Zapdos|45/100
+|
+|upkeep
+|turn|30
+
+|
+|move|p2a: Latias|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+
+|
+|switch|p1a: Lopunny|Lopunny, M|100/100
+|-damage|p1a: Lopunny|88/100|[from] Stealth Rock
+|turn|31
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|63/100
+|detailschange|p1a: Lopunny|Lopunny-Mega, M
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|55/100
+|-damage|p1a: Lopunny|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p1a: Lopunny|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Lopunny|64/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, F|86/100
+|turn|33
+
+|
+|switch|p1a: Rotom|Rotom-Wash|29/100 tox
+|-damage|p1a: Rotom|17/100 tox|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|6/100 tox
+|
+|-heal|p2a: Toxapex|93/100|[from] item: Black Sludge
+|-damage|p1a: Rotom|0 fnt|[from] psn
+|faint|p1a: Rotom
+|upkeep
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|11/100
+|-damage|p1a: Ferrothorn|4/100|[from] Stealth Rock
+|turn|34
+
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|turn|35
+
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|44/100
+|move|p2a: Toxapex|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|66/100
+|-status|p1a: Kyurem|brn
+|
+|-heal|p2a: Toxapex|50/100|[from] item: Black Sludge
+|-damage|p1a: Kyurem|60/100 brn|[from] brn
+|upkeep
+|turn|36
+
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|24/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|74/100
+|
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|-damage|p1a: Kyurem|54/100 brn|[from] brn
+|upkeep
+|turn|37
+
+|-message|mylittlelatias forfeited.
+
+|
+|win|Shaad Skyel

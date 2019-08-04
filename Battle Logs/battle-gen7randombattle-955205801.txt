@@ -1,0 +1,104 @@
+|init|battle
+|title|shinchannoohara vs. SkullCrusher88
+|j|☆shinchannoohara
+|j|☆SkullCrusher88
+|player|p1|shinchannoohara|266|1000
+|player|p2|SkullCrusher88|209|1062
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|switch|p2a: Tornadus|Tornadus, L83, M|100/100
+|turn|1
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|50/100
+|move|p1a: Solgaleo|Flare Blitz|p2a: Tornadus
+|-damage|p2a: Tornadus|39/100
+|-damage|p1a: Solgaleo|34/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|faint|p1a: Solgaleo
+|
+|upkeep
+|
+|switch|p1a: Stoutland|Stoutland, L88, F|100/100
+|-ability|p1a: Stoutland|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|turn|3
+
+|
+|-zpower|p2a: Tornadus
+|move|p2a: Tornadus|Supersonic Skystrike|p1a: Stoutland|[zeffect]
+|-damage|p1a: Stoutland|25/100
+|move|p1a: Stoutland|Superpower|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|6/100
+|-unboost|p1a: Stoutland|atk|1
+|-unboost|p1a: Stoutland|def|1
+|
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shinchannoohara)
+
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|faint|p1a: Stoutland
+|
+|upkeep
+
+|
+|switch|p1a: Shaymin|Shaymin, L84|100/100
+|turn|5
+
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|51/100
+|move|p1a: Shaymin|Air Slash|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Shaymin|57/100|[from] item: Leftovers
+|upkeep
+
+|l|☆shinchannoohara
+
+|inactive|shinchannoohara disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|
+|switch|p2a: Mewtwo|Mewtwo, L78|100/100
+|-ability|p2a: Mewtwo|Unnerve|p1: shinchannoohara
+|turn|6
+
+|inactive|shinchannoohara has 30 seconds to reconnect!
+
+|inactive|shinchannoohara has 20 seconds to reconnect!
+
+|inactive|shinchannoohara has 15 seconds to reconnect!
+
+|inactive|shinchannoohara has 10 seconds to reconnect!
+
+|inactive|shinchannoohara has 5 seconds to reconnect!
+
+|-message|shinchannoohara lost due to inactivity.
+|
+|win|SkullCrusher88

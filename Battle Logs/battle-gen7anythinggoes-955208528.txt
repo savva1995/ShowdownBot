@@ -1,0 +1,75 @@
+|init|battle
+|title|spiderboy1 vs. piterparcoeur
+|j|☆spiderboy1
+|j|☆piterparcoeur
+|player|p1|spiderboy1|163|1053
+|player|p2|piterparcoeur|1|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Kyogre|
+|poke|p1|Jolteon, M|item
+|poke|p1|Talonflame, F|
+|poke|p1|Beartic, M|
+|poke|p1|Noivern, F|
+|poke|p1|Tyranitar, F|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Drifblim, M|item
+|poke|p2|Blaziken, F|item
+|poke|p2|Mew|item
+|poke|p2|Azelf|item
+|poke|p2|Lugia|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: spiderboy1|move: Stealth Rock
+|move|p1a: Talonflame|Fly||[still]
+|-prepare|p1a: Talonflame|Fly|p2a: Azelf
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Lugia|Lugia|100/100
+|move|p1a: Talonflame|Fly|p2a: Lugia|[from]lockedmove
+|-damage|p2a: Lugia|93/100
+|
+|-heal|p2a: Lugia|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Lugia|Toxic|p1a: Talonflame
+|-status|p1a: Talonflame|tox
+|move|p1a: Talonflame|Solar Beam||[still]
+|-prepare|p1a: Talonflame|Solar Beam|p2a: Lugia
+|
+|-heal|p2a: Lugia|100/100|[from] item: Leftovers
+|-damage|p1a: Talonflame|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Lugia|Whirlpool|p1a: Talonflame|[miss]
+|-miss|p2a: Lugia|p1a: Talonflame
+|move|p1a: Talonflame|Solar Beam|p2a: Lugia|[from]lockedmove
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|96/100
+|
+|-heal|p2a: Lugia|100/100|[from] item: Leftovers
+|-damage|p1a: Talonflame|82/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|-message|spiderboy1 forfeited.
+
+|
+|win|piterparcoeur

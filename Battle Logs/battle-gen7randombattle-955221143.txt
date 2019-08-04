@@ -1,0 +1,259 @@
+|init|battle
+|title|Rand_uname vs. junchan
+|j|☆Rand_uname
+|j|☆junchan
+|player|p1|Rand_uname|266|1970
+|player|p2|junchan|238|1905
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zangoose|Zangoose, L89, M|100/100
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by junchan)
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|move|p2a: Keldeo|Secret Sword|p1a: Lilligant
+|-damage|p1a: Lilligant|56/100
+|
+|-heal|p1a: Lilligant|62/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Drampa|Drampa, L88, F|100/100
+|move|p1a: Lilligant|Sleep Powder|p2a: Drampa
+|-ability|p2a: Drampa|Sap Sipper|boost
+|-boost|p2a: Drampa|atk|1
+|
+|-heal|p1a: Lilligant|68/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Heatran|Heatran, L80, M|100/100
+|move|p2a: Drampa|Fire Blast|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Keldeo|Keldeo, L80|100/100
+|-zpower|p1a: Heatran
+|move|p1a: Heatran|Inferno Overdrive|p2a: Keldeo|[zeffect]
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|43/100
+|
+|-heal|p2a: Keldeo|49/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|38/100
+|move|p1a: Heatran|Magma Storm|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|15/100
+|-activate|p2a: Keldeo|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Keldeo|21/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|8/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Keldeo|Secret Sword|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p2a: Keldeo|15/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|2/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Lilligant|Lilligant, L87, F|68/100
+|move|p2a: Keldeo|Secret Sword|p1a: Lilligant
+|-damage|p1a: Lilligant|25/100
+|
+|-heal|p2a: Keldeo|8/100|[from] item: Leftovers
+|-heal|p1a: Lilligant|31/100|[from] item: Leftovers
+|-end|p2a: Keldeo|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|8
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-heal|p2a: Keldeo|15/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Naganadel|Naganadel, L78|100/100
+|turn|9
+|
+|switch|p2a: Volcanion|Volcanion, L82|100/100
+|move|p1a: Naganadel|Sludge Wave|p2a: Volcanion
+|-damage|p2a: Volcanion|65/100
+|-damage|p1a: Naganadel|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Naganadel|U-turn|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|58/100
+|-damage|p1a: Naganadel|81/100|[from] item: Life Orb
+|
+|switch|p1a: Braviary|Braviary, L86, M|100/100|[from]move: U-turn
+|move|p2a: Volcanion|Earth Power|p1a: Braviary
+|-immune|p1a: Braviary
+|
+|upkeep
+|turn|11
+|inactive|junchan has 120 seconds left.
+|inactive|junchan has 90 seconds left.
+|
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Volcanion|Steam Eruption|p1a: Braviary
+|-damage|p1a: Braviary|49/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L85, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Braviary|Rock Slide|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Braviary|43/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|spa|1
+|turn|13
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|-damage|p2a: Porygon-Z|90/100|[from] item: Life Orb
+|faint|p1a: Braviary
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon-Z|85/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow, L87, M|100/100
+|turn|14
+|inactive|junchan has 90 seconds left.
+|inactive|junchan has 60 seconds left.
+|
+|switch|p2a: Volcanion|Volcanion, L82|58/100
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, L87, M
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|move|p1a: Abomasnow|Blizzard|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcanion|42/100|[from] Hail
+|upkeep
+|turn|15
+|inactive|junchan has 60 seconds left.
+|inactive|Rand_uname has 120 seconds left.
+|
+|move|p2a: Volcanion|Fire Blast|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcanion|36/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Naganadel|Naganadel, L78|81/100
+|turn|16
+|inactive|junchan has 60 seconds left.
+|
+|move|p1a: Naganadel|Sludge Wave|p2a: Volcanion
+|-damage|p2a: Volcanion|3/100
+|-damage|p1a: Naganadel|71/100|[from] item: Life Orb
+|move|p2a: Volcanion|Earth Power|p1a: Naganadel
+|-supereffective|p1a: Naganadel
+|-damage|p1a: Naganadel|0 fnt
+|faint|p1a: Naganadel
+|
+|-weather|none
+|upkeep
+
+|inactive|Rand_uname has 120 seconds left.
+
+|inactive|Rand_uname has 90 seconds left.
+
+|
+|switch|p1a: Heatran|Heatran, L80, M|38/100
+|turn|17
+
+|
+|move|p1a: Heatran|Earth Power|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|upkeep
+
+|
+|switch|p2a: Keldeo|Keldeo, L80|15/100
+|turn|18
+
+|inactive|Rand_uname has 90 seconds left.
+
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Keldeo|21/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Zangoose|Zangoose, L89, M|100/100
+|turn|19
+
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Zangoose
+|-supereffective|p1a: Zangoose
+|-damage|p1a: Zangoose|4/100
+|move|p1a: Zangoose|Facade|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+
+|
+|switch|p2a: Drampa|Drampa, L88, F|100/100
+|turn|20
+
+|inactive|Rand_uname has 90 seconds left.
+
+|
+|move|p1a: Zangoose|Facade|p2a: Drampa
+|-damage|p2a: Drampa|8/100
+|move|p2a: Drampa|Hyper Voice|p1a: Zangoose
+|-damage|p1a: Zangoose|0 fnt
+|faint|p1a: Zangoose
+|
+|win|junchan

@@ -1,0 +1,253 @@
+|init|battle
+|title|neccrozmaxd vs. MariuszToNieJa
+|j|☆neccrozmaxd
+|j|☆MariuszToNieJa
+|player|p1|neccrozmaxd|2|1083
+|player|p2|MariuszToNieJa|290|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Salamence|Salamence, L78, F|100/100
+|switch|p2a: Armaldo|Armaldo, L89, M|100/100
+|turn|1
+|
+|switch|p1a: Gligar|Gligar, L82, M|100/100
+|move|p2a: Armaldo|Knock Off|p1a: Gligar
+|-damage|p1a: Gligar|79/100
+|-enditem|p1a: Gligar|Eviolite|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Gligar|Stealth Rock|p2a: Armaldo
+|-sidestart|p2: MariuszToNieJa|move: Stealth Rock
+|move|p2a: Armaldo|Stealth Rock|p1a: Gligar
+|-sidestart|p1: neccrozmaxd|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Gligar|Earthquake|p2a: Armaldo
+|-damage|p2a: Armaldo|75/100
+|move|p2a: Armaldo|X-Scissor|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|56/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Gligar|Earthquake|p2a: Armaldo
+|-damage|p2a: Armaldo|49/100
+|move|p2a: Armaldo|Knock Off|p1a: Gligar
+|-damage|p1a: Gligar|31/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|81/100
+|-singleturn|p1a: Gligar|move: Roost
+|move|p2a: Armaldo|Knock Off|p1a: Gligar
+|-damage|p1a: Gligar|59/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|move|p2a: Armaldo|Knock Off|p1a: Gligar
+|-damage|p1a: Gligar|76/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Gligar|Earthquake|p2a: Armaldo
+|-damage|p2a: Armaldo|25/100
+|move|p2a: Armaldo|Knock Off|p1a: Gligar
+|-damage|p1a: Gligar|52/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|move|p2a: Armaldo|Stealth Rock||[still]
+|-fail|p2a: Armaldo
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L82, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: neccrozmaxd
+|-damage|p2a: Aerodactyl|76/100|[from] Stealth Rock
+|move|p1a: Gligar|Earthquake|p2a: Aerodactyl
+|-immune|p2a: Aerodactyl
+|
+|upkeep
+|turn|10
+
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L82, M
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Earthquake|p1a: Gligar
+|-immune|p1a: Gligar
+|move|p1a: Gligar|U-turn|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|68/100
+
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Aerodactyl|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|72/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Reuniclus
+|-damage|p1a: Reuniclus|23/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|13
+
+|c|☆neccrozmaxd|ok
+
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, F|100/100
+|-damage|p1a: Spiritomb|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Spiritomb
+|-damage|p1a: Spiritomb|42/100
+|move|p1a: Spiritomb|Calm Mind|p1a: Spiritomb
+|-boost|p1a: Spiritomb|spa|1
+|-boost|p1a: Spiritomb|spd|1
+|
+|-heal|p1a: Spiritomb|49/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Aerodactyl|Fire Fang|p1a: Spiritomb
+|-damage|p1a: Spiritomb|24/100
+|move|p1a: Spiritomb|Dark Pulse|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|16/100
+|
+|-heal|p1a: Spiritomb|30/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|-heal|p1a: Spiritomb|36/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Armaldo|Armaldo, L89, M|25/100
+|-damage|p2a: Armaldo|0 fnt|[from] Stealth Rock
+|faint|p2a: Armaldo
+
+|
+|switch|p2a: Registeel|Registeel, L84|100/100
+|-damage|p2a: Registeel|94/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Registeel|Iron Head|p1a: Spiritomb
+|-damage|p1a: Spiritomb|10/100
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Registeel
+|-status|p2a: Registeel|brn
+|
+|-heal|p2a: Registeel|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Spiritomb|16/100|[from] item: Leftovers
+|-damage|p2a: Registeel|94/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Registeel
+|-damage|p2a: Registeel|83/100 brn
+|move|p2a: Registeel|Iron Head|p1a: Spiritomb
+|-damage|p1a: Spiritomb|5/100
+|
+|-heal|p2a: Registeel|89/100 brn|[from] item: Leftovers
+|-heal|p1a: Spiritomb|11/100|[from] item: Leftovers
+|-damage|p2a: Registeel|83/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Registeel|Iron Head|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|-heal|p2a: Registeel|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|83/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Gligar|Gligar, L82, M|100/100
+|-damage|p1a: Gligar|88/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: Gligar|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|43/100 brn
+|move|p2a: Registeel|Toxic|p1a: Gligar
+|-immune|p1a: Gligar|[from] ability: Immunity
+|
+|-heal|p2a: Registeel|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|43/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Gligar|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|5/100 brn
+|move|p2a: Registeel|Iron Head|p1a: Gligar
+|-damage|p1a: Gligar|76/100
+|
+|-heal|p2a: Registeel|12/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|5/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|-message|MariuszToNieJa forfeited.
+
+|
+|win|neccrozmaxd

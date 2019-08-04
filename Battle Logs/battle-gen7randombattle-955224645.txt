@@ -1,0 +1,116 @@
+|init|battle
+|title|Groteska vs. Xavier96
+|j|☆Groteska
+|j|☆Xavier96
+|player|p1|Groteska|2|1820
+|player|p2|Xavier96|30|1779
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Umbreon|Umbreon, L84, F|100/100
+|switch|p2a: Blastoise|Blastoise, L84, F|100/100
+|turn|1
+
+|
+|switch|p2a: Celesteela|Celesteela, L80|100/100
+|move|p1a: Umbreon|Toxic|p2a: Celesteela
+|-immune|p2a: Celesteela
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Groteska)
+
+|
+|switch|p1a: Politoed|Politoed, L84, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Celesteela|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|88/100|[from] Leech Seed|[of] p2a: Celesteela
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Greninja|Greninja, L80, M|100/100
+|move|p2a: Celesteela|Air Slash|p1a: Greninja
+|-damage|p1a: Greninja|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Greninja|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Celesteela
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Celesteela|71/100
+|move|p2a: Celesteela|Leech Seed|p1a: Greninja
+|-start|p1a: Greninja|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Greninja|76/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|77/100|[from] item: Leftovers
+|-damage|p1a: Greninja|64/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|87/100|[silent]
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|move|p2a: Celesteela|Air Slash|p1a: Cobalion
+|-damage|p1a: Cobalion|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cobalion|73/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Cobalion|Taunt|p2a: Celesteela
+|-start|p2a: Celesteela|move: Taunt
+|cant|p2a: Celesteela|move: Taunt|Leech Seed
+|
+|-weather|none
+|-heal|p1a: Cobalion|79/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Cobalion|Stone Edge|p2a: Celesteela|[miss]
+|-miss|p1a: Cobalion|p2a: Celesteela
+|move|p2a: Celesteela|Fire Blast|p1a: Cobalion|[miss]
+|-miss|p2a: Celesteela|p1a: Cobalion
+|
+|-heal|p1a: Cobalion|85/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Cobalion|Stone Edge|p2a: Celesteela
+|-damage|p2a: Celesteela|80/100
+|move|p2a: Celesteela|Fire Blast|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|17/100
+|
+|-heal|p1a: Cobalion|23/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|86/100|[from] item: Leftovers
+|-end|p2a: Celesteela|move: Taunt
+|upkeep
+|turn|9
+
+|-message|Groteska forfeited.
+
+|
+|win|Xavier96

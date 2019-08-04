@@ -1,0 +1,425 @@
+|init|battle
+|title|quangangdui vs. 200 Turns
+|j|☆quangangdui
+|j|☆200 Turns
+|player|p1|quangangdui|2|1310
+|player|p2|200 Turns|225|1276
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Porygon2|item
+|poke|p1|Exeggutor, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Machamp, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Clefable, M|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Tangrowth, F|item
+|poke|p2|Sableye, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 200 Turns)
+|
+|start
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|1
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1a: Charizard|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Exeggutor
+|-sidestart|p1: quangangdui|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p1a: Exeggutor|Swords Dance|p1a: Exeggutor
+|-boost|p1a: Exeggutor|atk|2
+|move|p2a: Chansey|Toxic|p1a: Exeggutor
+|-status|p1a: Exeggutor|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Exeggutor|94/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Exeggutor|Wood Hammer|p2a: Clefable
+|-damage|p2a: Clefable|51/100
+|-damage|p1a: Exeggutor|75/100 tox|[from] Recoil
+|-damage|p1a: Exeggutor|65/100 tox|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|57/100|[from] item: Leftovers
+|-damage|p1a: Exeggutor|53/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p1a: Exeggutor|Explosion|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Clefable
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p1a: Scizor|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: quangangdui|Stealth Rock|[from] move: Defog|[of] p1a: Scizor
+|move|p2a: Toxapex|Scald|p1a: Scizor
+|-damage|p1a: Scizor|69/100
+|
+|-heal|p1a: Scizor|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Charizard|Charizard-Mega-Y, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Toxapex|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Machamp|Machamp, F|100/100
+|move|p2a: Toxapex|Toxic|p1a: Machamp
+|-status|p1a: Machamp|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Machamp|94/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Machamp|Facade|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Machamp|82/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Machamp|Knock Off|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Machamp|63/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Machamp|Knock Off|p2a: Tangrowth
+|-damage|p2a: Tangrowth|73/100
+|-damage|p1a: Machamp|46/100 tox|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-enditem|p2a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p1a: Machamp
+|
+|-weather|none
+|-damage|p1a: Machamp|21/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Machamp|Facade|p2a: Tangrowth
+|-damage|p2a: Tangrowth|29/100
+|move|p2a: Tangrowth|Knock Off|p1a: Machamp
+|-resisted|p1a: Machamp
+|-damage|p1a: Machamp|10/100 tox
+|-enditem|p1a: Machamp|Flame Orb|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|-damage|p1a: Machamp|0 fnt|[from] psn
+|faint|p1a: Machamp
+|upkeep
+
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|turn|13
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-zpower|p1a: Rhyperior
+|move|p1a: Rhyperior|Continental Crush|p2a: Gliscor|[zeffect]
+|-damage|p2a: Gliscor|28/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+
+|
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|78/100 tox
+|-singleturn|p2a: Gliscor|move: Roost
+|move|p1a: Rhyperior|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: 200 Turns|move: Stealth Rock
+|
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Charizard|Charizard-Mega-Y, M|84/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Gliscor|Defog|p1a: Charizard
+|-unboost|p1a: Charizard|evasion|1
+|-sideend|p2: 200 Turns|Stealth Rock|[from] move: Defog|[of] p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Rhyperior|Swords Dance|p1a: Rhyperior
+|-boost|p1a: Rhyperior|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|71/100
+|move|p1a: Rhyperior|Rock Wrecker|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-mustrecharge|p1a: Rhyperior
+|faint|p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|19
+
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Rhyperior
+|-status|p1a: Rhyperior|brn
+|cant|p1a: Rhyperior|recharge
+|
+|-weather|none
+|-damage|p1a: Rhyperior|65/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|detailschange|p2a: Sableye|Sableye-Mega, F
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Rhyperior|Swords Dance|p1a: Rhyperior
+|-boost|p1a: Rhyperior|atk|2
+|
+|-damage|p1a: Rhyperior|59/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Rhyperior|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|15/100
+|move|p2a: Sableye|Knock Off|p1a: Rhyperior
+|-damage|p1a: Rhyperior|47/100 brn
+|
+|-damage|p1a: Rhyperior|40/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Rhyperior|Earthquake|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|-damage|p1a: Rhyperior|34/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Tangrowth|Tangrowth, F|62/100
+|move|p1a: Rhyperior|Earthquake|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|37/100
+|
+|-damage|p1a: Rhyperior|28/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Sableye|Sableye-Mega, F|15/100
+|move|p1a: Rhyperior|Rock Wrecker|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|-mustrecharge|p1a: Rhyperior
+|faint|p2a: Sableye
+|
+|-damage|p1a: Rhyperior|22/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Chansey|Chansey, F|70/100
+|turn|25
+
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, M|75/100
+|turn|26
+
+|
+|switch|p2a: Tangrowth|Tangrowth, F|70/100
+|move|p1a: Scizor|Toxic|p2a: Tangrowth
+|-status|p2a: Tangrowth|tox
+|
+|-heal|p1a: Scizor|82/100|[from] item: Leftovers
+|-damage|p2a: Tangrowth|64/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|switch|p1a: Charizard|Charizard-Mega-Y, M|84/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Scizor|Scizor, M|82/100
+|move|p2a: Toxapex|Toxic|p1a: Scizor
+|-immune|p1a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scizor|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|90/100
+|move|p2a: Toxapex|Scald|p1a: Scizor
+|-damage|p1a: Scizor|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scizor|84/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|96/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|100/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Toxapex|Scald|p1a: Scizor
+|-damage|p1a: Scizor|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scizor|97/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+
+|
+|move|p1a: Scizor|Toxic|p2a: Toxapex
+|-immune|p2a: Toxapex
+|move|p2a: Toxapex|Scald|p1a: Scizor
+|-damage|p1a: Scizor|86/100
+|
+|-weather|none
+|-heal|p1a: Scizor|92/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Charizard|Charizard-Mega-Y, M|84/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Toxapex|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|33
+
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Regenerator|[from] ability: Trace|[of] p2a: Toxapex
+|move|p2a: Toxapex|Toxic|p1a: Porygon2
+|-status|p1a: Porygon2|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Porygon2|94/100 tox|[from] psn
+|upkeep
+|turn|34
+
+|
+|switch|p2a: Chansey|Chansey, F|70/100
+|move|p1a: Porygon2|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Porygon2|82/100 tox|[from] psn
+|upkeep
+|turn|35
+
+|-message|quangangdui forfeited.
+
+|
+|win|200 Turns

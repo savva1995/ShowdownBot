@@ -1,0 +1,60 @@
+|init|battle
+|title|Chocoloz vs. Angathond
+|j|☆Chocoloz
+|j|☆Angathond
+|player|p1|Chocoloz|52|1078
+|player|p2|Angathond|101|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lopunny|Lopunny, L80, F|100/100
+|switch|p2a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chocoloz)
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, L80, F
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Rayquaza
+|-damage|p2a: Rayquaza|83/100
+|cant|p2a: Rayquaza|flinch
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Lopunny|Ice Punch|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|
+|upkeep
+
+|inactive|Angathond has 120 seconds left.
+
+|l|☆Angathond
+
+|inactive|Angathond disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Angathond has 30 seconds to reconnect!
+
+|inactive|Angathond has 20 seconds to reconnect!
+
+|inactive|Angathond has 15 seconds to reconnect!
+
+|inactive|Angathond has 10 seconds to reconnect!
+
+|inactive|Angathond has 5 seconds to reconnect!
+
+|-message|Angathond lost due to inactivity.
+|
+|win|Chocoloz

@@ -1,0 +1,264 @@
+|init|battle
+|title|Champion of Absol vs. Makinavaja
+|j|☆Champion of Absol
+|j|☆Makinavaja
+|player|p1|Champion of Absol|274|1238
+|player|p2|Makinavaja|2|1293
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, L85, M|100/100
+|switch|p2a: Luvdisc|Luvdisc, L89, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Makinavaja)
+|
+|move|p2a: Luvdisc|Toxic|p1a: Vanilluxe
+|-status|p1a: Vanilluxe|tox
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Luvdisc
+|-supereffective|p2a: Luvdisc
+|-damage|p2a: Luvdisc|2/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Luvdisc|0 fnt|[from] Hail
+|faint|p2a: Luvdisc
+|-damage|p1a: Vanilluxe|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Klinklang|Klinklang, L86|100/100
+|turn|2
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Vanilluxe|[miss]
+|-miss|p2a: Klinklang|p1a: Vanilluxe
+|move|p1a: Vanilluxe|Hidden Power|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|59/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Klinklang|53/100|[from] Hail
+|-heal|p2a: Klinklang|59/100|[from] item: Leftovers
+|-damage|p1a: Vanilluxe|82/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|33/100 tox
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|-hitcount|p1a: Vanilluxe|2
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Klinklang|53/100|[from] Hail
+|-heal|p2a: Klinklang|59/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Ambipom|Ambipom, L86, F|100/100
+|turn|4
+
+|
+|move|p1a: Ambipom|Low Kick|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|0 fnt
+|faint|p2a: Klinklang
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ambipom|95/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, F|100/100
+|turn|5
+
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, L89, F|100/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Gourgeist
+|-immune|p1a: Gourgeist
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|67/100
+|move|p2a: Reuniclus|Shadow Ball|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|40/100
+|
+|-heal|p1a: Gourgeist|46/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|31/100
+|move|p2a: Reuniclus|Shadow Ball|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+
+|
+|switch|p1a: Uxie|Uxie, L84|100/100
+|turn|8
+
+|
+|move|p1a: Uxie|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-enditem|p2a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p1a: Uxie
+|faint|p2a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|9
+
+|
+|move|p1a: Uxie|U-turn|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|85/100
+
+|
+|switch|p1a: Jirachi|Jirachi, L80|100/100|[from]move: U-turn
+|move|p2a: Tapu Bulu|Bulk Up|p2a: Tapu Bulu
+|-boost|p2a: Tapu Bulu|atk|1
+|-boost|p2a: Tapu Bulu|def|1
+|
+|-heal|p2a: Tapu Bulu|91/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|98/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+
+|
+|move|p1a: Jirachi|Toxic|p2a: Tapu Bulu|[miss]
+|-miss|p1a: Jirachi|p2a: Tapu Bulu
+|move|p2a: Tapu Bulu|Superpower|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|-unboost|p2a: Tapu Bulu|atk|1
+|-unboost|p2a: Tapu Bulu|def|1
+|
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|61/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Jirachi|Toxic|p2a: Tapu Bulu|[miss]
+|-miss|p1a: Jirachi|p2a: Tapu Bulu
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|28/100
+|-damage|p2a: Tapu Bulu|87/100|[from] Recoil
+|
+|-heal|p1a: Jirachi|34/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|40/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|94/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|99/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+
+|inactive|Makinavaja has 120 seconds left.
+
+|
+|move|p1a: Jirachi|Toxic|p2a: Tapu Bulu
+|-status|p2a: Tapu Bulu|tox
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|3/100
+|-damage|p2a: Tapu Bulu|85/100 tox|[from] Recoil
+|
+|-heal|p1a: Jirachi|9/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|15/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|91/100 tox|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|97/100 tox|[from] Grassy Terrain
+|-damage|p2a: Tapu Bulu|91/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|inactive|Makinavaja has 120 seconds left.
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|32/100 tox
+|cant|p2a: Tapu Bulu|flinch
+|
+|-heal|p1a: Jirachi|21/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|28/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|38/100 tox|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|44/100 tox|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Tapu Bulu|32/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|inactive|Makinavaja has 120 seconds left.
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-crit|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|-heal|p1a: Jirachi|34/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Makinavaja has 120 seconds left.
+
+|
+|switch|p2a: Latias|Latias, L81, F|100/100
+|turn|15
+
+|
+|detailschange|p2a: Latias|Latias-Mega, L81, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p2a: Latias|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|5/100
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Jirachi|Toxic|p2a: Latias
+|-status|p2a: Latias|tox
+|
+|-heal|p1a: Jirachi|11/100|[from] item: Leftovers
+|-damage|p2a: Latias|94/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Latias|Psyshock|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|7/100
+|move|p1a: Jirachi|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|66/100 tox
+
+|
+|switch|p1a: Uxie|Uxie, L84|100/100|[from]move: U-turn
+|
+|-damage|p2a: Latias|54/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|-message|Makinavaja forfeited.
+
+|
+|win|Champion of Absol

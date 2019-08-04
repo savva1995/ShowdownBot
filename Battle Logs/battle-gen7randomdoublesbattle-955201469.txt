@@ -1,0 +1,243 @@
+|init|battle
+|title|Count Doooku vs. retardalerttclass
+|j|☆Count Doooku
+|j|☆retardalerttclass
+|player|p1|Count Doooku|110|1049
+|player|p2|retardalerttclass|101|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Minun|Minun, L88, M|100/100
+|switch|p1b: Heracross|Heracross, L70, F|100/100
+|switch|p2a: Honchkrow|Honchkrow, L79, F|100/100
+|switch|p2b: Porygon-Z|Porygon-Z, L76|100/100
+|-ability|p2b: Porygon-Z|Download|boost
+|-boost|p2b: Porygon-Z|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Count Doooku)
+
+|inactive|retardalerttclass has 120 seconds left.
+
+|
+|switch|p2b: Nidoking|Nidoking, L79, M|100/100
+|detailschange|p1b: Heracross|Heracross-Mega, L70, F
+|-mega|p1b: Heracross|Heracross|Heracronite
+|move|p1b: Heracross|Protect|p1b: Heracross
+|-singleturn|p1b: Heracross|Protect
+|move|p1a: Minun|Thunderbolt|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|15/100
+|-enditem|p2a: Honchkrow|Sitrus Berry|[eat]
+|-heal|p2a: Honchkrow|40/100|[from] item: Sitrus Berry
+|move|p2a: Honchkrow|Brave Bird|p1b: Heracross
+|-activate|p1b: Heracross|move: Protect
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1b: Registeel|Registeel, L71|100/100
+|move|p1a: Minun|Thunderbolt|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|move|p2b: Nidoking|Focus Blast|p1b: Registeel
+|-supereffective|p1b: Registeel
+|-damage|p1b: Registeel|18/100
+|
+|upkeep
+
+|
+|switch|p2a: Aromatisse|Aromatisse, L83, F|100/100
+|turn|3
+
+|
+|move|p1b: Registeel|Protect|p1b: Registeel
+|-singleturn|p1b: Registeel|Protect
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Minun|Thunderbolt|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|move|p2b: Nidoking|Focus Blast|p1b: Registeel
+|-activate|p1b: Registeel|move: Protect
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1b: Slurpuff|Slurpuff, L81, M|100/100
+|move|p1a: Minun|Thunderbolt|p2a: Aromatisse
+|-damage|p2a: Aromatisse|73/100
+|move|p2b: Nidoking|Earth Power|p1a: Minun
+|-supereffective|p1a: Minun
+|-damage|p1a: Minun|5/100
+|move|p2a: Aromatisse|Moonblast|p1a: Minun
+|-damage|p1a: Minun|0 fnt
+|faint|p1a: Minun
+|
+|upkeep
+
+|
+|switch|p1a: Tentacruel|Tentacruel, L78, M|100/100
+|turn|5
+
+|
+|move|p1a: Tentacruel|Scald|p2b: Nidoking
+|-supereffective|p2b: Nidoking
+|-damage|p2b: Nidoking|19/100
+|-status|p2b: Nidoking|brn
+|-damage|p1a: Tentacruel|91/100|[from] item: Life Orb
+|move|p2b: Nidoking|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|34/100
+|move|p1b: Slurpuff|Belly Drum|p1b: Slurpuff
+|-damage|p1b: Slurpuff|50/100
+|-setboost|p1b: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1b: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1b: Slurpuff|75/100|[from] item: Sitrus Berry
+|move|p2a: Aromatisse|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-damage|p2b: Nidoking|13/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L70|100/100
+|turn|6
+
+|
+|move|p2b: Nidoking|Protect|p2b: Nidoking
+|-singleturn|p2b: Nidoking|Protect
+|move|p1b: Slurpuff|Substitute|p1b: Slurpuff
+|-start|p1b: Slurpuff|Substitute
+|-damage|p1b: Slurpuff|50/100
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Aromatisse|Heal Pulse|p2b: Nidoking
+|-activate|p2b: Nidoking|move: Protect
+|
+|-damage|p2b: Nidoking|6/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2b: Nidoking|Protect||[still]
+|-fail|p2b: Nidoking
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1b: Slurpuff|Drain Punch|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|move|p1a: Manaphy|Surf|p2a: Aromatisse|[spread] p1b,p2b
+|-activate|p2a: Aromatisse|move: Protect
+|-end|p1b: Slurpuff|Substitute
+|-supereffective|p2b: Nidoking
+|-damage|p2b: Nidoking|0 fnt
+|faint|p2b: Nidoking
+|
+|upkeep
+
+|
+|switch|p2b: Zapdos|Zapdos, L71|100/100
+|turn|8
+
+|
+|move|p1b: Slurpuff|Drain Punch|p2b: Zapdos
+|-resisted|p2b: Zapdos
+|-damage|p2b: Zapdos|62/100
+|-heal|p1b: Slurpuff|68/100|[from] drain|[of] p2b: Zapdos
+|move|p2b: Zapdos|Tailwind|p2b: Zapdos
+|-sidestart|p2: retardalerttclass|move: Tailwind
+|move|p1a: Manaphy|Ice Beam|p2b: Zapdos
+|-supereffective|p2b: Zapdos
+|-damage|p2b: Zapdos|0 fnt
+|faint|p2b: Zapdos
+|move|p2a: Aromatisse|Thunderbolt|p1b: Slurpuff
+|-damage|p1b: Slurpuff|42/100
+|-status|p1b: Slurpuff|par
+|
+|upkeep
+
+|
+|switch|p2b: Floatzel|Floatzel, L80, M|100/100
+|turn|9
+
+|
+|move|p2b: Floatzel|Crunch|p1b: Slurpuff
+|-resisted|p1b: Slurpuff
+|-damage|p1b: Slurpuff|27/100 par
+|-damage|p2b: Floatzel|91/100|[from] item: Life Orb
+|move|p2a: Aromatisse|Thunderbolt|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|47/100
+|move|p1a: Manaphy|Ice Beam|p2b: Floatzel
+|-resisted|p2b: Floatzel
+|-crit|p2b: Floatzel
+|-damage|p2b: Floatzel|40/100
+|cant|p1b: Slurpuff|par
+|
+|-heal|p1a: Manaphy|53/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2b: Porygon-Z|Porygon-Z, L76|100/100
+|-ability|p2b: Porygon-Z|Download|boost
+|-boost|p2b: Porygon-Z|spa|1
+|move|p2a: Aromatisse|Heal Pulse||[still]
+|-fail|p2a: Aromatisse
+|move|p1a: Manaphy|Ice Beam|p2a: Aromatisse
+|-damage|p2a: Aromatisse|34/100
+|-status|p2a: Aromatisse|frz
+|-enditem|p2a: Aromatisse|Sitrus Berry|[eat]
+|-heal|p2a: Aromatisse|58/100 frz|[from] item: Sitrus Berry
+|cant|p1b: Slurpuff|par
+|
+|-heal|p1a: Manaphy|59/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2b: Porygon-Z|Hidden Power|p1b: Slurpuff
+|-resisted|p1b: Slurpuff
+|-damage|p1b: Slurpuff|9/100 par
+|-damage|p2b: Porygon-Z|91/100|[from] item: Life Orb
+|cant|p2a: Aromatisse|frz
+|move|p1a: Manaphy|Ice Beam|p2b: Porygon-Z
+|-damage|p2b: Porygon-Z|39/100
+|move|p1b: Slurpuff|Drain Punch|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|28/100 frz
+|-heal|p1b: Slurpuff|26/100 par|[from] drain|[of] p2a: Aromatisse
+|
+|-heal|p1a: Manaphy|65/100|[from] item: Leftovers
+|-sideend|p2: retardalerttclass|move: Tailwind
+|upkeep
+|turn|12
+
+|inactive|retardalerttclass has 120 seconds left.
+
+|
+|move|p1a: Manaphy|Ice Beam|p2b: Porygon-Z
+|-damage|p2b: Porygon-Z|0 fnt
+|faint|p2b: Porygon-Z
+|move|p1b: Slurpuff|Drain Punch|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|-heal|p1b: Slurpuff|42/100 par|[from] drain|[of] p2a: Aromatisse
+|faint|p2a: Aromatisse
+|
+|-heal|p1a: Manaphy|72/100|[from] item: Leftovers
+|upkeep
+
+|-message|retardalerttclass forfeited.
+
+|
+|win|Count Doooku

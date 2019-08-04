@@ -1,0 +1,387 @@
+|init|battle
+|title|SuperDPD vs. Me111
+|j|☆SuperDPD
+|j|☆Me111
+|player|p1|SuperDPD|266|
+|player|p2|Me111|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|1
+
+|
+|switch|p1a: Marowak|Marowak, M|100/100
+|move|p2a: Jolteon|Thunder Wave|p1a: Marowak
+|-immune|p1a: Marowak
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Marowak
+|-damage|p1a: Marowak|87/100
+|move|p1a: Marowak|Swords Dance|p1a: Marowak
+|-boost|p1a: Marowak|atk|2
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Marowak|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|9/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Suicune|Hydro Pump|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+
+|
+|switch|p1a: Raikou|Raikou|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Raikou|Crunch|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|66/100
+|move|p2a: Arcanine|Fire Blast|p1a: Raikou
+|-damage|p1a: Raikou|62/100
+|
+|-heal|p1a: Raikou|68/100|[from] item: Leftovers
+|-heal|p2a: Arcanine|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Raikou|Crunch|p2a: Arcanine
+|-damage|p2a: Arcanine|50/100
+|-unboost|p2a: Arcanine|spd|1
+|move|p2a: Arcanine|Fire Blast|p1a: Raikou|[miss]
+|-miss|p2a: Arcanine
+|
+|-heal|p1a: Raikou|74/100|[from] item: Leftovers
+|-heal|p2a: Arcanine|56/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|
+|-heal|p1a: Raikou|80/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Exeggutor|Leech Seed|p1a: Cloyster
+|-start|p1a: Cloyster|move: Leech Seed
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Cloyster|Rapid Spin|p2a: Exeggutor
+|-damage|p2a: Exeggutor|96/100
+|-end|p1a: Cloyster|Leech Seed|[from] move: Rapid Spin|[of] p1a: Cloyster
+|move|p2a: Exeggutor|Toxic|p1a: Cloyster|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Cloyster|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|30/100
+|move|p2a: Exeggutor|Toxic|p1a: Cloyster
+|-status|p1a: Cloyster|tox
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Exeggutor|Protect|p2a: Exeggutor
+|-singleturn|p2a: Exeggutor|Protect
+|move|p1a: Cloyster|Ice Beam|p2a: Exeggutor
+|-activate|p2a: Exeggutor|Protect
+|-damage|p1a: Cloyster|95/100 tox|[from] psn
+|
+|-heal|p1a: Cloyster|100/100 tox|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Cloyster|Spikes|p2a: Tyranitar
+|-sidestart|p2: Me111|Spikes
+|-damage|p1a: Cloyster|89/100 tox|[from] psn
+|
+|-heal|p1a: Cloyster|95/100 tox|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Cloyster|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|46/100
+|-damage|p1a: Cloyster|77/100 tox|[from] psn
+|move|p2a: Tyranitar|Rock Slide|p1a: Cloyster|[miss]
+|-miss|p2a: Tyranitar
+|
+|-heal|p1a: Cloyster|83/100 tox|[from] item: Leftovers
+|-heal|p2a: Tyranitar|52/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Cloyster|Surf|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|-damage|p2a: Jolteon|88/100|[from] Spikes
+|
+|-heal|p2a: Jolteon|94/100|[from] item: Leftovers
+|-heal|p1a: Cloyster|89/100 tox|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|57/100
+|
+|-heal|p2a: Jolteon|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|17/100
+|move|p1a: Gengar|Mean Look|p2a: Jolteon
+|-activate|p2a: Jolteon|trapped
+|
+|-heal|p2a: Jolteon|100/100|[from] item: Leftovers
+|-enditem|p1a: Gengar|Gold Berry|[eat]
+|-heal|p1a: Gengar|26/100|[from] item: Gold Berry
+|upkeep
+|turn|18
+
+|
+|move|p1a: Gengar|Protect|p1a: Gengar
+|-singleturn|p1a: Gengar|Protect
+|move|p2a: Jolteon|Shadow Ball|p1a: Gengar
+|-activate|p1a: Gengar|Protect
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Gengar
+|-crit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|32/100
+|
+|-heal|p2a: Jolteon|38/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|80/100 par
+|move|p1a: Snorlax|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+
+|
+|switch|p2a: Exeggutor|Exeggutor, M|30/100
+|-damage|p2a: Exeggutor|18/100|[from] Spikes
+|
+|-heal|p1a: Snorlax|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Exeggutor|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|move|p1a: Snorlax|Return|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|
+|-heal|p1a: Snorlax|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Raikou|Raikou|80/100
+|move|p2a: Dragonite|Fire Blast|p1a: Raikou
+|-damage|p1a: Raikou|57/100
+|
+|-heal|p1a: Raikou|63/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|68/100
+|move|p2a: Dragonite|Ice Beam|p1a: Raikou
+|-damage|p1a: Raikou|44/100
+|
+|-heal|p1a: Raikou|50/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|74/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Raikou|Crunch|p2a: Dragonite
+|-damage|p2a: Dragonite|57/100
+|move|p2a: Dragonite|Dragon Breath|p1a: Raikou
+|-damage|p1a: Raikou|32/100
+|
+|-heal|p1a: Raikou|38/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|63/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p1a: Raikou|Rest|p1a: Raikou
+|-status|p1a: Raikou|slp|[from] move: Rest
+|-heal|p1a: Raikou|100/100 slp|[silent]
+|move|p2a: Dragonite|Fire Blast|p1a: Raikou
+|-crit|p1a: Raikou
+|-damage|p1a: Raikou|56/100 slp
+|
+|-heal|p1a: Raikou|62/100 slp|[from] item: Leftovers
+|-heal|p2a: Dragonite|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|cant|p1a: Raikou|slp
+|move|p1a: Raikou|Sleep Talk|p1a: Raikou
+|move|p1a: Raikou|Rest|p1a: Raikou|[from]Sleep Talk
+|-status|p1a: Raikou|slp|[from] move: Rest
+|-heal|p1a: Raikou|100/100 slp|[silent]
+|move|p2a: Dragonite|Fire Blast|p1a: Raikou
+|-damage|p1a: Raikou|75/100 slp
+|
+|-heal|p1a: Raikou|81/100 slp|[from] item: Leftovers
+|-heal|p2a: Dragonite|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|cant|p1a: Raikou|slp
+|move|p1a: Raikou|Sleep Talk|p1a: Raikou
+|move|p1a: Raikou|Crunch|p2a: Dragonite|[from]Sleep Talk
+|-damage|p2a: Dragonite|57/100
+|move|p2a: Dragonite|Fire Blast|p1a: Raikou
+|-damage|p1a: Raikou|58/100 slp
+|
+|-heal|p1a: Raikou|64/100 slp|[from] item: Leftovers
+|-heal|p2a: Dragonite|63/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|cant|p1a: Raikou|slp
+|move|p1a: Raikou|Sleep Talk|p1a: Raikou
+|move|p1a: Raikou|Crunch|p2a: Dragonite|[from]Sleep Talk
+|-damage|p2a: Dragonite|43/100
+|move|p2a: Dragonite|Fire Blast|p1a: Raikou
+|-damage|p1a: Raikou|41/100 slp
+|
+|-heal|p1a: Raikou|47/100 slp|[from] item: Leftovers
+|-heal|p2a: Dragonite|50/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|-curestatus|p1a: Raikou|slp|[msg]
+|move|p1a: Raikou|Rest|p1a: Raikou
+|-status|p1a: Raikou|slp|[from] move: Rest
+|-heal|p1a: Raikou|100/100 slp|[silent]
+|move|p2a: Dragonite|Fire Blast|p1a: Raikou
+|-damage|p1a: Raikou|75/100 slp
+|
+|-heal|p1a: Raikou|81/100 slp|[from] item: Leftovers
+|-heal|p2a: Dragonite|56/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|cant|p1a: Raikou|slp
+|move|p1a: Raikou|Sleep Talk|p1a: Raikou
+|move|p1a: Raikou|Thunderbolt|p2a: Dragonite|[from]Sleep Talk
+|-damage|p2a: Dragonite|25/100
+|move|p2a: Dragonite|Fire Blast|p1a: Raikou
+|-damage|p1a: Raikou|59/100 slp
+|
+|-heal|p1a: Raikou|65/100 slp|[from] item: Leftovers
+|-heal|p2a: Dragonite|31/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|cant|p1a: Raikou|slp
+|move|p1a: Raikou|Sleep Talk|p1a: Raikou
+|move|p1a: Raikou|Thunderbolt|p2a: Dragonite|[from]Sleep Talk
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|SuperDPD

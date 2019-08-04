@@ -1,0 +1,268 @@
+|init|battle
+|title|hlzhon41 vs. mgk97
+|j|☆hlzhon41
+|j|☆mgk97
+|player|p1|hlzhon41|249|1087
+|player|p2|mgk97|266|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Banette|Banette, L84, F|100/100
+|switch|p2a: Basculin|Basculin-Blue-Striped, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mgk97)
+|
+|detailschange|p1a: Banette|Banette-Mega, L84, F
+|-mega|p1a: Banette|Banette|Banettite
+|move|p2a: Basculin|Head Smash|p1a: Banette
+|-damage|p1a: Banette|23/100
+|-damage|p2a: Basculin|65/100|[from] Recoil
+|move|p1a: Banette|Knock Off|p2a: Basculin
+|-damage|p2a: Basculin|16/100
+|-enditem|p2a: Basculin|Choice Band|[from] move: Knock Off|[of] p1a: Banette
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Basculin|Aqua Jet|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|faint|p1a: Banette
+|
+|upkeep
+
+|
+|switch|p1a: Scrafty|Scrafty, L86, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Basculin|atk|1
+|turn|3
+
+|
+|move|p2a: Basculin|Liquidation|p1a: Scrafty
+|-damage|p1a: Scrafty|75/100
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-heal|p1a: Scrafty|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-heal|p1a: Scrafty|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Sawk|Bulk Up|p2a: Sawk
+|-boost|p2a: Sawk|atk|1
+|-boost|p2a: Sawk|def|1
+|move|p1a: Scrafty|High Jump Kick|p2a: Sawk
+|-damage|p2a: Sawk|33/100
+|
+|-heal|p2a: Sawk|39/100|[from] item: Leftovers
+|-heal|p1a: Scrafty|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Sawk|Close Combat|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|10/100
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|move|p1a: Scrafty|High Jump Kick|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|-heal|p1a: Scrafty|16/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Basculin|Basculin-Blue-Striped, L89, M|16/100
+|turn|7
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|move|p2a: Basculin|Liquidation|p1a: Solgaleo
+|-damage|p1a: Solgaleo|62/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Solgaleo|Zen Headbutt|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|faint|p2a: Basculin
+|
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal, L78
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|9
+
+|
+|switch|p1a: Slowbro|Slowbro, L84, F|100/100
+|move|p2a: Kyogre|Scald|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|70/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p1a: Slowbro|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|move|p1a: Slowbro|Toxic|p2a: Kyogre
+|-status|p2a: Kyogre|tox
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p1a: Slowbro|82/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|95/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Kyogre|Thunder|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Kyogre|83/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|62/100
+|turn|12
+
+|
+|move|p1a: Solgaleo|Zen Headbutt|p2a: Kyogre
+|-damage|p2a: Kyogre|45/100 tox
+|cant|p2a: Kyogre|flinch
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Kyogre|27/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Solgaleo|Zen Headbutt|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p2a: Exeggutor|Exeggutor-Alola, L86, F|100/100
+|-item|p1a: Solgaleo|Choice Scarf|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|14
+
+|
+|switch|p1a: Articuno|Articuno, L88|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Exeggutor|Flamethrower|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|51/100
+|-damage|p2a: Exeggutor|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Articuno|57/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Uxie|Uxie, L84|100/100
+|move|p1a: Articuno|Ice Beam|p2a: Uxie
+|-damage|p2a: Uxie|72/100
+|
+|-heal|p2a: Uxie|78/100|[from] item: Leftovers
+|-heal|p1a: Articuno|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Uxie|Stealth Rock|p1a: Articuno
+|-sidestart|p1: hlzhon41|move: Stealth Rock
+|move|p1a: Articuno|Toxic|p2a: Uxie
+|-status|p2a: Uxie|tox
+|
+|-heal|p2a: Uxie|84/100 tox|[from] item: Leftovers
+|-heal|p1a: Articuno|69/100|[from] item: Leftovers
+|-damage|p2a: Uxie|78/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Uxie|Heal Bell|p2a: Uxie
+|-activate|p2a: Uxie|move: Heal Bell
+|-curestatus|p2a: Uxie|tox|[msg]
+|move|p1a: Articuno|Hurricane|p2a: Uxie
+|-damage|p2a: Uxie|44/100
+|
+|-heal|p2a: Uxie|50/100|[from] item: Leftovers
+|-heal|p1a: Articuno|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Uxie|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|56/100
+|move|p1a: Articuno|Toxic|p2a: Uxie
+|-status|p2a: Uxie|tox
+|
+|-heal|p2a: Uxie|56/100 tox|[from] item: Leftovers
+|-heal|p1a: Articuno|62/100|[from] item: Leftovers
+|-damage|p2a: Uxie|50/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Uxie|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|43/100
+|move|p1a: Articuno|Ice Beam|p2a: Uxie
+|-damage|p2a: Uxie|20/100 tox
+|
+|-heal|p2a: Uxie|26/100 tox|[from] item: Leftovers
+|-heal|p1a: Articuno|49/100|[from] item: Leftovers
+|-damage|p2a: Uxie|14/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Uxie|U-turn|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|43/100
+
+|
+|switch|p2a: Chansey|Chansey, L80, F|100/100|[from]move: U-turn
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|93/100
+|-singleturn|p1a: Articuno|move: Roost
+|
+|-heal|p1a: Articuno|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|-message|mgk97 forfeited.
+
+|
+|win|hlzhon41

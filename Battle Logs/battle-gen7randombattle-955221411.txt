@@ -1,0 +1,307 @@
+|init|battle
+|title|landcloud vs. TheStormOfDead
+|j|☆landcloud
+|j|☆TheStormOfDead
+|player|p1|landcloud|163|1517
+|player|p2|TheStormOfDead|266|1539
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Manectric|Manectric, L82, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by landcloud)
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|100/100
+|move|p2a: Mamoswine|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: landcloud|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mamoswine|Icicle Crash|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|30/100
+|cant|p1a: Togekiss|flinch
+|
+|-heal|p1a: Togekiss|36/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Togekiss|Defog|p2a: Mamoswine
+|-unboost|p2a: Mamoswine|evasion|1
+|-sideend|p1: landcloud|Stealth Rock|[from] move: Defog|[of] p1a: Togekiss
+|move|p2a: Mamoswine|Icicle Crash|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Arceus|Arceus-Dark, L78|100/100
+|turn|4
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Mamoswine|Stealth Rock|p1a: Arceus
+|-sidestart|p1: landcloud|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Arceus|Fire Blast|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|45/100
+|move|p2a: Mamoswine|Earthquake|p1a: Arceus
+|-damage|p1a: Arceus|64/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Arceus|Fire Blast|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Pangoro|Pangoro, L86, F|100/100
+|-ability|p2a: Pangoro|Mold Breaker
+|turn|7
+|
+|switch|p1a: Dustox|Dustox, L89, F|100/100
+|-damage|p1a: Dustox|76/100|[from] Stealth Rock
+|move|p2a: Pangoro|Gunk Shot|p1a: Dustox|[miss]
+|-miss|p2a: Pangoro|p1a: Dustox
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Dustox|Defog|p2a: Pangoro
+|-unboost|p2a: Pangoro|evasion|1
+|-sideend|p1: landcloud|Stealth Rock|[from] move: Defog|[of] p1a: Dustox
+|move|p2a: Pangoro|Knock Off|p1a: Dustox
+|-damage|p1a: Dustox|2/100
+|-enditem|p1a: Dustox|Life Orb|[from] move: Knock Off|[of] p2a: Pangoro
+|-damage|p2a: Pangoro|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Dustox|Sludge Bomb|p2a: Pangoro
+|-damage|p2a: Pangoro|66/100
+|move|p2a: Pangoro|Knock Off|p1a: Dustox
+|-damage|p1a: Dustox|0 fnt
+|-damage|p2a: Pangoro|56/100|[from] item: Life Orb
+|faint|p1a: Dustox
+|
+|upkeep
+|
+|switch|p1a: Diancie|Diancie, L84|100/100
+|turn|10
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, F|100/100
+|move|p1a: Diancie|Stealth Rock|p2a: Toxicroak
+|-sidestart|p2: TheStormOfDead|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|inactive|landcloud has 120 seconds left.
+|l|☆landcloud
+|inactive|landcloud disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆landcloud
+|inactive|landcloud reconnected and has 115 seconds left.
+|player|p1|landcloud|163
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Diancie|Light Screen|p1a: Diancie
+|-sidestart|p1: landcloud|move: Light Screen
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Diancie|Moonblast|p2a: Toxicroak
+|-damage|p2a: Toxicroak|52/100
+|-unboost|p2a: Toxicroak|spa|1
+|
+|-heal|p2a: Toxicroak|58/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Diancie
+|-damage|p1a: Diancie|26/100
+|-heal|p2a: Toxicroak|88/100|[from] drain|[of] p1a: Diancie
+|move|p1a: Diancie|Moonblast|p2a: Toxicroak
+|-damage|p2a: Toxicroak|45/100
+|-unboost|p2a: Toxicroak|spa|1
+|
+|-heal|p2a: Toxicroak|51/100|[from] item: Black Sludge
+|-heal|p1a: Diancie|32/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-heal|p2a: Toxicroak|63/100|[from] drain|[of] p1a: Diancie
+|faint|p1a: Diancie
+|
+|-heal|p2a: Toxicroak|69/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, L80, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Toxicroak|atk|1
+|turn|15
+|
+|move|p1a: Landorus|Earthquake|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-sideend|p1: landcloud|move: Light Screen
+|upkeep
+|
+|switch|p2a: Delibird|Delibird, F|100/100
+|-damage|p2a: Delibird|51/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Delibird|Freeze-Dry|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Delibird|57/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Manectric|Manectric, L82, M|100/100
+|turn|17
+
+|
+|detailschange|p1a: Manectric|Manectric-Mega, L82, M
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Delibird|atk|1
+|move|p1a: Manectric|Thunderbolt|p2a: Delibird
+|-supereffective|p2a: Delibird
+|-damage|p2a: Delibird|0 fnt
+|faint|p2a: Delibird
+|
+|upkeep
+
+|
+|switch|p2a: Alakazam|Alakazam, L80, F|100/100
+|turn|18
+
+|
+|detailschange|p2a: Alakazam|Alakazam-Mega, L80, F
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Intimidate|[from] ability: Trace|[of] p1a: Manectric
+|-ability|p2a: Alakazam|Intimidate|boost
+|-unboost|p1a: Manectric|atk|1
+|move|p2a: Alakazam|Calm Mind|p2a: Alakazam
+|-boost|p2a: Alakazam|spa|1
+|-boost|p2a: Alakazam|spd|1
+|move|p1a: Manectric|Volt Switch|p2a: Alakazam
+|-damage|p2a: Alakazam|77/100
+
+|
+|switch|p1a: Arceus|Arceus-Dark, L78|64/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Pangoro|Pangoro, L86, F|56/100
+|-damage|p2a: Pangoro|50/100|[from] Stealth Rock
+|-ability|p2a: Pangoro|Mold Breaker
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Arceus|Fire Blast|p2a: Pangoro|[miss]
+|-miss|p1a: Arceus|p2a: Pangoro
+|move|p2a: Pangoro|Knock Off|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|47/100
+|-damage|p2a: Pangoro|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Arceus|Fire Blast|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|faint|p2a: Pangoro
+|
+|upkeep
+
+|
+|switch|p2a: Dodrio|Dodrio, L88, F|100/100
+|-damage|p2a: Dodrio|76/100|[from] Stealth Rock
+|turn|22
+
+|
+|switch|p1a: Manectric|Manectric-Mega, L82, M|100/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Dodrio|atk|1
+|move|p2a: Dodrio|Swords Dance|p2a: Dodrio
+|-boost|p2a: Dodrio|atk|2
+|
+|-heal|p2a: Dodrio|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Alakazam|Alakazam-Mega, L80, F|77/100
+|-damage|p2a: Alakazam|65/100|[from] Stealth Rock
+|-ability|p2a: Alakazam|Intimidate|[from] ability: Trace|[of] p1a: Manectric
+|-ability|p2a: Alakazam|Intimidate|boost
+|-unboost|p1a: Manectric|atk|1
+|move|p1a: Manectric|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|20/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Manectric
+|-damage|p1a: Manectric|62/100
+|-unboost|p1a: Manectric|spd|1
+|move|p1a: Manectric|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+
+|
+|switch|p2a: Dodrio|Dodrio, L88, F|82/100
+|-damage|p2a: Dodrio|57/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p2a: Dodrio|Quick Attack|p1a: Manectric
+|-crit|p1a: Manectric
+|-damage|p1a: Manectric|26/100
+|move|p1a: Manectric|Thunderbolt|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|
+|win|landcloud

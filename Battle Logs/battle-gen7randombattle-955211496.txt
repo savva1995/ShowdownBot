@@ -1,0 +1,460 @@
+|init|battle
+|title|Yetmoretesting vs. Instorb
+|j|☆Yetmoretesting
+|j|☆Instorb
+|player|p1|Yetmoretesting|117|1398
+|player|p2|Instorb|266|1408
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dunsparce|Dunsparce, L89, M|100/100
+|switch|p2a: Slowbro|Slowbro, L83, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Instorb)
+|
+|detailschange|p2a: Slowbro|Slowbro-Mega, L83, M
+|-mega|p2a: Slowbro|Slowbro|Slowbronite
+|move|p1a: Dunsparce|Coil|p1a: Dunsparce
+|-boost|p1a: Dunsparce|atk|1
+|-boost|p1a: Dunsparce|def|1
+|-boost|p1a: Dunsparce|accuracy|1
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dunsparce|Coil|p1a: Dunsparce
+|-boost|p1a: Dunsparce|atk|1
+|-boost|p1a: Dunsparce|def|1
+|-boost|p1a: Dunsparce|accuracy|1
+|move|p2a: Slowbro|Scald|p1a: Dunsparce
+|-damage|p1a: Dunsparce|40/100
+|-status|p1a: Dunsparce|brn
+|
+|-heal|p1a: Dunsparce|46/100 brn|[from] item: Leftovers
+|-damage|p1a: Dunsparce|40/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Dunsparce|Bite|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|87/100
+|move|p2a: Slowbro|Scald|p1a: Dunsparce
+|-damage|p1a: Dunsparce|0 fnt
+|faint|p1a: Dunsparce
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|100/100
+|turn|4
+|
+|switch|p2a: Chansey|Chansey, L80, F|100/100
+|move|p1a: Whimsicott|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|
+|-damage|p2a: Chansey|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Seismic Toss|p1a: Whimsicott
+|-damage|p1a: Whimsicott|68/100
+|
+|-heal|p1a: Whimsicott|74/100|[from] item: Leftovers
+|-damage|p2a: Chansey|82/100 tox|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|100/100|[silent]
+|-damage|p2a: Chansey|69/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Ribombee|Ribombee, L85, F|100/100
+|move|p1a: Whimsicott|Moonblast|p2a: Ribombee
+|-damage|p2a: Ribombee|54/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Entei|Entei, L83|100/100
+|-ability|p1a: Entei|Pressure
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Wailord|Wailord, L89, M|100/100
+|move|p1a: Entei|Flare Blitz|p2a: Wailord
+|-resisted|p2a: Wailord
+|-damage|p2a: Wailord|65/100
+|-damage|p1a: Entei|84/100|[from] Recoil
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|100/100
+|move|p2a: Wailord|Ice Beam|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|16/100
+|
+|-heal|p1a: Whimsicott|22/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Entei|Entei, L83|84/100
+|-ability|p1a: Entei|Pressure
+|move|p2a: Wailord|Ice Beam|p1a: Entei
+|-resisted|p1a: Entei
+|-damage|p1a: Entei|66/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Slowbro|Slowbro-Mega, L83, M|87/100
+|move|p1a: Entei|Extreme Speed|p2a: Slowbro
+|-damage|p2a: Slowbro|67/100
+|
+|upkeep
+|turn|12
+
+|inactive|Yetmoretesting has 120 seconds left.
+
+|
+|switch|p1a: Muk|Muk-Alola, L82, F|100/100
+|move|p2a: Slowbro|Psyshock|p1a: Muk
+|-immune|p1a: Muk
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Muk|Knock Off|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|42/100
+|move|p2a: Slowbro|Scald|p1a: Muk
+|-damage|p1a: Muk|71/100
+|
+|-heal|p1a: Muk|77/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+
+|
+|move|p1a: Muk|Knock Off|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|13/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|63/100
+|
+|-heal|p1a: Muk|84/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|
+|move|p1a: Muk|Curse|p1a: Muk
+|-unboost|p1a: Muk|spe|1
+|-boost|p1a: Muk|atk|1
+|-boost|p1a: Muk|def|1
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100
+|
+|-heal|p1a: Muk|90/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+
+|
+|move|p2a: Slowbro|Scald|p1a: Muk
+|-damage|p1a: Muk|57/100
+|-status|p1a: Muk|brn
+|move|p1a: Muk|Curse|p1a: Muk
+|-unboost|p1a: Muk|spe|1
+|-boost|p1a: Muk|atk|1
+|-boost|p1a: Muk|def|1
+|
+|-heal|p1a: Muk|64/100 brn|[from] item: Black Sludge
+|-damage|p1a: Muk|57/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Slowbro|Scald|p1a: Muk
+|-damage|p1a: Muk|26/100 brn
+|move|p1a: Muk|Curse|p1a: Muk
+|-unboost|p1a: Muk|spe|1
+|-boost|p1a: Muk|atk|1
+|-boost|p1a: Muk|def|1
+|
+|-heal|p1a: Muk|32/100 brn|[from] item: Black Sludge
+|-damage|p1a: Muk|26/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Muk|Shadow Sneak|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|86/100
+|move|p2a: Slowbro|Scald|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|upkeep
+
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|100/100
+|turn|19
+
+|
+|switch|p2a: Chansey|Chansey, L80, F|69/100
+|move|p1a: Yanmega|Bug Buzz|p2a: Chansey
+|-damage|p2a: Chansey|52/100
+|-damage|p1a: Yanmega|91/100|[from] item: Life Orb
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|20
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Chansey
+|-damage|p2a: Chansey|38/100
+|-damage|p1a: Yanmega|81/100|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|88/100
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Golurk|Golurk, L88|100/100
+|move|p2a: Chansey|Seismic Toss|p1a: Golurk
+|-immune|p1a: Golurk
+|
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Wailord|Wailord, L89, M|65/100
+|move|p1a: Golurk|Stealth Rock|p2a: Wailord
+|-sidestart|p2: Instorb|move: Stealth Rock
+|
+|upkeep
+|turn|23
+
+|
+|move|p2a: Wailord|Hydro Pump|p1a: Golurk|[miss]
+|-miss|p2a: Wailord|p1a: Golurk
+|move|p1a: Golurk|Shadow Punch|p2a: Wailord
+|-damage|p2a: Wailord|30/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Wailord|Hydro Pump|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|upkeep
+
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|22/100
+|turn|25
+
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Wailord
+|-damage|p2a: Wailord|0 fnt
+|faint|p2a: Wailord
+|
+|-heal|p1a: Whimsicott|28/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Chansey|Chansey, L80, F|88/100
+|-damage|p2a: Chansey|75/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Seismic Toss|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|81/100
+|turn|27
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Chansey
+|-damage|p2a: Chansey|62/100
+|-damage|p1a: Yanmega|71/100|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Yanmega
+|-damage|p1a: Yanmega|42/100
+|
+|-damage|p2a: Chansey|50/100|[from] Leech Seed|[of] p1a: Yanmega
+|-heal|p1a: Yanmega|66/100|[silent]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|28
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Chansey
+|-damage|p2a: Chansey|36/100
+|-damage|p1a: Yanmega|56/100|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|86/100
+|
+|-damage|p2a: Chansey|74/100|[from] Leech Seed|[of] p1a: Yanmega
+|-heal|p1a: Yanmega|79/100|[silent]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|29
+
+|
+|move|p1a: Yanmega|Ancient Power|p2a: Chansey
+|-damage|p2a: Chansey|66/100
+|-boost|p1a: Yanmega|atk|1
+|-boost|p1a: Yanmega|def|1
+|-boost|p1a: Yanmega|spa|1
+|-boost|p1a: Yanmega|spd|1
+|-boost|p1a: Yanmega|spe|1
+|-damage|p1a: Yanmega|69/100|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Yanmega
+|-damage|p1a: Yanmega|41/100
+|
+|-damage|p2a: Chansey|54/100|[from] Leech Seed|[of] p1a: Yanmega
+|-heal|p1a: Yanmega|64/100|[silent]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|30
+
+|
+|switch|p2a: Slowbro|Slowbro-Mega, L83, M|86/100
+|-damage|p2a: Slowbro|74/100|[from] Stealth Rock
+|move|p1a: Yanmega|Giga Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-heal|p1a: Yanmega|100/100|[from] drain|[of] p2a: Slowbro
+|-damage|p1a: Yanmega|91/100|[from] item: Life Orb
+|faint|p2a: Slowbro
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+
+|
+|switch|p2a: Chansey|Chansey, L80, F|54/100
+|-damage|p2a: Chansey|41/100|[from] Stealth Rock
+|turn|31
+
+|
+|move|p1a: Yanmega|Ancient Power|p2a: Chansey
+|-damage|p2a: Chansey|31/100
+|-damage|p1a: Yanmega|81/100|[from] item: Life Orb
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|32
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Chansey
+|-damage|p2a: Chansey|10/100
+|-damage|p1a: Yanmega|71/100|[from] item: Life Orb
+|cant|p2a: Chansey|flinch
+|
+|-heal|p2a: Chansey|60/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|33
+
+|
+|move|p1a: Yanmega|Ancient Power|p2a: Chansey
+|-damage|p2a: Chansey|49/100
+|-damage|p1a: Yanmega|61/100|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Yanmega
+|-damage|p1a: Yanmega|32/100
+|
+|upkeep
+|turn|34
+
+|
+|move|p1a: Yanmega|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|36/100
+|-heal|p1a: Yanmega|45/100|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Yanmega|35/100|[from] item: Life Orb
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|upkeep
+|turn|35
+
+|
+|move|p1a: Yanmega|Bug Buzz|p2a: Chansey
+|-damage|p2a: Chansey|11/100
+|-damage|p1a: Yanmega|25/100|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|-heal|p2a: Chansey|61/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+
+|
+|switch|p1a: Entei|Entei, L83|66/100
+|-ability|p1a: Entei|Pressure
+|turn|36
+
+|
+|move|p1a: Entei|Sacred Fire|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, F|100/100
+|-damage|p2a: Talonflame|51/100|[from] Stealth Rock
+|turn|37
+
+|
+|-zpower|p2a: Talonflame
+|move|p2a: Talonflame|Supersonic Skystrike|p1a: Entei|[zeffect]
+|-damage|p1a: Entei|12/100
+|move|p1a: Entei|Sacred Fire|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|13/100
+|
+|upkeep
+|turn|38
+
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|-damage|p2a: Talonflame|8/100|[from] Recoil
+|faint|p1a: Entei
+|
+|win|Instorb

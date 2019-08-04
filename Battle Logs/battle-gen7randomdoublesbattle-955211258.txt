@@ -1,0 +1,199 @@
+|init|battle
+|title|skku vs. Ggyfttf
+|j|☆skku
+|j|☆Ggyfttf
+|player|p1|skku|2|1000
+|player|p2|Ggyfttf|102|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Oricorio|Oricorio-Pa'u, L81, M|100/100
+|switch|p1b: Porygon2|Porygon2, L70|100/100
+|switch|p2a: Slowking|Slowking, L80, F|100/100
+|switch|p2b: Golem|Golem, L80, M|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|turn|1
+
+|
+|move|p1a: Oricorio|Tailwind|p1a: Oricorio
+|-sidestart|p1: skku|move: Tailwind
+|move|p1b: Porygon2|Thunderbolt|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|52/100
+|move|p2b: Golem|Rock Slide|p1b: Porygon2|[spread] p1a,p1b
+|-supereffective|p1a: Oricorio
+|-damage|p1a: Oricorio|34/100
+|-damage|p1b: Porygon2|81/100
+|move|p2a: Slowking|Fire Blast|p1a: Oricorio
+|-damage|p1a: Oricorio|0 fnt
+|faint|p1a: Oricorio
+|
+|-heal|p2a: Slowking|58/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Weavile|Weavile, L78, M|100/100
+|turn|2
+
+|
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p1b: Porygon2|Thunderbolt|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|11/100
+|move|p2b: Golem|Fire Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|34/100
+|move|p2a: Slowking|Fire Blast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Slowking|17/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, L81, M|100/100
+|turn|3
+
+|
+|move|p1b: Porygon2|Thunderbolt|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|move|p1a: Drampa|Energy Ball|p2b: Golem
+|-supereffective|p2b: Golem
+|-ability|p2b: Golem|Sturdy
+|-damage|p2b: Golem|1/100
+|-damage|p1a: Drampa|91/100|[from] item: Life Orb
+|move|p2b: Golem|Rock Slide|p1a: Drampa|[spread] p1a,p1b
+|-crit|p1a: Drampa
+|-damage|p1a: Drampa|50/100
+|-damage|p1b: Porygon2|60/100
+|
+|upkeep
+
+|
+|switch|p2a: Gligar|Gligar, L78, F|100/100
+|turn|4
+
+|
+|move|p2b: Golem|Sucker Punch||[still]
+|-fail|p2b: Golem
+|move|p1b: Porygon2|Ice Beam|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|move|p1a: Drampa|Roost|p1a: Drampa
+|-heal|p1a: Drampa|99/100
+|-singleturn|p1a: Drampa|move: Roost
+|
+|-sideend|p1: skku|move: Tailwind
+|upkeep
+
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane, L70|100/100
+|turn|5
+
+|
+|detailschange|p2a: Necrozma|Necrozma-Ultra, L70
+|-burst|p2a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Necrozma|Knock Off|p1b: Porygon2
+|-damage|p1b: Porygon2|35/100
+|-enditem|p1b: Porygon2|Eviolite|[from] move: Knock Off|[of] p2a: Necrozma
+|move|p1b: Porygon2|Tri Attack|p2b: Golem
+|-resisted|p2b: Golem
+|-crit|p2b: Golem
+|-damage|p2b: Golem|0 fnt
+|faint|p2b: Golem
+|move|p1a: Drampa|Draco Meteor|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|-unboost|p1a: Drampa|spa|2
+|-damage|p1a: Drampa|90/100|[from] item: Life Orb
+|faint|p2a: Necrozma
+|
+|upkeep
+
+|
+|switch|p2a: Florges|Florges, L74, F|100/100
+|switch|p2b: Samurott|Samurott, L76, M|100/100
+|turn|6
+
+|
+|move|p2a: Florges|Dazzling Gleam|p1a: Drampa|[spread] p1a,p1b
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|51/100
+|-damage|p1b: Porygon2|11/100
+|move|p2b: Samurott|Ice Beam|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|-damage|p2b: Samurott|91/100|[from] item: Life Orb
+|faint|p1a: Drampa
+|move|p1b: Porygon2|Tri Attack|p2a: Florges
+|-damage|p2a: Florges|72/100
+|-status|p2a: Florges|brn
+|
+|-damage|p2a: Florges|66/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Klinklang|Klinklang, L77|100/100
+|turn|7
+
+|
+|move|p1a: Klinklang|Shift Gear|p1a: Klinklang
+|-boost|p1a: Klinklang|spe|2
+|-boost|p1a: Klinklang|atk|1
+|move|p2a: Florges|Aromatherapy|p2a: Florges
+|-activate|p2a: Florges|move: Aromatherapy
+|-curestatus|p2a: Florges|brn|[msg]
+|move|p2b: Samurott|Ice Beam|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|-damage|p2b: Samurott|81/100|[from] item: Life Orb
+|faint|p1b: Porygon2
+|
+|upkeep
+
+|
+|switch|p1b: Marshadow|Marshadow, L70|100/100
+|turn|8
+
+|
+|move|p1b: Marshadow|Protect|p1b: Marshadow
+|-singleturn|p1b: Marshadow|Protect
+|move|p1a: Klinklang|Wild Charge|p2b: Samurott
+|-supereffective|p2b: Samurott
+|-damage|p2b: Samurott|0 fnt
+|-damage|p1a: Klinklang|76/100|[from] Recoil
+|-damage|p1a: Klinklang|66/100|[from] item: Life Orb
+|faint|p2b: Samurott
+|move|p2a: Florges|Dazzling Gleam|p1a: Klinklang|[spread] p1a
+|-activate|p1b: Marshadow|move: Protect
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|51/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1b: Marshadow|Shadow Sneak|p2a: Florges
+|-damage|p2a: Florges|23/100
+|-enditem|p2a: Florges|Sitrus Berry|[eat]
+|-heal|p2a: Florges|48/100|[from] item: Sitrus Berry
+|-damage|p1b: Marshadow|91/100|[from] item: Life Orb
+|move|p1a: Klinklang|Gear Grind|p2a: Florges
+|-supereffective|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|-hitcount|p2a: Florges|1
+|-damage|p1a: Klinklang|42/100|[from] item: Life Orb
+|faint|p2a: Florges
+|
+|win|skku

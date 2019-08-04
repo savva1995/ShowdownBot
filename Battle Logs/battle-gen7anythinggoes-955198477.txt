@@ -1,0 +1,78 @@
+|init|battle
+|title|FuriusGS vs. QuatoRzZ
+|j|☆FuriusGS
+|j|☆QuatoRzZ
+|player|p1|FuriusGS|127|1460
+|player|p2|QuatoRzZ|29|1516
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Rayquaza|item
+|poke|p1|Groudon|item
+|poke|p1|Ditto|item
+|poke|p1|Marshadow|item
+|poke|p1|Xerneas|item
+|poke|p1|Smeargle, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Marshadow|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FuriusGS)
+|
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Arceus|Arceus-Water|100/100
+|turn|1
+|inactive|QuatoRzZ also wants the timer to be on.
+|
+|move|p2a: Arceus|Stealth Rock|p1a: Smeargle
+|-sidestart|p1: FuriusGS|move: Stealth Rock
+|move|p1a: Smeargle|Spore|p2a: Arceus
+|-status|p2a: Arceus|slp|[from] move: Spore
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|switch|p2a: Arceus|Arceus-Fire|100/100
+|move|p1a: Smeargle|Shell Smash|p1a: Smeargle
+|-unboost|p1a: Smeargle|def|1
+|-unboost|p1a: Smeargle|spd|1
+|-boost|p1a: Smeargle|atk|2
+|-boost|p1a: Smeargle|spa|2
+|-boost|p1a: Smeargle|spe|2
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spd|2
+|-unboost|p1a: Smeargle|accuracy|1
+|upkeep
+|turn|3
+|
+|move|p1a: Smeargle|Spore|p2a: Arceus
+|-status|p2a: Arceus|slp|[from] move: Spore
+|cant|p2a: Arceus|slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|accuracy|2
+|-unboost|p1a: Smeargle|evasion|1
+|upkeep
+|turn|4
+|c|☆QuatoRzZ|seriously ?
+|-message|QuatoRzZ forfeited.
+|
+|win|FuriusGS
+|l|☆QuatoRzZ
+|raw|FuriusGS's rating: 1460 &rarr; <strong>1484</strong><br />(+24 for winning)
+|raw|QuatoRzZ's rating: 1516 &rarr; <strong>1493</strong><br />(-23 for losing)
+|l|☆FuriusGS

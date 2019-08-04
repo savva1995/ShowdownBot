@@ -1,0 +1,471 @@
+|init|battle
+|title|Narucomedy vs. Primeval64
+|j|☆Narucomedy
+|j|☆Primeval64
+|player|p1|Narucomedy|190|
+|player|p2|Primeval64|131|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Typhlosion|Typhlosion, L86, M|100/100
+|switch|p2a: Sawsbuck|Sawsbuck, L89, F|100/100
+|turn|1
+|
+|move|p1a: Typhlosion|Extrasensory|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|77/100
+|move|p2a: Sawsbuck|Substitute|p2a: Sawsbuck
+|-start|p2a: Sawsbuck|Substitute
+|-damage|p2a: Sawsbuck|52/100
+|
+|-heal|p2a: Sawsbuck|58/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Typhlosion|Extrasensory|p2a: Sawsbuck
+|-crit|p2a: Sawsbuck
+|-end|p2a: Sawsbuck|Substitute
+|move|p2a: Sawsbuck|Jump Kick|p1a: Typhlosion
+|-damage|p1a: Typhlosion|70/100
+|
+|-heal|p2a: Sawsbuck|64/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Venusaur|Venusaur, L85, M|100/100
+|switch|p2a: Barbaracle|Barbaracle, L84, F|100/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, F|100/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Vileplume
+|-damage|p2a: Vileplume|62/100
+|
+|-heal|p2a: Vileplume|68/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Vileplume
+|-immune|p2a: Vileplume
+|move|p2a: Vileplume|Hidden Power|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|71/100
+|
+|-heal|p1a: Venusaur|77/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|74/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Vileplume
+|-damage|p2a: Vileplume|40/100
+|move|p2a: Vileplume|Hidden Power|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|43/100
+|
+|-heal|p1a: Venusaur|50/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|46/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|c|☆Narucomedy|im dumb
+
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Vileplume
+|-damage|p2a: Vileplume|11/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Venusaur
+|-damage|p1a: Venusaur|13/100
+|
+|-heal|p1a: Venusaur|19/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|17/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Chansey|Chansey, L80, F|100/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Chansey
+|-damage|p2a: Chansey|89/100
+|
+|-heal|p1a: Venusaur|26/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|cant|p2a: Chansey|slp
+|
+|-heal|p1a: Venusaur|32/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Sawsbuck|Sawsbuck, L89, F|64/100
+|move|p1a: Venusaur|Leech Seed|p2a: Sawsbuck
+|-ability|p2a: Sawsbuck|Sap Sipper|boost
+|-boost|p2a: Sawsbuck|atk|1
+|
+|-heal|p2a: Sawsbuck|70/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|38/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|c|☆Narucomedy|good switch
+
+|c|☆Narucomedy|i forgot about sap sipper
+
+|
+|move|p2a: Sawsbuck|Substitute|p2a: Sawsbuck
+|-start|p2a: Sawsbuck|Substitute
+|-damage|p2a: Sawsbuck|45/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-end|p2a: Sawsbuck|Substitute
+|
+|-heal|p2a: Sawsbuck|51/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|44/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|
+|move|p2a: Sawsbuck|Jump Kick|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|22/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|-heal|p1a: Venusaur|28/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, F|17/100
+|turn|13
+
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-heal|p1a: Venusaur|34/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Gallade|Gallade, L81, M|100/100
+|turn|14
+
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Gallade
+|-start|p2a: Gallade|move: Leech Seed
+|move|p2a: Gallade|Zen Headbutt|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+
+|
+|switch|p1a: Celebi|Celebi, L82|100/100
+|turn|15
+
+|
+|detailschange|p2a: Gallade|Gallade-Mega, L81, M
+|-mega|p2a: Gallade|Gallade|Galladite
+|move|p2a: Gallade|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|39/100
+|-enditem|p1a: Celebi|Leftovers|[from] move: Knock Off|[of] p2a: Gallade
+|move|p1a: Celebi|Psychic|p2a: Gallade
+|-damage|p2a: Gallade|70/100
+|
+|-damage|p2a: Gallade|58/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|49/100|[silent]
+|upkeep
+|turn|16
+
+|
+|move|p2a: Gallade|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|9/100
+|move|p1a: Celebi|Psychic|p2a: Gallade
+|-damage|p2a: Gallade|26/100
+|
+|-damage|p2a: Gallade|14/100|[from] Leech Seed|[of] p1a: Celebi
+|-heal|p1a: Celebi|19/100|[silent]
+|upkeep
+|turn|17
+
+|
+|move|p2a: Gallade|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+
+|
+|switch|p1a: Furret|Furret, L89, M|100/100
+|-item|p2a: Gallade|Galladite|[from] ability: Frisk|[of] p1a: Furret|[identify]
+|turn|18
+
+|
+|move|p1a: Furret|Aqua Tail|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+
+|
+|switch|p2a: Barbaracle|Barbaracle, L84, F|100/100
+|turn|19
+
+|
+|switch|p1a: Heracross|Heracross, L81, M|100/100
+|move|p2a: Barbaracle|Shell Smash|p2a: Barbaracle
+|-unboost|p2a: Barbaracle|def|1
+|-unboost|p2a: Barbaracle|spd|1
+|-boost|p2a: Barbaracle|atk|2
+|-boost|p2a: Barbaracle|spa|2
+|-boost|p2a: Barbaracle|spe|2
+|-enditem|p2a: Barbaracle|White Herb
+|-clearnegativeboost|p2a: Barbaracle|[silent]
+|
+|upkeep
+|turn|20
+
+|
+|detailschange|p1a: Heracross|Heracross-Mega, L81, M
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p2a: Barbaracle|Stone Edge|p1a: Heracross
+|-damage|p1a: Heracross|27/100
+|move|p1a: Heracross|Close Combat|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Barbaracle
+|
+|upkeep
+
+|c|☆Narucomedy|YES
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, F|100/100
+|turn|21
+
+|c|☆Narucomedy|NO
+
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, M|70/100
+|turn|22
+
+|
+|switch|p2a: Chansey|Chansey, L80, F|89/100
+|move|p1a: Typhlosion|Extrasensory|p2a: Chansey
+|-damage|p2a: Chansey|82/100
+|
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Furret|Furret, L89, M|100/100
+|-item|p2a: Chansey|Eviolite|[from] ability: Frisk|[of] p1a: Furret|[identify]
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Furret|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|55/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Furret
+|move|p2a: Chansey|Seismic Toss|p1a: Furret
+|-damage|p1a: Furret|73/100
+|
+|-heal|p2a: Chansey|100/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|25
+
+|
+|move|p1a: Furret|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|72/100
+|move|p2a: Chansey|Seismic Toss|p1a: Furret
+|-damage|p1a: Furret|46/100
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Furret|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|43/100
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|upkeep
+|turn|27
+
+|
+|move|p1a: Furret|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|15/100
+|move|p2a: Chansey|Seismic Toss|p1a: Furret
+|-damage|p1a: Furret|19/100
+|
+|-heal|p2a: Chansey|65/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|28
+
+|
+|move|p1a: Furret|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|37/100
+|move|p2a: Chansey|Seismic Toss|p1a: Furret
+|-damage|p1a: Furret|0 fnt
+|faint|p1a: Furret
+|
+|upkeep
+
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, M|70/100
+|turn|29
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|4/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|54/100
+|
+|upkeep
+|turn|30
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Chansey|[miss]
+|-miss|p1a: Typhlosion|p2a: Chansey
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|upkeep
+|turn|31
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|23/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|73/100
+|
+|-heal|p2a: Chansey|100/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|32
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|68/100
+|move|p2a: Chansey|Seismic Toss|p1a: Typhlosion
+|-damage|p1a: Typhlosion|41/100
+|
+|upkeep
+|turn|33
+
+|c|☆Narucomedy|BRUH
+
+|c|☆Primeval64|Bruh
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Chansey|[miss]
+|-miss|p1a: Typhlosion|p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Typhlosion
+|-damage|p1a: Typhlosion|12/100
+|
+|upkeep
+|turn|34
+
+|c|☆Narucomedy|WHY
+
+|
+|move|p1a: Typhlosion|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|32/100
+|move|p2a: Chansey|Seismic Toss|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|upkeep
+
+|
+|switch|p1a: Salazzle|Salazzle, L84, F|100/100
+|-item|p1a: Salazzle|Air Balloon
+|turn|35
+
+|
+|move|p1a: Salazzle|Sludge Wave|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|3/100
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|upkeep
+|turn|36
+
+|
+|move|p1a: Salazzle|Hidden Power|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+
+|
+|switch|p2a: Mismagius|Mismagius, L86, F|100/100
+|turn|37
+
+|
+|move|p1a: Salazzle|Nasty Plot|p1a: Salazzle
+|-boost|p1a: Salazzle|spa|2
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|76/100
+|
+|-heal|p2a: Mismagius|82/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|move|p1a: Salazzle|Hidden Power|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|move|p2a: Mismagius|Shadow Ball|p1a: Salazzle
+|-damage|p1a: Salazzle|51/100
+|-enditem|p1a: Salazzle|Air Balloon
+|
+|-heal|p2a: Mismagius|88/100|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|c|☆Narucomedy|CMON
+
+|c|☆Primeval64|Gg
+
+|c|☆Narucomedy|PLEASE GAME
+
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Mismagius|[miss]
+|-miss|p1a: Salazzle|p2a: Mismagius
+|move|p2a: Mismagius|Shadow Ball|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|win|Primeval64

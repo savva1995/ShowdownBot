@@ -1,0 +1,148 @@
+|init|battle
+|title|bb carote vs. Jens16
+|j|☆bb carote
+|j|☆Jens16
+|player|p1|bb carote|266|1320
+|player|p2|Jens16|169|1316
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey, L80, F|100/100
+|switch|p2a: Sharpedo|Sharpedo, L82, M|100/100
+|turn|1
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Chansey|Stealth Rock|p2a: Sharpedo
+|-sidestart|p2: Jens16|move: Stealth Rock
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|2
+|
+|detailschange|p2a: Sharpedo|Sharpedo-Mega, L82, M
+|-mega|p2a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Sharpedo|Waterfall|p1a: Chansey
+|-damage|p1a: Chansey|52/100
+|move|p1a: Chansey|Seismic Toss|p2a: Sharpedo
+|-damage|p2a: Sharpedo|68/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Sharpedo|Crunch|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, L80, F|100/100
+|turn|4
+|
+|detailschange|p1a: Scizor|Scizor-Mega, L80, F
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Sharpedo|Waterfall|p1a: Scizor
+|-damage|p1a: Scizor|68/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|25/100
+|move|p2a: Sharpedo|Waterfall|p1a: Scizor
+|-damage|p1a: Scizor|37/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bb carote)
+
+|
+|switch|p2a: Buzzwole|Buzzwole, L81|100/100
+|-damage|p2a: Buzzwole|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Buzzwole
+|-damage|p2a: Buzzwole|52/100
+|move|p2a: Buzzwole|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|turn|9
+
+|
+|move|p1a: Meloetta|Relic Song|p2a: Buzzwole
+|-damage|p2a: Buzzwole|7/100
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|move|p2a: Buzzwole|Earthquake|p1a: Meloetta
+|-damage|p1a: Meloetta|40/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Meloetta|Knock Off|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|-enditem|p2a: Buzzwole|Choice Band|[from] move: Knock Off|[of] p1a: Meloetta
+|faint|p2a: Buzzwole
+|
+|upkeep
+
+|inactive|Jens16 has 120 seconds left.
+
+|l|☆Jens16
+
+|inactive|Jens16 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Jens16 has 30 seconds to reconnect!
+
+|inactive|Jens16 has 20 seconds to reconnect!
+
+|inactive|Jens16 has 15 seconds to reconnect!
+
+|inactive|Jens16 has 10 seconds to reconnect!
+
+|inactive|Jens16 has 5 seconds to reconnect!
+
+|-message|Jens16 lost due to inactivity.
+|
+|win|bb carote

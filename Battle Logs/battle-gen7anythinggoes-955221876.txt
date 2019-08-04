@@ -1,0 +1,88 @@
+|init|battle
+|title|raonar3033 vs. Hd012cq
+|j|☆raonar3033
+|j|☆Hd012cq
+|player|p1|raonar3033|290|1148
+|player|p2|Hd012cq|79|1143
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Mawile, F|item
+|poke|p1|Toxapex, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Gengar, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Starmie|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Mawile|Mawile, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: raonar3033
+|turn|1
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: raonar3033|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Aerodactyl|Whirlwind|p1a: Dragonite
+|drag|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+
+|
+|move|p2a: Aerodactyl|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|65/100 tox
+|cant|p1a: Gliscor|flinch
+|
+|-heal|p1a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+
+|
+|move|p1a: Gliscor|Knock Off|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|54/100
+|-enditem|p2a: Aerodactyl|Focus Sash|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Aerodactyl|Whirlwind|p1a: Gliscor
+|drag|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Aerodactyl|Whirlwind|p1a: Blaziken
+|drag|p1a: Mawile|Mawile, F|100/100
+|-damage|p1a: Mawile|95/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+
+|-message|raonar3033 forfeited.
+
+|
+|win|Hd012cq

@@ -1,0 +1,191 @@
+|init|battle
+|title|PiraTe Princess~ vs. arielrai
+|j|☆PiraTe Princess~
+|j|☆arielrai
+|player|p1|PiraTe Princess~|272|1680
+|player|p2|arielrai|293|1482
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Suicune|Suicune, L71|100/100
+|switch|p1b: Virizion|Virizion, L71|100/100
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L70|100/100
+|switch|p2b: Dugtrio|Dugtrio-Alola, L86, M|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arielrai)
+|inactive|arielrai has 120 seconds left.
+|
+|switch|p2b: Dedenne|Dedenne, L86, F|100/100
+|switch|p1b: Sawsbuck|Sawsbuck, L82, F|100/100
+|switch|p2a: Staraptor|Staraptor, L81, F|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Suicune|atk|1
+|-unboost|p1b: Sawsbuck|atk|1
+|move|p1a: Suicune|Tailwind|p1a: Suicune
+|-sidestart|p1: PiraTe Princess~|move: Tailwind
+|
+|upkeep
+|turn|2
+
+|inactive|PiraTe Princess~ has 120 seconds left.
+
+|inactive|PiraTe Princess~ has 90 seconds left.
+
+|
+|switch|p1b: Froslass|Froslass, L81, F|100/100
+|move|p1a: Suicune|Ice Beam|p2a: Staraptor
+|-supereffective|p2a: Staraptor
+|-damage|p2a: Staraptor|54/100
+|move|p2b: Dedenne|Nuzzle|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|88/100
+|-status|p1a: Suicune|par
+|move|p2a: Staraptor|Close Combat|p1b: Froslass
+|-immune|p1b: Froslass
+|
+|upkeep
+|turn|3
+
+|inactive|PiraTe Princess~ has 90 seconds left.
+
+|
+|switch|p2a: Volcanion|Volcanion, L70|100/100
+|move|p1b: Froslass|Ice Beam|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|91/100
+|move|p2b: Dedenne|Nuzzle|p1b: Froslass
+|-damage|p1b: Froslass|92/100
+|-start|p2b: Dedenne|Disable|Nuzzle|[from] ability: Cursed Body|[of] p1b: Froslass
+|-status|p1b: Froslass|par
+|move|p1a: Suicune|Hydro Pump|p2b: Dedenne
+|-damage|p2b: Dedenne|59/100
+|
+|upkeep
+|turn|4
+
+|inactive|PiraTe Princess~ has 90 seconds left.
+
+|
+|move|p1b: Froslass|Thunder Wave|p2a: Volcanion
+|-status|p2a: Volcanion|par
+|move|p2b: Dedenne|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|26/100 par
+|-enditem|p1a: Suicune|Sitrus Berry|[eat]
+|-heal|p1a: Suicune|50/100 par|[from] item: Sitrus Berry
+|cant|p1a: Suicune|par
+|move|p2a: Volcanion|Heat Wave|p1b: Froslass|[spread] p1a,p1b
+|-resisted|p1a: Suicune
+|-supereffective|p1b: Froslass
+|-damage|p1a: Suicune|35/100 par
+|-damage|p1b: Froslass|0 fnt
+|-start|p2a: Volcanion|Disable|Heat Wave|[from] ability: Cursed Body|[of] p1b: Froslass
+|-damage|p2a: Volcanion|82/100 par|[from] item: Life Orb
+|faint|p1b: Froslass
+|
+|-sideend|p1: PiraTe Princess~|move: Tailwind
+|upkeep
+
+|inactive|PiraTe Princess~ has 90 seconds left.
+
+|
+|switch|p1b: Virizion|Virizion, L71|100/100
+|turn|5
+
+|inactive|PiraTe Princess~ has 90 seconds left.
+
+|
+|switch|p1a: Sawsbuck|Sawsbuck, L82, F|100/100
+|move|p2b: Dedenne|Thunderbolt|p1a: Sawsbuck
+|-resisted|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|81/100
+|move|p1b: Virizion|Swords Dance|p1b: Virizion
+|-boost|p1b: Virizion|atk|2
+|move|p2a: Volcanion|Sludge Bomb|p1b: Virizion
+|-supereffective|p1b: Virizion
+|-damage|p1b: Virizion|49/100
+|-enditem|p1b: Virizion|Sitrus Berry|[eat]
+|-heal|p1b: Virizion|74/100|[from] item: Sitrus Berry
+|-damage|p2a: Volcanion|72/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+
+|inactive|PiraTe Princess~ has 90 seconds left.
+
+|
+|move|p2b: Dedenne|Hidden Power|p1a: Sawsbuck
+|-supereffective|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|46/100
+|move|p1a: Sawsbuck|Horn Leech|p2a: Volcanion
+|-damage|p2a: Volcanion|30/100 par
+|-heal|p1a: Sawsbuck|64/100|[from] drain|[of] p2a: Volcanion
+|-damage|p1a: Sawsbuck|54/100|[from] item: Life Orb
+|move|p1b: Virizion|Leaf Blade|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-end|p2b: Dedenne|Disable
+|upkeep
+
+|
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L81|100/100
+|turn|7
+
+|
+|move|p2b: Dedenne|Nuzzle|p1b: Virizion
+|-resisted|p1b: Virizion
+|-damage|p1b: Virizion|70/100
+|-status|p1b: Virizion|par
+|move|p2a: Necrozma|Flamethrower|p1a: Sawsbuck
+|-supereffective|p1a: Sawsbuck
+|-crit|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|0 fnt
+|-damage|p2a: Necrozma|90/100|[from] item: Life Orb
+|faint|p1a: Sawsbuck
+|move|p1b: Virizion|Leaf Blade|p2b: Dedenne
+|-damage|p2b: Dedenne|0 fnt
+|faint|p2b: Dedenne
+|
+|upkeep
+
+|
+|switch|p2b: Necrozma|Necrozma-Dawn-Wings, L70|100/100
+|switch|p1a: Kyurem|Kyurem-White, L70|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|8
+
+|
+|move|p2a: Necrozma|Focus Blast|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|17/100
+|-damage|p2a: Necrozma|80/100|[from] item: Life Orb
+|move|p1a: Kyurem|Ice Beam|p2b: Necrozma
+|-damage|p2b: Necrozma|60/100
+|move|p2b: Necrozma|Heat Wave|p1b: Virizion|[spread] p1a,p1b
+|-supereffective|p1b: Virizion
+|-damage|p1a: Kyurem|0 fnt
+|-damage|p1b: Virizion|33/100 par
+|faint|p1a: Kyurem
+|move|p1b: Virizion|Close Combat|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|replace|p2a: Zoroark|Zoroark, L81, F
+|-end|p2a: Zoroark|Illusion
+|-unboost|p1b: Virizion|def|1
+|-unboost|p1b: Virizion|spd|1
+|faint|p2a: Zoroark
+|
+|upkeep
+
+|-message|PiraTe Princess~ forfeited.
+
+|
+|win|arielrai

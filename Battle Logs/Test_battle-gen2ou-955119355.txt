@@ -1,0 +1,484 @@
+|init|battle
+|title|zebo1212 vs. Indra Last
+|j|☆zebo1212
+|j|☆Indra Last
+|player|p1|zebo1212|175|1039
+|player|p2|Indra Last|169|1091
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Marowak|Marowak, M|100/100
+|turn|1
+
+|j| Hidol
+
+|
+|move|p1a: Smeargle|Spore|p2a: Marowak
+|-status|p2a: Marowak|slp|[from] move: Spore
+|cant|p2a: Marowak|slp
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Smeargle|Spikes|p2a: Marowak
+|-sidestart|p2: Indra Last|Spikes
+|cant|p2a: Marowak|slp
+|
+|upkeep
+|turn|3
+
+|j| Snoop Croc
+
+|l| Snoop Croc
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Indra Last)
+
+|
+|move|p1a: Smeargle|Leech Seed|p2a: Marowak
+|-start|p2a: Marowak|move: Leech Seed
+|cant|p2a: Marowak|slp
+|-damage|p2a: Marowak|88/100 slp|[from] Leech Seed|[of] p1a: Smeargle
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Spikes
+|
+|-heal|p2a: Heracross|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|j| Snoop Croc
+
+|
+|move|p2a: Heracross|Megahorn|p1a: Machamp
+|-resisted|p1a: Machamp
+|-damage|p1a: Machamp|75/100
+|move|p1a: Machamp|Curse|p1a: Machamp
+|-unboost|p1a: Machamp|spe|1
+|-boost|p1a: Machamp|atk|1
+|-boost|p1a: Machamp|def|1
+|
+|-heal|p2a: Heracross|99/100|[from] item: Leftovers
+|-heal|p1a: Machamp|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|j| Tomyris
+
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Machamp|Metronome|p1a: Machamp
+|move|p1a: Machamp|Sonic Boom|p2a: Skarmory|[from]Metronome|[miss]
+|-miss|p1a: Machamp
+|
+|-heal|p1a: Machamp|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Skarmory|Drill Peck|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|54/100
+|move|p1a: Machamp|Cross Chop|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100
+|
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|-heal|p1a: Machamp|60/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Skarmory|Drill Peck|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|24/100
+|move|p1a: Machamp|Cross Chop|p2a: Skarmory|[miss]
+|-miss|p1a: Machamp
+|
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|-heal|p1a: Machamp|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|move|p2a: Skarmory|Drill Peck|p1a: Kingdra
+|-damage|p1a: Kingdra|76/100
+|
+|-heal|p1a: Kingdra|83/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Kingdra|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|30/100
+|move|p2a: Skarmory|Toxic|p1a: Kingdra
+|-status|p1a: Kingdra|tox
+|
+|-heal|p1a: Kingdra|89/100 tox|[from] item: Leftovers
+|-heal|p2a: Skarmory|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Heracross|Heracross, M|99/100
+|-damage|p2a: Heracross|88/100|[from] Spikes
+|move|p1a: Kingdra|Surf|p2a: Heracross
+|-damage|p2a: Heracross|58/100
+|-damage|p1a: Kingdra|83/100 tox|[from] psn
+|
+|-heal|p1a: Kingdra|89/100 tox|[from] item: Leftovers
+|-heal|p2a: Heracross|64/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Kingdra|Surf|p2a: Heracross
+|-damage|p2a: Heracross|32/100
+|-damage|p1a: Kingdra|76/100 tox|[from] psn
+|move|p2a: Heracross|Megahorn|p1a: Kingdra
+|-damage|p1a: Kingdra|27/100 tox
+|
+|-heal|p1a: Kingdra|34/100 tox|[from] item: Leftovers
+|-heal|p2a: Heracross|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Heracross|Rest|p2a: Heracross
+|-status|p2a: Heracross|slp|[from] move: Rest
+|-heal|p2a: Heracross|100/100 slp|[silent]
+|move|p1a: Kingdra|Surf|p2a: Heracross
+|-damage|p2a: Heracross|68/100 slp
+|-damage|p1a: Kingdra|15/100 tox|[from] psn
+|
+|-heal|p1a: Kingdra|21/100 tox|[from] item: Leftovers
+|-heal|p2a: Heracross|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|zebo1212 has 120 seconds left.
+
+|
+|move|p1a: Kingdra|Surf|p2a: Heracross
+|-damage|p2a: Heracross|44/100 slp
+|-damage|p1a: Kingdra|0 fnt|[from] psn
+|faint|p1a: Kingdra
+
+|inactive|zebo1212 has 120 seconds left.
+
+|
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|
+|-heal|p2a: Heracross|50/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Rest|p2a: Heracross|[from]Sleep Talk
+|-status|p2a: Heracross|slp|[from] move: Rest
+|-heal|p2a: Heracross|100/100 slp|[silent]
+|move|p1a: Smeargle|Leech Seed|p2a: Heracross
+|-start|p2a: Heracross|move: Leech Seed
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Skarmory|Skarmory, M|36/100
+|switch|p1a: Seadra|Seadra, M|100/100
+|
+|-heal|p2a: Skarmory|42/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|c|☆Indra Last|wtf!
+
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+
+|c|☆zebo1212|too bad!
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Seadra|Smokescreen|p2a: Snorlax
+|-unboost|p2a: Snorlax|accuracy|1
+|move|p2a: Snorlax|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|67/100
+|-status|p1a: Seadra|par
+|
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Snorlax|Earthquake|p1a: Seadra
+|-damage|p1a: Seadra|39/100 par
+|move|p1a: Seadra|Smokescreen|p2a: Snorlax
+|-unboost|p2a: Snorlax|accuracy|1
+|
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Heracross|Heracross, M|100/100 slp
+|-damage|p2a: Heracross|88/100 slp|[from] Spikes
+|move|p1a: Seadra|Octazooka|p2a: Heracross
+|-damage|p2a: Heracross|65/100 slp
+|
+|-heal|p2a: Heracross|71/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Megahorn|p1a: Seadra|[from]Sleep Talk
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+
+|
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|
+|-heal|p2a: Heracross|77/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Rest|p2a: Heracross|[from]Sleep Talk
+|-status|p2a: Heracross|slp|[from] move: Rest
+|-heal|p2a: Heracross|100/100 slp|[silent]
+|move|p1a: Smeargle|Leech Seed|p2a: Heracross
+|-start|p2a: Heracross|move: Leech Seed
+|
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|move|p1a: Smeargle|Sacred Fire|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|80/100
+|
+|-heal|p2a: Tyranitar|86/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Smeargle|Sacred Fire|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|82/100
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|Rock Slide|p1a: Smeargle|[miss]
+|-miss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100 brn|[from] brn|[of] p1a: Smeargle
+|
+|-heal|p2a: Tyranitar|76/100 brn|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Smeargle|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|move|p2a: Tyranitar|Curse|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|spe|1
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|def|1
+|-damage|p2a: Tyranitar|63/100 brn|[from] brn|[of] p1a: Smeargle
+|-damage|p2a: Tyranitar|51/100 brn|[from] Leech Seed|[of] p1a: Smeargle
+|
+|-heal|p2a: Tyranitar|57/100 brn|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Ditto|Ditto|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Ditto
+|-damage|p1a: Ditto|75/100
+|-damage|p2a: Tyranitar|45/100 brn|[from] brn|[of] p1a: Ditto
+|-damage|p2a: Tyranitar|32/100 brn|[from] Leech Seed|[of] p1a: Ditto
+|-heal|p1a: Ditto|91/100|[silent]
+|
+|-heal|p2a: Tyranitar|38/100 brn|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Ditto|Transform|p2a: Tyranitar
+|-transform|p1a: Ditto|p2a: Tyranitar
+|move|p2a: Tyranitar|Earthquake|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|71/100
+|-damage|p2a: Tyranitar|26/100 brn|[from] brn|[of] p1a: Ditto
+|-damage|p2a: Tyranitar|14/100 brn|[from] Leech Seed|[of] p1a: Ditto
+|-heal|p1a: Ditto|88/100|[silent]
+|
+|-heal|p2a: Tyranitar|20/100 brn|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|c|☆Indra Last|lol
+
+|c|☆Indra Last|ditto copy stadist!
+
+|
+|move|p1a: Ditto|Rock Slide|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+
+|
+|switch|p2a: Heracross|Heracross, M|100/100 slp
+|-damage|p2a: Heracross|88/100 slp|[from] Spikes
+|
+|-heal|p2a: Heracross|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Rest|p2a: Heracross|[from]Sleep Talk
+|-status|p2a: Heracross|slp|[from] move: Rest
+|-heal|p2a: Heracross|100/100 slp|[silent]
+|move|p1a: Ditto|Rock Slide|p2a: Heracross
+|-damage|p2a: Heracross|44/100 slp
+|
+|-heal|p2a: Heracross|50/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Megahorn|p1a: Ditto|[from]Sleep Talk
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|43/100
+|move|p1a: Ditto|Rock Slide|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+
+|
+|switch|p2a: Marowak|Marowak, M|88/100 slp
+|-damage|p2a: Marowak|76/100 slp|[from] Spikes
+|
+|upkeep
+|turn|31
+
+|
+|cant|p2a: Marowak|slp
+|move|p1a: Ditto|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|35/100 slp
+|
+|upkeep
+|turn|32
+
+|
+|cant|p2a: Marowak|slp
+|move|p1a: Ditto|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|move|p1a: Ditto|Curse|p1a: Ditto
+|-unboost|p1a: Ditto|spe|1
+|-boost|p1a: Ditto|atk|1
+|-boost|p1a: Ditto|def|1
+|
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p1a: Ditto|Rock Slide|p2a: Snorlax
+|-damage|p2a: Snorlax|67/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|73/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p1a: Ditto|Rock Slide|p2a: Snorlax
+|-damage|p2a: Snorlax|44/100
+|move|p2a: Snorlax|Earthquake|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|4/100
+|
+|-heal|p2a: Snorlax|50/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|move|p1a: Ditto|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|26/100
+|move|p2a: Snorlax|Body Slam|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+
+|
+|switch|p1a: Machamp|Machamp, M|30/100
+|
+|-heal|p1a: Machamp|36/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|32/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|move|p1a: Machamp|Cross Chop|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+
+|-message|Indra Last forfeited.
+
+|
+|win|zebo1212

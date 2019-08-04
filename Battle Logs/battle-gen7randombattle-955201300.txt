@@ -1,0 +1,147 @@
+|init|battle
+|title|Pakshal511 vs. vinsmoke ben
+|j|☆Pakshal511
+|j|☆vinsmoke ben
+|player|p1|Pakshal511|1|1162
+|player|p2|vinsmoke ben|180|1154
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L88, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vinsmoke ben)
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Dodrio|Knock Off|p2a: Kyogre
+|-damage|p2a: Kyogre|58/100
+|-enditem|p2a: Kyogre|Choice Scarf|[from] move: Knock Off|[of] p1a: Dodrio
+|-damage|p1a: Dodrio|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Pakshal511 has 120 seconds left.
+|
+|switch|p1a: Drapion|Drapion, L84, F|100/100
+|move|p2a: Kyogre|Ice Beam|p1a: Drapion
+|-damage|p1a: Drapion|63/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p1a: Drapion|Poison Jab|p2a: Kyogre
+|-damage|p2a: Kyogre|20/100
+|-status|p2a: Kyogre|psn
+|-damage|p1a: Drapion|53/100|[from] item: Life Orb
+|move|p2a: Kyogre|Scald|p1a: Drapion
+|-crit|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|8/100 psn|[from] psn
+|upkeep
+
+|inactive|Pakshal511 has 120 seconds left.
+
+|
+|switch|p1a: Type: Null|Type: Null, L89|100/100
+|turn|4
+
+|
+|move|p2a: Kyogre|Scald|p1a: Type: Null
+|-damage|p1a: Type: Null|69/100
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|0 fnt|[from] psn
+|faint|p2a: Kyogre
+|upkeep
+
+|
+|switch|p2a: Weezing|Weezing, L86, M|100/100
+|turn|5
+
+|
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|move|p2a: Weezing|Toxic Spikes|p1a: Type: Null
+|-sidestart|p1: Pakshal511|move: Toxic Spikes
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p1a: Type: Null|Return|p2a: Weezing
+|-damage|p2a: Weezing|2/100
+|move|p2a: Weezing|Toxic Spikes|p1a: Type: Null
+|-sidestart|p1: Pakshal511|move: Toxic Spikes
+|
+|-heal|p2a: Weezing|8/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Type: Null|Return|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-heal|p2a: Weezing|14/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|move|p1a: Type: Null|Return|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, L84, M|100/100
+|turn|9
+
+|
+|move|p2a: Noivern|Boomburst|p1a: Type: Null
+|-damage|p1a: Type: Null|43/100
+|-damage|p2a: Noivern|91/100|[from] item: Life Orb
+|move|p1a: Type: Null|Return|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert, L80, F|100/100
+|turn|10
+
+|
+|detailschange|p2a: Swampert|Swampert-Mega, L80, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Rain Dance|p2a: Swampert
+|-weather|RainDance
+|move|p1a: Type: Null|Return|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|-message|vinsmoke ben forfeited.
+
+|
+|win|Pakshal511

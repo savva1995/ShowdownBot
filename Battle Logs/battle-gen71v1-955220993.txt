@@ -1,0 +1,44 @@
+|init|battle
+|title|zadocfish3 vs. Chupiruleta
+|j|☆zadocfish3
+|j|☆Chupiruleta
+|player|p1|zadocfish3|10|1451
+|player|p2|Chupiruleta|12|1385
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Slaking, F|item
+|poke|p1|Azumarill, F|item
+|poke|p1|Talonflame, M|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Charizard, F|item
+|teampreview|1
+|
+|start
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|1
+|
+|-zpower|p2a: Tapu Lele
+|move|p2a: Tapu Lele|Shattered Psyche|p1a: Azumarill|[zeffect]
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|win|Chupiruleta
+|l|☆zadocfish3
+|raw|zadocfish3's rating: 1451 &rarr; <strong>1427</strong><br />(-24 for losing)
+|raw|Chupiruleta's rating: 1385 &rarr; <strong>1409</strong><br />(+24 for winning)

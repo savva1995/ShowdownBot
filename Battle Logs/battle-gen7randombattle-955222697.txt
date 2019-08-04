@@ -1,0 +1,450 @@
+|init|battle
+|title|StarOutlaw vs. nnothisispatrick
+|j|☆StarOutlaw
+|j|☆nnothisispatrick
+|player|p1|StarOutlaw|156|1786
+|player|p2|nnothisispatrick|246|1813
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowking|Slowking, L86, F|100/100
+|switch|p2a: Swalot|Swalot, L89, F|100/100
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, M|100/100
+|move|p1a: Slowking|Nasty Plot|p1a: Slowking
+|-boost|p1a: Slowking|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Slowking|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|15/100
+|
+|-heal|p1a: Slowking|21/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Jirachi|Jirachi, L80|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|57/100
+|-enditem|p1a: Jirachi|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ferrothorn|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|29/100
+|
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Galvantula|Galvantula, L84, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Galvantula
+|-damage|p1a: Galvantula|67/100
+|-enditem|p1a: Galvantula|Life Orb|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Galvantula|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Ferrothorn
+|-sidestart|p2: nnothisispatrick|move: Sticky Web
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|61/100
+|
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|
+|switch|p1a: Slowking|Slowking, L86, F|54/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|12/100
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Jirachi|Jirachi, L80|29/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|4/100
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ferrothorn|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Galvantula|Galvantula, L84, M|61/100
+|turn|10
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Galvantula|Thunder|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Galvantula|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|11
+|
+|move|p1a: Galvantula|Thunder|p2a: Ferrothorn|[miss]
+|-miss|p1a: Galvantula|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|62/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Galvantula|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|82/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|22/100
+|
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Galvantula|Thunder|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nnothisispatrick)
+
+|
+|switch|p1a: Musharna|Musharna, L89, M|100/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Knock Off|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|69/100
+|-enditem|p1a: Musharna|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Gengar|Gengar, L78, M|100/100
+|-activate|p2a: Gengar|move: Sticky Web
+|-unboost|p2a: Gengar|spe|1
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|upkeep
+|turn|16
+
+|
+|detailschange|p2a: Gengar|Gengar-Mega, L78, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Musharna|Psyshock|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Gengar|Disable|p1a: Musharna
+|-start|p1a: Musharna|Disable|Psyshock
+|cant|p1a: Musharna|Disable|Psyshock
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|31/100
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|faint|p1a: Musharna
+|
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|atk|1
+|turn|20
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, M|87/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|-zpower|p1a: Porygon-Z
+|move|p1a: Porygon-Z|Z-Conversion|p1a: Porygon-Z|[anim]Conversion
+|-boost|p1a: Porygon-Z|atk|1|[zeffect]
+|-boost|p1a: Porygon-Z|def|1|[zeffect]
+|-boost|p1a: Porygon-Z|spa|1|[zeffect]
+|-boost|p1a: Porygon-Z|spd|1|[zeffect]
+|-boost|p1a: Porygon-Z|spe|1|[zeffect]
+|-start|p1a: Porygon-Z|typechange|Electric
+|
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|72/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|68/100
+|
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|57/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|36/100
+|
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Porygon-Z|Recover|p1a: Porygon-Z
+|-heal|p1a: Porygon-Z|86/100
+|
+|-heal|p2a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|inactive|nnothisispatrick has 120 seconds left.
+
+|
+|switch|p2a: Cloyster|Cloyster, L84, M|100/100
+|-activate|p2a: Cloyster|move: Sticky Web
+|-unboost|p2a: Cloyster|spe|1
+|-enditem|p2a: Cloyster|White Herb
+|-clearnegativeboost|p2a: Cloyster|[silent]
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+
+|
+|switch|p2a: Swalot|Swalot, L89, F|100/100
+|-activate|p2a: Swalot|move: Sticky Web
+|-unboost|p2a: Swalot|spe|1
+|turn|27
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Swalot
+|-damage|p2a: Swalot|48/100
+|move|p2a: Swalot|Yawn|p1a: Porygon-Z
+|-start|p1a: Porygon-Z|move: Yawn|[of] p2a: Swalot
+|
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, M|68/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|42/100
+|
+|-heal|p2a: Ferrothorn|48/100|[from] item: Leftovers
+|-end|p1a: Porygon-Z|move: Yawn|[silent]
+|-status|p1a: Porygon-Z|slp
+|upkeep
+|turn|29
+
+|
+|switch|p2a: Gengar|Gengar-Mega, L78, M|100/100
+|-activate|p2a: Gengar|move: Sticky Web
+|-unboost|p2a: Gengar|spe|1
+|cant|p1a: Porygon-Z|slp
+|
+|upkeep
+|turn|30
+
+|
+|cant|p1a: Porygon-Z|slp
+|move|p2a: Gengar|Shadow Ball|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|52/100 slp
+|
+|upkeep
+|turn|31
+
+|
+|-curestatus|p1a: Porygon-Z|slp|[msg]
+|move|p1a: Porygon-Z|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|5/100
+|move|p2a: Gengar|Shadow Ball|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|20/100
+|
+|upkeep
+|turn|32
+
+|
+|move|p1a: Porygon-Z|Recover|p1a: Porygon-Z
+|-heal|p1a: Porygon-Z|70/100
+|move|p2a: Gengar|Disable|p1a: Porygon-Z
+|-start|p1a: Porygon-Z|Disable|Recover
+|
+|upkeep
+|turn|33
+
+|
+|move|p1a: Porygon-Z|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Meloetta|Meloetta, L83|100/100
+|-activate|p2a: Meloetta|move: Sticky Web
+|-unboost|p2a: Meloetta|spe|1
+|turn|34
+
+|
+|move|p1a: Porygon-Z|Shadow Ball|p2a: Meloetta
+|-immune|p2a: Meloetta
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|
+|upkeep
+|turn|35
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Meloetta
+|-damage|p2a: Meloetta|73/100
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|
+|-heal|p2a: Meloetta|79/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Meloetta
+|-damage|p2a: Meloetta|59/100
+|move|p2a: Meloetta|Hyper Voice|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|4/100
+|
+|-heal|p2a: Meloetta|65/100|[from] item: Leftovers
+|-end|p1a: Porygon-Z|Disable
+|upkeep
+|turn|37
+
+|
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Meloetta
+|-damage|p2a: Meloetta|42/100
+|move|p2a: Meloetta|Hyper Voice|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|-heal|p2a: Meloetta|48/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Slowking|Slowking, L86, F|45/100
+|turn|38
+
+|
+|move|p2a: Meloetta|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: Meloetta|54/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Aromatisse|Aromatisse, L87, M|100/100
+|turn|39
+
+|-message|StarOutlaw forfeited.
+
+|
+|win|nnothisispatrick

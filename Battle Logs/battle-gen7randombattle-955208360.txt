@@ -1,0 +1,406 @@
+|init|battle
+|title|kakaruto vs. alcubierre47
+|j|☆kakaruto
+|j|☆alcubierre47
+|player|p1|kakaruto|265|1568
+|player|p2|alcubierre47|101|1541
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Deoxys|Deoxys, L78|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Fake Out|p1a: Deoxys
+|-damage|p1a: Deoxys|64/100
+|-damage|p1a: Deoxys|54/100
+|-hitcount|p1a: Deoxys|2
+|cant|p1a: Deoxys|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Kangaskhan|Sucker Punch||[still]
+|-fail|p2a: Kangaskhan
+|move|p1a: Deoxys|Stealth Rock|p2a: Kangaskhan
+|-sidestart|p2: alcubierre47|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, M|100/100
+|move|p2a: Kangaskhan|Return|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100
+|-damage|p2a: Kangaskhan|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|-damage|p2a: Kangaskhan|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-hitcount|p1a: Ferrothorn|2
+|
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Chandelure|Chandelure, L82, F|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Chandelure
+|-sidestart|p2: alcubierre47|Spikes
+|
+|-heal|p2a: Chandelure|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Crustle|Crustle, L89, M|100/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Crustle
+|-damage|p1a: Crustle|56/100
+|
+|-heal|p2a: Chandelure|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|-heal|p2a: Chandelure|94/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Scrafty|Scrafty, L86, F|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Chandelure|atk|1
+|turn|7
+
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L89, M|100/100
+|-damage|p2a: Wigglytuff|88/100|[from] Stealth Rock
+|-damage|p2a: Wigglytuff|76/100|[from] Spikes
+|move|p1a: Scrafty|Knock Off|p2a: Wigglytuff
+|-resisted|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|55/100
+|-enditem|p2a: Wigglytuff|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Dodrio|Dodrio, L88, F|100/100
+|move|p2a: Wigglytuff|Stealth Rock|p1a: Dodrio
+|-sidestart|p1: kakaruto|move: Stealth Rock
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Wigglytuff|Protect|p2a: Wigglytuff
+|-singleturn|p2a: Wigglytuff|Protect
+|move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+|-boost|p1a: Dodrio|atk|2
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Wigglytuff|Protect|p2a: Wigglytuff
+|-singleturn|p2a: Wigglytuff|Protect
+|move|p1a: Dodrio|Return|p2a: Wigglytuff
+|-activate|p2a: Wigglytuff|move: Protect
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L85, F|100/100
+|-damage|p2a: Cofagrigus|88/100|[from] Spikes
+|-damage|p2a: Cofagrigus|76/100|[from] Stealth Rock
+|move|p1a: Dodrio|Return|p2a: Cofagrigus
+|-immune|p2a: Cofagrigus
+|
+|-heal|p2a: Cofagrigus|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Dodrio|Knock Off|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-activate|p2a: Cofagrigus|ability: Mummy|Early Bird|[of] p1a: Dodrio
+|-enditem|p2a: Cofagrigus|Leftovers|[from] move: Knock Off|[of] p1a: Dodrio
+|faint|p2a: Cofagrigus
+|
+|upkeep
+
+|
+|switch|p2a: Gallade|Gallade, L87, M|100/100
+|-damage|p2a: Gallade|88/100|[from] Spikes
+|-damage|p2a: Gallade|82/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, M|89/100
+|-damage|p1a: Ferrothorn|83/100|[from] Stealth Rock
+|move|p2a: Gallade|Ice Punch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100
+|-damage|p2a: Gallade|70/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Chandelure|Chandelure, L82, F|94/100
+|-damage|p2a: Chandelure|81/100|[from] Spikes
+|-damage|p2a: Chandelure|56/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|33/100
+|
+|-heal|p2a: Chandelure|39/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Scrafty|Scrafty, L86, F|100/100
+|-damage|p1a: Scrafty|95/100|[from] Stealth Rock
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Chandelure|atk|1
+|move|p2a: Chandelure|Fire Blast|p1a: Scrafty
+|-damage|p1a: Scrafty|49/100
+|
+|-heal|p2a: Chandelure|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Scrafty|[miss]
+|-miss|p2a: Chandelure|p1a: Scrafty
+|move|p1a: Scrafty|Rest|p1a: Scrafty
+|-status|p1a: Scrafty|slp|[from] move: Rest
+|-heal|p1a: Scrafty|100/100 slp|[silent]
+|-enditem|p1a: Scrafty|Chesto Berry|[eat]
+|-curestatus|p1a: Scrafty|slp|[msg]
+|
+|-heal|p2a: Chandelure|51/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Scrafty
+|-damage|p1a: Scrafty|56/100
+|move|p1a: Scrafty|Knock Off|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-enditem|p2a: Chandelure|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+|faint|p2a: Chandelure
+|
+|upkeep
+
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L89, M|55/100
+|-damage|p2a: Wigglytuff|43/100|[from] Spikes
+|-damage|p2a: Wigglytuff|30/100|[from] Stealth Rock
+|turn|18
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, L80, M|63/100
+|-damage|p1a: Ferrothorn|57/100|[from] Stealth Rock
+|move|p2a: Wigglytuff|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100
+|
+|-heal|p1a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Gallade|Gallade, L87, M|70/100
+|-damage|p2a: Gallade|64/100|[from] Stealth Rock
+|-damage|p2a: Gallade|51/100|[from] Spikes
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-heal|p1a: Ferrothorn|55/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan-Mega, L78, F|76/100
+|-damage|p2a: Kangaskhan|64/100|[from] Spikes
+|-damage|p2a: Kangaskhan|51/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|33/100
+|-damage|p1a: Ferrothorn|27/100
+|-hitcount|p1a: Ferrothorn|2
+|move|p1a: Ferrothorn|Spikes|p2a: Kangaskhan
+|-sidestart|p2: alcubierre47|Spikes
+|
+|-heal|p1a: Ferrothorn|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|10/100
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|1/100
+|-hitcount|p1a: Ferrothorn|2
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|8/100
+|
+|-heal|p1a: Ferrothorn|7/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-hitcount|p1a: Ferrothorn|1
+|faint|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys, L78|54/100
+|-damage|p1a: Deoxys|42/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|turn|23
+
+|
+|move|p1a: Deoxys|Extreme Speed|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L89, M|30/100
+|-damage|p2a: Wigglytuff|14/100|[from] Spikes
+|-damage|p2a: Wigglytuff|1/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Deoxys|Extreme Speed|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|-damage|p2a: Solgaleo|94/100|[from] Stealth Rock
+|-damage|p2a: Solgaleo|78/100|[from] Spikes
+|turn|25
+
+|
+|move|p1a: Deoxys|Knock Off|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|30/100
+|-enditem|p2a: Solgaleo|Leftovers|[from] move: Knock Off|[of] p1a: Deoxys
+|move|p2a: Solgaleo|Morning Sun|p2a: Solgaleo
+|-heal|p2a: Solgaleo|80/100
+|
+|upkeep
+|turn|26
+
+|l|☆kakaruto
+
+|player|p1|
+
+|j|☆kakaruto
+
+|player|p1|kakaruto|265
+
+|
+|move|p1a: Deoxys|Knock Off|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|49/100
+|move|p2a: Solgaleo|Morning Sun|p2a: Solgaleo
+|-heal|p2a: Solgaleo|99/100
+|
+|upkeep
+|turn|27
+
+|
+|switch|p1a: Scrafty|Scrafty, L86, F|56/100
+|-damage|p1a: Scrafty|50/100|[from] Stealth Rock
+|-ability|p1a: Scrafty|Intimidate|boost
+|-fail|p2a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2a: Solgaleo
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Scrafty
+|-damage|p1a: Scrafty|9/100
+|
+|upkeep
+|turn|28
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|-damage|p1a: Porygon-Z|88/100|[from] Stealth Rock
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|29
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|28/100
+|-zpower|p1a: Porygon-Z
+|move|p1a: Porygon-Z|Z-Conversion|p1a: Porygon-Z|[anim]Conversion
+|-boost|p1a: Porygon-Z|atk|1|[zeffect]
+|-boost|p1a: Porygon-Z|def|1|[zeffect]
+|-boost|p1a: Porygon-Z|spa|1|[zeffect]
+|-boost|p1a: Porygon-Z|spd|1|[zeffect]
+|-boost|p1a: Porygon-Z|spe|1|[zeffect]
+|-start|p1a: Porygon-Z|typechange|Ghost
+|
+|upkeep
+|turn|30
+
+|
+|move|p1a: Porygon-Z|Recover|p1a: Porygon-Z
+|-heal|p1a: Porygon-Z|78/100
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|39/100
+|
+|upkeep
+|turn|31
+
+|
+|move|p1a: Porygon-Z|Recover|p1a: Porygon-Z
+|-heal|p1a: Porygon-Z|89/100
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|52/100
+|
+|upkeep
+|turn|32
+
+|
+|move|p1a: Porygon-Z|Shadow Ball|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|0 fnt
+|faint|p2a: Solgaleo
+|
+|win|kakaruto

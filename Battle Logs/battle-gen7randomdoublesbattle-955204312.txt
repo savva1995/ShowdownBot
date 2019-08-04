@@ -1,0 +1,44 @@
+|init|battle
+|title|Thor Storm breaker vs. Reyokai
+|j|☆Thor Storm breaker
+|j|☆Reyokai
+|player|p1|Thor Storm breaker|290|1122
+|player|p2|Reyokai|30|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Incineroar|Incineroar, L76, M|100/100
+|switch|p1b: Ditto|Ditto, L99|100/100
+|switch|p2a: Hitmonlee|Hitmonlee, L84, M|100/100
+|switch|p2b: Doublade|Doublade, L75, M|100/100
+|-transform|p1b: Ditto|p2a: Hitmonlee|[from] ability: Imposter
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hitmonlee|atk|1
+|-unboost|p2b: Doublade|atk|1
+|turn|1
+|j| maxpyro
+|
+|move|p1b: Ditto|Fake Out|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|75/100
+|cant|p2a: Hitmonlee|flinch
+|move|p1a: Incineroar|Flare Blitz|p2b: Doublade
+|-supereffective|p2b: Doublade
+|-damage|p2b: Doublade|47/100
+|-damage|p1a: Incineroar|86/100|[from] Recoil
+|move|p2b: Doublade|Sacred Sword|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|55/100
+|
+|upkeep
+|turn|2
+
+|-message|Thor Storm breaker forfeited.
+
+|
+|win|Reyokai

@@ -1,0 +1,252 @@
+|init|battle
+|title|Mypha vs. xdawg99
+|j|☆Mypha
+|j|☆xdawg99
+|player|p1|Mypha|169|1065
+|player|p2|xdawg99|250|1187
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Heat|item
+|poke|p1|Scizor, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Zeraora|item
+|poke|p1|Swampert, M|item
+|poke|p1|Pidgeot, F|item
+|poke|p2|Mimikyu, F|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Klefki, F|item
+|poke|p2|Entei|item
+|poke|p2|Feraligatr, F|item
+|poke|p2|Manectric, F|item
+|teampreview
+|
+|start
+|switch|p1a: Zeraora|Zeraora|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Zeraora
+|-damage|p1a: Zeraora|12/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Zeraora|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|76/100
+|-enditem|p2a: Hydreigon|Choice Scarf|[from] move: Knock Off|[of] p1a: Zeraora
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Hydreigon|Earth Power|p1a: Swampert
+|-damage|p1a: Swampert|86/100
+|
+|-heal|p1a: Swampert|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|U-turn|p1a: Swampert
+|-damage|p1a: Swampert|83/100
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100|[from]move: U-turn
+|move|p1a: Swampert|Stealth Rock|p2a: Mimikyu
+|-sidestart|p2: xdawg99|move: Stealth Rock
+|
+|-heal|p1a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Mimikyu|Wood Hammer|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-damage|p2a: Mimikyu|53/100|[from] Recoil
+|faint|p1a: Swampert
+|
+|-heal|p2a: Mimikyu|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|5
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Mimikyu
+|-crit|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|59/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|move|p2a: Mimikyu|Shadow Claw|p1a: Scizor
+|-damage|p1a: Scizor|72/100
+|
+|-heal|p2a: Mimikyu|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|-damage|p2a: Manectric|88/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Manectric
+|-resisted|p2a: Manectric
+|-damage|p2a: Manectric|58/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|detailschange|p2a: Manectric|Manectric-Mega, F
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|move|p2a: Manectric|Flamethrower|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|84/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Manectric|Volt Switch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|64/100
+
+|
+|switch|p2a: Entei|Entei, shiny|100/100|[from]move: Volt Switch
+|-damage|p2a: Entei|76/100|[from] Stealth Rock
+|-ability|p2a: Entei|Pressure
+|move|p1a: Rotom|Toxic|p2a: Entei
+|-status|p2a: Entei|tox
+|
+|-damage|p2a: Entei|70/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Entei|Stone Edge|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Entei|60/100 tox|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-damage|p2a: Entei|47/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Pidgeot|Pidgeot, F|100/100
+|turn|10
+
+|
+|detailschange|p1a: Pidgeot|Pidgeot-Mega, F
+|-mega|p1a: Pidgeot|Pidgeot|Pidgeotite
+|move|p1a: Pidgeot|Hurricane|p2a: Entei
+|-crit|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric-Mega, F|58/100
+|-damage|p2a: Manectric|46/100|[from] Stealth Rock
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Pidgeot|atk|1
+|turn|11
+
+|
+|move|p2a: Manectric|Hidden Power|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|45/100
+|move|p1a: Pidgeot|Hurricane|p2a: Manectric
+|-resisted|p2a: Manectric
+|-damage|p2a: Manectric|3/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Scizor|Scizor, F|72/100
+|move|p2a: Manectric|Volt Switch|p1a: Scizor
+|-damage|p1a: Scizor|42/100
+
+|
+|switch|p2a: Klefki|Klefki, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Klefki|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Klefki|Switcheroo|p1a: Scizor
+|-activate|p2a: Klefki|move: Trick|[of] p1a: Scizor
+|-item|p1a: Scizor|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Klefki|Assault Vest|[from] move: Switcheroo
+|move|p1a: Scizor|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|73/100
+|-enditem|p2a: Klefki|Assault Vest|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Pidgeot|Pidgeot-Mega, F|45/100
+|move|p2a: Klefki|Defog|p1a: Pidgeot
+|-unboost|p1a: Pidgeot|evasion|1
+|-sideend|p2: xdawg99|Stealth Rock|[from] move: Defog|[of] p2a: Klefki
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Klefki|Toxic|p1a: Pidgeot
+|-status|p1a: Pidgeot|tox
+|move|p1a: Pidgeot|Roost|p1a: Pidgeot
+|-heal|p1a: Pidgeot|95/100 tox
+|-singleturn|p1a: Pidgeot|move: Roost
+|
+|-damage|p1a: Pidgeot|89/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Pidgeot|Heat Wave|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-damage|p1a: Pidgeot|77/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric-Mega, F|3/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Pidgeot|atk|1
+|turn|17
+
+|
+|move|p2a: Manectric|Volt Switch|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, F|65/100|[from]move: Volt Switch
+|
+|-heal|p2a: Mimikyu|71/100|[from] item: Leftovers
+|upkeep
+
+|-message|Mypha forfeited.
+
+|
+|win|xdawg99

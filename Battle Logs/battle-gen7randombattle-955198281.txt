@@ -1,0 +1,290 @@
+|init|battle
+|title|jumameco vs. Wildtachaka
+|j|☆jumameco
+|j|☆Wildtachaka
+|player|p1|jumameco|269|1365
+|player|p2|Wildtachaka|257|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pyroar|Pyroar, L87, M|100/100
+|switch|p2a: Cloyster|Cloyster, L83, F|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Wildtachaka
+|turn|1
+|
+|move|p1a: Pyroar|Hyper Voice|p2a: Cloyster
+|-damage|p2a: Cloyster|40/100
+|replace|p2a: Zoroark|Zoroark, L83, F
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Sludge Bomb|p1a: Pyroar
+|-damage|p1a: Pyroar|70/100
+|-status|p1a: Pyroar|psn
+|
+|-damage|p1a: Pyroar|58/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p2a: Doublade|Doublade, L82, M|100/100
+|move|p1a: Pyroar|Hyper Voice|p2a: Doublade
+|-immune|p2a: Doublade
+|
+|-damage|p1a: Pyroar|46/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Pyroar|Sunny Day|p1a: Pyroar
+|-weather|SunnyDay
+|move|p2a: Doublade|Sacred Sword|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, F|100/100
+|turn|4
+
+|
+|switch|p2a: Cloyster|Cloyster, L84, F|100/100
+|move|p1a: Mudsdale|Stealth Rock|p2a: Cloyster
+|-sidestart|p2: Wildtachaka|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Cloyster|Hydro Pump|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|68/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Heavy Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mudsdale|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|64/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-supereffective|p1a: Mudsdale
+|-crit|p1a: Mudsdale
+|-damage|p1a: Mudsdale|42/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|36/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|30/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|26/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-hitcount|p1a: Mudsdale|5
+|move|p1a: Mudsdale|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mudsdale|32/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Cloyster|Hydro Pump|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|1/100
+|move|p1a: Mudsdale|Heavy Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|9/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mudsdale|7/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|2/100
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|-hitcount|p1a: Mudsdale|2
+|faint|p1a: Mudsdale
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Xerneas|Xerneas, L78|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|9
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Doublade|Doublade, L82, M|100/100
+|-damage|p2a: Doublade|94/100|[from] Stealth Rock
+|turn|10
+
+|
+|switch|p1a: Rhyperior|Rhyperior, L84, F|100/100
+|move|p2a: Doublade|Iron Head|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|69/100
+|-enditem|p1a: Rhyperior|Weakness Policy
+|-boost|p1a: Rhyperior|atk|2
+|-boost|p1a: Rhyperior|spa|2
+|
+|-weather|none
+|upkeep
+|turn|11
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wildtachaka)
+
+|
+|move|p1a: Rhyperior|Earthquake|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|upkeep
+
+|
+|switch|p2a: Victreebel|Victreebel, L88, M|100/100
+|-damage|p2a: Victreebel|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Rhyperior|[miss]
+|-miss|p2a: Victreebel|p1a: Rhyperior
+|move|p1a: Rhyperior|Megahorn|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|upkeep
+
+|
+|switch|p2a: Xerneas|Xerneas, L78|100/100
+|-damage|p2a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|13
+
+|
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|move|p1a: Rhyperior|Rock Polish|p1a: Rhyperior
+|-boost|p1a: Rhyperior|spe|2
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Xerneas|Moonblast|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+
+|
+|switch|p1a: Scolipede|Scolipede, L81, F|100/100
+|turn|15
+
+|
+|switch|p2a: Zoroark|Zoroark, L83, F|40/100
+|-damage|p2a: Zoroark|28/100|[from] Stealth Rock
+|move|p1a: Scolipede|Poison Jab|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-damage|p1a: Scolipede|90/100|[from] item: Life Orb
+|faint|p2a: Zoroark
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p2a: Exeggutor|Exeggutor-Alola, L86, M|100/100
+|-damage|p2a: Exeggutor|88/100|[from] Stealth Rock
+|-item|p1a: Scolipede|Life Orb|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|16
+
+|
+|switch|p1a: Xerneas|Xerneas, L78|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Exeggutor|Draco Meteor|p1a: Xerneas
+|-immune|p1a: Xerneas
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|upkeep
+
+|
+|switch|p2a: Xerneas|Xerneas, L78|88/100
+|-damage|p2a: Xerneas|76/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|18
+
+|
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|move|p1a: Xerneas|Moonblast|p2a: Xerneas
+|-damage|p2a: Xerneas|29/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Xerneas|Geomancy|p2a: Xerneas|[from]lockedmove
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|move|p1a: Xerneas|Moonblast|p2a: Xerneas
+|-damage|p2a: Xerneas|4/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Xerneas|Moonblast|p1a: Xerneas
+|-damage|p1a: Xerneas|37/100
+|-unboost|p1a: Xerneas|spa|1
+|move|p1a: Xerneas|Moonblast|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|win|jumameco

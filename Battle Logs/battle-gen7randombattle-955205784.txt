@@ -1,0 +1,219 @@
+|init|battle
+|title|kingofmars vs. beast industry
+|j|☆kingofmars
+|j|☆beast industry
+|player|p1|kingofmars|266|1730
+|player|p2|beast industry|170|1685
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Reshiram|Reshiram, L78|100/100
+|switch|p2a: Shedinja|Shedinja, L89|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|1
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100
+|move|p1a: Reshiram|Blue Flare|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|64/100
+|
+|-heal|p2a: Alomomola|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Reshiram|Draco Meteor|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-unboost|p1a: Reshiram|spa|2
+|faint|p2a: Alomomola
+|
+|upkeep
+
+|
+|switch|p2a: Garchomp|Garchomp, L80, F|100/100
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by beast industry)
+
+|
+|switch|p1a: Masquerain|Masquerain, L89, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|upkeep
+|turn|4
+
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, L80, F
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p1a: Masquerain|Bug Buzz|p2a: Garchomp
+|-damage|p2a: Garchomp|63/100
+|move|p2a: Garchomp|Stone Edge|p1a: Masquerain
+|-supereffective|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|faint|p1a: Masquerain
+|
+|upkeep
+
+|
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|turn|5
+
+|
+|move|p1a: Cobalion|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|9/100
+|move|p2a: Garchomp|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, F|100/100
+|turn|6
+
+|
+|move|p1a: Staraptor|Double-Edge|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Staraptor|97/100|[from] Recoil
+|-damage|p1a: Staraptor|87/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+
+|
+|switch|p2a: Shedinja|Shedinja, L89|100/100
+|turn|7
+
+|
+|switch|p1a: Reshiram|Reshiram, L78|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|move|p2a: Shedinja|Will-O-Wisp|p1a: Reshiram
+|-immune|p1a: Reshiram
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Shedinja|Shadow Sneak|p1a: Reshiram
+|-damage|p1a: Reshiram|85/100
+|move|p1a: Reshiram|Blue Flare|p2a: Shedinja
+|-supereffective|p2a: Shedinja
+|-enditem|p2a: Shedinja|Focus Sash
+|-damage|p2a: Shedinja|100/100
+|
+|-heal|p1a: Reshiram|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Reshiram|Blue Flare|p2a: Shedinja
+|-supereffective|p2a: Shedinja
+|-damage|p2a: Shedinja|0 fnt
+|faint|p2a: Shedinja
+|
+|-heal|p1a: Reshiram|97/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Golurk|Golurk, L88|100/100
+|turn|10
+
+|
+|switch|p1a: Guzzlord|Guzzlord, L87|100/100
+|move|p2a: Golurk|Rock Polish|p2a: Golurk
+|-boost|p2a: Golurk|spe|2
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Golurk|Dynamic Punch|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|31/100
+|-start|p1a: Guzzlord|confusion
+|-damage|p2a: Golurk|90/100|[from] item: Life Orb
+|-activate|p1a: Guzzlord|confusion
+|move|p1a: Guzzlord|Knock Off|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-enditem|p2a: Golurk|Life Orb|[from] move: Knock Off|[of] p1a: Guzzlord
+|-damage|p1a: Guzzlord|21/100|[from] item: Life Orb
+|faint|p2a: Golurk
+|-ability|p1a: Guzzlord|Beast Boost|boost
+|-boost|p1a: Guzzlord|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Registeel|Registeel, L84|100/100
+|turn|12
+
+|
+|move|p2a: Registeel|Stealth Rock|p1a: Guzzlord
+|-sidestart|p1: kingofmars|move: Stealth Rock
+|-end|p1a: Guzzlord|confusion
+|move|p1a: Guzzlord|Hammer Arm|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|27/100
+|-unboost|p1a: Guzzlord|spe|1
+|-damage|p1a: Guzzlord|11/100|[from] item: Life Orb
+|
+|-heal|p2a: Registeel|33/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Registeel|Iron Head|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|faint|p1a: Guzzlord
+|
+|-heal|p2a: Registeel|39/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Bewear|Bewear, L84, M|100/100
+|-damage|p1a: Bewear|94/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Bewear|Hammer Arm|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|-unboost|p1a: Bewear|spe|1
+|-damage|p1a: Bewear|85/100|[from] item: Life Orb
+|faint|p2a: Registeel
+|
+|upkeep
+
+|
+|switch|p2a: Xatu|Xatu, L86, M|100/100
+|turn|15
+
+|
+|move|p2a: Xatu|Psychic|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|8/100
+|move|p1a: Bewear|Ice Punch|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|29/100
+|-damage|p1a: Bewear|0 fnt|[from] item: Life Orb
+|faint|p1a: Bewear
+|
+|-heal|p2a: Xatu|35/100|[from] item: Leftovers
+|upkeep
+
+|-message|beast industry forfeited.
+
+|
+|win|kingofmars

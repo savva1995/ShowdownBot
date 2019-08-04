@@ -1,0 +1,171 @@
+|init|battle
+|title|PK_Zulul vs. PatarLaza99
+|j|☆PK_Zulul
+|j|☆PatarLaza99
+|player|p1|PK_Zulul|167|1111
+|player|p2|PatarLaza99|25|1268
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Incineroar, F|item
+|poke|p1|Guzzlord|item
+|poke|p1|Yveltal|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Shiftry, M|item
+|poke|p2|Salamence, M|item
+|poke|p2|Blaziken, F|item
+|poke|p2|Zygarde|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Kyogre|item
+|poke|p2|Aegislash, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PatarLaza99)
+|
+|start
+|switch|p1a: Guzzlord|Guzzlord|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|1
+|
+|detailschange|p2a: Salamence|Salamence-Mega, M
+|-mega|p2a: Salamence|Salamence|Salamencite
+|move|p2a: Salamence|Outrage|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|faint|p1a: Guzzlord
+|
+|upkeep
+
+|inactive|PK_Zulul has 120 seconds left.
+
+|
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|2
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, F, shiny
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Salamence|Outrage|p1a: Tyranitar|[from]lockedmove
+|-damage|p1a: Tyranitar|57/100
+|-start|p2a: Salamence|confusion|[fatigue]
+|move|p1a: Tyranitar|Ice Fang|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Deoxys|Deoxys-Attack|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|3
+
+|
+|move|p2a: Deoxys|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|94/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|4
+
+|
+|move|p2a: Deoxys|Focus Blast|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|88/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|turn|5
+
+|
+|move|p2a: Deoxys|Focus Blast|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|4/100
+|move|p1a: Incineroar|Darkest Lariat|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Incineroar|0 fnt|[from] Sandstorm
+|faint|p1a: Incineroar
+|upkeep
+
+|
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|turn|6
+
+|
+|move|p1a: Shiftry|Foul Play|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|59/100
+|move|p2a: Blaziken|Flare Blitz|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-enditem|p1a: Shiftry|Focus Sash
+|-damage|p1a: Shiftry|1/100
+|-damage|p2a: Blaziken|24/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2a: Blaziken|30/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Blaziken|Flare Blitz|p1a: Yveltal
+|-damage|p1a: Yveltal|41/100
+|-damage|p2a: Blaziken|4/100|[from] Recoil
+|
+|-heal|p2a: Blaziken|10/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|8
+
+|
+|move|p2a: Blaziken|Flare Blitz|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-damage|p2a: Blaziken|0 fnt|[from] Recoil
+|faint|p1a: Yveltal
+|faint|p2a: Blaziken
+|
+|upkeep
+
+|
+|switch|p1a: Shiftry|Shiftry, M|1/100
+|switch|p2a: Aegislash|Aegislash, M, shiny|100/100
+|turn|9
+
+|-message|PK_Zulul forfeited.
+
+|
+|win|PatarLaza99

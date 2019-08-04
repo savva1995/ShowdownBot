@@ -1,0 +1,138 @@
+|init|battle
+|title|ayf1 vs. lwk1231
+|j|☆ayf1
+|j|☆lwk1231
+|player|p1|ayf1|266|1588
+|player|p2|lwk1231|266|1453
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Tapu Lele, L50|item
+|poke|p1|Necrozma-Dusk-Mane, L50|item
+|poke|p1|Salamence, L50, M|item
+|poke|p1|Umbreon, L50, M|item
+|poke|p1|Kangaskhan, L50, F|item
+|poke|p1|Groudon, L50|item
+|poke|p2|Xerneas, L50|item
+|poke|p2|Rayquaza, L50|item
+|poke|p2|Incineroar, L50, M|item
+|poke|p2|Stakataka, L50|item
+|poke|p2|Tapu Fini, L50|item
+|poke|p2|Togekiss, L50, F|item
+|teampreview|4
+|
+|start
+|switch|p1a: Tapu Lele|Tapu Lele, L50|48/48
+|switch|p1b: Necrozma|Necrozma-Dusk-Mane, L50|48/48
+|switch|p2a: Togekiss|Togekiss, L50, F|48/48
+|switch|p2b: Xerneas|Xerneas, L50|48/48
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|-ability|p2b: Xerneas|Fairy Aura
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ayf1)
+|inactive|lwk1231 also wants the timer to be on.
+|
+|detailschange|p1b: Necrozma|Necrozma-Ultra, L50
+|-burst|p1b: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Togekiss|Follow Me|p2a: Togekiss
+|-singleturn|p2a: Togekiss|move: Follow Me
+|move|p1a: Tapu Lele|Magic Room|p1a: Tapu Lele
+|-fieldstart|move: Magic Room|[of] p1a: Tapu Lele
+|move|p1b: Necrozma|Substitute|p1b: Necrozma
+|-start|p1b: Necrozma|Substitute
+|-damage|p1b: Necrozma|36/48
+|move|p2b: Xerneas|Geomancy||[still]
+|-prepare|p2b: Xerneas|Geomancy|p2b: Xerneas
+|
+|upkeep
+|turn|2
+|j| Ty next oo
+|j| Wiiam
+|
+|move|p2a: Togekiss|Follow Me|p2a: Togekiss
+|-singleturn|p2a: Togekiss|move: Follow Me
+|-zpower|p1b: Necrozma
+|move|p1b: Necrozma|Light That Burns the Sky|p2a: Togekiss|[zeffect]
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|move|p1a: Tapu Lele|Psyshock|p2b: Xerneas
+|-damage|p2b: Xerneas|22/48
+|move|p2b: Xerneas|Geomancy|p2b: Xerneas|[from]lockedmove
+|-boost|p2b: Xerneas|spa|2
+|-boost|p2b: Xerneas|spd|2
+|-boost|p2b: Xerneas|spe|2
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini, L50|48/48
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|3
+
+|
+|move|p1b: Necrozma|Protect|p1b: Necrozma
+|-singleturn|p1b: Necrozma|Protect
+|move|p2b: Xerneas|Moonblast|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|move|p2a: Tapu Fini|Heal Pulse|p2b: Xerneas
+|-heal|p2b: Xerneas|46/48
+|
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon, L50|48/48
+|detailschange|p1a: Groudon|Groudon-Primal, L50
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|4
+
+|
+|move|p2b: Xerneas|Dazzling Gleam|p1b: Necrozma|[spread] p1a,p1b
+|-supereffective|p1b: Necrozma
+|-end|p1b: Necrozma|Substitute
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|33/48
+|move|p1b: Necrozma|Photon Geyser|p2b: Xerneas
+|-damage|p2b: Xerneas|35/48
+|move|p1a: Groudon|Fire Punch|p2b: Xerneas
+|-damage|p2b: Xerneas|9/48
+|move|p2a: Tapu Fini|Nature's Madness|p1a: Groudon
+|-damage|p1a: Groudon|16/48
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|5
+
+|inactive|lwk1231 has 30 seconds left.
+
+|
+|move|p2b: Xerneas|Protect|p2b: Xerneas
+|-singleturn|p2b: Xerneas|Protect
+|move|p1b: Necrozma|Photon Geyser|p2b: Xerneas
+|-activate|p2b: Xerneas|move: Protect
+|move|p1a: Groudon|Precipice Blades|p2a: Tapu Fini|[spread] 
+|-activate|p2b: Xerneas|move: Protect
+|-miss|p1a: Groudon|p2a: Tapu Fini
+|move|p2a: Tapu Fini|Icy Wind|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1b: Necrozma
+|-damage|p1a: Groudon|13/48
+|-damage|p1b: Necrozma|26/48
+|-unboost|p1a: Groudon|spe|1
+|-unboost|p1b: Necrozma|spe|1
+|
+|-weather|DesolateLand|[upkeep]
+|-fieldend|move: Magic Room|[of] p1: Tapu Lele
+|upkeep
+|turn|6
+
+|-message|ayf1 forfeited.
+
+|
+|win|lwk1231

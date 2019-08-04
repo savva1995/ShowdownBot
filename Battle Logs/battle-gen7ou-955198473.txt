@@ -1,0 +1,322 @@
+|init|battle
+|title|killr_raven vs. Surpriserus
+|j|☆killr_raven
+|j|☆Surpriserus
+|player|p1|killr_raven|102|1290
+|player|p2|Surpriserus|170|1235
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Tapu Bulu|item
+|poke|p1|Magnezone|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Clefable, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Muk-Alola, M|item
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by killr_raven)
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|detailschange|p2a: Charizard|Charizard-Mega-Y, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clefable|8/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Charizard|Fire Blast|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clefable|14/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|move|p2a: Charizard|Fire Blast|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Muk|Muk-Alola, M|100/100
+|move|p1a: Greninja|Hydro Pump|p2a: Muk
+|-damage|p2a: Muk|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|
+|-activate|p1a: Greninja|move: Pursuit
+|move|p2a: Muk|Pursuit|p1a: Greninja|[from]Pursuit
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Greninja
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|turn|6
+
+|
+|switch|p2a: Charizard|Charizard-Mega-Y, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Skarmory|Stealth Rock|p2a: Charizard
+|-sidestart|p2: Surpriserus|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Charizard|Work Up|p2a: Charizard
+|-boost|p2a: Charizard|atk|1
+|-boost|p2a: Charizard|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|detailschange|p1a: Latios|Latios-Mega, M
+|-mega|p1a: Latios|Latios|Latiosite
+|move|p1a: Latios|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|44/100
+|move|p2a: Charizard|Fire Blast|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|14/100
+|-status|p1a: Latios|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Latios|8/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Muk|Muk-Alola, M|82/100
+|-damage|p2a: Muk|69/100|[from] Stealth Rock
+|move|p1a: Latios|Psychic|p2a: Muk
+|-immune|p2a: Muk
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Latios|2/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Muk|Shadow Sneak|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|11
+
+|
+|switch|p2a: Charizard|Charizard-Mega-Y, M|44/100
+|-damage|p2a: Charizard|0 fnt|[from] Stealth Rock
+|faint|p2a: Charizard
+|move|p1a: Tapu Bulu|Superpower|p2: Charizard|[notarget]
+|-fail|p1a: Tapu Bulu
+|
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tapu Bulu|atk|1
+|turn|12
+
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Landorus|Explosion|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|74/100
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|19/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|69/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-heal|p2a: Magnezone|100/100|[from] Grassy Terrain
+|-heal|p1a: Skarmory|75/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|18/100
+|move|p1a: Skarmory|Brave Bird|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|92/100
+|-damage|p1a: Skarmory|16/100|[from] Recoil
+|
+|-heal|p2a: Magnezone|98/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-heal|p2a: Magnezone|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|16
+
+|
+|move|p1a: Magnezone|Hidden Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|45/100
+|move|p2a: Magnezone|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|49/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|18
+
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|68/100
+|move|p1a: Tapu Bulu|Superpower|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-unboost|p1a: Tapu Bulu|atk|1
+|-unboost|p1a: Tapu Bulu|def|1
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Tapu Bulu|75/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-damage|p2a: Tapu Bulu|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|switch|p1a: Clefable|Clefable, M|14/100
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Clefable|[miss]
+|-miss|p2a: Tapu Bulu|p1a: Clefable
+|
+|-heal|p2a: Tapu Bulu|94/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|20/100|[from] item: Leftovers
+|-heal|p1a: Clefable|26/100|[from] Grassy Terrain
+|upkeep
+|turn|20
+
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p2a: Tapu Bulu|99/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|32/100|[from] item: Leftovers
+|-heal|p1a: Clefable|39/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+
+|
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Tapu Bulu|100/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|75/100
+|turn|22
+
+|
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|26/100
+|move|p1a: Tapu Bulu|Swords Dance|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|2
+|
+|-heal|p1a: Tapu Bulu|32/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|23
+
+|
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|
+|win|Surpriserus

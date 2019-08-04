@@ -1,0 +1,305 @@
+|init|battle
+|title|BonkerBlaster vs. vfjvgk
+|j|☆BonkerBlaster
+|j|☆vfjvgk
+|player|p1|BonkerBlaster|102|1047
+|player|p2|vfjvgk|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tyrantrum|Tyrantrum, L84, M|100/100
+|switch|p2a: Pachirisu|Pachirisu, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BonkerBlaster)
+|
+|move|p2a: Pachirisu|Nuzzle|p1a: Tyrantrum
+|-resisted|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|98/100
+|-status|p1a: Tyrantrum|par
+|-enditem|p1a: Tyrantrum|Lum Berry|[eat]
+|-curestatus|p1a: Tyrantrum|par|[msg]
+|move|p1a: Tyrantrum|Dragon Dance|p1a: Tyrantrum
+|-boost|p1a: Tyrantrum|atk|1
+|-boost|p1a: Tyrantrum|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Tyrantrum|Earthquake|p2a: Pachirisu
+|-supereffective|p2a: Pachirisu
+|-enditem|p2a: Pachirisu|Focus Sash
+|-damage|p2a: Pachirisu|1/100
+|move|p2a: Pachirisu|Nuzzle|p1a: Tyrantrum
+|-resisted|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|96/100
+|-status|p1a: Tyrantrum|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Pachirisu|Super Fang|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|48/100 par
+|move|p1a: Tyrantrum|Dragon Dance|p1a: Tyrantrum
+|-boost|p1a: Tyrantrum|atk|1
+|-boost|p1a: Tyrantrum|spe|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Pachirisu|Super Fang|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|24/100 par
+|move|p1a: Tyrantrum|Dragon Dance|p1a: Tyrantrum
+|-boost|p1a: Tyrantrum|atk|1
+|-boost|p1a: Tyrantrum|spe|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Pachirisu|Super Fang|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|12/100 par
+|cant|p1a: Tyrantrum|par
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Pachirisu|Thunderbolt|p1a: Tyrantrum
+|-resisted|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|faint|p1a: Tyrantrum
+|
+|upkeep
+
+|
+|switch|p1a: Xurkitree|Xurkitree, L81|100/100
+|turn|7
+
+|
+|switch|p2a: Drampa|Drampa, L88, F|100/100
+|move|p1a: Xurkitree|Energy Ball|p2a: Drampa
+|-ability|p2a: Drampa|Sap Sipper|boost
+|-boost|p2a: Drampa|atk|1
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Reshiram|Reshiram, L78|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|move|p2a: Drampa|Hyper Voice|p1a: Reshiram
+|-damage|p1a: Reshiram|48/100
+|-damage|p2a: Drampa|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Reshiram|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, M|100/100
+|move|p1a: Reshiram|Draco Meteor|p2a: Clawitzer
+|-damage|p2a: Clawitzer|58/100
+|-unboost|p1a: Reshiram|spa|2
+|
+|-heal|p1a: Reshiram|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|BonkerBlaster has 120 seconds left.
+
+|inactive|BonkerBlaster has 90 seconds left.
+
+|
+|switch|p1a: Xurkitree|Xurkitree, L81|100/100
+|move|p2a: Clawitzer|U-turn|p1a: Xurkitree
+|-damage|p1a: Xurkitree|81/100
+
+|inactive|vfjvgk has 120 seconds left.
+
+|
+|switch|p2a: Mienshao|Mienshao, L83, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+
+|inactive|vfjvgk has 120 seconds left.
+
+|inactive|BonkerBlaster has 90 seconds left.
+
+|
+|move|p2a: Mienshao|Knock Off|p1a: Xurkitree
+|-damage|p1a: Xurkitree|32/100
+|-enditem|p1a: Xurkitree|Choice Specs|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|move|p1a: Xurkitree|Dazzling Gleam|p2a: Mienshao
+|-supereffective|p2a: Mienshao
+|-damage|p2a: Mienshao|5/100
+|
+|upkeep
+|turn|12
+
+|inactive|vfjvgk has 120 seconds left.
+
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|-damage|p2a: Mienshao|0 fnt|[from] item: Life Orb
+|faint|p1a: Xurkitree
+|faint|p2a: Mienshao
+|
+|upkeep
+
+|
+|switch|p2a: Pachirisu|Pachirisu, L89, M|1/100
+|switch|p1a: Swampert|Swampert, L80, F|100/100
+|turn|13
+
+|
+|move|p2a: Pachirisu|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Pachirisu|Super Fang|p1a: Swampert
+|-damage|p1a: Swampert|48/100 tox
+|move|p1a: Swampert|Waterfall|p2a: Pachirisu
+|-damage|p2a: Pachirisu|0 fnt
+|faint|p2a: Pachirisu
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Swampert|35/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Clawitzer|Clawitzer, L86, M|58/100
+|turn|15
+
+|
+|detailschange|p1a: Swampert|Swampert-Mega, L80, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Earthquake|p2a: Clawitzer
+|-damage|p2a: Clawitzer|6/100
+|move|p2a: Clawitzer|Water Pulse|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Fearow|Fearow, L89, F|100/100
+|turn|16
+
+|
+|move|p1a: Fearow|Drill Peck|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Drampa|Drampa, L88, F|91/100
+|turn|17
+
+|
+|move|p1a: Fearow|Drill Peck|p2a: Drampa
+|-damage|p2a: Drampa|48/100
+|move|p2a: Drampa|Draco Meteor|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|-unboost|p2a: Drampa|spa|2
+|-damage|p2a: Drampa|38/100|[from] item: Life Orb
+|faint|p1a: Fearow
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Weezing|Weezing, L86, M|100/100
+|turn|18
+
+|
+|move|p1a: Weezing|Toxic Spikes|p2a: Drampa
+|-sidestart|p2: vfjvgk|move: Toxic Spikes
+|move|p2a: Drampa|Hyper Voice|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Drampa|28/100|[from] item: Life Orb
+|faint|p1a: Weezing
+|
+|upkeep
+
+|
+|switch|p1a: Reshiram|Reshiram, L78|60/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|19
+
+|
+|move|p1a: Reshiram|Roost|p1a: Reshiram
+|-heal|p1a: Reshiram|100/100
+|-singleturn|p1a: Reshiram|move: Roost
+|move|p2a: Drampa|Draco Meteor|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|26/100
+|-unboost|p2a: Drampa|spa|2
+|-damage|p2a: Drampa|18/100|[from] item: Life Orb
+|
+|-heal|p1a: Reshiram|32/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|inactive|BonkerBlaster has 120 seconds left.
+
+|
+|switch|p2a: Houndoom|Houndoom, L83, F|100/100
+|-status|p2a: Houndoom|psn
+|move|p1a: Reshiram|Roost|p1a: Reshiram
+|-heal|p1a: Reshiram|82/100
+|-singleturn|p1a: Reshiram|move: Roost
+|
+|-heal|p1a: Reshiram|88/100|[from] item: Leftovers
+|-damage|p2a: Houndoom|88/100 psn|[from] psn
+|upkeep
+|turn|21
+
+|
+|detailschange|p2a: Houndoom|Houndoom-Mega, L83, F
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Dark Pulse|p1a: Reshiram
+|-damage|p1a: Reshiram|52/100
+|move|p1a: Reshiram|Stone Edge|p2a: Houndoom|[miss]
+|-miss|p1a: Reshiram|p2a: Houndoom
+|
+|-heal|p1a: Reshiram|58/100|[from] item: Leftovers
+|-damage|p2a: Houndoom|76/100 psn|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Reshiram
+|-damage|p1a: Reshiram|25/100
+|cant|p1a: Reshiram|flinch
+|
+|-heal|p1a: Reshiram|31/100|[from] item: Leftovers
+|-damage|p2a: Houndoom|63/100 psn|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|faint|p1a: Reshiram
+|
+|win|vfjvgk

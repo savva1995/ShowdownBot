@@ -1,0 +1,230 @@
+|init|battle
+|title|PatrickAG vs. Froslass Scoop
+|j|☆PatrickAG
+|j|☆Froslass Scoop
+|player|p1|PatrickAG|1|1084
+|player|p2|Froslass Scoop|285|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] NU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Passimian, F|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Mismagius, M|item
+|poke|p1|Dhelmise|item
+|poke|p1|Comfey, M|item
+|poke|p2|Dhelmise|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Incineroar, M|item
+|poke|p2|Jynx, F|item
+|teampreview
+|j| I see that I'm ICY
+|
+|start
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|switch|p2a: Jynx|Jynx, F|100/100
+|turn|1
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dhelmise|atk|1
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PatrickAG)
+
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|move|p2a: Incineroar|Knock Off|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|77/100
+|-enditem|p1a: Passimian|Choice Scarf|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|move|p1a: Passimian|Close Combat|p2a: Dhelmise
+|-immune|p2a: Dhelmise
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|move|p2a: Dhelmise|Shadow Claw|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|13/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dhelmise|atk|1
+|move|p1a: Dhelmise|Synthesis|p1a: Dhelmise
+|-heal|p1a: Dhelmise|63/100
+|
+|upkeep
+|turn|6
+
+|inactive|Froslass Scoop has 120 seconds left.
+
+|
+|switch|p1a: Passimian|Passimian, F|77/100
+|move|p2a: Incineroar|Knock Off|p1a: Passimian
+|-resisted|p1a: Passimian
+|-crit|p1a: Passimian
+|-damage|p1a: Passimian|55/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|move|p1a: Passimian|Earthquake|p2a: Dhelmise
+|-resisted|p2a: Dhelmise
+|-damage|p2a: Dhelmise|81/100
+|
+|upkeep
+|turn|8
+
+|inactive|Froslass Scoop has 120 seconds left.
+
+|
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|move|p2a: Dhelmise|Shadow Claw|p1a: Piloswine
+|-damage|p1a: Piloswine|83/100
+|
+|upkeep
+|turn|9
+
+|inactive|Froslass Scoop has 120 seconds left.
+
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Piloswine|Stealth Rock|p2a: Gastrodon
+|-sidestart|p2: Froslass Scoop|move: Stealth Rock
+|
+|upkeep
+|turn|10
+
+|inactive|PatrickAG has 120 seconds left.
+
+|
+|switch|p1a: Comfey|Comfey, M|100/100
+|move|p2a: Gastrodon|Toxic|p1a: Comfey
+|-status|p1a: Comfey|tox
+|
+|-damage|p1a: Comfey|94/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|inactive|PatrickAG has 120 seconds left.
+
+|
+|switch|p2a: Dhelmise|Dhelmise|81/100
+|-damage|p2a: Dhelmise|69/100|[from] Stealth Rock
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|
+|-damage|p1a: Comfey|82/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|inactive|PatrickAG has 120 seconds left.
+
+|inactive|PatrickAG has 90 seconds left.
+
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Dhelmise|Gyro Ball|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|87/100
+|
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|PatrickAG has 90 seconds left.
+
+|
+|move|p1a: Vaporeon|Toxic|p2a: Dhelmise
+|-status|p2a: Dhelmise|tox
+|move|p2a: Dhelmise|Power Whip|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-damage|p2a: Dhelmise|63/100 tox|[from] psn
+|upkeep
+
+|inactive|PatrickAG has 90 seconds left.
+
+|
+|switch|p1a: Piloswine|Piloswine, M|83/100
+|turn|14
+
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Piloswine|Icicle Spear|p2a: Gastrodon
+|-damage|p2a: Gastrodon|85/100
+|-damage|p2a: Gastrodon|75/100
+|-hitcount|p2a: Gastrodon|2
+|
+|-heal|p2a: Gastrodon|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|Froslass Scoop has 120 seconds left.
+
+|
+|switch|p1a: Dhelmise|Dhelmise|63/100
+|move|p2a: Gastrodon|Scald|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|47/100
+|
+|-heal|p2a: Gastrodon|87/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|Froslass Scoop has 120 seconds left.
+
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-damage|p2a: Incineroar|76/100|[from] Stealth Rock
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dhelmise|atk|1
+|move|p1a: Dhelmise|Power Whip|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|58/100
+|-damage|p1a: Dhelmise|31/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|
+|upkeep
+|turn|17
+
+|inactive|Froslass Scoop has 120 seconds left.
+
+|-message|PatrickAG forfeited.
+
+|
+|win|Froslass Scoop

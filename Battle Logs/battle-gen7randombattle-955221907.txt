@@ -1,0 +1,289 @@
+|init|battle
+|title|pidgod vs. suicidesquad1122
+|j|☆pidgod
+|j|☆suicidesquad1122
+|player|p1|pidgod|101|1980
+|player|p2|suicidesquad1122|170|2013
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno, L89, M|100/100
+|switch|p2a: Sawsbuck|Sawsbuck, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pidgod)
+|
+|switch|p2a: Forretress|Forretress, L84, M|100/100
+|switch|p1a: Genesect|Genesect-Douse, L78|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|
+|upkeep
+|turn|2
+|inactive|suicidesquad1122 has 120 seconds left.
+|
+|move|p1a: Genesect|Techno Blast|p2a: Forretress
+|-damage|p2a: Forretress|39/100
+|move|p2a: Forretress|Stealth Rock|p1a: Genesect
+|-sidestart|p1: pidgod|move: Stealth Rock
+|
+|-heal|p2a: Forretress|45/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Genesect|Techno Blast|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+|
+|switch|p2a: Ho-Oh|Ho-Oh, L78|100/100
+|turn|4
+|inactive|pidgod has 120 seconds left.
+|
+|move|p1a: Genesect|Techno Blast|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|36/100
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Genesect
+|-supereffective|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|-heal|p2a: Ho-Oh|42/100|[from] item: Leftovers
+|upkeep
+|inactive|pidgod has 120 seconds left.
+|
+|switch|p1a: Drapion|Drapion, L84, F|100/100
+|-damage|p1a: Drapion|88/100|[from] Stealth Rock
+|turn|5
+|inactive|suicidesquad1122 has 120 seconds left.
+|inactive|suicidesquad1122 has 90 seconds left.
+|
+|switch|p2a: Houndoom|Houndoom, L83, M|100/100
+|move|p1a: Drapion|Poison Jab|p2a: Houndoom
+|-damage|p2a: Houndoom|40/100
+|-damage|p1a: Drapion|79/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|inactive|suicidesquad1122 has 90 seconds left.
+|
+|detailschange|p2a: Houndoom|Houndoom-Mega, L83, M
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Fire Blast|p1a: Drapion
+|-damage|p1a: Drapion|10/100
+|move|p1a: Drapion|Poison Jab|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|-damage|p1a: Drapion|0 fnt|[from] item: Life Orb
+|faint|p2a: Houndoom
+|faint|p1a: Drapion
+|
+|upkeep
+|inactive|pidgod has 120 seconds left.
+|
+|switch|p2a: Ho-Oh|Ho-Oh, L78|76/100
+|switch|p1a: Hypno|Hypno, L89, M|100/100
+|-damage|p1a: Hypno|88/100|[from] Stealth Rock
+|turn|7
+|inactive|suicidesquad1122 has 90 seconds left.
+|
+|move|p2a: Ho-Oh|Substitute|p2a: Ho-Oh
+|-start|p2a: Ho-Oh|Substitute
+|-damage|p2a: Ho-Oh|51/100
+|move|p1a: Hypno|Toxic|p2a: Ho-Oh|[miss]
+|-miss|p1a: Hypno|p2a: Ho-Oh
+|
+|-heal|p2a: Ho-Oh|57/100|[from] item: Leftovers
+|-heal|p1a: Hypno|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|pidgod has 120 seconds left.
+|
+|move|p2a: Ho-Oh|Toxic|p1a: Hypno
+|-status|p1a: Hypno|tox
+|move|p1a: Hypno|Foul Play|p2a: Ho-Oh
+|-crit|p2a: Ho-Oh
+|-end|p2a: Ho-Oh|Substitute
+|
+|-heal|p2a: Ho-Oh|63/100|[from] item: Leftovers
+|-heal|p1a: Hypno|99/100 tox|[from] item: Leftovers
+|-damage|p1a: Hypno|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|suicidesquad1122 has 90 seconds left.
+|inactive|suicidesquad1122 has 60 seconds left.
+|
+|move|p2a: Ho-Oh|Substitute|p2a: Ho-Oh
+|-start|p2a: Ho-Oh|Substitute
+|-damage|p2a: Ho-Oh|38/100
+|move|p1a: Hypno|Foul Play|p2a: Ho-Oh
+|-end|p2a: Ho-Oh|Substitute
+|
+|-heal|p2a: Ho-Oh|44/100|[from] item: Leftovers
+|-heal|p1a: Hypno|99/100 tox|[from] item: Leftovers
+|-damage|p1a: Hypno|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|suicidesquad1122 has 30 seconds left.
+|
+|switch|p2a: Crawdaunt|Crawdaunt, L82, M|100/100
+|move|p1a: Hypno|Foul Play|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|82/100
+|
+|-heal|p1a: Hypno|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Hypno|76/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|pidgod has 120 seconds left.
+|
+|switch|p1a: Lucario|Lucario, L78, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|move|p2a: Crawdaunt|Knock Off|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|64/100
+|-ability|p1a: Lucario|Justified|boost
+|-boost|p1a: Lucario|atk|1
+|-damage|p2a: Crawdaunt|72/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+
+|inactive|suicidesquad1122 has 30 seconds left.
+
+|inactive|suicidesquad1122 has 20 seconds left.
+
+|
+|detailschange|p1a: Lucario|Lucario-Mega, L78, M
+|-mega|p1a: Lucario|Lucario|Lucarionite
+|move|p1a: Lucario|Aura Sphere|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+
+|inactive|suicidesquad1122 has 30 seconds left this turn.
+
+|inactive|suicidesquad1122 has 20 seconds left.
+
+|
+|switch|p2a: Dugtrio|Dugtrio-Alola, L88, M|100/100
+|turn|13
+
+|inactive|suicidesquad1122 has 30 seconds left this turn.
+
+|inactive|pidgod has 120 seconds left.
+
+|inactive|pidgod has 90 seconds left.
+
+|
+|switch|p1a: Hypno|Hypno, L89, M|76/100 tox
+|-damage|p1a: Hypno|63/100 tox|[from] Stealth Rock
+|move|p2a: Dugtrio|Earthquake|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|upkeep
+
+|inactive|pidgod has 90 seconds left.
+
+|
+|switch|p1a: Sableye|Sableye, L88, M|100/100
+|-damage|p1a: Sableye|88/100|[from] Stealth Rock
+|turn|14
+
+|inactive|suicidesquad1122 has 30 seconds left.
+
+|
+|switch|p2a: Ho-Oh|Ho-Oh, L78|77/100
+|move|p1a: Sableye|Knock Off|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|46/100
+|-enditem|p2a: Ho-Oh|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|suicidesquad1122 has 30 seconds left.
+
+|
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Sableye
+|-damage|p1a: Sableye|42/100
+|-status|p1a: Sableye|brn
+|move|p1a: Sableye|Foul Play|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|22/100
+|
+|-heal|p1a: Sableye|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Sableye|42/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|inactive|pidgod has 90 seconds left.
+
+|inactive|suicidesquad1122 has 30 seconds left.
+
+|
+|move|p2a: Ho-Oh|Brave Bird|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|-damage|p2a: Ho-Oh|11/100|[from] Recoil
+|faint|p1a: Sableye
+|
+|upkeep
+
+|inactive|pidgod has 90 seconds left.
+
+|
+|switch|p1a: Lucario|Lucario-Mega, L78, M|64/100
+|-damage|p1a: Lucario|61/100|[from] Stealth Rock
+|turn|17
+
+|inactive|pidgod has 90 seconds left.
+
+|
+|move|p1a: Lucario|Aura Sphere|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|upkeep
+
+|
+|switch|p2a: Dugtrio|Dugtrio-Alola, L88, M|100/100
+|turn|18
+
+|
+|move|p1a: Lucario|Bullet Punch|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-damage|p2a: Dugtrio|81/100
+|-ability|p2a: Dugtrio|Tangling Hair
+|-unboost|p1a: Lucario|spe|1
+|move|p2a: Dugtrio|Earthquake|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+
+|
+|switch|p1a: Linoone|Linoone, L83, F|100/100
+|-damage|p1a: Linoone|88/100|[from] Stealth Rock
+|turn|19
+
+|inactive|suicidesquad1122 has 60 seconds left.
+
+|
+|-zpower|p2a: Dugtrio
+|move|p2a: Dugtrio|All-Out Pummeling|p1a: Linoone|[zeffect]
+|-supereffective|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|faint|p1a: Linoone
+|
+|win|suicidesquad1122

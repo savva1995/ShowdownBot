@@ -1,0 +1,236 @@
+|init|battle
+|title|nsjsjxhhwsbz vs. get flanked
+|j|☆nsjsjxhhwsbz
+|j|☆get flanked
+|player|p1|nsjsjxhhwsbz|142|1176
+|player|p2|get flanked|170|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Kyogre|item
+|poke|p1|Kyogre|item
+|poke|p1|Wobbuffet, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Yveltal|item
+|poke|p1|Deoxys-Speed|item
+|poke|p2|Smeargle, F|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Groudon|item
+|poke|p2|Rayquaza|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Yveltal|Yveltal, shiny|100/100
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|-ability|p2a: Rayquaza|Air Lock
+|turn|1
+|
+|detailschange|p2a: Rayquaza|Rayquaza-Mega
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p2a: Rayquaza|Swords Dance|p2a: Rayquaza
+|-boost|p2a: Rayquaza|atk|2
+|move|p1a: Yveltal|Dark Pulse|p2a: Rayquaza
+|-damage|p2a: Rayquaza|51/100
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|41/100|[from] item: Life Orb
+|faint|p1a: Yveltal
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Wobbuffet|Wobbuffet, F|100/100
+|turn|3
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Rayquaza|29/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Rayquaza|12/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|2/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-ability|p1a: Kyogre|Drizzle|[from] deltastream|[fail]
+|turn|4
+
+|
+|move|p1a: Kyogre|Ice Beam|p2a: Rayquaza
+|-activate||deltastream
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|turn|5
+
+|
+|move|p1a: Kyogre|Ice Beam|p2a: Smeargle
+|-damage|p2a: Smeargle|31/100
+|move|p2a: Smeargle|Nuzzle|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|96/100
+|-status|p1a: Kyogre|par
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Smeargle|Sticky Web|p1a: Kyogre
+|-sidestart|p1: nsjsjxhhwsbz|move: Sticky Web
+|cant|p1a: Kyogre|par
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Smeargle|Taunt|p1a: Kyogre
+|-start|p1a: Kyogre|move: Taunt
+|move|p1a: Kyogre|Ice Beam|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Ghost|100/100
+|turn|8
+
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Kyogre|Ice Beam|p2a: Arceus
+|-damage|p2a: Arceus|76/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Arceus|Shadow Force||[still]
+|-prepare|p2a: Arceus|Shadow Force|p1a: Kyogre
+|move|p1a: Kyogre|Ice Beam|p2a: Arceus|[miss]
+|-miss|p1a: Kyogre|p2a: Arceus
+|
+|-end|p1a: Kyogre|move: Taunt
+|upkeep
+|turn|10
+
+|
+|move|p2a: Arceus|Shadow Force|p1a: Kyogre|[from]lockedmove
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-activate|p1a: Deoxys|move: Sticky Web
+|-unboost|p1a: Deoxys|spe|1
+|-ability|p1a: Deoxys|Pressure
+|turn|11
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nsjsjxhhwsbz)
+
+|
+|move|p2a: Arceus|Shadow Force||[still]
+|-prepare|p2a: Arceus|Shadow Force|p1a: Deoxys
+|move|p1a: Deoxys|Stealth Rock|p2a: Arceus
+|-sidestart|p2: get flanked|move: Stealth Rock
+|
+|-damage|p1a: Deoxys|88/100|[from] item: Sticky Barb
+|upkeep
+|turn|12
+
+|
+|move|p1a: Deoxys|Magic Coat|p1a: Deoxys
+|-singleturn|p1a: Deoxys|move: Magic Coat
+|move|p2a: Arceus|Shadow Force|p1a: Deoxys|[from]lockedmove
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+
+|
+|switch|p1a: Wobbuffet|Wobbuffet, F|100/100
+|-activate|p1a: Wobbuffet|move: Sticky Web
+|-unboost|p1a: Wobbuffet|spe|1
+|turn|13
+
+|
+|move|p2a: Arceus|Shadow Force||[still]
+|-prepare|p2a: Arceus|Shadow Force|p1a: Wobbuffet
+|move|p1a: Wobbuffet|Destiny Bond|p1a: Wobbuffet
+|-singlemove|p1a: Wobbuffet|Destiny Bond
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Arceus|Shadow Force|p1a: Wobbuffet|[from]lockedmove
+|-supereffective|p1a: Wobbuffet
+|-enditem|p1a: Wobbuffet|Focus Sash
+|-damage|p1a: Wobbuffet|1/100
+|move|p1a: Wobbuffet|Encore|p2a: Arceus
+|-start|p2a: Arceus|Encore
+|
+|upkeep
+|turn|15
+
+|
+|-zpower|p2a: Arceus
+|move|p2a: Arceus|Never-Ending Nightmare|p1a: Wobbuffet|[zeffect]
+|-supereffective|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|0 fnt
+|faint|p1a: Wobbuffet
+|
+|upkeep
+
+|l|☆nsjsjxhhwsbz
+
+|inactive|nsjsjxhhwsbz disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|nsjsjxhhwsbz has 30 seconds to reconnect!
+
+|inactive|nsjsjxhhwsbz has 20 seconds to reconnect!
+
+|inactive|nsjsjxhhwsbz has 15 seconds to reconnect!
+
+|inactive|nsjsjxhhwsbz has 10 seconds to reconnect!
+
+|inactive|nsjsjxhhwsbz has 5 seconds to reconnect!
+
+|-message|nsjsjxhhwsbz lost due to inactivity.
+|
+|win|get flanked

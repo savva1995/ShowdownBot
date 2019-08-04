@@ -1,0 +1,62 @@
+|init|battle
+|title|Mrowsudyn vs. Cabbbages
+|j|☆Mrowsudyn
+|j|☆Cabbbages
+|player|p1|Mrowsudyn|269|1557
+|player|p2|Cabbbages|1|1489
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Donphan, M|item
+|poke|p2|Zygarde|item
+|poke|p2|Magearna|item
+|poke|p2|Naganadel|item
+|teampreview|1
+|
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: Zygarde|Zygarde|100/100
+|turn|1
+
+|
+|move|p2a: Zygarde|Coil|p2a: Zygarde
+|-boost|p2a: Zygarde|atk|1
+|-boost|p2a: Zygarde|def|1
+|-boost|p2a: Zygarde|accuracy|1
+|-zpower|p1a: Donphan
+|move|p1a: Donphan|Tectonic Rage|p2a: Zygarde|[zeffect]
+|-damage|p2a: Zygarde|70/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Zygarde|Thousand Arrows|p1a: Donphan
+|-damage|p1a: Donphan|56/100
+|move|p1a: Donphan|Earthquake|p2a: Zygarde
+|-damage|p2a: Zygarde|52/100
+|
+|upkeep
+|turn|3
+
+|
+|-zpower|p2a: Zygarde
+|move|p2a: Zygarde|Tectonic Rage|p1a: Donphan|[zeffect]
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|win|Cabbbages

@@ -1,0 +1,204 @@
+|init|battle
+|title|Carrett23 vs. Hegshshej
+|j|☆Carrett23
+|j|☆Hegshshej
+|player|p1|Carrett23|229|1156
+|player|p2|Hegshshej|101|1162
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electivire|Electivire, L89, M|100/100
+|switch|p2a: Wormadam|Wormadam-Sandy, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Carrett23)
+|
+|move|p1a: Electivire|Ice Punch|p2a: Wormadam
+|-supereffective|p2a: Wormadam
+|-damage|p2a: Wormadam|41/100
+|move|p2a: Wormadam|Earthquake|p1a: Electivire
+|-supereffective|p1a: Electivire
+|-damage|p1a: Electivire|20/100
+|
+|-heal|p2a: Wormadam|47/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Electivire|Ice Punch|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-heal|p2a: Wormadam|52/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Electivire|Ice Punch|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-heal|p2a: Wormadam|58/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Kingler|Kingler, L87, M|100/100
+|move|p2a: Wormadam|Earthquake|p1a: Kingler
+|-damage|p1a: Kingler|67/100
+|
+|-heal|p2a: Wormadam|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Kingler|Agility|p1a: Kingler
+|-boost|p1a: Kingler|spe|2
+|move|p2a: Wormadam|Toxic|p1a: Kingler
+|-status|p1a: Kingler|tox
+|
+|-heal|p2a: Wormadam|70/100|[from] item: Leftovers
+|-damage|p1a: Kingler|61/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Kingler|Liquidation|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-heal|p2a: Wormadam|76/100|[from] item: Leftovers
+|-damage|p1a: Kingler|49/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Kingler|Liquidation|p2a: Wormadam
+|-supereffective|p2a: Wormadam
+|-damage|p2a: Wormadam|0 fnt
+|faint|p2a: Wormadam
+|
+|-damage|p1a: Kingler|32/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Magnezone|Magnezone, L80|100/100
+|turn|8
+
+|
+|move|p1a: Kingler|Superpower|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|3/100
+|-unboost|p1a: Kingler|atk|1
+|-unboost|p1a: Kingler|def|1
+|-damage|p1a: Kingler|22/100 tox|[from] item: Life Orb
+|move|p2a: Magnezone|Thunderbolt|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|upkeep
+
+|
+|switch|p1a: Electivire|Electivire, L89, M|20/100
+|turn|9
+
+|
+|move|p1a: Electivire|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+
+|
+|switch|p1a: Persian|Persian-Alola, L88, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+
+|
+|switch|p2a: Hariyama|Hariyama, L86, F|100/100
+|turn|10
+
+|
+|move|p1a: Persian|Hypnosis|p2a: Hariyama
+|-status|p2a: Hariyama|slp|[from] move: Hypnosis
+|cant|p2a: Hariyama|slp
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Persian|Dark Pulse|p2a: Hariyama
+|-resisted|p2a: Hariyama
+|-damage|p2a: Hariyama|88/100 slp
+|-curestatus|p2a: Hariyama|slp|[msg]
+|move|p2a: Hariyama|Bulk Up|p2a: Hariyama
+|-boost|p2a: Hariyama|atk|1
+|-boost|p2a: Hariyama|def|1
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, M|100/100
+|move|p2a: Hariyama|Close Combat|p1a: Vivillon
+|-resisted|p1a: Vivillon
+|-damage|p1a: Vivillon|63/100
+|-unboost|p2a: Hariyama|def|1
+|-unboost|p2a: Hariyama|spd|1
+|-damage|p2a: Hariyama|78/100|[from] item: Life Orb
+|
+|-heal|p1a: Vivillon|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Latias|Latias, L81, F|100/100
+|move|p1a: Vivillon|Sleep Powder|p2a: Latias
+|-status|p2a: Latias|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Vivillon|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|detailschange|p2a: Latias|Latias-Mega, L81, F
+|-mega|p2a: Latias|Latias|Latiasite
+|cant|p2a: Latias|slp
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|
+|-heal|p1a: Vivillon|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Vivillon|Bug Buzz|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|24/100 slp
+|-curestatus|p2a: Latias|slp|[msg]
+|move|p2a: Latias|Psyshock|p1a: Vivillon
+|-damage|p1a: Vivillon|27/100
+|
+|-heal|p1a: Vivillon|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Vivillon|Bug Buzz|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-heal|p1a: Vivillon|39/100|[from] item: Leftovers
+|upkeep
+
+|-message|Hegshshej forfeited.
+
+|
+|win|Carrett23

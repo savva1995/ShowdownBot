@@ -1,0 +1,413 @@
+|init|battle
+|title|HUOHIJOI vs. NoixVerte
+|j|☆HUOHIJOI
+|j|☆NoixVerte
+|player|p1|HUOHIJOI|1|
+|player|p2|NoixVerte|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blastoise|Blastoise, L84, F|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L78|100/100
+|turn|1
+|
+|switch|p2a: Eelektross|Eelektross, L88, F|100/100
+|detailschange|p1a: Blastoise|Blastoise-Mega, L84, F
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Blastoise|Hydro Pump|p2a: Eelektross
+|-damage|p2a: Eelektross|67/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Drampa|Drampa, L88, F|100/100
+|move|p2a: Eelektross|Knock Off|p1a: Drampa
+|-damage|p1a: Drampa|72/100
+|-enditem|p1a: Drampa|Leftovers|[from] move: Knock Off|[of] p2a: Eelektross
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Eelektross|U-turn|p1a: Drampa
+|-damage|p1a: Drampa|50/100
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|100/100|[from]move: U-turn
+|move|p1a: Drampa|Dragon Pulse|p2a: Vaporeon
+|-damage|p2a: Vaporeon|68/100
+|
+|-heal|p2a: Vaporeon|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Politoed|Politoed, L84, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Vaporeon|Ice Beam|p1a: Politoed
+|-resisted|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|90/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Eelektross|Eelektross, L88, F|67/100
+|move|p1a: Politoed|Encore||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Hoopa|Hoopa, L85|100/100
+|move|p2a: Eelektross|U-turn|p1a: Hoopa
+|-damage|p1a: Hoopa|70/100
+
+|
+|switch|p2a: Latias|Latias, L81, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+
+|
+|detailschange|p2a: Latias|Latias-Mega, L81, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p2a: Latias|Dragon Pulse|p1a: Hoopa
+|-damage|p1a: Hoopa|38/100
+|move|p1a: Hoopa|Nasty Plot|p1a: Hoopa
+|-boost|p1a: Hoopa|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|76/100
+|move|p1a: Hoopa|Shadow Ball|p2a: Latias
+|-supereffective|p2a: Latias
+|-end|p2a: Latias|Substitute
+|-damage|p1a: Hoopa|29/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Blastoise|Blastoise-Mega, L84, F|100/100
+|move|p2a: Latias|Dragon Pulse|p1a: Blastoise
+|-damage|p1a: Blastoise|69/100
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|80/100
+|move|p1a: Blastoise|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|69/100
+|
+|-heal|p2a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Blastoise|Aura Sphere|p2a: Vaporeon
+|-damage|p2a: Vaporeon|49/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|55/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Genesect|Genesect, L78|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Latias|Latias-Mega, L81, F|76/100
+|move|p1a: Genesect|Shift Gear|p1a: Genesect
+|-boost|p1a: Genesect|spe|2
+|-boost|p1a: Genesect|atk|1
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Latias
+|-damage|p2a: Latias|4/100
+|-damage|p1a: Genesect|91/100|[from] item: Life Orb
+|cant|p2a: Latias|flinch
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|-damage|p1a: Genesect|81/100|[from] item: Life Orb
+|faint|p2a: Latias
+|
+|upkeep
+
+|
+|switch|p2a: Chansey|Chansey, L80, F|100/100
+|turn|16
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Chansey
+|-damage|p2a: Chansey|6/100
+|-damage|p1a: Genesect|72/100|[from] item: Life Orb
+|cant|p2a: Chansey|flinch
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Genesect|62/100|[from] item: Life Orb
+|faint|p2a: Chansey
+|
+|upkeep
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+|turn|18
+
+|
+|move|p1a: Genesect|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|55/100
+|-damage|p1a: Genesect|52/100|[from] item: Life Orb
+|move|p2a: Vaporeon|Scald|p1a: Genesect
+|-damage|p1a: Genesect|13/100
+|
+|-heal|p2a: Vaporeon|61/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|19/100
+|-damage|p1a: Genesect|4/100|[from] item: Life Orb
+|cant|p2a: Vaporeon|flinch
+|
+|-heal|p2a: Vaporeon|25/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Genesect|Iron Head|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|31/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Genesect|Iron Head|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-damage|p1a: Genesect|0 fnt|[from] item: Life Orb
+|faint|p2a: Vaporeon
+|faint|p1a: Genesect
+|
+|upkeep
+
+|
+|switch|p1a: Blastoise|Blastoise-Mega, L84, F|69/100
+|switch|p2a: Eelektross|Eelektross, L88, F|67/100
+|turn|22
+
+|
+|move|p1a: Blastoise|Aura Sphere|p2a: Eelektross
+|-damage|p2a: Eelektross|42/100
+|move|p2a: Eelektross|Knock Off|p1a: Blastoise
+|-damage|p1a: Blastoise|52/100
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Blastoise|Hydro Pump|p2a: Eelektross
+|-damage|p2a: Eelektross|5/100
+|move|p2a: Eelektross|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+
+|
+|switch|p1a: Houndoom|Houndoom, L87, F|100/100
+|turn|24
+
+|
+|move|p1a: Houndoom|Nasty Plot|p1a: Houndoom
+|-boost|p1a: Houndoom|spa|2
+|move|p2a: Eelektross|Thunderbolt|p1a: Houndoom
+|-crit|p1a: Houndoom
+|-damage|p1a: Houndoom|31/100
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|-damage|p1a: Houndoom|21/100|[from] item: Life Orb
+|faint|p2a: Eelektross
+|
+|upkeep
+
+|
+|switch|p2a: Oricorio|Oricorio-Pa'u, L89, M|100/100
+|turn|26
+
+|
+|move|p2a: Oricorio|Hurricane|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, L88, F|50/100
+|turn|27
+
+|
+|move|p2a: Oricorio|Hurricane|p1a: Drampa|[miss]
+|-miss|p2a: Oricorio|p1a: Drampa
+|move|p1a: Drampa|Roost|p1a: Drampa
+|-heal|p1a: Drampa|99/100
+|-singleturn|p1a: Drampa|move: Roost
+|
+|upkeep
+|turn|28
+
+|
+|move|p2a: Oricorio|Hurricane|p1a: Drampa|[miss]
+|-miss|p2a: Oricorio|p1a: Drampa
+|move|p1a: Drampa|Fire Blast|p2a: Oricorio
+|-damage|p2a: Oricorio|59/100
+|
+|-heal|p2a: Oricorio|65/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Oricorio|Roost|p2a: Oricorio
+|-heal|p2a: Oricorio|100/100
+|-singleturn|p2a: Oricorio|move: Roost
+|move|p1a: Drampa|Dragon Pulse|p2a: Oricorio
+|-damage|p2a: Oricorio|47/100
+|
+|-heal|p2a: Oricorio|53/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p2a: Oricorio|Roost|p2a: Oricorio
+|-heal|p2a: Oricorio|100/100
+|-singleturn|p2a: Oricorio|move: Roost
+|move|p1a: Drampa|Dragon Pulse|p2a: Oricorio
+|-damage|p2a: Oricorio|48/100
+|
+|-heal|p2a: Oricorio|54/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p2a: Oricorio|Revelation Dance|p1a: Drampa
+|-damage|p1a: Drampa|63/100
+|move|p1a: Drampa|Dragon Pulse|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|
+|upkeep
+
+|
+|switch|p2a: Ho-Oh|Ho-Oh, L78|100/100
+|turn|32
+
+|
+|switch|p1a: Politoed|Politoed, L84, M|96/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ho-Oh|Brave Bird|p1a: Politoed
+|-damage|p1a: Politoed|42/100
+|-damage|p2a: Ho-Oh|83/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ho-Oh|89/100|[from] item: Leftovers
+|-heal|p1a: Politoed|48/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p2a: Ho-Oh|Brave Bird|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Ho-Oh|74/100|[from] Recoil
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ho-Oh|80/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, L88, F|63/100
+|turn|34
+
+|
+|move|p2a: Ho-Oh|Brave Bird|p1a: Drampa
+|-damage|p1a: Drampa|18/100
+|-damage|p2a: Ho-Oh|65/100|[from] Recoil
+|move|p1a: Drampa|Dragon Pulse|p2a: Ho-Oh
+|-crit|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|19/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ho-Oh|25/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p2a: Ho-Oh|Brave Bird|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|-damage|p2a: Ho-Oh|20/100|[from] Recoil
+|faint|p1a: Drampa
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ho-Oh|26/100|[from] item: Leftovers
+|upkeep
+
+|-message|HUOHIJOI forfeited.
+
+|
+|win|NoixVerte

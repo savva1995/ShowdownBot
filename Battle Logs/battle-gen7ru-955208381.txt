@@ -1,0 +1,334 @@
+|init|battle
+|title|SunnyM vs. Dr_poopie64
+|j|☆SunnyM
+|j|☆Dr_poopie64
+|player|p1|SunnyM|138|1117
+|player|p2|Dr_poopie64|161|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Umbreon, M|item
+|poke|p1|Sceptile, F|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Uxie|item
+|poke|p1|Flygon, F|item
+|poke|p1|Gardevoir, F|item
+|poke|p2|Delphox, F|item
+|poke|p2|Ribombee, F|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Bruxish, F|item
+|poke|p2|Slaking, M|item
+|poke|p2|Ditto|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dr_poopie64)
+|
+|start
+|switch|p1a: Sceptile|Sceptile, F|100/100
+|switch|p2a: Bruxish|Bruxish, F|100/100
+|turn|1
+
+|
+|detailschange|p1a: Sceptile|Sceptile-Mega, F
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Leaf Blade|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|faint|p2a: Bruxish
+|
+|upkeep
+
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Sceptile|[from] ability: Imposter
+|turn|2
+
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Lightning Rod|[from] ability: Trace|[of] p2a: Ditto
+|move|p2a: Ditto|Dragon Claw|p1a: Gardevoir
+|-immune|p1a: Gardevoir
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Delphox|Delphox, F|100/100
+|move|p1a: Gardevoir|Moonblast|p2a: Delphox
+|-resisted|p2a: Delphox
+|-damage|p2a: Delphox|61/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Delphox|Mystical Fire|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|83/100
+|-unboost|p1a: Slowbro|spa|1
+|
+|-heal|p1a: Slowbro|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|move|p1a: Slowbro|Scald|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|83/100
+|
+|-heal|p1a: Slowbro|95/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Uxie|Uxie|100/100
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Leafeon|Knock Off|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|4/100
+|-enditem|p1a: Uxie|Wiki Berry|[from] move: Knock Off|[of] p2a: Leafeon
+|move|p1a: Uxie|U-turn|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|61/100
+
+|
+|switch|p1a: Flygon|Flygon, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Leafeon|Knock Off|p1a: Flygon
+|-damage|p1a: Flygon|42/100
+|-zpower|p1a: Flygon
+|move|p1a: Flygon|Devastating Drake|p2a: Leafeon|[zeffect]
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|upkeep
+
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|9
+
+|
+|move|p2a: Ribombee|Moonblast|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Sweet Veil|[from] ability: Trace|[of] p2a: Ribombee
+|turn|10
+
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Gardevoir|[from] ability: Imposter
+|move|p1a: Gardevoir|Trick|p2a: Ditto
+|-activate|p1a: Gardevoir|move: Trick|[of] p2a: Ditto
+|-item|p2a: Ditto|Choice Specs|[from] move: Trick
+|-item|p1a: Gardevoir|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Gardevoir|Shadow Ball|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|44/100
+|-unboost|p2a: Ditto|spd|1
+|move|p2a: Ditto|Shadow Ball|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|4/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Slaking|Slaking, M|100/100
+|move|p1a: Gardevoir|Shadow Ball|p2a: Slaking
+|-immune|p2a: Slaking
+|
+|upkeep
+|turn|13
+
+|
+|-activate|p1a: Gardevoir|move: Pursuit
+|move|p2a: Slaking|Pursuit|p1a: Gardevoir|[from]Pursuit
+|-damage|p1a: Gardevoir|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Gardevoir
+|
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile-Mega, F|100/100
+|turn|14
+
+|
+|switch|p2a: Ditto|Ditto|44/100
+|-transform|p2a: Ditto|p1a: Sceptile|[from] ability: Imposter
+|move|p1a: Sceptile|Swords Dance|p1a: Sceptile
+|-boost|p1a: Sceptile|atk|2
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Sceptile|Dragon Claw|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+
+|
+|switch|p2a: Slaking|Slaking, M|100/100
+|turn|16
+
+|
+|move|p1a: Sceptile|Leaf Blade|p2a: Slaking
+|-damage|p2a: Slaking|38/100
+|move|p2a: Slaking|Retaliate|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+
+|
+|switch|p1a: Uxie|Uxie|4/100
+|turn|17
+
+|
+|cant|p2a: Slaking|ability: Truant
+|move|p1a: Uxie|Stealth Rock|p2a: Slaking
+|-sidestart|p2: Dr_poopie64|move: Stealth Rock
+|
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-damage|p2a: Ribombee|76/100|[from] Stealth Rock
+|move|p1a: Uxie|Yawn|p2a: Ribombee
+|-activate|p2a: Ribombee|ability: Sweet Veil|[of] p2a: Ribombee
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Ribombee|Defog|p1a: Uxie
+|-unboost|p1a: Uxie|evasion|1
+|-sideend|p2: Dr_poopie64|Stealth Rock|[from] move: Defog|[of] p2a: Ribombee
+|move|p1a: Uxie|Psyshock|p2a: Ribombee
+|-damage|p2a: Ribombee|32/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Ribombee|Moonblast|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|upkeep
+
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|turn|21
+
+|
+|move|p2a: Ribombee|U-turn|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|85/100
+
+|
+|switch|p2a: Delphox|Delphox, F|61/100|[from]move: U-turn
+|move|p1a: Slowbro|Psyshock|p2a: Delphox
+|-resisted|p2a: Delphox
+|-damage|p2a: Delphox|40/100
+|
+|-heal|p1a: Slowbro|91/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Delphox|Grass Knot|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|39/100
+|move|p1a: Slowbro|Scald|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-crit|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|-heal|p1a: Slowbro|45/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Slaking|Slaking, M|38/100
+|turn|23
+
+|
+|move|p2a: Slaking|Pursuit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|15/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|65/100
+|
+|-heal|p1a: Slowbro|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|cant|p2a: Slaking|ability: Truant
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|-heal|p1a: Slowbro|77/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Ribombee|Ribombee, F|32/100
+|move|p1a: Slowbro|Scald|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-heal|p1a: Slowbro|83/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Slaking|Slaking, M|38/100
+|turn|26
+
+|
+|move|p2a: Slaking|Retaliate|p1a: Slowbro
+|-damage|p1a: Slowbro|15/100
+|move|p1a: Slowbro|Scald|p2a: Slaking
+|-damage|p2a: Slaking|0 fnt
+|faint|p2a: Slaking
+|
+|win|SunnyM

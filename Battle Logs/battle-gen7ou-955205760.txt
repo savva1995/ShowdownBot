@@ -1,0 +1,180 @@
+|init|battle
+|title|ClimbYingTheLadder vs. Trophies4Blunder
+|j|☆ClimbYingTheLadder
+|j|☆Trophies4Blunder
+|player|p1|ClimbYingTheLadder|266|1429
+|player|p2|Trophies4Blunder|267|1370
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|item
+|poke|p1|Swampert, F|item
+|poke|p1|Greninja, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Magearna|item
+|poke|p2|Magearna|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Mew|item
+|poke|p2|Greninja, M|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ClimbYingTheLadder)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p2a: Magearna|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: Trophies4Blunder|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Tornadus
+|-damage|p1a: Tornadus|20/100
+|-boost|p2a: Volcarona|spa|1
+|-zpower|p1a: Tornadus
+|move|p1a: Tornadus|Supersonic Skystrike|p2a: Volcarona|[zeffect]
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|upkeep
+|j| bnast
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Greninja|Dark Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|j| Look Bad Feel Bad
+
+|
+|move|p2a: Greninja|Hydro Pump|p1a: Pelipper|[miss]
+|-miss|p2a: Greninja|p1a: Pelipper
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p2a: Greninja|Hydro Pump|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|57/100
+|move|p1a: Pelipper|Hurricane|p2a: Greninja
+|-damage|p2a: Greninja|34/100
+|-start|p2a: Greninja|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+
+|
+|-activate|p2a: Greninja|confusion
+|move|p2a: Greninja|Gunk Shot|p1a: Pelipper|[miss]
+|-miss|p2a: Greninja|p1a: Pelipper
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+
+|
+|-activate|p2a: Greninja|confusion
+|move|p2a: Greninja|Dark Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|59/100
+|move|p1a: Pelipper|Hurricane|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|9
+
+|
+|-activate|p1a: Pelipper|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Pelipper|[from]Pursuit
+|-damage|p1a: Pelipper|17/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Lopunny|Lopunny, M|100/100
+|-damage|p2a: Lopunny|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Lopunny
+|-start|p2a: Lopunny|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lopunny|82/100|[from] Sandstorm
+|-damage|p2a: Lopunny|70/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|11
+
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, M
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|Laser Focus|p2a: Lopunny
+|-start|p2a: Lopunny|move: Laser Focus
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Lopunny
+|-damage|p2a: Lopunny|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lopunny|0 fnt|[from] Sandstorm
+|faint|p2a: Lopunny
+|upkeep
+
+|-message|Trophies4Blunder forfeited.
+
+|
+|win|ClimbYingTheLadder

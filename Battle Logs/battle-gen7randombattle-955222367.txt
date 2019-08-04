@@ -1,0 +1,233 @@
+|init|battle
+|title|Asaka_gaming vs. Xavier96
+|j|☆Asaka_gaming
+|j|☆Xavier96
+|player|p1|Asaka_gaming|34|1719
+|player|p2|Xavier96|30|1777
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electivire|Electivire, L89, M|100/100
+|switch|p2a: Corsola|Corsola, L89, F|100/100
+|turn|1
+|
+|move|p1a: Electivire|Wild Charge|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-damage|p1a: Electivire|77/100|[from] Recoil
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Forretress|Forretress, L84, M|100/100
+|turn|2
+|
+|move|p1a: Electivire|Flamethrower|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-ability|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/100
+|move|p2a: Forretress|Toxic|p1a: Electivire
+|-status|p1a: Electivire|tox
+|
+|-heal|p2a: Forretress|7/100|[from] item: Leftovers
+|-damage|p1a: Electivire|71/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Sableye|Sableye, L81, M|100/100
+|move|p1a: Electivire|Flamethrower|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|34/100
+|
+|-damage|p1a: Electivire|59/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|84/100
+|move|p1a: Electivire|Wild Charge|p2a: Sableye
+|-damage|p2a: Sableye|14/100
+|-damage|p1a: Electivire|45/100 tox|[from] Recoil
+|
+|-damage|p1a: Electivire|27/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|64/100
+|move|p1a: Electivire|Wild Charge|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|-damage|p1a: Electivire|15/100 tox|[from] Recoil
+|faint|p2a: Sableye
+|
+|-damage|p1a: Electivire|0 fnt|[from] psn
+|faint|p1a: Electivire
+|upkeep
+
+|
+|switch|p1a: Porygon-Z|Porygon-Z, L81|100/100
+|switch|p2a: Tapu Bulu|Tapu Bulu, L80|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|6
+
+|
+|move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+|-boost|p1a: Porygon-Z|spa|2
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-damage|p2a: Tapu Bulu|64/100|[from] Recoil
+|faint|p1a: Porygon-Z
+|
+|-heal|p2a: Tapu Bulu|70/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|76/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, M|100/100
+|turn|7
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, M|100/100
+|move|p1a: Escavalier|Iron Head|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|77/100
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Liepard|Liepard, L88, M|100/100
+|move|p2a: Talonflame|Swords Dance|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|2
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Liepard|Encore|p2a: Talonflame
+|-start|p2a: Talonflame|Encore
+|-zpower|p2a: Talonflame
+|move|p2a: Talonflame|Supersonic Skystrike|p1a: Liepard|[zeffect]
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|upkeep
+
+|
+|switch|p1a: Scrafty|Scrafty, L86, F|100/100
+|turn|10
+
+|
+|switch|p2a: Mimikyu|Mimikyu, L82, F|100/100
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|24/100
+|move|p1a: Scrafty|Knock Off|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-enditem|p2a: Mimikyu|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L82, F
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+
+|
+|switch|p1a: Escavalier|Escavalier, L84, M|100/100
+|turn|13
+
+|
+|switch|p2a: Forretress|Forretress, L84, M|7/100
+|move|p1a: Escavalier|Iron Head|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+
+|
+|switch|p2a: Talonflame|Talonflame, L83, M|77/100
+|turn|14
+
+|
+|move|p2a: Talonflame|Flare Blitz|p1a: Escavalier
+|-supereffective|p1a: Escavalier
+|-crit|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|-damage|p2a: Talonflame|45/100|[from] Recoil
+|faint|p1a: Escavalier
+|
+|upkeep
+
+|
+|switch|p1a: Charizard|Charizard, L80, F|100/100
+|turn|15
+
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L80, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|95/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Charizard|Dragon Pulse|p2a: Talonflame
+|-damage|p2a: Talonflame|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Charizard|Dragon Pulse|p2a: Talonflame
+|-damage|p2a: Talonflame|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+
+|
+|move|p2a: Talonflame|Swords Dance|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|2
+|move|p1a: Charizard|Dragon Pulse|p2a: Talonflame
+|-damage|p2a: Talonflame|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2a: Talonflame|0 fnt|[from] Recoil
+|faint|p1a: Charizard
+|faint|p2a: Talonflame
+|
+|win|Xavier96

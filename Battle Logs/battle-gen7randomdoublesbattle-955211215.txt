@@ -1,0 +1,177 @@
+|init|battle
+|title|Eufe vs. jasperthedog
+|j|☆Eufe
+|j|☆jasperthedog
+|player|p1|Eufe|169|1446
+|player|p2|jasperthedog|275|1378
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Celebi|Celebi, L70|100/100
+|switch|p1b: Genesect|Genesect, L70|100/100
+|switch|p2a: Arcanine|Arcanine, L74, F|100/100
+|switch|p2b: Xatu|Xatu, L82, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|-unboost|p1b: Genesect|atk|1
+|-ability|p1b: Genesect|Download|boost
+|-boost|p1b: Genesect|spa|1
+|turn|1
+
+|
+|switch|p1b: Tauros|Tauros, L80, M|100/100
+|-ability|p1b: Tauros|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|-unboost|p2b: Xatu|atk|1
+|move|p2b: Xatu|Thunder Wave|p1a: Celebi
+|-status|p1a: Celebi|par
+|move|p2a: Arcanine|Flare Blitz|p1b: Tauros
+|-damage|p1b: Tauros|64/100
+|-damage|p2a: Arcanine|89/100|[from] Recoil
+|-damage|p2a: Arcanine|79/100|[from] item: Life Orb
+|move|p1a: Celebi|Leech Seed|p2a: Arcanine
+|-start|p2a: Arcanine|move: Leech Seed
+|
+|-damage|p2a: Arcanine|67/100|[from] Leech Seed|[of] p1a: Celebi
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Quagsire|Quagsire, L86, M|100/100
+|cant|p1a: Celebi|par
+|move|p1b: Tauros|Rock Slide|p2b: Xatu|[spread] p2a,p2b
+|-resisted|p2a: Quagsire
+|-supereffective|p2b: Xatu
+|-damage|p2a: Quagsire|92/100
+|-damage|p2b: Xatu|51/100
+|-damage|p1b: Tauros|54/100|[from] item: Life Orb
+|cant|p2b: Xatu|flinch
+|
+|upkeep
+|turn|3
+
+|
+|move|p1b: Tauros|Rock Slide|p2b: Xatu|[spread] p2a,p2b
+|-resisted|p2a: Quagsire
+|-supereffective|p2b: Xatu
+|-damage|p2a: Quagsire|84/100
+|-damage|p2b: Xatu|1/100
+|-enditem|p2b: Xatu|Sitrus Berry|[eat]
+|-heal|p2b: Xatu|26/100|[from] item: Sitrus Berry
+|-damage|p1b: Tauros|44/100|[from] item: Life Orb
+|cant|p2b: Xatu|flinch
+|move|p2a: Quagsire|Earthquake|p1a: Celebi|[spread] p1a,p1b
+|-immune|p2b: Xatu
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|81/100 par
+|-damage|p1b: Tauros|6/100
+|-damage|p2a: Quagsire|74/100|[from] item: Life Orb
+|move|p1a: Celebi|Leaf Storm|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|-unboost|p1a: Celebi|spa|2
+|faint|p2a: Quagsire
+|
+|upkeep
+
+|
+|switch|p2a: Arcanine|Arcanine, L74, F|67/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|-unboost|p1b: Tauros|atk|1
+|turn|4
+
+|
+|move|p1a: Celebi|Protect|p1a: Celebi
+|-singleturn|p1a: Celebi|Protect
+|move|p2a: Arcanine|Extreme Speed|p1b: Tauros
+|-damage|p1b: Tauros|0 fnt
+|-damage|p2a: Arcanine|57/100|[from] item: Life Orb
+|faint|p1b: Tauros
+|move|p2b: Xatu|Roost|p2b: Xatu
+|-heal|p2b: Xatu|76/100
+|-singleturn|p2b: Xatu|move: Roost
+|
+|upkeep
+
+|
+|switch|p1b: Honchkrow|Honchkrow, L79, M|100/100
+|turn|5
+
+|
+|move|p2a: Arcanine|Protect|p2a: Arcanine
+|-singleturn|p2a: Arcanine|Protect
+|move|p1b: Honchkrow|Sucker Punch||[still]
+|-fail|p1b: Honchkrow
+|move|p2b: Xatu|Thunder Wave|p1b: Honchkrow
+|-status|p1b: Honchkrow|par
+|move|p1a: Celebi|Leech Seed|p2b: Xatu
+|move|p2b: Xatu|Leech Seed|p1a: Celebi|[from]Magic Bounce
+|-immune|p1a: Celebi
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2b: Vileplume|Vileplume, L80, M|100/100
+|move|p1b: Honchkrow|Sucker Punch||[still]
+|-fail|p1b: Honchkrow
+|move|p2a: Arcanine|Flare Blitz|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-damage|p2a: Arcanine|30/100|[from] Recoil
+|-damage|p2a: Arcanine|20/100|[from] item: Life Orb
+|faint|p1a: Celebi
+|
+|upkeep
+
+|
+|switch|p1a: Exeggutor|Exeggutor-Alola, L76, M|100/100
+|-item|p2a: Arcanine|Life Orb|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|-item|p2b: Vileplume|Sitrus Berry|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|turn|7
+
+|
+|move|p2a: Arcanine|Protect|p2a: Arcanine
+|-singleturn|p2a: Arcanine|Protect
+|move|p1b: Honchkrow|Sucker Punch||[still]
+|-fail|p1b: Honchkrow
+|move|p2b: Vileplume|Sludge Bomb|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|11/100
+|-status|p1a: Exeggutor|psn
+|move|p1a: Exeggutor|Flamethrower|p2b: Vileplume
+|-supereffective|p2b: Vileplume
+|-damage|p2b: Vileplume|47/100
+|-enditem|p2b: Vileplume|Sitrus Berry|[eat]
+|-heal|p2b: Vileplume|72/100|[from] item: Sitrus Berry
+|
+|-damage|p1a: Exeggutor|0 fnt|[from] psn
+|faint|p1a: Exeggutor
+|upkeep
+
+|l|☆Eufe
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jasperthedog)
+
+|inactive|Eufe has 30 seconds to reconnect!
+
+|inactive|Eufe has 20 seconds to reconnect!
+
+|inactive|Eufe has 15 seconds to reconnect!
+
+|inactive|Eufe has 10 seconds to reconnect!
+
+|inactive|Eufe has 5 seconds to reconnect!
+
+|-message|Eufe lost due to inactivity.
+|
+|win|jasperthedog

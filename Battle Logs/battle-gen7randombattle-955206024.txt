@@ -1,0 +1,240 @@
+|init|battle
+|title|K2xm vs. WiraTheWolf
+|j|☆K2xm
+|j|☆WiraTheWolf
+|player|p1|K2xm|167|1098
+|player|p2|WiraTheWolf|219|1051
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cinccino|Cinccino, L87, M|100/100
+|switch|p2a: Alakazam|Alakazam, L80, F|100/100
+|turn|1
+|c|☆WiraTheWolf|Interesting matchup...
+|
+|move|p1a: Cinccino|U-turn|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|c|☆WiraTheWolf|Damn! Not bad!
+|
+|switch|p1a: Lunatone|Lunatone, L89|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Palossand|Palossand, L86, M|100/100
+|turn|2
+|
+|move|p1a: Lunatone|Earth Power|p2a: Palossand
+|-damage|p2a: Palossand|71/100
+|move|p2a: Palossand|Shadow Ball|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|38/100
+|-unboost|p1a: Lunatone|spd|1
+|
+|-heal|p1a: Lunatone|44/100|[from] item: Leftovers
+|-heal|p2a: Palossand|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Lunatone|Moonlight|p1a: Lunatone
+|-heal|p1a: Lunatone|94/100
+|move|p2a: Palossand|Shadow Ball|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|12/100
+|
+|-heal|p1a: Lunatone|19/100|[from] item: Leftovers
+|-heal|p2a: Palossand|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Lunatone|Moonlight|p1a: Lunatone
+|-heal|p1a: Lunatone|68/100
+|move|p2a: Palossand|Shadow Ball|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|0 fnt
+|faint|p1a: Lunatone
+|
+|-heal|p2a: Palossand|89/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile, L84, M|100/100
+|turn|5
+
+|
+|switch|p2a: Charizard|Charizard, L87, F|100/100
+|detailschange|p1a: Sceptile|Sceptile-Mega, L84, M
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Giga Drain|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|91/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Cinccino|Cinccino, L87, M|100/100
+|move|p2a: Charizard|Fire Blast|p1a: Cinccino
+|-damage|p1a: Cinccino|37/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Cinccino|Knock Off|p2a: Charizard
+|-damage|p2a: Charizard|65/100
+|move|p2a: Charizard|Fire Blast|p1a: Cinccino
+|-damage|p1a: Cinccino|0 fnt
+|faint|p1a: Cinccino
+|
+|upkeep
+
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|turn|8
+
+|
+|move|p1a: Virizion|Stone Edge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, L80, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|9
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|43/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|66/100|[from] Sandstorm
+|-heal|p1a: Virizion|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Machamp|Machamp, L84, F|100/100
+|move|p1a: Virizion|Leaf Blade|p2a: Machamp
+|-damage|p2a: Machamp|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|66/100|[from] Sandstorm
+|-damage|p2a: Machamp|60/100|[from] Sandstorm
+|-heal|p1a: Virizion|72/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Virizion|Close Combat|p2a: Machamp
+|-damage|p2a: Machamp|14/100
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|move|p2a: Machamp|Stone Edge|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|24/100|[from] Sandstorm
+|-damage|p2a: Machamp|7/100|[from] Sandstorm
+|-heal|p1a: Virizion|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|24/100|[from] Sandstorm
+|-heal|p1a: Virizion|30/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, L80, M|43/100
+|turn|13
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|none
+|-heal|p1a: Virizion|36/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Palossand|Palossand, L86, M|89/100
+|turn|14
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|41/100
+|move|p2a: Palossand|Earth Power|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|16/100
+|-unboost|p1a: Virizion|spd|1
+|
+|-heal|p1a: Virizion|22/100|[from] item: Leftovers
+|-heal|p2a: Palossand|47/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|faint|p2a: Palossand
+|
+|-heal|p1a: Virizion|28/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tentacruel|Tentacruel, L82, F|100/100
+|turn|16
+
+|c|☆WiraTheWolf|Wow, what a sweep
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Tentacruel
+|-damage|p2a: Tentacruel|54/100
+|move|p2a: Tentacruel|Knock Off|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|14/100
+|-ability|p1a: Virizion|Justified|boost
+|-boost|p1a: Virizion|atk|1
+|-enditem|p1a: Virizion|Leftovers|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|60/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+
+|c|☆WiraTheWolf|Congrats!
+
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|win|K2xm

@@ -1,0 +1,256 @@
+|init|battle
+|title|Jhyk91 vs. Pikapwn3d
+|j|☆Jhyk91
+|j|☆Pikapwn3d
+|player|p1|Jhyk91|15|1386
+|player|p2|Pikapwn3d|102|1345
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Komala|Komala, L89, F|100/100
+|switch|p2a: Swellow|Swellow, L84, F|100/100
+|-ability|p1a: Komala|Comatose
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pikapwn3d)
+|
+|move|p2a: Swellow|Protect|p2a: Swellow
+|-singleturn|p2a: Swellow|Protect
+|move|p1a: Komala|Return|p2a: Swellow
+|-activate|p2a: Swellow|move: Protect
+|
+|-status|p2a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Swellow|Facade|p1a: Komala
+|-damage|p1a: Komala|15/100
+|move|p1a: Komala|Return|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L81, M|100/100
+|turn|3
+|
+|switch|p1a: Mesprit|Mesprit, L86|100/100
+|move|p2a: Thundurus|Thunderbolt|p1a: Mesprit
+|-damage|p1a: Mesprit|61/100
+|-status|p1a: Mesprit|par
+|
+|-heal|p1a: Mesprit|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Mesprit
+|-damage|p1a: Mesprit|30/100 par
+|move|p1a: Mesprit|Healing Wish|p1a: Mesprit
+|faint|p1a: Mesprit
+|
+|upkeep
+
+|
+|switch|p1a: Komala|Komala, L89, F|15/100
+|-heal|p1a: Komala|100/100|[from] move: Healing Wish
+|-ability|p1a: Komala|Comatose
+|turn|5
+
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Komala
+|-damage|p1a: Komala|57/100
+|move|p1a: Komala|Return|p2a: Thundurus
+|-damage|p2a: Thundurus|4/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Dusknoir|Dusknoir, L89, M|100/100
+|-item|p1a: Komala|Choice Band|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|move|p1a: Komala|Return|p2a: Dusknoir
+|-immune|p2a: Dusknoir
+|
+|upkeep
+|turn|7
+
+|
+|-singleturn|p2a: Dusknoir|move: Focus Punch
+|switch|p1a: Clefable|Clefable, L80, M|100/100
+|move|p2a: Dusknoir|Focus Punch|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|62/100
+|
+|-heal|p1a: Clefable|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L81, M|4/100
+|move|p1a: Clefable|Stealth Rock|p2a: Thundurus
+|-sidestart|p2: Pikapwn3d|move: Stealth Rock
+|
+|-heal|p1a: Clefable|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|41/100
+
+|
+|switch|p2a: Ludicolo|Ludicolo, L88, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|92/100
+|
+|-heal|p1a: Clefable|98/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|move|p1a: Clefable|Thunder Wave|p2a: Ludicolo
+|-status|p2a: Ludicolo|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Ludicolo|Scald|p1a: Clefable
+|-damage|p1a: Clefable|34/100
+|-damage|p2a: Ludicolo|78/100 par|[from] item: Life Orb
+|move|p1a: Clefable|Moonblast|p2a: Ludicolo
+|-damage|p2a: Ludicolo|48/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|40/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|cant|p2a: Ludicolo|par
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|91/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|97/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Ludicolo|Scald|p1a: Clefable
+|-damage|p1a: Clefable|36/100
+|-damage|p2a: Ludicolo|39/100 par|[from] item: Life Orb
+|move|p1a: Clefable|Moonblast|p2a: Ludicolo
+|-damage|p2a: Ludicolo|12/100 par
+|-unboost|p2a: Ludicolo|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|42/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Ludicolo|Scald|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Ludicolo|2/100 par|[from] item: Life Orb
+|faint|p1a: Clefable
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Honchkrow|Honchkrow, L84, M|100/100
+|turn|15
+
+|
+|move|p1a: Honchkrow|Pursuit|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|-damage|p1a: Honchkrow|91/100|[from] item: Life Orb
+|faint|p2a: Ludicolo
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L81, M|4/100
+|-damage|p2a: Thundurus|0 fnt|[from] Stealth Rock
+|faint|p2a: Thundurus
+
+|
+|switch|p2a: Dusknoir|Dusknoir, L89, M|100/100
+|-damage|p2a: Dusknoir|88/100|[from] Stealth Rock
+|-item|p1a: Honchkrow|Life Orb|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|turn|16
+
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Dusknoir
+|-damage|p2a: Dusknoir|0 fnt
+|-damage|p1a: Honchkrow|69/100|[from] Recoil
+|-damage|p1a: Honchkrow|60/100|[from] item: Life Orb
+|faint|p2a: Dusknoir
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Chandelure|Chandelure, L82, F|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-damage|p1a: Honchkrow|50/100|[from] item: Life Orb
+|faint|p2a: Chandelure
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Bug, L78|100/100
+|-damage|p2a: Arceus|76/100|[from] Stealth Rock
+|turn|18
+
+|
+|-zpower|p2a: Arceus
+|move|p2a: Arceus|Savage Spin-Out|p1a: Honchkrow|[zeffect]
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|
+|upkeep
+
+|
+|switch|p1a: Victreebel|Victreebel, L88, M|100/100
+|turn|19
+
+|
+|move|p2a: Arceus|Earthquake|p1a: Victreebel
+|-damage|p1a: Victreebel|72/100
+|-zpower|p1a: Victreebel
+|move|p1a: Victreebel|Z-Sleep Powder|p2a: Arceus|[anim]Sleep Powder|[miss]
+|-boost|p1a: Victreebel|spe|1|[zeffect]
+|-miss|p1a: Victreebel|p2a: Arceus
+|
+|upkeep
+|turn|20
+
+|-message|Pikapwn3d forfeited.
+
+|
+|win|Jhyk91

@@ -1,0 +1,24 @@
+|init|battle
+|title|titttttttttt vs. Moonling
+|j|☆titttttttttt
+|j|☆Moonling
+|player|p1|titttttttttt|266|1024
+|player|p2|Moonling|52|1039
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sableye|Sableye, L81, M|100/100
+|switch|p2a: Xatu|Xatu, L86, F|100/100
+|turn|1
+
+|-message|titttttttttt forfeited.
+
+|
+|win|Moonling

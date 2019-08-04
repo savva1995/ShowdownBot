@@ -1,0 +1,32 @@
+|init|battle
+|title|TailsHamster777 vs. HamDuHum
+|j|☆TailsHamster777
+|j|☆HamDuHum
+|player|p1|TailsHamster777|99|
+|player|p2|HamDuHum|269|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Pidgeot, M|item
+|poke|p1|Crobat, F|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Pidgeot, M|item
+|poke|p1|Swellow, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Articuno|item
+|poke|p2|Salamence, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Gyarados, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|-message|HamDuHum forfeited.
+|
+|win|TailsHamster777
+|l|☆HamDuHum
+|l|☆TailsHamster777

@@ -1,0 +1,351 @@
+|init|battle
+|title|tinyglasses vs. Re Santana
+|j|☆tinyglasses
+|j|☆Re Santana
+|player|p1|tinyglasses|252|1532
+|player|p2|Re Santana|39|1461
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|4
+|tier|[Gen 4] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|
+|start
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|switch|p2a: Uxie|Uxie, shiny|100/100
+|turn|1
+|j| Ventoux
+
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|43/100
+|-damage|p1a: Alakazam|91/100|[from] item: Life Orb
+|move|p2a: Uxie|Stealth Rock|p1a: Alakazam
+|-sidestart|p1: tinyglasses|move: Stealth Rock
+|
+|-heal|p2a: Uxie|49/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Alakazam|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|69/100
+|-damage|p1a: Alakazam|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Jirachi
+|-damage|p2a: Jirachi|22/100
+|-damage|p1a: Alakazam|71/100|[from] item: Life Orb
+|move|p2a: Jirachi|Iron Head|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-heal|p2a: Jirachi|28/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Stealth Rock
+|turn|4
+
+|
+|move|p2a: Jirachi|Thunder Wave|p1a: Milotic
+|-status|p1a: Milotic|par
+|move|p1a: Milotic|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-heal|p1a: Milotic|94/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|5
+
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-start|p2a: Rotom|Substitute
+|-damage|p2a: Rotom|76/100
+|
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Venusaur
+|-status|p1a: Venusaur|brn
+|move|p1a: Venusaur|Hidden Power|p2a: Rotom
+|-activate|p2a: Rotom|Substitute|[damage]
+|
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Venusaur|88/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|72/100 brn
+|move|p1a: Venusaur|Hidden Power|p2a: Rotom
+|-end|p2a: Rotom|Substitute
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Venusaur|66/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-start|p2a: Rotom|Substitute
+|-damage|p2a: Rotom|69/100
+|
+|-heal|p2a: Rotom|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Flygon|Dragon Claw|p2a: Rotom
+|-end|p2a: Rotom|Substitute
+|move|p2a: Rotom|Will-O-Wisp|p1a: Flygon
+|-status|p1a: Flygon|brn
+|
+|-heal|p2a: Rotom|81/100|[from] item: Leftovers
+|-damage|p1a: Flygon|82/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Flygon|Fire Blast|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|84/100
+|-damage|p1a: Flygon|72/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Flygon|60/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Swampert|Waterfall|p1a: Skarmory
+|-damage|p1a: Skarmory|54/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Swampert|Waterfall|p1a: Skarmory
+|-damage|p1a: Skarmory|15/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Swampert
+|-sidestart|p2: Re Santana|move: Stealth Rock
+|
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Venusaur|Venusaur, M|66/100 brn
+|-damage|p1a: Venusaur|53/100 brn|[from] Stealth Rock
+|move|p2a: Swampert|Waterfall|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|20/100 brn
+|
+|-heal|p1a: Venusaur|26/100 brn|[from] item: Leftovers
+|-damage|p1a: Venusaur|14/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Uxie|Uxie, shiny|49/100
+|-damage|p2a: Uxie|36/100|[from] Stealth Rock
+|move|p1a: Venusaur|Leaf Storm|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|-unboost|p1a: Venusaur|spa|2
+|faint|p2a: Uxie
+|
+|-heal|p1a: Venusaur|20/100 brn|[from] item: Leftovers
+|-damage|p1a: Venusaur|8/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Mow|81/100
+|-damage|p2a: Rotom|68/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-start|p2a: Rotom|Substitute
+|-damage|p2a: Rotom|44/100
+|move|p1a: Venusaur|Leaf Storm|p2a: Rotom
+|-end|p2a: Rotom|Substitute
+|-unboost|p1a: Venusaur|spa|2
+|
+|-heal|p2a: Rotom|50/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|14/100 brn|[from] item: Leftovers
+|-damage|p1a: Venusaur|1/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-start|p2a: Rotom|Substitute
+|-damage|p2a: Rotom|25/100
+|move|p1a: Venusaur|Leaf Storm|p2a: Rotom
+|-end|p2a: Rotom|Substitute
+|-unboost|p1a: Venusaur|spa|2
+|
+|-heal|p2a: Rotom|31/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|7/100 brn|[from] item: Leftovers
+|-damage|p1a: Venusaur|0 fnt|[from] brn
+|faint|p1a: Venusaur
+|upkeep
+
+|
+|switch|p1a: Flygon|Flygon, F|60/100 brn
+|-damage|p1a: Flygon|54/100 brn|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Flygon|Fire Blast|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Flygon|44/100 brn|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|-damage|p1a: Flygon|32/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|18
+
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Latias|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|62/100
+|-unboost|p2a: Latias|spa|2
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Swampert|Swampert, F|84/100
+|-damage|p2a: Swampert|78/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Swampert
+|-damage|p2a: Swampert|55/100
+
+|
+|switch|p1a: Milotic|Milotic, F|94/100 par|[from]move: U-turn
+|-damage|p1a: Milotic|82/100 par|[from] Stealth Rock
+|
+|-heal|p1a: Milotic|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Swampert|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|25/100 par
+|move|p1a: Milotic|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-heal|p1a: Milotic|31/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|21
+
+|
+|move|p2a: Tyranitar|Crunch|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Flygon|Flygon, F|32/100 brn
+|-damage|p1a: Flygon|26/100 brn|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Flygon|Dragon Claw|p2a: Tyranitar
+|-damage|p2a: Tyranitar|67/100
+|-damage|p1a: Flygon|16/100 brn|[from] item: Life Orb
+|move|p2a: Tyranitar|Crunch|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Jirachi|Jirachi|62/100
+|-damage|p1a: Jirachi|56/100|[from] Stealth Rock
+|turn|23
+
+|
+|switch|p2a: Latias|Latias, F|88/100
+|-damage|p2a: Latias|76/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|32/100
+
+|
+|switch|p1a: Skarmory|Skarmory, F|15/100|[from]move: U-turn
+|-damage|p1a: Skarmory|3/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|26/100|[from] Sandstorm
+|upkeep
+|turn|24
+
+|
+|move|p2a: Latias|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|20/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Jirachi|Jirachi|56/100
+|-damage|p1a: Jirachi|50/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p2a: Latias|Thunderbolt|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|win|Re Santana

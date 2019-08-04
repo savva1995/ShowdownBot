@@ -1,0 +1,533 @@
+|init|battle
+|title|advbp smbt vs. grendy96
+|j|☆advbp smbt
+|j|☆grendy96
+|player|p1|advbp smbt|2|1049
+|player|p2|grendy96|279|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|3
+|tier|[Gen 3] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p2a: Forretress|Forretress, M, shiny|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|36/100
+|move|p2a: Forretress|Spikes|p1a: Tyranitar
+|-sidestart|p1: advbp smbt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Forretress|Explosion|p1a: Gengar
+|-immune|p1a: Gengar
+|faint|p2a: Forretress
+
+|
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-damage|p2a: Gardevoir|94/100|[from] Sandstorm
+|-heal|p1a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Gengar|Explosion|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p1a: Gengar
+|faint|p2a: Gardevoir
+
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Flygon|Flygon, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Flygon|Substitute|p2a: Flygon
+|-start|p2a: Flygon|Substitute
+|-damage|p2a: Flygon|76/100
+|move|p1a: Skarmory|Toxic||[still]
+|-fail|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Flygon|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|53/100
+|move|p1a: Skarmory|Whirlwind|p2a: Flygon
+|drag|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|59/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by grendy96)
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Zapdos|Light Screen|p2a: Zapdos
+|-sidestart|p2: grendy96|Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|inactive|grendy96 has 120 seconds left.
+
+|inactive|grendy96 has 90 seconds left.
+
+|j| Ecco 4th un TV
+
+|
+|switch|p2a: Snorlax|Snorlax, M, shiny|100/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Sandstorm
+|-damage|p2a: Snorlax|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|grendy96 has 60 seconds left.
+
+|
+|switch|p1a: Skarmory|Skarmory, F|59/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|94/100|[from] Sandstorm
+|-heal|p1a: Skarmory|65/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Skarmory|Spikes|p2a: Snorlax
+|-sidestart|p2: grendy96|Spikes
+|move|p2a: Snorlax|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|94/100|[from] Sandstorm
+|-heal|p1a: Skarmory|53/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|inactive|grendy96 has 60 seconds left.
+
+|inactive|grendy96 has 30 seconds left.
+
+|
+|move|p2a: Snorlax|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|15/100
+|-status|p1a: Skarmory|par
+|move|p1a: Skarmory|Whirlwind|p2a: Snorlax
+|drag|p2a: Flygon|Flygon, M, shiny|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Flygon|88/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|21/100 par|[from] item: Leftovers
+|-sideend|p2: grendy96|Light Screen
+|upkeep
+|turn|12
+
+|l| Ecco 4th un TV
+
+|inactive|grendy96 has 30 seconds left.
+
+|inactive|grendy96 has 20 seconds left.
+
+|inactive|grendy96 has 15 seconds left.
+
+|inactive|grendy96 has 10 seconds left.
+
+|inactive|grendy96 has 5 seconds left.
+
+|
+|move|p2a: Flygon|Iron Tail|p1a: Skarmory|[miss]
+|-miss|p2a: Flygon|p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Flygon
+|drag|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|grendy96 has 15 seconds left this turn.
+
+|inactive|grendy96 has 10 seconds left.
+
+|
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+
+|inactive|grendy96 has 20 seconds left this turn.
+
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|-damage|p1a: Dugtrio|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|grendy96 has 30 seconds left this turn.
+
+|inactive|grendy96 has 20 seconds left.
+
+|inactive|grendy96 has 15 seconds left.
+
+|inactive|grendy96 has 10 seconds left.
+
+|inactive|grendy96 has 5 seconds left.
+
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+
+|inactive|grendy96 has 15 seconds left this turn.
+
+|inactive|grendy96 has 10 seconds left.
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|grendy96 has 20 seconds left this turn.
+
+|
+|switch|p1a: Blissey|Blissey, F|88/100
+|-damage|p1a: Blissey|76/100|[from] Spikes
+|move|p2a: Zapdos|Hidden Power|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|60/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|grendy96 has 30 seconds left this turn.
+
+|inactive|grendy96 has 20 seconds left.
+
+|inactive|grendy96 has 15 seconds left.
+
+|inactive|grendy96 has 10 seconds left.
+
+|
+|switch|p2a: Snorlax|Snorlax, M, shiny|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|82/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|inactive|grendy96 has 20 seconds left this turn.
+
+|
+|switch|p1a: Dugtrio|Dugtrio, F|88/100
+|-damage|p1a: Dugtrio|76/100|[from] Spikes
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|82/100|[from] Sandstorm
+|-heal|p2a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|inactive|grendy96 has 30 seconds left this turn.
+
+|inactive|grendy96 has 20 seconds left.
+
+|inactive|grendy96 has 15 seconds left.
+
+|inactive|grendy96 has 10 seconds left.
+
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|47/100
+|move|p2a: Snorlax|Body Slam|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+
+|inactive|grendy96 has 20 seconds left this turn.
+
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|41/100|[from] Sandstorm
+|-heal|p2a: Snorlax|47/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|inactive|grendy96 has 30 seconds left this turn.
+
+|
+|move|p1a: Tyranitar|Rock Slide|p2a: Snorlax|[miss]
+|-miss|p1a: Tyranitar|p2a: Snorlax
+|move|p2a: Snorlax|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|41/100|[from] Sandstorm
+|-heal|p2a: Snorlax|47/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Tyranitar|Rock Slide|p2a: Snorlax
+|-damage|p2a: Snorlax|7/100
+|move|p2a: Snorlax|Body Slam|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-damage|p2a: Snorlax|0 fnt|[from] Sandstorm
+|faint|p2a: Snorlax
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|21
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|62/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|inactive|grendy96 has 60 seconds left.
+
+|
+|move|p2a: Zapdos|Light Screen|p2a: Zapdos
+|-sidestart|p2: grendy96|Light Screen
+|move|p1a: Blissey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|62/100|[from] Sandstorm
+|-damage|p1a: Blissey|62/100|[from] Sandstorm
+|-heal|p2a: Zapdos|69/100|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Flygon|Flygon, M, shiny|88/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|62/100|[from] Sandstorm
+|-heal|p2a: Flygon|94/100|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Flygon|Substitute|p2a: Flygon
+|-start|p2a: Flygon|Substitute
+|-damage|p2a: Flygon|69/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Flygon|75/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Flygon|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|57/100
+|move|p1a: Blissey|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-end|p2a: Flygon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|50/100|[from] Sandstorm
+|-heal|p2a: Flygon|81/100|[from] item: Leftovers
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Flygon|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|8/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-heal|p2a: Flygon|87/100|[from] item: Leftovers
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-sideend|p2: grendy96|Light Screen
+|upkeep
+|turn|27
+
+|inactive|grendy96 has 60 seconds left.
+
+|
+|move|p2a: Flygon|Iron Tail|p1a: Blissey
+|-damage|p1a: Blissey|26/100
+|-unboost|p1a: Blissey|def|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|70/100|[from] Sandstorm
+|-heal|p2a: Flygon|93/100|[from] item: Leftovers
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Starmie|Starmie|88/100
+|-damage|p1a: Starmie|76/100|[from] Spikes
+|move|p2a: Flygon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|2/100|[from] Sandstorm
+|-heal|p1a: Starmie|9/100|[from] item: Leftovers
+|-heal|p2a: Flygon|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|inactive|grendy96 has 60 seconds left.
+
+|
+|switch|p2a: Zapdos|Zapdos|69/100
+|move|p1a: Starmie|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|2/100|[from] Sandstorm
+|-damage|p2a: Zapdos|1/100|[from] Sandstorm
+|-heal|p1a: Starmie|9/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|7/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Starmie|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+
+|
+|switch|p2a: Flygon|Flygon, M, shiny|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|2/100|[from] Sandstorm
+|-heal|p1a: Starmie|9/100|[from] item: Leftovers
+|-heal|p2a: Flygon|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p1a: Starmie|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|win|advbp smbt

@@ -1,0 +1,248 @@
+|init|battle
+|title|derek270 vs. Mono117
+|j|☆derek270
+|j|☆Mono117
+|player|p1|derek270|266|1719
+|player|p2|Mono117|101|1666
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Froslass|Froslass, L88, F|100/100
+|switch|p2a: Greninja|Greninja, L80, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mono117)
+|
+|switch|p1a: Furret|Furret, L89, M|100/100
+|-item|p2a: Greninja|Choice Specs|[from] ability: Frisk|[of] p1a: Furret|[identify]
+|move|p2a: Greninja|Dark Pulse|p1a: Furret
+|-damage|p1a: Furret|50/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Greninja|Dark Pulse|p1a: Furret
+|-damage|p1a: Furret|0 fnt
+|faint|p1a: Furret
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, L80, M
+|
+|upkeep
+|inactive|derek270 has 120 seconds left.
+|c|☆Mono117|...
+|inactive|derek270 has 90 seconds left.
+|inactive|derek270 has 60 seconds left.
+|
+|switch|p1a: Goodra|Goodra, L84, F|100/100
+|turn|3
+|
+|switch|p2a: Mienshao|Mienshao, L83, M|100/100
+|move|p1a: Goodra|Thunderbolt|p2a: Mienshao
+|-damage|p2a: Mienshao|60/100
+|-status|p2a: Mienshao|par
+|
+|upkeep
+|turn|4
+|inactive|derek270 has 60 seconds left.
+|inactive|derek270 has 30 seconds left.
+|inactive|derek270 has 20 seconds left.
+|inactive|derek270 has 15 seconds left.
+|
+|cant|p2a: Mienshao|par
+|move|p1a: Goodra|Draco Meteor|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|-unboost|p1a: Goodra|spa|2
+|faint|p2a: Mienshao
+|
+|upkeep
+|inactive|derek270 has 25 seconds left this turn.
+|
+|switch|p2a: Dodrio|Dodrio, L88, M|100/100
+|turn|5
+|inactive|derek270 has 30 seconds left.
+|
+|switch|p1a: Froslass|Froslass, L88, F|100/100
+|move|p2a: Dodrio|Knock Off|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|2/100
+|-enditem|p1a: Froslass|Focus Sash|[from] move: Knock Off|[of] p2a: Dodrio
+|-damage|p2a: Dodrio|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|inactive|derek270 has 30 seconds left.
+|
+|switch|p2a: Greninja|Greninja-Ash, L80, M|100/100
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Togekiss|Togekiss, L82, M|100/100
+|move|p1a: Froslass|Shadow Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|76/100
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Froslass|Taunt|p2a: Togekiss
+|-start|p2a: Togekiss|move: Taunt
+|move|p2a: Togekiss|Air Slash|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|-heal|p2a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Nihilego|Nihilego, L82|100/100
+|-item|p1a: Nihilego|Air Balloon
+|turn|9
+|
+|move|p1a: Nihilego|Toxic Spikes|p2a: Togekiss
+|-sidestart|p2: Mono117|move: Toxic Spikes
+|move|p2a: Togekiss|Aura Sphere|p1a: Nihilego
+|-damage|p1a: Nihilego|85/100
+|-enditem|p1a: Nihilego|Air Balloon
+|
+|-heal|p2a: Togekiss|95/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Nihilego|Sludge Wave|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|25/100
+|move|p2a: Togekiss|Aura Sphere|p1a: Nihilego
+|-damage|p1a: Nihilego|68/100
+|
+|-heal|p2a: Togekiss|31/100|[from] item: Leftovers
+|-end|p2a: Togekiss|move: Taunt
+|upkeep
+|turn|11
+|inactive|derek270 has 60 seconds left.
+|
+|move|p1a: Nihilego|Sludge Wave|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spd|1
+|
+|upkeep
+|
+|switch|p2a: Slaking|Slaking, L89, M|100/100
+|-status|p2a: Slaking|psn
+|turn|12
+|
+|move|p2a: Slaking|Giga Impact|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|-mustrecharge|p2a: Slaking
+|faint|p1a: Nihilego
+|
+|-damage|p2a: Slaking|88/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Kyogre|Kyogre, L78|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal, L78
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|13
+|l|☆Mono117
+|inactive|Mono117 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Mono117 has 30 seconds to reconnect!
+|inactive|Mono117 has 20 seconds to reconnect!
+|j|☆Mono117
+|inactive|Mono117 reconnected and has 90 seconds left.
+|player|p2|Mono117|101
+|
+|cant|p2a: Slaking|recharge
+|move|p1a: Kyogre|Origin Pulse|p2a: Slaking
+|-damage|p2a: Slaking|21/100 psn
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Slaking|9/100 psn|[from] psn
+|upkeep
+|turn|14
+|inactive|Mono117 has 90 seconds left.
+|
+|-weather|none
+|switch|p1a: Goodra|Goodra, L84, F|100/100
+|move|p2a: Slaking|Giga Impact|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-mustrecharge|p2a: Slaking
+|faint|p1a: Goodra
+|
+|-damage|p2a: Slaking|0 fnt|[from] psn
+|faint|p2a: Slaking
+|upkeep
+|inactive|derek270 has 90 seconds left.
+|inactive|Mono117 has 90 seconds left.
+|
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|switch|p1a: Kyogre|Kyogre-Primal, L78|100/100
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|-status|p2a: Tsareena|psn
+|turn|15
+|inactive|Mono117 has 90 seconds left.
+|inactive|derek270 has 90 seconds left.
+|
+|move|p1a: Kyogre|Ice Beam|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|33/100 psn
+|move|p2a: Tsareena|Power Whip|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p2a: Tsareena|23/100 psn|[from] item: Life Orb
+|faint|p1a: Kyogre
+|-weather|none
+|
+|-damage|p2a: Tsareena|11/100 psn|[from] psn
+|upkeep
+|inactive|derek270 has 90 seconds left.
+|
+|switch|p1a: Salamence|Salamence, L78, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tsareena|atk|1
+|turn|16
+|
+|switch|p2a: Dodrio|Dodrio, L88, M|91/100
+|detailschange|p1a: Salamence|Salamence-Mega, L78, M
+|-mega|p1a: Salamence|Salamence|Salamencite
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Salamence|Double-Edge|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|-damage|p1a: Salamence|74/100|[from] Recoil
+|faint|p2a: Dodrio
+|
+|upkeep
+|
+|switch|p2a: Greninja|Greninja-Ash, L80, M|100/100
+|-status|p2a: Greninja|psn
+|turn|18
+|
+|move|p1a: Salamence|Double-Edge|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-damage|p1a: Salamence|44/100|[from] Recoil
+|faint|p2a: Greninja
+|
+|upkeep
+
+|-message|Mono117 forfeited.
+
+|
+|win|derek270

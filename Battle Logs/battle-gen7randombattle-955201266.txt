@@ -1,0 +1,501 @@
+|init|battle
+|title|Kimsan vs. fukmytitties
+|j|☆Kimsan
+|j|☆fukmytitties
+|player|p1|Kimsan|265|
+|player|p2|fukmytitties|10|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Minun|Minun, L89, M|100/100
+|switch|p2a: Octillery|Octillery, L89, M|100/100
+|turn|1
+|
+|move|p1a: Minun|Thunderbolt|p2a: Octillery
+|-supereffective|p2a: Octillery
+|-damage|p2a: Octillery|34/100
+|move|p2a: Octillery|Ice Beam|p1a: Minun
+|-damage|p1a: Minun|70/100
+|
+|-heal|p1a: Minun|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Minun|Thunderbolt|p2a: Octillery
+|-supereffective|p2a: Octillery
+|-damage|p2a: Octillery|0 fnt
+|faint|p2a: Octillery
+|
+|-heal|p1a: Minun|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Comfey|Comfey, L86, F|100/100
+|turn|3
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Minun
+|-damage|p1a: Minun|63/100
+|move|p1a: Minun|Nasty Plot|p1a: Minun
+|-boost|p1a: Minun|spa|2
+|
+|-heal|p1a: Minun|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Comfey|U-turn|p1a: Minun
+|-damage|p1a: Minun|49/100
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, M|100/100|[from]move: U-turn
+|move|p1a: Minun|Nasty Plot|p1a: Minun
+|-boost|p1a: Minun|spa|2
+|
+|-heal|p1a: Minun|55/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Minun|Hidden Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Minun
+|-damage|p1a: Minun|22/100
+|-enditem|p1a: Minun|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Minun|Thunderbolt|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Minun|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|28/100
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Minun
+|-resisted|p1a: Minun
+|-damage|p1a: Minun|0 fnt
+|faint|p1a: Minun
+|
+|-heal|p2a: Ferrothorn|34/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, F|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: fukmytitties
+|turn|8
+
+|
+|switch|p2a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: Kimsan
+|move|p1a: Pyroar|Fire Blast|p2a: Pyroar
+|-resisted|p2a: Pyroar
+|-damage|p2a: Pyroar|75/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Pyroar|Solar Beam||[still]
+|-prepare|p2a: Pyroar|Solar Beam|p1a: Pyroar
+|move|p1a: Pyroar|Sunny Day|p1a: Pyroar
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Pyroar|Solar Beam|p1a: Pyroar|[from]lockedmove
+|-resisted|p1a: Pyroar
+|-damage|p1a: Pyroar|80/100
+|move|p1a: Pyroar|Solar Beam||[still]
+|-prepare|p1a: Pyroar|Solar Beam|p2a: Pyroar
+|-anim|p1a: Pyroar|Solar Beam|p2a: Pyroar
+|-resisted|p2a: Pyroar
+|-damage|p2a: Pyroar|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Pyroar|Dark Pulse|p1a: Pyroar
+|-damage|p1a: Pyroar|55/100
+|cant|p1a: Pyroar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+
+|
+|move|p2a: Pyroar|Solar Beam||[still]
+|-prepare|p2a: Pyroar|Solar Beam|p1a: Pyroar
+|-anim|p2a: Pyroar|Solar Beam|p1a: Pyroar
+|-resisted|p1a: Pyroar
+|-damage|p1a: Pyroar|34/100
+|move|p1a: Pyroar|Hyper Voice|p2a: Pyroar
+|-damage|p2a: Pyroar|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+
+|
+|move|p2a: Pyroar|Dark Pulse|p1a: Pyroar
+|-damage|p1a: Pyroar|9/100
+|move|p1a: Pyroar|Fire Blast|p2a: Pyroar
+|-resisted|p2a: Pyroar
+|-damage|p2a: Pyroar|0 fnt
+|faint|p2a: Pyroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, M|100/100
+|turn|14
+
+|
+|move|p1a: Pyroar|Solar Beam||[still]
+|-prepare|p1a: Pyroar|Solar Beam|p2a: Toxicroak
+|-anim|p1a: Pyroar|Solar Beam|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|77/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|-heal|p2a: Toxicroak|82/100|[from] drain|[of] p1a: Pyroar
+|-damage|p2a: Toxicroak|72/100|[from] item: Life Orb
+|faint|p1a: Pyroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Toxicroak|60/100|[from] ability: Dry Skin|[of] p2a: Toxicroak
+|upkeep
+
+|
+|switch|p1a: Blastoise|Blastoise, L84, M|100/100
+|turn|15
+
+|
+|detailschange|p1a: Blastoise|Blastoise-Mega, L84, M
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Toxicroak|Ice Punch|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|90/100
+|-damage|p2a: Toxicroak|50/100|[from] item: Life Orb
+|move|p1a: Blastoise|Aura Sphere|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Toxicroak|11/100|[from] ability: Dry Skin|[of] p2a: Toxicroak
+|upkeep
+|turn|16
+
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|39/100
+|-heal|p2a: Toxicroak|36/100|[from] drain|[of] p1a: Blastoise
+|-damage|p2a: Toxicroak|26/100|[from] item: Life Orb
+|move|p1a: Blastoise|Scald|p2a: Toxicroak
+|-heal|p2a: Toxicroak|51/100|[from] ability: Dry Skin|[of] p1a: Blastoise
+|
+|-weather|none
+|upkeep
+|turn|17
+
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Blastoise
+|-damage|p1a: Blastoise|9/100
+|-heal|p2a: Toxicroak|66/100|[from] drain|[of] p1a: Blastoise
+|-damage|p2a: Toxicroak|56/100|[from] item: Life Orb
+|move|p1a: Blastoise|Dark Pulse|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|32/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-heal|p2a: Toxicroak|36/100|[from] drain|[of] p1a: Blastoise
+|-damage|p2a: Toxicroak|26/100|[from] item: Life Orb
+|faint|p1a: Blastoise
+|
+|upkeep
+
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|100/100
+|turn|19
+
+|
+|move|p1a: Yanmega|Giga Drain|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|7/100
+|-damage|p1a: Yanmega|91/100|[from] item: Life Orb
+|move|p2a: Toxicroak|Gunk Shot|p1a: Yanmega|[miss]
+|-miss|p2a: Toxicroak|p1a: Yanmega
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|20
+
+|
+|move|p1a: Yanmega|Giga Drain|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-heal|p1a: Yanmega|94/100|[from] drain|[of] p2a: Toxicroak
+|-damage|p1a: Yanmega|84/100|[from] item: Life Orb
+|faint|p2a: Toxicroak
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+
+|
+|switch|p2a: Comfey|Comfey, L86, F|100/100
+|turn|21
+
+|
+|move|p1a: Yanmega|Protect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Comfey|Draining Kiss|p1a: Yanmega
+|-activate|p1a: Yanmega|move: Protect
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|22
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Yanmega
+|-damage|p1a: Yanmega|61/100
+|move|p1a: Yanmega|U-turn|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|85/100
+|-damage|p1a: Yanmega|51/100|[from] item: Life Orb
+
+|
+|switch|p1a: Sandslash|Sandslash-Alola, L88, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Comfey|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Comfey|U-turn|p1a: Sandslash
+|-resisted|p1a: Sandslash
+|-damage|p1a: Sandslash|96/100
+
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100|[from]move: U-turn
+|move|p1a: Sandslash|Icicle Crash|p2a: Cryogonal
+|-resisted|p2a: Cryogonal
+|-damage|p2a: Cryogonal|66/100
+|-damage|p1a: Sandslash|86/100|[from] item: Life Orb
+|
+|-heal|p2a: Cryogonal|72/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Cryogonal|Hidden Power|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|49/100
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|
+|-heal|p2a: Cryogonal|78/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Cryogonal|Hidden Power|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|11/100
+|move|p1a: Sandslash|Iron Head|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|-damage|p1a: Sandslash|2/100|[from] item: Life Orb
+|faint|p2a: Cryogonal
+|
+|upkeep
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, M|34/100 par
+|turn|26
+
+|
+|cant|p2a: Ferrothorn|par
+|move|p1a: Sandslash|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Sandslash|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|faint|p1a: Sandslash
+|
+|upkeep
+
+|
+|switch|p1a: Yanmega|Yanmega, L84, M|51/100
+|switch|p2a: Comfey|Comfey, L86, F|91/100
+|turn|27
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Yanmega
+|-damage|p1a: Yanmega|27/100
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: Yanmega
+|move|p1a: Yanmega|Giga Drain|p2a: Comfey
+|-damage|p2a: Comfey|72/100
+|-heal|p1a: Yanmega|39/100|[from] drain|[of] p2a: Comfey
+|-damage|p1a: Yanmega|29/100|[from] item: Life Orb
+|
+|-heal|p2a: Comfey|78/100|[from] item: Leftovers
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|28
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Yanmega
+|-damage|p1a: Yanmega|5/100
+|-heal|p2a: Comfey|99/100|[from] drain|[of] p1a: Yanmega
+|move|p1a: Yanmega|Air Slash|p2a: Comfey
+|-damage|p2a: Comfey|58/100
+|-damage|p1a: Yanmega|0 fnt|[from] item: Life Orb
+|faint|p1a: Yanmega
+|
+|-heal|p2a: Comfey|65/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|turn|29
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|100/100
+|move|p1a: Volcanion|Hidden Power|p2a: Comfey
+|-damage|p2a: Comfey|81/100
+|
+|-heal|p2a: Comfey|87/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|91/100
+|-heal|p2a: Comfey|96/100|[from] drain|[of] p1a: Volcanion
+|move|p1a: Volcanion|Steam Eruption|p2a: Comfey
+|-damage|p2a: Comfey|47/100
+|
+|-heal|p2a: Comfey|53/100|[from] item: Leftovers
+|-heal|p1a: Volcanion|97/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|100/100
+|move|p1a: Volcanion|Fire Blast|p2a: Comfey|[miss]
+|-miss|p1a: Volcanion|p2a: Comfey
+|
+|-heal|p1a: Volcanion|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|91/100
+|move|p1a: Volcanion|Fire Blast|p2a: Comfey
+|-crit|p2a: Comfey
+|-damage|p2a: Comfey|29/100
+|
+|-heal|p2a: Comfey|35/100|[from] item: Leftovers
+|-heal|p1a: Volcanion|97/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|85/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Comfey
+|-damage|p2a: Comfey|36/100
+|
+|-heal|p2a: Comfey|43/100|[from] item: Leftovers
+|-heal|p1a: Volcanion|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|93/100
+|move|p1a: Volcanion|Fire Blast|p2a: Comfey
+|-damage|p2a: Comfey|39/100
+|
+|-heal|p2a: Comfey|45/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|95/100
+|move|p1a: Volcanion|Fire Blast|p2a: Comfey
+|-damage|p2a: Comfey|42/100
+|
+|-heal|p2a: Comfey|48/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|98/100
+|move|p1a: Volcanion|Fire Blast|p2a: Comfey
+|-damage|p2a: Comfey|48/100
+|-status|p2a: Comfey|brn
+|
+|-heal|p2a: Comfey|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Comfey|48/100 brn|[from] brn
+|upkeep
+|turn|37
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|98/100 brn
+|move|p1a: Volcanion|Steam Eruption|p2a: Comfey
+|-damage|p2a: Comfey|47/100 brn
+|
+|-heal|p2a: Comfey|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Comfey|47/100 brn|[from] brn
+|upkeep
+|turn|38
+
+|
+|move|p2a: Comfey|Aromatherapy|p2a: Comfey
+|-activate|p2a: Comfey|move: Aromatherapy
+|-curestatus|p2a: Comfey|brn|[msg]
+|move|p1a: Volcanion|Fire Blast|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|win|Kimsan

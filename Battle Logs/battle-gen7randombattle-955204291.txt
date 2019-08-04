@@ -1,0 +1,41 @@
+|init|battle
+|title|aladrac vs. whereamim8
+|j|☆aladrac
+|j|☆whereamim8
+|player|p1|aladrac|101|1070
+|player|p2|whereamim8|201|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Flygon|Flygon, L84, M|100/100
+|switch|p2a: Xatu|Xatu, L86, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by whereamim8)
+|
+|switch|p1a: Slaking|Slaking, L89, M|100/100
+|move|p2a: Xatu|Psychic|p1a: Slaking
+|-damage|p1a: Slaking|71/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Slaking|Giga Impact|p2a: Xatu
+|-enditem|p2a: Xatu|Focus Sash
+|-damage|p2a: Xatu|1/100
+|-mustrecharge|p1a: Slaking
+|move|p2a: Xatu|U-turn|p1a: Slaking
+|-damage|p1a: Slaking|62/100
+|-message|aladrac forfeited.
+|
+|win|whereamim8
+|l|☆aladrac
+|raw|aladrac's rating: 1048 &rarr; <strong>1033</strong><br />(-15 for losing)
+|raw|whereamim8's rating: 1095 &rarr; <strong>1117</strong><br />(+22 for winning)
+|l|☆whereamim8

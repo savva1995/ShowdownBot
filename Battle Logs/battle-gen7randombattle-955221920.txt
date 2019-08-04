@@ -1,0 +1,173 @@
+|init|battle
+|title|suspenders113 vs. pedal_pusher
+|j|☆suspenders113
+|j|☆pedal_pusher
+|player|p1|suspenders113|124|1581
+|player|p2|pedal_pusher|13|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Milotic|Milotic, L84, M|100/100
+|switch|p2a: Mismagius|Mismagius, L86, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by suspenders113)
+|
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|76/100
+|move|p1a: Milotic|Toxic||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p2a: Mismagius|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Milotic
+|-damage|p1a: Milotic|75/100
+|-unboost|p1a: Milotic|spd|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|move|p1a: Milotic|Scald|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-heal|p2a: Mismagius|88/100|[from] item: Leftovers
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Milotic
+|-damage|p1a: Milotic|43/100
+|move|p1a: Milotic|Scald|p2a: Mismagius
+|-damage|p2a: Mismagius|29/100
+|
+|-heal|p2a: Mismagius|35/100|[from] item: Leftovers
+|-heal|p1a: Milotic|49/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Mismagius|Destiny Bond|p2a: Mismagius
+|-singlemove|p2a: Mismagius|Destiny Bond
+|move|p1a: Milotic|Scald|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|-activate|p2a: Mismagius|move: Destiny Bond
+|faint|p1a: Milotic
+|
+|upkeep
+|inactive|pedal_pusher has 120 seconds left.
+|
+|switch|p2a: Metagross|Metagross, L78|100/100
+|switch|p1a: Diggersby|Diggersby, L81, M|100/100
+|turn|5
+|inactive|pedal_pusher has 120 seconds left.
+|
+|switch|p2a: Glaceon|Glaceon, L89, F|100/100
+|move|p1a: Diggersby|Swords Dance|p1a: Diggersby
+|-boost|p1a: Diggersby|atk|2
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Diggersby|Earthquake|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|-damage|p1a: Diggersby|90/100|[from] item: Life Orb
+|faint|p2a: Glaceon
+|
+|upkeep
+|
+|switch|p2a: Marshadow|Marshadow, L78|100/100
+|turn|7
+|
+|move|p2a: Marshadow|Close Combat|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|-unboost|p2a: Marshadow|def|1
+|-unboost|p2a: Marshadow|spd|1
+|faint|p1a: Diggersby
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, L86, F|100/100
+|turn|8
+|
+|switch|p2a: Metagross|Metagross, L78|100/100
+|move|p1a: Whimsicott|U-turn|p2a: Metagross
+|-damage|p2a: Metagross|87/100
+|
+|switch|p1a: Gourgeist|Gourgeist-Large, L89, M|100/100|[from]move: U-turn
+|-item|p2a: Metagross|Metagrossite|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Clefable|Clefable, L80, F|100/100
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Clefable
+|-status|p2a: Clefable|brn
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Gourgeist|Leech Seed|p2a: Clefable
+|-start|p2a: Clefable|move: Leech Seed
+|move|p2a: Clefable|Fire Blast|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|30/100
+|
+|-heal|p1a: Gourgeist|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Gourgeist|Seed Bomb|p2a: Clefable
+|-damage|p2a: Clefable|60/100 brn
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Gourgeist|43/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Gourgeist|Seed Bomb|p2a: Clefable
+|-damage|p2a: Clefable|19/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Sinnoh, L90, M|100/100
+|turn|13
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound, L81|100/100
+|move|p1a: Pikachu|Volt Tackle|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|-damage|p1a: Pikachu|59/100|[from] Recoil
+|faint|p2a: Hoopa
+|
+|upkeep
+
+|
+|switch|p2a: Marshadow|Marshadow, L78|100/100
+|turn|14
+
+|
+|move|p2a: Marshadow|Spectral Thief|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|-status|p2a: Marshadow|par|[from] ability: Static|[of] p1a: Pikachu
+|faint|p1a: Pikachu
+|
+|upkeep
+
+|-message|pedal_pusher forfeited.
+
+|
+|win|suspenders113

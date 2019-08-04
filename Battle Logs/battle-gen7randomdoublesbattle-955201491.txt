@@ -1,0 +1,80 @@
+|init|battle
+|title|Affordances vs. marco9606
+|j|☆Affordances
+|j|☆marco9606
+|player|p1|Affordances|209|1476
+|player|p2|marco9606|78|1484
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Azumarill|Azumarill, L82, M|100/100
+|switch|p1b: Seismitoad|Seismitoad, L78, F|100/100
+|switch|p2a: Leafeon|Leafeon, L77, F|100/100
+|switch|p2b: Ninetales|Ninetales, L79, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Ninetales
+|turn|1
+
+|
+|switch|p1b: Victreebel|Victreebel, L80, F|100/100
+|switch|p1a: Darmanitan|Darmanitan, L81, F|100/100
+|move|p2a: Leafeon|Leaf Blade|p1b: Victreebel
+|-resisted|p1b: Victreebel
+|-damage|p1b: Victreebel|89/100
+|move|p2b: Ninetales|Solar Beam||[still]
+|-prepare|p2b: Ninetales|Solar Beam|p1a: Darmanitan
+|-anim|p2b: Ninetales|Solar Beam|p1a: Darmanitan
+|-resisted|p1a: Darmanitan
+|-damage|p1a: Darmanitan|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Affordances)
+
+|
+|move|p2a: Leafeon|Protect|p2a: Leafeon
+|-singleturn|p2a: Leafeon|Protect
+|move|p1b: Victreebel|Sludge Bomb|p2a: Leafeon
+|-activate|p2a: Leafeon|move: Protect
+|move|p2b: Ninetales|Fire Blast|p1b: Victreebel
+|-supereffective|p1b: Victreebel
+|-damage|p1b: Victreebel|0 fnt
+|faint|p1b: Victreebel
+|move|p1a: Darmanitan|Superpower|p2b: Ninetales
+|-damage|p2b: Ninetales|29/100
+|-unboost|p1a: Darmanitan|atk|1
+|-unboost|p1a: Darmanitan|def|1
+|-damage|p1a: Darmanitan|74/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Ninetales|36/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Affordances has 120 seconds left.
+
+|l|☆Affordances
+
+|inactive|Affordances disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|inactive|Affordances has 30 seconds to reconnect!
+
+|inactive|Affordances has 20 seconds to reconnect!
+
+|inactive|Affordances has 15 seconds to reconnect!
+
+|inactive|Affordances has 10 seconds to reconnect!
+
+|inactive|Affordances has 5 seconds to reconnect!
+
+|-message|Affordances lost due to inactivity.
+|
+|win|marco9606

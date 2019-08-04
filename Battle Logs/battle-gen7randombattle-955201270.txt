@@ -1,0 +1,307 @@
+|init|battle
+|title|Braadpit vs. Guest 1383567
+|j|☆Braadpit
+|player|p1|Braadpit|2|1008
+|player|p2|Guest 1383567|169|1005
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cloyster|Cloyster, L84, M|100/100
+|switch|p2a: Pidgeot|Pidgeot, L82, F|100/100
+|turn|1
+|
+|move|p2a: Pidgeot|Heat Wave|p1a: Cloyster
+|-damage|p1a: Cloyster|63/100
+|move|p1a: Cloyster|Icicle Spear|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|78/100
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|53/100
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|30/100
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|8/100
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|-hitcount|p2a: Pidgeot|5
+|faint|p2a: Pidgeot
+|
+|upkeep
+|
+|switch|p2a: Arcanine|Arcanine, L84, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Cloyster|atk|1
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Guest 1383567)
+|inactiveoff|Battle timer is now OFF.
+|
+|switch|p1a: Golduck|Golduck, L89, M|100/100
+|-ability|p1a: Golduck|Cloud Nine
+|move|p2a: Arcanine|Flare Blitz|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|75/100
+|-damage|p2a: Arcanine|92/100|[from] Recoil
+|
+|-heal|p2a: Arcanine|98/100|[from] item: Leftovers
+|-heal|p1a: Golduck|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Serperior|Serperior, L80, M|100/100
+|move|p1a: Golduck|Scald|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|81/100
+|
+|-heal|p2a: Serperior|87/100|[from] item: Leftovers
+|-heal|p1a: Golduck|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|move|p2a: Serperior|Leaf Storm|p1a: Rayquaza
+|-resisted|p1a: Rayquaza
+|-damage|p1a: Rayquaza|95/100
+|-boost|p2a: Serperior|spa|2
+|
+|-heal|p2a: Serperior|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Rayquaza|V-create|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|69/100
+|-unboost|p1a: Rayquaza|spe|1
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Golduck|Golduck, L89, M|87/100
+|-ability|p1a: Golduck|Cloud Nine
+|move|p2a: Kyogre|Ice Beam|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Golduck|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Serperior|Serperior, L80, M|93/100
+|move|p1a: Golduck|Calm Mind|p1a: Golduck
+|-boost|p1a: Golduck|spa|1
+|-boost|p1a: Golduck|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Serperior|99/100|[from] item: Leftovers
+|-heal|p1a: Golduck|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|35/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Golduck|Ice Beam|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Serperior|24/100|[from] item: Leftovers
+|-heal|p1a: Golduck|41/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Golduck
+|
+|-weather|none
+|-heal|p2a: Serperior|30/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Cloyster|Cloyster, L84, M|63/100
+|turn|10
+
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+
+|
+|switch|p2a: Buzzwole|Buzzwole, L81|100/100
+|turn|11
+
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Buzzwole
+|-damage|p2a: Buzzwole|91/100
+|move|p2a: Buzzwole|Poison Jab|p1a: Cloyster
+|-damage|p1a: Cloyster|45/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|69/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Cloyster|Hydro Pump|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+
+|
+|move|p2a: Kyogre|Thunder|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Vikavolt|Vikavolt, L86, F|100/100
+|turn|14
+
+|
+|switch|p2a: Buzzwole|Buzzwole, L81|91/100
+|move|p1a: Vikavolt|Agility|p1a: Vikavolt
+|-boost|p1a: Vikavolt|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+
+|
+|move|p2a: Buzzwole|Stone Edge|p1a: Vikavolt|[miss]
+|-miss|p2a: Buzzwole|p1a: Vikavolt
+|move|p1a: Vikavolt|Thunderbolt|p2a: Buzzwole
+|-damage|p2a: Buzzwole|7/100
+|-status|p2a: Buzzwole|par
+|-damage|p1a: Vikavolt|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+
+|
+|move|p1a: Vikavolt|Thunderbolt|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|-damage|p1a: Vikavolt|81/100|[from] item: Life Orb
+|faint|p2a: Buzzwole
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Togedemaru|Togedemaru, L86, M|100/100
+|-item|p2a: Togedemaru|Air Balloon
+|turn|17
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L88, M|100/100
+|move|p2a: Togedemaru|Zing Zap|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|62/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|29/100
+|-enditem|p2a: Togedemaru|Air Balloon
+|-damage|p1a: Hitmonchan|52/100|[from] item: Life Orb
+|move|p2a: Togedemaru|Nuzzle|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|41/100
+|-status|p1a: Hitmonchan|par
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|0 fnt
+|-damage|p1a: Hitmonchan|31/100 par|[from] item: Life Orb
+|faint|p2a: Togedemaru
+|
+|upkeep
+
+|
+|switch|p2a: Arcanine|Arcanine, L84, F|98/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Hitmonchan|atk|1
+|turn|20
+
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Arcanine
+|-damage|p2a: Arcanine|80/100
+|-damage|p1a: Hitmonchan|21/100 par|[from] item: Life Orb
+|move|p2a: Arcanine|Flare Blitz|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|-damage|p2a: Arcanine|74/100|[from] Recoil
+|faint|p1a: Hitmonchan
+|
+|-heal|p2a: Arcanine|80/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Kommo-o|Kommo-o, L80, M|100/100
+|turn|21
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|48/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-zpower|p1a: Kommo-o
+|move|p1a: Kommo-o|Clangorous Soulblaze|p2a: Kyogre|[zeffect]
+|-damage|p2a: Kyogre|0 fnt
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Arcanine|Arcanine, L84, F|80/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|turn|22
+
+|-message|Guest 1383567 forfeited.
+
+|
+|win|Braadpit

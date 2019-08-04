@@ -1,0 +1,228 @@
+|init|battle
+|title|pwang4117 vs. pikaka chou
+|j|☆pwang4117
+|j|☆pikaka chou
+|player|p1|pwang4117|265|1618
+|player|p2|pikaka chou|238|1553
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Incineroar|Incineroar, L86, M|100/100
+|switch|p2a: Primarina|Primarina, L82, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Primarina|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pwang4117)
+|inactive|pikaka chou also wants the timer to be on.
+|
+|move|p1a: Incineroar|U-turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|87/100
+|inactive|pwang4117 has 120 seconds left.
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100|[from]move: U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Primarina|Hydro Pump|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|72/100
+|
+|-heal|p2a: Primarina|93/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|78/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|84/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|switch|p2a: Ho-Oh|Ho-Oh, L78|100/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|89/100
+|-heal|p1a: Tapu Bulu|92/100|[from] drain|[of] p2a: Ho-Oh
+|
+|-heal|p2a: Ho-Oh|95/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|98/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|switch|p1a: Incineroar|Incineroar, L86, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ho-Oh|atk|1
+|move|p2a: Ho-Oh|Brave Bird|p1a: Incineroar
+|-damage|p1a: Incineroar|73/100
+|-damage|p2a: Ho-Oh|85/100|[from] Recoil
+|
+|-heal|p1a: Incineroar|79/100|[from] Grassy Terrain
+|-heal|p2a: Ho-Oh|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Primarina|Primarina, L82, M|93/100
+|move|p1a: Incineroar|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|66/100
+|-enditem|p2a: Primarina|Choice Scarf|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-heal|p1a: Incineroar|85/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|72/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|100/100
+|move|p2a: Primarina|Hidden Power|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|59/100
+|
+|-heal|p1a: Tapu Bulu|66/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|72/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|78/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|switch|p1a: Eelektross|Eelektross, L88, M|100/100
+|switch|p2a: Braviary|Braviary, L86, M|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Chimecho|Chimecho, L89, M|100/100
+|move|p1a: Eelektross|Thunderbolt|p2a: Chimecho
+|-damage|p2a: Chimecho|65/100
+|
+|-heal|p2a: Chimecho|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Chimecho|Calm Mind|p2a: Chimecho
+|-boost|p2a: Chimecho|spa|1
+|-boost|p2a: Chimecho|spd|1
+|move|p1a: Eelektross|Knock Off|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|3/100
+|-enditem|p2a: Chimecho|Leftovers|[from] move: Knock Off|[of] p1a: Eelektross
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Chimecho|Psychic|p1a: Eelektross
+|-damage|p1a: Eelektross|66/100
+|move|p1a: Eelektross|U-turn|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|0 fnt
+|faint|p2a: Chimecho
+|
+|switch|p1a: Delcatty|Delcatty, L89, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Braviary|Braviary, L86, M|100/100
+|turn|10
+|
+|move|p1a: Delcatty|Fake Out|p2a: Braviary
+|-damage|p2a: Braviary|84/100
+|-damage|p1a: Delcatty|91/100|[from] item: Life Orb
+|cant|p2a: Braviary|flinch
+|
+|-heal|p2a: Braviary|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Delcatty|Wild Charge|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|38/100
+|-damage|p1a: Delcatty|76/100|[from] Recoil
+|-damage|p1a: Delcatty|66/100|[from] item: Life Orb
+|move|p2a: Braviary|Superpower|p1a: Delcatty
+|-supereffective|p1a: Delcatty
+|-damage|p1a: Delcatty|0 fnt
+|-unboost|p2a: Braviary|atk|1
+|-unboost|p2a: Braviary|def|1
+|faint|p1a: Delcatty
+|
+|-heal|p2a: Braviary|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Incineroar|Incineroar, L86, M|85/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Braviary|atk|1
+|-ability|p2a: Braviary|Defiant|boost
+|-boost|p2a: Braviary|atk|2
+|turn|12
+|
+|move|p1a: Incineroar|U-turn|p2a: Braviary
+|-resisted|p2a: Braviary
+|-damage|p2a: Braviary|28/100
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L80|72/100|[from]move: U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Braviary|Brave Bird|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|-damage|p2a: Braviary|10/100|[from] Recoil
+|faint|p1a: Tapu Bulu
+|
+|-heal|p2a: Braviary|16/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Incineroar|Incineroar, L86, M|85/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Braviary|atk|1
+|-ability|p2a: Braviary|Defiant|boost
+|-boost|p2a: Braviary|atk|2
+|turn|13
+|
+|move|p1a: Incineroar|Flare Blitz|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|-damage|p1a: Incineroar|79/100|[from] Recoil
+|faint|p2a: Braviary
+|
+|-heal|p1a: Incineroar|85/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Primarina|Primarina, L82, M|78/100
+|turn|14
+|
+|switch|p1a: Eelektross|Eelektross, L88, M|66/100
+|move|p2a: Primarina|Moonblast|p1a: Eelektross
+|-damage|p1a: Eelektross|40/100
+|
+|-heal|p2a: Primarina|84/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|move|p2a: Primarina|Moonblast|p1a: Eelektross
+|-damage|p1a: Eelektross|13/100
+|-unboost|p1a: Eelektross|spa|1
+|move|p1a: Eelektross|Thunderbolt|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|36/100
+|
+|-heal|p2a: Primarina|42/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+
+|
+|move|p2a: Primarina|Moonblast|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|-heal|p2a: Primarina|48/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys-Speed, L78|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|17
+
+|-message|pwang4117 forfeited.
+
+|
+|win|pikaka chou

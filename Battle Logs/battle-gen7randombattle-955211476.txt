@@ -1,0 +1,252 @@
+|init|battle
+|title|5961rb vs. 777777y
+|j|☆5961rb
+|j|☆777777y
+|player|p1|5961rb|58|1098
+|player|p2|777777y|83|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sunflora|Sunflora, L89, F|100/100
+|switch|p2a: Togedemaru|Togedemaru, L86, M|100/100
+|-item|p2a: Togedemaru|Air Balloon
+|turn|1
+
+|
+|move|p2a: Togedemaru|Nuzzle|p1a: Sunflora
+|-resisted|p1a: Sunflora
+|-damage|p1a: Sunflora|94/100
+|-status|p1a: Sunflora|par
+|move|p1a: Sunflora|Earth Power|p2a: Togedemaru
+|-immune|p2a: Togedemaru
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Fearow|Fearow, L89, M|100/100
+|move|p1a: Sunflora|Hidden Power|p2a: Fearow
+|-damage|p2a: Fearow|68/100
+|-damage|p1a: Sunflora|85/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, L84, F|100/100
+|move|p2a: Fearow|U-turn|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|79/100
+
+|
+|switch|p2a: Keldeo|Keldeo, L80|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 777777y)
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, M|100/100
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Keldeo|Scald|p1a: Spiritomb
+|-damage|p1a: Spiritomb|30/100
+|-status|p1a: Spiritomb|brn
+|-damage|p2a: Keldeo|91/100|[from] item: Life Orb
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Keldeo
+|-status|p2a: Keldeo|brn
+|
+|-damage|p2a: Keldeo|85/100 brn|[from] brn
+|-damage|p1a: Spiritomb|23/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Exeggutor|Exeggutor-Alola, L86, M|100/100
+|-item|p2a: Keldeo|Life Orb|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|move|p2a: Keldeo|Scald|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|84/100
+|-damage|p2a: Keldeo|75/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Keldeo|69/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Keldeo|Icy Wind|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|-damage|p2a: Keldeo|59/100 brn|[from] item: Life Orb
+|faint|p1a: Exeggutor
+|
+|-damage|p2a: Keldeo|53/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Xurkitree|Xurkitree, L81|100/100
+|turn|8
+
+|
+|move|p2a: Keldeo|Scald|p1a: Xurkitree
+|-damage|p1a: Xurkitree|15/100
+|-damage|p2a: Keldeo|43/100 brn|[from] item: Life Orb
+|move|p1a: Xurkitree|Dazzling Gleam|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|-ability|p1a: Xurkitree|Beast Boost|boost
+|-boost|p1a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100
+|turn|9
+
+|
+|switch|p1a: Durant|Durant, L83, M|100/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Durant
+|-immune|p1a: Durant
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Durant|Hone Claws|p1a: Durant
+|-boost|p1a: Durant|atk|1
+|-boost|p1a: Durant|accuracy|1
+|move|p2a: Vileplume|Hidden Power|p1a: Durant
+|-supereffective|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|-damage|p2a: Vileplume|91/100|[from] item: Life Orb
+|faint|p1a: Durant
+|
+|upkeep
+
+|inactive|5961rb has 120 seconds left.
+
+|
+|switch|p1a: Sunflora|Sunflora, L89, F|85/100 par
+|turn|11
+
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Sunflora
+|-supereffective|p1a: Sunflora
+|-damage|p1a: Sunflora|0 fnt
+|-damage|p2a: Vileplume|81/100|[from] item: Life Orb
+|faint|p1a: Sunflora
+|
+|upkeep
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, L84, F|79/100
+|turn|12
+
+|
+|move|p1a: Tyrantrum|Outrage|p2a: Vileplume
+|-damage|p2a: Vileplume|22/100
+|move|p2a: Vileplume|Strength Sap|p1a: Tyrantrum
+|-unboost|p1a: Tyrantrum|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Tyrantrum|Outrage|p2a: Vileplume|[from]lockedmove
+|-damage|p2a: Vileplume|63/100
+|-start|p1a: Tyrantrum|confusion|[fatigue]
+|-enditem|p1a: Tyrantrum|Lum Berry|[eat]
+|-end|p1a: Tyrantrum|confusion
+|move|p2a: Vileplume|Strength Sap|p1a: Tyrantrum
+|-unboost|p1a: Tyrantrum|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Tyrantrum|Dragon Dance|p1a: Tyrantrum
+|-boost|p1a: Tyrantrum|atk|1
+|-boost|p1a: Tyrantrum|spe|1
+|move|p2a: Vileplume|Giga Drain|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|22/100
+|-damage|p2a: Vileplume|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Tyrantrum|Dragon Dance|p1a: Tyrantrum
+|-boost|p1a: Tyrantrum|atk|1
+|-boost|p1a: Tyrantrum|spe|1
+|move|p2a: Vileplume|Strength Sap|p1a: Tyrantrum
+|-unboost|p1a: Tyrantrum|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Xurkitree|Xurkitree, L81|15/100
+|move|p2a: Vileplume|Giga Drain|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|-damage|p2a: Vileplume|91/100|[from] item: Life Orb
+|faint|p1a: Xurkitree
+|
+|upkeep
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, M|23/100 brn
+|turn|17
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Vileplume
+|-damage|p2a: Vileplume|79/100
+|-damage|p1a: Spiritomb|13/100 brn|[from] item: Life Orb
+|move|p2a: Vileplume|Giga Drain|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|-heal|p2a: Vileplume|85/100|[from] drain|[of] p1a: Spiritomb
+|-damage|p2a: Vileplume|75/100|[from] item: Life Orb
+|faint|p1a: Spiritomb
+|
+|upkeep
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, L84, F|22/100
+|turn|18
+
+|
+|move|p1a: Tyrantrum|Head Smash|p2a: Vileplume|[miss]
+|-miss|p1a: Tyrantrum|p2a: Vileplume
+|move|p2a: Vileplume|Strength Sap|p1a: Tyrantrum
+|-unboost|p1a: Tyrantrum|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Tyrantrum|Head Smash|p2a: Vileplume
+|-damage|p2a: Vileplume|52/100
+|move|p2a: Vileplume|Giga Drain|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|-heal|p2a: Vileplume|63/100|[from] drain|[of] p1a: Tyrantrum
+|-damage|p2a: Vileplume|54/100|[from] item: Life Orb
+|faint|p1a: Tyrantrum
+|
+|win|777777y

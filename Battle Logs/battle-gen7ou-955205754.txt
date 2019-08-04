@@ -1,0 +1,380 @@
+|init|battle
+|title|jericho_krimzon vs. renshen
+|j|☆jericho_krimzon
+|j|☆renshen
+|player|p1|jericho_krimzon|278|1364
+|player|p2|renshen|205|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Wash|item
+|poke|p1|Tangrowth, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Charizard, F|item
+|poke|p2|Kartana|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Golem-Alola, F|item
+|poke|p2|Banette, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Golem|Golem-Alola, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Golem|Stone Edge|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|37/100
+|move|p1a: Rotom|Hydro Pump|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|-heal|p1a: Rotom|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|2
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Tapu Bulu|Substitute|p2a: Tapu Bulu
+|-start|p2a: Tapu Bulu|Substitute
+|-damage|p2a: Tapu Bulu|76/100
+|
+|-heal|p2a: Tapu Bulu|82/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+
+|
+|-singleturn|p2a: Tapu Bulu|move: Focus Punch
+|move|p1a: Tangrowth|Sludge Bomb|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-end|p2a: Tapu Bulu|Substitute
+|move|p2a: Tapu Bulu|Focus Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|67/100
+|
+|-heal|p2a: Tapu Bulu|88/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|73/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Kartana|Kartana, shiny|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: Kartana
+|-damage|p2a: Kartana|77/100
+|-enditem|p2a: Kartana|Choice Band|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-heal|p2a: Kartana|83/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|79/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|move|p2a: Kartana|Smart Strike|p1a: Tangrowth
+|-damage|p1a: Tangrowth|48/100
+|move|p1a: Tangrowth|Power Whip|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|67/100
+|
+|-heal|p2a: Kartana|73/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|54/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Kartana|Leaf Blade|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|71/100
+|
+|-heal|p2a: Kartana|79/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Kartana|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|30/100
+|move|p1a: Charizard|Focus Blast|p2a: Kartana|[miss]
+|-miss|p1a: Charizard|p2a: Kartana
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Kartana|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|-zpower|p1a: Tornadus
+|move|p1a: Tornadus|Supersonic Skystrike|p2a: Kartana|[zeffect]
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|88/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|10
+
+|
+|move|p1a: Tornadus|U-turn|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|76/100
+
+|
+|switch|p1a: Tangrowth|Tangrowth, M|87/100|[from]move: U-turn
+|move|p2a: Tapu Bulu|Substitute|p2a: Tapu Bulu
+|-start|p2a: Tapu Bulu|Substitute
+|-damage|p2a: Tapu Bulu|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tapu Bulu|58/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|93/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+
+|
+|-singleturn|p2a: Tapu Bulu|move: Focus Punch
+|move|p1a: Tangrowth|Sludge Bomb|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-end|p2a: Tapu Bulu|Substitute
+|move|p2a: Tapu Bulu|Focus Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|58/100
+|
+|-weather|none
+|-heal|p2a: Tapu Bulu|64/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|64/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+
+|
+|move|p2a: Tapu Bulu|Substitute|p2a: Tapu Bulu
+|-start|p2a: Tapu Bulu|Substitute
+|-damage|p2a: Tapu Bulu|39/100
+|move|p1a: Tangrowth|Knock Off|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-activate|p2a: Tapu Bulu|move: Substitute|[damage]
+|
+|-heal|p2a: Tapu Bulu|45/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|70/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+
+|
+|-singleturn|p2a: Tapu Bulu|move: Focus Punch
+|move|p1a: Tangrowth|Sludge Bomb|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-end|p2a: Tapu Bulu|Substitute
+|move|p2a: Tapu Bulu|Focus Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|37/100
+|
+|-heal|p2a: Tapu Bulu|51/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|43/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Tangrowth|Sludge Bomb|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-heal|p1a: Tangrowth|49/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Rotom|Rotom-Wash|43/100
+|move|p2a: Heatran|Stealth Rock|p1a: Rotom
+|-sidestart|p1: jericho_krimzon|move: Stealth Rock
+|
+|-heal|p1a: Rotom|50/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Heatran|[miss]
+|-miss|p1a: Rotom|p2a: Heatran
+|move|p2a: Heatran|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|56/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|50/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|54/100
+|move|p2a: Heatran|Magma Storm|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|27/100 tox
+|-activate|p1a: Rotom|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Rotom|33/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|60/100|[from] item: Leftovers
+|-damage|p1a: Rotom|21/100 tox|[from] psn
+|-damage|p1a: Rotom|8/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|18
+
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p1a: Rotom|15/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|66/100|[from] item: Leftovers
+|-damage|p1a: Rotom|0 fnt|[from] psn
+|faint|p1a: Rotom
+|upkeep
+
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|19
+
+|
+|move|p1a: Excadrill|Toxic|p2a: Heatran
+|-immune|p2a: Heatran
+|move|p2a: Heatran|Magma Storm|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|28/100
+|-activate|p1a: Excadrill|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Excadrill|34/100|[from] item: Leftovers
+|-heal|p2a: Heatran|72/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|22/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|20
+
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p1a: Excadrill|28/100|[from] item: Leftovers
+|-heal|p2a: Heatran|79/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|15/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|21
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Excadrill|21/100|[from] item: Leftovers
+|-end|p1a: Excadrill|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|turn|22
+
+|
+|move|p2a: Landorus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|95/100
+|-damage|p1a: Tornadus|70/100|[from] Stealth Rock
+|turn|23
+
+|
+|switch|p2a: Banette|Banette, F|100/100
+|-item|p1a: Tornadus|Flyinium Z|[from] ability: Frisk|[of] p2a: Banette|[identify]
+|move|p1a: Tornadus|Defog|p2a: Banette
+|-unboost|p2a: Banette|evasion|1
+|-sideend|p1: jericho_krimzon|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|
+|upkeep
+|turn|24
+
+|
+|detailschange|p2a: Banette|Banette-Mega, F
+|-mega|p2a: Banette|Banette|Banettite
+|move|p2a: Banette|Thunder Wave|p1a: Tornadus
+|-status|p1a: Tornadus|par
+|move|p1a: Tornadus|Hurricane|p2a: Banette
+|-damage|p2a: Banette|35/100
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Tornadus|Hurricane|p2a: Banette
+|-damage|p2a: Banette|0 fnt
+|faint|p2a: Banette
+|
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|26
+
+|
+|move|p2a: Landorus|Explosion|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p2a: Landorus
+|faint|p1a: Tornadus
+|
+|upkeep
+
+|c|☆jericho_krimzon|wait that learns explosion?
+
+|
+|switch|p1a: Charizard|Charizard-Mega-Y, F|30/100
+|switch|p2a: Tapu Bulu|Tapu Bulu|51/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|27
+
+|
+|move|p1a: Charizard|Fire Blast|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|win|jericho_krimzon

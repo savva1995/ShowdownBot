@@ -1,0 +1,346 @@
+|init|battle
+|title|DatTrash vs. Chisaki Kai
+|j|☆DatTrash
+|j|☆Chisaki Kai
+|player|p1|DatTrash|266|1895
+|player|p2|Chisaki Kai|25|1986
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Genesect|Genesect, L78|100/100
+|switch|p2a: Stantler|Stantler, L89, F|100/100
+|-ability|p2a: Stantler|Intimidate|boost
+|-unboost|p1a: Genesect|atk|1
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chisaki Kai)
+|
+|move|p2a: Stantler|Earthquake|p1a: Genesect
+|-damage|p1a: Genesect|53/100
+|move|p1a: Genesect|Iron Head|p2a: Stantler
+|-damage|p2a: Stantler|64/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, M|100/100
+|move|p2a: Stantler|Earthquake|p1a: Mudsdale
+|-damage|p1a: Mudsdale|68/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Virizion|Virizion, L84|100/100
+|move|p1a: Mudsdale|Stealth Rock|p2a: Virizion
+|-sidestart|p2: Chisaki Kai|move: Stealth Rock
+|
+|-heal|p1a: Mudsdale|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Arbok|Arbok, L89, M|100/100
+|move|p2a: Virizion|Calm Mind|p2a: Virizion
+|-boost|p2a: Virizion|spa|1
+|-boost|p2a: Virizion|spd|1
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Durant|Durant, L83, M|100/100
+|-damage|p2a: Durant|88/100|[from] Stealth Rock
+|move|p1a: Arbok|Gunk Shot|p2a: Durant
+|-immune|p2a: Durant
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Mudsdale|Mudsdale, L88, M|80/100
+|move|p2a: Durant|Hone Claws|p2a: Durant
+|-boost|p2a: Durant|atk|1
+|-boost|p2a: Durant|accuracy|1
+|
+|-heal|p1a: Mudsdale|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Durant|Iron Head|p1a: Mudsdale
+|-damage|p1a: Mudsdale|10/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-damage|p2a: Durant|78/100|[from] item: Life Orb
+|cant|p1a: Mudsdale|flinch
+|
+|-heal|p1a: Mudsdale|16/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Durant|Iron Head|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|-damage|p2a: Durant|68/100|[from] item: Life Orb
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|switch|p1a: Medicham|Medicham, L80, F|100/100
+|turn|9
+|
+|detailschange|p1a: Medicham|Medicham-Mega, L80, F
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Durant
+|-resisted|p2a: Durant
+|-damage|p2a: Durant|59/100
+|cant|p2a: Durant|flinch
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Garchomp|Garchomp, L80, F|100/100
+|move|p2a: Durant|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|8/100
+|-damage|p2a: Durant|47/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Durant|37/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Durant|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Durant|24/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Durant|14/100|[from] item: Life Orb
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, L80, F|100/100
+|turn|12
+|
+|move|p1a: Medicham|Fake Out|p2a: Durant
+|-resisted|p2a: Durant
+|-damage|p2a: Durant|5/100
+|cant|p2a: Durant|flinch
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Arbok|Arbok, L89, M|100/100
+|move|p2a: Durant|Iron Head|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|-damage|p2a: Durant|0 fnt|[from] item: Life Orb
+|faint|p1a: Arbok
+|faint|p2a: Durant
+|
+|upkeep
+|
+|switch|p2a: Delphox|Delphox, L86, F|100/100
+|switch|p1a: Drapion|Drapion, L84, M|100/100
+|-damage|p2a: Delphox|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Delphox|Fire Blast|p1a: Drapion|[miss]
+|-miss|p2a: Delphox|p1a: Drapion
+|move|p1a: Drapion|Knock Off|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|-enditem|p2a: Delphox|Choice Scarf|[from] move: Knock Off|[of] p1a: Drapion
+|-damage|p1a: Drapion|91/100|[from] item: Life Orb
+|faint|p2a: Delphox
+|
+|upkeep
+|
+|switch|p2a: Stantler|Stantler, L89, F|64/100
+|-damage|p2a: Stantler|52/100|[from] Stealth Rock
+|-ability|p2a: Stantler|Intimidate|boost
+|-unboost|p1a: Drapion|atk|1
+|turn|15
+|
+|switch|p1a: Medicham|Medicham-Mega, L80, F|100/100
+|move|p2a: Stantler|Earthquake|p1a: Medicham
+|-damage|p1a: Medicham|44/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Stantler
+|-supereffective|p2a: Stantler
+|-damage|p2a: Stantler|0 fnt
+|faint|p2a: Stantler
+|
+|upkeep
+|
+|switch|p2a: Virizion|Virizion, L84|100/100
+|-damage|p2a: Virizion|94/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Drapion|Drapion, L84, M|91/100
+|move|p2a: Virizion|Giga Drain|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|73/100
+|-heal|p2a: Virizion|100/100|[from] drain|[of] p1a: Drapion
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Virizion|Calm Mind|p2a: Virizion
+|-boost|p2a: Virizion|spa|1
+|-boost|p2a: Virizion|spd|1
+|move|p1a: Drapion|Poison Jab|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|14/100
+|-damage|p1a: Drapion|64/100|[from] item: Life Orb
+|
+|-heal|p2a: Virizion|20/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Virizion|Focus Blast|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|-heal|p2a: Virizion|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Genesect|Genesect, L78|53/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|turn|20
+|
+|move|p2a: Virizion|Focus Blast|p1a: Genesect|[miss]
+|-miss|p2a: Virizion|p1a: Genesect
+|move|p1a: Genesect|Shift Gear|p1a: Genesect
+|-boost|p1a: Genesect|spe|2
+|-boost|p1a: Genesect|atk|1
+|
+|-heal|p2a: Virizion|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Genesect|Blaze Kick|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|upkeep
+|
+|switch|p2a: Alomomola|Alomomola, L82, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Genesect|Iron Head|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|53/100
+|move|p2a: Alomomola|Scald|p1a: Genesect
+|-damage|p1a: Genesect|36/100
+|-status|p1a: Genesect|brn
+|
+|-heal|p2a: Alomomola|59/100|[from] item: Leftovers
+|-damage|p1a: Genesect|30/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Genesect|Iron Head|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|46/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|52/100|[from] item: Leftovers
+|-damage|p1a: Genesect|24/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Genesect|Iron Head|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100
+|cant|p2a: Alomomola|flinch
+|
+|-heal|p2a: Alomomola|91/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Alomomola|97/100|[from] item: Leftovers
+|-damage|p1a: Genesect|18/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Genesect|Ice Beam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|84/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|91/100|[from] item: Leftovers
+|-damage|p1a: Genesect|12/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Genesect|Blaze Kick|p2a: Alomomola|[miss]
+|-miss|p1a: Genesect|p2a: Alomomola
+|move|p2a: Alomomola|Scald|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, L80, F|44/100
+|turn|27
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Medicham|Fake Out|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Alomomola
+|-damage|p2a: Alomomola|34/100
+|move|p2a: Alomomola|Scald|p1a: Medicham
+|-damage|p1a: Medicham|22/100
+|-status|p1a: Medicham|brn
+|
+|-heal|p2a: Alomomola|40/100|[from] item: Leftovers
+|-damage|p1a: Medicham|16/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Medicham|Thunder Punch|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|46/100|[from] item: Leftovers
+|-damage|p1a: Medicham|10/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|move|p1a: Medicham|High Jump Kick|p2a: Alomomola
+|-damage|p2a: Alomomola|12/100
+|
+|-heal|p2a: Alomomola|18/100|[from] item: Leftovers
+|-damage|p1a: Medicham|4/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Medicham|Zen Headbutt|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-damage|p1a: Medicham|0 fnt|[from] brn
+|faint|p1a: Medicham
+|
+|win|Chisaki Kai
+|upkeep
+|raw|DatTrash's rating: 1895 &rarr; <strong>1880</strong><br />(-15 for losing)
+|raw|Chisaki Kai's rating: 1986 &rarr; <strong>2000</strong><br />(+14 for winning)
+|l|☆DatTrash
+|l|☆Chisaki Kai

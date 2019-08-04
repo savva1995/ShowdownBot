@@ -1,0 +1,366 @@
+|init|battle
+|title|CaosDrago vs. TheEpic3000
+|j|☆CaosDrago
+|j|☆TheEpic3000
+|player|p1|CaosDrago|102|1197
+|player|p2|TheEpic3000|265|1201
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wigglytuff|Wigglytuff, L89, F|100/100
+|switch|p2a: Accelgor|Accelgor, L86, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CaosDrago)
+|
+|move|p2a: Accelgor|Toxic Spikes|p1a: Wigglytuff
+|-sidestart|p1: CaosDrago|move: Toxic Spikes
+|move|p1a: Wigglytuff|Stealth Rock|p2a: Accelgor
+|-sidestart|p2: TheEpic3000|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Accelgor|Encore|p1a: Wigglytuff
+|-start|p1a: Wigglytuff|Encore
+|move|p1a: Wigglytuff|Stealth Rock||[still]
+|-fail|p1a: Wigglytuff
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Steelix|Steelix, L82, F|100/100
+|move|p2a: Accelgor|Toxic Spikes|p1a: Steelix
+|-sidestart|p1: CaosDrago|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|-damage|p2a: Moltres|51/100|[from] Stealth Rock
+|-ability|p2a: Moltres|Pressure
+|detailschange|p1a: Steelix|Steelix-Mega, L82, F
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p1a: Steelix|Dragon Tail|p2a: Moltres
+|-damage|p2a: Moltres|34/100
+|drag|p2a: Accelgor|Accelgor, L86, F|100/100
+|-damage|p2a: Accelgor|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Accelgor|Giga Drain|p1a: Steelix
+|-damage|p1a: Steelix|77/100
+|-heal|p2a: Accelgor|86/100|[from] drain|[of] p1a: Steelix
+|move|p1a: Steelix|Dragon Tail|p2a: Accelgor
+|-damage|p2a: Accelgor|59/100
+|drag|p2a: Flygon|Flygon, L84, M|100/100
+|-damage|p2a: Flygon|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Flygon|Outrage|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|65/100
+|move|p1a: Steelix|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|-enditem|p2a: Flygon|Lum Berry|[eat]
+|-curestatus|p2a: Flygon|tox|[msg]
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Flygon|Outrage|p1a: Steelix|[from]lockedmove
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|52/100
+|move|p1a: Steelix|Toxic|p2a: Flygon
+|-status|p2a: Flygon|tox
+|
+|-damage|p2a: Flygon|88/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p2a: Flygon|Outrage|p1a: Steelix|[from]lockedmove
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|40/100
+|-start|p2a: Flygon|confusion|[fatigue]
+|move|p1a: Steelix|Dragon Tail|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|47/100 tox
+|drag|p2a: Accelgor|Accelgor, L86, F|59/100
+|-damage|p2a: Accelgor|34/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|21/100
+|move|p1a: Steelix|Heavy Slam|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|
+|upkeep
+
+|
+|switch|p2a: Absol|Absol, L83, M|100/100
+|-damage|p2a: Absol|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|detailschange|p2a: Absol|Absol-Mega, L83, M
+|-mega|p2a: Absol|Absol|Absolite
+|move|p2a: Absol|Sucker Punch||[still]
+|-fail|p2a: Absol
+|move|p1a: Steelix|Toxic|p2a: Absol
+|move|p2a: Absol|Toxic|p1a: Steelix|[from]Magic Bounce
+|-immune|p1a: Steelix
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Absol|Sucker Punch|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+
+|
+|switch|p1a: Skarmory|Skarmory, L80, M|100/100
+|turn|12
+
+|
+|move|p2a: Absol|Swords Dance|p2a: Absol
+|-boost|p2a: Absol|atk|2
+|move|p1a: Skarmory|Brave Bird|p2a: Absol
+|-damage|p2a: Absol|33/100
+|-damage|p1a: Skarmory|81/100|[from] Recoil
+|
+|-heal|p1a: Skarmory|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Absol|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-enditem|p1a: Skarmory|Leftovers|[from] move: Knock Off|[of] p2a: Absol
+|faint|p1a: Skarmory
+|
+|upkeep
+
+|
+|switch|p1a: Victreebel|Victreebel, L88, M|100/100
+|-sideend|p1: CaosDrago|move: Toxic Spikes|[of] p1a: Victreebel
+|turn|14
+
+|
+|move|p1a: Victreebel|Sucker Punch|p2a: Absol
+|-resisted|p2a: Absol
+|-damage|p2a: Absol|16/100
+|move|p2a: Absol|Knock Off|p1a: Victreebel
+|-damage|p1a: Victreebel|26/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Absol|Sucker Punch|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|upkeep
+
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L89, F|100/100
+|turn|16
+
+|
+|move|p2a: Absol|Knock Off|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|46/100
+|-enditem|p1a: Wigglytuff|Leftovers|[from] move: Knock Off|[of] p2a: Absol
+|move|p1a: Wigglytuff|Hyper Voice|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|upkeep
+
+|
+|switch|p2a: Moltres|Moltres, L82|34/100
+|-damage|p2a: Moltres|0 fnt|[from] Stealth Rock
+|faint|p2a: Moltres
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-damage|p2a: Kyogre|88/100|[from] Stealth Rock
+|detailschange|p2a: Kyogre|Kyogre-Primal, L78
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|17
+
+|
+|move|p1a: Wigglytuff|Protect|p1a: Wigglytuff
+|-singleturn|p1a: Wigglytuff|Protect
+|move|p2a: Kyogre|Thunder|p1a: Wigglytuff
+|-activate|p1a: Wigglytuff|move: Protect
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|18
+
+|
+|move|p2a: Kyogre|Toxic|p1a: Wigglytuff
+|-status|p1a: Wigglytuff|tox
+|move|p1a: Wigglytuff|Wish|p1a: Wigglytuff
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Wigglytuff|40/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Wigglytuff|Protect|p1a: Wigglytuff
+|-singleturn|p1a: Wigglytuff|Protect
+|move|p2a: Kyogre|Thunder|p1a: Wigglytuff
+|-activate|p1a: Wigglytuff|move: Protect
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p1a: Wigglytuff|90/100 tox|[from] move: Wish|[wisher] Wigglytuff
+|-damage|p1a: Wigglytuff|78/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Kyogre|Thunder|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|37/100 tox
+|move|p1a: Wigglytuff|Hyper Voice|p2a: Kyogre
+|-damage|p2a: Kyogre|67/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Wigglytuff|19/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p2a: Kyogre|Scald|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Hoopa|Hoopa-Unbound, L81|100/100
+|turn|22
+
+|
+|move|p2a: Kyogre|Toxic|p1a: Hoopa
+|-status|p1a: Hoopa|tox
+|move|p1a: Hoopa|Gunk Shot|p2a: Kyogre
+|-damage|p2a: Kyogre|26/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Hoopa|94/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Kyogre|Thunder|p1a: Hoopa
+|-damage|p1a: Hoopa|60/100 tox
+|move|p1a: Hoopa|Gunk Shot|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-weather|none
+|
+|-heal|p1a: Hoopa|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Hoopa|54/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Flygon|Flygon, L84, M|47/100 tox
+|-damage|p2a: Flygon|41/100 tox|[from] Stealth Rock
+|turn|24
+
+|
+|move|p2a: Flygon|Outrage|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-damage|p2a: Flygon|34/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon, L78|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|25
+
+|
+|move|p2a: Flygon|Outrage|p1a: Groudon|[from]lockedmove
+|-damage|p1a: Groudon|66/100
+|-start|p2a: Flygon|confusion|[fatigue]
+|move|p1a: Groudon|Fire Punch|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|14/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|72/100|[from] item: Leftovers
+|-damage|p2a: Flygon|2/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|-activate|p2a: Flygon|confusion
+|move|p2a: Flygon|Earthquake|p1a: Groudon
+|-damage|p1a: Groudon|45/100
+|move|p1a: Groudon|Roar|p2a: Flygon
+|drag|p2a: Swoobat|Swoobat, L89, M|100/100
+|-damage|p2a: Swoobat|76/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Swoobat|82/100|[from] item: Leftovers
+|-heal|p1a: Groudon|51/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Swoobat|Air Slash|p1a: Groudon
+|-damage|p1a: Groudon|25/100
+|cant|p1a: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Swoobat|88/100|[from] item: Leftovers
+|-heal|p1a: Groudon|31/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Swoobat|Air Slash|p1a: Groudon
+|-damage|p1a: Groudon|5/100
+|move|p1a: Groudon|Stone Edge|p2a: Swoobat
+|-supereffective|p2a: Swoobat
+|-damage|p2a: Swoobat|0 fnt
+|faint|p2a: Swoobat
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|11/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Flygon|Flygon, L84, M|2/100 tox
+|-damage|p2a: Flygon|0 fnt|[from] Stealth Rock
+|faint|p2a: Flygon
+|
+|win|CaosDrago

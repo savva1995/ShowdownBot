@@ -1,0 +1,55 @@
+|init|battle
+|title|ClassicPhantom vs. Enzo Norton
+|j|☆ClassicPhantom
+|j|☆Enzo Norton
+|player|p1|ClassicPhantom|270|1053
+|player|p2|Enzo Norton|265|1461
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Thiccboii|Snorlax, M|100/100
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|turn|1
+
+|j| hitomi tanaka boom
+
+|l| hitomi tanaka boom
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Enzo Norton)
+
+|inactive|ClassicPhantom has 120 seconds left.
+
+|j| Le Austin
+
+|inactive|ClassicPhantom has 90 seconds left.
+
+|j| hitomi tanaka boom
+
+|l| hitomi tanaka boom
+
+|inactive|ClassicPhantom has 60 seconds left.
+
+|inactive|ClassicPhantom has 30 seconds left.
+
+|inactive|ClassicPhantom has 20 seconds left.
+
+|inactive|ClassicPhantom has 15 seconds left.
+
+|inactive|ClassicPhantom has 10 seconds left.
+
+|inactive|ClassicPhantom has 5 seconds left.
+
+|-message|ClassicPhantom lost due to inactivity.
+|
+|win|Enzo Norton

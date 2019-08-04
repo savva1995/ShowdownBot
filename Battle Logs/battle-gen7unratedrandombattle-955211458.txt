@@ -1,0 +1,381 @@
+|init|battle
+|title|shsjwnixiwn vs. geogar
+|j|☆shsjwnixiwn
+|j|☆geogar
+|player|p1|shsjwnixiwn|101|
+|player|p2|geogar|229|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Serperior|Serperior, L80, M|100/100
+|switch|p2a: Linoone|Linoone, L83, F|100/100
+|turn|1
+|
+|switch|p2a: Incineroar|Incineroar, L86, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-boost|p1a: Serperior|atk|1
+|move|p1a: Serperior|Leaf Storm|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|84/100
+|-boost|p1a: Serperior|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Swanna|Swanna, L89, F|100/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Swanna
+|-resisted|p1a: Swanna
+|-damage|p1a: Swanna|69/100
+|-damage|p2a: Incineroar|74/100|[from] Recoil
+|
+|-heal|p1a: Swanna|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Raichu|Raichu, L89, F|100/100
+|move|p1a: Swanna|Scald|p2a: Raichu
+|-damage|p2a: Raichu|67/100
+|
+|-heal|p1a: Swanna|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Serperior|Serperior, L80, M|100/100
+|move|p2a: Raichu|Thunderbolt|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|73/100
+|-damage|p2a: Raichu|57/100|[from] item: Life Orb
+|
+|-heal|p1a: Serperior|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Forretress|Forretress, L84, M|100/100
+|move|p1a: Serperior|Leech Seed|p2a: Forretress|[miss]
+|-miss|p1a: Serperior|p2a: Forretress
+|
+|-heal|p1a: Serperior|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Swanna|Swanna, L89, F|81/100
+|move|p2a: Forretress|Stealth Rock|p1a: Swanna
+|-sidestart|p1: shsjwnixiwn|move: Stealth Rock
+|
+|-heal|p1a: Swanna|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Swanna|Defog|p2a: Forretress
+|-unboost|p2a: Forretress|evasion|1
+|-sideend|p1: shsjwnixiwn|Stealth Rock|[from] move: Defog|[of] p1a: Swanna
+|move|p2a: Forretress|Volt Switch|p1a: Swanna
+|-supereffective|p1a: Swanna
+|-damage|p1a: Swanna|30/100
+
+|
+|switch|p2a: Raichu|Raichu, L89, F|57/100|[from]move: Volt Switch
+|
+|-heal|p1a: Swanna|36/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Froslass|Froslass, L88, F|100/100
+|move|p2a: Raichu|Thunderbolt|p1a: Froslass
+|-damage|p1a: Froslass|47/100
+|-damage|p2a: Raichu|47/100|[from] item: Life Orb
+|
+|-heal|p1a: Froslass|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Serperior|Serperior, L80, M|85/100
+|move|p2a: Raichu|Thunderbolt|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|58/100
+|-damage|p2a: Raichu|37/100|[from] item: Life Orb
+|
+|-heal|p1a: Serperior|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Incineroar|Incineroar, L86, M|74/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-boost|p1a: Serperior|atk|1
+|move|p1a: Serperior|Leech Seed|p2a: Incineroar
+|-start|p2a: Incineroar|move: Leech Seed
+|
+|-heal|p1a: Serperior|70/100|[from] item: Leftovers
+|-damage|p2a: Incineroar|62/100|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|85/100|[silent]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Incineroar|Flare Blitz|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-damage|p2a: Incineroar|39/100|[from] Recoil
+|faint|p1a: Serperior
+|
+|upkeep
+
+|
+|switch|p1a: Swanna|Swanna, L89, F|36/100
+|turn|12
+
+|
+|move|p2a: Incineroar|Flare Blitz|p1a: Swanna
+|-resisted|p1a: Swanna
+|-crit|p1a: Swanna
+|-damage|p1a: Swanna|0 fnt
+|-damage|p2a: Incineroar|28/100|[from] Recoil
+|faint|p1a: Swanna
+|
+|upkeep
+
+|
+|switch|p1a: Houndoom|Houndoom, L87, M|100/100
+|turn|13
+
+|
+|switch|p2a: Tyranitar|Tyranitar, L80, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Houndoom|Nasty Plot|p1a: Houndoom
+|-boost|p1a: Houndoom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Houndoom|95/100|[from] Sandstorm
+|upkeep
+|turn|14
+
+|
+|detailschange|p2a: Tyranitar|Tyranitar-Mega, L80, F
+|-mega|p2a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Houndoom|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|52/100
+|-damage|p1a: Houndoom|85/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Houndoom|79/100|[from] Sandstorm
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Froslass|Froslass, L88, F|53/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Swampert|Swampert, L80, F|100/100
+|turn|16
+
+|
+|switch|p2a: Incineroar|Incineroar, L86, M|28/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|detailschange|p1a: Swampert|Swampert-Mega, L80, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Forretress|Forretress, L84, M|100/100
+|turn|18
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Forretress
+|-damage|p2a: Forretress|70/100
+|move|p2a: Forretress|Stealth Rock|p1a: Swampert
+|-sidestart|p1: shsjwnixiwn|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Forretress
+|-damage|p2a: Forretress|45/100
+|move|p2a: Forretress|Gyro Ball|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Houndoom|Houndoom, L87, M|79/100
+|-damage|p1a: Houndoom|54/100|[from] Stealth Rock
+|move|p2a: Forretress|Gyro Ball|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|36/100
+|
+|-weather|none
+|-heal|p2a: Forretress|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Houndoom|Nasty Plot|p1a: Houndoom
+|-boost|p1a: Houndoom|spa|2
+|move|p2a: Forretress|Gyro Ball|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|18/100
+|
+|-heal|p2a: Forretress|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Houndoom|Nasty Plot|p1a: Houndoom
+|-boost|p1a: Houndoom|spa|2
+|move|p2a: Forretress|Gyro Ball|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-crit|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|-heal|p2a: Forretress|69/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Swampert|Swampert-Mega, L80, F|83/100
+|-damage|p1a: Swampert|77/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p1a: Swampert|Earthquake|p2a: Forretress
+|-crit|p2a: Forretress
+|-damage|p2a: Forretress|17/100
+|move|p2a: Forretress|Gyro Ball|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|69/100
+|
+|-heal|p2a: Forretress|23/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|move|p2a: Forretress|Gyro Ball|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|29/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Swampert|Waterfall|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar-Mega, L80, F|52/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|26
+
+|
+|move|p2a: Tyranitar|Crunch|p1a: Swampert
+|-damage|p1a: Swampert|14/100
+|-unboost|p1a: Swampert|def|1
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L88, M|100/100
+|move|p1a: Swampert|Waterfall|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+
+|
+|move|p2a: Hitmonchan|Mach Punch|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-damage|p2a: Hitmonchan|17/100|[from] item: Life Orb
+|faint|p1a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence, L81, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|29
+
+|
+|switch|p2a: Tyranitar|Tyranitar-Mega, L80, F|52/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Salamence|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Salamence|66/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|60/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Raichu|Raichu, L89, F|37/100
+|turn|30
+
+|
+|move|p2a: Raichu|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-damage|p2a: Raichu|27/100|[from] item: Life Orb
+|faint|p1a: Salamence
+|
+|win|geogar

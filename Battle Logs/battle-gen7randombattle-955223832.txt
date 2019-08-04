@@ -1,0 +1,333 @@
+|init|battle
+|title|Sun-dried tomatoes vs. Natsuuuu
+|j|☆Sun-dried tomatoes
+|j|☆Natsuuuu
+|player|p1|Sun-dried tomatoes|1|1975
+|player|p2|Natsuuuu|281|1916
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Unfezant|Unfezant, L89, M|100/100
+|switch|p2a: Vivillon|Vivillon, L86, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Natsuuuu)
+
+|
+|move|p1a: Unfezant|Return|p2a: Vivillon
+|-damage|p2a: Vivillon|25/100
+|move|p2a: Vivillon|Sleep Powder|p1a: Unfezant
+|-status|p1a: Unfezant|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Vivillon|32/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|100/100
+|move|p2a: Vivillon|Substitute|p2a: Vivillon
+|-start|p2a: Vivillon|Substitute
+|-damage|p2a: Vivillon|7/100
+|
+|-heal|p2a: Vivillon|13/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Vivillon|Hurricane|p1a: Togekiss
+|-damage|p1a: Togekiss|68/100
+|move|p1a: Togekiss|Air Slash|p2a: Vivillon|[miss]
+|-miss|p1a: Togekiss|p2a: Vivillon
+|
+|-heal|p2a: Vivillon|19/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Vivillon|Hurricane|p1a: Togekiss
+|-damage|p1a: Togekiss|41/100
+|move|p1a: Togekiss|Air Slash|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-end|p2a: Vivillon|Substitute
+|
+|-heal|p2a: Vivillon|25/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|48/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Vivillon|Hurricane|p1a: Togekiss
+|-damage|p1a: Togekiss|9/100
+|move|p1a: Togekiss|Air Slash|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|
+|-heal|p1a: Togekiss|15/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|turn|6
+
+|
+|move|p2a: Porygon-Z|Tri Attack|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Porygon-Z|90/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|upkeep
+
+|
+|switch|p1a: Clawitzer|Clawitzer, L86, M|100/100
+|turn|7
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko, L80|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Clawitzer|Scald|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|47/100
+|-status|p2a: Tapu Koko|brn
+|
+|-damage|p2a: Tapu Koko|41/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Landorus|Landorus, L78, M|100/100
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-damage|p2a: Tapu Koko|35/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Tapu Koko|Nature's Madness|p1a: Landorus|[miss]
+|-miss|p2a: Tapu Koko|p1a: Landorus
+|move|p1a: Landorus|Earth Power|p2a: Tapu Koko
+|-supereffective|p2a: Tapu Koko
+|-crit|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|upkeep
+
+|
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|turn|10
+
+|
+|move|p2a: Cobalion|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|30/100
+|move|p1a: Landorus|Earth Power|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric, L82, M|100/100
+|turn|11
+
+|
+|detailschange|p2a: Manectric|Manectric-Mega, L82, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p2a: Manectric|Overheat|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Manectric|spa|2
+|faint|p1a: Landorus
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p1a: Serperior|Serperior, L80, M|100/100
+|turn|12
+
+|
+|move|p2a: Manectric|Volt Switch|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|91/100
+
+|
+|switch|p2a: Chimecho|Chimecho, L89, M|100/100|[from]move: Volt Switch
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|66/100
+|
+|-heal|p1a: Serperior|72/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Chimecho|[miss]
+|-miss|p1a: Serperior|p2a: Chimecho
+|move|p2a: Chimecho|Psychic|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Chimecho
+|-damage|p2a: Chimecho|66/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Chimecho|Psychic|p1a: Serperior
+|-damage|p1a: Serperior|38/100
+|
+|-heal|p1a: Serperior|44/100|[from] item: Leftovers
+|-heal|p2a: Chimecho|72/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Chimecho
+|-damage|p2a: Chimecho|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Chimecho
+|
+|-heal|p1a: Serperior|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric-Mega, L82, M|100/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-boost|p1a: Serperior|atk|1
+|turn|16
+
+|
+|switch|p1a: Unfezant|Unfezant, L89, M|100/100 slp
+|move|p2a: Manectric|Overheat|p1a: Unfezant
+|-damage|p1a: Unfezant|48/100 slp
+|-unboost|p2a: Manectric|spa|2
+|
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Serperior|Serperior, L80, M|50/100
+|move|p2a: Manectric|Volt Switch|p1a: Serperior
+|-resisted|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|22/100
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|90/100|[from]move: Volt Switch
+|
+|-heal|p1a: Serperior|28/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|46/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Porygon-Z|Tri Attack|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-damage|p2a: Porygon-Z|36/100|[from] item: Life Orb
+|faint|p1a: Serperior
+|
+|upkeep
+
+|
+|switch|p1a: Durant|Durant, L83, F|100/100
+|turn|19
+
+|
+|switch|p2a: Manectric|Manectric-Mega, L82, M|100/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Durant|atk|1
+|move|p1a: Durant|Hone Claws|p1a: Durant
+|-boost|p1a: Durant|atk|1
+|-boost|p1a: Durant|accuracy|1
+|
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Unfezant|Unfezant, L89, M|48/100 slp
+|move|p2a: Manectric|Overheat|p1a: Unfezant
+|-damage|p1a: Unfezant|0 fnt
+|-unboost|p2a: Manectric|spa|2
+|faint|p1a: Unfezant
+|
+|upkeep
+
+|
+|switch|p1a: Clawitzer|Clawitzer, L86, M|100/100
+|turn|21
+
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|71/100
+|move|p1a: Clawitzer|Scald|p2a: Manectric
+|-damage|p2a: Manectric|50/100
+|-status|p2a: Manectric|brn
+|
+|-damage|p2a: Manectric|44/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Manectric|Volt Switch|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|48/100
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z, L81|36/100|[from]move: Volt Switch
+|move|p1a: Clawitzer|Scald|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p2a: Manectric|Manectric-Mega, L82, M|44/100 brn
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Clawitzer|atk|1
+|turn|23
+
+|
+|switch|p1a: Durant|Durant, L83, F|100/100
+|move|p2a: Manectric|Thunderbolt|p1a: Durant
+|-damage|p1a: Durant|19/100
+|
+|-damage|p2a: Manectric|38/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Durant
+|-crit|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|faint|p1a: Durant
+|
+|-damage|p2a: Manectric|32/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Clawitzer|Clawitzer, L86, M|48/100
+|turn|25
+
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|faint|p1a: Clawitzer
+|
+|win|Natsuuuu

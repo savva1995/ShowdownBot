@@ -1,0 +1,214 @@
+|init|battle
+|title|Icer-sama vs. IValentineI
+|j|☆Icer-sama
+|j|☆IValentineI
+|player|p1|Icer-sama|147|1182
+|player|p2|IValentineI|249|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Manectric, M|item
+|poke|p1|Ampharos, F|item
+|poke|p1|Eelektross, M|
+|poke|p1|Electrode|item
+|poke|p1|Electivire, M|item
+|poke|p1|Lanturn, M|item
+|poke|p2|Porygon2|item
+|poke|p2|Raichu, M|item
+|poke|p2|Bibarel, M|item
+|poke|p2|Pheromosa|item
+|poke|p2|Salamence, M|item
+|poke|p2|Roserade, F|item
+|teampreview
+
+|
+|start
+|switch|p1a: Manectric|Manectric, M|100/100
+|switch|p1b: Ampharos|Ampharos, F|100/100
+|switch|p2a: Raiden|Raichu, M|100/100
+|switch|p2b: OrGyOn2|Porygon2|100/100
+|-ability|p2b: OrGyOn2|Plus|[from] ability: Trace|[of] p1b: Ampharos
+|turn|1
+
+|
+|move|p2a: Raiden|Focus Blast|p1a: Manectric
+|-damage|p1a: Manectric|47/100
+|move|p1a: Manectric|Electric Terrain|p1a: Manectric
+|-fieldstart|move: Electric Terrain
+|move|p1b: Ampharos|Power Gem|p2a: Raiden
+|-damage|p2a: Raiden|10/100
+|-damage|p1b: Ampharos|91/100|[from] item: Life Orb
+|move|p2b: OrGyOn2|Trick|p1b: Ampharos
+|-activate|p2b: OrGyOn2|move: Trick|[of] p1b: Ampharos
+|-item|p1b: Ampharos|Sticky Barb|[from] move: Trick
+|-item|p2b: OrGyOn2|Life Orb|[from] move: Trick
+|
+|-damage|p1b: Ampharos|78/100|[from] item: Sticky Barb
+|upkeep
+|turn|2
+
+|
+|move|p2a: Raiden|Thunderbolt|p1b: Ampharos
+|-resisted|p1b: Ampharos
+|-damage|p1b: Ampharos|51/100
+|move|p1a: Manectric|Flamethrower|p2a: Raiden
+|-damage|p2a: Raiden|0 fnt
+|faint|p2a: Raiden
+|move|p1b: Ampharos|Power Gem|p2b: OrGyOn2
+|-damage|p2b: OrGyOn2|68/100
+|move|p2b: OrGyOn2|Toxic|p1a: Manectric
+|-status|p1a: Manectric|tox
+|
+|-damage|p1a: Manectric|41/100 tox|[from] psn
+|-damage|p1b: Ampharos|39/100|[from] item: Sticky Barb
+|upkeep
+
+|
+|switch|p2a: Raidboss|Roserade, F|100/100
+|turn|3
+
+|
+|move|p2a: Raidboss|Dazzling Gleam|p1b: Ampharos|[spread] p1a,p1b
+|-damage|p1a: Manectric|3/100 tox
+|-damage|p1b: Ampharos|14/100
+|move|p1a: Manectric|Flamethrower|p2a: Raidboss
+|-supereffective|p2a: Raidboss
+|-crit|p2a: Raidboss
+|-damage|p2a: Raidboss|0 fnt
+|faint|p2a: Raidboss
+|move|p1b: Ampharos|Magnetic Flux|p1b: Ampharos
+|-boost|p1a: Manectric|def|1
+|-boost|p1a: Manectric|spd|1
+|-boost|p1b: Ampharos|def|1
+|-boost|p1b: Ampharos|spd|1
+|move|p2b: OrGyOn2|Ice Beam|p1b: Ampharos
+|-damage|p1b: Ampharos|0 fnt
+|-damage|p2b: OrGyOn2|58/100|[from] item: Life Orb
+|faint|p1b: Ampharos
+|
+|-damage|p1a: Manectric|0 fnt|[from] psn
+|faint|p1a: Manectric
+|upkeep
+
+|
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|switch|p2a: hotstuff|Pheromosa|100/100
+|switch|p1b: Lanturn|Lanturn, M|100/100
+|turn|4
+
+|
+|move|p2a: hotstuff|U-turn|p1b: Lanturn
+|-damage|p1b: Lanturn|30/100
+
+|
+|switch|p2a: lancey|Salamence, M|100/100|[from]move: U-turn
+|-ability|p2a: lancey|Intimidate|boost
+|-unboost|p1a: Eelektross|atk|1
+|-unboost|p1b: Lanturn|atk|1
+|move|p1b: Lanturn|Discharge|p2a: lancey|[spread] p1a,p2a,p2b
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|78/100
+|-damage|p2a: lancey|64/100
+|-damage|p2b: OrGyOn2|29/100
+|move|p1a: Eelektross|Acrobatics|p2a: lancey
+|-damage|p2a: lancey|39/100
+|move|p2b: OrGyOn2|Toxic|p1a: Eelektross
+|-status|p1a: Eelektross|tox
+|
+|-heal|p2a: lancey|45/100|[from] item: Leftovers
+|-damage|p1a: Eelektross|72/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p1b: Electivire|Electivire, M|100/100
+|move|p2a: lancey|Earthquake|p1a: Eelektross|[spread] p2b,p1b
+|-immune|p1a: Eelektross|[from] ability: Levitate
+|-supereffective|p1b: Electivire
+|-damage|p2b: OrGyOn2|9/100
+|-damage|p1b: Electivire|41/100
+|move|p1a: Eelektross|Discharge|p2b: OrGyOn2|[spread] p2a,p2b
+|-ability|p1b: Electivire|Motor Drive|boost
+|-boost|p1b: Electivire|spe|1
+|-damage|p2a: lancey|27/100
+|-damage|p2b: OrGyOn2|0 fnt
+|faint|p2b: OrGyOn2
+|
+|-heal|p2a: lancey|33/100|[from] item: Leftovers
+|-damage|p1a: Eelektross|60/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p2b: bob|Bibarel, M|100/100
+|turn|6
+
+|
+|move|p2b: bob|Aqua Jet|p1b: Electivire
+|-damage|p1b: Electivire|19/100
+|move|p1b: Electivire|Ice Punch|p2a: lancey
+|-supereffective|p2a: lancey
+|-damage|p2a: lancey|0 fnt
+|faint|p2a: lancey
+|move|p1a: Eelektross|Discharge|p2b: bob|[spread] p2b
+|-ability|p1b: Electivire|Motor Drive|boost
+|-boost|p1b: Electivire|spe|1
+|-supereffective|p2b: bob
+|-damage|p2b: bob|34/100
+|
+|-damage|p1a: Eelektross|42/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: hotstuff|Pheromosa|100/100
+|turn|7
+
+|
+|move|p2b: bob|Aqua Jet|p1b: Electivire
+|-damage|p1b: Electivire|0 fnt
+|faint|p1b: Electivire
+|move|p2a: hotstuff|Lunge|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|-ability|p2a: hotstuff|Beast Boost|boost
+|-boost|p2a: hotstuff|spe|1
+|
+|upkeep
+
+|
+|switch|p1b: Lanturn|Lanturn, M|30/100
+|switch|p1a: Electrode|Electrode|100/100
+|turn|8
+
+|
+|move|p2b: bob|Aqua Jet|p1a: Electrode
+|-damage|p1a: Electrode|71/100
+|move|p1b: Lanturn|Ion Deluge|p1b: Lanturn
+|-fieldactivate|move: Ion Deluge
+|move|p2a: hotstuff|Lunge|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|-ability|p2a: hotstuff|Beast Boost|boost
+|-boost|p2a: hotstuff|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: hotstuff|Lunge|p1b: Lanturn
+|-damage|p1b: Lanturn|0 fnt
+|faint|p1b: Lanturn
+|
+|win|IValentineI

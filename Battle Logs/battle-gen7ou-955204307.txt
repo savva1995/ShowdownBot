@@ -1,0 +1,163 @@
+|init|battle
+|title|DatRndmBoi vs. Jonayes
+|j|☆DatRndmBoi
+|j|☆Jonayes
+|player|p1|DatRndmBoi|249|1205
+|player|p2|Jonayes|266|1227
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Azumarill, M|item
+|poke|p1|Lopunny, M|item
+|poke|p1|Tapu Lele|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Darmanitan, F|item
+|poke|p2|Absol, F|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Salamence, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Gastrodon-East, F|item
+|teampreview
+|
+|start
+|switch|p1a: Drill dis ass|Excadrill, F|100/100
+|switch|p2a: Darmanitan|Darmanitan, F|100/100
+|-ability|p1a: Drill dis ass|Mold Breaker
+|turn|1
+|
+|move|p2a: Darmanitan|Earthquake|p1a: Drill dis ass
+|-supereffective|p1a: Drill dis ass
+|-enditem|p1a: Drill dis ass|Focus Sash
+|-damage|p1a: Drill dis ass|1/100
+|move|p1a: Drill dis ass|Stealth Rock|p2a: Darmanitan
+|-sidestart|p2: Jonayes|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Darmanitan|Earthquake|p1a: Drill dis ass
+|-supereffective|p1a: Drill dis ass
+|-damage|p1a: Drill dis ass|0 fnt
+|faint|p1a: Drill dis ass
+|
+|upkeep
+|
+|switch|p1a: Latina|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Latina
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Latina|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Latina|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Latina|Nature's Madness|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Latina
+|-supereffective|p1a: Latina
+|-damage|p1a: Latina|0 fnt
+|faint|p1a: Latina
+|
+|upkeep
+
+|
+|switch|p1a: Ur paying for da w|Hawlucha, M|100/100
+|-enditem|p1a: Ur paying for da w|Psychic Seed
+|-boost|p1a: Ur paying for da w|spd|1
+|turn|6
+
+|
+|move|p1a: Ur paying for da w|High Jump Kick|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Ur paying for da w|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Ur paying for da w|71/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|turn|7
+
+|
+|move|p1a: Ur paying for da w|Swords Dance|p1a: Ur paying for da w
+|-boost|p1a: Ur paying for da w|atk|2
+|move|p2a: Gastrodon|Scald|p1a: Ur paying for da w
+|-damage|p1a: Ur paying for da w|47/100
+|
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Ur paying for da w|Roost|p1a: Ur paying for da w
+|-heal|p1a: Ur paying for da w|97/100
+|-singleturn|p1a: Ur paying for da w|move: Roost
+|move|p2a: Gastrodon|Scald|p1a: Ur paying for da w
+|-damage|p1a: Ur paying for da w|71/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Ur paying for da w|Acrobatics|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|upkeep
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-damage|p2a: Tapu Lele|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p1a: Ur paying for da w|Acrobatics|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p2a: Darmanitan|Darmanitan, F|100/100
+|-damage|p2a: Darmanitan|76/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Ur paying for da w|Acrobatics|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|upkeep
+
+|-message|Jonayes forfeited.
+
+|
+|win|DatRndmBoi

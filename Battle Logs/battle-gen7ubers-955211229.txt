@@ -1,0 +1,338 @@
+|init|battle
+|title|Asian Protagonist vs. innova89
+|j|☆Asian Protagonist
+|j|☆innova89
+|player|p1|Asian Protagonist|265|1397
+|player|p2|innova89|1|1389
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Deoxys-Attack|item
+|poke|p1|Yveltal|item
+|poke|p1|Arceus-*|item
+|poke|p1|Genesect-*|item
+|poke|p1|Weavile, M|item
+|poke|p1|Pheromosa|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Salamence, F|item
+|poke|p2|Xerneas|item
+|poke|p2|Groudon|item
+|poke|p2|Naganadel|item
+|poke|p2|Arceus-*|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by innova89)
+|c|☆innova89|hf
+|
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|move|p2a: Deoxys|Thunder Wave|p1a: Weavile
+|-status|p1a: Weavile|par
+|move|p1a: Weavile|Beat Up|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|78/100
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|56/100
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|36/100
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|12/100
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-hitcount|p2a: Deoxys|5
+|faint|p2a: Deoxys
+|
+|upkeep
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|2
+|
+|move|p2a: Groudon|Stone Edge|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys-Attack|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|3
+
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Groudon
+|-damage|p2a: Groudon|13/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Groudon|Rock Polish|p2a: Groudon
+|-boost|p2a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p1a: Deoxys|Extreme Speed|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p2a: Arceus|Arceus-Flying|100/100
+|turn|5
+
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Arceus
+|-sidestart|p2: innova89|move: Stealth Rock
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Genesect|Genesect, shiny|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Arceus|Judgment|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys-Attack|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|8
+
+|
+|move|p1a: Deoxys|Ice Beam|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|76/100
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|100/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Deoxys|Ice Beam|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|74/100
+|move|p2a: Arceus|Judgment|p1a: Deoxys
+|-enditem|p1a: Deoxys|Focus Sash
+|-damage|p1a: Deoxys|1/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Arceus
+|-damage|p2a: Arceus|43/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|94/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Deoxys|Extreme Speed|p2a: Arceus
+|-damage|p2a: Arceus|72/100
+|move|p2a: Arceus|Judgment|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+
+|inactive|Asian Protagonist has 120 seconds left.
+
+|
+|switch|p1a: Arceus|Arceus-Ghost|100/100
+|turn|12
+
+|inactive|Asian Protagonist has 120 seconds left.
+
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|27/100
+|
+|upkeep
+|turn|13
+
+|
+|-zpower|p1a: Arceus
+|move|p1a: Arceus|Never-Ending Nightmare|p2a: Arceus|[zeffect]
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+
+|
+|switch|p2a: Salamence|Salamence, F|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Arceus|atk|1
+|turn|14
+
+|inactive|innova89 has 120 seconds left.
+
+|
+|detailschange|p2a: Salamence|Salamence-Mega, F
+|-mega|p2a: Salamence|Salamence|Salamencite
+|move|p1a: Arceus|Shadow Force||[still]
+|-prepare|p1a: Arceus|Shadow Force|p2a: Salamence
+|move|p2a: Salamence|Double-Edge|p1a: Arceus|[miss]
+|-miss|p2a: Salamence|p1a: Arceus
+|
+|upkeep
+|turn|15
+
+|inactive|innova89 has 120 seconds left.
+
+|
+|move|p1a: Arceus|Shadow Force|p2a: Salamence|[from]lockedmove
+|-damage|p2a: Salamence|2/100
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|52/100
+|-singleturn|p2a: Salamence|move: Roost
+|
+|upkeep
+|turn|16
+
+|inactive|innova89 has 120 seconds left.
+
+|
+|move|p1a: Arceus|Shadow Force||[still]
+|-prepare|p1a: Arceus|Shadow Force|p2a: Salamence
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|100/100
+|-singleturn|p2a: Salamence|move: Roost
+|move|p1a: Arceus|Shadow Force|p2a: Salamence|[from]lockedmove
+|-damage|p2a: Salamence|30/100
+|
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Salamence|Earthquake|p1a: Yveltal
+|-immune|p1a: Yveltal
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|80/100
+|-singleturn|p2a: Salamence|move: Roost
+|move|p1a: Yveltal|Dark Pulse|p2a: Salamence
+|-damage|p2a: Salamence|13/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Salamence|Double-Edge|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-damage|p2a: Salamence|0 fnt|[from] Recoil
+|faint|p1a: Yveltal
+|faint|p2a: Salamence
+|
+|upkeep
+
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|switch|p1a: Arceus|Arceus-Ghost|27/100
+|-damage|p2a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|21
+
+|inactive|Asian Protagonist has 120 seconds left.
+
+|
+|move|p1a: Arceus|Shadow Force||[still]
+|-prepare|p1a: Arceus|Shadow Force|p2a: Xerneas
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|
+|upkeep
+|turn|22
+
+|inactive|Asian Protagonist has 120 seconds left.
+
+|
+|move|p2a: Xerneas|Moonblast|p1a: Arceus|[miss]
+|-miss|p2a: Xerneas|p1a: Arceus
+|move|p1a: Arceus|Shadow Force|p2a: Xerneas|[from]lockedmove
+|-damage|p2a: Xerneas|37/100
+|
+|upkeep
+|turn|23
+
+|
+|move|p2a: Xerneas|Moonblast|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+
+|
+|switch|p1a: Pheromosa|Pheromosa|100/100
+|turn|24
+
+|
+|move|p1a: Pheromosa|Ice Beam|p2a: Xerneas
+|-damage|p2a: Xerneas|23/100
+|move|p2a: Xerneas|Moonblast|p1a: Pheromosa
+|-supereffective|p1a: Pheromosa
+|-damage|p1a: Pheromosa|0 fnt
+|faint|p1a: Pheromosa
+|
+|win|innova89

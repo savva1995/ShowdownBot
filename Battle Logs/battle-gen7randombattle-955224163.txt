@@ -1,0 +1,192 @@
+|init|battle
+|title|DemonicSea vs. renst
+|j|☆DemonicSea
+|j|☆renst
+|player|p1|DemonicSea|290|1711
+|player|p2|renst|102|1746
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|switch|p2a: Linoone|Linoone, L83, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DemonicSea)
+
+|
+|switch|p2a: Hoopa|Hoopa, L85|100/100
+|move|p1a: Pheromosa|High Jump Kick|p2a: Hoopa
+|-immune|p2a: Hoopa
+|-damage|p1a: Pheromosa|51/100|[from] highjumpkick
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Pheromosa|U-turn|p2a: Hoopa
+|-damage|p2a: Hoopa|61/100
+
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, F|100/100|[from]move: U-turn
+|move|p2a: Hoopa|Psyshock|p1a: Slurpuff
+|-damage|p1a: Slurpuff|46/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|71/100|[from] item: Sitrus Berry
+|-damage|p2a: Hoopa|51/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Hoopa
+|-damage|p2a: Hoopa|12/100
+|move|p2a: Hoopa|Shadow Ball|p1a: Slurpuff
+|-damage|p1a: Slurpuff|10/100
+|-damage|p2a: Hoopa|2/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+
+|
+|switch|p2a: Machamp|Machamp, L84, M|100/100
+|turn|5
+
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|upkeep
+
+|
+|switch|p1a: Azelf|Azelf, L82|100/100
+|turn|6
+
+|
+|move|p1a: Azelf|Psyshock|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|29/100
+|move|p2a: Machamp|Knock Off|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|23/100
+|-enditem|p1a: Azelf|Leftovers|[from] move: Knock Off|[of] p2a: Machamp
+|
+|-heal|p2a: Machamp|35/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Azelf
+|-damage|p1a: Azelf|6/100
+|move|p1a: Azelf|Psyshock|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+
+|
+|switch|p2a: Linoone|Linoone, L83, F|100/100
+|turn|8
+
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|51/100
+|turn|9
+
+|
+|switch|p2a: Pelipper|Pelipper, L84, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Pheromosa|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|84/100
+
+|
+|switch|p1a: Zangoose|Zangoose, L89, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+
+|
+|move|p1a: Zangoose|Facade|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zangoose|94/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, M|100/100
+|turn|11
+
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+|-boost|p1a: Zangoose|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zangoose|82/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Zangoose|Facade|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zangoose|63/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Altaria|Altaria, L82, F|100/100
+|turn|13
+
+|
+|detailschange|p2a: Altaria|Altaria-Mega, L82, F
+|-mega|p2a: Altaria|Altaria|Altarianite
+|move|p1a: Zangoose|Facade|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|-weather|none
+|-damage|p1a: Zangoose|39/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Linoone|Linoone, L83, F|100/100
+|turn|14
+
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Zangoose
+|-damage|p1a: Zangoose|8/100 tox
+|move|p1a: Zangoose|Facade|p2a: Linoone
+|-damage|p2a: Linoone|0 fnt
+|faint|p2a: Linoone
+|
+|win|DemonicSea

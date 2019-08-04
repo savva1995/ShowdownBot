@@ -1,0 +1,194 @@
+|init|battle
+|title|tlaalswl vs. Mineiro6
+|j|☆tlaalswl
+|j|☆Mineiro6
+|player|p1|tlaalswl|238|1117
+|player|p2|Mineiro6|266|1394
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Maractus, M|item
+|poke|p1|Trevenant, M|item
+|poke|p1|Cradily, M|item
+|poke|p1|Cacturne, M|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Exeggutor-Alola, M|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Greninja, M|item
+|poke|p2|Weavile, F|item
+|poke|p2|Metagross|item
+|poke|p2|Volcanion|item
+|teampreview
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tlaalswl)
+
+|l|☆Mineiro6
+
+|inactive|Mineiro6 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆Mineiro6
+
+|inactive|Mineiro6 reconnected.
+
+|player|p2|Mineiro6|266
+
+|
+|start
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|switch|p1b: Trevenant|Trevenant, M|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|switch|p2b: Greninja|Greninja, M|100/100
+|turn|1
+
+|
+|move|p2a: Weavile|Fake Out|p1a: Ludicolo
+|-damage|p1a: Ludicolo|80/100
+|cant|p1a: Ludicolo|flinch
+|move|p2b: Greninja|U-turn|p1b: Trevenant
+|-start|p2b: Greninja|typechange|Bug|[from] ability: Protean
+|-damage|p1b: Trevenant|50/100
+|-enditem|p1b: Trevenant|Sitrus Berry|[eat]
+|-heal|p1b: Trevenant|75/100|[from] item: Sitrus Berry
+
+|
+|switch|p2b: Volcanion|Volcanion|100/100|[from]move: U-turn
+|move|p1b: Trevenant|Trick Room|p1b: Trevenant
+|-fieldstart|move: Trick Room|[of] p1b: Trevenant
+|
+|-item|p1b: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|2
+
+|
+|switch|p1b: Cradily|Cradily, M|100/100
+|move|p1a: Ludicolo|Surf|p2b: Volcanion|[spread] p2a
+|-ability|p1b: Cradily|Storm Drain|boost
+|-boost|p1b: Cradily|spa|1
+|-immune|p2b: Volcanion|[from] ability: Water Absorb
+|-damage|p2a: Weavile|59/100
+|move|p2b: Volcanion|Heat Wave|p1b: Cradily|[spread] p1a,p1b
+|-damage|p1a: Ludicolo|53/100
+|-damage|p1b: Cradily|68/100
+|-status|p1b: Cradily|brn
+|move|p2a: Weavile|Knock Off|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|-enditem|p1a: Ludicolo|Assault Vest|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Ludicolo
+|
+|-heal|p1b: Cradily|74/100 brn|[from] item: Leftovers
+|-damage|p1b: Cradily|68/100 brn|[from] brn
+|upkeep
+
+|inactive|tlaalswl has 120 seconds left.
+
+|inactive|tlaalswl has 90 seconds left.
+
+|
+|switch|p1a: Cacturne|Cacturne, M|100/100
+|turn|3
+
+|
+|move|p1b: Cradily|Ancient Power|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-crit|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|move|p1a: Cacturne|Rototiller|p1a: Cacturne
+|-boost|p1a: Cacturne|atk|1
+|-boost|p1a: Cacturne|spa|1
+|-boost|p1b: Cradily|atk|1
+|-boost|p1b: Cradily|spa|1
+|move|p2b: Volcanion|Heat Wave|p1a: Cacturne|[spread] p1a,p1b
+|-supereffective|p1a: Cacturne
+|-enditem|p1a: Cacturne|Focus Sash
+|-damage|p1a: Cacturne|1/100
+|-damage|p1b: Cradily|36/100 brn
+|
+|-heal|p1b: Cradily|42/100 brn|[from] item: Leftovers
+|-damage|p1b: Cradily|36/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Metagross|Metagross|100/100
+|turn|4
+
+|l|☆Mineiro6
+
+|inactive|Mineiro6 disconnected and has a minute to reconnect!
+
+|player|p2|
+|inactive|tlaalswl has 120 seconds left.
+
+|j|☆Mineiro6
+
+|inactive|Mineiro6 reconnected.
+
+|player|p2|Mineiro6|266
+
+|inactive|tlaalswl has 90 seconds left.
+
+|inactive|tlaalswl has 60 seconds left.
+
+|l|☆Mineiro6
+
+|inactive|Mineiro6 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|
+|move|p2a: Metagross|Bullet Punch|p1b: Cradily
+|-supereffective|p1b: Cradily
+|-damage|p1b: Cradily|0 fnt
+|faint|p1b: Cradily
+|move|p1a: Cacturne|Dark Pulse|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|18/100
+|move|p2b: Volcanion|Heat Wave|p1a: Cacturne|[miss]
+|-miss|p2b: Volcanion|p1a: Cacturne
+|
+|upkeep
+
+|inactive|tlaalswl has 60 seconds left.
+
+|inactive|tlaalswl has 30 seconds left.
+
+|inactive|tlaalswl has 20 seconds left.
+
+|inactive|tlaalswl has 15 seconds left.
+
+|
+|switch|p1b: Trevenant|Trevenant, M|75/100
+|turn|5
+
+|inactive|tlaalswl has 30 seconds left.
+
+|inactive|tlaalswl has 20 seconds left.
+
+|inactive|Mineiro6 has 30 seconds to reconnect!
+
+|inactive|Mineiro6 has 20 seconds to reconnect!
+
+|inactive|Mineiro6 has 15 seconds to reconnect!
+
+|inactive|Mineiro6 has 10 seconds to reconnect!
+
+|inactive|Mineiro6 has 5 seconds to reconnect!
+
+|-message|Mineiro6 lost due to inactivity.
+|
+|win|tlaalswl

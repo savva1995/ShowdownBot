@@ -1,0 +1,242 @@
+|init|battle
+|title|Nad Bigger vs. ErikasVictini
+|j|☆Nad Bigger
+|j|☆ErikasVictini
+|player|p1|Nad Bigger|184|1429
+|player|p2|ErikasVictini|elesa-gen5bw2|1455
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tapu Lele|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Magearna|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Mimikyu, M|item
+|poke|p1|Stakataka|item
+|poke|p2|Gardevoir, F|item
+|poke|p2|Linoone, F|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Salamence, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ErikasVictini)
+|
+|start
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|switch|p2a: Linoone|Linoone, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|1
+
+|
+|move|p2a: Linoone|Simple Beam|p1a: Tapu Lele
+|-endability|p1a: Tapu Lele|Psychic Surge|[from] move: Simple Beam
+|-ability|p1a: Tapu Lele|Simple|[from] move: Simple Beam
+|move|p1a: Tapu Lele|Psyshock|p2a: Linoone
+|-enditem|p2a: Linoone|Focus Sash
+|-damage|p2a: Linoone|1/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Mimikyu|Mimikyu, M, shiny|100/100
+|move|p2a: Linoone|Play Rough|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M, shiny
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Linoone|Simple Beam||[still]
+|-fail|p2a: Linoone
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+
+|
+|detailschange|p2a: Tyranitar|Tyranitar-Mega, M
+|-mega|p2a: Tyranitar|Tyranitar|Tyranitarite
+|move|p1a: Mimikyu|Play Rough|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Mimikyu|85/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|79/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Mimikyu|atk|1
+|turn|6
+
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Mimikyu|Play Rough|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|49/100
+|-unboost|p2a: Excadrill|atk|1
+|-damage|p1a: Mimikyu|69/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|63/100|[from] Sandstorm
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|move|p1a: Mimikyu|Shadow Claw|p2a: Tapu Lele
+|-supereffective|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|-damage|p1a: Mimikyu|53/100|[from] item: Life Orb
+|faint|p2a: Tapu Lele
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|47/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p2a: Excadrill|Excadrill, F|49/100
+|turn|8
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|63/100
+|-damage|p2a: Excadrill|39/100|[from] item: Life Orb
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+
+|
+|move|p2a: Excadrill|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|26/100
+|-damage|p2a: Excadrill|29/100|[from] item: Life Orb
+|cant|p1a: Landorus|flinch
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Excadrill|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Excadrill|19/100|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|upkeep
+
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|11
+
+|
+|detailschange|p1a: Alakazam|Alakazam-Mega, M
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|-ability|p1a: Alakazam|Sand Rush|[from] ability: Trace|[of] p2a: Excadrill
+|move|p1a: Alakazam|Psychic|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|12
+
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, M, shiny|47/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Salamence|Earthquake|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+
+|
+|switch|p1a: Stakataka|Stakataka|100/100
+|-item|p1a: Stakataka|Air Balloon
+|turn|14
+
+|
+|move|p2a: Salamence|Earthquake|p1a: Stakataka
+|-immune|p1a: Stakataka
+|move|p1a: Stakataka|Trick Room|p1a: Stakataka
+|-fieldstart|move: Trick Room|[of] p1a: Stakataka
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Stakataka|Stone Edge|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|-ability|p1a: Stakataka|Beast Boost|boost
+|-boost|p1a: Stakataka|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Gardevoir|Gardevoir, F, shiny|100/100
+|-ability|p2a: Gardevoir|Beast Boost|[from] ability: Trace|[of] p1a: Stakataka
+|turn|16
+
+|
+|move|p1a: Stakataka|Gyro Ball|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|-ability|p1a: Stakataka|Beast Boost|boost
+|-boost|p1a: Stakataka|atk|1
+|
+|upkeep
+
+|-message|ErikasVictini forfeited.
+
+|
+|win|Nad Bigger

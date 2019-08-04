@@ -1,0 +1,575 @@
+|init|battle
+|title|FuzyMC vs. Yuji7
+|j|☆FuzyMC
+|j|☆Yuji7
+|player|p1|FuzyMC|254|1365
+|player|p2|Yuji7|169|1051
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|switch|p2a: Sgranokkio|Feraligatr, M|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yuji7)
+
+|
+|switch|p2a: Mantis|Scizor, M|100/100
+|move|p1a: Snorlax|Double-Edge|p2a: Mantis
+|-crit|p2a: Mantis
+|-resisted|p2a: Mantis
+|-damage|p2a: Mantis|58/100
+|-damage|p1a: Snorlax|94/100|[from] Recoil|[of] p2a: Mantis
+|
+|-heal|p2a: Mantis|64/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Mantis|Toxic|p1a: Snorlax
+|-status|p1a: Snorlax|tox
+|move|p1a: Snorlax|Fire Blast|p2a: Mantis
+|-supereffective|p2a: Mantis
+|-damage|p2a: Mantis|0 fnt
+|faint|p2a: Mantis
+
+|inactive|Yuji7 has 120 seconds left.
+
+|c|☆FuzyMC|Oof
+
+|
+|switch|p2a: Blaze|Arcanine, M|100/100
+|
+|-heal|p1a: Snorlax|100/100 tox|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Golem|Golem, M|100/100
+|move|p2a: Blaze|Fire Blast|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|75/100
+|
+|-heal|p1a: Golem|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|switch|p2a: Sgranokkio|Feraligatr, M|100/100
+|move|p1a: Golem|Earthquake|p2a: Sgranokkio
+|-damage|p2a: Sgranokkio|66/100
+|
+|-heal|p2a: Sgranokkio|72/100|[from] item: Leftovers
+|-heal|p1a: Golem|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Sgranokkio|Hydro Pump|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|66/100
+|
+|-heal|p2a: Sgranokkio|79/100|[from] item: Leftovers
+|-heal|p1a: Cloyster|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|move|p2a: Sgranokkio|Rock Slide|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|46/100
+|cant|p1a: Cloyster|flinch
+|
+|-heal|p2a: Sgranokkio|85/100|[from] item: Leftovers
+|-heal|p1a: Cloyster|52/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Sgranokkio|Rock Slide|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|23/100
+|cant|p1a: Cloyster|flinch
+|
+|-heal|p2a: Sgranokkio|91/100|[from] item: Leftovers
+|-heal|p1a: Cloyster|29/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Sgranokkio|Rock Slide|p1a: Zapdos|[miss]
+|-miss|p2a: Sgranokkio
+|
+|-heal|p2a: Sgranokkio|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Lightning|Ampharos, M|100/100
+|move|p1a: Zapdos|Thunder|p2a: Lightning|[miss]
+|-miss|p1a: Zapdos
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Zapdos|Thunder|p2a: Lightning|[miss]
+|-miss|p1a: Zapdos
+|move|p2a: Lightning|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Zapdos|Thunder|p2a: Lightning
+|-resisted|p2a: Lightning
+|-damage|p2a: Lightning|76/100
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|move|p2a: Lightning|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|61/100 tox
+|
+|-heal|p1a: Zapdos|67/100 tox|[from] item: Leftovers
+|-heal|p2a: Lightning|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Lightning|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|63/100 slp
+|
+|-heal|p1a: Zapdos|69/100 slp|[from] item: Leftovers
+|-heal|p2a: Lightning|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|cant|p1a: Zapdos|slp
+|move|p1a: Zapdos|Sleep Talk|p1a: Zapdos
+|move|p1a: Zapdos|Thunder|p2a: Lightning|[from]Sleep Talk
+|-resisted|p2a: Lightning
+|-damage|p2a: Lightning|67/100
+|-status|p2a: Lightning|par
+|cant|p2a: Lightning|par
+|
+|-heal|p1a: Zapdos|75/100 slp|[from] item: Leftovers
+|-heal|p2a: Lightning|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|cant|p1a: Zapdos|slp
+|move|p1a: Zapdos|Sleep Talk|p1a: Zapdos
+|move|p1a: Zapdos|Rest|p1a: Zapdos|[from]Sleep Talk
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Lightning|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|68/100 slp
+|
+|-heal|p1a: Zapdos|74/100 slp|[from] item: Leftovers
+|-heal|p2a: Lightning|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Golem|Golem, M|87/100
+|move|p2a: Lightning|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem
+|
+|-heal|p1a: Golem|93/100|[from] item: Leftovers
+|-heal|p2a: Lightning|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|switch|p2a: Sgranokkio|Feraligatr, M|97/100
+|move|p1a: Golem|Earthquake|p2a: Sgranokkio
+|-damage|p2a: Sgranokkio|65/100
+|
+|-heal|p2a: Sgranokkio|71/100|[from] item: Leftovers
+|-heal|p1a: Golem|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100 tox
+|-status|p1a: Snorlax|psn|[silent]
+|-damage|p1a: Snorlax|88/100 psn|[from] psn
+|move|p2a: Sgranokkio|Hydro Pump|p1a: Snorlax
+|-damage|p1a: Snorlax|67/100 psn
+|
+|-heal|p2a: Sgranokkio|77/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|73/100 psn|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|inactive|Yuji7 has 120 seconds left.
+
+|inactive|FuzyMC has 120 seconds left.
+
+|
+|move|p2a: Sgranokkio|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|55/100 psn
+|move|p1a: Snorlax|Double-Edge|p2a: Sgranokkio
+|-damage|p2a: Sgranokkio|36/100
+|-damage|p1a: Snorlax|47/100 psn|[from] Recoil|[of] p2a: Sgranokkio
+|-damage|p1a: Snorlax|35/100 psn|[from] psn|[of] p2a: Sgranokkio
+|
+|-heal|p2a: Sgranokkio|42/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|41/100 psn|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|inactive|Yuji7 has 120 seconds left.
+
+|inactive|FuzyMC has 90 seconds left.
+
+|
+|switch|p1a: Zapdos|Zapdos|74/100 slp
+|move|p2a: Sgranokkio|Hydro Pump|p1a: Zapdos
+|-damage|p1a: Zapdos|38/100 slp
+|
+|-heal|p1a: Zapdos|44/100 slp|[from] item: Leftovers
+|-heal|p2a: Sgranokkio|48/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Lightning|Ampharos, M|85/100 par
+|cant|p1a: Zapdos|slp
+|
+|-heal|p1a: Zapdos|50/100 slp|[from] item: Leftovers
+|-heal|p2a: Lightning|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|cant|p1a: Zapdos|slp
+|move|p1a: Zapdos|Sleep Talk|p1a: Zapdos
+|move|p1a: Zapdos|Thunder|p2a: Lightning|[from]Sleep Talk
+|-resisted|p2a: Lightning
+|-damage|p2a: Lightning|67/100 par
+|move|p2a: Lightning|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|13/100 slp
+|
+|-heal|p1a: Zapdos|19/100 slp|[from] item: Leftovers
+|-heal|p2a: Lightning|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Rest|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Rest
+|-heal|p1a: Zapdos|100/100 slp|[silent]
+|move|p2a: Lightning|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|67/100 slp
+|
+|-heal|p1a: Zapdos|73/100 slp|[from] item: Leftovers
+|-heal|p2a: Lightning|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Magmar|Magmar, F|100/100
+|cant|p2a: Lightning|par
+|
+|-heal|p2a: Lightning|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Sgranokkio|Feraligatr, M|48/100
+|move|p1a: Magmar|Thief|p2a: Sgranokkio
+|-damage|p2a: Sgranokkio|39/100
+|-item|p1a: Magmar|Leftovers|[from] move: Thief|[of] p2a: Sgranokkio
+|
+|upkeep
+|turn|25
+
+|
+|switch|p1a: Zapdos|Zapdos|73/100 slp
+|move|p2a: Sgranokkio|Hydro Pump|p1a: Zapdos|[miss]
+|-miss|p2a: Sgranokkio
+|
+|-heal|p1a: Zapdos|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Lightning|Ampharos, M|85/100 par
+|cant|p1a: Zapdos|slp
+|move|p1a: Zapdos|Sleep Talk|p1a: Zapdos
+|move|p1a: Zapdos|Thunder|p2a: Lightning|[from]Sleep Talk
+|-resisted|p2a: Lightning
+|-damage|p2a: Lightning|61/100 par
+|
+|-heal|p1a: Zapdos|85/100 slp|[from] item: Leftovers
+|-heal|p2a: Lightning|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|inactive|FuzyMC has 120 seconds left.
+
+|
+|switch|p1a: Golem|Golem, M|99/100
+|cant|p2a: Lightning|par
+|
+|-heal|p1a: Golem|100/100|[from] item: Leftovers
+|-heal|p2a: Lightning|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Sgranokkio|Feraligatr, M|39/100
+|move|p1a: Golem|Earthquake|p2a: Sgranokkio
+|-damage|p2a: Sgranokkio|3/100
+|
+|upkeep
+|turn|29
+
+|
+|switch|p1a: Zapdos|Zapdos|85/100 slp
+|move|p2a: Sgranokkio|Hydro Pump|p1a: Zapdos
+|-damage|p1a: Zapdos|49/100 slp
+|
+|-heal|p1a: Zapdos|55/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p2a: Lightning|Ampharos, M|73/100 par
+|cant|p1a: Zapdos|slp
+|move|p1a: Zapdos|Sleep Talk|p1a: Zapdos
+|move|p1a: Zapdos|Thunder|p2a: Lightning|[from]Sleep Talk
+|-resisted|p2a: Lightning
+|-damage|p2a: Lightning|50/100 par
+|
+|-heal|p1a: Zapdos|61/100 slp|[from] item: Leftovers
+|-heal|p2a: Lightning|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|switch|p1a: Golem|Golem, M|100/100
+|move|p2a: Lightning|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem
+|
+|-heal|p2a: Lightning|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p2a: Sgranokkio|Feraligatr, M|3/100
+|move|p1a: Golem|Earthquake|p2a: Sgranokkio
+|-crit|p2a: Sgranokkio
+|-damage|p2a: Sgranokkio|0 fnt
+|faint|p2a: Sgranokkio
+
+|
+|switch|p2a: Nite|Umbreon, M|100/100
+|
+|upkeep
+|turn|33
+
+|
+|switch|p1a: Magmar|Magmar, F|100/100
+|move|p2a: Nite|Psychic|p1a: Magmar
+|-damage|p1a: Magmar|84/100
+|
+|-heal|p1a: Magmar|90/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|switch|p2a: Shiryu|Dragonite, M|100/100
+|move|p1a: Magmar|Attract|p2a: Shiryu
+|-start|p2a: Shiryu|Attract
+|
+|-heal|p1a: Magmar|96/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Shiryu
+|-start|p2a: Shiryu|confusion
+|-activate|p2a: Shiryu|confusion
+|-damage|p2a: Shiryu|89/100|[from] confusion
+|
+|-heal|p1a: Magmar|100/100|[from] item: Leftovers
+|-heal|p2a: Shiryu|95/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|move|p1a: Magmar|Seismic Toss|p2a: Shiryu
+|-damage|p2a: Shiryu|69/100
+|-activate|p2a: Shiryu|confusion
+|-damage|p2a: Shiryu|58/100|[from] confusion
+|
+|-heal|p2a: Shiryu|64/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|move|p1a: Magmar|Seismic Toss|p2a: Shiryu
+|-damage|p2a: Shiryu|38/100
+|-activate|p2a: Shiryu|confusion
+|-damage|p2a: Shiryu|27/100|[from] confusion
+|
+|-heal|p2a: Shiryu|33/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|move|p1a: Magmar|Seismic Toss|p2a: Shiryu
+|-damage|p2a: Shiryu|7/100
+|-activate|p2a: Shiryu|confusion
+|-activate|p2a: Shiryu|move: Attract|[of] p1a: Magmar
+|move|p2a: Shiryu|Surf|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|49/100
+|
+|-heal|p1a: Magmar|55/100|[from] item: Leftovers
+|-heal|p2a: Shiryu|13/100|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|
+|move|p1a: Magmar|Seismic Toss|p2a: Shiryu
+|-damage|p2a: Shiryu|0 fnt
+|faint|p2a: Shiryu
+
+|
+|switch|p2a: Blaze|Arcanine, M|100/100
+|
+|-heal|p1a: Magmar|61/100|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|
+|move|p2a: Blaze|Toxic|p1a: Magmar
+|-status|p1a: Magmar|tox
+|move|p1a: Magmar|Attract|p2a: Blaze
+|-start|p2a: Blaze|Attract
+|-damage|p1a: Magmar|55/100 tox|[from] psn
+|
+|-heal|p1a: Magmar|61/100 tox|[from] item: Leftovers
+|upkeep
+|turn|41
+
+|
+|-activate|p2a: Blaze|move: Attract|[of] p1a: Magmar
+|cant|p2a: Blaze|Attract
+|move|p1a: Magmar|Confuse Ray|p2a: Blaze
+|-start|p2a: Blaze|confusion
+|-damage|p1a: Magmar|49/100 tox|[from] psn
+|
+|-heal|p1a: Magmar|55/100 tox|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|
+|-activate|p2a: Blaze|confusion
+|-damage|p2a: Blaze|89/100|[from] confusion
+|move|p1a: Magmar|Seismic Toss|p2a: Blaze
+|-damage|p2a: Blaze|63/100
+|-damage|p1a: Magmar|37/100 tox|[from] psn
+|
+|-heal|p2a: Blaze|69/100|[from] item: Leftovers
+|-heal|p1a: Magmar|43/100 tox|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|
+|-activate|p2a: Blaze|confusion
+|-damage|p2a: Blaze|58/100|[from] confusion
+|move|p1a: Magmar|Seismic Toss|p2a: Blaze
+|-damage|p2a: Blaze|32/100
+|-damage|p1a: Magmar|19/100 tox|[from] psn
+|
+|-heal|p2a: Blaze|38/100|[from] item: Leftovers
+|-heal|p1a: Magmar|25/100 tox|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|
+|-activate|p2a: Blaze|confusion
+|-damage|p2a: Blaze|27/100|[from] confusion
+|move|p1a: Magmar|Seismic Toss|p2a: Blaze
+|-damage|p2a: Blaze|0 fnt
+|faint|p2a: Blaze
+
+|
+|switch|p2a: Nite|Umbreon, M|100/100
+|
+|-heal|p1a: Magmar|31/100 tox|[from] item: Leftovers
+|upkeep
+|turn|45
+
+|
+|move|p1a: Magmar|Seismic Toss|p2a: Nite
+|-damage|p2a: Nite|75/100
+|-damage|p1a: Magmar|1/100 tox|[from] psn
+|move|p2a: Nite|Psychic|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+
+|
+|switch|p1a: Cloyster|Cloyster, M|29/100
+|
+|-heal|p1a: Cloyster|35/100|[from] item: Leftovers
+|-heal|p2a: Nite|81/100|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|move|p1a: Cloyster|Explosion|p2a: Nite
+|-damage|p2a: Nite|0 fnt
+|faint|p1a: Cloyster
+|faint|p2a: Nite
+
+|
+|switch|p1a: Golem|Golem, M|100/100
+|switch|p2a: Lightning|Ampharos, M|62/100 par
+|
+|-heal|p2a: Lightning|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+
+|
+|move|p1a: Golem|Earthquake|p2a: Lightning
+|-supereffective|p2a: Lightning
+|-damage|p2a: Lightning|0 fnt
+|faint|p2a: Lightning
+|
+|win|FuzyMC

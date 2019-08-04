@@ -1,0 +1,400 @@
+|init|battle
+|title|GratuitMan vs. Float Board
+|j|☆GratuitMan
+|j|☆Float Board
+|player|p1|GratuitMan|226|1544
+|player|p2|Float Board|101|1613
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dusknoir|Dusknoir, L89, F|100/100
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Dusknoir|atk|1
+|-ability|p1a: Dusknoir|Pressure
+|turn|1
+
+|
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|switch|p1a: Hitmontop|Hitmontop, L86, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Cobalion|atk|1
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GratuitMan)
+
+|
+|switch|p2a: Beautifly|Beautifly, L89, F|100/100
+|move|p1a: Hitmontop|Close Combat|p2a: Beautifly
+|-resisted|p2a: Beautifly
+|-damage|p2a: Beautifly|83/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Beautifly|Psychic|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|44/100
+|move|p1a: Hitmontop|Stone Edge|p2a: Beautifly
+|-supereffective|p2a: Beautifly
+|-damage|p2a: Beautifly|0 fnt
+|faint|p2a: Beautifly
+|
+|upkeep
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Hitmontop|atk|1
+|turn|4
+
+|
+|switch|p1a: Dusknoir|Dusknoir, L89, F|100/100
+|-ability|p1a: Dusknoir|Pressure
+|move|p2a: Tauros|Zen Headbutt|p1a: Dusknoir|[miss]
+|-miss|p2a: Tauros|p1a: Dusknoir
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|move|p1a: Dusknoir|Ice Punch|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|92/100
+|
+|-heal|p2a: Cobalion|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|44/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Cobalion|atk|1
+|move|p2a: Cobalion|Substitute|p2a: Cobalion
+|-start|p2a: Cobalion|Substitute
+|-damage|p2a: Cobalion|73/100
+|
+|-heal|p2a: Cobalion|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Cobalion|Close Combat|p1a: Hitmontop
+|-damage|p1a: Hitmontop|16/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|move|p1a: Hitmontop|Close Combat|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-crit|p2a: Cobalion
+|-end|p2a: Cobalion|Substitute
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|-heal|p2a: Cobalion|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Cobalion|Close Combat|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Hitmontop
+|
+|-heal|p2a: Cobalion|91/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|turn|9
+
+|
+|move|p2a: Cobalion|Substitute|p2a: Cobalion
+|-start|p2a: Cobalion|Substitute
+|-damage|p2a: Cobalion|66/100
+|move|p1a: Lugia|Substitute|p1a: Lugia
+|-start|p1a: Lugia|Substitute
+|-damage|p1a: Lugia|76/100
+|
+|-heal|p2a: Cobalion|72/100|[from] item: Leftovers
+|-heal|p1a: Lugia|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Cobalion|Stone Edge|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-crit|p1a: Lugia
+|-end|p1a: Lugia|Substitute
+|move|p1a: Lugia|Psychic|p2a: Cobalion
+|-end|p2a: Cobalion|Substitute
+|
+|-heal|p2a: Cobalion|78/100|[from] item: Leftovers
+|-heal|p1a: Lugia|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|move|p1a: Lugia|Psychic|p2a: Cobalion
+|-damage|p2a: Cobalion|13/100
+|
+|-heal|p2a: Cobalion|19/100|[from] item: Leftovers
+|-heal|p1a: Lugia|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Cobalion|Stone Edge|p1a: Lugia|[miss]
+|-miss|p2a: Cobalion|p1a: Lugia
+|move|p1a: Lugia|Psychic|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|-heal|p1a: Lugia|99/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Aurorus|Aurorus, L88, F|100/100
+|turn|13
+
+|
+|switch|p1a: Heatran|Heatran, L80, M|100/100
+|move|p2a: Aurorus|Ancient Power|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|-boost|p2a: Aurorus|atk|1
+|-boost|p2a: Aurorus|def|1
+|-boost|p2a: Aurorus|spa|1
+|-boost|p2a: Aurorus|spd|1
+|-boost|p2a: Aurorus|spe|1
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Aurorus|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+
+|
+|switch|p1a: Umbreon|Umbreon, L84, F|100/100
+|turn|15
+
+|
+|move|p2a: Aurorus|Hyper Voice|p1a: Umbreon
+|-damage|p1a: Umbreon|55/100
+|move|p1a: Umbreon|Toxic|p2a: Aurorus
+|-status|p2a: Aurorus|tox
+|
+|-heal|p1a: Umbreon|61/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|94/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Aurorus|Ancient Power|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p2a: Aurorus|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Umbreon|67/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|88/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Aurorus|Hyper Voice|p1a: Umbreon
+|-damage|p1a: Umbreon|23/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Aurorus|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Umbreon|29/100|[from] item: Leftovers
+|-damage|p2a: Aurorus|76/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|79/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Tauros|Double-Edge|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Marshadow|Marshadow, L78|100/100
+|switch|p1a: Dusknoir|Dusknoir, L89, F|100/100
+|-ability|p1a: Dusknoir|Pressure
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Dusknoir|Shadow Sneak|p2a: Marshadow
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|57/100
+|move|p2a: Marshadow|Spectral Thief|p1a: Dusknoir
+|-supereffective|p1a: Dusknoir
+|-damage|p1a: Dusknoir|9/100
+|
+|-heal|p1a: Dusknoir|15/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Dusknoir|atk|1
+|move|p1a: Dusknoir|Shadow Sneak|p2a: Tauros
+|-immune|p2a: Tauros
+|
+|-heal|p1a: Dusknoir|21/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Lugia|Lugia, L78|99/100
+|move|p2a: Tauros|Rock Slide|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|56/100
+|
+|-heal|p1a: Lugia|62/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Umbreon|Umbreon, L84, F|91/100
+|move|p2a: Tauros|Rock Slide|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|57/100
+|
+|-heal|p1a: Umbreon|63/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Aurorus|Aurorus, L88, F|76/100 tox
+|move|p1a: Umbreon|Foul Play|p2a: Aurorus
+|-damage|p2a: Aurorus|55/100 tox
+|
+|-heal|p1a: Umbreon|69/100|[from] item: Leftovers
+|-heal|p2a: Aurorus|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Aurorus|55/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Aurorus|Thunder Wave||[still]
+|-status|p1a: Umbreon|par
+|-activate|p1a: Umbreon|ability: Synchronize
+|-fail|p1a: Umbreon
+|
+|-heal|p2a: Aurorus|61/100 tox|[from] item: Leftovers
+|-heal|p1a: Umbreon|75/100 par|[from] item: Leftovers
+|-damage|p2a: Aurorus|49/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Aurorus|Hyper Voice|p1a: Umbreon
+|-damage|p1a: Umbreon|41/100 par
+|move|p1a: Umbreon|Foul Play|p2a: Aurorus
+|-damage|p2a: Aurorus|29/100 tox
+|
+|-heal|p1a: Umbreon|91/100 par|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Aurorus|35/100 tox|[from] item: Leftovers
+|-heal|p1a: Umbreon|97/100 par|[from] item: Leftovers
+|-damage|p2a: Aurorus|17/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|move|p2a: Aurorus|Hyper Voice|p1a: Umbreon
+|-damage|p1a: Umbreon|68/100 par
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Aurorus|23/100 tox|[from] item: Leftovers
+|-heal|p1a: Umbreon|74/100 par|[from] item: Leftovers
+|-damage|p2a: Aurorus|0 fnt|[from] psn
+|faint|p2a: Aurorus
+|upkeep
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|turn|29
+
+|
+|move|p2a: Tauros|Double-Edge|p1a: Umbreon
+|-damage|p1a: Umbreon|14/100 par
+|-damage|p2a: Tauros|79/100|[from] Recoil
+|move|p1a: Umbreon|Foul Play|p2a: Tauros
+|-damage|p2a: Tauros|46/100
+|
+|-heal|p1a: Umbreon|63/100 par|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p2a: Marshadow|Marshadow, L78|57/100
+|move|p1a: Umbreon|Foul Play|p2a: Marshadow
+|-damage|p2a: Marshadow|9/100
+|
+|-heal|p1a: Umbreon|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|l|☆Float Board
+
+|inactive|Float Board disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|Float Board has 30 seconds to reconnect!
+
+|inactive|Float Board has 20 seconds to reconnect!
+
+|inactive|Float Board has 15 seconds to reconnect!
+
+|inactive|Float Board has 10 seconds to reconnect!
+
+|inactive|Float Board has 5 seconds to reconnect!
+
+|-message|Float Board lost due to inactivity.
+|
+|win|GratuitMan

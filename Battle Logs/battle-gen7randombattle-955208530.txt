@@ -1,0 +1,159 @@
+|init|battle
+|title|LilBigSte vs. Iugggdsss
+|j|☆LilBigSte
+|j|☆Iugggdsss
+|player|p1|LilBigSte|101|1010
+|player|p2|Iugggdsss|102|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Durant|Durant, L83, M|100/100
+|switch|p2a: Xatu|Xatu, L86, M|100/100
+|turn|1
+|
+|switch|p1a: Electrode|Electrode, L89|100/100
+|move|p2a: Xatu|Thunder Wave|p1a: Electrode
+|-immune|p1a: Electrode
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Goodra|Goodra, L84, F|100/100
+|move|p1a: Electrode|Thunderbolt|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|93/100
+|-damage|p1a: Electrode|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Electrode|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|85/100
+|-damage|p1a: Electrode|81/100|[from] item: Life Orb
+|
+|switch|p1a: Durant|Durant, L83, M|100/100|[from]move: Volt Switch
+|move|p2a: Goodra|Fire Blast|p1a: Durant
+|-supereffective|p1a: Durant
+|-enditem|p1a: Durant|Focus Sash
+|-damage|p1a: Durant|1/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Kricketune|Kricketune, L89, F|100/100
+|move|p1a: Durant|Superpower|p2a: Kricketune|[miss]
+|-miss|p1a: Durant|p2a: Kricketune
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Durant|Iron Head|p2a: Kricketune
+|-damage|p2a: Kricketune|31/100
+|move|p2a: Kricketune|Sticky Web|p1a: Durant
+|-sidestart|p1: LilBigSte|move: Sticky Web
+|
+|-heal|p2a: Kricketune|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Durant|Iron Head|p2a: Kricketune|[miss]
+|-miss|p1a: Durant|p2a: Kricketune
+|move|p2a: Kricketune|Knock Off|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|faint|p1a: Durant
+|
+|-heal|p2a: Kricketune|43/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Clefable|Clefable, L80, F|100/100
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|turn|7
+
+|
+|move|p2a: Kricketune|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|85/100
+|-enditem|p1a: Clefable|Life Orb|[from] move: Knock Off|[of] p2a: Kricketune
+|move|p1a: Clefable|Moonblast|p2a: Kricketune
+|-crit|p2a: Kricketune
+|-damage|p2a: Kricketune|0 fnt
+|faint|p2a: Kricketune
+|
+|upkeep
+
+|
+|switch|p2a: Togekiss|Togekiss, L82, F|100/100
+|turn|8
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, F|100/100
+|-activate|p1a: Cofagrigus|move: Sticky Web
+|-unboost|p1a: Cofagrigus|spe|1
+|move|p2a: Togekiss|Air Slash|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|66/100
+|
+|-heal|p1a: Cofagrigus|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Togekiss|Air Slash|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|40/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|75/100
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|46/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Togekiss|Air Slash|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|15/100
+|cant|p1a: Cofagrigus|flinch
+|
+|-heal|p2a: Togekiss|88/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|21/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Togekiss|Air Slash|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|-heal|p2a: Togekiss|94/100|[from] item: Leftovers
+|upkeep
+
+|l|☆LilBigSte
+
+|player|p1|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Iugggdsss)
+
+|inactive|LilBigSte has 30 seconds to reconnect!
+
+|inactive|LilBigSte has 20 seconds to reconnect!
+
+|inactive|LilBigSte has 15 seconds to reconnect!
+
+|inactive|LilBigSte has 10 seconds to reconnect!
+
+|inactive|LilBigSte has 5 seconds to reconnect!
+
+|-message|LilBigSte lost due to inactivity.
+|
+|win|Iugggdsss

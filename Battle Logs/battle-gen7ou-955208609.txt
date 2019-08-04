@@ -1,0 +1,359 @@
+|init|battle
+|title|ChInO1998 vs. kerorek
+|j|☆ChInO1998
+|j|☆kerorek
+|player|p1|ChInO1998|169|1450
+|player|p2|kerorek|4|1493
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Celesteela|item
+|poke|p1|Clefable, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Skarmory, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Bisharp, F|item
+|poke|p2|Gengar, F|item
+|poke|p2|Chesnaught, F|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Uxie|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChInO1998)
+
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|turn|1
+
+|
+|move|p2a: Uxie|Imprison|p2a: Uxie
+|-start|p2a: Uxie|move: Imprison
+|move|p1a: Skarmory|Swords Dance|p1a: Skarmory
+|-boost|p1a: Skarmory|atk|2
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Uxie|Yawn|p1a: Skarmory
+|-start|p1a: Skarmory|move: Yawn|[of] p2a: Uxie
+|-zpower|p1a: Skarmory
+|move|p1a: Skarmory|Supersonic Skystrike|p2a: Uxie|[zeffect]
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|
+|upkeep
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|turn|3
+
+|
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Skarmory|Brave Bird|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|-damage|p1a: Skarmory|88/100|[from] Spiky Shield|[of] p2a: Chesnaught
+|
+|-end|p1a: Skarmory|move: Yawn|[silent]
+|-status|p1a: Skarmory|slp
+|upkeep
+|turn|4
+
+|
+|cant|p1a: Skarmory|slp
+|move|p2a: Chesnaught|Spikes|p1a: Skarmory
+|-sidestart|p1: ChInO1998|Spikes
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|cant|p1a: Skarmory|slp
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Nidoqueen|Flamethrower|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|92/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Pelipper
+|-damage|p1a: Pelipper|35/100
+|move|p1a: Pelipper|Hydro Pump|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Gallade|Gallade, M, shiny|100/100
+|turn|8
+
+|
+|detailschange|p2a: Gallade|Gallade-Mega, M, shiny
+|-mega|p2a: Gallade|Gallade|Galladite
+|move|p2a: Gallade|Zen Headbutt|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100 slp
+|turn|9
+
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-curestatus|p1a: Skarmory|slp|[msg]
+|move|p1a: Skarmory|Brave Bird|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|76/100
+|-damage|p1a: Skarmory|80/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Bisharp|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|40/100
+|move|p1a: Skarmory|Swords Dance|p1a: Skarmory
+|-boost|p1a: Skarmory|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Bisharp|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|12
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|move|p1a: Rotom|Thunder|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Chesnaught|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Celesteela|Celesteela|100/100
+|move|p2a: Chesnaught|Spikes|p1a: Celesteela
+|-sidestart|p1: ChInO1998|Spikes
+|
+|-weather|none
+|-heal|p2a: Chesnaught|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|-damage|p1a: Clefable|84/100|[from] Spikes
+|move|p2a: Chesnaught|Spiky Shield||[still]
+|-fail|p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|89/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Bisharp|Bisharp, F|76/100
+|move|p1a: Clefable|Moonblast|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|turn|16
+
+|
+|move|p2a: Gengar|Trick|p1a: Clefable
+|-activate|p2a: Gengar|move: Trick|[of] p1a: Clefable
+|-item|p1a: Clefable|Choice Scarf|[from] move: Trick
+|-item|p2a: Gengar|Choice Specs|[from] move: Trick
+|move|p1a: Clefable|Moonblast|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|66/100
+|-unboost|p2a: Gengar|spa|1
+|
+|upkeep
+|turn|17
+
+|l|☆ChInO1998
+
+|inactive|ChInO1998 disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆ChInO1998
+
+|inactive|ChInO1998 reconnected and has 135 seconds left.
+
+|player|p1|ChInO1998|169
+
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+
+|
+|switch|p1a: Celesteela|Celesteela|100/100
+|turn|18
+
+|
+|switch|p2a: Chesnaught|Chesnaught, F|89/100
+|move|p1a: Celesteela|Heavy Slam|p2a: Chesnaught
+|-damage|p2a: Chesnaught|44/100
+|-damage|p1a: Celesteela|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Chesnaught|50/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Celesteela|Heavy Slam|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|-damage|p1a: Celesteela|78/100|[from] Spiky Shield|[of] p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|56/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Chesnaught|Leech Seed|p1a: Celesteela
+|-start|p1a: Celesteela|move: Leech Seed
+|move|p1a: Celesteela|Heavy Slam|p2a: Chesnaught
+|-damage|p2a: Chesnaught|13/100
+|-damage|p1a: Celesteela|68/100|[from] item: Life Orb
+|
+|-heal|p2a: Chesnaught|19/100|[from] item: Leftovers
+|-damage|p1a: Celesteela|56/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|32/100|[silent]
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Chesnaught|Spiky Shield||[still]
+|-fail|p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|38/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Rotom|Hidden Power|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|0 fnt
+|faint|p2a: Chesnaught
+|
+|upkeep
+
+|
+|switch|p2a: Gallade|Gallade-Mega, M, shiny|100/100
+|turn|23
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|84/100|[from] Spikes
+|move|p2a: Gallade|Swords Dance|p2a: Gallade
+|-boost|p2a: Gallade|atk|2
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Gallade|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Gallade|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|faint|p1a: Ferrothorn
+|
+|upkeep
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|25
+
+|
+|move|p1a: Rotom|Volt Switch|p2a: Gallade
+|-damage|p2a: Gallade|34/100
+
+|
+|switch|p1a: Celesteela|Celesteela|56/100|[from]move: Volt Switch
+|move|p2a: Gallade|Close Combat|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|faint|p1a: Celesteela
+|
+|upkeep
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|26
+
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+
+|
+|switch|p2a: Gengar|Gengar, F|66/100
+|turn|27
+
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|ChInO1998

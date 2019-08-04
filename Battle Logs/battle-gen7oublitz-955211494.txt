@@ -1,0 +1,462 @@
+|init|battle
+|title|Evanoux vs. Leooold
+|j|☆Evanoux
+|j|☆Leooold
+|player|p1|Evanoux|64|1000
+|player|p2|Leooold|165|1095
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Swampert, M|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Serperior, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Magearna|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Evanoux has 30 seconds left this turn.
+|inactive|Leooold has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Evanoux)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: His Best Friend|Rotom-Wash|100/100
+|turn|1
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+|
+|move|p2a: His Best Friend|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+|
+|switch|p2a: The New OU Monster|Heatran, M|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Stealth Rock|p2a: The New OU Monster
+|-sidestart|p2: Leooold|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: The New OU Monster|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+|
+|move|p2a: The New OU Monster|Protect|p2a: The New OU Monster
+|-singleturn|p2a: The New OU Monster|Protect
+|move|p1a: Pelipper|Scald|p2a: The New OU Monster
+|-activate|p2a: The New OU Monster|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+|inactive|Leooold has 5 seconds left.
+|
+|switch|p2a: His Best Friend|Rotom-Wash|100/100
+|-damage|p2a: His Best Friend|88/100|[from] Stealth Rock
+|move|p1a: Pelipper|Hurricane|p2a: His Best Friend
+|-resisted|p2a: His Best Friend
+|-damage|p2a: His Best Friend|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: His Best Friend|74/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|63/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 10 seconds left this turn.
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 5 seconds left.
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: His Best Friend|Defog|p1a: Swampert
+|-unboost|p1a: Swampert|evasion|1
+|-sideend|p2: Leooold|Stealth Rock|[from] move: Defog|[of] p2a: His Best Friend
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: His Best Friend|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 10 seconds left this turn.
+|inactive|Evanoux has 10 seconds left.
+|
+|detailschange|p1a: Swampert|Swampert-Mega, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Waterfall|p2a: His Best Friend
+|-resisted|p2a: His Best Friend
+|-damage|p2a: His Best Friend|51/100
+|move|p2a: His Best Friend|Hydro Pump|p1a: Swampert
+|-damage|p1a: Swampert|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: His Best Friend|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: His Best Friend|Hydro Pump|p1a: Tornadus|[miss]
+|-miss|p2a: His Best Friend|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: His Best Friend|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|
+|move|p1a: Tornadus|Knock Off|p2a: His Best Friend
+|-damage|p2a: His Best Friend|40/100
+|-enditem|p2a: His Best Friend|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|-damage|p1a: Tornadus|91/100|[from] item: Life Orb
+|move|p2a: His Best Friend|Volt Switch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|27/100
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|
+|switch|p2a: The 1st OU Monter|Greninja, M|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Leooold has 10 seconds left.
+
+|
+|move|p2a: The 1st OU Monter|Dark Pulse|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-activate|p2a: The 1st OU Monter|ability: Battle Bond
+|detailschange|p2a: The 1st OU Monter|Greninja-Ash, M
+|
+|-weather|none
+|upkeep
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|
+|switch|p1a: Pelipper|Pelipper, M|63/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|10
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|99/100
+|move|p2a: The 1st OU Monter|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Leooold has 10 seconds left.
+
+|
+|switch|p2a: The New OU Monster|Heatran, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: The New OU Monster
+|-start|p2a: The New OU Monster|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|81/100|[from] item: Leftovers
+|-damage|p2a: The New OU Monster|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|95/100|[silent]
+|upkeep
+|turn|12
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Evanoux has 10 seconds left.
+
+|
+|move|p2a: The New OU Monster|Magma Storm|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100
+|-activate|p1a: Ferrothorn|move: Magma Storm|[of] p2a: The New OU Monster
+|move|p1a: Ferrothorn|Stealth Rock|p2a: The New OU Monster
+|-sidestart|p2: Leooold|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The New OU Monster|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|50/100|[from] item: Leftovers
+|-damage|p2a: The New OU Monster|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|63/100|[silent]
+|-damage|p1a: Ferrothorn|51/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: The New OU Monster|Earth Power|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The New OU Monster|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|-damage|p2a: The New OU Monster|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|71/100|[silent]
+|-damage|p1a: Ferrothorn|58/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: The New OU Monster|Earth Power|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The New OU Monster|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|-damage|p2a: The New OU Monster|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|78/100|[silent]
+|-damage|p1a: Ferrothorn|66/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Evanoux has 10 seconds left.
+
+|
+|move|p2a: The New OU Monster|Earth Power|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: The New OU Monster
+|-resisted|p2a: The New OU Monster
+|-damage|p2a: The New OU Monster|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The New OU Monster|65/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|49/100|[from] item: Leftovers
+|-damage|p2a: The New OU Monster|53/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|62/100|[silent]
+|-damage|p1a: Ferrothorn|50/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|16
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: The New OU Monster|Earth Power|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The New OU Monster|59/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|56/100|[from] item: Leftovers
+|-damage|p2a: The New OU Monster|47/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|70/100|[silent]
+|-end|p1a: Ferrothorn|Magma Storm|[partiallytrapped]
+|upkeep
+|turn|17
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+
+|
+|switch|p1a: Pelipper|Pelipper, M|63/100 tox
+|move|p2a: The New OU Monster|Magma Storm|p1a: Pelipper|[miss]
+|-miss|p2a: The New OU Monster|p1a: Pelipper
+|
+|-weather|none
+|-heal|p2a: The New OU Monster|53/100|[from] item: Leftovers
+|-damage|p2a: The New OU Monster|40/100|[from] Leech Seed|[of] p1a: Pelipper
+|-heal|p1a: Pelipper|78/100 tox|[silent]
+|-damage|p1a: Pelipper|72/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Evanoux has 10 seconds left.
+|inactive|Leooold has 10 seconds left.
+
+|inactive|Leooold has 5 seconds left.
+
+|
+|switch|p2a: His Best Friend|Rotom-Wash|40/100
+|-damage|p2a: His Best Friend|27/100|[from] Stealth Rock
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|
+|upkeep
+|turn|19
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 10 seconds left this turn.
+
+|inactive|Evanoux has 10 seconds left.
+
+|
+|switch|p2a: Never Ban|Magearna|100/100
+|-damage|p2a: Never Ban|94/100|[from] Stealth Rock
+|move|p1a: Kingdra|Draco Meteor|p2a: Never Ban
+|-immune|p2a: Never Ban
+|
+|upkeep
+|turn|20
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Leooold has 10 seconds left.
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|70/100
+|move|p2a: Never Ban|Fleur Cannon|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|48/100
+|-unboost|p2a: Never Ban|spa|2
+|
+|-heal|p1a: Ferrothorn|54/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Leooold has 10 seconds left.
+
+|
+|move|p2a: Never Ban|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|50/100
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|
+|switch|p2a: Glare User|Serperior, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Glare User|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Glare User
+|-damage|p2a: Glare User|41/100
+|
+|-heal|p2a: Glare User|48/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Leooold has 10 seconds left.
+
+|
+|move|p2a: Glare User|Substitute|p2a: Glare User
+|-start|p2a: Glare User|Substitute
+|-damage|p2a: Glare User|23/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Glare User
+|-end|p2a: Glare User|Substitute
+|
+|-heal|p2a: Glare User|29/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|
+|move|p2a: Glare User|Glare|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Glare User
+|-damage|p2a: Glare User|0 fnt
+|faint|p2a: Glare User
+|
+|-heal|p1a: Ferrothorn|68/100 par|[from] item: Leftovers
+|upkeep
+
+|inactive|Evanoux has 15 seconds left this turn.
+|inactive|Leooold has 15 seconds left this turn.
+
+|inactive|Leooold has 10 seconds left.
+
+|l|☆Leooold
+
+|inactive|Leooold disconnected and has a minute to reconnect!
+
+|player|p2|
+|inactive|Leooold has 5 seconds left.
+
+|-message|Leooold lost due to inactivity.
+|
+|win|Evanoux

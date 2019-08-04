@@ -1,0 +1,23 @@
+|init|battle
+|title|wzh vs. uarh
+|j|☆wzh
+|j|☆uarh
+|player|p1|wzh|92|
+|player|p2|uarh|260|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weavile|Weavile, L81, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L82, M|100/100
+|turn|1
+|-message|wzh forfeited.
+|
+|win|uarh
+|l|☆wzh
+|l|☆uarh

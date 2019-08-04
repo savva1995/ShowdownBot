@@ -1,0 +1,65 @@
+|init|battle
+|title|zappattack vs. HoundoomsdayDevice
+|j|☆zappattack
+|j|☆HoundoomsdayDevice
+|player|p1|zappattack|52|1515
+|player|p2|HoundoomsdayDevice|144|1603
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Uxie|Uxie, L71|100/100
+|switch|p1b: Palkia|Palkia, L70|100/100
+|switch|p2a: Jynx|Jynx, L84, F|100/100
+|switch|p2b: Machamp|Machamp, L79, M|100/100
+|-ability|p1b: Palkia|Pressure
+|turn|1
+|
+|switch|p1b: Cofagrigus|Cofagrigus, L81, F|100/100
+|move|p2a: Jynx|Lovely Kiss|p1a: Uxie
+|-status|p1a: Uxie|slp|[from] move: Lovely Kiss
+|cant|p1a: Uxie|slp
+|move|p2b: Machamp|Dynamic Punch|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|
+|upkeep
+|turn|2
+|
+|switch|p2b: Entei|Entei, L71|100/100
+|-ability|p2b: Entei|Pressure
+|move|p2a: Jynx|Ice Beam|p1b: Cofagrigus
+|-damage|p1b: Cofagrigus|56/100
+|cant|p1a: Uxie|slp
+|move|p1b: Cofagrigus|Will-O-Wisp|p2b: Entei
+|-immune|p2b: Entei
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Jynx|Ice Beam|p1b: Cofagrigus
+|-damage|p1b: Cofagrigus|15/100
+|-enditem|p1b: Cofagrigus|Sitrus Berry|[eat]
+|-heal|p1b: Cofagrigus|39/100|[from] item: Sitrus Berry
+|move|p2b: Entei|Flare Blitz|p1b: Cofagrigus
+|-crit|p1b: Cofagrigus
+|-damage|p1b: Cofagrigus|0 fnt
+|-activate|p1b: Cofagrigus|ability: Mummy|Pressure|[of] p2b: Entei
+|-damage|p2b: Entei|90/100|[from] Recoil
+|-damage|p2b: Entei|80/100|[from] item: Life Orb
+|faint|p1b: Cofagrigus
+|-curestatus|p1a: Uxie|slp|[msg]
+|move|p1a: Uxie|Stealth Rock|p2a: Jynx
+|-sidestart|p2: HoundoomsdayDevice|move: Stealth Rock
+|
+|upkeep
+
+|-message|zappattack forfeited.
+
+|
+|win|HoundoomsdayDevice

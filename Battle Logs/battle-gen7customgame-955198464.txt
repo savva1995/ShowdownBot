@@ -1,0 +1,384 @@
+|init|battle
+|title|Juicewrld999_0 vs. Axelmom999
+|j|☆Juicewrld999_0
+|j|☆Axelmom999
+|player|p1|Juicewrld999_0|214|
+|player|p2|Axelmom999|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Custom Game
+|clearpoke
+|poke|p1|Dratini, M|item
+|poke|p1|Abra, M|item
+|poke|p1|Gastly, F|item
+|poke|p1|Onix, F|item
+|poke|p1|Mudkip, M|item
+|poke|p1|Elekid, F|item
+|poke|p2|Mudkip, F|item
+|poke|p2|Pichu, M|item
+|poke|p2|Abra, F|item
+|poke|p2|Axew, F|item
+|poke|p2|Chimchar, M|item
+|poke|p2|Chikorita, M|item
+|teampreview|24
+|
+|start
+|switch|p1a: Dratini|Dratini, M, shiny|265/265
+|switch|p2a: Axew|Axew, F|296/296
+|turn|1
+|
+|move|p2a: Axew|Draco Meteor|p1a: Dratini
+|debug|Rivalry weaken
+|-supereffective|p1a: Dratini
+|-damage|p1a: Dratini|115/265
+|-unboost|p2a: Axew|spa|2
+|move|p1a: Dratini|Draco Meteor|p2a: Axew
+|-supereffective|p2a: Axew
+|-damage|p2a: Axew|0 fnt
+|-unboost|p1a: Dratini|spa|2
+|faint|p2a: Axew
+|
+|upkeep
+
+|
+|switch|p2a: Abra|Abra, F|254/254
+|turn|2
+
+|
+|switch|p1a: Gastly|Gastly, F, shiny|240/240
+|move|p2a: Abra|Ice Punch|p1a: Gastly
+|-damage|p1a: Gastly|207/240
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Mudkip|Mudkip, F|304/304
+|move|p1a: Gastly|Dark Pulse|p2a: Mudkip
+|-damage|p2a: Mudkip|191/304
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Mudkip|Protect|p2a: Mudkip
+|-singleturn|p2a: Mudkip|Protect
+|move|p1a: Gastly|Psychic|p2a: Mudkip
+|-activate|p2a: Mudkip|move: Protect
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Gastly|Psychic|p2a: Mudkip
+|-damage|p2a: Mudkip|54/304
+|-enditem|p2a: Mudkip|Aguav Berry|[eat]
+|-heal|p2a: Mudkip|206/304|[from] item: Aguav Berry
+|move|p2a: Mudkip|Low Kick|p1a: Gastly
+|-immune|p1a: Gastly
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Gastly|Psychic|p2a: Mudkip
+|-damage|p2a: Mudkip|86/304
+|move|p2a: Mudkip|Avalanche|p1a: Gastly
+|debug|Boosted for getting hit by p1a: Gastly
+|-damage|p1a: Gastly|89/240
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Gastly|Psychic|p2a: Mudkip
+|-damage|p2a: Mudkip|0 fnt
+|faint|p2a: Mudkip
+|
+|upkeep
+
+|
+|switch|p2a: Chikorita|Chikorita, M, shiny|294/294
+|turn|8
+
+|
+|move|p1a: Gastly|Destiny Bond|p1a: Gastly
+|-singlemove|p1a: Gastly|Destiny Bond
+|move|p2a: Chikorita|Giga Drain|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|36/240
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Gastly|Destiny Bond||[still]
+|-fail|p1a: Gastly
+|move|p2a: Chikorita|Giga Drain|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|
+|upkeep
+
+|
+|switch|p1a: Dratini|Dratini, M, shiny|115/265
+|turn|10
+
+|
+|move|p1a: Dratini|Fire Blast|p2a: Chikorita
+|-supereffective|p2a: Chikorita
+|-damage|p2a: Chikorita|144/294
+|move|p2a: Chikorita|Giga Drain|p1a: Dratini
+|-resisted|p1a: Dratini
+|-damage|p1a: Dratini|70/265
+|-heal|p2a: Chikorita|167/294|[from] drain|[of] p1a: Dratini
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Chimchar|Chimchar, M|292/292
+|move|p1a: Dratini|Fire Blast|p2a: Chimchar|[miss]
+|-miss|p1a: Dratini|p2a: Chimchar
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Chimchar|Blaze Kick|p1a: Dratini
+|-resisted|p1a: Dratini
+|-damage|p1a: Dratini|24/265
+|move|p1a: Dratini|Aqua Tail|p2a: Chimchar
+|-supereffective|p2a: Chimchar
+|-damage|p2a: Chimchar|140/292
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Chimchar|Blaze Kick|p1a: Dratini
+|-resisted|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|faint|p1a: Dratini
+|
+|upkeep
+
+|
+|switch|p1a: Mudkip|Mudkip, M, shiny|276/276
+|turn|14
+
+|
+|switch|p2a: Abra|Abra, F|254/254
+|move|p1a: Mudkip|Hydro Pump|p2a: Abra
+|-damage|p2a: Abra|136/254
+|
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Pichu|Pichu, M|244/244
+|move|p1a: Mudkip|Toxic|p2a: Pichu|[miss]
+|-miss|p1a: Mudkip|p2a: Pichu
+|
+|upkeep
+|turn|16
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Juicewrld999_0)
+
+|
+|switch|p1a: Onix|Onix, F, shiny|274/274
+|-zpower|p2a: Pichu
+|move|p2a: Pichu|Gigavolt Havoc|p1a: Onix|[zeffect]
+|-immune|p1a: Onix
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Pichu|Detect|p2a: Pichu
+|-singleturn|p2a: Pichu|Protect
+|move|p1a: Onix|Stone Edge|p2a: Pichu
+|-activate|p2a: Pichu|move: Protect
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Pichu|Detect|p2a: Pichu
+|debug|Success chance: 33%
+|-singleturn|p2a: Pichu|Protect
+|move|p1a: Onix|Stone Edge|p2a: Pichu
+|-activate|p2a: Pichu|move: Protect
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Onix|Stone Edge|p2a: Pichu
+|-damage|p2a: Pichu|88/244
+|move|p2a: Pichu|Body Slam|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|263/274
+|
+|-heal|p1a: Onix|274/274|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Chimchar|Chimchar, M|140/292
+|move|p1a: Onix|Stone Edge|p2a: Chimchar|[miss]
+|-miss|p1a: Onix|p2a: Chimchar
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Onix|Stone Edge|p2a: Chimchar|[miss]
+|-miss|p1a: Onix|p2a: Chimchar
+|move|p2a: Chimchar|Brick Break|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|222/274
+|
+|-heal|p1a: Onix|239/274|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Abra|Abra, F|136/254
+|move|p1a: Onix|Stone Edge|p2a: Abra
+|-crit|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|-heal|p1a: Onix|256/274|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Chikorita|Chikorita, M, shiny|167/294
+|turn|23
+
+|
+|move|p1a: Onix|Flash Cannon|p2a: Chikorita
+|-damage|p2a: Chikorita|133/294
+|move|p2a: Chikorita|Giga Drain|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|-heal|p2a: Chikorita|261/294|[from] drain|[of] p1a: Onix
+|faint|p1a: Onix
+|
+|upkeep
+
+|
+|switch|p1a: Elekid|Elekid, F, shiny|271/271
+|turn|24
+
+|
+|switch|p2a: Pichu|Pichu, M|88/244
+|move|p1a: Elekid|Signal Beam|p2a: Pichu
+|-damage|p2a: Pichu|1/244
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Pichu|Detect|p2a: Pichu
+|-singleturn|p2a: Pichu|Protect
+|move|p1a: Elekid|Discharge|p2a: Pichu
+|-activate|p2a: Pichu|move: Protect
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Elekid|Discharge|p2a: Pichu
+|-resisted|p2a: Pichu
+|-damage|p2a: Pichu|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Pichu
+|
+|upkeep
+
+|
+|switch|p2a: Chimchar|Chimchar, M|140/292
+|turn|27
+
+|
+|move|p1a: Elekid|Psychic|p2a: Chimchar
+|-damage|p2a: Chimchar|43/292
+|-enditem|p2a: Chimchar|Aguav Berry|[eat]
+|-heal|p2a: Chimchar|189/292|[from] item: Aguav Berry
+|move|p2a: Chimchar|Brick Break|p1a: Elekid
+|-damage|p1a: Elekid|212/271
+|
+|-heal|p1a: Elekid|228/271|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Elekid|Discharge|p2a: Chimchar
+|-damage|p2a: Chimchar|68/292
+|move|p2a: Chimchar|Blaze Kick|p1a: Elekid|[miss]
+|-miss|p2a: Chimchar|p1a: Elekid
+|
+|-heal|p1a: Elekid|244/271|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Elekid|Discharge|p2a: Chimchar
+|-damage|p2a: Chimchar|0 fnt
+|faint|p2a: Chimchar
+|
+|-heal|p1a: Elekid|260/271|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Chikorita|Chikorita, M, shiny|261/294
+|turn|30
+
+|
+|move|p1a: Elekid|Signal Beam|p2a: Chikorita
+|-supereffective|p2a: Chikorita
+|-damage|p2a: Chikorita|147/294
+|move|p2a: Chikorita|Giga Drain|p1a: Elekid
+|-damage|p1a: Elekid|176/271
+|-heal|p2a: Chikorita|189/294|[from] drain|[of] p1a: Elekid
+|
+|-heal|p1a: Elekid|192/271|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p1a: Elekid|Signal Beam|p2a: Chikorita
+|-supereffective|p2a: Chikorita
+|-damage|p2a: Chikorita|59/294
+|-enditem|p2a: Chikorita|Aguav Berry|[eat]
+|-heal|p2a: Chikorita|206/294|[from] item: Aguav Berry
+|move|p2a: Chikorita|Body Slam|p1a: Elekid
+|-damage|p1a: Elekid|138/271
+|-status|p2a: Chikorita|par|[from] ability: Static|[of] p1a: Elekid
+|
+|-heal|p1a: Elekid|154/271|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p1a: Elekid|Signal Beam|p2a: Chikorita
+|-supereffective|p2a: Chikorita
+|-damage|p2a: Chikorita|88/294 par
+|cant|p2a: Chikorita|par
+|
+|-heal|p1a: Elekid|170/271|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p1a: Elekid|Signal Beam|p2a: Chikorita
+|-supereffective|p2a: Chikorita
+|-damage|p2a: Chikorita|0 fnt
+|faint|p2a: Chikorita
+|
+|win|Juicewrld999_0

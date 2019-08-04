@@ -1,0 +1,328 @@
+|init|battle
+|title|Stijinquinten vs. hiResumeee
+|j|☆Stijinquinten
+|j|☆hiResumeee
+|player|p1|Stijinquinten|1|1179
+|player|p2|hiResumeee|153|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pinsir, F|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Magnezone|item
+|poke|p1|Magearna|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Greninja, M|item
+|poke|p2|Blissey, F|item
+|poke|p2|Steelix, M|item
+|poke|p2|Sableye, F|item
+|poke|p2|Celesteela|item
+|poke|p2|Clefable, M|item
+|poke|p2|Toxapex, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Stijinquinten)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|detailschange|p2a: Sableye|Sableye-Mega, F
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Excadrill|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|62/100
+|move|p2a: Sableye|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|59/100
+|-enditem|p1a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Rock Tomb|p2a: Sableye
+|-damage|p2a: Sableye|48/100
+|-unboost|p2a: Sableye|spe|1
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|98/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Sableye|Protect||[still]
+|-fail|p2a: Sableye
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Tapu Fini|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Tapu Fini|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Stealth Rock
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Excadrill|Excadrill, M|59/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Blissey|Seismic Toss|p1a: Excadrill
+|-damage|p1a: Excadrill|31/100
+|
+|upkeep
+|turn|7
+
+|l|☆Stijinquinten
+
+|inactive|Stijinquinten disconnected and has a minute to reconnect!
+
+|player|p1|
+
+|j|☆Stijinquinten
+
+|inactive|Stijinquinten reconnected and has 120 seconds left.
+
+|player|p1|Stijinquinten|1
+
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|
+|-heal|p2a: Toxapex|43/100|[from] item: Black Sludge
+|-fieldend|Misty Terrain
+|upkeep
+|turn|8
+
+|inactive|Stijinquinten has 120 seconds left.
+
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|61/100
+|
+|-heal|p2a: Clefable|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Clefable
+|-sidestart|p2: hiResumeee|move: Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Excadrill|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|33/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|83/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Excadrill|Rock Tomb|p2a: Clefable
+|-damage|p2a: Clefable|72/100
+|-unboost|p2a: Clefable|spe|1
+|move|p2a: Clefable|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Clefable|78/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|12
+
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|-damage|p2a: Steelix|97/100|[from] Stealth Rock
+|move|p1a: Magearna|Iron Head|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|92/100
+|-damage|p1a: Magearna|84/100|[from] item: Rocky Helmet|[of] p2a: Steelix
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Magearna|Focus Blast|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, M|76/100
+|-damage|p2a: Toxapex|64/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Magearna|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|19/100
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini|100/100|[from]move: Volt Switch
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|69/100
+|
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|
+|move|p1a: Tapu Fini|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|cant|p2a: Toxapex|move: Taunt|Toxic Spikes
+|
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Magearna|Magearna|84/100
+|switch|p2a: Celesteela|Celesteela|100/100
+|-damage|p2a: Celesteela|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Celesteela|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Magearna|Volt Switch|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Magearna|Volt Switch|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|76/100
+
+|
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: Volt Switch
+|move|p2a: Celesteela|Leech Seed|p1a: Magnezone
+|-start|p1a: Magnezone|move: Leech Seed
+|
+|-heal|p2a: Celesteela|82/100|[from] item: Leftovers
+|-damage|p1a: Magnezone|88/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|90/100|[silent]
+|-fieldend|Misty Terrain
+|upkeep
+|turn|19
+
+|
+|move|p1a: Magnezone|Thunderbolt|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|36/100
+|move|p2a: Celesteela|Flamethrower|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|26/100
+|-status|p1a: Magnezone|brn
+|
+|-heal|p2a: Celesteela|42/100|[from] item: Leftovers
+|-damage|p1a: Magnezone|14/100 brn|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|50/100|[silent]
+|-damage|p1a: Magnezone|8/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Magnezone|Thunderbolt|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|57/100|[from] item: Leftovers
+|-damage|p1a: Magnezone|0 fnt|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|62/100|[silent]
+|faint|p1a: Magnezone
+|upkeep
+
+|
+|switch|p1a: Magearna|Magearna|84/100
+|turn|21
+
+|
+|move|p1a: Magearna|Volt Switch|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|37/100
+
+|
+|switch|p1a: Pinsir|Pinsir, F|100/100|[from]move: Volt Switch
+|move|p2a: Celesteela|Flamethrower|p1a: Pinsir
+|-supereffective|p1a: Pinsir
+|-damage|p1a: Pinsir|32/100
+|
+|-heal|p2a: Celesteela|43/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|detailschange|p1a: Pinsir|Pinsir-Mega, F
+|-mega|p1a: Pinsir|Pinsir|Pinsirite
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Pinsir|Close Combat|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|49/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Pinsir|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100
+|-unboost|p1a: Pinsir|def|1
+|-unboost|p1a: Pinsir|spd|1
+|
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+
+|-message|Stijinquinten forfeited.
+
+|
+|win|hiResumeee

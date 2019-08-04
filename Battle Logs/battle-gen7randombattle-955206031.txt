@@ -1,0 +1,305 @@
+|init|battle
+|title|Madhav Sood vs. dmbros
+|j|☆Madhav Sood
+|j|☆dmbros
+|player|p1|Madhav Sood|266|1059
+|player|p2|dmbros|162|1049
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lucario|Lucario, L78, M|100/100
+|switch|p2a: Oranguru|Oranguru, L89, F|100/100
+|turn|1
+|
+|detailschange|p1a: Lucario|Lucario-Mega, L78, M
+|-mega|p1a: Lucario|Lucario|Lucarionite
+|move|p1a: Lucario|Ice Punch|p2a: Oranguru
+|-damage|p2a: Oranguru|80/100
+|move|p2a: Oranguru|Focus Blast|p1a: Lucario|[miss]
+|-miss|p2a: Oranguru|p1a: Lucario
+|
+|-heal|p2a: Oranguru|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Oranguru|Psyshock|p1a: Lucario
+|-damage|p1a: Lucario|61/100
+|
+|-heal|p2a: Oranguru|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Lucario|Ice Punch|p2a: Oranguru
+|-damage|p2a: Oranguru|50/100
+|move|p2a: Oranguru|Focus Blast|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-heal|p2a: Oranguru|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|turn|4
+|c|☆dmbros|boom
+|
+|move|p1a: Manaphy|Ice Beam|p2a: Oranguru
+|-damage|p2a: Oranguru|40/100
+|move|p2a: Oranguru|Focus Blast|p1a: Manaphy
+|-damage|p1a: Manaphy|73/100
+|
+|-heal|p1a: Manaphy|79/100|[from] item: Leftovers
+|-heal|p2a: Oranguru|46/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Manaphy|Energy Ball|p2a: Oranguru
+|-damage|p2a: Oranguru|31/100
+|move|p2a: Oranguru|Thunderbolt|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|37/100
+|
+|-heal|p1a: Manaphy|43/100|[from] item: Leftovers
+|-heal|p2a: Oranguru|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Oranguru|Thunderbolt|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|-heal|p2a: Oranguru|43/100|[from] item: Leftovers
+|upkeep
+|c|☆dmbros|yo
+|
+|switch|p1a: Articuno|Articuno, L88|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|7
+
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Oranguru
+|-damage|p2a: Oranguru|24/100
+|move|p2a: Oranguru|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|66/100
+|
+|-heal|p1a: Articuno|72/100|[from] item: Leftovers
+|-heal|p2a: Oranguru|31/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|100/100
+|-singleturn|p1a: Articuno|move: Roost
+|move|p2a: Oranguru|Focus Blast|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|55/100
+|
+|-heal|p1a: Articuno|61/100|[from] item: Leftovers
+|-heal|p2a: Oranguru|37/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Articuno|Hurricane|p2a: Oranguru
+|-damage|p2a: Oranguru|2/100
+|move|p2a: Oranguru|Focus Blast|p1a: Articuno|[miss]
+|-miss|p2a: Oranguru|p1a: Articuno
+|
+|-heal|p1a: Articuno|67/100|[from] item: Leftovers
+|-heal|p2a: Oranguru|9/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Oranguru
+|-damage|p2a: Oranguru|0 fnt
+|faint|p2a: Oranguru
+|
+|-heal|p1a: Articuno|73/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Emboar|Emboar, L85, F|100/100
+|turn|11
+
+|
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|100/100
+|-singleturn|p1a: Articuno|move: Roost
+|move|p2a: Emboar|Flare Blitz|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|-damage|p2a: Emboar|70/100|[from] Recoil
+|faint|p1a: Articuno
+|
+|upkeep
+
+|
+|switch|p1a: Volcarona|Volcarona, L80, M|100/100
+|turn|12
+
+|
+|move|p1a: Volcarona|Hidden Power|p2a: Emboar
+|-resisted|p2a: Emboar
+|-damage|p2a: Emboar|62/100
+|-damage|p1a: Volcarona|91/100|[from] item: Life Orb
+|move|p2a: Emboar|Wild Charge|p1a: Volcarona
+|-damage|p1a: Volcarona|46/100
+|-damage|p2a: Emboar|53/100|[from] Recoil
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Emboar
+|-resisted|p2a: Emboar
+|-damage|p2a: Emboar|29/100
+|-damage|p1a: Volcarona|36/100|[from] item: Life Orb
+|move|p2a: Emboar|Wild Charge|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p2a: Emboar|21/100|[from] Recoil
+|faint|p1a: Volcarona
+|
+|upkeep
+
+|
+|switch|p1a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: dmbros
+|turn|14
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Emboar|[miss]
+|-miss|p1a: Pyroar|p2a: Emboar
+|move|p2a: Emboar|Flare Blitz|p1a: Pyroar
+|-resisted|p1a: Pyroar
+|-damage|p1a: Pyroar|62/100
+|-damage|p2a: Emboar|10/100|[from] Recoil
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Pyroar|Hyper Voice|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|-damage|p1a: Pyroar|52/100|[from] item: Life Orb
+|faint|p2a: Emboar
+|
+|upkeep
+
+|
+|switch|p2a: Tyrantrum|Tyrantrum, L84, M|100/100
+|turn|16
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Tyrantrum
+|-resisted|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|78/100
+|-status|p2a: Tyrantrum|brn
+|-damage|p1a: Pyroar|42/100|[from] item: Life Orb
+|move|p2a: Tyrantrum|Head Smash|p1a: Pyroar|[miss]
+|-miss|p2a: Tyrantrum|p1a: Pyroar
+|
+|-damage|p2a: Tyrantrum|72/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Tyrantrum
+|-resisted|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|53/100 brn
+|-damage|p1a: Pyroar|32/100|[from] item: Life Orb
+|move|p2a: Tyrantrum|Superpower|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|-unboost|p2a: Tyrantrum|atk|1
+|-unboost|p2a: Tyrantrum|def|1
+|faint|p1a: Pyroar
+|-enditem|p2a: Tyrantrum|Lum Berry|[eat]
+|-curestatus|p2a: Tyrantrum|brn|[msg]
+|
+|upkeep
+
+|
+|switch|p1a: Hitmontop|Hitmontop, L86, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Tyrantrum|atk|1
+|turn|18
+
+|
+|move|p1a: Hitmontop|Sucker Punch|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|29/100
+|move|p2a: Tyrantrum|Head Smash|p1a: Hitmontop|[miss]
+|-miss|p2a: Tyrantrum|p1a: Hitmontop
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Hitmontop|Sucker Punch|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|6/100
+|move|p2a: Tyrantrum|Outrage|p1a: Hitmontop
+|-damage|p1a: Hitmontop|72/100
+|
+|-heal|p1a: Hitmontop|78/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Hitmontop|Rapid Spin|p2a: Tyrantrum
+|-resisted|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|2/100
+|move|p2a: Tyrantrum|Outrage|p1a: Hitmontop|[from]lockedmove
+|-damage|p1a: Hitmontop|49/100
+|-start|p2a: Tyrantrum|confusion|[fatigue]
+|
+|-heal|p1a: Hitmontop|55/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Hitmontop|Sucker Punch|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|0 fnt
+|faint|p2a: Tyrantrum
+|
+|-heal|p1a: Hitmontop|61/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Xatu|Xatu, L86, F|100/100
+|turn|22
+
+|
+|move|p2a: Xatu|Heat Wave|p1a: Hitmontop
+|-damage|p1a: Hitmontop|34/100
+|move|p1a: Hitmontop|Close Combat|p2a: Xatu
+|-resisted|p2a: Xatu
+|-damage|p2a: Xatu|84/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|-heal|p2a: Xatu|90/100|[from] item: Leftovers
+|-heal|p1a: Hitmontop|40/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Xatu|Psychic|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|win|dmbros

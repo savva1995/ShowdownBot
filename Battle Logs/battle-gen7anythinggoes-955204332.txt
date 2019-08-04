@@ -1,0 +1,140 @@
+|init|battle
+|title|Ugh agh sug*2sw vs. HEV0
+|j|☆Ugh agh sug*2sw
+|j|☆HEV0
+|player|p1|Ugh agh sug*2sw|25|1000
+|player|p2|HEV0|264|1025
+|teamsize|p1|6
+|teamsize|p2|4
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Rayquaza|item
+|poke|p1|Muk-Alola, F|item
+|poke|p1|Xerneas|item
+|poke|p1|Marshadow|item
+|poke|p1|Aron, L1, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p2|Lucario, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Sceptile, F|item
+|poke|p2|Greninja, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ugh agh sug*2sw)
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|1
+|
+|move|p2a: Greninja|Grass Knot|p1a: Tentacruel
+|-damage|p1a: Tentacruel|79/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Greninja
+|-sidestart|p2: HEV0|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|85/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Lucario|Lucario, M, shiny|100/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Lucario
+|-sidestart|p2: HEV0|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|91/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|
+|detailschange|p2a: Lucario|Lucario-Mega, M, shiny
+|-mega|p2a: Lucario|Lucario|Lucarionite
+|move|p2a: Lucario|Meteor Mash|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|40/100
+|move|p1a: Tentacruel|Scald|p2a: Lucario
+|-damage|p2a: Lucario|49/100
+|
+|-heal|p1a: Tentacruel|46/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|move|p2a: Lucario|Meteor Mash|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-boost|p2a: Lucario|atk|1
+|faint|p1a: Tentacruel
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|turn|5
+
+|
+|switch|p2a: Gallade|Gallade, M, shiny|100/100
+|-status|p2a: Gallade|tox
+|move|p1a: Marshadow|Spectral Thief|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-status|p2a: Greninja|tox
+|turn|6
+
+|
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|move|p2a: Greninja|Dark Pulse|p1a: Marshadow
+|-damage|p1a: Marshadow|63/100
+|
+|-damage|p2a: Greninja|95/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Marshadow
+|-damage|p1a: Marshadow|55/100
+|-damage|p1a: Marshadow|48/100
+|-hitcount|p1a: Marshadow|2
+|move|p1a: Marshadow|Drain Punch|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-heal|p1a: Marshadow|90/100|[from] drain|[of] p2a: Greninja
+|faint|p2a: Greninja
+|
+|upkeep
+
+|
+|switch|p2a: Lucario|Lucario-Mega, M, shiny|49/100
+|turn|8
+
+|
+|move|p1a: Marshadow|Drain Punch|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|-heal|p1a: Marshadow|100/100|[from] drain|[of] p2a: Lucario
+|faint|p2a: Lucario
+|
+|upkeep
+
+|
+|switch|p2a: Sceptile|Sceptile, F, shiny|100/100
+|-status|p2a: Sceptile|tox
+|turn|9
+
+|
+|-zpower|p1a: Marshadow
+|move|p1a: Marshadow|Soul-Stealing 7-Star Strike|p2a: Sceptile|[zeffect]
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|win|Ugh agh sug*2sw

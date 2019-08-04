@@ -1,0 +1,619 @@
+|init|battle
+|title|Yuji7 vs. austinwall1030
+|j|☆Yuji7
+|j|☆austinwall1030
+|player|p1|Yuji7|169|1040
+|player|p2|austinwall1030|2|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sgranokkio|Feraligatr, M|100/100
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|1
+
+|c|☆austinwall1030|hi
+
+|
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|move|p1a: Sgranokkio|Earthquake|p2a: Ampharos
+|-supereffective|p2a: Ampharos
+|-damage|p2a: Ampharos|47/100
+|
+|-heal|p2a: Ampharos|53/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Lightning|Ampharos, M|100/100
+|move|p2a: Ampharos|Thunderbolt|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|82/100
+|
+|-heal|p2a: Ampharos|59/100|[from] item: Leftovers
+|-heal|p1a: Lightning|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Bellossom|Bellossom, M|100/100
+|move|p1a: Lightning|Toxic|p2a: Bellossom
+|-status|p2a: Bellossom|tox
+|
+|-heal|p1a: Lightning|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|move|p2a: Bellossom|Giga Drain|p1a: Shiryu
+|-resisted|p1a: Shiryu
+|-damage|p1a: Shiryu|96/100
+|-damage|p2a: Bellossom|94/100 tox|[from] psn
+|
+|-heal|p1a: Shiryu|100/100|[from] item: Leftovers
+|-heal|p2a: Bellossom|100/100 tox|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|move|p1a: Shiryu|Fire Blast|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|86/100
+|-status|p2a: Feraligatr|brn
+|
+|-heal|p2a: Feraligatr|92/100 brn|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Shiryu|Thunderbolt|p2a: Feraligatr
+|-crit|p2a: Feraligatr
+|-supereffective|p2a: Feraligatr
+|-damage|p2a: Feraligatr|10/100 brn
+|move|p2a: Feraligatr|Rock Slide|p1a: Shiryu|[miss]
+|-miss|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt|[from] brn|[of] p1a: Shiryu
+|faint|p2a: Feraligatr
+
+|
+|switch|p2a: Magcargo|Magcargo, M|100/100
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|100/100
+|move|p2a: Magcargo|Toxic|p1a: Sgranokkio
+|-status|p1a: Sgranokkio|tox
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Ampharos|Ampharos, M|59/100
+|move|p1a: Sgranokkio|Hydro Pump|p2a: Ampharos
+|-damage|p2a: Ampharos|27/100
+|-damage|p1a: Sgranokkio|94/100 tox|[from] psn
+|
+|-heal|p1a: Sgranokkio|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Ampharos|33/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Lightning|Ampharos, M|94/100
+|move|p2a: Ampharos|Thunderbolt|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|76/100
+|
+|-heal|p2a: Ampharos|39/100|[from] item: Leftovers
+|-heal|p1a: Lightning|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Ampharos|Light Screen|p2a: Ampharos
+|-sidestart|p2: austinwall1030|move: Light Screen
+|move|p1a: Lightning|Body Slam|p2a: Ampharos
+|-damage|p2a: Ampharos|22/100
+|-status|p2a: Ampharos|par
+|
+|-heal|p1a: Lightning|88/100|[from] item: Leftovers
+|-heal|p2a: Ampharos|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Lightning|Body Slam|p2a: Ampharos
+|-damage|p2a: Ampharos|10/100 par
+|move|p2a: Ampharos|Hidden Power|p1a: Lightning
+|-damage|p1a: Lightning|71/100
+|
+|-heal|p1a: Lightning|77/100|[from] item: Leftovers
+|-heal|p2a: Ampharos|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Heracross|Heracross, M|100/100
+|move|p1a: Lightning|Body Slam|p2a: Heracross
+|-damage|p2a: Heracross|82/100
+|
+|-heal|p2a: Heracross|88/100|[from] item: Leftovers
+|-heal|p1a: Lightning|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|move|p2a: Heracross|Earthquake|p1a: Shiryu
+|-immune|p1a: Shiryu
+|
+|-heal|p2a: Heracross|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Magcargo|Magcargo, M|100/100
+|move|p1a: Shiryu|Fire Blast|p2a: Magcargo
+|-resisted|p2a: Magcargo
+|-damage|p2a: Magcargo|96/100
+|
+|-heal|p2a: Magcargo|100/100|[from] item: Leftovers
+|-sideend|p2: austinwall1030|move: Light Screen
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|100/100 tox
+|-status|p1a: Sgranokkio|psn|[silent]
+|-damage|p1a: Sgranokkio|88/100 psn|[from] psn
+|move|p2a: Magcargo|Toxic|p1a: Sgranokkio|[miss]
+|-miss|p2a: Magcargo
+|
+|-heal|p1a: Sgranokkio|94/100 psn|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yuji7)
+
+|
+|switch|p2a: Heracross|Heracross, M|94/100
+|move|p1a: Sgranokkio|Hydro Pump|p2a: Heracross
+|-damage|p2a: Heracross|58/100
+|-damage|p1a: Sgranokkio|82/100 psn|[from] psn|[of] p2a: Heracross
+|
+|-heal|p2a: Heracross|64/100|[from] item: Leftovers
+|-heal|p1a: Sgranokkio|88/100 psn|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|move|p2a: Heracross|Megahorn|p1a: Shiryu
+|-resisted|p1a: Shiryu
+|-damage|p1a: Shiryu|77/100
+|
+|-heal|p2a: Heracross|70/100|[from] item: Leftovers
+|-heal|p1a: Shiryu|83/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Magcargo|Magcargo, M|100/100
+|move|p1a: Shiryu|Fire Blast|p2a: Magcargo
+|-resisted|p2a: Magcargo
+|-damage|p2a: Magcargo|92/100
+|
+|-heal|p1a: Shiryu|90/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|98/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|88/100 psn
+|-damage|p1a: Sgranokkio|76/100 psn|[from] psn
+|move|p2a: Magcargo|Sunny Day|p2a: Magcargo
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sgranokkio|82/100 psn|[from] item: Leftovers
+|-heal|p2a: Magcargo|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Bellossom|Bellossom, M|100/100 tox
+|-status|p2a: Bellossom|psn|[silent]
+|-damage|p2a: Bellossom|88/100 psn|[from] psn
+|move|p1a: Sgranokkio|Ice Beam|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|46/100 psn
+|-damage|p1a: Sgranokkio|70/100 psn|[from] psn|[of] p2a: Bellossom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sgranokkio|76/100 psn|[from] item: Leftovers
+|-heal|p2a: Bellossom|52/100 psn|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Shiryu|Dragonite, M|90/100
+|move|p2a: Bellossom|Giga Drain|p1a: Shiryu
+|-resisted|p1a: Shiryu
+|-damage|p1a: Shiryu|85/100
+|-heal|p2a: Bellossom|54/100 psn|[from] drain|[of] p1a: Shiryu
+|-damage|p2a: Bellossom|42/100 psn|[from] psn|[of] p1a: Shiryu
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Shiryu|91/100|[from] item: Leftovers
+|-heal|p2a: Bellossom|48/100 psn|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|switch|p2a: Magcargo|Magcargo, M|100/100
+|move|p1a: Shiryu|Surf|p2a: Magcargo
+|-supereffective|p2a: Magcargo
+|-damage|p2a: Magcargo|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Shiryu|98/100|[from] item: Leftovers
+|-heal|p2a: Magcargo|47/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|inactive|Yuji7 has 120 seconds left.
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|76/100 psn
+|-damage|p1a: Sgranokkio|64/100 psn|[from] psn
+|move|p2a: Magcargo|Flamethrower|p1a: Sgranokkio
+|-resisted|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|42/100 psn
+|
+|-weather|none
+|-heal|p1a: Sgranokkio|48/100 psn|[from] item: Leftovers
+|-heal|p2a: Magcargo|53/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Pidgeot|Pidgeot, M|100/100
+|move|p1a: Sgranokkio|Earthquake|p2a: Pidgeot
+|-immune|p2a: Pidgeot
+|-damage|p1a: Sgranokkio|36/100 psn|[from] psn|[of] p2a: Pidgeot
+|
+|-heal|p1a: Sgranokkio|42/100 psn|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p1a: Lightning|Ampharos, M|83/100
+|move|p2a: Pidgeot|Steel Wing|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|76/100
+|
+|-heal|p1a: Lightning|82/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p2a: Heracross|Heracross, M|70/100
+|move|p1a: Lightning|Thunderbolt|p2a: Heracross
+|-damage|p2a: Heracross|33/100
+|
+|-heal|p2a: Heracross|39/100|[from] item: Leftovers
+|-heal|p1a: Lightning|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p1a: Shiryu|Dragonite, M|98/100
+|move|p2a: Heracross|Rest|p2a: Heracross
+|-status|p2a: Heracross|slp|[from] move: Rest
+|-heal|p2a: Heracross|100/100 slp|[silent]
+|
+|-heal|p1a: Shiryu|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p2a: Magcargo|Magcargo, M|53/100
+|move|p1a: Shiryu|Fire Blast|p2a: Magcargo|[miss]
+|-miss|p1a: Shiryu
+|
+|-heal|p2a: Magcargo|59/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p1a: Sgranokkio|Feraligatr, M|42/100 psn
+|-damage|p1a: Sgranokkio|30/100 psn|[from] psn
+|move|p2a: Magcargo|Hidden Power|p1a: Sgranokkio
+|-damage|p1a: Sgranokkio|16/100 psn
+|
+|-heal|p1a: Sgranokkio|22/100 psn|[from] item: Leftovers
+|-heal|p2a: Magcargo|66/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|move|p1a: Sgranokkio|Rock Slide|p2a: Magcargo
+|-supereffective|p2a: Magcargo
+|-damage|p2a: Magcargo|30/100
+|-damage|p1a: Sgranokkio|10/100 psn|[from] psn|[of] p2a: Magcargo
+|cant|p2a: Magcargo|flinch
+|
+|-heal|p1a: Sgranokkio|16/100 psn|[from] item: Leftovers
+|-heal|p2a: Magcargo|36/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|move|p1a: Sgranokkio|Rock Slide|p2a: Magcargo
+|-supereffective|p2a: Magcargo
+|-damage|p2a: Magcargo|0 fnt
+|faint|p2a: Magcargo
+
+|
+|switch|p2a: Ampharos|Ampharos, M|16/100 par
+|
+|-heal|p1a: Sgranokkio|22/100 psn|[from] item: Leftovers
+|-heal|p2a: Ampharos|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Lightning|Ampharos, M|88/100
+|move|p2a: Ampharos|Thunderbolt|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|72/100
+|
+|-heal|p1a: Lightning|78/100|[from] item: Leftovers
+|-heal|p2a: Ampharos|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|switch|p2a: Heracross|Heracross, M|100/100 slp
+|move|p1a: Lightning|Body Slam|p2a: Heracross
+|-damage|p2a: Heracross|82/100 slp
+|
+|-heal|p2a: Heracross|88/100 slp|[from] item: Leftovers
+|-heal|p1a: Lightning|84/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Earthquake|p1a: Shiryu|[from]Sleep Talk
+|-immune|p1a: Shiryu
+|
+|-heal|p2a: Heracross|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p2a: Pidgeot|Pidgeot, M|100/100
+|move|p1a: Shiryu|Ice Beam|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|46/100
+|
+|-heal|p2a: Pidgeot|53/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p1a: Lightning|Ampharos, M|84/100
+|move|p2a: Pidgeot|Frustration|p1a: Lightning
+|-damage|p1a: Lightning|50/100
+|
+|-heal|p2a: Pidgeot|59/100|[from] item: Leftovers
+|-heal|p1a: Lightning|56/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|switch|p2a: Heracross|Heracross, M|94/100 slp
+|move|p1a: Lightning|Toxic||[still]
+|-fail|p1a: Lightning
+|
+|-heal|p2a: Heracross|99/100 slp|[from] item: Leftovers
+|-heal|p1a: Lightning|62/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Rest|p2a: Heracross|[from]Sleep Talk
+|-status|p2a: Heracross|slp|[from] move: Rest
+|-heal|p2a: Heracross|100/100 slp|[silent]
+|
+|upkeep
+|turn|39
+
+|
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Earthquake|p1a: Shiryu|[from]Sleep Talk
+|-immune|p1a: Shiryu
+|move|p1a: Shiryu|Ice Beam|p2a: Heracross
+|-damage|p2a: Heracross|80/100 slp
+|
+|-heal|p2a: Heracross|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|
+|cant|p2a: Heracross|slp
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|move|p2a: Heracross|Earthquake|p1a: Shiryu|[from]Sleep Talk
+|-immune|p1a: Shiryu
+|move|p1a: Shiryu|Fire Blast|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|32/100 slp
+|
+|-heal|p2a: Heracross|38/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+
+|
+|-curestatus|p2a: Heracross|slp|[msg]
+|move|p2a: Heracross|Sleep Talk|p2a: Heracross
+|-fail|p2a: Heracross
+|move|p1a: Shiryu|Fire Blast|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+
+|
+|switch|p2a: Ampharos|Ampharos, M|28/100 par
+|
+|-heal|p2a: Ampharos|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|
+|switch|p1a: Lightning|Ampharos, M|62/100
+|move|p2a: Ampharos|Thunderbolt|p1a: Lightning
+|-resisted|p1a: Lightning
+|-damage|p1a: Lightning|45/100
+|
+|-heal|p1a: Lightning|51/100|[from] item: Leftovers
+|-heal|p2a: Ampharos|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|
+|move|p1a: Lightning|Body Slam|p2a: Ampharos
+|-damage|p2a: Ampharos|22/100 par
+|move|p2a: Ampharos|Light Screen|p2a: Ampharos
+|-sidestart|p2: austinwall1030|move: Light Screen
+|
+|-heal|p1a: Lightning|57/100|[from] item: Leftovers
+|-heal|p2a: Ampharos|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|
+|move|p1a: Lightning|Body Slam|p2a: Ampharos
+|-damage|p2a: Ampharos|10/100 par
+|cant|p2a: Ampharos|par
+|
+|-heal|p1a: Lightning|63/100|[from] item: Leftovers
+|-heal|p2a: Ampharos|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+
+|inactive|Yuji7 has 90 seconds left.
+
+|
+|move|p1a: Lightning|Body Slam|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+
+|
+|switch|p2a: Bellossom|Bellossom, M|48/100 psn
+|
+|-heal|p1a: Lightning|69/100|[from] item: Leftovers
+|-heal|p2a: Bellossom|54/100 psn|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|
+|switch|p1a: Shiryu|Dragonite, M|100/100
+|move|p2a: Bellossom|Moonlight|p2a: Bellossom
+|-heal|p2a: Bellossom|100/100 psn
+|-damage|p2a: Bellossom|88/100 psn|[from] psn
+|
+|-heal|p2a: Bellossom|94/100 psn|[from] item: Leftovers
+|upkeep
+|turn|47
+
+|
+|move|p1a: Shiryu|Ice Beam|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|70/100 psn
+|move|p2a: Bellossom|Stun Spore|p1a: Shiryu|[miss]
+|-miss|p2a: Bellossom
+|-damage|p2a: Bellossom|58/100 psn|[from] psn|[of] p1a: Shiryu
+|
+|-heal|p2a: Bellossom|64/100 psn|[from] item: Leftovers
+|-sideend|p2: austinwall1030|move: Light Screen
+|upkeep
+|turn|48
+
+|
+|move|p1a: Shiryu|Ice Beam|p2a: Bellossom
+|-crit|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|0 fnt
+|faint|p2a: Bellossom
+
+|
+|switch|p2a: Pidgeot|Pidgeot, M|59/100
+|
+|-heal|p2a: Pidgeot|65/100|[from] item: Leftovers
+|upkeep
+|turn|49
+
+|
+|switch|p1a: Lightning|Ampharos, M|69/100
+|move|p2a: Pidgeot|Frustration|p1a: Lightning
+|-damage|p1a: Lightning|35/100
+|
+|-heal|p2a: Pidgeot|71/100|[from] item: Leftovers
+|-heal|p1a: Lightning|41/100|[from] item: Leftovers
+|upkeep
+|turn|50
+
+|
+|move|p2a: Pidgeot|Frustration|p1a: Lightning
+|-damage|p1a: Lightning|10/100
+|move|p1a: Lightning|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|win|Yuji7

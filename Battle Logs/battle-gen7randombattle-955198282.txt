@@ -1,0 +1,368 @@
+|init|battle
+|title|pusay1 vs. Sssiii
+|j|☆pusay1
+|j|☆Sssiii
+|player|p1|pusay1|169|1470
+|player|p2|Sssiii|2|1445
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Musharna|Musharna, L89, F|100/100
+|switch|p2a: Carnivine|Carnivine, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pusay1)
+|
+|switch|p1a: Virizion|Virizion, L84|100/100
+|move|p2a: Carnivine|Substitute|p2a: Carnivine
+|-start|p2a: Carnivine|Substitute
+|-damage|p2a: Carnivine|76/100
+|
+|-heal|p2a: Carnivine|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|move|p2a: Carnivine|Return|p1a: Virizion
+|-damage|p1a: Virizion|68/100
+|
+|-heal|p1a: Virizion|74/100|[from] item: Leftovers
+|-heal|p2a: Carnivine|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Virizion|Hidden Power|p2a: Carnivine
+|-supereffective|p2a: Carnivine
+|-end|p2a: Carnivine|Substitute
+|move|p2a: Carnivine|Swords Dance|p2a: Carnivine
+|-boost|p2a: Carnivine|atk|2
+|
+|-heal|p1a: Virizion|80/100|[from] item: Leftovers
+|-heal|p2a: Carnivine|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Virizion|Focus Blast|p2a: Carnivine
+|-damage|p2a: Carnivine|26/100
+|-unboost|p2a: Carnivine|spd|1
+|move|p2a: Carnivine|Return|p1a: Virizion
+|-damage|p1a: Virizion|14/100
+|
+|-heal|p1a: Virizion|20/100|[from] item: Leftovers
+|-heal|p2a: Carnivine|32/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Virizion|Hidden Power|p2a: Carnivine
+|-supereffective|p2a: Carnivine
+|-damage|p2a: Carnivine|0 fnt
+|faint|p2a: Carnivine
+|
+|-heal|p1a: Virizion|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus-Therian, L80, M|100/100
+|turn|6
+
+|
+|switch|p1a: Musharna|Musharna, L89, F|100/100
+|move|p2a: Tornadus|Hurricane|p1a: Musharna
+|-damage|p1a: Musharna|61/100
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Musharna|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Tornadus|U-turn|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|32/100
+|-damage|p2a: Tornadus|81/100|[from] item: Life Orb
+
+|
+|switch|p2a: Crobat|Crobat, L82, F|100/100|[from]move: U-turn
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p1a: Musharna|38/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Musharna
+|-crit|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|-damage|p2a: Crobat|84/100|[from] Recoil
+|faint|p1a: Musharna
+|
+|-heal|p2a: Crobat|91/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Steelix|Steelix, L82, F|100/100
+|turn|9
+
+|
+|detailschange|p1a: Steelix|Steelix-Mega, L82, F
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p2a: Crobat|Taunt|p1a: Steelix
+|-start|p1a: Steelix|move: Taunt
+|cant|p1a: Steelix|move: Taunt|Stealth Rock
+|
+|-heal|p2a: Crobat|97/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Miltank|Miltank, L86, F|100/100
+|move|p1a: Steelix|Heavy Slam|p2a: Miltank
+|-damage|p2a: Miltank|58/100
+|
+|-heal|p2a: Miltank|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Miltank|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|77/100
+|move|p1a: Steelix|Dragon Tail|p2a: Miltank
+|-damage|p2a: Miltank|51/100
+|drag|p2a: Crobat|Crobat, L82, F|97/100
+|
+|-heal|p2a: Crobat|100/100|[from] item: Black Sludge
+|-end|p1a: Steelix|move: Taunt
+|upkeep
+|turn|12
+
+|
+|move|p2a: Crobat|Taunt|p1a: Steelix
+|-start|p1a: Steelix|move: Taunt
+|move|p1a: Steelix|Heavy Slam|p2a: Crobat
+|-damage|p2a: Crobat|41/100
+|
+|-heal|p2a: Crobat|48/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Miltank|Miltank, L86, F|51/100
+|move|p1a: Steelix|Heavy Slam|p2a: Miltank
+|-damage|p2a: Miltank|11/100
+|
+|-heal|p2a: Miltank|17/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Miltank|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|55/100
+|move|p1a: Steelix|Dragon Tail|p2a: Miltank
+|-damage|p2a: Miltank|4/100
+|drag|p2a: Tornadus|Tornadus-Therian, L80, M|100/100
+|
+|-end|p1a: Steelix|move: Taunt
+|upkeep
+|turn|15
+
+|
+|move|p2a: Tornadus|Superpower|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|14/100
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|move|p1a: Steelix|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: Sssiii|move: Stealth Rock
+|
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|move|p2a: Tornadus|Superpower|p1a: Pheromosa
+|-resisted|p1a: Pheromosa
+|-damage|p1a: Pheromosa|75/100
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|-damage|p2a: Tornadus|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Miltank|Miltank, L86, F|4/100
+|-damage|p2a: Miltank|0 fnt|[from] Stealth Rock
+|faint|p2a: Miltank
+|move|p1a: Pheromosa|Ice Beam|p2: Miltank|[notarget]
+|-fail|p1a: Pheromosa
+|
+|upkeep
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, L80, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Pheromosa|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|11/100
+|move|p2a: Tornadus|Hurricane|p1a: Pheromosa
+|-supereffective|p1a: Pheromosa
+|-damage|p1a: Pheromosa|0 fnt
+|-damage|p2a: Tornadus|2/100|[from] item: Life Orb
+|faint|p1a: Pheromosa
+|
+|upkeep
+
+|
+|switch|p1a: Dodrio|Dodrio, L88, F|100/100
+|turn|19
+
+|
+|switch|p2a: Cryogonal|Cryogonal, L88|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|move|p1a: Dodrio|Return|p2a: Cryogonal
+|-damage|p2a: Cryogonal|8/100
+|
+|-heal|p2a: Cryogonal|14/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Dodrio|Return|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, L82, F|48/100
+|-damage|p2a: Crobat|23/100|[from] Stealth Rock
+|turn|21
+
+|
+|move|p2a: Crobat|Defog|p1a: Dodrio
+|-unboost|p1a: Dodrio|evasion|1
+|-sideend|p2: Sssiii|Stealth Rock|[from] move: Defog|[of] p2a: Crobat
+|move|p1a: Dodrio|Return|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|upkeep
+
+|
+|switch|p2a: Darkrai|Darkrai, L78|100/100
+|turn|22
+
+|
+|move|p1a: Dodrio|Jump Kick|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|25/100
+|move|p2a: Darkrai|Hypnosis|p1a: Dodrio
+|-status|p1a: Dodrio|slp|[from] move: Hypnosis
+|
+|-heal|p2a: Darkrai|30/100|[from] item: Leftovers
+|-damage|p1a: Dodrio|88/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Virizion|Virizion, L84|27/100
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|-heal|p2a: Darkrai|36/100|[from] item: Leftovers
+|-heal|p1a: Virizion|33/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|7/100
+|-ability|p1a: Virizion|Justified|boost
+|-boost|p1a: Virizion|atk|1
+|move|p1a: Virizion|Giga Drain|p2a: Darkrai
+|-damage|p2a: Darkrai|5/100
+|-heal|p1a: Virizion|20/100|[from] drain|[of] p2a: Darkrai
+|
+|-heal|p2a: Darkrai|11/100|[from] item: Leftovers
+|-heal|p1a: Virizion|26/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|-heal|p2a: Darkrai|17/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Steelix|Steelix-Mega, L82, F|14/100
+|turn|26
+
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|-heal|p2a: Darkrai|22/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Cofagrigus|Cofagrigus, L85, F|100/100
+|turn|27
+
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|-heal|p2a: Darkrai|28/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Dodrio|Dodrio, L88, F|88/100 slp
+|turn|28
+
+|
+|-curestatus|p1a: Dodrio|slp|[msg]
+|move|p1a: Dodrio|Jump Kick|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-heal|p1a: Dodrio|94/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, L80, M|35/100
+|turn|29
+
+|c|☆Sssiii|Lol
+
+|c|☆Sssiii|Gg
+
+|
+|move|p1a: Dodrio|Return|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|win|pusay1

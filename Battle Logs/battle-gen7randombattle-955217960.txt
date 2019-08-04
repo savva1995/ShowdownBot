@@ -1,0 +1,1328 @@
+|init|battle
+|title|PUTACOMAIDS vs. rsske
+|j|☆PUTACOMAIDS
+|j|☆rsske
+|player|p1|PUTACOMAIDS|102|1718
+|player|p2|rsske|169|1781
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|100/100
+|switch|p2a: Magnezone|Magnezone, L80|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rsske)
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Magnezone|Volt Switch|p1a: Palkia
+|-crit|p1a: Palkia
+|-damage|p1a: Palkia|75/100
+|
+|switch|p2a: Klinklang|Klinklang, L86|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Palkia
+|-resisted|p1a: Palkia
+|-damage|p1a: Palkia|65/100
+|-resisted|p1a: Palkia
+|-damage|p1a: Palkia|55/100
+|-hitcount|p1a: Palkia|2
+|move|p1a: Palkia|Hydro Pump|p2a: Klinklang
+|-damage|p2a: Klinklang|40/100
+|
+|-heal|p2a: Klinklang|46/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Klinklang|Wild Charge|p1a: Palkia
+|-damage|p1a: Palkia|31/100
+|-damage|p2a: Klinklang|39/100|[from] Recoil
+|move|p1a: Palkia|Fire Blast|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|0 fnt
+|faint|p2a: Klinklang
+|
+|upkeep
+|
+|switch|p2a: Magnezone|Magnezone, L80|100/100
+|turn|4
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Palkia
+|-damage|p1a: Palkia|9/100
+|move|p1a: Palkia|Fire Blast|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|24/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|100/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|40/100
+|
+|-heal|p1a: Pyukumuku|47/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Unown|Unown|100/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|97/100
+|
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Unown|Hidden Power|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|68/100
+|move|p1a: Pyukumuku|Toxic|p2a: Unown
+|-status|p2a: Unown|tox
+|
+|-heal|p1a: Pyukumuku|75/100|[from] item: Leftovers
+|-damage|p2a: Unown|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Unown|Hidden Power|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|42/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|93/100
+|
+|-heal|p1a: Pyukumuku|99/100|[from] item: Leftovers
+|-damage|p2a: Unown|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Unown|Hidden Power|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|66/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|
+|-damage|p2a: Unown|63/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|100/100
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|Reflect
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|cant|p1a: Pyukumuku|move: Taunt|Toxic
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|-sideend|p1: PUTACOMAIDS|Reflect
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Magnezone|Magnezone, L80|24/100
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-end|p1a: Pyukumuku|move: Taunt
+|upkeep
+|turn|14
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|33/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|83/100
+|
+|-heal|p1a: Pyukumuku|89/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Ludicolo|Ludicolo, L88, F|100/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Ludicolo
+|-damage|p1a: Ludicolo|66/100
+|-status|p1a: Ludicolo|par
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Unown|Unown|63/100 tox
+|cant|p1a: Ludicolo|par
+|
+|-damage|p2a: Unown|57/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Unown|Hidden Power|p1a: Ludicolo
+|-damage|p1a: Ludicolo|35/100 par
+|move|p1a: Ludicolo|Giga Drain|p2a: Unown
+|-damage|p2a: Unown|5/100 tox
+|-heal|p1a: Ludicolo|59/100 par|[from] drain|[of] p2a: Unown
+|-damage|p1a: Ludicolo|49/100 par|[from] item: Life Orb
+|
+|-damage|p2a: Unown|0 fnt|[from] psn
+|faint|p2a: Unown
+|upkeep
+|
+|switch|p2a: Scyther|Scyther, L88, F|100/100
+|turn|18
+|
+|move|p2a: Scyther|Bug Bite|p1a: Ludicolo
+|-supereffective|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, L81, M|100/100
+|turn|19
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|20
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Mandibuzz|Foul Play|p1a: Dragonite
+|-damage|p1a: Dragonite|60/100
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|68/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Mandibuzz|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Venomoth|Venomoth, L83, F|100/100
+|turn|22
+|
+|move|p1a: Venomoth|Substitute|p1a: Venomoth
+|-start|p1a: Venomoth|Substitute
+|-damage|p1a: Venomoth|76/100
+|move|p2a: Mandibuzz|Taunt|p1a: Venomoth
+|-start|p1a: Venomoth|move: Taunt
+|
+|-heal|p1a: Venomoth|82/100|[from] item: Black Sludge
+|-heal|p2a: Mandibuzz|80/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Venomoth|Bug Buzz|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|55/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Venomoth
+|-end|p1a: Venomoth|Substitute
+|
+|-heal|p1a: Venomoth|88/100|[from] item: Black Sludge
+|-heal|p2a: Mandibuzz|61/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|89/100
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-item|p2a: Stakataka|Air Balloon
+|
+|-heal|p1a: Pyukumuku|96/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|Reflect
+|move|p2a: Stakataka|Stealth Rock|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|move: Stealth Rock
+|
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Magnezone|Magnezone, L80|24/100
+|move|p1a: Pyukumuku|Recover||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Palkia|Palkia, L78|9/100
+|-damage|p1a: Palkia|0 fnt|[from] Stealth Rock
+|faint|p1a: Palkia
+|move|p2a: Magnezone|Thunderbolt|p1: Palkia|[notarget]
+|-fail|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p1a: Venomoth|Venomoth, L83, F|88/100
+|-damage|p1a: Venomoth|63/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Venomoth
+|-damage|p1a: Venomoth|15/100
+|move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+|-boost|p1a: Venomoth|spa|1
+|-boost|p1a: Venomoth|spd|1
+|-boost|p1a: Venomoth|spe|1
+|
+|-heal|p1a: Venomoth|21/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|move|p1a: Venomoth|Bug Buzz|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Venomoth|27/100|[from] item: Black Sludge
+|-sideend|p1: PUTACOMAIDS|Reflect
+|upkeep
+|
+|switch|p2a: Scyther|Scyther, L88, F|100/100
+|turn|30
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p2a: Scyther|Quick Attack|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|upkeep
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|100/100
+|turn|31
+|inactive|PUTACOMAIDS has 90 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|61/100
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|-heal|p2a: Mandibuzz|67/100|[from] item: Leftovers
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|32
+|
+|move|p1a: Sigilyph|Psycho Shift|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|brn
+|-curestatus|p1a: Sigilyph|brn|[msg]
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|33
+|inactive|PUTACOMAIDS has 90 seconds left.
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|96/100 brn
+|inactive|rsske has 120 seconds left.
+|
+|switch|p2a: Stakataka|Stakataka, L83|100/100|[from]move: U-turn
+|-item|p2a: Stakataka|Air Balloon
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|100/100
+|-damage|p1a: Pyukumuku|88/100|[from] Stealth Rock
+|move|p2a: Stakataka|Gyro Ball|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|77/100
+|
+|-heal|p1a: Pyukumuku|83/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Stakataka|Earthquake|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|59/100
+|move|p1a: Pyukumuku|Counter|p2a: Stakataka
+|-damage|p2a: Stakataka|50/100
+|-enditem|p2a: Stakataka|Air Balloon
+|
+|-heal|p1a: Pyukumuku|65/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|67/100 brn
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|Reflect
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|71/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|37
+|inactive|rsske has 120 seconds left.
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|77/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|-sideend|p1: PUTACOMAIDS|Reflect
+|-sideend|p1: PUTACOMAIDS|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|83/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|39
+|inactive|rsske has 120 seconds left.
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p2a: Mandibuzz|Taunt||[still]
+|-fail|p2a: Mandibuzz
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|89/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-end|p1a: Pyukumuku|move: Taunt
+|upkeep
+|turn|40
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|96/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|41
+|inactive|rsske has 120 seconds left.
+|
+|move|p2a: Mandibuzz|Taunt||[still]
+|-fail|p2a: Mandibuzz
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|42
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p2a: Mandibuzz|Taunt||[still]
+|-fail|p2a: Mandibuzz
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-end|p1a: Pyukumuku|move: Taunt
+|upkeep
+|turn|43
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|cant|p1a: Pyukumuku|move: Taunt|Reflect
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|44
+|inactive|PUTACOMAIDS has 120 seconds left.
+|inactive|PUTACOMAIDS has 90 seconds left.
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|45
+|c|☆PUTACOMAIDS|..
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-end|p1a: Pyukumuku|move: Taunt
+|upkeep
+|turn|46
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|cant|p1a: Pyukumuku|move: Taunt|Recover
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|96/100 brn
+|move|p2a: Mandibuzz|Defog|p1a: Sigilyph
+|-unboost|p1a: Sigilyph|evasion|1
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|81/100 brn
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|67/100 brn
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|51
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|54/100 brn
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-end|p1a: Sigilyph|move: Taunt
+|upkeep
+|turn|52
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|53
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|44/100 brn
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|33/100 brn
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|55
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|24/100 brn
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-end|p1a: Sigilyph|move: Taunt
+|upkeep
+|turn|56
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|74/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|70/100 brn
+|
+|switch|p2a: Stakataka|Stakataka, L83|50/100|[from]move: U-turn
+|
+|upkeep
+|turn|58
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|100/100
+|move|p2a: Stakataka|Gyro Ball|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|89/100
+|
+|-heal|p1a: Pyukumuku|95/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|Reflect
+|move|p2a: Stakataka|Stealth Rock|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|move: Stealth Rock
+|
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p2a: Stakataka|Stealth Rock||[still]
+|-fail|p2a: Stakataka
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Pyukumuku|Reflect||[still]
+|-fail|p1a: Pyukumuku
+|move|p2a: Stakataka|Stealth Rock||[still]
+|-fail|p2a: Stakataka
+|
+|upkeep
+|turn|62
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|67/100 brn
+|move|p1a: Pyukumuku|Reflect||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|63
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-sideend|p1: PUTACOMAIDS|Reflect
+|upkeep
+|turn|64
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|-sideend|p1: PUTACOMAIDS|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|switch|p2a: Scyther|Scyther, L88, F|100/100
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-end|p1a: Pyukumuku|move: Taunt
+|upkeep
+|turn|66
+|
+|move|p2a: Scyther|Roost||[still]
+|-fail|p2a: Scyther
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|Reflect
+|
+|upkeep
+|turn|67
+|inactive|PUTACOMAIDS has 120 seconds left.
+|inactive|PUTACOMAIDS has 90 seconds left.
+|
+|move|p2a: Scyther|Brick Break|p1a: Pyukumuku
+|-sideend|p1: PUTACOMAIDS|Reflect
+|-damage|p1a: Pyukumuku|82/100
+|move|p1a: Pyukumuku|Toxic|p2a: Scyther
+|-status|p2a: Scyther|tox
+|
+|-heal|p1a: Pyukumuku|88/100|[from] item: Leftovers
+|-damage|p2a: Scyther|94/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|move|p2a: Scyther|Bug Bite|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|55/100
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|Reflect
+|
+|-heal|p1a: Pyukumuku|61/100|[from] item: Leftovers
+|-damage|p2a: Scyther|82/100 tox|[from] psn
+|upkeep
+|turn|69
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|67/100 brn
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|68/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|70
+|inactive|PUTACOMAIDS has 90 seconds left.
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|cant|p1a: Pyukumuku|move: Taunt|Recover
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|74/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|71
+|inactive|PUTACOMAIDS has 60 seconds left.
+|inactive|rsske has 120 seconds left.
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|-sideend|p1: PUTACOMAIDS|Reflect
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|80/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|72
+|inactive|PUTACOMAIDS has 30 seconds left.
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|86/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-end|p1a: Pyukumuku|move: Taunt
+|upkeep
+|turn|73
+|inactive|PUTACOMAIDS has 30 seconds left.
+|inactive|PUTACOMAIDS has 20 seconds left.
+|inactive|PUTACOMAIDS has 15 seconds left.
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|70/100 brn
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|74
+|inactive|PUTACOMAIDS has 25 seconds left this turn.
+|inactive|rsske has 120 seconds left.
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|86/100
+|move|p2a: Mandibuzz|U-turn|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|81/100
+|inactive|rsske has 120 seconds left.
+|
+|switch|p2a: Stakataka|Stakataka, L83|50/100|[from]move: U-turn
+|
+|-heal|p1a: Pyukumuku|87/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|inactive|PUTACOMAIDS has 30 seconds left.
+|
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|Reflect
+|move|p2a: Stakataka|Superpower|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|73/100
+|-unboost|p2a: Stakataka|atk|1
+|-unboost|p2a: Stakataka|def|1
+|
+|-heal|p1a: Pyukumuku|79/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|move|p2a: Stakataka|Stealth Rock|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|move: Stealth Rock
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p1a: Pyukumuku|85/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|67/100 brn
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|91/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|cant|p1a: Pyukumuku|move: Taunt|Recover
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|98/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|-sideend|p1: PUTACOMAIDS|Reflect
+|-sideend|p1: PUTACOMAIDS|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|-end|p1a: Pyukumuku|move: Taunt
+|upkeep
+|turn|81
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|70/100 brn
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|82
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|100/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|93/100
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|99/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|83
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|92/100
+|move|p1a: Pyukumuku|Toxic||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Mandibuzz|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|98/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|84
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|91/100
+|move|p1a: Pyukumuku|Counter|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|56/100 brn
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|97/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|85
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|70/100 brn
+|move|p2a: Mandibuzz|Defog|p1a: Sigilyph
+|-unboost|p1a: Sigilyph|evasion|1
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|86
+|inactive|PUTACOMAIDS has 120 seconds left.
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|100/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Mandibuzz|Defog|p1a: Sigilyph
+|-unboost|p1a: Sigilyph|evasion|1
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|87
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Mandibuzz|Defog|p1a: Sigilyph
+|-unboost|p1a: Sigilyph|evasion|1
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|89
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|97/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|89/100
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|95/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|90
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|100/100 brn
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|82/100 brn
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|91
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|92
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|95/100
+|move|p2a: Mandibuzz|U-turn|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|90/100
+|
+|switch|p2a: Scyther|Scyther, L88, F|82/100 tox|[from]move: U-turn
+|
+|-heal|p1a: Pyukumuku|96/100|[from] item: Leftovers
+|-damage|p2a: Scyther|76/100 tox|[from] psn
+|upkeep
+|turn|93
+|
+|move|p2a: Scyther|Bug Bite|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|61/100
+|move|p1a: Pyukumuku|Counter|p2a: Scyther
+|-damage|p2a: Scyther|11/100 tox
+|
+|-heal|p1a: Pyukumuku|67/100|[from] item: Leftovers
+|-damage|p2a: Scyther|0 fnt|[from] psn
+|faint|p2a: Scyther
+|upkeep
+|
+|switch|p2a: Stakataka|Stakataka, L83|50/100
+|turn|94
+
+|
+|move|p2a: Stakataka|Stealth Rock|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|move: Stealth Rock
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p1a: Pyukumuku|73/100|[from] item: Leftovers
+|upkeep
+|turn|95
+
+|
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|move|p2a: Stakataka|Stealth Rock||[still]
+|-fail|p2a: Stakataka
+|
+|upkeep
+|turn|96
+
+|
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: PUTACOMAIDS|Reflect
+|move|p2a: Stakataka|Stealth Rock||[still]
+|-fail|p2a: Stakataka
+|
+|upkeep
+|turn|97
+
+|
+|move|p1a: Pyukumuku|Toxic|p2a: Stakataka
+|-immune|p2a: Stakataka
+|move|p2a: Stakataka|Stealth Rock||[still]
+|-fail|p2a: Stakataka
+|
+|upkeep
+|turn|98
+
+|
+|move|p1a: Pyukumuku|Toxic|p2a: Stakataka
+|-immune|p2a: Stakataka
+|move|p2a: Stakataka|Stealth Rock||[still]
+|-fail|p2a: Stakataka
+|
+|upkeep
+|turn|99
+
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|82/100 brn
+|move|p2a: Stakataka|Stealth Rock||[still]
+|-fail|p2a: Stakataka
+|
+|upkeep
+|turn|100
+
+|
+|move|p1a: Sigilyph|Psycho Shift|p2a: Stakataka
+|-status|p2a: Stakataka|brn
+|-curestatus|p1a: Sigilyph|brn|[msg]
+|move|p2a: Stakataka|Gyro Ball|p1a: Sigilyph
+|-damage|p1a: Sigilyph|62/100
+|
+|-damage|p2a: Stakataka|44/100 brn|[from] brn
+|-sideend|p1: PUTACOMAIDS|Reflect
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|101
+
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Stakataka|Gyro Ball|p1a: Sigilyph
+|-damage|p1a: Sigilyph|35/100 brn
+|
+|-damage|p2a: Stakataka|38/100 brn|[from] brn
+|upkeep
+|turn|102
+
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|56/100 brn
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|86/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|103
+
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|100/100
+|-damage|p1a: Pyukumuku|88/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Defog|p1a: Pyukumuku
+|-unboost|p1a: Pyukumuku|evasion|1
+|-sideend|p1: PUTACOMAIDS|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|94/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|104
+
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|86/100 brn
+|move|p2a: Mandibuzz|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|78/100 brn
+
+|
+|switch|p2a: Stakataka|Stakataka, L83|38/100 brn|[from]move: U-turn
+|
+|-damage|p2a: Stakataka|32/100 brn|[from] brn
+|upkeep
+|turn|105
+
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Stakataka|Gyro Ball|p1a: Sigilyph
+|-damage|p1a: Sigilyph|50/100 brn
+|
+|-damage|p2a: Stakataka|26/100 brn|[from] brn
+|upkeep
+|turn|106
+
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|99/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Stakataka|Gyro Ball|p1a: Sigilyph
+|-damage|p1a: Sigilyph|74/100 brn
+|
+|-damage|p2a: Stakataka|20/100 brn|[from] brn
+|upkeep
+|turn|107
+
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Stakataka|Gyro Ball|p1a: Sigilyph
+|-damage|p1a: Sigilyph|52/100 brn
+|
+|-damage|p2a: Stakataka|14/100 brn|[from] brn
+|upkeep
+|turn|108
+
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|100/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Stakataka|Gyro Ball|p1a: Sigilyph
+|-damage|p1a: Sigilyph|80/100 brn
+|
+|-damage|p2a: Stakataka|9/100 brn|[from] brn
+|upkeep
+|turn|109
+
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Stakataka|Earthquake|p1a: Sigilyph
+|-immune|p1a: Sigilyph
+|
+|-damage|p2a: Stakataka|3/100 brn|[from] brn
+|upkeep
+|turn|110
+
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|100/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Stakataka|Earthquake|p1a: Sigilyph
+|-damage|p1a: Sigilyph|94/100 brn
+|
+|-damage|p2a: Stakataka|0 fnt|[from] brn
+|faint|p2a: Stakataka
+|upkeep
+
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|56/100 brn
+|turn|111
+
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Mandibuzz|Defog|p1a: Sigilyph
+|-unboost|p1a: Sigilyph|evasion|1
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|112
+
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|91/100 brn
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|113
+
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Mandibuzz|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|89/100 brn
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|114
+
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Mandibuzz|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|87/100 brn
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|115
+
+|
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|0
+|-boost|p1a: Sigilyph|spd|0
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|116
+
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|85/100 brn
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|117
+
+|
+|switch|p1a: Pyukumuku|Pyukumuku, L89, M|94/100
+|move|p2a: Mandibuzz|U-turn|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|89/100
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|96/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|118
+
+|inactive|rsske has 120 seconds left.
+
+|inactive|rsske has 90 seconds left.
+
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Pyukumuku
+|-start|p1a: Pyukumuku|move: Taunt
+|cant|p1a: Pyukumuku|move: Taunt|Reflect
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|119
+
+|c|☆PUTACOMAIDS|i win
+
+|c|☆PUTACOMAIDS|finish this
+
+|inactive|rsske has 60 seconds left.
+
+|c|☆PUTACOMAIDS|goog
+
+|
+|switch|p1a: Sigilyph|Sigilyph, L86, F|85/100 brn
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|67/100 brn
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|120
+
+|
+|move|p1a: Sigilyph|Stored Power|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|47/100 brn
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|121
+
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|97/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Mandibuzz|Taunt|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Taunt
+|
+|-heal|p2a: Mandibuzz|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|122
+
+|-message|rsske forfeited.
+
+|
+|win|PUTACOMAIDS

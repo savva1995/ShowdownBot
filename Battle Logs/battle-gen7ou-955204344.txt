@@ -1,0 +1,38 @@
+|init|battle
+|title|guitusaipao vs. dicoder
+|j|☆guitusaipao
+|j|☆dicoder
+|player|p1|guitusaipao|266|1000
+|player|p2|dicoder|1|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Blastoise, F|item
+|poke|p1|Torterra, M|item
+|poke|p1|Torkoal, F|item
+|poke|p1|Lopunny, F|item
+|poke|p1|Diggersby, M|item
+|poke|p1|Azumarill, M|item
+|poke|p2|Ninetales-Alola, F|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Zoroark, M|item
+|poke|p2|Raichu-Alola, F|item
+|poke|p2|Sylveon, F|item
+|teampreview
+
+|-message|guitusaipao forfeited.
+
+|
+|win|dicoder

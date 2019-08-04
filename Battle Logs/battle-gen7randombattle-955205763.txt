@@ -1,0 +1,36 @@
+|init|battle
+|title|minski vs. Avatarams
+|j|☆minski
+|j|☆Avatarams
+|player|p1|minski|151|1223
+|player|p2|Avatarams|170|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gourgeist|Gourgeist-Super, L89, M|100/100
+|switch|p2a: Tapu Koko|Tapu Koko, L80|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|-item|p2a: Tapu Koko|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|1
+|
+|move|p2a: Tapu Koko|Nature's Madness|p1a: Gourgeist
+|-damage|p1a: Gourgeist|50/100
+|-damage|p2a: Tapu Koko|91/100|[from] item: Life Orb
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Tapu Koko|[miss]
+|-miss|p1a: Gourgeist|p2a: Tapu Koko
+|
+|-heal|p1a: Gourgeist|57/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|-message|minski forfeited.
+
+|
+|win|Avatarams

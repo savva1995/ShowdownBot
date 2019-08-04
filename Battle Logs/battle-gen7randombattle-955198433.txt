@@ -1,0 +1,234 @@
+|init|battle
+|title|denisowns vs. BusterBlaster
+|j|☆denisowns
+|j|☆BusterBlaster
+|player|p1|denisowns|1|1314
+|player|p2|BusterBlaster|102|1338
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Heracross|Heracross, L81, M|100/100
+|switch|p2a: Haxorus|Haxorus, L82, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BusterBlaster)
+|
+|detailschange|p1a: Heracross|Heracross-Mega, L81, M
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p2a: Haxorus|Swords Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|2
+|move|p1a: Heracross|Pin Missile|p2a: Haxorus
+|-damage|p2a: Haxorus|84/100
+|-damage|p2a: Haxorus|68/100
+|-damage|p2a: Haxorus|51/100
+|-damage|p2a: Haxorus|34/100
+|-damage|p2a: Haxorus|18/100
+|-hitcount|p2a: Haxorus|5
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Haxorus|Outrage|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|100/100
+|turn|3
+
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|-damage|p1a: Marshadow|91/100|[from] item: Life Orb
+|faint|p2a: Haxorus
+|
+|upkeep
+
+|
+|switch|p2a: Swanna|Swanna, L89, F|100/100
+|turn|4
+
+|
+|switch|p1a: Carracosta|Carracosta, L88, F|100/100
+|move|p2a: Swanna|Brave Bird|p1a: Carracosta
+|-resisted|p1a: Carracosta
+|-damage|p1a: Carracosta|80/100
+|-damage|p2a: Swanna|94/100|[from] Recoil
+|-damage|p2a: Swanna|84/100|[from] item: Life Orb
+|
+|-heal|p1a: Carracosta|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Swanna|Scald|p1a: Carracosta
+|-damage|p1a: Carracosta|36/100
+|-status|p1a: Carracosta|brn
+|-damage|p2a: Swanna|75/100|[from] item: Life Orb
+|move|p1a: Carracosta|Stone Edge|p2a: Swanna|[miss]
+|-miss|p1a: Carracosta|p2a: Swanna
+|
+|-heal|p1a: Carracosta|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Carracosta|36/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Swanna|Scald|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|-damage|p2a: Swanna|65/100|[from] item: Life Orb
+|faint|p1a: Carracosta
+|
+|upkeep
+
+|
+|switch|p1a: Exploud|Exploud, L85, M|100/100
+|turn|7
+
+|
+|move|p2a: Swanna|Scald|p1a: Exploud
+|-damage|p1a: Exploud|63/100
+|-damage|p2a: Swanna|55/100|[from] item: Life Orb
+|move|p1a: Exploud|Boomburst|p2a: Swanna
+|-damage|p2a: Swanna|0 fnt
+|faint|p2a: Swanna
+|
+|upkeep
+
+|
+|switch|p2a: Drapion|Drapion, L84, M|100/100
+|turn|8
+
+|
+|move|p2a: Drapion|Knock Off|p1a: Exploud
+|-damage|p1a: Exploud|28/100
+|-enditem|p1a: Exploud|Choice Specs|[from] move: Knock Off|[of] p2a: Drapion
+|move|p1a: Exploud|Boomburst|p2a: Drapion
+|-damage|p2a: Drapion|33/100
+|
+|-heal|p2a: Drapion|39/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p2a: Drapion|Poison Jab|p1a: Exploud
+|-crit|p1a: Exploud
+|-damage|p1a: Exploud|0 fnt
+|faint|p1a: Exploud
+|
+|-heal|p2a: Drapion|45/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow, L78|91/100
+|turn|10
+
+|
+|move|p1a: Marshadow|Close Combat|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-damage|p1a: Marshadow|81/100|[from] item: Life Orb
+|faint|p2a: Drapion
+|
+|upkeep
+
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, F|100/100
+|turn|11
+
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|14/100
+|-damage|p1a: Marshadow|71/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Psyshock|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|upkeep
+
+|
+|switch|p1a: Moltres|Moltres, L82|100/100
+|turn|12
+
+|
+|move|p1a: Moltres|Fire Blast|p2a: Reuniclus|[miss]
+|-miss|p1a: Moltres|p2a: Reuniclus
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Reuniclus|Psyshock|p1a: Moltres
+|-damage|p1a: Moltres|50/100
+|move|p1a: Moltres|Fire Blast|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p2a: Exploud|Exploud, L85, M|100/100
+|turn|14
+
+|
+|move|p2a: Exploud|Boomburst|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+
+|
+|switch|p1a: Beartic|Beartic, L89, F|100/100
+|turn|15
+
+|
+|move|p1a: Beartic|Icicle Crash|p2a: Exploud
+|-damage|p2a: Exploud|37/100
+|-damage|p1a: Beartic|91/100|[from] item: Life Orb
+|move|p2a: Exploud|Boomburst|p1a: Beartic
+|-damage|p1a: Beartic|17/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Beartic|Icicle Crash|p2a: Exploud
+|-damage|p2a: Exploud|0 fnt
+|-damage|p1a: Beartic|7/100|[from] item: Life Orb
+|faint|p2a: Exploud
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow, L87, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|17
+
+|c|☆BusterBlaster|gg
+
+|c|☆BusterBlaster|13 wins in a row
+
+|
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L87, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p2a: Abomasnow|Ice Shard|p1a: Beartic
+|-resisted|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|win|BusterBlaster

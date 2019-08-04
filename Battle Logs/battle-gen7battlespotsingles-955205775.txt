@@ -1,0 +1,72 @@
+|init|battle
+|title|roa3231 vs. bena13
+|j|☆roa3231
+|j|☆bena13
+|player|p1|roa3231|1|1077
+|player|p2|bena13|135|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Spot Singles
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Latios, L50, M|item
+|poke|p1|Mawile, L50, F|item
+|poke|p1|Gyarados, L50, M|item
+|poke|p1|Ferrothorn, L50, F|item
+|poke|p1|Rotom-Heat, L50|item
+|poke|p1|Tyranitar, L50, F|item
+|poke|p2|Honchkrow, L50, M|item
+|poke|p2|Sableye, L50, F|item
+|poke|p2|Weavile, L50, F|item
+|poke|p2|Crawdaunt, L50, M|item
+|poke|p2|Muk-Alola, L50, F|item
+|poke|p2|Krookodile, L50, F|item
+|teampreview|3
+|
+|start
+|switch|p1a: Mawile|Mawile, L50, F|48/48
+|switch|p2a: Krookodile|Krookodile, L50, F|48/48
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Mawile|atk|1
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Krookodile|atk|1
+|turn|1
+
+|
+|detailschange|p1a: Mawile|Mawile-Mega, L50, F
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p2a: Krookodile|Earthquake|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|13/48
+|move|p1a: Mawile|Play Rough|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+
+|
+|switch|p2a: Honchkrow|Honchkrow, L50, M|48/48
+|turn|2
+
+|
+|move|p2a: Honchkrow|Brave Bird|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|-damage|p2a: Honchkrow|44/48|[from] Recoil
+|faint|p1a: Mawile
+|
+|upkeep
+
+|
+|switch|p1a: Rotom|Rotom-Heat, L50|48/48
+|turn|3
+
+|-message|bena13 forfeited.
+
+|
+|win|roa3231

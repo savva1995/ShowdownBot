@@ -1,0 +1,209 @@
+|init|battle
+|title|1274a vs. Larafalelite14
+|j|☆1274a
+|j|☆Larafalelite14
+|player|p1|1274a|1|1137
+|player|p2|Larafalelite14|269|1101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Azelf|Azelf, L82|100/100
+|switch|p2a: Klinklang|Klinklang, L86|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1274a)
+|
+|move|p1a: Azelf|Nasty Plot|p1a: Azelf
+|-boost|p1a: Azelf|spa|2
+|move|p2a: Klinklang|Shift Gear|p2a: Klinklang
+|-boost|p2a: Klinklang|spe|2
+|-boost|p2a: Klinklang|atk|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Azelf
+|-damage|p1a: Azelf|61/100
+|-damage|p1a: Azelf|18/100
+|-hitcount|p1a: Azelf|2
+|move|p1a: Azelf|Fire Blast|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|0 fnt
+|faint|p2a: Klinklang
+|
+|upkeep
+|
+|switch|p2a: Tapu Koko|Tapu Koko, L80|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|3
+|
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+|
+|switch|p1a: Stakataka|Stakataka, L83|100/100
+|-item|p1a: Stakataka|Air Balloon
+|turn|4
+
+|
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Stakataka
+|-damage|p1a: Stakataka|46/100
+|-enditem|p1a: Stakataka|Air Balloon
+|move|p1a: Stakataka|Trick Room|p1a: Stakataka
+|-fieldstart|move: Trick Room|[of] p1a: Stakataka
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Carracosta|Carracosta, L88, M|100/100
+|move|p1a: Stakataka|Earthquake|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|52/100
+|
+|-heal|p2a: Carracosta|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Stakataka|Earthquake|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|10/100
+|move|p2a: Carracosta|Stealth Rock|p1a: Stakataka
+|-sidestart|p1: 1274a|move: Stealth Rock
+|
+|-heal|p2a: Carracosta|16/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Carracosta|Aqua Jet|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-damage|p1a: Stakataka|23/100
+|move|p1a: Stakataka|Gyro Ball|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|faint|p2a: Carracosta
+|-ability|p1a: Stakataka|Beast Boost|boost
+|-boost|p1a: Stakataka|def|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko, L80|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|8
+
+|
+|move|p1a: Stakataka|Earthquake|p2a: Tapu Koko
+|-supereffective|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|22/100
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|faint|p1a: Stakataka
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, L84, M|100/100
+|-damage|p1a: Jolteon|88/100|[from] Stealth Rock
+|turn|9
+
+|
+|switch|p2a: Espeon|Espeon, L84, F|100/100
+|move|p1a: Jolteon|Hidden Power|p2a: Espeon
+|-damage|p2a: Espeon|76/100
+|
+|-heal|p2a: Espeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Seismitoad|Seismitoad, L86, F|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-heal|p2a: Espeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Espeon|Substitute|p2a: Espeon
+|-start|p2a: Espeon|Substitute
+|-damage|p2a: Espeon|63/100
+|move|p1a: Seismitoad|Rain Dance|p1a: Seismitoad
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Espeon|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Espeon
+|-end|p2a: Espeon|Substitute
+|-damage|p1a: Seismitoad|84/100|[from] item: Life Orb
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Espeon|75/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|13
+
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|-damage|p1a: Seismitoad|74/100|[from] item: Life Orb
+|faint|p2a: Espeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Glaceon|Glaceon, L89, M|100/100
+|turn|14
+
+|
+|move|p1a: Seismitoad|Sludge Wave|p2a: Glaceon
+|-damage|p2a: Glaceon|72/100
+|-damage|p1a: Seismitoad|64/100|[from] item: Life Orb
+|move|p2a: Glaceon|Ice Beam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|22/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Glaceon|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Seismitoad|Scald|p2a: Glaceon
+|-damage|p2a: Glaceon|27/100
+|-status|p2a: Glaceon|brn
+|-damage|p1a: Seismitoad|12/100|[from] item: Life Orb
+|move|p2a: Glaceon|Ice Beam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|none
+|-heal|p2a: Glaceon|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Glaceon|27/100 brn|[from] brn
+|upkeep
+
+|-message|Larafalelite14 forfeited.
+
+|
+|win|1274a

@@ -1,0 +1,278 @@
+|init|battle
+|title|Bien Sir vs. dvgdg
+|j|☆Bien Sir
+|j|☆dvgdg
+|player|p1|Bien Sir|99|1060
+|player|p2|dvgdg|212|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Cross Evolution
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Scraggy, M|item
+|poke|p1|Scyther, F|item
+|poke|p1|Poipole|item
+|poke|p1|Tangela, M|item
+|poke|p1|Cutiefly, F|item
+|poke|p1|Doublade, M|item
+|poke|p2|Dusclops, F|item
+|poke|p2|Type: Null|item
+|poke|p2|Klang, M|item
+|poke|p2|Magneton|item
+|poke|p2|Rhydon, F|item
+|poke|p2|Grimer-Alola, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Hariyama|Scraggy, M|100/100
+|switch|p2a: Slaking|Dusclops, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dvgdg)
+|
+|switch|p2a: Gallade|Klang, M|100/100
+|move|p1a: Hariyama|Dragon Dance|p1a: Hariyama
+|-boost|p1a: Hariyama|atk|1
+|-boost|p1a: Hariyama|spe|1
+|
+|upkeep
+|-start|p2a: Gallade|typechange|Steel/Fighting|[silent]
+|turn|2
+|
+|switch|p1a: Clefable|Doublade, M|100/100
+|move|p2a: Gallade|Close Combat|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Xatu|Type: Null|100/100
+|move|p1a: Clefable|Swagger|p2a: Xatu
+|move|p2a: Xatu|Swagger|p1a: Clefable|[from]Magic Bounce
+|-boost|p1a: Clefable|atk|2
+|-start|p1a: Clefable|confusion
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Hariyama|Scraggy, M|100/100
+|move|p2a: Xatu|Toxic|p1a: Hariyama
+|-status|p1a: Hariyama|tox
+|
+|-damage|p1a: Hariyama|94/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Salamence|Rhydon, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Hariyama|atk|1
+|move|p1a: Hariyama|Dragon Dance|p1a: Hariyama
+|-boost|p1a: Hariyama|atk|1
+|-boost|p1a: Hariyama|spe|1
+|
+|-damage|p1a: Hariyama|82/100 tox|[from] psn
+|upkeep
+|-start|p2a: Salamence|typechange|Ground/Flying|[silent]
+|turn|6
+
+|
+|move|p1a: Hariyama|Dragon Dance|p1a: Hariyama
+|-boost|p1a: Hariyama|atk|1
+|-boost|p1a: Hariyama|spe|1
+|move|p2a: Salamence|Fly||[still]
+|-prepare|p2a: Salamence|Fly|p1a: Hariyama
+|
+|-damage|p1a: Hariyama|63/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Hariyama|Drain Punch|p2a: Salamence|[miss]
+|-miss|p1a: Hariyama|p2a: Salamence
+|move|p2a: Salamence|Fly|p1a: Hariyama|[from]lockedmove
+|-supereffective|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|upkeep
+
+|
+|switch|p1a: Magcargo|Scyther, F|100/100
+|-start|p1a: Magcargo|typechange|Bug/Rock|[silent]
+|turn|8
+
+|inactive|dvgdg has 120 seconds left.
+
+|
+|move|p1a: Magcargo|Shell Smash|p1a: Magcargo
+|-unboost|p1a: Magcargo|def|1
+|-unboost|p1a: Magcargo|spd|1
+|-boost|p1a: Magcargo|atk|2
+|-boost|p1a: Magcargo|spa|2
+|-boost|p1a: Magcargo|spe|2
+|-enditem|p1a: Magcargo|White Herb
+|-clearnegativeboost|p1a: Magcargo|[silent]
+|-zpower|p2a: Salamence
+|move|p2a: Salamence|Supersonic Skystrike|p1a: Magcargo|[zeffect]
+|-damage|p1a: Magcargo|18/100
+|-ability|p1a: Magcargo|Weak Armor|boost
+|-unboost|p1a: Magcargo|def|1
+|-boost|p1a: Magcargo|spe|2
+|
+|upkeep
+|turn|9
+
+|inactive|dvgdg has 120 seconds left.
+
+|
+|move|p1a: Magcargo|Explosion|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p1a: Magcargo
+|faint|p2a: Salamence
+|
+|upkeep
+
+|inactive|dvgdg has 120 seconds left.
+
+|
+|switch|p1a: Espeon|Cutiefly, F|100/100
+|switch|p2a: Slaking|Dusclops, F|100/100
+|-start|p1a: Espeon|typechange|Psychic/Fairy|[silent]
+|turn|10
+
+|inactive|dvgdg has 120 seconds left.
+
+|
+|switch|p2a: Xatu|Type: Null|100/100
+|move|p1a: Espeon|Quiver Dance|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|-boost|p1a: Espeon|spe|1
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Espeon|Quiver Dance|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|-boost|p1a: Espeon|spe|1
+|move|p2a: Xatu|Roar|p1a: Espeon
+|move|p1a: Espeon|Roar|p2a: Xatu|[from]Magic Bounce
+|drag|p2a: Gallade|Klang, M|100/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Clefable|Doublade, M|100/100
+|move|p2a: Gallade|Gear Grind|p1a: Clefable|[miss]
+|-miss|p2a: Gallade|p1a: Clefable
+|
+|upkeep
+|turn|13
+
+|inactive|dvgdg has 120 seconds left.
+
+|
+|move|p2a: Gallade|Fire Punch|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|60/100
+|move|p1a: Clefable|Drain Punch|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|51/100
+|-heal|p1a: Clefable|82/100|[from] drain|[of] p2a: Gallade
+|
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Slaking|Dusclops, F|100/100
+|move|p1a: Clefable|Swagger|p2a: Slaking
+|-boost|p2a: Slaking|atk|2
+|-start|p2a: Slaking|confusion
+|
+|upkeep
+|turn|15
+
+|inactive|dvgdg has 120 seconds left.
+
+|
+|switch|p2a: Hitmontop|Grimer-Alola, M|100/100
+|move|p1a: Clefable|Psych Up|p2a: Hitmontop
+|-copyboost|p1a: Clefable|p2a: Hitmontop|[from] move: Psych Up
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Hitmontop|Pursuit|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|28/100
+|move|p1a: Clefable|Swagger|p2a: Hitmontop
+|-boost|p2a: Hitmontop|atk|2
+|-start|p2a: Hitmontop|confusion
+|
+|upkeep
+|turn|17
+
+|
+|-activate|p2a: Hitmontop|confusion
+|move|p2a: Hitmontop|Shadow Sneak|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|3/100
+|-zpower|p1a: Clefable
+|move|p1a: Clefable|Z-Psych Up|p2a: Hitmontop|[anim]Psych Up
+|-heal|p1a: Clefable|100/100|[zeffect]
+|-copyboost|p1a: Clefable|p2a: Hitmontop|[from] move: Psych Up
+|
+|upkeep
+|turn|18
+
+|inactive|dvgdg has 120 seconds left.
+
+|
+|-activate|p2a: Hitmontop|confusion
+|move|p2a: Hitmontop|Shadow Sneak|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|77/100
+|move|p1a: Clefable|Drain Punch|p2a: Hitmontop
+|-damage|p2a: Hitmontop|56/100
+|-heal|p1a: Clefable|100/100|[from] drain|[of] p2a: Hitmontop
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Slaking|Dusclops, F|100/100
+|move|p1a: Clefable|Drain Punch|p2a: Slaking
+|-immune|p2a: Slaking
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Clefable|Iron Head|p2a: Slaking
+|-damage|p2a: Slaking|43/100
+|cant|p2a: Slaking|flinch
+|
+|-heal|p2a: Slaking|49/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|-message|dvgdg forfeited.
+
+|
+|win|Bien Sir

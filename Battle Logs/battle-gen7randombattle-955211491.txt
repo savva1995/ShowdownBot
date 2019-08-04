@@ -1,0 +1,630 @@
+|init|battle
+|title|Chichita vs. Wsdr
+|j|☆Chichita
+|j|☆Wsdr
+|player|p1|Chichita|8|1060
+|player|p2|Wsdr|15|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Togekiss|Togekiss, L82, F|100/100
+|switch|p2a: Froslass|Froslass, L88, F|100/100
+|turn|1
+|
+|switch|p1a: Victini|Victini, L80|100/100
+|move|p2a: Froslass|Ice Beam|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|91/100
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Reshiram|Reshiram, L78|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Victini|Blue Flare|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|91/100
+|
+|-heal|p2a: Reshiram|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Victini|Grass Knot|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|91/100
+|move|p2a: Reshiram|Dragon Pulse|p1a: Victini
+|-damage|p1a: Victini|68/100
+|
+|-heal|p2a: Reshiram|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wsdr)
+
+|
+|move|p1a: Victini|U-turn|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|88/100
+
+|
+|switch|p1a: Trevenant|Trevenant, L89, M|100/100|[from]move: U-turn
+|move|p2a: Reshiram|Dragon Pulse|p1a: Trevenant
+|-crit|p1a: Trevenant
+|-damage|p1a: Trevenant|43/100
+|
+|-heal|p2a: Reshiram|94/100|[from] item: Leftovers
+|-heal|p1a: Trevenant|49/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|Chichita has 120 seconds left.
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|100/100
+|move|p2a: Reshiram|Blue Flare|p1a: Togekiss
+|-damage|p1a: Togekiss|53/100
+|
+|-heal|p2a: Reshiram|100/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|59/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Froslass|Froslass, L88, F|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Froslass
+|-damage|p2a: Froslass|64/100
+|
+|-heal|p1a: Togekiss|65/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Victini|Victini, L80|68/100
+|move|p2a: Froslass|Spikes|p1a: Victini
+|-sidestart|p1: Chichita|Spikes
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Reshiram|Reshiram, L78|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Victini|Blue Flare|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|91/100
+|
+|-heal|p2a: Reshiram|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|-damage|p1a: Palkia|88/100|[from] Spikes
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Reshiram|Blue Flare|p1a: Palkia
+|-resisted|p1a: Palkia
+|-damage|p1a: Palkia|80/100
+|
+|-heal|p2a: Reshiram|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p2a: Reshiram|Draco Meteor|p1a: Palkia
+|-supereffective|p1a: Palkia
+|-damage|p1a: Palkia|13/100
+|-unboost|p2a: Reshiram|spa|2
+|move|p1a: Palkia|Dragon Tail|p2a: Reshiram
+|-supereffective|p2a: Reshiram
+|-damage|p2a: Reshiram|57/100
+|drag|p2a: Smeargle|Smeargle, L89, F|100/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|65/100
+|move|p2a: Smeargle|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: Chichita|move: Stealth Rock
+|
+|-heal|p1a: Togekiss|72/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Smeargle|Spore|p1a: Togekiss
+|-status|p1a: Togekiss|slp|[from] move: Spore
+|cant|p1a: Togekiss|slp
+|
+|-heal|p1a: Togekiss|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|cant|p1a: Togekiss|slp
+|move|p2a: Smeargle|Whirlwind|p1a: Togekiss
+|drag|p1a: Palkia|Palkia, L78|13/100
+|-damage|p1a: Palkia|0 fnt|[from] Spikes
+|faint|p1a: Palkia
+|
+|upkeep
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|78/100 slp
+|-damage|p1a: Togekiss|53/100 slp|[from] Stealth Rock
+|turn|14
+
+|
+|-curestatus|p1a: Togekiss|slp|[msg]
+|move|p1a: Togekiss|Aura Sphere|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-damage|p2a: Smeargle|28/100
+|move|p2a: Smeargle|Whirlwind|p1a: Togekiss
+|drag|p1a: Braviary|Braviary, L86, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Braviary|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p1a: Braviary|Superpower|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|faint|p2a: Smeargle
+|
+|-heal|p1a: Braviary|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Froslass|Froslass, L88, F|64/100
+|turn|16
+
+|
+|switch|p1a: Victini|Victini, L80|68/100
+|-damage|p1a: Victini|43/100|[from] Stealth Rock
+|-damage|p1a: Victini|30/100|[from] Spikes
+|move|p2a: Froslass|Spikes|p1a: Victini
+|-sidestart|p1: Chichita|Spikes
+|
+|upkeep
+|turn|17
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|switch|p2a: Reshiram|Reshiram, L78|57/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Victini|Blue Flare|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|47/100
+|
+|-heal|p2a: Reshiram|54/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Togekiss|Togekiss, L82, F|53/100
+|-damage|p1a: Togekiss|28/100|[from] Stealth Rock
+|move|p2a: Reshiram|Draco Meteor|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|-heal|p2a: Reshiram|60/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|34/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Reshiram|66/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|switch|p1a: Ninetales|Ninetales, L84, M|100/100
+|-damage|p1a: Ninetales|84/100|[from] Spikes
+|-damage|p1a: Ninetales|59/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|20
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p1a: Ninetales|Psyshock|p2a: Reshiram
+|-crit|p2a: Reshiram
+|-damage|p2a: Reshiram|39/100
+|move|p2a: Reshiram|Roost|p2a: Reshiram
+|-heal|p2a: Reshiram|90/100
+|-singleturn|p2a: Reshiram|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|65/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|96/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Reshiram
+|-immune|p2a: Reshiram
+|move|p2a: Reshiram|Draco Meteor|p1a: Ninetales
+|-damage|p1a: Ninetales|5/100
+|-unboost|p2a: Reshiram|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|11/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p1a: Ninetales|Psyshock|p2a: Reshiram
+|-damage|p2a: Reshiram|84/100
+|move|p2a: Reshiram|Dragon Pulse|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reshiram|90/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Braviary|Braviary, L86, M|88/100
+|-damage|p1a: Braviary|63/100|[from] Stealth Rock
+|turn|23
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p1a: Braviary|Superpower|p2a: Reshiram
+|-damage|p2a: Reshiram|55/100
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|move|p2a: Reshiram|Blue Flare|p1a: Braviary|[miss]
+|-miss|p2a: Reshiram|p1a: Braviary
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Braviary|69/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|61/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p1a: Braviary|Return|p2a: Reshiram
+|-damage|p2a: Reshiram|32/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Braviary|[miss]
+|-miss|p2a: Reshiram|p1a: Braviary
+|
+|-weather|none
+|-heal|p1a: Braviary|75/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|38/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|inactive|Chichita has 90 seconds left.
+
+|
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|51/100
+|move|p2a: Reshiram|Roost|p2a: Reshiram
+|-heal|p2a: Reshiram|88/100
+|-singleturn|p2a: Reshiram|move: Roost
+|
+|-heal|p1a: Braviary|57/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p1a: Braviary|Return|p2a: Reshiram
+|-damage|p2a: Reshiram|62/100
+|move|p2a: Reshiram|Blue Flare|p1a: Braviary
+|-crit|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|63/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|68/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|38/100
+|move|p2a: Reshiram|Blue Flare|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|44/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|74/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Trevenant|Trevenant, L89, M|49/100
+|-damage|p1a: Trevenant|33/100|[from] Spikes
+|-damage|p1a: Trevenant|20/100|[from] Stealth Rock
+|move|p2a: Reshiram|Blue Flare|p1a: Trevenant|[miss]
+|-miss|p2a: Reshiram|p1a: Trevenant
+|
+|-heal|p2a: Reshiram|80/100|[from] item: Leftovers
+|-heal|p1a: Trevenant|27/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Reshiram|Dragon Pulse|p1a: Trevenant
+|-damage|p1a: Trevenant|8/100
+|move|p1a: Trevenant|Leech Seed|p2a: Reshiram
+|-start|p2a: Reshiram|move: Leech Seed
+|
+|-heal|p2a: Reshiram|86/100|[from] item: Leftovers
+|-heal|p1a: Trevenant|14/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|74/100|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|26/100|[silent]
+|upkeep
+|turn|30
+
+|inactive|Wsdr has 120 seconds left.
+
+|
+|move|p2a: Reshiram|Draco Meteor|p1a: Trevenant
+|-damage|p1a: Trevenant|0 fnt
+|-unboost|p2a: Reshiram|spa|2
+|faint|p1a: Trevenant
+|
+|-heal|p2a: Reshiram|80/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Victini|Victini, L80|30/100
+|-damage|p1a: Victini|14/100|[from] Spikes
+|-damage|p1a: Victini|0 fnt|[from] Stealth Rock
+|faint|p1a: Victini
+
+|
+|switch|p1a: Braviary|Braviary, L86, M|44/100
+|-damage|p1a: Braviary|19/100|[from] Stealth Rock
+|turn|31
+
+|
+|move|p1a: Braviary|Return|p2a: Reshiram
+|-damage|p2a: Reshiram|36/100
+|move|p2a: Reshiram|Dragon Pulse|p1a: Braviary
+|-damage|p1a: Braviary|5/100
+|
+|-heal|p1a: Braviary|11/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|42/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|29/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|22/100|[silent]
+|upkeep
+|turn|32
+
+|
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-fail|p1a: Braviary|move: Substitute|[weak]
+|move|p2a: Reshiram|Roost|p2a: Reshiram
+|-heal|p2a: Reshiram|80/100
+|-singleturn|p2a: Reshiram|move: Roost
+|
+|-heal|p1a: Braviary|28/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|86/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|73/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|40/100|[silent]
+|upkeep
+|turn|33
+
+|
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|15/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Braviary
+|-activate|p1a: Braviary|move: Substitute|[damage]
+|-unboost|p2a: Reshiram|spa|2
+|
+|-heal|p1a: Braviary|21/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|79/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|67/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|32/100|[silent]
+|upkeep
+|turn|34
+
+|inactive|Wsdr has 120 seconds left.
+
+|
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Reshiram|Dragon Pulse|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|38/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|73/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|61/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|50/100|[silent]
+|upkeep
+|turn|35
+
+|inactive|Wsdr has 120 seconds left.
+
+|
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|25/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Braviary
+|-activate|p1a: Braviary|move: Substitute|[damage]
+|
+|-heal|p1a: Braviary|31/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|67/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|54/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|42/100|[silent]
+|upkeep
+|turn|36
+
+|inactive|Wsdr has 120 seconds left.
+
+|
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Reshiram|Dragon Pulse|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|48/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|60/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|48/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|60/100|[silent]
+|upkeep
+|turn|37
+
+|
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|35/100
+|move|p2a: Reshiram|Dragon Pulse|p1a: Braviary
+|-activate|p1a: Braviary|move: Substitute|[damage]
+|
+|-heal|p1a: Braviary|41/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|54/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|41/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|52/100|[silent]
+|upkeep
+|turn|38
+
+|
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Reshiram|Dragon Pulse|p1a: Braviary
+|-activate|p1a: Braviary|move: Substitute|[damage]
+|
+|-heal|p1a: Braviary|58/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|47/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|35/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|70/100|[silent]
+|upkeep
+|turn|39
+
+|
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Reshiram|Dragon Pulse|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|76/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|41/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|29/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|87/100|[silent]
+|upkeep
+|turn|40
+
+|
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|62/100
+|move|p2a: Reshiram|Roost|p2a: Reshiram
+|-heal|p2a: Reshiram|79/100
+|-singleturn|p2a: Reshiram|move: Roost
+|
+|-heal|p1a: Braviary|68/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|85/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|73/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|80/100|[silent]
+|upkeep
+|turn|41
+
+|
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Reshiram|Dragon Pulse|p1a: Braviary
+|-activate|p1a: Braviary|move: Substitute|[damage]
+|
+|-heal|p1a: Braviary|86/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|79/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|66/100|[from] Leech Seed|[of] p1a: Braviary
+|-heal|p1a: Braviary|97/100|[silent]
+|upkeep
+|turn|42
+
+|
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Reshiram|Dragon Pulse|p1a: Braviary
+|-activate|p1a: Braviary|move: Substitute|[damage]
+|
+|-heal|p1a: Braviary|100/100|[from] item: Leftovers
+|-heal|p2a: Reshiram|72/100|[from] item: Leftovers
+|-damage|p2a: Reshiram|60/100|[from] Leech Seed|[of] p1a: Braviary
+|upkeep
+|turn|43
+
+|
+|move|p1a: Braviary|Return|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|
+|upkeep
+
+|
+|switch|p2a: Froslass|Froslass, L88, F|64/100
+|turn|44
+
+|
+|move|p2a: Froslass|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|move|p1a: Braviary|Superpower|p2a: Froslass
+|-immune|p2a: Froslass
+|
+|upkeep
+|turn|45
+
+|
+|move|p2a: Froslass|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|33/100
+|move|p1a: Braviary|Superpower|p2a: Froslass
+|-immune|p2a: Froslass
+|
+|-heal|p1a: Braviary|39/100|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|
+|move|p2a: Froslass|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|win|Wsdr

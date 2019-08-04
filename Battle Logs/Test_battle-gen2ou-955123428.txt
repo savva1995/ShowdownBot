@@ -1,0 +1,449 @@
+|init|battle
+|title|Indra Last vs. Hidol
+|j|☆Indra Last
+|j|☆Hidol
+|player|p1|Indra Last|169|1064
+|player|p2|Hidol|266|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Machamp|Machamp, M|100/100
+|turn|1
+
+|j| Gen7OUOU
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Indra Last)
+
+|
+|switch|p2a: Raikou|Raikou|100/100
+|move|p1a: Zapdos|Thunder|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|80/100
+|
+|-heal|p2a: Raikou|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Raikou|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-heal|p2a: Raikou|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Charizard
+|-immune|p2a: Charizard
+|-damage|p1a: Tyranitar|94/100 tox|[from] psn
+|
+|-heal|p1a: Tyranitar|100/100 tox|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Suicune|Suicune|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Suicune
+|-damage|p2a: Suicune|75/100
+|-damage|p1a: Tyranitar|88/100 tox|[from] psn
+|
+|-heal|p1a: Tyranitar|94/100 tox|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Suicune|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|54/100
+|
+|-heal|p1a: Zapdos|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Raikou|Raikou|92/100
+|move|p1a: Zapdos|Thunder|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|69/100
+|
+|-heal|p2a: Raikou|75/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Raikou|Thunder|p1a: Umbreon
+|-damage|p1a: Umbreon|68/100
+|-status|p1a: Umbreon|par
+|
+|-heal|p2a: Raikou|81/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|cant|p1a: Umbreon|par
+|
+|-heal|p1a: Umbreon|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|94/100 tox
+|-status|p1a: Tyranitar|psn|[silent]
+|-damage|p1a: Tyranitar|82/100 psn|[from] psn
+|move|p2a: Machamp|Rock Slide|p1a: Tyranitar
+|-damage|p1a: Tyranitar|65/100 psn
+|
+|-heal|p1a: Tyranitar|71/100 psn|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Zapdos|Zapdos|66/100
+|move|p2a: Machamp|Cross Chop|p1a: Zapdos|[miss]
+|-miss|p2a: Machamp
+|
+|-heal|p1a: Zapdos|72/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Raikou|Raikou|81/100
+|move|p1a: Zapdos|Hidden Power|p2a: Raikou
+|-damage|p2a: Raikou|64/100
+|
+|-heal|p2a: Raikou|70/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|71/100 psn
+|-damage|p1a: Tyranitar|59/100 psn|[from] psn
+|move|p2a: Raikou|Thunder|p1a: Tyranitar|[miss]
+|-miss|p2a: Raikou
+|
+|-heal|p2a: Raikou|76/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|65/100 psn|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+
+|
+|switch|p2a: Suicune|Suicune|75/100
+|
+|-heal|p1a: Tyranitar|71/100 psn|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|c|☆Indra Last|cres que iba a caer en la misma trampa 2 veces idiota!
+
+|
+|switch|p1a: Zapdos|Zapdos|78/100
+|move|p2a: Suicune|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|48/100
+|
+|-heal|p1a: Zapdos|54/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Raikou|Raikou|76/100
+|move|p1a: Zapdos|Thunder|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|55/100
+|
+|-heal|p2a: Raikou|61/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|60/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|71/100 psn
+|-damage|p1a: Tyranitar|59/100 psn|[from] psn
+|move|p2a: Raikou|Thunder|p1a: Tyranitar
+|-damage|p1a: Tyranitar|19/100 psn
+|
+|-heal|p2a: Raikou|67/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|25/100 psn|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Raikou|Thunder|p1a: Tyranitar|[miss]
+|-miss|p2a: Raikou
+|move|p1a: Tyranitar|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|7/100
+|-damage|p1a: Tyranitar|13/100 psn|[from] psn|[of] p2a: Raikou
+|
+|-heal|p2a: Raikou|13/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|19/100 psn|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Raikou|Thunder|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+
+|
+|switch|p1a: Heracross|Heracross, M|100/100
+|
+|-heal|p2a: Raikou|19/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Raikou|Thunder|p1a: Heracross|[miss]
+|-miss|p2a: Raikou
+|move|p1a: Heracross|Megahorn|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Alakazam|Psychic|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|29/100
+|move|p1a: Heracross|Megahorn|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+
+|
+|switch|p2a: Suicune|Suicune|75/100
+|
+|-heal|p1a: Heracross|35/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Suicune|Blizzard|p1a: Heracross
+|-damage|p1a: Heracross|9/100
+|move|p1a: Heracross|Megahorn|p2a: Suicune
+|-damage|p2a: Suicune|39/100
+|
+|-heal|p1a: Heracross|15/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Suicune|Surf|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+
+|
+|switch|p1a: Umbreon|Umbreon, M|81/100 par
+|
+|-heal|p1a: Umbreon|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|move|p1a: Umbreon|Toxic|p2a: Machamp
+|-status|p2a: Machamp|tox
+|
+|-heal|p1a: Umbreon|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Machamp|Cross Chop|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+
+|c|☆Indra Last|lol
+
+|
+|switch|p1a: Suicune|Suicune|100/100
+|
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Suicune|Suicune|39/100
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|27/100
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|15/100
+|move|p2a: Suicune|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|78/100
+|
+|-heal|p1a: Suicune|84/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Suicune|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|7/100
+|move|p2a: Suicune|Hidden Power|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|61/100
+|
+|-heal|p1a: Suicune|67/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Suicune|Surf|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|
+|-heal|p1a: Suicune|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Suicune|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|45/100
+|move|p2a: Tyranitar|Dynamic Punch|p1a: Suicune
+|-damage|p1a: Suicune|50/100
+|-start|p1a: Suicune|confusion
+|
+|-heal|p1a: Suicune|57/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|51/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p1a: Umbreon|Umbreon, M|93/100 par
+|move|p2a: Tyranitar|Earthquake|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|47/100 par
+|
+|-heal|p2a: Tyranitar|57/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Umbreon
+|-damage|p1a: Umbreon|28/100 par
+|move|p1a: Umbreon|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-heal|p2a: Tyranitar|64/100 tox|[from] item: Leftovers
+|-heal|p1a: Umbreon|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p2a: Tyranitar|Dynamic Punch|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+
+|
+|switch|p1a: Suicune|Suicune|57/100
+|
+|-heal|p1a: Suicune|63/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|70/100 tox|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p1a: Suicune|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|16/100 tox
+|move|p2a: Tyranitar|Dynamic Punch|p1a: Suicune
+|-damage|p1a: Suicune|42/100
+|-start|p1a: Suicune|confusion
+|-damage|p2a: Tyranitar|10/100 tox|[from] psn
+|
+|-heal|p1a: Suicune|48/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|16/100 tox|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|switch|p1a: Zapdos|Zapdos|60/100
+|move|p2a: Tyranitar|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|-damage|p2a: Tyranitar|3/100 tox|[from] psn
+|
+|-heal|p1a: Zapdos|66/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|10/100 tox|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p1a: Zapdos|Hidden Power|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+
+|
+|switch|p2a: Machamp|Machamp, M|100/100 tox
+|-status|p2a: Machamp|psn|[silent]
+|
+|-heal|p1a: Zapdos|72/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|move|p1a: Zapdos|Thunder|p2a: Machamp
+|-damage|p2a: Machamp|52/100 psn
+|move|p2a: Machamp|Rock Slide|p1a: Zapdos|[miss]
+|-miss|p2a: Machamp
+|-damage|p2a: Machamp|40/100 psn|[from] psn|[of] p1a: Zapdos
+|
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|-heal|p2a: Machamp|46/100 psn|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|c|☆Hidol|gg
+
+|
+|move|p1a: Zapdos|Thunder|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|win|Indra Last

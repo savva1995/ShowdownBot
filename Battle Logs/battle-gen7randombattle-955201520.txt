@@ -1,0 +1,360 @@
+|init|battle
+|title|The Fall of Rome vs. Vorevirus
+|j|☆The Fall of Rome
+|j|☆Vorevirus
+|player|p1|The Fall of Rome|erika-gen2|1470
+|player|p2|Vorevirus|166|1429
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Diancie|Diancie, L80|100/100
+|switch|p2a: Golurk|Golurk, L88|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vorevirus)
+|inactive|The Fall of Rome has 120 seconds left.
+
+|inactive|The Fall of Rome has 90 seconds left.
+
+|
+|switch|p1a: Kingdra|Kingdra, L85, F|100/100
+|move|p2a: Golurk|Rock Polish|p2a: Golurk
+|-boost|p2a: Golurk|spe|2
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Golurk|Dynamic Punch|p1a: Kingdra
+|-damage|p1a: Kingdra|68/100
+|-start|p1a: Kingdra|confusion
+|-activate|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Waterfall|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|21/100
+|-damage|p1a: Kingdra|58/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Golurk|Earthquake|p1a: Kingdra
+|-damage|p1a: Kingdra|9/100
+|-end|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Rain Dance|p1a: Kingdra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p1a: Kingdra|Waterfall|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-damage|p1a: Kingdra|0 fnt|[from] item: Life Orb
+|faint|p2a: Golurk
+|faint|p1a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Accelgor|Accelgor, L86, F|100/100
+|switch|p2a: Blissey|Blissey, L82, F|100/100
+|turn|5
+
+|
+|move|p1a: Accelgor|Yawn|p2a: Blissey
+|-start|p2a: Blissey|move: Yawn|[of] p1a: Accelgor
+|move|p2a: Blissey|Thunder Wave|p1a: Accelgor
+|-status|p1a: Accelgor|par
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Accelgor|ability: Hydration
+|-curestatus|p1a: Accelgor|par|[msg]
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Durant|Durant, L83, F|100/100
+|move|p2a: Blissey|Stealth Rock|p1a: Durant
+|-sidestart|p1: The Fall of Rome|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Blissey|move: Yawn|[silent]
+|-status|p2a: Blissey|slp
+|upkeep
+|turn|7
+
+|c|☆Vorevirus|oh hm
+
+|
+|switch|p2a: Hariyama|Hariyama, L86, F|100/100
+|move|p1a: Durant|Hone Claws|p1a: Durant
+|-boost|p1a: Durant|atk|1
+|-boost|p1a: Durant|accuracy|1
+|
+|-weather|none
+|upkeep
+|turn|8
+
+|
+|move|p1a: Durant|Superpower|p2a: Hariyama
+|-damage|p2a: Hariyama|9/100
+|-unboost|p1a: Durant|atk|1
+|-unboost|p1a: Durant|def|1
+|-damage|p1a: Durant|91/100|[from] item: Life Orb
+|move|p2a: Hariyama|Close Combat|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|-unboost|p2a: Hariyama|def|1
+|-unboost|p2a: Hariyama|spd|1
+|-damage|p2a: Hariyama|0 fnt|[from] item: Life Orb
+|faint|p1a: Durant
+|faint|p2a: Hariyama
+|
+|upkeep
+
+|
+|switch|p1a: Kyogre|Kyogre, L78|100/100
+|switch|p2a: Blissey|Blissey, L82, F|100/100
+|-damage|p1a: Kyogre|88/100|[from] Stealth Rock
+|detailschange|p1a: Kyogre|Kyogre-Primal, L78
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|9
+
+|
+|-weather|none
+|switch|p1a: Accelgor|Accelgor, L86, F|100/100
+|-damage|p1a: Accelgor|76/100|[from] Stealth Rock
+|move|p2a: Blissey|Thunder Wave|p1a: Accelgor
+|-status|p1a: Accelgor|par
+|
+|upkeep
+|turn|10
+
+|c|☆The Fall of Rome|aaa blue orb
+
+|
+|move|p1a: Accelgor|Yawn|p2a: Blissey
+|-start|p2a: Blissey|move: Yawn|[of] p1a: Accelgor
+|move|p2a: Blissey|Seismic Toss|p1a: Accelgor
+|-damage|p1a: Accelgor|46/100 par
+|
+|upkeep
+|turn|11
+
+|c|☆Vorevirus|yea, not drizzle or an
+
+|inactive|Vorevirus has 120 seconds left.
+
+|
+|move|p1a: Accelgor|Bug Buzz|p2a: Blissey
+|-damage|p2a: Blissey|82/100
+|-damage|p1a: Accelgor|36/100 par|[from] item: Life Orb
+|move|p2a: Blissey|Seismic Toss|p1a: Accelgor
+|-damage|p1a: Accelgor|7/100 par
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|-end|p2a: Blissey|move: Yawn|[silent]
+|-status|p2a: Blissey|slp
+|upkeep
+|turn|12
+
+|
+|move|p1a: Accelgor|Bug Buzz|p2a: Blissey
+|-damage|p2a: Blissey|71/100 slp
+|-damage|p1a: Accelgor|0 fnt|[from] item: Life Orb
+|faint|p1a: Accelgor
+|cant|p2a: Blissey|slp
+|
+|-heal|p2a: Blissey|77/100 slp|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Kyogre|Kyogre-Primal, L78|88/100
+|-damage|p1a: Kyogre|76/100|[from] Stealth Rock
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|13
+
+|
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Kyurem|Kyurem, L83|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Kyogre|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|72/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Kyurem|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|53/100
+|move|p1a: Kyogre|Ice Beam|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Kyurem|59/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Kyurem|Outrage|p1a: Kyogre
+|-damage|p1a: Kyogre|13/100
+|move|p1a: Kyogre|Ice Beam|p2a: Kyurem
+|-damage|p2a: Kyurem|33/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Kyurem|39/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Kyurem|Outrage|p1a: Kyogre|[from]lockedmove
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-weather|none
+|
+|-heal|p2a: Kyurem|45/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Diancie|Diancie, L80|100/100
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|turn|17
+
+|
+|detailschange|p1a: Diancie|Diancie-Mega, L80
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+
+|
+|switch|p2a: Escavalier|Escavalier, L84, F|100/100
+|turn|18
+
+|
+|move|p1a: Diancie|Hidden Power|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-damage|p2a: Escavalier|16/100
+|move|p2a: Escavalier|Pursuit|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|80/100
+|
+|-heal|p2a: Escavalier|22/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Diancie|Hidden Power|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-crit|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|upkeep
+
+|
+|switch|p2a: Blissey|Blissey, L82, F|77/100
+|turn|20
+
+|
+|move|p1a: Diancie|Calm Mind|p1a: Diancie
+|-boost|p1a: Diancie|spa|1
+|-boost|p1a: Diancie|spd|1
+|move|p2a: Blissey|Seismic Toss|p1a: Diancie
+|-damage|p1a: Diancie|41/100
+|
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Diancie|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|57/100
+|move|p2a: Blissey|Seismic Toss|p1a: Diancie
+|-damage|p1a: Diancie|2/100
+|
+|-heal|p2a: Blissey|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Diancie|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|38/100
+|move|p2a: Blissey|Seismic Toss|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|-heal|p2a: Blissey|44/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Zebstrika|Zebstrika, L89, F|100/100
+|-damage|p1a: Zebstrika|88/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p1a: Zebstrika|Wild Charge|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-damage|p1a: Zebstrika|67/100|[from] Recoil
+|faint|p2a: Blissey
+|
+|upkeep
+
+|
+|switch|p2a: Meowstic|Meowstic-F, L89, F|100/100
+|turn|24
+
+|c|☆The Fall of Rome|i didn't realise it had wild charge lmao
+
+|
+|move|p1a: Zebstrika|Overheat|p2a: Meowstic
+|-damage|p2a: Meowstic|66/100
+|-unboost|p1a: Zebstrika|spa|2
+|move|p2a: Meowstic|Thunderbolt|p1a: Zebstrika
+|-resisted|p1a: Zebstrika
+|-damage|p1a: Zebstrika|47/100
+|
+|upkeep
+|turn|25
+
+|c|☆Vorevirus|Fuck
+
+|c|☆Vorevirus|no
+
+|c|☆Vorevirus|misclick
+
+|
+|move|p1a: Zebstrika|Wild Charge|p2a: Meowstic
+|-damage|p2a: Meowstic|27/100
+|-damage|p1a: Zebstrika|37/100|[from] Recoil
+|move|p2a: Meowstic|Thunderbolt|p1a: Zebstrika
+|-resisted|p1a: Zebstrika
+|-damage|p1a: Zebstrika|15/100
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Zebstrika|Wild Charge|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|-damage|p1a: Zebstrika|9/100|[from] Recoil
+|faint|p2a: Meowstic
+|
+|win|The Fall of Rome

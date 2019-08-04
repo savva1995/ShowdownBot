@@ -1,0 +1,232 @@
+|init|battle
+|title|boy go deeper vs. Ruspy
+|j|☆boy go deeper
+|j|☆Ruspy
+|player|p1|boy go deeper|184|1463
+|player|p2|Ruspy|265|1414
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hariyama|Hariyama, L82, F|100/100
+|switch|p1b: Marshadow|Marshadow, L70|100/100
+|switch|p2a: Stantler|Stantler, L83, F|100/100
+|switch|p2b: Victini|Victini, L70|100/100
+|-ability|p2a: Stantler|Intimidate|boost
+|-unboost|p1a: Hariyama|atk|1
+|-unboost|p1b: Marshadow|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ruspy)
+|
+|switch|p1b: Diggersby|Diggersby, L81, F|100/100
+|move|p1a: Hariyama|Fake Out|p2b: Victini
+|-damage|p2b: Victini|89/100
+|-damage|p1a: Hariyama|90/100|[from] item: Life Orb
+|move|p2a: Stantler|Sucker Punch||[still]
+|-fail|p2a: Stantler
+|cant|p2b: Victini|flinch
+|
+|upkeep
+|turn|2
+|inactive|Ruspy has 120 seconds left.
+|l|☆boy go deeper
+|inactive|boy go deeper disconnected and has a minute to reconnect!
+|player|p1|
+
+|inactive|Ruspy has 90 seconds left.
+
+|j|☆boy go deeper
+
+|inactive|boy go deeper reconnected.
+
+|player|p1|boy go deeper|184
+
+|inactive|Ruspy has 60 seconds left.
+
+|
+|switch|p1a: Fearow|Fearow, L85, F|100/100
+|move|p2a: Stantler|Return|p1b: Diggersby
+|-damage|p1b: Diggersby|44/100
+|-damage|p2a: Stantler|91/100|[from] item: Life Orb
+|move|p2b: Victini|Psychic|p1a: Fearow
+|-damage|p1a: Fearow|57/100
+|-damage|p2b: Victini|79/100|[from] item: Life Orb
+|move|p1b: Diggersby|Earthquake|p2b: Victini|[spread] p2a,p2b
+|-immune|p1a: Fearow
+|-supereffective|p2b: Victini
+|-damage|p2a: Stantler|20/100
+|-damage|p2b: Victini|0 fnt
+|-damage|p1b: Diggersby|34/100|[from] item: Life Orb
+|faint|p2b: Victini
+|
+|upkeep
+
+|inactive|Ruspy has 60 seconds left.
+
+|
+|switch|p2b: Haxorus|Haxorus, L75, M|100/100
+|-ability|p2b: Haxorus|Mold Breaker
+|turn|3
+
+|inactive|Ruspy has 60 seconds left.
+
+|
+|move|p1a: Fearow|Double-Edge|p2a: Stantler
+|-damage|p2a: Stantler|0 fnt
+|-damage|p1a: Fearow|50/100|[from] Recoil
+|-damage|p1a: Fearow|40/100|[from] item: Life Orb
+|faint|p2a: Stantler
+|move|p2b: Haxorus|Dragon Dance|p2b: Haxorus
+|-boost|p2b: Haxorus|atk|1
+|-boost|p2b: Haxorus|spe|1
+|move|p1b: Diggersby|Return|p2b: Haxorus
+|-damage|p2b: Haxorus|20/100
+|-damage|p1b: Diggersby|24/100|[from] item: Life Orb
+|
+|upkeep
+
+|
+|switch|p2a: Zygarde|Zygarde, L70|100/100
+|turn|4
+
+|inactive|Ruspy has 90 seconds left.
+
+|
+|move|p1a: Fearow|Quick Attack|p2b: Haxorus
+|-damage|p2b: Haxorus|0 fnt
+|-damage|p1a: Fearow|31/100|[from] item: Life Orb
+|faint|p2b: Haxorus
+|move|p2a: Zygarde|Thousand Arrows|p1a: Fearow|[spread] p1a,p1b
+|-damage|p1a: Fearow|6/100
+|-damage|p1b: Diggersby|1/100
+|-start|p1a: Fearow|Smack Down
+|move|p1b: Diggersby|Return|p2a: Zygarde
+|-crit|p2a: Zygarde
+|-damage|p2a: Zygarde|9/100
+|-damage|p1b: Diggersby|0 fnt|[from] item: Life Orb
+|faint|p1b: Diggersby
+|
+|-activate|p2a: Zygarde|ability: Power Construct
+|detailschange|p2a: Zygarde|Zygarde-Complete, L70
+|-heal|p2a: Zygarde|42/100|[silent]
+|upkeep
+
+|inactive|Ruspy has 90 seconds left.
+
+|
+|switch|p2b: Garbodor|Garbodor, L82, F|100/100
+|switch|p1b: Marshadow|Marshadow, L70|100/100
+|turn|5
+
+|
+|move|p2a: Zygarde|Protect|p2a: Zygarde
+|-singleturn|p2a: Zygarde|Protect
+|move|p1a: Fearow|Drill Run|p2b: Garbodor
+|-supereffective|p2b: Garbodor
+|-damage|p2b: Garbodor|45/100
+|-damage|p1a: Fearow|0 fnt|[from] item: Life Orb
+|faint|p1a: Fearow
+|move|p1b: Marshadow|Ice Punch|p2a: Zygarde
+|-activate|p2a: Zygarde|move: Protect
+|move|p2b: Garbodor|Rock Blast|p1b: Marshadow
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|95/100
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|90/100
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|84/100
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|79/100
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|73/100
+|-hitcount|p1b: Marshadow|5
+|-damage|p2b: Garbodor|35/100|[from] item: Life Orb
+|
+|upkeep
+
+|
+|switch|p1a: Hariyama|Hariyama, L85, F|100/100
+|turn|6
+
+|
+|move|p1a: Hariyama|Dark Pulse|p2b: Garbodor
+|-damage|p2b: Garbodor|0 fnt
+|faint|p2b: Garbodor
+|move|p1b: Marshadow|Ice Punch|p2a: Zygarde
+|-supereffective|p2a: Zygarde
+|-enditem|p2a: Zygarde|Yache Berry|[eat]
+|-enditem|p2a: Zygarde|Yache Berry|[weaken]
+|-damage|p2a: Zygarde|12/100
+|-damage|p1b: Marshadow|63/100|[from] item: Life Orb
+|move|p2a: Zygarde|Thousand Arrows|p1b: Marshadow|[spread] p1a,p1b
+|-damage|p1a: Hariyama|71/100
+|-damage|p1b: Marshadow|37/100
+|replace|p1a: Zoroark|Zoroark, L85, M
+|-end|p1a: Zoroark|Illusion
+|
+|upkeep
+
+|
+|switch|p2b: Gallade|Gallade, L70, M|100/100
+|turn|7
+
+|
+|detailschange|p2b: Gallade|Gallade-Mega, L70, M
+|-mega|p2b: Gallade|Gallade|Galladite
+|move|p2a: Zygarde|Protect|p2a: Zygarde
+|-singleturn|p2a: Zygarde|Protect
+|move|p1a: Zoroark|Dark Pulse|p2b: Gallade
+|-damage|p2b: Gallade|49/100
+|move|p1b: Marshadow|Ice Punch|p2a: Zygarde
+|-activate|p2a: Zygarde|move: Protect
+|move|p2b: Gallade|Knock Off|p1b: Marshadow
+|-damage|p1b: Marshadow|0 fnt
+|-enditem|p1b: Marshadow|Life Orb|[from] move: Knock Off|[of] p2b: Gallade
+|faint|p1b: Marshadow
+|
+|upkeep
+
+|
+|switch|p1b: Hariyama|Hariyama, L82, F|90/100
+|turn|8
+
+|
+|move|p1b: Hariyama|Fake Out|p2b: Gallade
+|-damage|p2b: Gallade|27/100
+|-damage|p1b: Hariyama|80/100|[from] item: Life Orb
+|move|p1a: Zoroark|Dark Pulse|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|faint|p2a: Zygarde
+|move|p2b: Gallade|Close Combat|p1a: Zoroark
+|-supereffective|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-unboost|p2b: Gallade|def|1
+|-unboost|p2b: Gallade|spd|1
+|faint|p1a: Zoroark
+|
+|upkeep
+
+|
+|switch|p1a: Amoonguss|Amoonguss, L83, F|100/100
+|turn|9
+
+|inactive|Ruspy has 120 seconds left.
+
+|
+|move|p2b: Gallade|Ice Punch|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|54/100
+|move|p1b: Hariyama|Close Combat|p2b: Gallade
+|-resisted|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|-unboost|p1b: Hariyama|def|1
+|-unboost|p1b: Hariyama|spd|1
+|-damage|p1b: Hariyama|70/100|[from] item: Life Orb
+|faint|p2b: Gallade
+|
+|win|boy go deeper

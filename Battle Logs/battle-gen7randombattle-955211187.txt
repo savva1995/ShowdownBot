@@ -1,0 +1,352 @@
+|init|battle
+|title|DnilB vs. domsxy25
+|j|☆DnilB
+|j|☆domsxy25
+|player|p1|DnilB|163|1125
+|player|p2|domsxy25|222|1150
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Smeargle|Smeargle, L89, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DnilB)
+|
+|move|p2a: Jumpluff|Sleep Powder|p1a: Smeargle
+|-status|p1a: Smeargle|slp|[from] move: Sleep Powder
+|cant|p1a: Smeargle|slp
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|cant|p1a: Smeargle|slp
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|-curestatus|p1a: Smeargle|slp|[msg]
+|move|p1a: Smeargle|Sticky Web|p2a: Jumpluff
+|-sidestart|p2: domsxy25|move: Sticky Web
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Jumpluff|Sleep Powder|p1a: Smeargle|[miss]
+|-miss|p2a: Jumpluff|p1a: Smeargle
+|move|p1a: Smeargle|Stealth Rock|p2a: Jumpluff
+|-sidestart|p2: domsxy25|move: Stealth Rock
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Jumpluff|Sleep Powder|p1a: Smeargle
+|-status|p1a: Smeargle|slp|[from] move: Sleep Powder
+|cant|p1a: Smeargle|slp
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100 slp
+|-curestatus|p1a: Smeargle|slp|[msg]
+|move|p1a: Smeargle|Destiny Bond|p1a: Smeargle
+|-singlemove|p1a: Smeargle|Destiny Bond
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Smeargle|Destiny Bond||[still]
+|-fail|p1a: Smeargle
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|upkeep
+
+|
+|switch|p1a: Charizard|Charizard, L80, F|100/100
+|turn|9
+
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L80, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Jumpluff|Sleep Powder|p1a: Charizard
+|-status|p1a: Charizard|slp|[from] move: Sleep Powder
+|cant|p1a: Charizard|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, F|100/100
+|turn|11
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Jumpluff
+|-damage|p2a: Jumpluff|78/100
+|-damage|p1a: Spiritomb|91/100|[from] item: Life Orb
+|move|p2a: Jumpluff|Acrobatics|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|turn|12
+
+|
+|move|p2a: Jumpluff|Sleep Powder|p1a: Manaphy|[miss]
+|-miss|p2a: Jumpluff|p1a: Manaphy
+|move|p1a: Manaphy|Ice Beam|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|100/100
+|-activate|p2a: Solgaleo|move: Sticky Web
+|-fail|p2a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2a: Solgaleo
+|-damage|p2a: Solgaleo|94/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p1a: Naganadel|Naganadel, L78|100/100
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Naganadel
+|-damage|p1a: Naganadel|39/100
+|
+|-weather|none
+|upkeep
+|turn|14
+
+|
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Naganadel
+|-damage|p1a: Naganadel|0 fnt
+|faint|p1a: Naganadel
+|
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|turn|15
+
+|
+|switch|p2a: Ambipom|Ambipom, L86, F|100/100
+|-damage|p2a: Ambipom|88/100|[from] Stealth Rock
+|-activate|p2a: Ambipom|move: Sticky Web
+|-unboost|p2a: Ambipom|spe|1
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Ambipom|Seed Bomb|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|43/100
+|
+|-heal|p1a: Manaphy|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Manaphy|Surf|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+|
+|-heal|p1a: Manaphy|55/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Solgaleo|Solgaleo, L78|94/100
+|-damage|p2a: Solgaleo|88/100|[from] Stealth Rock
+|-activate|p2a: Solgaleo|move: Sticky Web
+|-fail|p2a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2a: Solgaleo
+|turn|18
+
+|
+|move|p2a: Solgaleo|Earthquake|p1a: Manaphy
+|-damage|p1a: Manaphy|28/100
+|move|p1a: Manaphy|Surf|p2a: Solgaleo
+|-damage|p2a: Solgaleo|0 fnt
+|faint|p2a: Solgaleo
+|
+|-heal|p1a: Manaphy|34/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, L82, F|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|-activate|p2a: Mamoswine|move: Sticky Web
+|-unboost|p2a: Mamoswine|spe|1
+|turn|19
+
+|
+|move|p1a: Manaphy|Energy Ball|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-heal|p1a: Manaphy|40/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Umbreon|Umbreon, L84, M|100/100
+|-activate|p2a: Umbreon|move: Sticky Web
+|-unboost|p2a: Umbreon|spe|1
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: Manaphy|Energy Ball|p2a: Umbreon
+|-damage|p2a: Umbreon|31/100
+|move|p2a: Umbreon|Toxic|p1a: Manaphy
+|-status|p1a: Manaphy|tox
+|
+|-heal|p1a: Manaphy|46/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|37/100|[from] item: Leftovers
+|-damage|p1a: Manaphy|40/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Manaphy|Ice Beam|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p1a: Manaphy|46/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|43/100|[from] item: Leftovers
+|-damage|p1a: Manaphy|34/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|0
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p1a: Manaphy|40/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|49/100|[from] item: Leftovers
+|-damage|p1a: Manaphy|22/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Manaphy|Surf|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|99/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Manaphy|28/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|-damage|p1a: Manaphy|4/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|
+|move|p2a: Umbreon|Protect||[still]
+|-fail|p2a: Umbreon
+|move|p1a: Manaphy|Surf|p2a: Umbreon
+|-damage|p2a: Umbreon|17/100
+|
+|-heal|p1a: Manaphy|10/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|23/100|[from] item: Leftovers
+|-damage|p1a: Manaphy|0 fnt|[from] psn
+|faint|p1a: Manaphy
+|upkeep
+
+|
+|switch|p1a: Comfey|Comfey, L86, F|100/100
+|turn|25
+
+|
+|move|p1a: Comfey|Draining Kiss|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|upkeep
+
+|
+|switch|p2a: Pyroar|Pyroar, L87, M|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: DnilB
+|-activate|p2a: Pyroar|move: Sticky Web
+|-unboost|p2a: Pyroar|spe|1
+|-damage|p2a: Pyroar|76/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p1a: Comfey|Toxic|p2a: Pyroar|[miss]
+|-miss|p1a: Comfey|p2a: Pyroar
+|move|p2a: Pyroar|Fire Blast|p1a: Comfey
+|-damage|p1a: Comfey|50/100
+|
+|-heal|p1a: Comfey|56/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Comfey|Toxic|p2a: Pyroar
+|-status|p2a: Pyroar|tox
+|move|p2a: Pyroar|Sunny Day|p2a: Pyroar
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Comfey|62/100|[from] item: Leftovers
+|-damage|p2a: Pyroar|70/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|move|p1a: Comfey|Draining Kiss|p2a: Pyroar
+|-resisted|p2a: Pyroar
+|-damage|p2a: Pyroar|60/100 tox
+|-heal|p1a: Comfey|72/100|[from] drain|[of] p2a: Pyroar
+|move|p2a: Pyroar|Fire Blast|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|win|domsxy25

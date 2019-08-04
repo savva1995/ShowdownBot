@@ -1,0 +1,325 @@
+|init|battle
+|title|tamexto vs. Albi_HK
+|j|☆tamexto
+|j|☆Albi_HK
+|player|p1|tamexto|153|1245
+|player|p2|Albi_HK|266|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Quagsire|Quagsire, L88, M|100/100
+|switch|p2a: Gourgeist|Gourgeist-Small, L89, M|100/100
+|-item|p1a: Quagsire|Focus Sash|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tamexto)
+|
+|move|p2a: Gourgeist|Leech Seed|p1a: Quagsire
+|-start|p1a: Quagsire|move: Leech Seed
+|move|p1a: Quagsire|Ice Beam|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|54/100
+|
+|-heal|p2a: Gourgeist|61/100|[from] item: Leftovers
+|-damage|p1a: Quagsire|88/100|[from] Leech Seed|[of] p2a: Gourgeist
+|-heal|p2a: Gourgeist|76/100|[silent]
+|upkeep
+|turn|2
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-heal|p2a: Gourgeist|82/100|[from] item: Leftovers
+|upkeep
+
+|inactive|tamexto has 120 seconds left.
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|turn|3
+
+|inactive|tamexto has 120 seconds left.
+
+|
+|switch|p2a: Jellicent|Jellicent, L88, M|100/100
+|move|p1a: Volcanion|Fire Blast|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|83/100
+|-status|p2a: Jellicent|brn
+|
+|-heal|p2a: Jellicent|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|83/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|inactive|tamexto has 120 seconds left.
+
+|
+|move|p1a: Volcanion|Substitute|p1a: Volcanion
+|-start|p1a: Volcanion|Substitute
+|-damage|p1a: Volcanion|76/100
+|move|p2a: Jellicent|Toxic|p1a: Volcanion|[miss]
+|-miss|p2a: Jellicent|p1a: Volcanion
+|
+|-heal|p1a: Volcanion|82/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|83/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|inactive|tamexto has 120 seconds left.
+
+|
+|move|p1a: Volcanion|Hidden Power|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|76/100 brn
+|move|p2a: Jellicent|Scald|p1a: Volcanion
+|-heal|p1a: Volcanion|100/100|[from] ability: Water Absorb|[of] p2a: Jellicent
+|
+|-heal|p2a: Jellicent|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|76/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p1a: Volcanion|Fire Blast|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|59/100 brn
+|move|p2a: Jellicent|Shadow Ball|p1a: Volcanion
+|-end|p1a: Volcanion|Substitute
+|
+|-heal|p2a: Jellicent|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|59/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Greninja|Greninja, L80, M|100/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|81/100
+|-unboost|p1a: Greninja|spd|1
+|
+|-heal|p2a: Jellicent|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|59/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Greninja|Toxic Spikes|p2a: Jellicent
+|-start|p1a: Greninja|typechange|Poison|[from] ability: Protean
+|-sidestart|p2: Albi_HK|move: Toxic Spikes
+|move|p2a: Jellicent|Toxic|p1a: Greninja
+|-immune|p1a: Greninja
+|
+|-heal|p2a: Jellicent|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|59/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Greninja|Toxic Spikes|p2a: Jellicent
+|-sidestart|p2: Albi_HK|move: Toxic Spikes
+|move|p2a: Jellicent|Shadow Ball|p1a: Greninja
+|-damage|p1a: Greninja|14/100
+|-unboost|p1a: Greninja|spd|1
+|
+|-heal|p2a: Jellicent|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|59/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Jellicent
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|3/100 brn
+|-damage|p1a: Greninja|4/100|[from] item: Life Orb
+|move|p2a: Jellicent|Shadow Ball|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-heal|p2a: Jellicent|9/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|3/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, F|100/100
+|turn|11
+
+|
+|move|p1a: Vaporeon|Ice Beam|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-crit|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|upkeep
+
+|
+|switch|p2a: Doublade|Doublade, L82, M|100/100
+|turn|12
+
+|inactive|tamexto has 120 seconds left.
+
+|
+|move|p1a: Vaporeon|Scald|p2a: Doublade
+|-damage|p2a: Doublade|60/100
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|upkeep
+|turn|13
+
+|inactive|tamexto has 120 seconds left.
+
+|
+|move|p1a: Vaporeon|Scald|p2a: Doublade
+|-crit|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|upkeep
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L85, F|100/100
+|-status|p2a: Cofagrigus|tox
+|turn|14
+
+|
+|move|p1a: Vaporeon|Scald|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|61/100 tox
+|move|p2a: Cofagrigus|Nasty Plot|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|2
+|
+|-heal|p2a: Cofagrigus|67/100 tox|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|61/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Vaporeon|Scald|p2a: Cofagrigus
+|-crit|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|6/100 tox
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Vaporeon
+|-damage|p1a: Vaporeon|57/100
+|
+|-heal|p1a: Vaporeon|63/100|[from] item: Leftovers
+|-heal|p2a: Cofagrigus|12/100 tox|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|0 fnt|[from] psn
+|faint|p2a: Cofagrigus
+|upkeep
+
+|
+|switch|p2a: Dhelmise|Dhelmise, L86|100/100
+|-status|p2a: Dhelmise|tox
+|turn|16
+
+|
+|move|p1a: Vaporeon|Ice Beam|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|46/100 tox
+|move|p2a: Dhelmise|Power Whip|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-damage|p2a: Dhelmise|36/100 tox|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|-damage|p2a: Dhelmise|30/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Wishiwashi|Wishiwashi, L89, F|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|17
+
+|
+|move|p2a: Dhelmise|Power Whip|p1a: Wishiwashi
+|-supereffective|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|0 fnt
+|-damage|p2a: Dhelmise|20/100 tox|[from] item: Life Orb
+|faint|p1a: Wishiwashi
+|
+|-damage|p2a: Dhelmise|8/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|turn|18
+
+|
+|move|p1a: Volcanion|Hidden Power|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|faint|p2a: Dhelmise
+|
+|upkeep
+
+|
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L78|100/100
+|-status|p2a: Necrozma|tox
+|turn|19
+
+|
+|detailschange|p2a: Necrozma|Necrozma-Ultra, L78
+|-burst|p2a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Necrozma|Photon Geyser|p1a: Volcanion
+|-damage|p1a: Volcanion|47/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|74/100 tox
+|
+|-heal|p1a: Volcanion|53/100|[from] item: Leftovers
+|-damage|p2a: Necrozma|68/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|-zpower|p2a: Necrozma
+|move|p2a: Necrozma|Light That Burns the Sky|p1a: Volcanion|[zeffect]
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-damage|p2a: Necrozma|56/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Slowbro|Slowbro, L83, F|100/100
+|turn|21
+
+|
+|detailschange|p1a: Slowbro|Slowbro-Mega, L83, F
+|-mega|p1a: Slowbro|Slowbro|Slowbronite
+|move|p2a: Necrozma|Moongeist Beam|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|16/100
+|move|p1a: Slowbro|Ice Beam|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+
+|
+|switch|p2a: Gourgeist|Gourgeist-Small, L89, M|82/100
+|-status|p2a: Gourgeist|tox
+|-item|p1a: Slowbro|Slowbronite|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|22
+
+|
+|move|p2a: Gourgeist|Shadow Sneak|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|win|Albi_HK

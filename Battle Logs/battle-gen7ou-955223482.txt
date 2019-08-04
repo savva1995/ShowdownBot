@@ -1,0 +1,264 @@
+|init|battle
+|title|LT63RB Michy vs. LT63RB union
+|j|☆LT63RB Michy
+|j|☆LT63RB union
+|player|p1|LT63RB Michy|265|1832
+|player|p2|LT63RB union|134|1806
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Charizard, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Serperior, F|item
+|poke|p2|Hoopa-Unbound|item
+|poke|p2|Greninja, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LT63RB Michy)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|1
+
+|j| KVR_1993
+
+|
+|switch|p2a: Serperior|Serperior, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Serperior|[miss]
+|-miss|p1a: Rotom|p2a: Serperior
+|
+|upkeep
+|turn|2
+
+|j| Givrix
+
+|c| Givrix|behold michou
+
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Serperior|Leaf Storm|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|85/100
+|-boost|p2a: Serperior|spa|2
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|detailschange|p1a: Charizard|Charizard-Mega-Y, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1a: Charizard|Flamethrower|p2a: Landorus
+|-damage|p2a: Landorus|8/100
+|-status|p2a: Landorus|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Landorus|2/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: LT63RB Michy|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Landorus|0 fnt|[from] brn
+|faint|p2a: Landorus
+|upkeep
+
+|j| LT63RB Ash
+
+|j| SOMALIA
+
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|5
+
+|j| Double Biceps
+
+|j| Dogerunner
+
+|
+|move|p1a: Landorus|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: LT63RB Michy|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|move|p2a: Rotom|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Landorus|95/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100|[from]move: Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|l| Double Biceps
+
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Hoopa|Drain Punch|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|82/100
+|
+|-weather|none
+|-heal|p1a: Clefable|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|switch|p1a: Charizard|Charizard-Mega-Y, M|85/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam|p2a: Rotom
+|-anim|p1a: Charizard|Solar Beam|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|9/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Charizard|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|11
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Hoopa|Gunk Shot|p1a: Rotom|[miss]
+|-miss|p2a: Hoopa|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+
+|
+|move|p2a: Hoopa|Gunk Shot|p1a: Rotom
+|-damage|p1a: Rotom|28/100
+|move|p1a: Rotom|Volt Switch|p2a: Hoopa
+|-damage|p2a: Hoopa|70/100
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hoopa|64/100|[from] Sandstorm
+|upkeep
+|turn|13
+
+|
+|move|p2a: Hoopa|Gunk Shot|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|68/100
+|move|p1a: Tyranitar|Pursuit|p2a: Hoopa
+|-damage|p2a: Hoopa|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hoopa|19/100|[from] Sandstorm
+|upkeep
+|turn|14
+
+|l|☆LT63RB union
+
+|inactive|LT63RB union disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|LT63RB union has 30 seconds to reconnect!
+
+|j|☆LT63RB union
+
+|inactive|LT63RB union reconnected and has 100 seconds left.
+
+|player|p2|LT63RB union|134
+
+|inactive|LT63RB union has 90 seconds left.
+
+|
+|-activate|p2a: Hoopa|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Hoopa|[from]Pursuit
+|-damage|p2a: Hoopa|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Hoopa
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|l| Dogerunner
+
+|l|☆LT63RB union
+
+|inactive|LT63RB union disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|LT63RB union has 30 seconds to reconnect!
+
+|inactive|LT63RB union has 20 seconds to reconnect!
+
+|inactive|LT63RB union has 15 seconds to reconnect!
+
+|inactive|LT63RB union has 10 seconds to reconnect!
+
+|inactive|LT63RB union has 5 seconds to reconnect!
+
+|-message|LT63RB union lost due to inactivity.
+|
+|win|LT63RB Michy

@@ -1,0 +1,280 @@
+|init|battle
+|title|butters6224 vs. 0dad0
+|j|☆butters6224
+|j|☆0dad0
+|player|p1|butters6224|265|1066
+|player|p2|0dad0|169|1060
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tapu Bulu|item
+|poke|p1|Scizor, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Greninja, F|item
+|poke|p1|Zapdos|item
+|poke|p2|Golisopod, M|item
+|poke|p2|Shedinja|item
+|poke|p2|Leavanny, F|item
+|poke|p2|Scolipede, F|item
+|poke|p2|Durant, M|item
+|poke|p2|Accelgor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by butters6224)
+|
+|start
+|switch|p1a: Vache kiwi|Tapu Bulu, shiny|100/100
+|switch|p2a: Golisopod|Golisopod, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Vache kiwi
+|turn|1
+|
+|move|p2a: Golisopod|First Impression|p1a: Vache kiwi
+|-damage|p1a: Vache kiwi|54/100
+|move|p1a: Vache kiwi|Swords Dance|p1a: Vache kiwi
+|-boost|p1a: Vache kiwi|atk|2
+|
+|-heal|p1a: Vache kiwi|60/100|[from] item: Leftovers
+|-heal|p1a: Vache kiwi|66/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|switch|p2a: Durant|Durant, M|100/100
+|move|p1a: Vache kiwi|Leech Seed|p2a: Durant
+|-start|p2a: Durant|move: Leech Seed
+|
+|-heal|p1a: Vache kiwi|72/100|[from] item: Leftovers
+|-heal|p1a: Vache kiwi|78/100|[from] Grassy Terrain
+|-damage|p2a: Durant|88/100|[from] Leech Seed|[of] p1a: Vache kiwi
+|-heal|p1a: Vache kiwi|88/100|[silent]
+|upkeep
+|turn|3
+|
+|move|p2a: Durant|Iron Head|p1a: Vache kiwi
+|-supereffective|p1a: Vache kiwi
+|-damage|p1a: Vache kiwi|0 fnt
+|-damage|p2a: Durant|78/100|[from] item: Life Orb
+|faint|p1a: Vache kiwi
+|
+|-heal|p2a: Durant|85/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Le Requin|Heatran, F, shiny|100/100
+|-item|p1a: Le Requin|Air Balloon
+|turn|4
+
+|
+|switch|p2a: Golisopod|Golisopod, M|100/100
+|move|p1a: Le Requin|Lava Plume|p2a: Golisopod
+|-damage|p2a: Golisopod|65/100
+|
+|-heal|p2a: Golisopod|71/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|-zpower|p2a: Golisopod
+|move|p2a: Golisopod|Hydro Vortex|p1a: Zapdos|[zeffect]
+|-damage|p1a: Zapdos|28/100
+|
+|-heal|p2a: Golisopod|77/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+
+|
+|move|p2a: Golisopod|Aqua Jet|p1a: Zapdos
+|-damage|p1a: Zapdos|9/100
+|-damage|p2a: Golisopod|61/100|[from] item: Rocky Helmet|[of] p1a: Zapdos
+|move|p1a: Zapdos|Discharge|p2a: Golisopod
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|faint|p2a: Golisopod
+|
+|upkeep
+
+|
+|switch|p2a: Shedinja|Shedinja|100/100
+|turn|7
+
+|
+|move|p2a: Shedinja|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-damage|p2a: Shedinja|0 fnt|[from] item: Rocky Helmet|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|faint|p2a: Shedinja
+|
+|upkeep
+
+|
+|switch|p1a: Le Requin|Heatran, F, shiny|100/100
+|switch|p2a: Scolipede|Scolipede, F|100/100
+|-item|p1a: Le Requin|Air Balloon
+|turn|8
+
+|
+|move|p2a: Scolipede|Aqua Tail|p1a: Le Requin
+|-supereffective|p1a: Le Requin
+|-damage|p1a: Le Requin|56/100
+|-enditem|p1a: Le Requin|Air Balloon
+|move|p1a: Le Requin|Taunt|p2a: Scolipede
+|-start|p2a: Scolipede|move: Taunt
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|9
+
+|
+|move|p2a: Scolipede|Aqua Tail|p1a: Le Requin
+|-supereffective|p1a: Le Requin
+|-crit|p1a: Le Requin
+|-damage|p1a: Le Requin|0 fnt
+|faint|p1a: Le Requin
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, F, shiny|100/100
+|turn|10
+
+|
+|move|p2a: Scolipede|Double-Edge|p1a: Greninja
+|-damage|p1a: Greninja|41/100
+|-damage|p2a: Scolipede|79/100|[from] Recoil
+|move|p1a: Greninja|Ice Beam|p2a: Scolipede
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-damage|p2a: Scolipede|41/100
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Scolipede|Aqua Tail|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|84/100
+|
+|-end|p2a: Scolipede|move: Taunt
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|12
+
+|
+|move|p2a: Scolipede|Poison Jab|p1a: Keldeo
+|-damage|p1a: Keldeo|39/100
+|move|p1a: Keldeo|Secret Sword|p2a: Scolipede
+|-resisted|p2a: Scolipede
+|-crit|p2a: Scolipede
+|-damage|p2a: Scolipede|8/100
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|13
+
+|
+|move|p2a: Scolipede|Poison Jab|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p1a: Janken|Scizor, M, shiny|100/100
+|turn|14
+
+|
+|detailschange|p1a: Janken|Scizor-Mega, M, shiny
+|-mega|p1a: Janken|Scizor|Scizorite
+|move|p1a: Janken|Bullet Punch|p2a: Scolipede
+|-crit|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|upkeep
+
+|
+|switch|p2a: Durant|Durant, M|85/100
+|turn|15
+
+|
+|move|p2a: Durant|Superpower|p1a: Janken
+|-damage|p1a: Janken|65/100
+|-unboost|p2a: Durant|atk|1
+|-unboost|p2a: Durant|def|1
+|-damage|p2a: Durant|75/100|[from] item: Life Orb
+|move|p1a: Janken|Swords Dance|p1a: Janken
+|-boost|p1a: Janken|atk|2
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Janken|Bullet Punch|p2a: Durant
+|-resisted|p2a: Durant
+|-damage|p2a: Durant|11/100
+|move|p2a: Durant|Stone Edge|p1a: Janken
+|-damage|p1a: Janken|46/100
+|-damage|p2a: Durant|1/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Janken|Bullet Punch|p2a: Durant
+|-resisted|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|upkeep
+
+|
+|switch|p2a: Accelgor|Accelgor, M|100/100
+|turn|18
+
+|
+|move|p1a: Janken|Bullet Punch|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|
+|upkeep
+
+|
+|switch|p2a: Leavanny|Leavanny, F|100/100
+|turn|19
+
+|
+|move|p2a: Leavanny|Entrainment|p1a: Janken
+|-endability|p1a: Janken|Technician|[from] move: Entrainment
+|-ability|p1a: Janken|Swarm|[from] move: Entrainment
+|move|p1a: Janken|Swords Dance|p1a: Janken
+|-boost|p1a: Janken|atk|2
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Janken|Bullet Punch|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|win|butters6224

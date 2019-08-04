@@ -1,0 +1,175 @@
+|init|battle
+|title|dedrlver vs. KingMachans
+|j|☆dedrlver
+|j|☆KingMachans
+|player|p1|dedrlver|162|1049
+|player|p2|KingMachans|274|1054
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Beedrill, F|item
+|poke|p1|Magneton|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Blissey, F|item
+|poke|p2|Infernape, M|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Steelix, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Suicune|item
+|poke|p2|Latias, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dedrlver)
+
+|
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|1
+
+|inactive|KingMachans has 120 seconds left.
+
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Infernape|U-turn|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|76/100
+
+|
+|switch|p2a: Gengar|Gengar, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Slowbro|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Gengar|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|move|p1a: Blissey|Toxic|p2a: Infernape|[miss]
+|-miss|p1a: Blissey|p2a: Infernape
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Infernape|Close Combat|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|86/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|
+|-heal|p1a: Slowbro|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Slowbro|atk|1
+|move|p1a: Slowbro|Toxic|p2a: Krookodile
+|-status|p2a: Krookodile|tox
+|
+|-heal|p1a: Slowbro|98/100|[from] item: Leftovers
+|-damage|p2a: Krookodile|94/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Krookodile|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|41/100
+|-enditem|p1a: Slowbro|Leftovers|[from] move: Knock Off|[of] p2a: Krookodile
+|move|p1a: Slowbro|Scald|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|15/100 tox
+|
+|-damage|p2a: Krookodile|3/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|switch|p1a: Forretress|Forretress, M|100/100
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Slowbro|Slowbro, M|75/100
+|move|p2a: Infernape|Thunder Punch|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|40/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Infernape|Thunder Punch|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|7/100
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|-heal|p1a: Slowbro|100/100 slp|[silent]
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|cant|p1a: Slowbro|slp
+|
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-zpower|p2a: Gengar
+|move|p2a: Gengar|All-Out Pummeling|p1a: Blissey|[zeffect]
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|55/100
+|
+|-heal|p1a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Gengar|Focus Blast|p1a: Blissey|[miss]
+|-miss|p2a: Gengar|p1a: Blissey
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|upkeep
+|turn|14
+
+|-message|KingMachans forfeited.
+
+|
+|win|dedrlver

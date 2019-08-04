@@ -1,0 +1,410 @@
+|init|battle
+|title|Advbp ctc rap fan vs. advbp smbt
+|j|☆Advbp ctc rap fan
+|j|☆advbp smbt
+|player|p1|Advbp ctc rap fan|101|1195
+|player|p2|advbp smbt|2|1049
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|3
+|tier|[Gen 3] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Switch Priority Clause Mod: Faster Pokémon switch first
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Milotic|Milotic, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Milotic|Surf|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Milotic|Surf|p2a: Blissey
+|-damage|p2a: Blissey|72/100
+|move|p2a: Blissey|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|57/100|[from] Sandstorm
+|-damage|p2a: Blissey|66/100|[from] Sandstorm
+|-heal|p1a: Milotic|63/100|[from] item: Leftovers
+|-heal|p2a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-damage|p2a: Blissey|66/100|[from] Sandstorm
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Blissey|Thunderbolt|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|61/100|[from] Sandstorm
+|-damage|p2a: Blissey|66/100|[from] Sandstorm
+|-heal|p2a: Blissey|72/100|[from] item: Leftovers
+|-heal|p1a: Blissey|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|94/100|[from] Sandstorm
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|84/100
+|move|p1a: Blissey|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|87/100|[from] Sandstorm
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Blissey|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-damage|p2a: Blissey|87/100 tox|[from] Sandstorm
+|-heal|p2a: Blissey|93/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|-damage|p2a: Blissey|87/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Blissey|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Skarmory|81/100|[from] item: Leftovers
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Skarmory|Spikes|p1a: Blissey
+|-sidestart|p1: Advbp ctc rap fan|Spikes
+|move|p1a: Blissey|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-heal|p2a: Skarmory|30/100|[from] item: Leftovers
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Blissey|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|78/100|[from] Sandstorm
+|-heal|p1a: Blissey|84/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Tyranitar|Focus Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|35/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Skarmory|Protect|p1a: Skarmory
+|-singleturn|p1a: Skarmory|Protect
+|move|p2a: Tyranitar|Focus Punch|p1a: Skarmory
+|-activate|p1a: Skarmory|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|41/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|64/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Gengar|Will-O-Wisp|p1a: Claydol
+|-status|p1a: Claydol|brn
+|move|p1a: Claydol|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-damage|p1a: Claydol|88/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Blissey|Blissey, F|87/100
+|move|p1a: Claydol|Refresh|p1a: Claydol
+|-curestatus|p1a: Claydol|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-heal|p1a: Claydol|94/100|[from] item: Leftovers
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Blissey|Blissey, F|84/100
+|-damage|p1a: Blissey|72/100|[from] Spikes
+|move|p2a: Blissey|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-damage|p1a: Blissey|56/100|[from] Sandstorm
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|-heal|p1a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|move|p1a: Blissey|Ice Beam|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+
+|
+|switch|p2a: Skarmory|Skarmory, M|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|35/100|[from] Sandstorm
+|-heal|p2a: Skarmory|36/100|[from] item: Leftovers
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Skarmory|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|cant|p1a: Blissey|move: Taunt|Soft-Boiled
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|35/100|[from] Sandstorm
+|-heal|p2a: Skarmory|42/100|[from] item: Leftovers
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Skarmory|Spikes|p1a: Blissey
+|-sidestart|p1: Advbp ctc rap fan|Spikes
+|move|p1a: Blissey|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|64/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|35/100|[from] Sandstorm
+|-heal|p1a: Blissey|42/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|58/100 tox|[from] psn
+|-end|p1a: Blissey|move: Taunt|[silent]
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Skarmory|Skarmory, M|41/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|45/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+
+|
+|switch|p2a: Gengar|Gengar, M|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Claydol|Claydol|94/100
+|move|p2a: Gengar|Ice Punch|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|34/100|[from] Sandstorm
+|-heal|p2a: Gengar|40/100|[from] item: Leftovers
+|-heal|p1a: Claydol|61/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Gengar|Explosion|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p2a: Gengar
+|faint|p1a: Claydol
+
+|
+|switch|p2a: Starmie|Starmie|100/100
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|78/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p2a: Starmie|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|41/100
+|move|p1a: Celebi|Hidden Power|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|9/100|[from] Sandstorm
+|-damage|p1a: Celebi|35/100|[from] Sandstorm
+|-heal|p2a: Starmie|15/100|[from] item: Leftovers
+|-heal|p1a: Celebi|41/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Starmie|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+
+|
+|switch|p1a: Dugtrio|Dugtrio, M|84/100
+|-damage|p1a: Dugtrio|68/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|9/100|[from] Sandstorm
+|-heal|p2a: Starmie|15/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+
+|
+|switch|p2a: Blissey|Blissey, F|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|81/100|[from] Sandstorm
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|win|Advbp ctc rap fan

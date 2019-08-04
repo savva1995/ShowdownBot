@@ -1,0 +1,290 @@
+|init|battle
+|title|Rexooo vs. U.c fun
+|j|☆Rexooo
+|j|☆U.c fun
+|player|p1|Rexooo|101|1119
+|player|p2|U.c fun|169|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Doublade|Doublade, L82, M|100/100
+|switch|p2a: Slowbro|Slowbro, L83, F|100/100
+|turn|1
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|75/100
+|move|p2a: Slowbro|Scald|p1a: Doublade
+|-damage|p1a: Doublade|60/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|move|p2a: Slowbro|Scald|p1a: Doublade
+|-damage|p1a: Doublade|21/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|23/100
+|move|p2a: Slowbro|Scald|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|upkeep
+
+|
+|switch|p1a: Drapion|Drapion, L84, M|100/100
+|turn|4
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Drapion|Toxic Spikes|p2a: Gigalith
+|-sidestart|p2: U.c fun|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drapion|95/100|[from] Sandstorm
+|-heal|p1a: Drapion|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|move|p1a: Drapion|Toxic Spikes|p2a: Gigalith
+|-sidestart|p2: U.c fun|move: Toxic Spikes
+|move|p2a: Gigalith|Earthquake|p1a: Drapion
+|-supereffective|p1a: Drapion
+|-damage|p1a: Drapion|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drapion|27/100|[from] Sandstorm
+|-heal|p1a: Drapion|33/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, M|100/100
+|move|p2a: Gigalith|Earthquake|p1a: Hawlucha
+|-immune|p1a: Hawlucha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Gigalith|Stealth Rock|p1a: Hawlucha
+|-sidestart|p1: Rexooo|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|88/100|[from] Sandstorm
+|upkeep
+|turn|8
+
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|none
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rexooo)
+
+|
+|switch|p2a: Garbodor|Garbodor, L86, M|100/100
+|-sideend|p2: U.c fun|move: Toxic Spikes|[of] p2a: Garbodor
+|turn|9
+
+|
+|switch|p1a: Aggron|Aggron, L82, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|move|p2a: Garbodor|Gunk Shot|p1a: Aggron
+|-immune|p1a: Aggron
+|
+|upkeep
+|turn|10
+
+|
+|detailschange|p1a: Aggron|Aggron-Mega, L82, M
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p2a: Garbodor|Toxic Spikes|p1a: Aggron
+|-sidestart|p1: Rexooo|move: Toxic Spikes
+|move|p1a: Aggron|Heavy Slam|p2a: Garbodor
+|-damage|p2a: Garbodor|61/100
+|
+|-heal|p2a: Garbodor|67/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+
+|
+|move|p2a: Garbodor|Toxic Spikes|p1a: Aggron
+|-sidestart|p1: Rexooo|move: Toxic Spikes
+|move|p1a: Aggron|Heavy Slam|p2a: Garbodor
+|-damage|p2a: Garbodor|30/100
+|
+|-heal|p2a: Garbodor|36/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|
+|move|p2a: Garbodor|Pain Split|p1a: Aggron
+|-sethp|p1a: Aggron|67/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|60/100|[from] move: Pain Split
+|move|p1a: Aggron|Heavy Slam|p2a: Garbodor
+|-damage|p2a: Garbodor|23/100
+|
+|-heal|p2a: Garbodor|29/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|
+|move|p2a: Garbodor|Pain Split|p1a: Aggron
+|-sethp|p1a: Aggron|50/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|45/100|[from] move: Pain Split
+|move|p1a: Aggron|Heavy Slam|p2a: Garbodor
+|-damage|p2a: Garbodor|8/100
+|
+|-heal|p2a: Garbodor|14/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+
+|
+|move|p2a: Garbodor|Pain Split|p1a: Aggron
+|-sethp|p1a: Aggron|33/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|29/100|[from] move: Pain Split
+|move|p1a: Aggron|Heavy Slam|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Aggron|8/100|[from] ability: Aftermath|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|
+|upkeep
+
+|
+|switch|p2a: Garchomp|Garchomp, L80, F|100/100
+|turn|15
+
+|
+|move|p2a: Garchomp|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|
+|switch|p1a: Minior|Minior, L86|100/100
+|-damage|p1a: Minior|76/100|[from] Stealth Rock
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|16
+
+|
+|move|p2a: Garchomp|Stone Edge|p1a: Minior
+|-supereffective|p1a: Minior
+|-damage|p1a: Minior|20/100
+|move|p1a: Minior|Shell Smash|p1a: Minior
+|-unboost|p1a: Minior|def|1
+|-unboost|p1a: Minior|spd|1
+|-boost|p1a: Minior|atk|2
+|-boost|p1a: Minior|spa|2
+|-boost|p1a: Minior|spe|2
+|-enditem|p1a: Minior|White Herb
+|-clearnegativeboost|p1a: Minior|[silent]
+|
+|-formechange|p1a: Minior|Minior||[from] ability: Shields Down
+|upkeep
+|turn|17
+
+|
+|move|p1a: Minior|Earthquake|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|29/100
+|move|p2a: Garchomp|Stone Edge|p1a: Minior
+|-supereffective|p1a: Minior
+|-damage|p1a: Minior|0 fnt
+|faint|p1a: Minior
+|
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, M|88/100
+|-damage|p1a: Hawlucha|75/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Garchomp|[miss]
+|-miss|p1a: Hawlucha|p2a: Garchomp
+|-damage|p1a: Hawlucha|25/100|[from] highjumpkick
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|50/100|[from] item: Sitrus Berry
+|move|p2a: Garchomp|Outrage|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+
+|
+|switch|p1a: Drapion|Drapion, L84, M|33/100
+|-sideend|p1: Rexooo|move: Toxic Spikes|[of] p1a: Drapion
+|-damage|p1a: Drapion|21/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Garchomp|Outrage|p1a: Drapion|[from]lockedmove
+|-damage|p1a: Drapion|0 fnt
+|-start|p2a: Garchomp|confusion|[fatigue]
+|faint|p1a: Drapion
+|-enditem|p2a: Garchomp|Lum Berry|[eat]
+|-end|p2a: Garchomp|confusion
+|
+|upkeep
+
+|
+|switch|p1a: Swalot|Swalot, L89, M|100/100
+|-damage|p1a: Swalot|88/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p2a: Garchomp|Earthquake|p1a: Swalot
+|-supereffective|p1a: Swalot
+|-damage|p1a: Swalot|6/100
+|move|p1a: Swalot|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Swalot|13/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Slowbro|Slowbro, L83, F|56/100
+|turn|21
+
+|
+|detailschange|p2a: Slowbro|Slowbro-Mega, L83, F
+|-mega|p2a: Slowbro|Slowbro|Slowbronite
+|move|p1a: Swalot|Pain Split|p2a: Slowbro
+|-sethp|p2a: Slowbro|35/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Swalot|32/100|[from] move: Pain Split
+|move|p2a: Slowbro|Psyshock|p1a: Swalot
+|-supereffective|p1a: Swalot
+|-damage|p1a: Swalot|0 fnt
+|faint|p1a: Swalot
+|
+|win|U.c fun

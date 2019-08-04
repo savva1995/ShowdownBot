@@ -1,0 +1,276 @@
+|init|battle
+|title|tyroge vs. Kaat1234
+|j|☆tyroge
+|j|☆Kaat1234
+|player|p1|tyroge|265|1043
+|player|p2|Kaat1234|265|1038
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jellicent|Jellicent, L88, F|100/100
+|switch|p2a: Seviper|Seviper, L89, M|100/100
+|turn|1
+|
+|move|p2a: Seviper|Swords Dance|p2a: Seviper
+|-boost|p2a: Seviper|atk|2
+|move|p1a: Jellicent|Scald|p2a: Seviper
+|-damage|p2a: Seviper|62/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Seviper|Swords Dance|p2a: Seviper
+|-boost|p2a: Seviper|atk|2
+|move|p1a: Jellicent|Taunt|p2a: Seviper
+|-start|p2a: Seviper|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Seviper|Dark Pulse|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|67/100
+|move|p1a: Jellicent|Scald|p2a: Seviper
+|-damage|p2a: Seviper|25/100
+|-status|p2a: Seviper|brn
+|
+|-damage|p2a: Seviper|19/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Seviper|Dark Pulse|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|36/100
+|move|p1a: Jellicent|Scald|p2a: Seviper
+|-damage|p2a: Seviper|0 fnt
+|faint|p2a: Seviper
+|
+|upkeep
+|
+|switch|p2a: Drapion|Drapion, L84, M|100/100
+|turn|5
+|
+|move|p2a: Drapion|Swords Dance|p2a: Drapion
+|-boost|p2a: Drapion|atk|2
+|move|p1a: Jellicent|Shadow Ball|p2a: Drapion
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|81/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Drapion|Swords Dance|p2a: Drapion
+|-boost|p2a: Drapion|atk|2
+|move|p1a: Jellicent|Scald|p2a: Drapion
+|-damage|p2a: Drapion|40/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Drapion|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-enditem|p1a: Jellicent|Focus Sash|[from] move: Knock Off|[of] p2a: Drapion
+|-damage|p2a: Drapion|30/100|[from] item: Life Orb
+|faint|p1a: Jellicent
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kaat1234)
+
+|
+|switch|p1a: Vaporeon|Vaporeon, L86, F|100/100
+|turn|8
+
+|
+|move|p2a: Drapion|Poison Jab|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-damage|p2a: Drapion|20/100|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, L80, F|100/100
+|turn|9
+
+|
+|move|p1a: Greninja|Hydro Pump|p2a: Drapion
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p2a: Drapion|0 fnt
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|faint|p2a: Drapion
+|
+|upkeep
+
+|
+|switch|p2a: Vileplume|Vileplume, L85, M|100/100
+|turn|10
+
+|
+|move|p1a: Greninja|Spikes|p2a: Vileplume
+|-start|p1a: Greninja|typechange|Ground|[from] ability: Protean
+|-sidestart|p2: Kaat1234|Spikes
+|move|p2a: Vileplume|Sludge Bomb|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|61/100
+|-status|p1a: Greninja|psn
+|
+|-damage|p1a: Greninja|49/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Vileplume
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Vileplume|64/100
+|-damage|p1a: Greninja|40/100 psn|[from] item: Life Orb
+|move|p2a: Vileplume|Hidden Power|p1a: Greninja
+|-damage|p1a: Greninja|14/100 psn
+|
+|-heal|p2a: Vileplume|70/100|[from] item: Black Sludge
+|-damage|p1a: Greninja|1/100 psn|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Greninja|Hydro Pump|p2a: Vileplume
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|41/100
+|-damage|p1a: Greninja|0 fnt|[from] item: Life Orb
+|faint|p1a: Greninja
+|move|p2a: Vileplume|Strength Sap|p1: Greninja|[notarget]
+|-fail|p2a: Vileplume
+|
+|-heal|p2a: Vileplume|47/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Empoleon|Empoleon, L82, F|100/100
+|turn|13
+
+|
+|move|p1a: Empoleon|Flash Cannon|p2a: Vileplume
+|-damage|p2a: Vileplume|5/100
+|-damage|p1a: Empoleon|91/100|[from] item: Life Orb
+|move|p2a: Vileplume|Aromatherapy||[still]
+|-activate|p2a: Vileplume|move: Aromatherapy
+|-fail|p2a: Vileplume
+|
+|-heal|p2a: Vileplume|11/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+
+|
+|move|p1a: Empoleon|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p1a: Empoleon|81/100|[from] item: Life Orb
+|faint|p2a: Vileplume
+|
+|upkeep
+
+|
+|switch|p2a: Nihilego|Nihilego, L82|100/100
+|-item|p2a: Nihilego|Air Balloon
+|turn|15
+
+|
+|move|p2a: Nihilego|Grass Knot|p1a: Empoleon
+|-damage|p1a: Empoleon|60/100
+|move|p1a: Empoleon|Ice Beam|p2a: Nihilego
+|-crit|p2a: Nihilego
+|-damage|p2a: Nihilego|68/100
+|-enditem|p2a: Nihilego|Air Balloon
+|-damage|p1a: Empoleon|50/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Nihilego|Toxic Spikes|p1a: Empoleon
+|-sidestart|p1: tyroge|move: Toxic Spikes
+|move|p1a: Empoleon|Hydro Pump|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|-damage|p1a: Empoleon|40/100|[from] item: Life Orb
+|faint|p2a: Nihilego
+|
+|upkeep
+
+|
+|switch|p2a: Scolipede|Scolipede, L81, F|100/100
+|-damage|p2a: Scolipede|88/100|[from] Spikes
+|turn|17
+
+|
+|move|p2a: Scolipede|Earthquake|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|-damage|p2a: Scolipede|78/100|[from] item: Life Orb
+|faint|p1a: Empoleon
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p1a: Basculin|Basculin, L89, M|100/100
+|-status|p1a: Basculin|psn
+|turn|18
+
+|
+|move|p2a: Scolipede|Megahorn|p1a: Basculin
+|-damage|p1a: Basculin|33/100 psn
+|-damage|p2a: Scolipede|68/100|[from] item: Life Orb
+|move|p1a: Basculin|Head Smash|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|-damage|p1a: Basculin|4/100 psn|[from] Recoil
+|faint|p2a: Scolipede
+|
+|-damage|p1a: Basculin|0 fnt|[from] psn
+|faint|p1a: Basculin
+|upkeep
+
+|
+|switch|p2a: Garbodor|Garbodor, L86, F|100/100
+|switch|p1a: Kyogre|Kyogre, L78|100/100
+|-status|p1a: Kyogre|psn
+|-damage|p2a: Garbodor|88/100|[from] Spikes
+|detailschange|p1a: Kyogre|Kyogre-Primal, L78
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|19
+
+|
+|move|p1a: Kyogre|Scald|p2a: Garbodor
+|-damage|p2a: Garbodor|18/100
+|-status|p2a: Garbodor|brn
+|move|p2a: Garbodor|Gunk Shot|p1a: Kyogre
+|-damage|p1a: Kyogre|77/100 psn
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Garbodor|24/100 brn|[from] item: Black Sludge
+|-damage|p1a: Kyogre|64/100 psn|[from] psn
+|-damage|p2a: Garbodor|18/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Kyogre|Scald|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|win|tyroge

@@ -1,0 +1,221 @@
+|init|battle
+|title|BourneHub vs. Darckfare
+|j|☆BourneHub
+|j|☆Darckfare
+|player|p1|BourneHub|274|1061
+|player|p2|Darckfare|101|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tyrantrum|Tyrantrum, L84, M|100/100
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Tyrantrum|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Darckfare)
+|
+|move|p2a: Tauros|Earthquake|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|31/100
+|move|p1a: Tyrantrum|Stealth Rock|p2a: Tauros
+|-sidestart|p2: Darckfare|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Tauros|Earthquake|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|faint|p1a: Tyrantrum
+|
+|upkeep
+
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|turn|3
+
+|
+|switch|p2a: Azumarill|Azumarill, L80, M|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|65/100
+|
+|upkeep
+|turn|4
+
+|inactive|Darckfare has 120 seconds left.
+
+|
+|move|p1a: Ho-Oh|Toxic|p2a: Azumarill
+|-status|p2a: Azumarill|tox
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|15/100 tox
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|39/100 tox|[from] item: Sitrus Berry
+|
+|-damage|p2a: Azumarill|33/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Seismitoad|Seismitoad, L86, M|100/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Seismitoad
+|-damage|p1a: Seismitoad|35/100
+|
+|-damage|p2a: Azumarill|21/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|inactive|Darckfare has 120 seconds left.
+
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Azumarill|2/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Breloom|Breloom, L81, F|100/100
+|turn|7
+
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|move|p2a: Azumarill|Play Rough|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-damage|p2a: Azumarill|0 fnt|[from] psn
+|faint|p2a: Azumarill
+|upkeep
+
+|
+|switch|p1a: Ribombee|Ribombee, L85, M|100/100
+|switch|p2a: Manectric|Manectric, L88, M|100/100
+|-damage|p2a: Manectric|88/100|[from] Stealth Rock
+|turn|8
+
+|l|☆Darckfare
+
+|inactive|Darckfare disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆Darckfare
+
+|inactive|Darckfare reconnected and has 135 seconds left.
+
+|player|p2|Darckfare|101
+
+|
+|move|p2a: Manectric|Overheat|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-unboost|p2a: Manectric|spa|2
+|faint|p1a: Ribombee
+|
+|upkeep
+
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|turn|9
+
+|
+|switch|p2a: Bruxish|Bruxish, L85, F|100/100
+|-damage|p2a: Bruxish|88/100|[from] Stealth Rock
+|move|p1a: Ho-Oh|Earthquake|p2a: Bruxish
+|-damage|p2a: Bruxish|53/100
+|
+|upkeep
+|turn|10
+
+|inactive|Darckfare has 120 seconds left.
+
+|
+|switch|p1a: Delibird|Delibird, M|100/100
+|move|p2a: Bruxish|Liquidation|p1a: Delibird
+|-damage|p1a: Delibird|33/100
+|-damage|p2a: Bruxish|43/100|[from] item: Life Orb
+|
+|-heal|p1a: Delibird|39/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Delibird|Freeze-Dry|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|faint|p2a: Bruxish
+|
+|-heal|p1a: Delibird|45/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Ninjask|Ninjask, L89, M|100/100
+|-damage|p2a: Ninjask|51/100|[from] Stealth Rock
+|turn|12
+
+|
+|-zpower|p2a: Ninjask
+|move|p2a: Ninjask|Tectonic Rage|p1a: Delibird|[zeffect]
+|-immune|p1a: Delibird
+|move|p1a: Delibird|Freeze-Dry|p2a: Ninjask
+|-supereffective|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|-heal|p1a: Delibird|51/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, L80, M|100/100
+|-damage|p2a: Medicham|94/100|[from] Stealth Rock
+|turn|13
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, L80, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p1a: Delibird|Freeze-Dry|p2a: Medicham
+|-damage|p2a: Medicham|58/100
+|move|p2a: Medicham|Thunder Punch|p1a: Delibird
+|-supereffective|p1a: Delibird
+|-damage|p1a: Delibird|0 fnt
+|faint|p1a: Delibird
+|
+|upkeep
+
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L78|100/100
+|turn|14
+
+|
+|move|p2a: Medicham|Thunder Punch|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|28/100
+|move|p1a: Ho-Oh|Earthquake|p2a: Medicham
+|-damage|p2a: Medicham|19/100
+|
+|-heal|p1a: Ho-Oh|34/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Medicham|Thunder Punch|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|win|Darckfare

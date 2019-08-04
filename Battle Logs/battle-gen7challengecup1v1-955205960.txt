@@ -1,0 +1,61 @@
+|init|battle
+|title|Birds fly vs. Australian carrot
+|j|☆Birds fly
+|j|☆Australian carrot
+|player|p1|Birds fly|2|
+|player|p2|Australian carrot|224|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Challenge Cup 1v1
+|rated|Tournament battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Jigglypuff, L91, M|item
+|poke|p1|Lillipup, L91, M|item
+|poke|p1|Pidgey, L93, M|item
+|poke|p1|Krabby, L87, F|item
+|poke|p1|Silcoon, L98, M|item
+|poke|p1|Gardevoir, L73, M|item
+|poke|p2|Blaziken, L73, M|item
+|poke|p2|Mantyke, L84, F|item
+|poke|p2|Crabominable, L76, M|item
+|poke|p2|Chikorita, L87, M|item
+|poke|p2|Meowstic, L75, M|item
+|poke|p2|Swinub, L93, M|item
+|teampreview|1
+|j|*Lady Monita
+|c|☆Birds fly|Gl hf
+|
+|start
+|switch|p1a: Krabby|Krabby, L87, F|100/100
+|switch|p2a: Mantyke|Mantyke, L84, F|100/100
+|turn|1
+|
+|move|p2a: Mantyke|Secret Power|p1a: Krabby
+|-damage|p1a: Krabby|93/100
+|move|p1a: Krabby|Secret Power|p2a: Mantyke
+|-damage|p2a: Mantyke|57/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mantyke|Acrobatics|p1a: Krabby
+|-damage|p1a: Krabby|86/100
+|move|p1a: Krabby|Secret Power|p2a: Mantyke
+|-damage|p2a: Mantyke|14/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mantyke|Acrobatics|p1a: Krabby
+|-damage|p1a: Krabby|78/100
+|move|p1a: Krabby|Secret Power|p2a: Mantyke
+|-damage|p2a: Mantyke|0 fnt
+|faint|p2a: Mantyke
+|
+|win|Birds fly
+|l|*Lady Monita
+|l|☆Australian carrot
+|c|☆Birds fly|Gg

@@ -1,0 +1,357 @@
+|init|battle
+|title|ShikiX vs. mannie
+|j|☆ShikiX
+|j|☆mannie
+|player|p1|ShikiX|102|
+|player|p2|mannie|blue-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Type: Null|Type: Null, L89|100/100
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ShikiX)
+|
+|move|p2a: Xurkitree|Volt Switch|p1a: Type: Null
+|-damage|p1a: Type: Null|80/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|100/100|[from]move: Volt Switch
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Type: Null
+|-damage|p1a: Type: Null|39/100
+|move|p1a: Type: Null|Return|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|35/100
+|
+|-heal|p2a: Mandibuzz|41/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Type: Null
+|-damage|p1a: Type: Null|2/100
+|move|p1a: Type: Null|Rest|p1a: Type: Null
+|-status|p1a: Type: Null|slp|[from] move: Rest
+|-heal|p1a: Type: Null|100/100 slp|[silent]
+|
+|-heal|p2a: Mandibuzz|48/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Type: Null
+|-damage|p1a: Type: Null|60/100 slp
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Rest|p1a: Type: Null|[from]Sleep Talk
+|-fail|p1a: Type: Null
+|
+|-heal|p2a: Mandibuzz|54/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Type: Null
+|-damage|p1a: Type: Null|22/100 slp
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null|[from]Sleep Talk
+|-boost|p1a: Type: Null|atk|2
+|
+|-heal|p2a: Mandibuzz|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Type: Null
+|-damage|p1a: Type: Null|0 fnt
+|faint|p1a: Type: Null
+|
+|-heal|p2a: Mandibuzz|66/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele, L80|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|7
+
+|
+|switch|p2a: Starmie|Starmie, L82|100/100
+|move|p1a: Tapu Lele|Calm Mind|p1a: Tapu Lele
+|-boost|p1a: Tapu Lele|spa|1
+|-boost|p1a: Tapu Lele|spd|1
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Starmie|Scald|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|82/100
+|move|p1a: Tapu Lele|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|27/100
+|-damage|p1a: Tapu Lele|72/100|[from] item: Life Orb
+|
+|-heal|p2a: Starmie|33/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Starmie|Scald|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|54/100
+|move|p1a: Tapu Lele|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-damage|p1a: Tapu Lele|44/100|[from] item: Life Orb
+|faint|p2a: Starmie
+|
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|10
+
+|
+|move|p2a: Xurkitree|Volt Switch|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|18/100
+
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|66/100|[from]move: Volt Switch
+|move|p1a: Tapu Lele|Psychic|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Cacturne|Cacturne, L89, F|100/100
+|move|p1a: Tapu Lele|Moonblast|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|-damage|p1a: Tapu Lele|8/100|[from] item: Life Orb
+|faint|p2a: Cacturne
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|12
+
+|
+|switch|p1a: Victreebel|Victreebel, L88, M|100/100
+|move|p2a: Xurkitree|Volt Switch|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|79/100
+
+|
+|switch|p2a: Mandibuzz|Mandibuzz, L84, F|73/100|[from]move: Volt Switch
+|
+|-heal|p2a: Mandibuzz|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Mandibuzz|Brave Bird|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|-damage|p2a: Mandibuzz|56/100|[from] Recoil
+|faint|p1a: Victreebel
+|
+|-heal|p2a: Mandibuzz|62/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Guzzlord|Guzzlord, L87|100/100
+|turn|14
+
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Guzzlord|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|82/100
+|-enditem|p2a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p1a: Guzzlord
+|-damage|p1a: Guzzlord|90/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Mandibuzz|Toxic|p1a: Guzzlord|[miss]
+|-miss|p2a: Mandibuzz|p1a: Guzzlord
+|move|p1a: Guzzlord|Hammer Arm|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|55/100
+|-unboost|p1a: Guzzlord|spe|1
+|-damage|p1a: Guzzlord|80/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Mandibuzz|Toxic|p1a: Guzzlord
+|-status|p1a: Guzzlord|tox
+|move|p1a: Guzzlord|Hammer Arm|p2a: Mandibuzz|[miss]
+|-miss|p1a: Guzzlord|p2a: Mandibuzz
+|
+|-damage|p1a: Guzzlord|74/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Guzzlord
+|-resisted|p1a: Guzzlord
+|-damage|p1a: Guzzlord|60/100 tox
+|move|p1a: Guzzlord|Hammer Arm|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|29/100
+|-unboost|p1a: Guzzlord|spe|1
+|-damage|p1a: Guzzlord|50/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Guzzlord|38/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|79/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Guzzlord|Hammer Arm|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|28/100
+|-unboost|p1a: Guzzlord|spe|1
+|-damage|p1a: Guzzlord|28/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Guzzlord|9/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Guzzlord
+|-resisted|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|faint|p1a: Guzzlord
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele, L80|8/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|20
+
+|
+|move|p1a: Tapu Lele|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-damage|p1a: Tapu Lele|0 fnt|[from] item: Life Orb
+|faint|p2a: Mandibuzz
+|faint|p1a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p1a: Palkia|Palkia, L78|100/100
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|-ability|p1a: Palkia|Pressure
+|turn|21
+
+|
+|move|p2a: Xurkitree|Volt Switch|p1a: Palkia
+|-damage|p1a: Palkia|65/100
+
+|
+|switch|p2a: Guzzlord|Guzzlord, L87|100/100|[from]move: Volt Switch
+|move|p1a: Palkia|Dragon Tail|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-crit|p2a: Guzzlord
+|-damage|p2a: Guzzlord|35/100
+|drag|p2a: Xurkitree|Xurkitree, L81|100/100
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Xurkitree|Dazzling Gleam|p1a: Palkia
+|-supereffective|p1a: Palkia
+|-damage|p1a: Palkia|9/100
+|move|p1a: Palkia|Draco Meteor|p2a: Xurkitree
+|-damage|p2a: Xurkitree|14/100
+|-unboost|p1a: Palkia|spa|2
+|
+|upkeep
+|turn|23
+
+|
+|move|p2a: Xurkitree|Dazzling Gleam|p1a: Palkia
+|-supereffective|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|faint|p1a: Palkia
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Milotic|Milotic, L84, M|100/100
+|turn|24
+
+|
+|switch|p2a: Guzzlord|Guzzlord, L87|35/100
+|move|p1a: Milotic|Ice Beam|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|14/100
+|turn|25
+
+|
+|move|p2a: Xurkitree|Volt Switch|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|44/100
+
+|
+|switch|p2a: Torterra|Torterra, L86, F|100/100|[from]move: Volt Switch
+|move|p1a: Milotic|Ice Beam|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|12/100
+|
+|-heal|p1a: Milotic|50/100|[from] item: Leftovers
+|-heal|p2a: Torterra|19/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p1a: Milotic|Ice Beam|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|-heal|p1a: Milotic|56/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|14/100
+|turn|27
+
+|
+|move|p2a: Xurkitree|Volt Switch|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|win|mannie

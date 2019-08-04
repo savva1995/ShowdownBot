@@ -1,0 +1,279 @@
+|init|battle
+|title|Fournumbers vs. KillingSlurpy
+|j|☆Fournumbers
+|j|☆KillingSlurpy
+|player|p1|Fournumbers|265|1562
+|player|p2|KillingSlurpy|264|1561
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Roserade|Roserade, L84, M|100/100
+|switch|p2a: Cradily|Cradily, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fournumbers)
+|
+|move|p1a: Roserade|Toxic Spikes|p2a: Cradily
+|-sidestart|p2: KillingSlurpy|move: Toxic Spikes
+|move|p2a: Cradily|Stealth Rock|p1a: Roserade
+|-sidestart|p1: Fournumbers|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Swellow|Swellow, L84, F|100/100
+|move|p1a: Roserade|Toxic Spikes|p2a: Swellow
+|-sidestart|p2: KillingSlurpy|move: Toxic Spikes
+|
+|-status|p2a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p1a: Aegislash|Aegislash, L78, F|100/100
+|-damage|p1a: Aegislash|95/100|[from] Stealth Rock
+|move|p2a: Swellow|Facade|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-damage|p2a: Swellow|95/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Venusaur|Venusaur, L81, M|100/100
+|-sideend|p2: KillingSlurpy|move: Toxic Spikes|[of] p2a: Venusaur
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|78/100
+|-damage|p1a: Aegislash|85/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Garbodor|Garbodor, L86, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|detailschange|p2a: Venusaur|Venusaur-Mega, L81, M
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p2a: Venusaur|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|34/100
+|
+|-heal|p1a: Garbodor|40/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|move|p1a: Garbodor|Pain Split|p2a: Venusaur
+|-sethp|p2a: Venusaur|60/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Garbodor|56/100|[from] move: Pain Split
+|move|p2a: Venusaur|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|7/100
+|
+|-heal|p1a: Garbodor|13/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|
+|move|p1a: Garbodor|Gunk Shot|p2a: Venusaur|[miss]
+|-miss|p1a: Garbodor|p2a: Venusaur
+|move|p2a: Venusaur|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+
+|
+|switch|p1a: Latios|Latios, L81, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, M|100/100
+|detailschange|p1a: Latios|Latios-Mega, L81, M
+|-mega|p1a: Latios|Latios|Latiosite
+|move|p1a: Latios|Psyshock|p2a: Alomomola
+|-damage|p2a: Alomomola|69/100
+|
+|-heal|p2a: Alomomola|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Roserade|Roserade, L84, M|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Venusaur|Venusaur-Mega, L81, M|60/100
+|move|p1a: Roserade|Leaf Storm|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|47/100
+|-unboost|p1a: Roserade|spa|2
+|
+|-heal|p2a: Venusaur|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Latios|Latios-Mega, L81, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|move|p2a: Venusaur|Hidden Power|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|69/100
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, M|100/100
+|move|p1a: Latios|Psyshock|p2a: Alomomola
+|-damage|p2a: Alomomola|66/100
+|
+|-heal|p2a: Alomomola|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Latios|Psyshock|p2a: Alomomola
+|-damage|p2a: Alomomola|40/100
+|move|p2a: Alomomola|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|62/100
+|
+|-heal|p2a: Alomomola|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Latios|Draco Meteor|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Alomomola
+|
+|upkeep
+
+|
+|switch|p2a: Gallade|Gallade, L87, M|100/100
+|turn|15
+
+|
+|switch|p1a: Leavanny|Leavanny, L89, F|100/100
+|-damage|p1a: Leavanny|76/100|[from] Stealth Rock
+|move|p2a: Gallade|Shadow Sneak|p1a: Leavanny
+|-damage|p1a: Leavanny|63/100
+|
+|-heal|p1a: Leavanny|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Swellow|Swellow, L84, F|95/100 brn
+|move|p1a: Leavanny|Swords Dance|p1a: Leavanny
+|-boost|p1a: Leavanny|atk|2
+|
+|-heal|p1a: Leavanny|75/100|[from] item: Leftovers
+|-damage|p2a: Swellow|89/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Swellow|Brave Bird|p1a: Leavanny
+|-supereffective|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|-damage|p2a: Swellow|60/100 brn|[from] Recoil
+|faint|p1a: Leavanny
+|
+|-damage|p2a: Swellow|54/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Aegislash|Aegislash, L78, F|85/100
+|-damage|p1a: Aegislash|79/100|[from] Stealth Rock
+|turn|18
+
+|
+|switch|p2a: Gallade|Gallade, L87, M|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|19/100
+|-damage|p1a: Aegislash|69/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Gallade|Shadow Sneak|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Gallade|atk|2
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Gallade|Shadow Sneak|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|56/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|-damage|p1a: Aegislash|46/100|[from] item: Life Orb
+|faint|p2a: Gallade
+|
+|upkeep
+
+|
+|switch|p2a: Diggersby|Diggersby, L81, M|100/100
+|turn|21
+
+|
+|move|p2a: Diggersby|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-enditem|p1a: Aegislash|Life Orb|[from] move: Knock Off|[of] p2a: Diggersby
+|-damage|p2a: Diggersby|90/100|[from] item: Life Orb
+|faint|p1a: Aegislash
+|
+|upkeep
+
+|l|☆KillingSlurpy
+
+|inactive|KillingSlurpy disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|
+|switch|p1a: Roserade|Roserade, L84, M|88/100
+|-damage|p1a: Roserade|76/100|[from] Stealth Rock
+|turn|22
+
+|inactive|KillingSlurpy has 30 seconds to reconnect!
+
+|inactive|KillingSlurpy has 20 seconds to reconnect!
+
+|inactive|KillingSlurpy has 15 seconds to reconnect!
+
+|inactive|KillingSlurpy has 10 seconds to reconnect!
+
+|inactive|KillingSlurpy has 5 seconds to reconnect!
+
+|-message|KillingSlurpy lost due to inactivity.
+|
+|win|Fournumbers

@@ -1,0 +1,599 @@
+|init|battle
+|title|Conflict vs. Gen7OUOU
+|j|☆Conflict
+|j|☆Gen7OUOU
+|player|p1|Conflict|126|1528
+|player|p2|Gen7OUOU|129|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|1
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Blissey|Fire Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|80/100
+|
+|-heal|p1a: Zapdos|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Conflict)
+
+|
+|move|p1a: Zapdos|Thunder|p2a: Blissey|[miss]
+|-miss|p1a: Zapdos
+|move|p2a: Blissey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|51/100
+|
+|-heal|p1a: Zapdos|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|90/100
+|
+|-heal|p1a: Snorlax|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|move|p1a: Snorlax|Lovely Kiss|p2a: Machamp
+|-status|p2a: Machamp|slp|[from] move: Lovely Kiss
+|
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Zapdos|Zapdos|57/100
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Heal Bell
+|
+|-heal|p1a: Zapdos|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|92/100
+|
+|-heal|p1a: Cloyster|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|move|p1a: Cloyster|Spikes|p2a: Jolteon
+|-sidestart|p2: Gen7OUOU|Spikes
+|
+|-heal|p1a: Cloyster|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|Conflict has 120 seconds left.
+
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|79/100
+|
+|-heal|p1a: Exeggutor|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|Conflict has 120 seconds left.
+
+|
+|move|p2a: Jolteon|Hidden Power|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|44/100
+|move|p1a: Exeggutor|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|63/100
+|
+|-heal|p2a: Jolteon|69/100|[from] item: Leftovers
+|-heal|p1a: Exeggutor|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Blissey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|89/100
+|move|p1a: Snorlax|Return|p2a: Blissey
+|-damage|p2a: Blissey|49/100
+|
+|-heal|p2a: Blissey|55/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|-damage|p2a: Machamp|88/100|[from] Spikes
+|move|p1a: Snorlax|Return|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|14/100
+|
+|-heal|p2a: Machamp|20/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Zapdos|Zapdos|63/100
+|move|p2a: Machamp|Cross Chop|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|41/100
+|
+|-heal|p1a: Zapdos|47/100|[from] item: Leftovers
+|-heal|p2a: Machamp|26/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Zapdos|Thunder|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|
+|-heal|p1a: Zapdos|53/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Cloyster|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|move|p2a: Snorlax|Double-Edge|p1a: Cloyster
+|-damage|p1a: Cloyster|55/100
+|-damage|p2a: Snorlax|94/100 tox|[from] Recoil|[of] p1a: Cloyster
+|-damage|p2a: Snorlax|88/100 tox|[from] psn
+|
+|-heal|p1a: Cloyster|61/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|94/100 tox|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Cloyster|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|75/100 tox
+|move|p2a: Snorlax|Double-Edge|p1a: Cloyster
+|-damage|p1a: Cloyster|11/100
+|-damage|p2a: Snorlax|68/100 tox|[from] Recoil|[of] p1a: Cloyster
+|-damage|p2a: Snorlax|55/100 tox|[from] psn
+|
+|-heal|p1a: Cloyster|17/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|61/100 tox|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Tyranitar|Screech|p2a: Snorlax
+|-unboost|p2a: Snorlax|def|2
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|move|p1a: Tyranitar|Rock Slide|p2a: Starmie|[miss]
+|-miss|p1a: Tyranitar
+|
+|-heal|p2a: Starmie|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Starmie|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|79/100
+|
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|85/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Starmie|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|71/100
+|move|p1a: Snorlax|Lovely Kiss|p2a: Starmie|[miss]
+|-miss|p1a: Snorlax
+|
+|-heal|p1a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Starmie|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|65/100
+|move|p1a: Snorlax|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Lovely Kiss
+|
+|-heal|p1a: Snorlax|71/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p2a: Golem|Golem, M|100/100
+|-damage|p2a: Golem|88/100|[from] Spikes
+|move|p1a: Snorlax|Return|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|74/100
+|
+|-heal|p2a: Golem|80/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|77/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Cloyster|Cloyster, M|17/100
+|move|p2a: Golem|Fire Blast|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+
+|
+|switch|p1a: Exeggutor|Exeggutor, M|50/100
+|
+|-heal|p1a: Exeggutor|56/100|[from] item: Leftovers
+|-heal|p2a: Golem|86/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Blissey|Blissey, F|55/100
+|-damage|p2a: Blissey|43/100|[from] Spikes
+|move|p1a: Exeggutor|Giga Drain|p2a: Blissey
+|-damage|p2a: Blissey|33/100
+|-heal|p1a: Exeggutor|65/100|[from] drain|[of] p2a: Blissey
+|
+|-heal|p1a: Exeggutor|71/100|[from] item: Leftovers
+|-heal|p2a: Blissey|39/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Snorlax|Snorlax, M|77/100
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Heal Bell
+|
+|-heal|p2a: Blissey|45/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|83/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|95/100
+|move|p1a: Snorlax|Lovely Kiss|p2a: Blissey|[miss]
+|-miss|p1a: Snorlax
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|89/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|move|p1a: Snorlax|Return|p2a: Starmie
+|-damage|p2a: Starmie|46/100
+|
+|-heal|p2a: Starmie|53/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|95/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|switch|p2a: Golem|Golem, M|86/100
+|-damage|p2a: Golem|73/100|[from] Spikes
+|move|p1a: Snorlax|Return|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|58/100
+|
+|-heal|p2a: Golem|64/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Zapdos|Zapdos|53/100
+|move|p2a: Golem|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-heal|p1a: Zapdos|59/100|[from] item: Leftovers
+|-heal|p2a: Golem|70/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|move|p1a: Zapdos|Thunder|p2a: Snorlax
+|-damage|p2a: Snorlax|56/100
+|-status|p2a: Snorlax|par
+|
+|-heal|p1a: Zapdos|65/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p1a: Tyranitar|Screech|p2a: Snorlax
+|-unboost|p2a: Snorlax|def|2
+|cant|p2a: Snorlax|par
+|
+|-heal|p2a: Snorlax|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|switch|p2a: Starmie|Starmie|53/100
+|-damage|p2a: Starmie|40/100|[from] Spikes
+|move|p1a: Tyranitar|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|5/100
+|
+|-heal|p2a: Starmie|12/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Starmie|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|86/100
+|
+|-heal|p2a: Starmie|18/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|92/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|
+|move|p2a: Starmie|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|80/100
+|move|p1a: Snorlax|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Lovely Kiss
+|
+|-heal|p2a: Starmie|24/100 slp|[from] item: Leftovers
+|-heal|p1a: Snorlax|86/100|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|
+|switch|p2a: Golem|Golem, M|70/100
+|-damage|p2a: Golem|58/100|[from] Spikes
+|move|p1a: Snorlax|Return|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|42/100
+|
+|-heal|p2a: Golem|48/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|92/100|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|
+|switch|p1a: Zapdos|Zapdos|65/100
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|13/100
+|
+|-heal|p1a: Zapdos|19/100|[from] item: Leftovers
+|-heal|p2a: Golem|54/100|[from] item: Leftovers
+|upkeep
+|turn|41
+
+|
+|move|p1a: Zapdos|Hidden Power|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|6/100
+|move|p2a: Golem|Fire Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|1/100
+|
+|-heal|p1a: Zapdos|7/100|[from] item: Leftovers
+|-heal|p2a: Golem|12/100|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|
+|move|p1a: Zapdos|Hidden Power|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|
+|-heal|p1a: Zapdos|13/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|
+|switch|p1a: Snorlax|Snorlax, M|92/100
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-cureteam|p2a: Blissey|[from] move: Heal Bell
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|
+|move|p2a: Blissey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|88/100
+|move|p1a: Snorlax|Return|p2a: Blissey
+|-damage|p2a: Blissey|56/100
+|
+|-heal|p2a: Blissey|62/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|45
+
+|
+|move|p2a: Blissey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|83/100
+|move|p1a: Snorlax|Return|p2a: Blissey
+|-damage|p2a: Blissey|15/100
+|
+|-heal|p2a: Blissey|21/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|89/100|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|
+|move|p2a: Blissey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|78/100
+|move|p1a: Snorlax|Return|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+
+|
+|switch|p2a: Jolteon|Jolteon, M|69/100
+|-damage|p2a: Jolteon|57/100|[from] Spikes
+|
+|-heal|p2a: Jolteon|63/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|84/100|[from] item: Leftovers
+|upkeep
+|turn|47
+
+|inactive|Conflict has 120 seconds left.
+
+|
+|switch|p1a: Marowak|Marowak, M|100/100
+|move|p2a: Jolteon|Growth|p2a: Jolteon
+|-boost|p2a: Jolteon|spa|1
+|
+|-heal|p2a: Jolteon|69/100|[from] item: Leftovers
+|upkeep
+|turn|48
+
+|
+|move|p2a: Jolteon|Hidden Power|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|29/100
+|move|p1a: Marowak|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+
+|
+|switch|p2a: Snorlax|Snorlax, M|74/100
+|-damage|p2a: Snorlax|62/100|[from] Spikes
+|
+|-heal|p2a: Snorlax|68/100|[from] item: Leftovers
+|upkeep
+|turn|49
+
+|
+|move|p1a: Marowak|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|22/100
+|move|p2a: Snorlax|Double-Edge|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|-damage|p2a: Snorlax|18/100|[from] Recoil|[of] p1a: Marowak
+|faint|p1a: Marowak
+
+|
+|switch|p1a: Exeggutor|Exeggutor, M|71/100
+|
+|-heal|p1a: Exeggutor|77/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|25/100|[from] item: Leftovers
+|upkeep
+|turn|50
+
+|
+|move|p1a: Exeggutor|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Snorlax
+
+|
+|switch|p1a: Snorlax|Snorlax, M|84/100
+|switch|p2a: Starmie|Starmie|24/100
+|-damage|p2a: Starmie|12/100|[from] Spikes
+|
+|-heal|p2a: Starmie|18/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|90/100|[from] item: Leftovers
+|upkeep
+|turn|51
+
+|
+|move|p2a: Starmie|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|69/100
+|move|p1a: Snorlax|Return|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|Conflict

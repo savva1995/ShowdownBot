@@ -1,0 +1,38 @@
+|init|battle
+|title|Guest 1387781 vs. wuvy
+|j|☆wuvy
+|player|p1|Guest 1387781|265|1000
+|player|p2|wuvy|101|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Galvantula, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Toxapex, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Greninja, M|item
+|poke|p2|Ditto|item
+|poke|p2|Araquanid, M|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Diggersby, M|item
+|poke|p2|Diancie|item
+|poke|p2|Shedinja|item
+|teampreview
+|-message|wuvy forfeited.
+|
+|win|Guest 1387781
+|l|☆wuvy
+|raw|Guest 1387781's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|wuvy's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

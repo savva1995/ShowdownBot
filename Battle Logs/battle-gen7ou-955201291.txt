@@ -1,0 +1,158 @@
+|init|battle
+|title|KekerHoney vs. RillyBuff
+|j|☆KekerHoney
+|j|☆RillyBuff
+|player|p1|KekerHoney|212|1044
+|player|p2|RillyBuff|266|1048
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ampharos, F|item
+|poke|p1|Dragalge, M|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Scizor, M|
+|poke|p1|Blacephalon|item
+|poke|p1|Ninetales-Alola, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Hitmontop, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KekerHoney)
+|
+|start
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Blacephalon|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Dragalge|Dragalge, M, shiny|100/100
+|move|p2a: Toxapex|Toxic|p1a: Dragalge
+|-immune|p1a: Dragalge
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|
+|move|p1a: Dragalge|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100
+|move|p2a: Toxapex|Scald|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|93/100
+|
+|-heal|p1a: Dragalge|99/100|[from] item: Black Sludge
+|-heal|p2a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|move|p1a: Dragalge|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|84/100
+|
+|-heal|p1a: Dragalge|100/100|[from] item: Black Sludge
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Dragalge|Thunderbolt|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+
+|
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|turn|7
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Ninetales|Blizzard|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|84/100
+|
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|move|p1a: Ninetales|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|move|p2a: Toxapex|Toxic|p1a: Ninetales
+|-status|p1a: Ninetales|tox
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|-damage|p1a: Ninetales|95/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Ampharos|Ampharos, F, shiny|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Ampharos|Thunderbolt|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Ampharos
+|-supereffective|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|faint|p1a: Ampharos
+|
+|upkeep
+
+|inactiveoff|Battle timer is now OFF.
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RillyBuff)
+
+|-message|KekerHoney forfeited.
+
+|
+|win|RillyBuff

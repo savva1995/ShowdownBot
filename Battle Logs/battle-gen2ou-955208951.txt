@@ -1,0 +1,296 @@
+|init|battle
+|title|Teclis vs. sowshinn
+|j|☆Teclis
+|j|☆sowshinn
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|Teclis|lance-gen1rb|
+|player|p2|sowshinn|288|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+
+|c|☆Teclis|/log Teclis made this room hidden.
+|noinit|namerequired|The room 'battle-gen2ou-955208951' does not exist or requires a login to join.
+
+|c|☆Teclis|hf
+|noinit|namerequired|The room 'battle-gen2ou-955208951' does not exist or requires a login to join.
+
+|inactive|sowshinn has 120 seconds left.
+
+|inactive|sowshinn has 90 seconds left.
+
+|c|☆sowshinn|glhf
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Zapdos|Reflect|p2a: Zapdos
+|-sidestart|p2: sowshinn|Reflect
+|
+|upkeep
+|turn|2
+
+|inactive|sowshinn has 90 seconds left.
+
+|inactive|sowshinn has 60 seconds left.
+
+|
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|move|p2a: Zapdos|Whirlwind|p1a: Snorlax
+|drag|p1a: Cloyster|Cloyster, M|100/100
+|
+|upkeep
+|turn|3
+
+|inactive|sowshinn has 30 seconds left.
+
+|inactive|sowshinn has 20 seconds left.
+
+|inactive|sowshinn has 15 seconds left.
+
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Zapdos|Thunder|p1a: Snorlax
+|-damage|p1a: Snorlax|70/100
+|
+|-heal|p1a: Snorlax|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|sowshinn has 25 seconds left this turn.
+
+|inactive|sowshinn has 20 seconds left.
+
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|84/100
+|
+|-heal|p1a: Snorlax|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|sowshinn has 30 seconds left this turn.
+
+|inactive|sowshinn has 20 seconds left.
+
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Marowak|Swords Dance|p2a: Marowak
+|-boost|p2a: Marowak|atk|2
+|
+|-sideend|p2: sowshinn|Reflect
+|upkeep
+|turn|6
+
+|inactive|sowshinn has 30 seconds left this turn.
+
+|
+|move|p1a: Cloyster|Spikes|p2a: Marowak
+|-sidestart|p2: sowshinn|Spikes
+|move|p2a: Marowak|Rock Slide|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|10/100
+|
+|-heal|p1a: Cloyster|16/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|sowshinn has 30 seconds left.
+
+|
+|move|p1a: Cloyster|Surf|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|15/100
+|move|p2a: Marowak|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|8
+
+|inactive|sowshinn has 30 seconds left.
+
+|
+|move|p1a: Zapdos|Hidden Power|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+
+|inactive|sowshinn has 30 seconds left.
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Machamp
+|-resisted|p1a: Machamp
+|-damage|p1a: Machamp|83/100
+|
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p1a: Machamp|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|sowshinn has 30 seconds left.
+
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|switch|p1a: Jynx|Jynx, F|100/100
+|
+|-heal|p2a: Starmie|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|inactive|sowshinn has 30 seconds left.
+
+|inactive|sowshinn has 20 seconds left.
+
+|inactive|sowshinn has 15 seconds left.
+
+|inactive|sowshinn has 10 seconds left.
+
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Jynx
+|-damage|p1a: Jynx|93/100
+|-sideend|p2: sowshinn|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Lovely Kiss
+|
+|-heal|p2a: Starmie|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Jynx|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|inactive|sowshinn has 20 seconds left this turn.
+
+|inactive|sowshinn has 15 seconds left.
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|13
+
+|inactive|sowshinn has 25 seconds left this turn.
+
+|inactive|sowshinn has 20 seconds left.
+
+|inactive|sowshinn has 15 seconds left.
+
+|
+|-activate|p1a: Zapdos|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Zapdos|[from]Pursuit
+|-damage|p1a: Zapdos|75/100
+|switch|p1a: Golem|Golem, M|100/100
+|
+|upkeep
+|turn|14
+
+|inactive|sowshinn has 25 seconds left this turn.
+
+|inactive|sowshinn has 20 seconds left.
+
+|inactive|sowshinn has 15 seconds left.
+
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|move|p1a: Golem|Explosion|p2a: Cloyster
+|-damage|p2a: Cloyster|18/100
+|faint|p1a: Golem
+
+|inactive|sowshinn has 25 seconds left this turn.
+
+|
+|switch|p1a: Jynx|Jynx, F|99/100
+|
+|-heal|p1a: Jynx|100/100|[from] item: Leftovers
+|-heal|p2a: Cloyster|24/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|sowshinn has 30 seconds left.
+
+|inactive|sowshinn has 20 seconds left.
+
+|inactive|sowshinn has 15 seconds left.
+
+|inactive|sowshinn has 10 seconds left.
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Jynx|Psychic|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|upkeep
+|turn|16
+
+|inactive|sowshinn has 20 seconds left this turn.
+
+|inactive|sowshinn has 15 seconds left.
+
+|inactive|sowshinn has 10 seconds left.
+
+|
+|move|p1a: Jynx|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|move|p2a: Tyranitar|Pursuit|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|70/100
+|
+|-heal|p1a: Jynx|76/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|inactive|sowshinn has 20 seconds left this turn.
+
+|inactive|sowshinn has 15 seconds left.
+
+|
+|move|p1a: Jynx|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|42/100
+|-status|p2a: Tyranitar|frz
+|cant|p2a: Tyranitar|frz
+|
+|-heal|p1a: Jynx|82/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|49/100 frz|[from] item: Leftovers
+|-curestatus|p2a: Tyranitar|frz|[msg]
+|upkeep
+|turn|18
+
+|inactive|sowshinn has 25 seconds left this turn.
+
+|inactive|sowshinn has 20 seconds left.
+
+|-message|sowshinn forfeited.
+
+|
+|win|Teclis

@@ -1,0 +1,277 @@
+|init|battle
+|title|sgfdgffhfh vs. Its a trap pat
+|j|☆sgfdgffhfh
+|j|☆Its a trap pat
+|player|p1|sgfdgffhfh|203|1115
+|player|p2|Its a trap pat|228|1206
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gurdurr, F|item
+|poke|p1|Lycanroc, M|item
+|poke|p1|Rotom-Fan|item
+|poke|p1|Silvally-*|item
+|poke|p1|Drampa, M|item
+|poke|p1|Haunter, F|item
+|poke|p2|Dusknoir, F|item
+|poke|p2|Golem, M|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Cryogonal|item
+|poke|p2|Musharna, M|item
+|poke|p2|Scyther, F|item
+|teampreview
+|
+|start
+|switch|p1a: Lycanroc|Lycanroc, M, shiny|100/100
+|switch|p2a: Golem|Golem, M|100/100
+|turn|1
+
+|
+|move|p1a: Lycanroc|Stealth Rock|p2a: Golem
+|-sidestart|p2: Its a trap pat|move: Stealth Rock
+|move|p2a: Golem|Stealth Rock|p1a: Lycanroc
+|-sidestart|p1: sgfdgffhfh|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Gurdurr|Gurdurr, F|100/100
+|-damage|p1a: Gurdurr|94/100|[from] Stealth Rock
+|move|p2a: Golem|Earthquake|p1a: Gurdurr
+|-damage|p1a: Gurdurr|65/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Golem|Earthquake|p1a: Gurdurr
+|-damage|p1a: Gurdurr|32/100
+|move|p1a: Gurdurr|Knock Off|p2a: Golem
+|-damage|p2a: Golem|81/100
+|-enditem|p2a: Golem|Custap Berry|[from] move: Knock Off|[of] p1a: Gurdurr
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Gurdurr|Mach Punch|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|57/100
+|move|p2a: Golem|Explosion|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p2a: Golem
+|faint|p1a: Gurdurr
+|
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p1a: Lycanroc|Lycanroc, M, shiny|100/100
+|-damage|p1a: Lycanroc|88/100|[from] Stealth Rock
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p1a: Lycanroc|Stone Edge|p2a: Kangaskhan|[miss]
+|-miss|p1a: Lycanroc|p2a: Kangaskhan
+|move|p2a: Kangaskhan|Earthquake|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|upkeep
+
+|c|☆sgfdgffhfh|skill based game
+
+|
+|switch|p1a: Rotom|Rotom-Fan, shiny|100/100
+|-damage|p1a: Rotom|75/100|[from] Stealth Rock
+|turn|6
+
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|75/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Cryogonal
+|-damage|p2a: Cryogonal|56/100
+
+|
+|switch|p1a: Silvally|Silvally-Ice|100/100|[from]move: Volt Switch
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Cryogonal|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Cryogonal|Rapid Spin|p1a: Silvally
+|-damage|p1a: Silvally|74/100
+|-sideend|p2: Its a trap pat|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|move|p1a: Silvally|Rock Slide|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|88/100
+|turn|8
+
+|
+|switch|p1a: Rotom|Rotom-Fan, shiny|75/100
+|-damage|p1a: Rotom|50/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Hammer Arm|p1a: Rotom|[miss]
+|-miss|p2a: Kangaskhan|p1a: Rotom
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Musharna|Musharna, M|100/100
+|move|p1a: Rotom|Defog|p2a: Musharna
+|-unboost|p2a: Musharna|evasion|1
+|-sideend|p1: sgfdgffhfh|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Rotom|Volt Switch|p2a: Musharna
+|-damage|p2a: Musharna|81/100
+
+|
+|switch|p1a: Haunter|Haunter, F|100/100|[from]move: Volt Switch
+|move|p2a: Musharna|Psychic|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|-heal|p2a: Musharna|87/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, M, shiny|100/100
+|turn|11
+
+|
+|move|p1a: Drampa|Draco Meteor|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|-unboost|p1a: Drampa|spa|2
+|faint|p2a: Musharna
+|
+|upkeep
+
+|
+|switch|p2a: Dusknoir|Dusknoir, F|100/100
+|-item|p1a: Drampa|Choice Specs|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|turn|12
+
+|
+|switch|p1a: Rotom|Rotom-Fan, shiny|50/100
+|move|p2a: Dusknoir|Calm Mind|p2a: Dusknoir
+|-boost|p2a: Dusknoir|spa|1
+|-boost|p2a: Dusknoir|spd|1
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Rotom|Toxic|p2a: Dusknoir
+|-status|p2a: Dusknoir|tox
+|move|p2a: Dusknoir|Ice Beam|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Dusknoir|94/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Silvally|Silvally-Ice|74/100
+|turn|14
+
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Dusknoir
+|-damage|p2a: Dusknoir|67/100 tox
+|move|p2a: Dusknoir|Shadow Ball|p1a: Silvally
+|-damage|p1a: Silvally|38/100
+|
+|-heal|p2a: Dusknoir|73/100 tox|[from] item: Leftovers
+|-damage|p2a: Dusknoir|60/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Silvally|U-turn|p2a: Dusknoir
+|-resisted|p2a: Dusknoir
+|-damage|p2a: Dusknoir|53/100 tox
+
+|
+|switch|p1a: Drampa|Drampa, M, shiny|100/100|[from]move: U-turn
+|move|p2a: Dusknoir|Shadow Ball|p1a: Drampa
+|-immune|p1a: Drampa
+|
+|-heal|p2a: Dusknoir|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Dusknoir|40/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Drampa|Draco Meteor|p2a: Dusknoir
+|-damage|p2a: Dusknoir|0 fnt
+|-unboost|p1a: Drampa|spa|2
+|faint|p2a: Dusknoir
+|
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|88/100
+|turn|17
+
+|
+|switch|p1a: Silvally|Silvally-Ice|38/100
+|move|p2a: Kangaskhan|Hammer Arm|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|-unboost|p2a: Kangaskhan|spe|1
+|faint|p1a: Silvally
+|
+|upkeep
+
+|
+|switch|p1a: Drampa|Drampa, M, shiny|100/100
+|turn|18
+
+|
+|move|p2a: Kangaskhan|Hammer Arm|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|4/100
+|-unboost|p2a: Kangaskhan|spe|1
+|move|p1a: Drampa|Hyper Voice|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+
+|
+|switch|p2a: Scyther|Scyther, F|100/100
+|turn|19
+
+|
+|move|p2a: Scyther|Thief|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|faint|p1a: Drampa
+|
+|win|Its a trap pat

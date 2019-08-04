@@ -1,0 +1,156 @@
+|init|battle
+|title|Ion444 vs. Tvgfh
+|j|☆Ion444
+|j|☆Tvgfh
+|player|p1|Ion444|256|1034
+|player|p2|Tvgfh|265|1082
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crustle, M|item
+|poke|p1|Pinsir, F|item
+|poke|p1|Wormadam-Trash, F|item
+|poke|p1|Butterfree, M|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Shedinja|item
+|poke|p2|Qwilfish, F|item
+|poke|p2|Gourgeist-*, F|item
+|poke|p2|Stoutland, F|item
+|poke|p2|Hitmonchan, M|item
+|poke|p2|Volbeat, M|item
+|poke|p2|Audino, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tvgfh)
+|
+|start
+|switch|p1a: Two-In-One|Crustle, M|100/100
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Two-In-One|atk|1
+|turn|1
+|
+|move|p2a: Qwilfish|Spikes|p1a: Two-In-One
+|-sidestart|p1: Ion444|Spikes
+|move|p1a: Two-In-One|Stealth Rock|p2a: Qwilfish
+|-sidestart|p2: Tvgfh|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Qwilfish|Taunt|p1a: Two-In-One
+|-start|p1a: Two-In-One|move: Taunt
+|move|p1a: Two-In-One|Earthquake|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|77/100
+|
+|-heal|p2a: Qwilfish|83/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Qwilfish|Toxic Spikes|p1a: Two-In-One
+|-sidestart|p1: Ion444|move: Toxic Spikes
+|move|p1a: Two-In-One|Knock Off|p2a: Qwilfish
+|-damage|p2a: Qwilfish|69/100
+|-enditem|p2a: Qwilfish|Black Sludge|[from] move: Knock Off|[of] p1a: Two-In-One
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, F|100/100
+|-damage|p2a: Gourgeist|88/100|[from] Stealth Rock
+|-item|p1a: Two-In-One|Weakness Policy|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Two-In-One|Earthquake|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|84/100
+|
+|-heal|p2a: Gourgeist|90/100|[from] item: Leftovers
+|-end|p1a: Two-In-One|move: Taunt
+|upkeep
+|turn|5
+|
+|move|p1a: Two-In-One|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|72/100
+|-enditem|p2a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p1a: Two-In-One
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Two-In-One
+|-status|p1a: Two-In-One|brn
+|
+|-damage|p1a: Two-In-One|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Oh a butterfly|Butterfree, M|100/100
+|move|p2a: Gourgeist|Leech Seed|p1a: Oh a butterfly
+|-start|p1a: Oh a butterfly|move: Leech Seed
+|
+|-damage|p1a: Oh a butterfly|88/100|[from] Leech Seed|[of] p2a: Gourgeist
+|-heal|p2a: Gourgeist|80/100|[silent]
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|move|p1a: Oh a butterfly|Quiver Dance|p1a: Oh a butterfly
+|-boost|p1a: Oh a butterfly|spa|1
+|-boost|p1a: Oh a butterfly|spd|1
+|-boost|p1a: Oh a butterfly|spe|1
+|
+|-heal|p2a: Audino|94/100|[from] item: Leftovers
+|-damage|p1a: Oh a butterfly|76/100|[from] Leech Seed|[of] p2a: Audino
+|-heal|p2a: Audino|100/100|[silent]
+|upkeep
+|turn|8
+
+|
+|move|p1a: Oh a butterfly|Sleep Powder|p2a: Audino
+|-status|p2a: Audino|slp|[from] move: Sleep Powder
+|cant|p2a: Audino|slp
+|
+|-damage|p1a: Oh a butterfly|64/100|[from] Leech Seed|[of] p2a: Audino
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Volbeat|Volbeat, M|100/100
+|-damage|p2a: Volbeat|76/100|[from] Stealth Rock
+|move|p1a: Oh a butterfly|Quiver Dance|p1a: Oh a butterfly
+|-boost|p1a: Oh a butterfly|spa|1
+|-boost|p1a: Oh a butterfly|spd|1
+|-boost|p1a: Oh a butterfly|spe|1
+|
+|-heal|p2a: Volbeat|82/100|[from] item: Leftovers
+|-damage|p1a: Oh a butterfly|51/100|[from] Leech Seed|[of] p2a: Volbeat
+|-heal|p2a: Volbeat|91/100|[silent]
+|upkeep
+|turn|10
+
+|
+|move|p2a: Volbeat|Encore|p1a: Oh a butterfly
+|-start|p1a: Oh a butterfly|Encore
+|move|p1a: Oh a butterfly|Quiver Dance|p1a: Oh a butterfly
+|-boost|p1a: Oh a butterfly|spa|1
+|-boost|p1a: Oh a butterfly|spd|1
+|-boost|p1a: Oh a butterfly|spe|1
+|
+|-heal|p2a: Volbeat|97/100|[from] item: Leftovers
+|-damage|p1a: Oh a butterfly|39/100|[from] Leech Seed|[of] p2a: Volbeat
+|-heal|p2a: Volbeat|100/100|[silent]
+|upkeep
+|turn|11
+
+|-message|Ion444 forfeited.
+
+|
+|win|Tvgfh

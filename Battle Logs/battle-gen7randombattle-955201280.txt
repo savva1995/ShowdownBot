@@ -1,0 +1,257 @@
+|init|battle
+|title|hotrobiola vs. jifowejfiowe∯
+|j|☆hotrobiola
+|j|☆jifowejfiowe∯
+|player|p1|hotrobiola|170|1748
+|player|p2|jifowejfiowe∯|101|1710
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Barbaracle|Barbaracle, L84, M|100/100
+|switch|p2a: Volcarona|Volcarona, L80, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hotrobiola)
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|6/100
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|-enditem|p1a: Barbaracle|White Herb
+|-clearnegativeboost|p1a: Barbaracle|[silent]
+|
+|upkeep
+|turn|2
+|c|☆jifowejfiowe∯|glhf.
+|
+|switch|p2a: Goodra|Goodra, L84, F|100/100
+|move|p1a: Barbaracle|Liquidation|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|53/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Barbaracle|Stone Edge|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, L86, M|100/100
+|turn|4
+
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Passimian
+|-damage|p2a: Passimian|28/100
+|move|p2a: Passimian|U-turn|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+
+|
+|switch|p2a: Scolipede|Scolipede, L81, M|100/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, M|100/100
+|turn|5
+
+|
+|move|p2a: Scolipede|Poison Jab|p1a: Vivillon
+|-damage|p1a: Vivillon|43/100
+|-damage|p2a: Scolipede|90/100|[from] item: Life Orb
+|move|p1a: Vivillon|Sleep Powder|p2a: Scolipede
+|-status|p2a: Scolipede|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Vivillon|49/100|[from] item: Leftovers
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Turtonator|Turtonator, L89, M|100/100
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|
+|-heal|p1a: Vivillon|55/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Kecleon|Kecleon, L89, M|100/100
+|move|p2a: Turtonator|Fire Blast|p1a: Kecleon
+|-damage|p1a: Kecleon|67/100
+|
+|-heal|p1a: Kecleon|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Kecleon|Stealth Rock|p2a: Turtonator
+|-start|p1a: Kecleon|typechange|Rock|[from] ability: Protean
+|-sidestart|p2: jifowejfiowe∯|move: Stealth Rock
+|move|p2a: Turtonator|Dragon Tail|p1a: Kecleon
+|-damage|p1a: Kecleon|44/100
+|drag|p1a: Magearna|Magearna, L80|100/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Turtonator|Fire Blast|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|19/100
+|
+|upkeep
+|turn|10
+
+|
+|-zpower|p1a: Magearna
+|move|p1a: Magearna|Twinkle Tackle|p2a: Turtonator|[zeffect]
+|-damage|p2a: Turtonator|39/100
+|move|p2a: Turtonator|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|upkeep
+
+|
+|switch|p1a: Kecleon|Kecleon, L89, M|44/100
+|turn|11
+
+|
+|move|p1a: Kecleon|Knock Off|p2a: Turtonator
+|-start|p1a: Kecleon|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Turtonator|7/100
+|-enditem|p2a: Turtonator|Assault Vest|[from] move: Knock Off|[of] p1a: Kecleon
+|move|p2a: Turtonator|Explosion|p1a: Kecleon
+|-crit|p1a: Kecleon
+|-damage|p1a: Kecleon|0 fnt
+|faint|p2a: Turtonator
+|faint|p1a: Kecleon
+|
+|upkeep
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, M|55/100
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-damage|p2a: Stakataka|95/100|[from] Stealth Rock
+|-item|p2a: Stakataka|Air Balloon
+|turn|12
+
+|
+|switch|p1a: Victreebel|Victreebel, L88, M|100/100
+|move|p2a: Stakataka|Trick Room|p2a: Stakataka
+|-fieldstart|move: Trick Room|[of] p2a: Stakataka
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Stakataka|Gyro Ball|p1a: Victreebel
+|-damage|p1a: Victreebel|22/100
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|
+|-heal|p1a: Victreebel|28/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+
+|
+|move|p1a: Victreebel|Sucker Punch|p2a: Stakataka
+|-damage|p2a: Stakataka|71/100
+|-enditem|p2a: Stakataka|Air Balloon
+|move|p2a: Stakataka|Gyro Ball|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|-ability|p2a: Stakataka|Beast Boost|boost
+|-boost|p2a: Stakataka|def|1
+|
+|upkeep
+
+|
+|switch|p1a: Giratina|Giratina-Origin, L78|100/100
+|turn|15
+
+|
+|move|p2a: Stakataka|Gyro Ball|p1a: Giratina
+|-damage|p1a: Giratina|51/100
+|move|p1a: Giratina|Earthquake|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|28/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Stakataka|Gyro Ball|p1a: Giratina
+|-damage|p1a: Giratina|1/100
+|move|p1a: Giratina|Earthquake|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|faint|p2a: Stakataka
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p2a: Passimian|Passimian, L86, M|28/100
+|-damage|p2a: Passimian|22/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Giratina|Shadow Sneak|p2a: Passimian
+|-damage|p2a: Passimian|5/100
+|move|p2a: Passimian|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|upkeep
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, M|55/100
+|turn|18
+
+|
+|move|p2a: Passimian|Knock Off|p1a: Vivillon
+|-damage|p1a: Vivillon|13/100
+|-enditem|p1a: Vivillon|Leftovers|[from] move: Knock Off|[of] p2a: Passimian
+|move|p1a: Vivillon|Bug Buzz|p2a: Passimian
+|-resisted|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|upkeep
+
+|
+|switch|p2a: Volcarona|Volcarona, L80, M|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Vivillon
+|-resisted|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|win|jifowejfiowe∯

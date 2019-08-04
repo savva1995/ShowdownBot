@@ -1,0 +1,377 @@
+|init|battle
+|title|Liondedan vs. RedTahGgen
+|j|☆Liondedan
+|j|☆RedTahGgen
+|player|p1|Liondedan|3|1074
+|player|p2|RedTahGgen|109|1055
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|switch|p2a: Passimian|Passimian, L86, M|100/100
+|turn|1
+|
+|switch|p2a: Tangrowth|Tangrowth, L80, M|100/100
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Aggron|Aggron, L82, F|100/100
+|move|p2a: Tangrowth|Sleep Powder|p1a: Aggron
+|-status|p1a: Aggron|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+
+|
+|detailschange|p1a: Aggron|Aggron-Mega, L82, F
+|-mega|p1a: Aggron|Aggron|Aggronite
+|cant|p1a: Aggron|slp
+|move|p2a: Tangrowth|Leaf Storm|p1a: Aggron|[miss]
+|-miss|p2a: Tangrowth|p1a: Aggron
+|
+|upkeep
+|turn|4
+
+|
+|cant|p1a: Aggron|slp
+|move|p2a: Tangrowth|Leaf Storm|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|62/100 slp
+|-unboost|p2a: Tangrowth|spa|2
+|-damage|p2a: Tangrowth|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Liondedan)
+
+|
+|switch|p2a: Passimian|Passimian, L86, M|100/100
+|cant|p1a: Aggron|slp
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Passimian|Rock Slide|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|56/100 slp
+|-curestatus|p1a: Aggron|slp|[msg]
+|cant|p1a: Aggron|flinch
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|100/100
+|move|p1a: Aggron|Toxic|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Nidoqueen|Fire Blast|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|turn|9
+
+|
+|switch|p2a: Tangrowth|Tangrowth, L80, M|100/100
+|move|p1a: Manaphy|Surf|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|77/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Manaphy|Ice Beam|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|9/100
+|move|p2a: Tangrowth|Sleep Powder|p1a: Manaphy
+|-status|p1a: Manaphy|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Mantine|Mantine, L84, F|100/100
+|move|p2a: Tangrowth|Leaf Storm|p1a: Mantine
+|-damage|p1a: Mantine|57/100
+|-unboost|p2a: Tangrowth|spa|2
+|-damage|p2a: Tangrowth|0 fnt|[from] item: Life Orb
+|faint|p2a: Tangrowth
+|
+|-heal|p1a: Mantine|63/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Deoxys|Deoxys, L78|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|12
+
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Mantine
+|-sidestart|p1: Liondedan|move: Stealth Rock
+|move|p1a: Mantine|Toxic|p2a: Deoxys
+|-status|p2a: Deoxys|tox
+|
+|-heal|p1a: Mantine|69/100|[from] item: Leftovers
+|-damage|p2a: Deoxys|95/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Deoxys|Spikes|p1a: Mantine
+|-sidestart|p1: Liondedan|Spikes
+|move|p1a: Mantine|Air Slash|p2a: Deoxys
+|-damage|p2a: Deoxys|39/100 tox
+|
+|-heal|p2a: Deoxys|45/100 tox|[from] item: Leftovers
+|-heal|p1a: Mantine|75/100|[from] item: Leftovers
+|-damage|p2a: Deoxys|34/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Mantine|[miss]
+|-miss|p2a: Deoxys|p1a: Mantine
+|move|p1a: Mantine|Air Slash|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-heal|p1a: Mantine|81/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Arbok|Arbok, L89, F|100/100
+|turn|15
+
+|
+|move|p2a: Arbok|Gunk Shot|p1a: Mantine
+|-damage|p1a: Mantine|1/100
+|-status|p1a: Mantine|psn
+|-damage|p2a: Arbok|91/100|[from] item: Life Orb
+|move|p1a: Mantine|Air Slash|p2a: Arbok
+|-damage|p2a: Arbok|64/100
+|
+|-heal|p1a: Mantine|7/100 psn|[from] item: Leftovers
+|-damage|p1a: Mantine|0 fnt|[from] psn
+|faint|p1a: Mantine
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100 slp
+|-damage|p1a: Manaphy|88/100 slp|[from] Stealth Rock
+|-damage|p1a: Manaphy|76/100 slp|[from] Spikes
+|turn|16
+
+|
+|cant|p1a: Manaphy|slp
+|move|p2a: Arbok|Gunk Shot|p1a: Manaphy
+|-damage|p1a: Manaphy|17/100 slp
+|-damage|p2a: Arbok|54/100|[from] item: Life Orb
+|
+|-heal|p1a: Manaphy|24/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|-curestatus|p1a: Manaphy|slp|[msg]
+|move|p1a: Manaphy|Surf|p2a: Arbok
+|-damage|p2a: Arbok|18/100
+|move|p2a: Arbok|Gunk Shot|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|-damage|p2a: Arbok|8/100|[from] item: Life Orb
+|faint|p1a: Manaphy
+|
+|upkeep
+
+|
+|switch|p1a: Sawk|Sawk, L87, M|100/100
+|-damage|p1a: Sawk|88/100|[from] Spikes
+|-damage|p1a: Sawk|82/100|[from] Stealth Rock
+|turn|18
+
+|
+|switch|p2a: Passimian|Passimian, L86, M|100/100
+|move|p1a: Sawk|Bulk Up|p1a: Sawk
+|-boost|p1a: Sawk|atk|1
+|-boost|p1a: Sawk|def|1
+|
+|-heal|p1a: Sawk|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Passimian|U-turn|p1a: Sawk
+|-resisted|p1a: Sawk
+|-damage|p1a: Sawk|80/100
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|100/100|[from]move: U-turn
+|move|p1a: Sawk|Poison Jab|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|91/100
+|
+|-heal|p1a: Sawk|87/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|inactive|Liondedan has 120 seconds left.
+
+|
+|move|p1a: Sawk|Poison Jab|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|82/100
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Sawk
+|-damage|p1a: Sawk|34/100
+|
+|-heal|p1a: Sawk|41/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Sawk|Close Combat|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|40/100
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|move|p2a: Nidoqueen|Ice Beam|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|upkeep
+
+|
+|switch|p1a: Lugia|Lugia, L78|100/100
+|-damage|p1a: Lugia|76/100|[from] Stealth Rock
+|turn|22
+
+|inactive|RedTahGgen has 120 seconds left.
+
+|
+|move|p1a: Lugia|Psychic|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-heal|p1a: Lugia|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Carracosta|Carracosta, L88, F|100/100
+|turn|23
+
+|inactive|Liondedan has 120 seconds left.
+
+|
+|move|p1a: Lugia|Thunder Wave|p2a: Carracosta
+|-status|p2a: Carracosta|par
+|move|p2a: Carracosta|Shell Smash|p2a: Carracosta
+|-unboost|p2a: Carracosta|def|1
+|-unboost|p2a: Carracosta|spd|1
+|-boost|p2a: Carracosta|atk|2
+|-boost|p2a: Carracosta|spa|2
+|-boost|p2a: Carracosta|spe|2
+|-enditem|p2a: Carracosta|White Herb
+|-clearnegativeboost|p2a: Carracosta|[silent]
+|
+|-heal|p1a: Lugia|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Lugia|Psychic|p2a: Carracosta
+|-damage|p2a: Carracosta|64/100 par
+|move|p2a: Carracosta|Stone Edge|p1a: Lugia|[miss]
+|-miss|p2a: Carracosta|p1a: Lugia
+|
+|-heal|p1a: Lugia|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Lugia|Psychic|p2a: Carracosta
+|-damage|p2a: Carracosta|28/100 par
+|-unboost|p2a: Carracosta|spd|1
+|cant|p2a: Carracosta|par
+|
+|-heal|p1a: Lugia|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p1a: Lugia|Psychic|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|faint|p2a: Carracosta
+|
+|-heal|p1a: Lugia|100/100|[from] item: Leftovers
+|upkeep
+
+|inactive|RedTahGgen has 120 seconds left.
+
+|
+|switch|p2a: Passimian|Passimian, L86, M|100/100
+|turn|27
+
+|inactive|RedTahGgen has 120 seconds left.
+
+|
+|move|p2a: Passimian|Rock Slide|p1a: Lugia|[miss]
+|-miss|p2a: Passimian|p1a: Lugia
+|move|p1a: Lugia|Thunder Wave|p2a: Passimian
+|-status|p2a: Passimian|par
+|
+|upkeep
+|turn|28
+
+|inactive|RedTahGgen has 120 seconds left.
+
+|
+|move|p1a: Lugia|Psychic|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|38/100 par
+|cant|p2a: Passimian|par
+|
+|upkeep
+|turn|29
+
+|
+|move|p1a: Lugia|Psychic|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|upkeep
+
+|
+|switch|p2a: Arbok|Arbok, L89, F|8/100
+|turn|30
+
+|
+|move|p2a: Arbok|Sucker Punch|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|82/100
+|-damage|p2a: Arbok|0 fnt|[from] item: Life Orb
+|faint|p2a: Arbok
+|
+|win|Liondedan

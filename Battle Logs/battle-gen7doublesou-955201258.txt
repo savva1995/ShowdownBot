@@ -1,0 +1,67 @@
+|init|battle
+|title|gangweed69 vs. Exp Bro
+|j|☆gangweed69
+|j|☆Exp Bro
+|player|p1|gangweed69|115|1230
+|player|p2|Exp Bro|169|1384
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Meowstic, M|item
+|poke|p1|Crabominable, F|item
+|poke|p1|Diancie|item
+|poke|p1|Toxapex, F|item
+|poke|p1|Bronzong|item
+|poke|p1|Stakataka|item
+|poke|p2|Electrode|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Charizard, M|item
+|poke|p2|Incineroar, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ninetales-Alola, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gangweed69)
+|
+|start
+|switch|p1a: dwayne|Diancie|100/100
+|switch|p1b: bong|Bronzong|100/100
+|switch|p2a: Electrode|Electrode|100/100
+|switch|p2b: Charizard|Charizard, M|100/100
+|turn|1
+|
+|detailschange|p2b: Charizard|Charizard-Mega-X, M
+|-mega|p2b: Charizard|Charizard|Charizardite X
+|detailschange|p1a: dwayne|Diancie-Mega
+|-mega|p1a: dwayne|Diancie|Diancite
+|move|p2a: Electrode|Eerie Impulse|p1a: dwayne
+|move|p1a: dwayne|Eerie Impulse|p2a: Electrode|[from]Magic Bounce
+|-unboost|p2a: Electrode|spa|2
+|move|p1a: dwayne|Diamond Storm|p2b: Charizard|[spread] p2a,p2b
+|-supereffective|p2b: Charizard
+|-damage|p2a: Electrode|35/100
+|-damage|p2b: Charizard|0 fnt
+|-boost|p1a: dwayne|def|2
+|faint|p2b: Charizard
+|move|p1b: bong|Trick Room|p1b: bong
+|-fieldstart|move: Trick Room|[of] p1b: bong
+|
+|upkeep
+|-message|Exp Bro forfeited.
+|
+|win|gangweed69
+|l|☆Exp Bro
+|raw|gangweed69's rating: 1230 &rarr; <strong>1265</strong><br />(+35 for winning)
+|raw|Exp Bro's rating: 1384 &rarr; <strong>1355</strong><br />(-29 for losing)
+|l|☆gangweed69

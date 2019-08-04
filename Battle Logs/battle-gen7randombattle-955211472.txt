@@ -1,0 +1,90 @@
+|init|battle
+|title|jhngbkvbm vs. PapaJoseph
+|j|☆jhngbkvbm
+|j|☆PapaJoseph
+|player|p1|jhngbkvbm|265|1000
+|player|p2|PapaJoseph|265|1021
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gigalith|Gigalith, L85, M|100/100
+|switch|p2a: Chatot|Chatot, L89, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PapaJoseph)
+|
+|switch|p2a: Mimikyu|Mimikyu, L82, F|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Mimikyu
+|-sidestart|p2: PapaJoseph|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Gigalith|Stone Edge|p2a: Mimikyu
+|-crit|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|94/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L82, F
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|88/100|[from] Sandstorm
+|upkeep
+|turn|3
+
+|
+|-zpower|p2a: Mimikyu
+|move|p2a: Mimikyu|Let's Snuggle Forever|p1a: Gigalith|[zeffect]
+|-damage|p1a: Gigalith|7/100
+|move|p1a: Gigalith|Stone Edge|p2a: Mimikyu
+|-damage|p2a: Mimikyu|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|5/100|[from] Sandstorm
+|-heal|p1a: Gigalith|13/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|PapaJoseph has 120 seconds left.
+
+|inactive|PapaJoseph has 90 seconds left.
+
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|0 fnt|[from] Sandstorm
+|faint|p2a: Mimikyu
+|upkeep
+
+|l|☆PapaJoseph
+
+|inactive|PapaJoseph disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|inactive|PapaJoseph has 30 seconds to reconnect!
+
+|inactive|PapaJoseph has 20 seconds to reconnect!
+
+|inactive|PapaJoseph has 15 seconds to reconnect!
+
+|inactive|PapaJoseph has 10 seconds to reconnect!
+
+|inactive|PapaJoseph has 5 seconds to reconnect!
+
+|-message|PapaJoseph lost due to inactivity.
+|
+|win|jhngbkvbm

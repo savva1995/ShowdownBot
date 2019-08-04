@@ -1,0 +1,152 @@
+|init|battle
+|title|Kokuli vs. HardFlame
+|j|☆Kokuli
+|j|☆HardFlame
+|player|p1|Kokuli|169|1152
+|player|p2|HardFlame|266|1082
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Seismitoad, F|item
+|poke|p1|Glaceon, F|item
+|poke|p1|Talonflame, M|item
+|poke|p1|Luxray, F|item
+|poke|p1|Beedrill, M|item
+|poke|p1|Steelix, F|item
+|poke|p2|Aegislash, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Blastoise, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|1
+|
+|move|p2a: Flygon|Stone Edge|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|53/100
+|move|p1a: Glaceon|Shadow Ball|p2a: Flygon
+|-damage|p2a: Flygon|67/100
+|-unboost|p2a: Flygon|spd|1
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Flygon|Flamethrower|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|88/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Seismitoad|Ice Punch|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|4
+
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Volcarona|Giga Drain|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|92/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|move|p1a: Talonflame|Brave Bird|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|83/100
+|-damage|p1a: Talonflame|84/100|[from] Recoil
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Talonflame|U-turn|p2a: Rhyperior
+|-damage|p2a: Rhyperior|70/100
+
+|
+|switch|p1a: Seismitoad|Seismitoad, F|88/100|[from]move: U-turn
+|move|p2a: Rhyperior|Rock Wrecker|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|44/100
+|-mustrecharge|p2a: Rhyperior
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Seismitoad|Drain Punch|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|49/100
+|-heal|p1a: Seismitoad|56/100|[from] drain|[of] p2a: Rhyperior
+|cant|p2a: Rhyperior|recharge
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Seismitoad|Drain Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|88/100
+|-heal|p1a: Seismitoad|62/100|[from] drain|[of] p2a: Volcarona
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Talonflame|Talonflame, M|84/100
+|move|p2a: Volcarona|Giga Drain|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|76/100
+|-heal|p2a: Volcarona|92/100|[from] drain|[of] p1a: Talonflame
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Rhyperior|Rhyperior, M|49/100
+|move|p1a: Talonflame|U-turn|p2a: Rhyperior
+|-damage|p2a: Rhyperior|37/100
+
+|
+|switch|p1a: Seismitoad|Seismitoad, F|62/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+
+|-message|HardFlame forfeited.
+
+|
+|win|Kokuli

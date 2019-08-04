@@ -1,0 +1,120 @@
+|init|battle
+|title|SolLevante vs. Ultra-Cheqz
+|j|☆SolLevante
+|j|☆Ultra-Cheqz
+|player|p1|SolLevante|265|1334
+|player|p2|Ultra-Cheqz|266|1457
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Tapu Fini, L50|item
+|poke|p1|Raichu, L50, F|item
+|poke|p1|Yveltal, L50|item
+|poke|p1|Xerneas, L50|item
+|poke|p1|Landorus-Therian, L50, M|item
+|poke|p1|Lucario, L50, F|item
+|poke|p2|Empoleon, L50, F|item
+|poke|p2|Rayquaza, L50|item
+|poke|p2|Groudon, L50|item
+|poke|p2|Gengar, L50, M|item
+|poke|p2|Tapu Koko, L50|item
+|poke|p2|Tornadus, L50, M|item
+|teampreview|4
+|
+|start
+|switch|p1a: Tapu Fini|Tapu Fini, L50|48/48
+|switch|p1b: Yveltal|Yveltal, L50|48/48
+|switch|p2a: Gengar|Gengar, L50, M, shiny|48/48
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|48/48
+|-ability|p1b: Yveltal|Dark Aura
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|1
+
+|
+|-zpower|p2b: Tornadus
+|move|p2b: Tornadus|Supersonic Skystrike|p1b: Yveltal|[zeffect]
+|-damage|p1b: Yveltal|17/48
+|move|p1b: Yveltal|Snarl|p2a: Gengar|[spread] p2a,p2b
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|27/48
+|-damage|p2b: Tornadus|31/48
+|-start|p1b: Yveltal|Disable|Snarl|[from] ability: Cursed Body|[of] p2a: Gengar
+|-unboost|p2a: Gengar|spa|1
+|-unboost|p2b: Tornadus|spa|1
+|move|p1a: Tapu Fini|Light Screen|p1a: Tapu Fini
+|-sidestart|p1: SolLevante|move: Light Screen
+|move|p2a: Gengar|Sludge Bomb|p1b: Yveltal
+|-damage|p1b: Yveltal|11/48
+|-enditem|p1b: Yveltal|Aguav Berry|[eat]
+|-heal|p1b: Yveltal|35/48|[from] item: Aguav Berry
+|
+|upkeep
+|turn|2
+
+|
+|move|p2b: Tornadus|Hurricane|p1b: Yveltal
+|-damage|p1b: Yveltal|27/48
+|move|p1b: Yveltal|Foul Play|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|move|p1a: Tapu Fini|Icy Wind|p2b: Tornadus
+|-supereffective|p2b: Tornadus
+|-damage|p2b: Tornadus|15/48
+|-unboost|p2b: Tornadus|spe|1
+|
+|upkeep
+
+|
+|switch|p2a: Rayquaza|Rayquaza, L50|48/48
+|-ability|p2a: Rayquaza|Air Lock
+|turn|3
+
+|
+|detailschange|p2a: Rayquaza|Rayquaza-Mega, L50
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Ultra-Cheqz|move: Tailwind
+|move|p2a: Rayquaza|Dragon Ascent|p1b: Yveltal
+|-damage|p1b: Yveltal|1/48
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|move|p1b: Yveltal|Tailwind|p1b: Yveltal
+|-sidestart|p1: SolLevante|move: Tailwind
+|move|p1a: Tapu Fini|Icy Wind|p2a: Rayquaza|[spread] p2a,p2b
+|-activate||deltastream
+|-supereffective|p2a: Rayquaza
+|-activate||deltastream
+|-damage|p2a: Rayquaza|40/48
+|-damage|p2b: Tornadus|8/48
+|-unboost|p2a: Rayquaza|spe|1
+|-unboost|p2b: Tornadus|spe|1
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p1b: Yveltal|Foul Play|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|-weather|none
+|move|p1a: Tapu Fini|Icy Wind|p2b: Tornadus
+|-supereffective|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|-end|p1b: Yveltal|Disable
+|upkeep
+
+|-message|Ultra-Cheqz forfeited.
+
+|
+|win|SolLevante

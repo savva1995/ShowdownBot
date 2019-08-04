@@ -1,0 +1,294 @@
+|init|battle
+|title|Acidic Shit vs. Marksbanks
+|j|☆Acidic Shit
+|j|☆Marksbanks
+|player|p1|Acidic Shit|2|1527
+|player|p2|Marksbanks|1|1527
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, L85, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Acidic Shit)
+|
+|switch|p2a: Houndoom|Houndoom, L83, M|100/100
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|81/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Houndoom|75/100|[from] Hail
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, L80, M|100/100
+|detailschange|p2a: Houndoom|Houndoom-Mega, L83, M
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Nasty Plot|p2a: Houndoom
+|-boost|p2a: Houndoom|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Houndoom|68/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Houndoom|62/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Raticate|Raticate, L89, M|100/100
+|turn|4
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Houndoom|56/100|[from] Hail
+|upkeep
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, M|100/100
+|turn|5
+
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Spiritomb
+|-damage|p1a: Spiritomb|23/100
+|move|p1a: Spiritomb|Dark Pulse|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|40/100
+|
+|-weather|none
+|-heal|p1a: Spiritomb|29/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|31/100
+|move|p2a: Houndoom|Dark Pulse|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|upkeep
+
+|
+|switch|p1a: Vanilluxe|Vanilluxe, L85, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|7
+
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Vanilluxe|[miss]
+|-miss|p2a: Houndoom|p1a: Vanilluxe
+|move|p1a: Vanilluxe|Flash Cannon|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|19/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Houndoom|13/100|[from] Hail
+|upkeep
+|turn|8
+
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Vanilluxe|[miss]
+|-miss|p2a: Houndoom|p1a: Vanilluxe
+|move|p1a: Vanilluxe|Autotomize|p1a: Vanilluxe
+|-boost|p1a: Vanilluxe|spe|2
+|-start|p1a: Vanilluxe|Autotomize
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Houndoom|7/100|[from] Hail
+|upkeep
+|turn|9
+
+|
+|move|p1a: Vanilluxe|Flash Cannon|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Granbull|Granbull, L89, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Vanilluxe|atk|1
+|turn|10
+
+|
+|move|p1a: Vanilluxe|Flash Cannon|p2a: Granbull
+|-supereffective|p2a: Granbull
+|-damage|p2a: Granbull|49/100
+|move|p2a: Granbull|Thunder Wave|p1a: Vanilluxe|[miss]
+|-miss|p2a: Granbull|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Granbull|43/100|[from] Hail
+|-heal|p2a: Granbull|49/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Vanilluxe|Flash Cannon|p2a: Granbull
+|-supereffective|p2a: Granbull
+|-damage|p2a: Granbull|0 fnt
+|faint|p2a: Granbull
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+|turn|12
+
+|
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|44/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Vanilluxe
+|-status|p1a: Vanilluxe|par
+|
+|-heal|p2a: Amoonguss|50/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+
+|
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|upkeep
+
+|
+|switch|p2a: Latios|Latios, L81, M|100/100
+|turn|14
+
+|
+|move|p2a: Latios|Thunderbolt|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|62/100 par
+|-damage|p2a: Latios|91/100|[from] item: Life Orb
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|29/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Latios|Draco Meteor|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|19/100|[from] item: Life Orb
+|faint|p1a: Vanilluxe
+|
+|upkeep
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|turn|16
+
+|
+|move|p2a: Latios|Thunderbolt|p1a: Solgaleo
+|-damage|p1a: Solgaleo|84/100
+|-damage|p2a: Latios|9/100|[from] item: Life Orb
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-heal|p1a: Solgaleo|90/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, L84, M|100/100
+|turn|17
+
+|
+|move|p2a: Noivern|Flamethrower|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|36/100
+|-damage|p2a: Noivern|91/100|[from] item: Life Orb
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Noivern
+|-damage|p2a: Noivern|44/100
+|
+|-heal|p1a: Solgaleo|42/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Noivern|Flamethrower|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|-damage|p2a: Noivern|34/100|[from] item: Life Orb
+|faint|p1a: Solgaleo
+|
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, L80, F|100/100
+|turn|19
+
+|
+|detailschange|p1a: Scizor|Scizor-Mega, L80, F
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|Bullet Punch|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+
+|
+|switch|p2a: Regirock|Regirock, L88|100/100
+|turn|20
+
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Regirock|Stone Edge|p1a: Scizor
+|-damage|p1a: Scizor|64/100
+|
+|upkeep
+|turn|21
+
+|c|☆Marksbanks|Gg
+
+|c|☆Marksbanks|10 miss gg
+
+|inactive|Marksbanks has 120 seconds left.
+
+|l|☆Marksbanks
+
+|inactive|Marksbanks disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|c|☆Acidic Shit|exaggerated
+
+|inactive|Marksbanks has 30 seconds to reconnect!
+
+|inactive|Marksbanks has 20 seconds to reconnect!
+
+|inactive|Marksbanks has 15 seconds to reconnect!
+
+|inactive|Marksbanks has 10 seconds to reconnect!
+
+|inactive|Marksbanks has 5 seconds to reconnect!
+
+|-message|Marksbanks lost due to inactivity.
+|
+|win|Acidic Shit

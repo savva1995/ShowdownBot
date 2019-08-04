@@ -1,0 +1,234 @@
+|init|battle
+|title|Therazer456 vs. Adamteeemack
+|j|☆Therazer456
+|j|‽Adamteeemack
+|player|p1|Therazer456|269|1804
+|player|p2|Adamteeemack|170|1540
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Doubles OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Gardevoir, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Kartana|item
+|poke|p1|Zapdos|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Incineroar, F|item
+|poke|p2|Lilligant, F|item
+|poke|p2|Torkoal, F|item
+|poke|p2|Krookodile, F|item
+|poke|p2|Pheromosa|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Oricorio-Pom-Pom, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adamteeemack)
+|
+|start
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|switch|p1b: Incineroar|Incineroar, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|switch|p2b: Lilligant|Lilligant, F, shiny|100/100
+|-ability|p1a: Gardevoir|Drought|[from] ability: Trace|[of] p2a: Torkoal
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Gardevoir
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Lilligant|atk|1
+|turn|1
+|
+|switch|p2b: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Tapu Lele
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, F
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|move|p1a: Gardevoir|Protect|p1a: Gardevoir
+|-singleturn|p1a: Gardevoir|Protect
+|move|p1b: Incineroar|Flare Blitz|p2b: Tapu Lele
+|-damage|p2b: Tapu Lele|0 fnt
+|-damage|p1b: Incineroar|75/100|[from] Recoil
+|faint|p2b: Tapu Lele
+|move|p2a: Torkoal|Overheat|p1a: Gardevoir
+|-activate|p1a: Gardevoir|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2b: Lilligant|Lilligant, F, shiny|100/100
+|turn|2
+|
+|switch|p1b: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1b: Tapu Fini
+|switch|p2a: Oricorio|Oricorio-Pom-Pom, M, shiny|100/100
+|move|p2b: Lilligant|Quiver Dance|p2b: Lilligant
+|-boost|p2b: Lilligant|spa|1
+|-boost|p2b: Lilligant|spd|1
+|-boost|p2b: Lilligant|spe|1
+|-activate|p2a: Oricorio|ability: Dancer
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio|[from]Dancer
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|move|p1a: Gardevoir|Hyper Voice|p2a: Oricorio|[spread] p2a,p2b
+|-damage|p2a: Oricorio|54/100
+|-damage|p2b: Lilligant|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1b: Incineroar|Incineroar, F|75/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Oricorio|atk|1
+|-unboost|p2b: Lilligant|atk|1
+|move|p1a: Gardevoir|Protect|p1a: Gardevoir
+|-singleturn|p1a: Gardevoir|Protect
+|move|p2b: Lilligant|Quiver Dance|p2b: Lilligant
+|-boost|p2b: Lilligant|spa|1
+|-boost|p2b: Lilligant|spd|1
+|-boost|p2b: Lilligant|spe|1
+|-activate|p2a: Oricorio|ability: Dancer
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio|[from]Dancer
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|-zpower|p2a: Oricorio
+|move|p2a: Oricorio|Supersonic Skystrike|p1a: Gardevoir|[zeffect]
+|-crit|p1a: Gardevoir
+|-zbroken|p1a: Gardevoir
+|-damage|p1a: Gardevoir|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1b: Incineroar|Fake Out|p2a: Oricorio
+|-damage|p2a: Oricorio|35/100
+|move|p2b: Lilligant|Petal Dance|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|-activate|p2a: Oricorio|ability: Dancer
+|cant|p2a: Oricorio|flinch
+|cant|p2a: Oricorio|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|5
+|
+|move|p2b: Lilligant|Petal Dance|p1a: Zapdos|[from]lockedmove
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|53/100
+|-activate|p2a: Oricorio|ability: Dancer
+|move|p2a: Oricorio|Petal Dance|p1a: Zapdos|[from]Dancer
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|19/100
+|move|p2a: Oricorio|Revelation Dance|p1b: Incineroar
+|-damage|p1b: Incineroar|19/100
+|-zpower|p1a: Zapdos
+|move|p1a: Zapdos|Gigavolt Havoc|p2a: Oricorio|[zeffect]
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|move|p1b: Incineroar|Flare Blitz|p2b: Lilligant
+|-supereffective|p2b: Lilligant
+|-damage|p2b: Lilligant|0 fnt
+|-damage|p1b: Incineroar|3/100|[from] Recoil
+|faint|p2b: Lilligant
+|
+|-weather|none
+|upkeep
+|
+|switch|p2b: Pheromosa|Pheromosa|100/100
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|6
+|inactive|Therazer456 has 120 seconds left.
+|
+|move|p1a: Zapdos|Protect|p1a: Zapdos
+|-singleturn|p1a: Zapdos|Protect
+|move|p2b: Pheromosa|Quiver Dance|p2b: Pheromosa
+|-boost|p2b: Pheromosa|spa|1
+|-boost|p2b: Pheromosa|spd|1
+|-boost|p2b: Pheromosa|spe|1
+|move|p2a: Krookodile|Rock Slide|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Zapdos|move: Protect
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|switch|p1b: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1b: Tapu Fini
+|turn|7
+|
+|move|p2b: Pheromosa|Quiver Dance|p2b: Pheromosa
+|-boost|p2b: Pheromosa|spa|1
+|-boost|p2b: Pheromosa|spd|1
+|-boost|p2b: Pheromosa|spe|1
+|move|p2a: Krookodile|Rock Slide|p1b: Tapu Fini|[spread] p1a,p1b
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-damage|p1b: Tapu Fini|86/100
+|faint|p1a: Zapdos
+|move|p1b: Tapu Fini|Moonblast|p2b: Pheromosa
+|-supereffective|p2b: Pheromosa
+|-damage|p2b: Pheromosa|9/100
+|-unboost|p2b: Pheromosa|spa|1
+|
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Krookodile|atk|1
+|-unboost|p2b: Pheromosa|atk|1
+|turn|8
+|
+|switch|p1a: Kartana|Kartana, shiny|100/100
+|-enditem|p1a: Kartana|Misty Seed
+|-boost|p1a: Kartana|spd|1
+|move|p2b: Pheromosa|Protect|p2b: Pheromosa
+|-singleturn|p2b: Pheromosa|Protect
+|move|p2a: Krookodile|Rock Slide|p1a: Kartana|[spread] p1a,p1b
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|95/100
+|-damage|p1b: Tapu Fini|76/100
+|move|p1b: Tapu Fini|Muddy Water|p2a: Krookodile|[spread] p2a
+|-activate|p2b: Pheromosa|move: Protect
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|36/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Kartana|Protect|p1a: Kartana
+|-singleturn|p1a: Kartana|Protect
+|move|p2b: Pheromosa|High Jump Kick|p1a: Kartana
+|-activate|p1a: Kartana|move: Protect
+|-damage|p2b: Pheromosa|0 fnt|[from] highjumpkick
+|faint|p2b: Pheromosa
+|move|p2a: Krookodile|Rock Slide|p1a: Kartana|[spread] p1b
+|-activate|p1a: Kartana|move: Protect
+|-damage|p1b: Tapu Fini|65/100
+|cant|p1b: Tapu Fini|flinch
+|
+|upkeep
+
+|-message|Adamteeemack forfeited.
+
+|
+|win|Therazer456

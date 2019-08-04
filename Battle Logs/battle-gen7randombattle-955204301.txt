@@ -1,0 +1,106 @@
+|init|battle
+|title|uwqehdiuwe vs. t7fgy8hu
+|j|☆uwqehdiuwe
+|j|☆t7fgy8hu
+|player|p1|uwqehdiuwe|266|1000
+|player|p2|t7fgy8hu|10|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bisharp|Bisharp, L82, F|100/100
+|switch|p2a: Manaphy|Manaphy, L81|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by t7fgy8hu)
+
+|inactive|uwqehdiuwe has 120 seconds left.
+
+|
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: Bisharp|Knock Off|p2a: Manaphy
+|-damage|p2a: Manaphy|61/100
+|-enditem|p2a: Manaphy|Leftovers|[from] move: Knock Off|[of] p1a: Bisharp
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Manaphy
+|-damage|p2a: Manaphy|34/100
+|move|p2a: Manaphy|Surf|p1a: Bisharp
+|-enditem|p1a: Bisharp|Focus Sash
+|-damage|p1a: Bisharp|1/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: Bisharp|Knock Off|p2a: Manaphy
+|-damage|p2a: Manaphy|10/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|upkeep
+
+|
+|switch|p2a: Sawk|Sawk, L87, M|100/100
+|turn|5
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Sawk
+|-resisted|p2a: Sawk
+|-damage|p2a: Sawk|85/100
+|move|p2a: Sawk|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Sawk|91/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Lilligant|Lilligant, L87, F|100/100
+|turn|6
+
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Sawk|[miss]
+|-miss|p1a: Lilligant|p2a: Sawk
+|move|p2a: Sawk|Poison Jab|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|40/100
+|
+|-heal|p1a: Lilligant|46/100|[from] item: Leftovers
+|-heal|p2a: Sawk|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Sawk|[miss]
+|-miss|p1a: Lilligant|p2a: Sawk
+|move|p2a: Sawk|Poison Jab|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-heal|p2a: Sawk|100/100|[from] item: Leftovers
+|upkeep
+
+|-message|uwqehdiuwe forfeited.
+
+|
+|win|t7fgy8hu

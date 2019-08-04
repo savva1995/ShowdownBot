@@ -1,0 +1,293 @@
+|init|battle
+|title|Syleks vs. Jarneke123
+|j|☆Syleks
+|j|☆Jarneke123
+|player|p1|Syleks|3|1207
+|player|p2|Jarneke123|265|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Empoleon, F|item
+|poke|p1|Crobat, F|item
+|poke|p1|Zeraora|item
+|poke|p1|Infernape, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Mimikyu, F|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Chesnaught, M|item
+|poke|p2|Moltres|item
+|poke|p2|Scizor, M|
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Snorlax, F|item
+|teampreview
+|
+|start
+|switch|p1a: Emmanuel Macaron|Empoleon, F|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|turn|1
+
+|
+|move|p2a: Moltres|U-turn|p1a: Emmanuel Macaron
+|-resisted|p1a: Emmanuel Macaron
+|-damage|p1a: Emmanuel Macaron|94/100
+
+|
+|switch|p2a: Chesnaught|Chesnaught, M|100/100|[from]move: U-turn
+|move|p1a: Emmanuel Macaron|Scald|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|82/100
+|-status|p2a: Chesnaught|brn
+|
+|-heal|p2a: Chesnaught|88/100 brn|[from] item: Leftovers
+|-heal|p1a: Emmanuel Macaron|99/100|[from] item: Leftovers
+|-damage|p2a: Chesnaught|82/100 brn|[from] brn
+|upkeep
+|turn|2
+
+|
+|switch|p1a: CROustiBAT|Crobat, F|100/100
+|move|p2a: Chesnaught|Spikes|p1a: CROustiBAT
+|-sidestart|p1: Syleks|Spikes
+|
+|-heal|p2a: Chesnaught|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|82/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: CROustiBAT|Brave Bird|p2a: Snorlax
+|-damage|p2a: Snorlax|66/100
+|-damage|p1a: CROustiBAT|82/100|[from] Recoil
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: CROustiBAT|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|cant|p2a: Snorlax|move: Taunt|Curse
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: CROustiBAT|Brave Bird|p2a: Snorlax
+|-damage|p2a: Snorlax|29/100
+|-enditem|p2a: Snorlax|Iapapa Berry|[eat]
+|-heal|p2a: Snorlax|79/100|[from] item: Iapapa Berry
+|-damage|p1a: CROustiBAT|61/100|[from] Recoil
+|move|p2a: Snorlax|Fire Punch|p1a: CROustiBAT
+|-damage|p1a: CROustiBAT|37/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: CROustiBAT|Brave Bird|p2a: Moltres
+|-damage|p2a: Moltres|43/100
+|-damage|p1a: CROustiBAT|18/100|[from] Recoil
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-zpower|p1a: CROustiBAT
+|move|p1a: CROustiBAT|Supersonic Skystrike|p2a: Nidoqueen|[zeffect]
+|-damage|p2a: Nidoqueen|30/100
+|
+|-heal|p2a: Nidoqueen|36/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: CROustiBAT|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|94/100
+
+|
+|switch|p1a: Make another Blazi|Infernape, M|100/100|[from]move: U-turn
+|-damage|p1a: Make another Blazi|88/100|[from] Spikes
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Snorlax|Snorlax, F|79/100
+|move|p1a: Make another Blazi|Flare Blitz|p2a: Snorlax
+|-damage|p2a: Snorlax|37/100
+|-damage|p1a: Make another Blazi|63/100|[from] Recoil
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|move|p1a: Make another Blazi|Flare Blitz|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|32/100
+|-damage|p1a: Make another Blazi|42/100|[from] Recoil
+|
+|upkeep
+|turn|11
+
+|
+|detailschange|p2a: Sharpedo|Sharpedo-Mega, M
+|-mega|p2a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Make another Blazi|Flare Blitz|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Moltres|Moltres|43/100
+|move|p1a: Make another Blazi|Flare Blitz|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|10/100
+|-damage|p1a: Make another Blazi|30/100|[from] Recoil
+|
+|upkeep
+|turn|13
+
+|c|☆Syleks|you shoul not have mega'd
+
+|c|☆Syleks|you didn't get the speed boost
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|36/100
+|move|p1a: Make another Blazi|Flare Blitz|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|-damage|p1a: Make another Blazi|15/100|[from] Recoil
+|faint|p2a: Nidoqueen
+|
+|upkeep
+
+|
+|switch|p2a: Scizor|Scizor, M|94/100
+|turn|14
+
+|
+|switch|p1a: Emmanuel Macaron|Empoleon, F|99/100
+|-damage|p1a: Emmanuel Macaron|88/100|[from] Spikes
+|move|p2a: Scizor|Bullet Punch|p1a: Emmanuel Macaron
+|-resisted|p1a: Emmanuel Macaron
+|-damage|p1a: Emmanuel Macaron|82/100
+|
+|-heal|p1a: Emmanuel Macaron|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Chesnaught|Chesnaught, M|82/100 brn
+|switch|p1a: Make another Blazi|Infernape, M|15/100
+|-damage|p1a: Make another Blazi|3/100|[from] Spikes
+|
+|-heal|p2a: Chesnaught|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|82/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|c|☆Jarneke123|I know bro it was really stupid
+
+|c|☆Syleks|I hate sharpedo
+
+|c|☆Jarneke123|my bad 😩
+
+|c|☆Syleks|that's how my mimikyu is called
+
+|c|☆Syleks|sh*t happens bro
+
+|c|☆Jarneke123|Lol haha
+
+|
+|move|p1a: Make another Blazi|Flare Blitz|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|0 fnt
+|-damage|p1a: Make another Blazi|0 fnt|[from] Recoil
+|faint|p2a: Chesnaught
+|faint|p1a: Make another Blazi
+|
+|upkeep
+
+|c|☆Syleks|i started showdown yesterday
+
+|
+|switch|p1a: CROustiBAT|Crobat, F|18/100
+|switch|p2a: Snorlax|Snorlax, F|37/100
+|turn|17
+
+|
+|move|p1a: CROustiBAT|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|cant|p2a: Snorlax|move: Taunt|Recycle
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: CROustiBAT|Roost|p1a: CROustiBAT
+|-heal|p1a: CROustiBAT|68/100
+|-singleturn|p1a: CROustiBAT|move: Roost
+|move|p2a: Snorlax|Facade|p1a: CROustiBAT
+|-damage|p1a: CROustiBAT|32/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: CROustiBAT|Brave Bird|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-damage|p1a: CROustiBAT|12/100|[from] Recoil
+|faint|p2a: Snorlax
+|
+|upkeep
+
+|
+|switch|p2a: Moltres|Moltres|10/100
+|turn|20
+
+|
+|move|p1a: CROustiBAT|Brave Bird|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-damage|p1a: CROustiBAT|9/100|[from] Recoil
+|faint|p2a: Moltres
+|
+|upkeep
+
+|c|☆Jarneke123|Gg
+
+|
+|switch|p2a: Sharpedo|Sharpedo-Mega, M|32/100
+|turn|21
+
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: CROustiBAT|Brave Bird|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|upkeep
+|turn|22
+
+|-message|Jarneke123 forfeited.
+
+|
+|win|Syleks

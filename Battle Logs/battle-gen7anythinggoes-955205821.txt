@@ -1,0 +1,57 @@
+|init|battle
+|title|MagicGrandpa500 vs. SunaMusen
+|j|☆MagicGrandpa500
+|j|☆SunaMusen
+|player|p1|MagicGrandpa500|110|1134
+|player|p2|SunaMusen|248|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Swampert, M|item
+|poke|p1|Decidueye, M|item
+|poke|p1|Pikachu, M|item
+|poke|p1|Rayquaza|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Smeargle, M|item
+|poke|p2|Mawile, F|item
+|poke|p2|Mienshao, F|item
+|poke|p2|Octillery, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Mismagius, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MagicGrandpa500)
+|
+|start
+|switch|p1a: Dogo|Smeargle, M|100/100
+|switch|p2a: Natasha|Mienshao, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Natasha|Fake Out|p1a: Dogo
+|-damage|p1a: Dogo|72/100
+|cant|p1a: Dogo|flinch
+|
+|-ability|p1a: Dogo|Moody|boost
+|-boost|p1a: Dogo|atk|2
+|-unboost|p1a: Dogo|spe|1
+|upkeep
+|turn|2
+
+|
+|move|p2a: Natasha|High Jump Kick|p1a: Dogo
+|-supereffective|p1a: Dogo
+|-damage|p1a: Dogo|0 fnt
+|faint|p1a: Dogo
+|
+|upkeep
+
+|-message|MagicGrandpa500 forfeited.
+
+|
+|win|SunaMusen

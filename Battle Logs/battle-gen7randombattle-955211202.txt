@@ -1,0 +1,205 @@
+|init|battle
+|title|bakathomas vs. krate95
+|j|☆bakathomas
+|j|☆krate95
+|player|p1|bakathomas|99|1327
+|player|p2|krate95|2|1307
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sudowoodo|Sudowoodo, L89, M|100/100
+|switch|p2a: Pyukumuku|Pyukumuku, L89, M|100/100
+|turn|1
+|
+|move|p1a: Sudowoodo|Toxic|p2a: Pyukumuku
+|-status|p2a: Pyukumuku|tox
+|move|p2a: Pyukumuku|Toxic|p1a: Sudowoodo
+|-status|p1a: Sudowoodo|tox
+|
+|-damage|p1a: Sudowoodo|95/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Sudowoodo|Wood Hammer|p2a: Pyukumuku
+|-supereffective|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|26/100 tox
+|-damage|p1a: Sudowoodo|85/100 tox|[from] item: Life Orb
+|move|p2a: Pyukumuku|Counter|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|0 fnt
+|faint|p1a: Sudowoodo
+|
+|-heal|p2a: Pyukumuku|32/100 tox|[from] item: Leftovers
+|-damage|p2a: Pyukumuku|20/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Malamar|Malamar, L86, F|100/100
+|turn|3
+|
+|move|p1a: Malamar|Superpower|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Pyukumuku
+|
+|upkeep
+
+|
+|switch|p2a: Barbaracle|Barbaracle, L84, F|100/100
+|turn|4
+
+|
+|switch|p2a: Latios|Latios, L81, M|100/100
+|move|p1a: Malamar|Superpower|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|73/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Latios|Draco Meteor|p1a: Malamar
+|-damage|p1a: Malamar|29/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Malamar|Knock Off|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-enditem|p2a: Latios|Soul Dew|[from] move: Knock Off|[of] p1a: Malamar
+|faint|p2a: Latios
+|
+|-heal|p1a: Malamar|36/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, F|100/100
+|turn|6
+
+|
+|move|p2a: Archeops|U-turn|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|-damage|p2a: Archeops|91/100|[from] item: Life Orb
+|faint|p1a: Malamar
+
+|
+|switch|p2a: Barbaracle|Barbaracle, L84, F|100/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|100/100
+|turn|7
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by krate95)
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|move|p1a: Jellicent|Scald|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|68/100
+|
+|upkeep
+|turn|8
+
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Crunch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|57/100
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|47/100
+|-hitcount|p1a: Jellicent|2
+|move|p1a: Jellicent|Scald|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|42/100
+|
+|-heal|p1a: Jellicent|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Kangaskhan|Crunch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|10/100
+|-unboost|p1a: Jellicent|def|1
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-hitcount|p1a: Jellicent|2
+|faint|p1a: Jellicent
+|
+|upkeep
+
+|
+|switch|p1a: Slurpuff|Slurpuff, L85, M|100/100
+|turn|10
+
+|
+|move|p2a: Kangaskhan|Return|p1a: Slurpuff
+|-damage|p1a: Slurpuff|61/100
+|-damage|p1a: Slurpuff|50/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|75/100|[from] item: Sitrus Berry
+|-hitcount|p1a: Slurpuff|2
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|25/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Slurpuff|Drain Punch|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-heal|p1a: Slurpuff|46/100|[from] drain|[of] p2a: Kangaskhan
+|faint|p2a: Kangaskhan
+|
+|upkeep
+
+|
+|switch|p2a: Archeops|Archeops, L87, F|91/100
+|turn|12
+
+|
+|move|p1a: Slurpuff|Drain Punch|p2a: Archeops
+|-damage|p2a: Archeops|7/100
+|-heal|p1a: Slurpuff|87/100|[from] drain|[of] p2a: Archeops
+|move|p2a: Archeops|Stone Edge|p1a: Slurpuff
+|-damage|p1a: Slurpuff|54/100
+|-damage|p2a: Archeops|0 fnt|[from] item: Life Orb
+|faint|p2a: Archeops
+|
+|upkeep
+
+|
+|switch|p2a: Heatran|Heatran, L80, M|100/100
+|turn|13
+
+|
+|move|p1a: Slurpuff|Drain Punch|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-heal|p1a: Slurpuff|100/100|[from] drain|[of] p2a: Heatran
+|faint|p2a: Heatran
+|
+|upkeep
+
+|
+|switch|p2a: Barbaracle|Barbaracle, L84, F|100/100
+|turn|14
+
+|
+|move|p1a: Slurpuff|Drain Punch|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|faint|p2a: Barbaracle
+|
+|win|bakathomas

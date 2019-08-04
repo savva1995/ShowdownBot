@@ -1,0 +1,56 @@
+|init|battle
+|title|Flayquaza vs. Joohoneyxd
+|j|☆Flayquaza
+|j|☆Joohoneyxd
+|player|p1|Flayquaza|70|1057
+|player|p2|Joohoneyxd|156|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vileplume|Vileplume, L85, M|100/100
+|switch|p2a: Xerneas|Xerneas, L78|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Joohoneyxd)
+
+|
+|move|p2a: Xerneas|Hidden Power|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|67/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Xerneas
+|-status|p2a: Xerneas|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+
+|inactive|Flayquaza has 120 seconds left.
+
+|
+|switch|p2a: Infernape|Infernape, L82, M|100/100
+|switch|p1a: Delcatty|Delcatty, L89, F|100/100
+|
+|upkeep
+|turn|3
+
+|inactive|Flayquaza has 120 seconds left.
+
+|
+|switch|p1a: Kingler|Kingler, L87, M|100/100
+|-zpower|p2a: Infernape
+|move|p2a: Infernape|All-Out Pummeling|p1a: Kingler|[zeffect]
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|upkeep
+
+|-message|Flayquaza forfeited.
+
+|
+|win|Joohoneyxd

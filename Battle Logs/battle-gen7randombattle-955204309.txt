@@ -1,0 +1,42 @@
+|init|battle
+|title|dakingrulesz vs. vTek
+|j|☆dakingrulesz
+|j|☆vTek
+|player|p1|dakingrulesz|266|1265
+|player|p2|vTek|269|1215
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Watchog|Watchog, L89, M|100/100
+|switch|p2a: Minior|Minior, L86|100/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dakingrulesz)
+|
+|move|p1a: Watchog|Hypnosis|p2a: Minior|[miss]
+|-miss|p1a: Watchog|p2a: Minior
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|-enditem|p2a: Minior|White Herb
+|-clearnegativeboost|p2a: Minior|[silent]
+|
+|upkeep
+|turn|2
+|-message|dakingrulesz forfeited.
+|
+|win|vTek
+|l|☆dakingrulesz
+|raw|dakingrulesz's rating: 1265 &rarr; <strong>1237</strong><br />(-28 for losing)
+|raw|vTek's rating: 1215 &rarr; <strong>1244</strong><br />(+29 for winning)
+|l|☆vTek

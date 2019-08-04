@@ -1,0 +1,484 @@
+|init|battle
+|title|Lerna vs. Bouboutator
+|j|☆Lerna
+|j|☆Bouboutator
+|player|p1|Lerna|165|1221
+|player|p2|Bouboutator|265|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Talonflame|Talonflame, L83, M|100/100
+|switch|p2a: Sableye|Sableye, L81, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lerna)
+|
+|detailschange|p2a: Sableye|Sableye-Mega, L81, F
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Sableye
+|move|p2a: Sableye|Will-O-Wisp|p1a: Talonflame|[from]Magic Bounce
+|-immune|p1a: Talonflame
+|move|p2a: Sableye|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|69/100
+|-unboost|p1a: Talonflame|spd|1
+|
+|-heal|p1a: Talonflame|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Sableye
+|-damage|p2a: Sableye|59/100
+|-damage|p1a: Talonflame|64/100|[from] Recoil
+|move|p2a: Sableye|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|19/100
+|
+|-heal|p1a: Talonflame|25/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|75/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Sableye|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|29/100
+|-unboost|p1a: Talonflame|spd|1
+|
+|-heal|p1a: Talonflame|35/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|85/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Sableye|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|17/100
+|-unboost|p1a: Talonflame|spd|1
+|
+|-heal|p1a: Talonflame|24/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Sableye
+|-damage|p2a: Sableye|19/100
+|-damage|p1a: Talonflame|13/100|[from] Recoil
+|move|p2a: Sableye|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|switch|p1a: Jirachi|Jirachi, L80|100/100
+|turn|6
+
+|
+|move|p1a: Jirachi|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+
+|inactive|Bouboutator has 120 seconds left.
+
+|
+|switch|p2a: Uxie|Uxie, L84|100/100
+|turn|7
+
+|
+|move|p2a: Uxie|Thunder Wave|p1a: Jirachi
+|-status|p1a: Jirachi|par
+|move|p1a: Jirachi|Stealth Rock|p2a: Uxie
+|-sidestart|p2: Bouboutator|move: Stealth Rock
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Uxie|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Lerna|move: Stealth Rock
+|move|p1a: Jirachi|Toxic|p2a: Uxie
+|-status|p2a: Uxie|tox
+|
+|-damage|p2a: Uxie|94/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Uxie|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|88/100 par
+
+|
+|switch|p2a: Breloom|Breloom, L81, M|100/100|[from]move: U-turn
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Breloom
+|-damage|p2a: Breloom|59/100
+|
+|-heal|p1a: Jirachi|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Breloom|Mach Punch|p1a: Jirachi
+|-damage|p1a: Jirachi|65/100 par
+|-damage|p2a: Breloom|49/100|[from] item: Life Orb
+|move|p1a: Jirachi|Toxic|p2a: Breloom
+|-status|p2a: Breloom|tox
+|
+|-heal|p1a: Jirachi|71/100 par|[from] item: Leftovers
+|-damage|p2a: Breloom|43/100 tox|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|60/100 par
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100 par
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|40/100 par
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|26/100 par
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|15/100 par
+|-hitcount|p1a: Jirachi|5
+|-damage|p2a: Breloom|33/100 tox|[from] item: Life Orb
+|move|p1a: Jirachi|Iron Head|p2a: Breloom
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-heal|p1a: Jirachi|21/100 par|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, M|100/100
+|-damage|p2a: Heliolisk|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Heliolisk|Dark Pulse|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+
+|
+|switch|p1a: Aggron|Aggron, L82, F|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p2a: Uxie|Uxie, L84|94/100 tox
+|-damage|p2a: Uxie|82/100 tox|[from] Stealth Rock
+|detailschange|p1a: Aggron|Aggron-Mega, L82, F
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p1a: Aggron|Earthquake|p2a: Uxie
+|-immune|p2a: Uxie|[from] ability: Levitate
+|
+|-heal|p2a: Uxie|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Uxie|82/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Uxie|Thunder Wave|p1a: Aggron
+|-status|p1a: Aggron|par
+|move|p1a: Aggron|Heavy Slam|p2a: Uxie
+|-damage|p2a: Uxie|35/100 tox
+|
+|-heal|p2a: Uxie|41/100 tox|[from] item: Leftovers
+|-damage|p2a: Uxie|29/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|inactive|Bouboutator has 120 seconds left.
+
+|
+|move|p2a: Uxie|U-turn|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|91/100 par
+
+|
+|switch|p2a: Crawdaunt|Crawdaunt, L82, M|100/100|[from]move: U-turn
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|move|p1a: Aggron|Heavy Slam|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|54/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Crawdaunt|Crabhammer|p1a: Aggron
+|-damage|p1a: Aggron|51/100 par
+|-damage|p2a: Crawdaunt|44/100|[from] item: Life Orb
+|move|p1a: Aggron|Earthquake|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|4/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Crawdaunt|Crabhammer|p1a: Aggron|[miss]
+|-miss|p2a: Crawdaunt|p1a: Aggron
+|move|p1a: Aggron|Heavy Slam|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+
+|
+|switch|p2a: Wormadam|Wormadam-Trash, L89, F|100/100
+|-damage|p2a: Wormadam|88/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p2a: Wormadam|Gyro Ball|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|49/100 par
+|move|p1a: Aggron|Rock Slide|p2a: Wormadam
+|-damage|p2a: Wormadam|64/100
+|
+|-heal|p2a: Wormadam|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Uxie|Uxie, L84|29/100 tox
+|-damage|p2a: Uxie|17/100 tox|[from] Stealth Rock
+|move|p1a: Aggron|Earthquake|p2a: Uxie
+|-immune|p2a: Uxie|[from] ability: Levitate
+|
+|-heal|p2a: Uxie|23/100 tox|[from] item: Leftovers
+|-damage|p2a: Uxie|17/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Uxie|Psychic|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|31/100 par
+|move|p1a: Aggron|Heavy Slam|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|
+|upkeep
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, M|88/100
+|-damage|p2a: Heliolisk|76/100|[from] Stealth Rock
+|turn|21
+
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+
+|
+|switch|p2a: Wormadam|Wormadam-Trash, L89, F|70/100|[from]move: Volt Switch
+|-damage|p2a: Wormadam|58/100|[from] Stealth Rock
+|
+|-heal|p2a: Wormadam|64/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Necrozma|Necrozma, L84|100/100
+|-damage|p1a: Necrozma|88/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Necrozma|Dark Pulse|p2a: Wormadam
+|-damage|p2a: Wormadam|38/100
+|move|p2a: Wormadam|Toxic|p1a: Necrozma
+|-status|p1a: Necrozma|tox
+|
+|-heal|p1a: Necrozma|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Wormadam|44/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|88/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Necrozma|Dark Pulse|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-heal|p1a: Necrozma|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Wormadam|50/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|82/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Wormadam
+|-resisted|p2a: Wormadam
+|-damage|p2a: Wormadam|28/100
+|move|p2a: Wormadam|Gyro Ball|p1a: Necrozma
+|-damage|p1a: Necrozma|65/100 tox
+|
+|-heal|p1a: Necrozma|71/100 tox|[from] item: Leftovers
+|-heal|p2a: Wormadam|34/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|53/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100 tox
+|
+|-heal|p2a: Wormadam|40/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|76/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|move|p1a: Necrozma|Dark Pulse|p2a: Wormadam
+|-damage|p2a: Wormadam|14/100
+|move|p2a: Wormadam|Gyro Ball|p1a: Necrozma
+|-damage|p1a: Necrozma|57/100 tox
+|
+|-heal|p1a: Necrozma|62/100 tox|[from] item: Leftovers
+|-heal|p2a: Wormadam|20/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|32/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|82/100 tox
+|
+|-heal|p1a: Necrozma|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Wormadam|25/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|52/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Necrozma|Dark Pulse|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-heal|p1a: Necrozma|58/100 tox|[from] item: Leftovers
+|-heal|p2a: Wormadam|31/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|16/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|move|p1a: Necrozma|Dark Pulse|p2a: Wormadam
+|-damage|p2a: Wormadam|6/100
+|move|p2a: Wormadam|Gyro Ball|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-heal|p2a: Wormadam|12/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Lerna has 120 seconds left.
+
+|
+|switch|p1a: Kingler|Kingler, L87, F|100/100
+|-damage|p1a: Kingler|88/100|[from] Stealth Rock
+|turn|30
+
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Kingler|Knock Off|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-heal|p2a: Wormadam|18/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p1a: Kingler|Knock Off|p2a: Wormadam
+|-damage|p2a: Wormadam|0 fnt
+|-enditem|p2a: Wormadam|Leftovers|[from] move: Knock Off|[of] p1a: Kingler
+|-damage|p1a: Kingler|79/100|[from] item: Life Orb
+|faint|p2a: Wormadam
+|
+|upkeep
+
+|
+|switch|p2a: Heliolisk|Heliolisk, L86, M|76/100
+|-damage|p2a: Heliolisk|64/100|[from] Stealth Rock
+|turn|32
+
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|upkeep
+
+|
+|switch|p1a: Amoonguss|Amoonguss, L82, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|turn|33
+
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|67/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Heliolisk
+|-damage|p2a: Heliolisk|34/100
+|
+|-heal|p1a: Amoonguss|74/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+
+|inactive|Bouboutator has 120 seconds left.
+
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|53/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Heliolisk
+|-damage|p2a: Heliolisk|6/100
+|-heal|p1a: Amoonguss|64/100|[from] drain|[of] p2a: Heliolisk
+|
+|-heal|p1a: Amoonguss|71/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+
+|-message|Bouboutator forfeited.
+
+|
+|win|Lerna

@@ -1,0 +1,60 @@
+|init|battle
+|title|zzaazzaazzaa vs. NicoCrazyNCS
+|j|☆zzaazzaazzaa
+|j|☆NicoCrazyNCS
+|player|p1|zzaazzaazzaa|266|1040
+|player|p2|NicoCrazyNCS|266|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, L81, M|100/100
+|switch|p2a: Volbeat|Volbeat, L89, M|100/100
+|turn|1
+|
+|switch|p2a: Steelix|Steelix, L82, F|100/100
+|move|p1a: Dragonite|Outrage|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|86/100
+|
+|upkeep
+|turn|2
+|
+|detailschange|p2a: Steelix|Steelix-Mega, L82, F
+|-mega|p2a: Steelix|Steelix|Steelixite
+|move|p1a: Dragonite|Outrage|p2a: Steelix|[from]lockedmove
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|72/100
+|move|p2a: Steelix|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: zzaazzaazzaa|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Dragonite|Outrage|p2a: Steelix|[from]lockedmove
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|59/100
+|-start|p1a: Dragonite|confusion|[fatigue]
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-end|p1a: Dragonite|confusion
+|move|p2a: Steelix|Heavy Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100
+|
+|upkeep
+|turn|4
+
+|l|☆NicoCrazyNCS
+
+|player|p2|
+
+|-message|zzaazzaazzaa forfeited.
+
+|
+|win|NicoCrazyNCS

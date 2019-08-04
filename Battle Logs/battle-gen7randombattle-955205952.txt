@@ -1,0 +1,334 @@
+|init|battle
+|title|Avatarams vs. BigMoneyCash
+|j|☆Avatarams
+|j|☆BigMoneyCash
+|player|p1|Avatarams|170|1238
+|player|p2|BigMoneyCash|170|1186
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Terrakion|Terrakion, L82|100/100
+|switch|p2a: Dedenne|Dedenne, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BigMoneyCash)
+|
+|move|p2a: Dedenne|Substitute|p2a: Dedenne
+|-start|p2a: Dedenne|Substitute
+|-damage|p2a: Dedenne|75/100
+|move|p1a: Terrakion|Stealth Rock|p2a: Dedenne
+|-sidestart|p2: BigMoneyCash|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dedenne|Toxic|p1a: Terrakion
+|-status|p1a: Terrakion|tox
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|
+|-damage|p1a: Terrakion|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Terrakion
+|-damage|p1a: Terrakion|63/100 tox
+|move|p1a: Terrakion|Stone Edge|p2a: Dedenne
+|-crit|p2a: Dedenne
+|-end|p2a: Dedenne|Substitute
+|
+|-damage|p1a: Terrakion|51/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Dedenne|Substitute|p2a: Dedenne
+|-start|p2a: Dedenne|Substitute
+|-damage|p2a: Dedenne|50/100
+|move|p1a: Terrakion|Stone Edge|p2a: Dedenne|[miss]
+|-miss|p1a: Terrakion|p2a: Dedenne
+|
+|-damage|p1a: Terrakion|33/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Terrakion
+|-damage|p1a: Terrakion|2/100 tox
+|move|p1a: Terrakion|Close Combat|p2a: Dedenne
+|-resisted|p2a: Dedenne
+|-end|p2a: Dedenne|Substitute
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|
+|-damage|p1a: Terrakion|0 fnt|[from] psn
+|faint|p1a: Terrakion
+|upkeep
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, M|100/100
+|turn|6
+
+|inactive|BigMoneyCash has 120 seconds left.
+
+|
+|switch|p2a: Druddigon|Druddigon, L86, M|100/100
+|-damage|p2a: Druddigon|88/100|[from] Stealth Rock
+|move|p1a: Gliscor|Earthquake|p2a: Druddigon
+|-damage|p2a: Druddigon|53/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+
+|inactive|BigMoneyCash has 120 seconds left.
+
+|
+|move|p1a: Gliscor|U-turn|p2a: Druddigon
+|-crit|p2a: Druddigon
+|-damage|p2a: Druddigon|27/100
+
+|
+|switch|p1a: Abomasnow|Abomasnow, L87, M|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Druddigon|Dragon Tail|p1a: Abomasnow
+|-crit|p1a: Abomasnow
+|-damage|p1a: Abomasnow|39/100
+|-damage|p2a: Druddigon|17/100|[from] item: Life Orb
+|drag|p1a: Gliscor|Gliscor, L80, M|100/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gliscor|95/100 tox|[from] Hail
+|-damage|p2a: Druddigon|11/100|[from] Hail
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+
+|inactive|BigMoneyCash has 120 seconds left.
+
+|
+|move|p2a: Druddigon|Sucker Punch|p1a: Gliscor
+|-damage|p1a: Gliscor|75/100 tox
+|-damage|p2a: Druddigon|1/100|[from] item: Life Orb
+|move|p1a: Gliscor|Knock Off|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|-enditem|p2a: Druddigon|Life Orb|[from] move: Knock Off|[of] p1a: Gliscor
+|faint|p2a: Druddigon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gliscor|69/100 tox|[from] Hail
+|-heal|p1a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|inactive|BigMoneyCash has 120 seconds left.
+
+|inactive|BigMoneyCash has 90 seconds left.
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, F|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|turn|9
+
+|inactive|BigMoneyCash has 90 seconds left.
+
+|inactive|BigMoneyCash has 60 seconds left.
+
+|
+|move|p2a: Krookodile|Stone Edge|p1a: Gliscor
+|-damage|p1a: Gliscor|48/100 tox
+|move|p1a: Gliscor|U-turn|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|63/100
+
+|
+|switch|p1a: Abomasnow|Abomasnow, L87, M|39/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Krookodile|56/100|[from] Hail
+|upkeep
+|turn|10
+
+|
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, L87, M
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|move|p1a: Abomasnow|Ice Shard|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-crit|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|inactive|BigMoneyCash has 60 seconds left.
+
+|
+|switch|p2a: Omastar|Omastar, L88, F|100/100
+|-damage|p2a: Omastar|88/100|[from] Stealth Rock
+|turn|11
+
+|inactive|BigMoneyCash has 60 seconds left.
+
+|
+|switch|p2a: Dragalge|Dragalge, L84, F|100/100
+|-damage|p2a: Dragalge|88/100|[from] Stealth Rock
+|move|p1a: Abomasnow|Wood Hammer|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|72/100
+|-damage|p1a: Abomasnow|35/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|12
+
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|26/100
+|move|p2a: Dragalge|Sludge Wave|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|upkeep
+
+|
+|switch|p1a: Gliscor|Gliscor, L80, M|48/100 tox
+|turn|13
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|-heal|p1a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|
+|switch|p2a: Omastar|Omastar, L88, F|88/100
+|-damage|p2a: Omastar|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-heal|p1a: Gliscor|100/100 tox
+|-singleturn|p1a: Gliscor|move: Roost
+|move|p2a: Omastar|Shell Smash|p2a: Omastar
+|-unboost|p2a: Omastar|def|1
+|-unboost|p2a: Omastar|spd|1
+|-boost|p2a: Omastar|atk|2
+|-boost|p2a: Omastar|spa|2
+|-boost|p2a: Omastar|spe|2
+|-enditem|p2a: Omastar|White Herb
+|-clearnegativeboost|p2a: Omastar|[silent]
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Omastar|Scald|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+
+|
+|switch|p1a: Gorebyss|Gorebyss, L89, F|100/100
+|turn|16
+
+|
+|move|p2a: Omastar|Earth Power|p1a: Gorebyss
+|-damage|p1a: Gorebyss|36/100
+|move|p1a: Gorebyss|Shell Smash|p1a: Gorebyss
+|-unboost|p1a: Gorebyss|def|1
+|-unboost|p1a: Gorebyss|spd|1
+|-boost|p1a: Gorebyss|atk|2
+|-boost|p1a: Gorebyss|spa|2
+|-boost|p1a: Gorebyss|spe|2
+|-enditem|p1a: Gorebyss|White Herb
+|-clearnegativeboost|p1a: Gorebyss|[silent]
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Omastar|Earth Power|p1a: Gorebyss
+|-damage|p1a: Gorebyss|0 fnt
+|faint|p1a: Gorebyss
+|
+|upkeep
+
+|
+|switch|p1a: Meloetta|Meloetta, L83|100/100
+|turn|18
+
+|
+|move|p2a: Omastar|Scald|p1a: Meloetta
+|-damage|p1a: Meloetta|47/100
+|move|p1a: Meloetta|Focus Blast|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|-heal|p1a: Meloetta|53/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Pheromosa|Pheromosa, L78|100/100
+|-damage|p2a: Pheromosa|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Pheromosa|Bug Buzz|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|-ability|p2a: Pheromosa|Beast Boost|boost
+|-boost|p2a: Pheromosa|spe|1
+|
+|upkeep
+
+|
+|switch|p1a: Espeon|Espeon, L84, F|100/100
+|turn|20
+
+|
+|move|p2a: Pheromosa|Bug Buzz|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|9/100
+|-unboost|p1a: Espeon|spd|1
+|move|p1a: Espeon|Dazzling Gleam|p2a: Pheromosa
+|-supereffective|p2a: Pheromosa
+|-damage|p2a: Pheromosa|0 fnt
+|faint|p2a: Pheromosa
+|
+|-heal|p1a: Espeon|15/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Dedenne|Dedenne, L89, M|50/100
+|-damage|p2a: Dedenne|38/100|[from] Stealth Rock
+|turn|21
+
+|
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|65/100
+|move|p2a: Dedenne|Thunderbolt|p1a: Espeon
+|-damage|p1a: Espeon|9/100
+|
+|-heal|p1a: Espeon|16/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Espeon|Psyshock|p2a: Dedenne
+|-damage|p2a: Dedenne|0 fnt
+|faint|p2a: Dedenne
+|
+|win|Avatarams

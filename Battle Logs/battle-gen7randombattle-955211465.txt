@@ -1,0 +1,420 @@
+|init|battle
+|title|biliwar vs. Trollux
+|j|☆biliwar
+|j|☆Trollux
+|player|p1|biliwar|23|1774
+|player|p2|Trollux|293|1819
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Carbink|Carbink, L89|100/100
+|switch|p2a: Typhlosion|Typhlosion, L86, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Trollux)
+|
+|switch|p2a: Abomasnow|Abomasnow, L87, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Carbink|Stealth Rock|p2a: Abomasnow
+|-sidestart|p2: Trollux|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Carbink|95/100|[from] Hail
+|upkeep
+|turn|2
+|
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L87, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p1a: Carbink|Power Gem|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|68/100
+|move|p2a: Abomasnow|Giga Drain|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-damage|p1a: Carbink|41/100
+|-heal|p2a: Abomasnow|89/100|[from] drain|[of] p1a: Carbink
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Carbink|35/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p1a: Carbink|Explosion|p2a: Abomasnow
+|-damage|p2a: Abomasnow|56/100
+|faint|p1a: Carbink
+|move|p2a: Abomasnow|Giga Drain|p1: Carbink|[notarget]
+|-fail|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Exploud|Exploud, L85, F|100/100
+|turn|4
+
+|
+|switch|p2a: Bastiodon|Bastiodon, L89, M|100/100
+|-damage|p2a: Bastiodon|95/100|[from] Stealth Rock
+|move|p1a: Exploud|Boomburst|p2a: Bastiodon
+|-resisted|p2a: Bastiodon
+|-damage|p2a: Bastiodon|79/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Exploud|94/100|[from] Hail
+|-damage|p2a: Bastiodon|73/100|[from] Hail
+|-heal|p2a: Bastiodon|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Bronzong|Bronzong, L84|100/100
+|move|p2a: Bastiodon|Toxic|p1a: Bronzong
+|-immune|p1a: Bronzong
+|
+|-weather|none
+|-heal|p2a: Bastiodon|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Crobat|Crobat, L82, F|100/100
+|-damage|p2a: Crobat|76/100|[from] Stealth Rock
+|move|p1a: Bronzong|Toxic|p2a: Crobat
+|-immune|p2a: Crobat
+|
+|-heal|p2a: Crobat|82/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|
+|move|p2a: Crobat|Defog|p1a: Bronzong
+|-unboost|p1a: Bronzong|evasion|1
+|-sideend|p2: Trollux|Stealth Rock|[from] move: Defog|[of] p2a: Crobat
+|move|p1a: Bronzong|Gyro Ball|p2a: Crobat
+|-damage|p2a: Crobat|42/100
+|
+|-heal|p2a: Crobat|48/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+
+|
+|move|p2a: Crobat|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|85/100
+
+|
+|switch|p2a: Typhlosion|Typhlosion, L86, F|100/100|[from]move: U-turn
+|move|p1a: Bronzong|Gyro Ball|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|73/100
+|
+|-heal|p1a: Bronzong|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Yveltal|Yveltal, L78|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Typhlosion|Fire Blast|p1a: Yveltal
+|-damage|p1a: Yveltal|58/100
+|
+|-heal|p1a: Yveltal|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Bastiodon|Bastiodon, L89, M|85/100
+|move|p1a: Yveltal|Oblivion Wing|p2a: Bastiodon
+|-resisted|p2a: Bastiodon
+|-damage|p2a: Bastiodon|79/100
+|-heal|p1a: Yveltal|68/100|[from] drain|[of] p2a: Bastiodon
+|
+|-heal|p1a: Yveltal|74/100|[from] item: Leftovers
+|-heal|p2a: Bastiodon|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Yveltal|U-turn|p2a: Bastiodon
+|-resisted|p2a: Bastiodon
+|-damage|p2a: Bastiodon|79/100
+
+|
+|switch|p1a: Bronzong|Bronzong, L84|91/100|[from]move: U-turn
+|move|p2a: Bastiodon|Roar|p1a: Bronzong
+|drag|p1a: Exploud|Exploud, L85, F|94/100
+|
+|-heal|p2a: Bastiodon|85/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Bastiodon|Protect|p2a: Bastiodon
+|-singleturn|p2a: Bastiodon|Protect
+|move|p1a: Exploud|Surf|p2a: Bastiodon
+|-activate|p2a: Bastiodon|move: Protect
+|
+|-heal|p2a: Bastiodon|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Abomasnow|Abomasnow-Mega, L87, M|56/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Exploud|Surf|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|43/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Exploud|88/100|[from] Hail
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Bronzong|Bronzong, L84|91/100
+|move|p2a: Abomasnow|Hidden Power|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|57/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bronzong|50/100|[from] Hail
+|-heal|p1a: Bronzong|57/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Bastiodon|Bastiodon, L89, M|91/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Bastiodon
+|-sidestart|p2: Trollux|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bastiodon|85/100|[from] Hail
+|-damage|p1a: Bronzong|50/100|[from] Hail
+|-heal|p2a: Bastiodon|91/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|57/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Bastiodon|Rock Blast|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|53/100
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|50/100
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|48/100
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|45/100
+|-resisted|p1a: Bronzong
+|-crit|p1a: Bronzong
+|-damage|p1a: Bronzong|40/100
+|-hitcount|p1a: Bronzong|5
+|move|p1a: Bronzong|Gyro Ball|p2a: Bastiodon
+|-damage|p2a: Bastiodon|81/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bastiodon|75/100|[from] Hail
+|-damage|p1a: Bronzong|34/100|[from] Hail
+|-heal|p2a: Bastiodon|81/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|40/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p2a: Bastiodon|Rock Blast|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|37/100
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|34/100
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|31/100
+|-hitcount|p1a: Bronzong|3
+|move|p1a: Bronzong|Toxic|p2a: Bastiodon
+|-immune|p2a: Bastiodon
+|
+|-weather|none
+|-heal|p2a: Bastiodon|87/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|37/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p2a: Bastiodon|Rock Blast|p1a: Bronzong|[miss]
+|-miss|p2a: Bastiodon|p1a: Bronzong
+|move|p1a: Bronzong|Toxic|p2a: Bastiodon
+|-immune|p2a: Bastiodon
+|
+|-heal|p2a: Bastiodon|93/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|43/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Bastiodon|Rock Blast|p1a: Bronzong|[miss]
+|-miss|p2a: Bastiodon|p1a: Bronzong
+|move|p1a: Bronzong|Gyro Ball|p2a: Bastiodon
+|-crit|p2a: Bastiodon
+|-damage|p2a: Bastiodon|78/100
+|
+|-heal|p2a: Bastiodon|84/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|49/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Bastiodon|Rock Blast|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|46/100
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|43/100
+|-hitcount|p1a: Bronzong|2
+|move|p1a: Bronzong|Gyro Ball|p2a: Bastiodon
+|-damage|p2a: Bastiodon|74/100
+|
+|-heal|p2a: Bastiodon|79/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|49/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Typhlosion|Typhlosion, L86, F|73/100
+|-damage|p2a: Typhlosion|48/100|[from] Stealth Rock
+|move|p1a: Bronzong|Toxic|p2a: Typhlosion
+|-status|p2a: Typhlosion|tox
+|
+|-heal|p1a: Bronzong|55/100|[from] item: Leftovers
+|-damage|p2a: Typhlosion|42/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Typhlosion|Fire Blast|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-damage|p2a: Typhlosion|29/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu, L82, M|100/100
+|turn|23
+
+|
+|move|p2a: Typhlosion|Fire Blast|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L82, M
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-damage|p2a: Typhlosion|11/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, L82, F|48/100
+|-damage|p2a: Crobat|23/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|upkeep
+
+|
+|switch|p2a: Bastiodon|Bastiodon, L89, M|79/100
+|-damage|p2a: Bastiodon|74/100|[from] Stealth Rock
+|turn|26
+
+|
+|-zpower|p1a: Mimikyu
+|move|p1a: Mimikyu|Let's Snuggle Forever|p2a: Bastiodon|[zeffect]
+|-resisted|p2a: Bastiodon
+|-damage|p2a: Bastiodon|36/100
+|move|p2a: Bastiodon|Rock Blast|p1a: Mimikyu|[miss]
+|-miss|p2a: Bastiodon|p1a: Mimikyu
+|
+|-heal|p2a: Bastiodon|42/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Bastiodon|Toxic|p1a: Mimikyu|[miss]
+|-miss|p2a: Bastiodon|p1a: Mimikyu
+|
+|-heal|p2a: Bastiodon|48/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Mimikyu|Taunt|p2a: Bastiodon
+|-start|p2a: Bastiodon|move: Taunt
+|cant|p2a: Bastiodon|move: Taunt|Toxic
+|
+|-heal|p2a: Bastiodon|54/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Bastiodon|Rock Blast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|92/100
+|-damage|p1a: Mimikyu|83/100
+|-hitcount|p1a: Mimikyu|2
+|
+|-heal|p2a: Bastiodon|60/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Bastiodon
+|-resisted|p2a: Bastiodon
+|-damage|p2a: Bastiodon|24/100
+|move|p2a: Bastiodon|Rock Blast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|73/100
+|-damage|p1a: Mimikyu|64/100
+|-hitcount|p1a: Mimikyu|2
+|
+|-heal|p2a: Bastiodon|30/100|[from] item: Leftovers
+|-end|p2a: Bastiodon|move: Taunt
+|upkeep
+|turn|31
+
+|
+|move|p1a: Mimikyu|Taunt|p2a: Bastiodon
+|-start|p2a: Bastiodon|move: Taunt
+|cant|p2a: Bastiodon|move: Taunt|Roar
+|
+|-heal|p2a: Bastiodon|36/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Bastiodon
+|-resisted|p2a: Bastiodon
+|-damage|p2a: Bastiodon|0 fnt
+|faint|p2a: Bastiodon
+|
+|upkeep
+
+|-message|Trollux forfeited.
+
+|
+|win|biliwar

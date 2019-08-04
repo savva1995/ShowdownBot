@@ -1,0 +1,169 @@
+|init|battle
+|title|honchkrower vs. Laksen
+|j|☆honchkrower
+|j|‽Laksen
+|player|p1|honchkrower|165|1291
+|player|p2|Laksen|266|1308
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Absol|Absol, L83, F|100/100
+|switch|p2a: Dragonite|Dragonite, L81, F|100/100
+|turn|1
+|
+|detailschange|p1a: Absol|Absol-Mega, L83, F
+|-mega|p1a: Absol|Absol|Absolite
+|move|p1a: Absol|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|68/100
+|move|p2a: Dragonite|Outrage|p1a: Absol
+|-crit|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, L87, M|100/100
+|turn|2
+
+|
+|move|p1a: Gallade|Ice Punch|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p1a: Gallade|90/100|[from] item: Life Orb
+|faint|p2a: Dragonite
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by honchkrower)
+
+|
+|switch|p2a: Typhlosion|Typhlosion, L86, M|100/100
+|turn|3
+
+|
+|switch|p1a: Tentacruel|Tentacruel, L82, F|100/100
+|move|p2a: Typhlosion|Eruption|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|61/100
+|
+|-heal|p1a: Tentacruel|67/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, F|100/100
+|move|p1a: Tentacruel|Scald|p2a: Reuniclus
+|-damage|p2a: Reuniclus|76/100
+|
+|-heal|p1a: Tentacruel|73/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Reuniclus
+|-sidestart|p2: Laksen|move: Toxic Spikes
+|move|p2a: Reuniclus|Psychic|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+
+|inactive|honchkrower has 120 seconds left.
+
+|
+|switch|p1a: Klinklang|Klinklang, L86|100/100
+|turn|6
+
+|
+|move|p1a: Klinklang|Shift Gear|p1a: Klinklang
+|-boost|p1a: Klinklang|spe|2
+|-boost|p1a: Klinklang|atk|1
+|move|p2a: Reuniclus|Focus Blast|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|faint|p1a: Klinklang
+|
+|upkeep
+
+|
+|switch|p1a: Huntail|Huntail, L89, F|100/100
+|turn|7
+
+|
+|move|p1a: Huntail|Shell Smash|p1a: Huntail
+|-unboost|p1a: Huntail|def|1
+|-unboost|p1a: Huntail|spd|1
+|-boost|p1a: Huntail|atk|2
+|-boost|p1a: Huntail|spa|2
+|-boost|p1a: Huntail|spe|2
+|-enditem|p1a: Huntail|White Herb
+|-clearnegativeboost|p1a: Huntail|[silent]
+|move|p2a: Reuniclus|Psychic|p1a: Huntail
+|-damage|p1a: Huntail|29/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Huntail|Waterfall|p2a: Reuniclus
+|-damage|p2a: Reuniclus|7/100
+|move|p2a: Reuniclus|Psychic|p1a: Huntail
+|-damage|p1a: Huntail|0 fnt
+|faint|p1a: Huntail
+|
+|upkeep
+
+|
+|switch|p1a: Gallade|Gallade, L87, M|90/100
+|turn|9
+
+|inactive|honchkrower has 90 seconds left.
+
+|
+|move|p1a: Gallade|Zen Headbutt|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-damage|p1a: Gallade|80/100|[from] item: Life Orb
+|faint|p2a: Reuniclus
+|
+|upkeep
+
+|
+|switch|p2a: Typhlosion|Typhlosion, L86, M|100/100
+|-status|p2a: Typhlosion|psn
+|turn|10
+
+|
+|switch|p1a: Florges|Florges, L84, F|100/100
+|move|p2a: Typhlosion|Eruption|p1a: Florges
+|-damage|p1a: Florges|39/100
+|
+|-heal|p1a: Florges|45/100|[from] item: Leftovers
+|-damage|p2a: Typhlosion|88/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|inactive|honchkrower has 90 seconds left.
+
+|
+|move|p2a: Typhlosion|Eruption|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|
+|-damage|p2a: Typhlosion|76/100 psn|[from] psn
+|upkeep
+
+|-message|honchkrower forfeited.
+
+|
+|win|Laksen

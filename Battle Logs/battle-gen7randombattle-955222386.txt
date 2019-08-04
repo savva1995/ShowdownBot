@@ -1,0 +1,82 @@
+|init|battle
+|title|Riolo_1241 vs. Bjtsfg
+|j|☆Riolo_1241
+|j|☆Bjtsfg
+|player|p1|Riolo_1241|266|1921
+|player|p2|Bjtsfg|114|1842
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Illumise|Illumise, L89, F|100/100
+|switch|p2a: Electrode|Electrode, L89|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Riolo_1241)
+|
+|switch|p1a: Steelix|Steelix, L82, M|100/100
+|move|p2a: Electrode|Taunt|p1a: Steelix
+|-start|p1a: Steelix|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, M|100/100
+|detailschange|p1a: Steelix|Steelix-Mega, L82, M
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p1a: Steelix|Dragon Tail|p2a: Reuniclus
+|-damage|p2a: Reuniclus|82/100
+|drag|p2a: Electrode|Electrode, L89|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Reuniclus|Reuniclus, L83, M|82/100
+|move|p1a: Steelix|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|42/100
+|
+|-end|p1a: Steelix|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p2a: Reuniclus|Focus Blast|p1a: Steelix|[miss]
+|-miss|p2a: Reuniclus|p1a: Steelix
+|move|p1a: Steelix|Heavy Slam|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|switch|p2a: Goodra|Goodra, L84, M|100/100
+|turn|5
+|
+|switch|p1a: Gastrodon|Gastrodon, L88, M|100/100
+|move|p2a: Goodra|Fire Blast|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|88/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Gastrodon|Ice Beam|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|58/100
+|-damage|p1a: Gastrodon|79/100|[from] item: Life Orb
+|move|p2a: Goodra|Dragon Tail|p1a: Gastrodon|[miss]
+|-miss|p2a: Goodra|p1a: Gastrodon
+|
+|upkeep
+|turn|7
+|-message|Bjtsfg forfeited.
+|
+|win|Riolo_1241
+|l|☆Bjtsfg
+|raw|Riolo_1241's rating: 1899 &rarr; <strong>1916</strong><br />(+17 for winning)
+|raw|Bjtsfg's rating: 1842 &rarr; <strong>1825</strong><br />(-17 for losing)
+|l|☆Riolo_1241

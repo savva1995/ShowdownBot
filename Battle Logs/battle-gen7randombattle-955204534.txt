@@ -1,0 +1,28 @@
+|init|battle
+|title|Squirtleusxd vs. Nigaliga
+|j|☆Squirtleusxd
+|j|☆Nigaliga
+|player|p1|Squirtleusxd|266|1153
+|player|p2|Nigaliga|2|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Silvally|Silvally-Flying, L89|100/100
+|switch|p2a: Slurpuff|Slurpuff, L85, M|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Squirtleusxd)
+
+|inactive|Nigaliga has 120 seconds left.
+
+|-message|Squirtleusxd forfeited.
+
+|
+|win|Nigaliga

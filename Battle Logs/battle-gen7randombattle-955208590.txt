@@ -1,0 +1,289 @@
+|init|battle
+|title|goldzoko16 vs. Hur7r6r6xu
+|j|☆goldzoko16
+|j|☆Hur7r6r6xu
+|player|p1|goldzoko16|237|1000
+|player|p2|Hur7r6r6xu|2|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Giratina|Giratina, L78|100/100
+|switch|p2a: Lycanroc|Lycanroc-Midnight, L89, F|100/100
+|-ability|p1a: Giratina|Pressure
+|turn|1
+|
+|switch|p1a: Sableye|Sableye, L81, M|100/100
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Lycanroc|Sucker Punch||[still]
+|-fail|p2a: Lycanroc
+|move|p1a: Sableye|Calm Mind|p1a: Sableye
+|-boost|p1a: Sableye|spa|1
+|-boost|p1a: Sableye|spd|1
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Lycanroc|Sucker Punch||[still]
+|-fail|p2a: Lycanroc
+|move|p1a: Sableye|Calm Mind|p1a: Sableye
+|-boost|p1a: Sableye|spa|1
+|-boost|p1a: Sableye|spd|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Lycanroc|Sucker Punch|p1a: Sableye
+|-damage|p1a: Sableye|27/100
+|move|p1a: Sableye|Shadow Ball|p2a: Lycanroc
+|-damage|p2a: Lycanroc|56/100
+|-unboost|p2a: Lycanroc|spd|1
+|
+|upkeep
+|turn|5
+
+|
+|detailschange|p1a: Sableye|Sableye-Mega, L81, M
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p2a: Lycanroc|Sucker Punch|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, M|100/100
+|turn|6
+
+|
+|move|p2a: Lycanroc|Fire Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|56/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|-heal|p1a: Conkeldurr|83/100|[from] drain|[of] p2a: Lycanroc
+|faint|p2a: Lycanroc
+|
+|upkeep
+
+|
+|switch|p2a: Articuno|Articuno, L88|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|7
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Conkeldurr|[miss]
+|-miss|p2a: Articuno|p1a: Conkeldurr
+|move|p1a: Conkeldurr|Drain Punch|p2a: Articuno
+|-damage|p2a: Articuno|47/100
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Articuno
+|
+|-heal|p2a: Articuno|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Articuno|Hurricane|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-heal|p2a: Articuno|59/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, F|100/100
+|turn|9
+
+|
+|move|p1a: Typhlosion|Eruption|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|upkeep
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, M|100/100
+|turn|10
+
+|
+|switch|p1a: Araquanid|Araquanid, L84, F|100/100
+|move|p2a: Krookodile|Earthquake|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|79/100
+|
+|-heal|p1a: Araquanid|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Decidueye|Decidueye, L86, F|100/100
+|move|p1a: Araquanid|Liquidation|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|70/100
+|
+|-heal|p1a: Araquanid|91/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Decidueye|Leaf Blade|p1a: Araquanid
+|-damage|p1a: Araquanid|38/100
+|-damage|p2a: Decidueye|60/100|[from] item: Life Orb
+|move|p1a: Araquanid|Leech Life|p2a: Decidueye
+|-damage|p2a: Decidueye|34/100
+|-heal|p1a: Araquanid|52/100|[from] drain|[of] p2a: Decidueye
+|
+|-heal|p1a: Araquanid|58/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Decidueye|Leaf Blade|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|-damage|p2a: Decidueye|24/100|[from] item: Life Orb
+|faint|p1a: Araquanid
+|
+|upkeep
+
+|
+|switch|p1a: Chimecho|Chimecho, L89, M|100/100
+|turn|14
+
+|
+|move|p2a: Decidueye|Spirit Shackle|p1a: Chimecho
+|-supereffective|p1a: Chimecho
+|-damage|p1a: Chimecho|13/100
+|-activate|p1a: Chimecho|trapped
+|-damage|p2a: Decidueye|14/100|[from] item: Life Orb
+|move|p1a: Chimecho|Psychic|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|-heal|p1a: Chimecho|19/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, M|100/100
+|turn|15
+
+|
+|move|p2a: Cinccino|Knock Off|p1a: Chimecho
+|-supereffective|p1a: Chimecho
+|-damage|p1a: Chimecho|0 fnt
+|-enditem|p1a: Chimecho|Leftovers|[from] move: Knock Off|[of] p2a: Cinccino
+|faint|p1a: Chimecho
+|
+|upkeep
+
+|
+|switch|p1a: Typhlosion|Typhlosion, L86, F|100/100
+|turn|16
+
+|
+|move|p1a: Typhlosion|Eruption|p2a: Cinccino
+|-damage|p2a: Cinccino|22/100
+|move|p2a: Cinccino|Knock Off|p1a: Typhlosion
+|-damage|p1a: Typhlosion|59/100
+|-enditem|p1a: Typhlosion|Choice Scarf|[from] move: Knock Off|[of] p2a: Cinccino
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, M|100/100
+|move|p1a: Typhlosion|Eruption|p2a: Krookodile
+|-damage|p2a: Krookodile|55/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Krookodile|Pursuit|p1a: Typhlosion
+|-damage|p1a: Typhlosion|41/100
+|move|p1a: Typhlosion|Hidden Power|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|11/100
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Blaziken|Blaziken, L78, M|100/100
+|move|p1a: Typhlosion|Hidden Power|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|89/100
+|
+|upkeep
+|turn|20
+
+|
+|detailschange|p2a: Blaziken|Blaziken-Mega, L78, M
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Typhlosion|Extrasensory|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|24/100
+|move|p2a: Blaziken|Stone Edge|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p1a: Giratina|Giratina, L78|100/100
+|-ability|p1a: Giratina|Pressure
+|turn|21
+
+|
+|move|p2a: Blaziken|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|57/100
+|-enditem|p1a: Giratina|Leftovers|[from] move: Knock Off|[of] p2a: Blaziken
+|move|p1a: Giratina|Dragon Pulse|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+
+|
+|switch|p2a: Krookodile|Krookodile, L82, M|11/100
+|turn|22
+
+|
+|move|p2a: Krookodile|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|19/100
+|move|p1a: Giratina|Dragon Pulse|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, M|22/100
+|turn|23
+
+|
+|move|p2a: Cinccino|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|win|Hur7r6r6xu

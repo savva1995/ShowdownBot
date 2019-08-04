@@ -1,0 +1,167 @@
+|init|battle
+|title|zoax vs. LT63RB byron
+|j|☆zoax
+|j|☆LT63RB byron
+|player|p1|zoax|105|1344
+|player|p2|LT63RB byron|2|1324
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcarona, M|item
+|poke|p1|Porygon2|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Quagsire, F|item
+|poke|p1|Xurkitree|item
+|poke|p1|Mawile, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Manaphy|item
+|poke|p2|Pelipper, F|item
+|teampreview
+|
+|start
+|switch|p1a: Where's your god n|Landorus-Therian, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-ability|p1a: Where's your god n|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Where's your god n|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: LT63RB byron|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p1a: Where's your god n|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100
+|-damage|p1a: Where's your god n|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from]move: U-turn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: zoax|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|detailschange|p2a: Swampert|Swampert-Mega, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Waterfall|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-enditem|p1a: Volcarona|Focus Sash
+|-damage|p1a: Volcarona|1/100
+|cant|p1a: Volcarona|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p2a: Swampert|Waterfall|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|c|☆zoax|lol
+
+|
+|switch|p1a: Where's your god n|Landorus-Therian, M|88/100
+|-damage|p1a: Where's your god n|76/100|[from] Stealth Rock
+|-ability|p1a: Where's your god n|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|turn|6
+
+|
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|-damage|p1a: Quagsire|94/100|[from] Stealth Rock
+|move|p2a: Swampert|Waterfall|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100|[from] ability: Water Absorb|[of] p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|85/100
+|-damage|p2a: Ferrothorn|79/100|[from] Stealth Rock
+|move|p1a: Quagsire|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Xurkitree|Xurkitree|100/100
+|-damage|p1a: Xurkitree|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Xurkitree
+|-damage|p1a: Xurkitree|30/100
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|-zpower|p1a: Xurkitree
+|move|p1a: Xurkitree|Z-Hypnosis|p2a: Ferrothorn|[anim]Hypnosis
+|-boost|p1a: Xurkitree|spe|1|[zeffect]
+|-status|p2a: Ferrothorn|slp|[from] move: Hypnosis
+|cant|p2a: Ferrothorn|slp
+|
+|-heal|p2a: Ferrothorn|73/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Xurkitree|Tail Glow|p1a: Xurkitree
+|-boost|p1a: Xurkitree|spa|3
+|-curestatus|p2a: Ferrothorn|slp|[msg]
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Xurkitree
+|-resisted|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|faint|p1a: Xurkitree
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+
+|-message|zoax forfeited.
+
+|
+|win|LT63RB byron

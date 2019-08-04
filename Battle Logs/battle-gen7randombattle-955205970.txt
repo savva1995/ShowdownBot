@@ -1,0 +1,328 @@
+|init|battle
+|title|Mati11332 vs. HLunatic
+|j|☆Mati11332
+|j|☆HLunatic
+|player|p1|Mati11332|266|1099
+|player|p2|HLunatic|101|1069
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Type: Null|Type: Null, L89|100/100
+|switch|p2a: Castform|Castform, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mati11332)
+|
+|switch|p2a: Medicham|Medicham, L80, M|100/100
+|move|p1a: Type: Null|Return|p2a: Medicham
+|-damage|p2a: Medicham|37/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Stakataka|Stakataka, L83|100/100
+|-item|p1a: Stakataka|Air Balloon
+|detailschange|p2a: Medicham|Medicham-Mega, L80, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|High Jump Kick|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|-enditem|p1a: Stakataka|Air Balloon
+|faint|p1a: Stakataka
+|
+|upkeep
+
+|
+|switch|p1a: Salazzle|Salazzle, L84, F|100/100
+|-item|p1a: Salazzle|Air Balloon
+|turn|3
+
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|100/100
+|move|p1a: Salazzle|Sludge Wave|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|80/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Skuntank
+|-damage|p2a: Skuntank|27/100
+|move|p2a: Skuntank|Poison Jab|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|67/100
+|-enditem|p1a: Salazzle|Air Balloon
+|-damage|p2a: Skuntank|17/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Salazzle|Sludge Wave|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-crit|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+
+|inactive|HLunatic has 120 seconds left.
+
+|
+|switch|p2a: Gligar|Gligar, L82, M|100/100
+|turn|6
+
+|inactive|HLunatic has 120 seconds left.
+
+|
+|move|p1a: Salazzle|Hidden Power|p2a: Gligar
+|-damage|p2a: Gligar|83/100
+|move|p2a: Gligar|Stealth Rock|p1a: Salazzle
+|-sidestart|p1: Mati11332|move: Stealth Rock
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Salazzle|Sludge Wave|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|64/100
+|move|p2a: Gligar|Knock Off|p1a: Salazzle
+|-damage|p1a: Salazzle|49/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Gligar
+|-damage|p2a: Gligar|22/100
+|move|p2a: Gligar|Earthquake|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|upkeep
+
+|
+|switch|p1a: Minior|Minior, L86|100/100
+|-damage|p1a: Minior|76/100|[from] Stealth Rock
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|9
+
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|72/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Minior|Acrobatics|p2a: Gligar
+|-damage|p2a: Gligar|60/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Gligar|Knock Off|p1a: Minior
+|-damage|p1a: Minior|58/100
+|-enditem|p1a: Minior|White Herb|[from] move: Knock Off|[of] p2a: Gligar
+|move|p1a: Minior|Shell Smash|p1a: Minior
+|-unboost|p1a: Minior|def|1
+|-unboost|p1a: Minior|spd|1
+|-boost|p1a: Minior|atk|2
+|-boost|p1a: Minior|spa|2
+|-boost|p1a: Minior|spe|2
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Castform|Castform, F|100/100
+|move|p1a: Minior|Power Gem|p2a: Castform
+|-damage|p2a: Castform|60/100
+|
+|upkeep
+|turn|12
+
+|inactive|HLunatic has 120 seconds left.
+
+|
+|switch|p2a: Scolipede|Scolipede, L81, M|100/100
+|move|p1a: Minior|Acrobatics|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|upkeep
+
+|
+|switch|p2a: Gardevoir|Gardevoir, L84, M|100/100
+|turn|13
+
+|
+|move|p1a: Minior|Earthquake|p2a: Gardevoir
+|-damage|p2a: Gardevoir|52/100
+|move|p2a: Gardevoir|Focus Blast|p1a: Minior
+|-damage|p1a: Minior|0 fnt
+|faint|p1a: Minior
+|
+|-heal|p2a: Gardevoir|58/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Scolipede|Scolipede, L81, M|100/100
+|-ability|p2a: Gardevoir|Speed Boost|[from] ability: Trace|[of] p1a: Scolipede
+|-damage|p1a: Scolipede|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|-damage|p1a: Scolipede|66/100|[from] item: Life Orb
+|faint|p2a: Gardevoir
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p2a: Gligar|Gligar, L82, M|60/100
+|turn|15
+
+|c|☆Mati11332|!weak gligar
+|html|<div class="infobox">Gligar (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: <b>Ice</b>, Water<br /><span class="message-effect-resist">Resistances</span>: Bug, Fighting, Poison<br /><span class="message-effect-immune">Immunities</span>: Electric, Ground</div>
+
+|
+|move|p1a: Scolipede|Protect|p1a: Scolipede
+|-singleturn|p1a: Scolipede|Protect
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|16
+
+|inactive|HLunatic has 120 seconds left.
+
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|88/100
+|-damage|p1a: Scolipede|56/100|[from] item: Life Orb
+|move|p2a: Gligar|Knock Off|p1a: Scolipede
+|-damage|p1a: Scolipede|34/100
+|-enditem|p1a: Scolipede|Life Orb|[from] move: Knock Off|[of] p2a: Gligar
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|17
+
+|
+|move|p1a: Scolipede|Rock Slide|p2a: Gligar
+|-damage|p2a: Gligar|74/100
+|move|p2a: Gligar|Earthquake|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|upkeep
+
+|
+|switch|p1a: Lurantis|Lurantis, L88, F|100/100
+|-damage|p1a: Lurantis|88/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p2a: Gligar|Knock Off|p1a: Lurantis
+|-damage|p1a: Lurantis|70/100
+|-enditem|p1a: Lurantis|Life Orb|[from] move: Knock Off|[of] p2a: Gligar
+|move|p1a: Lurantis|Hidden Power|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|20/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Gligar|Earthquake|p1a: Lurantis
+|-resisted|p1a: Lurantis
+|-damage|p1a: Lurantis|56/100
+|move|p1a: Lurantis|Hidden Power|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|upkeep
+
+|
+|switch|p2a: Castform|Castform, F|60/100
+|turn|20
+
+|
+|-zpower|p2a: Castform
+|move|p2a: Castform|Inferno Overdrive|p1a: Lurantis|[zeffect]
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|upkeep
+
+|
+|switch|p1a: Type: Null|Type: Null, L89|100/100
+|-damage|p1a: Type: Null|88/100|[from] Stealth Rock
+|turn|21
+
+|
+|move|p2a: Castform|Fire Blast|p1a: Type: Null
+|-damage|p1a: Type: Null|72/100
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Castform|Solar Beam||[still]
+|-prepare|p2a: Castform|Solar Beam|p1a: Type: Null
+|move|p1a: Type: Null|Rest|p1a: Type: Null
+|-status|p1a: Type: Null|slp|[from] move: Rest
+|-heal|p1a: Type: Null|100/100 slp|[silent]
+|
+|upkeep
+|turn|23
+
+|
+|move|p2a: Castform|Solar Beam|p1a: Type: Null|[from]lockedmove
+|-damage|p1a: Type: Null|82/100 slp
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Rest|p1a: Type: Null|[from]Sleep Talk
+|-fail|p1a: Type: Null
+|
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Medicham|Medicham-Mega, L80, M|37/100
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Rest|p1a: Type: Null|[from]Sleep Talk
+|-fail|p1a: Type: Null
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Medicham|High Jump Kick|p1a: Type: Null
+|-supereffective|p1a: Type: Null
+|-damage|p1a: Type: Null|0 fnt
+|faint|p1a: Type: Null
+|
+|win|HLunatic

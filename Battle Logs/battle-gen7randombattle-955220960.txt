@@ -1,0 +1,79 @@
+|init|battle
+|title|cxw233 vs. bollyspeed
+|j|☆cxw233
+|j|☆bollyspeed
+|player|p1|cxw233|265|1374
+|player|p2|bollyspeed|155|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Skarmory|Skarmory, L80, M|100/100
+|switch|p2a: Milotic|Milotic, L84, F|100/100
+|turn|1
+|
+|move|p1a: Skarmory|Stealth Rock|p2a: Milotic
+|-sidestart|p2: bollyspeed|move: Stealth Rock
+|move|p2a: Milotic|Dragon Tail|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|96/100
+|drag|p1a: Cresselia|Cresselia, L84, F|100/100
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cxw233)
+
+|
+|move|p1a: Cresselia|Substitute|p1a: Cresselia
+|-start|p1a: Cresselia|Substitute
+|-damage|p1a: Cresselia|76/100
+|move|p2a: Milotic|Scald|p1a: Cresselia
+|-activate|p1a: Cresselia|move: Substitute|[damage]
+|
+|-heal|p1a: Cresselia|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Dhelmise|Dhelmise, L86|100/100
+|-damage|p2a: Dhelmise|88/100|[from] Stealth Rock
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-heal|p1a: Cresselia|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Cresselia|Ice Beam|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|25/100
+|-status|p2a: Dhelmise|frz
+|cant|p2a: Dhelmise|frz
+|
+|-heal|p1a: Cresselia|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|cant|p2a: Dhelmise|frz
+|
+|-heal|p1a: Cresselia|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|-message|bollyspeed forfeited.
+
+|
+|win|cxw233

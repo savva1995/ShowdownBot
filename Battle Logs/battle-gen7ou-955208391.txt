@@ -1,0 +1,346 @@
+|init|battle
+|title|Cacsturni vs. adiostoreadoormat
+|j|☆Cacsturni
+|j|☆adiostoreadoormat
+|player|p1|Cacsturni|136|1129
+|player|p2|adiostoreadoormat|88|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyrantrum, F|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Whimsicott, F|item
+|poke|p1|Heracross, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Blacephalon|item
+|poke|p2|Chansey, F|item
+|poke|p2|Swampert, F|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Azumarill, F|item
+|poke|p2|Magearna|item
+|poke|p2|Pelipper, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cacsturni)
+|inactive|adiostoreadoormat has 120 seconds left.
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+
+|
+|move|p2a: Pelipper|Hurricane|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|67/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: adiostoreadoormat|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p2a: Pelipper|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p2: adiostoreadoormat|Stealth Rock|[from] move: Defog|[of] p2a: Pelipper
+|move|p1a: Skarmory|Spikes|p2a: Pelipper
+|-sidestart|p2: adiostoreadoormat|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+
+|
+|move|p2a: Pelipper|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p2: adiostoreadoormat|Spikes|[from] move: Defog|[of] p2a: Pelipper
+|move|p1a: Skarmory|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: adiostoreadoormat|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p2a: Pelipper|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p2: adiostoreadoormat|Stealth Rock|[from] move: Defog|[of] p2a: Pelipper
+|move|p1a: Skarmory|Tailwind|p1a: Skarmory
+|-sidestart|p1: Cacsturni|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Skarmory|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: adiostoreadoormat|move: Stealth Rock
+|move|p2a: Pelipper|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Pinocchio|Heracross, M|100/100
+|turn|6
+
+|
+|detailschange|p1a: Pinocchio|Heracross-Mega, M
+|-mega|p1a: Pinocchio|Heracross|Heracronite
+|move|p1a: Pinocchio|Rock Blast|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|67/100
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|34/100
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-hitcount|p2a: Pelipper|3
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Kingdra|Kingdra, F, shiny|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|-zpower|p2a: Kingdra
+|move|p2a: Kingdra|Hydro Vortex|p1a: Pinocchio|[zeffect]
+|-damage|p1a: Pinocchio|0 fnt
+|faint|p1a: Pinocchio
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Cacsturni|move: Tailwind
+|upkeep
+
+|
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|turn|8
+
+|
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Cacsturni|move: Tailwind
+|move|p2a: Kingdra|Substitute|p2a: Kingdra
+|-start|p2a: Kingdra|Substitute
+|-damage|p2a: Kingdra|63/100
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-end|p2a: Kingdra|Substitute
+|move|p2a: Kingdra|Signal Beam|p1a: Whimsicott
+|-damage|p1a: Whimsicott|76/100
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Whimsicott|Moonblast|p2a: Chansey
+|-damage|p2a: Chansey|80/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Whimsicott|Tailwind||[still]
+|-fail|p1a: Whimsicott
+|move|p2a: Chansey|Toxic|p1a: Whimsicott
+|-status|p1a: Whimsicott|tox
+|
+|-damage|p1a: Whimsicott|70/100 tox|[from] psn
+|-sideend|p1: Cacsturni|move: Tailwind
+|upkeep
+|turn|12
+
+|
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Cacsturni|move: Tailwind
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-damage|p1a: Whimsicott|57/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Grimlock|Tyrantrum, F|100/100
+|move|p2a: Chansey|Seismic Toss|p1a: Grimlock
+|-damage|p1a: Grimlock|70/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Grimlock|Head Smash|p2a: Chansey
+|-damage|p2a: Chansey|23/100
+|move|p2a: Chansey|Toxic|p1a: Grimlock
+|-status|p1a: Grimlock|tox
+|
+|-damage|p1a: Grimlock|63/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|95/100|[from] Stealth Rock
+|-item|p2a: Magearna|Air Balloon
+|move|p1a: Grimlock|Head Smash|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|28/100
+|-enditem|p2a: Magearna|Air Balloon
+|
+|-damage|p1a: Grimlock|51/100 tox|[from] psn
+|-sideend|p1: Cacsturni|move: Tailwind
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Whimsicott|Whimsicott, F|57/100 tox
+|move|p2a: Magearna|Aura Sphere|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|40/100 tox
+|
+|-damage|p1a: Whimsicott|34/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Cacsturni|move: Tailwind
+|move|p2a: Magearna|Fleur Cannon|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Whimsicott
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: IT|Blacephalon|100/100
+|turn|18
+
+|
+|switch|p2a: Kingdra|Kingdra, F, shiny|63/100
+|-damage|p2a: Kingdra|51/100|[from] Stealth Rock
+|move|p1a: IT|Fire Blast|p2a: Kingdra
+|-resisted|p2a: Kingdra
+|-damage|p2a: Kingdra|21/100
+|-damage|p1a: IT|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: IT|Shadow Ball|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|-damage|p1a: IT|81/100|[from] item: Life Orb
+|faint|p2a: Kingdra
+|-ability|p1a: IT|Beast Boost|boost
+|-boost|p1a: IT|spa|1
+|
+|upkeep
+
+|inactive|adiostoreadoormat has 120 seconds left.
+
+|
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: IT|Mind Blown|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|-damage|p1a: IT|31/100|[from] mindblown
+|-damage|p1a: IT|21/100|[from] item: Life Orb
+|faint|p2a: Azumarill
+|-ability|p1a: IT|Beast Boost|boost
+|-boost|p1a: IT|spa|1
+|
+|-sideend|p1: Cacsturni|move: Tailwind
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert, F|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|turn|21
+
+|
+|detailschange|p2a: Swampert|Swampert-Mega, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1a: IT|Mind Blown|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-damage|p1a: IT|0 fnt|[from] mindblown
+|faint|p1a: IT
+|faint|p2a: Swampert
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Magearna|Magearna|28/100
+|-damage|p2a: Magearna|22/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Latias|Tailwind|p1a: Latias
+|-sidestart|p1: Cacsturni|move: Tailwind
+|move|p2a: Magearna|Fleur Cannon|p1a: Latias
+|-supereffective|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Latias
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Grimlock|Tyrantrum, F|51/100 tox
+|turn|23
+
+|
+|move|p1a: Grimlock|Head Smash|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-damage|p1a: Grimlock|45/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Chansey|Chansey, F|23/100
+|-damage|p2a: Chansey|11/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Grimlock|Head Smash|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|Cacsturni

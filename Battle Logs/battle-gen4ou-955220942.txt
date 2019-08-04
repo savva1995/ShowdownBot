@@ -1,0 +1,189 @@
+|init|battle
+|title|BATTLE OF THE GENS vs. You are like Papa
+|j|☆BATTLE OF THE GENS
+|j|☆You are like Papa
+|player|p1|BATTLE OF THE GENS|236|
+|player|p2|You are like Papa|gentleman-gen3rs|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|4
+|tier|[Gen 4] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|switch|p2a: Eleven|Azelf|100/100
+|turn|1
+|
+|move|p2a: Eleven|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: BATTLE OF THE GENS|move: Stealth Rock
+|move|p1a: Vaporeon|Hydro Pump|p2a: Eleven
+|-damage|p2a: Eleven|1/100
+|-enditem|p2a: Eleven|Focus Sash
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Eleven|Explosion|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p2a: Eleven
+|faint|p1a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Bob|Snorlax, M|100/100
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|3
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Bob|[miss]
+|-miss|p1a: Rotom|p2a: Bob
+|move|p2a: Bob|Crunch|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|20/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Bob
+|-status|p2a: Bob|brn
+|move|p2a: Bob|Crunch|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Bob|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|5
+|
+|move|p1a: Tyranitar|Superpower|p2a: Bob
+|-supereffective|p2a: Bob
+|-damage|p2a: Bob|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Bob
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Steve Harrington|Infernape, M|100/100
+|turn|6
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Steve Harrington|atk|1
+|move|p2a: Steve Harrington|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|64/100
+
+|
+|switch|p2a: Chief of Police|Kingdra, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|58/100|[from] Sandstorm
+|-damage|p2a: Chief of Police|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Chief of Police|Dragon Dance|p2a: Chief of Police
+|-boost|p2a: Chief of Police|atk|1
+|-boost|p2a: Chief of Police|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|58/100|[from] Sandstorm
+|-damage|p2a: Chief of Police|88/100|[from] Sandstorm
+|-heal|p1a: Gyarados|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Gyarados|Earthquake|p2a: Chief of Police
+|-damage|p2a: Chief of Police|25/100
+|move|p2a: Chief of Police|Outrage|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chief of Police|19/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p1a: Breloom|Mach Punch|p2a: Chief of Police
+|-damage|p2a: Chief of Police|0 fnt
+|faint|p2a: Chief of Police
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100|[from] Sandstorm
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+
+|
+|switch|p2a: Steve Harrington|Infernape, M|100/100
+|turn|10
+
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Steve Harrington|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|66/100
+
+|
+|switch|p2a: Quaaludes|Starmie|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quaaludes|94/100|[from] Sandstorm
+|upkeep
+|turn|11
+
+|
+|move|p2a: Quaaludes|Surf|p1a: Bronzong
+|-damage|p1a: Bronzong|27/100
+|move|p1a: Bronzong|Payback|p2a: Quaaludes
+|-supereffective|p2a: Quaaludes
+|-enditem|p2a: Quaaludes|Colbur Berry|[eat]
+|-enditem|p2a: Quaaludes|Colbur Berry|[weaken]
+|-damage|p2a: Quaaludes|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quaaludes|47/100|[from] Sandstorm
+|upkeep
+|turn|12
+
+|
+|move|p2a: Quaaludes|Surf|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quaaludes|41/100|[from] Sandstorm
+|upkeep
+
+|j| Munby2
+
+|-message|BATTLE OF THE GENS forfeited.
+
+|
+|win|You are like Papa

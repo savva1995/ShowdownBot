@@ -1,0 +1,48 @@
+|init|battle
+|title|Kimbro_0 vs. Kalith123
+|j|☆Kimbro_0
+|j|☆Kalith123
+|player|p1|Kimbro_0|127|1225
+|player|p2|Kalith123|265|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tsareena|Tsareena, L84, F|100/100
+|switch|p2a: Whiscash|Whiscash, L89, M|100/100
+|turn|1
+|
+|switch|p2a: Weezing|Weezing, L86, M|100/100
+|move|p1a: Tsareena|Power Whip|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|79/100
+|
+|-heal|p2a: Weezing|85/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+
+|l|☆Kalith123
+
+|player|p2|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kimbro_0)
+
+|inactive|Kalith123 has 30 seconds to reconnect!
+
+|inactive|Kalith123 has 20 seconds to reconnect!
+
+|inactive|Kalith123 has 15 seconds to reconnect!
+
+|inactive|Kalith123 has 10 seconds to reconnect!
+
+|inactive|Kalith123 has 5 seconds to reconnect!
+
+|-message|Kalith123 lost due to inactivity.
+|
+|win|Kimbro_0

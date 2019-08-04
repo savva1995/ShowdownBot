@@ -1,0 +1,168 @@
+|init|battle
+|title|LT63RB Ile vs. devans2048
+|j|☆LT63RB Ile
+|j|☆devans2048
+|player|p1|LT63RB Ile|erika-gen2|1588
+|player|p2|devans2048|koga-gen3|1570
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcarona, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Crawdaunt, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Zapdos|item
+|poke|p2|Gardevoir, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Hawlucha, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Victini|item
+|poke|p2|Kommo-o, M|item
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Guarddog|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Guarddog|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|turn|1
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Guarddog
+|-sidestart|p2: devans2048|move: Stealth Rock
+|move|p2a: Guarddog|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: LT63RB Ile|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Guarddog|Rock Tomb|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|88/100
+|-unboost|p1a: Garchomp|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Guarddog|Explosion|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p2a: Guarddog
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Bodyguard|Tapu Koko|100/100
+|-damage|p2a: Bodyguard|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Bodyguard
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|4
+
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|Bullet Punch|p2a: Bodyguard
+|-damage|p2a: Bodyguard|54/100
+|move|p2a: Bodyguard|Reflect|p2a: Bodyguard
+|-sidestart|p2: devans2048|Reflect
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Bodyguard|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|82/100
+
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100|[from]move: U-turn
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Kommo-o|Drain Punch|p1a: Scizor
+|-damage|p1a: Scizor|59/100
+|-heal|p2a: Kommo-o|100/100|[from] drain|[of] p1a: Scizor
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Kommo-o
+|-damage|p2a: Kommo-o|57/100
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|32/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Kommo-o
+|-end|p2a: Kommo-o|Substitute
+|move|p2a: Kommo-o|Drain Punch|p1a: Scizor
+|-damage|p1a: Scizor|35/100
+|-heal|p2a: Kommo-o|46/100|[from] drain|[of] p1a: Scizor
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Victim|Victini|100/100
+|-damage|p2a: Victim|76/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Victim
+|-resisted|p2a: Victim
+|-damage|p2a: Victim|54/100
+|
+|upkeep
+|turn|10
+
+|
+|-zpower|p2a: Victim
+|move|p2a: Victim|Z-Celebrate|p2a: Victim|[anim]Celebrate
+|-boost|p2a: Victim|atk|1|[zeffect]
+|-boost|p2a: Victim|def|1|[zeffect]
+|-boost|p2a: Victim|spa|1|[zeffect]
+|-boost|p2a: Victim|spd|1|[zeffect]
+|-boost|p2a: Victim|spe|1|[zeffect]
+|-activate|p2a: Victim|move: Celebrate
+|move|p1a: Scizor|Pursuit|p2a: Victim
+|-supereffective|p2a: Victim
+|-damage|p2a: Victim|11/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Victim
+|-resisted|p2a: Victim
+|-damage|p2a: Victim|0 fnt
+|faint|p2a: Victim
+|
+|-sideend|p2: devans2048|Reflect
+|upkeep
+
+|-message|devans2048 forfeited.
+
+|
+|win|LT63RB Ile

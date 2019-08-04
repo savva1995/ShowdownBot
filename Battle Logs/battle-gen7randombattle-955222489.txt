@@ -1,0 +1,242 @@
+|init|battle
+|title|minhthuanpk vs. nik250
+|j|☆minhthuanpk
+|j|☆nik250
+|player|p1|minhthuanpk|265|2195
+|player|p2|nik250|169|2118
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Delphox|Delphox, L86, F|100/100
+|switch|p2a: Sharpedo|Sharpedo, L82, M|100/100
+|turn|1
+|
+|move|p1a: Delphox|Grass Knot|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|7/100
+|move|p2a: Sharpedo|Waterfall|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|18/100
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|2
+|
+|detailschange|p2a: Sharpedo|Sharpedo-Mega, L82, M
+|-mega|p2a: Sharpedo|Sharpedo|Sharpedonite
+|move|p1a: Delphox|Grass Knot|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, L80, F|100/100
+|turn|3
+|
+|switch|p1a: Deoxys|Deoxys-Defense, L78|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Kommo-o|Dragon Dance|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|4
+
+|
+|-zpower|p2a: Kommo-o
+|move|p2a: Kommo-o|Devastating Drake|p1a: Deoxys|[zeffect]
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+
+|
+|switch|p1a: Delphox|Delphox, L86, F|18/100
+|turn|5
+
+|
+|move|p1a: Delphox|Psyshock|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-crit|p2a: Kommo-o
+|-damage|p2a: Kommo-o|2/100
+|move|p2a: Kommo-o|Dragon Dance|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|100/100
+|move|p2a: Kommo-o|Poison Jab|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|60/100
+|-status|p1a: Conkeldurr|psn
+|
+|-damage|p1a: Conkeldurr|48/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-damage|p1a: Conkeldurr|36/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Slurpuff|Slurpuff, L85, F|100/100
+|turn|8
+
+|
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|50/100
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|75/100|[from] item: Sitrus Berry
+|move|p1a: Conkeldurr|Ice Punch|p2a: Slurpuff
+|-damage|p2a: Slurpuff|40/100
+|
+|-damage|p1a: Conkeldurr|24/100 psn|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Slurpuff
+|-resisted|p2a: Slurpuff
+|-damage|p2a: Slurpuff|25/100
+|move|p2a: Slurpuff|Drain Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-heal|p2a: Slurpuff|38/100|[from] drain|[of] p1a: Conkeldurr
+|faint|p1a: Conkeldurr
+|
+|upkeep
+
+|
+|switch|p1a: Tropius|Tropius, L89, M|100/100
+|turn|10
+
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Tropius
+|-damage|p1a: Tropius|0 fnt
+|faint|p1a: Tropius
+|
+|upkeep
+
+|
+|switch|p1a: Delphox|Delphox, L86, F|18/100
+|turn|11
+
+|
+|move|p1a: Delphox|Fire Blast|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|upkeep
+
+|
+|switch|p2a: Alomomola|Alomomola, L82, M|100/100
+|turn|12
+
+|
+|switch|p1a: Omastar|Omastar, L88, M|100/100
+|move|p2a: Alomomola|Scald|p1a: Omastar
+|-crit|p1a: Omastar
+|-damage|p1a: Omastar|72/100
+|-status|p1a: Omastar|brn
+|
+|-damage|p1a: Omastar|66/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Alomomola|Knock Off|p1a: Omastar
+|-damage|p1a: Omastar|52/100 brn
+|-enditem|p1a: Omastar|Life Orb|[from] move: Knock Off|[of] p2a: Alomomola
+|move|p1a: Omastar|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: nik250|move: Stealth Rock
+|
+|-damage|p1a: Omastar|46/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Alomomola|Scald|p1a: Omastar
+|-damage|p1a: Omastar|28/100 brn
+|move|p1a: Omastar|Earth Power|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|50/100
+|
+|-heal|p2a: Alomomola|56/100|[from] item: Leftovers
+|-damage|p1a: Omastar|22/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Omastar|Earth Power|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|62/100|[from] item: Leftovers
+|-damage|p1a: Omastar|16/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Alomomola|Scald|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|-heal|p2a: Alomomola|68/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Garchomp|Garchomp, L80, M|100/100
+|turn|17
+
+|
+|detailschange|p1a: Garchomp|Garchomp-Mega, L80, M
+|-mega|p1a: Garchomp|Garchomp|Garchompite
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Alomomola|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|85/100
+|
+|-heal|p2a: Alomomola|74/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Garchomp|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+
+|
+|switch|p2a: Ludicolo|Ludicolo, L88, F|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p1a: Garchomp|Outrage|p2a: Ludicolo
+|-crit|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|upkeep
+
+|-message|nik250 forfeited.
+
+|
+|win|minhthuanpk

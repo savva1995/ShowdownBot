@@ -1,0 +1,39 @@
+|init|battle
+|title|Luffy vs. LoukasOOOLLT
+|j|☆Luffy
+|j|☆LoukasOOOLLT
+|player|p1|Luffy|1|1000
+|player|p2|LoukasOOOLLT|288|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Heatran|Heatran, L80, F|100/100
+|switch|p2a: Slurpuff|Slurpuff, L85, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LoukasOOOLLT)
+
+|
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|50/100
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|75/100|[from] item: Sitrus Berry
+|move|p1a: Heatran|Flash Cannon|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|upkeep
+
+|-message|LoukasOOOLLT forfeited.
+
+|
+|win|Luffy

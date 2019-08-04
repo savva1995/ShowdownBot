@@ -1,0 +1,332 @@
+|init|battle
+|title|Babanbo-sama vs. Rusl2
+|j|☆Babanbo-sama
+|j|☆Rusl2
+|player|p1|Babanbo-sama|101|1753
+|player|p2|Rusl2|101|1775
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Celesteela|Celesteela, L80|100/100
+|switch|p2a: Feraligatr|Feraligatr, L82, M|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rusl2)
+
+|
+|switch|p2a: Weezing|Weezing, L86, M|100/100
+|move|p1a: Celesteela|Autotomize|p1a: Celesteela
+|-boost|p1a: Celesteela|spe|2
+|-start|p1a: Celesteela|Autotomize
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Celesteela|Air Slash|p2a: Weezing
+|-damage|p2a: Weezing|62/100
+|cant|p2a: Weezing|flinch
+|
+|-heal|p2a: Weezing|68/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|
+|move|p1a: Celesteela|Air Slash|p2a: Weezing
+|-damage|p2a: Weezing|30/100
+|cant|p2a: Weezing|flinch
+|
+|-heal|p2a: Weezing|36/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|move|p1a: Celesteela|Flash Cannon|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Blacephalon|Blacephalon, L80|100/100
+|turn|5
+
+|
+|move|p1a: Celesteela|Earthquake|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|4/100
+|-zpower|p2a: Blacephalon
+|move|p2a: Blacephalon|Inferno Overdrive|p1a: Celesteela|[zeffect]
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys, L78|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|6
+
+|
+|switch|p2a: Registeel|Registeel, L84|100/100
+|move|p1a: Deoxys|Psycho Boost|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|77/100
+|-unboost|p1a: Deoxys|spa|2
+|
+|-heal|p2a: Registeel|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Deoxys|Taunt|p2a: Registeel
+|-start|p2a: Registeel|move: Taunt
+|cant|p2a: Registeel|move: Taunt|Curse
+|
+|-heal|p2a: Registeel|89/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Forretress|Forretress, L84, F|100/100
+|move|p2a: Registeel|Iron Head|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|91/100
+|
+|-heal|p2a: Registeel|95/100|[from] item: Leftovers
+|-heal|p1a: Forretress|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Blacephalon|Blacephalon, L80|4/100
+|move|p1a: Forretress|Stealth Rock|p2a: Blacephalon
+|-sidestart|p2: Rusl2|move: Stealth Rock
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Blacephalon|Mind Blown|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|-damage|p2a: Blacephalon|0 fnt|[from] mindblown
+|faint|p2a: Blacephalon
+|move|p1a: Forretress|Spikes|p2: Blacephalon
+|-sidestart|p2: Rusl2|Spikes
+|
+|-heal|p1a: Forretress|7/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Delibird|Delibird, F|100/100
+|-damage|p2a: Delibird|51/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p2a: Delibird|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|5/100
+|-sideend|p2: Rusl2|Spikes|[from] move: Rapid Spin|[of] p2a: Delibird
+|-sideend|p2: Rusl2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Delibird
+|move|p1a: Forretress|Gyro Ball|p2a: Delibird
+|-supereffective|p2a: Delibird
+|-crit|p2a: Delibird
+|-damage|p2a: Delibird|0 fnt
+|faint|p2a: Delibird
+|
+|-heal|p1a: Forretress|11/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, M|100/100
+|turn|12
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|100/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Registeel|Registeel, L84|95/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Registeel|[miss]
+|-miss|p1a: Vileplume|p2a: Registeel
+|
+|-heal|p2a: Registeel|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Vileplume|Strength Sap||[still]
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|-fail|p1a: Vileplume
+|move|p2a: Registeel|Curse|p2a: Registeel
+|-unboost|p2a: Registeel|spe|1
+|-boost|p2a: Registeel|atk|1
+|-boost|p2a: Registeel|def|1
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Registeel
+|-status|p2a: Registeel|slp|[from] move: Sleep Powder
+|cant|p2a: Registeel|slp
+|move|p2a: Registeel|Sleep Talk|p2a: Registeel
+|move|p2a: Registeel|Curse|p2a: Registeel|[from]Sleep Talk
+|-unboost|p2a: Registeel|spe|1
+|-boost|p2a: Registeel|atk|1
+|-boost|p2a: Registeel|def|1
+|
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Clawitzer|Clawitzer, L86, F|100/100
+|cant|p2a: Registeel|slp
+|move|p2a: Registeel|Sleep Talk|p2a: Registeel
+|move|p2a: Registeel|Curse|p2a: Registeel|[from]Sleep Talk
+|-unboost|p2a: Registeel|spe|1
+|-boost|p2a: Registeel|atk|1
+|-boost|p2a: Registeel|def|1
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Clawitzer|Water Pulse|p2a: Registeel
+|-damage|p2a: Registeel|74/100 slp
+|-curestatus|p2a: Registeel|slp|[msg]
+|move|p2a: Registeel|Iron Head|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|71/100
+|
+|-heal|p2a: Registeel|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Clawitzer|Aura Sphere|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|31/100
+|move|p2a: Registeel|Iron Head|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|39/100
+|
+|-heal|p2a: Registeel|37/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Clawitzer|Aura Sphere|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|upkeep
+
+|
+|switch|p2a: Ludicolo|Ludicolo, L88, F|100/100
+|turn|20
+
+|
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|move|p1a: Clawitzer|U-turn|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|68/100
+
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|43/100
+|-damage|p2a: Ludicolo|58/100|[from] item: Life Orb
+|move|p1a: Vileplume|Sludge Bomb|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vileplume|49/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Feraligatr|Feraligatr, L82, M|100/100
+|turn|22
+
+|
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|move|p1a: Vileplume|Sleep Powder|p2a: Feraligatr|[miss]
+|-miss|p1a: Vileplume|p2a: Feraligatr
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vileplume|55/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+
+|
+|move|p2a: Feraligatr|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-damage|p2a: Feraligatr|91/100|[from] item: Life Orb
+|faint|p1a: Vileplume
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys, L78|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|24
+
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Feraligatr
+|-damage|p2a: Feraligatr|14/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Feraligatr|Liquidation|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Drifblim|Drifblim, L89, M|100/100
+|turn|25
+
+|
+|move|p2a: Feraligatr|Liquidation|p1a: Drifblim
+|-damage|p1a: Drifblim|19/100
+|-enditem|p1a: Drifblim|Sitrus Berry|[eat]
+|-heal|p1a: Drifblim|44/100|[from] item: Sitrus Berry
+|move|p1a: Drifblim|Acrobatics|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|win|Babanbo-sama

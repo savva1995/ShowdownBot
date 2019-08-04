@@ -1,0 +1,144 @@
+|init|battle
+|title|kingkong98 vs. Uopko123
+|j|☆kingkong98
+|j|☆Uopko123
+|player|p1|kingkong98|80|1051
+|player|p2|Uopko123|101|1005
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Darkrai|item
+|poke|p1|Suicune|item
+|poke|p1|Zapdos|item
+|poke|p1|Xerneas|item
+|poke|p1|Latios, M|item
+|poke|p1|Landorus, M|
+|poke|p2|Lopunny, M|item
+|poke|p2|Primarina, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Pikachu-Original, M|item
+|poke|p2|Blaziken, M|item
+|poke|p2|Cinccino, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Lopunny|Lopunny, M, shiny|100/100
+|turn|1
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, M, shiny
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|Fake Out|p1a: Darkrai
+|-damage|p1a: Darkrai|73/100
+|cant|p1a: Darkrai|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Lopunny|High Jump Kick|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus, M|100/100
+|turn|3
+
+|
+|move|p2a: Lopunny|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+
+|
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|4
+
+|
+|move|p2a: Lopunny|High Jump Kick|p1a: Suicune|[miss]
+|-miss|p2a: Lopunny|p1a: Suicune
+|-damage|p2a: Lopunny|51/100|[from] highjumpkick
+|move|p1a: Suicune|Scald|p2a: Lopunny
+|-damage|p2a: Lopunny|18/100
+|-status|p2a: Lopunny|brn
+|
+|-damage|p2a: Lopunny|12/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Lopunny|High Jump Kick|p1a: Suicune
+|-damage|p1a: Suicune|80/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|87/100|[from] item: Leftovers
+|-damage|p2a: Lopunny|6/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Lopunny|Ice Punch|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|83/100
+|move|p1a: Suicune|Scald|p2a: Lopunny
+|-damage|p2a: Lopunny|0 fnt
+|faint|p2a: Lopunny
+|
+|-heal|p1a: Suicune|89/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Cinccino|Cinccino, F, shiny|100/100
+|turn|7
+
+|
+|move|p2a: Cinccino|Bullet Seed|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|81/100
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|73/100
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|65/100
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|57/100
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|50/100
+|-hitcount|p1a: Suicune|5
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|56/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Cinccino|Return|p1a: Suicune
+|-damage|p1a: Suicune|31/100
+|move|p1a: Suicune|Scald|p2a: Cinccino
+|-damage|p2a: Cinccino|5/100
+|-status|p2a: Cinccino|brn
+|
+|-heal|p2a: Cinccino|11/100 brn|[from] item: Leftovers
+|-heal|p1a: Suicune|37/100|[from] item: Leftovers
+|-damage|p2a: Cinccino|5/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|-message|Uopko123 forfeited.
+
+|
+|win|kingkong98

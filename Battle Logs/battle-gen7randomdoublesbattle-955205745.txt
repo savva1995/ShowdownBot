@@ -1,0 +1,190 @@
+|init|battle
+|title|culo94 vs. eksfalla1
+|j|☆culo94
+|j|☆eksfalla1
+|player|p1|culo94|265|1401
+|player|p2|eksfalla1|288|1414
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pachirisu|Pachirisu, L88, F|100/100
+|switch|p1b: Roserade|Roserade, L78, M|100/100
+|switch|p2a: Celesteela|Celesteela, L72|100/100
+|switch|p2b: Stantler|Stantler, L83, M|100/100
+|-ability|p2b: Stantler|Intimidate|boost
+|-unboost|p1a: Pachirisu|atk|1
+|-unboost|p1b: Roserade|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eksfalla1)
+|
+|move|p1a: Pachirisu|Helping Hand|p1b: Roserade
+|-singleturn|p1b: Roserade|Helping Hand|[of] p1a: Pachirisu
+|move|p2b: Stantler|Earthquake|p1b: Roserade|[spread] p1a,p1b
+|-immune|p2a: Celesteela
+|-supereffective|p1a: Pachirisu
+|-damage|p1a: Pachirisu|37/100
+|-damage|p1b: Roserade|61/100
+|-damage|p2b: Stantler|91/100|[from] item: Life Orb
+|move|p1b: Roserade|Leaf Storm|p2b: Stantler
+|-damage|p2b: Stantler|0 fnt
+|-unboost|p1b: Roserade|spa|2
+|-damage|p1b: Roserade|51/100|[from] item: Life Orb
+|faint|p2b: Stantler
+|move|p2a: Celesteela|Flamethrower|p1b: Roserade
+|-supereffective|p1b: Roserade
+|-crit|p1b: Roserade
+|-damage|p1b: Roserade|0 fnt
+|faint|p1b: Roserade
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|upkeep
+|
+|switch|p2b: Whimsicott|Whimsicott, L81, M|100/100
+|switch|p1b: Muk|Muk-Alola, L79, M|100/100
+|turn|2
+|
+|switch|p2b: Diggersby|Diggersby, L81, F|100/100
+|move|p1a: Pachirisu|Thunderbolt|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|54/100
+|move|p2a: Celesteela|Earthquake|p1b: Muk|[spread] p2b,p1a,p1b
+|-supereffective|p1a: Pachirisu
+|-supereffective|p1b: Muk
+|-damage|p2b: Diggersby|83/100
+|-damage|p1a: Pachirisu|0 fnt
+|-damage|p1b: Muk|66/100
+|faint|p1a: Pachirisu
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|move|p1b: Muk|Snarl|p2b: Diggersby|[spread] p2b
+|-miss|p1b: Muk|p2a: Celesteela
+|-damage|p2b: Diggersby|72/100
+|-unboost|p2b: Diggersby|spa|1
+|
+|-heal|p2a: Celesteela|60/100|[from] item: Leftovers
+|-heal|p1b: Muk|72/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Gyarados|Gyarados, L70, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Celesteela|atk|1
+|-unboost|p2b: Diggersby|atk|1
+|turn|3
+
+|
+|move|p2b: Diggersby|Wild Charge|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2b: Diggersby|49/100|[from] Recoil
+|-damage|p2b: Diggersby|39/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|move|p2a: Celesteela|Heavy Slam|p1b: Muk
+|-damage|p1b: Muk|44/100
+|move|p1b: Muk|Poison Jab|p2b: Diggersby
+|-resisted|p2b: Diggersby
+|-damage|p2b: Diggersby|22/100
+|
+|-heal|p2a: Celesteela|67/100|[from] item: Leftovers
+|-heal|p1b: Muk|50/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Mismagius|Mismagius, L80, F|100/100
+|turn|4
+
+|
+|move|p1a: Mismagius|Shadow Ball|p2a: Celesteela
+|-damage|p2a: Celesteela|31/100
+|move|p2b: Diggersby|Earthquake|p1b: Muk|[spread] p1b
+|-immune|p2a: Celesteela
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|-supereffective|p1b: Muk
+|-damage|p1b: Muk|0 fnt
+|-damage|p2b: Diggersby|12/100|[from] item: Life Orb
+|faint|p1b: Muk
+|move|p2a: Celesteela|Flamethrower|p1a: Mismagius
+|-damage|p1a: Mismagius|59/100
+|
+|-heal|p1a: Mismagius|65/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|38/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1b: Solgaleo|Solgaleo, L70|100/100
+|turn|5
+
+|
+|move|p1a: Mismagius|Dazzling Gleam|p2b: Diggersby|[spread] p2a,p2b
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|29/100
+|-damage|p2b: Diggersby|0 fnt
+|faint|p2b: Diggersby
+|move|p1b: Solgaleo|Flare Blitz|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|-damage|p1b: Solgaleo|92/100|[from] Recoil
+|faint|p2a: Celesteela
+|
+|-heal|p1a: Mismagius|71/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2b: Whimsicott|Whimsicott, L81, M|100/100
+|switch|p2a: Feraligatr|Feraligatr, L76, F|100/100
+|turn|6
+
+|
+|move|p2b: Whimsicott|Dazzling Gleam|p1a: Mismagius|[spread] p1a,p1b
+|-resisted|p1b: Solgaleo
+|-damage|p1a: Mismagius|46/100
+|-damage|p1b: Solgaleo|80/100
+|-damage|p2b: Whimsicott|90/100|[from] item: Life Orb
+|move|p1a: Mismagius|Shadow Ball|p2a: Feraligatr
+|-damage|p2a: Feraligatr|60/100
+|move|p1b: Solgaleo|Flare Blitz|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|17/100
+|-damage|p1b: Solgaleo|62/100|[from] Recoil
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|-heal|p1a: Mismagius|52/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Feraligatr|Earthquake|p1b: Solgaleo|[spread] p2b,p1b
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|-resisted|p2b: Whimsicott
+|-supereffective|p1b: Solgaleo
+|-damage|p2b: Whimsicott|0 fnt
+|-damage|p1b: Solgaleo|0 fnt
+|-damage|p2a: Feraligatr|50/100|[from] item: Life Orb
+|faint|p2b: Whimsicott
+|faint|p1b: Solgaleo
+|move|p1a: Mismagius|Dazzling Gleam|p2a: Feraligatr
+|-damage|p2a: Feraligatr|24/100
+|
+|-heal|p1a: Mismagius|59/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2b: Escavalier|Escavalier, L80, M|100/100
+|turn|8
+
+|
+|move|p2a: Feraligatr|Liquidation|p1a: Mismagius
+|-crit|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|win|eksfalla1

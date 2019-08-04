@@ -1,0 +1,45 @@
+|init|battle
+|title|EndouMamoruu vs. zadocfish3
+|j|☆EndouMamoruu
+|j|☆zadocfish3
+|player|p1|EndouMamoruu|229|1328
+|player|p2|zadocfish3|10|1213
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Azumarill, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p2|Slaking, M|item
+|poke|p2|Bewear, F|item
+|poke|p2|Scolipede, M|item
+|teampreview|1
+
+|
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Scolipede|Scolipede, M|100/100
+|turn|1
+
+|
+|move|p2a: Scolipede|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|-zpower|p1a: Dragonite
+|move|p1a: Dragonite|Supersonic Skystrike|p2a: Scolipede|[zeffect]
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|win|EndouMamoruu

@@ -1,0 +1,341 @@
+|init|battle
+|title|Yeleets vs. mtbjj
+|j|☆Yeleets
+|j|☆mtbjj
+|player|p1|Yeleets|278|1303
+|player|p2|mtbjj|101|1162
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Magearna|item
+|poke|p1|Hawlucha, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Greninja, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Darmanitan, F|item
+|poke|p2|Salamence, F|item
+|poke|p2|Porygon-Z|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|inactive|Yeleets has 30 seconds left this turn.
+|inactive|mtbjj has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yeleets)
+|
+|start
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|1
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+|inactive|mtbjj has 10 seconds left.
+|
+|move|p2a: Greninja|Power-Up Punch|p1a: Kyurem
+|-start|p2a: Greninja|typechange|Fighting|[from] ability: Protean
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|72/100
+|-boost|p2a: Greninja|atk|1
+|move|p1a: Kyurem|Fusion Bolt|p2a: Greninja
+|-damage|p2a: Greninja|41/100
+|
+|upkeep
+|turn|2
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Greninja|atk|1
+|move|p2a: Greninja|Power-Up Punch|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|94/100
+|-damage|p2a: Greninja|25/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-boost|p2a: Greninja|atk|1
+|
+|upkeep
+|turn|3
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Greninja|Ice Punch|p1a: Tapu Koko
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-damage|p1a: Tapu Koko|49/100
+|
+|upkeep
+|turn|4
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|move|p1a: Tapu Koko|Volt Switch|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|inactive|Yeleets has 10 seconds left.
+
+|
+|switch|p1a: Magearna|Magearna|100/100|[from]move: Volt Switch
+|
+|upkeep
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p2a: Darmanitan|Darmanitan, F|100/100
+|turn|5
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|94/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Darmanitan|atk|1
+|move|p2a: Darmanitan|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|87/100
+|-damage|p2a: Darmanitan|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p2a: Porygon-Z|Porygon-Z|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|-zpower|p2a: Porygon-Z
+|move|p2a: Porygon-Z|Z-Conversion||[anim]Conversion|[still]
+|-boost|p2a: Porygon-Z|atk|1|[zeffect]
+|-boost|p2a: Porygon-Z|def|1|[zeffect]
+|-boost|p2a: Porygon-Z|spa|1|[zeffect]
+|-boost|p2a: Porygon-Z|spd|1|[zeffect]
+|-boost|p2a: Porygon-Z|spe|1|[zeffect]
+|-fail|p2a: Porygon-Z
+|move|p1a: Landorus|Earthquake|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|40/100
+|
+|upkeep
+|turn|7
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|inactive|Yeleets has 10 seconds left.
+|inactive|mtbjj has 10 seconds left.
+
+|
+|move|p2a: Porygon-Z|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|49/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|8
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|inactive|Yeleets has 10 seconds left.
+
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Porygon-Z|Tri Attack|p1a: Volcarona
+|-damage|p1a: Volcarona|5/100
+|
+|-heal|p1a: Volcarona|11/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|move|p2a: Porygon-Z|Tri Attack|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|10
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|inactive|mtbjj has 10 seconds left.
+
+|
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|turn|11
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|inactive|Yeleets has 10 seconds left.
+
+|inactive|Yeleets has 5 seconds left.
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|move|p2a: Zapdos|Thunder|p1a: Hawlucha|[miss]
+|-miss|p2a: Zapdos|p1a: Hawlucha
+|
+|upkeep
+|turn|12
+
+|inactive|Yeleets has 10 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|inactive|Yeleets has 5 seconds left.
+|inactive|mtbjj has 10 seconds left.
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|42/100
+|move|p2a: Zapdos|Thunder|p1a: Hawlucha|[miss]
+|-miss|p2a: Zapdos|p1a: Hawlucha
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|13
+
+|inactive|Yeleets has 10 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Zapdos|Thunder|p1a: Hawlucha|[miss]
+|-miss|p2a: Zapdos|p1a: Hawlucha
+|
+|upkeep
+|turn|14
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|inactive|mtbjj has 10 seconds left.
+
+|c|☆mtbjj|Luck win
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p2a: Salamence|Salamence, F|100/100
+|turn|15
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|16
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|detailschange|p2a: Venusaur|Venusaur-Mega, M
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Hawlucha|Acrobatics|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|switch|p2a: Darmanitan|Darmanitan, F|84/100
+|turn|17
+
+|inactive|Yeleets has 15 seconds left this turn.
+|inactive|mtbjj has 15 seconds left this turn.
+
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|win|Yeleets

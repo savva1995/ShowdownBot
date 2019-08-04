@@ -1,0 +1,144 @@
+|init|battle
+|title|ademme vs. yinf
+|j|☆ademme
+|j|☆yinf
+|player|p1|ademme|80|1397
+|player|p2|yinf|266|1461
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Armaldo|Armaldo, L89, F|100/100
+|switch|p2a: Victreebel|Victreebel, L88, M|100/100
+|turn|1
+|
+|-zpower|p2a: Victreebel
+|move|p2a: Victreebel|Z-Sleep Powder|p1a: Armaldo|[anim]Sleep Powder
+|-boost|p2a: Victreebel|spe|1|[zeffect]
+|-status|p1a: Armaldo|slp|[from] move: Sleep Powder
+|cant|p1a: Armaldo|slp
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ademme)
+|
+|switch|p1a: Reuniclus|Reuniclus, L83, M|100/100
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Victreebel|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-enditem|p1a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p2a: Victreebel
+|faint|p1a: Reuniclus
+|
+|upkeep
+|
+|switch|p1a: Rayquaza|Rayquaza, L78|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|4
+
+|l|☆yinf
+
+|inactive|yinf disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆yinf
+
+|inactive|yinf reconnected and has 140 seconds left.
+
+|player|p2|yinf|266
+
+|
+|move|p2a: Victreebel|Knock Off|p1a: Rayquaza
+|-damage|p1a: Rayquaza|47/100
+|-enditem|p1a: Rayquaza|Lum Berry|[from] move: Knock Off|[of] p2a: Victreebel
+|move|p1a: Rayquaza|Dragon Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|1
+|-boost|p1a: Rayquaza|spe|1
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Rayquaza|V-create|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|-unboost|p1a: Rayquaza|spe|1
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|faint|p2a: Victreebel
+|
+|upkeep
+
+|
+|switch|p2a: Flygon|Flygon, L84, F|100/100
+|turn|6
+
+|
+|switch|p1a: Slowking|Slowking, L86, F|100/100
+|move|p2a: Flygon|Dragon Dance|p2a: Flygon
+|-boost|p2a: Flygon|atk|1
+|-boost|p2a: Flygon|spe|1
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Flygon|Outrage|p1a: Slowking
+|-damage|p1a: Slowking|29/100
+|move|p1a: Slowking|Nasty Plot|p1a: Slowking
+|-boost|p1a: Slowking|spa|2
+|
+|-heal|p1a: Slowking|36/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Armaldo|Armaldo, L89, F|100/100 slp
+|move|p2a: Flygon|Outrage|p1a: Armaldo|[from]lockedmove
+|-crit|p1a: Armaldo
+|-damage|p1a: Armaldo|8/100 slp
+|-start|p2a: Flygon|confusion|[fatigue]
+|-enditem|p2a: Flygon|Lum Berry|[eat]
+|-end|p2a: Flygon|confusion
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Flygon|Earthquake|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|upkeep
+
+|
+|switch|p1a: Kyurem|Kyurem-Black, L80|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|10
+
+|
+|move|p2a: Flygon|Outrage|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+
+|inactive|ademme has 120 seconds left.
+
+|-message|ademme forfeited.
+
+|
+|win|yinf

@@ -1,0 +1,254 @@
+|init|battle
+|title|Micael Lopes vs. Oafkiedawg
+|j|☆Micael Lopes
+|j|☆Oafkiedawg
+|player|p1|Micael Lopes|293|1946
+|player|p2|Oafkiedawg|266|1849
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zangoose|Zangoose, L89, F|100/100
+|switch|p2a: Omastar|Omastar, L88, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Micael Lopes)
+
+|
+|move|p1a: Zangoose|Knock Off|p2a: Omastar
+|-damage|p2a: Omastar|79/100
+|-enditem|p2a: Omastar|Focus Sash|[from] move: Knock Off|[of] p1a: Zangoose
+|move|p2a: Omastar|Stealth Rock|p1a: Zangoose
+|-sidestart|p1: Micael Lopes|move: Stealth Rock
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+
+|
+|move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+|-boost|p1a: Zangoose|atk|2
+|move|p2a: Omastar|Scald|p1a: Zangoose
+|-damage|p1a: Zangoose|53/100 tox
+|
+|-damage|p1a: Zangoose|47/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Zangoose|Facade|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|7/100
+|move|p2a: Omastar|Scald|p1a: Zangoose
+|-damage|p1a: Zangoose|1/100 tox
+|
+|-damage|p1a: Zangoose|0 fnt|[from] psn
+|faint|p1a: Zangoose
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, L84, F|100/100
+|-damage|p1a: Jolteon|88/100|[from] Stealth Rock
+|turn|4
+
+|
+|move|p1a: Jolteon|Volt Switch|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+
+|
+|switch|p1a: Blaziken|Blaziken, L78, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p2a: Palossand|Palossand, L86, F|100/100
+|turn|5
+
+|
+|switch|p1a: Guzzlord|Guzzlord, L87|100/100
+|-damage|p1a: Guzzlord|88/100|[from] Stealth Rock
+|move|p2a: Palossand|Earth Power|p1a: Guzzlord
+|-damage|p1a: Guzzlord|60/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Bewear|Bewear, L84, M|100/100
+|move|p1a: Guzzlord|Knock Off|p2a: Bewear
+|-resisted|p2a: Bewear
+|-damage|p2a: Bewear|89/100
+|-enditem|p2a: Bewear|Life Orb|[from] move: Knock Off|[of] p1a: Guzzlord
+|-damage|p1a: Guzzlord|50/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Chandelure|Chandelure, L82, M|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|move|p2a: Bewear|Hammer Arm|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Palossand|Palossand, L86, F|100/100
+|move|p1a: Chandelure|Fire Blast|p2a: Palossand
+|-damage|p2a: Palossand|45/100
+|
+|-heal|p2a: Palossand|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|faint|p2a: Palossand
+|
+|upkeep
+
+|
+|switch|p2a: Nidoking|Nidoking, L82, M|100/100
+|turn|10
+
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L86, M|100/100
+|-damage|p1a: Hitmonlee|94/100|[from] Stealth Rock
+|move|p2a: Nidoking|Earth Power|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|46/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Hitmonlee|Knock Off|p2a: Nidoking
+|-damage|p2a: Nidoking|56/100
+|-enditem|p2a: Nidoking|Life Orb|[from] move: Knock Off|[of] p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|36/100|[from] item: Life Orb
+|move|p2a: Nidoking|Earth Power|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+
+|
+|switch|p1a: Chandelure|Chandelure, L82, M|76/100
+|-damage|p1a: Chandelure|51/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|upkeep
+
+|
+|switch|p2a: Banette|Banette, L84, F|100/100
+|turn|13
+
+|
+|detailschange|p2a: Banette|Banette-Mega, L84, F
+|-mega|p2a: Banette|Banette|Banettite
+|move|p2a: Banette|Destiny Bond|p2a: Banette
+|-singlemove|p2a: Banette|Destiny Bond
+|move|p1a: Chandelure|Fire Blast|p2a: Banette
+|-damage|p2a: Banette|30/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Banette|[miss]
+|-miss|p1a: Chandelure|p2a: Banette
+|move|p2a: Banette|Shadow Claw|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+
+|
+|switch|p1a: Jolteon|Jolteon, L84, F|88/100
+|-damage|p1a: Jolteon|76/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Banette|Destiny Bond|p2a: Banette
+|-singlemove|p2a: Banette|Destiny Bond
+|move|p1a: Jolteon|Volt Switch|p2a: Banette
+|-damage|p2a: Banette|0 fnt
+|faint|p2a: Banette
+|-activate|p2a: Banette|move: Destiny Bond
+|faint|p1a: Jolteon
+|
+|upkeep
+
+|
+|switch|p1a: Guzzlord|Guzzlord, L87|50/100
+|switch|p2a: Bewear|Bewear, L84, M|89/100
+|-damage|p1a: Guzzlord|38/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Bewear|Double-Edge|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|-damage|p2a: Bewear|70/100|[from] Recoil
+|faint|p1a: Guzzlord
+|
+|upkeep
+
+|
+|switch|p1a: Blaziken|Blaziken, L78, M|88/100
+|-damage|p1a: Blaziken|76/100|[from] Stealth Rock
+|turn|17
+
+|
+|detailschange|p1a: Blaziken|Blaziken-Mega, L78, M
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Bewear|Double-Edge|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|18
+
+|
+|move|p1a: Blaziken|High Jump Kick|p2a: Bewear
+|-supereffective|p2a: Bewear
+|-damage|p2a: Bewear|18/100
+|move|p2a: Bewear|Double-Edge|p1a: Blaziken
+|-damage|p1a: Blaziken|1/100
+|-damage|p2a: Bewear|0 fnt|[from] Recoil
+|faint|p2a: Bewear
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-item|p2a: Stakataka|Air Balloon
+|turn|19
+
+|
+|move|p1a: Blaziken|High Jump Kick|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|-enditem|p2a: Stakataka|Air Balloon
+|faint|p2a: Stakataka
+|
+|win|Micael Lopes

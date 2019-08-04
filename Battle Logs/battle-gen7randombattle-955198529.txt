@@ -1,0 +1,56 @@
+|init|battle
+|title|PhineasTBarnum vs. lancett
+|j|☆PhineasTBarnum
+|j|☆lancett
+|player|p1|PhineasTBarnum|201|1471
+|player|p2|lancett|25|1519
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slurpuff|Slurpuff, L85, F|100/100
+|switch|p2a: Crustle|Crustle, L89, F|100/100
+|turn|1
+
+|
+|switch|p2a: Magnezone|Magnezone, L80|100/100
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|50/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Slurpuff|Drain Punch|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-heal|p1a: Slurpuff|100/100|[from] drain|[of] p2a: Magnezone
+|faint|p2a: Magnezone
+|
+|upkeep
+
+|
+|switch|p2a: Raikou|Raikou, L84|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|3
+
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|upkeep
+
+|-message|lancett forfeited.
+
+|
+|win|PhineasTBarnum

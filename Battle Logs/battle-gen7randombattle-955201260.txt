@@ -1,0 +1,79 @@
+|init|battle
+|title|pewmews vs. Cana0627
+|j|☆pewmews
+|j|☆Cana0627
+|player|p1|pewmews|170|1065
+|player|p2|Cana0627|266|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gumshoos|Gumshoos, L89, M|100/100
+|switch|p2a: Guzzlord|Guzzlord, L87|100/100
+|turn|1
+|
+|move|p1a: Gumshoos|U-turn|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|54/100
+|
+|switch|p1a: Xerneas|Xerneas, L78|100/100|[from]move: U-turn
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Guzzlord|Knock Off|p1a: Xerneas
+|-resisted|p1a: Xerneas
+|-damage|p1a: Xerneas|77/100
+|-enditem|p1a: Xerneas|Power Herb|[from] move: Knock Off|[of] p2a: Guzzlord
+|-damage|p2a: Guzzlord|44/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|move|p2a: Guzzlord|Draco Meteor|p1a: Xerneas
+|-immune|p1a: Xerneas
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Xerneas|Geomancy|p1a: Xerneas|[from]lockedmove
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|move|p2a: Guzzlord|Earthquake|p1a: Xerneas
+|-damage|p1a: Xerneas|44/100
+|-damage|p2a: Guzzlord|34/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Xerneas|Moonblast|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|
+|upkeep
+
+|
+|switch|p2a: Breloom|Breloom, L81, F|100/100
+|turn|5
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pewmews)
+
+|
+|move|p1a: Xerneas|Psyshock|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+
+|-message|Cana0627 forfeited.
+
+|
+|win|pewmews

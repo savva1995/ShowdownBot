@@ -1,0 +1,240 @@
+|init|battle
+|title|Cheshire Duck vs. LineGoon
+|j|☆Cheshire Duck
+|j|☆LineGoon
+|player|p1|Cheshire Duck|265|1433
+|player|p2|LineGoon|265|1466
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Florges|Florges, L84, F|100/100
+|switch|p2a: Toucannon|Toucannon, L89, M|100/100
+|turn|1
+|
+|-singleturn|p2a: Toucannon|move: Beak Blast
+|move|p1a: Florges|Toxic|p2a: Toucannon
+|-status|p2a: Toucannon|tox
+|move|p2a: Toucannon|Beak Blast|p1a: Florges
+|-damage|p1a: Florges|12/100
+|-damage|p2a: Toucannon|91/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Florges|18/100|[from] item: Leftovers
+|-damage|p2a: Toucannon|85/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Florges|Protect|p1a: Florges
+|-singleturn|p1a: Florges|Protect
+|move|p2a: Toucannon|Return|p1a: Florges
+|-activate|p1a: Florges|move: Protect
+|
+|-heal|p1a: Florges|24/100|[from] item: Leftovers
+|-damage|p2a: Toucannon|73/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|move|p2a: Toucannon|Return|p1a: Dhelmise
+|-immune|p1a: Dhelmise
+|
+|-damage|p2a: Toucannon|55/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|-singleturn|p2a: Toucannon|move: Beak Blast
+|switch|p1a: Mudsdale|Mudsdale, L88, M|100/100
+|move|p2a: Toucannon|Beak Blast|p1a: Mudsdale
+|-damage|p1a: Mudsdale|47/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-damage|p2a: Toucannon|45/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Mudsdale|53/100|[from] item: Leftovers
+|-damage|p2a: Toucannon|22/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Tentacruel|Tentacruel, L82, F|100/100
+|move|p1a: Mudsdale|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: LineGoon|move: Stealth Rock
+|
+|-heal|p1a: Mudsdale|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cheshire Duck)
+
+|
+|move|p2a: Tentacruel|Scald|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|-damage|p2a: Tentacruel|91/100|[from] item: Life Orb
+|faint|p1a: Mudsdale
+|
+|upkeep
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100
+|turn|7
+
+|
+|move|p2a: Tentacruel|Knock Off|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|58/100
+|-enditem|p1a: Dhelmise|Life Orb|[from] move: Knock Off|[of] p2a: Tentacruel
+|-damage|p2a: Tentacruel|81/100|[from] item: Life Orb
+|move|p1a: Dhelmise|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+
+|inactive|LineGoon has 120 seconds left.
+
+|
+|switch|p2a: Exploud|Exploud, L85, F|100/100
+|-damage|p2a: Exploud|88/100|[from] Stealth Rock
+|turn|8
+
+|inactive|LineGoon has 120 seconds left.
+
+|
+|switch|p1a: Florges|Florges, L84, F|24/100
+|move|p2a: Exploud|Boomburst|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|
+|upkeep
+
+|
+|switch|p1a: Spinda|Spinda, L89, M|100/100
+|turn|9
+
+|
+|move|p1a: Spinda|Sucker Punch|p2a: Exploud
+|-damage|p2a: Exploud|66/100
+|-damage|p1a: Spinda|91/100|[from] item: Life Orb
+|move|p2a: Exploud|Boomburst|p1a: Spinda
+|-crit|p1a: Spinda
+|-damage|p1a: Spinda|0 fnt
+|faint|p1a: Spinda
+|
+|upkeep
+
+|
+|switch|p1a: Zeraora|Zeraora, L82|100/100
+|turn|10
+
+|
+|switch|p2a: Toucannon|Toucannon, L89, M|22/100 tox
+|-damage|p2a: Toucannon|0 fnt|[from] Stealth Rock
+|faint|p2a: Toucannon
+|move|p1a: Zeraora|Close Combat|p2: Toucannon|[notarget]
+|-fail|p1a: Zeraora
+|
+|upkeep
+
+|
+|switch|p2a: Exeggutor|Exeggutor-Alola, L86, M|100/100
+|-damage|p2a: Exeggutor|88/100|[from] Stealth Rock
+|-item|p1a: Zeraora|Life Orb|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|11
+
+|
+|switch|p1a: Dhelmise|Dhelmise, L86|58/100
+|move|p2a: Exeggutor|Trick Room|p2a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p2a: Exeggutor
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Exeggutor|Flamethrower|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|-damage|p2a: Exeggutor|78/100|[from] item: Life Orb
+|faint|p1a: Dhelmise
+|
+|upkeep
+
+|
+|switch|p1a: Volcarona|Volcarona, L80, M|100/100
+|turn|13
+
+|
+|move|p2a: Exeggutor|Draco Meteor|p1a: Volcarona
+|-damage|p1a: Volcarona|17/100
+|-unboost|p2a: Exeggutor|spa|2
+|-damage|p2a: Exeggutor|68/100|[from] item: Life Orb
+|move|p1a: Volcarona|Fiery Dance|p2a: Exeggutor
+|-damage|p2a: Exeggutor|33/100
+|
+|-heal|p1a: Volcarona|23/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Zeraora|Zeraora, L82|100/100
+|move|p2a: Exeggutor|Draco Meteor|p1a: Zeraora
+|-damage|p1a: Zeraora|51/100
+|-unboost|p2a: Exeggutor|spa|2
+|-damage|p2a: Exeggutor|24/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Exeggutor|Draco Meteor|p1a: Zeraora
+|-damage|p1a: Zeraora|20/100
+|-unboost|p2a: Exeggutor|spa|2
+|-damage|p2a: Exeggutor|14/100|[from] item: Life Orb
+|move|p1a: Zeraora|Work Up|p1a: Zeraora
+|-boost|p1a: Zeraora|atk|1
+|-boost|p1a: Zeraora|spa|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+
+|inactive|LineGoon has 120 seconds left.
+
+|inactive|LineGoon has 90 seconds left.
+
+|
+|move|p1a: Zeraora|Hidden Power|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-damage|p1a: Zeraora|10/100|[from] item: Life Orb
+|faint|p2a: Exeggutor
+|
+|upkeep
+
+|
+|switch|p2a: Genesect|Genesect, L78|100/100
+|-damage|p2a: Genesect|88/100|[from] Stealth Rock
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|17
+
+|
+|move|p2a: Genesect|Extreme Speed|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|-damage|p2a: Genesect|79/100|[from] item: Life Orb
+|faint|p1a: Zeraora
+|
+|upkeep
+
+|-message|Cheshire Duck forfeited.
+
+|
+|win|LineGoon

@@ -1,0 +1,320 @@
+|init|battle
+|title|nhjvcetx vs. SOPHIE_STAN
+|j|☆nhjvcetx
+|j|☆SOPHIE_STAN
+|player|p1|nhjvcetx|265|1000
+|player|p2|SOPHIE_STAN|204|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Primeape|Primeape, L88, M|100/100
+|switch|p2a: Zangoose|Zangoose, L89, F|100/100
+|turn|1
+|
+|switch|p2a: Giratina|Giratina-Origin, L78|100/100
+|move|p1a: Primeape|Close Combat|p2a: Giratina
+|-immune|p2a: Giratina
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Alakazam|Alakazam, L80, F|100/100
+|move|p2a: Giratina|Dragon Tail|p1a: Alakazam
+|-damage|p1a: Alakazam|40/100
+|drag|p1a: Galvantula|Galvantula, L84, F|100/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Giratina
+|-sidestart|p2: SOPHIE_STAN|move: Sticky Web
+|move|p2a: Giratina|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|62/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Giratina|Shadow Sneak|p1a: Galvantula
+|-damage|p1a: Galvantula|33/100
+|move|p1a: Galvantula|Bug Buzz|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|74/100
+|-damage|p1a: Galvantula|24/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|61/100
+|-damage|p1a: Galvantula|14/100|[from] item: Life Orb
+
+|
+|switch|p1a: Primeape|Primeape, L88, M|100/100|[from]move: Volt Switch
+|move|p2a: Giratina|Earthquake|p1a: Primeape
+|-damage|p1a: Primeape|62/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Primeape|Ice Punch|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|26/100
+|move|p2a: Giratina|Will-O-Wisp|p1a: Primeape
+|-status|p1a: Primeape|brn
+|
+|-damage|p1a: Primeape|56/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Staraptor|Staraptor, L81, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Primeape|atk|1
+|move|p1a: Primeape|Ice Punch|p2a: Staraptor
+|-supereffective|p2a: Staraptor
+|-damage|p2a: Staraptor|82/100
+|-status|p2a: Staraptor|frz
+|
+|-damage|p1a: Primeape|49/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Lunala|Lunala, L78|100/100
+|cant|p2a: Staraptor|frz
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Zangoose|Zangoose, L89, F|100/100
+|-activate|p2a: Zangoose|move: Sticky Web
+|-unboost|p2a: Zangoose|spe|1
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+
+|
+|move|p1a: Lunala|Psyshock|p2a: Zangoose
+|-damage|p2a: Zangoose|40/100 tox
+|move|p2a: Zangoose|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-enditem|p1a: Lunala|Leftovers|[from] move: Knock Off|[of] p2a: Zangoose
+|faint|p1a: Lunala
+|
+|-damage|p2a: Zangoose|34/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Armaldo|Armaldo, L89, M|100/100
+|turn|11
+
+|
+|move|p2a: Zangoose|Facade|p1a: Armaldo
+|-resisted|p1a: Armaldo
+|-damage|p1a: Armaldo|59/100
+|move|p1a: Armaldo|Earthquake|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|faint|p2a: Zangoose
+|
+|upkeep
+
+|
+|switch|p2a: Giratina|Giratina-Origin, L78|26/100
+|turn|12
+
+|
+|move|p2a: Giratina|Earthquake|p1a: Armaldo
+|-damage|p1a: Armaldo|34/100
+|move|p1a: Armaldo|X-Scissor|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|10/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Giratina|Shadow Sneak|p1a: Armaldo
+|-damage|p1a: Armaldo|17/100
+|move|p1a: Armaldo|Stone Edge|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|
+|upkeep
+
+|
+|switch|p2a: Garchomp|Garchomp, L80, M|100/100
+|-activate|p2a: Garchomp|move: Sticky Web
+|-unboost|p2a: Garchomp|spe|1
+|turn|14
+
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, L80, M
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p1a: Armaldo|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|75/100
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Armaldo|X-Scissor|p2a: Garchomp
+|-damage|p2a: Garchomp|46/100
+|move|p2a: Garchomp|Earthquake|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|upkeep
+
+|
+|switch|p1a: Primeape|Primeape, L88, M|49/100 brn
+|turn|16
+
+|
+|move|p1a: Primeape|Ice Punch|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|11/100
+|move|p2a: Garchomp|Earthquake|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, L84, F|14/100
+|turn|17
+
+|
+|move|p1a: Galvantula|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Galvantula|4/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+
+|
+|switch|p2a: Articuno|Articuno, L88|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|18
+
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|56/100
+|-damage|p1a: Galvantula|0 fnt|[from] item: Life Orb
+|faint|p1a: Galvantula
+|move|p2a: Articuno|Hurricane|p1: Galvantula|[notarget]
+|-fail|p2a: Articuno
+|
+|-heal|p2a: Articuno|62/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Cinccino|Cinccino, L87, F|100/100
+|turn|19
+
+|
+|move|p1a: Cinccino|Rock Blast|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|27/100
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-hitcount|p2a: Articuno|2
+|faint|p2a: Articuno
+|
+|upkeep
+
+|
+|switch|p2a: Terrakion|Terrakion, L82|100/100
+|-activate|p2a: Terrakion|move: Sticky Web
+|-unboost|p2a: Terrakion|spe|1
+|turn|20
+
+|
+|move|p1a: Cinccino|Rock Blast|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|96/100
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|91/100
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|86/100
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|82/100
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|76/100
+|-hitcount|p2a: Terrakion|5
+|move|p2a: Terrakion|Swords Dance|p2a: Terrakion
+|-boost|p2a: Terrakion|atk|2
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Alakazam|Alakazam, L80, F|40/100
+|move|p2a: Terrakion|Swords Dance|p2a: Terrakion
+|-boost|p2a: Terrakion|atk|2
+|
+|upkeep
+|turn|22
+
+|
+|detailschange|p1a: Alakazam|Alakazam-Mega, L80, F
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|-ability|p1a: Alakazam|Justified|[from] ability: Trace|[of] p2a: Terrakion
+|move|p1a: Alakazam|Focus Blast|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|upkeep
+
+|
+|switch|p2a: Staraptor|Staraptor, L81, M|82/100 frz
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|23
+
+|
+|move|p1a: Alakazam|Psyshock|p2a: Staraptor
+|-damage|p2a: Staraptor|23/100 frz
+|-curestatus|p2a: Staraptor|frz|[msg]
+|move|p2a: Staraptor|U-turn|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p2a: Staraptor|13/100|[from] item: Life Orb
+|faint|p1a: Alakazam
+|
+|upkeep
+
+|
+|switch|p1a: Cinccino|Cinccino, L87, F|100/100
+|turn|24
+
+|
+|move|p1a: Cinccino|Knock Off|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|-enditem|p2a: Staraptor|Life Orb|[from] move: Knock Off|[of] p1a: Cinccino
+|faint|p2a: Staraptor
+|
+|win|nhjvcetx

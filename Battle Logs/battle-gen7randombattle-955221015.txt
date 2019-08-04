@@ -1,0 +1,223 @@
+|init|battle
+|title|DaniPani vs. Joao3M
+|j|☆DaniPani
+|j|☆Joao3M
+|player|p1|DaniPani|169|1629
+|player|p2|Joao3M|252|1611
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|switch|p2a: Mew|Mew, L80|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DaniPani)
+|
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Cobalion|Iron Head|p2a: Mew
+|-damage|p2a: Mew|48/100
+|move|p2a: Mew|Aura Sphere|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|13/100
+|
+|-heal|p1a: Cobalion|19/100|[from] item: Leftovers
+|-heal|p2a: Mew|54/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Mew
+|-damage|p2a: Mew|6/100
+|cant|p2a: Mew|flinch
+|
+|-heal|p1a: Cobalion|25/100|[from] item: Leftovers
+|-heal|p2a: Mew|12/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Cobalion|Iron Head|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-heal|p1a: Cobalion|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Ribombee|Ribombee, L85, M|100/100
+|turn|5
+
+|
+|move|p2a: Ribombee|Moonblast|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+
+|
+|switch|p1a: Victreebel|Victreebel, L88, M|100/100
+|turn|6
+
+|
+|switch|p2a: Crobat|Crobat, L82, F|100/100
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|-damage|p2a: Crobat|66/100|[from] Recoil
+|faint|p1a: Victreebel
+|
+|-heal|p2a: Crobat|72/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Purugly|Purugly, L89, F|100/100
+|turn|8
+
+|
+|switch|p2a: Ninetales|Ninetales-Alola, L81, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Purugly|Knock Off|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|82/100
+|-enditem|p2a: Ninetales|Light Clay|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|91/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Purugly|85/100|[from] Hail
+|upkeep
+|turn|9
+
+|
+|move|p1a: Purugly|Return|p2a: Ninetales
+|-damage|p2a: Ninetales|19/100
+|-damage|p1a: Purugly|75/100|[from] item: Life Orb
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Joao3M|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Purugly|69/100|[from] Hail
+|upkeep
+|turn|10
+
+|
+|move|p1a: Purugly|Return|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p1a: Purugly|59/100|[from] item: Life Orb
+|faint|p2a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Purugly|53/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, L82, F|72/100
+|turn|11
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Purugly
+|-damage|p1a: Purugly|2/100
+|-damage|p2a: Crobat|56/100|[from] Recoil
+|move|p1a: Purugly|U-turn|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|52/100
+|-damage|p1a: Purugly|0 fnt|[from] item: Life Orb
+|faint|p1a: Purugly
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Crobat|46/100|[from] Hail
+|-heal|p2a: Crobat|52/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Espeon|Espeon, L84, F|100/100
+|turn|12
+
+|
+|move|p2a: Crobat|U-turn|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|56/100
+
+|
+|switch|p2a: Mightyena|Mightyena, L89, F|100/100|[from]move: U-turn
+|move|p1a: Espeon|Psychic|p2a: Mightyena
+|-immune|p2a: Mightyena
+|
+|-weather|none
+|-heal|p1a: Espeon|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Espeon|Substitute|p1a: Espeon
+|-start|p1a: Espeon|Substitute
+|-damage|p1a: Espeon|37/100
+|move|p2a: Mightyena|Crunch|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-end|p1a: Espeon|Substitute
+|
+|-heal|p1a: Espeon|43/100|[from] item: Leftovers
+|-sideend|p2: Joao3M|move: Aurora Veil
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, F|100/100
+|move|p2a: Mightyena|Crunch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|71/100
+|-unboost|p1a: Hawlucha|def|1
+|
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L82, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: DaniPani
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|46/100
+|
+|upkeep
+|turn|16
+
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L82, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|71/100|[from] item: Sitrus Berry
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|move|p1a: Hawlucha|High Jump Kick|p2a: Aerodactyl|[miss]
+|-miss|p1a: Hawlucha|p2a: Aerodactyl
+|-damage|p1a: Hawlucha|21/100|[from] highjumpkick
+|
+|upkeep
+|turn|17
+
+|-message|DaniPani forfeited.
+
+|
+|win|Joao3M

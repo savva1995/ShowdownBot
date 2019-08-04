@@ -1,0 +1,407 @@
+|init|battle
+|title|Talkiryn vs. Kutthroat
+|j|☆Talkiryn
+|j|☆Kutthroat
+|player|p1|Talkiryn|266|
+|player|p2|Kutthroat|126|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|2
+|tier|[Gen 2] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p2a: Pickled Egg|Blissey, F|100/100
+|turn|1
+
+|
+|move|p1a: Nidoqueen|Dynamic Punch|p2a: Pickled Egg
+|-supereffective|p2a: Pickled Egg
+|-damage|p2a: Pickled Egg|47/100
+|-start|p2a: Pickled Egg|confusion
+|-activate|p2a: Pickled Egg|confusion
+|-damage|p2a: Pickled Egg|43/100|[from] confusion
+|
+|-heal|p2a: Pickled Egg|49/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Talonflame?|Moltres|100/100
+|move|p1a: Nidoqueen|Fire Blast|p2a: Talonflame?
+|-resisted|p2a: Talonflame?
+|-damage|p2a: Talonflame?|90/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Talonflame?|Flamethrower|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|58/100
+|move|p1a: Nidoqueen|Blizzard|p2a: Talonflame?|[miss]
+|-miss|p1a: Nidoqueen
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Talonflame?|Sunny Day|p2a: Talonflame?
+|-weather|SunnyDay
+|move|p1a: Nidoqueen|Ice Punch|p2a: Talonflame?
+|-damage|p2a: Talonflame?|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Talonflame?|Fire Blast|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|-status|p1a: Tyranitar|brn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|move|p2a: Talonflame?|Fly||[still]
+|-prepare|p2a: Talonflame?|Fly|p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Talonflame?|[miss]
+|-miss|p1a: Tyranitar
+|-damage|p1a: Tyranitar|55/100 brn|[from] brn|[of] p2a: Talonflame?
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p2a: Talonflame?|Fly|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|36/100 brn
+|move|p1a: Tyranitar|Crunch|p2a: Talonflame?
+|-damage|p2a: Talonflame?|49/100
+|-damage|p1a: Tyranitar|24/100 brn|[from] brn|[of] p2a: Talonflame?
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|
+|move|p2a: Talonflame?|Sunny Day|p2a: Talonflame?
+|-weather|SunnyDay
+|move|p1a: Tyranitar|Iron Tail|p2a: Talonflame?|[miss]
+|-miss|p1a: Tyranitar
+|-damage|p1a: Tyranitar|11/100 brn|[from] brn|[of] p2a: Talonflame?
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p2a: Talonflame?|Flamethrower|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Pickled Egg|Blissey, F|49/100
+|move|p1a: Blissey|Tri Attack|p2a: Pickled Egg
+|-damage|p2a: Pickled Egg|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pickled Egg|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Blissey|Shadow Ball|p2a: Pickled Egg
+|-immune|p2a: Pickled Egg
+|move|p2a: Pickled Egg|Soft-Boiled|p2a: Pickled Egg
+|-heal|p2a: Pickled Egg|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pickled Egg|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Pickled Egg|Sunny Day|p2a: Pickled Egg
+|-weather|SunnyDay
+|move|p1a: Blissey|Skull Bash||[still]
+|-prepare|p1a: Blissey|Skull Bash|p2a: Pickled Egg
+|-boost|p1a: Blissey|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pickled Egg|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Talonflame?|Moltres|49/100
+|move|p1a: Blissey|Skull Bash|p2a: Talonflame?
+|-damage|p2a: Talonflame?|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+
+|
+|move|p2a: Talonflame?|Fire Blast|p1a: Blissey|[miss]
+|-miss|p2a: Talonflame?
+|move|p1a: Blissey|Psychic|p2a: Talonflame?
+|-damage|p2a: Talonflame?|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Articuno|Articuno|100/100
+|move|p2a: Talonflame?|Flamethrower|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+
+|
+|move|p2a: Talonflame?|Flamethrower|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+
+|
+|switch|p1a: Entei|Entei|100/100
+|
+|-weather|none
+|upkeep
+|turn|17
+
+|
+|move|p1a: Entei|Toxic|p2a: Talonflame?
+|-status|p2a: Talonflame?|tox
+|move|p2a: Talonflame?|Fire Blast|p1a: Entei
+|-crit|p1a: Entei
+|-resisted|p1a: Entei
+|-damage|p1a: Entei|48/100
+|-damage|p2a: Talonflame?|12/100 tox|[from] psn
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Entei|Endure|p1a: Entei
+|-singleturn|p1a: Entei|move: Endure
+|move|p2a: Talonflame?|Fly||[still]
+|-prepare|p2a: Talonflame?|Fly|p1a: Entei
+|-damage|p2a: Talonflame?|0 fnt|[from] psn
+|faint|p2a: Talonflame?
+
+|
+|switch|p2a: I'm a Star!|Omastar, M|100/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Entei|Solar Beam||[still]
+|-prepare|p1a: Entei|Solar Beam|p2a: I'm a Star!
+|move|p2a: I'm a Star!|Hydro Pump|p1a: Entei
+|-supereffective|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+
+|
+|switch|p1a: Nidoqueen|Nidoqueen, F|58/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Nidoqueen|Dynamic Punch|p2a: I'm a Star!|[miss]
+|-miss|p1a: Nidoqueen
+|move|p2a: I'm a Star!|Substitute|p2a: I'm a Star!
+|-start|p2a: I'm a Star!|Substitute
+|-damage|p2a: I'm a Star!|76/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Nidoqueen|Fire Blast|p2a: I'm a Star!
+|-resisted|p2a: I'm a Star!
+|-activate|p2a: I'm a Star!|Substitute|[damage]
+|move|p2a: I'm a Star!|Withdraw|p2a: I'm a Star!
+|-boost|p2a: I'm a Star!|def|1
+|
+|upkeep
+|turn|22
+
+|
+|move|p1a: Nidoqueen|Dynamic Punch|p2a: I'm a Star!|[miss]
+|-miss|p1a: Nidoqueen
+|move|p2a: I'm a Star!|Hydro Pump|p1a: Nidoqueen|[miss]
+|-miss|p2a: I'm a Star!
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: I'm a Star!|[miss]
+|-miss|p1a: Nidoqueen
+|move|p2a: I'm a Star!|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|11/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Nidoqueen|Dynamic Punch|p2a: I'm a Star!
+|-supereffective|p2a: I'm a Star!
+|-end|p2a: I'm a Star!|Substitute
+|move|p2a: I'm a Star!|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Houndoom|Sludge Bomb|p2a: I'm a Star!
+|-resisted|p2a: I'm a Star!
+|-damage|p2a: I'm a Star!|70/100
+|-status|p2a: I'm a Star!|psn
+|move|p2a: I'm a Star!|Hydro Pump|p1a: Houndoom|[miss]
+|-miss|p2a: I'm a Star!
+|-damage|p2a: I'm a Star!|58/100 psn|[from] psn|[of] p1a: Houndoom
+|
+|upkeep
+|turn|26
+
+|
+|move|p1a: Houndoom|Iron Tail|p2a: I'm a Star!
+|-damage|p2a: I'm a Star!|45/100 psn
+|-unboost|p2a: I'm a Star!|def|1
+|move|p2a: I'm a Star!|Substitute|p2a: I'm a Star!
+|-start|p2a: I'm a Star!|Substitute
+|-damage|p2a: I'm a Star!|20/100 psn
+|-damage|p2a: I'm a Star!|8/100 psn|[from] psn
+|
+|upkeep
+|turn|27
+
+|
+|move|p1a: Houndoom|Crunch|p2a: I'm a Star!
+|-end|p2a: I'm a Star!|Substitute
+|move|p2a: I'm a Star!|Hydro Pump|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|28
+
+|
+|move|p1a: Blissey|Shadow Ball|p2a: I'm a Star!
+|-damage|p2a: I'm a Star!|2/100 psn
+|-unboost|p2a: I'm a Star!|spd|1
+|move|p2a: I'm a Star!|Hydro Pump|p1a: Blissey
+|-damage|p1a: Blissey|82/100
+|-damage|p2a: I'm a Star!|0 fnt|[from] psn|[of] p1a: Blissey
+|faint|p2a: I'm a Star!
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Talkiryn)
+
+|
+|switch|p2a: Kairou|Raikou|100/100
+|
+|upkeep
+|turn|29
+
+|
+|move|p2a: Kairou|Zap Cannon|p1a: Blissey|[miss]
+|-miss|p2a: Kairou
+|move|p1a: Blissey|Psychic|p2a: Kairou
+|-damage|p2a: Kairou|84/100
+|
+|upkeep
+|turn|30
+
+|
+|move|p2a: Kairou|Zap Cannon|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Tri Attack|p2a: Kairou
+|-damage|p2a: Kairou|71/100
+|
+|upkeep
+|turn|31
+
+|
+|move|p2a: Kairou|Hidden Power|p1a: Blissey
+|-damage|p1a: Blissey|59/100 par
+|cant|p1a: Blissey|par
+|
+|upkeep
+|turn|32
+
+|
+|move|p2a: Kairou|Crunch|p1a: Blissey
+|-damage|p1a: Blissey|51/100 par
+|cant|p1a: Blissey|par
+|
+|upkeep
+|turn|33
+
+|
+|move|p2a: Kairou|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|36/100 par
+|move|p1a: Blissey|Psychic|p2a: Kairou
+|-damage|p2a: Kairou|56/100
+|
+|upkeep
+|turn|34
+
+|
+|move|p2a: Kairou|Thunderbolt|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|8/100 par
+|move|p1a: Blissey|Tri Attack|p2a: Kairou
+|-damage|p2a: Kairou|43/100
+|
+|upkeep
+|turn|35
+
+|
+|move|p2a: Kairou|Thunderbolt|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|win|Kutthroat

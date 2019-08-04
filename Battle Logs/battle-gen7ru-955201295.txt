@@ -1,0 +1,290 @@
+|init|battle
+|title|Leeroi vs. ShadyxBanana
+|j|☆Leeroi
+|j|☆ShadyxBanana
+|player|p1|Leeroi|260|1200
+|player|p2|ShadyxBanana|1|1307
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Milotic, M|item
+|poke|p1|Arcanine, M|item
+|poke|p1|Ribombee, F|item
+|poke|p1|Donphan, M|item
+|poke|p1|Araquanid, M|item
+|poke|p2|Bewear, M|item
+|poke|p2|Registeel|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Flygon, F|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Roserade, F|item
+|teampreview
+|
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Registeel|Registeel|100/100
+|turn|1
+|
+|move|p1a: Metagross|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|26/100
+|move|p2a: Registeel|Stealth Rock|p1a: Metagross
+|-sidestart|p1: Leeroi|move: Stealth Rock
+|
+|-heal|p2a: Registeel|32/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|-damage|p1a: Donphan|94/100|[from] Stealth Rock
+|move|p2a: Registeel|Protect||[still]
+|-fail|p2a: Registeel
+|
+|-heal|p2a: Registeel|38/100|[from] item: Leftovers
+|-heal|p1a: Donphan|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Registeel|Toxic|p1a: Donphan|[miss]
+|-miss|p2a: Registeel|p1a: Donphan
+|move|p1a: Donphan|Rapid Spin|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|36/100
+|-sideend|p1: Leeroi|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-heal|p2a: Registeel|42/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|move|p1a: Donphan|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|65/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|detailschange|p2a: Blastoise|Blastoise-Mega, F
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Blastoise|Dark Pulse|p1a: Milotic
+|-damage|p1a: Milotic|76/100
+|
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Registeel|Registeel|42/100
+|move|p1a: Milotic|Toxic|p2a: Registeel
+|-immune|p2a: Registeel
+|
+|-heal|p2a: Registeel|48/100|[from] item: Leftovers
+|-damage|p1a: Milotic|70/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Milotic|Scald|p2a: Registeel
+|-damage|p2a: Registeel|35/100
+|-status|p2a: Registeel|brn
+|move|p2a: Registeel|Stealth Rock|p1a: Milotic
+|-sidestart|p1: Leeroi|move: Stealth Rock
+|
+|-heal|p2a: Registeel|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Milotic|64/100 brn|[from] brn
+|-damage|p2a: Registeel|35/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Roserade|Roserade, F|100/100
+|move|p1a: Milotic|Scald|p2a: Roserade
+|-resisted|p2a: Roserade
+|-crit|p2a: Roserade
+|-damage|p2a: Roserade|74/100
+|-status|p2a: Roserade|brn
+|
+|-damage|p2a: Roserade|68/100 brn|[from] brn
+|-damage|p1a: Milotic|58/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-damage|p1a: Arcanine|75/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Roserade|atk|1
+|move|p2a: Roserade|Sludge Bomb|p1a: Arcanine
+|-damage|p1a: Arcanine|27/100
+|
+|-damage|p2a: Roserade|61/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Blastoise|Blastoise-Mega, F|65/100
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|77/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Milotic|Milotic, M|58/100 brn
+|-damage|p1a: Milotic|46/100 brn|[from] Stealth Rock
+|move|p2a: Blastoise|Dark Pulse|p1a: Milotic
+|-damage|p1a: Milotic|19/100 brn
+|
+|-damage|p1a: Milotic|13/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|63/100 brn
+|move|p2a: Blastoise|Dark Pulse|p1a: Milotic
+|-damage|p1a: Milotic|40/100 brn
+|
+|-damage|p1a: Milotic|34/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Roserade|Roserade, F|61/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|84/100 brn
+|
+|-damage|p1a: Milotic|78/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Roserade|Leaf Storm|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|3/100 brn
+|-unboost|p2a: Roserade|spa|2
+|move|p1a: Milotic|Scald|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|43/100
+|-status|p2a: Roserade|brn
+|
+|-damage|p2a: Roserade|37/100 brn|[from] brn
+|-damage|p1a: Milotic|0 fnt|[from] brn
+|faint|p1a: Milotic
+|upkeep
+
+|
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|94/100|[from] Stealth Rock
+|turn|15
+
+|
+|-curestatus|p2a: Roserade|brn|[from] ability: Natural Cure
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|77/100
+|-boost|p1a: Metagross|atk|1
+|
+|-heal|p2a: Slowbro|83/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|-damage|p1a: Araquanid|76/100|[from] Stealth Rock
+|move|p2a: Slowbro|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|69/100
+|
+|-heal|p2a: Slowbro|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Araquanid|Leech Life|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|55/100
+|-heal|p1a: Araquanid|89/100|[from] drain|[of] p2a: Slowbro
+|move|p2a: Slowbro|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|
+|-heal|p2a: Slowbro|61/100|[from] item: Leftovers
+|-damage|p1a: Araquanid|83/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Bewear|Bewear, M|100/100
+|move|p1a: Araquanid|Leech Life|p2a: Bewear
+|-resisted|p2a: Bewear
+|-damage|p2a: Bewear|94/100
+|-heal|p1a: Araquanid|87/100 tox|[from] drain|[of] p2a: Bewear
+|
+|-damage|p1a: Araquanid|75/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Arcanine|Arcanine, M|77/100
+|-damage|p1a: Arcanine|52/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Bewear|atk|1
+|move|p2a: Bewear|Return|p1a: Arcanine
+|-damage|p1a: Arcanine|13/100
+|-damage|p2a: Bewear|77/100|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|63/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Slowbro|Slowbro, M|95/100
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Slowbro
+|-status|p2a: Slowbro|brn
+|
+|-heal|p2a: Slowbro|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|94/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100
+|move|p2a: Slowbro|Scald|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|44/100
+|
+|-heal|p2a: Slowbro|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|94/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ShadyxBanana)
+
+|inactive|Leeroi has 120 seconds left.
+
+|-message|Leeroi forfeited.
+
+|
+|win|ShadyxBanana

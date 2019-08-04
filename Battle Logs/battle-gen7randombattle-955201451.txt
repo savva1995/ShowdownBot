@@ -1,0 +1,71 @@
+|init|battle
+|title|dicklatex vs. Roego22
+|j|☆dicklatex
+|j|☆Roego22
+|player|p1|dicklatex|102|1499
+|player|p2|Roego22|102|1483
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weezing|Weezing, L86, F|100/100
+|switch|p2a: Venomoth|Venomoth, L83, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dicklatex)
+|inactive|dicklatex has 120 seconds left.
+|
+|switch|p1a: Landorus|Landorus, L78, M|100/100
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Landorus
+|-status|p1a: Landorus|slp|[from] move: Sleep Powder
+|cant|p1a: Landorus|slp
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|-curestatus|p1a: Landorus|slp|[msg]
+|move|p1a: Landorus|Earth Power|p2a: Venomoth
+|-damage|p2a: Venomoth|65/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Landorus|[miss]
+|-miss|p2a: Venomoth|p1a: Landorus
+|move|p1a: Landorus|Earth Power|p2a: Venomoth
+|-damage|p2a: Venomoth|26/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Landorus|[miss]
+|-miss|p2a: Venomoth|p1a: Landorus
+|move|p1a: Landorus|Earth Power|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|
+|upkeep
+
+|-message|Roego22 forfeited.
+
+|
+|win|dicklatex

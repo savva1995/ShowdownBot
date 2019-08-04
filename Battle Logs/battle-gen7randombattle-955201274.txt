@@ -1,0 +1,330 @@
+|init|battle
+|title|Sssiii vs. lollinoki
+|j|☆Sssiii
+|j|☆lollinoki
+|player|p1|Sssiii|2|1464
+|player|p2|lollinoki|101|1464
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exploud|Exploud, L85, M|100/100
+|switch|p2a: Minior|Minior, L86|100/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lollinoki)
+|
+|move|p1a: Exploud|Surf|p2a: Minior
+|-supereffective|p2a: Minior
+|-crit|p2a: Minior
+|-damage|p2a: Minior|0 fnt
+|faint|p2a: Minior
+|
+|upkeep
+|
+|switch|p2a: Drampa|Drampa, L88, M|100/100
+|turn|2
+
+|
+|switch|p1a: Roserade|Roserade, L84, M|100/100
+|move|p2a: Drampa|Glare|p1a: Roserade
+|-status|p1a: Roserade|par
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Drampa|Fire Blast|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-damage|p2a: Drampa|91/100|[from] item: Life Orb
+|faint|p1a: Roserade
+|
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence, L78, F|100/100
+|turn|4
+
+|
+|switch|p2a: Primarina|Primarina, L82, M|100/100
+|detailschange|p1a: Salamence|Salamence-Mega, L78, F
+|-mega|p1a: Salamence|Salamence|Salamencite
+|move|p1a: Salamence|Return|p2a: Primarina
+|-damage|p2a: Primarina|31/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|100/100
+|move|p2a: Primarina|Moonblast|p1a: Solgaleo
+|-resisted|p1a: Solgaleo
+|-damage|p1a: Solgaleo|75/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Forretress|Forretress, L84, M|100/100
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|78/100
+|
+|-heal|p2a: Forretress|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Exploud|Exploud, L85, M|100/100
+|move|p2a: Forretress|Stealth Rock|p1a: Exploud
+|-sidestart|p1: Sssiii|move: Stealth Rock
+|
+|-heal|p2a: Forretress|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Primarina|Primarina, L82, M|31/100
+|move|p1a: Exploud|Fire Blast|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|14/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|75/100
+|-damage|p1a: Solgaleo|69/100|[from] Stealth Rock
+|move|p2a: Primarina|Hydro Pump|p1a: Solgaleo|[miss]
+|-miss|p2a: Primarina|p1a: Solgaleo
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Solgaleo|Earthquake|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+
+|
+|switch|p2a: Heracross|Heracross, L81, F|100/100
+|turn|11
+
+|inactive|lollinoki has 120 seconds left.
+
+|
+|detailschange|p2a: Heracross|Heracross-Mega, L81, F
+|-mega|p2a: Heracross|Heracross|Heracronite
+|move|p1a: Solgaleo|Earthquake|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|82/100
+|move|p2a: Heracross|Close Combat|p1a: Solgaleo
+|-damage|p1a: Solgaleo|10/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|
+|upkeep
+|turn|12
+
+|inactive|lollinoki has 120 seconds left.
+
+|
+|switch|p2a: Forretress|Forretress, L84, M|90/100
+|move|p1a: Solgaleo|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|60/100
+|
+|-heal|p2a: Forretress|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Exploud|Exploud, L85, M|100/100
+|-damage|p1a: Exploud|88/100|[from] Stealth Rock
+|move|p2a: Forretress|Gyro Ball|p1a: Exploud
+|-damage|p1a: Exploud|67/100
+|
+|-heal|p2a: Forretress|72/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Drampa|Drampa, L88, M|91/100
+|move|p1a: Exploud|Fire Blast|p2a: Drampa
+|-resisted|p2a: Drampa
+|-damage|p2a: Drampa|72/100
+|
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Solgaleo|Solgaleo, L78|10/100
+|-damage|p1a: Solgaleo|4/100|[from] Stealth Rock
+|move|p2a: Drampa|Glare|p1a: Solgaleo
+|-status|p1a: Solgaleo|par
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Drampa|Dragon Pulse|p1a: Solgaleo
+|-resisted|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|-damage|p2a: Drampa|62/100|[from] item: Life Orb
+|faint|p1a: Solgaleo
+|
+|upkeep
+
+|
+|switch|p1a: Mightyena|Mightyena, L89, M|100/100
+|-damage|p1a: Mightyena|88/100|[from] Stealth Rock
+|-ability|p1a: Mightyena|Intimidate|boost
+|-unboost|p2a: Drampa|atk|1
+|turn|17
+
+|
+|move|p1a: Mightyena|Play Rough|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|1/100
+|move|p2a: Drampa|Glare|p1a: Mightyena
+|-status|p1a: Mightyena|par
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Mightyena|Sucker Punch|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|faint|p2a: Drampa
+|
+|upkeep
+
+|
+|switch|p2a: Heracross|Heracross-Mega, L81, F|82/100
+|turn|19
+
+|
+|move|p2a: Heracross|Substitute|p2a: Heracross
+|-start|p2a: Heracross|Substitute
+|-damage|p2a: Heracross|57/100
+|move|p1a: Mightyena|Fire Fang|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-end|p2a: Heracross|Substitute
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Heracross|Pin Missile|p1a: Mightyena
+|-supereffective|p1a: Mightyena
+|-damage|p1a: Mightyena|50/100 par
+|-supereffective|p1a: Mightyena
+|-damage|p1a: Mightyena|12/100 par
+|-supereffective|p1a: Mightyena
+|-crit|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|-hitcount|p1a: Mightyena|3
+|faint|p1a: Mightyena
+|
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence-Mega, L78, F|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|21
+
+|
+|switch|p2a: Forretress|Forretress, L84, M|72/100
+|move|p1a: Salamence|Return|p2a: Forretress
+|-damage|p2a: Forretress|32/100
+|
+|-heal|p2a: Forretress|38/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Salamence|Return|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+
+|
+|switch|p2a: Silvally|Silvally-Dragon, L89|100/100
+|turn|23
+
+|
+|switch|p1a: Exploud|Exploud, L85, M|67/100
+|-damage|p1a: Exploud|55/100|[from] Stealth Rock
+|move|p2a: Silvally|Draco Meteor|p1a: Exploud
+|-damage|p1a: Exploud|2/100
+|-unboost|p2a: Silvally|spa|2
+|
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Heracross|Heracross-Mega, L81, F|57/100
+|move|p1a: Exploud|Fire Blast|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|upkeep
+
+|
+|switch|p2a: Silvally|Silvally-Dragon, L89|100/100
+|turn|25
+
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Exploud
+|-crit|p1a: Exploud
+|-damage|p1a: Exploud|0 fnt
+|faint|p1a: Exploud
+|
+|upkeep
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, F|100/100
+|-damage|p1a: Vivillon|51/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p2a: Silvally|Iron Head|p1a: Vivillon
+|-damage|p1a: Vivillon|19/100
+|cant|p1a: Vivillon|flinch
+|
+|-heal|p1a: Vivillon|25/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Silvally|Iron Head|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|upkeep
+
+|
+|switch|p1a: Salamence|Salamence-Mega, L78, F|76/100
+|-damage|p1a: Salamence|51/100|[from] Stealth Rock
+|turn|28
+
+|
+|move|p1a: Salamence|Return|p2a: Silvally
+|-damage|p2a: Silvally|60/100
+|move|p2a: Silvally|Draco Meteor|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-unboost|p2a: Silvally|spa|2
+|faint|p1a: Salamence
+|
+|win|lollinoki

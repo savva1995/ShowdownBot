@@ -1,0 +1,115 @@
+|init|battle
+|title|MAHMUDUL vs. Noobmaster069
+|j|☆MAHMUDUL
+|j|☆Noobmaster069
+|player|p1|MAHMUDUL|169|1106
+|player|p2|Noobmaster069|1|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tauros|Tauros, L87, M|100/100
+|switch|p2a: Wobbuffet|Wobbuffet, L82, F|100/100
+|turn|1
+|
+|move|p1a: Tauros|Earthquake|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|71/100
+|-damage|p1a: Tauros|91/100|[from] item: Life Orb
+|move|p2a: Wobbuffet|Encore|p1a: Tauros
+|-start|p1a: Tauros|Encore
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Tauros|Earthquake|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|38/100
+|-damage|p1a: Tauros|81/100|[from] item: Life Orb
+|move|p2a: Wobbuffet|Counter|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+|
+|switch|p1a: Dragalge|Dragalge, L84, F|100/100
+|turn|3
+|
+|move|p1a: Dragalge|Focus Blast|p2a: Wobbuffet|[miss]
+|-miss|p1a: Dragalge|p2a: Wobbuffet
+|move|p2a: Wobbuffet|Encore|p1a: Dragalge
+|-start|p1a: Dragalge|Encore
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Dragalge|Focus Blast|p2a: Wobbuffet|[miss]
+|-miss|p1a: Dragalge|p2a: Wobbuffet
+|move|p2a: Wobbuffet|Mirror Coat||[still]
+|-fail|p2a: Wobbuffet
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Jellicent|Jellicent, L88, M|100/100
+|move|p1a: Dragalge|Focus Blast|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|upkeep
+|turn|6
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Noobmaster069)
+
+|
+|switch|p1a: Klefki|Klefki, L82, F|100/100
+|move|p2a: Jellicent|Toxic|p1a: Klefki
+|-immune|p1a: Klefki
+|
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Xatu|Xatu, L86, M|100/100
+|move|p1a: Klefki|Magnet Rise|p1a: Klefki
+|-start|p1a: Klefki|Magnet Rise
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Xatu|Heat Wave|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|33/100
+|move|p1a: Klefki|Foul Play|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-crit|p2a: Xatu
+|-damage|p2a: Xatu|40/100
+|
+|-heal|p2a: Xatu|46/100|[from] item: Leftovers
+|-heal|p1a: Klefki|39/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Xatu|Heat Wave|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-heal|p2a: Xatu|52/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Armaldo|Armaldo, L89, F|100/100
+|turn|10
+
+|-message|MAHMUDUL forfeited.
+
+|
+|win|Noobmaster069

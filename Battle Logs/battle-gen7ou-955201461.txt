@@ -1,0 +1,291 @@
+|init|battle
+|title|JordyPrinceCorgi vs. RacismCEO
+|j|☆JordyPrinceCorgi
+|j|☆RacismCEO
+|player|p1|JordyPrinceCorgi|261|
+|player|p2|RacismCEO|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Flygon, M|item
+|poke|p1|Aggron, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Milotic, F|item
+|poke|p1|Banette, F|item
+|poke|p1|Roserade, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Absol, M|item
+|poke|p2|Swampert, F|item
+|poke|p2|Aron, L1, M|item
+|poke|p2|Linoone, F|item
+|teampreview
+|
+|start
+|switch|p1a: Ryuji|Flygon, M|100/100
+|switch|p2a: Stay Groovin|Skarmory, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Ryuji|Thunder Punch|p2a: Stay Groovin
+|-supereffective|p2a: Stay Groovin
+|-damage|p2a: Stay Groovin|65/100
+|-damage|p1a: Ryuji|91/100|[from] item: Life Orb
+|move|p2a: Stay Groovin|Tailwind|p2a: Stay Groovin
+|-sidestart|p2: RacismCEO|move: Tailwind
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Stay Groovin|Stealth Rock|p1a: Ryuji
+|-sidestart|p1: JordyPrinceCorgi|move: Stealth Rock
+|move|p1a: Ryuji|Thunder Punch|p2a: Stay Groovin
+|-supereffective|p2a: Stay Groovin
+|-damage|p2a: Stay Groovin|30/100
+|-enditem|p2a: Stay Groovin|Oran Berry|[eat]
+|-heal|p2a: Stay Groovin|33/100|[from] item: Oran Berry
+|-damage|p1a: Ryuji|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Stay Groovin|Roost|p2a: Stay Groovin
+|-heal|p2a: Stay Groovin|83/100
+|-singleturn|p2a: Stay Groovin|move: Roost
+|move|p1a: Ryuji|Fire Punch|p2a: Stay Groovin
+|-supereffective|p2a: Stay Groovin
+|-damage|p2a: Stay Groovin|48/100
+|-damage|p1a: Ryuji|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Stay Groovin|Tailwind||[still]
+|-fail|p2a: Stay Groovin
+|move|p1a: Ryuji|Thunder Punch|p2a: Stay Groovin
+|-supereffective|p2a: Stay Groovin
+|-damage|p2a: Stay Groovin|13/100
+|-status|p2a: Stay Groovin|par
+|-damage|p1a: Ryuji|61/100|[from] item: Life Orb
+|
+|-sideend|p2: RacismCEO|move: Tailwind
+|upkeep
+|turn|5
+
+|
+|move|p1a: Ryuji|Thunder Punch|p2a: Stay Groovin
+|-supereffective|p2a: Stay Groovin
+|-damage|p2a: Stay Groovin|0 fnt
+|-damage|p1a: Ryuji|51/100|[from] item: Life Orb
+|faint|p2a: Stay Groovin
+|
+|upkeep
+
+|
+|switch|p2a: Satan Time|Aron, L1, M, shiny|100/100
+|turn|6
+
+|
+|move|p1a: Ryuji|Earthquake|p2a: Satan Time
+|-supereffective|p2a: Satan Time
+|-ability|p2a: Satan Time|Sturdy
+|-damage|p2a: Satan Time|9/100
+|-damage|p1a: Ryuji|41/100|[from] item: Life Orb
+|move|p2a: Satan Time|Sandstorm|p2a: Satan Time
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p1a: Ryuji|Thunder Punch|p2a: Satan Time
+|-damage|p2a: Satan Time|0 fnt
+|-damage|p1a: Ryuji|31/100|[from] item: Life Orb
+|faint|p2a: Satan Time
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: The CEO of Racism|Linoone, F, shiny|100/100
+|turn|8
+
+|
+|move|p2a: The CEO of Racism|Belly Drum|p2a: The CEO of Racism
+|-damage|p2a: The CEO of Racism|50/100
+|-setboost|p2a: The CEO of Racism|atk|6|[from] move: Belly Drum
+|-enditem|p2a: The CEO of Racism|Oran Berry|[eat]
+|-heal|p2a: The CEO of Racism|54/100|[from] item: Oran Berry
+|move|p1a: Ryuji|Earthquake|p2a: The CEO of Racism
+|-damage|p2a: The CEO of Racism|0 fnt
+|-damage|p1a: Ryuji|21/100|[from] item: Life Orb
+|faint|p2a: The CEO of Racism
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Stay Monkey|Swampert, F, shiny|100/100
+|turn|9
+
+|
+|detailschange|p2a: Stay Monkey|Swampert-Mega, F, shiny
+|-mega|p2a: Stay Monkey|Swampert|Swampertite
+|move|p1a: Ryuji|Earthquake|p2a: Stay Monkey
+|-damage|p2a: Stay Monkey|57/100
+|-damage|p1a: Ryuji|11/100|[from] item: Life Orb
+|move|p2a: Stay Monkey|Waterfall|p1a: Ryuji
+|-damage|p1a: Ryuji|0 fnt
+|faint|p1a: Ryuji
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sakura|Roserade, F|100/100
+|-damage|p1a: Sakura|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p1a: Sakura|Petal Dance|p2a: Stay Monkey
+|-supereffective|p2a: Stay Monkey
+|-damage|p2a: Stay Monkey|0 fnt
+|faint|p2a: Stay Monkey
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Stay Flexin|Dragonite, M|100/100
+|turn|11
+
+|
+|move|p1a: Sakura|Petal Dance|p2a: Stay Flexin|[from]lockedmove
+|-resisted|p2a: Stay Flexin
+|-damage|p2a: Stay Flexin|92/100
+|move|p2a: Stay Flexin|Dragon Dance|p2a: Stay Flexin
+|-boost|p2a: Stay Flexin|atk|1
+|-boost|p2a: Stay Flexin|spe|1
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Stay Flexin|Dragon Dance|p2a: Stay Flexin
+|-boost|p2a: Stay Flexin|atk|1
+|-boost|p2a: Stay Flexin|spe|1
+|move|p1a: Sakura|Petal Dance|p2a: Stay Flexin|[from]lockedmove
+|-resisted|p2a: Stay Flexin
+|-crit|p2a: Stay Flexin
+|-damage|p2a: Stay Flexin|68/100
+|-start|p1a: Sakura|confusion|[fatigue]
+|-enditem|p1a: Sakura|Persim Berry|[eat]
+|-end|p1a: Sakura|confusion
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Stay Flexin|Extreme Speed|p1a: Sakura
+|-damage|p1a: Sakura|0 fnt
+|faint|p1a: Sakura
+|
+|upkeep
+
+|
+|switch|p1a: Naga|Milotic, F|100/100
+|-damage|p1a: Naga|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Stay Flexin|Outrage|p1a: Naga
+|-damage|p1a: Naga|0 fnt
+|faint|p1a: Naga
+|
+|upkeep
+
+|
+|switch|p1a: Moira|Banette, F|100/100
+|-damage|p1a: Moira|88/100|[from] Stealth Rock
+|-item|p2a: Stay Flexin|Lum Berry|[from] ability: Frisk|[of] p1a: Moira|[identify]
+|turn|15
+
+|
+|detailschange|p1a: Moira|Banette-Mega, F
+|-mega|p1a: Moira|Banette|Banettite
+|move|p1a: Moira|Shadow Sneak|p2a: Stay Flexin
+|-damage|p2a: Stay Flexin|38/100
+|move|p2a: Stay Flexin|Outrage|p1a: Moira|[from]lockedmove
+|-damage|p1a: Moira|0 fnt
+|-start|p2a: Stay Flexin|confusion|[fatigue]
+|faint|p1a: Moira
+|-enditem|p2a: Stay Flexin|Lum Berry|[eat]
+|-end|p2a: Stay Flexin|confusion
+|
+|upkeep
+
+|
+|switch|p1a: Friend|Camerupt, M|100/100
+|-damage|p1a: Friend|88/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Stay Flexin|Dragon Dance|p2a: Stay Flexin
+|-boost|p2a: Stay Flexin|atk|1
+|-boost|p2a: Stay Flexin|spe|1
+|move|p1a: Friend|Fire Blast|p2a: Stay Flexin
+|-resisted|p2a: Stay Flexin
+|-damage|p2a: Stay Flexin|11/100
+|-status|p2a: Stay Flexin|brn
+|
+|-damage|p2a: Stay Flexin|5/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Stay Flexin|Outrage|p1a: Friend
+|-damage|p1a: Friend|0 fnt
+|faint|p1a: Friend
+|
+|-damage|p2a: Stay Flexin|0 fnt|[from] brn
+|faint|p2a: Stay Flexin
+|upkeep
+
+|
+|switch|p2a: Stay Edgin'|Absol, M, shiny|100/100
+|switch|p1a: Lex Luther|Aggron, M|100/100
+|-damage|p1a: Lex Luther|94/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p2a: Stay Edgin'|Sucker Punch|p1a: Lex Luther
+|-damage|p1a: Lex Luther|62/100
+|-damage|p2a: Stay Edgin'|91/100|[from] item: Life Orb
+|move|p1a: Lex Luther|Iron Head|p2a: Stay Edgin'
+|-damage|p2a: Stay Edgin'|17/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p2a: Stay Edgin'|Night Slash|p1a: Lex Luther
+|-damage|p1a: Lex Luther|31/100
+|-damage|p2a: Stay Edgin'|8/100|[from] item: Life Orb
+|move|p1a: Lex Luther|Iron Head|p2a: Stay Edgin'
+|-damage|p2a: Stay Edgin'|0 fnt
+|faint|p2a: Stay Edgin'
+|
+|win|JordyPrinceCorgi

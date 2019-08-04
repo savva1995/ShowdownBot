@@ -1,0 +1,103 @@
+|init|battle
+|title|9uwqheqf9hef'9q vs. Thomas_n3xus
+|j|☆9uwqheqf9hef'9q
+|j|☆Thomas_n3xus
+|player|p1|9uwqheqf9hef'9q|266|1042
+|player|p2|Thomas_n3xus|125|1092
+|teamsize|p1|1
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Lucario, F|item
+|poke|p2|Goodra, M|item
+|poke|p2|Tapu Lele|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 9uwqheqf9hef'9q)
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|1
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Toxapex|Stockpile|p1a: Toxapex
+|-start|p1a: Toxapex|stockpile1
+|-boost|p1a: Toxapex|def|1
+|-boost|p1a: Toxapex|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Tapu Lele|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100
+|move|p1a: Toxapex|Stockpile|p1a: Toxapex
+|-start|p1a: Toxapex|stockpile2
+|-boost|p1a: Toxapex|def|1
+|-boost|p1a: Toxapex|spd|1
+|
+|-heal|p1a: Toxapex|46/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Tapu Lele|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|52/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|move|p2a: Tapu Lele|Calm Mind|p2a: Tapu Lele
+|-boost|p2a: Tapu Lele|spa|1
+|-boost|p2a: Tapu Lele|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Tapu Lele|Calm Mind|p2a: Tapu Lele
+|-boost|p2a: Tapu Lele|spa|1
+|-boost|p2a: Tapu Lele|spd|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+
+|
+|move|p2a: Tapu Lele|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|37/100
+|move|p1a: Toxapex|Scald|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|93/100
+|
+|-heal|p1a: Toxapex|43/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|-message|9uwqheqf9hef'9q forfeited.
+
+|
+|win|Thomas_n3xus

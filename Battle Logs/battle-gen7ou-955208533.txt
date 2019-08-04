@@ -1,0 +1,322 @@
+|init|battle
+|title|gauthierbv vs. TheTezzy28
+|j|☆gauthierbv
+|j|‽TheTezzy28
+|player|p1|gauthierbv|1|1506
+|player|p2|TheTezzy28|psychic-gen3|1493
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|item
+|poke|p1|Tapu Lele|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Mawile, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Serperior, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Mawile, F|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Zapdos|item
+|teampreview
+|c|☆gauthierbv|gl
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+
+|
+|move|p2a: Landorus|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|82/100
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100|[from]move: U-turn
+|move|p1a: Excadrill|Stealth Rock|p2a: Greninja
+|-sidestart|p2: TheTezzy28|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Rock Tomb|p2a: Landorus
+|-damage|p2a: Landorus|76/100
+|-unboost|p2a: Landorus|spe|1
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Landorus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+
+|
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|turn|5
+
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|move|p1a: Volcarona|Flamethrower|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|68/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Kommo-o|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: gauthierbv|move: Stealth Rock
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Volcarona|Flamethrower|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|27/100
+|-zpower|p2a: Kommo-o
+|move|p2a: Kommo-o|Clangorous Soulblaze|p1a: Volcarona|[zeffect]
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|3/100
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Volcarona|Flamethrower|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-hitcount|p1a: Volcarona|1
+|faint|p1a: Volcarona
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|upkeep
+
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p2a: Zapdos|Zapdos|82/100
+|-damage|p2a: Zapdos|57/100|[from] Stealth Rock
+|move|p1a: Serperior|Glare|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Serperior|Taunt|p2a: Zapdos
+|-start|p2a: Zapdos|move: Taunt
+|move|p2a: Zapdos|Heat Wave|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|31/100
+|
+|-heal|p2a: Zapdos|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Serperior|Glare|p2a: Zapdos
+|-immune|p2a: Zapdos
+|move|p2a: Zapdos|Heat Wave|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-heal|p2a: Zapdos|75/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|14
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-damage|p2a: Tapu Bulu|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Tapu Lele|Psychic|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|53/100
+|
+|-heal|p1a: Tapu Lele|94/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|59/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|66/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Zapdos|Zapdos|75/100
+|-damage|p2a: Zapdos|50/100|[from] Stealth Rock
+|move|p1a: Tapu Lele|Psychic|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Tapu Lele|99/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja-Ash, M|88/100
+|-damage|p2a: Greninja|76/100|[from] Stealth Rock
+|turn|16
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheTezzy28)
+
+|
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|move|p2a: Greninja|Dark Pulse|p1a: Gyarados
+|-damage|p1a: Gyarados|7/100
+|
+|-heal|p2a: Greninja|82/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+
+|
+|move|p2a: Greninja|Dark Pulse|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Greninja|88/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p1a: Tapu Lele|Tapu Lele|99/100
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|18
+
+|
+|switch|p2a: Mawile|Mawile, F|94/100
+|-damage|p2a: Mawile|88/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Tapu Lele|atk|1
+|move|p1a: Tapu Lele|Moonblast|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|36/100
+|
+|upkeep
+|turn|19
+
+|
+|detailschange|p2a: Mawile|Mawile-Mega, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Tapu Lele|Moonblast|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|5/100
+|-unboost|p2a: Mawile|spa|1
+|move|p2a: Mawile|Knock Off|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|-enditem|p1a: Tapu Lele|Choice Scarf|[from] move: Knock Off|[of] p2a: Mawile
+|faint|p1a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-damage|p1a: Mawile|95/100|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Mawile|atk|1
+|turn|20
+
+|
+|detailschange|p1a: Mawile|Mawile-Mega, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p2a: Mawile|Play Rough|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|62/100
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Mawile|Play Rough|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|32/100
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Mawile|Play Rough|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|win|TheTezzy28

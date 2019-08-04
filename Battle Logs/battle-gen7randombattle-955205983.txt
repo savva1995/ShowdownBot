@@ -1,0 +1,59 @@
+|init|battle
+|title|t7fgy8hu vs. Suyoshima
+|j|☆t7fgy8hu
+|j|☆Suyoshima
+|player|p1|t7fgy8hu|10|1006
+|player|p2|Suyoshima|4|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seaking|Seaking, L89, F|100/100
+|switch|p2a: Linoone|Linoone, L83, M|100/100
+|turn|1
+|j| Bulbasaur alt
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Suyoshima)
+|
+|move|p2a: Linoone|Belly Drum|p2a: Linoone
+|-damage|p2a: Linoone|50/100
+|-setboost|p2a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Linoone|Figy Berry|[eat]
+|-heal|p2a: Linoone|100/100|[from] item: Figy Berry
+|move|p1a: Seaking|Waterfall|p2a: Linoone
+|-damage|p2a: Linoone|59/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Seaking
+|-damage|p1a: Seaking|1/100
+|move|p1a: Seaking|Waterfall|p2a: Linoone
+|-damage|p2a: Linoone|18/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|upkeep
+
+|inactive|t7fgy8hu has 120 seconds left.
+
+|l| Bulbasaur alt
+
+|
+|switch|p1a: Vikavolt|Vikavolt, L86, F|100/100
+|turn|4
+
+|-message|t7fgy8hu forfeited.
+
+|
+|win|Suyoshima

@@ -1,0 +1,381 @@
+|init|battle
+|title|Chaposolrac vs. zczc1
+|j|☆Chaposolrac
+|j|☆zczc1
+|player|p1|Chaposolrac|101|1399
+|player|p2|zczc1|170|1424
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sharpedo|Sharpedo, L82, F|100/100
+|switch|p2a: Wormadam|Wormadam-Trash, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chaposolrac)
+|inactive|zczc1 also wants the timer to be on.
+|j| PUGAZH
+|
+|move|p1a: Sharpedo|Ice Fang|p2a: Wormadam
+|-resisted|p2a: Wormadam
+|-damage|p2a: Wormadam|91/100
+|move|p2a: Wormadam|Stealth Rock|p1a: Sharpedo
+|-sidestart|p1: Chaposolrac|move: Stealth Rock
+|
+|-heal|p2a: Wormadam|97/100|[from] item: Leftovers
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|2
+|
+|move|p1a: Sharpedo|Crunch|p2a: Wormadam
+|-damage|p2a: Wormadam|61/100
+|move|p2a: Wormadam|Toxic|p1a: Sharpedo
+|-status|p1a: Sharpedo|tox
+|
+|-heal|p2a: Wormadam|67/100|[from] item: Leftovers
+|-damage|p1a: Sharpedo|94/100 tox|[from] psn
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|3
+|
+|detailschange|p1a: Sharpedo|Sharpedo-Mega, L82, F
+|-mega|p1a: Sharpedo|Sharpedo|Sharpedonite
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Sharpedo|Waterfall|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-heal|p2a: Wormadam|73/100|[from] item: Leftovers
+|-damage|p1a: Sharpedo|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Sharpedo|Waterfall|p2a: Wormadam
+|-crit|p2a: Wormadam
+|-damage|p2a: Wormadam|17/100
+|move|p2a: Wormadam|Gyro Ball|p1a: Sharpedo
+|-resisted|p1a: Sharpedo
+|-damage|p1a: Sharpedo|50/100 tox
+|
+|-heal|p2a: Wormadam|23/100|[from] item: Leftovers
+|-damage|p1a: Sharpedo|32/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L88, M|100/100
+|-damage|p1a: Hitmonchan|94/100|[from] Stealth Rock
+|move|p2a: Wormadam|Protect||[still]
+|-fail|p2a: Wormadam
+|
+|-heal|p2a: Wormadam|29/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Hitmonchan|Bulk Up|p1a: Hitmonchan
+|-boost|p1a: Hitmonchan|atk|1
+|-boost|p1a: Hitmonchan|def|1
+|move|p2a: Wormadam|Toxic|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|tox
+|
+|-heal|p2a: Wormadam|35/100|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|88/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|inactive|zczc1 has 120 seconds left.
+
+|
+|move|p1a: Hitmonchan|Bulk Up|p1a: Hitmonchan
+|-boost|p1a: Hitmonchan|atk|1
+|-boost|p1a: Hitmonchan|def|1
+|move|p2a: Wormadam|Gyro Ball|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|74/100 tox
+|
+|-heal|p2a: Wormadam|41/100|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|62/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Hitmonchan|Drain Punch|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-heal|p2a: Wormadam|47/100|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|43/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Gligar|Gligar, L82, F|100/100
+|move|p1a: Hitmonchan|Drain Punch|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|66/100
+|-heal|p1a: Hitmonchan|61/100 tox|[from] drain|[of] p2a: Gligar
+|-damage|p1a: Hitmonchan|51/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Hitmonchan|27/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Hitmonchan|Ice Punch|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|8/100
+|-status|p2a: Gligar|frz
+|-damage|p1a: Hitmonchan|17/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Hitmonchan|0 fnt|[from] psn
+|faint|p1a: Hitmonchan
+|upkeep
+
+|
+|switch|p1a: Rhyperior|Rhyperior, L84, M|100/100
+|-damage|p1a: Rhyperior|94/100|[from] Stealth Rock
+|turn|11
+
+|
+|cant|p2a: Gligar|frz
+|move|p1a: Rhyperior|Rock Polish|p1a: Rhyperior
+|-boost|p1a: Rhyperior|spe|2
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Rhyperior|Ice Punch|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|13
+
+|
+|switch|p1a: Zapdos|Zapdos, L80|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|move|p2a: Kyogre|Water Spout|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile, L86, M|100/100
+|-damage|p1a: Sceptile|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|switch|p2a: Wormadam|Wormadam-Trash, L89, F|47/100
+|move|p1a: Sceptile|Giga Drain|p2a: Wormadam
+|-resisted|p2a: Wormadam
+|-damage|p2a: Wormadam|35/100
+|-heal|p1a: Sceptile|94/100|[from] drain|[of] p2a: Wormadam
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Wormadam|41/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Octillery|Octillery, L89, M|100/100
+|-damage|p1a: Octillery|88/100|[from] Stealth Rock
+|move|p2a: Wormadam|Toxic|p1a: Octillery
+|-status|p1a: Octillery|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Wormadam|47/100|[from] item: Leftovers
+|-damage|p1a: Octillery|82/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Wormadam|Protect|p2a: Wormadam
+|-singleturn|p2a: Wormadam|Protect
+|move|p1a: Octillery|Rock Blast|p2a: Wormadam
+|-activate|p2a: Wormadam|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Wormadam|53/100|[from] item: Leftovers
+|-damage|p1a: Octillery|70/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Octillery|Fire Blast|p2a: Wormadam
+|-supereffective|p2a: Wormadam
+|-damage|p2a: Wormadam|0 fnt
+|faint|p2a: Wormadam
+|
+|-weather|none
+|-damage|p1a: Octillery|52/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|18
+
+|
+|switch|p1a: Rhyperior|Rhyperior, L84, M|94/100
+|-damage|p1a: Rhyperior|88/100|[from] Stealth Rock
+|move|p2a: Xurkitree|Thunderbolt|p1a: Rhyperior
+|-immune|p1a: Rhyperior
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Samurott|Samurott, L87, M|100/100
+|move|p1a: Rhyperior|Earthquake|p2a: Samurott
+|-damage|p2a: Samurott|53/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p2a: Samurott|Ice Beam|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|41/100
+|-enditem|p1a: Rhyperior|Weakness Policy
+|-boost|p1a: Rhyperior|atk|2
+|-boost|p1a: Rhyperior|spa|2
+|move|p1a: Rhyperior|Earthquake|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|21
+
+|
+|move|p2a: Kyogre|Ice Beam|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile, L86, M|94/100
+|-damage|p1a: Sceptile|82/100|[from] Stealth Rock
+|turn|22
+
+|
+|switch|p2a: Rotom|Rotom-Frost, L88|100/100
+|move|p1a: Sceptile|Leaf Storm|p2a: Rotom
+|-damage|p2a: Rotom|25/100
+|-unboost|p1a: Sceptile|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+
+|
+|move|p1a: Sceptile|Leaf Storm|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Sceptile|spa|2
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Xurkitree|Xurkitree, L81|100/100
+|turn|24
+
+|
+|switch|p1a: Sharpedo|Sharpedo-Mega, L82, F|32/100 tox
+|-damage|p1a: Sharpedo|19/100 tox|[from] Stealth Rock
+|move|p2a: Xurkitree|Thunderbolt|p1a: Sharpedo
+|-supereffective|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile, L86, M|82/100
+|-damage|p1a: Sceptile|69/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p1a: Sceptile|Leaf Storm|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|-unboost|p1a: Sceptile|spa|2
+|faint|p2a: Xurkitree
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|26
+
+|
+|switch|p1a: Octillery|Octillery, L89, M|52/100 tox
+|-damage|p1a: Octillery|39/100 tox|[from] Stealth Rock
+|move|p2a: Kyogre|Ice Beam|p1a: Octillery
+|-resisted|p1a: Octillery
+|-damage|p1a: Octillery|24/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Octillery|17/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Kyogre|Ice Beam|p1a: Octillery
+|-resisted|p1a: Octillery
+|-damage|p1a: Octillery|1/100 tox
+|move|p1a: Octillery|Energy Ball|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|52/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Octillery|0 fnt|[from] psn
+|faint|p1a: Octillery
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile, L86, M|69/100
+|-damage|p1a: Sceptile|57/100|[from] Stealth Rock
+|turn|28
+
+|
+|move|p2a: Kyogre|Ice Beam|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|1/100
+|move|p1a: Sceptile|Leaf Storm|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-unboost|p1a: Sceptile|spa|2
+|faint|p2a: Kyogre
+|
+|win|Chaposolrac

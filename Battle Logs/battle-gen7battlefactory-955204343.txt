@@ -1,0 +1,160 @@
+|init|battle
+|title|Traunmagil vs. Locstock
+|j|☆Traunmagil
+|j|☆Locstock
+|player|p1|Traunmagil|70|1172
+|player|p2|Locstock|153|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mewtwo|item
+|poke|p1|Arceus-*|item
+|poke|p1|Lugia|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Ho-Oh|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Celesteela|item
+|poke|p2|Landorus, M|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Latias, F|item
+|poke|p2|Kyogre|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|switch|p2a: Celesteela|Celesteela|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Celesteela
+|-start|p2a: Celesteela|move: Leech Seed
+|
+|-damage|p2a: Celesteela|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|2
+|
+|move|p2a: Celesteela|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|22/100
+|move|p1a: Ferrothorn|Spikes|p2a: Celesteela
+|-sidestart|p2: Locstock|Spikes
+|
+|-heal|p2a: Celesteela|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|28/100|[from] item: Leftovers
+|-damage|p2a: Celesteela|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|42/100|[silent]
+|upkeep
+|turn|3
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Celesteela|Leech Seed|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Celesteela|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|49/100|[from] item: Leftovers
+|-damage|p2a: Celesteela|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|62/100|[silent]
+|upkeep
+|turn|4
+
+|
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|move|p2a: Celesteela|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|9/100
+|
+|-heal|p2a: Celesteela|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|-damage|p2a: Celesteela|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|29/100|[silent]
+|upkeep
+|turn|5
+
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Celesteela|Flamethrower|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Celesteela|75/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|35/100|[from] item: Leftovers
+|-damage|p2a: Celesteela|63/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|49/100|[silent]
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Celesteela|Leech Seed|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|move: Leech Seed
+|
+|-heal|p2a: Celesteela|69/100|[from] item: Leftovers
+|-damage|p1a: Ho-Oh|88/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|82/100|[silent]
+|-damage|p2a: Celesteela|70/100|[from] Leech Seed|[of] p1a: Ho-Oh
+|-heal|p1a: Ho-Oh|99/100|[silent]
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|49/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Spikes
+|
+|-heal|p1a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|50/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|75/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|68/100|[silent]
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Latias
+|-sidestart|p2: Locstock|Spikes
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|detailschange|p2a: Latias|Latias-Mega, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p2a: Latias|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|57/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Latias
+|-start|p2a: Latias|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|-damage|p2a: Latias|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|76/100|[silent]
+|upkeep
+|turn|11
+
+|-message|Locstock forfeited.
+
+|
+|win|Traunmagil

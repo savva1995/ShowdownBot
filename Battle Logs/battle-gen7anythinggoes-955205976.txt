@@ -1,0 +1,298 @@
+|init|battle
+|title|aurangzaib vs. MagicGrandpa500
+|j|☆aurangzaib
+|j|☆MagicGrandpa500
+|player|p1|aurangzaib|165|1313
+|player|p2|MagicGrandpa500|110|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Xerneas|item
+|poke|p1|Rayquaza|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Dialga|item
+|poke|p1|Necrozma-Dawn-Wings|item
+|poke|p1|Hoopa-Unbound|item
+|poke|p2|Swampert, M|item
+|poke|p2|Decidueye, M|item
+|poke|p2|Pikachu, M|item
+|poke|p2|Rayquaza|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Smeargle, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Dialga|Dialga, shiny|100/100
+|switch|p2a: Dogo|Smeargle, M|100/100
+|-ability|p1a: Dialga|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MagicGrandpa500)
+|
+|move|p1a: Dialga|Earthquake|p2a: Dogo
+|-damage|p2a: Dogo|44/100
+|move|p2a: Dogo|Spore|p1a: Dialga
+|-status|p1a: Dialga|slp|[from] move: Spore
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|atk|2
+|-unboost|p2a: Dogo|spe|1
+|upkeep
+|turn|2
+|
+|cant|p1a: Dialga|slp
+|move|p2a: Dogo|Lock-On|p1a: Dialga
+|-activate|p2a: Dogo|move: Lock-On|[of] p1a: Dialga
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|spd|2
+|-unboost|p2a: Dogo|def|1
+|upkeep
+|turn|3
+|
+|cant|p1a: Dialga|slp
+|move|p2a: Dogo|Sheer Cold|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|-ohko
+|faint|p1a: Dialga
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|spe|2
+|-unboost|p2a: Dogo|def|1
+|upkeep
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|4
+|
+|move|p2a: Dogo|Spore|p1a: Rayquaza
+|-status|p1a: Rayquaza|slp|[from] move: Spore
+|cant|p1a: Rayquaza|slp
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|accuracy|2
+|-unboost|p2a: Dogo|spe|1
+|upkeep
+|turn|5
+
+|
+|cant|p1a: Rayquaza|slp
+|move|p2a: Dogo|Lock-On|p1a: Rayquaza
+|-activate|p2a: Dogo|move: Lock-On|[of] p1a: Rayquaza
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|spe|2
+|-unboost|p2a: Dogo|def|1
+|upkeep
+|turn|6
+
+|
+|move|p2a: Dogo|Sheer Cold|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-ohko
+|faint|p1a: Rayquaza
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|def|2
+|-unboost|p2a: Dogo|atk|1
+|upkeep
+
+|
+|switch|p1a: Necrozma-Dawn-Wing|Necrozma-Dawn-Wings|100/100
+|turn|7
+
+|
+|move|p2a: Dogo|Spore|p1a: Necrozma-Dawn-Wing
+|-status|p1a: Necrozma-Dawn-Wing|slp|[from] move: Spore
+|cant|p1a: Necrozma-Dawn-Wing|slp
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|evasion|2
+|-unboost|p2a: Dogo|def|1
+|upkeep
+|turn|8
+
+|
+|move|p2a: Dogo|Lock-On|p1a: Necrozma-Dawn-Wing
+|-activate|p2a: Dogo|move: Lock-On|[of] p1a: Necrozma-Dawn-Wing
+|cant|p1a: Necrozma-Dawn-Wing|slp
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|spa|2
+|-unboost|p2a: Dogo|accuracy|1
+|upkeep
+|turn|9
+
+|
+|move|p2a: Dogo|Sheer Cold|p1a: Necrozma-Dawn-Wing
+|-damage|p1a: Necrozma-Dawn-Wing|0 fnt
+|-ohko
+|faint|p1a: Necrozma-Dawn-Wing
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|def|2
+|-unboost|p2a: Dogo|evasion|1
+|upkeep
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|10
+
+|
+|move|p2a: Dogo|Spore|p1a: Kyurem
+|-status|p1a: Kyurem|slp|[from] move: Spore
+|cant|p1a: Kyurem|slp
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|spe|2
+|-unboost|p2a: Dogo|atk|1
+|upkeep
+|turn|11
+
+|
+|move|p2a: Dogo|Lock-On|p1a: Kyurem
+|-activate|p2a: Dogo|move: Lock-On|[of] p1a: Kyurem
+|cant|p1a: Kyurem|slp
+|
+|-ability|p2a: Dogo|Moody|boost
+|-boost|p2a: Dogo|spd|2
+|-unboost|p2a: Dogo|spa|1
+|upkeep
+|turn|12
+
+|
+|move|p2a: Dogo|Sheer Cold|p1a: Kyurem
+|-immune|p1a: Kyurem|[ohko]
+|-curestatus|p1a: Kyurem|slp|[msg]
+|move|p1a: Kyurem|Fusion Bolt|p2a: Dogo
+|-damage|p2a: Dogo|0 fnt
+|faint|p2a: Dogo
+|
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|turn|13
+
+|
+|move|p1a: Kyurem|Dragon Pulse|p2a: Swampert
+|-damage|p2a: Swampert|71/100
+|move|p2a: Swampert|Counter||[still]
+|-fail|p2a: Swampert
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Swampert
+|-damage|p2a: Swampert|38/100
+|move|p2a: Swampert|Mirror Coat|p1a: Kyurem
+|-damage|p1a: Kyurem|33/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Swampert
+|-damage|p2a: Swampert|9/100
+|move|p2a: Swampert|Mirror Coat|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+
+|
+|switch|p1a: Xerneas|Xerneas, shiny|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|16
+
+|
+|move|p1a: Xerneas|Psyshock|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+
+|
+|switch|p2a: Ray|Rayquaza, shiny|100/100
+|-ability|p2a: Ray|Air Lock
+|turn|17
+
+|
+|detailschange|p2a: Ray|Rayquaza-Mega, shiny
+|-mega|p2a: Ray|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Ray
+|move|p2a: Ray|Extreme Speed|p1a: Xerneas
+|-damage|p1a: Xerneas|60/100
+|-damage|p2a: Ray|91/100|[from] item: Life Orb
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|18
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Ray
+|-supereffective|p2a: Ray
+|-damage|p2a: Ray|0 fnt
+|faint|p2a: Ray
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p2a: Sun boi|Volcarona, M|100/100
+|turn|19
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Sun boi
+|-resisted|p2a: Sun boi
+|-damage|p2a: Sun boi|40/100
+|-unboost|p2a: Sun boi|spa|1
+|move|p2a: Sun boi|Fire Blast|p1a: Xerneas
+|-damage|p1a: Xerneas|41/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Sun boi
+|-resisted|p2a: Sun boi
+|-damage|p2a: Sun boi|0 fnt
+|faint|p2a: Sun boi
+|
+|upkeep
+
+|
+|switch|p2a: Decidueye|Decidueye, M, shiny|100/100
+|turn|21
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|upkeep
+
+|
+|switch|p2a: Mini volt|Pikachu, M|100/100
+|turn|22
+
+|
+|move|p1a: Xerneas|Moonblast|p2a: Mini volt
+|-damage|p2a: Mini volt|0 fnt
+|faint|p2a: Mini volt
+|
+|win|aurangzaib

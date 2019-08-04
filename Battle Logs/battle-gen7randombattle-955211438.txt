@@ -1,0 +1,246 @@
+|init|battle
+|title|SteaKFriteS36 vs. burnout_vgc
+|j|☆SteaKFriteS36
+|j|☆burnout_vgc
+|player|p1|SteaKFriteS36|278|1286
+|player|p2|burnout_vgc|33|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Regirock|Regirock, L88|100/100
+|switch|p2a: Kingler|Kingler, L87, F|100/100
+|turn|1
+|
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|move|p1a: Regirock|Drain Punch|p2a: Kingler
+|-damage|p2a: Kingler|81/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Kingler|Liquidation|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-ability|p1a: Regirock|Sturdy
+|-damage|p1a: Regirock|1/100
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by burnout_vgc)
+
+|
+|move|p2a: Kingler|Liquidation|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|upkeep
+
+|
+|switch|p1a: Leavanny|Leavanny, L89, M|100/100
+|turn|4
+
+|
+|move|p1a: Leavanny|Leaf Blade|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-crit|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|upkeep
+
+|
+|switch|p2a: Vikavolt|Vikavolt, L86, F|100/100
+|turn|5
+
+|
+|move|p1a: Leavanny|Knock Off|p2a: Vikavolt
+|-damage|p2a: Vikavolt|70/100
+|-enditem|p2a: Vikavolt|Life Orb|[from] move: Knock Off|[of] p1a: Leavanny
+|move|p2a: Vikavolt|Agility|p2a: Vikavolt
+|-boost|p2a: Vikavolt|spe|2
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Leavanny
+|-supereffective|p1a: Leavanny
+|-damage|p1a: Leavanny|6/100
+|-unboost|p1a: Leavanny|spd|1
+|move|p1a: Leavanny|Sticky Web|p2a: Vikavolt
+|-sidestart|p2: burnout_vgc|move: Sticky Web
+|
+|-heal|p1a: Leavanny|12/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Vikavolt|Hidden Power|p1a: Leavanny
+|-supereffective|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|upkeep
+
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|8
+
+|
+|move|p2a: Vikavolt|Hidden Power|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|52/100
+|move|p1a: Hippowdon|Toxic|p2a: Vikavolt
+|-status|p2a: Vikavolt|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vikavolt|64/100 tox|[from] Sandstorm
+|-heal|p1a: Hippowdon|58/100|[from] item: Leftovers
+|-damage|p2a: Vikavolt|58/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Tyrantrum|Tyrantrum, L84, M|100/100
+|move|p2a: Vikavolt|Hidden Power|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-crit|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vikavolt|52/100 tox|[from] Sandstorm
+|-damage|p2a: Vikavolt|39/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Vikavolt|Hidden Power|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|faint|p1a: Tyrantrum
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vikavolt|33/100 tox|[from] Sandstorm
+|-damage|p2a: Vikavolt|14/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, F|58/100
+|turn|11
+
+|
+|move|p2a: Vikavolt|Hidden Power|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|14/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Vikavolt
+|drag|p2a: Porygon-Z|Porygon-Z, L81|100/100
+|-activate|p2a: Porygon-Z|move: Sticky Web
+|-unboost|p2a: Porygon-Z|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon-Z|95/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|20/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Porygon-Z|Tri Attack|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-damage|p2a: Porygon-Z|85/100|[from] item: Life Orb
+|faint|p1a: Hippowdon
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Darkrai|Darkrai, L78|100/100
+|turn|13
+
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|41/100
+|move|p2a: Porygon-Z|Tri Attack|p1a: Darkrai
+|-damage|p1a: Darkrai|14/100
+|-status|p1a: Darkrai|frz
+|-damage|p2a: Porygon-Z|31/100|[from] item: Life Orb
+|
+|-heal|p1a: Darkrai|20/100 frz|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|cant|p1a: Darkrai|frz
+|move|p2a: Porygon-Z|Nasty Plot|p2a: Porygon-Z
+|-boost|p2a: Porygon-Z|spa|2
+|
+|-heal|p1a: Darkrai|26/100 frz|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|cant|p1a: Darkrai|frz
+|move|p2a: Porygon-Z|Tri Attack|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|-damage|p2a: Porygon-Z|21/100|[from] item: Life Orb
+|faint|p1a: Darkrai
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini, L80|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|16
+
+|
+|move|p1a: Tapu Fini|Scald|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-activate|p2a: Kyogre|move: Sticky Web
+|-unboost|p2a: Kyogre|spe|1
+|detailschange|p2a: Kyogre|Kyogre-Primal, L78
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|17
+
+|
+|move|p1a: Tapu Fini|Taunt|p2a: Kyogre
+|-start|p2a: Kyogre|move: Taunt
+|move|p2a: Kyogre|Thunder|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|27/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p1a: Tapu Fini|33/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Tapu Fini|Calm Mind|p1a: Tapu Fini
+|-boost|p1a: Tapu Fini|spa|1
+|-boost|p1a: Tapu Fini|spd|1
+|move|p2a: Kyogre|Thunder|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|
+|win|burnout_vgc

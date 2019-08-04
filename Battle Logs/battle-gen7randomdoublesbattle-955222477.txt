@@ -1,0 +1,178 @@
+|init|battle
+|title|arturodelaisla vs. Quispin
+|j|☆arturodelaisla
+|j|☆Quispin
+|player|p1|arturodelaisla|281|1759
+|player|p2|Quispin|169|1512
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno, L81, M|100/100
+|switch|p1b: Tornadus|Tornadus, L71, M|100/100
+|switch|p2a: Dhelmise|Dhelmise, L78|100/100
+|switch|p2b: Guzzlord|Guzzlord, L72|100/100
+|turn|1
+|
+|move|p1b: Tornadus|Heat Wave|p2b: Guzzlord|[spread] p2a,p2b
+|-supereffective|p2a: Dhelmise
+|-resisted|p2b: Guzzlord
+|-damage|p2a: Dhelmise|65/100
+|-damage|p2b: Guzzlord|90/100
+|-damage|p1b: Tornadus|90/100|[from] item: Life Orb
+|move|p1a: Hypno|Psychic|p2a: Dhelmise
+|-damage|p2a: Dhelmise|43/100
+|move|p2b: Guzzlord|Crunch|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|40/100
+|move|p2a: Dhelmise|Anchor Shot|p1b: Tornadus
+|-damage|p1b: Tornadus|38/100
+|-activate|p1b: Tornadus|trapped
+|
+|-heal|p2b: Guzzlord|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1b: Tornadus|Heat Wave|p2a: Dhelmise|[spread] p2a,p2b
+|-supereffective|p2a: Dhelmise
+|-resisted|p2b: Guzzlord
+|-damage|p2a: Dhelmise|9/100
+|-damage|p2b: Guzzlord|84/100
+|-damage|p1b: Tornadus|28/100|[from] item: Life Orb
+|move|p1a: Hypno|Psychic|p2a: Dhelmise
+|-crit|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|faint|p2a: Dhelmise
+|move|p2b: Guzzlord|Crunch|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|-ability|p2b: Guzzlord|Beast Boost|boost
+|-boost|p2b: Guzzlord|atk|1
+|
+|-heal|p2b: Guzzlord|90/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Aromatisse|Aromatisse, L83, M|100/100
+|switch|p2a: Giratina|Giratina, L70|100/100
+|-ability|p2a: Giratina|Pressure
+|turn|3
+
+|
+|switch|p2a: Magcargo|Magcargo, L86, F|100/100
+|-item|p2a: Magcargo|Air Balloon
+|switch|p2b: Suicune|Suicune, L71|100/100
+|-ability|p2b: Suicune|Pressure
+|move|p1b: Tornadus|Air Slash|p2b: Suicune
+|-damage|p2b: Suicune|64/100
+|-damage|p1b: Tornadus|18/100|[from] item: Life Orb
+|move|p1a: Aromatisse|Moonblast|p2b: Suicune
+|-damage|p2b: Suicune|24/100
+|
+|-heal|p2b: Suicune|31/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arturodelaisla)
+
+|
+|move|p1b: Tornadus|Air Slash|p2b: Suicune
+|-damage|p2b: Suicune|0 fnt
+|-damage|p1b: Tornadus|8/100|[from] item: Life Orb
+|faint|p2b: Suicune
+|move|p2a: Magcargo|Earth Power|p1a: Aromatisse
+|-damage|p1a: Aromatisse|79/100
+|move|p1a: Aromatisse|Thunderbolt|p2a: Magcargo
+|-damage|p2a: Magcargo|73/100
+|-enditem|p2a: Magcargo|Air Balloon
+|
+|upkeep
+
+|
+|switch|p2b: Mantine|Mantine, L81, F|100/100
+|turn|5
+
+|
+|move|p1b: Tornadus|Sky Drop||[still]
+|-prepare|p1b: Tornadus|Sky Drop|p2a: Magcargo
+|move|p2b: Mantine|Ice Beam|p1b: Tornadus|[miss]
+|-miss|p2b: Mantine|p1b: Tornadus
+|move|p1a: Aromatisse|Thunderbolt|p2b: Mantine
+|-supereffective|p2b: Mantine
+|-damage|p2b: Mantine|35/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1b: Tornadus|Sky Drop|p2a: Magcargo|[from]lockedmove
+|-resisted|p2a: Magcargo
+|-damage|p2a: Magcargo|62/100
+|-end|p2a: Magcargo|Sky Drop
+|-damage|p1b: Tornadus|0 fnt|[from] item: Life Orb
+|faint|p1b: Tornadus
+|move|p2b: Mantine|Ice Beam|p1a: Aromatisse
+|-damage|p1a: Aromatisse|56/100
+|-damage|p2b: Mantine|25/100|[from] item: Life Orb
+|move|p2a: Magcargo|Fire Blast|p1a: Aromatisse
+|-damage|p1a: Aromatisse|16/100
+|-enditem|p1a: Aromatisse|Sitrus Berry|[eat]
+|-heal|p1a: Aromatisse|41/100|[from] item: Sitrus Berry
+|move|p1a: Aromatisse|Thunderbolt|p2b: Mantine
+|-supereffective|p2b: Mantine
+|-damage|p2b: Mantine|0 fnt
+|faint|p2b: Mantine
+|
+|upkeep
+
+|
+|switch|p1b: Breloom|Breloom, L83, F|100/100
+|switch|p2b: Giratina|Giratina, L70|100/100
+|-ability|p2b: Giratina|Pressure
+|turn|7
+
+|
+|move|p2b: Giratina|Shadow Ball|p1a: Aromatisse
+|-damage|p1a: Aromatisse|18/100
+|move|p1b: Breloom|Bullet Seed|p2a: Magcargo
+|-damage|p2a: Magcargo|42/100
+|-damage|p2a: Magcargo|23/100
+|-damage|p2a: Magcargo|2/100
+|-damage|p2a: Magcargo|0 fnt
+|-hitcount|p2a: Magcargo|4
+|-damage|p1b: Breloom|91/100|[from] item: Life Orb
+|faint|p2a: Magcargo
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|upkeep
+
+|
+|switch|p2a: Guzzlord|Guzzlord, L72|90/100
+|turn|8
+
+|
+|switch|p1a: Vikavolt|Vikavolt, L79, F|100/100
+|move|p2b: Giratina|Shadow Ball|p1a: Vikavolt
+|-damage|p1a: Vikavolt|71/100
+|move|p1b: Breloom|Drain Punch|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|-heal|p1b: Breloom|100/100|[from] drain|[of] p2a: Guzzlord
+|-damage|p1b: Breloom|91/100|[from] item: Life Orb
+|faint|p2a: Guzzlord
+|
+|-heal|p1a: Vikavolt|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|9
+
+|-message|Quispin forfeited.
+
+|
+|win|arturodelaisla

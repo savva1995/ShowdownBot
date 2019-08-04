@@ -1,0 +1,116 @@
+|init|battle
+|title|Alternatif vs. Blak15546
+|j|☆Alternatif
+|j|☆Blak15546
+|player|p1|Alternatif|265|1205
+|player|p2|Blak15546|266|1049
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Linked
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zygarde-10%|item
+|poke|p1|Greninja, M|item
+|poke|p1|Pinsir, F|item
+|poke|p1|Kartana|item
+|poke|p1|Cofagrigus, M|item
+|poke|p1|Tapu Koko|item
+|poke|p2|Salazzle, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Manectric, F|item
+|poke|p2|Azumarill, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Swoobat, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Blak15546)
+|
+|start
+|switch|p1a: Catastropika|Tapu Koko, shiny|100/100
+|switch|p2a: Swoobat|Swoobat, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Catastropika
+|turn|1
+
+|
+|move|p1a: Catastropika|Calm Mind|p1a: Catastropika
+|-boost|p1a: Catastropika|spa|1
+|-boost|p1a: Catastropika|spd|1
+|move|p1a: Catastropika|Thunderbolt|p2a: Swoobat
+|-supereffective|p2a: Swoobat
+|-damage|p2a: Swoobat|0 fnt
+|faint|p2a: Swoobat
+|
+|upkeep
+
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|2
+
+|
+|-zpower|p1a: Catastropika
+|move|p1a: Catastropika|Twinkle Tackle|p2a: Clefable|[zeffect]
+|-damage|p2a: Clefable|24/100
+|-enditem|p2a: Clefable|Iapapa Berry|[eat]
+|-heal|p2a: Clefable|74/100|[from] item: Iapapa Berry
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|upkeep
+|turn|3
+
+|inactive|Blak15546 has 120 seconds left.
+
+|
+|move|p1a: Catastropika|Calm Mind|p1a: Catastropika
+|-boost|p1a: Catastropika|spa|1
+|-boost|p1a: Catastropika|spd|1
+|move|p1a: Catastropika|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|46/100
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|96/100 par
+|
+|upkeep
+|turn|4
+
+|inactive|Blak15546 has 120 seconds left.
+
+|
+|switch|p1a: Kartana|Kartana, shiny|100/100
+|cant|p2a: Clefable|par
+|cant|p2a: Clefable|par
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|move|p1a: Kartana|Leaf Blade|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|spe|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|-message|Blak15546 forfeited.
+
+|
+|win|Alternatif

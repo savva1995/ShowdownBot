@@ -1,0 +1,334 @@
+|init|battle
+|title|DanteKyu vs. kljhjycfhhgc
+|j|☆DanteKyu
+|j|☆kljhjycfhhgc
+|player|p1|DanteKyu|80|1052
+|player|p2|kljhjycfhhgc|76|1150
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Drizzle and Drought! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3653094/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Araquanid, F|item
+|poke|p1|Sylveon, M|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Reuniclus, F|item
+|poke|p1|Blastoise, M|item
+|poke|p2|Gengar, F|item
+|poke|p2|Beedrill, F|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Durant, F|item
+|poke|p2|Donphan, F|item
+|poke|p2|Feraligatr, F|item
+|teampreview
+
+|
+|start
+|switch|p1a: IceIceBaby|Mamoswine, M|100/100
+|switch|p2a: Beedrill|Beedrill, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DanteKyu)
+
+|
+|detailschange|p2a: Beedrill|Beedrill-Mega, F
+|-mega|p2a: Beedrill|Beedrill|Beedrillite
+|move|p2a: Beedrill|U-turn|p1a: IceIceBaby
+|-damage|p1a: IceIceBaby|38/100
+
+|
+|switch|p2a: Donphan|Donphan, F|100/100|[from]move: U-turn
+|move|p1a: IceIceBaby|Stealth Rock|p2a: Donphan
+|-sidestart|p2: kljhjycfhhgc|move: Stealth Rock
+|
+|-heal|p1a: IceIceBaby|45/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1a: IceIceBaby|Icicle Crash|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|35/100
+|move|p2a: Donphan|Earthquake|p1a: IceIceBaby
+|-crit|p1a: IceIceBaby
+|-damage|p1a: IceIceBaby|0 fnt
+|faint|p1a: IceIceBaby
+|
+|-heal|p2a: Donphan|41/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Metroid|Araquanid, F, shiny|100/100
+|turn|3
+
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|move|p1a: Metroid|Liquidation|p2a: Gengar
+|-damage|p2a: Gengar|37/100
+|
+|-heal|p2a: Gengar|43/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Gengar|Will-O-Wisp|p1a: Metroid
+|-status|p1a: Metroid|brn
+|move|p1a: Metroid|Liquidation|p2a: Gengar
+|-damage|p2a: Gengar|16/100
+|
+|-heal|p2a: Gengar|22/100|[from] item: Leftovers
+|-damage|p1a: Metroid|94/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Gengar|Hex|p1a: Metroid
+|-damage|p1a: Metroid|50/100 brn
+|move|p1a: Metroid|Liquidation|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Metroid|Disable|Liquidation|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|-heal|p1a: Metroid|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Metroid|50/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Donphan|Donphan, F|41/100
+|-damage|p2a: Donphan|35/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Donphan|Rapid Spin|p1a: Metroid
+|-damage|p1a: Metroid|41/100 brn
+|-sideend|p2: kljhjycfhhgc|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|move|p1a: Metroid|Leech Life|p2a: Donphan
+|-damage|p2a: Donphan|22/100
+|-heal|p1a: Metroid|48/100 brn|[from] drain|[of] p2a: Donphan
+|
+|-heal|p2a: Donphan|28/100|[from] item: Leftovers
+|-heal|p1a: Metroid|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Metroid|48/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Reuniclus|Reuniclus, F, shiny|100/100
+|move|p2a: Donphan|Stealth Rock|p1a: Reuniclus
+|-sidestart|p1: DanteKyu|move: Stealth Rock
+|
+|-heal|p2a: Donphan|34/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Donphan|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|45/100
+|move|p1a: Reuniclus|Energy Ball|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-heal|p1a: Reuniclus|51/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Durant|Durant, F|100/100
+|turn|9
+
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Durant|X-Scissor|p1a: Blastoise
+|-damage|p1a: Blastoise|9/100
+|
+|-heal|p1a: Blastoise|15/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Durant|X-Scissor|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+
+|
+|switch|p1a: 30 mins|Rotom-Heat, shiny|100/100
+|-damage|p1a: 30 mins|76/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: 30 mins|Defog|p2a: Hydreigon
+|-unboost|p2a: Hydreigon|evasion|1
+|-sideend|p1: DanteKyu|Stealth Rock|[from] move: Defog|[of] p1a: 30 mins
+|
+|-heal|p1a: 30 mins|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: 30 mins
+|-damage|p1a: 30 mins|21/100
+|move|p1a: 30 mins|Will-O-Wisp|p2a: Hydreigon
+|-status|p2a: Hydreigon|brn
+|
+|-heal|p1a: 30 mins|27/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|94/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Mavis|Sylveon, M|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Mavis
+|-resisted|p1a: Mavis
+|-damage|p1a: Mavis|88/100
+|
+|-heal|p1a: Mavis|94/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|88/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Feraligatr|Feraligatr, F|100/100
+|move|p1a: Mavis|Wish|p1a: Mavis
+|
+|-heal|p1a: Mavis|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: 30 mins|Rotom-Heat, shiny|27/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|-heal|p1a: 30 mins|100/100|[from] move: Wish|[wisher] Mavis
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Metroid|Araquanid, F, shiny|48/100 brn
+|move|p2a: Feraligatr|Liquidation|p1a: Metroid
+|-heal|p1a: Metroid|73/100 brn|[from] ability: Water Absorb|[of] p2a: Feraligatr
+|
+|-heal|p1a: Metroid|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Metroid|73/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Feraligatr|Crunch|p1a: Metroid
+|-damage|p1a: Metroid|22/100 brn
+|move|p1a: Metroid|Toxic|p2a: Feraligatr
+|-status|p2a: Feraligatr|tox
+|
+|-heal|p1a: Metroid|28/100 brn|[from] item: Leftovers
+|-damage|p2a: Feraligatr|94/100 tox|[from] psn
+|-damage|p1a: Metroid|22/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Mavis|Sylveon, M|100/100
+|move|p2a: Feraligatr|Crunch|p1a: Mavis
+|-resisted|p1a: Mavis
+|-damage|p1a: Mavis|70/100
+|
+|-heal|p1a: Mavis|76/100|[from] item: Leftovers
+|-damage|p2a: Feraligatr|82/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Feraligatr|Ice Punch|p1a: Mavis
+|-damage|p1a: Mavis|25/100
+|move|p1a: Mavis|Heal Bell|p1a: Mavis
+|-activate|p1a: Mavis|move: Heal Bell
+|-curestatus|p1: Metroid|brn|[msg]
+|
+|-heal|p1a: Mavis|31/100|[from] item: Leftovers
+|-damage|p2a: Feraligatr|64/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|move|p2a: Feraligatr|Ice Punch|p1a: Mavis
+|-damage|p1a: Mavis|0 fnt
+|faint|p1a: Mavis
+|
+|-damage|p2a: Feraligatr|39/100 tox|[from] psn
+|upkeep
+|-enditem|p2a: Feraligatr|Sitrus Berry|[eat]
+|-heal|p2a: Feraligatr|64/100 tox|[from] item: Sitrus Berry
+
+|
+|switch|p1a: 30 mins|Rotom-Heat, shiny|100/100
+|turn|21
+
+|
+|switch|p1a: Metroid|Araquanid, F, shiny|22/100
+|move|p2a: Feraligatr|Liquidation|p1a: Metroid
+|-heal|p1a: Metroid|47/100|[from] ability: Water Absorb|[of] p2a: Feraligatr
+|
+|-heal|p1a: Metroid|53/100|[from] item: Leftovers
+|-damage|p2a: Feraligatr|34/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|switch|p1a: 30 mins|Rotom-Heat, shiny|100/100
+|move|p2a: Feraligatr|Crunch|p1a: 30 mins
+|-damage|p1a: 30 mins|37/100
+|
+|-heal|p1a: 30 mins|43/100|[from] item: Leftovers
+|-damage|p2a: Feraligatr|0 fnt|[from] psn
+|faint|p2a: Feraligatr
+|upkeep
+
+|
+|switch|p2a: Beedrill|Beedrill-Mega, F|100/100
+|turn|23
+
+|
+|move|p2a: Beedrill|Poison Jab|p1a: 30 mins
+|-damage|p1a: 30 mins|0 fnt
+|faint|p1a: 30 mins
+|
+|upkeep
+
+|
+|switch|p1a: Metroid|Araquanid, F, shiny|53/100
+|turn|24
+
+|
+|move|p2a: Beedrill|Poison Jab|p1a: Metroid
+|-damage|p1a: Metroid|0 fnt
+|faint|p1a: Metroid
+|
+|upkeep
+
+|
+|switch|p1a: Reuniclus|Reuniclus, F, shiny|85/100
+|turn|25
+
+|
+|move|p2a: Beedrill|U-turn|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|win|kljhjycfhhgc

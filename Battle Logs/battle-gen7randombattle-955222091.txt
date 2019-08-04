@@ -1,0 +1,160 @@
+|init|battle
+|title|eyegoboom vs. Linjawi123
+|j|☆eyegoboom
+|j|☆Linjawi123
+|player|p1|eyegoboom|34|1646
+|player|p2|Linjawi123|158|1606
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mightyena|Mightyena, L89, M|100/100
+|switch|p2a: Swanna|Swanna, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Linjawi123)
+|
+|move|p2a: Swanna|Scald|p1a: Mightyena
+|-damage|p1a: Mightyena|63/100
+|-status|p1a: Mightyena|brn
+|move|p1a: Mightyena|Crunch|p2a: Swanna
+|-damage|p2a: Swanna|80/100
+|
+|-damage|p1a: Mightyena|57/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Swanna|Scald|p1a: Mightyena
+|-damage|p1a: Mightyena|16/100 brn
+|move|p1a: Mightyena|Crunch|p2a: Swanna
+|-damage|p2a: Swanna|61/100
+|
+|-damage|p1a: Mightyena|10/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Swanna|Scald|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|faint|p1a: Mightyena
+|
+|upkeep
+|
+|switch|p1a: Sceptile|Sceptile, L86, F|100/100
+|turn|4
+|
+|move|p1a: Sceptile|Leaf Storm|p2a: Swanna
+|-damage|p2a: Swanna|0 fnt
+|-unboost|p1a: Sceptile|spa|2
+|faint|p2a: Swanna
+|
+|upkeep
+|
+|switch|p2a: Houndoom|Houndoom, L83, M|100/100
+|turn|5
+|
+|switch|p1a: Swampert|Swampert, L80, M|100/100
+|detailschange|p2a: Houndoom|Houndoom-Mega, L83, M
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Nasty Plot|p2a: Houndoom
+|-boost|p2a: Houndoom|spa|2
+|
+|upkeep
+|turn|6
+|
+|detailschange|p1a: Swampert|Swampert-Mega, L80, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p2a: Houndoom|Dark Pulse|p1a: Swampert
+|-damage|p1a: Swampert|38/100
+|move|p1a: Swampert|Waterfall|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|10/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+|
+|switch|p1a: Froslass|Froslass, L88, F|100/100
+|turn|8
+|
+|move|p1a: Froslass|Ice Beam|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion, L82|100/100
+|turn|9
+|inactive|eyegoboom has 120 seconds left.
+|
+|move|p1a: Froslass|Ice Beam|p2a: Terrakion
+|-damage|p2a: Terrakion|70/100
+|move|p2a: Terrakion|Stealth Rock|p1a: Froslass
+|-sidestart|p1: eyegoboom|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Froslass|Ice Beam|p2a: Terrakion
+|-damage|p2a: Terrakion|35/100
+|move|p2a: Terrakion|Stone Edge|p1a: Froslass|[miss]
+|-miss|p2a: Terrakion|p1a: Froslass
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Froslass|Ice Beam|p2a: Terrakion
+|-damage|p2a: Terrakion|1/100
+|move|p2a: Terrakion|Stone Edge|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-damage|p2a: Terrakion|0 fnt|[from] item: Life Orb
+|faint|p1a: Froslass
+|faint|p2a: Terrakion
+|
+|upkeep
+
+|
+|switch|p1a: Lunala|Lunala, L78|100/100
+|switch|p2a: Tsareena|Tsareena, L84, F|100/100
+|-damage|p1a: Lunala|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Tsareena|U-turn|p1a: Lunala
+|-damage|p1a: Lunala|66/100
+|-damage|p2a: Tsareena|91/100|[from] item: Life Orb
+
+|
+|switch|p2a: Breloom|Breloom, L81, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Lunala|72/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Lunala|Psyshock|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-heal|p1a: Lunala|78/100|[from] item: Leftovers
+|upkeep
+
+|-message|Linjawi123 forfeited.
+
+|
+|win|eyegoboom

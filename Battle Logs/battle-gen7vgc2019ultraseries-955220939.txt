@@ -1,0 +1,213 @@
+|init|battle
+|title|Shokza vs. chiumma
+|j|☆Shokza
+|j|☆chiumma
+|player|p1|Shokza|159|1312
+|player|p2|chiumma|1|1363
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Yveltal, L50|item
+|poke|p1|Kyogre, L50|item
+|poke|p1|Stakataka, L50|item
+|poke|p1|Incineroar, L50, M|item
+|poke|p1|Gengar, L50, F|item
+|poke|p1|Togedemaru, L50, M|item
+|poke|p2|Aerodactyl, L50, F|item
+|poke|p2|Mewtwo, L50|item
+|poke|p2|Groudon, L50|item
+|poke|p2|Tapu Lele, L50|item
+|poke|p2|Incineroar, L50, F|item
+|poke|p2|Stakataka, L50|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chiumma)
+|inactive|Shokza has 60 seconds left.
+|
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|48/48
+|switch|p1b: Yveltal|Yveltal, L50, shiny|48/48
+|switch|p2a: Aerodactyl|Aerodactyl, L50, F|48/48
+|switch|p2b: Mewtwo|Mewtwo, L50|48/48
+|-ability|p2b: Mewtwo|Pressure
+|-ability|p1b: Yveltal|Dark Aura
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|-unboost|p2b: Mewtwo|atk|1
+|turn|1
+
+|inactive|chiumma has 30 seconds left.
+
+|
+|switch|p2b: Stakataka|Stakataka, L50|48/48
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Rock Slide|p1b: Yveltal|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-supereffective|p1b: Yveltal
+|-damage|p1a: Incineroar|29/48
+|-damage|p1b: Yveltal|31/48
+|move|p1b: Yveltal|Tailwind|p1b: Yveltal
+|-sidestart|p1: Shokza|move: Tailwind
+|move|p1a: Incineroar|U-turn|p2b: Stakataka
+|-resisted|p2b: Stakataka
+|-damage|p2b: Stakataka|45/48
+
+|
+|switch|p1a: Kyogre|Kyogre, L50|48/48|[from]move: U-turn
+|detailschange|p1a: Kyogre|Kyogre-Primal, L50
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p2b: Stakataka|Wide Guard|p2b: Stakataka
+|-singleturn|p2b: Stakataka|Wide Guard
+|-zpower|p1b: Yveltal
+|move|p1b: Yveltal|Black Hole Eclipse|p2b: Stakataka|[zeffect]
+|-damage|p2b: Stakataka|11/48
+|move|p1a: Kyogre|Ice Beam|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|4/48
+|move|p2a: Aerodactyl|Tailwind|p2a: Aerodactyl
+|-sidestart|p2: chiumma|move: Tailwind
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|3
+
+|inactive|Shokza has 30 seconds left.
+|inactive|chiumma has 30 seconds left.
+
+|inactive|chiumma has 20 seconds left.
+
+|inactive|chiumma has 15 seconds left.
+
+|
+|-weather|none
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|29/48
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|-unboost|p2b: Stakataka|atk|1
+|move|p2b: Stakataka|Wide Guard|p2b: Stakataka
+|-singleturn|p2b: Stakataka|Wide Guard
+|move|p1b: Yveltal|Sucker Punch|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p2a: Groudon|Groudon, L50|48/48
+|detailschange|p2a: Groudon|Groudon-Primal, L50
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|4
+
+|inactive|Shokza has 30 seconds left.
+
+|
+|move|p1b: Yveltal|Foul Play|p2a: Groudon
+|-damage|p2a: Groudon|27/48
+|move|p2a: Groudon|Precipice Blades|p1b: Yveltal|[spread] p1a
+|-immune|p1b: Yveltal
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2b: Stakataka|Gyro Ball|p1b: Yveltal
+|-damage|p1b: Yveltal|6/48
+|
+|-weather|DesolateLand|[upkeep]
+|-sideend|p1: Shokza|move: Tailwind
+|upkeep
+
+|
+|switch|p1a: Stakataka|Stakataka, L50, shiny|48/48
+|turn|5
+
+|
+|switch|p1b: Kyogre|Kyogre-Primal, L50|48/48
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1b: Kyogre
+|move|p1a: Stakataka|Wide Guard|p1a: Stakataka
+|-singleturn|p1a: Stakataka|Wide Guard
+|move|p2a: Groudon|Precipice Blades|p1a: Stakataka|[spread] 
+|-activate|p1a: Stakataka|move: Wide Guard
+|-activate|p1b: Kyogre|move: Wide Guard
+|move|p2b: Stakataka|Trick Room|p2b: Stakataka
+|-fieldstart|move: Trick Room|[of] p2b: Stakataka
+|
+|-weather|PrimordialSea|[upkeep]
+|-sideend|p2: chiumma|move: Tailwind
+|upkeep
+|turn|6
+
+|
+|move|p1a: Stakataka|Rock Slide|p2a: Groudon|[spread] p2b
+|-miss|p1a: Stakataka|p2a: Groudon
+|-resisted|p2b: Stakataka
+|-damage|p2b: Stakataka|8/48
+|move|p2b: Stakataka|Skill Swap|p2a: Groudon
+|-activate|p2b: Stakataka|move: Skill Swap|||[of] p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2b: Stakataka
+|move|p2a: Groudon|Precipice Blades|p1a: Stakataka|[spread] p1b
+|-miss|p2a: Groudon|p1a: Stakataka
+|-damage|p1b: Kyogre|19/48
+|move|p1b: Kyogre|Origin Pulse||[still]
+|-fail|p1b: Kyogre|Origin Pulse|[from] Desolate Land
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|7
+
+|
+|move|p1a: Stakataka|Rock Slide|p2a: Groudon|[spread] p2a,p2b
+|-resisted|p2b: Stakataka
+|-crit|p2b: Stakataka
+|-damage|p2a: Groudon|21/48
+|-damage|p2b: Stakataka|2/48
+|move|p2b: Stakataka|Skill Swap|p2a: Groudon
+|-activate|p2b: Stakataka|move: Skill Swap|||[of] p2a: Groudon
+|-weather|none
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p2a: Groudon|Precipice Blades|p1b: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Stakataka
+|-enditem|p1a: Stakataka|Shuca Berry|[eat]
+|-enditem|p1a: Stakataka|Shuca Berry|[weaken]
+|-damage|p1a: Stakataka|14/48
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p1b: Yveltal|Yveltal, L50, shiny|6/48
+|-ability|p1b: Yveltal|Dark Aura
+|turn|8
+
+|
+|move|p1b: Yveltal|Sucker Punch|p2a: Groudon
+|-damage|p2a: Groudon|9/48y
+|move|p2b: Stakataka|Gyro Ball|p1b: Yveltal
+|-damage|p1b: Yveltal|0 fnt
+|faint|p1b: Yveltal
+|-ability|p2b: Stakataka|Beast Boost|boost
+|-boost|p2b: Stakataka|def|1
+|move|p1a: Stakataka|Rock Slide|p2b: Stakataka|[spread] p2a,p2b
+|-resisted|p2b: Stakataka
+|-damage|p2a: Groudon|3/48
+|-damage|p2b: Stakataka|1/48
+|move|p2a: Groudon|Precipice Blades|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|faint|p1a: Stakataka
+|
+|win|chiumma

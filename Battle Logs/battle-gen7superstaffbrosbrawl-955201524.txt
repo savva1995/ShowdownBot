@@ -1,0 +1,163 @@
+|init|battle
+|title|Xi丶nan vs. fall9
+|j|☆Xi丶nan
+|j|☆fall9
+|player|p1|Xi丶nan|260|
+|player|p2|fall9|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Super Staff Bros Brawl
+|raw|SUPER STAFF BROS <b>BRAWL</b>!!
+|message|GET READY FOR THE NEXT BATTLE!
+|raw|<div class='broadcast-green'><b>Wondering what all these custom moves, abilities, and items do?<br />Check out the <a href="https://www.smogon.com/articles/super-staff-bros-brawl" target="_blank">Super Staff Bros Brawl Guide</a> and find out!</b></div>
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|start
+|switch|p1a: SunGodVolcarona|Volcarona, M|100/100
+|switch|p2a: Brandon|Shaymin|100/100
+|c|+SunGodVolcarona|Praise the Sun and live a happy life.
+|c|%Brandon|Let's set some mood music: https://www.youtube.com/watch?v=na7lIb09898
+|turn|1
+|
+|move|p2a: Brandon|Blustery Winds||[still]
+|-anim|p2a: Brandon|Defog|p1a: SunGodVolcarona
+|-formechange|p2a: Brandon|Shaymin-Sky||[from] ability: Gracidea Mastery
+|-supereffective|p1a: SunGodVolcarona
+|-damage|p1a: SunGodVolcarona|41/100
+|-formechange|p2a: Brandon|Shaymin||[from] ability: Gracidea Mastery
+|move|p1a: SunGodVolcarona|Quiver Dance|p1a: SunGodVolcarona
+|-boost|p1a: SunGodVolcarona|spa|1
+|-boost|p1a: SunGodVolcarona|spd|1
+|-boost|p1a: SunGodVolcarona|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: SunGodVolcarona|Fiery Dance|p2a: Brandon
+|-supereffective|p2a: Brandon
+|-damage|p2a: Brandon|0 fnt
+|-boost|p1a: SunGodVolcarona|spa|1
+|faint|p2a: Brandon
+|c|%Brandon|I need a nap
+|
+|upkeep
+|
+|switch|p2a: Pablo|Blastoise, M|100/100
+|c|%Pablo|Let's get this party started.
+|turn|3
+|
+|move|p1a: SunGodVolcarona|Giga Drain|p2a: Pablo
+|-supereffective|p2a: Pablo
+|-damage|p2a: Pablo|3/100
+|-heal|p1a: SunGodVolcarona|98/100|[from] drain|[of] p2a: Pablo
+|move|p2a: Pablo|Muddy Water|p1a: SunGodVolcarona
+|-supereffective|p1a: SunGodVolcarona
+|-damage|p1a: SunGodVolcarona|12/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: SunGodVolcarona|Giga Drain|p2a: Pablo
+|-supereffective|p2a: Pablo
+|-damage|p2a: Pablo|0 fnt
+|-heal|p1a: SunGodVolcarona|13/100|[from] drain|[of] p2a: Pablo
+|faint|p2a: Pablo
+|c|%Pablo|It's cool, I didn't wanna battle anyway.
+|
+|upkeep
+|
+|switch|p2a: Scotteh|Suicune, M|100/100
+|c|@Scotteh|─────▄▄████▀█▄
+|c|@Scotteh|───▄██████████████████▄
+|c|@Scotteh|─▄█████.▼.▼.▼.▼.▼.▼.▼
+|turn|5
+
+|
+|move|p1a: SunGodVolcarona|Giga Drain|p2a: Scotteh
+|-supereffective|p2a: Scotteh
+|-damage|p2a: Scotteh|1/100
+|-heal|p1a: SunGodVolcarona|68/100|[from] drain|[of] p2a: Scotteh
+|move|p2a: Scotteh|Geomagnetic Storm||[still]
+|-anim|p2a: Scotteh|Discharge|p1a: SunGodVolcarona
+|-damage|p1a: SunGodVolcarona|48/100
+|
+|-heal|p2a: Scotteh|7/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: SunGodVolcarona|Giga Drain|p2a: Scotteh
+|-supereffective|p2a: Scotteh
+|-damage|p2a: Scotteh|0 fnt
+|-heal|p1a: SunGodVolcarona|51/100|[from] drain|[of] p2a: Scotteh
+|faint|p2a: Scotteh
+|c|@Scotteh|▄███████▄.▲.▲.▲.▲.▲.▲
+|c|@Scotteh|█████████████████████▀▀
+|
+|upkeep
+
+|
+|switch|p2a: SunGodVolcarona|Volcarona, M|100/100
+|c|+SunGodVolcarona|Praise the Sun and live a happy life.
+|turn|7
+
+|
+|-zpower|p1a: SunGodVolcarona
+|move|p1a: SunGodVolcarona|Scorching Global Vortex||[zeffect]|[still]
+|-anim|p1a: SunGodVolcarona|Searing Sunraze Smash|p2a: SunGodVolcarona
+|-damage|p2a: SunGodVolcarona|0 fnt
+|faint|p2a: SunGodVolcarona
+|c|+SunGodVolcarona|All Suns have to set at one point.
+|
+|upkeep
+
+|
+|switch|p2a: bobochan|Emolga, M|100/100
+|c|@bobochan|Pika Pika! Just kidding, it's just a knock off clone.
+|turn|8
+
+|
+|move|p1a: SunGodVolcarona|Fiery Dance|p2a: bobochan
+|-damage|p2a: bobochan|0 fnt
+|faint|p2a: bobochan
+|c|@bobochan|You cruel trainer for killing an innocent pokemon!
+|
+|upkeep
+
+|
+|switch|p2a: Yuki|Ninetales-Alola, F|100/100
+|c|+Yuki|My ice may be a little __cold__, but your plan has been put completely on __hold__!
+|-weather|Hail|[from] ability: Snow Storm|[of] p2a: Yuki
+|turn|9
+
+|
+|-singleturn|p2a: Yuki|move: Cutie Escape
+|-message|Yuki is preparing to flee!
+|move|p1a: SunGodVolcarona|Fiery Dance|p2a: Yuki
+|-supereffective|p2a: Yuki
+|-enditem|p2a: Yuki|Focus Sash
+|-damage|p2a: Yuki|1/100
+|move|p2a: Yuki|Cutie Escape||[still]
+|-anim|p2a: Yuki|Baton Pass|p2a: Yuki
+|-start|p1a: SunGodVolcarona|confusion
+|-start|p1a: SunGodVolcarona|Attract|[from] move: Cutie Trap|[of] p2a: Yuki
+|-message|SunGodVolcarona was trapped by love!
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: SunGodVolcarona|45/100|[from] Hail
+|upkeep
+|turn|10
+
+|
+|-activate|p1a: SunGodVolcarona|confusion
+|-activate|p1a: SunGodVolcarona|move: Attract|[of] p2a: Yuki
+|move|p1a: SunGodVolcarona|Fiery Dance|p2a: Yuki
+|-supereffective|p2a: Yuki
+|-damage|p2a: Yuki|0 fnt
+|faint|p2a: Yuki
+|c|+Yuki|I'm melting...
+|
+|win|Xi丶nan

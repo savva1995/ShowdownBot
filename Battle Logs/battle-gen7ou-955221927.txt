@@ -1,0 +1,94 @@
+|init|battle
+|title|Roffoo vs. Healsan
+|j|☆Roffoo
+|j|☆Healsan
+|player|p1|Roffoo|126|1287
+|player|p2|Healsan|70|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sandslash, F|item
+|poke|p1|Toxapex, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Yanmega, M|item
+|poke|p1|Gyarados, F|item
+|poke|p2|Azumarill, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Zapdos|item
+|poke|p2|Victini|item
+|poke|p2|Latios, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Healsan)
+|
+|start
+|switch|p1a: Sandslash|Sandslash, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Sandslash
+|-sidestart|p1: Roffoo|move: Stealth Rock
+|move|p1a: Sandslash|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Healsan|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|inactive|Healsan has 120 seconds left.
+
+|
+|move|p2a: Excadrill|Iron Head|p1a: Sandslash
+|-damage|p1a: Sandslash|62/100
+|-damage|p2a: Excadrill|84/100|[from] item: Rocky Helmet|[of] p1a: Sandslash
+|move|p1a: Sandslash|Knock Off|p2a: Excadrill
+|-damage|p2a: Excadrill|43/100
+|-enditem|p2a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p1a: Sandslash
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Excadrill|Iron Head|p1a: Sandslash
+|-damage|p1a: Sandslash|26/100
+|-damage|p2a: Excadrill|26/100|[from] item: Rocky Helmet|[of] p1a: Sandslash
+|cant|p1a: Sandslash|flinch
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|71/100
+|
+|-heal|p1a: Toxapex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|move|p2a: Excadrill|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+
+|-message|Roffoo forfeited.
+
+|
+|win|Healsan

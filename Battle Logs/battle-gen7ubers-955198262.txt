@@ -1,0 +1,164 @@
+|init|battle
+|title|Fangz31 vs. Maseratihottie
+|j|☆Fangz31
+|j|☆Maseratihottie
+|player|p1|Fangz31|40|1126
+|player|p2|Maseratihottie|8|1097
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mienshao, F|item
+|poke|p1|Mewtwo|item
+|poke|p1|Breloom, M|item
+|poke|p1|Throh, M|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Toxicroak, F|item
+|poke|p2|Pheromosa|item
+|poke|p2|Blacephalon|item
+|poke|p2|Salamence, M|item
+|poke|p2|Ambipom, F|item
+|poke|p2|Lugia|item
+|poke|p2|Ferrothorn, F|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|switch|p2a: Ambipom|Ambipom, F|100/100
+|turn|1
+|
+|move|p2a: Ambipom|Fake Out|p1a: Mienshao
+|-damage|p1a: Mienshao|35/100
+|-damage|p2a: Ambipom|91/100|[from] item: Life Orb
+|cant|p1a: Mienshao|flinch
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Throh|Throh, M|100/100
+|move|p2a: Ambipom|Knock Off|p1a: Throh
+|-resisted|p1a: Throh
+|-damage|p1a: Throh|84/100
+|-enditem|p1a: Throh|Leftovers|[from] move: Knock Off|[of] p2a: Ambipom
+|-damage|p2a: Ambipom|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|move|p1a: Throh|Rest|p1a: Throh
+|-status|p1a: Throh|slp|[from] move: Rest
+|-heal|p1a: Throh|100/100 slp|[silent]
+|
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-ability|p1a: Mewtwo|Unnerve|p2: Maseratihottie
+|move|p2a: Blacephalon|Mind Blown|p1a: Mewtwo
+|-damage|p1a: Mewtwo|6/100
+|-damage|p2a: Blacephalon|50/100|[from] mindblown
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Ambipom|Ambipom, F|81/100
+|detailschange|p1a: Mewtwo|Mewtwo-Mega-X
+|-mega|p1a: Mewtwo|Mewtwo|Mewtwonite X
+|move|p1a: Mewtwo|Ice Punch|p2a: Ambipom
+|-damage|p2a: Ambipom|28/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Throh|Throh, M|100/100 slp
+|move|p2a: Ambipom|Fake Out|p1a: Throh
+|-damage|p1a: Throh|70/100 slp
+|-damage|p2a: Ambipom|18/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Mewtwo|Mewtwo-Mega-X|6/100
+|move|p2a: Ambipom|Double Hit|p1a: Mewtwo|[miss]
+|-miss|p2a: Ambipom|p1a: Mewtwo
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Mewtwo|Ice Punch|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+|
+|upkeep
+
+|
+|switch|p2a: Pheromosa|Pheromosa|100/100
+|turn|9
+
+|
+|move|p2a: Pheromosa|Lunge|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|-ability|p2a: Pheromosa|Beast Boost|boost
+|-boost|p2a: Pheromosa|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, F|68/100
+|turn|10
+
+|
+|move|p1a: Mienshao|Fake Out|p2a: Pheromosa
+|-damage|p2a: Pheromosa|68/100
+|cant|p2a: Pheromosa|flinch
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Pheromosa|High Jump Kick|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|-ability|p2a: Pheromosa|Beast Boost|boost
+|-boost|p2a: Pheromosa|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|12
+
+|
+|move|p2a: Pheromosa|High Jump Kick|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|-ability|p2a: Pheromosa|Beast Boost|boost
+|-boost|p2a: Pheromosa|atk|1
+|
+|upkeep
+
+|-message|Fangz31 forfeited.
+
+|
+|win|Maseratihottie

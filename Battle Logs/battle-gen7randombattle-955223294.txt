@@ -1,0 +1,354 @@
+|init|battle
+|title|sushi8899 vs. Rand_uname
+|j|☆sushi8899
+|j|☆Rand_uname
+|player|p1|sushi8899|101|2106
+|player|p2|Rand_uname|266|1942
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Regigigas|Regigigas, L89|100/100
+|switch|p2a: Klefki|Klefki, L82, M|100/100
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|1
+
+|
+|move|p2a: Klefki|Toxic|p1a: Regigigas
+|-status|p1a: Regigigas|tox
+|move|p1a: Regigigas|Substitute|p1a: Regigigas
+|-start|p1a: Regigigas|Substitute
+|-damage|p1a: Regigigas|76/100 tox
+|
+|-heal|p1a: Regigigas|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Regigigas|76/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p2a: Klefki|Spikes|p1a: Regigigas
+|-sidestart|p1: sushi8899|Spikes
+|move|p1a: Regigigas|Confuse Ray|p2a: Klefki
+|-start|p2a: Klefki|confusion
+|
+|-heal|p1a: Regigigas|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Regigigas|69/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|-end|p1a: Regigigas|Slow Start|[silent]
+|switch|p1a: Jellicent|Jellicent, L88, F|100/100
+|-damage|p1a: Jellicent|88/100|[from] Spikes
+|-activate|p2a: Klefki|confusion
+|-damage|p2a: Klefki|90/100|[from] confusion
+|
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Venusaur|Venusaur, L81, F|100/100
+|move|p1a: Jellicent|Scald|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|87/100
+|
+|-heal|p1a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Vivillon|Vivillon, L86, F|100/100
+|detailschange|p2a: Venusaur|Venusaur-Mega, L81, F
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p2a: Venusaur|Knock Off|p1a: Vivillon
+|-damage|p1a: Vivillon|67/100
+|-enditem|p1a: Vivillon|Leftovers|[from] move: Knock Off|[of] p2a: Venusaur
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Tauros|Tauros, L87, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Vivillon|atk|1
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|42/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Tauros|Rock Slide|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Vivillon|Hurricane|p2a: Tauros
+|-damage|p2a: Tauros|30/100
+|-start|p2a: Tauros|confusion
+|-activate|p2a: Tauros|confusion
+|move|p2a: Tauros|Rock Slide|p1a: Vivillon|[miss]
+|-miss|p2a: Tauros|p1a: Vivillon
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Vivillon|Bug Buzz|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+
+|
+|switch|p2a: Ariados|Ariados, L89, F|100/100
+|turn|10
+
+|
+|move|p1a: Vivillon|Hurricane|p2a: Ariados
+|-supereffective|p2a: Ariados
+|-damage|p2a: Ariados|0 fnt
+|faint|p2a: Ariados
+|
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, L82, M|90/100
+|turn|11
+
+|
+|move|p1a: Vivillon|Hurricane|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|50/100
+|move|p2a: Klefki|Play Rough|p1a: Vivillon|[miss]
+|-miss|p2a: Klefki|p1a: Vivillon
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Vivillon|Bug Buzz|p2a: Klefki
+|-resisted|p2a: Klefki
+|-crit|p2a: Klefki
+|-damage|p2a: Klefki|24/100
+|move|p2a: Klefki|Play Rough|p1a: Vivillon|[miss]
+|-miss|p2a: Klefki|p1a: Vivillon
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Klefki|Toxic|p1a: Vivillon
+|-status|p1a: Vivillon|tox
+|move|p1a: Vivillon|Hurricane|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-damage|p1a: Vivillon|36/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Cresselia|Cresselia, L84, F|100/100
+|turn|14
+
+|
+|move|p1a: Vivillon|Bug Buzz|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|40/100
+|-unboost|p2a: Cresselia|spd|1
+|move|p2a: Cresselia|Psyshock|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|-heal|p2a: Cresselia|46/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|99/100
+|-damage|p1a: Jellicent|88/100|[from] Spikes
+|turn|15
+
+|
+|switch|p2a: Venusaur|Venusaur-Mega, L81, F|87/100
+|move|p1a: Jellicent|Shadow Ball|p2a: Venusaur
+|-damage|p2a: Venusaur|58/100
+|
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, F|100/100
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Venusaur|Giga Drain|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|77/100
+|-heal|p2a: Venusaur|69/100|[from] drain|[of] p1a: Hawlucha
+|
+|-heal|p1a: Hawlucha|83/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|58/100
+|move|p2a: Venusaur|Sleep Powder||[still]
+|-fail|p2a: Venusaur
+|
+|-heal|p1a: Hawlucha|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Cresselia|Cresselia, L84, F|46/100
+|move|p1a: Hawlucha|Stone Edge|p2a: Cresselia
+|-damage|p2a: Cresselia|31/100
+|
+|-heal|p1a: Hawlucha|71/100|[from] item: Leftovers
+|-heal|p2a: Cresselia|37/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Bronzong|Bronzong, L84|100/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|87/100
+|
+|-heal|p2a: Cresselia|93/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Venusaur|Venusaur-Mega, L81, F|69/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Venusaur
+|-sidestart|p2: Rand_uname|move: Stealth Rock
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Venusaur|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|60/100
+|-enditem|p1a: Bronzong|Leftovers|[from] move: Knock Off|[of] p2a: Venusaur
+|move|p1a: Bronzong|Light Screen|p1a: Bronzong
+|-sidestart|p1: sushi8899|move: Light Screen
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Bronzong|[miss]
+|-miss|p2a: Venusaur|p1a: Bronzong
+|move|p1a: Bronzong|Gyro Ball|p2a: Venusaur
+|-damage|p2a: Venusaur|48/100
+|
+|upkeep
+|turn|23
+
+|
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|98/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Venusaur
+|-damage|p2a: Venusaur|76/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Bronzong|[miss]
+|-miss|p2a: Venusaur|p1a: Bronzong
+|move|p1a: Bronzong|Gyro Ball|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|43/100
+|
+|upkeep
+|turn|25
+
+|
+|switch|p1a: Arceus|Arceus-Rock, L78|100/100
+|-damage|p1a: Arceus|88/100|[from] Spikes
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|93/100
+|
+|-sideend|p1: sushi8899|move: Light Screen
+|upkeep
+|turn|26
+
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Venusaur|Sleep Powder|p1a: Arceus
+|-status|p1a: Arceus|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|27
+
+|
+|switch|p1a: Hawlucha|Hawlucha, L80, F|71/100
+|-ability|p1a: Hawlucha|Mold Breaker
+|switch|p2a: Cresselia|Cresselia, L84, F|93/100
+|-damage|p2a: Cresselia|81/100|[from] Stealth Rock
+|
+|-heal|p1a: Hawlucha|77/100|[from] item: Leftovers
+|-heal|p2a: Cresselia|87/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Jellicent|Jellicent, L88, F|94/100
+|-damage|p1a: Jellicent|82/100|[from] Spikes
+|move|p2a: Cresselia|Moonblast|p1a: Jellicent
+|-damage|p1a: Jellicent|67/100
+|
+|-heal|p2a: Cresselia|93/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Jellicent|Shadow Ball|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|69/100
+|
+|-heal|p2a: Cresselia|75/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|79/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p2a: Cresselia|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|42/100
+|move|p1a: Jellicent|Toxic|p2a: Cresselia
+|-status|p2a: Cresselia|tox
+|
+|-heal|p2a: Cresselia|81/100 tox|[from] item: Leftovers
+|-heal|p1a: Jellicent|48/100|[from] item: Leftovers
+|-damage|p2a: Cresselia|75/100 tox|[from] psn
+|upkeep
+|turn|31
+
+|-message|Rand_uname forfeited.
+
+|
+|win|sushi8899

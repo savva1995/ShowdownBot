@@ -1,0 +1,112 @@
+|init|battle
+|title|trewwwa vs. draconiandevil210
+|j|☆trewwwa
+|j|☆draconiandevil210
+|player|p1|trewwwa|265|1121
+|player|p2|draconiandevil210|102|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Volcanion|Volcanion, L82|100/100
+|switch|p2a: Pyukumuku|Pyukumuku, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by draconiandevil210)
+|
+|switch|p1a: Porygon2|Porygon2, L84|100/100
+|-ability|p1a: Porygon2|Innards Out|[from] ability: Trace|[of] p2a: Pyukumuku
+|move|p2a: Pyukumuku|Light Screen|p2a: Pyukumuku
+|-sidestart|p2: draconiandevil210|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Porygon2|Tri Attack|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|88/100
+|move|p2a: Pyukumuku|Toxic|p1a: Porygon2
+|-status|p1a: Porygon2|tox
+|
+|-damage|p1a: Porygon2|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Porygon2|Thunder Wave|p2a: Pyukumuku
+|-status|p2a: Pyukumuku|par
+|move|p2a: Pyukumuku|Reflect|p2a: Pyukumuku
+|-sidestart|p2: draconiandevil210|Reflect
+|
+|-damage|p1a: Porygon2|82/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Slurpuff|Slurpuff, L85, F|100/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Slurpuff
+|-damage|p2a: Slurpuff|88/100
+|
+|-damage|p1a: Porygon2|64/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|38/100
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|62/100|[from] item: Sitrus Berry
+|move|p1a: Porygon2|Tri Attack|p2a: Slurpuff
+|-damage|p2a: Slurpuff|45/100
+|
+|-damage|p1a: Porygon2|40/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Slurpuff|Drain Punch|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-heal|p2a: Slurpuff|65/100|[from] drain|[of] p1a: Porygon2
+|-damage|p2a: Slurpuff|25/100|[from] ability: Innards Out|[of] p1a: Porygon2
+|faint|p1a: Porygon2
+|
+|upkeep
+
+|inactive|trewwwa has 120 seconds left.
+
+|
+|switch|p1a: Dodrio|Dodrio, L88, F|100/100
+|turn|7
+
+|
+|move|p2a: Slurpuff|Drain Punch|p1a: Dodrio
+|-damage|p1a: Dodrio|17/100
+|-heal|p2a: Slurpuff|62/100|[from] drain|[of] p1a: Dodrio
+|move|p1a: Dodrio|Return|p2a: Slurpuff
+|-damage|p2a: Slurpuff|40/100
+|
+|-heal|p1a: Dodrio|23/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Dodrio|Quick Attack|p2a: Slurpuff
+|-damage|p2a: Slurpuff|31/100
+|move|p2a: Slurpuff|Drain Punch|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|-heal|p2a: Slurpuff|41/100|[from] drain|[of] p1a: Dodrio
+|faint|p1a: Dodrio
+|
+|-sideend|p2: draconiandevil210|move: Light Screen
+|upkeep
+
+|-message|trewwwa forfeited.
+
+|
+|win|draconiandevil210

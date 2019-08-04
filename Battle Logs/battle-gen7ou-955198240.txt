@@ -1,0 +1,345 @@
+|init|battle
+|title|phanrider vs. kelpy901
+|j|☆phanrider
+|j|☆kelpy901
+|player|p1|phanrider|169|1130
+|player|p2|kelpy901|76|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gliscor, F|item
+|poke|p1|Manaphy|item
+|poke|p1|Roserade, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Lucario, M|item
+|poke|p1|Diancie|item
+|poke|p2|Roggenrola, M|item
+|poke|p2|Larvesta, M|item
+|poke|p2|Slakoth, F|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Magikarp, M|item
+|teampreview
+
+|
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|turn|1
+
+|
+|switch|p2a: Roggenrola|Roggenrola, M, shiny|100/100
+|move|p1a: Gliscor|Toxic|p2a: Roggenrola
+|-status|p2a: Roggenrola|tox
+|
+|-damage|p2a: Roggenrola|95/100 tox|[from] psn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phanrider)
+
+|inactive|kelpy901 has 120 seconds left.
+
+|
+|move|p1a: Gliscor|Stealth Rock|p2a: Roggenrola
+|-sidestart|p2: kelpy901|move: Stealth Rock
+|move|p2a: Roggenrola|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: phanrider|move: Stealth Rock
+|
+|-damage|p2a: Roggenrola|83/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Roggenrola
+|-supereffective|p2a: Roggenrola
+|-damage|p2a: Roggenrola|18/100 tox
+|move|p2a: Roggenrola|Rock Polish|p2a: Roggenrola
+|-boost|p2a: Roggenrola|spe|2
+|
+|-damage|p2a: Roggenrola|0 fnt|[from] psn
+|faint|p2a: Roggenrola
+|upkeep
+
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|turn|4
+
+|inactive|phanrider has 120 seconds left.
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Venusaur|Sunny Day|p2a: Venusaur
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|phanrider has 120 seconds left.
+
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Zapdos|Heat Wave|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|-damage|p2a: Aerodactyl|76/100|[from] Stealth Rock
+|-ability|p2a: Aerodactyl|Pressure
+|turn|6
+
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|inactive|phanrider has 120 seconds left.
+
+|
+|switch|p1a: Roserade|Roserade, M, shiny|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|turn|7
+
+|inactive|phanrider has 120 seconds left.
+
+|
+|move|p2a: Aerodactyl|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|19/100
+|move|p1a: Roserade|Sleep Powder|p2a: Aerodactyl|[miss]
+|-miss|p1a: Roserade|p2a: Aerodactyl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+
+|inactive|phanrider has 120 seconds left.
+
+|
+|move|p2a: Aerodactyl|Hone Claws|p2a: Aerodactyl
+|-boost|p2a: Aerodactyl|atk|1
+|-boost|p2a: Aerodactyl|accuracy|1
+|move|p1a: Roserade|Sleep Powder|p2a: Aerodactyl
+|-status|p2a: Aerodactyl|slp|[from] move: Sleep Powder
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|inactive|phanrider has 120 seconds left.
+
+|
+|cant|p2a: Aerodactyl|slp
+|move|p1a: Roserade|Giga Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|18/100 slp
+|-heal|p1a: Roserade|52/100|[from] drain|[of] p2a: Aerodactyl
+|-damage|p1a: Roserade|42/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+
+|
+|-curestatus|p2a: Aerodactyl|slp|[msg]
+|move|p2a: Aerodactyl|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+
+|inactive|phanrider has 120 seconds left.
+
+|
+|switch|p1a: Manaphy|Manaphy|100/100
+|-damage|p1a: Manaphy|88/100|[from] Stealth Rock
+|turn|11
+
+|inactive|phanrider has 120 seconds left.
+
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Manaphy
+|-damage|p1a: Manaphy|2/100
+|move|p1a: Manaphy|Surf|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-damage|p1a: Manaphy|0 fnt|[from] item: Life Orb
+|faint|p2a: Aerodactyl
+|faint|p1a: Manaphy
+|
+|upkeep
+
+|
+|switch|p2a: Slakoth|Slakoth, F|100/100
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|-damage|p2a: Slakoth|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Gliscor|Toxic|p2a: Slakoth|[miss]
+|-miss|p1a: Gliscor|p2a: Slakoth
+|move|p2a: Slakoth|Bulk Up|p2a: Slakoth
+|-boost|p2a: Slakoth|atk|1
+|-boost|p2a: Slakoth|def|1
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+
+|
+|move|p1a: Gliscor|Toxic|p2a: Slakoth
+|-status|p2a: Slakoth|tox
+|cant|p2a: Slakoth|ability: Truant
+|
+|-damage|p2a: Slakoth|82/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Slakoth
+|-damage|p2a: Slakoth|57/100 tox
+|move|p2a: Slakoth|Fire Punch|p1a: Gliscor
+|-damage|p1a: Gliscor|83/100 tox
+|
+|-heal|p1a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Slakoth|45/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Slakoth
+|-damage|p2a: Slakoth|19/100 tox
+|cant|p2a: Slakoth|ability: Truant
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Slakoth|1/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Slakoth
+|-damage|p2a: Slakoth|0 fnt
+|faint|p2a: Slakoth
+|
+|upkeep
+
+|
+|switch|p2a: Larvesta|Larvesta, M|100/100
+|-damage|p2a: Larvesta|51/100|[from] Stealth Rock
+|turn|17
+
+|inactive|kelpy901 has 120 seconds left.
+
+|
+|move|p1a: Gliscor|Toxic|p2a: Larvesta
+|-status|p2a: Larvesta|tox
+|move|p2a: Larvesta|Bug Buzz|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|82/100 tox
+|
+|-heal|p1a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Larvesta|45/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Larvesta
+|-damage|p2a: Larvesta|4/100 tox
+|move|p2a: Larvesta|Giga Drain|p1a: Gliscor
+|-damage|p1a: Gliscor|75/100 tox
+|-heal|p2a: Larvesta|15/100 tox|[from] drain|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Larvesta|3/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Larvesta
+|-damage|p2a: Larvesta|0 fnt
+|faint|p2a: Larvesta
+|
+|-heal|p1a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|inactive|kelpy901 has 120 seconds left.
+
+|
+|switch|p2a: Magikarp|Magikarp, M|100/100
+|-damage|p2a: Magikarp|88/100|[from] Stealth Rock
+|turn|20
+
+|inactive|kelpy901 has 120 seconds left.
+
+|j| Bean of Destiny@!
+
+|n| Bean of Destiny|beanofdestiny
+
+|
+|-zpower|p2a: Magikarp
+|move|p2a: Magikarp|Z-Celebrate|p2a: Magikarp|[anim]Celebrate
+|-boost|p2a: Magikarp|atk|1|[zeffect]
+|-boost|p2a: Magikarp|def|1|[zeffect]
+|-boost|p2a: Magikarp|spa|1|[zeffect]
+|-boost|p2a: Magikarp|spd|1|[zeffect]
+|-boost|p2a: Magikarp|spe|1|[zeffect]
+|-activate|p2a: Magikarp|move: Celebrate
+|move|p1a: Gliscor|Toxic|p2a: Magikarp
+|-status|p2a: Magikarp|tox
+|
+|-damage|p2a: Magikarp|82/100 tox|[from] psn
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+
+|
+|move|p2a: Magikarp|Tackle|p1a: Gliscor
+|-damage|p1a: Gliscor|96/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Magikarp
+|-damage|p2a: Magikarp|16/100 tox
+|
+|-damage|p2a: Magikarp|4/100 tox|[from] psn
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+
+|
+|move|p2a: Magikarp|Flail|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|64/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|
+|win|phanrider

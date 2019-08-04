@@ -1,0 +1,304 @@
+|init|battle
+|title|etetete vs. Kkusaka
+|j|☆etetete
+|j|☆Kkusaka
+|player|p1|etetete|170|2102
+|player|p2|Kkusaka|266|2077
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Castform|Castform, M|100/100
+|switch|p2a: Drifblim|Drifblim, L89, F|100/100
+|turn|1
+
+|l|☆Kkusaka
+
+|player|p2|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by etetete)
+
+|inactive|Kkusaka has 30 seconds to reconnect!
+
+|inactive|Kkusaka has 20 seconds to reconnect!
+
+|inactive|Kkusaka has 15 seconds to reconnect!
+
+|inactive|Kkusaka has 10 seconds to reconnect!
+
+|inactive|Kkusaka has 5 seconds to reconnect!
+
+|j|☆Kkusaka
+
+|inactive|Kkusaka reconnected and has 95 seconds left.
+
+|player|p2|Kkusaka|266
+
+|
+|move|p1a: Castform|Hail|p1a: Castform
+|-weather|Hail
+|-formechange|p1a: Castform|Castform-Snowy|[msg]|[from] ability: Forecast
+|move|p2a: Drifblim|Substitute|p2a: Drifblim
+|-start|p2a: Drifblim|Substitute
+|-damage|p2a: Drifblim|75/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifblim|69/100|[from] Hail
+|upkeep
+|turn|2
+
+|inactive|etetete has 120 seconds left.
+
+|inactive|etetete has 90 seconds left.
+
+|inactive|etetete has 60 seconds left.
+
+|
+|move|p1a: Castform|Blizzard|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-end|p2a: Drifblim|Substitute
+|move|p2a: Drifblim|Substitute|p2a: Drifblim
+|-start|p2a: Drifblim|Substitute
+|-damage|p2a: Drifblim|44/100
+|-enditem|p2a: Drifblim|Sitrus Berry|[eat]
+|-heal|p2a: Drifblim|69/100|[from] item: Sitrus Berry
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifblim|63/100|[from] Hail
+|upkeep
+|turn|3
+
+|
+|move|p2a: Drifblim|Acrobatics|p1a: Castform
+|-damage|p1a: Castform|62/100
+|move|p1a: Castform|Blizzard|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-end|p2a: Drifblim|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifblim|57/100|[from] Hail
+|upkeep
+|turn|4
+
+|inactive|etetete has 60 seconds left.
+
+|
+|move|p2a: Drifblim|Acrobatics|p1a: Castform
+|-damage|p1a: Castform|27/100
+|move|p1a: Castform|Blizzard|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko, L80|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|5
+
+|
+|switch|p1a: Zeraora|Zeraora, L82|100/100
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Zeraora
+|-immune|p1a: Zeraora|[from] ability: Volt Absorb
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Zeraora|Work Up|p1a: Zeraora
+|-boost|p1a: Zeraora|atk|1
+|-boost|p1a: Zeraora|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zeraora|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Gigalith
+|-damage|p2a: Gigalith|16/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|85/100|[from] item: Life Orb
+|move|p2a: Gigalith|Stealth Rock|p1a: Zeraora
+|-sidestart|p1: etetete|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zeraora|79/100|[from] Sandstorm
+|-heal|p2a: Gigalith|22/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|69/100|[from] item: Life Orb
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zeraora|63/100|[from] Sandstorm
+|upkeep
+
+|
+|switch|p2a: Lunala|Lunala, L78|100/100
+|turn|9
+
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Lunala
+|-damage|p2a: Lunala|51/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|53/100|[from] item: Life Orb
+|move|p2a: Lunala|Moongeist Beam|p1a: Zeraora
+|-damage|p1a: Zeraora|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zeraora|0 fnt|[from] Sandstorm
+|-damage|p2a: Lunala|45/100|[from] Sandstorm
+|faint|p1a: Zeraora
+|-heal|p2a: Lunala|51/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p1a: Sharpedo|Sharpedo, L82, M|100/100
+|-damage|p1a: Sharpedo|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p1a: Sharpedo|Waterfall|p2a: Lunala
+|-damage|p2a: Lunala|19/100
+|move|p2a: Lunala|Roost|p2a: Lunala
+|-heal|p2a: Lunala|69/100
+|-singleturn|p2a: Lunala|move: Roost
+|
+|-weather|none
+|-heal|p2a: Lunala|75/100|[from] item: Leftovers
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|11
+
+|
+|move|p1a: Sharpedo|Crunch|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko, L80|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|12
+
+|
+|move|p1a: Sharpedo|Destiny Bond|p1a: Sharpedo
+|-singlemove|p1a: Sharpedo|Destiny Bond
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Sharpedo
+|-supereffective|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Destiny Bond
+|faint|p2a: Tapu Koko
+|
+|upkeep
+
+|j| Jumpluff1
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|switch|p1a: Conkeldurr|Conkeldurr, L81, F|100/100
+|-damage|p1a: Conkeldurr|95/100|[from] Stealth Rock
+|turn|13
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L86, M|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|45/100
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Vaporeon
+|-damage|p1a: Conkeldurr|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Vaporeon|51/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Castform|Castform, M|27/100
+|-damage|p1a: Castform|15/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Castform
+|-damage|p1a: Castform|0 fnt
+|faint|p1a: Castform
+|
+|-heal|p2a: Vaporeon|57/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Omastar|Omastar, L88, M|100/100
+|-damage|p1a: Omastar|88/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: Omastar|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: Kkusaka|move: Stealth Rock
+|move|p2a: Vaporeon|Roar|p1a: Omastar
+|drag|p1a: Conkeldurr|Conkeldurr, L81, F|91/100
+|-damage|p1a: Conkeldurr|85/100|[from] Stealth Rock
+|
+|-heal|p2a: Vaporeon|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Vaporeon|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|43/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|11/100
+|-heal|p1a: Conkeldurr|74/100|[from] drain|[of] p2a: Vaporeon
+|-damage|p1a: Conkeldurr|64/100|[from] item: Life Orb
+|
+|-heal|p2a: Vaporeon|18/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|17
+
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-damage|p1a: Conkeldurr|54/100|[from] item: Life Orb
+|faint|p2a: Vaporeon
+|
+|upkeep
+
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L78, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|18
+
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L78, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Return|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|19/100
+|-damage|p1a: Conkeldurr|10/100
+|-hitcount|p1a: Conkeldurr|2
+|move|p1a: Conkeldurr|Drain Punch|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-heal|p1a: Conkeldurr|52/100|[from] drain|[of] p2a: Kangaskhan
+|-damage|p1a: Conkeldurr|42/100|[from] item: Life Orb
+|faint|p2a: Kangaskhan
+|
+|win|etetete

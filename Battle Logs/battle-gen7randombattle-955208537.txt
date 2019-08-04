@@ -1,0 +1,81 @@
+|init|battle
+|title|wsxdfcgvhbnjk vs. Guest 1391672
+|j|☆wsxdfcgvhbnjk
+|player|p1|wsxdfcgvhbnjk|266|1006
+|player|p2|Guest 1391672|169|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tapu Fini|Tapu Fini, L80|100/100
+|switch|p2a: Torkoal|Torkoal, L89, F|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Guest 1391672)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L80, F|100/100
+|move|p1a: Tapu Fini|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Tapu Fini|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tapu Fini|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Talonflame|Talonflame, L83, F|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Torkoal|Torkoal, L89, F|100/100
+|move|p1a: Talonflame|Flare Blitz|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|76/100
+|-damage|p1a: Talonflame|79/100|[from] Recoil
+|-damage|p1a: Talonflame|69/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Torkoal
+|-damage|p2a: Torkoal|48/100
+|-damage|p1a: Talonflame|57/100|[from] Recoil
+|-damage|p1a: Talonflame|48/100|[from] item: Life Orb
+|move|p2a: Torkoal|Yawn|p1a: Talonflame
+|-start|p1a: Talonflame|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|none
+|-heal|p2a: Torkoal|54/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|-message|wsxdfcgvhbnjk forfeited.
+|
+|win|Guest 1391672
+|l|☆wsxdfcgvhbnjk
+|raw|wsxdfcgvhbnjk's rating: 1006 &rarr; <strong>1000</strong><br />(-6 for losing)
+|raw|Guest 1391672's rating: 1040 &rarr; <strong>1071</strong><br />(+31 for winning)

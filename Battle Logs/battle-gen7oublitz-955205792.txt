@@ -1,0 +1,507 @@
+|init|battle
+|title|Hshhu873 vs. Chopsuey33
+|j|☆Hshhu873
+|j|☆Chopsuey33
+|player|p1|Hshhu873|161|1197
+|player|p2|Chopsuey33|101|1172
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU (Blitz)
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Marowak, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Diancie|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Yanmega, F|item
+|poke|p2|Pelipper, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Qwilfish, M|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Greninja, M|item
+|rule|Blitz: Super-fast timer
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Marowak|Marowak, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Hshhu873 has 30 seconds left this turn.
+|inactive|Chopsuey33 has 30 seconds left this turn.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hshhu873)
+|
+|move|p2a: Pelipper|U-turn|p1a: Marowak
+|-damage|p1a: Marowak|91/100
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 10 seconds left.
+|
+|switch|p2a: Swampert|Swampert, M|100/100|[from]move: U-turn
+|move|p1a: Marowak|Rock Tomb|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|83/100
+|-unboost|p2a: Swampert|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Hshhu873 has 10 seconds left.
+
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|detailschange|p2a: Swampert|Swampert-Mega, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Waterfall|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Hshhu873 has 10 seconds left.
+|inactive|Chopsuey33 has 10 seconds left.
+
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ninetales|Dark Pulse|p2a: Pelipper
+|-damage|p2a: Pelipper|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Hshhu873 has 10 seconds left.
+
+|
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Pelipper
+|move|p2a: Pelipper|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|22/100
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-hitcount|p1a: Ninetales|1
+|faint|p1a: Ninetales
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p1a: Yanmega|Yanmega, F|100/100
+|turn|7
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p1a: Yanmega|Protect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Greninja|Water Shuriken|p1a: Yanmega
+|-activate|p1a: Yanmega|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|8
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Yanmega|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|9
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|40/100
+|cant|p2a: Ferrothorn|flinch
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|10
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|13/100
+|-enditem|p2a: Ferrothorn|Iapapa Berry|[eat]
+|-heal|p2a: Ferrothorn|63/100|[from] item: Iapapa Berry
+|cant|p2a: Ferrothorn|flinch
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|11
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Hshhu873 has 10 seconds left.
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|38/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Yanmega
+|-sidestart|p1: Hshhu873|move: Stealth Rock
+|
+|-weather|none
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|12
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Ferrothorn|[miss]
+|-miss|p1a: Yanmega|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Yanmega
+|-damage|p1a: Yanmega|76/100
+|-enditem|p1a: Yanmega|Focus Sash|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|13
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Chopsuey33 has 10 seconds left.
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|10/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Yanmega
+|-start|p1a: Yanmega|move: Leech Seed
+|
+|-damage|p1a: Yanmega|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|22/100|[silent]
+|upkeep
+|turn|14
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Chopsuey33 has 10 seconds left.
+
+|
+|switch|p2a: Pelipper|Pelipper, M|76/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Yanmega|Bug Buzz|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|50/100
+|-unboost|p2a: Pelipper|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Yanmega|51/100|[from] Leech Seed|[of] p2a: Pelipper
+|-heal|p2a: Pelipper|62/100|[silent]
+|upkeep
+|turn|15
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Chopsuey33 has 10 seconds left.
+
+|
+|move|p1a: Yanmega|Ancient Power|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-boost|p1a: Yanmega|atk|1
+|-boost|p1a: Yanmega|def|1
+|-boost|p1a: Yanmega|spa|1
+|-boost|p1a: Yanmega|spd|1
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|22/100
+|turn|16
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p1a: Yanmega|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p2a: Greninja|Greninja-Ash, M|100/100
+|turn|17
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Yanmega
+|-damage|p1a: Yanmega|21/100
+|-damage|p1a: Yanmega|0 fnt
+|-hitcount|p1a: Yanmega|2
+|faint|p1a: Yanmega
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Hshhu873 has 10 seconds left.
+
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|turn|18
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Chopsuey33 has 10 seconds left.
+
+|
+|switch|p2a: Swampert|Swampert-Mega, M|83/100
+|move|p1a: Venusaur|Giga Drain|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Swampert
+|faint|p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p2a: Qwilfish|Qwilfish, M|100/100
+|turn|19
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Hshhu873 has 10 seconds left.
+|inactive|Chopsuey33 has 10 seconds left.
+
+|
+|move|p2a: Qwilfish|Liquidation|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|47/100
+|-damage|p2a: Qwilfish|91/100|[from] item: Life Orb
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|1
+|-boost|p1a: Venusaur|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p2a: Qwilfish|Explosion|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p2a: Qwilfish
+|faint|p1a: Venusaur
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|switch|p1a: Diancie|Diancie|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|turn|21
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p2a: Tapu Koko|U-turn|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|77/100
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p2a: Greninja|Greninja-Ash, M|100/100|[from]move: U-turn
+|move|p1a: Diancie|Earth Power|p2a: Greninja
+|-damage|p2a: Greninja|46/100
+|
+|-weather|none
+|upkeep
+|turn|22
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|30/100
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-hitcount|p1a: Diancie|2
+|faint|p1a: Diancie
+|
+|upkeep
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|23
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|52/100
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|31/100
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|9/100
+|-hitcount|p1a: Cloyster|3
+|move|p1a: Cloyster|Rock Blast|p2a: Greninja
+|-damage|p2a: Greninja|33/100
+|-damage|p2a: Greninja|21/100
+|-damage|p2a: Greninja|8/100
+|-damage|p2a: Greninja|0 fnt
+|-hitcount|p2a: Greninja|4
+|faint|p2a: Greninja
+|
+|upkeep
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Chopsuey33 has 10 seconds left.
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|turn|24
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|inactive|Chopsuey33 has 10 seconds left.
+
+|
+|switch|p1a: Marowak|Marowak, M|91/100
+|-damage|p1a: Marowak|85/100|[from] Stealth Rock
+|move|p2a: Tapu Koko|Thunder|p1a: Marowak
+|-ability|p1a: Marowak|Lightning Rod|boost
+|-boost|p1a: Marowak|spa|1
+|
+|upkeep
+|turn|25
+
+|inactive|Hshhu873 has 15 seconds left this turn.
+|inactive|Chopsuey33 has 15 seconds left this turn.
+
+|
+|-zpower|p2a: Tapu Koko
+|move|p2a: Tapu Koko|Guardian of Alola|p1a: Marowak|[zeffect]
+|-damage|p1a: Marowak|22/100
+|move|p1a: Marowak|Bonemerang|p2a: Tapu Koko
+|-supereffective|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|-hitcount|p2a: Tapu Koko|1
+|faint|p2a: Tapu Koko
+|
+|win|Hshhu873

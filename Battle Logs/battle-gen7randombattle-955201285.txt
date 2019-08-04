@@ -1,0 +1,561 @@
+|init|battle
+|title|NightStriker3709 vs. Daddyxdd
+|j|☆NightStriker3709
+|j|☆Daddyxdd
+|player|p1|NightStriker3709|134|1321
+|player|p2|Daddyxdd|170|1267
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|switch|p2a: Cinccino|Cinccino, L87, M|100/100
+|turn|1
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|-ability|p2a: Moltres|Pressure
+|move|p1a: Pheromosa|High Jump Kick|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|72/100
+|
+|-heal|p2a: Moltres|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Raticate|Raticate-Alola, L89, M|100/100
+|move|p2a: Moltres|Will-O-Wisp|p1a: Raticate
+|-status|p1a: Raticate|brn
+|
+|-heal|p2a: Moltres|84/100|[from] item: Leftovers
+|-damage|p1a: Raticate|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|59/100
+|move|p1a: Raticate|Knock Off|p2a: Moltres
+|-activate|p2a: Moltres|move: Substitute|[damage]
+|-damage|p1a: Raticate|85/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Moltres|65/100|[from] item: Leftovers
+|-damage|p1a: Raticate|79/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|move|p1a: Raticate|Knock Off|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|-damage|p1a: Raticate|69/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Raticate|63/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|76/100
+|move|p1a: Raticate|Knock Off|p2a: Moltres
+|-activate|p2a: Moltres|move: Substitute|[damage]
+|-damage|p1a: Raticate|53/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Moltres|82/100|[from] item: Leftovers
+|-damage|p1a: Raticate|47/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Moltres|Fire Blast|p1a: Raticate
+|-damage|p1a: Raticate|22/100 brn
+|move|p1a: Raticate|Knock Off|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|-damage|p1a: Raticate|12/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Moltres|88/100|[from] item: Leftovers
+|-damage|p1a: Raticate|6/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Raticate|Sucker Punch||[still]
+|-fail|p1a: Raticate
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|63/100
+|
+|-heal|p2a: Moltres|69/100|[from] item: Leftovers
+|-damage|p1a: Raticate|0 fnt|[from] brn
+|faint|p1a: Raticate
+|upkeep
+
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|8
+
+|
+|move|p2a: Moltres|Will-O-Wisp|p1a: Hippowdon
+|-status|p1a: Hippowdon|brn
+|move|p1a: Hippowdon|Stealth Rock|p2a: Moltres
+|-sidestart|p2: Daddyxdd|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|63/100|[from] Sandstorm
+|-heal|p2a: Moltres|69/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|move|p1a: Hippowdon|Whirlwind|p2a: Moltres
+|drag|p2a: Lunatone|Lunatone, L89|100/100
+|-damage|p2a: Lunatone|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Lunatone|94/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Lunatone|Psychic|p1a: Hippowdon
+|-damage|p1a: Hippowdon|53/100 brn
+|move|p1a: Hippowdon|Toxic|p2a: Lunatone|[miss]
+|-miss|p1a: Hippowdon|p2a: Lunatone
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Lunatone|100/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|53/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Lunatone|Psychic|p1a: Hippowdon
+|-damage|p1a: Hippowdon|13/100 brn
+|move|p1a: Hippowdon|Toxic|p2a: Lunatone
+|-status|p2a: Lunatone|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Lunatone|94/100 tox|[from] psn
+|-damage|p1a: Hippowdon|13/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p2a: Lunatone|Psychic|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|none
+|-heal|p2a: Lunatone|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Lunatone|88/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Shaymin|Shaymin, L84|100/100
+|turn|13
+
+|
+|move|p1a: Shaymin|Leech Seed|p2a: Lunatone
+|-start|p2a: Lunatone|move: Leech Seed
+|move|p2a: Lunatone|Psychic|p1a: Shaymin
+|-damage|p1a: Shaymin|69/100
+|
+|-heal|p1a: Shaymin|75/100|[from] item: Leftovers
+|-heal|p2a: Lunatone|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Lunatone|82/100 tox|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|88/100|[silent]
+|-damage|p2a: Lunatone|63/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Golisopod|Golisopod, L84, F|100/100
+|-damage|p2a: Golisopod|76/100|[from] Stealth Rock
+|move|p1a: Shaymin|Seed Flare|p2a: Golisopod
+|-damage|p2a: Golisopod|30/100
+|-unboost|p2a: Golisopod|spd|2
+|-activate|p2a: Golisopod|ability: Emergency Exit
+
+|
+|switch|p2a: Primeape|Primeape, L88, M|100/100
+|-damage|p2a: Primeape|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Shaymin|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Pheromosa|Pheromosa, L78|100/100
+|move|p2a: Primeape|Ice Punch|p1a: Pheromosa
+|-damage|p1a: Pheromosa|52/100
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Golisopod|Golisopod, L84, F|30/100
+|-damage|p2a: Golisopod|5/100|[from] Stealth Rock
+|move|p1a: Pheromosa|High Jump Kick|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|faint|p2a: Golisopod
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|
+|upkeep
+
+|
+|switch|p2a: Lunatone|Lunatone, L89|63/100 tox
+|-damage|p2a: Lunatone|51/100 tox|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Pheromosa|Bug Buzz|p2a: Lunatone
+|-supereffective|p2a: Lunatone
+|-damage|p2a: Lunatone|0 fnt
+|faint|p2a: Lunatone
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|
+|upkeep
+
+|
+|switch|p2a: Primeape|Primeape, L88, M|94/100
+|-damage|p2a: Primeape|88/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Pheromosa|High Jump Kick|p2a: Primeape
+|-damage|p2a: Primeape|17/100
+|move|p2a: Primeape|Close Combat|p1a: Pheromosa
+|-resisted|p1a: Pheromosa
+|-damage|p1a: Pheromosa|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|faint|p1a: Pheromosa
+|
+|upkeep
+
+|
+|switch|p1a: Shaymin|Shaymin, L84|94/100
+|turn|19
+
+|
+|move|p2a: Primeape|Close Combat|p1a: Shaymin
+|-damage|p1a: Shaymin|49/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Shaymin|Leech Seed|p2a: Primeape
+|-start|p2a: Primeape|move: Leech Seed
+|
+|-heal|p1a: Shaymin|55/100|[from] item: Leftovers
+|-damage|p2a: Primeape|4/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|65/100|[silent]
+|upkeep
+|turn|20
+
+|
+|move|p2a: Primeape|Close Combat|p1a: Shaymin
+|-damage|p1a: Shaymin|23/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Shaymin|Rest|p1a: Shaymin
+|-status|p1a: Shaymin|slp|[from] move: Rest
+|-heal|p1a: Shaymin|100/100 slp|[silent]
+|
+|-damage|p2a: Primeape|0 fnt|[from] Leech Seed|[of] p1a: Shaymin
+|faint|p2a: Primeape
+|upkeep
+
+|
+|switch|p2a: Moltres|Moltres, L82|100/100
+|-damage|p2a: Moltres|51/100|[from] Stealth Rock
+|-ability|p2a: Moltres|Pressure
+|turn|21
+
+|
+|switch|p1a: Scrafty|Scrafty, L86, F|100/100
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|26/100
+|
+|-heal|p2a: Moltres|32/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p2a: Moltres|Will-O-Wisp|p1a: Scrafty|[miss]
+|-miss|p2a: Moltres|p1a: Scrafty
+|move|p1a: Scrafty|Knock Off|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|
+|-heal|p2a: Moltres|38/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|88/100
+|-singleturn|p2a: Moltres|move: Roost
+|move|p1a: Scrafty|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|54/100
+|-enditem|p2a: Moltres|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Moltres|Will-O-Wisp|p1a: Scrafty
+|-status|p1a: Scrafty|brn
+|move|p1a: Scrafty|High Jump Kick|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|42/100
+|
+|-damage|p1a: Scrafty|95/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|17/100
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-heal|p1a: Scrafty|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|95/100 brn|[from] brn
+|upkeep
+|turn|26
+
+|
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|67/100
+|-singleturn|p2a: Moltres|move: Roost
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-heal|p1a: Scrafty|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|95/100 brn|[from] brn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Moltres|Fire Blast|p1a: Scrafty
+|-crit|p1a: Scrafty
+|-damage|p1a: Scrafty|34/100 brn
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-heal|p1a: Scrafty|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|34/100 brn|[from] brn
+|upkeep
+|turn|28
+
+|
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|move|p1a: Scrafty|Knock Off|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|
+|-heal|p1a: Scrafty|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|34/100 brn|[from] brn
+|upkeep
+|turn|29
+
+|
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|76/100
+|move|p1a: Scrafty|Knock Off|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|
+|-heal|p1a: Scrafty|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|34/100 brn|[from] brn
+|upkeep
+|turn|30
+
+|
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|51/100
+|move|p1a: Scrafty|Knock Off|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|
+|-heal|p1a: Scrafty|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|34/100 brn|[from] brn
+|upkeep
+|turn|31
+
+|
+|move|p2a: Moltres|Fire Blast|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+
+|
+|switch|p1a: Articuno|Articuno, L88|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|32
+
+|
+|move|p1a: Articuno|Hurricane|p2a: Moltres|[miss]
+|-miss|p1a: Articuno|p2a: Moltres
+|move|p2a: Moltres|Fire Blast|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|30/100
+|
+|-heal|p1a: Articuno|36/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p1a: Articuno|Hurricane|p2a: Moltres|[miss]
+|-miss|p1a: Articuno|p2a: Moltres
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|-heal|p1a: Articuno|42/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p1a: Articuno|Hurricane|p2a: Moltres
+|-damage|p2a: Moltres|56/100
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|31/100
+|
+|-heal|p1a: Articuno|48/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p1a: Articuno|Hurricane|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|81/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|-heal|p1a: Articuno|54/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|move|p1a: Articuno|Hurricane|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|12/100
+|-start|p2a: Moltres|confusion
+|-activate|p2a: Moltres|confusion
+|move|p2a: Moltres|Fire Blast|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|upkeep
+
+|
+|switch|p1a: Shaymin|Shaymin, L84|100/100
+|turn|37
+
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, M|100/100
+|-damage|p2a: Cinccino|88/100|[from] Stealth Rock
+|turn|38
+
+|
+|move|p2a: Cinccino|U-turn|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|51/100
+
+|
+|switch|p2a: Pheromosa|Pheromosa, L78|100/100|[from]move: U-turn
+|-damage|p2a: Pheromosa|88/100|[from] Stealth Rock
+|move|p1a: Shaymin|Leech Seed|p2a: Pheromosa
+|-start|p2a: Pheromosa|move: Leech Seed
+|
+|-heal|p1a: Shaymin|57/100|[from] item: Leftovers
+|-damage|p2a: Pheromosa|76/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|66/100|[silent]
+|upkeep
+|turn|39
+
+|
+|move|p2a: Pheromosa|U-turn|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|3/100
+
+|
+|switch|p2a: Cinccino|Cinccino, L87, M|88/100|[from]move: U-turn
+|-damage|p2a: Cinccino|75/100|[from] Stealth Rock
+|move|p1a: Shaymin|Rest|p1a: Shaymin
+|-status|p1a: Shaymin|slp|[from] move: Rest
+|-heal|p1a: Shaymin|100/100 slp|[silent]
+|
+|upkeep
+|turn|40
+
+|
+|move|p2a: Cinccino|Knock Off|p1a: Shaymin
+|-damage|p1a: Shaymin|67/100 slp
+|-enditem|p1a: Shaymin|Leftovers|[from] move: Knock Off|[of] p2a: Cinccino
+|cant|p1a: Shaymin|slp
+|
+|upkeep
+|turn|41
+
+|
+|switch|p2a: Pheromosa|Pheromosa, L78|76/100
+|-damage|p2a: Pheromosa|64/100|[from] Stealth Rock
+|cant|p1a: Shaymin|slp
+|
+|upkeep
+|turn|42
+
+|
+|move|p2a: Pheromosa|Poison Jab|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|22/100 slp
+|-curestatus|p1a: Shaymin|slp|[msg]
+|move|p1a: Shaymin|Seed Flare|p2a: Pheromosa
+|-resisted|p2a: Pheromosa
+|-damage|p2a: Pheromosa|17/100
+|
+|upkeep
+|turn|43
+
+|
+|move|p2a: Pheromosa|U-turn|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|faint|p1a: Shaymin
+|
+|win|Daddyxdd

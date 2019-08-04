@@ -1,0 +1,277 @@
+|init|battle
+|title|AsunaXI vs. Ashton1071884
+|j|☆AsunaXI
+|j|☆Ashton1071884
+|player|p1|AsunaXI|138|1091
+|player|p2|Ashton1071884|247|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Mewtwo|item
+|poke|p1|Chimecho, F|item
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Lapras, M|
+|poke|p1|Mawile, M|item
+|poke|p1|Goodra, F|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Electivire, F|item
+|poke|p2|Turtonator, M|item
+|poke|p2|Typhlosion, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Misfortune|Chimecho, F|100/100
+|switch|p2a: Typhlosion|Typhlosion, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Typhlosion|Eruption|p1a: Misfortune
+|-damage|p1a: Misfortune|16/100
+|move|p1a: Misfortune|Yawn|p2a: Typhlosion
+|-start|p2a: Typhlosion|move: Yawn|[of] p1a: Misfortune
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Goodra|Goodra, F|100/100
+|move|p2a: Typhlosion|Eruption|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|78/100
+|
+|-heal|p1a: Goodra|84/100|[from] item: Leftovers
+|-end|p2a: Typhlosion|move: Yawn|[silent]
+|-status|p2a: Typhlosion|slp
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Misfortune|Chimecho, F|16/100
+|cant|p2a: Typhlosion|slp
+|
+|upkeep
+|turn|4
+
+|
+|-curestatus|p2a: Typhlosion|slp|[msg]
+|move|p2a: Typhlosion|Eruption|p1a: Misfortune
+|-damage|p1a: Misfortune|0 fnt
+|faint|p1a: Misfortune
+|
+|upkeep
+
+|
+|switch|p1a: Goodra|Goodra, F|84/100
+|turn|5
+
+|
+|move|p2a: Typhlosion|Eruption|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|60/100
+|move|p1a: Goodra|Rain Dance|p1a: Goodra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goodra|67/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Volcan|Turtonator, M, shiny|100/100
+|move|p1a: Goodra|Infestation|p2a: Volcan
+|-resisted|p2a: Volcan
+|-damage|p2a: Volcan|96/100
+|-activate|p2a: Volcan|move: Infestation|[of] p1a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goodra|73/100|[from] item: Leftovers
+|-damage|p2a: Volcan|83/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+
+|
+|move|p1a: Goodra|Rest|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Rest
+|-heal|p1a: Goodra|100/100 slp|[silent]
+|move|p2a: Volcan|Draco Meteor|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|25/100 slp
+|-unboost|p2a: Volcan|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Goodra|ability: Hydration
+|-curestatus|p1a: Goodra|slp|[msg]
+|-heal|p1a: Goodra|31/100|[from] item: Leftovers
+|-damage|p2a: Volcan|71/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+
+|
+|move|p1a: Goodra|Rest|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Rest
+|-heal|p1a: Goodra|100/100 slp|[silent]
+|move|p2a: Volcan|Draco Meteor|p1a: Goodra|[miss]
+|-miss|p2a: Volcan|p1a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Goodra|ability: Hydration
+|-curestatus|p1a: Goodra|slp|[msg]
+|-damage|p2a: Volcan|59/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Volcan|Draco Meteor|p1a: Ninetales
+|-immune|p1a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcan|53/100|[from] Hail
+|-end|p2a: Volcan|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|10
+
+|
+|move|p1a: Ninetales|Freeze-Dry|p2a: Volcan
+|-damage|p2a: Volcan|15/100
+|move|p2a: Volcan|Solar Beam||[still]
+|-prepare|p2a: Volcan|Solar Beam|p1a: Ninetales
+|-enditem|p2a: Volcan|Power Herb
+|-anim|p2a: Volcan|Solar Beam|p1a: Ninetales
+|-damage|p1a: Ninetales|90/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcan|9/100|[from] Hail
+|upkeep
+|turn|11
+
+|
+|move|p1a: Ninetales|Freeze-Dry|p2a: Volcan
+|-damage|p2a: Volcan|0 fnt
+|faint|p2a: Volcan
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Typhlosion|Typhlosion, F, shiny|100/100
+|turn|12
+
+|
+|switch|p1a: Goodra|Goodra, F|100/100
+|move|p2a: Typhlosion|Eruption|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|78/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Typhlosion|94/100|[from] Hail
+|-damage|p1a: Goodra|72/100|[from] Hail
+|-heal|p1a: Goodra|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Mushroom face|Breloom, M, shiny|100/100
+|move|p1a: Goodra|Rain Dance|p1a: Goodra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goodra|84/100|[from] item: Leftovers
+|-status|p2a: Mushroom face|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+
+|
+|move|p2a: Mushroom face|Spore|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Spore
+|cant|p1a: Goodra|slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Goodra|ability: Hydration
+|-curestatus|p1a: Goodra|slp|[msg]
+|-heal|p1a: Goodra|90/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Mushroom face|Bullet Seed|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|84/100
+|-resisted|p1a: Goodra
+|-crit|p1a: Goodra
+|-damage|p1a: Goodra|74/100
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|68/100
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|61/100
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|55/100
+|-hitcount|p1a: Goodra|5
+|move|p1a: Goodra|Infestation|p2a: Mushroom face
+|-damage|p2a: Mushroom face|88/100 tox
+|-activate|p2a: Mushroom face|move: Infestation|[of] p1a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goodra|62/100|[from] item: Leftovers
+|-heal|p2a: Mushroom face|99/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mushroom face|88/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+
+|
+|move|p2a: Mushroom face|Drain Punch|p1a: Goodra
+|-damage|p1a: Goodra|25/100
+|-heal|p2a: Mushroom face|100/100 tox|[from] drain|[of] p1a: Goodra
+|move|p1a: Goodra|Sludge Bomb|p2a: Mushroom face
+|-supereffective|p2a: Mushroom face
+|-damage|p2a: Mushroom face|0 fnt
+|faint|p2a: Mushroom face
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goodra|31/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Electivire|Electivire, F, shiny|100/100
+|turn|17
+
+|
+|move|p2a: Electivire|Thunder Punch|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|turn|18
+
+|l|☆Ashton1071884
+
+|player|p2|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AsunaXI)
+
+|inactive|Ashton1071884 has 30 seconds to reconnect!
+
+|inactive|Ashton1071884 has 20 seconds to reconnect!
+
+|inactive|Ashton1071884 has 15 seconds to reconnect!
+
+|inactive|Ashton1071884 has 10 seconds to reconnect!
+
+|inactive|Ashton1071884 has 5 seconds to reconnect!
+
+|-message|Ashton1071884 lost due to inactivity.
+|
+|win|AsunaXI

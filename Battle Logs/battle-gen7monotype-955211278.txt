@@ -1,0 +1,557 @@
+|init|battle
+|title|alalalaladdin vs. Cheminee
+|j|☆alalalaladdin
+|j|☆Cheminee
+|player|p1|alalalaladdin|265|1000
+|player|p2|Cheminee|265|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Snorlax, F|item
+|poke|p1|Miltank, F|item
+|poke|p1|Tauros, M|item
+|poke|p1|Ambipom, M|
+|poke|p1|Pyroar, M|item
+|poke|p1|Braviary, M|item
+|poke|p2|Sandslash-Alola, M|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Weavile, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Rotom-Frost|item
+|poke|p2|Cloyster, M|item
+|teampreview
+|
+|start
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|switch|p2a: Sandslash|Sandslash-Alola, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Sandslash|Knock Off|p1a: Snorlax
+|-damage|p1a: Snorlax|73/100
+|-enditem|p1a: Snorlax|Aguav Berry|[from] move: Knock Off|[of] p2a: Sandslash
+|move|p1a: Snorlax|Belly Drum|p1a: Snorlax
+|-damage|p1a: Snorlax|23/100
+|-setboost|p1a: Snorlax|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Sandslash|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|upkeep
+
+|
+|switch|p1a: Tauros|Tauros, M|100/100
+|turn|3
+
+|
+|switch|p2a: Rotom|Rotom-Frost, shiny|100/100
+|move|p1a: Tauros|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Tauros|Smart Strike|p2a: Rotom
+|-damage|p2a: Rotom|80/100
+|move|p2a: Rotom|Volt Switch|p1a: Tauros
+|-damage|p1a: Tauros|21/100
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cheminee)
+
+|
+|switch|p2a: Sandslash|Sandslash-Alola, M, shiny|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Rotom|Rotom-Frost, shiny|80/100
+|move|p1a: Tauros|Smart Strike|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|46/100
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Pyroar|Pyroar, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Cheminee
+|move|p2a: Rotom|Volt Switch|p1a: Pyroar
+|-damage|p1a: Pyroar|22/100
+
+|
+|switch|p2a: Kyurem|Kyurem-Black, shiny|100/100|[from]move: Volt Switch
+|-ability|p2a: Kyurem|Teravolt
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Pyroar|Flamethrower|p2a: Kyurem
+|-damage|p2a: Kyurem|62/100
+|-damage|p1a: Pyroar|12/100|[from] item: Life Orb
+|move|p2a: Kyurem|Dragon Claw|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|upkeep
+
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|8
+
+|
+|switch|p2a: Mamoswine|Mamoswine, F, shiny|100/100
+|move|p1a: Braviary|Superpower|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|1/100
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|
+|-heal|p2a: Mamoswine|7/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|32/100
+|move|p1a: Braviary|Superpower|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|faint|p2a: Mamoswine
+|
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, F, shiny|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|10
+
+|
+|move|p2a: Weavile|Knock Off|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|-enditem|p1a: Braviary|Choice Band|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Braviary
+|
+|upkeep
+
+|
+|switch|p1a: Miltank|Miltank, F|100/100
+|turn|11
+
+|j| sincewfewguests3
+
+|
+|move|p2a: Weavile|Knock Off|p1a: Miltank
+|-damage|p1a: Miltank|63/100
+|-enditem|p1a: Miltank|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|81/100|[from] item: Life Orb
+|move|p1a: Miltank|Substitute|p1a: Miltank
+|-start|p1a: Miltank|Substitute
+|-damage|p1a: Miltank|39/100
+|
+|upkeep
+|turn|12
+
+|l|sincewfewguests3
+
+|
+|move|p2a: Weavile|Low Kick|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-end|p1a: Miltank|Substitute
+|-damage|p2a: Weavile|71/100|[from] item: Life Orb
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|89/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Weavile|Low Kick|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|45/100
+|-damage|p2a: Weavile|61/100|[from] item: Life Orb
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|95/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Weavile|Low Kick|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|57/100
+|-damage|p2a: Weavile|51/100|[from] item: Life Orb
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Weavile|Low Kick|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|58/100
+|-damage|p2a: Weavile|41/100|[from] item: Life Orb
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Weavile|Low Kick|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|60/100
+|-damage|p2a: Weavile|31/100|[from] item: Life Orb
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Weavile|Low Kick|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|57/100
+|-damage|p2a: Weavile|21/100|[from] item: Life Orb
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Weavile|Low Kick|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|55/100
+|-damage|p2a: Weavile|11/100|[from] item: Life Orb
+|move|p1a: Miltank|Double-Edge|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-damage|p1a: Miltank|53/100|[from] Recoil
+|faint|p2a: Weavile
+|
+|upkeep
+
+|j| sincefewguests3
+
+|
+|switch|p2a: Kyurem|Kyurem-Black, shiny|62/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|19
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|move|p2a: Kyurem|Freeze Shock||[still]
+|-prepare|p2a: Kyurem|Freeze Shock|p1a: Miltank
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Miltank|Substitute|p1a: Miltank
+|-start|p1a: Miltank|Substitute
+|-damage|p1a: Miltank|76/100
+|move|p2a: Kyurem|Freeze Shock|p1a: Miltank|[from]lockedmove
+|-end|p1a: Miltank|Substitute
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Rotom|Rotom-Frost, shiny|46/100
+|move|p1a: Miltank|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|40/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|move|p2a: Rotom|Blizzard|p1a: Miltank|[miss]
+|-miss|p2a: Rotom|p1a: Miltank
+|
+|-damage|p2a: Rotom|27/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|
+|move|p1a: Miltank|Substitute|p1a: Miltank
+|-start|p1a: Miltank|Substitute
+|-damage|p1a: Miltank|76/100
+|move|p2a: Rotom|Blizzard|p1a: Miltank
+|-end|p1a: Miltank|Substitute
+|
+|-damage|p2a: Rotom|8/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|move|p2a: Rotom|Blizzard|p1a: Miltank|[miss]
+|-miss|p2a: Rotom|p1a: Miltank
+|
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|faint|p2a: Rotom
+|upkeep
+
+|
+|switch|p2a: Cloyster|Cloyster, M, shiny|100/100
+|turn|25
+
+|
+|move|p1a: Miltank|Substitute|p1a: Miltank
+|-start|p1a: Miltank|Substitute
+|-damage|p1a: Miltank|76/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|upkeep
+|turn|26
+
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Miltank
+|-activate|p1a: Miltank|move: Substitute|[damage]
+|move|p1a: Miltank|Toxic|p2a: Cloyster
+|-status|p2a: Cloyster|tox
+|
+|-damage|p2a: Cloyster|94/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Miltank
+|-end|p1a: Miltank|Substitute
+|move|p1a: Miltank|Double-Edge|p2a: Cloyster
+|-damage|p2a: Cloyster|61/100 tox
+|-damage|p1a: Miltank|67/100|[from] Recoil
+|
+|-damage|p2a: Cloyster|49/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|move|p2a: Cloyster|Clamp|p1a: Miltank
+|-damage|p1a: Miltank|47/100
+|-activate|p1a: Miltank|move: Clamp|[of] p2a: Cloyster
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|97/100
+|
+|-damage|p2a: Cloyster|30/100 tox|[from] psn
+|-damage|p1a: Miltank|85/100|[from] move: Clamp|[partiallytrapped]
+|upkeep
+|turn|29
+
+|
+|move|p2a: Cloyster|Rock Blast|p1a: Miltank
+|-damage|p1a: Miltank|76/100
+|-damage|p1a: Miltank|67/100
+|-damage|p1a: Miltank|57/100
+|-damage|p1a: Miltank|48/100
+|-damage|p1a: Miltank|38/100
+|-hitcount|p1a: Miltank|5
+|move|p1a: Miltank|Substitute|p1a: Miltank
+|-start|p1a: Miltank|Substitute
+|-damage|p1a: Miltank|13/100
+|
+|-damage|p2a: Cloyster|5/100 tox|[from] psn
+|upkeep
+|turn|30
+
+|
+|move|p2a: Cloyster|Rock Blast|p1a: Miltank|[miss]
+|-miss|p2a: Cloyster|p1a: Miltank
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|63/100
+|
+|-damage|p2a: Cloyster|0 fnt|[from] psn
+|faint|p2a: Cloyster
+|upkeep
+
+|
+|switch|p2a: Sandslash|Sandslash-Alola, M, shiny|100/100
+|turn|31
+
+|
+|move|p1a: Miltank|Toxic|p2a: Sandslash
+|-immune|p2a: Sandslash
+|move|p2a: Sandslash|Icicle Crash|p1a: Miltank
+|-end|p1a: Miltank|Substitute
+|
+|upkeep
+|turn|32
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|move|p2a: Sandslash|Icicle Crash|p1a: Miltank
+|-damage|p1a: Miltank|75/100
+|
+|upkeep
+|turn|33
+
+|
+|move|p1a: Miltank|Substitute|p1a: Miltank
+|-start|p1a: Miltank|Substitute
+|-damage|p1a: Miltank|50/100
+|move|p2a: Sandslash|Icicle Crash|p1a: Miltank
+|-end|p1a: Miltank|Substitute
+|
+|upkeep
+|turn|34
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|99/100
+|move|p2a: Sandslash|Icicle Crash|p1a: Miltank
+|-crit|p1a: Miltank
+|-damage|p1a: Miltank|61/100
+|
+|upkeep
+|turn|35
+
+|
+|switch|p1a: Ambipom|Ambipom, M|100/100
+|move|p2a: Sandslash|Icicle Crash|p1a: Ambipom
+|-damage|p1a: Ambipom|30/100
+|
+|upkeep
+|turn|36
+
+|
+|move|p1a: Ambipom|Fake Out|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|90/100
+|cant|p2a: Sandslash|flinch
+|
+|upkeep
+|turn|37
+
+|
+|move|p1a: Ambipom|Acrobatics|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|78/100
+|move|p2a: Sandslash|Icicle Crash|p1a: Ambipom
+|-damage|p1a: Ambipom|0 fnt
+|faint|p1a: Ambipom
+|
+|upkeep
+
+|
+|switch|p1a: Tauros|Tauros, M|21/100
+|turn|38
+
+|
+|move|p1a: Tauros|Earthquake|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|27/100
+|move|p2a: Sandslash|Icicle Crash|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+
+|
+|switch|p1a: Miltank|Miltank, F|61/100
+|turn|39
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|move|p2a: Sandslash|Icicle Crash|p1a: Miltank
+|-damage|p1a: Miltank|76/100
+|
+|upkeep
+|turn|40
+
+|
+|move|p1a: Miltank|Double-Edge|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|13/100
+|-damage|p1a: Miltank|72/100|[from] Recoil
+|move|p2a: Sandslash|Icicle Crash|p1a: Miltank
+|-damage|p1a: Miltank|47/100
+|
+|upkeep
+|turn|41
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|97/100
+|move|p2a: Sandslash|Icicle Crash|p1a: Miltank
+|-damage|p1a: Miltank|72/100
+|
+|upkeep
+|turn|42
+
+|
+|move|p1a: Miltank|Double-Edge|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-damage|p1a: Miltank|69/100|[from] Recoil
+|faint|p2a: Sandslash
+|
+|upkeep
+
+|
+|switch|p2a: Kyurem|Kyurem-Black, shiny|62/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|43
+
+|
+|move|p1a: Miltank|Substitute|p1a: Miltank
+|-start|p1a: Miltank|Substitute
+|-damage|p1a: Miltank|44/100
+|move|p2a: Kyurem|Dragon Claw|p1a: Miltank
+|-end|p1a: Miltank|Substitute
+|
+|upkeep
+|turn|44
+
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|94/100
+|move|p2a: Kyurem|Dragon Claw|p1a: Miltank
+|-damage|p1a: Miltank|46/100
+|
+|upkeep
+|turn|45
+
+|
+|move|p1a: Miltank|Toxic|p2a: Kyurem
+|-status|p2a: Kyurem|tox
+|move|p2a: Kyurem|Dragon Claw|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|faint|p1a: Miltank
+|
+|win|Cheminee

@@ -1,0 +1,48 @@
+|init|battle
+|title|arturodelaisla vs. zappattack
+|j|☆arturodelaisla
+|j|☆zappattack
+|player|p1|arturodelaisla|281|1751
+|player|p2|zappattack|52|1524
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, L77, M|100/100
+|switch|p1b: Diancie|Diancie, L70|100/100
+|switch|p2a: Tangrowth|Tangrowth, L76, M|100/100
+|switch|p2b: Articuno|Articuno, L71|100/100
+|-ability|p2b: Articuno|Pressure
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arturodelaisla)
+
+|
+|switch|p2b: Nidoking|Nidoking, L79, M|100/100
+|detailschange|p1b: Diancie|Diancie-Mega, L70
+|-mega|p1b: Diancie|Diancie|Diancite
+|move|p1b: Diancie|Diamond Storm|p2a: Tangrowth|[spread] p2a,p2b
+|-resisted|p2b: Nidoking
+|-damage|p2a: Tangrowth|75/100
+|-damage|p2b: Nidoking|82/100
+|-boost|p1b: Diancie|def|2
+|move|p2a: Tangrowth|Power Whip|p1b: Diancie|[miss]
+|-miss|p2a: Tangrowth|p1b: Diancie
+|move|p1a: Hippowdon|Whirlwind|p2a: Tangrowth
+|drag|p2a: Raichu|Raichu, L81, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raichu|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+
+|-message|zappattack forfeited.
+
+|
+|win|arturodelaisla

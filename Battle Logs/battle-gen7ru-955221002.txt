@@ -1,0 +1,74 @@
+|init|battle
+|title|QueenRavenna vs. Starlord123
+|j|☆QueenRavenna
+|j|☆Starlord123
+|player|p1|QueenRavenna|65|1092
+|player|p2|Starlord123|101|1178
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Purugly, M|item
+|poke|p1|Ribombee, M|item
+|poke|p1|Milotic, F|item
+|poke|p1|Forretress, F|item
+|poke|p1|Arcanine, M|item
+|poke|p1|Toxicroak, F|item
+|poke|p2|Tyrantrum, F|item
+|poke|p2|Sceptile, F|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Yanmega, F|item
+|poke|p2|Bewear, M|item
+|poke|p2|Rotom-Mow|item
+|teampreview
+|
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Sceptile|Sceptile, F|100/100
+|turn|1
+
+|
+|switch|p2a: Yanmega|Yanmega, F|100/100
+|move|p1a: Ribombee|Sticky Web|p2a: Yanmega
+|-sidestart|p2: Starlord123|move: Sticky Web
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Yanmega|Air Slash|p1a: Forretress
+|-damage|p1a: Forretress|7/100
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Yanmega|Air Slash|p1a: Milotic
+|-damage|p1a: Milotic|48/100
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+
+|c|☆Starlord123|Wow
+
+|-message|QueenRavenna forfeited.
+
+|
+|win|Starlord123

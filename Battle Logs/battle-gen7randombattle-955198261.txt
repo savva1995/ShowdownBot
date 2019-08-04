@@ -1,0 +1,240 @@
+|init|battle
+|title|Ivensus vs. Koxa
+|j|☆Ivensus
+|j|☆Koxa
+|player|p1|Ivensus|169|1000
+|player|p2|Koxa|92|1019
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Glalie|Glalie, L86, F|100/100
+|switch|p2a: Dedenne|Dedenne, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ivensus)
+
+|
+|switch|p2a: Breloom|Breloom, L81, M|100/100
+|detailschange|p1a: Glalie|Glalie-Mega, L86, F
+|-mega|p1a: Glalie|Glalie|Glalitite
+|move|p1a: Glalie|Freeze-Dry|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+
+|
+|switch|p2a: Skuntank|Skuntank, L88, M|100/100
+|turn|2
+
+|
+|move|p1a: Glalie|Earthquake|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|43/100
+|move|p2a: Skuntank|Fire Blast|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-crit|p1a: Glalie
+|-damage|p1a: Glalie|15/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Glalie|Earthquake|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+
+|
+|switch|p2a: Vivillon|Vivillon, L86, M|100/100
+|turn|4
+
+|
+|move|p1a: Glalie|Return|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|
+|upkeep
+
+|
+|switch|p2a: Flygon|Flygon, L84, M|100/100
+|turn|5
+
+|
+|move|p1a: Glalie|Return|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L78|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|6
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Naganadel|Naganadel, L78|100/100
+|turn|7
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Naganadel
+|-resisted|p1a: Naganadel
+|-damage|p1a: Naganadel|22/100
+|move|p1a: Naganadel|Dragon Pulse|p2a: Kyogre
+|-damage|p2a: Kyogre|67/100
+|-damage|p1a: Naganadel|12/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Naganadel
+|-resisted|p1a: Naganadel
+|-damage|p1a: Naganadel|0 fnt
+|faint|p1a: Naganadel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Primeape|Primeape, L88, F|100/100
+|turn|9
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Aromatisse|Aromatisse, L87, F|100/100
+|turn|10
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Aromatisse
+|-damage|p1a: Aromatisse|43/100
+|move|p1a: Aromatisse|Aromatherapy||[still]
+|-activate|p1a: Aromatisse|move: Aromatherapy
+|-fail|p1a: Aromatisse
+|
+|-weather|none
+|-heal|p1a: Aromatisse|49/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Aromatisse
+|-damage|p1a: Aromatisse|7/100
+|move|p1a: Aromatisse|Moonblast|p2a: Kyogre
+|-damage|p2a: Kyogre|40/100
+|-unboost|p2a: Kyogre|spa|1
+|
+|-heal|p1a: Aromatisse|13/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|upkeep
+
+|
+|switch|p1a: Mantine|Mantine, L84, F|100/100
+|turn|13
+
+|
+|move|p2a: Kyogre|Water Spout|p1a: Mantine
+|-immune|p1a: Mantine|[from] ability: Water Absorb
+|move|p1a: Mantine|Air Slash|p2a: Kyogre
+|-damage|p2a: Kyogre|22/100
+|
+|upkeep
+|turn|14
+
+|
+|-activate|p2a: Kyogre|move: Struggle
+|move|p2a: Kyogre|Struggle|p1a: Mantine
+|-damage|p1a: Mantine|90/100
+|-damage|p2a: Kyogre|0 fnt|[from] recoil
+|faint|p2a: Kyogre
+|move|p1a: Mantine|Air Slash|p2: Kyogre|[notarget]
+|-fail|p1a: Mantine
+|
+|-heal|p1a: Mantine|96/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Dedenne|Dedenne, L89, M|100/100
+|turn|15
+
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|13/100
+|move|p1a: Mantine|Toxic|p2a: Dedenne
+|-status|p2a: Dedenne|tox
+|
+|-heal|p1a: Mantine|19/100|[from] item: Leftovers
+|-damage|p2a: Dedenne|94/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|-damage|p2a: Dedenne|82/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Chandelure|Chandelure, L82, M|100/100
+|turn|17
+
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Chandelure
+|-crit|p1a: Chandelure
+|-damage|p1a: Chandelure|41/100
+|move|p1a: Chandelure|Fire Blast|p2a: Dedenne
+|-damage|p2a: Dedenne|19/100 tox
+|-enditem|p2a: Dedenne|Petaya Berry|[eat]
+|-boost|p2a: Dedenne|spa|1
+|-heal|p2a: Dedenne|53/100 tox|[from] ability: Cheek Pouch
+|
+|-heal|p1a: Chandelure|47/100|[from] item: Leftovers
+|-damage|p2a: Dedenne|35/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|win|Koxa

@@ -1,0 +1,145 @@
+|init|battle
+|title|tero57 vs. LEO MESPRIT
+|j|☆tero57
+|j|☆LEO MESPRIT
+|player|p1|tero57|275|1369
+|player|p2|LEO MESPRIT|1|1196
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, M|item
+|poke|p1|Raichu, L50, F|item
+|poke|p1|Kyogre, L50|item
+|poke|p1|Lunala, L50|item
+|poke|p1|Tapu Lele, L50|item
+|poke|p1|Gengar, L50, M|item
+|poke|p2|Groudon, L50|item
+|poke|p2|Lunala, L50|item
+|poke|p2|Lopunny, L50, F|item
+|poke|p2|Bronzong, L50|item
+|poke|p2|Tapu Fini, L50|item
+|poke|p2|Incineroar, L50, F|item
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tero57)
+|
+|start
+|switch|p1a: Kyogre|Kyogre, L50|48/48
+|switch|p1b: Gengar|Gengar, L50, M|48/48
+|switch|p2a: Lunala|Lunala, L50|48/48
+|switch|p2b: Lopunny|Lopunny, L50, F|48/48
+|detailschange|p1a: Kyogre|Kyogre-Primal, L50
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|1
+
+|inactive|LEO MESPRIT has 30 seconds left.
+
+|inactive|LEO MESPRIT has 20 seconds left.
+
+|inactive|LEO MESPRIT has 15 seconds left.
+
+|inactive|LEO MESPRIT has 10 seconds left.
+
+|
+|detailschange|p2b: Lopunny|Lopunny-Mega, L50, F
+|-mega|p2b: Lopunny|Lopunny|Lopunnite
+|move|p1b: Gengar|Protect|p1b: Gengar
+|-singleturn|p1b: Gengar|Protect
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2b: Lopunny|Fake Out|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|2
+
+|inactive|tero57 has 30 seconds left.
+
+|inactive|tero57 has 20 seconds left.
+
+|inactive|tero57 has 15 seconds left.
+
+|
+|-weather|none
+|switch|p1a: Lunala|Lunala, L50|48/48
+|switch|p2b: Groudon|Groudon, L50|48/48
+|detailschange|p2b: Groudon|Groudon-Primal, L50
+|-primal|p2b: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2b: Groudon
+|move|p2a: Lunala|Moongeist Beam|p1b: Gengar
+|-supereffective|p1b: Gengar
+|-enditem|p1b: Gengar|Focus Sash
+|-damage|p1b: Gengar|1/48
+|move|p1b: Gengar|Shadow Ball|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|20/48
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+
+|
+|switch|p1b: Kyogre|Kyogre-Primal, L50|48/48
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1b: Kyogre
+|move|p2b: Groudon|Precipice Blades|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|34/48
+|-damage|p1b: Kyogre|13/48
+|-zpower|p2a: Lunala
+|move|p2a: Lunala|Menacing Moonraze Maelstrom|p1a: Lunala|[zeffect]
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L50, M|48/48
+|-ability|p1a: Aerodactyl|Unnerve|p2: LEO MESPRIT
+|turn|4
+
+|
+|switch|p2b: Bronzong|Bronzong, L50|48/48
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L50, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Lunala|Moongeist Beam|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p1a: Aerodactyl|Rock Slide|p2b: Bronzong|[spread] p2a,p2b
+|-resisted|p2b: Bronzong
+|-damage|p2a: Lunala|8/48
+|-damage|p2b: Bronzong|41/48
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|5
+
+|
+|-weather|none
+|switch|p1b: Gengar|Gengar, L50, M|1/48
+|move|p2b: Bronzong|Gyro Ball|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|move|p2a: Lunala|Moongeist Beam|p1b: Gengar
+|-supereffective|p1b: Gengar
+|-damage|p1b: Gengar|0 fnt
+|faint|p1b: Gengar
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|-message|tero57 forfeited.
+
+|
+|win|LEO MESPRIT

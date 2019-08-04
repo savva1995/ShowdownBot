@@ -1,0 +1,678 @@
+|init|battle
+|title|PkRandy vs. BrittneySpearsVevo
+|j|☆PkRandy
+|j|☆BrittneySpearsVevo
+|player|p1|PkRandy|170|1209
+|player|p2|BrittneySpearsVevo|37|1166
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Sableye, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Celesteela|item
+|poke|p2|Gardevoir, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Cradily, M|item
+|teampreview
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|-ability|p2a: Gardevoir|Electric Surge|[from] ability: Trace|[of] p1a: Tapu Koko
+|turn|1
+|
+|switch|p2a: Cradily|Cradily, M|100/100
+|move|p1a: Tapu Koko|Volt Switch|p2a: Cradily
+|-resisted|p2a: Cradily
+|-damage|p2a: Cradily|87/100
+
+|
+|switch|p1a: Sableye|Sableye, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Cradily|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|detailschange|p1a: Sableye|Sableye-Mega, M
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p2a: Cradily|Giga Drain|p1a: Sableye
+|-damage|p1a: Sableye|83/100
+|-heal|p2a: Cradily|99/100|[from] drain|[of] p1a: Sableye
+|move|p1a: Sableye|Knock Off|p2a: Cradily
+|-damage|p2a: Cradily|74/100
+|-enditem|p2a: Cradily|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Cradily|Giga Drain|p1a: Sableye
+|-damage|p1a: Sableye|67/100
+|-heal|p2a: Cradily|81/100|[from] drain|[of] p1a: Sableye
+|move|p1a: Sableye|Will-O-Wisp|p2a: Cradily
+|-status|p2a: Cradily|brn
+|
+|-damage|p2a: Cradily|75/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Cradily|Toxic|p1a: Sableye
+|move|p1a: Sableye|Toxic||[from]Magic Bounce|[still]
+|-fail|p1a: Sableye
+|move|p1a: Sableye|Knock Off|p2a: Cradily
+|-damage|p2a: Cradily|55/100 brn
+|
+|-damage|p2a: Cradily|49/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Cradily|Recover|p2a: Cradily
+|-heal|p2a: Cradily|99/100 brn
+|move|p1a: Sableye|Knock Off|p2a: Cradily
+|-damage|p2a: Cradily|82/100 brn
+|
+|-damage|p2a: Cradily|76/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|
+|move|p2a: Cradily|Giga Drain|p1a: Sableye
+|-damage|p1a: Sableye|50/100
+|-heal|p2a: Cradily|83/100 brn|[from] drain|[of] p1a: Sableye
+|move|p1a: Sableye|Knock Off|p2a: Cradily
+|-damage|p2a: Cradily|65/100 brn
+|
+|-damage|p2a: Cradily|58/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Cradily|Recover|p2a: Cradily
+|-heal|p2a: Cradily|100/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|
+|-damage|p2a: Cradily|94/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100
+|move|p2a: Cradily|Giga Drain|p1a: Gliscor
+|-damage|p1a: Gliscor|78/100
+|-heal|p2a: Cradily|100/100 brn|[from] drain|[of] p1a: Gliscor
+|
+|-damage|p2a: Cradily|94/100 brn|[from] brn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|9
+
+|
+|move|p1a: Gliscor|Stealth Rock|p2a: Cradily
+|-sidestart|p2: BrittneySpearsVevo|move: Stealth Rock
+|move|p2a: Cradily|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: PkRandy|move: Stealth Rock
+|
+|-heal|p1a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Cradily|88/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|move|p2a: Cradily|Giga Drain|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|65/100
+|-heal|p2a: Cradily|94/100 brn|[from] drain|[of] p1a: Tornadus
+|
+|-damage|p2a: Cradily|87/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Tornadus|Hurricane|p2a: Cradily|[miss]
+|-miss|p1a: Tornadus|p2a: Cradily
+|move|p2a: Cradily|Toxic|p1a: Tornadus
+|-status|p1a: Tornadus|tox
+|
+|-damage|p1a: Tornadus|59/100 tox|[from] psn
+|-damage|p2a: Cradily|81/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Tornadus|Hurricane|p2a: Cradily|[miss]
+|-miss|p1a: Tornadus|p2a: Cradily
+|move|p2a: Cradily|Recover|p2a: Cradily
+|-heal|p2a: Cradily|100/100 brn
+|
+|-damage|p1a: Tornadus|46/100 tox|[from] psn
+|-damage|p2a: Cradily|94/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Tornadus|U-turn|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|65/100 brn
+
+|
+|switch|p1a: Clefable|Clefable, F, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Clefable|88/100|[from] Stealth Rock
+|move|p2a: Cradily|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|67/100
+|-heal|p2a: Cradily|76/100 brn|[from] drain|[of] p1a: Clefable
+|
+|-heal|p1a: Clefable|73/100|[from] item: Leftovers
+|-damage|p2a: Cradily|70/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Celesteela|Celesteela|100/100
+|-damage|p2a: Celesteela|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|79/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Celesteela|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|56/100
+|-heal|p2a: Celesteela|100/100|[from] drain|[of] p1a: Clefable
+|move|p1a: Clefable|Heal Bell|p1a: Clefable
+|-activate|p1a: Clefable|move: Heal Bell
+|-curestatus|p1: Tornadus|tox|[msg]
+|-curestatus|p1: Gliscor|tox|[msg]
+|
+|-heal|p1a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-damage|p1a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tapu Koko|atk|1
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Landorus|U-turn|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|73/100
+
+|
+|switch|p2a: Cradily|Cradily, M|70/100 brn|[from]move: U-turn
+|-damage|p2a: Cradily|58/100 brn|[from] Stealth Rock
+|move|p1a: Tapu Koko|Hidden Power|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|39/100 brn
+|
+|-damage|p2a: Cradily|33/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Cradily
+|-resisted|p2a: Cradily
+|-crit|p2a: Cradily
+|-damage|p2a: Cradily|7/100 brn
+|move|p2a: Cradily|Recover|p2a: Cradily
+|-heal|p2a: Cradily|57/100 brn
+|
+|-damage|p2a: Cradily|50/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Tapu Koko|Defog|p2a: Cradily
+|-unboost|p2a: Cradily|evasion|1
+|-sideend|p2: BrittneySpearsVevo|Stealth Rock|[from] move: Defog|[of] p1a: Tapu Koko
+|-sideend|p1: PkRandy|Stealth Rock|[from] move: Defog|[of] p1a: Tapu Koko
+|move|p2a: Cradily|Recover|p2a: Cradily
+|-heal|p2a: Cradily|100/100 brn
+|
+|-damage|p2a: Cradily|94/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Electric Surge|[from] ability: Trace|[of] p1a: Tapu Koko
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Gardevoir
+|move|p1a: Tapu Koko|Volt Switch|p2a: Gardevoir
+|-damage|p2a: Gardevoir|55/100
+
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|22
+
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, F
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Gardevoir|Psyshock|p1a: Volcarona
+|-damage|p1a: Volcarona|45/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|24
+
+|
+|-zpower|p1a: Volcarona
+|move|p1a: Volcarona|Savage Spin-Out|p2a: Toxapex|[zeffect]
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|68/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+
+|
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|95/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: Toxapex|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|-damage|p1a: Volcarona|89/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|91/100
+|move|p2a: Toxapex|Scald|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|53/100
+|
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|27
+
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Gliscor|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: BrittneySpearsVevo|move: Stealth Rock
+|
+|-heal|p1a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Gliscor
+|-damage|p1a: Gliscor|4/100 tox
+|move|p1a: Gliscor|Stone Edge|p2a: Hydreigon
+|-damage|p2a: Hydreigon|77/100
+|
+|-heal|p1a: Gliscor|17/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+
+|
+|switch|p1a: Clefable|Clefable, F, shiny|100/100
+|move|p2a: Hydreigon|Fire Blast|p1a: Clefable|[miss]
+|-miss|p2a: Hydreigon|p1a: Clefable
+|
+|upkeep
+|turn|30
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Heal Bell|p1a: Clefable
+|-activate|p1a: Clefable|move: Heal Bell
+|-curestatus|p1: Gliscor|tox|[msg]
+|-curestatus|p1: Volcarona|tox|[msg]
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Toxapex|Scald|p1a: Clefable
+|-damage|p1a: Clefable|84/100
+|
+|-heal|p1a: Clefable|90/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|73/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Toxapex|Scald|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|49/100
+|
+|-heal|p1a: Tapu Koko|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|33
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tapu Koko|atk|1
+|move|p1a: Tapu Koko|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|3/100
+|
+|upkeep
+|turn|34
+
+|
+|move|p2a: Landorus|Explosion|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p2a: Landorus
+|faint|p1a: Tapu Koko
+|
+|upkeep
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|80/100
+|switch|p2a: Hydreigon|Hydreigon, M|77/100
+|-damage|p2a: Hydreigon|65/100|[from] Stealth Rock
+|turn|35
+
+|
+|move|p1a: Tornadus|Hurricane|p2a: Hydreigon|[miss]
+|-miss|p1a: Tornadus|p2a: Hydreigon
+|move|p2a: Hydreigon|Flash Cannon|p1a: Tornadus
+|-damage|p1a: Tornadus|36/100
+|
+|upkeep
+|turn|36
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Tornadus|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|17/100|[from]move: U-turn
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|-fieldend|move: Electric Terrain
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|37
+
+|
+|switch|p1a: Sableye|Sableye-Mega, M|100/100
+|move|p2a: Toxapex|Scald|p1a: Sableye
+|-damage|p1a: Sableye|89/100
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+
+|
+|move|p2a: Toxapex|Scald|p1a: Sableye
+|-damage|p1a: Sableye|77/100
+|move|p1a: Sableye|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|39
+
+|
+|move|p2a: Toxapex|Scald|p1a: Sableye
+|-damage|p1a: Sableye|66/100
+|-status|p1a: Sableye|brn
+|move|p1a: Sableye|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|
+|-damage|p2a: Toxapex|64/100 brn|[from] brn
+|-damage|p1a: Sableye|60/100 brn|[from] brn
+|upkeep
+|turn|40
+
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Sableye|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100 brn
+|
+|-damage|p2a: Toxapex|87/100 brn|[from] brn
+|-damage|p1a: Sableye|54/100 brn|[from] brn
+|upkeep
+|turn|41
+
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100 brn
+|
+|-damage|p2a: Toxapex|81/100 brn|[from] brn
+|-damage|p1a: Sableye|95/100 brn|[from] brn
+|upkeep
+|turn|42
+
+|
+|move|p2a: Toxapex|Scald|p1a: Sableye
+|-damage|p1a: Sableye|81/100 brn
+|move|p1a: Sableye|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100 brn
+|
+|-damage|p2a: Toxapex|68/100 brn|[from] brn
+|-damage|p1a: Sableye|75/100 brn|[from] brn
+|upkeep
+|turn|43
+
+|
+|move|p2a: Toxapex|Toxic|p1a: Sableye
+|move|p1a: Sableye|Toxic||[from]Magic Bounce|[still]
+|-fail|p1a: Sableye
+|move|p1a: Sableye|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100 brn
+|
+|-damage|p2a: Toxapex|54/100 brn|[from] brn
+|-damage|p1a: Sableye|69/100 brn|[from] brn
+|upkeep
+|turn|44
+
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100 brn
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Sableye|95/100 brn|[from] brn
+|upkeep
+|turn|45
+
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Sableye|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|87/100 brn
+|
+|-damage|p2a: Toxapex|80/100 brn|[from] brn
+|-damage|p1a: Sableye|89/100 brn|[from] brn
+|upkeep
+|turn|46
+
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Sableye|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100 brn
+|
+|-damage|p2a: Toxapex|67/100 brn|[from] brn
+|-damage|p1a: Sableye|83/100 brn|[from] brn
+|upkeep
+|turn|47
+
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Sableye|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100 brn
+|
+|-damage|p2a: Toxapex|53/100 brn|[from] brn
+|-damage|p1a: Sableye|77/100 brn|[from] brn
+|upkeep
+|turn|48
+
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|17/100 tox
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|49
+
+|
+|move|p1a: Gliscor|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|15/100 brn
+|move|p2a: Toxapex|Scald|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Toxapex|8/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|69/100
+|turn|50
+
+|
+|switch|p2a: Cradily|Cradily, M|94/100 brn
+|-damage|p2a: Cradily|82/100 brn|[from] Stealth Rock
+|move|p1a: Tornadus|Hurricane|p2a: Cradily
+|-damage|p2a: Cradily|58/100 brn
+|-start|p2a: Cradily|confusion
+|
+|-damage|p2a: Cradily|52/100 brn|[from] brn
+|upkeep
+|turn|51
+
+|
+|move|p1a: Tornadus|U-turn|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|24/100 brn
+
+|
+|switch|p1a: Volcarona|Volcarona, F|89/100|[from]move: U-turn
+|-activate|p2a: Cradily|confusion
+|move|p2a: Cradily|Recover|p2a: Cradily
+|-heal|p2a: Cradily|74/100 brn
+|
+|-damage|p2a: Cradily|68/100 brn|[from] brn
+|upkeep
+|turn|52
+
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|-activate|p2a: Cradily|confusion
+|-damage|p2a: Cradily|65/100 brn|[from] confusion
+|
+|-damage|p2a: Cradily|59/100 brn|[from] brn
+|upkeep
+|turn|53
+
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|-end|p2a: Cradily|confusion
+|move|p2a: Cradily|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-damage|p1a: Volcarona|83/100 tox|[from] psn
+|-damage|p2a: Cradily|53/100 brn|[from] brn
+|upkeep
+|turn|54
+
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|0 fnt
+|faint|p2a: Cradily
+|
+|-damage|p1a: Volcarona|70/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, F|42/100 brn
+|-damage|p2a: Toxapex|29/100 brn|[from] Stealth Rock
+|turn|55
+
+|-message|BrittneySpearsVevo forfeited.
+
+|
+|win|PkRandy

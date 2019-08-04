@@ -1,0 +1,37 @@
+|init|battle
+|title|Hydoablaster vs. ttommyggee
+|j|☆Hydoablaster
+|j|☆ttommyggee
+|player|p1|Hydoablaster|169|1251
+|player|p2|ttommyggee|252|1270
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Crobat|Crobat, L82, F|100/100
+|switch|p2a: Chimecho|Chimecho, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ttommyggee)
+
+|
+|move|p1a: Crobat|Brave Bird|p2a: Chimecho
+|-damage|p2a: Chimecho|56/100
+|-damage|p1a: Crobat|86/100|[from] Recoil
+|move|p2a: Chimecho|Psychic|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|-heal|p2a: Chimecho|62/100|[from] item: Leftovers
+|upkeep
+
+|-message|Hydoablaster forfeited.
+
+|
+|win|ttommyggee

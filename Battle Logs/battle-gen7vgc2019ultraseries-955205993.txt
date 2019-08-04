@@ -1,0 +1,288 @@
+|init|battle
+|title|Couture Skeptic vs. Iamprettyconfused
+|j|☆Couture Skeptic
+|j|☆Iamprettyconfused
+|player|p1|Couture Skeptic|266|1148
+|player|p2|Iamprettyconfused|28|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] VGC 2019 Ultra Series
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Smeargle, L50, F|item
+|poke|p1|Giratina-Origin, L50|item
+|poke|p1|Heatran, L50, M|item
+|poke|p1|Tyrantrum, L50, M|item
+|poke|p1|Palkia, L50|item
+|poke|p1|Muk-Alola, L50, M|item
+|poke|p2|Spinda, L50, M|item
+|poke|p2|Wobbuffet, L50, M|item
+|poke|p2|Conkeldurr, L50, M|item
+|poke|p2|Abomasnow, L50, M|item
+|poke|p2|Drampa, L50, F|item
+|poke|p2|Hypno, L50, F|item
+|teampreview|4
+|
+|start
+|switch|p1a: Smeargle|Smeargle, L50, F|48/48
+|switch|p1b: Muk|Muk-Alola, L50, M|48/48
+|switch|p2a: Spinda|Spinda, L50, M|48/48
+|switch|p2b: Hypno|Hypno, L50, F|48/48
+|turn|1
+|
+|move|p1b: Muk|Protect|p1b: Muk
+|-singleturn|p1b: Muk|Protect
+|move|p2a: Spinda|Fake Out|p1a: Smeargle
+|-damage|p1a: Smeargle|34/48
+|cant|p1a: Smeargle|flinch
+|move|p2b: Hypno|Trick Room|p2b: Hypno
+|-fieldstart|move: Trick Room|[of] p2b: Hypno
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|def|2
+|-unboost|p1a: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|move|p2a: Spinda|Encore|p1b: Muk
+|-start|p1b: Muk|Encore
+|move|p2b: Hypno|Taunt|p1a: Smeargle
+|-start|p1a: Smeargle|move: Taunt
+|move|p1b: Muk|Protect|p1b: Muk
+|-singleturn|p1b: Muk|Protect
+|cant|p1a: Smeargle|move: Taunt|Sticky Web
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|accuracy|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|turn|3
+
+|
+|switch|p2b: Abomasnow|Abomasnow, L50, M|48/48
+|move|p1b: Muk|Protect||[still]
+|-fail|p1b: Muk
+|move|p2a: Spinda|Skill Swap|p1a: Smeargle
+|-activate|p2a: Spinda|move: Skill Swap|Moody|Contrary|[of] p1a: Smeargle
+|move|p1a: Smeargle|Icy Wind|p2b: Abomasnow|[spread] p2a,p2b
+|-damage|p2a: Spinda|45/48
+|-damage|p2b: Abomasnow|44/48
+|-unboost|p2a: Spinda|spe|1
+|-unboost|p2b: Abomasnow|spe|1
+|
+|-ability|p2a: Spinda|Moody|boost
+|-boost|p2a: Spinda|spe|2
+|-unboost|p2a: Spinda|spa|1
+|upkeep
+|turn|4
+
+|
+|detailschange|p2b: Abomasnow|Abomasnow-Mega, L50, M
+|-mega|p2b: Abomasnow|Abomasnow|Abomasite
+|-weather|Hail|[from] ability: Snow Warning|[of] p2b: Abomasnow
+|move|p1b: Muk|Protect|p1b: Muk
+|-singleturn|p1b: Muk|Protect
+|move|p2b: Abomasnow|Blizzard|p1a: Smeargle|[spread] p1a
+|-activate|p1b: Muk|move: Protect
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|-ability|p1b: Muk|Contrary|[from] ability: Power of Alchemy|[of] p1a: Smeargle
+|move|p2a: Spinda|Encore|p1b: Muk
+|-activate|p1b: Muk|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1b: Muk|45/48|[from] Hail
+|-damage|p2a: Spinda|42/48|[from] Hail
+|-heal|p1b: Muk|48/48|[from] item: Black Sludge
+|-end|p1b: Muk|Encore
+|-ability|p2a: Spinda|Moody|boost
+|-boost|p2a: Spinda|atk|2
+|-unboost|p2a: Spinda|evasion|1
+|upkeep
+
+|
+|switch|p1a: Heatran|Heatran, L50, M|48/48
+|turn|5
+
+|
+|switch|p2b: Hypno|Hypno, L50, F|48/48
+|move|p1b: Muk|Minimize|p1b: Muk
+|-unboost|p1b: Muk|evasion|2
+|move|p2a: Spinda|Skill Swap|p1a: Heatran
+|-activate|p2a: Spinda|move: Skill Swap|Flash Fire|Moody|[of] p1a: Heatran
+|move|p1a: Heatran|Flamethrower|p2b: Hypno
+|-damage|p2b: Hypno|34/48
+|
+|-weather|Hail|[upkeep]
+|-damage|p2b: Hypno|31/48|[from] Hail
+|-damage|p1b: Muk|45/48|[from] Hail
+|-damage|p2a: Spinda|39/48|[from] Hail
+|-damage|p1a: Heatran|45/48|[from] Hail
+|-heal|p2b: Hypno|34/48|[from] item: Leftovers
+|-heal|p1b: Muk|48/48|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|-ability|p1a: Heatran|Moody|boost
+|-boost|p1a: Heatran|spd|2
+|-unboost|p1a: Heatran|spe|1
+|upkeep
+|turn|6
+
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Spinda
+|-damage|p2a: Spinda|18/48
+|move|p2a: Spinda|Encore|p1b: Muk
+|-start|p1b: Muk|Encore
+|move|p1b: Muk|Minimize|p1b: Muk
+|-unboost|p1b: Muk|evasion|2
+|move|p2b: Hypno|Light Screen|p2b: Hypno
+|-sidestart|p2: Iamprettyconfused|move: Light Screen
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|42/48|[from] Hail
+|-damage|p2a: Spinda|15/48|[from] Hail
+|-damage|p1b: Muk|45/48|[from] Hail
+|-damage|p2b: Hypno|31/48|[from] Hail
+|-heal|p1b: Muk|48/48|[from] item: Black Sludge
+|-heal|p2b: Hypno|34/48|[from] item: Leftovers
+|-ability|p1a: Heatran|Moody|boost
+|-boost|p1a: Heatran|evasion|2
+|-unboost|p1a: Heatran|spe|1
+|upkeep
+|turn|7
+
+|
+|move|p1a: Heatran|Flamethrower|p2b: Hypno
+|-damage|p2b: Hypno|25/48
+|move|p1b: Muk|Minimize|p1b: Muk
+|-unboost|p1b: Muk|evasion|2
+|move|p2b: Hypno|Taunt|p1b: Muk
+|-start|p1b: Muk|move: Taunt
+|move|p2a: Spinda|Trick Room|p2a: Spinda
+|-fieldstart|move: Trick Room|[of] p2a: Spinda
+|
+|-weather|Hail|[upkeep]
+|-damage|p2b: Hypno|22/48|[from] Hail
+|-damage|p1b: Muk|45/48|[from] Hail
+|-damage|p1a: Heatran|39/48|[from] Hail
+|-damage|p2a: Spinda|12/48|[from] Hail
+|-heal|p2b: Hypno|25/48|[from] item: Leftovers
+|-heal|p1b: Muk|48/48|[from] item: Black Sludge
+|-ability|p1a: Heatran|Moody|boost
+|-boost|p1a: Heatran|accuracy|2
+|-unboost|p1a: Heatran|def|1
+|upkeep
+|turn|8
+
+|
+|switch|p2b: Abomasnow|Abomasnow-Mega, L50, M|44/48
+|move|p1a: Heatran|Flash Cannon|p2a: Spinda
+|-damage|p2a: Spinda|0 fnt
+|faint|p2a: Spinda
+|-activate|p1b: Muk|move: Struggle
+|move|p1b: Muk|Struggle|p2b: Abomasnow
+|-damage|p2b: Abomasnow|38/48
+|-damage|p1b: Muk|36/48|[from] recoil
+|
+|-weather|none
+|-heal|p1b: Muk|38/48|[from] item: Black Sludge
+|-end|p1b: Muk|Encore
+|-ability|p1a: Heatran|Moody|boost
+|-boost|p1a: Heatran|spa|2
+|-unboost|p1a: Heatran|def|1
+|upkeep
+
+|
+|switch|p2a: Conkeldurr|Conkeldurr, L50, M|48/48
+|turn|9
+
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2b: Abomasnow|Focus Blast|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|move|p2a: Conkeldurr|Superpower|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|move|p1b: Muk|Gunk Shot|p2b: Abomasnow
+|-supereffective|p2b: Abomasnow
+|-damage|p2b: Abomasnow|0 fnt
+|faint|p2b: Abomasnow
+|
+|-heal|p1b: Muk|41/48|[from] item: Black Sludge
+|-status|p2a: Conkeldurr|tox|[from] item: Toxic Orb
+|-ability|p1a: Heatran|Moody|boost
+|-boost|p1a: Heatran|spd|2
+|-unboost|p1a: Heatran|spa|1
+|upkeep
+
+|
+|switch|p2b: Hypno|Hypno, L50, F|25/48
+|turn|10
+
+|
+|move|p2b: Hypno|Ally Switch|p2b: Hypno
+|swap|p2b: Hypno|0|[from] move: Ally Switch
+|move|p2b: Conkeldurr|Superpower|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2b: Conkeldurr|atk|1
+|-unboost|p2b: Conkeldurr|def|1
+|faint|p1a: Heatran
+|move|p1b: Muk|Knock Off|p2b: Conkeldurr
+|-resisted|p2b: Conkeldurr
+|-damage|p2b: Conkeldurr|36/48 tox
+|-enditem|p2b: Conkeldurr|Toxic Orb|[from] move: Knock Off|[of] p1b: Muk
+|
+|-heal|p2a: Hypno|28/48|[from] item: Leftovers
+|-heal|p1b: Muk|44/48|[from] item: Black Sludge
+|-damage|p2b: Conkeldurr|33/48 tox|[from] psn
+|-end|p1b: Muk|move: Taunt
+|-sideend|p2: Iamprettyconfused|move: Light Screen
+|upkeep
+
+|
+|switch|p1a: Giratina|Giratina-Origin, L50|48/48
+|turn|11
+
+|
+|move|p2a: Hypno|Ally Switch|p2a: Hypno
+|swap|p2a: Hypno|1|[from] move: Ally Switch
+|move|p2a: Conkeldurr|Ice Punch|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|27/48
+|-status|p1a: Giratina|frz
+|move|p1b: Muk|Knock Off|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|26/48 tox
+|cant|p1a: Giratina|frz
+|
+|-heal|p2b: Hypno|31/48|[from] item: Leftovers
+|-heal|p1b: Muk|47/48|[from] item: Black Sludge
+|-damage|p2a: Conkeldurr|20/48 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+
+|
+|cant|p1a: Giratina|frz
+|move|p1b: Muk|Knock Off|p2b: Hypno
+|-supereffective|p2b: Hypno
+|-damage|p2b: Hypno|0 fnt
+|-enditem|p2b: Hypno|Leftovers|[from] move: Knock Off|[of] p1b: Muk
+|faint|p2b: Hypno
+|move|p2a: Conkeldurr|Ice Punch|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|6/48 frz
+|
+|-heal|p1b: Muk|48/48|[from] item: Black Sludge
+|-damage|p2a: Conkeldurr|11/48 tox|[from] psn
+|upkeep
+|turn|13
+
+|-message|Iamprettyconfused forfeited.
+
+|
+|win|Couture Skeptic

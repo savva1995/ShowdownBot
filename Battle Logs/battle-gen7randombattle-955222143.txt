@@ -1,0 +1,55 @@
+|init|battle
+|title|Exxydxyxrd vs. CIDKHIII
+|j|‽Exxydxyxrd
+|j|☆CIDKHIII
+|player|p1|Exxydxyxrd|102|1025
+|player|p2|CIDKHIII|267|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Durant|Durant, L83, F|100/100
+|switch|p2a: Incineroar|Incineroar, L86, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Durant|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CIDKHIII)
+|
+|switch|p1a: Swalot|Swalot, L89, M|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Swalot
+|-damage|p1a: Swalot|89/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Incineroar|Earthquake|p1a: Swalot
+|-supereffective|p1a: Swalot
+|-damage|p1a: Swalot|37/100
+|move|p1a: Swalot|Toxic|p2a: Incineroar
+|-status|p2a: Incineroar|tox
+|
+|-damage|p2a: Incineroar|95/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|inactive|Exxydxyxrd has 120 seconds left.
+
+|
+|switch|p1a: Gyarados|Gyarados, L80, M|100/100
+|move|p2a: Incineroar|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-damage|p2a: Incineroar|83/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|-message|CIDKHIII forfeited.
+
+|
+|win|Exxydxyxrd

@@ -1,0 +1,203 @@
+|init|battle
+|title|pile ou face vs. moss92
+|j|☆pile ou face
+|j|☆moss92
+|player|p1|pile ou face|266|1393
+|player|p2|moss92|151|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|4
+|tier|[Gen 4] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dustox|Dustox, L83, F|100/100
+|switch|p2a: Shuckle|Shuckle, L83, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by moss92)
+|
+|move|p1a: Dustox|Toxic|p2a: Shuckle
+|-status|p2a: Shuckle|tox
+|move|p2a: Shuckle|Encore|p1a: Dustox
+|-start|p1a: Dustox|Encore
+|
+|-damage|p2a: Shuckle|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Azumarill|Azumarill, L79, F|100/100
+|move|p2a: Shuckle|Stealth Rock|p1a: Azumarill
+|-sidestart|p1: pile ou face|move: Stealth Rock
+|
+|-damage|p2a: Shuckle|83/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Ampharos|Ampharos, L83, M|100/100
+|move|p1a: Azumarill|Waterfall|p2a: Ampharos
+|-damage|p2a: Ampharos|45/100
+|
+|-heal|p2a: Ampharos|51/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Marowak|Marowak, L83, M|100/100
+|-damage|p1a: Marowak|95/100|[from] Stealth Rock
+|move|p2a: Ampharos|Substitute|p2a: Ampharos
+|-start|p2a: Ampharos|Substitute
+|-damage|p2a: Ampharos|26/100
+|
+|-heal|p2a: Ampharos|32/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Ampharos|Signal Beam|p1a: Marowak
+|-damage|p1a: Marowak|69/100
+|move|p1a: Marowak|Earthquake|p2a: Ampharos
+|-supereffective|p2a: Ampharos
+|-end|p2a: Ampharos|Substitute
+|
+|-heal|p2a: Ampharos|38/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Xatu|Xatu, L83, F|100/100
+|move|p1a: Marowak|Double-Edge|p2a: Xatu
+|-crit|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|upkeep
+
+|
+|switch|p2a: Mightyena|Mightyena, L83, F|100/100
+|-ability|p2a: Mightyena|Intimidate|boost
+|-unboost|p1a: Marowak|atk|1
+|turn|7
+
+|
+|move|p2a: Mightyena|Super Fang|p1a: Marowak|[miss]
+|-miss|p2a: Mightyena|p1a: Marowak
+|move|p1a: Marowak|Earthquake|p2a: Mightyena
+|-damage|p2a: Mightyena|47/100
+|
+|-heal|p2a: Mightyena|52/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Mightyena|Return|p1a: Marowak
+|-damage|p1a: Marowak|46/100
+|move|p1a: Marowak|Earthquake|p2a: Mightyena
+|-damage|p2a: Mightyena|0 fnt
+|faint|p2a: Mightyena
+|
+|upkeep
+
+|
+|switch|p2a: Raticate|Raticate, L83, M|100/100
+|turn|9
+
+|
+|move|p2a: Raticate|Swords Dance|p2a: Raticate
+|-boost|p2a: Raticate|atk|2
+|move|p1a: Marowak|Earthquake|p2a: Raticate
+|-damage|p2a: Raticate|28/100
+|
+|-status|p2a: Raticate|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Pachirisu|Pachirisu, L83, F|100/100
+|-damage|p1a: Pachirisu|88/100|[from] Stealth Rock
+|move|p2a: Raticate|Facade|p1a: Pachirisu
+|-damage|p1a: Pachirisu|0 fnt
+|faint|p1a: Pachirisu
+|
+|-damage|p2a: Raticate|22/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Meganium|Meganium, L83, F|100/100
+|-damage|p1a: Meganium|88/100|[from] Stealth Rock
+|turn|11
+
+|inactive|moss92 has 120 seconds left.
+
+|inactive|moss92 has 90 seconds left.
+
+|
+|move|p2a: Raticate|Facade|p1a: Meganium
+|-damage|p1a: Meganium|0 fnt
+|faint|p1a: Meganium
+|
+|-damage|p2a: Raticate|9/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Dustox|Dustox, L83, F|100/100
+|-damage|p1a: Dustox|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Raticate|Facade|p1a: Dustox
+|-damage|p1a: Dustox|0 fnt
+|faint|p1a: Dustox
+|
+|-damage|p2a: Raticate|0 fnt|[from] psn
+|faint|p2a: Raticate
+|upkeep
+
+|
+|switch|p2a: Shuckle|Shuckle, L83, M|83/100 tox
+|switch|p1a: Azumarill|Azumarill, L79, F|100/100
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Azumarill|Waterfall|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+
+|
+|switch|p2a: Ampharos|Ampharos, L83, M|38/100
+|turn|14
+
+|
+|move|p2a: Ampharos|Signal Beam|p1a: Azumarill
+|-damage|p1a: Azumarill|66/100
+|move|p1a: Azumarill|Waterfall|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|
+|upkeep
+
+|
+|switch|p2a: Heracross|Heracross, L77, F|100/100
+|turn|15
+
+|
+|move|p2a: Heracross|Megahorn|p1a: Azumarill|[miss]
+|-miss|p2a: Heracross|p1a: Azumarill
+|move|p1a: Azumarill|Waterfall|p2a: Heracross
+|-damage|p2a: Heracross|34/100
+|
+|-heal|p2a: Heracross|40/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Heracross|Megahorn|p1a: Azumarill
+|-damage|p1a: Azumarill|18/100
+|move|p1a: Azumarill|Waterfall|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|win|pile ou face

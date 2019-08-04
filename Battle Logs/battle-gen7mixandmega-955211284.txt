@@ -1,0 +1,100 @@
+|init|battle
+|title|Kicuneo vs. TDC Mobile
+|j|☆Kicuneo
+|j|☆TDC Mobile
+|player|p1|Kicuneo|293|1502
+|player|p2|TDC Mobile|92|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Mix and Mega
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|clearpoke
+|poke|p1|Forretress, F|item
+|poke|p1|Raikou|item
+|poke|p1|Weavile, F|item
+|poke|p1|Xerneas|item
+|poke|p1|Mimikyu, M|item
+|poke|p1|Ribombee, F|item
+|poke|p2|Swellow, M|item
+|poke|p2|Salamence, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Linoone, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Blissey, F|item
+|teampreview
+|c|☆Kicuneo|hf
+|
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Swellow|Swellow, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kicuneo)
+
+|
+|switch|p1a: Forretress|Forretress, F, shiny|100/100
+|detailschange|p2a: Swellow|Swellow, M
+|-mega|p2a: Swellow|Swellow|Altarianite
+|-start|p2a: Swellow|Altarianite|[silent]
+|-start|p2a: Swellow|typechange|Normal/Fairy|[silent]
+|move|p2a: Swellow|Heat Wave|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|-status|p1a: Forretress|brn
+|
+|-damage|p1a: Forretress|0 fnt|[from] brn
+|faint|p1a: Forretress
+|upkeep
+
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|2
+
+|
+|detailschange|p1a: Weavile|Weavile, F
+|-mega|p1a: Weavile|Weavile|Glalitite
+|-start|p1a: Weavile|Glalitite|[silent]
+|move|p1a: Weavile|Fake Out|p2a: Swellow
+|-damage|p2a: Swellow|51/100
+|cant|p2a: Swellow|flinch
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Weavile|Return|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|
+|upkeep
+
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|4
+
+|
+|move|p1a: Weavile|Low Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|94/100|[from] Sandstorm
+|upkeep
+
+|-message|TDC Mobile forfeited.
+
+|
+|win|Kicuneo

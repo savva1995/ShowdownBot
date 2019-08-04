@@ -1,0 +1,229 @@
+|init|battle
+|title|FlukedIt vs. ParaboliCBRT
+|j|☆FlukedIt
+|j|☆ParaboliCBRT
+|player|p1|FlukedIt|266|
+|player|p2|ParaboliCBRT|130|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Xurkitree|Xurkitree, L81|100/100
+|switch|p2a: Camerupt|Camerupt, L85, F|100/100
+|turn|1
+|
+|switch|p1a: Togedemaru|Togedemaru, L86, M|100/100
+|-item|p1a: Togedemaru|Air Balloon
+|detailschange|p2a: Camerupt|Camerupt-Mega, L85, F
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Camerupt|Will-O-Wisp|p1a: Togedemaru
+|-status|p1a: Togedemaru|brn
+|
+|-damage|p1a: Togedemaru|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p1a: Togedemaru|Iron Head|p2a: Camerupt
+|-resisted|p2a: Camerupt
+|-damage|p2a: Camerupt|93/100
+|move|p2a: Camerupt|Fire Blast|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|-enditem|p1a: Togedemaru|Air Balloon
+|faint|p1a: Togedemaru
+|
+|upkeep
+|
+|switch|p1a: Golem|Golem-Alola, L89, F|100/100
+|-item|p1a: Golem|Air Balloon
+|turn|3
+|
+|move|p1a: Golem|Earthquake|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|28/100
+|move|p2a: Camerupt|Ancient Power|p1a: Golem
+|-damage|p1a: Golem|66/100
+|-enditem|p1a: Golem|Air Balloon
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Golem|Earthquake|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus, L78, M|100/100
+|turn|5
+
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Golem
+|-sidestart|p1: FlukedIt|move: Stealth Rock
+|move|p1a: Golem|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|
+|-damage|p2a: Landorus|95/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Landorus|Calm Mind|p2a: Landorus
+|-boost|p2a: Landorus|spa|1
+|-boost|p2a: Landorus|spd|1
+|move|p1a: Golem|Stone Edge|p2a: Landorus|[miss]
+|-miss|p1a: Golem|p2a: Landorus
+|
+|-damage|p2a: Landorus|83/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Landorus|Earth Power|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|-damage|p2a: Landorus|65/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Zapdos|Zapdos, L80|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|turn|8
+
+|
+|move|p1a: Zapdos|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Zapdos|66/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, L82, M|100/100
+|turn|9
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|3/100
+|move|p1a: Zapdos|Hidden Power|p2a: Mamoswine
+|-damage|p2a: Mamoswine|88/100
+|-damage|p1a: Zapdos|0 fnt|[from] item: Life Orb
+|faint|p1a: Zapdos
+|
+|upkeep
+
+|
+|switch|p1a: Pikachu|Pikachu-Sinnoh, L90, M|100/100
+|-damage|p1a: Pikachu|88/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Pikachu
+|-damage|p1a: Pikachu|30/100
+|move|p1a: Pikachu|Iron Tail|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|13/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, L84, M|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Galvantula
+|-damage|p1a: Galvantula|39/100
+|move|p1a: Galvantula|Sticky Web|p2a: Mamoswine
+|-sidestart|p2: ParaboliCBRT|move: Sticky Web
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+
+|
+|switch|p1a: Xurkitree|Xurkitree, L81|100/100
+|-damage|p1a: Xurkitree|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Xurkitree
+|-damage|p1a: Xurkitree|51/100
+|move|p1a: Xurkitree|Dazzling Gleam|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|-ability|p1a: Xurkitree|Beast Boost|boost
+|-boost|p1a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Torterra|Torterra, L86, F|100/100
+|-activate|p2a: Torterra|move: Sticky Web
+|-unboost|p2a: Torterra|spe|1
+|turn|15
+
+|
+|move|p1a: Xurkitree|Hidden Power|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|-ability|p1a: Xurkitree|Beast Boost|boost
+|-boost|p1a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Diggersby|Diggersby, L81, F|100/100
+|-activate|p2a: Diggersby|move: Sticky Web
+|-unboost|p2a: Diggersby|spe|1
+|turn|16
+
+|
+|move|p1a: Xurkitree|Hidden Power|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|faint|p2a: Diggersby
+|-ability|p1a: Xurkitree|Beast Boost|boost
+|-boost|p1a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Gliscor|Gliscor, L80, F|100/100
+|turn|17
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Xurkitree
+|-supereffective|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|faint|p1a: Xurkitree
+|
+|win|ParaboliCBRT

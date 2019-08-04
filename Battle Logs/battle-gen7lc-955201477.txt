@@ -1,0 +1,225 @@
+|init|battle
+|title|lingpingping vs. Oshawott Bombers
+|j|☆lingpingping
+|j|☆Oshawott Bombers
+|player|p1|lingpingping|102|1272
+|player|p2|Oshawott Bombers|264|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] LC
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Abra, L5, M|item
+|poke|p1|Surskit, L5, F|item
+|poke|p1|Onix, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Snivy, L5, M|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Oshawott, L5, M|item
+|poke|p2|Pawniard, L5, M|item
+|poke|p2|Ponyta, L5, M|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Anorith, L5, M|item
+|teampreview
+|
+|start
+|switch|p1a: Surskit|Surskit, L5, F|100/100
+|switch|p2a: Anorith|Anorith, L5, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lingpingping)
+|
+|move|p2a: Anorith|Rock Blast|p1a: Surskit
+|-supereffective|p1a: Surskit
+|-damage|p1a: Surskit|62/100
+|-supereffective|p1a: Surskit
+|-damage|p1a: Surskit|24/100
+|-hitcount|p1a: Surskit|2
+|move|p1a: Surskit|Icy Wind|p2a: Anorith
+|-damage|p2a: Anorith|81/100
+|-unboost|p2a: Anorith|spe|1
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Surskit|Sticky Web|p2a: Anorith
+|-sidestart|p2: Oshawott Bombers|move: Sticky Web
+|move|p2a: Anorith|Stealth Rock|p1a: Surskit
+|-sidestart|p1: lingpingping|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Surskit|Scald|p2a: Anorith
+|-supereffective|p2a: Anorith
+|-damage|p2a: Anorith|0 fnt
+|faint|p2a: Anorith
+|
+|upkeep
+
+|
+|switch|p2a: Pawniard|Pawniard, L5, M, shiny|100/100
+|-activate|p2a: Pawniard|move: Sticky Web
+|-unboost|p2a: Pawniard|spe|1
+|-ability|p2a: Pawniard|Defiant|boost
+|-boost|p2a: Pawniard|atk|2
+|turn|4
+
+|
+|move|p1a: Surskit|Scald|p2a: Pawniard
+|-damage|p2a: Pawniard|39/100
+|move|p2a: Pawniard|Knock Off|p1a: Surskit
+|-damage|p1a: Surskit|0 fnt
+|-enditem|p1a: Surskit|Eviolite|[from] move: Knock Off|[of] p2a: Pawniard
+|faint|p1a: Surskit
+|
+|upkeep
+
+|
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|-damage|p1a: Magnemite|95/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|upkeep
+
+|
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Pawniard|Sucker Punch||[still]
+|-fail|p2a: Pawniard
+|move|p1a: Mienfoo|Substitute|p1a: Mienfoo
+|-start|p1a: Mienfoo|Substitute
+|-damage|p1a: Mienfoo|72/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Pawniard|Sucker Punch||[still]
+|-fail|p2a: Pawniard
+|move|p1a: Mienfoo|Swords Dance|p1a: Mienfoo
+|-boost|p1a: Mienfoo|atk|2
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-end|p1a: Mienfoo|Substitute
+|move|p1a: Mienfoo|High Jump Kick|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|upkeep
+
+|
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|-activate|p2a: Timburr|move: Sticky Web
+|-unboost|p2a: Timburr|spe|1
+|turn|9
+
+|
+|move|p1a: Mienfoo|Substitute|p1a: Mienfoo
+|-start|p1a: Mienfoo|Substitute
+|-damage|p1a: Mienfoo|48/100
+|-enditem|p1a: Mienfoo|Berry Juice
+|-heal|p1a: Mienfoo|100/100|[from] item: Berry Juice
+|move|p2a: Timburr|Thunder Punch|p1a: Mienfoo
+|-end|p1a: Mienfoo|Substitute
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mienfoo|Acrobatics|p2a: Timburr
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|upkeep
+
+|
+|switch|p2a: Ponyta|Ponyta, L5, M, shiny|100/100
+|-activate|p2a: Ponyta|move: Sticky Web
+|-unboost|p2a: Ponyta|spe|1
+|turn|11
+
+|
+|move|p1a: Mienfoo|High Jump Kick|p2a: Ponyta
+|-damage|p2a: Ponyta|0 fnt
+|faint|p2a: Ponyta
+|
+|upkeep
+
+|
+|switch|p2a: Abra|Abra, L5, M, shiny|100/100
+|-activate|p2a: Abra|move: Sticky Web
+|-unboost|p2a: Abra|spe|1
+|turn|12
+
+|
+|move|p2a: Abra|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|upkeep
+
+|
+|switch|p1a: Onix|Onix, L5, M|100/100
+|-damage|p1a: Onix|96/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Onix|Endure|p1a: Onix
+|-singleturn|p1a: Onix|move: Endure
+|move|p2a: Abra|Psychic|p1a: Onix
+|-activate|p1a: Onix|move: Endure
+|-damage|p1a: Onix|5/100
+|-enditem|p1a: Onix|Berry Juice
+|-heal|p1a: Onix|100/100|[from] item: Berry Juice
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Abra|Psychic|p1a: Onix
+|-damage|p1a: Onix|10/100
+|move|p1a: Onix|Earthquake|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|upkeep
+
+|
+|switch|p2a: Riley|Oshawott, L5, M|100/100
+|-activate|p2a: Riley|move: Sticky Web
+|-unboost|p2a: Riley|spe|1
+|turn|15
+
+|-message|Oshawott Bombers forfeited.
+
+|
+|win|lingpingping

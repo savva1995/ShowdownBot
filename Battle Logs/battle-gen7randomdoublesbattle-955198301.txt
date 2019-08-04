@@ -1,0 +1,247 @@
+|init|battle
+|title|Antilist vs. stussytrash
+|j|☆Antilist
+|j|☆stussytrash
+|player|p1|Antilist|290|
+|player|p2|stussytrash|143|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|doubles
+|gen|7
+|tier|[Gen 7] Random Doubles Battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Shedinja|Shedinja, L99|100/100
+|switch|p1b: Nidoqueen|Nidoqueen, L79, F|100/100
+|switch|p2a: Kartana|Kartana, L72|100/100
+|switch|p2b: Bewear|Bewear, L79, M|100/100
+|turn|1
+
+|
+|move|p2a: Kartana|Knock Off|p1b: Nidoqueen
+|-damage|p1b: Nidoqueen|66/100
+|-enditem|p1b: Nidoqueen|Life Orb|[from] move: Knock Off|[of] p2a: Kartana
+|move|p1b: Nidoqueen|Fire Blast|p2a: Kartana|[miss]
+|-miss|p1b: Nidoqueen|p2a: Kartana
+|move|p2b: Bewear|Ice Punch|p1b: Nidoqueen
+|-supereffective|p1b: Nidoqueen
+|-damage|p1b: Nidoqueen|10/100
+|-damage|p2b: Bewear|91/100|[from] item: Life Orb
+|move|p1a: Shedinja|Will-O-Wisp|p2b: Bewear|[miss]
+|-miss|p1a: Shedinja|p2b: Bewear
+|
+|upkeep
+|turn|2
+
+|
+|move|p2b: Bewear|Protect|p2b: Bewear
+|-singleturn|p2b: Bewear|Protect
+|move|p2a: Kartana|Knock Off|p1b: Nidoqueen
+|-damage|p1b: Nidoqueen|0 fnt
+|faint|p1b: Nidoqueen
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|move|p1a: Shedinja|Will-O-Wisp|p2b: Bewear
+|-activate|p2b: Bewear|move: Protect
+|
+|upkeep
+
+|
+|switch|p1b: Reshiram|Reshiram, L70|100/100
+|-ability|p1b: Reshiram|Turboblaze
+|turn|3
+
+|
+|move|p2a: Kartana|Knock Off|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-enditem|p1a: Shedinja|Focus Sash
+|-damage|p1a: Shedinja|100/100
+|move|p1b: Reshiram|Heat Wave|p2a: Kartana|[spread] p2a,p2b
+|-supereffective|p2a: Kartana
+|-enditem|p2a: Kartana|Occa Berry|[eat]
+|-enditem|p2a: Kartana|Occa Berry|[weaken]
+|-damage|p2a: Kartana|0 fnt
+|-damage|p2b: Bewear|58/100
+|faint|p2a: Kartana
+|move|p2b: Bewear|Double-Edge|p1b: Reshiram
+|-damage|p1b: Reshiram|31/100
+|-enditem|p1b: Reshiram|Sitrus Berry|[eat]
+|-heal|p1b: Reshiram|56/100|[from] item: Sitrus Berry
+|-damage|p2b: Bewear|40/100|[from] Recoil
+|-damage|p2b: Bewear|30/100|[from] item: Life Orb
+|move|p1a: Shedinja|Will-O-Wisp|p2b: Bewear
+|-status|p2b: Bewear|brn
+|
+|-damage|p2b: Bewear|24/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Carracosta|Carracosta, L80, M|100/100
+|turn|4
+
+|
+|move|p2b: Bewear|Protect|p2b: Bewear
+|-singleturn|p2b: Bewear|Protect
+|move|p1b: Reshiram|Heat Wave|p2a: Carracosta|[spread] p2a
+|-activate|p2b: Bewear|move: Protect
+|-resisted|p2a: Carracosta
+|-damage|p2a: Carracosta|91/100
+|move|p1a: Shedinja|Will-O-Wisp|p2a: Carracosta
+|-status|p2a: Carracosta|brn
+|move|p2a: Carracosta|Rock Slide|p1b: Reshiram|[spread] p1a,p1b
+|-supereffective|p1a: Shedinja
+|-supereffective|p1b: Reshiram
+|-damage|p1a: Shedinja|0 fnt
+|-damage|p1b: Reshiram|30/100
+|faint|p1a: Shedinja
+|
+|-damage|p2b: Bewear|18/100 brn|[from] brn
+|-damage|p2a: Carracosta|85/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L84, M|100/100
+|turn|5
+
+|
+|move|p1a: Hitmonchan|Fake Out|p2b: Bewear
+|-damage|p2b: Bewear|12/100 brn
+|move|p1b: Reshiram|Heat Wave|p2a: Carracosta|[spread] p2a,p2b
+|-resisted|p2a: Carracosta
+|-damage|p2a: Carracosta|75/100 brn
+|-damage|p2b: Bewear|0 fnt
+|faint|p2b: Bewear
+|move|p2a: Carracosta|Rock Slide|p1a: Hitmonchan|[spread] p1a,p1b
+|-resisted|p1a: Hitmonchan
+|-supereffective|p1b: Reshiram
+|-damage|p1a: Hitmonchan|93/100
+|-damage|p1b: Reshiram|4/100
+|
+|-damage|p2a: Carracosta|69/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2b: Venomoth|Venomoth, L84, F|100/100
+|turn|6
+
+|
+|move|p2a: Carracosta|Aqua Jet|p1b: Reshiram
+|-damage|p1b: Reshiram|0 fnt
+|faint|p1b: Reshiram
+|move|p2b: Venomoth|Substitute|p2b: Venomoth
+|-start|p2b: Venomoth|Substitute
+|-damage|p2b: Venomoth|76/100
+|move|p1a: Hitmonchan|Drain Punch|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|6/100 brn
+|-heal|p1a: Hitmonchan|100/100|[from] drain|[of] p2a: Carracosta
+|-enditem|p2a: Carracosta|Sitrus Berry|[eat]
+|-heal|p2a: Carracosta|31/100 brn|[from] item: Sitrus Berry
+|
+|-heal|p2b: Venomoth|82/100|[from] item: Black Sludge
+|-damage|p2a: Carracosta|25/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1b: Xurkitree|Xurkitree, L72|100/100
+|turn|7
+
+|
+|move|p2a: Carracosta|Wide Guard|p2a: Carracosta
+|-singleturn|p2a: Carracosta|Wide Guard
+|move|p2b: Venomoth|Bug Buzz|p1b: Xurkitree
+|-damage|p1b: Xurkitree|48/100
+|-enditem|p1b: Xurkitree|Sitrus Berry|[eat]
+|-heal|p1b: Xurkitree|72/100|[from] item: Sitrus Berry
+|move|p1a: Hitmonchan|Rock Slide|p2b: Venomoth|[spread] 
+|-activate|p2a: Carracosta|move: Wide Guard
+|-activate|p2b: Venomoth|move: Wide Guard
+|move|p1b: Xurkitree|Thunderbolt|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|faint|p2a: Carracosta
+|-ability|p1b: Xurkitree|Beast Boost|boost
+|-boost|p1b: Xurkitree|spa|1
+|
+|-heal|p2b: Venomoth|88/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Mesprit|Mesprit, L71|100/100
+|turn|8
+
+|
+|move|p2b: Venomoth|Rage Powder|p2b: Venomoth
+|-singleturn|p2b: Venomoth|move: Rage Powder
+|move|p1a: Hitmonchan|Rock Slide|p2a: Mesprit|[spread] p2a,p2b
+|-supereffective|p2b: Venomoth
+|-end|p2b: Venomoth|Substitute
+|-damage|p2a: Mesprit|81/100
+|move|p1b: Xurkitree|Hypnosis|p2b: Venomoth
+|-status|p2b: Venomoth|slp|[from] move: Hypnosis
+|cant|p2a: Mesprit|flinch
+|
+|-heal|p2b: Venomoth|93/100 slp|[from] item: Black Sludge
+|-heal|p2a: Mesprit|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Mesprit|Protect|p2a: Mesprit
+|-singleturn|p2a: Mesprit|Protect
+|cant|p2b: Venomoth|slp
+|move|p1a: Hitmonchan|Ice Punch|p2a: Mesprit
+|-activate|p2a: Mesprit|move: Protect
+|move|p1b: Xurkitree|Thunderbolt|p2a: Mesprit
+|-activate|p2a: Mesprit|move: Protect
+|
+|-heal|p2b: Venomoth|99/100 slp|[from] item: Black Sludge
+|-heal|p2a: Mesprit|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|cant|p2b: Venomoth|slp
+|move|p1a: Hitmonchan|Ice Punch|p2a: Mesprit
+|-damage|p2a: Mesprit|65/100
+|move|p1b: Xurkitree|Thunderbolt|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|faint|p2a: Mesprit
+|-ability|p1b: Xurkitree|Beast Boost|boost
+|-boost|p1b: Xurkitree|spa|1
+|
+|-heal|p2b: Venomoth|100/100 slp|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p2a: Type: Null|Type: Null, L70|100/100
+|turn|11
+
+|
+|-curestatus|p2b: Venomoth|slp|[msg]
+|move|p2b: Venomoth|Rage Powder|p2b: Venomoth
+|-singleturn|p2b: Venomoth|move: Rage Powder
+|move|p1a: Hitmonchan|Drain Punch|p2b: Venomoth
+|-resisted|p2b: Venomoth
+|-damage|p2b: Venomoth|88/100
+|move|p1b: Xurkitree|Thunderbolt|p2b: Venomoth
+|-damage|p2b: Venomoth|0 fnt
+|faint|p2b: Venomoth
+|-ability|p1b: Xurkitree|Beast Boost|boost
+|-boost|p1b: Xurkitree|spa|1
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null
+|-boost|p2a: Type: Null|atk|2
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Type: Null
+|-supereffective|p2a: Type: Null
+|-damage|p2a: Type: Null|38/100
+|move|p1b: Xurkitree|Thunderbolt|p2a: Type: Null
+|-damage|p2a: Type: Null|0 fnt
+|faint|p2a: Type: Null
+|
+|win|Antilist

@@ -1,0 +1,106 @@
+|init|battle
+|title|Jakebuggy1993 vs. zadocfish3
+|j|☆Jakebuggy1993
+|j|☆zadocfish3
+|player|p1|Jakebuggy1993|101|1216
+|player|p2|zadocfish3|10|1131
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Accuracy Moves Clause: Accuracy-lowering moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Forretress, F|item
+|poke|p1|Golisopod, F|item
+|poke|p1|Illumise, F|item
+|poke|p2|Slaking, F|item
+|poke|p2|Bewear, M|item
+|poke|p2|Scolipede, F|item
+|teampreview|1
+|
+|start
+|switch|p1a: Illumise|Illumise, F|100/100
+|switch|p2a: Bewear|Bewear, M|100/100
+|turn|1
+|
+|move|p1a: Illumise|Substitute|p1a: Illumise
+|-start|p1a: Illumise|Substitute
+|-damage|p1a: Illumise|76/100
+|move|p2a: Bewear|Flail|p1a: Illumise
+|-activate|p1a: Illumise|move: Substitute|[damage]
+|
+|-heal|p1a: Illumise|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Illumise|Toxic|p2a: Bewear
+|-status|p2a: Bewear|tox
+|move|p2a: Bewear|Ice Punch|p1a: Illumise
+|-end|p1a: Illumise|Substitute
+|
+|-heal|p1a: Illumise|88/100|[from] item: Leftovers
+|-damage|p2a: Bewear|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Illumise|Infestation|p2a: Bewear
+|-resisted|p2a: Bewear
+|-damage|p2a: Bewear|93/100 tox
+|-activate|p2a: Bewear|move: Infestation|[of] p1a: Illumise
+|move|p2a: Bewear|Ice Punch|p1a: Illumise
+|-damage|p1a: Illumise|61/100
+|
+|-heal|p1a: Illumise|67/100|[from] item: Leftovers
+|-damage|p2a: Bewear|81/100 tox|[from] psn
+|-damage|p2a: Bewear|68/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|move|p1a: Illumise|Substitute|p1a: Illumise
+|-start|p1a: Illumise|Substitute
+|-damage|p1a: Illumise|42/100
+|move|p2a: Bewear|Ice Punch|p1a: Illumise
+|-end|p1a: Illumise|Substitute
+|
+|-heal|p1a: Illumise|48/100|[from] item: Leftovers
+|-damage|p2a: Bewear|50/100 tox|[from] psn
+|-damage|p2a: Bewear|38/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p1a: Illumise|Substitute|p1a: Illumise
+|-start|p1a: Illumise|Substitute
+|-damage|p1a: Illumise|23/100
+|move|p2a: Bewear|Ice Punch|p1a: Illumise
+|-end|p1a: Illumise|Substitute
+|
+|-heal|p1a: Illumise|29/100|[from] item: Leftovers
+|-damage|p2a: Bewear|13/100 tox|[from] psn
+|-damage|p2a: Bewear|1/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+
+|-enditem|p2a: Bewear|Custap Berry|[eat]
+|-activate|p2a: Bewear|item: Custap Berry|[consumed]
+|
+|move|p1a: Illumise|Substitute|p1a: Illumise
+|-start|p1a: Illumise|Substitute
+|-damage|p1a: Illumise|4/100
+|move|p2a: Bewear|Flail|p1a: Illumise
+|-end|p1a: Illumise|Substitute
+|
+|-heal|p1a: Illumise|10/100|[from] item: Leftovers
+|-damage|p2a: Bewear|0 fnt|[from] psn
+|faint|p2a: Bewear
+|
+|win|Jakebuggy1993
+|upkeep

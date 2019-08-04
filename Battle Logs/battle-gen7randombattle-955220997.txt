@@ -1,0 +1,214 @@
+|init|battle
+|title|iMACHOPyou vs. karaa
+|j|☆iMACHOPyou
+|j|☆karaa
+|player|p1|iMACHOPyou|10|1873
+|player|p2|karaa|175|2001
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Camerupt|Camerupt, L85, F|100/100
+|switch|p2a: Chesnaught|Chesnaught, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iMACHOPyou)
+|
+|switch|p2a: Gigalith|Gigalith, L85, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|detailschange|p1a: Camerupt|Camerupt-Mega, L85, F
+|-mega|p1a: Camerupt|Camerupt|Cameruptite
+|move|p1a: Camerupt|Toxic|p2a: Gigalith
+|-status|p2a: Gigalith|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gigalith|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Gigalith|Stealth Rock|p1a: Camerupt
+|-sidestart|p1: iMACHOPyou|move: Stealth Rock
+|move|p1a: Camerupt|Earth Power|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|12/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|18/100 tox|[from] item: Leftovers
+|-damage|p2a: Gigalith|6/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|move|p2a: Gigalith|Explosion|p1a: Camerupt
+|-damage|p1a: Camerupt|15/100
+|faint|p2a: Gigalith
+|move|p1a: Camerupt|Ancient Power|p2: Gigalith|[notarget]
+|-fail|p1a: Camerupt
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Chesnaught|Chesnaught, L82, F|100/100
+|turn|4
+
+|
+|move|p2a: Chesnaught|Drain Punch|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chesnaught|94/100|[from] Sandstorm
+|-heal|p2a: Chesnaught|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Crobat|Crobat, L82, F|100/100
+|-damage|p1a: Crobat|76/100|[from] Stealth Rock
+|turn|5
+
+|
+|switch|p2a: Vikavolt|Vikavolt, L86, F|100/100
+|move|p1a: Crobat|Defog|p2a: Vikavolt
+|-unboost|p2a: Vikavolt|evasion|1
+|-sideend|p1: iMACHOPyou|Stealth Rock|[from] move: Defog|[of] p1a: Crobat
+|
+|-weather|none
+|-heal|p1a: Crobat|82/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Druddigon|Druddigon, L86, M|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Vikavolt|Thunderbolt|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|70/100
+|-status|p1a: Druddigon|par
+|-damage|p2a: Vikavolt|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Druddigon|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|karaa has 120 seconds left.
+
+|inactive|karaa has 90 seconds left.
+
+|
+|switch|p2a: Chesnaught|Chesnaught, L82, F|100/100
+|cant|p1a: Druddigon|par
+|
+|-heal|p1a: Druddigon|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Chesnaught|Leech Seed|p1a: Druddigon
+|-start|p1a: Druddigon|move: Leech Seed
+|cant|p1a: Druddigon|par
+|
+|-heal|p1a: Druddigon|88/100 par|[from] item: Leftovers
+|-damage|p1a: Druddigon|76/100 par|[from] Leech Seed|[of] p2a: Chesnaught
+|upkeep
+|turn|9
+
+|
+|move|p2a: Chesnaught|Spikes|p1a: Druddigon
+|-sidestart|p1: iMACHOPyou|Spikes
+|move|p1a: Druddigon|Stealth Rock|p2a: Chesnaught
+|-sidestart|p2: karaa|move: Stealth Rock
+|
+|-heal|p1a: Druddigon|82/100 par|[from] item: Leftovers
+|-damage|p1a: Druddigon|70/100 par|[from] Leech Seed|[of] p2a: Chesnaught
+|upkeep
+|turn|10
+
+|
+|move|p2a: Chesnaught|Leech Seed||[still]
+|-fail|p2a: Chesnaught
+|move|p1a: Druddigon|Glare|p2a: Chesnaught
+|-status|p2a: Chesnaught|par
+|
+|-heal|p1a: Druddigon|76/100 par|[from] item: Leftovers
+|-damage|p1a: Druddigon|64/100 par|[from] Leech Seed|[of] p2a: Chesnaught
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Kabutops|Kabutops, L88, M|100/100
+|-damage|p2a: Kabutops|88/100|[from] Stealth Rock
+|switch|p1a: Crobat|Crobat, L82, F|82/100
+|
+|-heal|p1a: Crobat|88/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|
+|switch|p1a: Druddigon|Druddigon, L86, M|64/100 par
+|-damage|p1a: Druddigon|51/100 par|[from] Spikes
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Kabutops|Stone Edge|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|-damage|p2a: Kabutops|78/100|[from] item: Life Orb
+|faint|p1a: Druddigon
+|
+|upkeep
+
+|
+|switch|p1a: Garchomp|Garchomp, L80, M|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|turn|13
+
+|inactive|karaa has 120 seconds left.
+
+|
+|switch|p2a: Chesnaught|Chesnaught, L82, F|100/100 par
+|-damage|p2a: Chesnaught|94/100 par|[from] Stealth Rock
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-heal|p2a: Chesnaught|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Garchomp|Outrage|p2a: Chesnaught
+|-damage|p2a: Chesnaught|24/100 par
+|cant|p2a: Chesnaught|par
+|
+|-heal|p2a: Chesnaught|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Garchomp|Outrage|p2a: Chesnaught|[from]lockedmove
+|-damage|p2a: Chesnaught|0 fnt
+|faint|p2a: Chesnaught
+|
+|upkeep
+
+|
+|switch|p2a: Kabutops|Kabutops, L88, M|78/100
+|-damage|p2a: Kabutops|66/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p1a: Garchomp|Outrage|p2a: Kabutops|[from]lockedmove
+|-damage|p2a: Kabutops|0 fnt
+|-start|p1a: Garchomp|confusion|[fatigue]
+|faint|p2a: Kabutops
+|-enditem|p1a: Garchomp|Lum Berry|[eat]
+|-end|p1a: Garchomp|confusion
+|
+|upkeep
+
+|-message|karaa forfeited.
+
+|
+|win|iMACHOPyou

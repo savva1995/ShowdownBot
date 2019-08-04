@@ -1,0 +1,394 @@
+|init|battle
+|title|PickleSama vs. FaneBieber
+|j|☆PickleSama
+|j|☆FaneBieber
+|player|p1|PickleSama|292|1309
+|player|p2|FaneBieber|2|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Passimian|Passimian, L86, M|100/100
+|switch|p2a: Carnivine|Carnivine, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PickleSama)
+|
+|move|p1a: Passimian|U-turn|p2a: Carnivine
+|-supereffective|p2a: Carnivine
+|-damage|p2a: Carnivine|27/100
+|
+|switch|p1a: Bastiodon|Bastiodon, L89, F|100/100|[from]move: U-turn
+|-item|p1a: Bastiodon|Air Balloon
+|-zpower|p2a: Carnivine
+|move|p2a: Carnivine|Bloom Doom|p1a: Bastiodon|[zeffect]
+|-damage|p1a: Bastiodon|47/100
+|-enditem|p1a: Bastiodon|Air Balloon
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Carnivine|Power Whip|p1a: Bastiodon
+|-damage|p1a: Bastiodon|16/100
+|move|p1a: Bastiodon|Stealth Rock|p2a: Carnivine
+|-sidestart|p2: FaneBieber|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Carnivine|Knock Off|p1a: Bastiodon
+|-damage|p1a: Bastiodon|5/100
+|move|p1a: Bastiodon|Rock Blast|p2a: Carnivine
+|-damage|p2a: Carnivine|19/100
+|-damage|p2a: Carnivine|11/100
+|-damage|p2a: Carnivine|4/100
+|-hitcount|p2a: Carnivine|3
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Carnivine|Knock Off|p1a: Bastiodon
+|-damage|p1a: Bastiodon|0 fnt
+|faint|p1a: Bastiodon
+|
+|upkeep
+
+|
+|switch|p1a: Passimian|Passimian, L86, M|100/100
+|turn|5
+
+|
+|move|p1a: Passimian|U-turn|p2a: Carnivine
+|-supereffective|p2a: Carnivine
+|-damage|p2a: Carnivine|0 fnt
+|faint|p2a: Carnivine
+
+|
+|switch|p1a: Spiritomb|Spiritomb, L88, F|100/100|[from]move: U-turn
+|
+|upkeep
+
+|
+|switch|p2a: Skuntank|Skuntank, L88, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p2a: Skuntank|Poison Jab|p1a: Spiritomb
+|-resisted|p1a: Spiritomb
+|-damage|p1a: Spiritomb|81/100
+|-damage|p2a: Skuntank|78/100|[from] item: Life Orb
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Skuntank
+|-status|p2a: Skuntank|brn
+|
+|-heal|p1a: Spiritomb|88/100|[from] item: Leftovers
+|-damage|p2a: Skuntank|72/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Spiritomb|Shadow Sneak|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|64/100 brn
+|move|p2a: Skuntank|Poison Jab|p1a: Spiritomb
+|-resisted|p1a: Spiritomb
+|-damage|p1a: Spiritomb|77/100
+|-status|p1a: Spiritomb|psn
+|-damage|p2a: Skuntank|54/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Spiritomb|83/100 psn|[from] item: Leftovers
+|-damage|p2a: Skuntank|48/100 brn|[from] brn
+|-damage|p1a: Spiritomb|71/100 psn|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p2a: Skuntank|Defog|p1a: Spiritomb
+|-unboost|p1a: Spiritomb|evasion|1
+|-sideend|p2: FaneBieber|Stealth Rock|[from] move: Defog|[of] p2a: Skuntank
+|move|p1a: Spiritomb|Foul Play|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|29/100 brn
+|
+|-heal|p1a: Spiritomb|77/100 psn|[from] item: Leftovers
+|-damage|p2a: Skuntank|22/100 brn|[from] brn
+|-damage|p1a: Spiritomb|65/100 psn|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p2a: Skuntank|Sucker Punch|p1a: Spiritomb
+|-damage|p1a: Spiritomb|48/100 psn
+|-damage|p2a: Skuntank|12/100 brn|[from] item: Life Orb
+|move|p1a: Spiritomb|Foul Play|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Spiritomb|23/100 psn|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|-heal|p1a: Spiritomb|29/100 psn|[from] item: Leftovers
+|-damage|p1a: Spiritomb|17/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Kingler|Kingler, L87, F|100/100
+|turn|10
+
+|
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Kingler
+|-status|p2a: Kingler|brn
+|
+|-heal|p1a: Spiritomb|23/100 psn|[from] item: Leftovers
+|-damage|p2a: Kingler|95/100 brn|[from] brn
+|-damage|p1a: Spiritomb|11/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Kingler|Knock Off|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|-enditem|p1a: Spiritomb|Leftovers|[from] move: Knock Off|[of] p2a: Kingler
+|-damage|p2a: Kingler|85/100 brn|[from] item: Life Orb
+|faint|p1a: Spiritomb
+|
+|-damage|p2a: Kingler|79/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Passimian|Passimian, L86, M|100/100
+|turn|12
+
+|
+|move|p1a: Passimian|Knock Off|p2a: Kingler
+|-damage|p2a: Kingler|39/100 brn
+|-enditem|p2a: Kingler|Life Orb|[from] move: Knock Off|[of] p1a: Passimian
+|move|p2a: Kingler|Knock Off|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|87/100
+|-enditem|p1a: Passimian|Choice Band|[from] move: Knock Off|[of] p2a: Kingler
+|
+|-damage|p2a: Kingler|33/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Passimian|Iron Head|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|22/100 brn
+|cant|p2a: Kingler|flinch
+|
+|-damage|p2a: Kingler|16/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Passimian|Close Combat|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Kingler
+|
+|upkeep
+
+|
+|switch|p2a: Medicham|Medicham, L80, M|100/100
+|turn|15
+
+|
+|detailschange|p2a: Medicham|Medicham-Mega, L80, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Passimian
+|-damage|p1a: Passimian|63/100
+|cant|p1a: Passimian|flinch
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Medicham|Zen Headbutt|p1a: Passimian
+|-supereffective|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|upkeep
+
+|
+|switch|p1a: Manaphy|Manaphy, L81|100/100
+|turn|17
+
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Medicham|Thunder Punch|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|39/100
+|
+|-heal|p1a: Manaphy|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Manaphy|Ice Beam|p2a: Medicham
+|-damage|p2a: Medicham|26/100
+|move|p2a: Medicham|Thunder Punch|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|upkeep
+
+|
+|switch|p1a: Arcanine|Arcanine, L84, F|100/100
+|turn|19
+
+|
+|move|p1a: Arcanine|Wild Charge|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|-damage|p1a: Arcanine|95/100|[from] Recoil
+|faint|p2a: Medicham
+|
+|-heal|p1a: Arcanine|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Stakataka|Stakataka, L83|100/100
+|-item|p2a: Stakataka|Air Balloon
+|turn|20
+
+|
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Stakataka
+|-status|p2a: Stakataka|brn
+|move|p2a: Stakataka|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|68/100
+|
+|-heal|p1a: Arcanine|74/100|[from] item: Leftovers
+|-damage|p2a: Stakataka|95/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Stakataka
+|-crit|p2a: Stakataka
+|-damage|p2a: Stakataka|49/100 brn
+|-enditem|p2a: Stakataka|Air Balloon
+|-damage|p1a: Arcanine|61/100|[from] Recoil
+|move|p2a: Stakataka|Stealth Rock|p1a: Arcanine
+|-sidestart|p1: PickleSama|move: Stealth Rock
+|
+|-heal|p1a: Arcanine|67/100|[from] item: Leftovers
+|-damage|p2a: Stakataka|43/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Stakataka
+|-damage|p2a: Stakataka|15/100 brn
+|-damage|p1a: Arcanine|60/100|[from] Recoil
+|move|p2a: Stakataka|Stone Edge|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|14/100
+|
+|-heal|p1a: Arcanine|20/100|[from] item: Leftovers
+|-damage|p2a: Stakataka|9/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|69/100
+|move|p2a: Stakataka|Gyro Ball|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|51/100
+|
+|-heal|p1a: Arcanine|57/100|[from] item: Leftovers
+|-damage|p2a: Stakataka|3/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100
+|move|p2a: Stakataka|Gyro Ball|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|82/100
+|
+|-heal|p1a: Arcanine|88/100|[from] item: Leftovers
+|-damage|p2a: Stakataka|0 fnt|[from] brn
+|faint|p2a: Stakataka
+|upkeep
+
+|
+|switch|p2a: Cobalion|Cobalion, L82|100/100
+|turn|25
+
+|
+|move|p2a: Cobalion|Stone Edge|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|37/100
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Cobalion
+|-status|p2a: Cobalion|brn
+|
+|-heal|p1a: Arcanine|43/100|[from] item: Leftovers
+|-damage|p2a: Cobalion|94/100 brn|[from] brn
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Amoonguss|Amoonguss, L82, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Cobalion|Stone Edge|p1a: Amoonguss
+|-damage|p1a: Amoonguss|77/100
+|
+|-heal|p1a: Amoonguss|83/100|[from] item: Black Sludge
+|-damage|p2a: Cobalion|88/100 brn|[from] brn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Cobalion|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|67/100
+|move|p1a: Amoonguss|Hidden Power|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|67/100 brn
+|
+|-heal|p1a: Amoonguss|74/100|[from] item: Black Sludge
+|-damage|p2a: Cobalion|61/100 brn|[from] brn
+|upkeep
+|turn|28
+
+|
+|move|p2a: Cobalion|Close Combat|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|62/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|move|p1a: Amoonguss|Hidden Power|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|30/100 brn
+|
+|-heal|p1a: Amoonguss|69/100|[from] item: Black Sludge
+|-damage|p2a: Cobalion|24/100 brn|[from] brn
+|upkeep
+|turn|29
+
+|
+|move|p2a: Cobalion|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|60/100
+|move|p1a: Amoonguss|Hidden Power|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|win|PickleSama

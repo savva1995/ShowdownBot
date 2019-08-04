@@ -1,0 +1,92 @@
+|init|battle
+|title|Kjb122992 vs. MagicGrandpa500
+|j|☆Kjb122992
+|j|☆MagicGrandpa500
+|player|p1|Kjb122992|101|1147
+|player|p2|MagicGrandpa500|110|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rated|
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Nihilego|item
+|poke|p1|Kricketune, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Celesteela|item
+|poke|p1|Tangrowth, M|item
+|poke|p2|Swampert, F|item
+|poke|p2|Decidueye, F|item
+|poke|p2|Pikachu, M|item
+|poke|p2|Rayquaza|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Smeargle, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MagicGrandpa500)
+|
+|start
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Decidueye|Decidueye, F, shiny|100/100
+|turn|1
+
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Decidueye|Spirit Shackle|p1a: Tangrowth
+|-damage|p1a: Tangrowth|64/100
+|-activate|p1a: Tangrowth|trapped
+|-damage|p2a: Decidueye|90/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Decidueye|Spirit Shackle|p1a: Tangrowth
+|-damage|p1a: Tangrowth|29/100
+|-damage|p2a: Decidueye|80/100|[from] item: Life Orb
+|move|p1a: Tangrowth|Amnesia|p1a: Tangrowth
+|-boost|p1a: Tangrowth|spd|2
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Decidueye|Spirit Shackle|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-damage|p2a: Decidueye|70/100|[from] item: Life Orb
+|faint|p1a: Tangrowth
+|
+|upkeep
+
+|
+|switch|p1a: Kricketune|Kricketune, M|100/100
+|turn|4
+
+|
+|move|p2a: Decidueye|Spirit Shackle|p1a: Kricketune
+|-damage|p1a: Kricketune|19/100
+|-activate|p1a: Kricketune|trapped
+|-damage|p2a: Decidueye|60/100|[from] item: Life Orb
+|-zpower|p1a: Kricketune
+|move|p1a: Kricketune|Z-Sing|p2a: Decidueye|[anim]Sing|[miss]
+|-boost|p1a: Kricketune|spe|1|[zeffect]
+|-miss|p1a: Kricketune|p2a: Decidueye
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Decidueye|Sucker Punch|p1a: Kricketune
+|-damage|p1a: Kricketune|0 fnt
+|-damage|p2a: Decidueye|50/100|[from] item: Life Orb
+|faint|p1a: Kricketune
+|
+|upkeep
+
+|-message|Kjb122992 forfeited.
+
+|
+|win|MagicGrandpa500

@@ -1,0 +1,49 @@
+|init|battle
+|title|sakurarains vs. guntuiiit
+|j|‽sakurarains
+|j|☆guntuiiit
+|player|p1|sakurarains|211|1070
+|player|p2|guntuiiit|1|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Latias|Latias, L81, F|100/100
+|switch|p2a: Simisear|Simisear, L89, F|100/100
+|turn|1
+|
+|switch|p2a: Vanilluxe|Vanilluxe, L85, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|switch|p1a: Barbaracle|Barbaracle, L84, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Barbaracle|94/100|[from] Hail
+|upkeep
+|turn|2
+|
+|move|p2a: Vanilluxe|Blizzard|p1a: Barbaracle
+|-resisted|p1a: Barbaracle
+|-damage|p1a: Barbaracle|63/100
+|-damage|p2a: Vanilluxe|91/100|[from] item: Life Orb
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|-enditem|p1a: Barbaracle|White Herb
+|-clearnegativeboost|p1a: Barbaracle|[silent]
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Barbaracle|56/100|[from] Hail
+|upkeep
+|turn|3
+|-message|guntuiiit forfeited.
+|
+|win|sakurarains

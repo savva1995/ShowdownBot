@@ -1,0 +1,383 @@
+|init|battle
+|title|TwetleYT vs. Sexy Pigeon Lover
+|j|☆TwetleYT
+|j|☆Sexy Pigeon Lover
+|player|p1|TwetleYT|265|1000
+|player|p2|Sexy Pigeon Lover|121|1049
+|teamsize|p1|5
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Beedrill, M|item
+|poke|p1|Forretress, F|item
+|poke|p1|Galvantula, F|item
+|poke|p1|Smeargle, F|item
+|poke|p1|Groudon|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Spinda, M|item
+|poke|p2|Omastar, M|item
+|poke|p2|Murkrow, M|item
+|poke|p2|Blacephalon|item
+|poke|p2|Dusclops, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Smeargle|Smeargle, F, shiny|100/100
+|switch|p2a: Gotta Blast!|Blacephalon, shiny|100/100
+|turn|1
+|
+|-zpower|p2a: Gotta Blast!
+|move|p2a: Gotta Blast!|Inferno Overdrive|p1a: Smeargle|[zeffect]
+|-crit|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|move|p1a: Smeargle|Sticky Web|p2a: Gotta Blast!
+|-sidestart|p2: Sexy Pigeon Lover|move: Sticky Web
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Gotta Blast!|Dark Pulse|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|-ability|p2a: Gotta Blast!|Beast Boost|boost
+|-boost|p2a: Gotta Blast!|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Galvantula|Galvantula, F, shiny|100/100
+|turn|3
+
+|
+|move|p2a: Gotta Blast!|Fire Blast|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-enditem|p1a: Galvantula|Focus Sash
+|-damage|p1a: Galvantula|1/100
+|move|p1a: Galvantula|Toxic|p2a: Gotta Blast!
+|-status|p2a: Gotta Blast!|tox
+|
+|-damage|p2a: Gotta Blast!|94/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Galvantula|Protect|p1a: Galvantula
+|-singleturn|p1a: Galvantula|Protect
+|move|p2a: Gotta Blast!|Dark Pulse|p1a: Galvantula
+|-activate|p1a: Galvantula|move: Protect
+|
+|-damage|p2a: Gotta Blast!|82/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p1a: Galvantula|Protect||[still]
+|-fail|p1a: Galvantula
+|move|p2a: Gotta Blast!|Dark Pulse|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|-ability|p2a: Gotta Blast!|Beast Boost|boost
+|-boost|p2a: Gotta Blast!|spa|1
+|
+|-damage|p2a: Gotta Blast!|64/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Forretress|Forretress, F, shiny|100/100
+|turn|6
+
+|
+|move|p2a: Gotta Blast!|Mind Blown|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|-damage|p2a: Gotta Blast!|14/100 tox|[from] mindblown
+|move|p1a: Forretress|Toxic Spikes|p2a: Gotta Blast!
+|-sidestart|p2: Sexy Pigeon Lover|move: Toxic Spikes
+|
+|-heal|p1a: Forretress|7/100|[from] item: Leftovers
+|-damage|p2a: Gotta Blast!|0 fnt|[from] psn
+|faint|p2a: Gotta Blast!
+|upkeep
+
+|
+|switch|p2a: MVP|Murkrow, M|100/100
+|turn|7
+
+|
+|move|p2a: MVP|Taunt|p1a: Forretress
+|-start|p1a: Forretress|move: Taunt
+|cant|p1a: Forretress|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Forretress|13/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Gorbledorp|Garbodor, M|100/100
+|-activate|p2a: Gorbledorp|move: Sticky Web
+|-unboost|p2a: Gorbledorp|spe|1
+|-sideend|p2: Sexy Pigeon Lover|move: Toxic Spikes|[of] p2a: Gorbledorp
+|-activate|p1a: Forretress|move: Struggle
+|move|p1a: Forretress|Struggle|p2a: Gorbledorp
+|-damage|p2a: Gorbledorp|90/100
+|-ability|p2a: Gorbledorp|Weak Armor|boost
+|-unboost|p2a: Gorbledorp|def|1
+|-boost|p2a: Gorbledorp|spe|2
+|-damage|p1a: Forretress|0 fnt|[from] recoil
+|faint|p1a: Forretress
+|
+|upkeep
+
+|
+|switch|p1a: Groudon|Groudon, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|9
+
+|c|☆Sexy Pigeon Lover|omg regular groudon
+
+|c|☆Sexy Pigeon Lover|i love you
+
+|
+|move|p2a: Gorbledorp|Explosion|p1a: Groudon
+|-damage|p1a: Groudon|23/100
+|faint|p2a: Gorbledorp
+|move|p1a: Groudon|Precipice Blades|p2: Gorbledorp|[notarget]
+|-fail|p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|c|☆TwetleYT|i messed up tho lmao
+
+|
+|switch|p2a: MVP|Murkrow, M|100/100
+|turn|10
+
+|c|☆Sexy Pigeon Lover|it's better than primal if you use a choice band
+
+|
+|move|p2a: MVP|Curse|p2a: MVP
+|-unboost|p2a: MVP|spe|1
+|-boost|p2a: MVP|atk|1
+|-boost|p2a: MVP|def|1
+|move|p1a: Groudon|Fire Punch|p2a: MVP
+|-damage|p2a: MVP|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+
+|c|☆TwetleYT|but it has a red card and not a red orb xD
+
+|
+|move|p2a: MVP|Curse|p2a: MVP
+|-unboost|p2a: MVP|spe|1
+|-boost|p2a: MVP|atk|1
+|-boost|p2a: MVP|def|1
+|move|p1a: Groudon|Fire Punch|p2a: MVP
+|-damage|p2a: MVP|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+
+|c|☆Sexy Pigeon Lover|lol
+
+|
+|move|p2a: MVP|Roost|p2a: MVP
+|-heal|p2a: MVP|76/100
+|-singleturn|p2a: MVP|move: Roost
+|move|p1a: Groudon|Fire Punch|p2a: MVP
+|-damage|p2a: MVP|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+
+|
+|move|p2a: MVP|Curse|p2a: MVP
+|-unboost|p2a: MVP|spe|1
+|-boost|p2a: MVP|atk|1
+|-boost|p2a: MVP|def|1
+|move|p1a: Groudon|Fire Punch|p2a: MVP
+|-damage|p2a: MVP|18/100
+|-status|p2a: MVP|brn
+|
+|-weather|none
+|-damage|p2a: MVP|12/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p2a: MVP|Roost|p2a: MVP
+|-heal|p2a: MVP|62/100 brn
+|-singleturn|p2a: MVP|move: Roost
+|move|p1a: Groudon|Fire Punch|p2a: MVP
+|-damage|p2a: MVP|46/100 brn
+|
+|-damage|p2a: MVP|40/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p2a: MVP|Roost|p2a: MVP
+|-heal|p2a: MVP|90/100 brn
+|-singleturn|p2a: MVP|move: Roost
+|move|p1a: Groudon|Stealth Rock|p2a: MVP
+|-sidestart|p2: Sexy Pigeon Lover|move: Stealth Rock
+|
+|-damage|p2a: MVP|83/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p2a: MVP|Curse|p2a: MVP
+|-unboost|p2a: MVP|spe|1
+|-boost|p2a: MVP|atk|1
+|-boost|p2a: MVP|def|1
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|
+|-damage|p2a: MVP|77/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: MVP|Toxic|p1a: Groudon
+|-status|p1a: Groudon|tox
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|
+|-damage|p1a: Groudon|17/100 tox|[from] psn
+|-damage|p2a: MVP|71/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p2a: MVP|Roost|p2a: MVP
+|-heal|p2a: MVP|100/100 brn
+|-singleturn|p2a: MVP|move: Roost
+|move|p1a: Groudon|Fire Punch|p2a: MVP
+|-damage|p2a: MVP|58/100 brn
+|
+|-damage|p1a: Groudon|5/100 tox|[from] psn
+|-damage|p2a: MVP|52/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p2a: MVP|Curse|p2a: MVP
+|-unboost|p2a: MVP|spe|1
+|-boost|p2a: MVP|atk|1
+|-boost|p2a: MVP|def|1
+|move|p1a: Groudon|Fire Punch|p2a: MVP
+|-damage|p2a: MVP|16/100 brn
+|
+|-damage|p1a: Groudon|0 fnt|[from] psn
+|faint|p1a: Groudon
+|-damage|p2a: MVP|9/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Big duck bee|Beedrill, M, shiny|100/100
+|turn|20
+
+|
+|detailschange|p1a: Big duck bee|Beedrill-Mega, M, shiny
+|-mega|p1a: Big duck bee|Beedrill|Beedrillite
+|move|p2a: MVP|Taunt|p1a: Big duck bee
+|-start|p1a: Big duck bee|move: Taunt
+|move|p1a: Big duck bee|Fell Stinger|p2a: MVP
+|-damage|p2a: MVP|0 fnt
+|-boost|p1a: Big duck bee|atk|3
+|faint|p2a: MVP
+|
+|upkeep
+
+|
+|switch|p2a: TheLivingTombstone|Dusclops, M|100/100
+|-activate|p2a: TheLivingTombstone|move: Sticky Web
+|-unboost|p2a: TheLivingTombstone|spe|1
+|-damage|p2a: TheLivingTombstone|88/100|[from] Stealth Rock
+|-item|p1a: Big duck bee|Beedrillite|[from] ability: Frisk|[of] p2a: TheLivingTombstone|[identify]
+|turn|21
+
+|
+|move|p1a: Big duck bee|Fell Stinger|p2a: TheLivingTombstone
+|-resisted|p2a: TheLivingTombstone
+|-damage|p2a: TheLivingTombstone|60/100
+|move|p2a: TheLivingTombstone|Ice Beam|p1a: Big duck bee
+|-damage|p1a: Big duck bee|81/100
+|
+|upkeep
+|turn|22
+
+|
+|move|p1a: Big duck bee|Poison Jab|p2a: TheLivingTombstone
+|-resisted|p2a: TheLivingTombstone
+|-damage|p2a: TheLivingTombstone|15/100
+|move|p2a: TheLivingTombstone|Will-O-Wisp|p1a: Big duck bee
+|-status|p1a: Big duck bee|brn
+|
+|-damage|p1a: Big duck bee|75/100 brn|[from] brn
+|-end|p1a: Big duck bee|move: Taunt
+|upkeep
+|turn|23
+
+|
+|move|p1a: Big duck bee|Fell Stinger|p2a: TheLivingTombstone
+|-resisted|p2a: TheLivingTombstone
+|-damage|p2a: TheLivingTombstone|2/100
+|move|p2a: TheLivingTombstone|Ice Beam|p1a: Big duck bee
+|-damage|p1a: Big duck bee|55/100 brn
+|
+|-damage|p1a: Big duck bee|49/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Big duck bee|Fell Stinger|p2a: TheLivingTombstone
+|-resisted|p2a: TheLivingTombstone
+|-damage|p2a: TheLivingTombstone|0 fnt
+|-boost|p1a: Big duck bee|atk|3
+|faint|p2a: TheLivingTombstone
+|
+|-damage|p1a: Big duck bee|43/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: PocoLoco|Spinda, M|100/100
+|-activate|p2a: PocoLoco|move: Sticky Web
+|-boost|p2a: PocoLoco|spe|1
+|-damage|p2a: PocoLoco|88/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p2a: PocoLoco|Fake Out|p1a: Big duck bee
+|-damage|p1a: Big duck bee|9/100 brn
+|cant|p1a: Big duck bee|flinch
+|
+|-damage|p1a: Big duck bee|3/100 brn|[from] brn
+|upkeep
+|turn|26
+
+|
+|move|p2a: PocoLoco|Sucker Punch|p1a: Big duck bee
+|-damage|p1a: Big duck bee|0 fnt
+|faint|p1a: Big duck bee
+|
+|win|Sexy Pigeon Lover

@@ -1,0 +1,165 @@
+|init|battle
+|title|dragonica vs. theapplepielord02
+|j|☆dragonica
+|j|☆theapplepielord02
+|player|p1|dragonica|153|1000
+|player|p2|theapplepielord02|159|1236
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Mix and Mega
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|clearpoke
+|poke|p1|Zapdos|item
+|poke|p1|Xurkitree|item
+|poke|p1|Zeraora|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Raichu-Alola, M|item
+|poke|p1|Galvantula, F|item
+|poke|p2|Gastrodon-East, M|item
+|poke|p2|Golisopod, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Celesteela|item
+|poke|p2|Mimikyu, F|item
+|poke|p2|Heatran, F|item
+|teampreview
+|
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Skittles|Gastrodon-East, M|100/100
+|turn|1
+|
+|detailschange|p1a: Galvantula|Galvantula, F
+|-mega|p1a: Galvantula|Galvantula|Absolite
+|-start|p1a: Galvantula|Absolite|[silent]
+|detailschange|p2a: Skittles|Gastrodon, M
+|-mega|p2a: Skittles|Gastrodon|Sablenite
+|-start|p2a: Skittles|Sablenite|[silent]
+|move|p1a: Galvantula|Energy Ball|p2a: Skittles
+|-supereffective|p2a: Skittles
+|-damage|p2a: Skittles|42/100
+|move|p2a: Skittles|Earth Power|p1a: Galvantula
+|-damage|p1a: Galvantula|40/100
+|
+|upkeep
+|turn|2
+|
+|-end|p2a: Skittles|Sablenite|[silent]
+|switch|p2a: Caldera|Heatran, F, shiny|100/100
+|move|p1a: Galvantula|Energy Ball|p2a: Caldera
+|-resisted|p2a: Caldera
+|-damage|p2a: Caldera|96/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Skittles|Gastrodon, M|42/100
+|-start|p2a: Skittles|Sablenite|[silent]
+|move|p1a: Galvantula|Thunderbolt|p2a: Skittles
+|-immune|p2a: Skittles
+|
+|upkeep
+|turn|4
+|
+|-end|p2a: Skittles|Sablenite|[silent]
+|switch|p2a: Caldera|Heatran, F, shiny|96/100
+|move|p1a: Galvantula|Energy Ball|p2a: Caldera
+|-resisted|p2a: Caldera
+|-damage|p2a: Caldera|91/100
+|
+|upkeep
+|turn|5
+|
+|detailschange|p2a: Caldera|Heatran, F, shiny
+|-mega|p2a: Caldera|Heatran|Latiosite
+|-start|p2a: Caldera|Latiosite|[silent]
+|move|p1a: Galvantula|Thunderbolt|p2a: Caldera
+|-damage|p2a: Caldera|62/100
+|move|p2a: Caldera|Stealth Rock|p1a: Galvantula
+|move|p1a: Galvantula|Stealth Rock|p2a: Caldera|[from]Magic Bounce
+|-sidestart|p2: theapplepielord02|move: Stealth Rock
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Caldera
+|-sidestart|p2: theapplepielord02|move: Sticky Web
+|move|p2a: Caldera|Flash Cannon|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|2/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Galvantula|Thunderbolt|p2a: Caldera
+|-damage|p2a: Caldera|32/100
+|move|p2a: Caldera|Flash Cannon|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+
+|
+|switch|p1a: Xurkitree|Xurkitree|100/100
+|turn|8
+
+|
+|move|p1a: Xurkitree|Thunderbolt|p2a: Caldera
+|-damage|p2a: Caldera|0 fnt
+|faint|p2a: Caldera
+|-ability|p1a: Xurkitree|Beast Boost|boost
+|-boost|p1a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p2a: Real Mascot|Mimikyu, F, shiny|100/100
+|-activate|p2a: Real Mascot|move: Sticky Web
+|-unboost|p2a: Real Mascot|spe|1
+|-damage|p2a: Real Mascot|88/100|[from] Stealth Rock
+|turn|9
+
+|
+|detailschange|p1a: Xurkitree|Xurkitree
+|-mega|p1a: Xurkitree|Xurkitree|Manectite
+|-ability|p1a: Xurkitree|Intimidate|boost
+|-unboost|p2a: Real Mascot|atk|1
+|-start|p1a: Xurkitree|Manectite|[silent]
+|move|p1a: Xurkitree|Thunderbolt|p2a: Real Mascot
+|-activate|p2a: Real Mascot|ability: Disguise
+|-damage|p2a: Real Mascot|88/100
+|detailschange|p2a: Real Mascot|Mimikyu-Busted, F, shiny
+|move|p2a: Real Mascot|Swords Dance|p2a: Real Mascot
+|-boost|p2a: Real Mascot|atk|2
+|
+|upkeep
+|turn|10
+
+|
+|detailschange|p2a: Real Mascot|Mimikyu, F, shiny
+|-mega|p2a: Real Mascot|Mimikyu|Scizorite
+|-start|p2a: Real Mascot|Scizorite|[silent]
+|move|p2a: Real Mascot|Shadow Sneak|p1a: Xurkitree
+|-damage|p1a: Xurkitree|51/100
+|move|p1a: Xurkitree|Thunderbolt|p2a: Real Mascot
+|-damage|p2a: Real Mascot|0 fnt
+|faint|p2a: Real Mascot
+|
+|upkeep
+
+|-message|theapplepielord02 forfeited.
+
+|
+|win|dragonica

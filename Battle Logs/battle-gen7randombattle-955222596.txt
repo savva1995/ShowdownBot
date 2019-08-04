@@ -1,0 +1,142 @@
+|init|battle
+|title|Kekko2303 vs. Dwaynejonesdagoon
+|j|☆Kekko2303
+|j|☆Dwaynejonesdagoon
+|player|p1|Kekko2303|209|1834
+|player|p2|Dwaynejonesdagoon|266|1811
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, L82, M|100/100
+|switch|p2a: Illumise|Illumise, L89, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dwaynejonesdagoon)
+|
+|move|p2a: Illumise|Thunder Wave|p1a: Crawdaunt
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Crawdaunt
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|move|p2a: Illumise|U-turn|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|52/100
+|
+|switch|p2a: Sceptile|Sceptile, L84, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|
+|switch|p2a: Darkrai|Darkrai, L78|100/100
+|turn|4
+|
+|move|p1a: Crawdaunt|Crabhammer|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|switch|p2a: Regirock|Regirock, L88|100/100
+|turn|5
+|
+|move|p1a: Crawdaunt|Crabhammer|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-ability|p2a: Regirock|Sturdy
+|-damage|p2a: Regirock|1/100
+|move|p2a: Regirock|Drain Punch|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|2/100
+|-heal|p2a: Regirock|22/100|[from] drain|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|upkeep
+|
+|switch|p2a: Celesteela|Celesteela, L80|100/100
+|turn|7
+|
+|move|p1a: Crawdaunt|Crabhammer|p2a: Celesteela
+|-damage|p2a: Celesteela|4/100
+|move|p2a: Celesteela|Flash Cannon|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|upkeep
+|inactive|Kekko2303 has 120 seconds left.
+|
+|switch|p1a: Luxray|Luxray, L89, F|100/100
+|turn|8
+|
+|move|p1a: Luxray|Ice Fang|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|faint|p2a: Celesteela
+|
+|-status|p1a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, L84, F|100/100
+|-ability|p2a: Gardevoir|Guts|[from] ability: Trace|[of] p1a: Luxray
+|turn|9
+|
+|move|p2a: Gardevoir|Psychic|p1a: Luxray
+|-damage|p1a: Luxray|60/100 brn
+|move|p1a: Luxray|Facade|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-damage|p1a: Luxray|55/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Illumise|Illumise, L89, F|100/100
+|turn|10
+
+|
+|move|p2a: Illumise|U-turn|p1a: Luxray
+|-crit|p1a: Luxray
+|-damage|p1a: Luxray|26/100 brn
+|move|p1a: Luxray|Facade|p2a: Illumise
+|-damage|p2a: Illumise|24/100
+|
+|-heal|p2a: Illumise|30/100|[from] item: Leftovers
+|-damage|p1a: Luxray|20/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Illumise|U-turn|p1a: Luxray
+|-damage|p1a: Luxray|3/100 brn
+|move|p1a: Luxray|Facade|p2a: Illumise
+|-damage|p2a: Illumise|0 fnt
+|faint|p2a: Illumise
+|
+|win|Kekko2303

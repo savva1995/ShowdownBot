@@ -1,0 +1,92 @@
+|init|battle
+|title|Guest 1405810 vs. xtcuttiuiguh
+|j|☆xtcuttiuiguh
+|player|p1|Guest 1405810|102|
+|player|p2|xtcuttiuiguh|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Unrated Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venomoth|Venomoth, L83, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L82, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Guest 1405810
+|turn|1
+|
+|switch|p1a: Garchomp|Garchomp, L80, F|100/100
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L82, M
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Garchomp
+|-damage|p1a: Garchomp|70/100
+|-damage|p2a: Aerodactyl|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Dunsparce|Dunsparce, L89, M|100/100
+|detailschange|p1a: Garchomp|Garchomp-Mega, L80, F
+|-mega|p1a: Garchomp|Garchomp|Garchompite
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Garchomp|Earthquake|p2a: Dunsparce
+|-damage|p2a: Dunsparce|0 fnt
+|faint|p2a: Dunsparce
+|
+|upkeep
+
+|
+|switch|p2a: Mewtwo|Mewtwo, L78|100/100
+|-ability|p2a: Mewtwo|Unnerve|p1: Guest 1405810
+|turn|4
+
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+
+|
+|switch|p1a: Malamar|Malamar, L86, M|100/100
+|turn|5
+
+|
+|switch|p2a: Infernape|Infernape, L82, M|100/100
+|-zpower|p1a: Malamar
+|move|p1a: Malamar|Z-Happy Hour|p1a: Malamar|[anim]Happy Hour
+|-boost|p1a: Malamar|atk|1|[zeffect]
+|-boost|p1a: Malamar|def|1|[zeffect]
+|-boost|p1a: Malamar|spa|1|[zeffect]
+|-boost|p1a: Malamar|spd|1|[zeffect]
+|-boost|p1a: Malamar|spe|1|[zeffect]
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Malamar|Psycho Cut|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+
+|
+|switch|p2a: Umbreon|Umbreon, L84, F|100/100
+|turn|7
+
+|player|p1|
+|-message|Guest 1405810 forfeited.
+|
+|win|xtcuttiuiguh

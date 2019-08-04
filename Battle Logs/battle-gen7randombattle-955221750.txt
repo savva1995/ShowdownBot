@@ -1,0 +1,218 @@
+|init|battle
+|title|Procyon vs. catkindo
+|j|☆Procyon
+|j|☆catkindo
+|player|p1|Procyon|92|1682
+|player|p2|catkindo|234|1649
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Qwilfish|Qwilfish, L88, F|100/100
+|switch|p2a: Zebstrika|Zebstrika, L89, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Zebstrika|atk|1
+|turn|1
+|
+|move|p2a: Zebstrika|Volt Switch|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|19/100
+|
+|switch|p2a: Togedemaru|Togedemaru, L86, F|100/100|[from]move: Volt Switch
+|-item|p2a: Togedemaru|Air Balloon
+|move|p1a: Qwilfish|Liquidation|p2a: Togedemaru
+|-damage|p2a: Togedemaru|52/100
+|-enditem|p2a: Togedemaru|Air Balloon
+|-unboost|p2a: Togedemaru|def|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Swampert|Swampert, L80, F|100/100
+|move|p2a: Togedemaru|Zing Zap|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|upkeep
+|turn|3
+|
+|detailschange|p1a: Swampert|Swampert-Mega, L80, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Togedemaru|Spiky Shield|p2a: Togedemaru
+|-singleturn|p2a: Togedemaru|move: Protect
+|move|p1a: Swampert|Earthquake|p2a: Togedemaru
+|-activate|p2a: Togedemaru|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Togedemaru|100/100|[from] move: Wish|[wisher] Togedemaru
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Procyon)
+|
+|switch|p2a: Zebstrika|Zebstrika, L89, F|100/100
+|move|p1a: Swampert|Earthquake|p2a: Zebstrika
+|-supereffective|p2a: Zebstrika
+|-damage|p2a: Zebstrika|0 fnt
+|faint|p2a: Zebstrika
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Swampert|Swampert, L80, M|100/100
+|turn|6
+|
+|detailschange|p2a: Swampert|Swampert-Mega, L80, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Waterfall|p2a: Swampert
+|-damage|p2a: Swampert|49/100
+|move|p2a: Swampert|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|56/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Swampert|Waterfall|p1a: Swampert
+|-damage|p1a: Swampert|2/100
+|move|p1a: Swampert|Waterfall|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, L81, M|100/100
+|turn|8
+|
+|move|p2a: Alakazam|Psychic|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+|
+|switch|p1a: Greninja|Greninja, L80, M|100/100
+|turn|9
+|
+|move|p1a: Greninja|U-turn|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|19/100
+|
+|switch|p1a: Qwilfish|Qwilfish, L88, F|19/100|[from]move: U-turn
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Alakazam|atk|1
+|move|p2a: Alakazam|Focus Blast|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-crit|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|
+|upkeep
+|
+|switch|p1a: Tropius|Tropius, L89, F|100/100
+|turn|10
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Tropius
+|-supereffective|p1a: Tropius
+|-damage|p1a: Tropius|15/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|39/100|[from] item: Sitrus Berry
+|move|p1a: Tropius|Giga Drain|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-heal|p1a: Tropius|46/100|[from] drain|[of] p2a: Alakazam
+|faint|p2a: Alakazam
+|
+|upkeep
+|
+|switch|p2a: Skuntank|Skuntank, L88, F|100/100
+|turn|11
+|
+|move|p2a: Skuntank|Poison Jab|p1a: Tropius
+|-supereffective|p1a: Tropius
+|-damage|p1a: Tropius|0 fnt
+|-damage|p2a: Skuntank|91/100|[from] item: Life Orb
+|faint|p1a: Tropius
+|
+|upkeep
+|
+|switch|p1a: Greninja|Greninja, L80, M|100/100
+|turn|12
+|
+|move|p1a: Greninja|U-turn|p2a: Skuntank
+|-damage|p2a: Skuntank|74/100
+|
+|switch|p1a: Hoopa|Hoopa, L85|100/100|[from]move: U-turn
+|move|p2a: Skuntank|Poison Jab|p1a: Hoopa
+|-resisted|p1a: Hoopa
+|-damage|p1a: Hoopa|75/100
+|-damage|p2a: Skuntank|64/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Togedemaru|Togedemaru, L86, F|100/100
+|switch|p1a: Greninja|Greninja, L80, M|100/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Greninja|U-turn|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|90/100
+
+|
+|switch|p1a: Hoopa|Hoopa, L85|75/100|[from]move: U-turn
+|move|p2a: Togedemaru|Iron Head|p1a: Hoopa
+|-damage|p1a: Hoopa|29/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Togedemaru|Zing Zap|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+
+|
+|switch|p1a: Greninja|Greninja, L80, M|100/100
+|turn|16
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Togedemaru
+|-damage|p2a: Togedemaru|54/100
+|move|p2a: Togedemaru|Zing Zap|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|12/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Togedemaru
+|-damage|p2a: Togedemaru|16/100
+|move|p2a: Togedemaru|Zing Zap|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+
+|-message|Procyon forfeited.
+
+|
+|win|catkindo

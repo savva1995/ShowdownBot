@@ -1,0 +1,268 @@
+|init|battle
+|title|Auberry vs. shigokan
+|j|☆Auberry
+|j|☆shigokan
+|player|p1|Auberry|143|1328
+|player|p2|shigokan|170|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Salazzle, F|item
+|poke|p1|Virizion|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Golisopod, F|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Virizion|item
+|poke|p2|Arcanine, M|item
+|poke|p2|Metagross|item
+|poke|p2|Raikou|item
+|poke|p2|Noivern, F|item
+|teampreview
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|
+|move|p1a: Nidoqueen|Stealth Rock|p2a: Metagross
+|-sidestart|p2: shigokan|move: Stealth Rock
+|move|p2a: Metagross|Stealth Rock|p1a: Nidoqueen
+|-sidestart|p1: Auberry|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Nidoqueen|Earth Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-enditem|p2a: Metagross|Shuca Berry|[eat]
+|-enditem|p2a: Metagross|Shuca Berry|[weaken]
+|-damage|p2a: Metagross|37/100
+|move|p2a: Metagross|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|6/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Nidoqueen|Earth Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|4
+
+|l|☆shigokan
+
+|player|p2|
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Auberry)
+
+|j|☆shigokan
+
+|inactive|shigokan reconnected and has 125 seconds left.
+
+|player|p2|shigokan|170
+|inactive|shigokan has 120 seconds left.
+
+|
+|detailschange|p2a: Blastoise|Blastoise-Mega, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Blastoise|Dark Pulse|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|upkeep
+
+|
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|turn|5
+
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Virizion|atk|1
+|move|p1a: Virizion|Swords Dance|p1a: Virizion
+|-boost|p1a: Virizion|atk|2
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Virizion|Stone Edge|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p1a: Virizion|84/100|[from] item: Life Orb
+|faint|p2a: Arcanine
+|
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, F|100/100
+|-damage|p2a: Noivern|76/100|[from] Stealth Rock
+|turn|7
+
+|
+|move|p2a: Noivern|Hurricane|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|-heal|p2a: Noivern|82/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|detailschange|p1a: Blastoise|Blastoise-Mega, F
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Noivern|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|77/100
+
+|
+|switch|p2a: Raikou|Raikou|100/100|[from]move: U-turn
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Blastoise|Ice Beam|p2a: Raikou
+|-damage|p2a: Raikou|54/100
+|
+|-heal|p2a: Raikou|61/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|95/100|[from] Stealth Rock
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|
+|-heal|p2a: Raikou|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|10/100
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-heal|p2a: Raikou|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Metagross|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|-damage|p1a: Metagross|0 fnt|[from] item: Life Orb
+|faint|p2a: Raikou
+|faint|p1a: Metagross
+|
+|upkeep
+
+|
+|switch|p2a: Blastoise|Blastoise-Mega, M|88/100
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|-damage|p2a: Blastoise|76/100|[from] Stealth Rock
+|-damage|p1a: Golisopod|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Golisopod|First Impression|p2a: Blastoise
+|-damage|p2a: Blastoise|27/100
+|move|p2a: Blastoise|Dark Pulse|p1a: Golisopod
+|-crit|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|upkeep
+
+|
+|switch|p1a: Blastoise|Blastoise-Mega, F|77/100
+|-damage|p1a: Blastoise|65/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Blastoise|Aura Sphere|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, F|82/100
+|-damage|p2a: Noivern|57/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p2a: Noivern|Hurricane|p1a: Blastoise
+|-damage|p1a: Blastoise|20/100
+|move|p1a: Blastoise|Ice Beam|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+
+|
+|switch|p2a: Virizion|Virizion|100/100
+|-damage|p2a: Virizion|94/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|move|p1a: Blastoise|Ice Beam|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|44/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Virizion|Leaf Blade|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-damage|p2a: Virizion|34/100|[from] item: Life Orb
+|faint|p1a: Blastoise
+|
+|upkeep
+
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|-damage|p1a: Salazzle|76/100|[from] Stealth Rock
+|turn|17
+
+|
+|-zpower|p1a: Salazzle
+|move|p1a: Salazzle|Acid Downpour|p2a: Virizion|[zeffect]
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|win|Auberry

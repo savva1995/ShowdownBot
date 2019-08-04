@@ -1,0 +1,49 @@
+|init|battle
+|title|gabros8 vs. Gambriinus
+|j|☆gabros8
+|j|☆Gambriinus
+|player|p1|gabros8|99|1233
+|player|p2|Gambriinus|101|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cofagrigus|Cofagrigus, L85, F|100/100
+|switch|p2a: Bisharp|Bisharp, L82, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gabros8)
+|
+|switch|p1a: Cobalion|Cobalion, L82|100/100
+|move|p2a: Bisharp|Knock Off|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|85/100
+|-ability|p1a: Cobalion|Justified|boost
+|-boost|p1a: Cobalion|atk|1
+|-enditem|p1a: Cobalion|Leftovers|[from] move: Knock Off|[of] p2a: Bisharp
+|
+|upkeep
+|turn|2
+|inactive|Gambriinus has 120 seconds left.
+
+|inactive|Gambriinus has 90 seconds left.
+
+|inactive|Gambriinus has 60 seconds left.
+
+|
+|switch|p2a: Parasect|Parasect, L89, F|100/100
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|
+|upkeep
+|turn|3
+
+|-message|Gambriinus forfeited.
+
+|
+|win|gabros8

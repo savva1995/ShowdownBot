@@ -1,0 +1,438 @@
+|init|battle
+|title|hfghdfghgh vs. gobies123
+|j|☆hfghdfghgh
+|j|☆gobies123
+|player|p1|hfghdfghgh|249|1892
+|player|p2|gobies123|247|1859
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno, L89, M|100/100
+|switch|p2a: Togekiss|Togekiss, L82, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gobies123)
+
+|inactive|gobies123 has 120 seconds left.
+
+|inactive|gobies123 has 90 seconds left.
+
+|
+|move|p2a: Togekiss|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|move|p1a: Hypno|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-damage|p2a: Togekiss|94/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Chansey|Chansey, L80, F|100/100
+|move|p2a: Togekiss|Air Slash|p1a: Chansey
+|-damage|p1a: Chansey|91/100
+|
+|-heal|p2a: Togekiss|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|88/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, M|100/100
+|move|p1a: Chansey|Stealth Rock|p2a: Toxicroak
+|-sidestart|p2: gobies123|move: Stealth Rock
+|
+|upkeep
+|turn|4
+
+|c|☆gobies123|gino you here?
+
+|inactive|gobies123 has 120 seconds left.
+
+|
+|switch|p1a: Hypno|Hypno, L89, M|100/100 par
+|move|p2a: Toxicroak|Gunk Shot|p1a: Hypno
+|-damage|p1a: Hypno|30/100 par
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Hypno|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|gobies123 has 120 seconds left.
+
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|-damage|p2a: Toxicroak|81/100|[from] item: Life Orb
+|faint|p1a: Hypno
+|
+|upkeep
+
+|
+|switch|p1a: Carracosta|Carracosta, L88, F|100/100
+|turn|6
+
+|inactive|gobies123 has 120 seconds left.
+
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|59/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Carracosta
+|-enditem|p1a: Carracosta|Weakness Policy
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Carracosta|Stone Edge|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|6/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|-heal|p2a: Toxicroak|36/100|[from] drain|[of] p1a: Carracosta
+|-damage|p2a: Toxicroak|26/100|[from] item: Life Orb
+|faint|p1a: Carracosta
+|
+|upkeep
+
+|
+|switch|p1a: Genesect|Genesect-Douse, L78|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|8
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, L85, F|100/100
+|-damage|p2a: Cofagrigus|88/100|[from] Stealth Rock
+|move|p1a: Genesect|Iron Head|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|63/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Download|[of] p1a: Genesect
+|
+|-heal|p2a: Cofagrigus|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p1a: Genesect|Techno Blast|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|20/100
+|move|p2a: Cofagrigus|Pain Split|p1a: Genesect
+|-sethp|p1a: Genesect|60/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Cofagrigus|61/100|[from] move: Pain Split
+|
+|-heal|p2a: Cofagrigus|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Genesect|Techno Blast|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|20/100
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Genesect
+|-damage|p1a: Genesect|20/100
+|
+|-heal|p2a: Cofagrigus|26/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Genesect|Techno Blast|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|upkeep
+
+|
+|switch|p2a: Delphox|Delphox, L86, F|100/100
+|-damage|p2a: Delphox|76/100|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p1a: Chansey|Chansey, L80, F|91/100
+|move|p2a: Delphox|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|44/100
+|
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Stakataka|Stakataka, L83|100/100
+|-item|p1a: Stakataka|Air Balloon
+|move|p2a: Delphox|Psyshock|p1a: Stakataka
+|-resisted|p1a: Stakataka
+|-damage|p1a: Stakataka|90/100
+|-enditem|p1a: Stakataka|Air Balloon
+|
+|upkeep
+|turn|14
+
+|inactive|gobies123 has 120 seconds left.
+
+|c|☆gobies123|psyshock > psychic for that reason alone
+
+|inactive|gobies123 has 90 seconds left.
+
+|
+|switch|p2a: Stunfisk|Stunfisk, L91, M|100/100
+|-damage|p2a: Stunfisk|94/100|[from] Stealth Rock
+|move|p1a: Stakataka|Trick Room|p1a: Stakataka
+|-fieldstart|move: Trick Room|[of] p1a: Stakataka
+|
+|upkeep
+|turn|15
+
+|inactive|gobies123 has 90 seconds left.
+
+|c|☆gobies123|thanks for the analysis
+
+|
+|switch|p1a: Chansey|Chansey, L80, F|44/100
+|move|p2a: Stunfisk|Earth Power|p1a: Chansey
+|-damage|p1a: Chansey|32/100
+|
+|upkeep
+|turn|16
+
+|c|☆gobies123|yeah XD
+
+|
+|move|p2a: Stunfisk|Stealth Rock|p1a: Chansey
+|-sidestart|p1: hfghdfghgh|move: Stealth Rock
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|82/100
+|
+|upkeep
+|turn|17
+
+|inactive|gobies123 has 90 seconds left.
+
+|
+|switch|p1a: Sceptile|Sceptile, L84, F|100/100
+|-damage|p1a: Sceptile|88/100|[from] Stealth Rock
+|move|p2a: Stunfisk|Discharge|p1a: Sceptile
+|-resisted|p1a: Sceptile
+|-damage|p1a: Sceptile|71/100
+|
+|upkeep
+|turn|18
+
+|c|☆gobies123|uh oh
+
+|inactive|hfghdfghgh has 120 seconds left.
+
+|
+|detailschange|p1a: Sceptile|Sceptile-Mega, L84, F
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Stunfisk|Earth Power|p1a: Sceptile
+|-resisted|p1a: Sceptile
+|-damage|p1a: Sceptile|52/100
+|move|p1a: Sceptile|Substitute|p1a: Sceptile
+|-start|p1a: Sceptile|Substitute
+|-damage|p1a: Sceptile|28/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+
+|
+|move|p1a: Sceptile|Giga Drain|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|37/100
+|-heal|p1a: Sceptile|67/100|[from] drain|[of] p2a: Stunfisk
+|move|p2a: Stunfisk|Earth Power|p1a: Sceptile
+|-resisted|p1a: Sceptile
+|-activate|p1a: Sceptile|move: Substitute|[damage]
+|
+|upkeep
+|turn|20
+
+|c|☆gobies123|giggaaaa drenn
+
+|
+|move|p1a: Sceptile|Giga Drain|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|-heal|p1a: Sceptile|91/100|[from] drain|[of] p2a: Stunfisk
+|faint|p2a: Stunfisk
+|
+|upkeep
+
+|c|☆gobies123|check the other
+
+|inactive|gobies123 has 60 seconds left.
+
+|
+|switch|p2a: Togekiss|Togekiss, L82, F|88/100 tox
+|-damage|p2a: Togekiss|63/100 tox|[from] Stealth Rock
+|turn|21
+
+|
+|move|p1a: Sceptile|Giga Drain|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|47/100 tox
+|-heal|p1a: Sceptile|100/100|[from] drain|[of] p2a: Togekiss
+|move|p2a: Togekiss|Air Slash|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-end|p1a: Sceptile|Substitute
+|
+|-heal|p2a: Togekiss|53/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|47/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|inactive|gobies123 has 60 seconds left.
+
+|
+|switch|p1a: Chansey|Chansey, L80, F|82/100
+|-damage|p1a: Chansey|70/100|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Chansey
+|-damage|p1a: Chansey|60/100
+|
+|-heal|p2a: Togekiss|53/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|41/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|inactive|gobies123 has 60 seconds left.
+
+|inactive|gobies123 has 30 seconds left.
+
+|
+|move|p2a: Togekiss|Defog|p1a: Chansey
+|-unboost|p1a: Chansey|evasion|1
+|-sideend|p1: hfghdfghgh|Stealth Rock|[from] move: Defog|[of] p2a: Togekiss
+|-sideend|p2: gobies123|Stealth Rock|[from] move: Defog|[of] p2a: Togekiss
+|move|p1a: Chansey|Seismic Toss|p2a: Togekiss
+|-damage|p2a: Togekiss|11/100 tox
+|
+|-heal|p2a: Togekiss|18/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|0 fnt|[from] psn
+|faint|p2a: Togekiss
+|upkeep
+
+|inactive|gobies123 has 30 seconds left.
+
+|
+|switch|p2a: Toxicroak|Toxicroak, L84, M|26/100
+|turn|24
+
+|
+|switch|p1a: Genesect|Genesect-Douse, L78|20/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|move|p2a: Toxicroak|Drain Punch|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|-heal|p2a: Toxicroak|34/100|[from] drain|[of] p1a: Genesect
+|-damage|p2a: Toxicroak|25/100|[from] item: Life Orb
+|faint|p1a: Genesect
+|
+|upkeep
+
+|
+|switch|p1a: Sceptile|Sceptile-Mega, L84, F|100/100
+|turn|25
+
+|
+|switch|p2a: Delphox|Delphox, L86, F|76/100
+|move|p1a: Sceptile|Outrage|p2a: Delphox
+|-damage|p2a: Delphox|19/100
+|
+|upkeep
+|turn|26
+
+|
+|move|p2a: Delphox|Psyshock|p1a: Sceptile
+|-damage|p1a: Sceptile|55/100
+|move|p1a: Sceptile|Outrage|p2a: Delphox|[from]lockedmove
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|upkeep
+
+|c|☆gobies123|nuke em
+
+|c|☆gobies123|show him the 25 kill streak
+
+|inactive|gobies123 has 30 seconds left.
+
+|
+|switch|p2a: Darmanitan|Darmanitan, L83, M|100/100
+|turn|27
+
+|
+|move|p1a: Sceptile|Outrage|p2a: Darmanitan|[from]lockedmove
+|-damage|p2a: Darmanitan|37/100
+|-start|p1a: Sceptile|confusion|[fatigue]
+|move|p2a: Darmanitan|Flare Blitz|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|-damage|p2a: Darmanitan|22/100|[from] Recoil
+|faint|p1a: Sceptile
+|
+|upkeep
+
+|
+|switch|p1a: Stakataka|Stakataka, L83|90/100
+|turn|28
+
+|
+|move|p2a: Darmanitan|Superpower|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|-damage|p2a: Darmanitan|12/100|[from] item: Life Orb
+|faint|p1a: Stakataka
+|
+|upkeep
+
+|
+|switch|p1a: Chansey|Chansey, L80, F|60/100
+|turn|29
+
+|c|☆hfghdfghgh|gg
+
+|c|☆gobies123|lol he thought that would work
+
+|c|☆gobies123|this guy
+
+|c|☆gobies123|gg
+
+|c|☆gobies123|get a load
+
+|c|☆gobies123|bro its 2 people
+
+|c|☆gobies123|in the chat
+
+|inactive|gobies123 has 60 seconds left.
+
+|c|☆gobies123|sorry for the bm
+
+|c|☆gobies123|no bm
+
+|c|☆hfghdfghgh|lol
+
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-damage|p2a: Darmanitan|0 fnt|[from] Recoil
+|faint|p1a: Chansey
+|faint|p2a: Darmanitan
+|
+|win|gobies123

@@ -1,0 +1,423 @@
+|init|battle
+|title|MasterFill vs. MistrzMati
+|j|☆MasterFill
+|j|☆MistrzMati
+|player|p1|MasterFill|102|
+|player|p2|MistrzMati|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Mix and Mega
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Zygarde|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Necrozma-Dawn-Wings|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p2|Gengar, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Weavile, F|item
+|poke|p2|Altaria, M|item
+|poke|p2|Lucario, F|item
+|poke|p2|Typhlosion, M|item
+|teampreview
+|
+|start
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|switch|p2a: Altaria|Altaria, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Altaria|atk|1
+|turn|1
+|
+|move|p2a: Altaria|Draco Meteor|p1a: Gyarados
+|-damage|p1a: Gyarados|67/100
+|-unboost|p2a: Altaria|spa|2
+|move|p1a: Gyarados|Aqua Tail|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|75/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Altaria|Draco Meteor|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|15/100
+|-unboost|p2a: Altaria|spa|2
+|-enditem|p1a: Gyarados|Aguav Berry|[eat]
+|-heal|p1a: Gyarados|65/100|[from] item: Aguav Berry
+|move|p1a: Gyarados|Crunch|p2a: Altaria
+|-damage|p2a: Altaria|44/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Altaria|Draco Meteor|p1a: Gyarados
+|-damage|p1a: Gyarados|53/100
+|-unboost|p2a: Altaria|spa|2
+|move|p1a: Gyarados|Crunch|p2a: Altaria
+|-damage|p2a: Altaria|14/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Altaria|Draco Meteor|p1a: Gyarados|[miss]
+|-miss|p2a: Altaria|p1a: Gyarados
+|move|p1a: Gyarados|Aqua Tail|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|5
+
+|
+|move|p2a: Weavile|Blizzard|p1a: Gyarados
+|-damage|p1a: Gyarados|32/100
+|move|p1a: Gyarados|Crunch|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|83/100
+|-unboost|p2a: Weavile|def|1
+|
+|-heal|p2a: Weavile|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p2a: Weavile|Ice Beam|p1a: Gyarados
+|-damage|p1a: Gyarados|13/100
+|move|p1a: Gyarados|Body Slam|p2a: Weavile
+|-damage|p2a: Weavile|24/100
+|
+|-heal|p2a: Weavile|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Weavile|Ice Beam|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Weavile|36/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Necrozma-Dawn-Wing|Necrozma-Dawn-Wings|100/100
+|turn|8
+
+|
+|move|p2a: Weavile|Dark Pulse|p1a: Necrozma-Dawn-Wing
+|-supereffective|p1a: Necrozma-Dawn-Wing
+|-damage|p1a: Necrozma-Dawn-Wing|59/100
+|cant|p1a: Necrozma-Dawn-Wing|flinch
+|
+|-heal|p2a: Weavile|42/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Weavile|Dark Pulse|p1a: Necrozma-Dawn-Wing
+|-supereffective|p1a: Necrozma-Dawn-Wing
+|-damage|p1a: Necrozma-Dawn-Wing|21/100
+|-enditem|p1a: Necrozma-Dawn-Wing|Aguav Berry|[eat]
+|-heal|p1a: Necrozma-Dawn-Wing|71/100|[from] item: Aguav Berry
+|move|p1a: Necrozma-Dawn-Wing|Dark Pulse|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|25/100
+|
+|-heal|p2a: Weavile|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p2a: Weavile|Dark Pulse|p1a: Necrozma-Dawn-Wing
+|-supereffective|p1a: Necrozma-Dawn-Wing
+|-damage|p1a: Necrozma-Dawn-Wing|29/100
+|cant|p1a: Necrozma-Dawn-Wing|flinch
+|
+|-heal|p2a: Weavile|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Weavile|Dark Pulse|p1a: Necrozma-Dawn-Wing
+|-supereffective|p1a: Necrozma-Dawn-Wing
+|-damage|p1a: Necrozma-Dawn-Wing|0 fnt
+|faint|p1a: Necrozma-Dawn-Wing
+|
+|-heal|p2a: Weavile|43/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|12
+
+|
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, F
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Weavile|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|98/100
+|move|p1a: Tyranitar|Brick Break|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|turn|13
+
+|
+|move|p2a: Gengar|Hypnosis|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p1a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p2a: Gengar|Hyper Beam|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|87/100 slp
+|-mustrecharge|p2a: Gengar
+|cant|p1a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|cant|p2a: Gengar|recharge
+|cant|p1a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Gengar|Dark Pulse|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|81/100 slp
+|-curestatus|p1a: Tyranitar|slp|[msg]
+|move|p1a: Tyranitar|Brick Break|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|none
+|upkeep
+|turn|17
+
+|
+|move|p2a: Gengar|Hypnosis|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p1a: Tyranitar|slp
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|68/100 slp
+|-unboost|p1a: Tyranitar|spd|1
+|-curestatus|p1a: Tyranitar|slp|[msg]
+|move|p1a: Tyranitar|Aqua Tail|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|9/100
+|
+|-heal|p2a: Gengar|15/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Gengar|Hypnosis|p1a: Tyranitar|[miss]
+|-miss|p2a: Gengar|p1a: Tyranitar
+|move|p1a: Tyranitar|Aqua Tail|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Tyranitar|Disable|Aqua Tail|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Gallade|Gallade, M, shiny|100/100
+|turn|20
+
+|
+|detailschange|p2a: Gallade|Gallade-Mega, M, shiny
+|-mega|p2a: Gallade|Gallade|Galladite
+|move|p2a: Gallade|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|19/100
+|move|p1a: Tyranitar|Brick Break|p2a: Gallade
+|-resisted|p2a: Gallade
+|-crit|p2a: Gallade
+|-damage|p2a: Gallade|78/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Gallade|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|22
+
+|
+|-singleturn|p2a: Gallade|move: Focus Punch
+|detailschange|p1a: Charizard|Charizard-Mega-X, M
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Flare Blitz|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|-damage|p1a: Charizard|79/100|[from] Recoil
+|faint|p2a: Gallade
+|
+|upkeep
+
+|
+|switch|p2a: Typhlosion|Typhlosion, M, shiny|100/100
+|turn|23
+
+|
+|move|p2a: Typhlosion|Eruption|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|62/100
+|move|p1a: Charizard|Flare Blitz|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|54/100
+|-damage|p1a: Charizard|48/100|[from] Recoil
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Typhlosion|Fire Blast|p1a: Charizard|[miss]
+|-miss|p2a: Typhlosion|p1a: Charizard
+|move|p1a: Charizard|Flare Blitz|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|5/100
+|-damage|p1a: Charizard|34/100|[from] Recoil
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Typhlosion|Focus Blast|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|26
+
+|
+|move|p2a: Typhlosion|Eruption|p1a: Kyurem
+|-damage|p1a: Kyurem|97/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Typhlosion
+|
+|upkeep
+
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|turn|27
+
+|
+|move|p2a: Lucario|Earthquake|p1a: Kyurem
+|-damage|p1a: Kyurem|75/100
+|move|p1a: Kyurem|Dragon Claw|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|68/100
+|
+|-heal|p2a: Lucario|74/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Lucario|Close Combat|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|faint|p1a: Kyurem
+|
+|-heal|p2a: Lucario|80/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Zygarde|Zygarde|100/100
+|turn|29
+
+|
+|move|p1a: Zygarde|Crunch|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|58/100
+|move|p2a: Lucario|Close Combat|p1a: Zygarde
+|-damage|p1a: Zygarde|60/100
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|
+|-heal|p2a: Lucario|64/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Zygarde|Coil|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|def|1
+|-boost|p1a: Zygarde|accuracy|1
+|move|p2a: Lucario|Close Combat|p1a: Zygarde
+|-damage|p1a: Zygarde|32/100
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|
+|-heal|p2a: Lucario|70/100|[from] item: Leftovers
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete
+|-heal|p1a: Zygarde|58/100|[silent]
+|upkeep
+|turn|31
+
+|
+|move|p1a: Zygarde|Brick Break|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|win|MasterFill

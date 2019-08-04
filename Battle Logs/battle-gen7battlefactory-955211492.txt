@@ -1,0 +1,355 @@
+|init|battle
+|title|Eusk037 vs. fagiolini
+|j|☆Eusk037
+|j|☆fagiolini
+|player|p1|Eusk037|196|1336
+|player|p2|fagiolini|264|1344
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Silvally-*|item
+|poke|p1|Spiritomb, F|item
+|poke|p1|Combusken, F|item
+|poke|p1|Jumpluff, F|
+|poke|p1|Probopass, F|item
+|poke|p1|Liepard, M|item
+|poke|p2|Mudsdale, M|item
+|poke|p2|Swanna, M|item
+|poke|p2|Haunter, F|item
+|poke|p2|Rotom-Frost|item
+|poke|p2|Lurantis, F|item
+|poke|p2|Regice|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Silvally|Silvally-Dragon|100/100
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|turn|1
+|
+|move|p1a: Silvally|Parting Shot|p2a: Rotom
+|-unboost|p2a: Rotom|atk|1
+|-unboost|p2a: Rotom|spa|1
+|
+|switch|p1a: Probopass|Probopass, F|100/100|[from]move: Parting Shot
+|move|p2a: Rotom|Blizzard|p1a: Probopass
+|-resisted|p1a: Probopass
+|-damage|p1a: Probopass|84/100
+|-damage|p2a: Rotom|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Swanna|Swanna, M|100/100
+|move|p1a: Probopass|Stealth Rock|p2a: Swanna
+|-sidestart|p2: fagiolini|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Swanna|Defog|p1a: Probopass
+|-unboost|p1a: Probopass|evasion|1
+|-sideend|p2: fagiolini|Stealth Rock|[from] move: Defog|[of] p2a: Swanna
+|move|p1a: Probopass|Volt Switch|p2a: Swanna
+|-supereffective|p2a: Swanna
+|-damage|p2a: Swanna|0 fnt
+|faint|p2a: Swanna
+|
+|switch|p1a: Silvally|Silvally-Dragon|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p2a: Lurantis|Lurantis, F|100/100
+|turn|4
+|
+|move|p1a: Silvally|Flamethrower|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|41/100
+|move|p2a: Lurantis|Superpower|p1a: Silvally
+|-crit|p1a: Silvally
+|-damage|p1a: Silvally|63/100
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|
+|-heal|p2a: Lurantis|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Regice|Regice|100/100
+|move|p1a: Silvally|Flamethrower|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|71/100
+|-status|p2a: Regice|brn
+|
+|-damage|p2a: Regice|65/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Spiritomb|Spiritomb, F|100/100
+|-ability|p1a: Spiritomb|Pressure
+|move|p2a: Regice|Ice Beam|p1a: Spiritomb
+|-damage|p1a: Spiritomb|38/100
+|-damage|p2a: Regice|55/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Regice|49/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Regice|Ice Beam|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|-damage|p2a: Regice|39/100 brn|[from] item: Life Orb
+|faint|p1a: Spiritomb
+|
+|-damage|p2a: Regice|33/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Combusken|Combusken, F|100/100
+|turn|8
+
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|move|p1a: Combusken|Protect||[still]
+|-fail|p1a: Combusken
+|
+|-ability|p1a: Combusken|Speed Boost|boost
+|-boost|p1a: Combusken|spe|1
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Jumpluff|Jumpluff, F|100/100
+|move|p2a: Mudsdale|Earthquake|p1a: Jumpluff
+|-immune|p1a: Jumpluff
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Lurantis|Lurantis, F|47/100
+|move|p1a: Jumpluff|Sleep Powder|p2a: Lurantis
+|-immune|p2a: Lurantis
+|
+|-heal|p2a: Lurantis|53/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Jumpluff|Swords Dance|p1a: Jumpluff
+|-boost|p1a: Jumpluff|atk|2
+|move|p2a: Lurantis|Synthesis|p2a: Lurantis
+|-heal|p2a: Lurantis|100/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|2/100
+|move|p2a: Lurantis|Leaf Storm|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|92/100
+|-boost|p2a: Lurantis|spa|2
+|
+|-heal|p2a: Lurantis|8/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|faint|p2a: Lurantis
+|
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Frost|91/100
+|turn|14
+
+|
+|switch|p1a: Probopass|Probopass, F|84/100
+|move|p2a: Rotom|Thunderbolt|p1a: Probopass
+|-damage|p1a: Probopass|41/100
+|-damage|p2a: Rotom|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Probopass
+|-damage|p1a: Probopass|0 fnt
+|-damage|p2a: Rotom|71/100|[from] item: Life Orb
+|faint|p1a: Probopass
+|
+|upkeep
+
+|
+|switch|p1a: Liepard|Liepard, M|100/100
+|turn|16
+
+|
+|switch|p2a: Regice|Regice|33/100 brn
+|move|p1a: Liepard|Knock Off|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|-enditem|p2a: Regice|Life Orb|[from] move: Knock Off|[of] p1a: Liepard
+|faint|p2a: Regice
+|
+|upkeep
+
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|turn|17
+
+|
+|switch|p1a: Jumpluff|Jumpluff, F|92/100
+|move|p2a: Mudsdale|Roar|p1a: Jumpluff
+|drag|p1a: Silvally|Silvally-Dragon|63/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p1a: Silvally|Draco Meteor|p2a: Mudsdale
+|-damage|p2a: Mudsdale|57/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-unboost|p1a: Silvally|spa|2
+|move|p2a: Mudsdale|Stealth Rock|p1a: Silvally
+|-sidestart|p1: Eusk037|move: Stealth Rock
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Silvally|Defog|p2a: Mudsdale
+|-unboost|p2a: Mudsdale|evasion|1
+|-sideend|p1: Eusk037|Stealth Rock|[from] move: Defog|[of] p1a: Silvally
+|move|p2a: Mudsdale|Earthquake|p1a: Silvally
+|-damage|p1a: Silvally|7/100
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Silvally|Parting Shot|p2a: Mudsdale
+|-unboost|p2a: Mudsdale|atk|1
+|-unboost|p2a: Mudsdale|spa|1
+
+|
+|switch|p1a: Jumpluff|Jumpluff, F|92/100|[from]move: Parting Shot
+|move|p2a: Mudsdale|Stealth Rock|p1a: Jumpluff
+|-sidestart|p1: Eusk037|move: Stealth Rock
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Rotom|Rotom-Frost|71/100
+|move|p1a: Jumpluff|Sleep Powder|p2a: Rotom
+|-status|p2a: Rotom|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|22
+
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Jumpluff|Swords Dance|p1a: Jumpluff
+|-boost|p1a: Jumpluff|atk|2
+|
+|upkeep
+|turn|23
+
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Jumpluff|Acrobatics|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|25/100 slp
+|
+|upkeep
+|turn|24
+
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Jumpluff|Acrobatics|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+
+|
+|switch|p2a: Haunter|Haunter, F|100/100
+|turn|25
+
+|
+|move|p2a: Haunter|Sludge Bomb|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|-damage|p2a: Haunter|91/100|[from] item: Life Orb
+|faint|p1a: Jumpluff
+|
+|upkeep
+
+|
+|switch|p1a: Liepard|Liepard, M|100/100
+|-damage|p1a: Liepard|88/100|[from] Stealth Rock
+|turn|26
+
+|
+|move|p1a: Liepard|Pursuit|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|upkeep
+
+|
+|switch|p2a: Mudsdale|Mudsdale, M|57/100
+|turn|27
+
+|
+|switch|p1a: Combusken|Combusken, F|100/100
+|-damage|p1a: Combusken|88/100|[from] Stealth Rock
+|move|p2a: Mudsdale|Earthquake|p1a: Combusken
+|-supereffective|p1a: Combusken
+|-damage|p1a: Combusken|0 fnt
+|faint|p1a: Combusken
+|
+|upkeep
+
+|
+|switch|p1a: Liepard|Liepard, M|88/100
+|-damage|p1a: Liepard|76/100|[from] Stealth Rock
+|turn|28
+
+|
+|move|p1a: Liepard|Sucker Punch|p2a: Mudsdale
+|-damage|p2a: Mudsdale|20/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-enditem|p2a: Mudsdale|Figy Berry|[eat]
+|-heal|p2a: Mudsdale|70/100|[from] item: Figy Berry
+|move|p2a: Mudsdale|Earthquake|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|upkeep
+
+|c|☆Eusk037|Gg
+
+|
+|switch|p1a: Silvally|Silvally-Dragon|7/100
+|-damage|p1a: Silvally|0 fnt|[from] Stealth Rock
+|faint|p1a: Silvally
+|
+|win|fagiolini

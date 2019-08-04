@@ -1,0 +1,200 @@
+|init|battle
+|title|Kieran5208 vs. Serp IV
+|j|☆Kieran5208
+|j|☆Serp IV
+|player|p1|Kieran5208|2|2235
+|player|p2|Serp IV|265|1990
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Heatmor|Heatmor, L89, M|100/100
+|switch|p2a: Dialga|Dialga, L78|100/100
+|-ability|p2a: Dialga|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Serp IV)
+|
+|move|p2a: Dialga|Stealth Rock|p1a: Heatmor
+|-sidestart|p1: Kieran5208|move: Stealth Rock
+|move|p1a: Heatmor|Focus Blast|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|12/100
+|
+|-heal|p2a: Dialga|18/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Dialga|Draco Meteor|p1a: Heatmor
+|-crit|p1a: Heatmor
+|-damage|p1a: Heatmor|0 fnt
+|-unboost|p2a: Dialga|spa|2
+|faint|p1a: Heatmor
+|
+|-heal|p2a: Dialga|24/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Kieran5208 has 120 seconds left.
+
+|
+|switch|p1a: Celebi|Celebi, L82|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|turn|3
+
+|inactive|Kieran5208 has 120 seconds left.
+
+|
+|switch|p2a: Gumshoos|Gumshoos, L89, M|100/100
+|move|p1a: Celebi|Earth Power|p2a: Gumshoos
+|-damage|p2a: Gumshoos|74/100
+|
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|Kieran5208 has 120 seconds left.
+
+|
+|switch|p1a: Aromatisse|Aromatisse, L87, M|100/100
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|move|p2a: Gumshoos|U-turn|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|72/100
+
+|
+|switch|p2a: Dialga|Dialga, L78|24/100|[from]move: U-turn
+|-ability|p2a: Dialga|Pressure
+|
+|-heal|p2a: Dialga|30/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Dialga|Flash Cannon|p1a: Aromatisse
+|-supereffective|p1a: Aromatisse
+|-damage|p1a: Aromatisse|18/100
+|move|p1a: Aromatisse|Moonblast|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|-heal|p1a: Aromatisse|24/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gumshoos|Gumshoos, L89, M|74/100
+|turn|6
+
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Gumshoos|Return|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Gumshoos|Return|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|upkeep
+
+|
+|switch|p1a: Magnezone|Magnezone, L80|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|turn|8
+
+|
+|switch|p2a: Hydreigon|Hydreigon, L82, M|100/100
+|move|p1a: Magnezone|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|77/100
+
+|
+|switch|p1a: Staraptor|Staraptor, L81, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Staraptor|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Gumshoos|Gumshoos, L89, M|74/100
+|move|p1a: Staraptor|Double-Edge|p2a: Gumshoos
+|-damage|p2a: Gumshoos|0 fnt
+|-damage|p1a: Staraptor|49/100|[from] Recoil
+|-damage|p1a: Staraptor|39/100|[from] item: Life Orb
+|faint|p2a: Gumshoos
+|
+|upkeep
+
+|
+|switch|p2a: Malamar|Malamar, L86, F|100/100
+|turn|10
+
+|
+|move|p1a: Staraptor|Double-Edge|p2a: Malamar
+|-damage|p2a: Malamar|22/100
+|-damage|p1a: Staraptor|11/100|[from] Recoil
+|-damage|p1a: Staraptor|1/100|[from] item: Life Orb
+|move|p2a: Malamar|Superpower|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Staraptor
+|
+|-heal|p2a: Malamar|28/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Kieran5208 has 120 seconds left.
+
+|
+|switch|p1a: Espeon|Espeon, L84, M|100/100
+|-damage|p1a: Espeon|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Espeon|Shadow Ball|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|-heal|p1a: Espeon|94/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gyarados|Gyarados, L80, M|100/100
+|turn|12
+
+|
+|switch|p1a: Celebi|Celebi, L82|94/100
+|-damage|p1a: Celebi|82/100|[from] Stealth Rock
+|detailschange|p2a: Gyarados|Gyarados-Mega, L80, M
+|-mega|p2a: Gyarados|Gyarados|Gyaradosite
+|-ability|p2a: Gyarados|Mold Breaker
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Gyarados|Crunch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+
+|-message|Kieran5208 forfeited.
+
+|
+|win|Serp IV
